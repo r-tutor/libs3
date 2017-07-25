@@ -1,0 +1,73 @@
+Kappa                   Inter-Rater Agreement
+MAd-package             Meta-Analysis with Mean Differences
+PubBias                 Assess for Publication Bias
+agg                     Aggregate Dependent Effect Sizes
+ancova_to_d1            ANCOVA F-statistic to d
+ancova_to_d2            ANCOVA F-statistic to d II
+atten                   Correction for Attenuation
+compute_dgs             Computes Vector of Standardized Mean
+                        Differences
+compute_ds              Computes Vector of Standardized Mean
+                        Differences
+compute_gs              Converts Vector of Standardized Mean
+                        Differences
+d_to_g                  Standardized Mean Difference (d) Statistic to
+                        Unbiased Standardized Mean Difference (g)
+dat.cooper15.3          Data from Table 15.3 in The Handbook for
+                        Research Synthesis and Meta-Analysis (Cooper et
+                        al., 2009)
+dat.cooperA2            Data from Table A2 in The Handbook for Research
+                        Synthesis and Meta-Analysis (Cooper et al.,
+                        2009)
+dat.hoyt                Subset of simulated data to demonstrate
+                        aggregation for dependent effect sizes
+dat.sim.es              Subset of simulated psychotherapy treatment
+                        studies (k=8) with dependent effect sizes
+dat.sim.final           Final aggregated dataset of simulated
+                        psychotherapy treatment studies (k=8)
+dat.sim.raw             Subset of simulated psychotherapy treatment
+                        studies (k=8) with means and SD
+dat.sim1                Simulated psychotherapy treatment studies for
+                        'outcome one'
+dat.sim2                Simulated psychotherapy treatment studies for
+                        'outcome two'
+f.ancova_to_d           ANCOVA F-statistic to Standardized Mean
+                        Difference (d)
+f_to_d                  F-test to Standardized Mean Difference (d)
+fail_to_d               Failure groups to Standardized Mean Difference
+                        (d)
+icc                     Intraclass correlation coefficient (ICC) for
+                        oneway and twoway models
+lor_to_d                Log Odds Ratio to Standardized Mean Difference
+                        (d)
+macat                   Categorical Moderator Analysis
+macatC                  Direct Categorical Moderator Comparison
+mareg                   Meta-Regression
+mean_to_d               Means to Standardized Mean Difference
+mean_to_d2              Means with Pooled SD to Standardized Mean
+                        Difference
+or_to_d                 Odds Ratio to Standardized Mean Difference (d)
+p.ancova_to_d1          One-tailed p-value from ANCOVA to Standardized
+                        Mean Difference (d)
+p.ancova_to_d2          Two-tailed p-value from ANCOVA to Standardized
+                        Mean Difference (d)
+p_to_d1                 One-tailed p-value to Standardized Mean
+                        Difference (d)
+p_to_d2                 Two-tailed p-value to Standardized Mean
+                        Difference (d)
+plotcat                 Categorical Moderator Graph
+plotcon                 Meta Regression Scatterplot
+r2                      Explained Variance
+r_from_chi              Chi-Squared to Correlation
+r_from_d                Correlation from Mean Difference
+r_from_d1               Correlation from Mean Difference II
+r_from_t                Correlation from t-test
+r_to_d                  Correlation (r) to Standardized Mean Difference
+                        (d)
+robustSE                Robust standard error
+t_to_d                  t-test Value to Standardized Mean Difference
+                        (d)
+tt.ancova_to_d          t-test Value from ANCOVA to Standardized Mean
+                        Difference (d)
+wd                      Output to Word in formatted tables
+wgts                    Weights added to Meta Data

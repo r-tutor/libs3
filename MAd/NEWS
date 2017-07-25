@@ -1,0 +1,37 @@
+==============================================================================
+Changes in MAd 0.8-2 (2014-12-23)
+==============================================================================
+
+Minor changes
+-------------
+
+    o Added new datasets and updated documentation
+
+==============================================================================
+Changes in MAd 0.8-1 (2014-02-03)
+==============================================================================
+
+Major changes
+-------------
+
+    o agg() now can (1) work with both pooled and control grp SD, 
+      (2) handle various correlations structures between within-study 
+      outcomes, including a fixed correlation and a correlation matrix to allow 
+      different correlations between outcome types, and (3) now includes 
+      several procedures for handling dependencies, including the Gleser and 
+      Olkin(1994) and Borenstein, et al (2009) procedures.
+      
+
+Minor changes
+-------------
+
+    o Several new data sets.
+
+    o Minor edits to a few functions.
+
+    o Documentation changed accordingly.
+
+
+
+
+
