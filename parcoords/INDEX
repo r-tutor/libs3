@@ -1,0 +1,3 @@
+parcoords               htmlwidget for d3.js parallel-coordinates
+parcoordsOutput         Widget output function for use in Shiny
+renderParcoords         Widget render function for use in Shiny
