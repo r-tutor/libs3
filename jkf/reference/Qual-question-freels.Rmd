@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+author: "Jason K Freels"
+date: "December 5, 2016"
+output: word_document
+---
+
+## Effect of Censored Observations on the Use of Mixed Designs in Meta-Learning Algorithms
+
+Machine learning techniques are used to make predictions based on some experience - which is typically in the form of data.  Data  obtained from engineered or biological systems often contain missing entries or entries for which the event of interest was not observed. These entries are known as censored observations.  Censoring results when an event of interest occurs:
+
+- Prior to the initial observation/inspection (left-censored)
+- Between observations/inspections (interval-censored)
+- After the final observation/inspection (right-censored)
+
+For this question, consider how the presence of censored observations might impact your research.  Assume only right censored observations/responses.
+
+a. In your research proposal you present a multiple-response simulation example for an ISR portfolio with three factors: 1) base option, 2) route option, and 3) sensor package.  Discuss how censoring might be injected into such a simulation for one or more of the responses
+
+b. For your proposed Paper 2, you intend to 'detail the use of mixed designs for a simulation model that allows for the comparison of designs and meta-models for multiple responses.  Suppose that 30\% of the observations in a fixed region of the design space were censored.  How would this change your approach to using mixed designs?

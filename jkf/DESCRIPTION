@@ -1,0 +1,18 @@
+Package: jkf
+Type: Package
+Title: Jason Freels' personal helper functions
+Version: 1.0
+Date: 2016-01-15
+Author: Jason K. Freels
+Maintainer: Jason K. Freels <jason.freels@afit.edu>
+Description: Reliability estimation functions and data sets for use with the
+    text "Statistical Methods for Reliability Data" Copyright 1998 by Meeker &
+    Escobar.
+License: GPL-2
+LazyData: true
+Depends: R (>= 3.1.0), graphics, stats
+Imports: devtools, shinyAce, shinythemes, shiny, git2r
+NeedsCompilation: no
+Archs: i386, x64
+RoxygenNote: 6.0.1
+Built: R 3.4.1; ; 2017-07-13 03:36:38 UTC; windows
