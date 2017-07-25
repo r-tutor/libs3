@@ -1,0 +1,22 @@
+Package: markdownapp
+Type: OpenCPU Application
+Title: Markdown Application for OpenCPU
+Version: 0.1
+Date: 2013-08-27
+Author: Jeroen Ooms
+Maintainer: Jeroen <jeroenooms@gmail.com>
+Description: OpenCPU App for markdown package
+License: Apache2
+Depends: knitr
+Suggests: opencpu (>= 1.0.1)
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: markdownapp
+RemoteUsername: opencpu
+RemoteRef: master
+RemoteSha: be9bc8a303b7ca984b4de0d384c37a6aa715d2fa
+GithubRepo: markdownapp
+GithubUsername: opencpu
+GithubRef: master
+GithubSHA1: be9bc8a303b7ca984b4de0d384c37a6aa715d2fa
+Built: R 3.1.1; ; 2014-10-30 18:19:28 UTC; windows
