@@ -1,9 +1,0 @@
-AL_Libs                 U.S. Public Library Data
-Base_Locations          Locations of CONUS USAF Bases
-alts_Libs               Distances From Public Libraries to USAF Bases
-base.distance           Calculate the distance from a US Air Force Base
-                        to a service
-baseData                Scrape and format data for US Public Libraries
-compressData            Compress library data files
-libsData                Build data sets for US Public Libraries
-mergeLibs               Megre state datasets together

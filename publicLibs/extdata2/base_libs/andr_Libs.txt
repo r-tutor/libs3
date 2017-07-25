@@ -1,2 +1,0 @@
-"location" "miles" "latitude" "longitude"
-"Guam Public Library System<br/>254 Martyr Street<br/>Agana, GA" 13.8480213651751 144.7536117 13.4757267
