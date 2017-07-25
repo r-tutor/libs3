@@ -12,6 +12,7 @@ library("compute.es")
 library("SCMA")
 library("SCRT")
 library("weightr")
+library("irr")
 
 shinyServer(function(input, output, session) {
 
@@ -316,8 +317,6 @@ data <- reactive({
 
 
 
-
-
   ################################################
   # FE & RE model result
   ################################################
@@ -550,6 +549,88 @@ output$rePlot <- renderPlot(
 
 
 
+####################################### NZ start
+
+cat2  <- reactive({
+
+     rawirrdat <- read.csv(text=input$text5, sep="\t")
+     irrdat <- rawirrdat[,3:dim(rawirrdat)[2]]
+     #percent agreement
+     agree(irrdat) -> agg2
+     
+     #kappa for two raters
+     kappa2(irrdat) -> kap2
+
+     list(agg2 = agg2, kap2 = kap2) # To be used later
+ })
+
+
+output$cat2.out <- renderPrint({
+  cat2()
+})
+
+cat3  <- reactive({
+  
+  rawirrdat <- read.csv(text=input$text6, sep="\t")
+  irrdat <- rawirrdat[,3:dim(rawirrdat)[2]]
+  
+  #percent agreement
+  agree(irrdat) -> agg3
+
+  #Kappa described by Fleiss (1971)
+  kappam.fleiss(irrdat) -> kap3Fleiss
+
+  #"Light's Kappa equals the average of all possible combinations of bivariate Kappas between raters."
+  kappam.light(irrdat) -> kap3Light
+  
+  list(agg3 = agg3, kap3Fleiss = kap3Fleiss, kap3Light = kap3Light) # To be used later
+})
+
+output$cat3.out <- renderPrint({
+  cat3()
+})
+
+
+cont2  <- reactive({
+  
+  rawirrdat <- read.csv(text=input$text7, sep="\t")
+  irrdat <- rawirrdat[,3:dim(rawirrdat)[2]]
+  
+  #correlation
+  meancor(irrdat) -> cor2
+
+  #intraclass correlation of raters
+  icc(irrdat) -> icc2
+
+  list(cor2 = cor2, icc2 = icc2) # To be used later
+})
+
+output$cont2.out <- renderPrint({
+  cont2()
+})
+
+cont3  <- reactive({
+  
+  rawirrdat <- read.csv(text=input$text8, sep="\t")
+  irrdat <- rawirrdat[,3:dim(rawirrdat)[2]]
+  
+  #correlation
+  meancor(irrdat) -> cor3
+  
+  #intraclass correlation of raters
+  icc(irrdat) -> icc3
+  
+  list(cor3 = cor3, icc3 = icc3) # To be used later
+})
+
+output$cont3.out <- renderPrint({
+  cont3()
+})
+
+######################################### NZ stop
+
+
+
 
 ################################################
 # Funnel plot removed trimfillplot UI input 
@@ -760,6 +841,65 @@ asy <- reactive({
 })
 
 ################################################
+# Weight-Function Model for Publication Bias
+# This uses the weightr package
+# https://CRAN.R-project.org/package=weightr
+################################################
+
+wfm <- reactive({
+  
+  dat <- read.csv(text=input$text, sep="\t")
+  
+  
+  if (input$type == "mdms") {
+    
+    steps <- c(as.numeric(input$steps),1.00)
+    
+    RE.res <- RE.est()$RE.res
+    
+    wfmodel <- weightfunct(effect = RE.res$yi, v = RE.res$vi, steps=steps)
+    
+    return(wfmodel)
+  }
+  
+  
+  else if (input$type == "mdes") {
+    steps <- c(as.numeric(input$steps),1.00)
+    RE.res <- RE.est()$RE.res
+    
+    wfmodel <- weightfunct(effect = RE.res$yi, v = RE.res$vi, steps=steps)
+    
+    return(wfmodel)
+    
+  }
+  
+  
+  else if (input$type == "cor") {
+    steps <- c(as.numeric(input$steps),1.00)
+    RE.res <- RE.est()$RE.res
+    
+    wfmodel <- weightfunct(effect = RE.res$yi, v = RE.res$vi, steps=steps)
+    
+    return(wfmodel)
+  }
+  
+  
+  else if (input$type == "or") {
+    steps <- c(as.numeric(input$steps),1.00)
+    RE.res <- RE.est()$RE.res
+    
+    wfmodel <- weightfunct(effect = RE.res$yi, v = RE.res$vi, steps=steps)
+    
+    return(wfmodel)
+  }
+})
+
+output$wfm.out <- renderPrint({
+  wfm()
+})
+
+
+################################################
 # Moderator analysis
 ################################################
 
@@ -883,8 +1023,6 @@ modAnalysis <- reactive({
     
   }
 })
-
-
 
 
 
@@ -1307,6 +1445,8 @@ info <- reactive({
   info9 <- paste("quantreg", packageVersion("quantreg"))
   info9a <- paste("SCMA", packageVersion("SCMA"))
   info9b <- paste("SCRT", packageVersion("SCRT"))
+  info9z <- paste("irr", packageVersion("irr"))
+  info9x <- paste("weightr", packageVersion("weightr"))
   info9c <- paste(" ")
   info9d <- paste("Packages used for the graphical user interface:")
   info10 <- paste("shiny", packageVersion("shiny"))
@@ -1328,6 +1468,8 @@ info <- reactive({
   cat(sprintf(info9), "\n")
   cat(sprintf(info9a), "\n")
   cat(sprintf(info9b), "\n")
+  cat(sprintf(info9z), "\n")
+  cat(sprintf(info9x), "\n")
   cat(sprintf(info9c), "\n")
   cat(sprintf(info9d), "\n")
   cat(sprintf(info10), "\n")
@@ -1339,6 +1481,8 @@ info <- reactive({
     }
   })
 })
+
+
 
 ################################################
 # R citation info
@@ -1356,6 +1500,8 @@ info <- reactive({
 #   cite9 <- paste("quantreg", citation("quantreg"))
 #   cite10 <- paste("shiny", citation("shiny"))
 #   cite11 <- paste("shinyAce", citation("shinyAce"))
+#   cite12 <- paste("irr", citation("irr"))
+
 #   
 #   cat(sprintf(cite1), "\n")
 #   cat(sprintf(cite2), "\n")
@@ -1368,6 +1514,7 @@ info <- reactive({
 #   cat(sprintf(cite9), "\n")
 #   cat(sprintf(cite10), "\n")
 #   cat(sprintf(cite11), "\n")
+#   cat(sprintf(cite12), "\n")
 # })
 
 ################################################
@@ -1511,3 +1658,6 @@ output$downloadFunRandPlot <- downloadHandler(
 # That's my Indy and my Ari, they're my cats
 # Whenever I'm trying to work on this at night
 # They fight for lap space and purrr -Kyle
+
+
+

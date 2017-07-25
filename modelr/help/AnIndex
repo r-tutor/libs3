@@ -17,10 +17,13 @@ mae	model-quality
 model-quality	model-quality
 model_matrix	model_matrix
 na.warn	na.warn
+permute	permute
+permute_	permute
 qae	model-quality
 resample	resample
 resample_bootstrap	resample_bootstrap
 resample_partition	resample_partition
+resample_permutation	resample_permutation
 rmse	model-quality
 rsquare	model-quality
 seq_range	seq_range

@@ -12,7 +12,9 @@ library("compute.es")
 library("SCMA")
 library("SCRT")
 library("weightr")
-shinyUI(navbarPage(title=div(img(src="http://kylehamilton.com/wp-content/uploads/2015/04/mavis1a-e1430059956805.png")), windowTitle="MAVIS v1.1.2",
+library("irr")
+
+shinyUI(navbarPage(title=div(img(src="http://kylehamilton.com/wp-content/uploads/2015/04/mavis1a-e1430059956805.png")), windowTitle="MAVIS v1.1.3",
 #shinyUI(navbarPage("MAVIS: Meta Analysis Via Shiny v1.0.4", windowTitle="MAVIS v1.0.4",
 # If I want to add a theme here is how to do it
 # shinyUI(navbarPage(theme = shinytheme("flatly"),"MAVIS: Meta Analysis Via Shiny v1.0.3",
@@ -20,6 +22,7 @@ shinyUI(navbarPage(title=div(img(src="http://kylehamilton.com/wp-content/uploads
                sidebarPanel(
                  
                  radioButtons("type", strong("Data Analysis and Input Options:"),
+
           list("Mean Differences (n, M, SD)" = "mdms",
                "Mean Differences (n, Effect size d)" = "mdes",
                "Correlations (n, r)" = "cor",
@@ -30,6 +33,7 @@ shinyUI(navbarPage(title=div(img(src="http://kylehamilton.com/wp-content/uploads
        "right", trigger = "click", options = list(container = "body")),
                  helpText("See Dichotomous Model Options, default is set to log odds ratio"),
                  checkboxInput("moderator", label = ("The data contains a categorical moderator (subgroup) variable."), value = T),
+                 #checkboxInput("interactiveplot", label = ("View interactive funnel plots"), value = T),
                  br(),
                  submitButton("Update View"),
                  helpText("Click here to update your results, you need to do this after you change the data, model, or any of the settings"),
@@ -57,10 +61,10 @@ Morledge et al (2013)\tINTERNET\t184\t3.86\t0.82\t184\t3.65\t0.89
 Muto et al (2011)\tBOOK\t30\t44.3\t6.67\t31\t43.48\t8.63
 Thorsell et al (2011)\tBOOK\t52\t62.3\t20.91\t38\t50\t19.11", mode="r", theme="monokai"),
      h6("Data for this example is from the following study.", align = "right"),
-     h6("Cavanagh, K., Strauss, C., Forder, L., & Jones, F. (2014). Can mindfulness and acceptance be learnt by self-help?: A systematic review and meta-analysis of mindfulness and acceptance-based self-help interventions. Clinical Psychology Review", align = "right"),
+     h6("Cavanagh, K., Strauss, C., Forder, L., & Jones, F. (2014). Can mindfulness and acceptance be learnt by self-help ?: A systematic review and meta-analysis of mindfulness and acceptance-based self-help interventions. Clinical Psychology Review", align = "right"),
      
                br(),
-
+               #withMathJax(),
                h3("Effect size and sampling variance"),
 
                verbatimTextOutput("data.out"),
@@ -77,7 +81,7 @@ Thorsell et al (2011)\tBOOK\t52\t62.3\t20.91\t38\t50\t19.11", mode="r", theme="m
 
                p('[Criteria for checking heterogeneity]',
                  br(),
-                 br(),
+                 
                  'I^2 (How much effect sizes across studies differ)', br(),
                  "25-50: Little different", br(),
                  '50-75: Quite different', br(),
@@ -118,13 +122,47 @@ Thorsell et al (2011)\tBOOK\t52\t62.3\t20.91\t38\t50\t19.11", mode="r", theme="m
                plotOutput("FunRandPlot"),
                p('Open circles (if any) on the right side show missing NULL studies estimated with the trim-and-fill method, added in the funnel plot.'),
                br(),
+              
                br(),
+     
                h3("Publication Bias"),
                verbatimTextOutput("asy.out"), # regression tests for funnel plot asymmetry
                p('Fail-safe N is the number of nonsignificant studies necessary to make the result nonsignificant. "When the fail-safe N is high, that is interpreted to mean that even a large number of nonsignificant studies may not influence the statistical significance of meta-analytic results too greatly."',
-                 a('(Oswald & Plonsky, 2010, p. 92)', href='http://dx.doi.org/10.1017/S0267190510000115', target="_blank"), '.'),
+                 a('(Oswald & Plonsky, 2010)', href='http://dx.doi.org/10.1017/S0267190510000115', target="_blank"), '.'),
                br(),
-
+               h3("Weight-Function Model for Publication Bias"),
+               p('The p-value cut points can be changed in the Weight-Function Model settings'),
+               verbatimTextOutput("wfm.out"), # weightr output
+               p('If the p-value for the likelihood ratio test is significant then there may be evidence of publication bias',
+               a('(Vevea & Hedges, 1995)', href='http://dx.doi.org/10.1007/BF02294384', target="_blank"), '.'),
+     # selectizeInput(inputId = "steps", label="Select at least one p-value cutpoint to include in your model. To include a cutpoint not provided, type it in and press enter.", 
+     #                choices=c(0.001,
+     #                          0.005,
+     #                          0.010,
+     #                          0.020,
+     #                          0.025,
+     #                          0.050,
+     #                          0.100,
+     #                          0.200,
+     #                          0.250,
+     #                          0.300,
+     #                          0.350,
+     #                          0.500,
+     #                          0.600,
+     #                          0.650,
+     #                          0.700,
+     #                          0.750,
+     #                          0.800,
+     #                          0.900,
+     #                          0.950,
+     #                          0.975,
+     #                          0.980,
+     #                          0.990,
+     #                          0.995,
+     #                          0.999),
+     #                multiple=TRUE,
+     #                selected=c(0.025), options=list(create=TRUE,openOnFocus=TRUE)),p(),
+               br(),
                br(),
 
                # Display this only if "moderator" is checked
@@ -243,6 +281,48 @@ Wilson-1994\t241\t0.012\tboys", mode="r", theme="monokai"),
 
       ),
 
+	  
+#########################NZ start
+	        tabPanel("Inter-rater reliability", icon = icon("bullseye", lib = "font-awesome"),
+
+               p('Note: Input values must be separated by tabs. Copy and paste from Excel.'),
+
+               p("Your data needs to have exactly the same header (variable names) in the first row."),
+               
+               br(),
+                                                                                                                                                                                                                                                                                                                 
+               p(strong("IRR (categorical with two raters)")),
+               aceEditor("text5", value="Study\tModerator\tRater 1\tRater 2\nStudy 01\tACT\t1\t1\nStudy 02\tACT\t3\t1\nStudy 03\tACT\t1\t1\nStudy 04\tACT\t1\t1\nStudy 05\tACT\t1\t1\nStudy 06\tACT\t2\t2\nStudy 07\tACT\t2\t2\nStudy 08\tACT\t1\t1\nStudy 09\tACT\t4\t4\nStudy 10\tACT\t1\t1\nStudy 11\tACT\t1\t1\nStudy 12\tACT\t1\t9\nStudy 13\tACT\t1\t1\nStudy 14\tACT\t1\t1\nStudy 15\tACT\t1\t1\nStudy 16\tACT\t1\t1", mode="r", theme="monokai"),
+               
+               verbatimTextOutput("cat2.out"),
+               
+               br(),
+               br(),
+               p(strong("IRR (categorical with three or more raters)")),
+               aceEditor("text6", value="Study\tModerator\tRater 1\tRater 2\tRater 3\nStudy 01\tACT\t1\t1\t1\nStudy 02\tACT\t3\t1\t3\nStudy 03\tACT\t1\t1\t1\nStudy 04\tACT\t1\t1\t3\nStudy 05\tACT\t1\t1\t1\nStudy 06\tACT\t2\t2\t2\nStudy 07\tACT\t2\t2\t2\nStudy 08\tACT\t1\t1\t1\nStudy 09\tACT\t4\t4\t4\nStudy 10\tACT\t1\t1\t1\nStudy 11\tACT\t1\t1\t1\nStudy 12\tACT\t1\t9\t4\nStudy 13\tACT\t1\t1\t1\nStudy 14\tACT\t1\t1\t1\nStudy 15\tACT\t1\t1\t1\nStudy 16\tACT\t1\t1\t1", mode="r", theme="monokai"),
+                
+               verbatimTextOutput("cat3.out"),
+               
+                                                                                                                                                      
+               br(),
+               p(strong("IRR (continuous with two raters)")),
+               aceEditor("text7", value="Study\tModerator\tRater 1\tRater 2\nStudy 01\tPF\t0\t.667\nStudy 02\tPF\t.667\t.667\nStudy 03\tPF\t0\t0\nStudy 04\tPF\t0\t0\nStudy 05\tPF\t.6\t.6\nStudy 06\tPF\t.333\t.333\nStudy 07\tPF\t1\t1\nStudy 08\tPF\t0\t0\nStudy 09\tPF\t0\t0\nStudy 10\tPF\t.444\t.269\nStudy 11\tPF\t.667\t.667\nStudy 12\tPF\t.667\t.667\nStudy 13\tPF\t.6\t.6\nStudy 14\tPF\t.667\t.667\nStudy 15\tPF\t0\t0\nStudy 16\tPF\t.566\t.566", mode="r", theme="monokai"),
+
+               verbatimTextOutput("cont2.out"),
+               
+               
+               br(),
+               p(strong("IRR (continuous with three or more raters)")),
+               aceEditor("text8", value="Study\tModerator\tRater 1\tRater 2\tRater 3\nStudy 01\tPF\t0\t.667\t1\nStudy 02\tPF\t.667\t.667\t.667\nStudy 03\tPF\t0\t0\t0\nStudy 04\tPF\t0\t0\t0\nStudy 05\tPF\t.6\t.6\t.6\nStudy 06\tPF\t.333\t.333\t0\nStudy 07\tPF\t1\t1\t1\nStudy 08\tPF\t0\t0\t0\nStudy 09\tPF\t0\t0\t0\nStudy 10\tPF\t.444\t.269\t.269\nStudy 11\tPF\t.667\t.667\t.667\nStudy 12\tPF\t.667\t.667\t.667\nStudy 13\tPF\t.6\t.6\t.6\nStudy 14\tPF\t.667\t.667\t.667\nStudy 15\tPF\t0\t0\t0\nStudy 16\tPF\t.566\t.566\t.566", mode="r", theme="monokai"),
+               
+               verbatimTextOutput("cont3.out"),
+               
+               br()
+
+      ),
+	  
+#########################NZ stop
+	  
 navbarMenu("Model Options and Settings", icon = icon("cog", lib = "font-awesome"),
 #   tabPanel("Bayesian Model Options", icon = icon("tasks", lib = "font-awesome"),
 #            
@@ -366,7 +446,48 @@ verticalLayout(
 )
 
 ),
-      
+      tabPanel("Weight-Function Model", icon = icon("chevron-right", lib = "font-awesome"),
+               p(strong("Weight-Function Model Options")),
+               p("Select at least one p-value cutpoint to include in your model. To include a cutpoint not provided, type it in and press enter."),
+               p("For a more advanced options with this model see the authors shiny app at https://vevealab.shinyapps.io/WeightFunctionModel/"),
+                selectizeInput(inputId = "steps", label="", 
+                              choices=c(0.001,
+                                        0.005,
+                                        0.010,
+                                        0.020,
+                                        0.025,
+                                        0.050,
+                                        0.100,
+                                        0.200,
+                                        0.250,
+                                        0.300,
+                                        0.350,
+                                        0.500,
+                                        0.600,
+                                        0.650,
+                                        0.700,
+                                        0.750,
+                                        0.800,
+                                        0.900,
+                                        0.950,
+                                        0.975,
+                                        0.980,
+                                        0.990,
+                                        0.995,
+                                        0.999),
+                              multiple=TRUE,
+                              selected=c(0.025), options=list(create=TRUE,openOnFocus=TRUE)
+                              ),
+               h4("References"),
+               p("Coburn, K. M. & Vevea, J. L. (2015). Publication bias as a function of study characteristics. Psychological Methods, 20(3), 310."),
+               p("Vevea, J. L. & Hedges, L. V. (1995). A general linear model for estimating effect size in the presence of publication bias. Psychometrika, 60(3), 419-435."),
+               p("Vevea, J. L. & Woods, C. M. (2005). Publication bias in research synthesis: Sensitivity analysis using a priori weight functions. Psychological Methods, 10(4), 428-443."),
+               p("Coburn, K. M. & Vevea, J. L. (2017). weightr: Estimating Weight-Function Models for Publication Bias. R package version 1.1.2.
+  https://CRAN.R-project.org/package=weightr"),
+               br()
+               
+               ),
+               
       tabPanel("File Drawer Analysis", icon = icon("chevron-right", lib = "font-awesome"),
                
                radioButtons("filedraweranalysis", strong("File Drawer Analysis"),
@@ -874,8 +995,8 @@ p("MAVIS was designed from the beginning to help users run a meta-analysis as ef
   MAVIS a positive user experience with an easy to use interface along with the power of R to provide 
   the best possible user experience."),
 br(),
-strong("MAVIS Version 1.1.2"),
-p("Last Updated June 21th 2016"),
+strong("MAVIS Version 1.1.3"),
+p("Last Updated July 7th 2017"),
 p("Number of monthly downloads from CRAN"),
 img(src = "http://cranlogs.r-pkg.org/badges/MAVIS", seamless=NA),
 
@@ -921,6 +1042,11 @@ strong('Contributors'),
 HTML('<div style="clear: left;"><img src="http://kylehamilton.com/wp-content/uploads/2015/04/katie80.png" alt="" style="float: left; margin-right:5px" /></div>'),
 p(a("Kathleen Coburn - University of California, Merced", href="http://psychology.ucmerced.edu/content/kathleen-coburn", target="_blank"),br(),
   p("Kathleen Coburn contributed technical advice on how to run a meta-analysis as well as information on publication bias.")
+),
+br(),
+HTML('<div style="clear: left;"><img src="http://kylehamilton.com/wp-content/uploads/2014/11/nicole80.png" alt="" style="float: left; margin-right:5px" /></div>'),
+p(a("Nicole Zelinsky - University of California, Merced", href="http://psychology.ucmerced.edu/content/nicole-zelinsky", target="_blank"),br(),
+  p("Nicole Zelinsky contributed the inter rater reliability module.")
 ),
 br()
            ),

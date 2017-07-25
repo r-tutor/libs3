@@ -5,13 +5,13 @@
 <link rel="stylesheet" type="text/css" href="R.css" />
 </head><body>
 <h1> Network Analysis and Visualization
-<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]" />
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
 </h1>
 <hr/>
 <div style="text-align: center;">
 <a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
 <a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
-</div><h2>Documentation for package &lsquo;igraph&rsquo; version 1.0.1</h2>
+</div><h2>Documentation for package &lsquo;igraph&rsquo; version 1.1.2</h2>
 
 <ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
 <li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
@@ -50,6 +50,8 @@
 <table width="100%">
 <tr><td style="width: 25%;"><a href="aaa-igraph-package.html">igraph-package</a></td>
 <td>The igraph package</td></tr>
+<tr><td style="width: 25%;"><a href="printr.html">printr-package</a></td>
+<td>Better printing of R packages</td></tr>
 </table>
 
 <h2><a name="A">-- A --</a></h2>
@@ -829,6 +831,8 @@
 <td>Creating a graph from LCF notation</td></tr>
 <tr><td style="width: 25%;"><a href="graph_from_literal.html">graph_from_literal</a></td>
 <td>Creating (small) graphs via a simple interface</td></tr>
+<tr><td style="width: 25%;"><a href="graph_id.html">graph_id</a></td>
+<td>Get the id of a graph</td></tr>
 <tr><td style="width: 25%;"><a href="graph_version.html">graph_version</a></td>
 <td>Igraph data structure versions</td></tr>
 <tr><td style="width: 25%;"><a href="sample_grg.html">grg</a></td>
@@ -856,6 +860,8 @@
 <td>Find the multiple or loop edges in a graph</td></tr>
 <tr><td style="width: 25%;"><a href="head_of.html">head_of</a></td>
 <td>Head of the edge(s) in a graph</td></tr>
+<tr><td style="width: 25%;"><a href="head_print.html">head_print</a></td>
+<td>Print the only the head of an R object</td></tr>
 <tr><td style="width: 25%;"><a href="sample_hierarchical_sbm.html">hierarchical_sbm</a></td>
 <td>Sample the hierarchical stochastic block model</td></tr>
 <tr><td style="width: 25%;"><a href="cohesive_blocks.html">hierarchy</a></td>
@@ -961,6 +967,8 @@
 <td>Incident edges of a vertex in a graph</td></tr>
 <tr><td style="width: 25%;"><a href="incident_edges.html">incident_edges</a></td>
 <td>Incident edges of multiple vertices in a graph</td></tr>
+<tr><td style="width: 25%;"><a href="indent_print.html">indent_print</a></td>
+<td>Indent a printout</td></tr>
 <tr><td style="width: 25%;"><a href="ivs.html">independence.number</a></td>
 <td>Independent vertex sets</td></tr>
 <tr><td style="width: 25%;"><a href="ivs.html">independent.vertex.sets</a></td>
@@ -1055,6 +1063,8 @@
 <td>Minumal vertex separators</td></tr>
 <tr><td style="width: 25%;"><a href="is_named.html">is_named</a></td>
 <td>Named graphs</td></tr>
+<tr><td style="width: 25%;"><a href="is_printer_callback.html">is_printer_callback</a></td>
+<td>Is this a printer callback?</td></tr>
 <tr><td style="width: 25%;"><a href="is_separator.html">is_separator</a></td>
 <td>Vertex separators</td></tr>
 <tr><td style="width: 25%;"><a href="simplify.html">is_simple</a></td>
@@ -1449,6 +1459,12 @@
 <td>Query and download from the Nexus network repository</td></tr>
 <tr><td style="width: 25%;"><a href="nexus.html">print.nexusDatasetInfoList</a></td>
 <td>Query and download from the Nexus network repository</td></tr>
+<tr><td style="width: 25%;"><a href="printer_callback.html">printer_callback</a></td>
+<td>Create a printer callback function</td></tr>
+<tr><td style="width: 25%;"><a href="printr.html">printr</a></td>
+<td>Better printing of R packages</td></tr>
+<tr><td style="width: 25%;"><a href="print.igraph.html">print_all</a></td>
+<td>Print graphs to the terminal</td></tr>
 </table>
 
 <h2><a name="Q">-- Q --</a></h2>
@@ -1862,6 +1878,8 @@
 <td>The graphopt layout algorithm</td></tr>
 <tr><td style="width: 25%;"><a href="with_graph_.html">with_graph_</a></td>
 <td>Constructor modifier to add graph attributes</td></tr>
+<tr><td style="width: 25%;"><a href="with_igraph_opt.html">with_igraph_opt</a></td>
+<td>Run code with a temporary igraph options setting</td></tr>
 <tr><td style="width: 25%;"><a href="layout_with_kk.html">with_kk</a></td>
 <td>The Kamada-Kawai layout algorithm</td></tr>
 <tr><td style="width: 25%;"><a href="layout_with_lgl.html">with_lgl</a></td>

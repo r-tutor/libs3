@@ -132,7 +132,7 @@ edge_attr<-             Set one or more edge attributes
 edge_attr_names         List names of edge attributes
 edge_connectivity       Edge connectivity.
 edge_density            Graph density
-ego                     Neighborhood of graph vertices
+ego_size                Neighborhood of graph vertices
 eigen_centrality        Find Eigenvector Centrality Scores of Network
                         Positions
 embed_adjacency_matrix
@@ -175,11 +175,13 @@ graph_from_isomorphism_class
                         Create a graph from an isomorphism class
 graph_from_lcf          Creating a graph from LCF notation
 graph_from_literal      Creating (small) graphs via a simple interface
+graph_id                Get the id of a graph
 graph_version           Igraph data structure versions
 graphlet_basis          Graphlet decomposition of a graph
 groups                  Groups of a vertex partitioning
 gsize                   The size of the graph (number of edges)
 head_of                 Head of the edge(s) in a graph
+head_print              Print the only the head of an R object
 hrg                     Create a hierarchical random graph from an
                         igraph graph
 hrg-methods             Hierarchical random graphs
@@ -208,6 +210,7 @@ igraph_test             Run package tests
 igraph_version          Query igraph's version string
 incident                Incident edges of a vertex in a graph
 incident_edges          Incident edges of multiple vertices in a graph
+indent_print            Indent a printout
 intersection            Intersection of two or more sets
 intersection.igraph     Intersection of graphs
 intersection.igraph.es
@@ -225,6 +228,7 @@ is_igraph               Is this object an igraph graph?
 is_matching             Graph matching
 is_min_separator        Minumal vertex separators
 is_named                Named graphs
+is_printer_callback     Is this a printer callback?
 is_separator            Vertex separators
 is_weighted             Weighted graphs
 isomorphic              Decide if two graphs are isomorphic
@@ -325,6 +329,8 @@ print.igraphHRGConsensus
 print.nexusDatasetInfo
                         Query and download from the Nexus network
                         repository
+printer_callback        Create a printer callback function
+printr                  Better printing of R packages
 r_pal                   The default R palette
 radius                  Radius of a graph
 random_walk             Random walk on a graph
@@ -443,6 +449,8 @@ which_multiple          Find the multiple or loop edges in a graph
 which_mutual            Find mutual edges in a directed graph
 with_edge_              Constructor modifier to add edge attributes
 with_graph_             Constructor modifier to add graph attributes
+with_igraph_opt         Run code with a temporary igraph options
+                        setting
 with_vertex_            Constructor modifier to add vertex attributes
 without_attr            Construtor modifier to remove all attributes
                         from a graph

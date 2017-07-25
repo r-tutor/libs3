@@ -1,4 +1,5 @@
 igraph-package	aaa-igraph-package
+printr-package	printr
 $.igraph	igraph-dollar
 $.igraph.es	igraph-es-attributes
 $.igraph.vs	igraph-vs-attributes
@@ -389,6 +390,7 @@ graph_from_incidence_matrix	graph_from_incidence_matrix
 graph_from_isomorphism_class	graph_from_isomorphism_class
 graph_from_lcf	graph_from_lcf
 graph_from_literal	graph_from_literal
+graph_id	graph_id
 graph_version	graph_version
 grg	sample_grg
 grg.game	sample_grg
@@ -400,6 +402,7 @@ growing.random.game	sample_growing
 gsize	gsize
 has.multiple	which_multiple
 head_of	head_of
+head_print	head_print
 hierarchical_sbm	sample_hierarchical_sbm
 hierarchy	cohesive_blocks
 hrg	hrg
@@ -450,6 +453,7 @@ igraph_test	igraph_test
 igraph_version	igraph_version
 incident	incident
 incident_edges	incident_edges
+indent_print	indent_print
 independence.number	ivs
 independent.vertex.sets	ivs
 induced.subgraph	subgraph
@@ -497,6 +501,7 @@ is_matching	matching
 is_max_matching	matching
 is_min_separator	is_min_separator
 is_named	is_named
+is_printer_callback	is_printer_callback
 is_separator	is_separator
 is_simple	simplify
 is_subgraph_isomorphic_to	subgraph_isomorphic
@@ -679,6 +684,9 @@ print.igraph_layout_modifier	layout_
 print.igraph_layout_spec	layout_
 print.nexusDatasetInfo	nexus
 print.nexusDatasetInfoList	nexus
+printer_callback	printer_callback
+printr	printr
+print_all	print.igraph
 quantile.sir	sir
 radius	radius
 random.graph.game	erdos.renyi.game
@@ -868,6 +876,7 @@ with_fr	layout_with_fr
 with_gem	layout_with_gem
 with_graphopt	layout_with_graphopt
 with_graph_	with_graph_
+with_igraph_opt	with_igraph_opt
 with_kk	layout_with_kk
 with_lgl	layout_with_lgl
 with_mds	layout_with_mds
