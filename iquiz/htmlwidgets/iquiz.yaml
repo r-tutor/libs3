@@ -1,0 +1,15 @@
+dependencies:
+- name: quiz
+  version: 0.5.0
+  src: htmlwidgets/lib/quiz-0.5.0
+  script: 
+    - js/jquery.quiz.js
+    - js/mustache.min.js
+    - js/quiz-app.js
+  stylesheet: css/demo.css
+- name: bootstrap
+  version: 3.0.0
+  src: htmlwidgets/lib/bootstrap-3.0.0
+  script: js/bootstrap.js
+  stylesheet: css/bootstrap.css
+  
