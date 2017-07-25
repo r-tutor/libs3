@@ -1,0 +1,5 @@
+%>>%                    Pipe an object forward
+Pipe                    Create a Pipe object that stores a value and
+                        allows command chaining with '$'.
+pipeR-package           The pipeR package
+pipeline                Evaluate an expression pipeline

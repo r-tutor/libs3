@@ -1,0 +1,129 @@
+Version 0.6
+===
+* New features
+  * Add `pipeline` function to support expression-based pipeline evaluation. (#60)
+  * Piping to string now `cat` the string in the console. (#61)
+  * Question mark now supports binary operation `("message" ? expression)` in which
+    `expression` is evaluated while `"message"` is printed ahead of its value. (#62)
+* Improvements
+  * `<<-` and `->>` now correctly performs global assignment in enclosed expression in
+    a pipeline. (#65)
+
+Version 0.5
+===
+Remove deprecated operators (%:>% and %|>%), deprecated closure fun() in Pipe object, and deprecated `->` to build lambda expression.
+Support assignment in () with `<-` and `->`.
+Improve the implementation of functions.
+Fix bugs.
+
+Version 0.4-3
+===
+Add syntax for assignment: Side effect with a symbol
+Update documentation.
+Fix bugs for Pipe object
+
+Version 0.4-2
+===
+Deprecate fun() in Pipe object, use .() instead.
+Deprecate lambda expression like (x -> expr), use (x ~ expr) instead.
+Add side-effect piping
+Add question piping
+Add subsetting, extracting, assigning to Pipe object
+Resolve compatibility issues with data.table (#28)
+Resolve evaluation environment issues (#20, #34)
+
+Version 0.4-1
+===
+Add element extraction syntax
+Improve Pipe function
+Refine vignettes and documentation
+
+
+Version 0.4
+===
+MAJOR API BREAK: %>>% operator handles all pipeline mechanisms (see README) and other operators are deprecated.
+Add Pipe object that supports object-based pipeline operation.
+
+
+Version 0.3-3
+===
+Resolve issue #16 so that call-using functions will not get the piped object.
+
+
+Version 0.3-2
+===
+Add vignettes
+Minor improvements
+
+
+Version 0.3-1
+===
+Minor implementation improvements
+
+
+
+Version 0.3
+===
+Major operator change
+
+To avoid naming conflict with magrittr package (issue #12), the first-argument pipe operator is changed to `%>>%` and free pipe operator with dot is changed to `%:>%`. Now the three operators are:
+
+First-argument piping: `%>>%`
+Free piping: `%:>%`
+Lambda piping: `%|>%`
+
+Now this package can perfectly coexist with magritter and dplyr but is not backward compatible with previous code if old operators are used, please notify the potential issues and upgrade to the new set of operators if possible.
+
+
+Version 0.2-4
+===
+Refined to adapt to CRAN standards.
+
+
+
+Version 0.2-3
+===
+Minor changes to function descriptions
+
+
+
+Version 0.2-2
+===
+This is a major refine of code for better compatibility.
+
+Resolved issue #9 and #5.
+
+Now the code is highly compatible with functions that have ... as an argument.
+
+
+
+Version 0.2-1
+===
+This version is not compatible with v0.2 due to the switch of lambda expression symbol from `->` to `~`.
+
+The reason is that using ~ directly refers to formula object that is more well defined and usable in this case, which does not diminish any feature in v0.2 but allows lambda expressions to store in symbols.
+
+
+
+
+Version 0.2
+===
+1. Add lambda piping `%|>%`
+```
+mtcars %|>%
+  (df -> lm(mpg ~ ., data=df))
+```
+2. `%>>%` no longer allows naked function calling
+```
+rnorm(100,10,1) %>>% log %>>% diff
+```
+is no longer allowed. You should always use `%>%` to call by function name like
+```
+rnorm(100,10,1) %>% log %>% diff
+```
+
+
+
+Version 0.1
+===
+Initial release
