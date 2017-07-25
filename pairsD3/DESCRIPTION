@@ -1,0 +1,25 @@
+Package: pairsD3
+Title: D3 Scatterplot Matrices
+Version: 0.1.1
+Authors@R: person("Garth", "Tarr", , "garth.tarr@gmail.com", role = c("aut", "cre"))
+Description: Creates an interactive scatterplot matrix using the D3 JavaScript library. See <http://d3js.org/> for more information on D3.
+Depends: R (>= 3.1.2)
+License: GPL (>= 3)
+Date: 2015-04-28
+URL: http://github.com/garthtarr/pairsD3/
+LazyData: true
+Imports: htmlwidgets (>= 0.3.2), shiny
+Suggests: knitr
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: pairsD3
+RemoteUsername: garthtarr
+RemoteRef: master
+RemoteSha: 34a89d7ac5fce9796fd913777584fb351b6562fd
+GithubRepo: pairsD3
+GithubUsername: garthtarr
+GithubRef: master
+GithubSHA1: 34a89d7ac5fce9796fd913777584fb351b6562fd
+Author: Garth Tarr [aut, cre]
+Maintainer: Garth Tarr <garth.tarr@gmail.com>
+Built: R 3.2.2; ; 2015-11-13 17:46:01 UTC; windows
