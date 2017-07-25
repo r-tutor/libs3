@@ -1,0 +1,20 @@
+agg_curve               Aggregate Learning Curve
+ca_block                Wright's Cumulative Average Learning Curve
+                        Function
+ca_unit                 Wright's Cumulative Average Unit Learning Curve
+                        Function
+cum_error               Approximate Prediction Error
+delta                   Crawford vs. Wright Unit Difference
+lc_rate                 Learning Rate Converter
+lc_rate_est             Learning Rate Estimate
+natural_slope           Natural Slope Rate Converter
+natural_slope_est       Natural Slope Estimate
+plot_block_summary      Block Summary Plot
+plot_delta              Crawford vs. Wright Delta Plot
+plot_unit_curve         Learning Curve Plot
+unit_block_summary      Block Summary Function
+unit_cum_appx           Approximate Cumulative Unit Learning Curve
+                        Function
+unit_cum_exact          Exact Cumulative Unit Learning Curve Function
+unit_curve              Crawford's Unit Learning Curve Function
+unit_midpoint           Midpoint Unit Function
