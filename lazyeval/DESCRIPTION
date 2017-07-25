@@ -1,0 +1,31 @@
+Package: lazyeval
+Version: 0.2.0.9000
+Title: Lazy (Non-Standard) Evaluation
+Description: An alternative approach to non-standard evaluation using
+    formulas. Provides a full implementation of LISP style 'quasiquotation',
+    making it easier to generate code with other code.
+Authors@R: c(
+    person("Hadley", "Wickham", ,"hadley@rstudio.com", c("aut", "cre")),
+    person("RStudio", role = "cph")
+    )
+License: GPL-3
+LazyData: true
+Depends: R (>= 3.1.0)
+Suggests: knitr, rmarkdown (>= 0.2.65), testthat, covr
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+Author: Hadley Wickham [aut, cre],
+  RStudio [cph]
+Maintainer: Hadley Wickham <hadley@rstudio.com>
+Built: R 3.3.2; x86_64-w64-mingw32; 2017-02-07 16:08:12 UTC; windows
+Archs: i386, x64
+RemoteType: github
+RemoteHost: https://api.github.com
+RemoteRepo: lazyeval
+RemoteUsername: hadley
+RemoteRef: master
+RemoteSha: c155c3d534072ca58bcb5fe22ab185e3e4098c73
+GithubRepo: lazyeval
+GithubUsername: hadley
+GithubRef: master
+GithubSHA1: c155c3d534072ca58bcb5fe22ab185e3e4098c73
