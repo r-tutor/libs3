@@ -1,0 +1,155 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Alderson Public Library" "308 Walnut Ave." "Alderson" "WV" "24910" -80.6386603 37.7277603
+"Ansted Public Library" "102 Oak St." "Ansted" "WV" "25812" -81.0973863 38.1352099
+"Hannan Public Library" "6760 Ashton Upland Rd." "Ashton" "WV" "25503" -82.0726623 38.5681809
+"Barboursville Public Library" "728 Main St." "Barboursville" "WV" "25504" -82.294245 38.409084
+"Raleigh County Public Library" "221 N. Kanawha St." "Beckley" "WV" "25801" -81.1873407 37.7796484
+"Belington Public Library" "512 Elliott Ave." "Belington" "WV" "26250" -79.9370619 39.0198489
+"Riverside Public Library" "1 Warrior Way, Suite 104" "Belle" "WV" "25015" -81.512694 38.207217
+"Morgan County Public Library" "105 Congress St." "Berkeley Springs" "WV" "25411" -78.226709 39.6278754
+"Elk Valley Branch Library" "4636 Pennsylvania Avenue" "Big Chimney" "WV" "25302" -81.535023 38.4053619
+"Clay Battelle Public Library" "6059 Mason Dixon Highway" "Blacksville" "WV" "26521" -80.215637 39.719108
+"Craft Memorial Library" "600 Commerce Street" "Bluefield" "WV" "24701" -81.221254 37.2688042
+"Branchland Public Library" "4 Mile Road At State Route 10" "Branchland" "WV" "25506" -82.1790936 38.229975
+"Bridgeport Public Library" "1200 Johnson Avenue" "Bridgeport" "WV" "26330" -80.2758583 39.2995521
+"Charles W. Gibson Public Library" "105 East Main Street" "Buckhannon" "WV" "26201" -80.2235359 38.9932638
+"Upshur County Public Library" "box 480" "Buckhannon" "WV" "26201" -80.2320276 38.9939872
+"Burnsville Public Library" "235 Kanawha Street" "Burnsville" "WV" "26335" -80.6570789 38.8592426
+"Capon Bridge Public Library" "po box 88" "Capon Bridge" "WV" "26711" -78.4361189 39.2981565
+"Chapmanville Public Library" "299 Vance Street" "Chapmanville" "WV" "25508" -82.0222958 37.9757537
+"Cross Lanes Public Library" "5449 Big Tyler Rd." "Charleston" "WV" "25313" -81.7842278 38.4267841
+"Kanawha County Public Library" "123 Capitol St." "Charleston" "WV" "25301" -81.6356382 38.3500517
+"Sissonville Branch Library" "1 Tinney Lane" "Charleston" "WV" "25312" -81.6706898 38.4792228
+"Lynn Murray Memorial Library" "601 Railroad Street" "Chester" "WV" "26034" -80.5609733 40.6149303
+"Clarksburg-Harrison Co. Public Library" "404 W. Pike Street" "Clarksburg" "WV" "26301" -80.340798 39.2811517
+"Clay County Public Library" "614 Main Street" "Clay" "WV" "25043" -81.0814401 38.475869
+"Clendenin Branch Library" "1 Cardinal St." "Clendenin" "WV" "25045" -81.3492079 38.4884334
+"Cowen Public Library" "47 Mill Street" "Cowen" "WV" "26206" -80.555894 38.408456
+"Craigsville Public Library" "63 Library Lane" "Craigsville" "WV" "26205" -80.652451 38.328462
+"Cross Lanes Branch Library" "5449 Big Tyler Road" "Cross Lanes" "WV" "25313" -81.7842278 38.4267841
+"Mingo County Public Library" "po box 10" "Delbarton" "WV" "25670" -82.1840239 37.7106581
+"Dunbar Branch Library" "301 12th St. Mall" "Dunbar" "WV" "25064" -81.7396881 38.3589873
+"Eleanor Branch Library" "203 Eleanor Circle" "Eleanor" "WV" "25070" -81.9231893 38.5364671
+"Dora Bee Woodyard Memorial Library" "po box 340" "Elizabeth" "WV" "26143" -81.3951198 39.0634129
+"Elkins-Randolph Public Library" "416 Davis Ave" "Elkins" "WV" "26241" -79.8495069 38.9263221
+"Marion County Public Library" "321 Monroe St." "Fairmont" "WV" "26554" -80.1447033 39.4848475
+"Fairview Public Library" "407 Main St." "Fairview" "WV" "26570" -80.248602 39.5927999
+"North Berkeley Public Library" "2363 Nestle Quarry Road" "Falling Waters" "WV" "25419" -77.856706 39.592477
+"Fayetteville Public Library" "200 W. Maple Avenue" "Fayetteville" "WV" "25840" -81.104705 38.0519487
+"Follansbee Public Library" "844 Main Street" "Follansbee" "WV" "26037" -80.595598 40.326918
+"Fort Gay Public Library" "8608 R Broadway" "Fort Gay" "WV" "25514" -82.5939258 38.1150939
+"Pendleton County Public Library" "504 N. Main Street" "Franklin" "WV" "26807" -79.3301011 38.6452417
+"James Curry Public Library" "box 135" "French Creek" "WV" "26218" -80.2973054 38.8856557
+"Gassaway Public Library" "536 Elk Street" "Gassaway" "WV" "26624" -80.7751229 38.673097
+"Gauley Bridge Public Library" "286 Railroad St." "Gauley Bridge" "WV" "25085" -81.1950776 38.1654174
+"Glasgow Branch Library" "129 4th Avenue" "Glasgow" "WV" "25086" -81.4265738 38.2131262
+"Gilmer Public Library" "214 Walnut Street" "Glenville" "WV" "26351" -80.8360082 38.9366508
+"Taylor County Public Library" "200 Beech St." "Grafton" "WV" "26354" -80.025436 39.336636
+"Calhoun County Public Library" "250 Mill Street North" "Grantsville" "WV" "26147" -81.0956714 38.9244025
+"Guyandotte Branch Library" "203 Richmond Street" "Guyandotte" "WV" "25702" -82.3877782 38.4294577
+"Hamlin-Lincoln County Public Library" "7999 Lynn Avenue" "Hamlin" "WV" "25523" -82.106374 38.276693
+"Pioneer Memorial Public Library" "po drawer 13" "Harman" "WV" "26270" -79.5250534 38.9223323
+"Bolivar-Harpers Ferry Public Library" "151 Polk Street" "Harpers Ferry" "WV" "25425" -77.756701 39.324343
+"Ritchie County Public Library" "130 N. Court St." "Harrisville" "WV" "26362" -81.051811 39.210298
+"Naylor Memorial Library" "105 Potato Hill St." "Hedgesville" "WV" "25427" -77.9949236 39.5553225
+"Helvetia Public Library" "po box 15" "Helvetia" "WV" "26224" -80.2011881 38.7059394
+"Hillsboro Public Library" "po box 132" "Hillsboro" "WV" "24946" -80.2131261 38.1353972
+"Summers County Public Library" "201 Temple St" "Hinton" "WV" "25951" -80.891075 37.674043
+"Hundred Public Library" "po box 453" "Hundred" "WV" "26575" -80.4589686 39.6836937
+"Cabell County Public Library" "455 9th Street" "Huntington" "WV" "25701" -82.4439429 38.4197509
+"Gallaher Village Branch Library" "368 Norway Avenue" "Huntington" "WV" "25705" -82.4053497 38.407014
+"West Huntington Branch Library" "901 West 14th Street" "Huntington" "WV" "25704" -82.477835 38.40806
+"Hurricane Branch Library" "410 Midland Trail" "Hurricane" "WV" "25526" -82.0194801 38.4290104
+"Putnam County Public Library" "4219 State Rt.34" "Hurricane" "WV" "25526" -82.0201897 38.4324469
+"Musselman-South Berkeley Community Library" "126 Excellence Way" "Inwood" "WV" "25428" -78.0414767 39.3518554
+"Ceredo-Kenova Library" "1200 Oak Street" "Kenova" "WV" "25530" -82.5743169 38.3999
+"Kermit Public Public Library" "103 Main St. (Behind City Hall)" "Kermit" "WV" "25674" -82.4093134 37.8437074
+"Keyser-Mineral County Public Library" "105 N. Main Street" "Keyser" "WV" "26726" -78.9745034 39.4402839
+"Kingwood Public Library" "205 West Main St" "Kingwood" "WV" "26537" -79.689986 39.471796
+"Geary Public Library" "1 Library Lane Suite 1" "Left Hand" "WV" "25251" -81.2434781 38.6191254
+"Cox Landing Branch Library" "6363 Cox Lane" "Lesage" "WV" "25537" -82.3042343 38.4738442
+"Greenbrier County Public Library" "152 Robert W. Mccormick Drive" "Lewisburg" "WV" "24901" -80.4456303 37.8017879
+"Logan Area Public Library" "16 Wildcat Way" "Logan" "WV" "25601" -81.9959637 37.8500493
+"Southern Area Public Library" "po box 282" "Lost Creek" "WV" "26385" -80.3520335 39.1612035
+"Boone-Madison Public Library" "375 Main Street" "Madison" "WV" "25130" -81.8222067 38.0640748
+"Buffalo Creek Memorial Library" "511 E. Mcdonald Ave." "Man" "WV" "25635" -81.8749066 37.7349215
+"Mannington Public Library" "109 Clarksburg St." "Mannington" "WV" "26582" -80.3443967 39.5297785
+"Mcclintic Public Library" "500 Eighth Street" "Marlinton" "WV" "24954" -80.0932658 38.2227393
+"Marmet Branch Library" "9303 Oregon Avenue" "Marmet" "WV" "25315" -81.5682914 38.2460041
+"Martinsburg-Berkeley Co. Public Library" "101 West King Street" "Martinsburg" "WV" "25401" -77.9643799 39.4559664
+"Benwood-Mcmechen Public Library" "201 Marshall St." "Mcmechen" "WV" "26040" -80.7297135 39.9943996
+"Meadow Bridge Public Library" "53 Klute St." "Meadow Bridge" "WV" "25976" -80.8542568 37.8590061
+"Tyler County Public Library" "po box 124" "Middlebourne" "WV" "26149" -80.9037181 39.4922999
+"Tygart Valley Public Library" "po box 517" "Mill Creek" "WV" "26280" -79.9700699 38.7314978
+"Milton Branch Library" "1140 Smith St." "Milton" "WV" "25541" -82.13332 38.436593
+"Montgomery Public Library" "507 Ferry St." "Montgomery" "WV" "25136" -81.3224063 38.1811477
+"Hardy County Public Library" "102 N. Main St." "Moorefield" "WV" "26836" -78.970031 39.0622697
+"Cheat Area Public Library" "121 Crosby Rd" "Morgantown" "WV" "26508" -79.8660811 39.6543222
+"Clinton District Public Library" "2005 Grafton Rd." "Morgantown" "WV" "26508" -79.9339064 39.5441003
+"Morgantown Public Library" "373 Spruce Street" "Morgantown" "WV" "26505" -79.9546081 39.63023
+"Moundsville-Marshall County Public Library" "700 Fifth Street" "Moundsville" "WV" "26041" -80.745028 39.9204048
+"Mt. Hope Public Library" "500 Main St." "Mt. Hope" "WV" "25880" -81.1659819 37.8935124
+"Mullens Area Public Library" "102 Fourth St." "Mullens" "WV" "25882" -81.3804511 37.5850157
+"Marsh Fork Public Library" "9802 Coal River Road" "Naoma" "WV" "25140" -81.528139 37.906792
+"Swaney Memorial Library" "100 Court Street" "New Cumberland" "WV" "26047" -80.6081205 40.4984271
+"New Haven Public Library" "106 Main St." "New Haven" "WV" "25265" -81.9729715 38.9880981
+"New Martinsville Public Library" "160 Washington Street" "New Martinsville" "WV" "26155" -80.865254 39.6401172
+"Nitro Public Library" "1700 Park Ave" "Nitro" "WV" "25143" -81.846632 38.4222633
+"Northfork Public Library" "24 Fieburch Ave." "Northfork" "WV" "24868" -81.4401034 37.420948
+"Nutter Fort Public Library" "1300 Buckhannon Pike" "Nutter Fort" "WV" "26301" -80.3244998 39.2604794
+"Fayette County Public Library" "531 Summit Street" "Oak Hill" "WV" "25901" -82.7182574 38.4314071
+"Oak Hill Public Library" "611 Main St." "Oak Hill" "WV" "25901" -81.1402303 37.9766695
+"Paden City Public Library" "114 S. 4th Avenue" "Paden City" "WV" "26159" -80.9347609 39.603596
+"Parkersburg-Wood Co. Public Library" "3100 Emerson Av." "Parkersburg" "WV" "26104" -81.5383768 39.2857402
+"South Parkersburg Branch Library" "1713 Blizzard Drive" "Parkersburg" "WV" "26101" -81.5449495 39.239576
+"Five Rivers Public Library" "301 Walnut St." "Parsons" "WV" "26287" -79.6809924 39.0985234
+"Paw Paw Public Library" "250 Moser Avenue" "Paw Paw" "WV" "25434" -78.45797 39.527705
+"Pennsboro Branch" "411 Main St." "Pennsboro" "WV" "26415" -80.9678974 39.2849351
+"Grant County Public Library" "18 Mt. View Street" "Petersburg" "WV" "26847" -79.126099 38.993401
+"Peterstown Public Library" "23 College Drive" "Peterstown" "WV" "24963" -80.7928765 37.4004626
+"Philippi Public Library" "102 S. Main St." "Philippi" "WV" "26416" -80.0370697 39.1506812
+"Piedmont Public Library" "1 Childs Avenue" "Piedmont" "WV" "26750" -79.0473763 39.4801522
+"Pine Grove Public Library" "1 Main St." "Pine Grove" "WV" "26419" -80.64439 39.5322109
+"Wyoming County Public Library" "po box 130" "Pineville" "WV" "24874" -81.5370499 37.5831684
+"Mason County Public Library" "508 Viand Street" "Point Pleasant" "WV" "25550" -82.1373255 38.8437382
+"Princeton Public Library" "205 Center Street" "Princeton" "WV" "24740" -81.1008624 37.3701091
+"Coal River Branch Library" "494 John Slack Circle" "Racine" "WV" "25165" -81.6464242 38.1375136
+"Rainelle Public Library" "312 7th Street" "Rainelle" "WV" "25962" -80.6895375 37.9625244
+"Ravenswood Branch Library" "323 Virginia St." "Ravenswood" "WV" "26164" -81.7608784 38.9504063
+"Richwood Public Library" "8 White Ave." "Richwood" "WV" "26261" -80.531027 38.224731
+"Jackson County Public Library" "208 N. Church St." "Ripley" "WV" "25271" -81.7105712 38.819882
+"Hampshire County Public Library" "153 West Main Street" "Romney" "WV" "26757" -78.7581323 39.3426674
+"Ronceverte Public Library" "712 W. Main St." "Ronceverte" "WV" "24970" -80.4698403 37.7472087
+"Rupert Public Library" "602 Nicholas Street" "Rupert" "WV" "25984" -80.6902027 37.9633306
+"Shady Spring District Library" "440 Flat Top Road" "Shady Spring" "WV" "25918" -81.100278 37.695404
+"Shepherdstown Public Library" "100 East German Street" "Shepherdstown" "WV" "25443" -77.8058133 39.4308468
+"Lowe Public Library" "40 Bridge St." "Shinnston" "WV" "26431" -80.3010027 39.3962769
+"Sistersville Public Library" "518 Wells Street" "Sistersville" "WV" "26175" -80.9941454 39.5651297
+"Sophia Public Library" "103 First St." "Sophia" "WV" "25921" -81.2527514 37.7082977
+"South Charleston Public Library" "312 4th Avenue" "South Charleston" "WV" "25303" -81.693832 38.3661999
+"Roane County Public Library" "110 Parking Plaza" "Spencer" "WV" "25276" -81.3509104 38.8032113
+"St. Albans Branch Library" "602 4th Street" "St. Albans" "WV" "25177" -81.8337461 38.3855585
+"Pleasants County Public Library" "101 Lafayette St." "St. Marys" "WV" "26170" -81.20823 39.390085
+"Summersville Public Library" "6201 Webster Road" "Summersville" "WV" "26651" -80.830443 38.311526
+"South Jefferson Public Library" "49 Church Street" "Summit Point" "WV" "25446" -77.9589812 39.2487573
+"Sutton Public Library" "450 4th St. C" "Sutton" "WV" "26601" -80.7078537 38.6640731
+"Terra Alta Public Library" "701b East State Avenue" "Terra Alta" "WV" "26764" -79.5403101 39.4438498
+"Mountaintop Public Library" "po box 217" "Thomas" "WV" "26292" -79.498109 39.1489967
+"Monroe County Public Library" "103 South Street" "Union" "WV" "24983" -80.5424937 37.5897193
+"Valley Head Public Library" "po box 98" "Valley Head" "WV" "26294" -80.0359015 38.545113
+"Vienna Public Library" "2300 River Rd." "Vienna" "WV" "26105" -81.5533542 39.3224136
+"Walton Public Library" "2 Cunningham Lane" "Walton" "WV" "25286" -81.4015104 38.6379079
+"War Public Library" "po box 68" "War" "WV" "24892" -81.6909425 37.3012246
+"Waverly Library" "box 287" "Waverly" "WV" "26184" -81.3795897 39.3381347
+"Webster-Addison Public Library" "331 S. Main Street" "Webster Springs" "WV" "26288" -80.4092085 38.4749155
+"Mary H. Weir Public Library" "3442 Main Street" "Weirton" "WV" "26062" -80.5893858 40.4005016
+"Mcdowell County Public Library" "90 Howard St." "Welch" "WV" "24801" -81.5823309 37.43374
+"Brooke County Public Library" "945 Main Street" "Wellsburg" "WV" "26070" -80.612784 40.272662
+"Doddridge County Public Library" "117 Court Street" "West Union" "WV" "26456" -80.7743343 39.2937319
+"Louis Bennett Public Library" "148 Court Ave" "Weston" "WV" "26452" -80.46522 39.036496
+"Hildebrand Memorial Library" "99 N. 17th St." "Wheeling" "WV" "26003" -80.6993343 40.1181056
+"Ohio County Public Library" "52 16th St." "Wheeling" "WV" "26003" -80.7199848 40.0636769
+"White Sulphur Springs Public Library" "203 W. Main St." "White Sulphur Spring" "WV" "24986" -80.303503 37.788967
+"Whitesville Public Library" "38175 Coal River Road" "Whitesville" "WV" "25209" -81.5296178 37.9712538
+"Williamson Public Library" "101 Logan Street" "Williamson" "WV" "25661" -82.2747776 37.6742224
+"Williamstown Library" "201 W. 5th St." "Williamstown" "WV" "26187" -81.4498319 39.4010521

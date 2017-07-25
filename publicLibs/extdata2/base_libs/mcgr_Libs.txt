@@ -1,0 +1,953 @@
+"location" "miles" "latitude" "longitude"
+"Crosswicks Library Company<br/>483 Main Street<br/>Crosswicks, NJ" 8.81501621899857 -74.6467863 40.1533392
+"Mount Holly Library And Lyceum<br/>307 High Street<br/>Mount Holly, NJ" 11.1777174556734 -74.7901834 39.9994664
+"Sally Stretch Keen Memorial Library<br/>94 Main Street<br/>Vincentown, NJ" 11.1820019532357 -74.7504998 39.9355
+"Florence Township Library<br/>1350 Hornberger Avenue<br/>Roebling, NJ" 11.6536930457513 -74.7775249 40.1160814
+"Burlington County Library<br/>5 Pioneer Blvd<br/>Westampton, NJ" 12.5966389249812 -74.8206963 40.0146573
+"Hamilton Township Free Public Library<br/>1 Justice Samuel A. Alito, Jr. Way<br/>Hamilton, NJ" 13.5331432057932 -74.6957014 40.2113392
+"Bucks County Free Library - Margaret R. Grundy Memorial Library<br/>680 Radcliffe Street<br/>Bristol, PA" 14.7125104029486 -74.8500349 40.0977266
+"Library Company Of Burlington<br/>23 W. Union Street<br/>Burlington, NJ" 14.9179506044525 -74.8602724 40.079059
+"Willingboro Public Library<br/>220 Willingboro Parkway<br/>Willingboro, NJ" 15.1136263719487 -74.8697532 40.0379717
+"Bucks County Free Library - Morrisville Free Library<br/>300 N. Pennsylvania Avenue<br/>Morrisville, PA" 15.9766033395638 -74.77869 40.2120239
+"Morrisville Free Library Association<br/>300 North Pennsylvania Ave<br/>Morrisville, PA" 15.9766033395638 -74.77869 40.2120239
+"Trenton Free Public Library<br/>120 Academy Street<br/>Trenton, NJ" 16.0343068029351 -74.7632361 40.2223537
+"Bucks County Free Library - Fallsington Library<br/>139 Yardley Avenue<br/>Fallsington, PA" 16.350668359819 -74.8191157 40.1889659
+"Bucks County Free Library - Levittown Branch<br/>7311 New Falls Road<br/>Levittown, PA" 16.6009241120124 -74.854671 40.157049
+"Mercer County Library<br/>2751 Brunswick Pike<br/>Lawrenceville, NJ" 17.4672663078721 -74.718554 40.265937
+"Beverly Free Library<br/>441 Cooper St.<br/>Beverly, NJ" 17.8282131688558 -74.9189458 40.0642686
+"Bucks County Free Library - Yardley-Makefield Branch<br/>1080 Edgewood Road<br/>Yardley, PA" 18.7442898412946 -74.8387863 40.2238548
+"Mount Laurel Library<br/>100 Walt Whitman Avenue<br/>Mount Laurel, NJ" 18.7739917865272 -74.9238233 39.9574025
+"Delanco Public Library<br/>1303 Burlington Avenue<br/>Delanco, NJ" 19.306201546928 -74.9482364 40.0529894
+"Bucks County Free Library - Bensalem Branch<br/>3700 Hulmeville Road<br/>Bensalem, PA" 19.4256605554038 -74.9391947 40.1069454
+"Cranbury Public Library<br/>23 N. Main Street<br/>Cranbury, NJ" 19.4640061721431 -74.5183911 40.3119997
+"Riverside Public Library<br/>10 Zurbrugg Way<br/>Riverside, NJ" 19.8341957617195 -74.958883 40.03867
+"Moorestown Library<br/>111 W. Second Street<br/>Moorestown, NJ" 19.9732413008669 -74.9498912 39.9645789
+"Bucks County Free Library - Langhorne Branch<br/>301 S. Pine Street<br/>Langhorne, PA" 20.0108771381286 -74.9159159 40.1744377
+"Plainsboro Free Public Library<br/>641 Plainsboro Road<br/>Plainsboro, NJ" 20.6506272413161 -74.587104 40.333705
+"Free Library Of Philadelphia - Katharine Drexel Branch<br/>11099 Knights Road<br/>Philadelphia, PA" 20.870842467662 -74.9734231 40.0839872
+"Ocean County Library<br/>101 Washington Street<br/>Toms River, NJ" 21.3813720005535 -74.1956919 39.9523675
+"Monroe Twp Public Library-Middlesex<br/>4 Municipal Plaza<br/>Monroe Township, NJ" 21.5329844874857 -74.4429199 40.3270968
+"Princeton Public Library<br/>65 Witherspoon Street<br/>Princeton, NJ" 22.2614484868904 -74.6603299 40.35173
+"Freehold Public Library<br/>28 1-2 E. Main Street<br/>Freehold, NJ" 22.6083042237732 -74.273929 40.259897
+"Free Library Of Philadelphia - Torresdale Branch<br/>3079 Holme Avenue<br/>Philadelphia, PA" 22.8937826370265 -75.015809 40.0568744
+"Bucks County Free Library - Township Library Of Lower Southampton (Feasterville)<br/>1983 Bridgetown Pike<br/>Feasterville, PA" 22.9347834349912 -74.9843816 40.1629324
+"Pennington Free Public Library<br/>30 N. Main Street<br/>Pennington, NJ" 23.1023715216096 -74.7916771 40.3292276
+"Monmouth County Library<br/>125 Symmes Drive<br/>Manalapan, NJ" 23.22031733772 -74.3037538 40.2934107
+"Jamesburg Public Library<br/>229 Gatzmer Avenue<br/>Jamesburg, NJ" 23.2213269891955 -74.4420886 40.3527857
+"Cherry Hill Free Public Library<br/>1100 Kings Highway North<br/>Cherry Hill, NJ" 23.6336513332062 -75.0044077 39.920517
+"Free Library Of Philadelphia - Holmesburg Branch<br/>7810 Frankford Avenue<br/>Philadelphia, PA" 23.6465421415734 -75.0308478 40.0404308
+"Free Library Of Philadelphia - Welsh Road Branch<br/>9233 Roosevelt Boulevard<br/>Philadelphia, PA" 23.8965463781896 -75.0324021 40.0771306
+"Free Library Of Philadelphia - Bustleton Branch<br/>10199 Bustleton Avenue<br/>Philadelphia, PA" 23.9175671180744 -75.0261692 40.1077764
+"South Brunswick Public Library<br/>110 Kingston Lane<br/>Monmouth Junction, NJ" 24.2232031532834 -74.5307553 40.3829536
+"Waterford Township Public Library<br/>2204 Atco Avenue<br/>Atco, NJ" 24.3893226686158 -74.8871702 39.769905
+"Free Library Of Philadelphia - Tacony Branch<br/>6742 Torresdale Avenue<br/>Philadelphia, PA" 24.4179202643883 -75.0452367 40.0253661
+"Gibbsboro Public Library<br/>49 Kirkwood Road<br/>Gibbsboro, NJ" 24.563062673639 -74.9689013 39.8372475
+"Marie Fleche Memorial Library<br/>49 South White Horse Pike<br/>Berlin, NJ" 24.778781290134 -74.9320525 39.7959723
+"Free Library Of Philadelphia - Northeast Regional Library<br/>2228 Cottman Avenue<br/>Philadelphia, PA" 25.2811120308046 -75.0614917 40.0481285
+"Bucks County Free Library - Free Library Of Northampton Township<br/>25 Upper Holland Road<br/>Richboro, PA" 25.4979312565549 -75.0090403 40.2096484
+"Pennsauken Free Public Library<br/>5605 Crescent Boulevard<br/>Pennsauken, NJ" 25.5135492283992 -75.0555104 39.9590894
+"Camden County Library<br/>203 Laurel Road<br/>Voorhees, NJ" 25.6128904198302 -75.0011971 39.8481294
+"Haddonfield Public Library<br/>60 N. Haddon Avenue<br/>Haddonfield, NJ" 25.6639755975934 -75.0347408 39.8990699
+"Bucks County Free Library - Southampton Free Library<br/>947 Street Road<br/>Southampton, PA" 25.7266641890066 -75.0369761 40.1711634
+"Southampton Free Library<br/>947 Street Rd<br/>Southampton, PA" 25.7266641890066 -75.0369761 40.1711634
+"Huntingdon Valley Library<br/>625 Red Lion Rd<br/>Huntingdon Valley, PA" 25.988451995774 -75.0612049 40.1249398
+"Free Library Of Philadelphia - Bushrod Branch<br/>6304 Castor Avenue<br/>Philadelphia, PA" 26.1752784730459 -75.078621 40.0386524
+"Hopewell Public Library<br/>13 E. Broad Street<br/>Hopewell, NJ" 26.2101681602057 -74.7607612 40.3893419
+"Stratford Public Library<br/>303 Union Avenue<br/>Stratford, NJ" 26.4513497048225 -75.0075118 39.8327697
+"Free Library Of Philadelphia - Fox Chase Branch<br/>501 Rhawn Street<br/>Philadelphia, PA" 26.4978248653982 -75.0819215 40.0767105
+"Clementon Memorial Library<br/>195 Gibbsboro Road<br/>Clementon, NJ" 26.4980049415814 -74.9876691 39.8091395
+"Free Library Of Philadelphia - Frankford Branch<br/>4634 Frankford Avenue<br/>Philadelphia, PA" 26.5537230919357 -75.0850614 40.0157558
+"Spotswood Public Library<br/>548 Main Street<br/>Spotswood, NJ" 26.6971361199141 -74.3913357 40.3918518
+"Bucks County Free Library - Village Library Of Wrightstown<br/>727 Penns Park Road<br/>Wrightstown, PA" 26.8144791871484 -74.9927559 40.2650571
+"Collingswood Free Public Library<br/>771 Haddon Avenue<br/>Collingswood, NJ" 26.8663295857286 -75.0667249 39.9158596
+"Free Library Of Philadelphia - Lawncrest Branch<br/>6098 Rising Sun Avenue<br/>Philadelphia, PA" 27.2929150387195 -75.0995767 40.0460628
+"Haddon Heights Public Library<br/>608 Station Avenue<br/>Haddon Heights, NJ" 27.3109359093676 -75.0590189 39.8817654
+"Audubon Free Public Library<br/>239 Oakland Avenue<br/>Audubon, NJ" 27.5761329279074 -75.0693128 39.8909808
+"Oaklyn Memorial Library<br/>602 Newton Avenue<br/>Oaklyn, NJ" 27.8404241284018 -75.079939 39.9019247
+"Free Library Of Philadelphia - Richmond Branch<br/>2987 Almond Street<br/>Philadelphia, PA" 27.990149933453 -75.108286 39.983012
+"Brielle Public Library<br/>610 South Street<br/>Brielle, NJ" 28.1911791093056 -74.0619267 40.1142299
+"Free Library Of Philadelphia - Wyoming Branch<br/>231 East Wyoming Avenue<br/>Philadelphia, PA" 28.4217039707786 -75.1206868 40.0213573
+"Free Library Of Philadelphia - Mcpherson Square Branch<br/>601 East Indiana Avenue<br/>Philadelphia, PA" 28.4526363208875 -75.1188828 39.9948515
+"Runnemede Public Library<br/>p.o. box 119<br/>Runnemede, NJ" 28.5933095396241 -75.0679497 39.8523358
+"Free Library Of Philadelphia - Greater Olney Branch<br/>5501 North 5th Street<br/>Philadelphia, PA" 28.9279024202306 -75.1306018 40.035012
+"Manasquan Public Library<br/>55 Broad Street<br/>Manasquan, NJ" 28.9411028405129 -74.0505058 40.1255476
+"Jenkintown Library<br/>460 Old York Road<br/>Jenkintown, PA" 28.9944603787991 -75.1258373 40.0984502
+"East Brunswick Public Library<br/>2 Jean Walling Civic Center<br/>East Brunswick, NJ" 29.0189716895825 -74.4049778 40.4316955
+"Abington Township Public Library<br/>1030 Old York Rd<br/>Abington, PA" 29.0373553852653 -75.1235584 40.1126463
+"Free Library Of Philadelphia - Fishtown Community Branch<br/>1217 East Montgomery Avenue<br/>Philadelphia, PA" 29.0912978018548 -75.1271851 39.971911
+"Upper Moreland Free Public Library<br/>109 Park Avenue<br/>Willow Grove, PA" 29.1894805266983 -75.1171592 40.1444791
+"Camden Free Public Library<br/>418 Federal Street<br/>Camden, NJ" 29.2063812247961 -75.12245 39.943865
+"Free Library Of Philadelphia - Kensington Branch<br/>104 West Dauphin Street<br/>Philadelphia, PA" 29.2585226586515 -75.1326812 39.9846191
+"Union Library Company Of Hatborough<br/>243 South York Rd<br/>Hatboro, PA" 29.2674275543914 -75.1072346 40.1733752
+"Free Library Of Philadelphia - Oak Lane Branch<br/>6614 North 12th Street<br/>Philadelphia, PA" 29.3390901991321 -75.1378648 40.0545856
+"Lambertville Free Public Library<br/>6 Lilly Street<br/>Lambertville, NJ" 29.6701972059318 -74.9423606 40.3656754
+"South River Public Library<br/>55 Appleby Avenue<br/>South River, NJ" 29.7084342075685 -74.3771338 40.4344448
+"Free Library Of Philadelphia - Logan Branch<br/>1333 Wagner Avenue<br/>Philadelphia, PA" 29.7095273326952 -75.1453293 40.0317922
+"Free Library Of Philadelphia - Lillian Marrero Branch<br/>601 West Lehigh Avenue<br/>Philadelphia, PA" 29.7125323274118 -75.1425045 39.9927808
+"Old Bridge Public Library<br/>1 Old Bridge Plaza<br/>Old Bridge, NJ" 29.7243692032955 -74.2965861 40.4044342
+"Sea Girt Library<br/>321 Baltimore Boulevard<br/>Sea Girt, NJ" 29.8029821158949 -74.0361492 40.1335296
+"Milltown Public Library<br/>20 W. Church Street<br/>Milltown, NJ" 29.8137667840139 -74.4399791 40.4518413
+"Gloucester City Library<br/>50 N. Railroad Avenue<br/>Gloucester City, NJ" 29.8894239460682 -75.118356 39.8964906
+"Bucks County Free Library - Free Library Of New Hope And Solebury<br/>93 W. Ferry Street<br/>New Hope, PA" 30.0073238851613 -74.9553568 40.3636662
+"Free Library Of New Hope Solebury<br/>93 West Ferry St<br/>New Hope, PA" 30.0073238851613 -74.9553568 40.3636662
+"Free Library Of Philadelphia - David Cohen Ogontz Branch<br/>6017 Ogontz Avenue<br/>Philadelphia, PA" 30.0133827526154 -75.1509445 40.0467444
+"Free Library Of Philadelphia - Nicetown-Tioga Branch<br/>3720 North Broad Street<br/>Philadelphia, PA" 30.0852637025231 -75.1513976 40.0099974
+"Free Library Of Philadelphia - Ramonita De Rodriguez Branch<br/>600 West Girard Avenue<br/>Philadelphia, PA" 30.1399278348308 -75.1468412 39.9701271
+"Warminster Township Free Library<br/>1076 Emma Lane<br/>Warminster, PA" 30.2673711688807 -75.1036619 40.2190913
+"Free Library Of Philadelphia - West Oak Lane Branch<br/>2000 Washington Lane<br/>Philadelphia, PA" 30.4374561783106 -75.1577178 40.0671768
+"Cheltenham Township Library System<br/>215 S Keswick Ave<br/>Glenside, PA" 30.449356592939 -75.1539109 40.096882
+"North Brunswick Free Public Library<br/>880 Hermann Road<br/>North Brunswick, NJ" 30.6137739344875 -74.4641406 40.4681208
+"Spring Lake Public Library<br/>1501 Third Avenue<br/>Spring Lake, NJ" 30.6277731138569 -74.0273732 40.1554697
+"Free Library Of Philadelphia - Independence Branch<br/>18 S. 7th Street<br/>Philadelphia, PA" 30.6675325952356 -75.1523786 39.9502748
+"Free Library Of Philadelphia - Library For The Blind And Physically Handicapped<br/>919 Walnut Street<br/>Philadelphia, PA" 30.9141921902567 -75.1567386 39.9488023
+"Free Library Of Philadelphia - Charles Santore Branch<br/>932 South 7th Street<br/>Philadelphia, PA" 31.0084379959491 -75.155274 39.937044
+"Free Library Of Philadelphia - Whitman Branch<br/>200 Snyder Avenue<br/>Philadelphia, PA" 31.0097212512175 -75.1503319 39.9215883
+"West Deptford Free Public Library<br/>420 Crown Point Road<br/>West Deptford, NJ" 31.1700640282283 -75.1314257 39.8702239
+"Bass River Community Library<br/>11 North Maple Avenue<br/>New Gretna, NJ" 31.289175780104 -74.452392 39.59436
+"Belmar Public Library<br/>517 Tenth Avenue<br/>Belmar, NJ" 31.2936690052381 -74.0234093 40.1785535
+"Free Library Of Philadelphia - Joseph E. Coleman Northwest Regional Library<br/>68 West Chelten Avenue<br/>Philadelphia, PA" 31.3352483629852 -75.1760498 40.0340548
+"Free Library Of Philadelphia - Wadsworth Branch<br/>1500 Wadsworth Avenue<br/>Philadelphia, PA" 31.3481518815893 -75.1737193 40.0789708
+"Neptune Township Public Library<br/>25 Neptune Boulevard<br/>Neptune, NJ" 31.3854680675267 -74.0367992 40.2098877
+"Free Library Of Philadelphia - Cecil B. Moore Branch<br/>2320 Cecil B. Moore Avenue<br/>Philadelphia, PA" 31.4436336695977 -75.1735557 39.9804968
+"Free Library Of Philadelphia<br/>1901 Vine St<br/>Philadelphia, PA" 31.5223801350235 -75.1710236 39.9596055
+"Free Library Of Philadelphia - Central Library<br/>1901 Vine Street<br/>Philadelphia, PA" 31.5223801350235 -75.1710236 39.9596055
+"Westville Public Library<br/>1035 Broadway<br/>Westville, NJ" 31.5237312583114 -75.133969 39.861448
+"Free Library Of Philadelphia - Widener Branch<br/>2808 West Lehigh Avenue<br/>Philadelphia, PA" 31.5380718074867 -75.1775949 39.9967044
+"Tinton Falls Public Library<br/>664 Tinton Avenue<br/>Tinton Falls, NJ" 31.6481646306523 -74.0983938 40.3023826
+"Free Library Of Philadelphia - Philadelphia City Institute<br/>1905 Locust Street<br/>Philadelphia, PA" 31.7689064263806 -75.1733449 39.9495012
+"Free Library Of Philadelphia - South Philadelphia Branch<br/>1700 South Broad Street<br/>Philadelphia, PA" 31.8478349080208 -75.16912 39.9291562
+"Free Library Of Philadelphia - Lovett Branch<br/>6945 Germantown Avenue<br/>Philadelphia, PA" 31.9812228397282 -75.1876897 40.0567752
+"Free Library Of Philadelphia - Fumo Family Branch<br/>2437 South Broad Street<br/>Philadelphia, PA" 32.0657272338487 -75.1703248 39.9198713
+"Franklin Twp Public Library-Somerset<br/>485 Demott Lane<br/>Somerset, NJ" 32.1331414590842 -74.5251185 40.4975003
+"Bradley Beach Public Library<br/>511 Fourth Avenue<br/>Bradley Beach, NJ" 32.1558571285959 -74.0162107 40.2003899
+"Matawan-Aberdeen Public Library<br/>165 Main Street<br/>Matawan, NJ" 32.1706537436732 -74.2300334 40.4134434
+"Free Library Of Philadelphia - Falls Of Schuylkill Branch<br/>3501 Midvale Avenue<br/>Philadelphia, PA" 32.2362301787846 -75.1923638 40.0142949
+"Free Library Of Philadelphia - Queen Memorial Library<br/>1201 South 23rd Street<br/>Philadelphia, PA" 32.3417258528978 -75.1812344 39.937769
+"New Brunswick Free Public Library<br/>60 Livingston Avenue<br/>New Brunswick, NJ" 32.3954855450883 -74.445477 40.4913441
+"Free Library Of Philadelphia - Charles L. Durham Branch<br/>3320 Haverford Avenue<br/>Philadelphia, PA" 32.5283322452507 -75.1911708 39.9639027
+"Monroe Twp Public Library-Gloucester<br/>306 S. Main Street<br/>Williamstown, NJ" 32.5371912374245 -74.992215 39.684099
+"Free Library Of Philadelphia - Thomas F. Donatucci, Sr.<br/>1935 Shunk Street<br/>Philadelphia, PA" 32.5744289423899 -75.1801444 39.9196212
+"Free Library Of Springfield Township<br/>1600 Paper Mill Rd<br/>Wyndmoor, PA" 32.6557591302908 -75.1955235 40.0995248
+"Sayreville Free Public Library<br/>1050 Washington Road<br/>Parlin, NJ" 32.7287008965805 -74.3197032 40.4630156
+"James H. Johnson Memorial Library<br/>670 Ward Drive<br/>Deptford, NJ" 32.8175087463678 -75.1391319 39.8251008
+"Horsham Township Library<br/>435 Babylon Road<br/>Horsham, PA" 33.0600912619104 -75.1723061 40.1973142
+"Asbury Park Free Public Library<br/>500 First Avenue<br/>Asbury Park, NJ" 33.0912900478812 -74.0074599 40.220238
+"Woodbury Public Library<br/>33 Delaware Street<br/>Woodbury, NJ" 33.1693343381705 -75.1545964 39.8382224
+"Free Library Of Philadelphia - Chestnut Hill Branch<br/>8711 Germantown Avenue<br/>Philadelphia, PA" 33.2160136666083 -75.2092813 40.0778578
+"Free Library Of Philadelphia - Walnut Street West<br/>201 South 40th Street<br/>Philadelphia, PA" 33.2333853891138 -75.2024592 39.9537945
+"Highland Park Public Library<br/>31 N. Fifth Avenue<br/>Highland Park, NJ" 33.360378036674 -74.4240282 40.5016664
+"Eatontown Public Library<br/>33 Broad Street<br/>Eatontown, NJ" 33.4860750666956 -74.0586092 40.3052115
+"Free Library Of Philadelphia - Roxborough Branch<br/>6245 Ridge Avenue<br/>Philadelphia, PA" 33.5668089453425 -75.2181954 40.0367164
+"Upper Dublin Public Library<br/>805 Loch Alsh Ave<br/>Fort Washington, PA" 33.6391875292955 -75.201349 40.1524351
+"Free Library Of Philadelphia - Kingsessing Branch<br/>1201 South 51st Street<br/>Philadelphia, PA" 34.201609444401 -75.2181806 39.9420261
+"Bucks County Free Library - Doylestown District Center Library<br/>150 South Pine St<br/>Doylestown, PA" 34.268569714783 -75.1254169 40.3081779
+"Margaret E. Heggan Free Public Library<br/>208 E. Holly Avenue<br/>Hurffville, NJ" 34.3183824794772 -75.1090452 39.7451816
+"Wenonah Free Public Library<br/>101 E. Mantua Avenue<br/>Wenonah, NJ" 34.3523666850341 -75.1485909 39.791532
+"Free Library Of Philadelphia - Lucien E. Blackwell West Philadelphia Regional Library<br/>125 South 52nd Street<br/>Philadelphia, PA" 34.3725482730015 -75.2250558 39.9574729
+"Free Library Of Philadelphia - Wynnefield Branch<br/>5325 Overbrook Avenue<br/>Philadelphia, PA" 34.5038989539053 -75.2335844 39.995067
+"Free Library Of Philadelphia - Haverford Branch<br/>5543 Haverford Avenue<br/>Philadelphia, PA" 34.6132269593297 -75.2316551 39.967675
+"Edison Township Free Public Library<br/>340 Plainfield Avenue<br/>Edison, NJ" 34.633008281649 -74.4081924 40.5174604
+"Free Library Of Philadelphia - Andorra Branch<br/>705 East Cathedral Road<br/>Philadelphia, PA" 34.6910458282569 -75.2384494 40.0643502
+"Belmont Hills Library<br/>120 Mary Watersford Road<br/>Bala Cynwyd, PA" 34.7589628136624 -75.2404821 40.0239202
+"Bala Cynwyd Library<br/>131 Old Lancaster Road<br/>Bala Cynwyd, PA" 34.7600718276091 -75.2391061 40.0017321
+"West Long Branch Public Library<br/>95 Poplar Avenue<br/>West Long Branch, NJ" 34.8393360819004 -74.0164825 40.290714
+"Red Bank Public Library<br/>84 W. Front Street<br/>Red Bank, NJ" 34.9368757489794 -74.0690561 40.3515972
+"Dowdell Library Of South Amboy<br/>100 Harold G. Hoffman Plaza<br/>South Amboy, NJ" 34.9593302279214 -74.2738711 40.4815601
+"Manville Public Library<br/>100 S. Tenth Avenue<br/>Manville, NJ" 34.991023895365 -74.595301 40.5409549
+"Piscataway Public Library<br/>500 Hoes Lane<br/>Piscataway, NJ" 35.2019512954164 -74.4713788 40.5367154
+"Free Library Of Philadelphia - Blanche A. Nixon-Cobbs Creek Branch<br/>5800 Cobbs Creek Parkway<br/>Philadelphia, PA" 35.3770619729101 -75.2416389 39.9457034
+"Little Silver Public Library<br/>484 Prospect Avenue<br/>Little Silver, NJ" 35.4854287544123 -74.0430579 40.3387106
+"Free Library Of Philadelphia - Haddington Branch<br/>446 North 65th Street<br/>Philadelphia, PA" 35.5341466114606 -75.2497024 39.9706134
+"Free Library Of Philadelphia - Paschalville Branch<br/>6942 Woodland Avenue<br/>Philadelphia, PA" 35.6942749746374 -75.2409414 39.9204532
+"Mccowan Memorial Library<br/>15 Pitman Avenue<br/>Pitman, NJ" 35.748518608734 -75.1294516 39.7316081
+"Middletown Township Public Library<br/>55 New Monmouth Road<br/>Middletown, NJ" 35.7924825018138 -74.1092432 40.4040913
+"Flemington Free Public Library<br/>118 Main Street<br/>Flemington, NJ" 35.8359069229826 -74.8583546 40.5092009
+"Union Beach Memorial Library<br/>810 Union Avenue<br/>Union Beach, NJ" 35.8548841091239 -74.1653174 40.4430095
+"William Jeanes Memorial Library<br/>4051 Joshua Rd<br/>Lafayette Hill, PA" 35.8868648555285 -75.2573088 40.0980803
+"Free Library Of Philadelphia - Eastwick Branch<br/>2851 Island Avenue<br/>Philadelphia, PA" 35.9031239139196 -75.2403308 39.9059349
+"Yeadon Public Library<br/>809 Longacre Blvd<br/>Yeadon, PA" 35.9923860173277 -75.2510993 39.9362063
+"Narberth Community Library<br/>80 Windsor Avenue<br/>Narberth, PA" 36.1315592676476 -75.2653655 40.0054769
+"Gloucester County Library - Glassboro<br/>2 Center Street<br/>Glassboro, NJ" 36.1512269606857 -75.1103168 39.7032065
+"Paris Public Library<br/>37 Market Square<br/>South Paris, ME" 36.2342842386272 -75.2614854 39.9620011
+"Free Library Of Philadelphia - Overbrook Park Branch<br/>7422 Haverford Avenue<br/>Philadelphia, PA" 36.240701041018 -75.2640069 39.9760162
+"Upper Darby Township Sellers Memorial Free Public Library<br/>100 Garrett Road<br/>Upper Darby, PA" 36.338649088677 -75.2630871 39.9599756
+"Long Branch Free Public Library<br/>328 Broadway<br/>Long Branch, NJ" 36.3723560411288 -73.9926173 40.303485
+"Hunterdon County Library<br/>314 State Highway 12, Bldg. 3<br/>Flemington, NJ" 36.4427197696182 -74.8990627 40.5041248
+"Penn Wynne Library<br/>130 Overbrook Parkway<br/>Wynnewood, PA" 36.759434150803 -75.2749395 39.9836355
+"Perth Amboy Free Public Library<br/>196 Jefferson Street<br/>Perth Amboy, NJ" 36.8166554286926 -74.2705757 40.5105136
+"Darby Library<br/>1001 Main St<br/>Darby, PA" 36.8432149770235 -75.2630932 39.9202416
+"Fair Haven Public Library<br/>748 River Road<br/>Fair Haven, NJ" 36.8528380737077 -74.035683 40.3640832
+"Upper Darby Township Sellers Memorial Free Public Library<br/>76 South State Rd<br/>Upper Darby, PA" 36.8558757253342 -75.2733778 39.9622595
+"Gladwyne Library<br/>362 Righters Mill Road<br/>Gladwyne, PA" 36.893303629986 -75.2810048 40.0380946
+"Raritan Public Library<br/>54 E. Somerset Street<br/>Raritan, NJ" 36.9932934910533 -74.6291048 40.5688813
+"Lansdowne Public Library<br/>55 South Lansdowne Ave<br/>Lansdowne, PA" 37.0546430577831 -75.2715769 39.9365002
+"Somerville Public Library<br/>35 West End Avenue<br/>Somerville, NJ" 37.0678370645298 -74.6189218 40.5703996
+"Wissahickon Valley Pub Library<br/>650 Skippack Pike<br/>Blue Bell, PA" 37.1387341472636 -75.2691337 40.1529973
+"Metuchen Public Library<br/>480 Middlesex Avenue<br/>Metuchen, NJ" 37.176210111157 -74.3614115 40.5449864
+"Lower Merion Library System<br/>75 East Lancaster Ave<br/>Ardmore, PA" 37.3192679709337 -75.2879292 40.0069062
+"Tottenville Library<br/>7430 Amboy Road<br/>Staten Island, NY" 37.4056446134511 -74.2441369 40.5095325
+"Gill Memorial Library<br/>145 E. Broad Street<br/>Paulsboro, NJ" 37.4315978926156 -75.2379786 39.8310599
+"Sharon Hill Public Library<br/>246 Sharon Ave<br/>Sharon Hill, PA" 37.5411639860999 -75.2724217 39.9066527
+"Ardmore Library<br/>108 Ardmore Avenue<br/>Ardmore, PA" 37.7489389704426 -75.2961022 40.0076114
+"Collingdale Public Library<br/>823 Macdade Blvd<br/>Collingdale, PA" 37.7825936837405 -75.2786294 39.9114857
+"Middlesex Public Library<br/>1300 Mountain Avenue<br/>Middlesex, NJ" 37.9078013480439 -74.4998745 40.5793849
+"Monmouth Beach Public Library<br/>18 Willow Avenue<br/>Monmouth Beach, NJ" 37.9606391027349 -73.979298 40.330881
+"Borough Of Folcroft Public Library<br/>1725 Delmar Dr<br/>Folcroft, PA" 38.0903422271283 -75.2788707 39.8940724
+"Folcroft Public Library<br/>1725 Delmar Drive<br/>Folcroft, PA" 38.0903422271283 -75.2788707 39.8940724
+"Conshohocken Free Library<br/>301 Fayette Street<br/>Conshohocken, PA" 38.2096861271865 -75.3041448 40.0754865
+"Somerset County Library<br/>1 Vogt Drive<br/>Bridgewater, NJ" 38.2546047645453 -74.6076021 40.58792
+"North Wales Mem Free Library<br/>201 Summit St<br/>North Wales, PA" 38.3084082370565 -75.2714852 40.2103053
+"Haverford Township Free Library<br/>1601 Darby Road<br/>Havertown, PA" 38.3544266000216 -75.3049103 39.9815516
+"North Wales Library<br/>233 S. Swartley Street<br/>North Wales, PA" 38.4917641245333 -75.2760491 40.208165
+"Glenolden Library<br/>211 S Llanwellyn Ave<br/>Glenolden, PA" 38.7023561279736 -75.2927551 39.8998403
+"Oceanic Free Library<br/>109 Avenue Of Two Rivers<br/>Rumson, NJ" 38.8229208001861 -73.9944231 40.3697588
+"Ludington Library<br/>5. S. Bryn Mawr Avenue<br/>Bryn Mawr, PA" 38.8503030317339 -75.3176323 40.0207672
+"Gloucester County Library - East Greenwich<br/>535 Kings Highway<br/>Mickleton, NJ" 38.8534780089741 -75.242175 39.78832
+"Atlantic Highlands Public Library<br/>100 First Avenue<br/>Atlantic Highlands, NJ" 38.9218262699605 -74.0379003 40.4126501
+"South Plainfield Free Public Library<br/>2484 Plainfield Avenue<br/>South Plainfield, NJ" 39.0151600310334 -74.4162563 40.5844297
+"Upper Darby Township Sellers Memorial Free Public Library<br/>409 Ashland Ave.<br/>Primos, PA" 39.0452385933064 -75.3051266 39.9186164
+"Franklin Twp Public Library-Gloucester<br/>1584 Coles Mill Road<br/>Franklinville, NJ" 39.0567544869607 -75.0781643 39.6168415
+"Gloucester County Library - Mullica Hill<br/>389 Wolfert Station Road<br/>Mullica Hill, NJ" 39.0946073270042 -75.2188409 39.7480062
+"Gloucester County Library - Greenwich Township<br/>411 Swedesboro Road<br/>Gibbstown, NJ" 39.211734727071 -75.2667817 39.8172378
+"Tinicum Memorial Public Library<br/>620 Seneca St<br/>Essington, PA" 39.315435767355 -75.2932789 39.8686191
+"Norwood Public Library<br/>513 Welcome Ave<br/>Norwood, PA" 39.3284080716521 -75.3019391 39.8909745
+"Prospect Park Free Library<br/>720 Maryland Ave<br/>Prospect Park, PA" 39.7081985378783 -75.3083385 39.8880862
+"Bucks County Free Library - Pipersville Free Library<br/>7114 Durham Road<br/>Pipersville, PA" 39.8229468610043 -75.1393666 40.4249453
+"Lansdale Public Library<br/>301 Vine Street<br/>Lansdale, PA" 39.8271757424766 -75.287136 40.242272
+"Springfield Township Library<br/>70 Powell Rd<br/>Springfield, PA" 40.1654099989614 -75.3298458 39.9307466
+"Huguenot Park Library<br/>830 Huguenot Avenue<br/>Staten Island, NY" 40.2113734700854 -74.193241 40.5340625
+"Libraries Of Middlesex Automation Consortium<br/>1030 St. Georges Ave Suite 203<br/>Avenel, NJ" 40.3194755384 -74.2934752 40.5741767
+"Montgomery County-Norristown Public Library<br/>1001 Powell St<br/>Norristown, PA" 40.4448452697062 -75.3400823 40.1219544
+"Ridley Park Public Library<br/>107 E. Ward Street<br/>Ridley Park, PA" 40.6619917431528 -75.3244338 39.8809694
+"Gloucester County Library - Swedesboro<br/>1442 Kings Highway<br/>Mullica Hill, NJ" 40.7884852434569 -75.2714385 39.770751
+"Ridley Township Public Library<br/>100 E Macdade Blvd<br/>Folsom, PA" 40.8144901071346 -75.3293095 39.8863533
+"Newfield Public Library<br/>115 Catawba Avenue<br/>Newfield, NJ" 40.8757042802263 -75.020031 39.548202
+"Plainfield Free Public Library<br/>800 Park Avenue<br/>Plainfield, NJ" 40.9902214580197 -74.415792 40.613639
+"Atlantic County Library System<br/>40 Farragut Avenue<br/>Mays Landing, NJ" 41.1006003659603 -74.7254059 39.4509842
+"Swarthmore Public Library<br/>121 Park Avenue<br/>Swarthmore, PA" 41.5416815807378 -75.348373 39.9016025
+"Upper Merion Township Library<br/>175 W Valley Forge Rd<br/>King Of Prussia, PA" 41.9381584910121 -75.3718424 40.1018105
+"Absecon Public Library<br/>305 New Jersey Avenue<br/>Absecon, NJ" 42.2019963274908 -74.5045078 39.4281891
+"Carteret Free Public Library<br/>100 Cooke Avenue<br/>Carteret, NJ" 42.2645206367826 -74.2191347 40.5789837
+"Frenchtown Public Library<br/>29 Second Street<br/>Frenchtown, NJ" 42.3379618518342 -75.060764 40.5276752
+"Great Kills Library<br/>56 Giffords Lane<br/>Staten Island, NY" 42.4593210276444 -74.1511089 40.552421
+"Memorial Library Of Radnor Township<br/>114 West Wayne Ave<br/>Wayne, PA" 42.6132465937965 -75.3889843 40.0428141
+"Rahway Public Library<br/>2 City Hall Plaza<br/>Rahway, NJ" 42.6183972402507 -74.2730462 40.6037165
+"Helen Kate Furness Fr Library<br/>100 North Providence Rd<br/>Wallingford, PA" 42.8629914867643 -75.374785 39.9045918
+"Clark Public Library<br/>303 Westfield Avenue<br/>Clark, NJ" 43.0733917651996 -74.3102877 40.6217537
+"Fanwood Memorial Library<br/>14 Tillotson Road<br/>Fanwood, NJ" 43.3135365665704 -74.3854562 40.6426972
+"Tredyffrin Public Library<br/>582 Upper Gulph Rd<br/>Wayne, PA" 43.3544249756456 -75.4026359 40.0568552
+"Med Upper Prov Free Library<br/>1 East Front St<br/>Media, PA" 43.3942907242296 -75.3888984 39.9190305
+"Media-Upper Providence Library<br/>1 E. Front St.<br/>Media, PA" 43.3942907242296 -75.3888984 39.9190305
+"Francis J. Catania Law Library<br/>201 W. Front St.<br/>Media, PA" 43.5147976674245 -75.3914841 39.9201207
+"Elmer Public Library<br/>120 S. Main Street<br/>Elmer, NJ" 43.5670332495943 -75.1684304 39.5930954
+"Richmondtown Library<br/>200 Clarke Avenue<br/>Staten Island, NY" 43.6371690555952 -74.1385933 40.5665508
+"Scotch Plains Public Library<br/>1927 Bartle Avenue<br/>Scotch Plains, NJ" 43.7711319542845 -74.3975457 40.6517169
+"Newtown Public Library<br/>201 Bishop Hollow Rd<br/>Newtown Square, PA" 43.7969488744844 -75.4079429 39.9805933
+"Vineland Public Library<br/>1058 E. Landis Avenue<br/>Vineland, NJ" 44.2052428619694 -75.009258 39.4858831
+"Long Hill Township Free Public Library<br/>917 Valley Road<br/>Gillette, NJ" 44.2577715921793 -74.4774677 40.6697761
+"Bucks County Free Library - Perkasie<br/>491 Arthur Avenue<br/>Perkasie, PA" 44.3105573793515 -75.3002936 40.3689055
+"Lower Providence Community Library<br/>50 Parklane Dr<br/>Eagleville, PA" 44.4461787994376 -75.4077748 40.162357
+"Indian Valley Public Library<br/>100 East Church Ave<br/>Telford, PA" 44.5010867284692 -75.332972 40.329805
+"Bedminster-Far Hills<br/>2336 Lamington Road<br/>Bedminster, NJ" 44.6189561842862 -74.6509279 40.6782139
+"New Dorp Library<br/>309 New Dorp Lane<br/>Staten Island, NY" 44.7184174955954 -74.111969 40.57194
+"J. Lewis Crozer Library<br/>620 Engle St<br/>Chester, PA" 44.7344608634717 -75.3876369 39.837908
+"Tewksbury Township Public Library<br/>31 Old Turnpike Road<br/>Oldwick, NJ" 44.8199456461469 -74.7494373 40.670792
+"Westfield Memorial Library<br/>550 E. Broad Street<br/>Westfield, NJ" 44.8281634467919 -74.3422603 40.6564004
+"Linden Free Public Library<br/>31 E. Henry Street<br/>Linden, NJ" 44.9148680249713 -74.258269 40.6350105
+"Garwood Free Public Library<br/>411 Third Avenue<br/>Garwood, NJ" 44.9555016205221 -74.3267496 40.6546961
+"Cranford Public Library<br/>224 Walnut Avenue<br/>Cranford, NJ" 45.1239125245269 -74.3042797 40.6515803
+"Berkeley Heights Free Public Library<br/>290 Plainfield Avenue<br/>Berkeley Heights, NJ" 45.1783670129856 -74.439609 40.6789083
+"Gloucester County Library - Logan Township<br/>498 Beckett Road<br/>Logan Township, NJ" 45.294555771677 -75.3567136 39.7564653
+"Easttown Library Info Center<br/>720 First Avenue<br/>Berwyn, PA" 45.3908038089126 -75.4414224 40.0440902
+"Milford Public Library<br/>40 Frenchtown-Milford Road<br/>Milford, NJ" 45.5768436743027 -75.0928852 40.5678523
+"Mountainside Free Public Library<br/>1 Constitution Plaza<br/>Mountainside, NJ" 45.6924664093112 -74.3572085 40.6726342
+"Aston Public Library<br/>3270 Concord Road<br/>Aston, PA" 45.8377198691895 -75.4207322 39.8676189
+"Todt Hill-Westerleigh Library<br/>2550 Victory Boulevard<br/>Staten Island, NY" 45.904609468805 -74.1485053 40.6095839
+"Middletown Free Library<br/>21 North Pennell Road<br/>Lima, PA" 46.0949175168803 -75.4393939 39.913693
+"Dongan Hills Library<br/>1617 Richmond Road<br/>Staten Island, NY" 46.0957531825475 -74.1011285 40.590395
+"Roselle Free Public Library<br/>104 W. Fourth Avenue<br/>Roselle, NJ" 46.1972010176507 -74.2632276 40.656548
+"Otto Bruyns Public Library<br/>241 W. Mill Road<br/>Northfield, NJ" 46.231597129092 -74.5557981 39.3671959
+"Bernards Township Library<br/>32 South Maple Avenue<br/>Basking Ridge, NJ" 46.4443217029442 -74.5476893 40.7060141
+"Roselle Park Veterans Memorial Library<br/>404 Chestnut Street<br/>Roselle Park, NJ" 46.7370071547965 -74.2654169 40.6655802
+"High Bridge Public Library<br/>71 Main Street<br/>High Bridge, NJ" 46.8293468226199 -74.896013 40.669149
+"Kenilworth Public Library<br/>548 Boulevard<br/>Kenilworth, NJ" 46.9920491664004 -74.2902812 40.6764772
+"Linwood Public Library<br/>301 Davis Avenue<br/>Linwood, NJ" 47.085990053849 -74.5705 39.354566
+"Woodstown-Pilesgrove Library<br/>14 School Lane<br/>Woodstown, NJ" 47.2866628572885 -75.321509 39.651752
+"Atlantic City Free Public Library<br/>1 N. Tennessee Avenue<br/>Atlantic City, NJ" 47.2917630750016 -74.4280869 39.3621695
+"Bernardsville Public Library<br/>1 Anderson Hill Road<br/>Bernardsville, NJ" 47.3398928123797 -74.5690234 40.7194435
+"Holland Township Free Public Library<br/>129 Spring Mills Road<br/>Milford, NJ" 47.4400465195675 -75.1006263 40.596796
+"Elizabeth Free Public Library<br/>11 South Broad St.<br/>Elizabeth, NJ" 47.4908025619125 -74.2156918 40.6615853
+"South Beach Library<br/>21-25 Robin Road<br/>Staten Island, NY" 47.5179281480416 -74.0634037 40.5956009
+"New Providence Memorial Library<br/>377 Elkwood Avenue<br/>New Providence, NJ" 47.5865509157401 -74.405263 40.7094359
+"Port Richmond Library<br/>75 Bennett Street<br/>Staten Island, NY" 48.0384151429135 -74.1310963 40.637579
+"West New Brighton Library<br/>976 Castleton Avenue<br/>Staten Island, NY" 48.2893741459458 -74.1148269 40.6345188
+"Summit Free Public Library<br/>75 Maple Street<br/>Summit, NJ" 48.4966848995342 -74.3602671 40.715156
+"Union Free Public Library<br/>1980 Morris Avenue<br/>Union, NJ" 48.6036710662369 -74.268983 40.6954356
+"Springfield Free Public Library<br/>66 Mountain Avenue<br/>Springfield, NJ" 48.7830471270108 -74.3132929 40.7094829
+"Stapleton Library<br/>132 Canal St.<br/>Staten Island, NY" 48.8375388835804 -74.0778899 40.6262524
+"Bucks County Free Library - Quakertown Branch<br/>401 West Mill Street<br/>Quakertown, PA" 48.9591891704293 -75.3399387 40.445465
+"Perkiomen Valley Library At Schwenksville<br/>290 Second Street<br/>Schwenksville, PA" 48.9652508781693 -75.464741 40.2547799
+"Coney Island Learning Center<br/>1901 Mermaid Avenue At 19th St.<br/>Brooklyn, NY" 48.9854334292003 -73.9861146 40.576766
+"Malvern Public Library<br/>1 E First Avenue, Suite 2<br/>Malvern, PA" 49.1232086570708 -75.511905 40.0335117
+"Margate City Public Library<br/>8100 Atlantic Avenue<br/>Margate, NJ" 49.1444823093499 -74.4991564 39.3277592
+"Claymont Public Library<br/>3303 Green St., Claymont<br/>Claymont, DE" 49.3569781908609 -75.4640117 39.8027589
+"Harding Township Library<br/>21 Blue Mill Road<br/>New Vernon, NJ" 49.4851291811887 -74.4918264 40.7470729
+"Phoenixville Public Library<br/>183 Second Ave<br/>Phoenixville, PA" 49.6296464746706 -75.514096 40.1288701
+"Brighton Beach Library<br/>16 Brighton First Rd. At Brighton Beach Ave.<br/>Brooklyn, NY" 49.6534008986841 -73.9664412 40.5766314
+"Fort Hamilton Library<br/>9424 Fourth Ave.<br/>Brooklyn, NY" 49.6679203236257 -74.0313474 40.6163661
+"Ulmer Park Library<br/>2602 Bath Ave At 26th Ave<br/>Brooklyn, NY" 49.7429082564249 -73.9886539 40.5926353
+"St. George Library Center<br/>5 Central Avenue<br/>Staten Island, NY" 49.7706384626547 -74.0766745 40.6417392
+"Chathams Joint Free Public Library<br/>214 Main Street<br/>Chatham, NJ" 49.9633813974925 -74.3807786 40.7406222
+"Millburn Free Public Library<br/>200 Glen Avenue<br/>Millburn, NJ" 50.0245552563713 -74.3062522 40.7266191
+"New Utrecht Library<br/>1743 86th St. At Bay 17th St.<br/>Brooklyn, NY" 50.0890547401451 -74.0033984 40.6079897
+"Gravesend Library<br/>303 Ave. X At West. 2nd St.<br/>Brooklyn, NY" 50.2010220928697 -73.9718017 40.5905889
+"Dyker Library<br/>8202 13th Ave. ( 82nd St.)<br/>Brooklyn, NY" 50.2871433598936 -74.011543 40.616345
+"Millville Public Library<br/>210 Buck Street<br/>Millville, NJ" 50.3264906013456 -75.041346 39.398169
+"Madison Public Library<br/>39 Keep Street<br/>Madison, NJ" 50.4096823564529 -74.4137344 40.7522362
+"Bucks County Free Library - Riegelsville Public Library<br/>615 Easton Road<br/>Riegelsville, PA" 50.4713254454033 -75.1959591 40.596369
+"Bayonne Free Public Library<br/>697 Avenue C<br/>Bayonne, NJ" 50.492757064288 -74.1155687 40.6717093
+"Highlawn Library<br/>1664 W. 13th St. At Kings Highway<br/>Brooklyn, NY" 50.5242915386879 -73.9862328 40.6056972
+"Sheepshead Bay Library<br/>2636 E.14th St. At Ave. Z<br/>Brooklyn, NY" 50.5739598623511 -73.9554271 40.5869957
+"Bay Ridge Library<br/>7223 Ridge Blvd. At 73rd St.<br/>Brooklyn, NY" 50.6936089377545 -74.0295368 40.6336536
+"Maplewood Memorial Library<br/>51 Baker Street<br/>Maplewood, NJ" 50.7020473248119 -74.2756549 40.7293933
+"Rachel Kohl Community Library<br/>687 Smithbridge Road<br/>Glen Mills, PA" 50.7099828835183 -75.5148227 39.8658112
+"Homecrest Library<br/>2525 Coney Island Ave. At Ave. V<br/>Brooklyn, NY" 50.8270976216159 -73.9605949 40.595231
+"Mckinley Park Library<br/>6802 Fort Hamilton Pkwy (At 68th St.)<br/>Brooklyn, NY" 50.9886991441635 -74.0118895 40.6292075
+"Mendham Free Public Library<br/>10 Hilltop Road<br/>Mendham, NJ" 51.1726210510941 -74.5999202 40.7748571
+"Mapleton Library<br/>1702 60th Street<br/>Brooklyn, NY" 51.3668136198756 -73.989456 40.6231592
+"Royersford Free Public Library<br/>200 South Fourth Avenue<br/>Royersford, PA" 51.4305739153884 -75.5369408 40.1837427
+"Ryder Library<br/>5902 23rd Ave. (Bet. 23rd Ave. At 59th St.)<br/>Brooklyn, NY" 51.4396430721399 -73.997939 40.629425
+"Kings Bay Library<br/>3650 Nostrand Ave. (Near Ave. W)<br/>Brooklyn, NY" 51.4746711229159 -73.9411479 40.5948004
+"Gerritsen Beach Library<br/>2808 Gerritsen Ave. ( Bartlett Place)<br/>Brooklyn, NY" 51.7531647966384 -73.9256908 40.589674
+"Sunset Park Library<br/>5108 4th Ave. At 51st St.<br/>Brooklyn, NY" 51.8682579839342 -74.0136641 40.6459186
+"Kings Highway Library<br/>2115 Ocean Ave.<br/>Brooklyn, NY" 51.8729777386889 -73.9531128 40.6102427
+"Kensington Library<br/>410 Ditmas Ave. Between East 4th East 5th St.<br/>Brooklyn, NY" 51.9248291969698 -73.9716266 40.62276
+"Spring City Free Public Library<br/>245 Broad St<br/>Spring City, PA" 51.9986845276115 -75.549451 40.1775499
+"Chester Library<br/>250 West Main Street<br/>Chester, NJ" 52.0249522208643 -74.7066139 40.7814945
+"South Orange Public Library<br/>65 Scotland Road<br/>South Orange, NJ" 52.1727986651127 -74.2572559 40.7470652
+"Borough Park Library<br/>1265 43rd St. At 13th Ave.<br/>Brooklyn, NY" 52.2438204647998 -73.9890102 40.6388766
+"Midwood Library<br/>975 East 16th St. At Avenue J<br/>Brooklyn, NY" 52.4641682353635 -73.9604005 40.625907
+"Mendham Township Library<br/>2 East Main Street<br/>Brookside, NJ" 52.5463750678314 -74.5682723 40.7947117
+"Brandywine Hundred Branch<br/>1300 Foulk Road<br/>Wilmington, DE" 52.5519791264533 -75.5243867 39.7956108
+"Florham Park Free Public Library<br/>107 Ridgedale Avenue<br/>Florham Park, NJ" 52.6491430751648 -74.3997163 40.7831927
+"Morristown-Morris Twp Joint Public Library<br/>1 Miller Road<br/>Morristown, NJ" 52.7752515533498 -74.4785452 40.7938506
+"Upper Perkiomen Valley Library<br/>350 Main Street<br/>Red Hill, PA" 52.8244804580608 -75.4807628 40.3735748
+"Ocean City Free Public Library<br/>1735 Simpson Avenue<br/>Ocean City, NJ" 52.8396640650906 -74.5902465 39.2713175
+"W.H. Walters Free Public Library<br/>1001 East Blvd<br/>Alpha, NJ" 53.0266694566943 -75.160951 40.6633349
+"Flatlands Library<br/>2065 Flatbush Ave. At Ave. P<br/>Brooklyn, NY" 53.0513815136263 -73.9332112 40.6197623
+"Cortelyou Library<br/>1305 Cortelyou Rd. At Argyle Rd.<br/>Brooklyn, NY" 53.0877599418004 -73.9659493 40.6407953
+"Windsor Terrace Library<br/>160 E. 5th St. At Ft. Hamilton Pkwy.<br/>Brooklyn, NY" 53.1741290991285 -73.9767736 40.6487139
+"Clarendon Library<br/>2035 Nostrand Ave.<br/>Brooklyn, NY" 53.414016114593 -73.9476558 40.6357407
+"North Wilmington Library<br/>3400 North Market St.<br/>Wilmington, DE" 53.5787248990109 -75.5271712 39.7580572
+"Mill Basin Library<br/>2385 Ralph Ave (Near Ave N)<br/>Brooklyn, NY" 53.6134781430007 -73.9169737 40.6198366
+"Red Hook Library<br/>7 Wolcott St. At Dwight St.<br/>Brooklyn, NY" 53.6272107085139 -74.0103309 40.675218
+"Ruth L. Rockwood Memorial Library<br/>10 Robert H. Harp Drive<br/>Livingston, NJ" 53.6420919060786 -74.3158182 40.783199
+"Newark Public Library<br/>5 Washington Street<br/>Newark, NJ" 53.6934807990638 -74.1707295 40.7445732
+"Cumberland County Library<br/>800 E. Commerce Street<br/>Bridgeton, NJ" 53.710801370077 -75.2064581 39.4235901
+"Washington Twp Public Library-Morris<br/>37 E. Springtown Road<br/>Long Valley, NJ" 53.797612591857 -74.79493 40.7962041
+"East Orange Public Library<br/>21 S. Arlington Avenue<br/>East Orange, NJ" 53.8449923345203 -74.2119451 40.7600648
+"Rugby Library<br/>1000 Utica Ave. (Near Tilden Ave.)<br/>Brooklyn, NY" 53.8974282932426 -73.9510752 40.6467978
+"Flatbush Library<br/>22 Linden Blvd. At Flatbush Ave.<br/>Brooklyn, NY" 53.9419526297858 -73.9582713 40.6519152
+"Park Slope Library<br/>431 6th Ave. At 9th St.<br/>Brooklyn, NY" 54.0482930408837 -73.9834295 40.6682254
+"Harrison Public Library<br/>415 Harrison Avenue<br/>Harrison, NJ" 54.164329727939 -74.1551603 40.7466873
+"Paerdegat Library<br/>850 E. 59th St. At Paerdegat Ave. South<br/>Brooklyn, NY" 54.1791411672737 -73.9199872 40.632631
+"Bridgeton Free Public Library<br/>150 E. Commerce Street<br/>Bridgeton, NJ" 54.2860237970296 -75.2318444 39.428565
+"Science, Industry And Business Library<br/>188 Madison Avenue 34th Street<br/>New York, NY" 54.2970438972432 -73.9457533 40.6509676
+"The Orange Public Library<br/>348 Main Street<br/>Orange, NJ" 54.3096330382733 -74.2314808 40.7728741
+"Hellertown Area Library<br/>409 Constitution Ave<br/>Hellertown, PA" 54.3983352312958 -75.3313427 40.5773828
+"Queens Borough Public Library - Seaside<br/>116-15 Rockaway Beach Boulevard<br/>Rockaway Park, NY" 54.492154357858 -73.8377668 40.5795951
+"Carroll Gardens Library<br/>396 Clinton St. Union St.<br/>Brooklyn, NY" 54.501183118985 -73.9916222 40.6807328
+"West Chester Public Library<br/>415 North Church St<br/>West Chester, PA" 54.5057081098653 -75.6087451 39.9635084
+"West Orange Free Public Library<br/>46 Mt. Pleasant Avenue<br/>West Orange, NJ" 54.5433305888427 -74.2402907 40.7788707
+"Washington Public Library<br/>20 W. Carlton Avenue<br/>Washington, NJ" 54.5853576596089 -74.9848149 40.7629933
+"Brooklyn Public Library<br/>10 Grand Army Plaza<br/>Brooklyn, NY" 54.7447125643222 -73.9681011 40.6721709
+"Crown Heights Library<br/>560 New York Ave. At Maple St.<br/>Brooklyn, NY" 54.7752228960653 -73.9481499 40.6612033
+"Southern Lehigh Public Library<br/>3200 Preston Lane<br/>Center Valley, PA" 54.7761890028473 -75.3885183 40.5359812
+"Randolph Township Free Public Library<br/>28 Calais Road<br/>Randolph, NJ" 54.7954090680883 -74.5916785 40.8273047
+"Chester County Library<br/>450 Exton Square Parkway<br/>Exton, PA" 54.8909002941591 -75.620791 40.0321235
+"Wilmington Institute Library<br/>10th And Market Streets<br/>Wilmington, DE" 54.913480526663 -75.5477358 39.7455423
+"Pacific Library<br/>25 Fourth Ave. At Pacific St.<br/>Brooklyn, NY" 55.0531491003821 -73.9785554 40.6834782
+"Morris County Library<br/>30 E. Hanover Avenue<br/>Whippany, NJ" 55.0643248431368 -74.4140416 40.8205773
+"Morris Plains Library<br/>77 Glenbrook Road<br/>Morris Plains, NJ" 55.1074508009037 -74.4865481 40.8283453
+"Jersey City Free Public Library<br/>472 Jersey Avenue<br/>Jersey City, NJ" 55.1175585933986 -74.0473159 40.7189141
+"Chester Springs Library<br/>1685a Art School Road<br/>Chester Springs, PA" 55.1212983932522 -75.6221908 40.1002579
+"Kearny Public Library<br/>318 Kearny Avenue<br/>Kearny, NJ" 55.2043681042802 -74.1498335 40.7613821
+"Jamaica Bay Library<br/>9727 Seaview Ave. At E. 98th St.<br/>Brooklyn, NY" 55.3349282549471 -73.889304 40.6344877
+"Brooklyn Heights Library<br/>280 Cadman Plaza West At Tillary St.<br/>Brooklyn, NY" 55.3593604221725 -73.9913921 40.6957321
+"Business Library<br/>280 Cadman Plaza W. At Tillary St.<br/>Brooklyn, NY" 55.3593604221725 -73.9913921 40.6957321
+"Canarsie Library<br/>1580 Rockaway Pkwy. At Ave. J<br/>Brooklyn, NY" 55.3816019008675 -73.8995356 40.6422096
+"Brower Park Library<br/>725 St. Marks Ave. At Nostrand Ave.<br/>Brooklyn, NY" 55.5375372220664 -73.9485709 40.6753677
+"East Flatbush Library<br/>9612 Church Ave. At. Rockaway Pkwy.<br/>Brooklyn, NY" 55.5626750240176 -73.9150503 40.6556168
+"Whippanong Library-Hanover Township<br/>1000 Route 10<br/>Whippany, NJ" 55.595853641331 -74.433382 40.8306327
+"Queens Borough Public Library - Peninsula<br/>92-25 Rockaway Beach Boulevard<br/>Rockaway Beach, NY" 55.6190656379575 -73.8160591 40.5858414
+"Bedford Learning Center<br/>496 Franklin Avenue<br/>Brooklyn, NY" 55.6523310399889 -73.9562073 40.6818136
+"Clinton Hill Library<br/>380 Washington Ave. At Lafayette Ave.<br/>Brooklyn, NY" 55.6566904386292 -73.9660288 40.6873791
+"Eastern Parkway Learning Center<br/>1044 Eastern Parkway<br/>Brooklyn, NY" 55.6568371163978 -73.9338405 40.6688876
+"Eastern Parkway Library<br/>1044 Eastern Pkwy. At Schenectady Ave.<br/>Brooklyn, NY" 55.6568371163978 -73.9338405 40.6688876
+"Walt Whitman Library<br/>93 Saint Edwards St.<br/>Brooklyn, NY" 55.6981092674626 -73.977734 40.6944792
+"Phillipsburg Free Public Library<br/>200 Frost Avenue<br/>Phillipsburg, NJ" 55.7399802606533 -75.1805205 40.7007939
+"Battery Park City Library<br/>175 North End Avenue<br/>New York, NY" 55.7946224133693 -74.0158532 40.7156137
+"Woodlawn Library<br/>2020 West Ninth Street<br/>Wilmington, DE" 55.8986877110902 -75.5717688 39.7537972
+"New Amsterdam Library<br/>9 Murray Street<br/>New York, NY" 55.9051768582159 -74.0079468 40.7136425
+"Orleans Public Library<br/>36263 Nys Route 180<br/>Lafargeville, NY" 55.9129701824974 -74.0059413 40.7127837
+"East Hanover Township Free Public Library<br/>415 Ridgedale Avenue<br/>East Hanover, NJ" 55.9500800472685 -74.3606938 40.8258885
+"Queens Borough Public Library - Broad Channel<br/>16-26 Cross Bay Boulevard<br/>Broad Channel, NY" 56.175423525975 -73.8200546 40.6007441
+"Chatham Square Library<br/>33 East Broadway<br/>New York, NY" 56.2175834182148 -73.9964916 40.7133319
+"Easton Area Public Library<br/>515 Church St<br/>Easton, PA" 56.2578012851343 -75.2136442 40.6921216
+"Marcy Library<br/>617 Dekalb Ave. At Nostrand Ave.<br/>Brooklyn, NY" 56.3500212986022 -73.9512907 40.6916092
+"Stone Avenue Library<br/>581 Mother Gaston Boulevard<br/>Brooklyn, NY" 56.3655422738755 -73.9051607 40.6644738
+"Macon Library<br/>361 Lewis Ave. At Macon St.<br/>Brooklyn, NY" 56.3974047144933 -73.9347867 40.683018
+"Pennsville Public Library<br/>190 S. Broadway<br/>Pennsville, NJ" 56.4181466783371 -75.517563 39.6455125
+"Spring Creek Library<br/>12143 Flatlands Ave. At New Jersey Ave.<br/>Brooklyn, NY" 56.4337941554613 -73.8855726 40.6531559
+"Bloomfield Public Library<br/>90 Broad Street<br/>Bloomfield, NJ" 56.4628871142608 -74.1981795 40.7966252
+"Seward Park Library<br/>192 East Broadway<br/>New York, NY" 56.5145779068551 -73.9885345 40.7144619
+"Mount Olive Public Library<br/>202 Flanders-Drakestown Road<br/>Flanders, NJ" 56.6167650948269 -74.7416159 40.844862
+"Brownsville Library<br/>61 Glenmore Ave. At Watkins St.<br/>Brooklyn, NY" 56.6250201786125 -73.9083882 40.6713447
+"Roseland Free Public Library<br/>20 Roseland Avenue<br/>Roseland, NJ" 56.6472625919274 -74.2914125 40.8231412
+"Glen Ridge Free Public Library<br/>240 Ridgewood Avenue<br/>Glen Ridge, NJ" 56.6709915300674 -74.2040282 40.8015508
+"Garfield Park Lending Library<br/>26 Karlyn Drive<br/>New Castle, DE" 56.7808999150822 -75.5617829 39.7018997
+"Belleville Public Library<br/>221 Washington Avenue<br/>Belleville, NJ" 56.8495778818734 -74.1527577 40.788446
+"Mulberry Street Library<br/>10 Jersey Street<br/>New York, NY" 56.8604841496359 -73.995619 40.7240336
+"Mary Meuser Memorial Library<br/>1803 Northampton St<br/>Easton, PA" 56.8820855344303 -75.237458 40.6898536
+"Salem Free Public Library<br/>112 W. Broadway<br/>Salem, NJ" 56.9051132488507 -75.4700164 39.5727211
+"Hudson Park Library<br/>66 Leroy Street<br/>New York, NY" 56.929971846663 -74.0053193 40.7299913
+"Hoboken Public Library<br/>500 Park Avenue<br/>Hoboken, NJ" 56.9481577813892 -74.0323081 40.7429535
+"Parsippany-Troy Hills Public Library<br/>449 Halsey Road<br/>Parsippany, NJ" 56.9865733870107 -74.4528382 40.8528933
+"Williamsburgh Library<br/>240 Division Ave. At Marcy Ave.<br/>Brooklyn, NY" 57.0119147332574 -73.9575752 40.7069161
+"New Lots Library<br/>665 New Lots Ave. At Barbey St.<br/>Brooklyn, NY" 57.0443769965296 -73.886118 40.6651545
+"Montclair Public Library<br/>50 S. Fullerton Avenue<br/>Montclair, NJ" 57.0571974747712 -74.2187774 40.8116415
+"Hamilton Fish Park Library<br/>415 East Houston Street<br/>New York, NY" 57.057617665492 -73.9796204 40.719371
+"Saratoga Library<br/>8 Thomas S. Boyland St. At Macon St.<br/>Brooklyn, NY" 57.1284392476816 -73.9151493 40.6848011
+"Queens Borough Public Library - Arverne<br/>312 Beach 54 Street<br/>Arverne, NY" 57.1975763747767 -73.7840725 40.5931314
+"Dekalb Library<br/>790 Bushwick Ave. At Dekalb Ave.<br/>Brooklyn, NY" 57.2491230421589 -73.9283989 40.6948198
+"North Arlington Public Library<br/>210 Ridge Road<br/>North Arlington, NJ" 57.2853409770686 -74.1328984 40.7885967
+"Jefferson Market Library<br/>425 Avenue Of The Americas<br/>New York, NY" 57.3717170984047 -73.999148 40.7345794
+"Ottendorfer Library<br/>135 Second Avenue<br/>New York, NY" 57.3721729812957 -73.9877994 40.7289895
+"Oxford Public Library<br/>42 Washington Avenue<br/>Oxford, NJ" 57.39790386808 -74.9974979 40.803041
+"Bushwick Library<br/>340 Bushwick Ave. At Seigel St.<br/>Brooklyn, NY" 57.4337048556866 -73.9396345 40.7045588
+"Tompkins Square Library<br/>331 East 10th Street<br/>New York, NY" 57.4883225869239 -73.9804103 40.7272833
+"Leonard Library<br/>81 Devoe St. At Leonard St.<br/>Brooklyn, NY" 57.6848804585271 -73.9479543 40.7136562
+"Elsmere Public Library<br/>30 Spruce Ave<br/>Elsmere, DE" 57.7573012262736 -75.602844 39.7410352
+"Roxbury Township Public Library<br/>103 Main Street<br/>Succasunna, NJ" 57.7645744588582 -74.6385169 40.8692319
+"Pottstown Public Library<br/>500 High Street<br/>Pottstown, PA" 57.7815713053893 -75.6421786 40.2446213
+"Arlington Library<br/>203 Arlington Ave. At Warwick St.<br/>Brooklyn, NY" 57.8281274588895 -73.887259 40.6806825
+"Cypress Hills Library<br/>1197 Sutter Ave. At Crystal St.<br/>Brooklyn, NY" 57.8531992001083 -73.8740351 40.6727044
+"Andrew Heiskell Braille And Talking Book Library<br/>40 West 20th Street<br/>New York, NY" 57.8784093719101 -73.9933594 40.7404679
+"Caldwell Free Public Library<br/>268 Bloomfield Avenue<br/>Caldwell, NJ" 57.8934323735998 -74.2744388 40.8381718
+"Washington Irving Library<br/>360 Irving Ave.<br/>Brooklyn, NY" 57.9129528727653 -73.912237 40.697487
+"Hackettstown Free Public Library<br/>110 Church Street<br/>Hackettstown, NJ" 57.9308867766218 -74.8282543 40.8518325
+"Verona Free Public Library<br/>17 Gould Street<br/>Verona, NJ" 57.980998535391 -74.2463896 40.8329159
+"Muhlenberg Library<br/>209 West 23rd Street<br/>New York, NY" 58.0401767380705 -73.9959596 40.7445045
+"Epiphany Library<br/>228 East 23rd Street<br/>New York, NY" 58.0650252279134 -73.982094 40.7381356
+"Bethlehem Area Public Library<br/>11 West Church St<br/>Bethlehem, PA" 58.1642946330109 -75.3790404 40.6183089
+"New Castle Public Library<br/>424 Delaware Street<br/>New Castle, DE" 58.1979892243656 -75.5658545 39.6608919
+"Greenpoint Library<br/>107 Norman Ave. At Leonard St.<br/>Brooklyn, NY" 58.2971308910932 -73.9507252 40.726017
+"Elsmere Public Library<br/>30 Spruce Ave.<br/>Wilmington, DE" 58.3289658428855 -75.6012638 39.7157123
+"Kips Bay Library<br/>446 Third Avenue<br/>New York, NY" 58.4571563408525 -73.9799163 40.743833
+"West Caldwell Public Library<br/>30 Clinton Road<br/>West Caldwell, NJ" 58.4585153901076 -74.2937424 40.850816
+"Queens Borough Public Library - Howard Beach<br/>92-06 156 Avenue<br/>Howard Beach, NY" 58.5092445510378 -73.8418181 40.6638022
+"Nutley Free Public Library<br/>93 Booth Drive<br/>Nutley, NJ" 58.5585900159048 -74.158914 40.817314
+"Queens Borough Public Library - Ridgewood<br/>20-12 Madison Street<br/>Ridgewood, NY" 58.6437219179862 -73.9025802 40.7051742
+"Weehawken Free Public Library<br/>49 Hauxhurst Avenue<br/>Weehawken, NJ" 58.7448204891639 -74.0231377 40.7690276
+"Mid-Manhattan Library<br/>455 Fifth Avenue<br/>New York, NY" 58.873153626861 -73.9817055 40.7518863
+"Dover Free Public Library<br/>32 E. Clinton Street<br/>Dover, NJ" 58.8955935768715 -74.5571592 40.8863457
+"Queens Borough Public Library - Far Rockaway<br/>1637 Central Avenue<br/>Far Rockaway, NY" 58.9494300417573 -73.7524653 40.6043065
+"Lyndhurst Free Public Library<br/>355 Valley Brook Avenue<br/>Lyndhurst, NJ" 58.9669574619276 -74.124708 40.8124892
+"Downingtown Library Company<br/>330 East Lancaster Ave<br/>Downingtown, PA" 59.0412005099186 -75.6984148 40.0083179
+"Emmaus Public Library<br/>11 East Main St<br/>Emmaus, PA" 59.096719210813 -75.4868087 40.5412001
+"Grand Central Library<br/>135 East 46th Street<br/>New York, NY" 59.2203212038981 -73.9735422 40.7538568
+"Queens Borough Public Library - Ozone Park<br/>92-24 Rockaway Boulevard<br/>Ozone Park, NY" 59.2277379187563 -73.8464504 40.6808646
+"Union City Public Library<br/>324 43rd Street<br/>Union City, NJ" 59.2608072576757 -74.0231736 40.7776788
+"Boyertown Community Library<br/>29 E Philadelphia Ave<br/>Boyertown, PA" 59.2925960641918 -75.6363833 40.3332182
+"Secaucus Free Public Library<br/>1379 Paterson Plank Road<br/>Secaucus, NJ" 59.3341592230353 -74.0591595 40.794015
+"Columbus Library<br/>742 10th Avenue<br/>New York, NY" 59.3686096746513 -73.991217 40.7649393
+"Queens Borough Public Library - Glendale<br/>78-60 73 Place<br/>Glendale, NY" 59.3801152960607 -73.8758153 40.7025962
+"Terence Cardinal Cooke-Cathedral Library<br/>560 Lexington Avenue<br/>New York, NY" 59.4201626459028 -73.972596 40.7568378
+"Queens Borough Public Library - Woodhaven<br/>85-41 Forest Parkway<br/>Woodhaven, NY" 59.4320043905998 -73.8614468 40.694541
+"Mountain Lakes Free Public Library<br/>9 Elm Road<br/>Mountain Lakes, NJ" 59.4556214562076 -74.4337966 40.8870217
+"Queens Borough Public Library - Court Square<br/>25-01 Jackson Avenue<br/>Long Island City, NY" 59.6936215953611 -73.9443527 40.7472594
+"Wharton Public Library<br/>15 S. Main Street<br/>Wharton, NJ" 59.7101734825983 -74.583786 40.8983739
+"Department Of Community Services<br/>87 Reads Way<br/>New Castle, DE" 59.7238957056827 -75.6130469 39.6858807
+"Queens Borough Public Library - Middle Village<br/>72-31 Metropolitan Avenue<br/>Middle Village, NY" 59.7697280256908 -73.8808903 40.7129338
+"Briarcliffe College Library - Queens<br/>30-30 Thomson Ave., Suite 502<br/>Long Island City, NY" 59.8003962320959 -73.9358808 40.744674
+"58th Street Library<br/>127 East 58th Street<br/>New York, NY" 59.8119045720455 -73.969306 40.7619724
+"Denville Free Public Library<br/>121 Diamond Spring Road<br/>Denville, NJ" 59.8649371213286 -74.473464 40.8964859
+"Rockaway Borough Free Public Library<br/>82 E. Main Street<br/>Rockaway, NJ" 59.890769738343 -74.508698 40.899067
+"Queens Borough Public Library - Sunnyside<br/>43-06 Greenpoint Avenue<br/>Long Island City, NY" 60.014435040076 -73.9216715 40.7408133
+"New York Public Library For The Performing Arts, Dorothy And Lewis B. Cullman Center<br/>40 Lincoln Center Plaza<br/>New York, NY" 60.0234781392367 -73.984202 40.7727831
+"West New York Free Public Library<br/>425 60th Street<br/>West New York, NJ" 60.0879635747211 -74.0154681 40.7881182
+"Riverside Library<br/>127 Amsterdam Avenue<br/>New York, NY" 60.0995071543135 -73.9845171 40.7742272
+"Queens Borough Public Library - Maspeth<br/>69-70 Grand Avenue<br/>Maspeth, NY" 60.1409175712504 -73.8930921 40.7269804
+"Queens Borough Public Library - Queensbridge Family Literacy Center<br/>10-43 41 Ave<br/>Long Island City, NY" 60.141480488379 -73.944168 40.7550159
+"Queens Borough Public Library - South Ozone Park<br/>128-16 Rockaway Boulevard<br/>South Ozone Park, NY" 60.2248806729516 -73.8092584 40.6747848
+"Rutherford Free Public Library<br/>150 Park Avenue<br/>Rutherford, NJ" 60.2278491067148 -74.1070098 40.826404
+"67th Street Library<br/>328 East 67th Street<br/>New York, NY" 60.2616183611832 -73.9595554 40.7649133
+"Queens Borough Public Library - Lefferts<br/>103-34 Lefferts Boulevard<br/>Richmond Hill, NY" 60.2916538758803 -73.824811 40.6868679
+"Peninsula Public Library<br/>280 Central Avenue<br/>Lawrence, NY" 60.3149046546363 -73.732167 40.6166822
+"Roosevelt Island Library<br/>524 Main Street<br/>New York, NY" 60.3195430065802 -73.9502064 40.7612182
+"Queens Borough Public Library - Long Island City<br/>37-44 21 Street<br/>Long Island City, NY" 60.4451273567267 -73.9393048 40.7578145
+"Montville Township Public Library<br/>90 Horseneck Road<br/>Montville, NJ" 60.4783066461413 -74.358405 40.8924049
+"Queens Borough Public Library - North Forest Park<br/>98-27 Metropolitan Avenue<br/>Forest Hills, NY" 60.5757491295001 -73.8535999 40.7111214
+"Warren County Library<br/>199 Hardwick Street<br/>Belvidere, NJ" 60.6331030836498 -75.0756694 40.8279551
+"Queens Borough Public Library - Woodside<br/>54-22 Skillman Avenue<br/>Woodside, NY" 60.6360087698537 -73.909742 40.7453585
+"Belvidere Free Public Library<br/>301 Second Street<br/>Belvidere, NJ" 60.6564808085945 -75.078659 40.827251
+"Queens Borough Public Library - Ravenswood Family Literacy Center<br/>35-32 21 St.<br/>Long Island City, NY" 60.6945650919089 -73.9364173 40.7606871
+"Rockaway Township Free Public Library<br/>61 Mount Hope Road<br/>Rockaway, NJ" 60.7237125358692 -74.5315772 40.9121059
+"Queens Borough Public Library - Richmond Hill<br/>118-14 Hillside Avenue<br/>Richmond Hill, NY" 60.7749418994229 -73.8316759 40.7007782
+"East Rutherford Memorial Library<br/>143 Boiling Springs Avenue<br/>East Rutherford, NJ" 60.8022122797533 -74.0989796 40.8327367
+"Webster Library<br/>1465 York Avenue<br/>New York, NY" 60.8299735846379 -73.9513239 40.7706452
+"Anthony Pio Costa Memorial Library<br/>261 Hollywood Avenue<br/>Fairfield, NJ" 60.8424959322289 -74.3003089 40.8877716
+"Yorkville Library<br/>222 East 79th Street<br/>New York, NY" 60.8554491261431 -73.9564059 40.773613
+"Boonton Holmes Public Library<br/>621 Main Street<br/>Boonton, NJ" 60.8644529106411 -74.4109676 40.9051125
+"St. Agnes Library<br/>444 Amsterdam Avenue<br/>New York, NY" 60.9183812747071 -73.9774581 40.7848436
+"Bayard Taylor Memorial Library<br/>216 East State Street<br/>Kennett Square, PA" 61.0707825764078 -75.7094999 39.8471321
+"Queens Borough Public Library - Rego Park<br/>91-41 63 Drive<br/>Rego Park, NY" 61.0829622701767 -73.864483 40.727299
+"Queens Borough Public Library - Broadway<br/>40-20 Broadway<br/>Long Island City, NY" 61.1025674896861 -73.9186052 40.7584821
+"Lower Macungie Library<br/>3450 Brookside Road<br/>Macungie, PA" 61.152042667044 -75.5486888 40.5254576
+"Queens Borough Public Library - Elmhurst<br/>86-01 Broadway<br/>Elmhurst, NY" 61.2794737746422 -73.8774138 40.7386066
+"William E. Dermody Free Public Library<br/>420 Hackensack Street<br/>Carlstadt, NJ" 61.2961881006408 -74.0915767 40.8379983
+"Allentown Public Library<br/>1210 Hamilton St<br/>Allentown, PA" 61.3423537603489 -75.4821354 40.5989864
+"North Bergen Free Public Library<br/>8411 Bergenline Avenue<br/>North Bergen, NJ" 61.3702842973253 -74.0047865 40.8048567
+"Little Falls Public Library<br/>8 Warren Street<br/>Little Falls, NJ" 61.4046207495822 -74.2289974 40.8806788
+"Queens Borough Public Library - Forest Hills<br/>108-19 71 Avenue<br/>Forest Hills, NY" 61.5143427764506 -73.8430593 40.7221239
+"Mount Arlington Public Library<br/>333 Howard Boulevard<br/>Mount Arlington, NJ" 61.5309806214719 -74.634254 40.923888
+"Queens Borough Public Library - Rochdale Village<br/>169-09 137 Avenue<br/>Jamaica, NY" 61.5312154093735 -73.7706076 40.6728801
+"Keene Valley Public Library<br/>1796 Main Street<br/>Keene Valley, NY" 61.5538646367241 -73.7107727 40.6253474
+"Queens Borough Public Library - Astoria<br/>14-01 Astoria Boulevard<br/>Astoria, NY" 61.5895029996339 -73.928729 40.772379
+"Queens Borough Public Library - Jackson Heights<br/>35-51 81 Street<br/>Jackson Heights, NY" 61.6713028259908 -73.8850957 40.7501579
+"Hockessin Public Library<br/>1023 Valley Rd.<br/>Hockessin, DE" 61.6714498800175 -75.7012941 39.7882881
+"Queens Borough Public Library - Briarwood<br/>85-12 Main Street<br/>Briarwood, NY" 61.6778508803775 -73.8194822 40.7100374
+"Queens Borough Public Library - Baisley Park<br/>117-11 Sutphin Boulevard<br/>Jamaica, NY" 61.6794248254245 -73.808212 40.702528
+"Long Beach Public Library<br/>111 West Park Avenue<br/>Long Beach, NY" 61.6918761798847 -73.6675234 40.5888822
+"96th Street Library<br/>112 East 96th Street<br/>New York, NY" 61.7023109627929 -73.951815 40.7859538
+"Queens Borough Public Library - Lefrak City<br/>98-30 57 Avenue<br/>Corona, NY" 61.7251009156871 -73.861654 40.737453
+"Passaic Public Library<br/>195 Gregory Avenue<br/>Passaic, NJ" 61.7617367433543 -74.1277878 40.8576406
+"Bloomingdale Library<br/>150 West 100th Street<br/>New York, NY" 61.8379968013082 -73.9675932 40.7958544
+"Queens Borough Public Library - South Jamaica<br/>108-41 Guy R. Brewer Boulevard<br/>Jamaica, NY" 61.9483367426625 -73.7905006 40.6955751
+"John F. Kennedy Memorial Library<br/>92 Hathaway Street<br/>Wallington, NJ" 61.9545341519546 -74.1136238 40.8560431
+"Memorial Library Of Nazareth Vicinity<br/>295 E Center St<br/>Nazareth, PA" 61.9962192033704 -75.3064221 40.7428798
+"Queens Borough Public Library - Rosedale<br/>144-20 243 Street<br/>Rosedale, NY" 62.0475979822695 -73.7399068 40.6599629
+"Wood-Ridge Memorial Library<br/>231 Hackensack Street<br/>Wood-Ridge, NJ" 62.1513808011694 -74.0818308 40.8481887
+"Hewlett-Woodmere Public Library<br/>1125 Broadway<br/>Hewlett, NY" 62.1903563633729 -73.7044787 40.6338462
+"Fairview Free Public Library<br/>213 Anderson Avenue<br/>Fairview, NJ" 62.2652799571282 -73.9957704 40.8158566
+"Kirkwood Highway Public Library<br/>6000 Kirkwood Highway<br/>Wilmington, DE" 62.2783469620481 -75.6787749 39.7108666
+"Delaware City Public Library<br/>250 Fifth Street<br/>Delaware City, DE" 62.4003553604656 -75.5921141 39.572094
+"Queens Borough Public Library - Central Library<br/>89-11 Merrick Boulevard<br/>Jamaica, NY" 62.4056367961782 -73.7952485 40.7078133
+"Queens Borough Public Library - Steinway<br/>21-45 31 Street<br/>Astoria, NY" 62.4194272190684 -73.9096802 40.7769984
+"Aguilar Library<br/>174 East 110th Street<br/>New York, NY" 62.421506418938 -73.943436 40.7942325
+"Queens Borough Public Library - Corona<br/>38-23 104 Street<br/>Corona, NY" 62.4367509141476 -73.8621719 40.7508253
+"Queens Borough Public Library - Kew Gardens Hills<br/>72-33 Vleigh Place<br/>Flushing, NY" 62.4678814322748 -73.820746 40.725927
+"Morningside Heights<br/>2900 Broadway<br/>New York, NY" 62.5190422228745 -73.9647098 40.8060839
+"Carbon County Bookmobile Library<br/>150 West Main Street (Rear)<br/>Wellington, UT" 62.5553304266437 -75.4618937 40.643846
+"Queens Borough Public Library - Langston Hughes<br/>100-01 Northern Boulevard<br/>Corona, NY" 62.6098858751988 -73.8680937 40.7574288
+"115th Street Library<br/>203 West 115th Street<br/>New York, NY" 62.646538429571 -73.9535359 40.8029812
+"Queens Borough Public Library - Laurelton<br/>134-26 225 Street<br/>Laurelton, NY" 62.6525941502718 -73.745699 40.676964
+"Queens Borough Public Library - East Elmhurst<br/>95-06 Astoria Boulevard<br/>East Elmhurst, NY" 62.70313710877 -73.8738709 40.762427
+"Island Park Public Library<br/>176 Long Beach Road<br/>Island Park, NY" 62.7308060326496 -73.6561452 40.6021842
+"Cliffside Park Free Public Library<br/>505 Palisade Avenue<br/>Cliffside Park, NJ" 62.7481919054059 -73.9887003 40.8208236
+"Clifton Public Library<br/>292 Piaget Avenue<br/>Clifton, NJ" 62.86355753243 -74.1468795 40.8807939
+"Queens Borough Public Library - St. Albans<br/>191-05 Linden Boulevard<br/>St. Albans, NY" 62.8884722226449 -73.7601285 40.6925237
+"Alfred H. Baumann Library-West Paterso<br/>7 Brophy Lane<br/>Woodland Park, NJ" 62.9231179059246 -74.1993902 40.8963727
+"Ridgefield Free Public Library<br/>527 Morse Avenue<br/>Ridgefield, NJ" 63.0022247508545 -74.0053251 40.832213
+"Lincoln Park Public Library<br/>12 Boonton Turnpike<br/>Lincoln Park, NJ" 63.0748677317049 -74.3055225 40.9219984
+"Dwight D. Eisenhower Library<br/>537 Totowa Road<br/>Totowa, NJ" 63.0799682421398 -74.218035 40.903454
+"Harlem Library<br/>9 West 124th Street<br/>New York, NY" 63.1211028333142 -73.9432935 40.8061876
+"125th Street Library<br/>224 East 125th Street<br/>New York, NY" 63.1751844409419 -73.9349846 40.8030695
+"Queens Borough Public Library - Pomonok<br/>158-21 Jewel Avenue<br/>Flushing, NY" 63.18212661951 -73.8101067 40.7326235
+"George Bruce Library<br/>518 West 125th Street<br/>New York, NY" 63.1828948059956 -73.9570813 40.8137977
+"Queens Borough Public Library - Queensboro Hill<br/>60-05 Main Street<br/>Flushing, NY" 63.2090901386292 -73.8254858 40.7429028
+"Little Ferry Free Public Library<br/>239 Liberty Street<br/>Little Ferry, NJ" 63.2226587877646 -74.0440886 40.8514295
+"Hasbrouck Heights Free Public Library<br/>320 Boulevard<br/>Hasbrouck Heights, NJ" 63.3526799403909 -74.0748179 40.8648898
+"Henry Waldinger Memorial Library<br/>60 Verona Place<br/>Valley Stream, NY" 63.4723145631795 -73.7072235 40.6637256
+"Bear Public Library<br/>101 Governors Place<br/>Bear, DE" 63.4836116750332 -75.6600209 39.6350841
+"Catasauqua Public Library<br/>PO Box 127<br/>Catasauqua, PA" 63.5600053171806 -75.4746273 40.6548191
+"Edgewater Free Public Library<br/>49 Hudson Avenue<br/>Edgewater, NJ" 63.6638328996949 -73.9742757 40.829772
+"Schomburg Center For Research In Black Culture<br/>515 Malcolm X Boulevard<br/>New York, NY" 63.6711253630337 -73.9409435 40.8144794
+"Countee Cullen Library<br/>104 West 136th Street<br/>New York, NY" 63.678952018087 -73.9412121 40.8147421
+"Queens Borough Public Library - Cambria Heights<br/>218-13 Linden Boulevard<br/>Cambria Heights, NY" 63.7430476254046 -73.741113 40.6957312
+"Lodi Memorial Library<br/>1 Memorial Drive<br/>Lodi, NJ" 63.7555692954458 -74.0880245 40.8759161
+"Garfield Free Public Library<br/>500 Midland Avenue<br/>Garfield, NJ" 63.7845819407901 -74.1009051 40.8807138
+"Queens Borough Public Library - South Hollis<br/>204-01 Hollis Avenue<br/>South Hollis, NY" 63.8419585500053 -73.7537939 40.7070095
+"Queens Borough Public Library - Flushing<br/>41-17 Main Street<br/>Flushing, NY" 63.8966717429643 -73.8288787 40.7578077
+"Ridgefield Park Public Library<br/>107 Cedar Street<br/>Ridgefield Park, NJ" 63.9288451110327 -74.0221197 40.8543307
+"Mott Haven Library<br/>321 East 140th Street<br/>Bronx, NY" 63.9731959989907 -73.9243675 40.8116039
+"Queens Borough Public Library - Hillcrest<br/>187-05 Union Turnpike<br/>Flushing, NY" 63.9767015080583 -73.7819243 40.7292565
+"East Rockaway Public Library<br/>477 Atlantic Avenue<br/>East Rockaway, NY" 64.099055313621 -73.6658062 40.6421601
+"Palisades Park Free Public Library<br/>257 Second Street<br/>Palisades Park, NJ" 64.1082977657966 -73.9968933 40.8469618
+"Hamilton Grange Library<br/>503 West 145th Street<br/>New York, NY" 64.1344186072799 -73.9480141 40.8257276
+"Queens Borough Public Library - Hollis<br/>202-05 Hillside Avenue<br/>Hollis, NY" 64.197479880927 -73.7621103 40.7199592
+"Lynbrook Public Library<br/>56 Eldert Street<br/>Lynbrook, NY" 64.3139724177423 -73.6741439 40.6541611
+"Whitehall Township Public Library<br/>3700 Mechanicsville Rd<br/>Whitehall, PA" 64.4435887074071 -75.5026368 40.6501047
+"Macombs Bridge Library<br/>2650 Adam Clayton Powell, Jr. Blvd.<br/>New York, NY" 64.464794798292 -73.936181 40.8257732
+"Wayne Public Library<br/>461 Valley Road<br/>Wayne, NJ" 64.521367356744 -74.2318781 40.9285579
+"Queens Borough Public Library - Fresh Meadows<br/>193-20 Horace Harding Expressway<br/>Fresh Meadows, NY" 64.6026793366001 -73.782242 40.741528
+"Queens Borough Public Library - Mitchell-Linden<br/>29-42 Union Street<br/>Flushing, NY" 64.6827162264306 -73.826886 40.7711357
+"Queens Borough Public Library - Mcgoldrick<br/>155-06 Roosevelt Av.<br/>Flushing, NY" 64.8440563354854 -73.8098333 40.7637473
+"Washington Heights Library<br/>1000 St. Nicholas Avenue<br/>New York, NY" 64.8817492066109 -73.9396558 40.8345193
+"Queens Borough Public Library - Poppenhusen<br/>121-23 14 Avenue<br/>College Point, NY" 64.8977224021728 -73.845983 40.7862393
+"Paterson Free Public Library<br/>250 Broadway<br/>Paterson, NJ" 64.9722038283055 -74.1642376 40.9183981
+"Fort Lee Free Public Library<br/>320 Main Street<br/>Fort Lee, NJ" 65.0008965124618 -73.97312 40.851625
+"Coplay Public Library<br/>49 South Fifth St<br/>Coplay, PA" 65.0124801520766 -75.4935976 40.6702101
+"Queens Borough Public Library - Queens Village<br/>94-11 217 Street<br/>Queens Village, NY" 65.0204059670569 -73.7390338 40.7198793
+"Melrose Library<br/>910 Morris Avenue<br/>Bronx, NY" 65.0371628009314 -73.9175628 40.8266002
+"Woodstock Library<br/>761 East 160th Street<br/>Bronx, NY" 65.0649859627682 -73.9046034 40.8206528
+"Oceanside Library<br/>30 Davison Avenue<br/>Oceanside, NY" 65.1654510658413 -73.6385224 40.6415417
+"Queens Borough Public Library - Windsor Park<br/>79-50 Bell Boulevard<br/>Bayside, NY" 65.1669703361537 -73.755663 40.734496
+"Elmwood Park Free Public Library<br/>210 Lee Street<br/>Elmwood Park, NJ" 65.2414456568035 -74.1184481 40.9091982
+"Hunts Point Library<br/>877 Southern Boulevard<br/>Bronx, NY" 65.2583403920569 -73.8940866 40.8186827
+"Leonia Public Library<br/>227 Fort Lee Road<br/>Leonia, NJ" 65.2635796104153 -73.9888828 40.8626973
+"Parkland Community Library<br/>4422 Walbert Avenue<br/>Allentown, PA" 65.2807109541537 -75.5648838 40.6112425
+"Bogota Public Library<br/>375 Larch Avenue<br/>Bogota, NJ" 65.282030484215 -74.029769 40.8793147
+"Coatesville Area Public Library<br/>501 E Lincoln Highway<br/>Coatesville, PA" 65.3428327899757 -75.815943 39.9845692
+"Queens Borough Public Library - East Flushing<br/>196-36 Northern Boulevard<br/>Flushing, NY" 65.3711424199189 -73.7843273 40.757557
+"Avalon Free Public Library<br/>235 32nd Street<br/>Avalon, NJ" 65.4164946652712 -74.7250529 39.0957237
+"Malverne Public Library<br/>61 St. Thomas Place<br/>Malverne, NY" 65.4368467822287 -73.6713159 40.6760771
+"Johnson Free Public Library<br/>274 Main Street<br/>Hackensack, NJ" 65.4880644599787 -74.0407555 40.886766
+"High Bridge Library<br/>78 West 168th Street<br/>Bronx, NY" 65.5309170014117 -73.9235364 40.837961
+"Pequannock Township Public Library<br/>477 Newark Pompton Turnpike<br/>Pompton Plains, NJ" 65.5416386173937 -74.299108 40.957505
+"Saddle Brook Free Public Library<br/>340 Mayhill Street<br/>Saddle Brook, NJ" 65.5773185283832 -74.0889629 40.9050526
+"Morrisania Library<br/>610 East 169th Street<br/>Bronx, NY" 65.7593688881173 -73.9017509 40.8312601
+"Rockville Centre Public Library<br/>221 North Village Avenue<br/>Rockville Centre, NY" 65.7917642800418 -73.6483046 40.6642139
+"Haledon Free Public Library<br/>404 Morrissee Avenue<br/>Haledon, NJ" 65.7982677972053 -74.185354 40.93667
+"Queens Borough Public Library - Auburndale<br/>25-55 Francis Lewis Boulevard<br/>Flushing, NY" 65.8264766084093 -73.7963391 40.7737355
+"Fort Washington Library<br/>535 West 179th Street<br/>New York, NY" 65.8291939477523 -73.9338487 40.8479016
+"Elmont Public Library<br/>700 Hempstead Turnpike<br/>Elmont, NY" 65.8682786215615 -73.6999701 40.7080198
+"Newark Free Library<br/>750 Library Ave.<br/>Newark, DE" 65.8748589544629 -75.7367903 39.6824643
+"Maywood Public Library<br/>459 Maywood Avenue<br/>Maywood, NJ" 65.8811155578098 -74.0633356 40.9011709
+"Lakeview Public Library<br/>1120 Woodfield Road<br/>Rockville Centre, NY" 66.0363162159453 -73.6532142 40.6737859
+"Queens Borough Public Library - Bayside<br/>214-20 Northern Boulevard<br/>Bayside, NY" 66.0520445331048 -73.7683806 40.7601617
+"Bangor Public Library<br/>39 South Main St<br/>Bangor, PA" 66.0813259527508 -75.2042061 40.8659374
+"Queens Borough Public Library - Whitestone<br/>151-10 14 Road<br/>Whitestone, NY" 66.1568739996962 -73.8106229 40.7885658
+"Soundview Library<br/>660 Soundview Avenue<br/>Bronx, NY" 66.1880057427021 -73.8629054 40.8187021
+"Teaneck Public Library<br/>840 Teaneck Road<br/>Teaneck, NJ" 66.1910096221345 -74.0063986 40.8850219
+"Grand Concourse Library<br/>155 East 173rd Street<br/>Bronx, NY" 66.2631330904588 -73.9100688 40.8440264
+"Sedgwick Library<br/>1701 Martin Luther King, Jr. Blvd.<br/>Bronx, NY" 66.3744129435233 -73.9175397 40.8495154
+"Clasons Point Library<br/>1215 Morrison Avenue<br/>Bronx, NY" 66.4668403377761 -73.8750216 40.8299958
+"Floral Park Public Library<br/>17 Caroline Place<br/>Floral Park, NY" 66.4732846532502 -73.7064185 40.7252218
+"Boone Area Library<br/>129 N. Mill St.<br/>Birdsboro, PA" 66.530200681446 -75.806295 40.264902
+"Queens Borough Public Library - Bellerose<br/>250-06 Hillside Avenue<br/>Bellerose, NY" 66.5873431569503 -73.7172063 40.7354086
+"Tremont Library<br/>1866 Washington Avenue<br/>Bronx, NY" 66.7137578958645 -73.8983425 40.8460585
+"Baldwin Public Library<br/>2385 Grand Avenue<br/>Baldwin, NY" 66.732293068122 -73.611283 40.6520935
+"Maurice M. Pine Free Public Library<br/>10-01 Fair Lawn Avenue<br/>Fair Lawn, NJ" 66.7424837153733 -74.131476 40.9364496
+"Brandywine Community Library<br/>60 Tower Drive<br/>Topton, PA" 66.8875904141478 -75.6987321 40.4956369
+"North Haledon Free Public Library<br/>129 Overlook Avenue<br/>North Haledon, NJ" 66.92189056341 -74.1832604 40.9532782
+"Queens Borough Public Library - Bay Terrace<br/>18-36 Bell Boulevard<br/>Bayside, NY" 66.9395415686684 -73.777006 40.782517
+"Franklin Square Public Library<br/>19 Lincoln Road<br/>Franklin Square, NY" 66.9428637449611 -73.6709579 40.7076852
+"West Hempstead Public Library<br/>500 Hempstead Avenue<br/>West Hempstead, NY" 67.0144294074972 -73.6542619 40.6957191
+"Castle Hill Library<br/>947 Castle Hill Avenue<br/>Bronx, NY" 67.0203280183222 -73.8501593 40.8266112
+"Francis Martin Library<br/>2150 University Avenue<br/>Bronx, NY" 67.043440919189 -73.9097086 40.8572154
+"West Farms Library<br/>2085 Honeywell Avenue<br/>Bronx, NY" 67.0725981595296 -73.8830713 40.8446733
+"Cape May County Library<br/>30 Mechanic Street<br/>Cape May Court House, NJ" 67.0921321541311 -74.8251458 39.0831871
+"Inwood Library<br/>4790 Broadway<br/>New York, NY" 67.1014539880177 -73.9258252 40.8657488
+"Queens Borough Public Library - Glen Oaks<br/>256-04 Union Turnpike<br/>Glen Oaks, NY" 67.1587679871562 -73.7154242 40.7455062
+"Parkchester Library<br/>1985 Westchester Avenue<br/>Bronx, NY" 67.1766531837186 -73.858364 40.8337549
+"Louis Bay 2nd Library<br/>345 Lafayette Avenue<br/>Hawthorne, NJ" 67.215091072411 -74.1548509 40.9503148
+"Queens Borough Public Library - North Hills<br/>57-04 Marathon Parkway<br/>Little Neck, NY" 67.2750042333933 -73.7318109 40.7592519
+"Avon Grove Free Library<br/>117 Rosehill Avenue<br/>West Grove, PA" 67.4497977022115 -75.825355 39.8224791
+"Belmont Library And Enrico Fermi Cultural Center<br/>610 E. 186th Street<br/>Bronx, NY" 67.4922207548228 -73.8878989 40.854344
+"Queens Borough Public Library - Douglaston-Little Neck<br/>249-01 Northern Boulevard<br/>Little Neck, NY" 67.510821762484 -73.738255 40.768206
+"Englewood Free Public Library<br/>31 Engle Street<br/>Englewood, NJ" 67.5888632124525 -73.9716585 40.8938977
+"Hillside Public Library Of New Hyde Park<br/>155 Lakeville Road<br/>New Hyde Park, NY" 67.5973523012052 -73.6882214 40.7344541
+"Riverdale Public Library<br/>93 Newark Pompton Tpke<br/>Riverdale, NJ" 67.6195122407096 -74.3022195 40.9888841
+"Kinnelon Public Library<br/>132 Kinnelon Road<br/>Kinnelon, NJ" 67.7680390519771 -74.3729891 41.0015901
+"Throgs Neck Library<br/>3025 Cross Bronx Expressway Extension<br/>Bronx, NY" 67.771012074521 -73.819105 40.8229054
+"Freeport Memorial Library<br/>144 West Merrick Road<br/>Freeport, NY" 67.7950312261412 -73.586754 40.6535593
+"Bronx Library Center<br/>310 East Kingsbridge Road<br/>Bronx, NY" 67.8135633086931 -73.8944915 40.8630966
+"Westchester Square Library<br/>2521 Glebe Avenue<br/>Bronx, NY" 67.9314899427986 -73.846738 40.8409164
+"New Milford Public Library<br/>200 Dahlia Avenue<br/>New Milford, NJ" 67.9540692545366 -74.0233967 40.9200311
+"Jerome Park Library<br/>118 Eames Place<br/>Bronx, NY" 67.9741463510004 -73.9012213 40.8690733
+"Morris Park Library<br/>985 Morris Park Avenue<br/>Bronx, NY" 68.0343302471267 -73.8568162 40.8480268
+"Van Nest Library<br/>2147 Barnes Avenue<br/>Bronx, NY" 68.2104300678551 -73.8641428 40.8548805
+"Jefferson Township Public Library<br/>1031 Weldon Road<br/>Oak Ridge, NJ" 68.2225223452774 -74.549045 41.021066
+"Kingsbridge Library<br/>291 West 231st Street<br/>Bronx, NY" 68.4794119031254 -73.9077155 40.8807251
+"Bloomingdale Free Public Library<br/>101 Hamburg Turnpike<br/>Bloomingdale, NJ" 68.5013165993245 -74.3392042 41.0077642
+"Glen Rock Public Library<br/>315 Rock Road<br/>Glen Rock, NJ" 68.5338262028082 -74.1263888 40.9627023
+"Spuyten Duyvil Library<br/>650 W. 235th St.<br/>Bronx, NY" 68.6212831151668 -73.9146524 40.8863206
+"Pompton Lakes Borough Free Public Library<br/>333 Wanaque Avenue<br/>Pompton Lakes, NJ" 68.6436259039637 -74.2904128 41.0020273
+"Roosevelt Public Library<br/>27 West Fulton Avenue<br/>Roosevelt, NY" 68.6850194630767 -73.588687 40.6756532
+"Pelham Bay Library<br/>3060 Middletown Road<br/>Bronx, NY" 68.6921805998846 -73.8278998 40.8442803
+"Bergenfield Free Public Library<br/>50 W. Clinton Avenue<br/>Bergenfield, NJ" 68.7111782554532 -73.9996079 40.9233384
+"Great Neck Library<br/>159 Bayview Avenue<br/>Great Neck, NY" 68.8038025834841 -73.7476285 40.7990496
+"Allerton Library<br/>2740 Barnes Avenue<br/>Bronx, NY" 68.9237528977954 -73.8632034 40.8668182
+"Garden City Public Library<br/>60 Seventh Street<br/>Garden City, NY" 68.923817048144 -73.6389379 40.7237212
+"Mosholu Library<br/>285 East 205th Street<br/>Bronx, NY" 68.9256007596526 -73.878391 40.8743814
+"Hempstead Public Library<br/>115 Nichols Court<br/>Hempstead, NY" 68.9394529714091 -73.6221687 40.7103609
+"Van Cortlandt Library<br/>3874 Sedgwick Avenue<br/>Bronx, NY" 68.9828861418436 -73.8938996 40.8828144
+"Sparta Public Library<br/>22 Woodport Road<br/>Sparta, NJ" 69.2174764374309 -74.63808 41.034984
+"Adelphi University Library<br/>P.O. Box 701<br/>Garden City, NY" 69.2454645317403 -73.6342954 40.7267682
+"North Merrick Public Library<br/>1691 Meadowbrook Road<br/>North Merrick, NY" 69.5525885878211 -73.5680616 40.6764124
+"Mineola Memorial Library<br/>195 Marcellus Road<br/>Mineola, NY" 69.6090711289635 -73.6466179 40.7440353
+"Merrick Library<br/>2279 Merrick Avenue<br/>Merrick, NY" 69.6143318708967 -73.5510563 40.6617576
+"Eastchester Library<br/>1385 East Gun Hill Road<br/>Bronx, NY" 69.6430640999315 -73.8451078 40.8701444
+"Tenafly Free Public Library<br/>100 Riveredge Road<br/>Tenafly, NJ" 69.6529022580745 -73.968741 40.9266003
+"Corbit-Calloway Memorial Library<br/>115 High Street<br/>Odessa, DE" 69.6896829938104 -75.6554989 39.4548682
+"Nassau Library System<br/>900 Jerusalem Ave.<br/>Uniondale, NY" 69.7256033938108 -73.5851277 40.6957531
+"Village Library Of Morgantown<br/>207 N. Walnut Street<br/>Morgantown, PA" 69.7586653160336 -75.8931 40.156832
+"Oradell Public Library<br/>375 Kinderkamack Road<br/>Oradell, NJ" 69.8632134321941 -74.0321 40.9536811
+"Uniondale Public Library<br/>400 Uniondale Avenue<br/>Uniondale, NY" 69.8856330259648 -73.5930805 40.7062278
+"Riverdale Library<br/>5540 Mosholu Avenue<br/>Bronx, NY" 69.9714577307608 -73.9028283 40.9037238
+"Dixon Homestead Library<br/>180 Washington Avenue<br/>Dumont, NJ" 69.9918045875528 -73.9936929 40.9418115
+"Ridgewood Public Library<br/>125 N. Maple Avenue<br/>Ridgewood, NJ" 70.0161155832964 -74.112126 40.9815322
+"Midland Park Memorial Library<br/>250 Godwin Avenue<br/>Midland Park, NJ" 70.0682387620155 -74.1407292 40.9903069
+"Exeter Community Library<br/>4569 Prestwick Drive<br/>Reading, PA" 70.1175198761234 -75.8631851 40.3047476
+"Baychester Library<br/>2049 Asch Loop North<br/>Bronx, NY" 70.1425142287946 -73.829224 40.8706527
+"Shelter Rock Public Library<br/>165 Searingtown Road<br/>Albertson, NY" 70.1554797485137 -73.6563237 40.7625586
+"City Island Library<br/>320 City Island Avenue<br/>Bronx, NY" 70.1723753767192 -73.7863239 40.847696
+"Williston Park Public Library<br/>494 Willis Avenue<br/>Williston Park, NY" 70.3326528084835 -73.6448909 40.7575794
+"Manhasset Public Library<br/>30 Onderdonk Avenue<br/>Manhasset, NY" 70.3335819891678 -73.6947487 40.7934854
+"Wakefield Library<br/>4100 Lowerre Place<br/>Bronx, NY" 70.4319597492942 -73.8595119 40.891081
+"East Williston Public Library<br/>2 Prospect Street<br/>East Williston, NY" 70.5112963405081 -73.6390026 40.7567587
+"Honey Brook Community Library<br/>687 Compass Road<br/>Honey Brook, PA" 70.6319002624308 -75.916758 40.088192
+"Oakland Public Library<br/>2 Municipal Plaza<br/>Oakland, NJ" 70.685811643504 -74.2452851 41.0240029
+"Woodlawn Heights Library<br/>4355 Katonah Avenue<br/>Bronx, NY" 70.7380192530238 -73.8679407 40.9004371
+"Wyckoff Free Public Library<br/>200 Woodland Avenue<br/>Wyckoff, NJ" 70.7725556179265 -74.1671984 41.0079054
+"Cresskill Public Library<br/>53 Union Avenue<br/>Cresskill, NJ" 70.7984528012485 -73.9603635 40.9419871
+"Edenwald Library<br/>1255 East 233rd Street<br/>Bronx, NY" 70.8425638101958 -73.8408326 40.8888791
+"Bellmore Memorial Library<br/>2288 Bedford Avenue<br/>Bellmore, NY" 70.8551621307109 -73.5271739 40.6677031
+"Parkesburg Free Library<br/>105 West St<br/>Parkesburg, PA" 70.8976044850504 -75.918493 39.95793
+"Franklin Lakes Free Public Library<br/>470 Dekorte Drive<br/>Franklin Lakes, NJ" 70.9940317508053 -74.1988212 41.0187647
+"North Bellmore Public Library<br/>1551 Newbridge Road<br/>North Bellmore, NY" 70.9986890095817 -73.539699 40.6830806
+"Louisa Gonser Community Library Inc<br/>70 Bieber Alley<br/>Kutztown, PA" 71.0905923102306 -75.774711 40.516346
+"Worth Pinkham Memorial Library<br/>91 Warren Avenue<br/>Ho-Ho-Kus, NJ" 71.1485823791596 -74.1121822 40.999056
+"Emerson Public Library<br/>20 Palisade Avenue<br/>Emerson, NJ" 71.2210266812385 -74.025872 40.97312
+"Haworth Municipal Library<br/>300 Haworth Avenue<br/>Haworth, NJ" 71.2459093958149 -73.988265 40.9600197
+"Washington Twp Public Library-Bergen<br/>144 Woodfield Road<br/>Twp. Of Washington, NJ" 71.3172335685355 -74.0620244 40.9866106
+"Fleetwood Area Public Library<br/>110 W Arch St<br/>Fleetwood, PA" 71.4695836564307 -75.82062 40.456103
+"Demarest Public Library Association<br/>90 Hardenburgh Avenue<br/>Demarest, NJ" 71.5843562756433 -73.9675289 40.9576111
+"East Meadow Public Library<br/>1886 Front Street<br/>East Meadow, NY" 71.6580929056804 -73.5639929 40.7199401
+"Wantagh Public Library<br/>3285 Park Avenue<br/>Wantagh, NY" 71.7886977009198 -73.5112065 40.6741037
+"Waldwick Public Library<br/>19 E. Prospect Street<br/>Waldwick, NJ" 71.8291655714583 -74.1176844 41.0110906
+"Wanaque Borough Free Public Library<br/>616 Ringwood Avenue<br/>Wanaque, NJ" 71.9013970171277 -74.2890242 41.0500915
+"Westwood Free Public Library<br/>49 Park Avenue<br/>Westwood, NJ" 72.1196726823891 -74.0340736 40.9901429
+"Bryant Library<br/>2 Paper Mill Road<br/>Roslyn, NY" 72.2092496243387 -73.6509622 40.7998227
+"Port Washington Public Library<br/>1 Library Drive<br/>Port Washington, NY" 72.2689143564196 -73.6959441 40.8315451
+"Mount Vernon Public Library<br/>28 South First Avenue<br/>Mount Vernon, NY" 72.2881636234913 -73.8341019 40.9105828
+"Appoquinimink Public Library<br/>651 North Broad Street<br/>Middletown, DE" 72.3690841917897 -75.7174523 39.4558755
+"Town Of Pelham Public Library<br/>530 Colonial Avenue<br/>Pelham, NY" 72.394638140364 -73.8142706 40.9023939
+"Seaford Public Library<br/>2234 Jackson Avenue<br/>Seaford, NY" 72.4917079560583 -73.4871305 40.6668452
+"Cecil County Public Library - Elkton<br/>301 Newark Avenue<br/>Elkton, MD" 72.5299856135087 -75.8373728 39.6186506
+"Closter Public Library<br/>280 High Street<br/>Closter, NJ" 72.6045735290153 -73.9673903 40.9741038
+"Hillsdale Free Public Library<br/>509 Hillsdale Avenue<br/>Hillsdale, NJ" 72.6511983818955 -74.0459115 41.0024008
+"Lee Memorial Library<br/>500 W. Crescent Avenue<br/>Allendale, NJ" 72.6974914836836 -74.1383312 41.0299414
+"Westbury Memorial Public Library<br/>445 Jefferson Street<br/>Westbury, NY" 72.8743123092724 -73.5832206 40.7621992
+"Harrington Park Public Library<br/>10 Herring Street<br/>Harrington Park, NJ" 73.1658083055374 -73.9782827 40.9872406
+"Levittown Public Library<br/>1 Bluegrass Lane<br/>Levittown, NY" 73.171218764869 -73.5296919 40.723237
+"Slatington Library Inc<br/>650 Main St<br/>Slatington, PA" 73.3942418198176 -75.613041 40.750745
+"Massapequa Public Library<br/>40 Harbor Lane<br/>Massapequa Park, NY" 73.6815157219464 -73.4562174 40.6639587
+"River Vale Public Library<br/>412 Rivervale Road<br/>River Vale, NJ" 73.7549126715834 -74.0105927 41.0081148
+"Bronxville Public Library<br/>201 Pondfield Road<br/>Bronxville, NY" 73.8551510199578 -73.8312733 40.93621
+"Atglen Public Library<br/>413 Valley Avenue<br/>Atglen, PA" 73.927281738948 -75.9748478 39.9490837
+"Reading Public Library<br/>100 S. 5th Street<br/>Reading, PA" 73.9421002880626 -75.9279512 40.3336743
+"Eastern Monroe Public Library<br/>1002 North 9th St<br/>Stroudsburg, PA" 73.9927314265166 -75.217977 40.990269
+"Norwood Public Library<br/>198 Summit Street<br/>Norwood, NJ" 74.1305114024312 -73.9606554 40.9962296
+"Ramsey Free Public Library<br/>30 Wyckoff Avenue<br/>Ramsey, NJ" 74.2607577167283 -74.1466305 41.0558868
+"Smyrna Public Library<br/>107 South Main Street<br/>Smyrna, DE" 74.4296983375225 -75.6045553 39.2995627
+"Plainedge Public Library<br/>1060 Hicksville Road<br/>Massapequa, NY" 74.4569925422538 -73.4824189 40.708812
+"Old Tappan Free Public Library<br/>56 Russell Avenue<br/>Old Tappan, NJ" 74.5021415224003 -73.9815577 41.0098696
+"Ringwood Public Library<br/>30 Cannici Drive<br/>Ringwood, NJ" 74.7012168191782 -74.2672877 41.0878776
+"Cecil County Public Library - Chesapeake City<br/>2527 Augustine Herman Highway<br/>Chesapeake City, MD" 74.7350837499921 -75.8201486 39.5200508
+"Gold Coast Public Library District<br/>50 Railroad Avenue<br/>Glen Head, NY" 74.7563039876246 -73.6255257 40.8322177
+"Park Ridge Free Public Library<br/>51 Park Avenue<br/>Park Ridge, NJ" 74.7858987998557 -74.038268 41.0334695
+"Muhlenberg Community Library<br/>3612 Kutztown Rd<br/>Laureldale, PA" 74.8047905883468 -75.9211688 40.3921513
+"Sea Cliff Village Library<br/>p.o. box 280<br/>Sea Cliff, NY" 74.9363791655882 -73.6448505 40.8489887
+"Tuckahoe Public Library<br/>71 Columbus Avenue<br/>Tuckahoe, NY" 74.9561524460478 -73.8259508 40.9525262
+"Island Trees Public Library<br/>38 Farmedge Road<br/>Levittown, NY" 74.9589317847902 -73.4992954 40.7360037
+"Moores Memorial Library<br/>326 N Bridge St<br/>Christiana, PA" 75.0904129053499 -75.99789 39.95852
+"Hicksville Free Public Library<br/>169 Jerusalem Avenue<br/>Hicksville, NY" 75.1951088511022 -73.5230156 40.7620628
+"Montvale Free Public Library<br/>12 Mercedes Drive<br/>Montvale, NJ" 75.271132595141 -74.0611923 41.0480929
+"Upper Saddle River Public Library<br/>245 Lake Street<br/>Upper Saddle Rive, NJ" 75.4021031700998 -74.0940338 41.059564
+"Western Pocono Community Library<br/>2000 Pilgrim Way<br/>Brodheadsville, PA" 75.4128663004345 -75.4074556 40.9277359
+"Mifflin Community Library<br/>6 Philadelphia Ave.<br/>Shillington, PA" 75.4415521240472 -75.967911 40.3031499
+"Wyomissing Public Library<br/>9 Reading Blvd<br/>Wyomissing, PA" 75.4984828651177 -75.9582365 40.3346673
+"Juncos Public Library (Dr. Jose M. Gallardo)<br/>po box 1706<br/>Juncos, PA" 75.5034079195672 -75.965858 40.313096
+"Palmerton Library<br/>402 Delaware Ave<br/>Palmerton, PA" 75.6223168852517 -75.6073187 40.8024482
+"Eastchester Public Library<br/>11 Oakridge Place<br/>Eastchester, NY" 75.6290193663162 -73.8117878 40.9572344
+"Larchmont Public Library<br/>121 Larchmont Avenue<br/>Larchmont, NY" 75.7153305055499 -73.7509554 40.9275031
+"Sussex County Library<br/>125 Morris Turnpike<br/>Newton, NJ" 75.8189381012862 -74.7554298 41.1235262
+"Glen Cove Public Library<br/>4 Glen Cove Avenue<br/>Glen Cove, NY" 76.069464972316 -73.6331532 40.8630349
+"Oxford Public Library<br/>48 South Second Street<br/>Oxford, PA" 76.0905890229685 -75.980776 39.7846
+"Bethpage Public Library<br/>47 Powell Avenue<br/>Bethpage, NY" 76.103050123498 -73.4782384 40.7426938
+"Palisades Free Library<br/>19 Closter Road<br/>Palisades, NY" 76.1205522746991 -73.9165276 41.011513
+"Mahwah Free Public Library<br/>100 Ridge Road<br/>Mahwah Township, NJ" 76.1711069218748 -74.159854 41.08805
+"Copiague Memorial Public Library<br/>50 Deauville Boulevard<br/>Copiague, NY" 76.1739701585099 -73.402263 40.6684899
+"Jericho Public Library<br/>1 Merry Lane<br/>Jericho, NY" 76.1975190674106 -73.535124 40.7935972
+"Farmingdale Public Library<br/>116 Merritts Road<br/>Farmingdale, NY" 76.2084070634602 -73.4605096 40.7286065
+"Briarcliffe College Library - Bethpage<br/>1055 Stewart Avenue<br/>Bethpage, NY" 76.3780843350153 -73.4901559 40.7595608
+"West Milford Township Library<br/>1490 Union Valley Road<br/>West Milford, NJ" 76.6059169910532 -74.368828 41.1304582
+"Pearl River Public Library<br/>80 Franklin Avenue<br/>Pearl River, NY" 76.7555542683718 -74.0182831 41.0580151
+"Pequea Valley Public Library - Gap Branch<br/>875 Houston Run Dr., Suite 220<br/>Gap, PA" 77.097915455811 -76.0382282 39.9866028
+"Spring Township Library<br/>78-C Commerce Drive<br/>Wyomissing, PA" 77.1681245169804 -75.985801 40.349128
+"Berks County Public Libraries<br/>1037f Macarthur Road<br/>Reading, PA" 77.1893195765153 -75.974505 40.378899
+"Dobbs Ferry Public Library<br/>55 Main Street<br/>Dobbs Ferry, NY" 77.2192179362692 -73.8769243 41.0134297
+"Mamaroneck Public Library District<br/>102 Mamaroneck Ave.<br/>Mamaroneck, NY" 77.464993787187 -73.7331397 40.9489768
+"Syosset Public Library<br/>225 South Oyster Bay Road<br/>Syosset, NY" 77.70850081684 -73.5020748 40.7987333
+"Plainview-Old Bethpage Public Library<br/>999 Old Country Road<br/>Plainview, NY" 77.7401211486074 -73.473283 40.774897
+"Schuylkill Valley Community Library<br/>1310 Washington Rd<br/>Leesport, PA" 77.9356005857796 -75.9629826 40.4375552
+"Ardsley Public Library<br/>9 American Legion Drive<br/>Ardsley, NY" 77.9861496330012 -73.8445045 41.0122845
+"Piermont Library District<br/>25 Flywheel Park West<br/>Piermont, NY" 78.0008736171132 -73.915992 41.041905
+"Blauvelt Free Library<br/>541 Western Highway<br/>Blauvelt, NY" 78.1691925129356 -73.9571571 41.0598027
+"Suffern Free Library<br/>210 Lafayette Ave.<br/>Suffern, NY" 78.1985969097411 -74.1372794 41.1134347
+"Cecil County Public Library - North East<br/>106 West Cecil Avenue<br/>North East, MD" 78.2532129683045 -75.9444611 39.6009725
+"Locust Valley Library<br/>170 Buckram Road<br/>Locust Valley, NY" 78.3243609696364 -73.5909403 40.8782079
+"Sinking Spring Public Library<br/>3940 Penn Ave<br/>Sinking Spring, PA" 78.5784804540779 -76.0220494 40.3249931
+"Dover Public Library<br/>45 South State Street<br/>Dover, DE" 78.5827204068108 -75.5251509 39.1604538
+"Irvington Pub Lib Guiteau Foundation<br/>12 South Astor Street<br/>Irvington, NY" 78.9028531013561 -73.8726406 41.0394249
+"Eastern Lancaster County Library<br/>11 Chestnut Dr<br/>New Holland, PA" 78.9289073749278 -76.072781 40.10339
+"Nanuet Public Library<br/>149 Church Street<br/>Nanuet, NY" 79.1579718883533 -73.9997259 41.0898065
+"Adamstown Area Library<br/>3000 North Reading Road Route 272<br/>Adamstown, PA" 79.2319581417761 -76.058301 40.241001
+"Harrison Public Library<br/>2 Bruce Avenue<br/>Harrison, NY" 79.3339806399153 -73.7121607 40.970864
+"Finkelstein Memorial Library<br/>24 Chestnut Street<br/>Spring Valley, NY" 79.5238622053199 -74.0467278 41.1098261
+"West Babylon Public Library<br/>211 Route 109<br/>West Babylon, NY" 79.8535446175804 -73.354093 40.7090579
+"Sloatsburg Public Library<br/>1 Liberty Rock Road<br/>Sloatsburg, NY" 80.2009112693835 -74.1936491 41.1559924
+"West Nyack Free Library<br/>65 Strawtown Road<br/>West Nyack, NY" 80.2151151395775 -73.9740562 41.0980872
+"Oyster Bay-East Norwich Public Library<br/>89 East Main Street<br/>Oyster Bay, NY" 80.3138903080159 -73.5266769 40.8720102
+"Orangeburg Library<br/>20 South Greenbush Road<br/>Orangeburg, NY" 80.3358195937088 -73.9493626 41.0916146
+"Babylon School District Public Library<br/>24 South Carll Avenue<br/>Babylon, NY" 80.512353976976 -73.325971 40.695012
+"Pequea Valley Public Library<br/>31 Center Street<br/>Intercourse, PA" 80.7049340084164 -76.108247 40.036179
+"Bayville Free Library<br/>34 School Street<br/>Bayville, NY" 80.7083319508484 -73.566327 40.9078392
+"Rye Free Reading Room<br/>1061 Boston Post Road<br/>Rye, NY" 80.7643013758913 -73.6848956 40.9814934
+"Nyack Library<br/>59 South Broadway<br/>Nyack, NY" 80.8378506501795 -73.9184605 41.088628
+"Cecilton Branch Library<br/>215 East Main Street<br/>Cecilton, MD" 80.8434006175098 -75.8629359 39.4036695
+"Westchester Library System<br/>540 White Plains Road Suite 200<br/>Tarrytown, NY" 81.0067386213035 -73.8410395 41.0610287
+"Lehighton Area Memorial Library<br/>124 North St<br/>Lehighton, PA" 81.0468194829775 -75.709473 40.834863
+"Wyandanch Public Library<br/>14 South 20th Street<br/>Wyandanch, NY" 81.0471136411072 -73.3643004 40.7488165
+"White Plains Public Library<br/>100 Martine Avenue<br/>White Plains, NY" 81.068446952382 -73.7699745 41.0303509
+"Greenburgh Public Library<br/>300 Tarrytown Road<br/>Elmsford, NY" 81.1046880657778 -73.7941169 41.042173
+"West Islip Public Library<br/>3 Higbie Lane<br/>West Islip, NY" 81.4471274042737 -73.3064955 40.6972793
+"Wernersville Public Library<br/>100 North Reber Street<br/>Wernersville, PA" 81.4883975776998 -76.076982 40.3309758
+"Cecil County Public Library - Rising Sun<br/>111 Colonial Way<br/>Rising Sun, MD" 81.6204118294036 -76.056535 39.695269
+"Warner Library<br/>121 North Broadway<br/>Tarrytown, NY" 81.7599031526086 -73.8582279 41.0804827
+"North Babylon Public Library<br/>815 Deer Park Avenue<br/>North Babylon, NY" 81.8333207715198 -73.3223617 40.7246179
+"Cold Spring Harbor Laboratory Library And Archives<br/>1 Bungtown Rd.<br/>Cold Spring Harbor, NY" 81.9286429330805 -73.4696137 40.8617084
+"Valley Cottage Free Library<br/>110 Route 303<br/>Valley Cottage, NY" 82.0413871341883 -73.9413956 41.1159873
+"Hamburg Public Library<br/>35 North 3rd St<br/>Hamburg, PA" 82.1462234171884 -75.9840719 40.5553985
+"Cold Spring Harbor Village Improvement Society Library<br/>95 Harbor Rd<br/>Cold Spring Harbor, NY" 82.4787336823883 -73.4607119 40.8661796
+"Port Chester Public Library<br/>1 Haseco Avenue<br/>Port Chester, NY" 82.5041957116034 -73.6686084 41.0036573
+"Tuxedo Park Library<br/>227 Route 17<br/>Tuxedo Park, NY" 82.8047449322015 -74.1849375 41.1931983
+"Byram Shubert Branch Library<br/>21 Mead Ave.<br/>Greenwich, CT" 82.8051923594152 -73.6554062 41.001751
+"Library Association Of Rockland County<br/>P.O. Box 917<br/>New City, NY" 83.056009536632 -73.989306 41.1475954
+"South Huntington Public Library<br/>145 Pidgeon Hill Road<br/>Huntington Statio, NY" 83.1472414823237 -73.391262 40.8225771
+"Deer Park Public Library<br/>44 Lake Avenue<br/>Deer Park, NY" 83.2326970039811 -73.3231737 40.7599387
+"Purchase Free Library<br/>3093 Purchase Street<br/>Purchase, NY" 83.2430802111968 -73.7141947 41.0405812
+"Dimmick Memorial Library<br/>54 Broadway<br/>Jim Thorpe, PA" 83.5557427669984 -75.7394279 40.863775
+"Half Hollow Hills Community Public Library<br/>55 Vanderbilt Parkway<br/>Dix Hills, NY" 83.5636029728321 -73.36039 40.8039597
+"Greenwood Lake Public Library<br/>79 Waterstone Road<br/>Greenwood Lake, NY" 83.5973628600928 -74.2953649 41.2236244
+"Huntington Public Library - Station Branch<br/>1335 New York Avenue<br/>Huntington Station, NY" 83.6125910194611 -73.4119666 40.8506092
+"New City Free Library<br/>220 North Main Street<br/>New City, NY" 83.7666898620598 -73.9881378 41.1583345
+"Kent County Library<br/>497 South Red Haven Lane<br/>Dover, DE" 83.7783176875346 -75.5497831 39.0797073
+"Huntington Public Library<br/>338 Main Street<br/>Huntington, NY" 83.8461708652415 -73.4300972 40.8705012
+"Lancaster Public Library - Leola Branch<br/>46 Hillcrest Avenue<br/>Leola, PA" 84.8827788315764 -76.1863206 40.086559
+"Quarryville Library Center<br/>357 Buck Road<br/>Quarryville, PA" 84.9133600721095 -76.174953 39.891177
+"Robesonia Community Library<br/>75-A South Brooke St<br/>Robesonia, PA" 84.9263330803624 -76.1373171 40.3518054
+"Cecil County Public Library - Perryville<br/>500 Coudon Blvd.<br/>Perryville, MD" 85.0314571114215 -76.065001 39.569079
+"Greenwich Library<br/>101 West Putnam Ave.<br/>Greenwich, CT" 85.1123971862436 -73.6294717 41.0287632
+"Strasburg-Heisler Library<br/>143 Precision Ave<br/>Strasburg, PA" 85.1919552089739 -76.1910602 39.9854065
+"Albert Wisner Public Library<br/>2 Colonial Avenue<br/>Warwick, NY" 85.5477723490336 -74.3573401 41.2598364
+"Barrett Paradise Friendly Library<br/>box 1010<br/>Cresco, PA" 85.5917204732055 -75.2804597 41.1539795
+"Bernville Area Community Library<br/>6721 Bernville Rd.<br/>Bernville, PA" 85.7279890302502 -76.1191858 40.4392671
+"Ephrata Public Library<br/>550 South Reading Rd<br/>Ephrata, PA" 85.7674282550545 -76.195363 40.1734291
+"Haverstraw Kings Daughters Public Library - Rosman Center<br/>10 West Ramapo Road<br/>Garnerville, NY" 86.1877694316313 -74.0053744 41.2010585
+"Harborfields Public Library<br/>31 Broadway<br/>Greenlawn, NY" 86.3183315713045 -73.3669 40.8711835
+"Cos Cob Branch Library<br/>126 East Putnam Ave<br/>Greenwich, CT" 86.493976277446 -73.6008657 41.0375776
+"Cecil County Public Library - Port Deposit<br/>13 South Main Street<br/>Port Deposit, MD" 86.6023216096199 -76.1149309 39.6043998
+"Briarcliff Manor Public Library<br/>1 Library Road<br/>Briarcliff Manor, NY" 86.6232153228293 -73.8244475 41.1465558
+"Elwood Public Library<br/>3027 Jericho Turnpike<br/>Elwood, NY" 86.6258501020617 -73.3231845 40.8394443
+"Islip Public Library<br/>71 Monell Avenue<br/>Islip, NY" 86.6312652917249 -73.213677 40.7267356
+"Haverstraw Kings Daughters Public Library - Village Branch<br/>85 Main Street<br/>Haverstraw, NY" 86.7569665631426 -73.9606312 41.1965694
+"Ossining Public Library<br/>53 Croton Avenue<br/>Ossining, NY" 86.8658414150797 -73.8602831 41.1642054
+"Mount Pleasant Public Library<br/>350 Bedford Road<br/>Pleasantville, NY" 86.8702105556224 -73.7859019 41.134912
+"Havre De Grace Branch Library<br/>120 N. Union Ave.<br/>Havre De Grace, MD" 86.9202688307255 -76.0921428 39.5484996
+"Brentwood Public Library<br/>34 Second Avenue<br/>Brentwood, NY" 87.1350450361136 -73.2482044 40.7778547
+"Clymer Library Association<br/>hc89, box 39b<br/>Pocono Pines, PA" 87.178953789961 -75.4548992 41.1081084
+"Commack Public Library District<br/>18 Hauppauge Road<br/>Commack, NY" 87.3660724218054 -73.2937473 40.8289636
+"Library System Of Lancaster County<br/>1866 Colonial Village Ln, Suite 107<br/>Lancaster, PA" 87.3961269100141 -76.2346255 40.05383
+"Perrot Memorial Library<br/>90 Sound Beach Avenue<br/>Old Greenwich, CT" 87.5320187698521 -73.5697644 41.03851
+"Perrot Memorial Library<br/>90 Sound Beach Ave.<br/>Old Greenwich, CT" 87.5320187698521 -73.5697644 41.03851
+"Womelsdorf Community Library<br/>203 W High St<br/>Womelsdorf, PA" 87.6644622525932 -76.1868939 40.3638251
+"North Castle Public Library<br/>19 Whippoorwill Road East<br/>Armonk, NY" 88.2165381038191 -73.715125 41.126301
+"Rose Memorial Library Association<br/>79 East Main Street<br/>Stony Point, NY" 88.3808946622517 -73.9851842 41.229193
+"Chappaqua Library<br/>195 South Greeley Avenue<br/>Chappaqua, NY" 88.408626565086 -73.7731034 41.1550007
+"Northport Public Library<br/>151 Laurel Avenue<br/>Northport, NY" 88.6081384257541 -73.3375396 40.8960261
+"East Islip Public Library<br/>381 East Main Street<br/>East Islip, NY" 88.7476944013799 -73.1733349 40.735796
+"South End Community Center Branch Library<br/>34 Woodland St<br/>Stamford, CT" 88.7800838395492 -73.5375029 41.0422971
+"Croton Free Library<br/>171 Cleveland Drive<br/>Croton-On-Hudson, NY" 89.070678785877 -73.878571 41.2060872
+"Pike County Public Library - Dingman Township Branch<br/>100 Bond Court<br/>Milford, PA" 89.5819109101537 -74.9583225 41.2987785
+"Shuts Environmental Library<br/>3 Natures Way<br/>Lancaster, PA" 89.6870903821908 -76.2773151 40.0130075
+"Pocono Mountain Public Library<br/>5540 Memorial Blvd<br/>Tobyhanna, PA" 89.6995489631045 -75.4073644 41.1714747
+"Milford District Free Library<br/>11 S.E. Front Street<br/>Milford, DE" 89.748677825934 -75.4274969 38.9127343
+"Pike County Public Library - Milford Branch - Adminstration Offices<br/>201 Broad Street<br/>Milford, PA" 89.7586628704194 -74.802891 41.3221471
+"Tamaqua Public Library<br/>30 South Railroad St<br/>Tamaqua, PA" 89.9876538088073 -75.9703515 40.7960714
+"Central Islip Public Library<br/>33 Hawthorne Avenue<br/>Central Islip, NY" 90.1035704062004 -73.195152 40.7954336
+"Dowling College Library<br/>150 Idle Hour Blvd<br/>Brookhaven, NY" 90.1043083556985 -73.147905 40.742055
+"Darlington Branch Library<br/>1134 Main Street<br/>Darlington, MD" 90.1750285280743 -76.203421 39.642726
+"Tomkins Cove Public Library<br/>419 Liberty Drive North<br/>Tomkins Cove, NY" 90.2831496340751 -73.983884 41.258245
+"Florida Public Library<br/>4 Cohen Circle<br/>Florida, NY" 90.4190090792838 -74.356469 41.330837
+"Hendrick Hudson Free Library<br/>185 Kings Ferry Road<br/>Montrose, NY" 90.4829952235756 -73.9464677 41.2503906
+"Orwigsburg Area Fr Pub Library<br/>214 E. Independence St<br/>Orwigsburg, PA" 90.6047727990849 -76.0996285 40.6532526
+"Hauppauge Public Library<br/>601 Veterans Memorial Hwy.<br/>Hauppauge, NY" 90.6867672524266 -73.2086456 40.8239225
+"Lititz Public Library<br/>651 Kissel Hill Road<br/>Lititz, PA" 90.821673188519 -76.2944432 40.1469062
+"Lancaster Public Library<br/>125 North Duke St<br/>Lancaster, PA" 91.0586790167888 -76.3037907 40.0406808
+"Richland Community Library<br/>111 East Main Street<br/>Richland, PA" 91.1008258024821 -76.256108 40.357737
+"Aberdeen Branch<br/>21 Franklin Street<br/>Aberdeen, MD" 91.4412370194772 -76.1643278 39.5126527
+"Chester Public Library<br/>1784 Kings Highway<br/>Chester, NY" 91.6249162406267 -74.2749599 41.3388009
+"Harry Bennett Library<br/>115 Vine Road<br/>Stamford, CT" 91.7025178306895 -73.5438375 41.0994597
+"Manheim Township Public Library<br/>595 Granite Run Drive<br/>Lancaster, PA" 91.9887425075011 -76.3209319 40.0783644
+"Connetquot Public Library<br/>760 Ocean Avenue<br/>Bohemia, NY" 92.0509726447452 -73.1178605 40.7587088
+"Monroe Free Library<br/>44 Millpond Parkway<br/>Monroe, NY" 92.1141988456118 -74.1903984 41.3328737
+"Weed Memorial Branch Library<br/>1143 Hope Street<br/>Stamford, CT" 92.3540259678449 -73.5196978 41.097446
+"Darien Library<br/>35 Leroy Ave.<br/>Darien, CT" 92.5493965924347 -73.475302 41.074423
+"Lewes Public Library<br/>111 Adams Avenue<br/>Lewes, DE" 92.6028629285064 -75.1418495 38.7676529
+"Pike County Public Library Drop Box - Matamoras<br/>10 Avenue I<br/>Matamoras, PA" 92.6222721356655 -74.7000186 41.3712946
+"Mount Kisco Public Library<br/>55 Maple Avenue<br/>Mount Kisco, NY" 92.6466126307264 -73.730752 41.207374
+"Sayville Library<br/>11 Collins Avenue<br/>Sayville, NY" 92.89810802095 -73.0803125 40.7359678
+"Smithtown Special Library District<br/>1 North Country Road<br/>Smithtown, NY" 92.9116725185222 -73.1874799 40.8561732
+"Port Jervis Free Library<br/>138 Pike Street<br/>Port Jervis, NY" 92.9388472659671 -74.6916075 41.3762827
+"Harrington Public Library<br/>110 Center Street<br/>Harrington, DE" 93.0504306651045 -75.5754846 38.9286371
+"Schuylkill Haven Free Public Library<br/>104 Saint John St<br/>Schuylkill Haven, PA" 93.1870700501449 -76.171176 40.6282574
+"Rowayton Library<br/>33 Highland Ave.<br/>Norwalk, CT" 93.3402805958404 -73.4373576 41.0653417
+"The Field Library<br/>4 Nelson Avenue<br/>Peekskill, NY" 93.5553287999031 -73.9226448 41.2910604
+"Woodbury Public Library<br/>16 County Route 105<br/>Highland Mills, NY" 93.8343949616121 -74.1279745 41.3468048
+"Myerstown Community Library<br/>199 North College St<br/>Myerstown, PA" 94.0183916854049 -76.3066567 40.3777298
+"Bedford Free Library<br/>32 Village Green<br/>Bedford, NY" 94.7301998961433 -73.643089 41.2034942
+"Port Carbon Public Library<br/>111 Pike St<br/>Port Carbon, PA" 95.062360098972 -76.1663324 40.6954021
+"Rehoboth Beach Public Library<br/>226 Rehoboth Avenue<br/>Rehoboth Beach, DE" 95.0939144172587 -75.0830681 38.7155992
+"Bedford Hills Free Library<br/>26 Main Street<br/>Bedford Hills, NY" 95.1430304153723 -73.7002302 41.2358684
+"Milton Public Library<br/>121 Union St<br/>Milton, DE" 95.2028171064407 -75.3109706 38.7785669
+"Bethel-Tulpehocken Public Library<br/>8601 Lancaster Ave<br/>Bethel, PA" 95.3308018120273 -76.294691 40.4776216
+"Bayport-Blue Point Public Library<br/>203 Blue Point Avenue<br/>Blue Point, NY" 95.3837184319131 -73.0359525 40.7497704
+"South Norwalk Branch Library<br/>10 Washington Street<br/>Norwalk, CT" 95.6518923876021 -73.421148 41.0988112
+"Goshen Public Library And Historical Society<br/>203 Main Street<br/>Goshen, NY" 95.6538753012275 -74.3203104 41.4034308
+"New Canaan Library<br/>151 Main St.<br/>New Canaan, CT" 95.8756358503225 -73.4920934 41.1456241
+"Harford County Public Library<br/>1221-A Brass Mill Road<br/>Belcamp, MD" 95.9112222239448 -76.2353876 39.476954
+"Newfoundland Area Public Library<br/>954 Main Street<br/>Newfoundland, PA" 96.0376427148062 -75.3206355 41.3063092
+"Sachem Public Library<br/>150 Holbrook Road<br/>Holbrook, NY" 96.1122253390753 -73.0809674 40.8231637
+"Pottsville Free Public Library<br/>215 W Market St<br/>Pottsville, PA" 96.1446383224638 -76.1969176 40.6849417
+"Manheim Community Library<br/>15 East High St<br/>Manheim, PA" 96.1902835187082 -76.3945412 40.1639315
+"Whiteford Branch Library<br/>2407 Whiteford Road<br/>Whiteford, MD" 96.202845068912 -76.34643 39.710303
+"East Norwalk Library<br/>51 Van Zant St.<br/>Norwalk, CT" 96.3298431736388 -73.4058852 41.1019165
+"Briarcliffe College Library - Patchogue<br/>225 West Main Street<br/>Patchogue, NY" 96.6453724702343 -73.0210654 40.7664503
+"Norwalk Public Library<br/>1 Belden Ave.<br/>Norwalk, CT" 96.7876729309358 -73.4156145 41.1167333
+"Katonah Village Library<br/>26 Bedford Road<br/>Katonah, NY" 96.8915400940741 -73.6849333 41.258403
+"Patchogue-Medford Library<br/>54-60 East Main Street<br/>Patchogue, NY" 96.9535111697612 -73.0135866 40.7656694
+"Hazleton Area Public Library<br/>55 N Church St<br/>Hazleton, PA" 97.0392003643147 -75.9760902 40.9560658
+"Pound Ridge Library District<br/>271 Westchester Avenue<br/>Pound Ridge, NY" 97.1309591288662 -73.573357 41.2111305
+"Putnam Valley Free Library<br/>30 Oscawana Lake Road<br/>Putnam Valley, NY" 97.4122994207008 -73.8740606 41.3363389
+"North County Branch<br/>101 Cedar Lane<br/>Greensboro, MD" 97.4245685158696 -75.8190187 38.9975908
+"Kent County Public Library<br/>408 High Street<br/>Chestertown, MD" 97.5028955455876 -76.0690761 39.2110727
+"Lancaster Public Library West - Mountville Branch<br/>120 College Avenue<br/>Mountville, PA" 97.5620138450208 -76.4266082 40.0425608
+"Middle Country Public Library<br/>101 Eastwood Boulevard<br/>Centereach, NY" 97.7982464317853 -73.0799449 40.8648074
+"Highland Falls Library<br/>298 Main Street<br/>Highland Falls, NY" 97.9029447497588 -73.9652473 41.3704165
+"John C. Hart Memorial Library<br/>1130 East Main Street<br/>Shrub Oak, NY" 97.9373923429617 -73.8294477 41.3301074
+"Mahanoy City Public Library<br/>17-19 West Mahanoy St.<br/>Mahanoy City, PA" 98.0139982424774 -76.141753 40.8112104
+"Thrall Public Library District Of Middletown And Wallkill<br/>11-19 Depot Street<br/>Middletown, NY" 98.0424801765493 -74.4205309 41.4470746
+"Somers Library<br/>p.o. box 443<br/>Somers, NY" 98.140489353705 -73.7360175 41.2996305
+"Pike County Public Library - Lackawaxen Township Branch<br/>223 Route 590<br/>Greeley, PA" 98.3658566188556 -74.9955165 41.4226566
+"Alice Curtis Desmond Hamilton Fish Lib<br/>472 Route 403<br/>Garrison, NY" 98.6985712737979 -73.9424034 41.3764531
+"Moffat Library Of Washingtonville<br/>6 West Main Street<br/>Washingtonville, NY" 98.7869817775738 -74.167495 41.4279086
+"Lebanon Community Library<br/>125 N Seventh St<br/>Lebanon, PA" 99.419834655646 -76.4227408 40.3410675
+"Minersville Public Library<br/>220 S Fourth St<br/>Minersville, PA" 99.5077458316624 -76.2649737 40.6907188
+"Emma S. Clark Memorial Library<br/>120 Main Street<br/>Setauket, NY" 99.8019068264107 -73.1119254 40.9449389
+"Bel Air Branch Library<br/>100 E. Pennsylvania Ave<br/>Bel Air, MD" 99.8409730151016 -76.347871 39.5381533
+"Westport Library<br/>20 Jesup Road<br/>Westport, CT" 99.8690352706693 -73.3616888 41.1407663
+"Ramapo Catskill Library System<br/>619 Rte 17m<br/>Middletown, NY" 99.9402866789966 -74.416013 41.474317
+"South Country Library<br/>22 Station Road<br/>Bellport, NY" 99.9815390941769 -72.9409063 40.7580857

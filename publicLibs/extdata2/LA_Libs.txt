@@ -1,0 +1,327 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Cow Island Branch" "19635 Columbus Street" "Abbeville" "LA" "" -92.2686644 29.8674387
+"Vermilion Parish Library" "405 East Saint Victor Street" "Abbeville" "LA" "70510" -92.1315424 29.9749594
+"Abita Springs Branch" "71683 Leveson Street" "Abita Springs" "LA" "" -90.0390386 30.477425
+"Albany Branch" "30051 West School Street" "Albany" "LA" "" -90.5838859 30.5004134
+"Fuhrer Branch" "1264 Canterberry Drive" "Alexandria" "LA" "" -92.47818 31.28486
+"Martin Luther King Jr. Memorial Branch" "3311 Third Street" "Alexandria" "LA" "" -92.4245694 31.2969067
+"Rapides Parish Library" "411 Washington Street" "Alexandria" "LA" "71301" -92.4441842 31.3093343
+"Amelia Branch" "625 Lake Palourde Road" "Amelia" "LA" "" -91.1022554 29.6658068
+"Tangipahoa Parish Library" "200 E. Mulberry Street" "Amite" "LA" "70422" -90.5068383 30.7280385
+"Tangipahoa Parish Main Library" "739 West Oak Street" "Amite" "LA" "" -90.5197019 30.7265889
+"Angie Branch" "30303 Railroad" "Angie" "LA" "" -89.8117366 30.9654535
+"Varnado Branch" "63086 Main Street" "Angie" "LA" "" -89.8123733 30.9675077
+"Bienville Parish Library" "2768 Maple Street" "Arcadia" "LA" "71001" -92.9236729 32.5481814
+"Arnaudville Branch" "1021 Overton Street" "Arnaudville" "LA" "" -91.933013 30.3952112
+"Atlanta Branch" "110 School Road" "Atlanta" "LA" "" -92.7337525 31.805586
+"Baker Branch Library" "3501 Groom Road" "Baker" "LA" "" -91.1637119 30.5879029
+"West End Branch" "100 Charenton Road" "Baldwin" "LA" "" -91.5447301 29.838358
+"Basile Branch" "3036 East Stagg Avenue" "Basile" "LA" "" -92.5953536 30.4856723
+"Dunbar Branch" "1102 Perry Street" "Bastrop" "LA" "" -91.9251833 32.7707836
+"Morehouse Parish Library" "524 East Madison St." "Bastrop" "LA" "71220" -91.9093259 32.7772814
+"Bluebonnet Regional Branch" "9200 Bluebonnet Boulevard" "Baton Rouge" "LA" "" -91.1052538 30.3653101
+"Carver Branch Library" "720 Terrace Street" "Baton Rouge" "LA" "" -91.1831595 30.4362296
+"Central Branch Library" "11260 Joor Road" "Baton Rouge" "LA" "" -91.0517059 30.5506304
+"Delmont Gardens Branch Library" "3351 Lorraine Street" "Baton Rouge" "LA" "" -91.1569699 30.496721
+"East Baton Rouge Parish Library" "7711 Goodwood Boulevard" "Baton Rouge" "LA" "70806" -91.107152 30.4438856
+"Eden Park Branch" "5131 Greenwell Springs Road" "Baton Rouge" "LA" "" -91.1383246 30.4643022
+"Greenwell Springs Road Regional Branch" "11300 Greenwell Springs Road" "Baton Rouge" "LA" "" -91.057497 30.4938276
+"Jones Creek Regional Branch" "6222 Jones Creek Road" "Baton Rouge" "LA" "" -91.0182156 30.3963692
+"River Center Branch Library" "120 St. Louis Street" "Baton Rouge" "LA" "" -91.1879103 30.4466649
+"Scotlandville Branch" "7373 Scenic Highway" "Baton Rouge" "LA" "" -91.1760315 30.5153001
+"Bayou Vista Branch" "1325 Belleview Drive" "Bayou Vista" "LA" "" -91.2703354 29.6964673
+"Belcher-Wyche Branch" "409 Charles Street" "Belcher" "LA" "" -93.832951 32.749068
+"Bell City Branch" "7085 Highway 14" "Bell City" "LA" "" -92.9625248 30.1156699
+"Belle Chasse Branch" "8442 Highway 23" "Belle Chasse" "LA" "70037" -89.9874444 29.8528909
+"Benton Branch" "6th Sibley Streets" "Benton" "LA" "" -93.7402353 32.6968913
+"Berwick Branch" "3527 Fourth Street" "Berwick" "LA" "" -91.2201923 29.6954356
+"Blanchard Branch" "344 Alexander Street" "Blanchard" "LA" "" -93.8873623 32.5842254
+"Bogalusa Branch" "304 Avenue F" "Bogalusa" "LA" "" -89.8700805 30.7800882
+"Bonita Branch" "15004 Henry Street" "Bonita" "LA" "" -91.6728308 32.9195676
+"Bossier Parish" "2206 Beckett Street" "Bossier City" "LA" "71111" -93.7162169 32.5259003
+"Henry L. Aulds Jr. Branch" "3950 Wayne Avenue" "Bossier City" "LA" "" -93.6688753 32.4818681
+"Bourg Branch" "4455 Grace Street" "Bourg" "LA" "" 2.3520137 48.8639901
+"Boyce Branch" "500 A Ulster" "Boyce" "LA" "" -92.6698373 31.3896951
+"Breaux Bridge Branch" "102 Courthouse Street" "Breaux Bridge" "LA" "" -91.9003988 30.2743015
+"Broussard Branch" "100 West Main Street" "Broussard" "LA" "" -91.9642196 30.1482434
+"Bunkie Branch" "107 West Oak Street" "Bunkie" "LA" "" -92.1847591 30.9546605
+"Bush Branch" "81597 Highway 41" "Bush" "LA" "" -89.8954416 30.6092221
+"Caldwell Parish Library" "211 Jackson Street" "Caldwell" "LA" "71418" -92.0739444 32.1051365
+"Calvin Branch" "255 Second Street" "Calvin" "LA" "" -92.776334 31.9723886
+"Cameron Parish Library" "469 Marshall St." "Cameron" "LA" "70631" -93.3302037 29.7984934
+"Johnson Bayou Branch" "4586 Gulf Beach Highway" "Cameron" "LA" "" -93.5823995 29.761877
+"Carencro Branch" "215 E. St. Peter Street" "Carencro" "LA" "" -92.046885 30.317867
+"Cecilia Branch" "2040 Cecilia Street" "Cecilia" "LA" "" -91.8424862 30.340089
+"St. Bernard Parish Library" "2600 Palmisano Blvd" "Chalmette" "LA" "70043" -89.951969 29.939378
+"Chataignier Branch" "6215 Charles Armand Street" "Chataignier" "LA" "" -92.320722 30.5696603
+"Chauvin Branch" "5612 La Highway 56" "Chauvin" "LA" "" -90.5968983 29.4324715
+"Churchpoint Branch" "311 N. Vista St." "Churchpoint" "LA" "" -92.2193134 30.4070186
+"Clayton Branch Library" "8723 Highway 566" "Clayton" "LA" "" -91.5429674 31.7225213
+"Audubon Regional Library" "12220 Woodville Street" "Clinton" "LA" "70722" -91.0178497 30.8667139
+"Grant Parish" "300 Main Street" "Colfax" "LA" "71417" -92.7123947 31.51692
+"Collingston Branch" "4620 Main Street" "Collingston" "LA" "" -91.870836 32.6891807
+"Converse Branch" "102 West Port Arthur Avenue" "Converse" "LA" "" -93.70126 31.7826024
+"Dr. John Pugh Memorial Branch" "256 Main Street" "Cotton Valley" "LA" "" -93.417256 32.8186733
+"Cottonport Branch" "204 Cottonport Avenue" "Cottonport" "LA" "" -92.054215 30.985343
+"Red River Parish" "2022 Alonzo St" "Coushatta" "LA" "71019" -93.3449579 32.0143406
+"Covington Branch And Electronic Resource Center" "310 W. 21st Ave." "Covington" "LA" "70433" -90.1028655 30.4769329
+"Lee Road Branch" "79213 Highway 40" "Covington" "LA" "" -90.0756799 30.5828259
+"St. Tammany Parish Library" "310 West 21st Avenue" "Covington" "LA" "70433" -90.1028655 30.4769329
+"Acadia Parish" "1125 North Parkerson Avenue" "Crowley" "LA" "70526" -92.3775746 30.2201805
+"Delcambre Branch" "206 W. Main" "Delcambre" "LA" "" -91.9894013 29.9484611
+"Delcambre Branch" "206 West Main Street" "Delcambre" "LA" "" -91.9894013 29.9484611
+"Delhi Branch" "520 North Main Street" "Delhi" "LA" "" -91.4924561 32.4610478
+"Denham Springs-Walker Branch" "8369 Florida Boulevard" "Denham Springs" "LA" "" -90.9190765 30.4837078
+"Dequincy Branch" "102 West Harrison Street" "Dequincy" "LA" "" -93.4358616 30.4491893
+"Beauregard Parish" "205 South Washington Avenue" "Deridder" "LA" "70634" -93.286738 30.8451873
+"East Regional Branch" "100 River Oaks Drive" "Destrehan" "LA" "" -90.3798956 29.9514371
+"Dodson Branch" "206 East Gresham Street" "Dodson" "LA" "" -92.6593493 32.0772069
+"Donaldsonville Branch" "500 Mississippi Street" "Donaldsonville" "LA" "" -90.985878 30.105328
+"Doyline Branch" "333 Main Street" "Doyline" "LA" "" -93.4101815 32.5366599
+"East Beauregard Branch" "7580 Highway 26" "Dry Creek" "LA" "" -92.9153733 30.7122692
+"Dry Prong Branch" "605 Elm Street" "Dry Prong" "LA" "" -92.5287166 31.5770452
+"Grand Caillou Branch" "200 Badou Drive" "Dulac" "LA" "" -90.6992948 29.4150563
+"Duson Branch" "708 First Street" "Duson" "LA" "" -92.178279 30.235674
+"West St. John Branch" "2979 Highway 18" "Edgard" "LA" "" -90.5955194 30.041342
+"Elton Branch" "908 Main St." "Elton" "LA" "" -92.6934851 30.4813446
+"Erath Branch" "210 South Broadway" "Erath" "LA" "" -92.0349091 29.9565514
+"Estherwood Branch" "116 N. Leblanc St." "Estherwood" "LA" "" -92.4640398 30.1817467
+"Eunice Municipal Library" "222 South Second Street" "Eunice" "LA" "" -92.416265 30.4936474
+"Evangeline Branch" "123 Willis Lane" "Evangeline" "LA" "" -92.6648823 30.5096788
+"Union Parish Library" "202 West Jackson Street" "Farmerville" "LA" "71241" -92.4054875 32.7746747
+"Concordia Parish" "1609 Third Street" "Ferriday" "LA" "71334" -91.5536142 31.6359433
+"Fields Southwest Branch" "13487 Highway 389" "Fields" "LA" "" -93.5751942 30.5310088
+"Fisher Branch" "842 Four-L Drive" "Fisher" "LA" "" -93.464049 31.5491747
+"Florien Branch" "514 West Port Arthur Avenue" "Florien" "LA" "" -93.4701623 31.44395
+"Folsom Branch" "82393 Railroad Avenue" "Folsom" "LA" "" -90.189319 30.6315284
+"St. Mary Parish Library" "206 Iberia Street" "Franklin" "LA" "70538" -91.5024058 29.7963035
+"Enon Branch" "14073 Highway 16" "Franklinton" "LA" "" -90.1510816 30.8330668
+"Pine Branch" "26513 Highway 62" "Franklinton" "LA" "" -90.0134454 30.907257
+"Thomas Branch" "30390 Highway 424" "Franklinton" "LA" "" -90.02877 30.9631863
+"Washington Parish" "825 Free St." "Franklinton" "LA" "70438" -90.159317 30.8486906
+"French Settlement Branch" "16015 Highway 16" "French Settlement" "LA" "" -90.7982901 30.2995148
+"Frazee-Harris Memorial Branch" "493 Historic Main St." "Garyville" "LA" "" -90.6179728 30.0568803
+"Georgetown Branch" "4570 Highway 500" "Georgetown" "LA" "" -92.3797208 31.7665959
+"Gibson Branch" "6363 South Bayou Black Drive" "Gibson" "LA" "" -90.9920795 29.6868222
+"Gilliam Branch" "12797 Main Street" "Gilliam" "LA" "" -93.845046 32.826983
+"Glenmora Branch" "1120 Seventh Street" "Glenmora" "LA" "" -92.5853009 30.9681144
+"Golden Meadow Branch" "1501 North Bayou Drive" "Golden Meadow" "LA" "" -90.2734884 29.4023301
+"Ascension Parish" "708 South Irma Boulevard" "Gonzales" "LA" "70737" -90.9128248 30.2276432
+"Grand Isle Branch" "2734 La Highway 1" "Grand Isle" "LA" "" -90.0071352 29.2257031
+"North Terrebonne Branch" "4130 West Park Avenue" "Gray" "LA" "" -90.7795732 29.6760738
+"Higginbotham-Bryson Branch" "9359 Greenwood Road" "Greenwood" "LA" "" -93.9745006 32.4435442
+"Gretna Branch" "102 Willow Drive" "Gretna" "LA" "" -90.0509268 29.9116098
+"Grosse Tete Branch" "18135 Willow St." "Grosse Tete" "LA" "" -91.4329008 30.4104978
+"Gueydan Branch" "605 Mcmurtry Street" "Gueydan" "LA" "" -92.5084691 30.0260404
+"Hackberry Branch" "983 Main Street" "Hackberry" "LA" "" -93.3673031 29.9792267
+"Hahnville Branch" "14996 River Road, D" "Hahnville" "LA" "" -90.4052776 29.9625443
+"Hammond Branch" "314 East Thomas Street" "Hammond" "LA" "" -90.4579745 30.5045007
+"Harahan Branch" "219 Soniat Avenue" "Harahan" "LA" "" -90.2013236 29.9362147
+"Catahoula Parish Library" "300 Bushley Street" "Harrisonburg" "LA" "71340" -91.8431788 31.7607537
+"West Bank Regional Branch" "2751 Manhattan Boulevard" "Harvey" "LA" "" -90.0480112 29.8715698
+"East 80 Branch" "1050 Bellevue Road" "Haughton" "LA" "" -93.6134338 32.5577794
+"Haughton Branch" "116 W. Mckinley" "Haughton" "LA" "" -93.5055003 32.5335347
+"Koran Branch" "1684 Highway 527-Johnson Store Rd." "Haughton" "LA" "" -93.5040627 32.5326514
+"Hayes Branch" "7709 Perier Street" "Hayes" "LA" "" -92.9215236 30.1078739
+"Joe Webb Memorial Branch" "1919 Main Street" "Haynesville" "LA" "" -93.1322028 32.9629468
+"Heflin Branch" "7041 Highway 531" "Heflin" "LA" "" -93.2641118 32.4559794
+"Hineston Branch" "1839 Highway 121" "Hineston" "LA" "" -92.75922 31.13908
+"Claiborne Parish" "909 Edgewood Drive" "Homer" "LA" "71040" -93.0686778 32.7952242
+"Hosston Branch" "15487 Us Highway 71" "Hosston" "LA" "" -93.8784128 32.890937
+"Bayou Blue Branch" "2004 Bayou Blue Road" "Houma" "LA" "" -90.6879599 29.6456941
+"Bayou Dularge Branch" "837 Bayou Dularge Road" "Houma" "LA" "" -90.7520954 29.4990029
+"East Houma Branch" "778 Grand Caillou Highway" "Houma" "LA" "" -90.7195348 29.5957696
+"Terrebonne Parish" "151 Library Drive" "Houma" "LA" "70360" -90.7256915 29.5822977
+"Means Memorial Branch" "7016 East Magnolia Lane" "Ida" "LA" "" -93.894226 33.004348
+"Independence Branch" "300 Fourth Street" "Independence" "LA" "" -90.5021443 30.635162
+"Innis Branch" "4360 Nicholls Avenue" "Innis" "LA" "" -91.6797959 30.8755608
+"Iota Branch" "119 Duson St." "Iota" "LA" "" -92.4949405 30.3313305
+"Iowa Branch" "107 East First Street" "Iowa" "LA" "" -93.0135294 30.236844
+"Jackson Branch" "3312 College Street" "Jackson" "LA" "" -91.2135034 30.839963
+"Jeanerette Branch" "411 Kentucky Street" "Jeanerette" "LA" "" -91.6723137 29.91937
+"Rosedale Branch" "4036 Jefferson Highway" "Jefferson" "LA" "" -90.1678552 29.9616324
+"Lasalle Parish Library" "3108 N First St" "Jena" "LA" "71342" -92.1343256 31.705884
+"Jennings Carnegie Public" "303 Cary Avenue" "Jennings" "LA" "70546" -92.6592023 30.2226404
+"Jefferson Davis Parish" "118 West Plaquemine Street" "Jennnings" "LA" "70546" -92.6585512 30.2226144
+"Jackson Parish Library" "614 South Polk Avenue" "Jonesboro" "LA" "71251" -92.7147479 32.2396233
+"Jonesville Branch" "205 Pond Street" "Jonesville" "LA" "" -91.8135635 31.6281513
+"Kaplan Branch" "513 North Cushing Avenue" "Kaplan" "LA" "" -92.2839574 30.0018103
+"Vaughn-Copel Pecan Island Branch" "28736 West La Highway 82" "Kaplan" "LA" "" -92.5735049 29.6707269
+"North Kenner Branch" "630 West Esplanade Avenue" "Kenner" "LA" "" -90.259426 30.0222903
+"Kentwood Branch" "101 Avenue F" "Kentwood" "LA" "" -90.5062619 30.9392864
+"Kinder Branch" "4th Street" "Kinder" "LA" "" -92.855521 30.486836
+"Krotz Springs Municipal Public Library" "216 Park St." "Krotz Springs" "LA" "70750" -91.7521098 30.5374927
+"Labadieville Branch" "105 Cherry Street" "Labadieville" "LA" "" -90.9604813 29.8321771
+"Lacombe Branch" "28027 Highway 190" "Lacombe" "LA" "" -89.941597 30.313278
+"Butler Memorial Branch" "309 Cora Street" "Lafayette" "LA" "" -92.0265716 30.2482387
+"Chenier Center Branch" "220 West Willow Street" "Lafayette" "LA" "" -92.0164 30.24572
+"Lafayette Public Library" "301 W. Congress" "Lafayette" "LA" "70501" -92.020247 30.226273
+"Southside Branch" "5417 Johnston Street" "Lafayette" "LA" "" -92.070749 30.180366
+"Lafitte" "4917 City Park Drive, Suite B" "Lafitte" "LA" "70067" -90.1244 29.737076
+"Lake Arthur Branch" "411 Lake Street" "Lake Arthur" "LA" "" -92.6773452 30.0760884
+"Calcasieu Parish Library" "301 West Claude Street" "Lake Charles" "LA" "70605" -93.2236466 30.1866054
+"Carnegie Memorial Branch" "411 Pujo Street" "Lake Charles" "LA" "" -93.2155905 30.2277547
+"Epps Memorial Branch" "1324 North Simmons Street" "Lake Charles" "LA" "" -93.18511 30.255722
+"Moss Bluff Branch" "261 Parish Road" "Lake Charles" "LA" "" -93.2006117 30.3029637
+"East Carroll Parish" "109 Sparrow Street" "Lake Providence" "LA" "71254" -91.1727091 32.7972824
+"St. John The Baptist Parish Library" "2920 New Highway 51" "Laplace" "LA" "70068" -90.4499571 30.1317464
+"Georgie S. Johnson Branch" "1610 St. Charles St" "Lecompte" "LA" "" -92.4040948 31.0863568
+"Paul Laurence Dunbar Branch" "1003 North Gladys St. At Nona St." "Leesville" "LA" "" -93.2703116 31.1513024
+"Vernon Parish" "1401 Nolan Trace" "Leesville" "LA" "71446" -93.281038 31.142246
+"Livingston Parish" "13986 Florida Blvd" "Livingston" "LA" "70754" -90.7444205 30.502858
+"Livonia Branch" "3100 Highway 78" "Livonia" "LA" "" -91.5557089 30.5592832
+"Lockport Branch" "710 Church Street" "Lockport" "LA" "" -90.541919 29.6409381
+"Logansport Branch" "808 Main Street" "Logansport" "LA" "" -93.9997659 31.9748149
+"Longville Midsouth Branch" "234 Longville Road" "Longville" "LA" "" -93.2306146 30.6061953
+"Loranger Branch" "p.o.box 515" "Loranger" "LA" "" -90.3981441 30.6357439
+"Loreauville Branch" "510 Main Street" "Loreauville" "LA" "" -91.737265 30.0609485
+"St. Charles Parish Library" "105 Lakewood Dr." "Luling" "LA" "70070" -90.3441812 29.9129659
+"St. James Parish" "1879 W. Main Street" "Lutcher" "LA" "70071" -90.693348 30.0452713
+"Black River Branch" "1519 Hwy 22 West" "Madisonville" "LA" "" -90.2042543 30.4318332
+"Madisonville Branch" "400 Cedar Street" "Madisonville" "LA" "" -90.1590795 30.4071777
+"Mamou Branch" "317a Second Street" "Mamou" "LA" "" -92.4244332 30.6298109
+"Causeway Branch" "3457 Highway 190" "Mandeville" "LA" "" -90.0834964 30.3920877
+"Mandeville Branch" "842 Gerard Street" "Mandeville" "LA" "" -90.0620839 30.3626646
+"St. Tammany Parish Library Business Resource Center" "3505 Highway 190" "Mandeville" "LA" "70471" -90.0833833 30.3919539
+"Mangham Branch" "302 Hixon Street" "Mangham" "LA" "" -91.7854825 32.3111892
+"Desoto Parish Library" "109 Crosby Street" "Mansfield" "LA" "71052" -93.7045823 32.037304
+"Outreach Branch" "2111 Cleco Road" "Mansura" "LA" "" -92.0507288 31.0566614
+"Sabine Parish" "705 Main Street" "Many" "LA" "71449" -93.4840844 31.5677655
+"Toledo Branch" "12224 Texas Highway" "Many" "LA" "" -93.6596038 31.4949391
+"Maplewood Branch" "91 Center Circle" "Maplewood" "LA" "" -93.318515 30.229819
+"Maringouin Branch" "77175 Ridgewood Dr." "Maringouin" "LA" "" -91.5120937 30.4893119
+"Avoyelles Parish" "104 N Washington Street" "Marksville" "LA" "71351" -92.0689031 31.1234022
+"Belle Terre Branch" "5550 Belle Terre Road" "Marrero" "LA" "" -90.113143 29.880125
+"Maurice Branch" "100 East Joseph Street" "Maurice" "LA" "" -92.1246037 30.106003
+"Mer Rouge Branch" "107 South 16th Street" "Mer Rouge" "LA" "" -91.7937522 32.7748022
+"Mermentau Branch" "107 Second St." "Mermentau" "LA" "" -92.5860951 30.1907134
+"Merryville West Branch" "120 Heard Street" "Merryville" "LA" "" -93.5414927 30.7578531
+"Jefferson Parish Library" "4747 W. Napoleon Ave." "Metairie" "LA" "70001" -90.185906 29.9956301
+"Lakeshore Branch" "1000 West Esplanade" "Metairie" "LA" "" -90.2532105 30.0221843
+"Old Metairie Branch" "2350 Metairie Road" "Metairie" "LA" "" -90.1492309 29.9827694
+"Wagner" "6646 Riverside Drive" "Metairie" "LA" "70003" -90.220477 30.0092311
+"Webster Parish" "521 East And West" "Minden" "LA" "71055" -93.2812959 32.6212215
+"Anna Meyer Branch" "1808 Highway 165 South" "Monroe" "LA" "" -92.084501 32.48624
+"Carver Branch" "2941 Renwick Street" "Monroe" "LA" "" -92.085551 32.514183
+"Ouachita Parish Public Library" "1800 Stubbs Avenue" "Monroe" "LA" "71201" -92.1081956 32.519992
+"Montegut Branch" "1135 Highway 55" "Montegut" "LA" "" -90.5557165 29.4779085
+"Mooringsport Branch" "603 Latimer Street" "Mooringsport" "LA" "" -93.9600105 32.6873858
+"Moreauville Branch" "343 Tassin Street" "Moreauville" "LA" "" -91.9753588 31.0295322
+"Morgan City Public Library" "220 Everett Street" "Morgan City" "LA" "70380" -91.2087707 29.6949053
+"Stephensville Branch" "3243 Highway 70" "Morgan City" "LA" "" -91.1753455 29.7495332
+"Morganza Branch" "221 Highway 1 South" "Morganza" "LA" "" -91.5920547 30.7357181
+"Morse Branch" "232 S. Jules Av." "Morse" "LA" "" -92.4998998 30.122257
+"Mount Hermon Branch" "36015 Highway 38" "Mount Hermon" "LA" "" -90.2959605 30.9567342
+"Assumption Parish" "293 Napoleon Avenue" "Napoleonville" "LA" "70390" -91.0226929 29.9419859
+"Natchitoches Parish Library" "450 Second Street" "Natchitoches" "LA" "71457" -93.0886774 31.7593375
+"Coteau Branch" "6308 Coteau Park Road" "New Iberia" "LA" "" -91.8504393 29.9803614
+"East Side Branch" "1000 Parkview Drive, Suite 28" "New Iberia" "LA" "" -91.801765 30.000878
+"Iberia Parish Library" "445 E. Main St." "New Iberia" "LA" "70560" -91.8133751 30.0031952
+"Lydia Branch" "4800 Freyou Road" "New Iberia" "LA" "" -91.7901526 29.9256526
+"Algiers Point-Hubbell Branch" "725 Pelican Street" "New Orleans" "LA" "" -90.0481939 29.9530977
+"Algiers Regional Branch" "3014 Holiday Drive" "New Orleans" "LA" "" -90.0136161 29.9229538
+"Alvar Branch" "913 Alvar Street" "New Orleans" "LA" "" -90.036718 29.9639122
+"Childrens Resource Center (Napoleon Branch)" "913 Jackson Avenue" "New Orleans" "LA" "" -90.0755031 29.9282674
+"East New Orleans Regional Branch" "5641 Read Road" "New Orleans" "LA" "" -89.9720639 30.0317667
+"Keller Branch" "4300 South Broad Street" "New Orleans" "LA" "" -90.1036643 29.9486987
+"Martin Luther King, Jr. Branch" "1617 Caffin Avenue" "New Orleans" "LA" "" -90.0134193 29.9666305
+"Milton H. Latter Branch" "5120 St. Charles Avenue" "New Orleans" "LA" "" -90.1102441 29.9266055
+"New Orleans Public" "219 Loyola Avenue" "New Orleans" "LA" "70112" -90.0756797 29.9543964
+"Nix Branch" "1401 South Carrollton Avenue" "New Orleans" "LA" "" -90.1277617 29.9485707
+"Nora Narva Branch" "1902 St. Bernard Avenue" "New Orleans" "LA" "" -90.0674464 29.9756462
+"Norman Mayer Gentilly Branch" "2098 Foy Street" "New Orleans" "LA" "" -90.0616472 29.9978245
+"Robert E. Smith Branch" "6301 Canal Boulevard" "New Orleans" "LA" "" -90.1074492 30.0050052
+"Pointe Coupee Parish Library" "201 Claiborne Street" "New Roads" "LA" "70760" -91.4391458 30.6940248
+"Norco Branch" "197 Good Hope Street" "Norco" "LA" "" -90.4105776 30.0018991
+"West Carroll Parish" "101 Marietta Street" "Oak Grove" "LA" "71263" -91.3863344 32.8599302
+"Oakdale Branch" "405 East Sixth Avenue" "Oakdale" "LA" "" -92.6608822 30.8156761
+"Allen Parish Libraries" "320 South Sixth St." "Oberlin" "LA" "70655" -92.7660845 30.6156342
+"Oil City Branch" "102 Allen Street" "Oil City" "LA" "" -93.9724955 32.746435
+"Opelousas-Eunice Public" "212 East Grolee Street" "Opelousas" "LA" "70570" -92.0808707 30.5358566
+"Parks Branch" "1012 Martin Street" "Parks" "LA" "" -91.8330254 30.2138
+"Patterson Branch" "1108 First Street" "Patterson" "LA" "" -91.3036267 29.693483
+"Pearl River Branch" "64580 Highway 41" "Pearl River" "LA" "" -89.762247 30.370647
+"Pelican Branch" "139 Jackson Ave." "Pelican" "LA" "" -93.5863346 31.8821289
+"Pierre Part Branch" "3103 Highway 70 (Lee Drive)" "Pierre Part" "LA" "" -91.1984274 29.9845498
+"Pine Prairie Branch" "1111walnut Street" "Pine Prairie" "LA" "" -92.4242595 30.7827568
+"Carl N. Gunter Sr. Branch" "5630 Holloway Rd (Hwy 28 E Libuse)" "Pineville" "LA" "" -92.4343035 31.3224044
+"Martin Branch" "801 West Shamrock" "Pineville" "LA" "" -92.4349239 31.3228355
+"Pitkin Branch" "7277 Highway 463" "Pitkin" "LA" "" -92.9328569 30.9429595
+"Bayou Pigeon Branch" "36625 Highway 75" "Plaquemine" "LA" "" -91.2869966 30.1171494
+"Bayou Sorrell Branch" "33415 Hwy. 75 (65744 Tot Carlinedr)" "Plaquemine" "LA" "" -91.2342744 30.2890833
+"Iberville Parish" "24605 J. Gerald Berret Blvd." "Plaquemine" "LA" "70764" -91.2467024 30.2639301
+"Plaucheville Branch" "146 Gin Street" "Plaucheville" "LA" "" -91.9809322 30.9651511
+"Pleasant Hill Branch" "2112 West Main Street" "Pleasant Hill" "LA" "" -93.5150132 31.8202666
+"Pollock Branch" "1316 Pine Street" "Pollock" "LA" "" -92.4063621 31.5244957
+"Ponchatoula Branch" "380 North 5th Street" "Ponchatoula" "LA" "" -90.4406852 30.4429374
+"West Baton Rouge Parish" "830 North Alexander Avenue" "Port Allen" "LA" "70767" -91.2101615 30.4595163
+"Port Sulphur Branch" "138 Civic Drive Route 2" "Port Sulphur" "LA" "" -89.6952889 29.4790319
+"Galvez Branch" "40300 Hwy 42 At Autumn Leaves Drive" "Prairieville" "LA" "" -90.9297034 30.3237613
+"Pride-Chaneyville Branch Library" "13600 Pride-Port Hudson Road" "Pride" "LA" "" -91.0065284 30.7088226
+"Raceland Branch" "104 Mississippi St" "Raceland" "LA" "" -90.5978627 29.7292873
+"Ragley South Branch" "6715 Highway 12" "Ragley" "LA" "" -93.26387 30.5073125
+"Rayne Branch" "109 West Perrodin Street" "Rayne" "LA" "" -92.26886 30.2329488
+"Richland Parish Library" "1410 Louisa Street" "Rayville" "LA" "71269" -91.7585549 32.4691753
+"Reserve Branch" "170 West 10th Street" "Reserve" "LA" "" -90.5637487 30.058037
+"South Bienville Ringold Branch" "2078 Hall Street" "Ringgold" "LA" "" -93.2884254 32.3291757
+"Rodessa Branch" "10093 Main Street" "Rodessa" "LA" "" -93.9955946 32.9710191
+"Rosedale Branch" "15695 Rosedale Rd" "Rosedale" "LA" "" -91.4529169 30.4416443
+"Julian Poydras Branch" "4985 Julian Poydras Lane" "Rougon" "LA" "" -91.3681029 30.605955
+"Lincoln Parish Library" "910 North Trenton Street" "Ruston" "LA" "71270" -92.6383209 32.5372219
+"Saline Branch" "920 Cooper Street" "Saline" "LA" "" -92.9743715 32.1640489
+"Sarepta Branch" "24448 Highway 7" "Sarepta" "LA" "" -93.6421227 33.500556
+"Scott Branch" "5808 West Cameron Street" "Scott" "LA" "" -92.0949605 30.2338972
+"Atkins Branch" "2709 Hassett" "Shreveport" "LA" "" -93.798575 32.485222
+"Broadmoor Branch" "1212 Capitain Shreve Drive" "Shreveport" "LA" "" -93.7085983 32.4703963
+"Cedar Grove-Line Avenue Branch" "8303 Line Avenue" "Shreveport" "LA" "" -93.7424415 32.4288065
+"David Raines Branch" "2855 Martin Luther King, Jr. Drive" "Shreveport" "LA" "" -93.7501789 32.5251516
+"Extension Center Branch" "5802 Union Street" "Shreveport" "LA" "" -93.7715369 32.4564333
+"Hamilton-South Caddo Branch" "2111 Bert Koons So. Industrial Loop" "Shreveport" "LA" "" -93.794199 32.4007943
+"Mooretown Branch" "4260 Hollywood Avenue" "Shreveport" "LA" "" -93.8092971 32.4566046
+"North Shreveport" "4844 North Market Street" "Shreveport" "LA" "" -93.8121125 32.5866419
+"Shreve Memorial" "424 Texas Street" "Shreveport" "LA" "71101" -93.7497087 32.5133196
+"Wallette Lakeside Branch" "363 Hearne Avenue" "Shreveport" "LA" "" -93.7793921 32.5075937
+"West Shreveport Branch" "6723 Pines Road, Suite 110" "Shreveport" "LA" "" -93.8613543 32.4471209
+"Sikes Branch" "125 Fifth Street" "Sikes" "LA" "" -92.488539 32.0800362
+"Simmesport Branch" "461 Main Street" "Simmesport" "LA" "" -91.8110578 30.9885269
+"Singer South Centralbranch" "9130 Highway 27" "Singer" "LA" "" -93.4125492 30.6553158
+"Pontchartrain Branch" "4002 Pontchartrain, 2" "Slidell" "LA" "" -89.7922427 30.2502735
+"Slidell Branch" "555 Robert Boulevard" "Slidell" "LA" "" -89.7599033 30.2990193
+"Killian Branch" "28278 Highway 22" "Springfield" "LA" "" -90.5858342 30.3312453
+"Springfield Branch" "31626 Highway 22" "Springfield" "LA" "" -90.5450004 30.4269375
+"Willie Mary Mack Memorial Branch" "217 North Main Street" "Springhill" "LA" "" -93.461286 33.004879
+"Ducros Museum Branch" "1345 Bayou Road" "St. Bernard" "LA" "" -89.8603207 29.8674985
+"West Feliciana Parish Library" "11865 Ferdinand Street" "St. Francisville" "LA" "70775" -91.3789863 30.7788209
+"East Iberville Branch" "5715 Monticello Street" "St. Gabriel" "LA" "" -91.1034004 30.2584911
+"Tensas Parish" "135 Plank Road" "St. Joseph" "LA" "71366" -91.2334139 31.9183269
+"St. Martin Parish Library" "201 Porter Street" "St. Martinville" "LA" "70582" -91.8284236 30.1294737
+"St. Rose Branch" "90 East Club Drive" "St. Rose" "LA" "" -90.3051775 29.9593388
+"Starks Branch" "113 South Highway 109" "Starks" "LA" "" -93.6623068 30.3187313
+"Stonewall Branch" "1460 Highway 171" "Stonewall" "LA" "" -93.8235573 32.266875
+"Sulphur Branch" "1160 Cypress Street" "Sulphur" "LA" "" -93.3642866 30.2319091
+"South St. Landry Community Library" "235 Marie Street" "Sunset" "LA" "70584" -92.0645961 30.4136711
+"Madison Parish Library" "403 North Mulberry Street" "Tallulah" "LA" "71282" -91.184558 32.4098266
+"Terrytown Branch" "680 Heritage Avenue" "Terrytown" "LA" "70056" -90.0354209 29.9037796
+"Lafourche Parish Public Library" "303 West Fifth Street" "Thibodaux" "LA" "70301" -90.8203073 29.7962714
+"J.L. Robertson Branch" "809 Tioga High School Road" "Tioga" "LA" "" -92.4256927 31.3871248
+"West St. James Branch" "2631 Highway 20 W" "Vacharie" "LA" "" -90.724671 29.993897
+"Vidalia Branch" "405 Carter Street" "Vidalia" "LA" "" -91.4287188 31.5670111
+"Evangeline Parish" "242 West Main Street" "Ville Platte" "LA" "70586" -92.2765108 30.6892487
+"Fontenot Memorial Branch" "1402 Center Street" "Vinton" "LA" "" -93.5799831 30.1909087
+"North Caddo Branch" "615 N. Pine Street" "Vivian" "LA" "" -93.9851724 32.8751664
+"Live Oak Branch" "125 Acadia Drive" "Waggaman" "LA" "70094" -90.236886 29.955659
+"Washington Municipal Library" "418 North Main Street" "Washington" "LA" "70589" -92.0557776 30.6174078
+"Watson Branch" "34917 Highway 16" "Watson" "LA" "" -90.9556669 30.5736627
+"Mcburney Memorial Branch" "301 South Sarah Street" "Welsh" "LA" "" -92.8246477 30.2352401
+"Ouachita Valley Branch" "601 Mcmillan Road" "West Monroe" "LA" "" -92.1585082 32.5130061
+"West Monroe Branch" "315 Cypress Street" "West Monroe" "LA" "" -92.1271924 32.5020058
+"West Ouachita Branch" "188 Highway 546" "West Monroe" "LA" "" -92.245826 32.516503
+"Westlake Branch" "937 Mulberry Street" "Westlake" "LA" "" -93.2606814 30.253155
+"Westwego Branch" "635 Fourth Street" "Westwego" "LA" "" -90.1415511 29.9074378
+"White Castle Branch" "32835 Bowie Street" "White Castle" "LA" "" -91.14894 30.1637707
+"Winn Parish" "205 West Main Street" "Winnfield" "LA" "71483" -92.6396642 31.926685
+"Franklin Parish Library" "705 Prairie Street" "Winnsboro" "LA" "71295" -91.7186345 32.164362
+"Wisner Branch" "129 Fort Scott St." "Wisner" "LA" "" -91.6556797 31.9804487
+"Youngsville Branch" "506 Lafayette Street" "Youngsville" "LA" "" -91.989782 30.103811
+"Zachary Branch Library" "1900 Church Street" "Zachary" "LA" "" -91.1846844 30.6535614
+"Zwolle Branch" "2218 Port Arthur Avenue" "Zwolle" "LA" "" -93.6424458 31.6317865

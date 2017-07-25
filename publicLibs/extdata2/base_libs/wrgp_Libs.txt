@@ -1,0 +1,215 @@
+"location" "miles" "latitude" "longitude"
+"Dayton Metro Library<br/>215 E. Third St.<br/>Dayton, OH" 8.02049706454034 -84.1878269 39.7605486
+"New Carlisle Public Library<br/>111 E. Lake Ave<br/>New Carlisle, OH" 8.96459669379489 -84.0233997 39.9412165
+"Wright Memorial Public Library<br/>1776 Far Hills Ave.<br/>Oakwood, OH" 9.22473685074274 -84.1711944 39.7155799
+"Greene County Public Library<br/>76 E. Market<br/>Xenia, OH" 11.0375566793018 -83.9284701 39.6865143
+"Tipp City Public Library<br/>11 E. Main St.<br/>Tipp City, OH" 11.9607326100079 -84.1708425 39.961462
+"Clark County Public Library<br/>201 S. Fountain Ave.<br/>Springfield, OH" 14.8817892907095 -83.811319 39.9217247
+"Washington-Centerville Public Library<br/>111 W. Spring Valley Road<br/>Centerville, OH" 14.9933076090267 -84.1625897 39.6138047
+"Milton Union Public Library<br/>560 S. Main St.<br/>West Milton, OH" 17.4827594877274 -84.3262973 39.9556364
+"Troy-Miami County Public Library<br/>419 W. Main St.<br/>Troy, OH" 17.7546013672846 -84.2073349 40.0417786
+"Mary L. Cook Public Library<br/>381 Old Stage Rd.<br/>Waynesville, OH" 19.1945804612317 -84.0852267 39.5373045
+"Germantown Public Library<br/>51 N. Plum St.<br/>Germantown, OH" 21.3587520545578 -84.3722128 39.6257534
+"Franklin Public Library<br/>44 E. 4th St<br/>Franklin, OH" 22.0554224451854 -84.3025783 39.5587938
+"St. Paris Public Library<br/>127 E. Main St.<br/>St. Paris, OH" 22.3333119687224 -83.9582063 40.1281783
+"Piqua Public Library<br/>116 West High Street<br/>Piqua, OH" 25.2069071719649 -84.2402361 40.1489443
+"Brown Memorial Library<br/>101 S. Commerce St.<br/>Lewisburg, OH" 25.9319974654211 -84.540124 39.845742
+"J.R. Clarke Public Library<br/>102 E. Spring St.<br/>Covington, OH" 26.30765829283 -84.353151 40.117014
+"Champaign County Library<br/>1060 Scioto St.<br/>Urbana, OH" 26.668379057004 -83.7255536 40.1058818
+"Lebanon Public Library<br/>101 S. Broadway<br/>Lebanon, OH" 27.5928730361321 -84.208959 39.4331724
+"Marion Lawrence Memorial Library<br/>15 E. Franklin Street<br/>Gratis, OH" 27.7538997204441 -84.529119 39.6484253
+"Middletown Public Library<br/>125 S. Broad St.<br/>Middletown, OH" 27.9250744695178 -84.4049323 39.5139207
+"Wilmington Public Library Of Clinton County<br/>268 N. South St.<br/>Wilmington, OH" 27.9542841249308 -83.8277449 39.4490149
+"Arcanum Public Library<br/>101 North St.<br/>Arcanum, OH" 29.3007634262783 -84.554378 39.992418
+"Bradford Public Library<br/>138 E. Main St.<br/>Bradford, OH" 29.7005043256512 -84.429507 40.132211
+"Preble County District Library<br/>450 S. Barron St.<br/>Eaton, OH" 31.3821550605579 -84.6359226 39.7387265
+"Sabina Public Library<br/>11 E. Elm St.<br/>Sabina, OH" 31.5562698041636 -83.636096 39.490142
+"Mechanicsburg Public Library<br/>60 S. Main St.<br/>Mechanicsburg, OH" 31.9008311655727 -83.5542283 40.0706555
+"Salem Township Public Library<br/>535 W. Pike St.<br/>Morrow, OH" 31.9646516121168 -84.1411339 39.356569
+"London Public Library<br/>20 E First St<br/>London, OH" 32.6834951000918 -83.445433 39.885411
+"Shelby County Libraries - Amos Memorial<br/>230 E. North St.<br/>Sidney, OH" 33.1739646058072 -84.1539866 40.2871288
+"Mason Public Library<br/>200 Reading Rd.<br/>Mason, OH" 34.3246986763055 -84.312664 39.359404
+"Worch Memorial Public Library<br/>790 South Center St.<br/>Versailles, OH" 35.9885431622754 -84.4854171 40.2154459
+"Blanchester Public Library<br/>110 N. Broadway<br/>Blanchester, OH" 36.1388213432035 -83.9886102 39.2937105
+"New Madison Public Library<br/>142 S. Main St.<br/>New Madison, OH" 36.4601922223136 -84.710965 39.96714
+"Greenville Public Library<br/>520 Sycamore St.<br/>Greenville, OH" 36.4956702301369 -84.6326584 40.0991088
+"Carnegie Public Library<br/>127 S. North St.<br/>Washington Ch, OH" 38.0238183616885 -83.4370541 39.5364843
+"Lane Public Library<br/>300 N. Third St.<br/>Hamilton, OH" 39.1256027788292 -84.5581961 39.4027752
+"Logan County District Library<br/>220 N Main St<br/>Bellefontaine, OH" 41.1150599589563 -83.7589034 40.3636432
+"Dr. Earl S. Sloan Library<br/>2817 Sandusky St.<br/>Zanesfield, OH" 41.3709828329361 -83.6771586 40.337811
+"Southwest Ohio And Neighboring Libraries<br/>10901 Reed Hartman Highway Suite 120<br/>Cincinnati, OH" 41.8317028671738 -84.3810203 39.2641781
+"Hurt-Battelle Memorial Librarywest Jefferson<br/>270 Lilly Chapel Rd.<br/>West Jefferson, OH" 42.2945465863429 -83.2738649 39.9387922
+"Mt Sterling Public Library<br/>60 W. Columbus St.<br/>Mt. Sterling, OH" 42.3962670996241 -83.2660407 39.7186263
+"Morrisson-Reeves Library<br/>80 North 6th Street<br/>Richmond, IN" 44.6859962251835 -84.8945807 39.8301395
+"Marysville Public Library<br/>231 S. Plum St.<br/>Marysville, OH" 46.6198310668084 -83.3662258 40.2344879
+"Highland County District Library<br/>10 Willettsville Pike<br/>Hillsboro, OH" 48.1017087818396 -83.6210239 39.2037331
+"Union City Public Library<br/>408 North Columbia Street<br/>Union City, IN" 48.1634976127322 -84.808795 40.2014501
+"Union County Public Library<br/>2 East Seminary Street<br/>Liberty, IN" 48.2235177217033 -84.9296842 39.6345044
+"Greeley Village Public Library<br/>117 South Galloway Street<br/>Greeley, NE" 48.6113287131394 -83.1505578 39.9293016
+"Centerville-Center Township Public Library<br/>126 East Main Street<br/>Centerville, IN" 50.0164775489793 -84.995087 39.818016
+"Belle Center Free Public Library<br/>103 S. Elizabeth St.<br/>Belle Center, OH" 50.5766054266252 -83.7522584 40.507636
+"Southwest Public Libraries<br/>3359 Park St.<br/>Grove City, OH" 51.2410824899817 -83.0929138 39.8812847
+"Clermont County Public Library<br/>326 Broadway<br/>Batavia, OH" 51.557321250786 -84.177532 39.07455
+"Auglaize County Public District Library<br/>203 S. Perry St.<br/>Wapakoneta, OH" 52.7535293089658 -84.1951439 40.5686703
+"St. Marys Community Public Library<br/>140 S. Chestnut St.<br/>St. Marys, OH" 53.4095735156055 -84.3853402 40.5430945
+"Upper Arlington Public Library<br/>2800 Tremont Rd.<br/>Upper Arlington, OH" 54.1075365324897 -83.0674758 40.0126714
+"Grandview Heights Public Library<br/>1685 W. First Ave.<br/>Grandview Hts., OH" 54.5158279443792 -83.050118 39.981834
+"The PL Of Cincinnati And Hamilton County<br/>800 Vine St.<br/>Cincinnati, OH" 54.8085641354019 -84.5133093 39.105276
+"Winchester Community Public Library<br/>125 North East Street<br/>Winchester, IN" 55.0330345307939 -84.980035 40.173399
+"Coldwater Public Library<br/>305 W. Main St.<br/>Coldwater, OH" 55.2630923382553 -84.631286 40.479586
+"Brown County Public Library<br/>613 S. High Street<br/>Mt. Orab, OH" 55.4404484831959 -83.9235454 39.018595
+"Philip N. Carrico Branch<br/>1000 Highland Avenue<br/>Fort Thomas, KY" 55.8377126891049 -84.4666018 39.0721465
+"Kenton County Public Library<br/>502 Scott Boulevard<br/>Covington, KY" 55.9093559814351 -84.5085315 39.0857549
+"Fort Recovery Public Library<br/>113 N. Wayne St.<br/>Fort Recovery, OH" 56.545333900554 -84.779924 40.413565
+"Ridgemont Public Library<br/>124 E. Taylor St.<br/>Mt. Victory, OH" 57.2787245287926 -83.5199739 40.534374
+"Columbus Metropolitan Library<br/>96 S. Grant Avenue<br/>Columbus, OH" 57.4020154255099 -82.9894763 39.961237
+"Brookville Public Library<br/>919 Main Street<br/>Brookville, IN" 57.731687247716 -85.01227 39.424633
+"Mercer County District Public Library<br/>303 N. Main St.<br/>Celina, OH" 57.8844514258226 -84.5713143 40.5512186
+"Worthington Public Library<br/>820 High St<br/>Worthington, OH" 58.2194093811051 -83.0169259 40.0906089
+"Richwood-North Union Public Library<br/>4 E. Ottawa St.<br/>Richwood, OH" 58.3186564531711 -83.296075 40.4261886
+"Campbell County Public Library District<br/>3920 Alexandria Pike<br/>Cold Spring, KY" 58.4756929203984 -84.444048 39.023978
+"Fayette County Public Library<br/>828 Grand Avenue<br/>Connersville, IN" 58.8139743770779 -85.1374316 39.6454659
+"Hagerstown-Jefferson Township Public Library<br/>10 West College Street<br/>Hagerstown, IN" 59.2077019009996 -85.161489 39.911956
+"North Dearborn Library<br/>25969 Dole Road<br/>West Harrison, IN" 59.2320502685094 -84.8861411 39.2471158
+"Cambridge City Public Library<br/>33 West Main Street<br/>Cambridge City, IN" 59.3732270891951 -85.171166 39.81283
+"Bexley Public Library<br/>2411 E. Main St.<br/>Bexley, OH" 60.2341773361916 -82.934339 39.95674
+"Pickaway Cnty District Public Library<br/>1160 North Court Street<br/>Circleville, OH" 60.7235821297061 -82.9403751 39.6208926
+"Ridgeville Public Library<br/>308 North Walnut Street<br/>Ridgeville, IN" 61.3065911191441 -85.028891 40.291582
+"Dublin Public Library<br/>2249 East Cumberland<br/>Dublin, IN" 61.3410896391615 -85.20819 39.811668
+"Erlanger Branch<br/>3130 Dixie Highway<br/>Erlanger, KY" 61.9293168587949 -84.5918411 39.0208098
+"Delaware County District Library<br/>84 E. Winter St.<br/>Delaware, OH" 62.2155664049454 -83.0649228 40.2996717
+"Mary Lou Johnson-Hardin Cnty Pl<br/>325 E. Columbus St.<br/>Kenton, OH" 62.4234166992444 -83.6047469 40.6485156
+"Farmland Public Library<br/>116 South Main Street<br/>Farmland, IN" 62.5041370848661 -85.12791 40.18709
+"Lents Branch<br/>3215 Cougar Path<br/>Hebron, KY" 62.6114228472606 -84.7032352 39.0602924
+"Alger Public Library<br/>100 W. Wagner St<br/>Alger, OH" 62.7817090429704 -83.8440312 40.7071098
+"Westerville Public Library<br/>126 S. State St.<br/>Westerville, OH" 63.3046798774557 -82.929757 40.1227288
+"Laurel Community Library<br/>200 North Clay St<br/>Laurel, IN" 64.0202504117908 -85.186034 39.502768
+"Lima Public Library<br/>650 W. Market St.<br/>Lima, OH" 64.1892060841888 -84.1151955 40.7404921
+"Florence Branch<br/>7425 U.S. 42<br/>Florence, KY" 64.4749532070261 -84.631248 38.9954009
+"Boone County Public Library District<br/>1786 Burlington Pike<br/>Burlington, KY" 64.6113421092988 -84.6915861 39.0202261
+"Jay County Public Library<br/>315 North Ship Street<br/>Portland, IN" 65.2136998564024 -84.9801822 40.4358155
+"Lawrenceburg Public Library District<br/>150 Mary Street<br/>Lawrenceburg, IN" 65.5963464469886 -84.8496193 39.0914988
+"Brown County Public Library<br/>200 W. Grant Ave.<br/>Georgetown, OH" 66.0157710068594 -83.9056109 38.866278
+"Chillicothe And Ross County Public Library<br/>140 S. Paint St.<br/>Chillicothe, OH" 66.2460088909443 -82.9816277 39.3297788
+"Wagnalls Memorial Library<br/>150 E. Columbus St.<br/>Lithopolis, OH" 66.3319644900869 -82.805544 39.802128
+"Ada Public School District Library<br/>320 N. Main St.<br/>Ada, OH" 67.4671155368105 -83.822766 40.7730215
+"William E. Durr Branch<br/>1992 Walton-Nicholson Road<br/>Independence, KY" 68.0699185002475 -84.5461319 38.906301
+"Rockford Carnegie Library<br/>162 S. Main St.<br/>Rockford, OH" 68.2580934827839 -84.645973 40.6909009
+"Pickerington Public Library<br/>201 Opportunity Way<br/>Pickerington, OH" 68.9417664274136 -82.7580874 39.8747487
+"Adams County Public Library<br/>157 High Street<br/>Peebles, OH" 68.9985521935462 -83.4066514 38.950706
+"Aurora Public Library District<br/>414 2nd Street<br/>Aurora, IN" 69.2214464343063 -84.9018592 39.0571948
+"Community Library<br/>44 Burrer Dr<br/>Sunbury, OH" 69.7067653020376 -82.8630178 40.2428915
+"New Castle-Henry County Public Library<br/>376 South 15th Street<br/>New Castle, IN" 70.1722680669321 -85.3669402 39.9292028
+"Hardin Northern Public Library<br/>153 N. Main St.<br/>Dunkirk, OH" 70.838991197454 -83.6435769 40.788867
+"Wornstaff Memorial Public Library<br/>302 E. High St.<br/>Ashley, OH" 71.3853787820739 -82.951691 40.409234
+"Batesville Memorial Public Library<br/>131 North Walnut Street<br/>Batesville, IN" 71.7404659468746 -85.2226794 39.3005044
+"Geneva Public Library<br/>305 E Line Street<br/>Geneva, IN" 72.0030155035367 -84.9587412 40.5920311
+"Walton Branch<br/>21 South Main Street<br/>Walton, KY" 72.1227346330041 -84.6106475 38.8642074
+"Dunkirk Public Library<br/>127 West Washington Street<br/>Dunkirk, IN" 72.4664078288903 -85.2112339 40.3735967
+"Marion Public Library<br/>445 E. Church St.<br/>Marion, OH" 72.7959483020924 -83.1194224 40.5871951
+"Delphos Public Library<br/>309 W. 2nd St.<br/>Delphos, OH" 72.8373857431815 -84.3429129 40.8433665
+"Spiceland Town-Township Public Library<br/>105 West Main Street<br/>Spiceland, IN" 73.6189833198914 -85.4391671 39.8383598
+"Ohio County Public Library<br/>503 Second Street<br/>Rising Sun, IN" 73.6455778461594 -84.858745 38.949808
+"Forest-Jackson Public Library<br/>102 W. Lima St<br/>Forest, OH" 74.086568126534 -83.512049 40.8018969
+"Pataskala Public Library<br/>101 S. Vine St.<br/>Pataskala, OH" 74.1057902327397 -82.6784599 40.0002061
+"Garnet A. Wilson Pl Of Pike Co<br/>207 N. Market St.<br/>Waverly, OH" 74.2423273511022 -82.9853572 39.1268852
+"Penn Township Public Library<br/>195 North Union<br/>Pennville, IN" 74.5582089621669 -85.1482205 40.4934411
+"Vivian Conley Library<br/>1824 E Centennial Avenue<br/>Muncie, IN" 74.6740583267348 -85.365986 40.207704
+"Union Township Public Library<br/>27 Main<br/>Ripley, OH" 74.7483387589596 -83.845514 38.745223
+"Milan Public Library<br/>112 Franklin Street<br/>Milan, IN" 74.8162895994076 -85.1322568 39.1233327
+"Muncie-Center Township Public Library<br/>2005 South High Street<br/>Muncie, IN" 75.0762347367425 -85.3890098 40.1764474
+"Carnegie Library<br/>301 E Jackson Street<br/>Muncie, IN" 75.1988352004947 -85.3839933 40.1925541
+"Local History Genealogy Center<br/>210 S. Jefferson Street<br/>Muncie, IN" 75.2171926150652 -85.3843041 40.1926778
+"Berne Public Library<br/>166 North Sprunger Street<br/>Berne, IN" 75.2586260278173 -84.951865 40.658505
+"Rushville Public Library<br/>130 West Third Street<br/>Rushville, IN" 75.4323119536839 -85.4461884 39.6093251
+"Dillsboro Public Library<br/>10151 Library Lane<br/>Dillsboro, IN" 76.7120514772567 -85.055496 39.0194044
+"John F. Kennedy Library<br/>1700 W Mcgalliard Road<br/>Muncie, IN" 76.9532019611744 -85.40634 40.219365
+"Fairfield County District Library<br/>219 N. Broad St.<br/>Lancaster, OH" 77.4816062245335 -82.6021194 39.7157956
+"Cardington-Lincoln Public Library<br/>128 E. Main St.<br/>Cardington, OH" 77.5983658864269 -82.8931999 40.5005588
+"Brumback Library<br/>215 W. Main St.<br/>Van Wert, OH" 78.2627357654961 -84.5849517 40.8702107
+"Knightstown Public Library<br/>5 East Main Street<br/>Knightstown, IN" 78.3143320970705 -85.527261 39.795089
+"Bracken County Public Library<br/>310 West Miami Street<br/>Brooksville, KY" 78.4783425822864 -84.0563577 38.6792143
+"Alexandria Public Library<br/>10 Maple Dr.<br/>Alexandria, OH" 78.7188133819974 -82.6136512 40.0900485
+"Centerburg Public Library<br/>49 E. Main St.<br/>Centerburg, OH" 79.5592724951136 -82.694956 40.304951
+"Pendleton County Public Library<br/>228 Main Street<br/>Falmouth, KY" 79.9565512631035 -84.3295591 38.6777485
+"Yorktown-M. Pleasant Township Public Library<br/>8920 West Adaline Street<br/>Yorktown, IN" 80.1389541154052 -85.4907195 40.1746723
+"Middletown Fall Creek Township Public Library<br/>780 High Street<br/>Middletown, IN" 80.4459452872634 -85.5371748 40.0560294
+"Henry Henley Public Library<br/>102 North Main Street<br/>Carthage, IN" 80.8506459867944 -85.5715078 39.7395231
+"Henry Henley Public Library<br/>103 N Main St<br/>Carthage, IN" 80.8514071614697 -85.5715097 39.7393905
+"Upper Sandusky Community Library<br/>301 N. Sandusky Ave.<br/>Upper Sandusky, OH" 81.2946988758032 -83.2809562 40.8306164
+"Osgood Public Library<br/>136 West Ripley Street<br/>Osgood, IN" 81.3374198778307 -85.2922725 39.1291877
+"Tyson Library Association, Inc<br/>325 West Tyson Street<br/>Versailles, IN" 82.1638494694658 -85.2545573 39.0714709
+"Greensburg-Decatur County Contractual Public Library<br/>1110 East Main Street<br/>Greensburg, IN" 82.2819136894191 -85.4677901 39.3372585
+"Hartford City Public Library<br/>314 North High Street<br/>Hartford City, IN" 82.3991144754329 -85.3681689 40.4533454
+"Mt Gilead Public Library<br/>41 E. High St.<br/>Mt. Gilead, OH" 82.4029855053967 -82.8267695 40.548839
+"Mason County Public Library<br/>218 East Third Street<br/>Maysville, KY" 82.4189299307814 -83.7602589 38.6441334
+"Montpelier-Harrison Township Public Library<br/>301 South Main Street<br/>Montpelier, IN" 82.4765629619593 -85.2781856 40.5530552
+"Eastern Hancock Branch<br/>10450 E 250 N<br/>Charlottesville, IN" 82.5724547256448 -85.6078603 39.8228114
+"Granville Public Library<br/>217 E. Broadway<br/>Granville, OH" 83.3146366343105 -82.5180314 40.0673328
+"Bluffton Public Library<br/>145 S. Main St.<br/>Bluffton, OH" 83.4789283778835 -83.7948956 41.0043358
+"Adams Public Library System<br/>128 South 3rd Street<br/>Decatur, IN" 83.9248031742578 -84.925326 40.828836
+"Decatur Public Library<br/>128 S 3rd Street<br/>Decatur, IN" 83.9248031742578 -84.925326 40.828836
+"Gallatin County Public Library<br/>209 West Market Street<br/>Warsaw, KY" 84.4225909927027 -84.8998843 38.7837841
+"Putnam County District Library<br/>124 Putnam Parkway<br/>Ottawa, OH" 84.5315907701616 -84.0465092 41.0357431
+"Southern Wells Branch<br/>9120 South 300 West<br/>Poneto, IN" 84.909965050271 -85.2783111 40.6088864
+"Grant County Public Library District<br/>201 Barnes Road<br/>Williamstown, KY" 85.1110433143701 -84.5753111 38.6515362
+"Selover Public Library<br/>31 State Route 95<br/>Chesterville, OH" 85.8611359735216 -82.6838171 40.4802144
+"Matthews Public Library<br/>722 Massachusetts Avenue<br/>Matthews, IN" 86.1916525564442 -85.4992667 40.3882514
+"Dorcas Carey Public Library<br/>236 E. Findlay St.<br/>Carey, OH" 86.3696192335159 -83.3807501 40.9522476
+"Homer Public Library<br/>385 South St. N.W.<br/>Homer, OH" 86.6521335016695 -82.5210271 40.2519189
+"Bluffton-Wells County Public Library<br/>200 W Washington St<br/>Bluffton, IN" 87.0770372781679 -85.1733229 40.7384419
+"Wells County Public Library<br/>200 West Washington Street<br/>Bluffton, IN" 87.0770372781679 -85.1733229 40.7384419
+"Findlay Hancock Cnty Dist Public Library<br/>206 Broadway<br/>Findlay, OH" 87.4306519659139 -83.651595 41.0400371
+"Anderson Public Library<br/>111 East 12th Street<br/>Anderson, IN" 88.4093158930923 -85.677673 40.103805
+"Robertson County Public Library<br/>207 North Main Street<br/>Mount Olivet, KY" 88.4501761174749 -84.0336485 38.5351502
+"Barton Rees Pogue Memorial Public Library<br/>29 West Washington Street<br/>Upland, IN" 88.9215606471792 -85.4956605 40.4752727
+"Licking County Library<br/>101 W. Main St.<br/>Newark, OH" 88.984044966159 -82.4060435 40.0558786
+"Bucyrus Public Library<br/>200 E. Mansfield<br/>Bucyrus, OH" 89.3559015089382 -82.9737686 40.8089852
+"Logan-Hocking County District Library<br/>230 East Main St.<br/>Logan, OH" 89.7912534270231 -82.4051267 39.5399004
+"Pendleton Community Public Library<br/>595 East Water Street<br/>Pendleton, IN" 90.1940899827779 -85.7353713 40.0042207
+"Mccomb Public Library<br/>113 S. Todd St.<br/>Mccomb, OH" 90.5093940967759 -83.791345 41.106854
+"Monroeville Branch<br/>104 Allen Street<br/>Monroeville, IN" 91.0570311980338 -84.869345 40.974334
+"Alexandria-Monroe Public Library<br/>117 East Church Street<br/>Alexandria, IN" 91.2500099002443 -85.673599 40.263373
+"Mohawk Community Library<br/>200 S. Sycamore Ave.<br/>Sycamore, OH" 91.2707500076839 -83.1699656 40.9485308
+"Switzerland County Public Library<br/>205 Ferry Street<br/>Vevay, IN" 91.6126143592546 -85.067186 38.746635
+"Ralph E. Hazelbaker Library<br/>1013 West Church Street<br/>Summitville, IN" 91.7430278418431 -85.6466024 40.3366798
+"Hancock County Public Library<br/>900 West Mckenzie Road<br/>Greenfield, IN" 91.9293533565458 -85.7836436 39.7999639
+"Jackson City Library<br/>21 Broadway St.<br/>Jackson, OH" 92.1584823208128 -82.641079 39.0491971
+"Mt Vernon Knox County, Public Library Of<br/>201 N. Mulberry St.<br/>Mt. Vernon, OH" 92.1620973296474 -82.4868257 40.3958172
+"Perry Cook Memorial Public Library<br/>7406 County Road 242<br/>Shauck, OH" 92.2558978183812 -82.6635739 40.6211711
+"Galion Public Library Association<br/>123 N. Market St.<br/>Galion, OH" 92.2714854327701 -82.7890734 40.7348145
+"Lewis County Public Library<br/>52 Second Street<br/>Vanceburg, KY" 92.4560563028387 -83.319805 38.6041475
+"Westport Branch Library<br/>205 West Main St<br/>Westport, IN" 92.5446626829912 -85.577189 39.175078
+"Herbert Wescoat Memorial Library<br/>12o N. Market St.<br/>Mcarthur, OH" 92.7225713352523 -82.4789484 39.2466859
+"Portsmouth Public Library<br/>1220 Gallia St.<br/>Portsmouth, OH" 93.9387556675355 -82.9887 38.7346
+"Shelbyville-Shelby County Public Library<br/>57 West Broadway<br/>Shelbyville, IN" 94.0385100606429 -85.7789092 39.5226208
+"Genealogy And History Room<br/>58 West Broadway<br/>Shelbyville, IN" 94.0388310093737 -85.7790181 39.5229666
+"Fairmount Public Library<br/>217 South Main Street<br/>Fairmount, IN" 94.1172960495303 -85.6502693 40.4141977
+"Sylvester Memorial Wellston Public Library<br/>135 E. Second St.<br/>Wellston, OH" 94.2443531405357 -82.5335036 39.121645
+"Ossian Branch Library<br/>207 N Jefferson St<br/>Ossian, IN" 94.3104084979835 -85.1669443 40.8810261
+"Van Buren Public Library<br/>115 South First Street<br/>Van Buren, IN" 94.6889449979331 -85.5049428 40.6173791
+"Van Buren Public Library<br/>115 S First St<br/>Van Buren, IN" 94.6889449979331 -85.5049428 40.6173791
+"Gas City-Mill Township Public Library<br/>135 East Main Street<br/>Gas City, IN" 94.7738500577438 -85.6142605 40.4879087
+"Jonesboro Public Library<br/>124 East 4th Street<br/>Jonesboro, IN" 95.1651278953788 -85.6267548 40.4823542
+"Fortville-Vernon Township Public Library<br/>625 East Broadway<br/>Fortville, IN" 95.3509263829418 -85.842998 39.9343284
+"Paulding County Carnegie Library<br/>205 S. Main St.<br/>Paulding, OH" 95.5622604287526 -84.579126 41.1361577
+"Frankton Community Library<br/>102 S. Church Street<br/>Frankton, IN" 95.698863791723 -85.7794127 40.2229614
+"Crestline Public Library<br/>324 N. Thoman St.<br/>Crestline, OH" 96.6656573685838 -82.7390659 40.787185
+"Lapel Public Library<br/>610 Main St<br/>Lapel, IN" 96.7468182166701 -85.8479298 40.0663839
+"Patrick Henry School District Public Library<br/>208 N. East Ave.<br/>Deshler, OH" 96.7592909637054 -83.898822 41.2075574
+"North Baltimore Public Library<br/>230 N. Main St.<br/>North Baltimore, OH" 96.8168423783928 -83.677959 41.18388
+"Markle Branch<br/>197 E. Morse<br/>Markle, IN" 97.3118679736702 -85.337482 40.824226
+"Owen County Public Library District<br/>118 North Main Street<br/>Owenton, KY" 97.803729991989 -84.8360631 38.5364908
+"Fleming County Public Library<br/>202 Bypass Boulevard<br/>Flemingsburg, KY" 97.9357099250313 -83.7514398 38.4174891
+"Hope Branch Library<br/>635 Harrison<br/>Hope, IN" 98.1071199706727 -85.7701188 39.303305
+"Hancock County Public Library - Sugar Creek<br/>5087 W. U.S. 52<br/>New Palestine, IN" 98.2160488482639 -85.8971281 39.7218547
+"New Straitsville Public Library<br/>102 E Main St<br/>New Straitsville, OH" 98.2414494135501 -82.2338759 39.5765567
+"Perry County District Library<br/>117 S. Jackson St.<br/>New Lexington, OH" 98.4609850360189 -82.2065066 39.7143151
+"Carroll County Public Library District<br/>136 Court Street<br/>Carrollton, KY" 98.8957789531085 -85.1811053 38.6815388
+"Kaubisch Memorial Public Library<br/>205 Perry St.<br/>Fostoria, OH" 99.0486185165768 -83.416003 41.1609815
+"Marion Public Library<br/>600 South Washington Street<br/>Marion, IN" 99.2055861429247 -85.660157 40.5558802
+"Cynthiana-Harrison County Public Library<br/>104 North Main Street<br/>Cynthiana, KY" 99.2911974204284 -84.2972626 38.3908248
+"Holgate Community Library<br/>204 Railway Ave.<br/>Holgate, OH" 99.4347724293877 -84.131286 41.249994
+"Elwood Public Library<br/>1600 Main Street<br/>Elwood, IN" 99.8608077546321 -85.8396838 40.2773485
+"Woodburn Branch<br/>22735 Main Street<br/>Woodburn, IN" 99.8929524912995 -84.8486195 41.125142
+"Nelsonville Public Library<br/>95 W. Washington<br/>Nelsonville, OH" 99.9555965363502 -82.2340556 39.4610676

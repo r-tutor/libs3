@@ -1,0 +1,148 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Alexander Mitchell Library" "519 South Kline Street" "Aberdeen" "SD" "57401" -98.4817774 45.4593757
+"Alcester Public Library" "500 Dakota" "Alcester" "SD" "57001" -96.6295904 43.0247565
+"Alexandria Public Library" "421 Main St" "Alexandria" "SD" "57311" -97.782819 43.6534446
+"Arlington Community Library" "306 S. Main Street" "Arlington" "SD" "57212" -97.1378182 44.3616131
+"Armour-Carnegie Public Library" "915 Main St" "Armour" "SD" "57313" -98.3465815 43.3200208
+"Avon Public Library" "116 N. Main Street" "Avon" "SD" "57315" -98.0601595 43.0039048
+"Baltic Branch Library" "po box 326" "Baltic" "SD" "" -96.7403289 43.7613629
+"Belle Fourche Public Library" "905 5th Ave" "Belle Fourche" "SD" "57717" -103.8535926 44.6678162
+"Beresford Public Library" "115 South Third Street" "Beresford" "SD" "57004" -96.7740582 43.0804491
+"Grant County Mini Library" "655 Walnut St" "Big Stone City" "SD" "" -96.4649378 45.2941803
+"Bison Public Library" "300 W Carr St" "Bison" "SD" "57620" -102.466429 45.5234886
+"Bonesteel Public Library" "502 Central Ave" "Bonesteel" "SD" "57317" -98.9461488 43.0763153
+"Reverend Martin Bieber Public Lib" "1075 3rd Ave N." "Bowdle" "SD" "57428" -99.65375 45.4522624
+"Brandon Branch Library" "305 S Splitrock Blvd" "Brandon" "SD" "" -96.5737463 43.5923223
+"Bristol Community-School Library" "500 South Third Street" "Bristol" "SD" "" -97.7486069 45.3423764
+"Britton Public Library" "759 7th St" "Britton" "SD" "57430" -97.7516932 45.7920073
+"Brookings Public Library" "515 Third Street" "Brookings" "SD" "57006" -96.7964233 44.3086057
+"Northwest Regional Library" "410 Ramsland St" "Buffalo" "SD" "57720" -103.5493944 45.5833463
+"Burke Public Library" "704 Main" "Burke" "SD" "57523" -99.2922024 43.1834537
+"Canova Public Library" "111 W Main" "Canova" "SD" "57321" -97.5028745 43.8810938
+"Canton Public Library" "225 N Broadway" "Canton" "SD" "57013" -96.592127 43.302193
+"Carthage Public Library" "110 Main St." "Carthage" "SD" "57323" -97.7164228 44.1712274
+"Castlewood Public Library" "po box 137" "Castlewood" "SD" "57223" -97.0300678 44.7227424
+"Centerville Community Library" "421 Florida" "Centerville" "SD" "57014" -96.9569759 43.1193141
+"Cozard Memorial Library" "110 E Lawler Ave" "Chamberlain" "SD" "57325" -99.3301549 43.8108942
+"Delker Memorial Library" "400 4th St" "Chester" "SD" "57016" -96.9277021 43.8949055
+"Emil M Larson Library" "120 N Commercial" "Clark" "SD" "57225" -97.7332993 44.8778945
+"Clear Lake City Library" "125 3rd Ave S" "Clear Lake" "SD" "57226" -96.6825479 44.7569887
+"Colman Branch Library" "po box 18" "Colman" "SD" "" -96.8144973 43.9824719
+"Colome Branch Library" "po box 285" "Colome" "SD" "" -99.7151134 43.2605567
+"Colton Branch Library" "po box 338" "Colton" "SD" "" -96.9275557 43.7860862
+"Priscilla Club Library" "335 E Main St" "Corsica" "SD" "57328" -98.4062955 43.4236906
+"Crooks Branch" "900 N West Ave" "Crooks" "SD" "" -96.810533 43.667202
+"Custer County Library" "447 Crook Street Suite 4" "Custer" "SD" "57730" -103.601485 43.7675264
+"Hazel L Meyer Memorial Library" "114 1st Street" "De Smet" "SD" "57231" -97.5491697 44.3873778
+"Deadwood Public Library" "435 Williams St" "Deadwood" "SD" "57732" -103.729248 44.378819
+"Dell Rapids Carnegie Public Library" "513 N Orleans" "Dell Rapids" "SD" "57022" -96.7102044 43.8243964
+"Sherwood Memorial Library" "204 Humphrey Dr N" "Doland" "SD" "57436" -98.1018429 44.8904739
+"Dakota Club Library" "219 Main" "Eagle Butte" "SD" "57625" -101.2347597 44.9968466
+"Edgemont Public Library" "412 2nd Ave" "Edgemont" "SD" "57735" -103.8251846 43.30075
+"Elk Point-Jefferson Community-School Li" "402 S Douglas" "Elk Point" "SD" "57025" -96.6881572 42.6814208
+"Elkton Community Library" "508 Buffalo St" "Elkton" "SD" "57026" -96.4826223 44.2327129
+"Holbrook Library" "2650 Doolittle Drive" "Ellsworth Afb" "SD" "57706" -103.0749725 44.1464274
+"Estelline Public Library" "115 Main St N" "Estelline" "SD" "" -96.9025065 44.5738023
+"Kathryn Schulkoski Public Library" "613 7th St" "Eureka" "SD" "57437" -99.6197567 45.7695387
+"Faith Public Library" "204 W Fifth St" "Faith" "SD" "57626" -102.0384011 45.0191352
+"Faulk County Library" "810 Court St" "Faulkton" "SD" "57438" -99.1272278 45.0338412
+"Moody County Resource Center" "610 West Community Drive" "Flandreau" "SD" "57028" -96.6030961 44.0512646
+"Emma Burnham Public Library" "403 Main St" "Frederick" "SD" "57441" -98.5063324 45.8322832
+"Freeman Public Library" "322 S Main St" "Freeman" "SD" "57029" -97.4370265 43.3520278
+"Garretson Branch Library" "po drawer n" "Garretson" "SD" "" -96.5028209 43.7174725
+"Gary Public Library" "1113 Summit Street" "Gary" "SD" "57237" -96.4550276 44.7924988
+"Potter County Free Library" "106 E Commercial Ave" "Gettysburg" "SD" "57442" -99.955558 45.0114256
+"Gregory Public Library" "112 East Fifth Street" "Gregory" "SD" "57533" -99.430501 43.231256
+"Wage Memorial Library" "209 N Main" "Groton" "SD" "57445" -98.0986727 45.447648
+"Harrisburg Community Library" "600 S Cliff Ave" "Harrisburg" "SD" "57032" -96.704575 43.4260639
+"Hartford Branch Library" "705 East 2nd" "Hartford" "SD" "" -96.9351584 43.6224049
+"Hecla Public Library" "206 Main Street" "Hecla" "SD" "57446" -98.1539905 45.8826511
+"Hyde County Library" "107 Commercial Ave Se" "Highmore" "SD" "57345" -99.4401835 44.5198428
+"Hill City Community Library" "488 Main St" "Hill City" "SD" "57745" -103.5754277 43.9288029
+"Hot Springs Public Library" "2005 Library Drive" "Hot Springs" "SD" "57747" -103.4761557 43.4225323
+"Howard Public Library" "103 E Farmer Ave" "Howard" "SD" "57349" -97.5260779 44.0110985
+"Hudson Public Library" "316 Wheelock" "Hudson" "SD" "57034" -96.4535668 43.1300585
+"Humboldt Branch Library" "3rd And Main" "Humboldt" "SD" "" -97.073875 43.64447
+"Hurley Public Library" "603 Center Ave" "Hurley" "SD" "57036" -97.0894516 43.2829245
+"Huron Public Library" "521 Dakota Ave South" "Huron" "SD" "57350" -98.2141584 44.3605096
+"Interior Branch Library" "po box 24" "Interior" "SD" "" -101.9840423 43.7269378
+"M P Beebe Memorial Library" "120 Main" "Ipswich" "SD" "57451" -99.0278399 45.4453296
+"Irene School-Community Library" "130 E State St" "Irene" "SD" "57037" -97.1556209 43.085149
+"Isabel Branch Library" "po box 42" "Isabel" "SD" "" -101.429593 45.3941475
+"Java Public Library" "po box 67" "Java" "SD" "57452" -99.8865083 45.5033204
+"Jackson County Library" "po box 368" "Kadoka" "SD" "57543" -101.5098658 43.833882
+"Kennebec Public Library" "203 S Main" "Kennebec" "SD" "57544" -99.861901 43.9112781
+"Keystone Town Library" "1101 Madill St" "Keystone" "SD" "57751" -103.4111895 43.9017711
+"Kimball Public Library" "140 N Main Suite 104" "Kimball" "SD" "57355" -98.9581538 43.7464218
+"Oglala Lakota College Library Resource Center" "3-Mile Creek Road" "Kyle" "SD" "57752" -102.2428026 43.3661662
+"Lake Andes Carnegie Library" "5th And Main" "Lake Andes" "SD" "57356" -98.5387313 43.156374
+"Lake Preston City Library" "225 N Main Ave" "Lake Preston" "SD" "57249" -97.3773362 44.3626228
+"Langford Public Library" "306 Main St" "Langford" "SD" "57454" -97.8313522 45.6027184
+"Phoebe Apperson Hearst Free Library" "315 W Main" "Lead" "SD" "57754" -103.7669428 44.3516751
+"Lemmon Public Library" "303 1st Ave W" "Lemmon" "SD" "57638" -102.1609057 45.9419241
+"Ashley Memorial City Library" "100 N Main" "Lennox" "SD" "" -96.891452 43.355424
+"Lennox Community Library" "208 W. 5th" "Lennox" "SD" "57039" -96.8933199 43.3510626
+"Leola Public Library" "802 Main St" "Leola" "SD" "57456" -98.9399507 45.7227643
+"Long Valley Branch Library" "26840 Sd Highway 73" "Long Valley" "SD" "" -101.5009729 43.4810938
+"Madison Public Library" "209 East Center" "Madison" "SD" "57042" -97.1123533 44.0050863
+"Bennett County Library" "101 Main Street" "Martin" "SD" "57551" -101.7318301 43.1751082
+"Ihanktonwan Community-College Library" "200 S Main" "Marty" "SD" "57361" -98.2934556 43.0826495
+"Mclaughlin Public Library" "324a Main St" "Mclaughlin" "SD" "57642" -100.8106829 45.812479
+"Menno Community-School Library" "414 5th Street" "Menno" "SD" "57045" -97.5779546 43.2371231
+"Midland Community Library" "401 Russell St" "Midland Sd" "SD" "57552" NA NA
+"Grant County Public Library" "207 E Park Ave" "Milbank" "SD" "57252" -96.6371142 45.2163778
+"Hand County Library" "402 North Broadway" "Miller" "SD" "57362" -98.9886572 44.5195855
+"Sinte Gleska University Library" "p.o. box 107" "Mission" "SD" "57555" -100.6581944 43.3058368
+"Mitchell Public Library" "221 N Duff Street" "Mitchell" "SD" "57301" -98.0283115 43.7106522
+"A H Brown Public Library" "521 N Main Street" "Mobridge" "SD" "57601" -100.4339369 45.5395001
+"Mt Vernon Public Library" "500 N Main" "Mt Vernon" "SD" "57363" -98.2606107 43.7146295
+"Newell Public Library" "208 Girard" "Newell" "SD" "57760" -103.4205403 44.7111804
+"North Sioux City Community Library" "504 River Drive" "North Sioux City" "SD" "57049" -96.4871896 42.524218
+"Sully Area Library" "500 8th Street" "Onida" "SD" "57564" -100.0644443 44.7030107
+"Parker Public Library" "115 N Main" "Parker" "SD" "57053" -97.1366521 43.3972984
+"Parkston Public Library" "110 W Main St" "Parkston" "SD" "57366" -97.9865228 43.3947167
+"Haakon County Public Library" "140 S Howard" "Philip" "SD" "57567" -101.6668407 44.0391
+"R E Rawlins Municipal Library" "1000 E Church St" "Pierre" "SD" "57501" -100.3383872 44.3702786
+"Plankinton City Library" "404 E Davenport" "Plankinton" "SD" "57368" -98.4911204 43.7105677
+"Platte Public Library" "304 S Main" "Platte" "SD" "57369" -98.8447922 43.3879635
+"Presho Public Library" "108 Main" "Presho" "SD" "57568" -100.0587944 43.910631
+"Rapid City Public Library" "610 Quincy Street" "Rapid City" "SD" "57701" -103.2289463 44.0783478
+"Redfield Carnegie Library" "5 East 5th Avenue" "Redfield" "SD" "57469" -98.5184958 44.8781297
+"Grant County Mini Library" "po box 37" "Revillo" "SD" "" -96.5711679 45.0166314
+"Mccook Central Hs Salem Public Library" "200 E Essex" "Salem" "SD" "57058" -97.3858207 43.7275814
+"Scotland Community Library" "711 4th St" "Scotland" "SD" "57059" -97.7161695 43.1476241
+"Selby Community-School Library" "108 East Dakota Street" "Selby" "SD" "57472" -100.0336444 45.5084242
+"Caille Branch Library" "4100 Carnegie Cir" "Sioux Falls" "SD" "" -96.7643685 43.5079589
+"Oak View Branch Library" "3700 E 3rd St" "Sioux Falls" "SD" "" -96.6803631 43.5558406
+"Ronning Branch Library" "3100 E 49th St" "Sioux Falls" "SD" "" -96.6878347 43.5078791
+"Siouxland Libraries" "201 North Dakota Ave" "Sioux Falls" "SD" "57117" -96.7298596 43.5485839
+"Sisseton Memorial Library" "305 E Maple St" "Sisseton" "SD" "57262" -97.0469845 45.663758
+"Sisseton Wahpeton Community College" "po box 689" "Sisseton" "SD" "57262" -97.0498046 45.6646815
+"Grace Balloch Memorial Library" "625 North Fifth Street" "Spearfish" "SD" "57783" -103.860637 44.4890461
+"Hanson-Mccook Regional Library" "306 Main Street" "Spencer" "SD" "57374" -98.7043735 42.8739878
+"Evelyn Lang Public Library" "605 8th St" "Springfield" "SD" "57062" -97.8926277 42.8542201
+"Grant County Mini Library" "103 W Johnson Ave" "Stockholm" "SD" "" -96.8027031 45.0995647
+"Sturgis Public Library" "1040 2nd Street, Suite 1" "Sturgis" "SD" "57785" -103.5123245 44.4136585
+"Tea Area Ms-Hscommunity Library" "500 W Brian" "Tea" "SD" "57064" -96.843939 43.455632
+"Dewey County Library" "712 Main" "Timber Lake" "SD" "57656" -101.0738737 45.4294517
+"Tripp Public Library" "102 E 2nd St" "Tripp" "SD" "57376" -97.9641905 43.2244986
+"Tyndall Public Library" "110 W 17th Ave" "Tyndall" "SD" "57066" -97.8628139 42.9922976
+"Valley Springs Branch Library" "401 Broadway Ave" "Valley Springs" "SD" "" -96.467787 43.5823899
+"Vermillion Public Library" "18 Church Street" "Vermillion" "SD" "57069" -96.9303909 42.7785213
+"Viborg Public Library" "110 N Main" "Viborg" "SD" "57070" -97.0814017 43.1708888
+"Wagner Public Library" "106 Sheridan Ave" "Wagner" "SD" "57380" -98.2893623 43.0792382
+"Wakonda Community Library" "202 Nebraska St" "Wakonda" "SD" "57073" -97.1109688 43.0057372
+"Wall Community Library" "407 Main St" "Wall" "SD" "57790" -102.2417982 43.994482
+"Hamlin Codington Regional Library" "912 8th St Se" "Watertown" "SD" "57201" -97.1046078 44.8899252
+"Watertown Regional Library" "160 6th St Ne" "Watertown" "SD" "57201" -97.1042807 44.9025417
+"Waubay Public Library" "94 North Main St" "Waubay" "SD" "57273" -97.3047965 45.330434
+"Webster Public Library" "800 Main Street" "Webster" "SD" "57274" -97.5201261 45.3332541
+"Wessington Public Library" "240 Wessington St" "Wessington" "SD" "57381" -98.6954639 44.455568
+"Wessington Springs Carnegie Library" "109 West Main" "Wessington Springs" "SD" "57382" -98.5711211 44.0793586
+"Deubrook Community Library" "100 School Ave" "White" "SD" "57276" -96.6498541 44.4347029
+"White Lake Community Library" "111 Main St" "White Lake" "SD" "57383" -98.7139664 43.7304033
+"Whitewood Public Library" "1201 Ash St" "Whitewood" "SD" "57793" -103.6369118 44.4636019
+"Wilmot Public Library" "123 Main" "Wilmot" "SD" "57279" -96.8560667 45.4071988
+"Tripp County Library - Grossenburg Memorial" "442 Monroe Street" "Winner" "SD" "57580" -99.8583665 43.3739571
+"Woonsocket Community Library" "101 N 2nd" "Woonsocket" "SD" "57385" -98.2786237 44.053926
+"Yankton Community Library" "515 Walnut" "Yankton" "SD" "57078" -97.3942113 42.8733639

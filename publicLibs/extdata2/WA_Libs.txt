@@ -1,0 +1,342 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Aberdeen Timberland Library" "121 E. Market St." "Aberdeen" "WA" "98520" -123.8175957 46.9753192
+"Airway Heights Library" "1213 S. Lundstrom" "Airway Heights" "WA" "99001" -117.5926528 47.6444723
+"Albion Branch Library" "310 F Street" "Albion" "WA" "99102" -117.2504361 46.7931253
+"Amanda Park Timberland Library" "6118 U.S. Highway 101" "Amanda Park" "WA" "98526" -123.8954001 47.4592976
+"Anacortes Public Library" "1220 10th St" "Anacortes" "WA" "98221" -122.6165134 48.5147855
+"Arlington Library" "135 N. Washington Ave." "Arlington" "WA" "98223" -122.118393 48.1933598
+"Auburn Public Library" "1102 Auburn Way South" "Auburn" "WA" "98002" -122.2181037 47.2987199
+"Muckleshoot Library" "38811 172nd Avenue Se" "Auburn" "WA" "98092" -122.1150181 47.2533346
+"Bainbridge Island Library" "1270 Madison N." "Bainbridge Island" "WA" "98110" -122.5205154 47.6352645
+"Basin City Library" "50-A N. Canal Blvd." "Basin City" "WA" "99343" -119.1439212 46.591024
+"Battle Ground Community Library" "12 West Main Street" "Battle Ground" "WA" "98604" -122.5379909 45.7809325
+"North Mason Timberland Library" "23081 Ne State Rt. 3" "Belfair" "WA" "98528" -122.8339878 47.4416885
+"Bellevue Library" "1111 110th Avenue Ne" "Bellevue" "WA" "98004" -122.1943373 47.6201601
+"Lake Hills Library" "15228 Lake Hills Boulevard" "Bellevue" "WA" "98007" -122.1367488 47.6029979
+"Library Connection At Crossroads" "15600 Ne 8th Street, Suite K-11" "Bellevue" "WA" "98008" -122.1300629 47.6196266
+"Newport Way Library" "14250 Se Newport Way" "Bellevue" "WA" "98006" -122.1490423 47.5705089
+"Bellingham Public Library" "210 Central Ave" "Bellingham" "WA" "98225" -122.4788036 48.7541816
+"Fairhaven Branch Library" "1117 12th Street" "Bellingham" "WA" "98225" -122.501846 48.72142
+"Whatcom County Library System" "5205 Northwest Drive" "Bellingham" "WA" "98226" -122.539317 48.829864
+"Benton City Library" "708 9th Street" "Benton City" "WA" "99320" -119.4872722 46.265309
+"Black Diamond Library" "24301 Roberts Drive" "Black Diamond" "WA" "98010" -122.018885 47.310514
+"Blaine Library" "610 3rd Street" "Blaine" "WA" "98230" -122.7494623 48.9947414
+"Bonney Lake Library" "18501 90th Street East" "Bonney Lake" "WA" "98390" -122.1820908 47.1756248
+"Bothell Library" "18215 98th Avenue Ne" "Bothell" "WA" "98011" -122.2103764 47.7602661
+"Bremerton Library" "612 5th St." "Bremerton" "WA" "98337" -122.6284617 47.5667587
+"Kitsap Regional Library" "1301 Sylvan Way" "Bremerton" "WA" "98310" -122.624949 47.5951125
+"Brewster Community Library" "108 S Third" "Brewster" "WA" "98812" -119.7793356 48.0991006
+"Bridgeport Community Library" "1206 Columbia St" "Bridgeport" "WA" "98813" -119.6742019 48.0093348
+"Brier Library" "23303 Brier Rd." "Brier" "WA" "98036" -122.2736141 47.7870371
+"Buckley Library" "123 South River Avenue" "Buckley" "WA" "98321" -122.0291665 47.1627243
+"Buena Library" "813 Buena Rd" "Buena" "WA" "98921" -120.3138976 46.4297473
+"Burbank Heights Library" "875 Lake Road" "Burbank" "WA" "99323" -118.993145 46.209622
+"Burien Library" "14700 6th Avenue Sw" "Burien" "WA" "98166" -122.341376 47.4713459
+"Burlington Public Library" "820 East Washington Avenue" "Burlington" "WA" "98233" -122.3237531 48.4743244
+"Camas Public Library" "625 Ne Fourth Ave." "Camas" "WA" "98607" -122.4022449 45.5872292
+"Carnation Library" "4804 Tolt Avenue" "Carnation" "WA" "98014" -121.9122954 47.6504103
+"Cashmere Community Library" "300 Woodring" "Cashmere" "WA" "98815" -120.4677839 47.5227928
+"Castle Rock Public Library" "137 Cowlitz St W." "Castle Rock" "WA" "98611" -122.9097129 46.2750223
+"Cathlamet (Blanche Bradley) Public Library" "100 Main St" "Cathlamet" "WA" "98612" -123.3845093 46.201599
+"Centralia Timberland Library" "110 S. Silver St." "Centralia" "WA" "98531" -122.9561699 46.7161571
+"Chehalis Timberland Library" "76 N.E. Park St." "Chehalis" "WA" "98532" -122.967702 46.6642411
+"Chelan Community Library" "417 S Bradley St" "Chelan" "WA" "98816" -120.012608 47.836443
+"Cheney Library" "610 First Street" "Cheney" "WA" "99004" -117.5743989 47.4885736
+"Chewelah Public Library" "307 East Clay Ave" "Chewelah" "WA" "99109" -117.7140253 48.2772669
+"Clallam Bay Public Library" "16990 Hwy 112" "Clallam Bay" "WA" "98326" -124.2601665 48.2530664
+"Asotin County Library" "417 Sycamore" "Clarkston" "WA" "99403" -117.0438792 46.4123307
+"Heights Branch Library" "2036 4th Ave." "Clarkston" "WA" "99403" -117.0815124 46.3926474
+"Cle Elum (Carpenter Memorial) Library" "302 Pennsylvania Ave." "Cle Elum" "WA" "98922" -120.9381569 47.1958708
+"Clinton Library" "4781 Deer Lake Rd" "Clinton" "WA" "98236" -122.3583849 47.9788604
+"Colfax Library" "102 S. Main" "Colfax" "WA" "99111" -117.3650619 46.880679
+"Whitman County Library" "102 S. Main Street" "Colfax" "WA" "99111" -117.3650619 46.880679
+"Colton Branch Library" "706 Broadway" "Colton" "WA" "99113" -117.1286163 46.5679631
+"Colville Public Library" "195 South Oak" "Colville" "WA" "99114" -117.9038188 48.5436262
+"Onion Creek Library" "2191 Clugston-Onion Cr. Rd." "Colville" "WA" "99114" -117.8128315 48.8142861
+"Concrete Public Library" "45672 Main Street" "Concrete" "WA" "98237" -121.751754 48.538654
+"Upper Skagit Library District" "45770 B Main St." "Concrete" "WA" "98237" -121.749384 48.538629
+"Connell Library" "118 N. Columbia" "Connell" "WA" "99326" -118.8613094 46.660736
+"Coulee City Community Library" "405 W Main" "Coulee City" "WA" "99115" -119.2936619 47.6111275
+"Coupeville Library" "788 Nw Alexander" "Coupeville" "WA" "98239" -122.6885771 48.2193289
+"Covington Library" "27100 164th Avenue Se" "Covington" "WA" "98042" -122.1217756 47.3591185
+"Calispel Valley Library" "107 1st Ave" "Cusick" "WA" "99119" -117.294775 48.3359716
+"Darrington Library" "1005 Cascade St." "Darrington" "WA" "98241" -121.6039985 48.2546653
+"Davenport Public Library" "505 7th St" "Davenport" "WA" "99122" -118.150754 47.653537
+"Columbia County Rural Library District" "111 S 3rd St." "Dayton" "WA" "99328" -117.9776348 46.3209889
+"Dayton Memorial Library" "111 S 3rd St" "Dayton" "WA" "99328" -117.9776348 46.3209889
+"Deer Park Library" "208 S. Forest" "Deer Park" "WA" "99006" -117.4608787 47.9521093
+"Deming Library" "5044 Mt. Baker Highway" "Deming" "WA" "98244" -122.2144386 48.8246737
+"Des Moines Library" "21620 11th Avenue S" "Des Moines" "WA" "98198" -122.3194722 47.4081187
+"Woodmont Library" "26809 Pacific Hwy S" "Des Moines" "WA" "98198" -122.3082245 47.3610631
+"Duvall Library" "15619 Ne Main Street" "Duvall" "WA" "98019" -121.9861395 47.7412796
+"East Wenatchee Community Library" "271 9th St Ne" "East Wenatchee" "WA" "98802" -120.2893159 47.417628
+"Orcas Island Library District" "500 Rose Street" "Eastsound" "WA" "98245" -122.904855 48.696242
+"Eatonville Library" "205 Center Street" "Eatonville" "WA" "98328" -122.2647428 46.8663061
+"Edmonds Library" "650 Main St." "Edmonds" "WA" "98020" -122.3729211 47.8101022
+"Ellensburg Public Library" "209 North Ruby Street" "Ellensburg" "WA" "98926" -120.5448627 46.9940179
+"Elma Timberland Library" "118 N. First" "Elma" "WA" "98541" -123.4019383 47.0052139
+"Merrills Corner Library" "5240 Eltopia West" "Eltopia" "WA" "99330" -119.113031 46.4603431
+"Endicott Branch Library" "324 E Street" "Endicott" "WA" "99125" -117.685654 46.9281735
+"Entiat Community Library" "14138 Kinzel St" "Entiat" "WA" "98822" -120.2092735 47.6772555
+"Enumclaw Public Library" "1700 First Street" "Enumclaw" "WA" "98022" -121.9876129 47.2035657
+"Ephrata Community Library" "45 Alder Nw" "Ephrata" "WA" "98823" -119.5497107 47.3208329
+"Everett Public Library" "2702 Hoyt Ave" "Everett" "WA" "98201" -122.2106585 47.9816618
+"Evergreen Branch Library" "9512 Evergreen Way" "Everett" "WA" "98204" -122.2382704 47.9123315
+"Everson Library" "104 Kirsch Drive" "Everson" "WA" "98247" -122.3419114 48.9195479
+"Fairfield Library" "305 E. Main" "Fairfield" "WA" "99012" -117.1700137 47.3852897
+"Fall City Library" "33415 Se 42nd Place" "Fall City" "WA" "98024" -121.8939361 47.568746
+"Federal Way 320th Library" "848 S 320th Street" "Federal Way" "WA" "98003" -122.3209108 47.3155456
+"Federal Way Library" "34200 1st Way South" "Federal Way" "WA" "98003" -122.3317517 47.2945815
+"Ferndale Library" "2222 Main Street" "Ferndale" "WA" "98248" -122.6042237 48.8483946
+"Forks Public Library" "171 Forks Avenue" "Forks" "WA" "98331" -124.3854149 47.9491926
+"Freeland Library" "5495 Harbor Ave" "Freeland" "WA" "98249" -122.5238237 48.0117195
+"San Juan Island Library District" "1010 Guard Street" "Friday Harbor" "WA" "98250" -123.030327 48.536569
+"Garfield Branch Library" "113 N 3rd" "Garfield" "WA" "99130" -117.1410436 47.0078467
+"Peninsula Library" "4424 Point Fosdick Drive Nw" "Gig Harbor" "WA" "98335" -122.5799213 47.2990392
+"Goldendale Community Library" "131 West Burgen" "Goldendale" "WA" "98620" -120.8243512 45.8202439
+"Graham Library" "9202 224th Street East" "Graham" "WA" "98338" -122.3077892 47.0527132
+"Grand Coulee Community Library" "225 Federal" "Grand Coulee" "WA" "99133" -119.0027531 47.9393238
+"Grandview Library" "500 W. Main St." "Grandview" "WA" "98930" -119.9079111 46.2560389
+"Granger Library" "508 Sunnyside Ave" "Granger" "WA" "98932" -120.1897549 46.3457188
+"Granite Falls Library" "815 East Galena" "Granite Falls" "WA" "98252" -121.9596571 48.0826074
+"Harrah Library" "21 E Pioneer" "Harrah" "WA" "98933" -120.5428853 46.4036934
+"Harrington Public Library" "po box 496" "Harrington" "WA" "99134" -118.2544187 47.4809872
+"Hoquiam Timberland Library" "420 7th St." "Hoquiam" "WA" "98550" -123.8870006 46.9772001
+"Hunters Public Library" "6209 Columbia River Rd." "Hunters" "WA" "99129" -118.2032025 48.1158011
+"Ilwaco Timberland Library" "158 1st Ave. N." "Ilwaco" "WA" "98624" -124.0433847 46.311292
+"Ione Public Library" "210 Blackwell, Suite 1" "Ione" "WA" "99139" -117.4186583 48.7400688
+"Issaquah Library" "10 W Sunset Way" "Issaquah" "WA" "98027" -122.0369681 47.5303935
+"King County Library System" "960 Newport Way Nw" "Issaquah" "WA" "98027" -122.0503372 47.5403584
+"Kahlotus Library" "255 Weston" "Kahlotus" "WA" "99335" -118.553833 46.6422358
+"Kalama Public Library" "312 N 1st" "Kalama" "WA" "98625" -122.8452948 46.009743
+"Kelso Public Library" "314 Academy St." "Kelso" "WA" "98626" -122.909332 46.145127
+"Kenmore Library" "18138 73rd Ave Ne" "Kenmore" "WA" "98028" -122.24334 47.7601914
+"Keewaydin Library" "405 S. Dayton" "Kennewick" "WA" "99336" -119.1224919 46.2050201
+"Kennewick Library" "1620 S. Union" "Kennewick" "WA" "99338" -119.1812683 46.1937476
+"Mid-Columbia Library System" "405 S. Dayton Street" "Kennewick" "WA" "99336" -119.1224919 46.2050201
+"Kent Library" "212 2nd Ave N" "Kent" "WA" "98032" -122.2342107 47.3826063
+"Columbia River Community Library" "225 E 3rd" "Kettle Falls" "WA" "99141" -118.0545879 48.6109327
+"Kettle Falls Public Library" "605 Meyers St." "Kettle Falls" "WA" "99141" -118.0561695 48.6077202
+"Kingston Library" "11212 Ne State Hwy 104" "Kingston" "WA" "98346" -122.4979312 47.7988768
+"Little Boston Library" "31980 Little Boston Rd. Ne" "Kingston" "WA" "98346" -122.5461057 47.872779
+"Kingsgate Library" "12315 Ne 143rd Street" "Kirkland" "WA" "98034" -122.1763356 47.729773
+"Kirkland Library" "308 Kirkland Avenue" "Kirkland" "WA" "98033" -122.2029481 47.6759865
+"Kittitas Public Library" "2nd Pierce St" "Kittitas" "WA" "98934" -120.4191611 46.983245
+"La Conner Regional Library" "614 Morris St." "La Conner" "WA" "98257" -122.489384 48.39197
+"Lacey Timberland Library" "500 College St. Se" "Lacey" "WA" "98503" -122.8225006 47.0438573
+"Lacrosse Branch Library" "107 S Main" "Lacrosse" "WA" "99143" -117.8826181 46.8125702
+"Lake Forest Park Library" "17171 Bothell Way Ne" "Lake Forest Park" "WA" "98155" -122.2803596 47.7540085
+"Lake Stevens Library" "1804 Main St." "Lake Stevens" "WA" "98258" -122.0644316 48.0140118
+"Key Center Library" "8905 Key Peninsula Hwy N" "Lakebay" "WA" "98349" -122.746551 47.3383133
+"Lakewood Library" "6300 Wildaire Road Sw" "Lakewood" "WA" "98499" -122.5214186 47.1603566
+"Tillicum Library" "14916 Washington Avenue Sw" "Lakewood" "WA" "98498" -122.554292 47.123784
+"Langley Library" "104 Second St." "Langley" "WA" "98260" -122.4064869 48.0400703
+"Leavenworth Community Library" "700 Hwy 2" "Leavenworth" "WA" "98826" -120.6641831 47.5951161
+"Liberty Lake Municipal Library" "1421 N. Meadowwood Ln, Suite 130" "Liberty Lake" "WA" "99019" -117.1030088 47.6710503
+"Longview Public Library" "1600 Louisiana Street" "Longview" "WA" "98632" -122.937971 46.140706
+"Library Of The Lakes" "4008 Cedar St." "Loon Lake" "WA" "99148" -117.633422 48.062752
+"Lopez Island Library District" "2225 Fisherman Bay Rd" "Lopez Island" "WA" "98261" -122.909265 48.521683
+"Island Library" "2144 South Nugent Road" "Lummi Island" "WA" "98262" -122.683341 48.71956
+"Lynden Library" "216 4th Street" "Lynden" "WA" "98264" -122.4523807 48.9450544
+"Lynnwood Library" "19200 44th Ave. W" "Lynnwood" "WA" "98036" -122.2931328 47.8240733
+"Mabton Library" "415 B Street" "Mabton" "WA" "98935" -119.9970797 46.2137316
+"Manchester Library" "8067 E. Main St." "Manchester" "WA" "98353" -122.544653 47.5558761
+"Maple Falls Library" "7509 Mt. Baker Highway" "Maple Falls" "WA" "98266" -122.0768183 48.9240065
+"Maple Valley Library" "21844 Se 248th Street" "Maple Valley" "WA" "98038" -122.0485155 47.380071
+"Marysville Library" "6120 Grove Street" "Marysville" "WA" "98270" -122.1477546 48.063543
+"Sno-Isle Libraries" "7312 35th Avenue Ne" "Marysville" "WA" "98271" -122.1853206 48.0624846
+"Mattawa Community Library" "61 Government Way" "Mattawa" "WA" "99349" -119.9067271 46.7378011
+"Mccleary Timberland Library" "121 S. 4th St." "Mccleary" "WA" "98557" -123.266901 47.054881
+"Medical Lake Library" "321 E. Herb" "Medical Lake" "WA" "99022" -117.6796618 47.5710033
+"Mercer Island Library" "4400 88th Avenue Se" "Mercer Island" "WA" "98040" -122.2211918 47.5669511
+"Metalines Community Library" "302 Park St" "Metaline Falls" "WA" "99153" -117.374456 48.860757
+"Mill Creek Library" "15429 Bothell-Everett Hwy" "Mill Creek" "WA" "98012" -122.2182188 47.8576547
+"Milton Library" "1000 Laurel St." "Milton" "WA" "98354" -122.3216157 47.2492679
+"Monroe Library" "1070 Village Way" "Monroe" "WA" "98272" -121.9832359 47.8488169
+"W. H. Abel Memorial Library" "125 Main St. S." "Montesano" "WA" "98563" -123.6010897 46.9806418
+"Moses Lake Community Library" "418 E 5th Ave" "Moses Lake" "WA" "98837" -119.2718952 47.1311381
+"Mount Vernon City Library" "315 Snoqualmie St." "Mount Vernon" "WA" "98273" -122.3383405 48.4159979
+"Mountlake Terrace Library" "23300 58th Ave. W" "Mountlake Terrace" "WA" "98043" -122.3115966 47.787069
+"Moxee Library" "255 W Seattle" "Moxee" "WA" "98936" -120.3914555 46.5564515
+"Mukilteo Public Library" "4675 Harbour Pointe Blvd." "Mukilteo" "WA" "98275" -122.2921106 47.8877199
+"Naches Library" "303 Naches Ave" "Naches" "WA" "98937" -120.700653 46.732555
+"Nile Library" "1891 Nile Rd" "Naches" "WA" "98937" -120.939598 46.821624
+"Naselle Timberland Library" "4 Parpala Rd." "Naselle" "WA" "98638" -123.8117876 46.3660921
+"Newport Public Library" "116 S Washington Avenue" "Newport" "WA" "99156" -117.0439936 48.1808592
+"Pend Oreille County Library District" "116 S. Washington Avenue" "Newport" "WA" "99156" -117.0439936 48.1808592
+"Lakeside Community Library" "6176 Hwy 291" "Nine Mile Falls" "WA" "99026" -117.6019347 47.8323239
+"North Bend Library" "115 E 4th Street" "North Bend" "WA" "98045" -121.783299 47.496795
+"Northport Community Library" "311 Columbia Ave." "Northport" "WA" "99157" -117.7831761 48.9180589
+"Oak Harbor Library" "1000 Se Regatta Drive" "Oak Harbor" "WA" "98277" -122.634562 48.289869
+"Oakville Timberland Library" "204 Main St." "Oakville" "WA" "98568" -123.2353301 46.8399883
+"Ocean Park Timberland Library" "1308 256th Place" "Ocean Park" "WA" "98640" -124.0515197 46.4875932
+"Ocean Shores Public Library" "573 Pt. Brown Ave. N.W." "Ocean Shores" "WA" "98569" -124.1606203 47.0003365
+"Odessa Public Library" "21 E. First Street" "Odessa" "WA" "99159" -118.6903759 47.3332644
+"Okanogan Community Library" "228 Pine" "Okanogan" "WA" "98840" -119.580936 48.3645539
+"Olympia Timberland Library" "313 8th Ave. Se" "Olympia" "WA" "98501" -122.8980687 47.0412432
+"Omak Community Library" "30 S Ash" "Omak" "WA" "98841" -119.5300823 48.4095217
+"Kettle River East Library" "5th And C Street" "Orient" "WA" "99160" -118.2070642 48.8675015
+"Oroville Community Library" "1276 Main St" "Oroville" "WA" "98844" -119.437185 48.9374946
+"Orting Library" "202 Washington Avenue" "Orting" "WA" "98360" -122.202352 47.097054
+"Othello Library" "101 E. Main Street" "Othello" "WA" "99344" -119.1739972 46.8261771
+"Otis Orchards Library" "22324 E. Wellesley Avenue" "Otis Orchards" "WA" "99027" -117.10583 47.699926
+"Algona-Pacific Library" "255 Ellingson Road" "Pacific" "WA" "98047" -122.2536461 47.2716701
+"Packwood Timberland Library" "109 W. Main St." "Packwood" "WA" "98361" -121.6720898 46.6064425
+"Palouse Branch Library" "120 E Main" "Palouse" "WA" "99161" -117.0766863 46.9097378
+"Pasco Library" "1320 W. Hopkins" "Pasco" "WA" "99301" -119.1068731 46.2301131
+"Pateros Community Library" "174 Pateros Mall" "Pateros" "WA" "98846" -119.9034007 48.0509756
+"Peshastin Community Library" "8396 Main St" "Peshastin" "WA" "98847" -120.604718 47.5695229
+"Pomeroy (Denny Ashby) Library" "856 Arlington St" "Pomeroy" "WA" "99347" -117.5999133 46.4707064
+"North Olympic Library System" "2210 South Peabody Street" "Port Angeles" "WA" "98362" -123.439014 48.1061323
+"Port Angeles Public Library" "2210 S. Peabody Street" "Port Angeles" "WA" "98362" -123.439014 48.1061323
+"Jefferson County Rural Library District" "620 Cedar Avenue" "Port Hadlock" "WA" "98339" -122.7725515 48.0325363
+"Port Orchard Library" "87 Sidney St." "Port Orchard" "WA" "98366" -122.635753 47.5424263
+"Port Townsend Public Library" "1220 Lawrence Street" "Port Townsend" "WA" "98368" -122.7629579 48.1164713
+"Poulsbo Library" "700 Ne Lincoln St." "Poulsbo" "WA" "98370" -122.6397004 47.7358164
+"Prescott Library" "103 D St." "Prescott" "WA" "99348" -118.315139 46.299411
+"Prosser Library" "902 Seventh Street" "Prosser" "WA" "99350" -119.7654653 46.2048283
+"Pullman (Neill) Public Library" "210 N Grand Ave" "Pullman" "WA" "99163" -117.1808553 46.7307755
+"Puyallup Public Library" "324 S Meridian" "Puyallup" "WA" "98371" -122.2953643 47.1895802
+"South Hill Library" "15420 Meridian East" "Puyallup" "WA" "98375" -122.2941397 47.1162804
+"Quincy Community Library" "108 B St Sw" "Quincy" "WA" "98848" -119.8557241 47.2360714
+"Mountain View Timberland Library" "210 Silverbrook Rd." "Randle" "WA" "98377" -121.9585756 46.5359346
+"Raymond Timberland Library" "507 Duryea St." "Raymond" "WA" "98577" -123.7309003 46.6868184
+"Reardan Memorial Library" "120 S Oak" "Reardan" "WA" "99029" -117.8818269 47.6691334
+"Library Express At Redmond Ridge" "10735 Cedar Park Crescent Ne" "Redmond" "WA" "98053" -122.0456439 47.6932303
+"Redmond Library" "15990 Ne 85th Street" "Redmond" "WA" "98052" -122.1280775 47.6789086
+"Fairwood Library" "17009 140th Avenue Se" "Renton" "WA" "98058" -122.1546196 47.4507698
+"Highlands Public Library" "2902 Ne 12th St" "Renton" "WA" "98056" -122.1808227 47.5035587
+"Renton Highlands Library" "2902 Ne 12th Street" "Renton" "WA" "98056" -122.1808227 47.5035587
+"Renton Library" "100 Mill Avenue South" "Renton" "WA" "98057" -122.2020346 47.4818671
+"Republic Community Library" "794 S Clark Ave" "Republic" "WA" "99166" -118.737607 48.645895
+"Richland Public Library" "1270 Lee Blvd" "Richland" "WA" "99352" -119.2789075 46.2761099
+"Ridgefield Community Library" "210 North Main Avenue" "Ridgefield" "WA" "98642" -122.745824 45.816905
+"Ritzville Public Library" "302 W Main" "Ritzville" "WA" "99169" -118.3816235 47.1262198
+"Rosalia Branch Library" "106 W. 5th" "Rosalia" "WA" "99170" -117.3706754 47.2360861
+"Roslyn Public Library" "201 S. First St." "Roslyn" "WA" "98941" -120.991353 47.222532
+"Roy City Library" "122 3rd St. E" "Roy" "WA" "98580" -122.5427266 47.0027083
+"Royal City Community Library" "356 Camelia" "Royal City" "WA" "99357" -119.6349744 46.9002317
+"Salkum Timberland Library" "2480 U.S. Hwy. 12" "Salkum" "WA" "98582" -122.6297792 46.5316832
+"Sammamish Library" "825 228th Avenue Ne" "Sammamish" "WA" "98074" -122.036202 47.6168394
+"Valley View Library" "17850 Military Road S" "Seatac" "WA" "98188" -122.2737336 47.443213
+"Boulevard Park Library" "12015 Roseberg Avenue S" "Seattle" "WA" "98168" -122.3078428 47.4952747
+"Greenbridge Library" "9720 8th Ave S.W." "Seattle" "WA" "98106" -122.3450329 47.515971
+"Seattle Public Library - Ballard" "5711 24th Ave Nw" "Seattle" "WA" "98107" -122.387891 47.6705674
+"Seattle Public Library - Beacon Hill" "2519 15th Ave S" "Seattle" "WA" "98144" -122.3136895 47.5804625
+"Seattle Public Library - Broadview" "12755 Greenwood Ave N" "Seattle" "WA" "98133" -122.356098 47.7229572
+"Seattle Public Library - Capitol Hill" "425 Harvard Ave E" "Seattle" "WA" "98102" -122.3223185 47.6229294
+"Seattle Public Library - Central Library" "1000 4th Ave" "Seattle" "WA" "98104" -122.3329838 47.6066004
+"Seattle Public Library - Columbia" "4721 Rainier Ave S" "Seattle" "WA" "98118" -122.2869591 47.5599006
+"Seattle Public Library - Delridge" "5423 Delridge Way Sw" "Seattle" "WA" "98106" -122.3633638 47.553156
+"Seattle Public Library - Douglass-Truth" "2300 E Yesler Way" "Seattle" "WA" "98122" -122.3016502 47.6019183
+"Seattle Public Library - Fremont" "731 N 35th St" "Seattle" "WA" "98103" -122.3484226 47.6500621
+"Seattle Public Library - Green Lake" "7364 E Green Lake Dr N" "Seattle" "WA" "98115" -122.3266587 47.6814943
+"Seattle Public Library - Greenwood" "8016 Greenwood Ave N" "Seattle" "WA" "98103" -122.3547574 47.6874519
+"Seattle Public Library - High Point" "6338 32nd Ave Sw" "Seattle" "WA" "98126" -122.3737367 47.5446321
+"Seattle Public Library - International District - Chinatown Branch" "713 Eighth Ave. S." "Seattle" "WA" "98104" -122.3227843 47.5962327
+"Seattle Public Library - Lake City" "12501 28th Ave Ne" "Seattle" "WA" "98125" -122.298113 47.719716
+"Seattle Public Library - Madrona Sally Goldmark" "1134 33rd Ave" "Seattle" "WA" "98122" -122.2900203 47.6126747
+"Seattle Public Library - Magnolia" "2801 34th Ave W" "Seattle" "WA" "98199" -122.4014357 47.645323
+"Seattle Public Library - Montlake" "2300 24th Ave E" "Seattle" "WA" "98112" -122.3018166 47.6396761
+"Seattle Public Library - Newholly" "7058 32nd Ave S" "Seattle" "WA" "98118" -122.2904189 47.5392077
+"Seattle Public Library - Northeast" "6801 35th Ave Ne" "Seattle" "WA" "98115" -122.2906962 47.6780008
+"Seattle Public Library - Northgate" "10548 Fifth Ave. N.E." "Seattle" "WA" "98125" -122.322842 47.705987
+"Seattle Public Library - Queen Anne" "400 W Garfield St" "Seattle" "WA" "98119" -122.362665 47.6338136
+"Seattle Public Library - Rainier Beach" "9125 Rainier Ave S" "Seattle" "WA" "98118" -122.2705382 47.5213573
+"Seattle Public Library - South Park" "8604 Eighth Ave. S. At South Cloverdale Street" "Seattle" "WA" "98108" -122.3225876 47.526252
+"Seattle Public Library - Southwest" "9010 35th Ave Sw" "Seattle" "WA" "98126" -122.3762739 47.5224353
+"Seattle Public Library - University" "5009 Roosevelt Way Ne" "Seattle" "WA" "98105" -122.3178828 47.6652442
+"Seattle Public Library - Wallingford" "1501 N 45th St" "Seattle" "WA" "98103" -122.3389307 47.6611801
+"Seattle Public Library - West Seattle" "2306 42nd Ave Sw" "Seattle" "WA" "98116" -122.3846954 47.5826887
+"Skyway Library" "7614 S 126th Street" "Seattle" "WA" "98178" -122.2375385 47.4908865
+"White Center Library" "11220 16th Avenue Sw" "Seattle" "WA" "98146" -122.354331 47.5019247
+"Sedro-Woolley Public Library" "802 Ball Avenue" "Sedro-Woolley" "WA" "98284" -122.2289559 48.5041416
+"Selah Library" "115 W Naches" "Selah" "WA" "98942" -120.5314378 46.6543346
+"Sequim Public Library" "630 N. Sequim Avenue" "Sequim" "WA" "98382" -123.100905 48.085809
+"William G. Reed Public Library" "710 W. Alder St." "Shelton" "WA" "98584" -123.1072572 47.2169115
+"Richmond Beach Library" "19601 21st Avenue Nw" "Shoreline" "WA" "98177" -122.3849906 47.7718684
+"Shoreline Library" "345 Ne 175th St" "Shoreline" "WA" "98155" -122.3247695 47.7555826
+"Silverdale Library" "3450 Nw Carlton St." "Silverdale" "WA" "98383" -122.6962878 47.6463441
+"Skykomish Library" "100 Fifth Street" "Skykomish" "WA" "98288" -121.36112 47.708283
+"Snohomish Library" "311 Maple Avenue" "Snohomish" "WA" "98290" -122.0884006 47.9152977
+"Snoqualmie Library" "38580 Se River Street" "Snoqualmie" "WA" "98065" -121.8267231 47.5268566
+"Soap Lake Community Library" "32 E Main" "Soap Lake" "WA" "98851" -119.4896579 47.3893675
+"South Bend Timberland Library" "1st Pacific" "South Bend" "WA" "98586" -123.8019769 46.6628829
+"Argonne Library" "4322 N. Argonne Road" "Spokane" "WA" "99212" -117.2819421 47.6964113
+"East Side Branch Library" "524 S. Stone" "Spokane" "WA" "99202" -117.376977 47.650913
+"Hillyard Branch Library" "4005 N. Cook" "Spokane" "WA" "99207" -117.3741318 47.6946806
+"Indian Trail Branch Library" "4909 W. Barnes Road" "Spokane" "WA" "99208" -117.4826107 47.7404391
+"Moran Prairie Library" "3022 E. 57th, Suite 19" "Spokane" "WA" "99223" -117.3659085 47.6019241
+"North Spokane Library" "44 E. Hawthorne Road" "Spokane" "WA" "99218" -117.409031 47.7507792
+"Shadle Branch Library" "2111 W. Wellesley" "Spokane" "WA" "99205" -117.442278 47.700308
+"South Hill Branch Library" "3324 S. Perry" "Spokane" "WA" "99203" -117.3905983 47.62431
+"Spokane County Library District" "4322 N Argonne Rd" "Spokane" "WA" "99212" -117.2819421 47.6964113
+"Spokane Public Library" "906 W. Main Ave." "Spokane" "WA" "99201" -117.42554 47.6594332
+"Valley Library" "12004 E. Main Avenue" "Spokane Valley" "WA" "99206" -117.2434249 47.658564
+"Sprague Public Library" "119 West Second" "Sprague" "WA" "99032" -117.976962 47.299356
+"St. John Branch Library" "19 East Front Street" "St. John" "WA" "99171" -117.582023 47.0918355
+"Stanwood Library" "9701 271st St. Nw" "Stanwood" "WA" "98292" -122.3642801 48.242376
+"Steilacoom Library" "2950 Steilacoom Boulevard Sw" "Steilacoom" "WA" "98388" -122.5784724 47.1766993
+"Stevenson Community Library" "120 Nw Vancouver Avenue" "Stevenson" "WA" "98648" -121.8816318 45.6954398
+"Sultan Library" "319 Main St., Suite 100" "Sultan" "WA" "98294" -121.8168755 47.8625176
+"Sumas Library" "451 2nd Street" "Sumas" "WA" "98295" -122.2596341 48.998311
+"Sumner Library" "1116 Fryar Avenue" "Sumner" "WA" "98390" -122.2441439 47.2046247
+"Sunnyside Public Library" "621 Grant" "Sunnyside" "WA" "98944" -120.0118792 46.3210638
+"Dr. Martin Luther King, Jr. Branch Library" "1902 South Cedar" "Tacoma" "WA" "98405" -122.476684 47.242398
+"Fern Hill Branch Library" "765 South 84th" "Tacoma" "WA" "98444" -122.4428546 47.1815553
+"Kobetich Branch Library" "212 Browns Point Blvd. Ne" "Tacoma" "WA" "98422" -122.3863938 47.2879937
+"Moore Branch Library" "215 South 56th Street" "Tacoma" "WA" "98408" -122.43573 47.2066841
+"Mottet Branch Library" "3523 East G Street" "Tacoma" "WA" "98404" -122.4218855 47.2287483
+"Parkland-Spanaway Library" "13718 Pacific Avenue South" "Tacoma" "WA" "98444" -122.436043 47.132215
+"Pierce County Library System" "3005 112th Street East" "Tacoma" "WA" "98446" -122.3869745 47.1555293
+"South Tacoma Branch Library" "3411 South 56th Street" "Tacoma" "WA" "98409" -122.4820518 47.206425
+"Summit Library" "5107 112th Street East" "Tacoma" "WA" "98445" -122.360652 47.1549017
+"Swan Creek Branch Library" "3828 Portland Avenue" "Tacoma" "WA" "98404" -122.40823 47.221921
+"Swasey Branch Library" "7001 Sixth Avenue" "Tacoma" "WA" "98406" -122.5304581 47.2558375
+"Tacoma Public Library" "1102 Tacoma Ave S" "Tacoma" "WA" "98402" -122.4447808 47.2522468
+"Wheelock Branch Library" "3722 North 26th" "Tacoma" "WA" "98407" -122.4865267 47.2707616
+"Tekoa Branch Library" "120 E. Main" "Tekoa" "WA" "99033" -117.0734631 47.2221563
+"Tenino Timberland Library" "172 Central Ave. W." "Tenino" "WA" "98589" -122.8518454 46.8569403
+"Tieton Library" "418 Maple" "Tieton" "WA" "98947" -120.7554137 46.7027988
+"Tonasket Community Library" "209 S Whitcomb" "Tonasket" "WA" "98855" -119.435359 48.710144
+"Toppenish (Mary Goodrich Memorial) Library" "1 South Elm" "Toppenish" "WA" "98948" -120.3155 46.379115
+"Touchet Community Library" "161 Hanson Road" "Touchet" "WA" "99360" -118.674919 46.043372
+"Foster Library" "4060 S 144th Street" "Tukwila" "WA" "98168" -122.281536 47.4745118
+"Library Connection At Southcenter" "1386 Southcenter Mall" "Tukwila" "WA" "98188" -122.2612147 47.4587069
+"Tukwila Library" "14475 59th Avenue S" "Tukwila" "WA" "98168" -122.259537 47.471801
+"Timberland Regional Library" "415 Tumwater Blvd. Sw" "Tumwater" "WA" "98501" -122.905048 46.9831998
+"Tumwater Timberland Library" "7023 New Market St." "Tumwater" "WA" "98501" -122.9134891 46.9849237
+"Twisp Community Library" "201 N Methow Valley Hwy" "Twisp" "WA" "98856" -120.1228275 48.366229
+"Union Gap Library" "3104 S 1st St" "Union Gap" "WA" "98903" -120.4767582 46.556931
+"Uniontown Branch Library" "110 S Montgomery" "Uniontown" "WA" "99179" -117.08741 46.5389917
+"University Place Library" "3605 Bridgeport Way West" "University Place" "WA" "98466" -122.536961 47.2261362
+"Cascade Park Community Library" "301 Se Hearthwood Blvd" "Vancouver" "WA" "98684" -122.5221671 45.6201865
+"Fort Vancouver Regional Library District" "1007 E. Mill Plain Blvd" "Vancouver" "WA" "98663" -122.661195 45.6299852
+"Three Creeks Community Library" "800-C Tenney Road" "Vancouver" "WA" "98685" -122.6650424 45.7215477
+"Vancouver Community Library" "1007 E Mill Plain Blvd" "Vancouver" "WA" "98663" -122.661195 45.6299852
+"Vancouver Mall Community Library" "8700 Ne Vancouver Mall Drive" "Vancouver" "WA" "98662" -122.5836597 45.6582689
+"Vashon Library" "17210 Vashon Highway Sw" "Vashon Island" "WA" "98070" -122.4594478 47.4508633
+"Waitsburg (Weller) Public Library" "212 Main Street" "Waitsburg" "WA" "99361" -118.1549752 46.2701256
+"Walla Walla County Rural Library District" "37 Jade Ave." "Walla Walla" "WA" "99362" -118.3634498 46.0576933
+"Walla Walla Public Library" "238 E. Alder Street" "Walla Walla" "WA" "99362" -118.3343171 46.0673538
+"Wapato Library" "119 E 3rd St" "Wapato" "WA" "98951" -120.41885 46.4457333
+"Warden Community Library" "305 S Main" "Warden" "WA" "98857" -119.040594 46.9675686
+"Washougal Community Library" "1661 C Street" "Washougal" "WA" "98671" -122.3541287 45.5795427
+"Waterville Community Library" "105 N Chelan" "Waterville" "WA" "98858" -120.0712254 47.6476567
+"North Central Regional Library" "16 N Columbia St" "Wenatchee" "WA" "98801" -120.311022 47.425496
+"Wenatchee Public Library" "310 Douglas St" "Wenatchee" "WA" "98801" -120.314719 47.4235017
+"West Richland Library" "3803 W. Van Giesen" "West Richland" "WA" "99353" -119.3378123 46.2965268
+"Westport Timberland Library" "506 N. Montesano St." "Westport" "WA" "98595" -124.1039316 46.8906291
+"White Salmon Valley Community Library" "5 Town Country Square" "White Salmon" "WA" "98672" -121.5120859 45.7441478
+"White Swan Library" "391 1st St" "White Swan" "WA" "98952" -120.7311156 46.3819192
+"Wilbur (Hesseltine) Public Library" "14 Nw Division" "Wilbur" "WA" "99185" -118.704655 47.7586988
+"Winlock Timberland Library" "322 1st St." "Winlock" "WA" "98596" -122.936363 46.492291
+"Winthrop Community Library" "509 State Rt 20" "Winthrop" "WA" "98862" -120.1734688 48.4635977
+"Woodinville Library" "17105 Avondale Road Ne" "Woodinville" "WA" "98072" -122.0818695 47.7515723
+"Woodland Community Library" "770 Park Street" "Woodland" "WA" "98674" -122.747294 45.903787
+"Southeast Library" "1211 S 7th St" "Yakima" "WA" "98901" -120.4923779 46.5879521
+"Summitview Library" "5709 Summitview Ave" "Yakima" "WA" "98908" -120.5847566 46.6000252
+"Terrace Heights Library" "4011 Commonwealth" "Yakima" "WA" "98901" -120.4462087 46.6071986
+"Yakima Valley Regional Library" "102 N Third St" "Yakima" "WA" "98901" -120.5043302 46.6044429
+"Yelm Timberland Library" "210 Prairie Park St." "Yelm" "WA" "98597" -122.5995681 46.9391673
+"Zillah Library" "109 7th" "Zillah" "WA" "98953" -120.2596441 46.4014219

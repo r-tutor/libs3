@@ -1,0 +1,188 @@
+"location" "miles" "latitude" "longitude"
+"Port Tampa Branch Library<br/>8611 Interbay Blvd.<br/>Tampa, FL" 2.45351642940085 -82.526589 27.866165
+"Jan K. Platt Regional Library<br/>3910 S. Manhattan Avenue<br/>Tampa, FL" 3.93022948113969 -82.5173943 27.9073771
+"Charles J. Fendig Library<br/>3909 Neptune Street<br/>Tampa, FL" 5.26784742612966 -82.5086706 27.9308128
+"Hillsborough County Public Library Cooperative<br/>900 North Ashley Drive<br/>Tampa, FL" 6.68769180497773 -82.4623379 27.9509263
+"West Tampa Branch Library<br/>2312 W. Union St.<br/>Tampa, FL" 6.97960354249569 -82.4832724 27.9577322
+"Robert W. Saunders, Sr. Branch Library<br/>1505 N. Nebraska Ave.<br/>Tampa, FL" 7.36559815130597 -82.4507628 27.9582221
+"Ybor City Branch<br/>1505 Nebraska<br/>Tampa, FL" 7.36559815130597 -82.4507628 27.9582221
+"78th Street Community Library<br/>7625 Palm River Road<br/>Tampa, FL" 9.15691366297141 -82.3716056 27.9403865
+"College Hill Branch Library<br/>2607 East Martin L. King Dr.<br/>Tampa, FL" 9.28759848285335 -82.4303508 27.9811921
+"Seminole Heights Branch Library<br/>4711 Central Ave.<br/>Tampa, FL" 9.31686037403117 -82.4550403 27.9884436
+"Riverview Branch Library<br/>10509 Riverview Drive<br/>Riverview, FL" 9.73487965395689 -82.329519 27.8714312
+"North Branch Library<br/>861 70th Ave North<br/>St. Petersburg, FL" 9.77254509653301 -82.645865 27.8359368
+"Egypt Lake Partnership Library<br/>3403 West Lambright Street<br/>Tampa, FL" 10.4122070071321 -82.4987959 28.0071263
+"Mirror Lake Branch<br/>280 5th Street N<br/>St. Petersburg, FL" 10.9181922835695 -82.6402905 27.7748361
+"West Gate Branch Library<br/>7609 Paula Dr.<br/>Tampa, FL" 10.9421099881475 -82.5661172 27.9991848
+"North Tampa Branch Library<br/>8916 North Blvd.<br/>Tampa, FL" 12.1961666902638 -82.4683709 28.0323841
+"James Weldon Johnson Branch Library<br/>1059 18th Ave South<br/>St. Petersburg, FL" 12.2417866591987 -82.6494741 27.7525926
+"St. Petersburg Public Library<br/>3745 Ninth Ave. No.<br/>St. Petersburg, FL" 13.1034397267208 -82.6844132 27.7816559
+"Brandon Branch<br/>619 Vonderburg Drive<br/>Brandon, FL" 13.2601973847265 -82.2873137 27.9299292
+"Pinellas Park Public Library<br/>7770 52nd Street North<br/>Pinellas Park, FL" 13.2912756626688 -82.7045493 27.8423703
+"Temple Terrace Public Library<br/>202 Bullard Pkwy<br/>Temple Terrace, FL" 13.5286270986745 -82.3912684 28.032894
+"Seffner-Mango Branch Library<br/>11724 East Ml King Jr. Blvd<br/>Seffner, FL" 14.3685038394929 -82.2998772 27.9816406
+"Science Library At Mosi-Museum Of Science And<br/>4801 E Fowler Avenue<br/>Tampa, FL" 14.53935635244 -82.4039417 28.0535966
+"South Branch Library<br/>2300 Roy Hanna Dr. South<br/>St. Petersburg, FL" 14.8132114182587 -82.6649771 27.7109546
+"Safety Harbor Public Library<br/>101 Second St North<br/>Safety Harbor, FL" 15.4071660323861 -82.6884967 27.991756
+"Gulfport Public Library<br/>5501 28th Avenue South<br/>Gulfport, FL" 15.6139745088155 -82.7078814 27.7425883
+"Jimmie B. Keel Regional Library<br/>2902 W. Bearss Avenue<br/>Tampa, FL" 15.9099352663845 -82.4919859 28.0868855
+"Oldsmar Public Library<br/>101 State St. W<br/>Oldsmar, FL" 16.4596984671185 -82.6636086 28.0372341
+"East Library<br/>2251 Drew Street<br/>Clearwater, FL" 17.4371805086434 -82.7442512 27.9674212
+"St. Pete Beach Public Library<br/>365 73rd Ave<br/>St. Pete Beach, FL" 17.87486953514 -82.7493836 27.7417826
+"Thonotosassa Branch Library<br/>10715 Main St.<br/>Thonotosassa, FL" 18.2173939662939 -82.2948444 28.0576409
+"Countryside Library<br/>2741 State Road 580<br/>Clearwater, FL" 18.2556469427197 -82.723739 28.018848
+"Largo Public Library<br/>351 East Bay Drive<br/>Largo, FL" 18.561617259084 -82.784113 27.915535
+"Pinellas Public Library Cooperative<br/>1330 Cleveland Street<br/>Clearwater, FL" 19.4937353703262 -82.7818108 27.966197
+"Gulf Beaches Public Library<br/>200 Municipal Drive<br/>Madeira Beach, FL" 19.5273327771695 -82.8013804 27.8038222
+"Austin Davis Library<br/>17808 Wayne Road<br/>Odessa, FL" 19.9696299651087 -82.5765568 28.1347764
+"North Greenwood Branch<br/>905 N. Martin Luther King Jr. Avenue<br/>Clearwater, FL" 20.2742389542879 -82.7913873 27.9750982
+"Lutz Branch Library<br/>101 West Lutz Lake Fern Rd.<br/>Lutz, FL" 20.4278342549105 -82.4626089 28.1513845
+"Clearwater Public Library System<br/>100 North Osceola Avenue<br/>Clearwater, FL" 20.6437563069727 -82.8015326 27.967516
+"Dunedin Public Library<br/>223 Douglas Avenue<br/>Dunedin, FL" 20.8322106366107 -82.7865475 28.002014
+"East Lake Community Library<br/>4125 East Lake Road<br/>Palm Harbor, FL" 21.6191101029645 -82.6936977 28.1111518
+"Palm Harbor Library<br/>2330 Nebraska Ave<br/>Palm Harbor, FL" 21.8190770793403 -82.7427925 28.0778113
+"New Tampa Regional Library<br/>10001 Cross Creek Blvd<br/>Tampa, FL" 21.945795027357 -82.3280672 28.1410733
+"Indian Rocks Beach Library<br/>1507 Bay Palm Boulevard<br/>Indian Rocks Beach, FL" 22.0678557682008 -82.8457764 27.8978756
+"Rocky Bluff Branch<br/>6750 US Highway 301 North<br/>Ellenton, FL" 22.3177029866061 -82.4953274 27.5343467
+"Beach Library<br/>483 Mandalay<br/>Clearwater, FL" 22.4353901910282 -82.826765 27.98148
+"Land Olakes Branch Library<br/>2818 Collier Pkwy.<br/>Land Olakes, FL" 23.8299288209359 -82.4332101 28.1980152
+"Palmetto Branch Library<br/>923 6th Street West<br/>Palmetto, FL" 24.1829582361981 -82.5753072 27.5159979
+"Manatee County Public Library System<br/>1301 Barcarrota Blvd West<br/>Bradenton, FL" 25.3466291861925 -82.574475 27.49861
+"Bruton Memorial Library<br/>302 Mclendon Street<br/>Plant City, FL" 25.5010928083324 -82.1128641 28.0186323
+"Tarpon Springs Library<br/>138 E Lemon Street<br/>Tarpon Springs, FL" 25.7458845733093 -82.755364 28.144562
+"South Holiday Branch Library<br/>4649 Mile Stretch Drive<br/>Holiday, FL" 27.5591344487503 -82.7367353 28.18927
+"Island Branch Library<br/>5701 Marina Drive<br/>Holmes Beach, FL" 27.7717743455066 -82.7140361 27.5089595
+"Centennial Park Branch Library<br/>5740 Moog Road East<br/>Holiday, FL" 28.21167288496 -82.7194481 28.2098256
+"Braden River Library<br/>4915 53rd Avenue East<br/>Bradenton, FL" 28.3748403735766 -82.4990878 27.4468349
+"South Manatee County Branch<br/>6081 26th Street W.<br/>Bradenton, FL" 29.9872852070056 -82.587211 27.432432
+"New Port Richey Public Library<br/>5939 Main Street<br/>New Port Richey, FL" 30.5727417506961 -82.7158375 28.2504379
+"Dr. C.C. Pearce Municipal Library<br/>103 E Canal Street<br/>Mulberry, FL" 31.5895334888178 -81.9729997 27.8945855
+"Zephyrhills Library<br/>5347 8th Street<br/>Zephyrhills, FL" 32.2058048379767 -82.1808682 28.2355401
+"Regency Park Branch Library<br/>9701 Little Road<br/>New Port Richey, FL" 32.5604093460019 -82.6728793 28.2984069
+"North Sarasota Library<br/>2801 Newtown Blvd.<br/>Sarasota, FL" 34.4186532679773 -82.525187 27.360443
+"Lakeland Public Library<br/>100 Lake Morton Drive<br/>Lakeland, FL" 35.1859802901563 -81.9495356 28.0374636
+"Larry R. Jackson Branch Library<br/>1700 N Florida Ave.<br/>Lakeland, FL" 35.5421954937186 -81.957814 28.0686418
+"Fruitville Public Library<br/>100 Coburn Road<br/>Sarasota, FL" 36.0107057707252 -82.436005 27.338359
+"Selby Public Library<br/>1331 First Street<br/>Sarasota, FL" 36.0771407914329 -82.5431663 27.3376748
+"Sarasota County Public Libraries<br/>1660 Ringling Blvd.<br/>Sarasota, FL" 36.2702286480943 -82.5367586 27.3343691
+"Hudson Regional Library<br/>8012 Library Road<br/>Hudson, FL" 36.3252856337106 -82.6813555 28.3535363
+"Polk County Law Library<br/>255 North Broadway<br/>Bartow, FL" 39.454298105558 -81.8442519 27.8975975
+"Bartow Public Library<br/>2150 S. Broadway Avenue<br/>Bartow, FL" 39.4636563569607 -81.842798 27.8734376
+"Polk County Library Cooperative<br/>2150 S. Broadway Ave.<br/>Bartow, FL" 39.4636563569607 -81.842798 27.8734376
+"Polk County Historical And Genealogical Lib<br/>100 East Main Street<br/>Bartow, FL" 39.5395309136459 -81.8427933 27.8968033
+"Hugh Embry Branch Library<br/>14215 N Fourth St.<br/>Dade City, FL" 39.6444678579316 -82.1870591 28.3649217
+"Gulf Gate Library<br/>7112 Curtiss Ave.<br/>Sarasota, FL" 41.7717511469504 -82.4997173 27.2531342
+"Little Red Schoolhouse Branch<br/>1208 Kenlake Avenue<br/>Spring Hill, FL" 41.9653905764392 -82.623659 28.451651
+"Fort Meade Public Library<br/>75 East Broadway<br/>Fort Meade, FL" 42.6849179646343 -81.800367 27.752158
+"Auburndale Public Library<br/>100 W Bridgers Avenue<br/>Auburndale, FL" 45.229521258909 -81.7852412 28.062781
+"Eagle Lake Public Library<br/>75 North Seventh Street<br/>Eagle Lake, FL" 45.6166000919188 -81.7541188 27.9774209
+"West Hernando Branch Library<br/>6335 Blackbird Ave.<br/>Brooksville, FL" 46.2643585874638 -82.5638927 28.5223653
+"Polk City Library<br/>215 S. Bougainvillea Street<br/>Polk City, FL" 46.3191293825492 -81.8236565 28.1802843
+"Hardee County Public Library<br/>315 North Sixth Avenue<br/>Wauchula, FL" 46.4531497997003 -81.812916 27.5505
+"Winter Haven Public Library - Kathryn L. Smith Memorial<br/>325 Avenue A, Nw<br/>Winter Haven, FL" 47.6672249746953 -81.7309638 28.0234695
+"Hernando County Public Library System<br/>238 Howell Ave<br/>Brooksville, FL" 48.8039709266448 -82.38725 28.5568522
+"Istachatta Branch Library<br/>238 Howell Avenue<br/>Brooksville, FL" 48.8039709266448 -82.38725 28.5568522
+"East Hernando Branch Library<br/>31170 Cortez Blvd.<br/>Brooksville, FL" 48.8314419460489 -82.2225771 28.5229968
+"Lake Alfred Public Library<br/>195 East Pomelo Street<br/>Lake Alfred, FL" 49.1919770860064 -81.7283652 28.0931792
+"Venice Area Public Library<br/>300 South Nokomis Ave<br/>Venice, FL" 52.719293474038 -82.445965 27.095687
+"Dundee Public Library<br/>203 Center Street<br/>Dundee, FL" 54.2813114249048 -81.619952 28.023921
+"Rock Cannery Library<br/>15487 Citrus Way<br/>Brooksville, FL" 55.0459836173888 -82.447327 28.651881
+"Lake Wales Public Library<br/>290 Cypress Garden Lane<br/>Lake Wales, FL" 55.2185261176801 -81.586318 27.9036592
+"Haines City Public Library<br/>111 North 6th Street<br/>Haines City, FL" 55.4345099262135 -81.6262872 28.1085877
+"Jacaranda Public Library<br/>4143 Woodmere Park Blvd.<br/>Venice, FL" 55.8104537500478 -82.3929104 27.0545041
+"North Port Library<br/>13800 South Tamiami Trail<br/>North Port, FL" 57.8298115424787 -82.2554358 27.0467408
+"Desoto County Library<br/>519 West Hickory Street<br/>Arcadia, FL" 58.3589432192664 -81.866044 27.218347
+"E.C. Rowell Public Library<br/>85 E Central Avenue<br/>Webster, FL" 58.4121599434567 -82.053664 28.609731
+"Latt Maxcy Memorial Library<br/>15 North Magnolia Avenue<br/>Frostproof, FL" 58.8837768902081 -81.533647 27.74652
+"Arcadia Township Library<br/>100 South Reynolds<br/>Arcadia, NE" 59.0946055632922 -81.8624147 27.2071175
+"Bushnell Public Library<br/>402 North Florida Street<br/>Bushnell, FL" 60.5601115929179 -82.1105395 28.6668674
+"Sumter County Public Library System<br/>910 North Main Street, Suite 225<br/>Bushnell, FL" 61.1036084693211 -82.1130428 28.6762515
+"Marion Baysinger Memorial Library<br/>243 South Lake Avenue<br/>Groveland, FL" 61.9842407994143 -81.8566552 28.5594448
+"Elsie Quirk Library<br/>100 W. Dearborn Street<br/>Englewood, FL" 62.3637251201204 -82.3551723 26.9630836
+"Murdock Public Library<br/>18400 Murdock Circle<br/>Port Charlotte, FL" 62.4512979290422 -82.1419312 27.0078985
+"Avon Park Public Library<br/>100 N. Museum Ave.<br/>Avon Park, FL" 62.7927395801352 -81.5050351 27.5977024
+"Floral City Library<br/>8240 East Orange Ave.<br/>Floral City, FL" 62.8684775499144 -82.2974955 28.7501804
+"Charlotte-Glades Library System<br/>2050 Forrest Nelson Blvd.<br/>Port Charlotte, FL" 63.2821138721103 -82.1224864 27.0014858
+"Port Charlotte Public Library<br/>2280 Aaron Street<br/>Port Charlotte, FL" 64.3578974614055 -82.0990255 26.9929082
+"Englewood Charlotte Public Library<br/>3450 Mccall Road<br/>Englewood, FL" 64.888199908466 -82.2965904 26.9343597
+"Cooper Memorial Library<br/>620 Montrose St.<br/>Clermont, FL" 65.391369224858 -81.765504 28.555787
+"Homosassa Library<br/>4100 S Grandmarch Ave<br/>Homosassa, FL" 65.6333991694361 -82.5683387 28.8030904
+"Celebration Library<br/>510 Campus Street<br/>Celebration, FL" 65.8573441836923 -81.544709 28.319619
+"Poinciana Library<br/>33 Doverplum Road<br/>Poinciana, FL" 66.3205826252463 -81.4533216 28.1482772
+"Clark Maxwell, Jr. Library<br/>1405 Cr 526-A<br/>Sumterville, FL" 66.3307382034547 -82.0672845 28.7414348
+"Panasoffkee Community Library, Inc.<br/>1500 Cr 459<br/>Lake Panasoffkee, FL" 67.1795442858249 -82.1288987 28.7752422
+"Lakes Region Library<br/>1511 Druid Road<br/>Inverness, FL" 67.7074943045963 -82.3463536 28.8277674
+"Heartland Library Cooperative<br/>319 W. Center Ave.<br/>Sebring, FL" 68.6959520915972 -81.4437076 27.4946901
+"Sebring Public Library<br/>319 West Center Avenue<br/>Sebring, FL" 68.6959520915972 -81.4437076 27.4946901
+"Punta Gorda Public Library<br/>424 West Henry Street<br/>Punta Gorda, FL" 69.7997133428456 -82.0532673 26.9245487
+"Coleman Library<br/>712 Central Avenue<br/>Coleman, FL" 70.1217043004102 -82.06928 28.801297
+"Coastal Region Library<br/>8619 West Crystal Street<br/>Crystal River, FL" 72.5387035136122 -82.5771421 28.9026185
+"Hart Memorial Library<br/>211 E. Dakin Avenue<br/>Kissimmee, FL" 72.6847986192838 -81.4038312 28.2919648
+"Law Library<br/>211 E. Dakin Ave.<br/>Kissimmee, FL" 72.6847986192838 -81.4038312 28.2919648
+"Central Ridge Library<br/>425 W Roosevelt Blvd.<br/>Beverly Hills, FL" 72.9692620109439 -82.4419686 28.9110162
+"Citrus County Library System<br/>425 W. Roosevelt Boulevard<br/>Beverly Hills, FL" 72.9692620109439 -82.4419686 28.9110162
+"Windermere Library<br/>530 Main Street<br/>Windermere, FL" 72.9839989658135 -81.5347988 28.4952108
+"Marianne Beck Memorial Library<br/>112 W. Central Ave.<br/>Howey-In-The-Hills, FL" 73.5309907777306 -81.7735721 28.7138476
+"Southwest Library<br/>7255 Della Dr.<br/>Orlando, FL" 73.6340724744336 -81.4897504 28.4558781
+"Wildwood Public Library<br/>702 Webster Street<br/>Wildwood, FL" 75.0062697882789 -82.037634 28.866272
+"South Creek Library<br/>1702 Deerfield Blvd.<br/>Orlando, FL" 75.4503700867904 -81.4013409 28.3778922
+"Leesburg Public Library<br/>204 N Fifth St.<br/>Leesburg, FL" 75.7998438952806 -81.877253 28.8118631
+"Buenaventura Lakes Library<br/>405 Buenaventura Blvd<br/>Kissimmee, FL" 76.7116902408925 -81.3513798 28.330932
+"Johann Fust Community<br/>1040 West 10th Street<br/>Boca Grande, FL" 77.3789058839462 -82.263545 26.7561894
+"Fruitland Park Library<br/>506 West Berckman St.<br/>Fruitland Park, FL" 77.6337924599648 -81.9123535 28.8584637
+"Lake County Library System<br/>2401 Woodlea Rd.<br/>Tavares, FL" 78.4575689298873 -81.7530523 28.7886124
+"Washington Park Library<br/>5151 Raleigh St.<br/>Orlando, FL" 78.5779306173994 -81.4482511 28.5283794
+"Veterans Memorial Library<br/>810 13th Street<br/>St. Cloud, FL" 78.5926385423269 -81.2786126 28.2468016
+"Lake Placid Memorial Library<br/>205 West Interlake Boulevard<br/>Lake Placid, FL" 78.7894253796821 -81.369214 27.296388
+"Hiawassee Library<br/>2768 North Hiawassee Road<br/>Orlando, FL" 79.3213275299195 -81.476616 28.57869
+"South Trail Library<br/>4600 South Orange Blossom Trail<br/>Orlando, FL" 79.792224469293 -81.399343 28.4971771
+"The Villages Public Library<br/>3010 Saddlebrook Lane<br/>The Villages, FL" 80.0133512676874 -82.0009587 28.9314005
+"Tavares Public Library<br/>314 North New Hampshire Ave.<br/>Tavares, FL" 80.2558504603435 -81.7275087 28.8046398
+"Lady Lake Public Library<br/>225 West Guava Street<br/>Lady Lake, FL" 81.0277556440521 -81.9251854 28.918559
+"Marion Oaks Public Library<br/>294 Marion Oaks Lane<br/>Ocala, FL" 81.582337134317 -82.176802 29.0041452
+"A.F. Knotts Public Library<br/>11 56th Street<br/>Yankeetown, FL" 82.4838460046264 -82.7094844 29.0333061
+"Orlando Public Library<br/>101 East Central Blvd.<br/>Orlando, FL" 82.6927481039624 -81.3766695 28.5425437
+"Talking Book Section<br/>101 E Central Blvd.<br/>Orlando, FL" 82.6927481039624 -81.3766695 28.5425437
+"West Oaks Library<br/>1621 E. Silverstar Road<br/>Orlando, FL" 82.7795770636853 -81.4042018 28.578254
+"Narcoossee Library<br/>2700 N Narcoossee Road<br/>St. Cloud, FL" 83.053914941817 -81.235803 28.327641
+"North Orange Library<br/>1211 East Semoran Blvd.<br/>Apopka, FL" 83.0913317106057 -81.4879559 28.6738153
+"Dunnellon Public Library<br/>20351 Robinson Road<br/>Dunnellon, FL" 83.2211910703108 -82.4576008 29.0597013
+"Edgewater Library<br/>5049 Edgewater Drive<br/>Orlando, FL" 83.7069832823026 -81.4085692 28.6053557
+"W.T.Bland Public Library<br/>1995 N Donnelly St.<br/>Mount Dora, FL" 83.7328264109467 -81.6456627 28.8138761
+"Southeast Library<br/>5575 South Semoran Blvd.<br/>Orlando, FL" 83.9944735021144 -81.3073637 28.4825875
+"Eustis Memorial Library<br/>120 N. Center St.<br/>Eustis, FL" 84.6347237372158 -81.6822492 28.8541138
+"Belleview Library<br/>13145 Se Highway 484<br/>Belleview, FL" 85.3181058364882 -82.062189 29.032153
+"Herndon Library<br/>4324 East Colonial Drive<br/>Orlando, FL" 85.3445671547864 -81.3314182 28.5523373
+"Eatonville Branch<br/>200 E. Kennedy Blvd.<br/>Eatonville, FL" 85.5283077532571 -81.3817977 28.6180206
+"West Branch Library<br/>245 Hunt Club Blvd., North<br/>Longwood, FL" 85.9199635983364 -81.4458549 28.6940012
+"Winter Park Public Library<br/>460 E. New England Avenue<br/>Winter Park, FL" 86.3229672517688 -81.3462982 28.5956179
+"Freedom Public Library<br/>5870 S.W. 95th Street<br/>Ocala, FL" 86.4683682957089 -82.2168918 29.0840353
+"Maitland Public Library<br/>501 South Maitland Avenue<br/>Maitland, FL" 86.5260809002182 -81.3659285 28.6235763
+"East Lake County Library<br/>31336 County Road 437 South<br/>Sorrento, FL" 86.6090841692914 -81.5600124 28.8059525
+"Altamonte Springs City Library<br/>281 North Maitland Avenue<br/>Altamonte Springs, FL" 86.7724685336143 -81.365712 28.6291634
+"Northwest Regional Library<br/>519 Chiquita Blvd. North<br/>Cape Coral, FL" 87.8014592796654 -82.0063017 26.6619754
+"Herman B. Oberman Public Library<br/>4040 Deepwater Court<br/>Dunnellon, FL" 88.7581092614039 -82.5159503 29.139802
+"Pine Island Public Library<br/>10700 Russell Road NW<br/>Bokeelia, FL" 88.774189733577 -82.1197376 26.6159911
+"North Fort Myers Public Library<br/>2001 Tamiami Trail NE<br/>North Fort Myers, FL" 88.9052359032227 -81.8865331 26.6880572
+"Central Branch Library<br/>215 North Oxford Road<br/>Casselberry, FL" 89.6182853337649 -81.334914 28.6614109
+"Seminole County Public Library System<br/>215 N. Oxford Road<br/>Casselberry, FL" 89.6182853337649 -81.334914 28.6614109
+"Umatilla Public Library<br/>412 Hatfield Drive<br/>Umatilla, FL" 89.651300516063 -81.666195 28.9326885
+"Talking Books Library<br/>13240 N Cleveland Ave<br/>North Fort Myers, FL" 90.625258881648 -81.8839605 26.6618221
+"Kenansville Library Center<br/>1180 Canoe Creek Rd. South<br/>Kenansville, FL" 91.1413555350366 -80.997596 27.875866
+"Fort Meyers Regional Library<br/>2450 First Street<br/>Fort Myers, FL" 92.0879784062797 -81.8670408 26.6454353
+"Riverdale Branch Library<br/>2421 Buckingham Road<br/>Fort Myers, FL" 92.4028457910498 -81.7215164 26.707763
+"Alafaya Library<br/>12000 East Colonial Drive<br/>Orlando, FL" 92.4253885403611 -81.2024188 28.5655823
+"Lee County Library System<br/>2345 Union Street<br/>Fort Myers, FL" 92.5472140484932 -81.8654899 26.6387764
+"Northwest Branch Library<br/>580 Greenway Blvd.<br/>Lake Mary, FL" 92.6152505363237 -81.3392957 28.7343443
+"Dunbar Jupiter Hammon Library<br/>3095 Blount Street<br/>Fort Myers, FL" 92.6400888178687 -81.8510863 26.6431872
+"Cape Coral Lee County Public Library<br/>921 SW 39th Terrace<br/>Cape Coral, FL" 93.3894673871208 -81.994977 26.579957
+"Captiva Memorial Library<br/>11550 Chapin Lane<br/>Captiva, FL" 94.2461556097082 -82.1917351 26.5201518
+"Marion County Public Library System<br/>2720 East Silver Springs Blvd.<br/>Ocala, FL" 95.0051234630741 -82.0996819 29.1873309
+"Ocala Public Library<br/>2720 East Silver Springs Boulevard<br/>Ocala, FL" 95.0051234630741 -82.0996819 29.1873309
+"East Branch Library<br/>310 Division Street<br/>Oviedo, FL" 96.5698076773491 -81.2037035 28.6753249
+"Forest Public Library<br/>777 South County Road 314 A<br/>Ocklawaha, FL" 96.6472679096089 -81.9911871 29.1841933
+"Paisley Library<br/>24954 Cr 42<br/>Paisley, FL" 96.8205910368073 -81.5422313 28.982741
+"East County Regional Library<br/>881 Gunnnery Road<br/>Lehigh Acres, FL" 97.6752191715457 -81.7164843 26.622604
+"Lakes Regional Library<br/>15290 Bass Road<br/>Fort Myers, FL" 98.8883534199918 -81.9124386 26.5221003
+"Labelle Free Public Library<br/>461 North Main Street<br/>Labelle, FL" 99.1600107289615 -81.4380709 26.76836
+"North Branch Library<br/>150 N. Palmetto Ave.<br/>Sanford, FL" 99.491830976361 -81.2663505 28.8123146

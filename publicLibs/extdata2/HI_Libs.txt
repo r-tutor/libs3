@@ -1,0 +1,53 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Aiea Public Library" "99-143 Moanalua Rd." "Aiea" "HI" "96701" -157.9313539 21.380483
+"Ewa Beach Public Library" "91-950 North Road" "Ewa Beach" "HI" "96706" -158.0091839 21.3133874
+"Hana Public Library" "4111 Hana Hwy" "Hana" "HI" "96713" -155.9979839 20.7783013
+"Hanapepe Public Library" "4490 Kona Road" "Hanapepe" "HI" "96716" -159.5879715 21.9088202
+"Hilo Public Library" "300 Waianuenue Ave" "Hilo" "HI" "96720" -155.0908298 19.7247373
+"Holualoa Public Library" "76-5936 Mamalahoa Highway" "Holualoa" "HI" "96725" -155.948969 19.618463
+"Honokaa Public Library" "45-3380 Mamane Street, Bldg 3" "Honokaa" "HI" "96727" -155.4629059 20.0770269
+"Aina Haina Public Library" "5246 Kalanianaole Hwy." "Honolulu" "HI" "96821" -157.7531786 21.2784871
+"Hawaii Kai Public Library" "249 Lunalilo Home Road" "Honolulu" "HI" "96825" -157.7035638 21.2772459
+"Hawaii State Library" "478 S. King St." "Honolulu" "HI" "96813" -157.857713 21.30577
+"Hawaii State Public Library System" "44 Merchant Street" "Honolulu" "HI" "96813" -157.8631535 21.309645
+"Kaimuki Public Library" "1041 Koko Head Ave." "Honolulu" "HI" "96816" -157.7988567 21.2800753
+"Kalihi-Palama Public Library" "1325 Kalihi Street" "Honolulu" "HI" "96819" -157.8723748 21.3333242
+"Library For The Blind Physically Handicapped" "402 Kapahulu Ave." "Honolulu" "HI" "96815" -157.8170096 21.27485
+"Liliha Public Library" "1515 Liliha St." "Honolulu" "HI" "96817" -157.8603276 21.3206538
+"Manoa Public Library" "2716 Woodlawn Drive" "Honolulu" "HI" "96822" -157.810717 21.3072216
+"Mccully Public Library" "2211 S. King St." "Honolulu" "HI" "96826" -157.8277491 21.2936096
+"Waikiki Public Library" "400 Kapahulu Ave." "Honolulu" "HI" "96815" -157.8165071 21.2736666
+"Kahuku Public Library" "56-490 Kamehameha Hwy." "Kahuku" "HI" "96731" -157.9731392 21.7072218
+"Kahului Public Library" "90 School St.," "Kahului" "HI" "96732" -156.4702498 20.8876286
+"Kailua Public Library" "239 Kuulei Road" "Kailua" "HI" "96734" -157.7403028 21.3960531
+"Kailua-Kona Public Library" "75-138 Hualalai Rd." "Kailua Kona" "HI" "96740" -155.9911542 19.6378783
+"Thelma Parker Public Library" "67-1209 Mamalahoa Hwy" "Kamuela" "HI" "96743" -155.6690976 20.0191653
+"Kaneohe Public Library" "45-829 Kamehameha Hwy." "Kaneohe" "HI" "96744" -157.7992461 21.4127811
+"Salt Lake Public Library" "3225 Salt Lake Blvd." "Kaneohe" "HI" "96818" -157.7973653 21.3996475
+"Kapaa Public Library" "1464 Kuhio Highway" "Kapaa" "HI" "96746" -159.3071134 22.0914736
+"North Kohala Public Library" "54-3645 Akoni Pule Highway" "Kapaau" "HI" "96755" -155.8148609 20.2377874
+"Kapolei Public Library" "1020 Manawai Street" "Kapolei" "HI" "96707" -158.0793798 21.3340992
+"Keaau Public Library" "16-571 Keaau-Pahoa Rd." "Keaau" "HI" "96749" -155.03833 19.6209545
+"Kealakekua Public Library" "p.o. box 768" "Kealakekua" "HI" "96750" -155.9225 19.5208333
+"Kihei Public Library" "35 Waimahaihai St." "Kihei" "HI" "96753" -156.4544869 20.7345308
+"Koloa Public Library" "3451 Poipu Road" "Koloa" "HI" "96756" -159.4668454 21.8985399
+"Lahaina Public Library" "680 Wharf St." "Lahaina" "HI" "96761" -156.6782594 20.872708
+"Lanai Public Library" "555 Fraser Avenue" "Lanai City" "HI" "96763" -156.9219775 20.8258254
+"Laupahoehoe Public Library" "35-2065 Old Mamalahoa Hwy" "Lauphoehoe" "HI" "96764" -155.225796 19.978008
+"Lihue Public Library" "4344 Hardy St." "Lihue" "HI" "96766" -159.3646977 21.9768852
+"Makawao Public Library" "1159 Makawao Ave." "Makawao" "HI" "96768" -156.3110436 20.8536557
+"Mililani Public Library" "95-450 Makaimoimo St." "Mililani" "HI" "96789" -158.0085597 21.4520118
+"Mountain View Public Library" "1235 Volcano Hwy" "Mountain View" "HI" "96771" NA NA
+"Naalehu Public Library" "95-5669 Mamalahoa Highway" "Naalehu" "HI" "96772" -155.58748 19.059665
+"Molokai Public Library" "p.o. box 395" "P.O. Box 395" "HI" "96748" -94.0271055 37.8746037
+"Pahala Public Library" "96-315 Pikake Street" "Pahala" "HI" "96777" -155.4769714 19.2062294
+"Pahoa Public Library" "15-3070 Pahoa-Kalapana Rd." "Pahoa" "HI" "96778" -154.9410691 19.4895976
+"Pearl City Public Library" "1138 Waimano Home Rd." "Pearl City" "HI" "96782" -157.9693543 21.3969927
+"Princeville Public Library" "4343 Emmalani Drive," "Princeville" "HI" "96722" -159.4719441 22.2140278
+"Wahiawa Public Library" "820 California Ave." "Wahiawa" "HI" "96786" -158.026477 21.4975733
+"Waialua Public Library" "67-068 Kealohanui Street" "Waialua" "HI" "96791" -158.1228405 21.5740144
+"Waianae Public Library" "85-625 Farrington Hwy." "Waianae" "HI" "96792" -158.1921611 21.4502619
+"Wailuku Public Library" "251 High St." "Wailuku" "HI" "96793" -156.5049483 20.8851226
+"Waimanalo Public Library" "41-1320 Kalanianaole Hwy." "Waimanalo" "HI" "96795" -157.6702222 21.3185441
+"Waimea Public Library" "p.o. box 397" "Waimea" "HI" "96796" -155.6716667 20.0230556
+"Waipahu Public Library" "94-275 Mokuola St." "Waipahu" "HI" "96797" -158.002882 21.3858715

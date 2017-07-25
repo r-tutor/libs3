@@ -1,0 +1,85 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Alamo Branch Library" "100 South First West" "Alamo" "NV" "" -115.1644614 37.3649613
+"Amargosa Valley Library District" "829 East Farm Road" "Amargosa Valley" "NV" "89020" -116.4607731 36.5688571
+"Austin Branch Library" "88 Main Street" "Austin" "NV" "" -97.6001311 35.2763066
+"Battle Mountain Branch Library" "625 Broad Street" "Battle Mountain" "NV" "" -116.9387098 40.6392696
+"Beatty Library District" "400 North 4th Street" "Beatty" "NV" "89003" -116.7644151 36.9089868
+"Crescent Valley Branch Library" "5045 Tenabo Ave." "Beowawe" "NV" "" -116.4773071 40.5926922
+"Blue Diamond Library" "14 Cottonwood Drive" "Blue Diamond" "NV" "" -115.4072733 36.0467482
+"Boulder City Library District" "701 Adams Boulevard" "Boulder City" "NV" "89005" -114.8295197 35.9685127
+"Bunkerville Library" "150 West Virgin St" "Bunkerville" "NV" "" -114.1248483 36.7731849
+"Caliente Branch Library" "100 Depot Ave" "Caliente" "NV" "" -114.5142914 37.6126002
+"Carlin Branch Library" "811 Main St" "Carlin" "NV" "" -116.105973 40.713222
+"Carson City Library" "900 North Roop Street" "Carson City" "NV" "89701" -119.761774 39.1692253
+"Dayton Valley Branch Library" "321 Old Dayton Valley Road" "Dayton" "NV" "" -119.5530833 39.2519093
+"Elko-Lander-Eureka Counties Library System" "720 Court Street" "Elko" "NV" "89801" -115.761498 40.834926
+"White Pine County Library" "950 Campton Street" "Ely" "NV" "89301" -114.8879332 39.2478439
+"Eureka Branch Library" "10190 Monroe Street" "Eureka" "NV" "" -115.9607071 39.5087968
+"Churchill County Library" "553 S Maine Street" "Fallon" "NV" "89406" -118.776794 39.469515
+"Fernley Branch Library" "575 E. Main" "Fernley" "NV" "" -119.2390407 39.6063775
+"Gerlach Community Library" "555 E. Sunset" "Gerlach" "NV" "" -119.354243 40.653748
+"Goodsprings Library" "365 West San Pedro Ave" "Goodsprings" "NV" "" -115.4351853 35.8316062
+"Mineral County Library" "110 1st Street" "Hawthorne" "NV" "89415" -118.6216564 38.5181741
+"Gibson Library" "280 Water Street" "Henderson" "NV" "" -114.9806573 36.0297441
+"Green Valley Library" "2797 Green Valley Parkway" "Henderson" "NV" "" -115.0832664 36.0705173
+"Henderson District Public Libraries" "280 S. Green Valley Pkwy." "Henderson" "NV" "89012" -115.0800296 36.0173474
+"Malcolm Branch Library" "80 North Pecos Avenue" "Henderson" "NV" "" -115.0995279 36.0332333
+"Pittman Branch Library" "1640 Price Street" "Henderson" "NV" "" -115.0029239 36.0629126
+"Incline Village Library" "846 Tahoe Blvd" "Incline Village" "NV" "" -119.9537878 39.2497697
+"Indian Springs Library" "715 Gretta Lane" "Indian Springs" "NV" "" -115.6767011 36.5683304
+"Jackpot Branch Library" "2301 Progressive Road" "Jackpot" "NV" "" -114.663328 41.981744
+"Centennial Hills Library" "6711 N. Buffalo Dr." "Las Vegas" "NV" "89131" -115.2620179 36.2832026
+"Clark County Library" "1401 E. Flamingo Road" "Las Vegas" "NV" "" -115.1349503 36.1138253
+"Enterprise Library" "25 E. Shelbourne Ave" "Las Vegas" "NV" "" -115.171088 36.038356
+"Las Vegas-Clark County Library District" "833 Las Vegas Blvd. North" "Las Vegas" "NV" "89101" -115.1352764 36.1785385
+"Meadows Library" "300 West Boston Ave" "Las Vegas" "NV" "" -115.160533 36.147664
+"Mount Charleston Library" "1252 Aspen Ave" "Las Vegas" "NV" "" -115.1380585 36.0217998
+"Rainbow Library" "3150 N. Buffalo Dr." "Las Vegas" "NV" "" -115.2588961 36.2176173
+"Sahara West Library" "9600 W. Sahara Ave" "Las Vegas" "NV" "" -115.3051556 36.1450781
+"Spring Valley Library" "4280 South Jones Blvd" "Las Vegas" "NV" "" -115.2243065 36.1112446
+"Summerlin Library" "1771 Inner Circle Drive" "Las Vegas" "NV" "" -115.3019729 36.1913166
+"Sunrise Library" "5400 Harris Avenue" "Las Vegas" "NV" "" -115.0549969 36.1782387
+"West Charleston Library" "6301 W. Charleston Blvd" "Las Vegas" "NV" "" -115.231065 36.1582245
+"West Las Vegas Library" "951 W. Lake Mead Blvd" "Las Vegas" "NV" "" -115.1543178 36.1952731
+"Whitney Library" "5175 E. Tropicana Ave" "Las Vegas" "NV" "" -115.0602909 36.0998933
+"Windmill Library" "7060 W. Windmill Lane" "Las Vegas" "NV" "89113" -115.2463501 36.0424909
+"Laughlin Library" "2840 South Needles Hwy" "Laughlin" "NV" "" -114.62484 35.1455057
+"Pershing County Library" "1125 Central Avenue" "Lovelock" "NV" "89419" -118.4761152 40.1807605
+"Mcdermitt Branch Library" "135 Oregon Rd" "Mcdermitt" "NV" "" -117.7182205 41.9998406
+"Mesquite Library" "121 West 1st North St" "Mesquite" "NV" "" -114.070674 36.8056516
+"Mina-Lunig Community Library" "234 B St" "Mina" "NV" "" -118.1116746 38.3893714
+"Douglas County Public Library" "1625 Library Lane" "Minden" "NV" "89423" -119.776965 38.9553779
+"Moapa Town Library" "1340 East Highway 168" "Moapa" "NV" "" -114.590346 36.671681
+"North Las Vegas Library District" "2300 Civic Center Drive" "North Las Vegas" "NV" "89030" -115.1205115 36.1994522
+"Northwest Branch" "4528 West Craig, Suite 110" "North Las Vegas" "NV" "" -115.2036324 36.2393823
+"Moapa Valley Library" "350 N. Moapa Valley Blvd" "Overton" "NV" "" -114.4461319 36.5461088
+"Pahrump Community Library" "701 East Street" "Pahrump" "NV" "89048" -115.9910809 36.2097677
+"Lincoln County Library" "63 Main Street" "Pioche" "NV" "89043" -114.4531637 37.9283685
+"Downtown Library" "301 South Center St" "Reno" "NV" "" -119.8104031 39.5225136
+"Duncan-Traner Library" "1650 Carville Drive" "Reno" "NV" "" -119.7936692 39.5417291
+"North Valleys Library" "1075 North Hills Blvd. 340" "Reno" "NV" "" -119.84036 39.6052988
+"Northwest Library" "2325 Robb Drive" "Reno" "NV" "" -119.8853199 39.5382001
+"Reading Information Referral Center" "4001 South Virginia" "Reno" "NV" "" -119.7958123 39.4862495
+"Senior Center Library" "1155 East 9th Street" "Reno" "NV" "" -119.7991769 39.5390296
+"Sierra View Library" "4001 S. Virginia (Old Town Mall)" "Reno" "NV" "" -119.8138027 39.5296329
+"South Valleys Library" "25650a Wedge Parkway" "Reno" "NV" "" -119.7698416 39.3896252
+"Washoe County Library System" "301 S. Center St." "Reno" "NV" "89505" -119.8104031 39.5225136
+"Round Mountain Public Library" "73 Hadley Circle" "Round Mountain" "NV" "" -117.1640833 38.6941506
+"Sandy Valley Library" "650 West Quartz Ave" "Sandy Valley" "NV" "" -115.6457796 35.8096859
+"Searchlight Library" "200 Michael Wendell Way" "Searchlight" "NV" "" -114.9014269 35.4781435
+"Silver Stage Branch Library" "3905 Hwy 50 West" "Silver Springs" "NV" "" -119.285255 39.392925
+"Esmeralda County Libraries" "10 Montezuma Way" "Silverpeak" "NV" "89047" -117.6357829 37.7543844
+"Silverpeak Library" "10 Montezuma St" "Silverpeak" "NV" "" -117.6357829 37.7543844
+"Smith Valley Library" "32 Day Lane" "Smith Valley" "NV" "" -119.328485 38.803915
+"Mendive Community Library" "1900 Whitewood Drive" "Sparks" "NV" "" -119.7070358 39.5518205
+"Sparks Library" "1125 12th Street" "Sparks" "NV" "" -119.7589277 39.5440329
+"Lake Tahoe Branch Library" "233 Warrior Way" "Stateline" "NV" "" -119.943505 39.01066
+"Central Nevada Museum Branch" "1900 Logan Field Rd" "Tonopah" "NV" "" -117.2213703 38.0601415
+"Tonopah Library District" "167 S. Central Street" "Tonopah" "NV" "89049" -117.2311677 38.0668504
+"Tuscarora Branch Library" "55 Weed Street" "Tuscarora" "NV" "" -116.2257388 41.3142799
+"Verdi Community Library" "250 Bridge Street" "Verdi" "NV" "" -119.989728 39.521303
+"Storey County Public Library" "95 South R Street" "Virginia City" "NV" "89440" -119.6415719 39.3077632
+"Wells Branch Library" "208 Baker St" "Wells" "NV" "" -114.973743 41.108415
+"West Wendover Branch Library" "590 Camper Dr" "West Wendover" "NV" "" -114.0653294 40.7347735
+"Humboldt County Library" "85 East 5th Street" "Winnemucca" "NV" "89445" -117.7320816 40.9727486
+"Central Library" "20 Nevin Way" "Yerington" "NV" "" -119.1623204 38.9951538

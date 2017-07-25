@@ -1,0 +1,562 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Ackley Public Library" "401 State St" "Ackley" "IA" "50601" -93.05096 42.552945
+"Adair Public Library" "310 Audubon" "Adair" "IA" "50002" -94.595691 41.561619
+"Adel Public Library" "303 S 10th St" "Adel" "IA" "50003" -94.019372 41.6149632
+"Agency Public Library" "104 E Main" "Agency" "IA" "52530" -92.3065582 40.9949052
+"Akron Public Library" "350 Reed St" "Akron" "IA" "51001" -96.5575852 42.8286994
+"Albert City Public Library" "215 Main St" "Albert City" "IA" "50510" -94.9490987 42.7816371
+"Carnegie-Evans Public Library" "203 Benton Ave East" "Albia" "IA" "52531" -92.8055746 41.0273829
+"Albion Municipal Library" "400 N Main St" "Albion" "IA" "50005" -92.9900719 42.1143509
+"Dr. Grace O. Doane Alden Public Library" "1012 Water St" "Alden" "IA" "50006" -93.3745841 42.5193777
+"Alexander Public Library" "409 Harriman St" "Alexander" "IA" "50420" -93.476363 42.806378
+"Algona Public Library" "210 N Phillips" "Algona" "IA" "50511" -94.2264971 43.0701112
+"Allerton Public Library" "103 S Central" "Allerton" "IA" "50008" -93.3650995 40.7065148
+"Allison Public Library" "412 3rd St" "Allison" "IA" "50602" -92.7942022 42.7530162
+"Alta Community Library" "1009 Main St" "Alta" "IA" "51002" -95.3040361 42.6645924
+"Alta Vista Public Library" "203 S White Ave" "Alta Vista" "IA" "50603" -92.4169007 43.1964159
+"Alton Public Library" "605 10th St" "Alton" "IA" "51003" -96.0142898 42.9883915
+"Altoona Public Library" "700 Eighth St Sw" "Altoona" "IA" "50009" -93.4726468 41.6434301
+"Ames Public Library" "515 Douglas Ave" "Ames" "IA" "50010" -93.61254 42.026462
+"Anamosa Public Library" "600 E First St" "Anamosa" "IA" "52205" -91.279054 42.10713
+"Anita Public Library" "812 3rd St" "Anita" "IA" "50020" -94.7677081 41.4449099
+"Central Iowa Library Service Area" "1210 Nw Prairie Ridge Drive" "Ankeny" "IA" "50023" -93.6135001 41.7387472
+"Anthon Public Library" "303 E Main" "Anthon" "IA" "51004" -95.8651376 42.3883079
+"Hamann Memorial Library" "311 E Main" "Anthon" "IA" "51004" -95.8650295 42.3883079
+"Aplington Legion Memorial Library" "929 Parriott St" "Aplington" "IA" "50604" -92.8835374 42.5839514
+"Archer Public Library" "203 Sanford St" "Archer" "IA" "51231" -95.7422245 43.1147615
+"Arlington Public Library" "711 Main St" "Arlington" "IA" "50606" -91.6715977 42.7492496
+"Armstrong Public Library" "308 6th St" "Armstrong" "IA" "50514" -94.4802428 43.3962364
+"Arnolds Park Public Library" "156 N Hwy 71" "Arnolds Park" "IA" "51331" -95.1259884 43.3699261
+"Arthur Public Library" "224 S Main St" "Arthur" "IA" "51431" -95.3474496 42.3354958
+"Ashton Public Library" "3029 3rd St" "Ashton" "IA" "51232" -95.7923957 43.3115277
+"Atkins Public Library" "84 Main Ave" "Atkins" "IA" "52206" -91.8620012 41.9967052
+"Atlantic Public Library" "507 Poplar St" "Atlantic" "IA" "50022" -95.0144409 41.4059379
+"Auburn Public Library" "209 Pine St" "Auburn" "IA" "51433" -94.8777124 42.2505559
+"Audubon Public Library" "401 N Park Place" "Audubon" "IA" "50025" -94.9317809 41.7216583
+"Aurelia Public Library" "232 Main St" "Aurelia" "IA" "51005" -95.436209 42.7132859
+"Aurora Public Library" "401 Woodruff St" "Aurora" "IA" "50607" -91.7293426 42.6188301
+"Avoca Public Library" "213 N Elm St" "Avoca" "IA" "51521" -95.339048 41.478429
+"Badger Public Library" "211 1st Ave Se" "Badger" "IA" "51516" -94.1450474 42.6148317
+"Bagley Public Library" "117 Main" "Bagley" "IA" "50026" -94.4295452 41.8490063
+"Bancroft Public Library" "208 E Ramsey St" "Bancroft" "IA" "50517" -94.2164653 43.2929633
+"Batavia Public Library" "902 3rd St" "Batavia" "IA" "52533" -92.1673954 40.9916386
+"Battle Creek Public Library" "115 Main St" "Battle Creek" "IA" "51006" -95.5990022 42.3159318
+"Baxter Public Library" "202 E State St" "Baxter" "IA" "50028" -93.1488202 41.8268542
+"Bayard Public Library" "315 Main St" "Bayard" "IA" "50029" -94.558047 41.8509016
+"Beaman Community Memorial Library" "223 Main St" "Beaman" "IA" "50609" -92.8234554 42.2202326
+"Bedford Public Library" "507 Jefferson St" "Bedford" "IA" "50833" -94.72026 40.6679469
+"Belle Plaine Community Library" "904 12th St" "Belle Plaine" "IA" "52208" -92.2746766 41.8963197
+"Bellevue Public Library" "106 N 3rd St Suite 1" "Bellevue" "IA" "52031" -90.4254736 42.258212
+"Belmond Public Library" "440 E Main St" "Belmond" "IA" "50421" -93.6123789 42.8458932
+"Bennett Public Library" "203 Main" "Bennett" "IA" "52721" -90.9739139 41.7392378
+"Bettendorf Public Library Information Center" "2950 Learning Campus Drive" "Bettendorf" "IA" "52722" -90.5009777 41.5527364
+"Birmingham Public Library" "301 E Main" "Birmingham" "IA" "52535" -91.9459973 40.8779959
+"Blairstown Public Library" "305 Locust St Nw Suite 2" "Blairstown" "IA" "52209" -92.0848989 41.908881
+"Blakesburg Public Library" "box 87" "Blakesburg" "IA" "52536" -92.6341184 40.9614278
+"Bloomfield Public Library" "107 N Columbia" "Bloomfield" "IA" "52537" -92.4163742 40.7517724
+"Blue Grass Branch Library" "114 N. Mississippi St." "Blue Grass" "IA" "" -90.766085 41.509825
+"Bode Public Library" "114 Humboldt Ave" "Bode" "IA" "50519" -94.2875111 42.8680956
+"Bonaparte Public Library" "602 Second St" "Bonaparte" "IA" "52620" -91.8016629 40.6986392
+"Bondurant Community Library" "17 Main St Se" "Bondurant" "IA" "50035" -93.461619 41.700645
+"Ericson Public Library" "720 Greene St" "Boone" "IA" "50036" -93.8833485 42.0631309
+"Boyden Public Library" "609 Webb St" "Boyden" "IA" "51234" -96.007173 43.1908934
+"Britt Public Library" "132 Main Ave S" "Britt" "IA" "50423" -93.8019 43.095699
+"Brooklyn Public Library" "306 Jackson St" "Brooklyn" "IA" "52211" -92.445469 41.7309753
+"Buffalo Branch" "326 4th St." "Buffalo" "IA" "" -90.72104 41.458681
+"Buffalo Center Public Library" "221 N Main St" "Buffalo Center" "IA" "50424" -93.9465192 43.3880403
+"Burlington Public Library" "210 Court St" "Burlington" "IA" "52601" -91.1014083 40.8131937
+"Burt Public Library" "119 Walnut St" "Burt" "IA" "50522" -94.2170297 43.1975348
+"Bussey Community Library" "401 Merrill St" "Bussey" "IA" "50044" -92.8866861 41.2054414
+"Calamus Public Library" "198 2nd St" "Calamus" "IA" "52729" -90.7588196 41.8256094
+"Callender Heritage Public Library" "505 Thomas St" "Callender" "IA" "50523" -94.2930478 42.3616578
+"Calmar Public Library" "101 S Washington St" "Calmar" "IA" "52132" -91.8661075 43.1826145
+"Camanche Public Library" "102 12th Ave" "Camanche" "IA" "52730" -90.2572292 41.7790195
+"Cambridge Memorial Library" "224 Water St" "Cambridge" "IA" "50046" -93.5290532 41.8988946
+"Cantril Public Library" "104 W 3rd St" "Cantril" "IA" "52542" -92.0731565 40.6432655
+"Carlisle Public Library" "135 School St" "Carlisle" "IA" "50047" -93.4874831 41.4987853
+"Carroll Public Library" "118 E 5th St" "Carroll" "IA" "51401" -94.8662533 42.0641828
+"Carter Lake Public Library" "1120 Willow Drive" "Carter Lake" "IA" "" -95.915006 41.29065
+"Cascade Public Library" "301 1st Av W" "Cascade" "IA" "52033" -91.0148705 42.298592
+"Casey Public Library" "604 Antique Country Drive" "Casey" "IA" "50048" -94.5192518 41.5056695
+"Duncan Memorial Library" "610 Antique Country Drive" "Casey" "IA" "" -94.5192546 41.5057408
+"Cedar Falls Public Library" "524 Main St" "Cedar Falls" "IA" "50613" -92.4447928 42.5336326
+"Cedar Rapids Public Library" "7600 Edgewood Rd Sw" "Cedar Rapids" "IA" "52404" -91.7152645 41.9056229
+"East Central Library Services" "222 3rd St., Suite 402" "Cedar Rapids" "IA" "52401" -91.677313 41.976785
+"Center Point Public Library" "720 Main St" "Center Point" "IA" "52213" -91.785026 42.190654
+"Drake Public Library" "115 Drake Ave" "Centerville" "IA" "52544" -92.8726552 40.7323142
+"J.C. Clegg Public Library" "137 4th St N" "Central City" "IA" "52214" -91.5245539 42.2055275
+"John C. Clegg Public Library" "137 4th St. North" "Central City" "IA" "" -91.5245539 42.2055275
+"Chariton Free Public Library" "803 Braden Ave" "Chariton" "IA" "50049" -93.305643 41.015806
+"Charles City Public Library" "106 Milwaukee Mall" "Charles City" "IA" "50616" -92.6740276 43.0694049
+"Charter Oak Public Library" "461 Railroad St" "Charter Oak" "IA" "51439" -95.5898375 42.0695625
+"Chelsea Public Library" "660 Station St" "Chelsea" "IA" "52215" -92.3946198 41.9186289
+"Cherokee Public Library" "215 S 2nd St" "Cherokee" "IA" "51012" -95.5513309 42.7486895
+"Churdan Public Library" "414 Sand St" "Churdan" "IA" "50050" -94.4788597 42.1553666
+"Clare Public Library" "119 E Front St" "Clare" "IA" "50524" -94.3436849 42.587238
+"Edna Zybell Memorial Library" "309 6th Ave" "Clarence" "IA" "52216" -91.0563478 41.8880683
+"Lied Public Library-Clarinda" "100 E Garfield St" "Clarinda" "IA" "51632" -95.0378514 40.7351238
+"Clarion Public Library" "302 N Main" "Clarion" "IA" "50525" -93.7328282 42.733525
+"Clarksville Public Library" "103 W Greene St" "Clarksville" "IA" "50619" -92.6691378 42.7837447
+"Clear Lake Public Library" "200 N 4th St" "Clear Lake" "IA" "50428" -93.3826593 43.1383565
+"Clearfield Public Library" "401 Broadway Suite 200" "Clearfield" "IA" "50840" -94.4757302 40.8036831
+"M-C Community Library" "200 W Grace St" "Cleghorn" "IA" "51014" -95.7112916 42.8129892
+"Clermont Public Library" "503 Larrabee St" "Clermont" "IA" "52135" -91.6536907 43.0008679
+"Clinton Public Library" "306 8th Ave S" "Clinton" "IA" "52732" -90.1910602 41.8381812
+"Lyons Branch" "105 Main Ave." "Clinton" "IA" "" -90.1788279 41.8724329
+"Clive Public Library" "1900 Nw 114th St" "Clive" "IA" "50325" -93.7757713 41.6095616
+"Clutier Public Library" "404 Main" "Clutier" "IA" "52217" -92.4039297 42.0794119
+"Coggon Public Library" "216 Main St" "Coggon" "IA" "52218" -91.5300717 42.2810192
+"Colesburg Public Library" "220 Main St" "Colesburg" "IA" "52035" -91.2023372 42.6364352
+"Colfax Public Library" "25 W Division St" "Colfax" "IA" "50054" -93.2462597 41.6769265
+"Collins Public Library" "212 Main St" "Collins" "IA" "50055" -93.3049767 41.9013654
+"Colo Public Library" "309 Main St" "Colo" "IA" "50056" -93.3136108 42.0185211
+"Columbus Junction Public Library" "232 2nd St" "Columbus Junction" "IA" "52738" -91.3619398 41.2792875
+"Conrad Public Library" "114 N Main St" "Conrad" "IA" "50621" -92.8745598 42.225734
+"Coon Rapids Public Library" "123 3rd Ave" "Coon Rapids" "IA" "50058" -94.6747761 41.8711189
+"Coralville Public Library" "1401 5th St" "Coralville" "IA" "52241" -91.5820513 41.6771696
+"Corning Public Library" "603 9th St" "Corning" "IA" "50841" -94.7352097 40.9909176
+"Correctionville Public Library" "532 Driftwood St" "Correctionville" "IA" "51016" -95.7857604 42.4757456
+"Corwith Public Library" "110 Nw Elm St" "Corwith" "IA" "50430" -93.9566314 42.9921134
+"Karl Miles Lecompte Memorial Library" "110 S Franklin St" "Corydon" "IA" "50060" -93.3188416 40.7577117
+"Coulter Public Library" "111 Main St" "Coulter" "IA" "50431" -93.3701671 42.7362884
+"Council Bluffs Public Library" "400 Willow Ave" "Council Bluffs" "IA" "51503" -95.849656 41.2589616
+"Southwest Iowa Library Service Area" "427 East Kanesville, Suite 404" "Council Bluffs" "IA" "51503" -95.8405557 41.2664991
+"Cresco Public Library" "320 N Elm St" "Cresco" "IA" "52136" -92.115938 43.375887
+"Matilda J. Gibson Memorial Library" "200 W Howard St" "Creston" "IA" "50801" -94.3630774 41.0608472
+"Juanita Earp Media Center" "120 E 5th St" "Crystal Lake" "IA" "50432" -93.792874 43.2206095
+"Cumberland Public Library" "119 Main" "Cumberland" "IA" "50843" -94.8704886 41.272393
+"Cushing Community Library" "202 Main St" "Cushing" "IA" "51018" -95.6752209 42.4656032
+"Roy R. Estle Memorial Library" "1308 Walnut St" "Dallas Center" "IA" "50063" -93.9601234 41.684346
+"Cord Memorial Library, Danbury Branch" "215 Main Street" "Danbury" "IA" "" -95.721833 42.2345605
+"Davenport Public Library" "321 Main St" "Davenport" "IA" "52801" -90.5751075 41.5232159
+"Fairmount Street Branch" "3000 N. Fairmount Street" "Davenport" "IA" "" -90.6315381 41.5516712
+"Southeastern Library Services" "4209 1-2 W. Locust St." "Davenport" "IA" "52804" -90.6364779 41.5372801
+"Dayton Public Library" "36 W Skillet St" "Dayton" "IA" "50530" -94.0692783 42.2615256
+"De Soto Public Library" "405 Walnut St" "De Soto" "IA" "50069" -94.007396 41.529914
+"Decorah Public Library" "202 Winnebago St" "Decorah" "IA" "52101" -91.7871533 43.3031853
+"Delhi Public Library" "316a Franklin St" "Delhi" "IA" "52223" -91.3311355 42.4296624
+"Norelius Community Library" "1403 1st Ave South" "Denison" "IA" "51442" -95.3537743 42.0156137
+"Denver Public Library" "100 Washington St" "Denver" "IA" "50622" -92.3372586 42.6737592
+"Des Moines Public Library - Central" "1000 Grand Ave" "Des Moines" "IA" "50309" -93.6311935 41.5860906
+"East Side Library" "2559 Hubbell Avenue" "Des Moines" "IA" "" -93.5670217 41.6114465
+"Forest Avenue Library" "1326 Forest Avenue" "Des Moines" "IA" "" -93.6356589 41.6036788
+"Franklin Avenue Library" "5000 Franklin Avenue" "Des Moines" "IA" "" -93.6884537 41.6109193
+"North Side Library" "3516 - 5th Avenue" "Des Moines" "IA" "" -93.6238641 41.6273892
+"South Side Library" "1111 Porter Avenue" "Des Moines" "IA" "" -93.6296705 41.5351168
+"Frances Banta Waggoner Community Library" "505 10th St" "Dewitt" "IA" "52742" -90.5378544 41.8249697
+"Dexter Public Library" "724 Marshall" "Dexter" "IA" "50070" -94.228425 41.516849
+"Dickens Public Library" "210 Main St" "Dickens" "IA" "51333" -95.0235019 43.132183
+"Dike Public Library" "133 E Elder" "Dike" "IA" "50624" -92.6277181 42.4651461
+"Donnellson Public Library" "500 Park" "Donnellson" "IA" "52625" -91.5658227 40.6426573
+"Doon Public Library" "207 Barton Ave" "Doon" "IA" "51235" -96.231384 43.277057
+"Dow City Public Library" "104 S Franklin St" "Dow City" "IA" "51528" -95.49617 41.929927
+"Dows Community Library" "114 W Ellsworth St" "Dows" "IA" "50071" -93.501351 42.6565664
+"Carnegie-Stout Public Library" "360 W 11th St" "Dubuque" "IA" "52001" -90.6698632 42.5026363
+"Dumont Community Library" "602 2nd St" "Dumont" "IA" "50625" -92.9719025 42.7500583
+"Duncombe Public Library" "621 Prince St" "Duncombe" "IA" "50532" -93.9941244 42.4693332
+"Dunkerton Public Library" "209 W Main" "Dunkerton" "IA" "50626" -92.162668 42.572305
+"Dunlap Public Library" "102 S 10th St" "Dunlap" "IA" "51529" -95.5962743 41.8539702
+"Durant Branch" "402 6th St." "Durant" "IA" "" -90.9137314 41.6024732
+"James Kennedy Public Library" "320 1st Ave E" "Dyersville" "IA" "52040" -91.1209896 42.4848661
+"Dysart Public Library" "424 Main" "Dysart" "IA" "" -92.3063295 42.1702796
+"Norma Anders Public Library" "320 Main" "Dysart" "IA" "52224" -92.3062837 42.1715807
+"Eagle Grove Memorial Library" "101 S Cadwell" "Eagle Grove" "IA" "50533" -93.9073858 42.66407
+"Earlham Public Library" "120 S Chestnut" "Earlham" "IA" "50072" -94.122831 41.491217
+"Ruth Suckow Memorial Library" "138 Northern Ave" "Earlville" "IA" "52041" -91.2723942 42.4822443
+"Early Public Library" "107 Main St" "Early" "IA" "50535" -95.1521982 42.4605696
+"Eddyville Public Library" "202 S 2nd St" "Eddyville" "IA" "52553" -92.6377624 41.1573723
+"Edgewood Public Library" "203 W Union St" "Edgewood" "IA" "52042" -91.4024784 42.6444598
+"Elberon Public Library" "106 Main St" "Elberon" "IA" "52225" -92.3167464 42.0038448
+"Eldon Public Library" "608 W Elm" "Eldon" "IA" "52554" -92.2244459 40.9193431
+"Eldora Public Library" "1202 10th St" "Eldora" "IA" "50627" -93.0959108 42.3615435
+"Eldridge Branch" "200 North Sixth Avenue" "Eldridge" "IA" "" -90.5762092 41.6564612
+"Scott County Library System" "200 N 6th Ave" "Eldridge" "IA" "52748" -90.5762092 41.6564612
+"Elgin Public Library" "214 Main St" "Elgin" "IA" "52141" -91.6283342 42.9566452
+"Elk Horn Public Library" "2027 Washington" "Elk Horn" "IA" "51531" -95.0592004 41.5916615
+"Elkader Public Library" "130 N Main St" "Elkader" "IA" "52043" -91.4047557 42.8548694
+"Elliott Public Library" "401 Main St" "Elliott" "IA" "51532" -95.1627358 41.1492738
+"Ellsworth Public Library" "1549 Dewitt St" "Ellsworth" "IA" "50075" -93.5788129 42.3121594
+"Elma Public Library" "710 Busti Ave" "Elma" "IA" "50628" -92.4358814 43.247715
+"Ely Public Library" "1595 Dows St" "Ely" "IA" "52227" -91.585939 41.873421
+"Emerson Public Library" "701 Morton Ave" "Emerson" "IA" "51533" -95.40249 41.0169608
+"Emmetsburg Public Library" "707 N Superior" "Emmetsburg" "IA" "50536" -94.6888529 43.1263847
+"Epworth Branch Library" "110 Beirman Rd." "Epworth" "IA" "" -90.919335 42.445929
+"Lied Public Library-Essex" "508 Iowa Ave" "Essex" "IA" "51638" -95.3071496 40.8334333
+"Estherville Public Library" "613 Central Ave" "Estherville" "IA" "51334" -94.8364875 43.4019717
+"Evansdale Public Library" "123 N Evans Rd" "Evansdale" "IA" "50707" -92.2885742 42.4782799
+"Everly Public Library" "308 N Main" "Everly" "IA" "51338" -95.3268 43.160755
+"Exira Public Library" "114 W Washington" "Exira" "IA" "50076" -94.8765281 41.591167
+"Fairfax Public Library" "313 Vanderbilt St" "Fairfax" "IA" "52228" -91.781008 41.919683
+"Fairfield Public Library" "104 W Adams Ave" "Fairfiled" "IA" "52556" -91.9643337 41.0044498
+"Dubuque County Library" "310 4th St Sw" "Farley" "IA" "52046" -91.0102364 42.4405148
+"Farmersburg Public Library" "208 S Main" "Farmersburg" "IA" "52047" -91.3680519 42.9590869
+"Farmington Public Library" "205 Elm" "Farmington" "IA" "52626" -91.7428905 40.640332
+"Farnhamville Public Library" "240 Hardin" "Farnhamville" "IA" "50538" -94.4031147 42.2759694
+"Fayette Community Library" "104 W State St" "Fayette" "IA" "52142" -91.8022355 42.8432969
+"Fenton Public Library" "605 Maple St" "Fenton" "IA" "50539" -94.4272485 43.2177736
+"Fertile Public Library" "204 W Main St" "Fertile" "IA" "50434" -93.4203401 43.2640561
+"Fonda Public Library" "104 W 2nd St" "Fonda" "IA" "50540" -94.8467728 42.5811655
+"Fontanelle Public Library" "303 Washington" "Fontanelle" "IA" "50846" -94.56364 41.2895626
+"Forest City Public Library" "115 E L. St" "Forest City" "IA" "50436" -93.6379775 43.2654853
+"Fort Atkinson Public Library" "302 3rd Nw" "Fort Atkinson" "IA" "52144" -91.9377525 43.1446451
+"Fort Dodge Public Library" "424 Central Ave" "Fort Dodge" "IA" "50501" -94.1921604 42.5044428
+"Fort Madison Public Library" "1920 Ave E" "Fort Madison" "IA" "52627" -91.3326267 40.6329212
+"Idol Rashid Memorial Branch" "3421 Avenue L" "Fort Madison" "IA" "" -91.3562231 40.626622
+"Upham Memorial Library" "138 W Main St" "Fredericksburg" "IA" "50630" -92.1998546 42.9651092
+"Galva Public Library" "203 S Main St" "Galva" "IA" "51020" -95.4172126 42.5069819
+"Garden Grove Public Library" "103 W Main St" "Garden Grove" "IA" "50103" -93.6260248 40.8269642
+"Garnavillo Public Library" "122 Main St" "Garnavillo" "IA" "52049" -91.2353195 42.8674486
+"Garner Public Library" "416 State St" "Garner" "IA" "50438" -93.6024563 43.1012661
+"Garrison Public Library" "100 Birch Ave" "Garrison" "IA" "52229" -92.1449925 42.1441797
+"Garwin Public Library" "208 Main St" "Garwin" "IA" "50632" -92.6755745 42.0923468
+"George Public Library" "119 S Main St" "George" "IA" "51237" -96.0023588 43.3430298
+"Gilman Public Library" "106 N Main" "Gilman" "IA" "50106" -92.7870776 41.8794959
+"Gilmore City Public Library" "308 S Gilmore" "Gilmore City" "IA" "50541" -94.4431757 42.7323276
+"Gladbrook Public Library" "301 2nd St" "Gladbrook" "IA" "50635" -92.716848 42.1876754
+"Glenwood Public Library" "109 N Vine St" "Glenwood" "IA" "51534" -95.741614 41.048176
+"Glidden Public Library" "110 Idaho St" "Glidden" "IA" "51443" -94.728587 42.054725
+"Gowrie Public Library" "1204 Market St" "Gowrie" "IA" "50543" -94.2913243 42.280599
+"Graettinger Public Library" "115 W Robins St" "Graettinger" "IA" "51342" -94.7546045 43.2378301
+"Grafton Public Library" "20. 4th Ave" "Grafton" "IA" "50440" -93.0694363 43.3278378
+"Grand Junction Public Library" "106 E Main St" "Grand Junction" "IA" "50107" -94.2390709 42.031709
+"Granger Public Library" "2216 Broadway" "Granger" "IA" "50109" -93.820525 41.759811
+"Greene Public Library" "231 W Traer St" "Greene" "IA" "50636" -92.8040847 42.8945132
+"Greenfield Public Library" "202 So. First St" "Greenfield" "IA" "50849" -94.4610297 41.304082
+"Grimes Public Library" "200 N James St" "Grimes" "IA" "50111" -93.7962204 41.6888331
+"Stewart Public Library" "926 Broad St" "Grinnell" "IA" "50112" -92.7241466 41.7436506
+"Griswold Public Library" "505 Main St" "Griswold" "IA" "51535" -95.142507 41.2347383
+"Kling Memorial Library" "807 7th St" "Grundy Center" "IA" "50638" -92.7726482 42.3604435
+"Mary J. Barnett Memorial Library" "400 Grand" "Guthrie Center" "IA" "50115" -94.5034661 41.6791314
+"Guttenberg Public Library" "603 S Second St" "Guttenberg" "IA" "52052" -91.0973202 42.7803409
+"Hamburg Public Library" "1301 Main St" "Hamburg" "IA" "51640" -95.6571476 40.6060355
+"Hampton Public Library" "4 S Federal St" "Hampton" "IA" "50441" -93.2073987 42.7417191
+"Harcourt Public Library" "106 W 2nd St" "Harcourt" "IA" "50544" -94.1762757 42.2627143
+"Harlan Community Library" "718 Court" "Harlan" "IA" "51537" -95.319827 41.657945
+"Dolores Tillinghast Memorial Library" "234 N 4th St" "Harpers Ferry" "IA" "52146" -91.1509667 43.201893
+"Hartley Public Library" "91 1st St Se" "Hartley" "IA" "51346" -95.4756797 43.1799517
+"Havelock Public Library" "po box 136" "Havelock" "IA" "50546" -94.7005363 42.8360833
+"Hawarden Public Library" "803 Tenth St" "Hawarden" "IA" "51023" -96.4836265 42.9967747
+"Hawkeye Public Library" "104 S 2nd St" "Hawkeye" "IA" "52147" -91.949997 42.9384708
+"Hedrick Public Library" "109 N Main St" "Hedrick" "IA" "52563" -92.3090109 41.1715748
+"Hiawatha Public Library" "150 W Willman St" "Hiawatha" "IA" "52233" -91.6723594 42.0372179
+"Hillsboro Public Library" "100 W Commercial" "Hillsboro" "IA" "52630" -91.7141155 40.8353668
+"Stubbs Memorial Library" "207 E Second St" "Holstein" "IA" "51025" -95.5429507 42.4892752
+"Holy Cross Branch" "938 Church St." "Holy Cross" "IA" "" -90.9966576 42.6014455
+"Hopkinton Public Library" "110 1st St Se" "Hopkinton" "IA" "52237" -91.2484101 42.3436993
+"Hornick Branch" "510 Main Street" "Hornick" "IA" "" -96.0972589 42.2319584
+"Hospers Public Library" "213 Main St" "Hospers" "IA" "51238" -95.9059507 43.0724787
+"Hubbard Public Library" "323 E Maple" "Hubbard" "IA" "50122" -93.29621 42.3055497
+"Hudson Public Library" "401 5th St" "Hudson" "IA" "50643" -92.455422 42.406602
+"Hull Public Library" "1408 Main St" "Hul" "IA" "51239" -96.1337322 43.1916434
+"Humboldt Public Library" "30 N 6th St" "Humboldt" "IA" "50548" -94.2160876 42.7214191
+"Humeston Public Library" "302 Broad St" "Humeston" "IA" "50123" -93.4964882 40.8588804
+"Huxley Public Library" "515 N Main Ave" "Huxley" "IA" "50124" -93.6073338 41.8982388
+"Ida Grove Public Library" "100 E 2nd St" "Ida Grove" "IA" "51445" -95.4655211 42.3440342
+"Independence Public Library" "805 1st St E" "Independence" "IA" "50644" -91.8848095 42.4687586
+"Indianola Public Library" "207 N B St" "Indianola" "IA" "50125" -93.5640943 41.3620704
+"Inwood Public Library" "103 S Main St" "Inwood" "IA" "51240" -96.4318034 43.309252
+"Ionia Community Library" "101 W Iowa St" "Ionia" "IA" "50645" -92.457178 43.033151
+"Iowa City Public Library" "123 S Linn St" "Iowa City" "IA" "52240" -91.5320946 41.6592011
+"Robert W. Barlow Memorial Library" "921 Washington Ave" "Iowa Falls" "IA" "50126" -93.2687518 42.5190111
+"Jamaica Public Library" "316 Main St" "Jamaica" "IA" "50128" -94.3080249 41.846805
+"Janesville Public Library" "227 Main St" "Janesville" "IA" "50647" -92.462631 42.64739
+"Jefferson Public Library" "200 W Lincolnway" "Jefferson" "IA" "50129" -94.376112 42.0152747
+"Jesup Public Library" "721 6th St" "Jesup" "IA" "50648" -92.0635092 42.4761303
+"Johnston Public Library" "6700 Merle Hay Rd" "Johnston" "IA" "50131" -93.7001304 41.6834636
+"Joice Public Library" "201 Main St" "Joice" "IA" "50446" -93.4540431 43.3627249
+"Kalona Public Library" "510 C Ave" "Kalona" "IA" "52247" -91.7056544 41.4838799
+"Kanawha Public Library" "120 N Main" "Kanawha" "IA" "50447" -93.7931868 42.9330552
+"Kensett Public Library" "214 5th St" "Kensett" "IA" "50448" -93.2081416 43.3543782
+"Keokuk Public Library" "210 N 5th St" "Keokuk" "IA" "52632" -91.381151 40.3974312
+"Keosauqua Public Library" "608 1st St" "Keosauqua" "IA" "52565" -91.9626872 40.7296547
+"Wilson Memorial Library" "109 E Washington Ave" "Keota" "IA" "52248" -91.9548483 41.3666381
+"Schroeder Public Library" "93 Main" "Keystone" "IA" "52249" -92.1980684 41.998831
+"Kimballton Public Library" "118 N Main" "Kimballton" "IA" "51543" -95.0727014 41.6278014
+"Kingsley Public Library" "220 Main" "Kingsley" "IA" "51028" -95.9672904 42.5886371
+"Klemme Public Library" "204 E Main St" "Klemme" "IA" "50449" -93.6015695 43.006725
+"Knoxville Public Library" "213 E Montgomery St" "Knoxville" "IA" "50138" -93.0974732 41.3171248
+"Hawkins Memorial Library" "308 Main St" "La Porte City" "IA" "50651" -92.191377 42.314787
+"Lacona Public Library" "107 E Main" "Lacona" "IA" "50139" -93.3848668 41.1897155
+"Lake City Public Library" "110 E Washington St" "Lake City" "IA" "51449" -94.7336441 42.268322
+"Lake Mills Public Library" "102 S Lake St" "Lake Mills" "IA" "50450" -93.5324976 43.4183416
+"Lake Park Public Library" "905 S Market St" "Lake Park" "IA" "51347" -95.3225796 43.4457968
+"Lakota Public Library" "204 3rd St" "Lakota" "IA" "50451" -94.09333 43.377463
+"Lamoni Public Library" "301 W Main" "Lamoni" "IA" "50140" -93.9363643 40.6232872
+"Lamont Public Library" "616 Bush St" "Lamont" "IA" "50650" -91.6418158 42.5987532
+"Meehan Memorial Lansing Public Library" "515 Main St" "Lansing" "IA" "52151" -91.2209388 43.3616001
+"Larchwood Public Library" "1020 Broadway" "Larchwood" "IA" "51241" -96.434123 43.4547183
+"Laurel Community Library" "102 N Main" "Laurel" "IA" "50141" -92.9222792 41.8841097
+"Laurens Public Library" "273 N Third" "Laurens" "IA" "50554" -94.851464 42.849716
+"Lawler Public Library" "412 E Grove St" "Lawler" "IA" "52154" -92.1506114 43.0695599
+"Le Mars Public Library" "46 1st St Sw" "Le Mars" "IA" "51031" -96.1670768 42.7918389
+"Leclaire Community Library" "323 Wisconsin St" "Leclaire" "IA" "52753" -90.346625 41.59791
+"Ledyard Public Library" "220 Edmunds St" "Ledyard" "IA" "50556" -94.1596458 43.421668
+"Pioneer Heritage Library" "204 N Vine St" "Legrand" "IA" "50142" -92.7743703 42.0077429
+"Lehigh Public Library" "241 Elm St" "Lehigh" "IA" "50557" -94.0512436 42.3589758
+"Lenox Public Library" "101 N Main" "Lenox" "IA" "50851" -94.5590434 40.8815572
+"Leon Public Library" "200 W 1st St" "Leon" "IA" "50144" -93.7479804 40.7395122
+"Letts Public Library" "135 S Cherry St" "Letts" "IA" "52754" -91.2367001 41.3279071
+"Lewis Public Library" "506 Main" "Lewis" "IA" "51544" -95.0903372 41.3057624
+"Lime Springs Public Library" "112 W Main St" "Lime Springs" "IA" "52155" -92.2807266 43.4488308
+"Linden Public Library" "131 S Main St" "Linden" "IA" "50146" -94.2696436 41.6430358
+"Linn Grove Public Library" "110 Weaver St" "Linn Grove" "IA" "51033" -95.247078 42.891831
+"Lisbon Public Library" "101 E Main St" "Lisbon" "IA" "52253" -91.3854266 41.9212598
+"Little Rock Public Library" "402 Main St" "Little Rock" "IA" "51243" -95.8831888 43.4441022
+"Livermore Public Library" "402 5th St" "Livermore" "IA" "50558" -94.1866196 42.8683082
+"Logan Public Library" "121 E 6th St" "Logan" "IA" "51546" -95.7902112 41.644105
+"J.J. Hands Library" "609 2nd. St" "Lohrville" "IA" "51453" -94.547884 42.2702045
+"Lost Nation Public Library" "301 Pleasant St" "Lost Nation" "IA" "52254" -90.8195609 41.9620571
+"Lowden Public Library" "605 Main St" "Lowden" "IA" "52255" -90.9292586 41.857631
+"Luverne Public Library" "113 Dewitt St" "Luverne" "IA" "50560" -94.084432 42.9101023
+"Lynnville Public Library" "301 S St" "Lynnville" "IA" "50153" -92.7835261 41.5774965
+"Lytton Public Library" "118 Main Ast" "Lytton" "IA" "50561" -94.8597623 42.4228991
+"Madrid Public Library" "100 W 3rd St" "Madrid" "IA" "50156" -93.8209182 41.8749022
+"Mallard Public Library" "609 Inman" "Mallard" "IA" "50562" -94.6840384 42.9377471
+"Malvern Public Library" "502 Main St" "Malvern" "IA" "51551" -95.5848269 41.0038621
+"Manchester Public Library" "304 N Franklin St" "Manchester" "IA" "52057" -91.457971 42.4858233
+"Manilla Public Library" "447 Main St" "Manilla" "IA" "51454" -95.2334264 41.889718
+"Manly Public Library" "127 S Grant St" "Manly" "IA" "50456" -93.2057714 43.2865948
+"Manning Public Library" "310 Main St" "Manning" "IA" "51455" -95.0651181 41.9087474
+"Manson Public Library" "1312 10th Ave" "Manson" "IA" "50563" -94.532599 42.5292189
+"Fisher-Whiting Memorial Library" "609 Courtright" "Mapleton" "IA" "51034" -95.7901726 42.164665
+"Maquoketa Public Library" "126 S Second St" "Maquoketa" "IA" "52060" -90.6668496 42.0688278
+"Marathon Public Library" "306 W Attica" "Marathon" "IA" "50565" -94.985036 42.8615765
+"Marble Rock Public Library" "122 S Main St" "Marble Rock" "IA" "50653" -92.868045 42.964345
+"Marcus Public Library" "106 N Locust St" "Marcus" "IA" "51035" -95.8068463 42.8229823
+"Marengo Public Library" "235 E Hilton St" "Marengo" "IA" "52301" -92.0682136 41.7986342
+"Marion Public Library" "1095 6th Ave" "Marion" "IA" "52302" -91.5986127 42.0320196
+"Marshalltown Public Library" "36 N Center St" "Marshalltown" "IA" "50158" -92.9129837 42.0500433
+"Martelle Community Library And Historical Mus" "20 South St" "Martelle" "IA" "52305" -91.3608671 42.0202029
+"Mason City Public Library" "225 2nd St Se" "Mason City" "IA" "50401" -93.1970329 43.1491664
+"North Central Library Service Area" "22 North Georgia, Suite 208" "Mason City" "IA" "50401" -93.1966702 43.152256
+"Maynard Community Library" "225 Main St W" "Maynard" "IA" "50655" -91.8791098 42.7738289
+"Mcgregor Public Library" "334 Main St" "Mcgregor" "IA" "52157" -91.1776467 43.0227083
+"Mechanicsville Public Library" "218 E 1st St" "Mechanicsville" "IA" "52306" -91.2539149 41.9043889
+"Mediapolis Public Library" "128 N Orchard St" "Mediapolis" "IA" "52637" -91.1639977 41.0084154
+"Melbourne Public Library" "603 Main St" "Melbourne" "IA" "50162" -93.1029943 41.9394387
+"Melcher Dallas Public Library" "10 Ne Center St" "Melcher-Dallas" "IA" "50163" -93.2418166 41.2236835
+"Menlo Public Library" "504 5th St" "Menlo" "IA" "50164" -94.4044667 41.5204263
+"Merrill Public Library" "321 3rd St" "Merrill" "IA" "51038" -96.2501226 42.7192314
+"Meservey Public Library" "719 1st St" "Meservey" "IA" "50457" -93.478573 42.91548
+"Milford Memorial Library" "1009 9th St" "Milford" "IA" "51351" -95.1500865 43.3238395
+"Milo Public Library" "123 Main St" "Milo" "IA" "50166" -93.439329 41.287479
+"Milton Public Library" "422 N Main" "Milton" "IA" "52570" -92.1618122 40.6725726
+"Minburn Public Library" "315 Baker St" "Minburn" "IA" "50167" -94.0297896 41.755867
+"Mingo Public Library" "103 North Station Street" "Mingo" "IA" "" -93.2838124 41.7675859
+"Missouri Valley Public Library" "420 E Huron St" "Missouri Valley" "IA" "51555" -95.8901346 41.5573825
+"Missouri Valley Public Library" "119 N. 5th Street" "Missouri Valley" "IA" "" -95.8890175 41.5569113
+"Mitchellville Public Library" "205 Center Ave North" "Mitchellville" "IA" "50169" -93.357674 41.668855
+"Modale Public Library" "208 Main" "Modale" "IA" "51556" -96.0119392 41.6201608
+"Mondamin Public Library" "201 Maple St" "Mondamin" "IA" "51557" -96.0219145 41.7103804
+"Murphy Memorial Library" "111 N Page St" "Monona" "IA" "52159" -91.3911308 43.053045
+"Monroe Public Library" "416 S Buchanan St" "Monroe" "IA" "50170" -93.107479 41.517821
+"Montezuma Public Library" "500 E Main St" "Montezuma" "IA" "50171" -92.5223256 41.5853355
+"Monticello Public Library" "116 E. Grand St." "Monticello" "IA" "" -91.1894146 42.2373793
+"Ross Elizabeth Baty Monticello Public Libra" "205 E Grand St" "Monticello" "IA" "52310" -91.188139 42.237506
+"Montrose Public Library" "202 Main" "Montrose" "IA" "52639" -91.4160267 40.5316064
+"Moorhead Public Library" "po box 33" "Moorhead" "IA" "51558" -95.8513975 41.9224881
+"Moravia Public Library" "100 E Chariton" "Moravia" "IA" "52571" -92.8145311 40.8911194
+"Morley Public Library" "507 Vine St" "Morley" "IA" "52312" -91.2441069 42.0070549
+"Mellinger Memorial Public Library" "11 Division St" "Morning Sun" "IA" "52640" -91.2555924 41.0958056
+"Garrett Memorial Library" "123 S Main St" "Moulton" "IA" "52572" -92.6771285 40.6846283
+"Mount Ayr Public Library" "121 W Monroe" "Mount Ayr" "IA" "50854" -94.2377952 40.7138235
+"Mount Pleasant Public Library" "307 E Monroe Suite 101" "Mount Pleasant" "IA" "52641" -91.548916 40.9667582
+"Russell D. Cole Library" "620 Third St Sw" "Mount Vernon" "IA" "52314" -91.4225876 41.9230051
+"Woodbury County Library" "825 Main St" "Moville" "IA" "51039" -96.0585292 42.4893188
+"Murray Public Library" "416 Maple St" "Muirray" "IA" "50174" -93.9507961 41.0418053
+"Musser Public Library" "304 Iowa Ave" "Muscatine" "IA" "52761" -91.0470362 41.4221662
+"Nashua Public Library" "220 Brasher St" "Nashua" "IA" "50658" -92.5375394 42.9533344
+"Nevada Public Library" "631 K Ave" "Nevada" "IA" "50201" -93.4513049 42.0219575
+"New Albin Public Library" "176 Elm St Ne" "New Albin" "IA" "52160" -91.2882408 43.4957112
+"New Hampton Public Library" "20 W Spring St" "New Hampton" "IA" "50659" -92.3155878 43.0583836
+"Elizabeth Rasmussen Martin Memorial Library" "406 Packwaukee" "New Hartford" "IA" "50660" -92.6221182 42.5676376
+"H.J. Nugen Public Library" "103 E Main St" "New London" "IA" "52645" -91.4013863 40.9258747
+"New Market Public Library" "407 Main St" "New Market" "IA" "51646" -94.8993525 40.7305997
+"New Sharon Public Library" "107 W Maple" "New Sharon" "IA" "50207" -92.6515916 41.4688177
+"New Virginia Public Library" "504 Book Alley" "New Virginia" "IA" "50210" -93.7288305 41.1822168
+"Newell Public Library" "205 E 2nd St" "Newell" "IA" "50568" -95.0011702 42.6054521
+"Newhall Public Library" "14 Main St" "Newhall" "IA" "52315" -91.9669009 41.995144
+"Newton Public Library" "100 N 3rd Ave W" "Newton" "IA" "50208" -93.0541805 41.7019428
+"Nora Springs Public Library" "45 N Hawkeye" "Nora Springs" "IA" "50458" -93.0055955 43.1432613
+"North English Public Library" "123 S Man" "North" "IA" "52316" -93.8055284 41.2884406
+"North Liberty Community Library" "520 W Cherry St" "North Liberty" "IA" "52317" -91.6053411 41.750133
+"Northwood Public Library" "906 1st Ave S" "Northwood" "IA" "50459" -93.2194852 43.4431245
+"Norwalk Easter Public Library" "1051 Nave" "Norwalk" "IA" "50211" -92.6055443 41.3162588
+"Norway Public Library" "108 Railroad St" "Norway" "IA" "52318" -91.9215453 41.9024779
+"Eckels Memorial Library" "207 S Highway" "Oakland" "IA" "51560" -95.393985 41.3133188
+"Ocheyedan Public Library" "874 Main St" "Ocheyedan" "IA" "51354" -95.5349098 43.4141933
+"Field-Carnegie Public Library" "200 S Walnut St" "Odebolt" "IA" "51458" -95.2533636 42.3120601
+"Oelwein Public Library" "201 E Charles St" "Oelwein" "IA" "50662" -91.9100976 42.6792806
+"Leonard A. Good Community Library" "208 W Mulberry St" "Ogden" "IA" "50212" -94.0297868 42.0380229
+"Olin Public Library" "301 Parkway St" "Olin" "IA" "52320" -91.1377499 41.9936906
+"Onawa Public Library" "707 Iowa Avew" "Onawa" "IA" "51040" -96.0932335 42.0266788
+"Orange City Public Library" "112 Albany Ave Se" "Orange City" "IA" "51041" -96.0571612 43.0054017
+"Public Resource-Technology Center" "201 School St" "Orient" "IA" "50858" -94.414619 41.1998003
+"Osage Public Library" "406 Main St" "Osage" "IA" "50461" -92.8162044 43.2840301
+"Osceola Public Library" "300 S Fillmore St" "Osceola" "IA" "50213" -93.7675653 41.0320392
+"Oskaloosa Public Library" "301 S Market" "Oskaloosa" "IA" "52577" -92.6455886 41.2932297
+"Ossian Public Library" "123 W Main St" "Ossian" "IA" "52161" -91.766374 43.145837
+"Ottumwa Public Library" "102 W 4th St" "Ottumwa" "IA" "52501" -92.4114462 41.0197894
+"Oxford Public Library" "112 N Augusta Ave" "Oxford" "IA" "52322" -91.7906455 41.7236685
+"Wregie Memorial Library" "105 W Broadway St" "Oxford Junction" "IA" "52323" -90.9565168 41.983748
+"Packwood Community Library" "108 N. Main" "Packwood" "IA" "" -92.0848656 41.1329686
+"Palmer Public Library" "520 Hanson" "Palmer" "IA" "50571" -94.6006056 42.6329071
+"Panora Public Library" "101 N 1st Stree" "Panora" "IA" "50216" -94.3643123 41.6917058
+"Kothe Memorial Library" "309 3rd St" "Parkersburg" "IA" "50665" -92.7872829 42.5772274
+"William Paton Public Library" "105 W Main St" "Paton" "IA" "50217" -94.2544135 42.1656323
+"Paullina Public Library" "113 S Mickley St" "Paullina" "IA" "51046" -95.686219 42.9789851
+"Perry Public Library" "1101 Willis Ave" "Perry" "IA" "50220" -94.1060676 41.8380839
+"Kirchner French Memorial Library" "101 Main St" "Peterson" "IA" "51047" -95.344223 42.91764
+"Plainfield Public Library" "723 Main St" "Plainfield" "IA" "50666" -92.5372355 42.8473436
+"Pleasant Hill Public Library" "5151 Maple Drive" "Pleasant Hill" "IA" "50327" -93.5145558 41.5974374
+"Webb Shadle Memorial Library" "301 W Dallas" "Pleasantville" "IA" "50225" -93.270744 41.387634
+"Plover Public Library" "301 Main St" "Plover" "IA" "50573" -94.6233749 42.8774538
+"Pocahontas Public Library" "14 2nd Ave Nw" "Pocahontas" "IA" "50574" -94.6690616 42.7344416
+"Polk City Community Library" "1500 W Broadway" "Polk City" "IA" "50226" -93.728208 41.778951
+"Pomeroy Public Library" "114 S Ontario St" "Pomeroy" "IA" "50575" -94.6843332 42.5505369
+"Postville Public Library" "235 W Tildfen St" "Postville" "IA" "52162" -91.5711103 43.0845544
+"Prairie City Public Library" "100 E Fifth" "Prairie City" "IA" "50228" -93.236037 41.599665
+"Prescott Public Library" "607 2nd St" "Prescott" "IA" "50859" -94.6102612 41.023107
+"Preston Public Library" "1 W Gillet" "Preston" "IA" "52069" -90.3939272 42.0507391
+"Primghar Public Library" "320 1st St Ne" "Primghar" "IA" "51245" -95.6251854 43.0872635
+"Princeton Branch" "328 River Drive" "Princeton" "IA" "" -90.3397188 41.677675
+"Quimby Public Library" "201 N Main" "Quimby" "IA" "51049" -95.642295 42.6304919
+"Radcliffe Public Library" "210 Isabella" "Radcliffe" "IA" "50230" -93.433173 42.314359
+"Rake Public Library" "123 N Main St" "Rake" "IA" "50465" -93.9187637 43.4846614
+"Randolph Public Library" "106 S Main" "Randolph" "IA" "51649" -95.5662525 40.872639
+"Red Oak Public Library" "400 N 2nd St" "Red Oak" "IA" "51566" -95.2303335 41.0080127
+"Redfield Public Library" "1112 Thomas St" "Redfield" "IA" "50233" -94.19692 41.590885
+"Reinbeck Public Library" "501 Clark St" "Reinbeck" "IA" "50669" -92.5997 42.323894
+"Rembrandt Public Library" "po box 169" "Rembrandt" "IA" "50576" -95.1663837 42.8255331
+"Remsen Public Library" "211 Fulton St" "Remsen" "IA" "51050" -95.9719873 42.8160675
+"Renwick Public Library" "204 Stoddard St" "Renwick" "IA" "50577" -93.9741537 42.8289477
+"Riceville Public Library" "307 Woodland Ave" "Riceville" "IA" "50466" -92.5542308 43.3619709
+"Richland Public Library" "100 E Main" "Richland" "IA" "52585" -92.5031566 41.1451711
+"Ringsted Public Library" "8 W Maple" "Ringsted" "IA" "50578" -94.5073677 43.2962595
+"Rippey Public Library" "306 Main" "Rippey" "IA" "50235" -94.2006101 41.9345595
+"Rock Rapids Public Library" "102 S Greene St" "Rock Rapids" "IA" "51246" -96.1709268 43.431801
+"Rock Valley Public Library" "1531 Main St" "Rock Valley" "IA" "51247" -96.2949601 43.2058272
+"Rockford Public Library" "202 W Main Ave" "Rockford" "IA" "50468" -92.9484593 43.0523146
+"Rockwell Public Library" "307 Main St E" "Rockwell" "IA" "50469" -93.1889999 42.985495
+"Rockwell City Public Library" "424 Main St" "Rockwell City" "IA" "50579" -94.6342905 42.3958138
+"Roland Public Library" "218 N Main St" "Roland" "IA" "50236" -93.5005403 42.1682954
+"Rolfe Public Library" "319 Garfield St" "Rolfe" "IA" "50581" -94.5278445 42.8138912
+"Royal Public Library" "302 Main St" "Royal" "IA" "51357" -95.285952 43.06483
+"Rudd Public Library" "308 Chickasaw St" "Rudd" "IA" "50471" -92.9018961 43.1280707
+"Runnells Community Library" "6575 Se 116th St" "Runnells" "IA" "50237" -93.357153 41.520957
+"Ruthven Public Library" "1301 Gowrie St" "Ruthven" "IA" "51358" -94.8991113 43.128268
+"Krabbenhoft Public Library" "512 Elk St" "Sabula" "IA" "52070" -90.1748108 42.070785
+"Sac City Public Library" "1001 W Main St" "Sac City" "IA" "50583" -95.0026621 42.4228298
+"Crew Public Library" "109 S Main" "Salem" "IA" "52649" -91.6214025 40.8545965
+"Schaller Public Library" "103 S Main" "Schaller" "IA" "51053" -95.2934528 42.4997185
+"Schleswig Public Library" "202 Cedar St" "Schleswig" "IA" "51461" -95.4366883 42.1653681
+"Scranton Public Library" "1102 Main" "Scranton" "IA" "51462" -94.5454324 42.020792
+"Seymour Community Library" "123 N 5th St" "Seymour" "IA" "52590" -93.1211221 40.6817134
+"Sheffield Public Library" "123 S 3rd St" "Sheffield" "IA" "50475" -93.2153163 42.8930601
+"Sheldon Public Library" "925 4th Ave" "Sheldon" "IA" "51201" -95.8536372 43.1802874
+"Benny Gambaiani Public Library" "104 S Cherry St" "Shell Rock" "IA" "50670" -92.5815714 42.711501
+"Shellsburg Public Library" "110 Main St" "Shellsburg" "IA" "52332" -91.8700954 42.0943479
+"Shenandoah Public Library" "201 S Elm St" "Shenandoah" "IA" "51601" -95.373604 40.764893
+"Sibley Public Library" "406 9th St" "Sibley" "IA" "51249" -95.7478776 43.399122
+"Sidney Public Library" "1002 Illinois St" "Sidney" "IA" "51652" -95.6472522 40.7503578
+"Sigourney Public Library" "720 E Jackson" "Sigourney" "IA" "52591" -92.1969024 41.3368363
+"Silver City Public Library" "408 Main St" "Silver City" "IA" "51571" -95.6374244 41.11359
+"Sioux City Public Library" "529 Pierce St" "Sioux City" "IA" "51101" -96.4053678 42.4960253
+"Sioux Center Public Library" "102 S Main Ave" "Sioux Center" "IA" "51250" -96.1748081 43.0771708
+"Morningside Branch Library" "4005 Morningside Ave." "Sioux City" "IA" "" -96.3549256 42.4713195
+"Northwest Iowa Library Services" "529 Pierce St." "Sioux City" "IA" "51102" -96.4053678 42.4960253
+"Perry Creek Branch Library" "2912 Hamilton Blvd." "Sioux City" "IA" "" -96.4178095 42.521204
+"Sioux Rapids Memorial Library" "215 2nd St" "Sioux Rapids" "IA" "50585" -95.149801 42.892446
+"Slater Public Library" "105 N Tama" "Slater" "IA" "50244" -93.6810556 41.8835048
+"Sloan Public Library" "311 4th St" "Sloan" "IA" "51055" -96.2278975 42.2325254
+"Soldier Public Library" "108 Oak Street" "Soldier" "IA" "" -95.780621 41.98511
+"Solon Public Library" "320 W Main St" "Solon" "IA" "52333" -91.4983025 41.8077228
+"Somers Public Library" "606 6th St" "Somers" "IA" "50586" -94.4302586 42.3784298
+"South English Public Library" "407 Ives St" "South English" "IA" "52335" -92.0887584 41.4520518
+"Spencer Public Library" "21 E 3rd St" "Spencer" "IA" "51301" -95.14368 43.140688
+"Spillville Public Library" "201 Oak St" "Spillville" "IA" "52168" -91.9533369 43.2034188
+"Spirit Lake Public Library" "702 16th St" "Spirit Lake" "IA" "51360" -95.1007001 43.4245151
+"Springville Memorial Library" "264 Broadway St" "Springville" "IA" "52336" -91.442867 42.060104
+"Nissen Public Library" "217 W 5th St" "St. Ansgar" "IA" "50472" -92.9206281 43.3775661
+"St. Charles Public Library" "210 N Cross St" "St. Charles" "IA" "50240" -93.8058501 41.289487
+"Stacyville Public Library" "106 N Broad St" "Stacyville" "IA" "50476" -92.7819366 43.4365381
+"Stanhope Public Library" "665 Iowa St" "Stanhope" "IA" "50246" -93.7950003 42.2898197
+"Stanton Community Library" "310 Broad Ave." "Stanton" "IA" "" -95.1040971 40.9806456
+"Stanton Public Library" "310 Broad" "Stanton" "IA" "51573" -95.1040971 40.9806456
+"Stanwood Public Library" "202 E Broadway" "Stanwood" "IA" "52337" -91.1505511 41.893005
+"Gutekunst Public Library" "309 2nd St Se" "State Center" "IA" "50247" -93.160175 42.0163106
+"Steamboat Rock Public Library" "511 W Market St" "Steamboat Rock" "IA" "50672" -93.0670171 42.4084185
+"Stockport Public Library" "113 Beswick St" "Stockport" "IA" "52651" -91.8347167 40.8554891
+"Storm Lake Public Library" "609 Cayuga St" "Storm Lake" "IA" "50588" -95.197912 42.644933
+"Bertha Bartlett Public Library" "503 Broad St" "Story City" "IA" "50248" -93.597246 42.187406
+"Stratford Public Library" "816 Shakespeare" "Stratford" "IA" "50249" -93.9271462 42.270904
+"Strawberry Point Public Library" "401 Commercial St" "Strawberry Point" "IA" "52076" -91.5357974 42.6790108
+"Stuart Public Library" "111 E Front St" "Stuart" "IA" "50250" -94.3041636 41.5036905
+"Sully Community Library" "318 6th Ave" "Sully" "IA" "50251" -92.847464 41.578873
+"Sumner Public Library" "206 N Railroad St" "Sumner" "IA" "50674" -92.099008 42.8484698
+"General N.B. Baker Library" "315 Ash St" "Sutherland" "IA" "51058" -95.4993255 42.9727175
+"Swaledale Public Library" "504 Main St" "Swaledale" "IA" "50477" -93.3144669 42.978705
+"Swea City Public Library" "208 3rd St North" "Swea City" "IA" "50590" -94.3098176 43.3832276
+"Tabor Public Library" "805 Main St" "Tabor" "IA" "51653" -95.671373 40.9010336
+"Louise Lucile Hink-Tama Public Library" "401 Siegel St" "Tama" "IA" "52339" -92.5794625 41.9628782
+"Terril Community Public Library" "115 N State St" "Terril" "IA" "51364" -94.9711885 43.3060304
+"Thompson Public Library" "142 Jackson St N" "Thompson" "IA" "50478" -93.7710407 43.3713184
+"Thornton Public Library" "412 Main" "Thornton" "IA" "50479" -93.384401 42.943753
+"Springmier Community Library" "311 W Marengo Rd" "Tiffin" "IA" "52340" -91.6682693 41.7064531
+"Tipton Public Library" "206 Cedar St" "Tipton" "IA" "52772" -91.1276185 41.7673854
+"Titonka Public Library" "136 Main St N" "Titonka" "IA" "50480" -94.0413188 43.2363388
+"Toledo Public Library" "206 E High St" "Toledo" "IA" "52342" -92.5767642 41.9955854
+"Traer Public Library" "531 2nd St" "Traer" "IA" "50675" -92.4670089 42.1933411
+"Tripoli Public Library" "101 4th Ave Sw" "Tripoli" "IA" "50676" -92.2581257 42.8055258
+"Truro Public Library" "114 E Center" "Truro" "IA" "50257" -93.8464077 41.2079902
+"Union Public Library" "406 Commercial St" "Union" "IA" "50258" -93.064461 42.244071
+"Urbandale Public Library" "3520 86th St" "Urbandale" "IA" "50322" -93.7386384 41.6265075
+"Ute Public Library" "130 Main St" "Ute" "IA" "51060" -95.7058668 42.0502071
+"Van Horne Public Library" "114 Main St" "Van Horne" "IA" "52346" -92.0911607 42.0080647
+"Van Meter Public Library" "505 Grant" "Van Meter" "IA" "50261" -93.954021 41.53328
+"Ventura Public Library" "7 W Ventura St" "Ventura" "IA" "50482" -93.478759 43.1277411
+"Victor Public Library" "710 2nd St" "Victor" "IA" "52347" -92.2981289 41.7317641
+"Villisca Public Library" "204 S 3rd Ave" "Villisca" "IA" "50864" -94.9772795 40.9300236
+"Vinton Public Library" "510 2nd Ave" "Vinton" "IA" "52349" -92.0229505 42.1665742
+"Volga Public Library" "505 Washington St" "Volga" "IA" "52077" -91.5410148 42.8030326
+"Wadena Public Library" "136 S Mill St" "Wadena" "IA" "52169" -91.6569129 42.8403397
+"Walcott Branch" "207 South Main Street" "Walcott" "IA" "" -90.7746023 41.5845745
+"Wall Lake Public Library" "116 Main St" "Wall Lake" "IA" "51466" -95.0928559 42.2710507
+"Walnut Public Library" "224 Antique City Drive" "Walnut" "IA" "51577" -95.222553 41.476868
+"Keck Memorial Library" "119 N 2nd St" "Wapello" "IA" "52653" -91.1845865 41.18012
+"Washington Free Public Library" "120 E Main" "Washington" "IA" "52353" -91.6908797 41.2994214
+"Washta Public Library" "100 S 5th Ave" "Washta" "IA" "51061" -95.7200729 42.5750154
+"Northeast Iowa Library Service Area" "415 Commercial St." "Waterloo" "IA" "50701" -92.3409926 42.4964061
+"Waterloo Public Library" "415 Commercial St" "Waterloo" "IA" "50701" -92.3409926 42.4964061
+"Waterville Public Library" "82 Main St" "Waterville" "IA" "52170" -91.2975097 43.2100599
+"Waucoma Public Library" "103 1st Ave Sw" "Waucoma" "IA" "52171" -92.0348367 43.0559433
+"Waukee Public Library" "950 Warrior Lane" "Waukee" "IA" "50263" -93.8739473 41.6046009
+"Robey Memorial Library" "401 First Ave Nw" "Waukon" "IA" "52172" -91.4809945 43.2701842
+"Robey Memorial Library" "401 First Avenue Nw" "Waukon" "IA" "" -91.4809945 43.2701842
+"Waverly Public Library" "1500 W Bremer Ave" "Waverly" "IA" "50677" -92.4892899 42.7261475
+"Webb Public Library" "124 Main St" "Webb" "IA" "51366" -95.011775 42.9489919
+"Kendall Young Library" "1201 Willson Ave" "Webster City" "IA" "50595" -93.819302 42.4654332
+"Wellman-Scofield Public Library" "711 4th St" "Wellman" "IA" "52356" -91.8374849 41.4659214
+"Wellsburg Public Library" "515 N Adams St" "Wellsburg" "IA" "50680" -92.9262954 42.4358813
+"Wesley Public Library" "206 Main St" "Wesley" "IA" "50483" -93.9873285 43.0891876
+"West Bend Public Library" "316 S Broadway" "West Bend" "IA" "50597" -94.4451269 42.9577067
+"West Branch Public Library" "300 Ndowney St" "West Branch" "IA" "52358" -91.346983 41.673456
+"West Des Moines Public Library" "4000 George M. Mills Civic Parkway" "West Des Moines" "IA" "50265" -93.7910996 41.5626199
+"West Liberty Public Library" "400 N Spencer" "West Liberty" "IA" "52776" -91.261555 41.571495
+"West Point Public Library" "317 5th St" "West Point" "IA" "52656" -91.4524237 40.7173793
+"West Union Community Library" "210 N Vine St" "West Union" "IA" "52175" -91.8081772 42.9628141
+"Westgate Public Library" "3 Main St" "Westgate" "IA" "50681" -91.9954638 42.7699324
+"Westside Public Library" "150 Main St" "Westside" "IA" "51467" -95.0982501 42.0751606
+"What Cheer Public Library" "308 S Barnes St" "What Cheer" "IA" "50268" -92.354726 41.4040753
+"Curtis Memorial Library" "116 S Main" "Wheatland" "IA" "52777" -90.8385654 41.8323023
+"Whiting Public Library" "407 Whittier St" "Whiting" "IA" "51063" -96.1555427 42.1274856
+"Whittemore Public Library" "405 4th St" "Whittemore" "IA" "50598" -94.422172 43.0633703
+"Williamsburg Public Library" "214 W State St" "Williamsburg" "IA" "52361" -92.0098329 41.6618837
+"Wilton Public Library" "106 E 4th St" "Wilton" "IA" "52778" -91.0165288 41.588733
+"Winfield Public Library" "112 W Ash" "Winfield" "IA" "52659" -91.4380845 41.1297443
+"Winterset Public Library" "123 N 2nd St" "Winterset" "IA" "50273" -94.0117919 41.3351658
+"Winthrop Public Library" "354 W Madison St" "Winthrop" "IA" "50682" -91.7350016 42.4729683
+"Woden Public Library" "304 Main St" "Woden" "IA" "50484" -93.910059 43.2317765
+"Woodbine Carnegie Public Library" "58 5th" "Woodbine" "IA" "51579" -95.7031675 41.737028
+"Woodward Public Library" "118 S Main St" "Woodward" "IA" "50276" -93.922395 41.857116
+"Wyoming Public Library" "109 W Main" "Wyoming" "IA" "52362" -91.005964 42.0588804

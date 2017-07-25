@@ -1,0 +1,1037 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Adams Free Library" "2 North Main Street" "Adams" "NY" "13605" -76.0236089 43.8096729
+"Adams Center Free Library" "18267 State Route 177" "Adams Center" "NY" "13606" -76.0063766 43.8609647
+"Addison Public Library" "6 South Street" "Addison" "NY" "14801" -77.233874 42.104562
+"Afton Free Library" "105 A Main Street" "Afton" "NY" "13730" -75.5281428 42.2252174
+"Newstead Public Library" "33 Main Street" "Akron" "NY" "14001" -78.501521 43.019712
+"Albany Public Library - Arbor Hill-West Hill Branch" "148 Henry Johnson Boulevard" "Albany" "NY" "12210" -73.7603585 42.6616334
+"Albany Public Library - Delaware Branch" "331 Delaware Avenue" "Albany" "NY" "12209" -73.7781442 42.6429554
+"Albany Public Library - John A. Howe Branch" "105 Schuyler Street" "Albany" "NY" "12202" -73.7582799 42.6413468
+"Albany Public Library - John J. Bach Branch" "455 New Scotland Avenue" "Albany" "NY" "12208" -73.7961464 42.6550065
+"Albany Public Library - Main Library" "161 Washington Avenue" "Albany" "NY" "12210" -73.7621341 42.6565786
+"Albany Public Library - North Albany Branch" "616 North Pearl Street" "Albany" "NY" "12204" -73.7400929 42.6739878
+"Upper Hudson Library System" "28 Essex Street" "Albany" "NY" "12206" -73.7789144 42.6774339
+"Shelter Rock Public Library" "165 Searingtown Road" "Albertson" "NY" "11507" -73.6563237 40.7625586
+"Swan Library" "4 North Main Street" "Albion" "NY" "14411" -78.194193 43.246425
+"Alden Ewell Free Library" "13280 Broadway" "Alden" "NY" "14004" -78.493244 42.9006
+"Macsherry Library" "112 Walton Street" "Alexandria Bay" "NY" "13607" -75.9079227 44.3364074
+"Alfred Box Of Books Library" "1 West University Street" "Alfred" "NY" "14802" -77.790679 42.253791
+"Allegany Public Library" "90 West Main Street" "Allegany" "NY" "14706" -78.496725 42.092032
+"Almond Twentieth Century Club Library" "p o box d" "Almond" "NY" "14804" -77.738327 42.3222916
+"Altamont Free Library" "105 Park Street" "Altamont" "NY" "12009" -74.0318502 42.7013037
+"Altona Reading Center" "3124 Rt. 191" "Altona" "NY" "12910" -73.5494112 44.895915
+"Amagansett Free Library" "215 Main Street" "Amagansett" "NY" "11930" -72.1407877 40.9755453
+"Amenia Free Library" "3309 Route 343" "Amenia" "NY" "12501" -73.555751 41.850086
+"Audubon Branch" "350 John James Audubon Parkway" "Amherst" "NY" "14228" -78.7807217 43.0155382
+"Amsterdam Free Library" "28 Church Street" "Amsterdam" "NY" "12010" -74.1908781 42.9376472
+"Andes Public Library" "242 Main Street" "Andes" "NY" "13731" -74.78156 42.190473
+"Andover Free Library" "40 Main Street" "Andover" "NY" "14806" -77.795251 42.15644
+"Angelica Free Library" "55 West Main Street" "Angelica" "NY" "14709" -78.0195668 42.3068428
+"Angola Public Library" "34 North Main Street" "Angola" "NY" "14006" -79.02807 42.639041
+"Crosby Public Library" "59 Main Street" "Antwerp" "NY" "13608" -75.607097 44.199762
+"Apalachin Library Association" "719 Main St" "Apalachin" "NY" "13732" -76.151819 42.068116
+"Arcade Free Library" "365 West Main Street" "Arcade" "NY" "14009" -78.4275569 42.533863
+"Ardsley Public Library" "9 American Legion Drive" "Ardsley" "NY" "10502" -73.8445045 41.0122845
+"Argyle Free Library" "21 Sheridan Street" "Argyle" "NY" "12809" -73.4894347 43.2383609
+"North Castle Public Library" "19 Whippoorwill Road East" "Armonk" "NY" "10504" -73.715125 41.126301
+"Queens Borough Public Library - Arverne" "312 Beach 54 Street" "Arverne" "NY" "11692" -73.7840725 40.5931314
+"Ashville Free Library" "2200 North Maple Street" "Ashville" "NY" "14710" -79.374839 42.095529
+"Queens Borough Public Library - Astoria" "14-01 Astoria Boulevard" "Astoria" "NY" "11102" -73.928729 40.772379
+"Queens Borough Public Library - Steinway" "21-45 31 Street" "Astoria" "NY" "11105" -73.9096802 40.7769984
+"D.R. Evarts Library" "80 Second Street" "Athens" "NY" "12015" -73.812284 42.261903
+"E J Cottrell Memorial Library" "30 Main Street" "Atlanta" "NY" "14808" -77.476491 42.5531569
+"Stevens Memorial Community Library" "146 Main Street" "Attica" "NY" "14011" -78.277073 42.863419
+"Seymour Public Library District" "176-178 Genesee Street" "Auburn" "NY" "13021" -76.5718917 42.9288877
+"Aurora Free Library" "370 Main Street" "Aurora" "NY" "13026" -76.701999 42.753889
+"Ausable Forks Free Library" "9 Church Lane" "Ausable Forks" "NY" "12912" -73.678906 44.439319
+"Sand Lake Town Library" "8428 Miller Hill Road" "Averill Park" "NY" "12018" -73.5413632 42.6382324
+"Avoca Free Library" "18 North Main Street" "Avoca" "NY" "14809" -77.4219789 42.409961
+"Avon Free Library" "143 Genesee Street" "Avon" "NY" "14414" -77.7482969 42.909946
+"Babylon School District Public Library" "24 South Carll Avenue" "Babylon" "NY" "11702" -73.325971 40.695012
+"Bainbridge Free Library" "13 North Main Street" "Bainbridge" "NY" "13733" -75.4790325 42.2935365
+"Baldwin Public Library" "2385 Grand Avenue" "Baldwin" "NY" "11510" -73.611283 40.6520935
+"Baldwinsville Public Library" "33 East Genesee Street" "Baldwinsville" "NY" "13027" -76.3294233 43.159216
+"Ballston Spa Public Library" "21 Milton Avenue" "Ballston Spa" "NY" "12020" -73.8490159 43.0017208
+"Barker Free Library" "8706 Main Street" "Barker" "NY" "14012" -78.553618 43.3298569
+"Barneveld Free Library Association" "118 Boon Street" "Barneveld" "NY" "13304" -75.1941639 43.2737316
+"Richmond Memorial Library" "19 Ross Street" "Batavia" "NY" "14020" -78.1770974 42.997772
+"Dormann Library" "101 West Morris Street" "Bath" "NY" "14810" -77.323967 42.333078
+"Queens Borough Public Library - Bay Terrace" "18-36 Bell Boulevard" "Bayside" "NY" "11360" -73.777006 40.782517
+"Queens Borough Public Library - Bayside" "214-20 Northern Boulevard" "Bayside" "NY" "11361" -73.7683806 40.7601617
+"Queens Borough Public Library - Windsor Park" "79-50 Bell Boulevard" "Bayside" "NY" "11364" -73.755663 40.734496
+"Bayville Free Library" "34 School Street" "Bayville" "NY" "11709" -73.566327 40.9078392
+"Howland Public Library" "313 Main Street" "Beacon" "NY" "12508" -73.9708502 41.5053292
+"Beaver Falls Library" "9607 Lewis Street" "Beaver Falls" "NY" "13305" -75.4281214 43.8865911
+"Bedford Free Library" "32 Village Green" "Bedford" "NY" "10506" -73.643089 41.2034942
+"Bedford Hills Free Library" "26 Main Street" "Bedford Hills" "NY" "10507" -73.7002302 41.2358684
+"Belfast Public Library" "75 South Main Street" "Belfast" "NY" "14711" -78.1119629 42.3411705
+"Queens Borough Public Library - Bellerose" "250-06 Hillside Avenue" "Bellerose" "NY" "11426" -73.7172063 40.7354086
+"Belleville Free Library" "8086 County Route 75" "Belleville" "NY" "13611" -76.119277 43.784035
+"Bellmore Memorial Library" "2288 Bedford Avenue" "Bellmore" "NY" "11710" -73.5271739 40.6677031
+"Long Island Library Resources Council" "627 N. Sunrise Service Road" "Bellport" "NY" "11713" -72.960831 40.7889548
+"South Country Library" "22 Station Road" "Bellport" "NY" "11713" -72.9409063 40.7580857
+"Free Library Of The Belmont Literary And Historical Society" "2 Willets Avenue" "Belmont" "NY" "14813" -78.0354935 42.2235982
+"Bemus Point Public Library" "13 Main Street" "Bemus Point" "NY" "14712" -79.39273 42.159264
+"Byron-Bergen Public Library" "13 S. Lake Street" "Bergen" "NY" "14416" -77.9423761 43.0831509
+"Berkshire Free Library" "12519 State Route 38" "Berkshire" "NY" "13736" -76.1857531 42.3067473
+"Berlin Free Town Library" "47 Main Street" "Berlin" "NY" "12022" -73.374981 42.69592
+"Berne Public Library" "1656 Helderberg Trail" "Berne" "NY" "12023" -74.1354592 42.6249973
+"Bethpage Public Library" "47 Powell Avenue" "Bethpage" "NY" "11714" -73.4782384 40.7426938
+"Briarcliffe College Library - Bethpage" "1055 Stewart Avenue" "Bethpage" "NY" "11714" -73.4901559 40.7595608
+"Big Flats Library" "78 Canal St." "Big Flats" "NY" "14814" -76.935978 42.140132
+"Broome County Public Library" "185 Court Street" "Binghamton" "NY" "13901" -75.9065314 42.1002789
+"Fenton Free Library" "1062 Chenango Street" "Binghamton" "NY" "13901" -75.889121 42.1463282
+"Sally Ploof Hunter Memorial Library" "101 Public Works Drive" "Black River" "NY" "13612" -75.7862496 44.0159434
+"Blauvelt Free Library" "541 Western Highway" "Blauvelt" "NY" "10913" -73.9571571 41.0598027
+"Eagle Free Library" "3413 School Street" "Bliss" "NY" "14024" -78.254884 42.579521
+"Allens Hill Free Library" "3818 County Road 40" "Bloomfield" "NY" "14469" -77.515419 42.842389
+"Bloomfield Public Library" "9 Church Street" "Bloomfield" "NY" "14469" -77.432127 42.899506
+"Bayport-Blue Point Public Library" "203 Blue Point Avenue" "Blue Point" "NY" "11715" -73.0359525 40.7497704
+"Connetquot Public Library" "760 Ocean Avenue" "Bohemia" "NY" "11716" -73.1178605 40.7587088
+"Bolivar Free Library" "390 Main Street" "Bolivar" "NY" "14715" -78.167536 42.065228
+"Bolton Free Library" "4922 Lakeshore Drive" "Bolton Landing" "NY" "12814" -73.655321 43.554936
+"Boston Free Library" "9474 Boston State Road" "Boston" "NY" "14025" -78.7333064 42.6261243
+"Bovina Library Association" "33 Maple Avenue" "Bovina Center" "NY" "13740" -74.78126 42.2629189
+"Modeste Bedient Memorial Library" "3699 Route 54a" "Branchport" "NY" "14418" -77.1437209 42.6002344
+"Horicon Free Public Library" "6604 State Route 8" "Brant Lake" "NY" "12815" -73.7498259 43.6758879
+"Brentwood Public Library" "34 Second Avenue" "Brentwood" "NY" "11717" -73.2482044 40.7778547
+"Brewster Public Library" "79 Main Street" "Brewster" "NY" "10509" -73.6170243 41.3942138
+"Briarcliff Manor Public Library" "1 Library Road" "Briarcliff Manor" "NY" "10510" -73.8244475 41.1465558
+"Queens Borough Public Library - Briarwood" "85-12 Main Street" "Briarwood" "NY" "11435" -73.8194822 40.7100374
+"Horticultural Alliance Library" "843 Sag Harbor Tpke" "Bridgehampton" "NY" "11932" -72.298687 40.95998
+"The Hampton Library" "2478 Main Street" "Bridgehampton" "NY" "11932" -72.3021696 40.9374016
+"Sullivan Free Library Of Bridgeport" "8979 North Road" "Bridgeport" "NY" "13030" -75.970185 43.156421
+"Bridgewater Free Library" "404 Pritchard Avenue" "Bridgewater" "NY" "13313" -75.24999 42.883482
+"Queens Borough Public Library - Broad Channel" "16-26 Cross Bay Boulevard" "Broad Channel" "NY" "11693" -73.8200546 40.6007441
+"Seymour Library" "161 East Ave" "Brockport" "NY" "14420" -77.9294635 43.2207349
+"Ahira Hall Memorial Library" "37 West Main Street" "Brocton" "NY" "14716" -79.443234 42.388563
+"Allerton Library" "2740 Barnes Avenue" "Bronx" "NY" "10467" -73.8632034 40.8668182
+"Baychester Library" "2049 Asch Loop North" "Bronx" "NY" "10475" -73.829224 40.8706527
+"Belmont Library And Enrico Fermi Cultural Center" "610 E. 186th Street" "Bronx" "NY" "10458" -73.8878989 40.854344
+"Bronx Library Center" "310 East Kingsbridge Road" "Bronx" "NY" "10458" -73.8944915 40.8630966
+"Castle Hill Library" "947 Castle Hill Avenue" "Bronx" "NY" "10473" -73.8501593 40.8266112
+"City Island Library" "320 City Island Avenue" "Bronx" "NY" "10464" -73.7863239 40.847696
+"Clasons Point Library" "1215 Morrison Avenue" "Bronx" "NY" "10472" -73.8750216 40.8299958
+"Eastchester Library" "1385 East Gun Hill Road" "Bronx" "NY" "10469" -73.8451078 40.8701444
+"Edenwald Library" "1255 East 233rd Street" "Bronx" "NY" "10466" -73.8408326 40.8888791
+"Francis Martin Library" "2150 University Avenue" "Bronx" "NY" "10453" -73.9097086 40.8572154
+"Grand Concourse Library" "155 East 173rd Street" "Bronx" "NY" "10457" -73.9100688 40.8440264
+"High Bridge Library" "78 West 168th Street" "Bronx" "NY" "10452" -73.9235364 40.837961
+"Hunts Point Library" "877 Southern Boulevard" "Bronx" "NY" "10459" -73.8940866 40.8186827
+"Jerome Park Library" "118 Eames Place" "Bronx" "NY" "10468" -73.9012213 40.8690733
+"Kingsbridge Library" "291 West 231st Street" "Bronx" "NY" "10463" -73.9077155 40.8807251
+"Melrose Library" "910 Morris Avenue" "Bronx" "NY" "10451" -73.9175628 40.8266002
+"Morris Park Library" "985 Morris Park Avenue" "Bronx" "NY" "10462" -73.8568162 40.8480268
+"Morrisania Library" "610 East 169th Street" "Bronx" "NY" "10456" -73.9017509 40.8312601
+"Mosholu Library" "285 East 205th Street" "Bronx" "NY" "10467" -73.878391 40.8743814
+"Mott Haven Library" "321 East 140th Street" "Bronx" "NY" "10454" -73.9243675 40.8116039
+"Parkchester Library" "1985 Westchester Avenue" "Bronx" "NY" "10462" -73.858364 40.8337549
+"Pelham Bay Library" "3060 Middletown Road" "Bronx" "NY" "10461" -73.8278998 40.8442803
+"Riverdale Library" "5540 Mosholu Avenue" "Bronx" "NY" "10471" -73.9028283 40.9037238
+"Sedgwick Library" "1701 Martin Luther King, Jr. Blvd." "Bronx" "NY" "10453" -73.9175397 40.8495154
+"Soundview Library" "660 Soundview Avenue" "Bronx" "NY" "10473" -73.8629054 40.8187021
+"Spuyten Duyvil Library" "650 W. 235th St." "Bronx" "NY" "10463" -73.9146524 40.8863206
+"Throgs Neck Library" "3025 Cross Bronx Expressway Extension" "Bronx" "NY" "10465" -73.819105 40.8229054
+"Tremont Library" "1866 Washington Avenue" "Bronx" "NY" "10457" -73.8983425 40.8460585
+"Van Cortlandt Library" "3874 Sedgwick Avenue" "Bronx" "NY" "10463" -73.8938996 40.8828144
+"Van Nest Library" "2147 Barnes Avenue" "Bronx" "NY" "10462" -73.8641428 40.8548805
+"Wakefield Library" "4100 Lowerre Place" "Bronx" "NY" "10466" -73.8595119 40.891081
+"West Farms Library" "2085 Honeywell Avenue" "Bronx" "NY" "10460" -73.8830713 40.8446733
+"Westchester Square Library" "2521 Glebe Avenue" "Bronx" "NY" "10461" -73.846738 40.8409164
+"Woodlawn Heights Library" "4355 Katonah Avenue" "Bronx" "NY" "10470" -73.8679407 40.9004371
+"Woodstock Library" "761 East 160th Street" "Bronx" "NY" "10456" -73.9046034 40.8206528
+"Bronxville Public Library" "201 Pondfield Road" "Bronxville" "NY" "10708" -73.8312733 40.93621
+"Brookhaven Free Library" "273 Beaver Dam Road" "Brookhaven" "NY" "11719" -72.912013 40.773951
+"Dowling College Library" "150 Idle Hour Blvd" "Brookhaven" "NY" "11769" -73.147905 40.742055
+"Arlington Library" "203 Arlington Ave. At Warwick St." "Brooklyn" "NY" "11207" -73.887259 40.6806825
+"Bay Ridge Library" "7223 Ridge Blvd. At 73rd St." "Brooklyn" "NY" "11209" -74.0295368 40.6336536
+"Bedford Learning Center" "496 Franklin Avenue" "Brooklyn" "NY" "11238" -73.9562073 40.6818136
+"Borough Park Library" "1265 43rd St. At 13th Ave." "Brooklyn" "NY" "11219" -73.9890102 40.6388766
+"Brighton Beach Library" "16 Brighton First Rd. At Brighton Beach Ave." "Brooklyn" "NY" "11235" -73.9664412 40.5766314
+"Brooklyn Heights Library" "280 Cadman Plaza West At Tillary St." "Brooklyn" "NY" "11201" -73.9913921 40.6957321
+"Brooklyn Public Library" "10 Grand Army Plaza" "Brooklyn" "NY" "11238" -73.9681011 40.6721709
+"Brower Park Library" "725 St. Marks Ave. At Nostrand Ave." "Brooklyn" "NY" "11216" -73.9485709 40.6753677
+"Brownsville Library" "61 Glenmore Ave. At Watkins St." "Brooklyn" "NY" "11212" -73.9083882 40.6713447
+"Bushwick Library" "340 Bushwick Ave. At Seigel St." "Brooklyn" "NY" "11206" -73.9396345 40.7045588
+"Business Library" "280 Cadman Plaza W. At Tillary St." "Brooklyn" "NY" "11201" -73.9913921 40.6957321
+"Canarsie Library" "1580 Rockaway Pkwy. At Ave. J" "Brooklyn" "NY" "11236" -73.8995356 40.6422096
+"Carroll Gardens Library" "396 Clinton St. Union St." "Brooklyn" "NY" "11231" -73.9916222 40.6807328
+"Clarendon Library" "2035 Nostrand Ave." "Brooklyn" "NY" "11210" -73.9476558 40.6357407
+"Clinton Hill Library" "380 Washington Ave. At Lafayette Ave." "Brooklyn" "NY" "11238" -73.9660288 40.6873791
+"Coney Island Learning Center" "1901 Mermaid Avenue At 19th St." "Brooklyn" "NY" "11224" -73.9861146 40.576766
+"Cortelyou Library" "1305 Cortelyou Rd. At Argyle Rd." "Brooklyn" "NY" "11226" -73.9659493 40.6407953
+"Crown Heights Library" "560 New York Ave. At Maple St." "Brooklyn" "NY" "11225" -73.9481499 40.6612033
+"Cypress Hills Library" "1197 Sutter Ave. At Crystal St." "Brooklyn" "NY" "11208" -73.8740351 40.6727044
+"Dekalb Library" "790 Bushwick Ave. At Dekalb Ave." "Brooklyn" "NY" "11221" -73.9283989 40.6948198
+"Dyker Library" "8202 13th Ave. ( 82nd St.)" "Brooklyn" "NY" "11228" -74.011543 40.616345
+"East Flatbush Library" "9612 Church Ave. At. Rockaway Pkwy." "Brooklyn" "NY" "11212" -73.9150503 40.6556168
+"Eastern Parkway Learning Center" "1044 Eastern Parkway" "Brooklyn" "NY" "11213" -73.9338405 40.6688876
+"Eastern Parkway Library" "1044 Eastern Pkwy. At Schenectady Ave." "Brooklyn" "NY" "11213" -73.9338405 40.6688876
+"Flatbush Library" "22 Linden Blvd. At Flatbush Ave." "Brooklyn" "NY" "11226" -73.9582713 40.6519152
+"Flatlands Library" "2065 Flatbush Ave. At Ave. P" "Brooklyn" "NY" "11234" -73.9332112 40.6197623
+"Fort Hamilton Library" "9424 Fourth Ave." "Brooklyn" "NY" "11209" -74.0313474 40.6163661
+"Gerritsen Beach Library" "2808 Gerritsen Ave. ( Bartlett Place)" "Brooklyn" "NY" "11229" -73.9256908 40.589674
+"Gravesend Library" "303 Ave. X At West. 2nd St." "Brooklyn" "NY" "11223" -73.9718017 40.5905889
+"Greenpoint Library" "107 Norman Ave. At Leonard St." "Brooklyn" "NY" "11222" -73.9507252 40.726017
+"Highlawn Library" "1664 W. 13th St. At Kings Highway" "Brooklyn" "NY" "11223" -73.9862328 40.6056972
+"Homecrest Library" "2525 Coney Island Ave. At Ave. V" "Brooklyn" "NY" "11223" -73.9605949 40.595231
+"Jamaica Bay Library" "9727 Seaview Ave. At E. 98th St." "Brooklyn" "NY" "11236" -73.889304 40.6344877
+"Kensington Library" "410 Ditmas Ave. Between East 4th East 5th St." "Brooklyn" "NY" "11218" -73.9716266 40.62276
+"Kings Bay Library" "3650 Nostrand Ave. (Near Ave. W)" "Brooklyn" "NY" "11229" -73.9411479 40.5948004
+"Kings Highway Library" "2115 Ocean Ave." "Brooklyn" "NY" "11229" -73.9531128 40.6102427
+"Leonard Library" "81 Devoe St. At Leonard St." "Brooklyn" "NY" "11211" -73.9479543 40.7136562
+"Macon Library" "361 Lewis Ave. At Macon St." "Brooklyn" "NY" "11233" -73.9347867 40.683018
+"Mapleton Library" "1702 60th Street" "Brooklyn" "NY" "11204" -73.989456 40.6231592
+"Marcy Library" "617 Dekalb Ave. At Nostrand Ave." "Brooklyn" "NY" "11216" -73.9512907 40.6916092
+"Mckinley Park Library" "6802 Fort Hamilton Pkwy (At 68th St.)" "Brooklyn" "NY" "11219" -74.0118895 40.6292075
+"Midwood Library" "975 East 16th St. At Avenue J" "Brooklyn" "NY" "11230" -73.9604005 40.625907
+"Mill Basin Library" "2385 Ralph Ave (Near Ave N)" "Brooklyn" "NY" "11234" -73.9169737 40.6198366
+"New Lots Library" "665 New Lots Ave. At Barbey St." "Brooklyn" "NY" "11207" -73.886118 40.6651545
+"New Utrecht Library" "1743 86th St. At Bay 17th St." "Brooklyn" "NY" "11214" -74.0033984 40.6079897
+"Pacific Library" "25 Fourth Ave. At Pacific St." "Brooklyn" "NY" "11217" -73.9785554 40.6834782
+"Paerdegat Library" "850 E. 59th St. At Paerdegat Ave. South" "Brooklyn" "NY" "11234" -73.9199872 40.632631
+"Park Slope Library" "431 6th Ave. At 9th St." "Brooklyn" "NY" "11215" -73.9834295 40.6682254
+"Red Hook Library" "7 Wolcott St. At Dwight St." "Brooklyn" "NY" "11231" -74.0103309 40.675218
+"Rugby Library" "1000 Utica Ave. (Near Tilden Ave.)" "Brooklyn" "NY" "11203" -73.9510752 40.6467978
+"Ryder Library" "5902 23rd Ave. (Bet. 23rd Ave. At 59th St.)" "Brooklyn" "NY" "11204" -73.997939 40.629425
+"Saratoga Library" "8 Thomas S. Boyland St. At Macon St." "Brooklyn" "NY" "11233" -73.9151493 40.6848011
+"Sheepshead Bay Library" "2636 E.14th St. At Ave. Z" "Brooklyn" "NY" "11235" -73.9554271 40.5869957
+"Spring Creek Library" "12143 Flatlands Ave. At New Jersey Ave." "Brooklyn" "NY" "11207" -73.8855726 40.6531559
+"Stone Avenue Library" "581 Mother Gaston Boulevard" "Brooklyn" "NY" "11212" -73.9051607 40.6644738
+"Sunset Park Library" "5108 4th Ave. At 51st St." "Brooklyn" "NY" "11220" -74.0136641 40.6459186
+"Ulmer Park Library" "2602 Bath Ave At 26th Ave" "Brooklyn" "NY" "11214" -73.9886539 40.5926353
+"Walt Whitman Library" "93 Saint Edwards St." "Brooklyn" "NY" "11205" -73.977734 40.6944792
+"Washington Irving Library" "360 Irving Ave." "Brooklyn" "NY" "11237" -73.912237 40.697487
+"Williamsburgh Library" "240 Division Ave. At Marcy Ave." "Brooklyn" "NY" "11211" -73.9575752 40.7069161
+"Windsor Terrace Library" "160 E. 5th St. At Ft. Hamilton Pkwy." "Brooklyn" "NY" "11218" -73.9767736 40.6487139
+"Brownville-Glen Park Library" "216 Brown Boulevard" "Brownville" "NY" "13615" -75.9839973 44.0052091
+"Buffalo Erie County Public Library System" "1 Lafayette Square" "Buffalo" "NY" "14203" -78.8717782 42.885346
+"Crane Branch Library" "633 Elmwood Avenue" "Buffalo" "NY" "14222" -78.8767231 42.9143765
+"Dudley Branch Library" "2010 South Park Avenue" "Buffalo" "NY" "14220" -78.8234187 42.8439741
+"East Clinton Branch Library" "1929 Clinton Street" "Buffalo" "NY" "14206" -78.8051425 42.8716058
+"East Delavan Branch Library" "1187 E. Delavan Avenue" "Buffalo" "NY" "14215" -78.812873 42.9224588
+"Frank E. Merriweather, Jr. Library" "1324 Jefferson Avenue" "Buffalo" "NY" "14208" -78.8544987 42.9113942
+"Niagara Branch Library" "280 Porter Avenue" "Buffalo" "NY" "14201" -78.8918485 42.9018392
+"North Park Branch Library" "975 Hertel Avenue" "Buffalo" "NY" "14216" -78.8720757 42.9473424
+"Riverside Branch Library" "820 Tonawanda Street" "Buffalo" "NY" "14207" -78.9047865 42.9508785
+"Town Of Tonawanda Public Library Kenilworth Branch" "318 Montrose Avenue" "Buffalo" "NY" "14223" -78.829161 42.962064
+"Ballston Community Public Library" "2 Lawmar Lane" "Burnt Hills" "NY" "12027" -73.8908424 42.9095457
+"Cairo Public Library" "512 Main Street" "Cairo" "NY" "12413" -74.0002812 42.3002774
+"Caledonia Library Association" "3108 Main Street" "Caledonia" "NY" "14423" -77.85418 42.972727
+"Western Sullivan Public Library - Delaware Free Branch" "45 Lower Main Street" "Callicoon" "NY" "12723" -75.058909 41.766714
+"Baiting Hollow Free Library" "4 Warner Drive" "Calverton" "NY" "11933" -72.7418878 40.9666916
+"Queens Borough Public Library - Cambria Heights" "218-13 Linden Boulevard" "Cambria Heights" "NY" "11411" -73.741113 40.6957312
+"Cambridge Public Library" "21 West Main Street" "Cambridge" "NY" "12816" -73.3839969 43.027685
+"Camden Library Association" "57 Second Street" "Camden" "NY" "13316" -75.7468955 43.3371475
+"Osceola Public Library" "2117 North Osceola Road" "Camden" "NY" "13316" -75.7217767 43.502006
+"Maxwell Memorial Library" "14 Genesee Street" "Camillus" "NY" "13031" -76.3060971 43.0390756
+"Canajoharie Library And Art Gallery" "2 Erie Boulevard" "Canajoharie" "NY" "13317" -74.572002 42.907359
+"Bristol Library" "6750 County Road 32" "Canandaigua" "NY" "14424" -77.395137 42.809742
+"Pioneer Library System" "2557 State Rt. 21" "Canandaigua" "NY" "14424" -77.258828 42.9032722
+"Wood Library Association" "134 North Main Street" "Canandaigua" "NY" "14424" -77.2852406 42.891726
+"Essential Club Free Library" "11 Pratt Street" "Canaseraga" "NY" "14822" -77.776193 42.461932
+"Canastota Public Library" "102 West Center Street" "Canastota" "NY" "13032" -75.7554209 43.0784516
+"Candor Free Library" "2 Bank Street" "Candor" "NY" "13743" -76.3415483 42.2323266
+"Wimodaughsian Free Library" "19 West Main Street" "Canisteo" "NY" "14823" -77.606746 42.270969
+"Canton Free Library" "8 Park Street" "Canton" "NY" "13617" -75.169149 44.594969
+"Cape Vincent Community Library" "157 North Real Street" "Cape Vincent" "NY" "13618" -76.338907 44.126111
+"Reed Memorial Library" "1733 Route 6" "Carmel" "NY" "10512" -73.6780365 41.421956
+"Carthage Free Library" "412 Budd Street" "Carthage" "NY" "13619" -75.6093 43.979626
+"Cordelia A. Greene Library" "11 South Main Street" "Castile" "NY" "14427" -78.0509917 42.6316515
+"Castleton Public Library" "85 South Main Street" "Castleton" "NY" "12033" -73.2646076 43.5800841
+"Stewart B. Lang Memorial Library" "2577 East Main Street" "Cato" "NY" "13033" -76.570059 43.16913
+"Catskill Public Library" "1 Franklin Street" "Catskill" "NY" "12414" -73.8643357 42.2178806
+"Cattaraugus Free Library" "21 Main Street" "Cattaraugus" "NY" "14719" -78.868947 42.329659
+"Cazenovia Public Library Society" "100 Albany Street" "Cazenovia" "NY" "13035" -75.8518935 42.9295009
+"Center Moriches Free Public Library" "235 Main Street" "Center Moriches" "NY" "11934" -72.7883147 40.800397
+"Middle Country Public Library" "101 Eastwood Boulevard" "Centereach" "NY" "11720" -73.0799449 40.8648074
+"Central Islip Public Library" "33 Hawthorne Avenue" "Central Islip" "NY" "11722" -73.195152 40.7954336
+"Central Square Library" "637 South Main Street" "Central Square" "NY" "13036" -76.1457735 43.2845227
+"Champlain Memorial Library" "148 Elm Street" "Champlain" "NY" "12919" -73.440573 44.986089
+"Chappaqua Library" "195 South Greeley Avenue" "Chappaqua" "NY" "10514" -73.7731034 41.1550007
+"Chateaugay Memorial Library" "4 John St." "Chateaugay" "NY" "12920" -74.0786092 44.9271775
+"Chatham Public Library" "11 Woodbridge Avenue" "Chatham" "NY" "12037" -73.6025537 42.3618026
+"Lyme Free Library" "12165 Main Street" "Chaumont" "NY" "13622" -76.1280139 44.066037
+"Smith Memorial Library" "21 Miller Avenue" "Chautauqua" "NY" "14722" -79.4659777 42.208682
+"Chazy Public Library" "9633 Route 9" "Chazy" "NY" "12921" -73.4367214 44.8873007
+"Reinstein Memorial Library" "2580 Harlem Road" "Cheektowaga" "NY" "14225" -78.7849181 42.9138302
+"Cherry Valley Memorial Library" "61 Main Street" "Cherry Valley" "NY" "13320" -74.7535665 42.7967337
+"Chester Public Library" "1784 Kings Highway" "Chester" "NY" "10918" -74.2749599 41.3388009
+"Town Of Chester Public Library" "6307 Main St - State Route 9" "Chestertown" "NY" "12817" -73.9393966 41.7980051
+"Sullivan Free Library Of Chittenango" "101 Falls Boulevard" "Chittenango" "NY" "13037" -75.8662294 43.0441557
+"Newman Riga Library" "1 Village Park" "Churchville" "NY" "14428" -77.885063 43.107359
+"Northern Onondaga Public Library" "8686 Knowledge Lane" "Cicero" "NY" "13039" -76.1272017 43.1905837
+"Kellogg Free Library" "5681 Telephone Road Extension" "Cincinnatus" "NY" "13040" -75.8957534 42.5422923
+"Claverack Library" "629 Rt 23b" "Claverack" "NY" "12513" -73.7360352 42.2229692
+"Hawn Memorial Library" "220 John Street" "Clayton" "NY" "13624" -76.0874823 44.2416933
+"Clayville Library Association" "2265 Oneida Street" "Clayville" "NY" "13322" -75.249244 42.97227
+"Clifton-Park Halfmoon Public Library" "475 Moe Road" "Clifton Park" "NY" "12065" -73.7932489 42.8581709
+"Clifton Springs Library" "4 Railroad Avenue" "Clifton Springs" "NY" "14432" -77.1366398 42.9634019
+"Kirkland Town Library" "55 1-2 College Street" "Clinton" "NY" "13323" -75.379029 43.047954
+"Clyde-Savannah Public Library" "204 Glasgow Street" "Clyde" "NY" "14433" -76.867838 43.087763
+"Clymer-French Creek Free Library" "564 Clymer - Sherman Road" "Clymer" "NY" "14724" -79.6299467 42.0214719
+"The Community Library" "110 Union Street" "Cobleskill" "NY" "12043" -74.4834769 42.679027
+"Cohocton Public Library" "15 S. Main St." "Cohocton" "NY" "14826" -77.4944089 42.4982061
+"Cohoes Public Library" "169 Mohawk Street" "Cohoes" "NY" "12047" -73.6994031 42.7719893
+"Julia L. Butterfield Memorial Library" "10 Morris Avenue" "Cold Spring" "NY" "10516" -73.9552058 41.4207802
+"Cold Spring Harbor Laboratory Library And Archives" "1 Bungtown Rd." "Cold Spring Harbor" "NY" "11724" -73.4696137 40.8617084
+"Cold Spring Harbor Village Improvement Society Library" "95 Harbor Rd" "Cold Spring Harbor" "NY" "11724" -73.4607119 40.8661796
+"Queens Borough Public Library - Poppenhusen" "121-23 14 Avenue" "College Point" "NY" "11356" -73.845983 40.7862393
+"Collins Public Library" "2341 Main Street" "Collins" "NY" "14034" -78.919258 42.496057
+"Hepburn Library" "84 Main Street" "Colton" "NY" "13625" -74.938913 44.552947
+"Commack Public Library District" "18 Hauppauge Road" "Commack" "NY" "11725" -73.2937473 40.8289636
+"Constableville Library" "3038 Main Street" "Constableville" "NY" "13325" -75.4286578 43.5654281
+"Village Library Of Cooperstown" "22 Main Street" "Cooperstown" "NY" "13326" -74.922166 42.7001
+"Copiague Memorial Public Library" "50 Deauville Boulevard" "Copiague" "NY" "11726" -73.402263 40.6684899
+"Corfu Free Library" "7 Maple Avenue" "Corfu" "NY" "14036" -78.4033819 42.959855
+"Corinth Free Library" "89 Main Street" "Corinth" "NY" "12822" -73.834009 43.248254
+"Southeast Steuben County Library" "300 Civic Center Plaza Suite 101" "Corning" "NY" "14830" -77.0471363 42.1422215
+"Cornwall Public Library" "395 Hudson Street" "Cornwall" "NY" "12518" -74.0259704 41.4418178
+"Queens Borough Public Library - Corona" "38-23 104 Street" "Corona" "NY" "11368" -73.8621719 40.7508253
+"Queens Borough Public Library - Langston Hughes" "100-01 Northern Boulevard" "Corona" "NY" "11368" -73.8680937 40.7574288
+"Queens Borough Public Library - Lefrak City" "98-30 57 Avenue" "Corona" "NY" "11368" -73.861654 40.737453
+"Cortland Free Library" "32 Church Street" "Cortland" "NY" "13045" -76.1782955 42.5996912
+"Heermance Memorial Library" "1 Ely Street" "Coxsackie" "NY" "12051" -73.797869 42.3513469
+"Cragsmoor Free Library" "355 Cragsmoor Road" "Cragsmoor" "NY" "12420" -74.3866152 41.6688812
+"Clifton Community Library" "7171 State Highway 3" "Cranberry Lake" "NY" "12927" -74.8487211 44.2223255
+"Croghan Free Library" "9794 State Route 812" "Croghan" "NY" "13327" -75.3921533 43.8940648
+"Croton Free Library" "171 Cleveland Drive" "Croton-On-Hudson" "NY" "10520" -73.878571 41.2060872
+"Hammond Library Of Crown Point" "2732 Main Street" "Crown Point" "NY" "12928" -73.426471 43.950845
+"Cuba Circulating Library Association" "39 East Main Street" "Cuba" "NY" "14727" -78.2741665 42.2179081
+"Cutchogue New Suffolk Free Library" "27550 Main Road" "Cutchogue" "NY" "11935" -72.4857266 41.0090937
+"Dannemora Free Library" "1168 Cook Street" "Dannemora" "NY" "12929" -73.7245839 44.721898
+"Dansville Public Library" "200 Main Street" "Dansville" "NY" "14437" -77.6963623 42.5622217
+"Deer Park Public Library" "44 Lake Avenue" "Deer Park" "NY" "11729" -73.3231737 40.7599387
+"Schenectady County Public Library - Quaker Street Branch" "133 Bull St." "Delanson" "NY" "12053" -74.1939712 42.7321967
+"Delevan-Yorkshire Public Library" "28 School Street" "Delevan" "NY" "14042" -78.4788242 42.4914163
+"Cannon Free Library" "40 Elm Street" "Delhi" "NY" "13753" -74.918573 42.274648
+"Bethlehem Public Library" "451 Delaware Avenue" "Delmar" "NY" "12054" -73.841225 42.6196879
+"Depauville Free Library" "32333 County Route 179" "Depauville" "NY" "13632" -76.0703651 44.1372064
+"Deposit Free Library" "159 Front Street" "Deposit" "NY" "13754" -75.425092 42.061162
+"Deruyter Free Library" "736 Utica Street" "Deruyter" "NY" "13052" -75.8841811 42.7581096
+"Dewitt Community Library Assoc., Inc" "3649 Erie Blvd East" "Dewitt" "NY" "13214" -76.0644832 43.0406997
+"Dexter Free Library" "120 East Kirby Street" "Dexter" "NY" "13634" -76.0444771 44.0078529
+"Hillview Free Library" "3717 Lake Shore Drive" "Diamond Point" "NY" "12824" -73.686955 43.4814269
+"Half Hollow Hills Community Public Library" "55 Vanderbilt Parkway" "Dix Hills" "NY" "11746" -73.36039 40.8039597
+"Dobbs Ferry Public Library" "55 Main Street" "Dobbs Ferry" "NY" "10522" -73.8769243 41.0134297
+"Dolgeville-Manheim Public Library" "24 North Main Street" "Dolgeville" "NY" "13329" -74.769874 43.102919
+"The Southworth Library Association" "24 West Main Street" "Dryden" "NY" "13053" -76.2990235 42.4909241
+"Dundee Library" "32 Water Street" "Dundee" "NY" "14837" -76.977588 42.524292
+"Dunkirk Free Library" "536 Central Avenue" "Dunkirk" "NY" "14048" -79.3330327 42.4798375
+"Earlville Free Library" "6 North Main Street" "Earlville" "NY" "13332" -75.5452104 42.7400871
+"Aurora Town Public Library" "550 Main Street" "East Aurora" "NY" "14052" -78.6143037 42.7682389
+"Queens Borough Public Library - East Elmhurst" "95-06 Astoria Boulevard" "East Elmhurst" "NY" "11363" -73.8738709 40.762427
+"East Greenbush Community Library" "10 Community Way" "East Greenbush" "NY" "12061" -73.6955367 42.6192131
+"East Hampton Library" "159 Main Street" "East Hampton" "NY" "11937" -72.191129 40.9579948
+"East Islip Public Library" "381 East Main Street" "East Islip" "NY" "11730" -73.1733349 40.735796
+"East Meadow Public Library" "1886 Front Street" "East Meadow" "NY" "11554" -73.5639929 40.7199401
+"East Rochester Public Library" "111 West Elm Street" "East Rochester" "NY" "14445" -77.4855844 43.1126049
+"East Rockaway Public Library" "477 Atlantic Avenue" "East Rockaway" "NY" "11518" -73.6658062 40.6421601
+"East Syracuse Free Library" "4990 James Street" "East Syracuse" "NY" "13057" -76.073099 43.06979
+"East Williston Public Library" "2 Prospect Street" "East Williston" "NY" "11596" -73.6390026 40.7567587
+"Eastchester Public Library" "11 Oakridge Place" "Eastchester" "NY" "10709" -73.8117878 40.9572344
+"Eden Library" "2901 East Church Street" "Eden" "NY" "14057" -78.889797 42.652145
+"Edmeston Free Library" "6 West Street" "Edmeston" "NY" "13335" -75.244749 42.697882
+"Hepburn Library Of Edwards" "205 Main Street" "Edwards" "NY" "13635" -75.249405 44.327179
+"Elbridge Free Library" "241 East Main Street" "Elbridge" "NY" "13060" -76.4380709 43.03653
+"Sunshine Hall Free Library" "14 Proctor Road" "Eldred" "NY" "12732" -74.8825251 41.5260399
+"Elizabethtown Library Association" "8256 River Street" "Elizabethtown" "NY" "12932" -73.587795 44.2148561
+"Ellenburg Sarah A. Munsil Free Library" "5139 Route 11" "Ellenburg Depot" "NY" "12935" -73.8046386 44.9038981
+"Ellenville Public Library And Museum" "40 Center Street" "Ellenville" "NY" "12428" -74.3972874 41.7181131
+"Ellicottville Memorial Library" "6499 Maples Road" "Ellicottville" "NY" "14731" -78.674759 42.282227
+"Farman Free Library Association Of Ellington" "760 Thornton Road" "Ellington" "NY" "14732" -79.109425 42.218023
+"Ellisburg Free Library" "12117 Nys Route 193" "Ellisburg" "NY" "13636" -76.1285118 43.7362123
+"Elma Public Library" "1860 Bowen Road" "Elma" "NY" "14059" -78.6371765 42.8221006
+"Queens Borough Public Library - Elmhurst" "86-01 Broadway" "Elmhurst" "NY" "11373" -73.8774138 40.7386066
+"Chemung County Library District" "101 East Church Street" "Elmira" "NY" "14901" -76.8061854 42.0909002
+"West Elmira Library" "1231 W. Water St" "Elmira" "NY" "14905" -76.842544 42.077762
+"Elmont Public Library" "700 Hempstead Turnpike" "Elmont" "NY" "11003" -73.6999701 40.7080198
+"Greenburgh Public Library" "300 Tarrytown Road" "Elmsford" "NY" "10523" -73.7941169 41.042173
+"Elwood Public Library" "3027 Jericho Turnpike" "Elwood" "NY" "11731" -73.3231845 40.8394443
+"George F. Johnson Memorial Library" "1001 Park Street" "Endicott" "NY" "13760" -76.0508645 42.0987709
+"Belden Noble Memorial Library Of Essex" "2759 Essex Rd." "Essex" "NY" "12936" -72.4289465 41.3255438
+"Evans Mills Public Library" "8706 Noble Street" "Evans Mills" "NY" "13637" -75.8072691 44.088291
+"Fair Haven Public Library" "14426 South Richmond Ave" "Fair Haven" "NY" "" -76.703217 43.315095
+"Village Of Fair Haven Public Library" "14426 South Richmond Avenue" "Fair Haven" "NY" "13064" -76.703217 43.315095
+"Fairport Public Library" "1 Village Landing" "Fairport" "NY" "14450" -77.4339123 43.1253291
+"Rochester Regional Library Council" "390 Packetts Landing" "Fairport" "NY" "14450" -77.4411996 43.1007135
+"Falconer Public Library" "101 West Main Street" "Falconer" "NY" "14733" -79.199158 42.117635
+"Queens Borough Public Library - Far Rockaway" "1637 Central Avenue" "Far Rockaway" "NY" "11691" -73.7524653 40.6043065
+"Farmingdale Public Library" "116 Merritts Road" "Farmingdale" "NY" "11735" -73.4605096 40.7286065
+"Fayetteville Free Library" "300 Orchard Street" "Fayetteville" "NY" "13066" -76.0068632 43.025735
+"Wide Awake Club Library" "46 West Main St." "Fillmore" "NY" "14735" -78.1135869 42.4660025
+"Alexander Findley Community Library" "2883 North Road" "Findley Lake" "NY" "14736" -79.7316937 42.1230298
+"Fishers Island Library Association" "988 Oriental Avenue" "Fishers Island" "NY" "06390" -71.9998947 41.2592094
+"Blodgett Memorial Library District Of Fishkill" "37 Broad Street" "Fishkill" "NY" "12524" -73.9022869 41.5338393
+"Skene Memorial Library" "1017 Main Street" "Fleischmanns" "NY" "12430" -74.529021 42.156745
+"Floral Park Public Library" "17 Caroline Place" "Floral Park" "NY" "11001" -73.7064185 40.7252218
+"Florida Public Library" "4 Cohen Circle" "Florida" "NY" "10921" -74.356469 41.330837
+"Queens Borough Public Library - Auburndale" "25-55 Francis Lewis Boulevard" "Flushing" "NY" "11358" -73.7963391 40.7737355
+"Queens Borough Public Library - East Flushing" "196-36 Northern Boulevard" "Flushing" "NY" "11358" -73.7843273 40.757557
+"Queens Borough Public Library - Flushing" "41-17 Main Street" "Flushing" "NY" "11355" -73.8288787 40.7578077
+"Queens Borough Public Library - Hillcrest" "187-05 Union Turnpike" "Flushing" "NY" "11366" -73.7819243 40.7292565
+"Queens Borough Public Library - Kew Gardens Hills" "72-33 Vleigh Place" "Flushing" "NY" "11367" -73.820746 40.725927
+"Queens Borough Public Library - Mcgoldrick" "155-06 Roosevelt Av." "Flushing" "NY" "11354" -73.8098333 40.7637473
+"Queens Borough Public Library - Mitchell-Linden" "29-42 Union Street" "Flushing" "NY" "11354" -73.826886 40.7711357
+"Queens Borough Public Library - Pomonok" "158-21 Jewel Avenue" "Flushing" "NY" "11365" -73.8101067 40.7326235
+"Queens Borough Public Library - Queensboro Hill" "60-05 Main Street" "Flushing" "NY" "11355" -73.8254858 40.7429028
+"Frothingham Free Library" "28 West Main Street" "Fonda" "NY" "12068" -74.376459 42.954624
+"Queens Borough Public Library - Forest Hills" "108-19 71 Avenue" "Forest Hills" "NY" "11375" -73.8430593 40.7221239
+"Queens Borough Public Library - North Forest Park" "98-27 Metropolitan Avenue" "Forest Hills" "NY" "11375" -73.8535999 40.7111214
+"Fort Edward Free Library" "23 East Street" "Fort Edward" "NY" "12828" -73.5851163 43.2690636
+"Fort Hunter Free Library" "351 Main Street" "Fort Hunter" "NY" "12069" -74.2774404 42.9413704
+"Fort Plain Free Library" "19 Willett Street" "Fort Plain" "NY" "13339" -74.6221609 42.9321362
+"Frankfort Free Library" "123 South Frankfort Street" "Frankfort" "NY" "13340" -75.0703508 43.0367562
+"Franklin Free Library" "334 Main Street" "Franklin" "NY" "13775" -75.165907 42.338699
+"Franklin Square Public Library" "19 Lincoln Road" "Franklin Square" "NY" "11010" -73.6709579 40.7076852
+"Blount Library" "5 North Main Street" "Franklinville" "NY" "14737" -78.457221 42.338157
+"Darwin R. Barker Library Association" "7 Day Street" "Fredonia" "NY" "14063" -79.3311677 42.4409002
+"Freeport Memorial Library" "144 West Merrick Road" "Freeport" "NY" "11520" -73.586754 40.6535593
+"Queens Borough Public Library - Fresh Meadows" "193-20 Horace Harding Expressway" "Fresh Meadows" "NY" "11365" -73.782242 40.741528
+"Myers Memorial Library" "26 Ivory Street" "Frewsburg" "NY" "14738" -79.1575265 42.05474
+"Friendship Free Library" "40 West Main Street" "Friendship" "NY" "14739" -78.134624 42.207555
+"Fulton Public Library" "160 South First Street" "Fulton" "NY" "13069" -76.4158821 43.319606
+"Galway Public Library" "5264 North Street" "Galway" "NY" "12074" -74.0317847 43.0201892
+"Adelphi University Library" "P.O. Box 701" "Garden City" "NY" "11530" -73.6342954 40.7267682
+"Garden City Public Library" "60 Seventh Street" "Garden City" "NY" "11530" -73.6389379 40.7237212
+"Gardiner Library" "133 Farmers Turnpike" "Gardiner" "NY" "12525" -74.1526555 41.6781512
+"Haverstraw Kings Daughters Public Library - Rosman Center" "10 West Ramapo Road" "Garnerville" "NY" "10923" -74.0053744 41.2010585
+"Alice Curtis Desmond Hamilton Fish Lib" "472 Route 403" "Garrison" "NY" "10524" -73.9424034 41.3764531
+"Wadsworth Library" "24 Center Street" "Geneseo" "NY" "14454" -77.8142703 42.795635
+"Geneva Public Library" "244 Main Street" "Geneva" "NY" "14456" -76.9862001 42.8684622
+"Germantown Library" "31 Palatine Park Road" "Germantown" "NY" "12526" -73.885341 42.135644
+"Gilbertsville Free Library" "19 Commercial Street" "Gilbertsville" "NY" "13776" -75.3260725 42.4714412
+"Glen Cove Public Library" "4 Glen Cove Avenue" "Glen Cove" "NY" "11542" -73.6331532 40.8630349
+"Gold Coast Public Library District" "50 Railroad Avenue" "Glen Head" "NY" "11545" -73.6255257 40.8322177
+"Queens Borough Public Library - Glen Oaks" "256-04 Union Turnpike" "Glen Oaks" "NY" "11004" -73.7154242 40.7455062
+"Queens Borough Public Library - Glendale" "78-60 73 Place" "Glendale" "NY" "11385" -73.8758153 40.7025962
+"Crandall Public Library" "251 Glen Street" "Glens Falls" "NY" "12801" -73.6456276 43.3106903
+"Schenectady County Public Library - Glenville Branch" "20 Glenridge Road" "Glenville" "NY" "12302" -73.9275189 42.8677246
+"Gloversville Public Library" "58 East Fulton Street" "Gloversville" "NY" "12078" -74.3429722 43.0504909
+"Gorham Free Library" "2664 Main Street" "Gorham" "NY" "14461" -77.135351 42.79909
+"Goshen Public Library And Historical Society" "203 Main Street" "Goshen" "NY" "10924" -74.3203104 41.4034308
+"Reading Room Association Of Gouverneur" "60 Church Street" "Gouverneur" "NY" "13642" -75.466878 44.334938
+"Gowanda Free Library" "56 West Main Street" "Gowanda" "NY" "14070" -78.936682 42.462333
+"Grafton Community Library" "2455 Ny Route 2" "Grafton" "NY" "12082" -73.4530748 42.7691361
+"Daniel Pierce Library" "328 Main Street" "Grahamsville" "NY" "12740" -74.5483092 41.8478281
+"Grand Island Memorial Library" "1715 Bedell Road" "Grand Island" "NY" "14072" -78.956565 43.039519
+"Pember Library Museum" "33 West Main Street" "Granville" "NY" "12832" -73.2632094 43.4064192
+"Great Neck Library" "159 Bayview Avenue" "Great Neck" "NY" "11023" -73.7476285 40.7990496
+"Barnard Crossing Branch" "2 Vince Tofany Boulevard" "Greece" "NY" "14612" -77.6992938 43.2571263
+"Moore Memorial Library" "59 Genesee Street" "Greene" "NY" "13778" -75.771884 42.329954
+"Harborfields Public Library" "31 Broadway" "Greenlawn" "NY" "11740" -73.3669 40.8711835
+"Floyd Memorial Library" "539 First Street" "Greenport" "NY" "11944" -72.362489 41.1061135
+"Greenville Public Library" "8 North Street" "Greenville" "NY" "12083" -74.0707314 42.4229704
+"Easton Library" "1074 State Route 40" "Greenwich" "NY" "12834" -73.549869 43.010906
+"Greenwich Free Library" "148 Main Street" "Greenwich" "NY" "12834" -73.502131 43.091045
+"Greenwood Lake Public Library" "79 Waterstone Road" "Greenwood Lake" "NY" "10925" -74.2953649 41.2236244
+"Groton Public Library" "112 East Cortland Street" "Groton" "NY" "13073" -76.366816 42.590461
+"Guilderland Public Library" "2228 Western Avenue" "Guilderland" "NY" "12084" -73.9049614 42.7002313
+"Haines Falls Free Library" "52 County Route 18" "Haines Falls" "NY" "12436" -74.0969555 42.1965984
+"Hamburg Library" "102 Buffalo Street" "Hamburg" "NY" "14075" -78.8297052 42.718916
+"Hamilton Public Library" "13 Broad Street" "Hamilton" "NY" "13346" -75.5429155 42.8264962
+"Hamlin Public Library" "422 Hamlin Clarkson Tl Rd." "Hamlin" "NY" "14464" -77.92142 43.2845299
+"Town Of Hamlin Library" "422 Clarkson Hamlin Tl Road" "Hamlin" "NY" "14464" -77.8228595 43.3092229
+"Hammond Free Library" "17 Main Street" "Hammond" "NY" "13646" -75.694461 44.449497
+"Fred And Harriet Taylor Memorial Library" "21 William Street" "Hammondsport" "NY" "14840" -77.2207339 42.410175
+"Hampton Bays Public Library" "52 Ponquogue Avenue" "Hampton Bays" "NY" "11946" -72.5204971 40.8729637
+"Louise Adelia Read Memorial Library" "104 Read Street" "Hancock" "NY" "13783" -75.2809924 41.9557375
+"Hannibal Free Library" "162 Oswego Street" "Hannibal" "NY" "13074" -76.578554 43.322239
+"Harrison Public Library" "2 Bruce Avenue" "Harrison" "NY" "10528" -73.7121607 40.970864
+"Harrisville Free Library" "8209 Main Street" "Harrisville" "NY" "13648" -75.3160089 44.148808
+"Kinney Memorial Library" "3140 County Route 11" "Hartwick" "NY" "13348" -75.049487 42.6598097
+"Hauppauge Public Library" "601 Veterans Memorial Hwy." "Hauppauge" "NY" "11788" -73.2086456 40.8239225
+"Haverstraw Kings Daughters Public Library - Village Branch" "85 Main Street" "Haverstraw" "NY" "10927" -73.9606312 41.1965694
+"Hempstead Public Library" "115 Nichols Court" "Hempstead" "NY" "11550" -73.6221687 40.7103609
+"Henderson Free Library" "8939 Nys Route 178" "Henderson" "NY" "13650" -76.1801579 43.8431416
+"Frank J. Basloe Library Of Herkimer, New York" "245 North Main Street" "Herkimer" "NY" "13350" -74.9888409 43.027397
+"Hepburn Library Of Hermon" "105 Main Street" "Hermon" "NY" "13652" -75.230071 44.46745
+"Heuvelton Free Library" "57 State Street" "Heuvelton" "NY" "13654" -75.407835 44.618675
+"Hewlett-Woodmere Public Library" "1125 Broadway" "Hewlett" "NY" "11557" -73.7044787 40.6338462
+"Hicksville Free Public Library" "169 Jerusalem Avenue" "Hicksville" "NY" "11801" -73.5230156 40.7620628
+"Highland Public Library" "30 Church Street" "Highland" "NY" "12528" -73.9653995 41.719892
+"Highland Falls Library" "298 Main Street" "Highland Falls" "NY" "10928" -73.9652473 41.3704165
+"Woodbury Public Library" "16 County Route 105" "Highland Mills" "NY" "10930" -74.1279745 41.3468048
+"Roeliff Jansen Community Library Association" "2609 Route 23" "Hillsdale" "NY" "12529" -73.5221346 42.1798514
+"Parma Public Library" "7 West Avenue" "Hilton" "NY" "14468" -77.7932223 43.2878404
+"Akwesasne Cultural Center, Inc." "321 State Route 37" "Hogansburg" "NY" "13655" -74.6969557 44.9782137
+"Sachem Public Library" "150 Holbrook Road" "Holbrook" "NY" "11741" -73.0809674 40.8231637
+"Holland Patent Free Library" "9580 Main Street" "Holland Patent" "NY" "13354" -75.2540028 43.243278
+"Community Free Library" "86 Public Square" "Holley" "NY" "14470" -78.025176 43.2254409
+"Queens Borough Public Library - Hollis" "202-05 Hillside Avenue" "Hollis" "NY" "11423" -73.7621103 40.7199592
+"Phillips Free Library" "37 South Main Street" "Homer" "NY" "13077" -76.178222 42.635686
+"Honeoye Public Library" "8708 Main St." "Honeoye" "NY" "14471" -77.514576 42.79018
+"Mendon Public Library" "22 North Main Street" "Honeoye Falls" "NY" "14472" -77.5914455 42.954062
+"Town Of Mendon Public Library" "15 Monroe Street" "Honeoye Falls" "NY" "14472" -77.591773 42.953902
+"Cheney Library" "77 Classic Street" "Hoosick Falls" "NY" "12090" -73.3487298 42.9021289
+"Beekman Library" "11town Center Blvd" "Hopewell Junction" "NY" "12533" -73.6933963 41.6307397
+"East Fishkill Public Library District" "348 Route 376" "Hopewell Junction" "NY" "12533" -73.8067174 41.5743514
+"Hornell Public Library" "64 Genesee Street" "Hornell" "NY" "14843" -77.657413 42.328214
+"Howard Public Library" "3607 County Route 70a" "Hornell" "NY" "14843" -77.5093512 42.3641688
+"Horseheads Free Library" "405 S. Main St." "Horseheads" "NY" "14845" -76.8190043 42.1651934
+"Queens Borough Public Library - Howard Beach" "92-06 156 Avenue" "Howard Beach" "NY" "11414" -73.8418181 40.6638022
+"Hudson Area Association Library" "400 State Street" "Hudson" "NY" "12534" -73.786846 42.252552
+"Hudson Falls Free Library Association" "220 Main Street" "Hudson Falls" "NY" "12839" -73.5845095 43.3029555
+"Hunter Public Library" "6361 Main Street" "Hunter" "NY" "12442" -74.1502326 42.1954856
+"Huntington Public Library" "338 Main Street" "Huntington" "NY" "11743" -73.4300972 40.8705012
+"South Huntington Public Library" "145 Pidgeon Hill Road" "Huntington Statio" "NY" "11746" -73.391262 40.8225771
+"Huntington Public Library - Station Branch" "1335 New York Avenue" "Huntington Station" "NY" "11746" -73.4119666 40.8506092
+"Hurley Library District" "44 Main Street" "Hurley" "NY" "12443" -74.063926 41.925329
+"Hyde Park Free Library" "2 Main Street" "Hyde Park" "NY" "12538" -73.93601 41.79009
+"Ilion Free Public Library" "78 West Street" "Ilion" "NY" "13357" -75.0392953 43.0137834
+"Town Of Indian Lake Public Library" "p.o. box 778" "Indian Lake" "NY" "12842" -74.2653667 43.7824501
+"Town Of Inlet Public Library" "164 North Route 28" "Inlet" "NY" "13360" -74.794899 43.751432
+"Interlaken Public Library" "8390 Main Street" "Interlaken" "NY" "14847" -76.725538 42.6178389
+"Seneca Nation Of Indians Library Cattaraugus Territory" "3 Thomas Indian School Drive" "Irving" "NY" "14081" -78.9981837 42.5392323
+"Irvington Pub Lib Guiteau Foundation" "12 South Astor Street" "Irvington" "NY" "10533" -73.8726406 41.0394249
+"Island Park Public Library" "176 Long Beach Road" "Island Park" "NY" "11558" -73.6561452 40.6021842
+"Islip Public Library" "71 Monell Avenue" "Islip" "NY" "11751" -73.213677 40.7267356
+"Finger Lakes Library System" "119 E. Green St." "Ithaca" "NY" "14850" -76.4986229 42.438622
+"Tompkins County Public Library" "101 E Green Street" "Ithaca" "NY" "14850" -76.498283 42.438182
+"Queens Borough Public Library - Jackson Heights" "35-51 81 Street" "Jackson Heights" "NY" "11372" -73.8850957 40.7501579
+"Queens Borough Public Library - Baisley Park" "117-11 Sutphin Boulevard" "Jamaica" "NY" "11436" -73.808212 40.702528
+"Queens Borough Public Library - Central Library" "89-11 Merrick Boulevard" "Jamaica" "NY" "11432" -73.7952485 40.7078133
+"Queens Borough Public Library - Rochdale Village" "169-09 137 Avenue" "Jamaica" "NY" "11434" -73.7706076 40.6728801
+"Queens Borough Public Library - South Jamaica" "108-41 Guy R. Brewer Boulevard" "Jamaica" "NY" "11433" -73.7905006 40.6955751
+"Chautauqua-Cattaraugus Library System" "106 West Fifth Street" "Jamestown" "NY" "14701" -79.2440191 42.0977553
+"Fluvanna Free Library" "3532 Fluvanna Avenue Extension" "Jamestown" "NY" "14701" -79.2353259 42.0970023
+"Hazeltine Public Library" "891 Busti-Sugar Grove Road" "Jamestown" "NY" "14701" -79.284181 42.037888
+"James Prendergast Library Association" "509 Cherry Street" "Jamestown" "NY" "14701" -79.2438798 42.0981907
+"Jasper Free Library" "3807 Library Street" "Jasper" "NY" "14855" -77.5030413 42.122571
+"Western Sullivan Public Library - Jeffersonville Branch" "19 Center Street" "Jeffersonville" "NY" "12748" -74.9362045 41.7809109
+"Jericho Public Library" "1 Merry Lane" "Jericho" "NY" "11753" -73.535124 40.7935972
+"Your Home Public Library" "107 Main Street" "Johnson City" "NY" "13790" -75.9492723 42.1132337
+"Johnstown Public Library" "38 South Market Street" "Johnstown" "NY" "12095" -74.3722149 43.0045613
+"Jordan Bramley Library" "15 Mechanic Street" "Jordan" "NY" "13080" -76.4708075 43.0655344
+"Jordanville Public Library" "189 Main Street" "Jordanville" "NY" "13361" -75.0917623 42.9321126
+"Katonah Village Library" "26 Bedford Road" "Katonah" "NY" "10536" -73.6849333 41.258403
+"Keene Public Library" "p.o. box 206" "Keene" "NY" "12942" -73.7920851 44.2561582
+"Keene Valley Public Library" "1796 Main Street" "Keene Valley" "NY" "12943" -73.7107727 40.6253474
+"Keeseville Free Library" "1721 Front Street" "Keeseville" "NY" "12944" -73.480613 44.504361
+"Kenmore Branch" "160 Delaware Road" "Kenmore" "NY" "14217" -78.8685388 42.9666568
+"Kennedy Free Library" "3593 Church Street" "Kennedy" "NY" "14747" -79.101395 42.158207
+"Kent Public Library" "17 Sybils Crossing" "Kent Lakes" "NY" "10512" -73.6704734 41.4799572
+"Kinderhook Memorial Library" "18 Hudson Street" "Kinderhook" "NY" "12106" -73.697383 42.393988
+"Kingston Library" "55 Franklin Street" "Kingston" "NY" "12401" -74.0107277 41.9297705
+"Town Of Ulster Public Library" "860 Ulster Avenue" "Kingston" "NY" "12401" -73.9938822 41.9546291
+"Lackawanna Public Library" "560 Ridge Road" "Lackawanna" "NY" "14218" -78.8309224 42.8262111
+"Orleans Public Library" "36263 Nys Route 180" "Lafargeville" "NY" "13656" -74.0059413 40.7127837
+"Lafayette Public Library" "2577 Route 11 North" "Lafayette" "NY" "13084" -76.1066721 42.8967468
+"Caldwell-Lake George Library" "336 Canada Street" "Lake George" "NY" "12845" -73.711766 43.426668
+"Hadley-Luzerne Public Library" "19 Main Street" "Lake Luzerne" "NY" "12846" -73.841978 43.318117
+"Lake Placid Public Library" "2471 Main Street" "Lake Placid" "NY" "12946" -73.984914 44.289167
+"Lakewood Memorial Library" "12 West Summit Street" "Lakewood" "NY" "14750" -79.3277842 42.1039724
+"Lancaster Public Library" "5466 Broadway" "Lancaster" "NY" "14086" -78.6677875 42.9001471
+"Lansing Community Library" "27 Auburn Rd" "Lansing" "NY" "14882" -76.502908 42.5377126
+"Larchmont Public Library" "121 Larchmont Avenue" "Larchmont" "NY" "10538" -73.7509554 40.9275031
+"Queens Borough Public Library - Laurelton" "134-26 225 Street" "Laurelton" "NY" "11413" -73.745699 40.676964
+"Peninsula Public Library" "280 Central Avenue" "Lawrence" "NY" "11559" -73.732167 40.6166822
+"Woodward Memorial Library" "7 Wolcott Street" "Leroy" "NY" "14482" -77.9875017 42.9770193
+"Island Trees Public Library" "38 Farmedge Road" "Levittown" "NY" "11756" -73.4992954 40.7360037
+"Levittown Public Library" "1 Bluegrass Lane" "Levittown" "NY" "11756" -73.5296919 40.723237
+"Lewiston Public Library" "305 South Eighth Street" "Lewiston" "NY" "14092" -79.0372088 43.1690805
+"Liberty Public Library" "189 North Main Street" "Liberty" "NY" "12754" -74.7475172 41.8042351
+"Lima Public Library" "1872 Genesee Street" "Lima" "NY" "14485" -77.614452 42.905676
+"Hepburn Library Of Lisbon" "6899 County Route 10" "Lisbon" "NY" "13658" -75.3210094 44.7244942
+"Lisle Free Library" "8998 Main Street" "Lisle" "NY" "13797" -76.0026649 42.3512
+"Little Falls Public Library" "10 Waverly Place" "Little Falls" "NY" "13365" -74.8537895 43.0450033
+"Genesee Library" "8351 Main Street" "Little Genesee" "NY" "14754" -78.210023 42.023523
+"Queens Borough Public Library - Douglaston-Little Neck" "249-01 Northern Boulevard" "Little Neck" "NY" "11363" -73.738255 40.768206
+"Queens Borough Public Library - North Hills" "57-04 Marathon Parkway" "Little Neck" "NY" "11362" -73.7318109 40.7592519
+"Memorial Library Of Little Valley" "110 Rock City Street" "Little Valley" "NY" "14755" -78.7977028 42.249041
+"Liverpool Public Library" "310 Tulip Street" "Liverpool" "NY" "13088" -76.2078621 43.1027737
+"Livingston Free Library" "90 Old Post Road" "Livingston" "NY" "12541" -73.7773457 42.1436039
+"Livingston Manor Free Library" "92 Main Street" "Livingston Manor" "NY" "12758" -74.8301515 41.8992059
+"Livonia Public Library" "2 Washington Street" "Livonia" "NY" "14487" -77.667515 42.821991
+"Lockport Public Library" "23 East Avenue" "Lockport" "NY" "14094" -78.6877162 43.1715541
+"Locust Valley Library" "170 Buckram Road" "Locust Valley" "NY" "11560" -73.5909403 40.8782079
+"Lodi Whittier Library" "2155 East Seneca Street" "Lodi" "NY" "14860" -76.8224052 42.6142058
+"Long Beach Public Library" "111 West Park Avenue" "Long Beach" "NY" "11561" -73.6675234 40.5888822
+"Briarcliffe College Library - Queens" "30-30 Thomson Ave., Suite 502" "Long Island City" "NY" "11101" -73.9358808 40.744674
+"Queens Borough Public Library - Broadway" "40-20 Broadway" "Long Island City" "NY" "11103" -73.9186052 40.7584821
+"Queens Borough Public Library - Court Square" "25-01 Jackson Avenue" "Long Island City" "NY" "11101" -73.9443527 40.7472594
+"Queens Borough Public Library - Long Island City" "37-44 21 Street" "Long Island City" "NY" "11101" -73.9393048 40.7578145
+"Queens Borough Public Library - Queensbridge Family Literacy Center" "10-43 41 Ave" "Long Island City" "NY" "11101" -73.944168 40.7550159
+"Queens Borough Public Library - Ravenswood Family Literacy Center" "35-32 21 St." "Long Island City" "NY" "11106" -73.9364173 40.7606871
+"Queens Borough Public Library - Sunnyside" "43-06 Greenpoint Avenue" "Long Island City" "NY" "11104" -73.9216715 40.7408133
+"Cornelius Vanderbilt Whitney Long Lake Library" "1195 Main Street" "Long Lake" "NY" "12847" -74.420871 43.972102
+"William K Sanford Town Library" "629 Albany Shaker Road" "Loudonville" "NY" "12211" -73.7798415 42.7096965
+"Lowville Free Library" "5387 Dayan Street" "Lowville" "NY" "13367" -75.4938806 43.7866127
+"Lynbrook Public Library" "56 Eldert Street" "Lynbrook" "NY" "11563" -73.6741439 40.6541611
+"Yates Community Library" "15 North Main Street" "Lyndonville" "NY" "14098" -78.389274 43.321542
+"Lyons Public Library" "122 Broad Street" "Lyons" "NY" "14489" -76.990689 43.068816
+"Lyons Falls Library" "3918 High Street" "Lyons Falls" "NY" "13368" -75.360412 43.616919
+"King Memorial Library" "9538 Rt. 16" "Machias" "NY" "14101" -78.4921738 42.4134948
+"Hepburn Library Of Madrid" "11 Church Street" "Madrid" "NY" "13660" -75.133906 44.748442
+"Mahopac Public Library" "668 Route 6" "Mahopac" "NY" "10541" -73.7305645 41.3735529
+"The Wead Library, The Malone Central School District Public" "64 Elm Street" "Malone" "NY" "12953" -74.2893874 44.8512683
+"Malverne Public Library" "61 St. Thomas Place" "Malverne" "NY" "11565" -73.6713159 40.6760771
+"Mamaroneck Public Library District" "102 Mamaroneck Ave." "Mamaroneck" "NY" "10543" -73.7331397 40.9489768
+"Manhasset Public Library" "30 Onderdonk Avenue" "Manhasset" "NY" "11030" -73.6947487 40.7934854
+"Manlius Library" "1 Arkie Albanese Avenue" "Manlius" "NY" "13104" -75.9849471 43.0034937
+"Mannsville Free Library" "108 Lilac Park Drive" "Mannsville" "NY" "13661" -76.0638897 43.7124026
+"Peck Memorial Library" "24 Main Street" "Marathon" "NY" "13803" -76.0331269 42.441014
+"Marcellus Free Library" "32 Maple Street" "Marcellus" "NY" "13108" -76.3365186 42.9856079
+"Fairview Public Library" "43 Walnut Street" "Margaretville" "NY" "12455" -74.64969 42.14849
+"Marilla Free Library" "11637 Bullis Road" "Marilla" "NY" "14102" -78.553518 42.839874
+"Marion Public Library" "4036 Maple Avenue" "Marion" "NY" "14505" -77.188162 43.1424429
+"Marlboro Free Library" "1251 Route 9w" "Marlboro" "NY" "12542" -73.9730766 41.6025605
+"William H. Bush Memorial Library" "5605 Whitaker Road" "Martinsburg" "NY" "13404" -75.4678626 43.7377306
+"Queens Borough Public Library - Maspeth" "69-70 Grand Avenue" "Maspeth" "NY" "11378" -73.8930921 40.7269804
+"Plainedge Public Library" "1060 Hicksville Road" "Massapequa" "NY" "11758" -73.4824189 40.708812
+"Massapequa Public Library" "40 Harbor Lane" "Massapequa Park" "NY" "11762" -73.4562174 40.6639587
+"Massena Public Library" "41 Glenn Street" "Massena" "NY" "13662" -74.891023 44.9311
+"Mattituck-Laurel Library" "13900 Main Road" "Mattituck" "NY" "11952" -72.530166 40.991925
+"Salina Free Library" "100 Belmont St." "Mattydale" "NY" "13211" -76.150205 43.100073
+"Mayville Library" "92 South Erie Street" "Mayville" "NY" "14757" -79.50094 42.251983
+"Lamont Memorial Free Library" "5 Main Street" "Mcgraw" "NY" "13101" -76.0943489 42.596155
+"Mechanicville District Public Library" "190 North Main Street" "Mechanicville" "NY" "12118" -73.6832264 42.9088394
+"Lee-Whedon Memorial Library" "620 West Avenue" "Medina" "NY" "14103" -78.3895312 43.2177086
+"Menands Public Library" "4 North Lyons Avenue" "Menands" "NY" "12204" -73.7292167 42.6935262
+"Merrick Library" "2279 Merrick Avenue" "Merrick" "NY" "11566" -73.5510563 40.6617576
+"Mexico Public Library" "3269 Main Street" "Mexico" "NY" "13114" -76.2294654 43.4594232
+"Longwood Public Library" "800 Middle Country Road" "Middle Island" "NY" "11953" -72.9438073 40.8822367
+"Queens Borough Public Library - Middle Village" "72-31 Metropolitan Avenue" "Middle Village" "NY" "11379" -73.8808903 40.7129338
+"Middleburgh Library" "323 Main Street" "Middleburgh" "NY" "12122" -74.3356492 42.5982464
+"Middleport Free Library" "9 Vernon Street" "Middleport" "NY" "14105" -78.4748399 43.2144988
+"Ramapo Catskill Library System" "619 Rte 17m" "Middletown" "NY" "10940" -74.416013 41.474317
+"Thrall Public Library District Of Middletown And Wallkill" "11-19 Depot Street" "Middletown" "NY" "10940" -74.4205309 41.4470746
+"Middleville Free Library" "1 South Main Street" "Middleville" "NY" "13406" -74.9690324 43.1389134
+"Milford Free Library" "64 South Main Street" "Milford" "NY" "13807" -74.9467436 42.5882187
+"Millbrook Free Library" "3 Friendly Lane" "Millbrook" "NY" "12545" -73.6922598 41.7855866
+"North East- Millerton Library" "75 Main Street" "Millerton" "NY" "12546" -73.507256 41.953454
+"Sarah Hull Hallock Free Library" "56-58 Main Street" "Milton" "NY" "12547" -73.957829 41.6594495
+"Mineola Memorial Library" "195 Marcellus Road" "Mineola" "NY" "11501" -73.6466179 40.7440353
+"Minoa Library" "242 N. Main Street" "Minoa" "NY" "13116" -76.0004677 43.0773862
+"Plattekill Public Library" "2047 Route 32" "Modena" "NY" "12548" -74.1076974 41.6645989
+"Weller Library" "41 West Main Street" "Mohawk" "NY" "13407" -75.0084544 43.0107442
+"Monroe Free Library" "44 Millpond Parkway" "Monroe" "NY" "10950" -74.1903984 41.3328737
+"Montauk Library" "871 Montauk Highway" "Montauk" "NY" "11954" -71.9397072 41.0387709
+"Montgomery Free Library" "133 Clinton Street" "Montgomery" "NY" "12549" -74.236691 41.5262147
+"Ethelbert B. Crawford Public Library" "393 Broadway" "Monticello" "NY" "12701" -74.6827235 41.6531961
+"Montour Falls Memorial Library" "406 Main Street" "Montour Falls" "NY" "14865" -76.847121 42.346904
+"Hendrick Hudson Free Library" "185 Kings Ferry Road" "Montrose" "NY" "10548" -73.9464677 41.2503906
+"Mooers Free Library" "2430 Route 11, Main Street" "Mooers" "NY" "12958" -73.5804758 44.9601239
+"Powers Library" "29 Church Street" "Moravia" "NY" "13118" -76.4184329 42.711038
+"Village Library Of Morris" "152 Main Street" "Morris" "NY" "13808" -75.2503498 42.5463871
+"Morrisville Public Library" "87 East Main Street" "Morrisville" "NY" "13408" -75.642295 42.899166
+"Mount Kisco Public Library" "55 Maple Avenue" "Mount Kisco" "NY" "10549" -73.730752 41.207374
+"Mount Morris Library" "121 Main Street" "Mount Morris" "NY" "14510" -77.87243 42.723598
+"Mount Vernon Public Library" "28 South First Avenue" "Mount Vernon" "NY" "10550" -73.8341019 40.9105828
+"Mumford Branch Library" "883 George Street" "Mumford" "NY" "" -77.861177 42.991888
+"Nanuet Public Library" "149 Church Street" "Nanuet" "NY" "10954" -73.9997259 41.0898065
+"Naples Library" "118 South Main Street" "Naples" "NY" "14512" -77.402343 42.6161249
+"Western Sullivan Public Library - Tusten-Cochecton Branch" "198 Bridge Street" "Narrowsburg" "NY" "12764" -75.0554007 41.6061597
+"Nassau Free Library" "18 Church Street" "Nassau" "NY" "12123" -73.608135 42.515161
+"New Berlin Library" "15 South Main Street" "New Berlin" "NY" "13411" -75.332299 42.6242297
+"Library Association Of Rockland County" "P.O. Box 917" "New City" "NY" "10956" -73.989306 41.1475954
+"New City Free Library" "220 North Main Street" "New City" "NY" "10956" -73.9881378 41.1583345
+"New Hartford Public Library" "2 Library Lane" "New Hartford" "NY" "13413" -75.2827759 43.0615386
+"Hillside Public Library Of New Hyde Park" "155 Lakeville Road" "New Hyde Park" "NY" "11040" -73.6882214 40.7344541
+"New Lebanon Library" "550 Route 20" "New Lebanon" "NY" "12125" -73.3944701 42.4656683
+"Elting Memorial Library" "93 Main Street" "New Paltz" "NY" "12561" -74.0848078 41.7485091
+"New Woodstock Free Library" "2106 Main Street" "New Woodstock" "NY" "13122" -75.855698 42.847792
+"115th Street Library" "203 West 115th Street" "New York" "NY" "10026" -73.9535359 40.8029812
+"125th Street Library" "224 East 125th Street" "New York" "NY" "10035" -73.9349846 40.8030695
+"58th Street Library" "127 East 58th Street" "New York" "NY" "10022" -73.969306 40.7619724
+"67th Street Library" "328 East 67th Street" "New York" "NY" "10065" -73.9595554 40.7649133
+"96th Street Library" "112 East 96th Street" "New York" "NY" "10128" -73.951815 40.7859538
+"Aguilar Library" "174 East 110th Street" "New York" "NY" "10029" -73.943436 40.7942325
+"Andrew Heiskell Braille And Talking Book Library" "40 West 20th Street" "New York" "NY" "10011" -73.9933594 40.7404679
+"Battery Park City Library" "175 North End Avenue" "New York" "NY" "10282" -74.0158532 40.7156137
+"Bloomingdale Library" "150 West 100th Street" "New York" "NY" "10025" -73.9675932 40.7958544
+"Chatham Square Library" "33 East Broadway" "New York" "NY" "10002" -73.9964916 40.7133319
+"Columbus Library" "742 10th Avenue" "New York" "NY" "10019" -73.991217 40.7649393
+"Countee Cullen Library" "104 West 136th Street" "New York" "NY" "" -73.9412121 40.8147421
+"Epiphany Library" "228 East 23rd Street" "New York" "NY" "10010" -73.982094 40.7381356
+"Fort Washington Library" "535 West 179th Street" "New York" "NY" "10033" -73.9338487 40.8479016
+"George Bruce Library" "518 West 125th Street" "New York" "NY" "10027" -73.9570813 40.8137977
+"Grand Central Library" "135 East 46th Street" "New York" "NY" "10017" -73.9735422 40.7538568
+"Hamilton Fish Park Library" "415 East Houston Street" "New York" "NY" "10002" -73.9796204 40.719371
+"Hamilton Grange Library" "503 West 145th Street" "New York" "NY" "10031" -73.9480141 40.8257276
+"Harlem Library" "9 West 124th Street" "New York" "NY" "10027" -73.9432935 40.8061876
+"Hudson Park Library" "66 Leroy Street" "New York" "NY" "10014" -74.0053193 40.7299913
+"Inwood Library" "4790 Broadway" "New York" "NY" "10034" -73.9258252 40.8657488
+"Jefferson Market Library" "425 Avenue Of The Americas" "New York" "NY" "10011" -73.999148 40.7345794
+"Kips Bay Library" "446 Third Avenue" "New York" "NY" "10016" -73.9799163 40.743833
+"Macombs Bridge Library" "2650 Adam Clayton Powell, Jr. Blvd." "New York" "NY" "10039" -73.936181 40.8257732
+"Mid-Manhattan Library" "455 Fifth Avenue" "New York" "NY" "10016" -73.9817055 40.7518863
+"Morningside Heights" "2900 Broadway" "New York" "NY" "10025" -73.9647098 40.8060839
+"Muhlenberg Library" "209 West 23rd Street" "New York" "NY" "10011" -73.9959596 40.7445045
+"Mulberry Street Library" "10 Jersey Street" "New York" "NY" "10012" -73.995619 40.7240336
+"New Amsterdam Library" "9 Murray Street" "New York" "NY" "10007" -74.0079468 40.7136425
+"New York Public Library For The Performing Arts, Dorothy And Lewis B. Cullman Center" "40 Lincoln Center Plaza" "New York" "NY" "10023" -73.984202 40.7727831
+"Ottendorfer Library" "135 Second Avenue" "New York" "NY" "10003" -73.9877994 40.7289895
+"Riverside Library" "127 Amsterdam Avenue" "New York" "NY" "10023" -73.9845171 40.7742272
+"Roosevelt Island Library" "524 Main Street" "New York" "NY" "10044" -73.9502064 40.7612182
+"Schomburg Center For Research In Black Culture" "515 Malcolm X Boulevard" "New York" "NY" "10037" -73.9409435 40.8144794
+"Science, Industry And Business Library" "188 Madison Avenue 34th Street" "New York" "NY" "10016" -73.9457533 40.6509676
+"Seward Park Library" "192 East Broadway" "New York" "NY" "10002" -73.9885345 40.7144619
+"St. Agnes Library" "444 Amsterdam Avenue" "New York" "NY" "10024" -73.9774581 40.7848436
+"Terence Cardinal Cooke-Cathedral Library" "560 Lexington Avenue" "New York" "NY" "10022" -73.972596 40.7568378
+"Tompkins Square Library" "331 East 10th Street" "New York" "NY" "10009" -73.9804103 40.7272833
+"Washington Heights Library" "1000 St. Nicholas Avenue" "New York" "NY" "10032" -73.9396558 40.8345193
+"Webster Library" "1465 York Avenue" "New York" "NY" "10021" -73.9513239 40.7706452
+"Yorkville Library" "222 East 79th Street" "New York" "NY" "10021" -73.9564059 40.773613
+"New York Mills Public Library" "399 Main Street" "New York Mills" "NY" "13417" -75.2931506 43.1033146
+"Newark Public Library" "121 High Street" "Newark" "NY" "14513" -77.0973412 43.0447036
+"Tappan-Spaulding Memorial Library" "6 Rock Street" "Newark Valley" "NY" "13811" -76.1835439 42.2235724
+"Newburgh Free Library" "124 Grand Street" "Newburgh" "NY" "12550" -74.0085657 41.5039562
+"Newfane Free Library" "2761 Maple Avenue" "Newfane" "NY" "14108" -78.705323 43.281397
+"Newfield Public Library" "198 Main Street" "Newfield" "NY" "14867" -76.591775 42.36194
+"Newport Free Library" "7390 Main Street" "Newport" "NY" "13416" -75.012356 43.182891
+"Niagara Falls Public Library" "1425 Main Street" "Niagara Falls" "NY" "14305" -79.0512207 43.1025716
+"George P. Susan Platt Cady Library" "42 River Street" "Nichols" "NY" "13812" -76.366147 42.02226
+"Nineveh Pub Lib Of Colesville Township" "3029 Ny State Hwy 7" "Nineveh" "NY" "13813" -75.602811 42.194046
+"Schenectady County Public Library - Niskayuna Branch" "2400 Nott Street East" "Niskayuna" "NY" "12309" -73.8852672 42.81799
+"Hepburn Library Of Norfolk" "1 Hepburn Street" "Norfolk" "NY" "13667" -74.990892 44.800616
+"North Babylon Public Library" "815 Deer Park Avenue" "North Babylon" "NY" "11703" -73.3223617 40.7246179
+"North Bellmore Public Library" "1551 Newbridge Road" "North Bellmore" "NY" "11710" -73.539699 40.6830806
+"North Chatham Free Library" "4286 State Route 203" "North Chatham" "NY" "12132" -73.6323271 42.4740483
+"North Collins Library" "2095 School Street" "North Collins" "NY" "14111" -78.936173 42.597997
+"Town Of Johnsburg Library" "219 Main Street" "North Creek" "NY" "12853" -73.986241 43.697323
+"North Merrick Public Library" "1691 Meadowbrook Road" "North Merrick" "NY" "11566" -73.5680616 40.6764124
+"Ruth Keeler Memorial Library" "276 Titicus Road" "North Salem" "NY" "10560" -73.59726 41.330456
+"North Tonawanda Public Library" "505 Meadow Drive" "North Tonawanda" "NY" "14120" -78.867616 43.0515649
+"Northport Public Library" "151 Laurel Avenue" "Northport" "NY" "11768" -73.3375396 40.8960261
+"Northville Public Library" "341 South Third Street" "Northville" "NY" "12134" -74.174812 43.221733
+"Guernsey Memorial Library Of Norwich" "3 Court Street" "Norwich" "NY" "13815" -75.5255401 42.5313351
+"Norwood Library" "1 Morton Street" "Norwood" "NY" "13668" -74.9956127 44.7526611
+"Bell Memorial Library" "16 East Street" "Nunda" "NY" "14517" -77.941127 42.580474
+"Nyack Library" "59 South Broadway" "Nyack" "NY" "10960" -73.9184605 41.088628
+"Haxton Memorial Library" "3 North Pearl Street" "Oakfield" "NY" "14125" -78.2700404 43.0664533
+"Oceanside Library" "30 Davison Avenue" "Oceanside" "NY" "11572" -73.6385224 40.6415417
+"Dutton S. Peterson Memorial Library" "106 First St." "Odessa" "NY" "14869" -76.7894537 42.3359483
+"Ogdensburg Public Library" "312 Washington Street" "Ogdensburg" "NY" "13669" -75.493556 44.699495
+"Old Forge Library" "220 Crosby Boulevard" "Old Forge" "NY" "13420" -74.973512 43.711323
+"Olean Public Library" "134 North Second Street" "Olean" "NY" "14760" -78.4320593 42.079162
+"Oneida Public Library" "220 Broad Street" "Oneida" "NY" "13421" -75.652293 43.0917615
+"Huntington Memorial Library" "62 Chestnut Street" "Oneonta" "NY" "13820" -75.0643068 42.4541241
+"Ontario Public Library" "1850 Ridge Road" "Ontario" "NY" "14519" -77.2916056 43.2235956
+"Orangeburg Library" "20 South Greenbush Road" "Orangeburg" "NY" "10962" -73.9493626 41.0916146
+"Orchard Park Public Library" "4570 South Buffalo Street" "Orchard Park" "NY" "14127" -78.746386 42.758967
+"Oriskany Public Library" "621 Utica Street" "Oriskany" "NY" "13424" -75.332632 43.156847
+"C. W. Clark Memorial Library" "160 North Main Street" "Oriskany Falls" "NY" "13425" -75.4590704 42.9405415
+"Cogswell Free Library" "1999 County Route 2" "Orwell" "NY" "13426" -75.9963457 43.5748743
+"Ossining Public Library" "53 Croton Avenue" "Ossining" "NY" "10562" -73.8602831 41.1642054
+"Oswego School District Public Library" "120 East Second Street" "Oswego" "NY" "13126" -76.506545 43.456717
+"Edith B. Ford Memorial Library" "7169 North Main Street" "Ovid" "NY" "14521" -76.8214069 42.677326
+"Coburn Free Library" "275 Main Street" "Owego" "NY" "13827" -76.259136 42.105762
+"Oxford Memorial Library" "8 Fort Hill Park" "Oxford" "NY" "13830" -75.5961097 42.4403303
+"Oyster Bay-East Norwich Public Library" "89 East Main Street" "Oyster Bay" "NY" "11771" -73.5266769 40.8720102
+"Queens Borough Public Library - Ozone Park" "92-24 Rockaway Boulevard" "Ozone Park" "NY" "11417" -73.8464504 40.6808646
+"Catskill Public Library Palenville Branch" "3335 Route 23a" "Palenville" "NY" "12463" -74.021821 42.1746123
+"Palisades Free Library" "19 Closter Road" "Palisades" "NY" "10964" -73.9165276 41.011513
+"Palmyra Kings Daughters Free Lib." "127 Cuyler Street" "Palmyra" "NY" "14522" -77.2319349 43.062682
+"Parish Public Library" "3 Church Street" "Parish" "NY" "13131" -76.126053 43.406049
+"Briarcliffe College Library - Patchogue" "225 West Main Street" "Patchogue" "NY" "11772" -73.0210654 40.7664503
+"Patchogue-Medford Library" "54-60 East Main Street" "Patchogue" "NY" "11772" -73.0135866 40.7656694
+"Patterson Library" "1167 Route 311" "Patterson" "NY" "12563" -73.6023384 41.5133138
+"Pavilion Public Library" "5 Woodrow Drive" "Pavilion" "NY" "14525" -78.0264968 42.8768181
+"Pawling Free Library" "11 Broad Street" "Pawling" "NY" "12564" -73.6023027 41.5634148
+"Pearl River Public Library" "80 Franklin Avenue" "Pearl River" "NY" "10965" -74.0182831 41.0580151
+"The Field Library" "4 Nelson Avenue" "Peekskill" "NY" "10566" -73.9226448 41.2910604
+"Town Of Pelham Public Library" "530 Colonial Avenue" "Pelham" "NY" "10803" -73.8142706 40.9023939
+"Penfield Public Library" "1985 Baird Road" "Penfield" "NY" "14526" -77.464664 43.137367
+"Penn Yan Public Library" "214 Main Street" "Penn Yan" "NY" "14527" -77.0562917 42.6642976
+"Perry Public Library" "70 North Main Street" "Perry" "NY" "14530" -77.999931 42.720337
+"Peru Free Library" "3024 Route 22" "Peru" "NY" "12972" -73.5125247 44.5951477
+"Petersburg Public Library" "69 Main Street" "Petersburgh" "NY" "12138" -73.342147 42.750776
+"Phelps Community Memorial Library" "8 Banta St. Suite 200" "Phelps" "NY" "14532" -77.059805 42.9600859
+"Bodman Memorial Library" "8 Aldrich Street" "Philadelphia" "NY" "13673" -75.7045526 44.1575876
+"Philmont Public Library" "101 Main Street" "Philmont" "NY" "12565" -73.6499852 42.2489184
+"Phoenicia Library" "48 Main Street" "Phoenicia" "NY" "12464" -74.314751 42.082937
+"Phoenix Public Library" "34 Elm Street" "Phoenix" "NY" "13135" -76.292575 43.233193
+"Piermont Library District" "25 Flywheel Park West" "Piermont" "NY" "10968" -73.915992 41.041905
+"Pike Library" "65 West Main Street" "Pike" "NY" "14130" -78.1544172 42.5553812
+"Pine Bush Area Public Library District" "227 Maple Avenue" "Pine Bush" "NY" "12566" -74.3010002 41.6111383
+"Morton Memorial Library" "22 Elm Street" "Pine Hill" "NY" "12465" -74.4794137 42.1339904
+"Pine Plains Free Library" "7806 South Main Street" "Pine Plains" "NY" "12567" -73.655762 41.979261
+"Pittsford Community Library" "24 State Street" "Pittsford" "NY" "14534" -77.5132719 43.0904602
+"Plainview-Old Bethpage Public Library" "999 Old Country Road" "Plainview" "NY" "11803" -73.473283 40.774897
+"Clinton Essex Franklin Library System" "33 Oak Street" "Plattsburgh" "NY" "12901" -73.4558393 44.6975056
+"Plattsburgh Public Library" "19 Oak Street" "Plattsburgh" "NY" "12901" -73.4556708 44.6971985
+"Pleasant Valley Free Library" "1584 Main Street" "Pleasant Valley" "NY" "12569" -73.8259721 41.7436546
+"Mount Pleasant Public Library" "350 Bedford Road" "Pleasantville" "NY" "10570" -73.7859019 41.134912
+"Poestenkill Library" "9 Plank Road" "Poestenkill" "NY" "12140" -73.5636095 42.6898275
+"Poland District Public Library" "8849 Main Street" "Poland" "NY" "13431" -75.0615636 43.2261543
+"Hazard Library" "PO Box 2487" "Poplar Ridge" "NY" "13139" -76.6179999 42.7384038
+"Port Byron Library" "12 Sponable Drive" "Port Byron" "NY" "13140" -76.6244062 43.0361156
+"Port Chester Public Library" "1 Haseco Avenue" "Port Chester" "NY" "10573" -73.6686084 41.0036573
+"Town Of Esopus Port Ewen Library" "128 Canal Street" "Port Ewen" "NY" "12466" -73.9752545 41.909662
+"Sherman Free Library" "20 Church Street" "Port Henry" "NY" "12974" -73.4600899 44.047489
+"Port Jefferson Free Library" "100 Thompson Street" "Port Jefferson" "NY" "11777" -73.0665195 40.9469153
+"Comsewogue Public Library" "170 Terryville Road" "Port Jefferson Station" "NY" "11776" -73.053768 40.923805
+"Port Jervis Free Library" "138 Pike Street" "Port Jervis" "NY" "12771" -74.6916075 41.3762827
+"Port Leyden Community Library" "3145 Canal Street" "Port Leyden" "NY" "13433" -75.3444054 43.5813328
+"Port Washington Public Library" "1 Library Drive" "Port Washington" "NY" "11050" -73.6959441 40.8315451
+"Potsdam Public Library" "2 Park Street" "Potsdam" "NY" "13676" -74.9827528 44.6692338
+"Greater Poughkeepsie Library District" "93 Market Street" "Poughkeepsie" "NY" "12601" -73.9302179 41.7005061
+"Lagrange Association Library" "488 Freedom Plains Road" "Poughkeepsie" "NY" "12603" -73.8547702 41.6796593
+"Mid-Hudson Library System" "103 Market Street" "Poughkeepsie" "NY" "12601" -73.930532 41.7004138
+"Pound Ridge Library District" "271 Westchester Avenue" "Pound Ridge" "NY" "10576" -73.573357 41.2111305
+"Prospect Free Library" "915 Trenton Falls Street" "Prospect" "NY" "13435" -75.150726 43.300852
+"Pulaski Public Library" "4917 North Jefferson Street" "Pulaski" "NY" "13142" -76.125868 43.570389
+"Pulteney Free Library" "9226 Cty Rt 74" "Pulteney" "NY" "14874" -77.164689 42.5282587
+"Purchase Free Library" "3093 Purchase Street" "Purchase" "NY" "10577" -73.7141947 41.0405812
+"Putnam Valley Free Library" "30 Oscawana Lake Road" "Putnam Valley" "NY" "10579" -73.8740606 41.3363389
+"Queens Borough Public Library - Queens Village" "94-11 217 Street" "Queens Village" "NY" "11428" -73.7390338 40.7198793
+"Quogue Library" "90 Quogue Street" "Quogue" "NY" "11959" -72.5993153 40.8190187
+"Randolph Free Library" "26 Jamestown Street" "Randolph" "NY" "14772" -78.97702 42.162956
+"Ransomville Free Library" "3733 Ransomville Road" "Ransomville" "NY" "14131" -78.9083859 43.2326539
+"Raquette Lake Free Library" "1 Dillon Road" "Raquette Lake" "NY" "13436" -74.6658246 43.8136138
+"RCS Community Library" "15 Mountain Road" "Ravena" "NY" "12143" -73.814788 42.4730127
+"Red Creek Free Library" "6817 Main Street" "Red Creek" "NY" "13143" -76.7225667 43.2474184
+"Red Hook Public Library" "7444 South Broadway" "Red Hook" "NY" "12571" -73.8767872 41.9933565
+"Queens Borough Public Library - Rego Park" "91-41 63 Drive" "Rego Park" "NY" "11374" -73.864483 40.727299
+"Didymus Thomas Library" "9639 Main Street" "Remsen" "NY" "13438" -75.187035 43.3280816
+"Rensselaer Public Library" "810 Broadway" "Rensselaer" "NY" "12144" -73.739357 42.646387
+"Rensselaerville Public Library" "1459 Main Street" "Rensselaerville" "NY" "12147" -74.1498904 42.4064789
+"Clinton Community Library" "1215 Centre Road" "Rhinebeck" "NY" "12572" -73.8045641 41.8837642
+"Starr Library" "68 West Market Street" "Rhinebeck" "NY" "12572" -73.9181413 41.9263442
+"Morton Memorial Library And Community House" "82 Kelly Street" "Rhinecliff" "NY" "12574" -73.951108 41.9190151
+"Colonial Library" "160 Main Street" "Richburg" "NY" "14774" -78.1536977 42.0879067
+"Richfield Springs Public Library" "102 Main Street" "Richfield Springs" "NY" "13439" -74.9847925 42.8533463
+"Queens Borough Public Library - Lefferts" "103-34 Lefferts Boulevard" "Richmond Hill" "NY" "11419" -73.824811 40.6868679
+"Queens Borough Public Library - Richmond Hill" "118-14 Hillside Avenue" "Richmond Hill" "NY" "11418" -73.8316759 40.7007782
+"Richville Free Library" "87 Main Street" "Richville" "NY" "13681" -75.395766 44.413773
+"Queens Borough Public Library - Ridgewood" "20-12 Madison Street" "Ridgewood" "NY" "11385" -73.9025802 40.7051742
+"Ripley Free Library" "64 West Main Street" "Ripley" "NY" "14775" -79.712445 42.265844
+"Riverhead Free Library" "330 Court Street" "Riverhead" "NY" "11901" -72.6692779 40.9184605
+"Arnett Branch Library" "310 Arnett Boulevard" "Rochester" "NY" "58542" -77.641764 43.14239
+"Brighton Memorial Library" "2300 Elmwood Avenue" "Rochester" "NY" "14618" -77.575573 43.127059
+"Central Library Of Rochester And Monroe County" "115 South Avenue" "Rochester" "NY" "14604" -77.6082948 43.1540801
+"Charlotte Branch Library" "3557 Lake Avenue" "Rochester" "NY" "14612" -77.6244282 43.2354616
+"Chili Public Library" "3333 Chili Avenue" "Rochester" "NY" "14624" -77.7591298 43.0998902
+"Gates Public Library" "902 Elmgrove Road" "Rochester" "NY" "14624" -77.7317322 43.1525504
+"Henrietta Public Library" "455 Calkins Road" "Rochester" "NY" "14623" -77.6246766 43.068397
+"Highland Branch Library" "971 South Avenue" "Rochester" "NY" "" -77.6077892 43.1361506
+"Irondequoit Public Library - Helen Mcgraw Branch" "2180 East Ridge Rd." "Rochester" "NY" "14622" -77.5594394 43.204566
+"Irondequoit Public Library - Pauline Evans Branch" "45 Cooper Road" "Rochester" "NY" "14617" -77.5987779 43.2117532
+"Lincoln Branch Library" "851 Joseph Avenue" "Rochester" "NY" "14621" -77.6083829 43.1804796
+"Lyell Branch Library" "956 Lyell Avenue" "Rochester" "NY" "14606" -77.6498001 43.1649284
+"Maplewood Community Library" "1111 Dewey Avenue" "Rochester" "NY" "14613" -77.6392609 43.1864563
+"Monroe Branch Library" "809 Monroe Avenue" "Rochester" "NY" "14607" -77.5869763 43.1424624
+"Phillis Wheatley Community Library" "33 Dr. Samuel Mccree Way" "Rochester" "NY" "14608" -77.62008 43.146068
+"Sully Branch Library" "530 Webster Avenue" "Rochester" "NY" "14609" -77.5710971 43.1698269
+"Winton Branch Library" "611 Winton Road North" "Rochester" "NY" "14609" -77.549316 43.1573939
+"Queens Borough Public Library - Peninsula" "92-25 Rockaway Beach Boulevard" "Rockaway Beach" "NY" "11693" -73.8160591 40.5858414
+"Queens Borough Public Library - Seaside" "116-15 Rockaway Beach Boulevard" "Rockaway Park" "NY" "11694" -73.8377668 40.5795951
+"Lakeview Public Library" "1120 Woodfield Road" "Rockville Centre" "NY" "11570" -73.6532142 40.6737859
+"Rockville Centre Public Library" "221 North Village Avenue" "Rockville Centre" "NY" "11570" -73.6483046 40.6642139
+"Rodman Public Library" "12509 School Street" "Rodman" "NY" "13682" -75.942103 43.849185
+"The Jervis Public Library Association, Inc." "613 North Washington Street" "Rome" "NY" "13440" -75.4541159 43.218681
+"Roosevelt Public Library" "27 West Fulton Avenue" "Roosevelt" "NY" "11575" -73.588687 40.6756532
+"Roscoe Free Library" "85 Highland Ave" "Roscoe" "NY" "12776" -74.9146389 41.9320638
+"Rose Free Library" "4069 Main Street" "Rose" "NY" "14542" -76.878344 43.1529554
+"Queens Borough Public Library - Rosedale" "144-20 243 Street" "Rosedale" "NY" "11422" -73.7399068 40.6599629
+"Rosendale Library" "264 Main Street" "Rosendale" "NY" "12472" -74.0762451 41.8455933
+"Bryant Library" "2 Paper Mill Road" "Roslyn" "NY" "11576" -73.6509622 40.7998227
+"Womens Round Lake Improvement Society Lib" "31 Wesley Avenue" "Round Lake" "NY" "12151" -73.7944429 42.9367288
+"Rouses Point Dodge Memorial Library" "144 Lake Street" "Rouses Point" "NY" "12979" -73.364385 44.990294
+"Roxbury Library Association" "53742 State Highway 30" "Roxbury" "NY" "12474" -74.562868 42.286642
+"Rush Public Library" "5977 East Henrietta Road" "Rush" "NY" "14543" -77.646242 42.995353
+"Rushford Free Library" "9012 Main Street" "Rushford" "NY" "14777" -78.25182 42.392594
+"Russell Public Library" "24 Pestle Street" "Russell" "NY" "13684" -75.152315 44.429467
+"Rye Free Reading Room" "1061 Boston Post Road" "Rye" "NY" "10580" -73.6848956 40.9814934
+"Hay Memorial Library Of Sackets Harbor" "105 South Broad Street" "Sackets Harbor" "NY" "13685" -76.119065 43.945769
+"John Jermain Memorial Library" "201 Main Street" "Sag Harbor" "NY" "11963" -72.296362 40.9974977
+"Salamanca Public Library" "155 Wildwood Avenue" "Salamanca" "NY" "14779" -78.709186 42.157254
+"Seneca Nation Library Allegany Branch" "830 Broad Street Extension" "Salamanca" "NY" "14779" -78.7150311 42.1578412
+"Bancroft Public Library" "181 Main Street" "Salem" "NY" "12865" -73.327783 43.172098
+"Kirby Free Library Of Salisbury" "105 State Route 29a" "Salisbury Center" "NY" "13454" -74.78691 43.142945
+"Sanborn-Pekin Free Library" "5884 West Street" "Sanborn" "NY" "14132" -78.8919109 43.136257
+"Annie Porter Ainsworth Memorial Library" "6064 South Main Street" "Sandy Creek" "NY" "13145" -76.086077 43.643777
+"Saranac Lake Free Library" "109 Main Street" "Saranac Lake" "NY" "12983" -74.1303721 44.3272624
+"Saratoga Springs Public Library" "49 Henry Street" "Saratoga Springs" "NY" "12866" -73.78342 43.0810674
+"Southern Adirondack Library System" "22 Whitney Place" "Saratoga Springs" "NY" "12866" -73.785276 43.0744339
+"Saugerties Public Library" "91 Washington Avenue" "Saugerties" "NY" "12477" -73.949221 42.0777611
+"Savona Free Library" "15 Mccoy Street" "Savona" "NY" "14879" -77.217326 42.287451
+"Sayville Library" "11 Collins Avenue" "Sayville" "NY" "11782" -73.0803125 40.7359678
+"Arvilla E. Diver Memorial Library" "136 Main Street" "Schaghticoke" "NY" "12154" -73.585667 42.898487
+"Mohawk Valley Library Association" "858 Duanesburg Road" "Schenectady" "NY" "12306" -74.0226162 42.7834321
+"Schenectady County Public Library" "99 Clinton Street" "Schenectady" "NY" "12305" -73.9380335 42.8146711
+"Schenectady County Public Library - Duane Branch" "1331 State Street" "Schenectady" "NY" "12304" -73.9213404 42.7962271
+"Schenectady County Public Library - Hamilton Hill Branch" "700 Craig Street" "Schenectady" "NY" "12307" -73.9375312 42.8023874
+"Schenectady County Public Library - Mont Pleasant Branch" "1026 Crane Street" "Schenectady" "NY" "12303" -73.94765 42.798166
+"Schenectady County Public Library - Rotterdam Branch" "1100 N. Westcott Road" "Schenectady" "NY" "12306" -73.97983 42.787047
+"Schenectady County Public Library - Woodlawn Branch" "2 Sanford Street" "Schenectady" "NY" "12304" -73.9047711 42.7799946
+"Schoharie Free Library Assn." "103 Knower Avenue" "Schoharie" "NY" "12157" -74.31765 42.661916
+"Schroon Lake Public Library" "15 Leland Avenue" "Schroon Lake" "NY" "12870" -73.760485 43.8366631
+"Schuylerville Public Library" "52 Ferry Street" "Schuylerville" "NY" "12871" -73.5828559 43.1003873
+"Scio Memorial Library" "3980 State Rt. 19" "Scio" "NY" "14880" -77.9787524 42.1724862
+"Schenectady County Public Library - Scotia Branch" "14 Mohawk Avenue" "Scotia" "NY" "12302" -73.9596992 42.8241507
+"Scottsville Free Library" "28 Main Street" "Scottsville" "NY" "14546" -77.7499543 43.0200153
+"Sea Cliff Village Library" "p.o. box 280" "Sea Cliff" "NY" "11579" -73.6448505 40.8489887
+"Seaford Public Library" "2234 Jackson Avenue" "Seaford" "NY" "11783" -73.4871305 40.6668452
+"Seneca Falls Library" "47 Cayuga Street" "Seneca Falls" "NY" "13148" -76.7951792 42.9142839
+"Emma S. Clark Memorial Library" "120 Main Street" "Setauket" "NY" "11733" -73.1119254 40.9449389
+"Sharon Springs Free Library" "129 Main Street" "Sharon Springs" "NY" "13459" -74.6196694 42.7908297
+"Shelter Island Public Library Society" "37 North Ferry Road" "Shelter Island" "NY" "11964" -72.3394243 41.068534
+"Sherburne Public Library" "2 East State Street" "Sherburne" "NY" "13460" -75.4979819 42.677947
+"Minerva Free Library" "116 Miller Street" "Sherman" "NY" "14781" -79.594633 42.161088
+"Sherrill-Kenwood Free Library" "543 Sherrill Road" "Sherrill" "NY" "13461" -75.601628 43.069616
+"Mastics-Moriches-Shirley Community Lib" "407 William Floyd Parkway" "Shirley" "NY" "11967" -72.864912 40.781037
+"North Shore Public Library District" "250 Route 25a" "Shoreham" "NY" "11786" -72.8674564 40.9433072
+"Red Jacket Community Library" "7 Lehigh Avenue" "Shortsville" "NY" "14548" -77.2312714 42.9610354
+"John C. Hart Memorial Library" "1130 East Main Street" "Shrub Oak" "NY" "10588" -73.8294477 41.3301074
+"Sidney Memorial Public Library" "8 River Street" "Sidney" "NY" "13838" -75.393255 42.31602
+"Anderson Lee Library" "43 Main Street" "Silver Creek" "NY" "14136" -79.167747 42.542777
+"Town Of Gainesville Public Library" "10 Church Street" "Silver Springs" "NY" "14550" -78.0837444 42.6597461
+"Sinclairville Free Library" "15 Main Street" "Sinclairville" "NY" "14782" -79.260063 42.26444
+"Sloatsburg Public Library" "1 Liberty Rock Road" "Sloatsburg" "NY" "10974" -74.1936491 41.1559924
+"Smithtown Special Library District" "1 North Country Road" "Smithtown" "NY" "11787" -73.1874799 40.8561732
+"Smyrna Public Library" "7 East Main Street" "Smyrna" "NY" "13464" -75.5701007 42.6875949
+"Eggertsville-Snyder Branch" "4622 Main Street" "Snyder" "NY" "14226" -78.7794774 42.9625793
+"Sodus Free Library" "17 Maple Avenue" "Sodus" "NY" "14551" -77.062135 43.237225
+"Solvay Public Library" "615 Woods Road" "Solvay" "NY" "13209" -76.2070159 43.05762
+"Somers Library" "p.o. box 443" "Somers" "NY" "10589" -73.7360175 41.2996305
+"Fallsburg Library" "12 Railroad Plaza" "South Fallsburg" "NY" "12779" -74.6296065 41.7080471
+"Queens Borough Public Library - South Hollis" "204-01 Hollis Avenue" "South Hollis" "NY" "11412" -73.7537939 40.7070095
+"South New Berlin Free Library" "3320 State Highway 8" "South New Berlin" "NY" "13843" -75.3854192 42.5288505
+"Queens Borough Public Library - South Ozone Park" "128-16 Rockaway Boulevard" "South Ozone Park" "NY" "11420" -73.8092584 40.6747848
+"Rogers Memorial Library" "91 Coopers Farm Road" "Southampton" "NY" "11968" -72.393521 40.886355
+"Southold Free Library" "53705 Main Road" "Southold" "NY" "11971" -72.4284968 41.0640724
+"Town Of Lake Pleasant Public Library" "2864 State Hwy 8" "Speculator" "NY" "12164" -74.3655606 43.5005705
+"Spencer Library" "41 North Main Street" "Spencer" "NY" "14883" -76.492005 42.212058
+"Farmers Library Company Of The Town Of Ogden" "269 Ogden Center Road" "Spencerport" "NY" "14559" -77.8023986 43.1703969
+"Finkelstein Memorial Library" "24 Chestnut Street" "Spring Valley" "NY" "10977" -74.0467278 41.1098261
+"Springfield Library" "129 County Route 29a" "Springfield Center" "NY" "13468" -74.8627104 42.832131
+"Concord Public Library" "18 Chapel Street" "Springville" "NY" "14141" -78.665552 42.510581
+"Queens Borough Public Library - St. Albans" "191-05 Linden Boulevard" "St. Albans" "NY" "11412" -73.7601285 40.6925237
+"Margaret Reaney Memorial Library" "19 Kingsbury Avenue" "St. Johnsville" "NY" "13452" -74.6772274 42.9970675
+"Staatsburg Library" "72 Old Post Road" "Staatsburg" "NY" "12580" -73.928144 41.8504536
+"Stamford Village Library" "117 Main Street" "Stamford" "NY" "12167" -74.619826 42.408943
+"Stanford Free Library" "14 Creamery Road" "Stanfordville" "NY" "12581" -73.710522 41.869937
+"Dongan Hills Library" "1617 Richmond Road" "Staten Island" "NY" "10304" -74.1011285 40.590395
+"Great Kills Library" "56 Giffords Lane" "Staten Island" "NY" "10308" -74.1511089 40.552421
+"Huguenot Park Library" "830 Huguenot Avenue" "Staten Island" "NY" "10312" -74.193241 40.5340625
+"New Dorp Library" "309 New Dorp Lane" "Staten Island" "NY" "10306" -74.111969 40.57194
+"Port Richmond Library" "75 Bennett Street" "Staten Island" "NY" "10302" -74.1310963 40.637579
+"Richmondtown Library" "200 Clarke Avenue" "Staten Island" "NY" "10306" -74.1385933 40.5665508
+"South Beach Library" "21-25 Robin Road" "Staten Island" "NY" "10305" -74.0634037 40.5956009
+"St. George Library Center" "5 Central Avenue" "Staten Island" "NY" "10301" -74.0766745 40.6417392
+"Stapleton Library" "132 Canal St." "Staten Island" "NY" "10304" -74.0778899 40.6262524
+"Todt Hill-Westerleigh Library" "2550 Victory Boulevard" "Staten Island" "NY" "10314" -74.1485053 40.6095839
+"Tottenville Library" "7430 Amboy Road" "Staten Island" "NY" "10307" -74.2441369 40.5095325
+"West New Brighton Library" "976 Castleton Avenue" "Staten Island" "NY" "10310" -74.1148269 40.6345188
+"Stephentown Memorial Library" "472 New York Route 43" "Stephentown" "NY" "12168" -73.3812724 42.5507797
+"Stillwater Free Library" "74 South Hudson Avenue" "Stillwater" "NY" "12170" -73.658357 42.937322
+"Stone Ridge Public Library" "3700 Main Street" "Stone Ridge" "NY" "12484" -74.1428775 41.8491708
+"Stony Creek Free Library" "37 Harrisburg Road" "Stony Creek" "NY" "12878" -73.929965 43.425762
+"Rose Memorial Library Association" "79 East Main Street" "Stony Point" "NY" "10980" -73.9851842 41.229193
+"Suffern Free Library" "210 Lafayette Ave." "Suffern" "NY" "10901" -74.1372794 41.1134347
+"Syosset Public Library" "225 South Oyster Bay Road" "Syosset" "NY" "11791" -73.5020748 40.7987333
+"Beauchamp Branch" "2111 S. Salina St." "Syracuse" "NY" "13205" -76.1450217 43.0259936
+"Betts Branch Library" "4862 S. Salina St." "Syracuse" "NY" "13205" -76.1436494 42.9987678
+"Fairmount Community Library Assoc." "406 Chapel Drive" "Syracuse" "NY" "13219" -76.2468654 43.044274
+"Hazard Branch Library" "1620 W. Genesee St." "Syracuse" "NY" "13204" -76.1874002 43.0528059
+"Mundy Branch Library" "1204 S. Geddes St." "Syracuse" "NY" "13204" -76.1746836 43.0357084
+"Northeast Community Center Library" "716 Hawley Ave." "Syracuse" "NY" "13203" -76.1323479 43.054702
+"Onondaga County Public Library" "447 S. Salina St." "Syracuse" "NY" "13202" -76.1516451 43.0460397
+"Onondaga Free Library" "4840 West Seneca Turnpike" "Syracuse" "NY" "13215" -76.1812274 43.0046852
+"Paine Branch Library" "113 Nichols Ave." "Syracuse" "NY" "13206" -76.1035675 43.0684521
+"Petit Branch Library" "105 Victoria Pl." "Syracuse" "NY" "13210" -76.1186065 43.0409123
+"Robert P. Kinchen Central Library" "447 South Salina St." "Syracuse" "NY" "13202" -76.1516451 43.0460397
+"Soule Branch Library" "101 Springfield Rd." "Syracuse" "NY" "13214" -76.0940409 43.0482577
+"Southwest Community Center Library" "401 South Ave." "Syracuse" "NY" "13204" -76.1584764 43.0348305
+"White Branch Library" "763 Butternut St." "Syracuse" "NY" "13208" -76.1455156 43.0615338
+"Warner Library" "121 North Broadway" "Tarrytown" "NY" "10591" -73.8582279 41.0804827
+"Westchester Library System" "540 White Plains Road Suite 200" "Tarrytown" "NY" "10591" -73.8410395 41.0610287
+"Theresa Free Library" "301 Main Street" "Theresa" "NY" "13691" -75.7994818 44.2161571
+"Thousand Island Park Library" "42743 St. Lawrence Avenue" "Thousand Island Park" "NY" "13692" -76.0266694 44.2868706
+"Black Watch Memorial Library, Ticonderoga" "99 Montcalm Street" "Ticonderoga" "NY" "12883" -73.4253431 43.8489495
+"Tivoli Free Library" "86 Broadway" "Tivoli" "NY" "12583" -73.9115257 42.0589397
+"Tomkins Cove Public Library" "419 Liberty Drive North" "Tomkins Cove" "NY" "10986" -73.983884 41.258245
+"City Of Tonawanda Public Library" "333 Main Street" "Tonawanda" "NY" "14150" -78.8794194 43.0107882
+"Brunswick Community Library" "605 Brunswick Road" "Troy" "NY" "12180" -73.5977272 42.7304068
+"Troy Public Library - Lansingburgh Branch" "27 114th Street" "Troy" "NY" "12182" -73.6757186 42.7731579
+"Troy Public Library - Main Library" "100 Second Street" "Troy" "NY" "12180" -73.6919542 42.7279695
+"Ulysses Philomathic Library" "74 East Main Street" "Trumansburg" "NY" "14886" -76.659052 42.540671
+"Tuckahoe Public Library" "71 Columbus Avenue" "Tuckahoe" "NY" "10707" -73.8259508 40.9525262
+"Tully Free Library" "12 State Street" "Tully" "NY" "13159" -76.1098106 42.7971673
+"Goff-Nelson Memorial Library, Tupper Lake" "41 Lake Street" "Tupper Lake" "NY" "12986" -74.466889 44.223855
+"B. Elizabeth Strong Memorial Library" "6312 East Main Street" "Turin" "NY" "13473" -75.3995398 43.6320423
+"Tuxedo Park Library" "227 Route 17" "Tuxedo Park" "NY" "10987" -74.1849375 41.1931983
+"Unadilla Public Library" "193 Main Street" "Unadilla" "NY" "13849" -75.3158738 42.3254731
+"Springport Free Library" "171 Cayuga Street" "Union Springs" "NY" "13160" -76.692096 42.842864
+"Nassau Library System" "900 Jerusalem Ave." "Uniondale" "NY" "11553" -73.5851277 40.6957531
+"Uniondale Public Library" "400 Uniondale Avenue" "Uniondale" "NY" "11553" -73.5930805 40.7062278
+"Wells Memorial Library" "12230 Nys Rte 9n" "Upper Jay" "NY" "12987" -73.773588 44.337863
+"Brookhaven National Laboratory" "P.O. Box 5000" "Upton" "NY" "11973" -72.8791716 40.8682379
+"Mid-York Library System" "1600 Lincoln Ave" "Utica" "NY" "13502" -75.2563072 43.0947348
+"Utica Public Library" "303 Genesee Street" "Utica" "NY" "13501" -75.2388087 43.0971098
+"Valatie Free Library" "3203 Church Street" "Valatie" "NY" "12184" -73.677094 42.413913
+"Valley Cottage Free Library" "110 Route 303" "Valley Cottage" "NY" "10989" -73.9413956 41.1159873
+"Valley Falls Free Library" "42 State Street" "Valley Falls" "NY" "12185" -73.5628599 42.8984668
+"Henry Waldinger Memorial Library" "60 Verona Place" "Valley Stream" "NY" "11582" -73.7072235 40.6637256
+"Van Etten Library" "83 Main St" "Van Etten" "NY" "14889" -76.559666 42.198651
+"Vernon Public Library" "4441 Peterboro Street" "Vernon" "NY" "13476" -75.539766 43.078561
+"Four County Library System" "304 Clubhouse Road" "Vestal" "NY" "13850" -75.9498512 42.0898815
+"Vestal Public Library" "320 Vestal Parkway East" "Vestal" "NY" "13850" -76.0456564 42.0873101
+"Victor Free Library" "15 West Main Street" "Victor" "NY" "14564" -77.4111765 42.9820098
+"Voorheesville Public Library" "51 School Road" "Voorheesville" "NY" "12186" -73.9387739 42.6582572
+"Wadhams Free Library" "763 Nys Route 22" "Wadhams" "NY" "12993" -73.460407 44.2297734
+"Josephine-Louise Public Library" "5 Scofield Street" "Walden" "NY" "12586" -74.189498 41.5598323
+"Wallkill Public Library" "7 Bona Venture" "Wallkill" "NY" "12589" -74.1840358 41.6056492
+"William B. Ogden Free Library" "42 Gardiner Place" "Walton" "NY" "13856" -75.128074 42.1694578
+"Walworth-Seely Public Library" "3600 Lorraine Drive" "Walworth" "NY" "14568" -77.288884 43.13404
+"Wantagh Public Library" "3285 Park Avenue" "Wantagh" "NY" "11793" -73.5112065 40.6741037
+"Grinnell Library" "2642 East Main Street" "Wappingers Falls" "NY" "12590" -73.9184143 41.5983585
+"Richards Library" "36 Elm Street" "Warrensburg" "NY" "12885" -73.7735776 43.4941363
+"Warsaw Public Library" "130 North Main Street" "Warsaw" "NY" "14569" -78.132145 42.742427
+"Albert Wisner Public Library" "2 Colonial Avenue" "Warwick" "NY" "10990" -74.3573401 41.2598364
+"Moffat Library Of Washingtonville" "6 West Main Street" "Washingtonville" "NY" "10992" -74.167495 41.4279086
+"Waterford Public Library" "117 Third Street" "Waterford" "NY" "12188" -73.6755714 42.7940018
+"Waterloo Library And Historical Society" "31 East Williams Street" "Waterloo" "NY" "13165" -76.8607844 42.9058944
+"East Hounsfield Free Library" "19438 Nys Route 3" "Watertown" "NY" "13601" -75.9541279 43.974824
+"Roswell P. Flower Memorial Library" "229 Washington Street" "Watertown" "NY" "13601" -75.9103952 43.9729653
+"Waterville Public Library" "206 White Street" "Waterville" "NY" "13480" -75.378414 42.9290823
+"Watervliet Public Library" "1501 Broadway" "Watervliet" "NY" "12189" -73.700534 42.726195
+"Watkins Glen Cen Sch Dis Free Pub Lib" "610 South Decatur Street" "Watkins Glen" "NY" "14891" -76.86622 42.371798
+"Waverly Free Library" "18 Elizabeth Street" "Waverly" "NY" "14892" -76.5409714 42.0018829
+"Wayland Free Library" "101 West Naples Street" "Wayland" "NY" "14572" -77.593241 42.567229
+"Weedsport Free Library" "2795 East Brutus Street" "Weedsport" "NY" "13166" -76.555831 43.048076
+"David A Howe Public Library" "155 North Main Street" "Wellsville" "NY" "14895" -77.9492359 42.1218373
+"West Babylon Public Library" "211 Route 109" "West Babylon" "NY" "11704" -73.354093 40.7090579
+"Dodge Library" "9 Fiske Road" "West Chazy" "NY" "12992" -73.5075279 44.820891
+"West Hempstead Public Library" "500 Hempstead Avenue" "West Hempstead" "NY" "11552" -73.6542619 40.6957191
+"West Hurley Public Library" "42 Clover Street" "West Hurley" "NY" "12491" -74.103849 42.000508
+"West Islip Public Library" "3 Higbie Lane" "West Islip" "NY" "11795" -73.3064955 40.6972793
+"West Nyack Free Library" "65 Strawtown Road" "West Nyack" "NY" "10994" -73.9740562 41.0980872
+"West Seneca Public Library" "1300 Union Road" "West Seneca" "NY" "14224" -78.7538937 42.8355167
+"Olive Free Library Association" "4033 Route 28a" "West Shokan" "NY" "12494" -74.2752106 41.9642133
+"West Winfield Library" "179 South Street" "West Winfield" "NY" "13491" -75.1927753 42.8825854
+"Westbury Memorial Public Library" "445 Jefferson Street" "Westbury" "NY" "11590" -73.5832206 40.7621992
+"Town Of Westerlo Public Library" "604 State Route 143" "Westerlo" "NY" "12193" -74.0458676 42.5148377
+"Western Town Library" "9172 Main Street" "Westernville" "NY" "13486" -75.2849317 43.2237511
+"Patterson Library" "40 South Portage Street" "Westfield" "NY" "14787" -79.578009 42.320783
+"Westhampton Free Library" "28 Library Avenue" "Westhampton Beach" "NY" "11978" -72.640113 40.80835
+"Westport Library Association" "6 Harris Lane" "Westport" "NY" "12993" -73.4342142 44.1817957
+"White Plains Public Library" "100 Martine Avenue" "White Plains" "NY" "10601" -73.7699745 41.0303509
+"Whitehall Free Library" "12 Williams Street" "Whitehall" "NY" "12887" -73.401023 43.554331
+"Dunham Public Library" "76 Main Street" "Whitesboro" "NY" "13492" -75.289247 43.1210793
+"Queens Borough Public Library - Whitestone" "151-10 14 Road" "Whitestone" "NY" "11357" -73.8106229 40.7885658
+"Whitesville Public Library" "500 Main Street" "Whitesville" "NY" "14897" -77.767512 42.038112
+"Mary Wilcox Memorial Library" "2630 Main Street" "Whitney Point" "NY" "13862" -75.969677 42.329372
+"Williamson Free Public Library" "6380 Route 21, Suite 1" "Williamson" "NY" "14589" -77.1855379 43.231072
+"Williamstown Library" "2877 County Route 17n" "Williamstown" "NY" "13493" -75.8829762 43.4339705
+"Amherst Public Library Clearfield Branch" "770 Hopkins Road" "Williamsville" "NY" "14221" -78.7400389 43.0001447
+"Amherst Public Library Williamsville Branch" "5571 Main Street" "Williamsville" "NY" "14221" -78.7453373 42.9623942
+"Williston Park Public Library" "494 Willis Avenue" "Williston Park" "NY" "11596" -73.6448909 40.7575794
+"Paine Memorial Free Library" "2 Gilliland Lane" "Willsboro" "NY" "12996" -73.3897999 44.364109
+"Wilmington E.M. Cooper Memorial Public Library" "5751 Route 86" "Wilmington" "NY" "12997" -73.8166242 44.388956
+"Wilson Free Library" "265 Young Street" "Wilson" "NY" "14172" -78.8272932 43.3090914
+"Windham Public Library" "5379 Main Street" "Windham" "NY" "12496" -97.1326153 49.8847918
+"Dover Plains Library" "1797 Route 22" "Wingdale" "NY" "12594" -73.5633779 41.6477561
+"Wolcott Civic Free Library" "5890 New Hartford Street" "Wolcott" "NY" "14590" -76.8142382 43.2155495
+"Woodgate Free Library" "11051 Woodgate Road" "Woodgate" "NY" "13494" -75.1693671 43.5196406
+"Queens Borough Public Library - Woodhaven" "85-41 Forest Parkway" "Woodhaven" "NY" "11421" -73.8614468 40.694541
+"Queens Borough Public Library - Woodside" "54-22 Skillman Avenue" "Woodside" "NY" "11377" -73.909742 40.7453585
+"Woodstock Public Library District" "5 Library Lane" "Woodstock" "NY" "12498" -74.1223224 42.040909
+"Worcester Free Library" "168 Main Street Suite 2" "Worcester" "NY" "12197" -74.7489747 42.5921049
+"Mamakating Library" "156-158 Sullivan Street" "Wurtsboro" "NY" "12790" -74.4870428 41.5770086
+"Wyandanch Public Library" "14 South 20th Street" "Wyandanch" "NY" "11798" -73.3643004 40.7488165
+"North Greenbush Public Library" "141 Main Avenue" "Wynantskill" "NY" "12198" -73.6389614 42.6962215
+"Wyoming Free Circulating Library Association" "114 South Academy Street" "Wyoming" "NY" "14591" -78.093582 42.822474
+"Youngstown Free Library" "240 Lockport Street" "Youngstown" "NY" "14174" -79.0467852 43.2507631

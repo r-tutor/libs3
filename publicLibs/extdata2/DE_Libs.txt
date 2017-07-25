@@ -1,0 +1,36 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Bear Public Library" "101 Governors Place" "Bear" "DE" "19701" -75.6600209 39.6350841
+"South Coastal Library" "43 Kent Ave." "Bethany Beach" "DE" "19930" -75.0623358 38.5354879
+"Bridgeville Public Library" "600 South Cannon Streeet" "Bridgeville" "DE" "19933" -75.602407 38.7360902
+"Claymont Public Library" "3303 Green St., Claymont" "Claymont" "DE" "19703" -75.4640117 39.8027589
+"Delaware City Public Library" "250 Fifth Street" "Delaware City" "DE" "19706" -75.5921141 39.572094
+"Delmar Public Library" "101 North Bi-State Blvd" "Delmar" "DE" "19940" -75.5743984 38.4573501
+"Dover Public Library" "45 South State Street" "Dover" "DE" "19901" -75.5251509 39.1604538
+"Kent County Library" "497 South Red Haven Lane" "Dover" "DE" "19901" -75.5497831 39.0797073
+"Elsmere Public Library" "30 Spruce Ave" "Elsmere" "DE" "19805" -75.602844 39.7410352
+"Frankford Public Library" "8 Main Street" "Frankford" "DE" "19945" -75.234756 38.517152
+"Georgetown Public Library" "10 West Pine Street" "Georgetown" "DE" "19947" -75.385569 38.688932
+"Sussex County Dept. Of Libraries" "9 S. Dupont Highway" "Georgetown" "DE" "19947" -75.3854728 38.6901134
+"Harrington Public Library" "110 Center Street" "Harrington" "DE" "19952" -75.5754846 38.9286371
+"Hockessin Public Library" "1023 Valley Rd." "Hockessin" "DE" "19707" -75.7012941 39.7882881
+"Laurel Public Library" "101 East Fourth Street" "Laurel" "DE" "19956" -75.5707361 38.5562575
+"Lewes Public Library" "111 Adams Avenue" "Lewes" "DE" "19958" -75.1418495 38.7676529
+"Appoquinimink Public Library" "651 North Broad Street" "Middletown" "DE" "19709" -75.7174523 39.4558755
+"Milford District Free Library" "11 S.E. Front Street" "Milford" "DE" "19963" -75.4274969 38.9127343
+"Millsboro Public Library" "217 West State Street" "Millsboro" "DE" "19966" -75.2960846 38.5941595
+"Milton Public Library" "121 Union St" "Milton" "DE" "19968" -75.3109706 38.7785669
+"Department Of Community Services" "87 Reads Way" "New Castle" "DE" "19720" -75.6130469 39.6858807
+"Garfield Park Lending Library" "26 Karlyn Drive" "New Castle" "DE" "19720" -75.5617829 39.7018997
+"New Castle Public Library" "424 Delaware Street" "New Castle" "DE" "19720" -75.5658545 39.6608919
+"Newark Free Library" "750 Library Ave." "Newark" "DE" "19711" -75.7367903 39.6824643
+"Corbit-Calloway Memorial Library" "115 High Street" "Odessa" "DE" "19730" -75.6554989 39.4548682
+"Rehoboth Beach Public Library" "226 Rehoboth Avenue" "Rehoboth Beach" "DE" "19971" -75.0830681 38.7155992
+"Seaford Library And Cultural Center" "600 N Market St Ext" "Seaford" "DE" "19973" -75.6110381 38.6412256
+"Selbyville Public Library" "11 Main Mccabe Street" "Selbyville" "DE" "19975" -75.2220404 38.4587531
+"Smyrna Public Library" "107 South Main Street" "Smyrna" "DE" "19977" -75.6045553 39.2995627
+"Brandywine Hundred Branch" "1300 Foulk Road" "Wilmington" "DE" "19803" -75.5243867 39.7956108
+"Elsmere Public Library" "30 Spruce Ave." "Wilmington" "DE" "19805" -75.6012638 39.7157123
+"Kirkwood Highway Public Library" "6000 Kirkwood Highway" "Wilmington" "DE" "" -75.6787749 39.7108666
+"North Wilmington Library" "3400 North Market St." "Wilmington" "DE" "19802" -75.5271712 39.7580572
+"Wilmington Institute Library" "10th And Market Streets" "Wilmington" "DE" "19899" -75.5477358 39.7455423
+"Woodlawn Library" "2020 West Ninth Street" "Wilmington" "DE" "19805" -75.5717688 39.7537972

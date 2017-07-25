@@ -1,0 +1,286 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Abbeville Memorial Library" "301 Kirkland Street" "Abbeville" "AL" "36310" -85.2504881 31.5666141
+"Adamsville Public Library" "4825 Main Street" "Adamsville" "AL" "35005" -86.9532687 33.6001556
+"Akron Public Library" "207 First Avenue South" "Akron" "AL" "35441" -87.7419306 32.8773776
+"Alabaster - Albert L. Scott Library" "100 9th Street N.W." "Alabaster" "AL" "35007" -86.8270053 33.2448142
+"Albertville Public Library" "200 Jackson Street" "Albertville" "AL" "35950" -86.2029469 34.2644505
+"Marshall County Cooperative Library" "600 College Street" "Albertville" "AL" "35950" -86.199369 34.256803
+"Alexander City - Adelia Mcconnell Russell Library" "318 Church Street" "Alexander City" "AL" "35010" -85.9538684 32.9411135
+"Mamies Place Childrens Library" "284 Church Street" "Alexander City" "AL" "35010" -85.9538715 32.9414747
+"Aliceville Public Library" "416 Third Avenue Ne" "Aliceville" "AL" "35442" -88.1474944 33.1292805
+"Andalusia Public Library" "212 South Three Notch Street" "Andalusia" "AL" "36420" -86.4828663 31.3068617
+"Public Library Of Anniston-Calhoun County" "108 East 10th Street" "Anniston" "AL" "36201" -85.827998 33.6568385
+"Public Library Of Anniston-Calhoun County - Carver" "722 West 14th Street" "Anniston" "AL" "36201" -85.8390955 33.6620445
+"Arab Public Library" "325 2nd Street Nw" "Arab" "AL" "35016" -86.4969284 34.3210541
+"Ariton - Dot Laney Memorial Library" "30 W. Main Street" "Ariton" "AL" "36311" -85.7189326 31.600158
+"Arley Public Library" "6788 County Road 41" "Arley" "AL" "35541" -87.2125482 34.0796557
+"Houston-Love Memorial Library - Ashford" "305 6th Avenue" "Ashford" "AL" "36312" -85.234058 31.183024
+"Ashland City Public Library" "11 Second Avenue North" "Ashland" "AL" "36251" -85.830535 33.273893
+"Ashville Public Library" "196 Sixth Avenue" "Ashville" "AL" "35953" -86.2537551 33.8364836
+"St. Clair County Library" "139 5th Avenue" "Ashville" "AL" "35953" -86.2549609 33.8386515
+"Athens-Limestone Public Library" "405 East South Street" "Athens" "AL" "35611" -86.9648853 34.8001968
+"Atmore Public" "700 E. Church Street" "Atmore" "AL" "36502" -87.4857686 31.0226937
+"Escambia County Cooperative Library System" "700 East Church Street" "Atmore" "AL" "36502" -87.4857686 31.0226937
+"Etowah County Public Library" "604 North 4th Street" "Attalla" "AL" "35954" -86.0877483 34.0239077
+"Auburn Public Library" "749 East Thach Avenue" "Auburn" "AL" "36830" -85.4655956 32.6049393
+"Autauga Prattville Public Library - Autaugaville" "207 North Taylor Street" "Autaugaville" "AL" "36003" -86.6580661 32.4327189
+"Bay Minette Public Library" "205 West Second Street" "Bay Minette" "AL" "36507" -87.7766977 30.8821079
+"Bessemer Public Library" "400 19th Street N" "Bessemer" "AL" "35020" -86.9551311 33.4030112
+"Autauga Prattville Public Library - Billingsley" "2021 Post Office Street" "Billingsley" "AL" "36006" -86.7177239 32.65988
+"Birmingham Public Library" "2100 Park Place" "Birmingham" "AL" "35203" -86.8074291 33.5211254
+"Birmingham Public Library - Avondale Regional Library" "509 40th Street South" "Birmingham" "AL" "35222" -86.7743532 33.5209967
+"Birmingham Public Library - East Ensley" "900 14th Street Ensley" "Birmingham" "AL" "35218" -86.8888798 33.515173
+"Birmingham Public Library - East Lake" "5 Oporto Madrid Blvd South" "Birmingham" "AL" "35206" -86.7273854 33.5606541
+"Birmingham Public Library - Ensley" "1201 25th Street Ensley" "Birmingham" "AL" "35218" -86.8934928 33.5036919
+"Birmingham Public Library - Five Points West" "4620 Avenue V" "Birmingham" "AL" "35208" -86.8783539 33.494365
+"Birmingham Public Library - Inglenook" "4100 40th Terrace North" "Birmingham" "AL" "35217" -86.7765851 33.562336
+"Birmingham Public Library - North Avondale" "501 43rd Street N" "Birmingham" "AL" "35222" -86.772041 33.5310049
+"Birmingham Public Library - North Birmingham" "2501 31st Avenue North" "Birmingham" "AL" "35207" -86.8194447 33.5520552
+"Birmingham Public Library - Powderly" "3301 Jefferson Avenue Sw" "Birmingham" "AL" "35221" -86.8872075 33.4635109
+"Birmingham Public Library - Pratt City" "1100 Hibernian Street" "Birmingham" "AL" "35214" -86.8783691 33.5408147
+"Birmingham Public Library - Slossfield" "1916 25th Court North" "Birmingham" "AL" "35234" -86.8250496 33.5441005
+"Birmingham Public Library - Smithfield" "1 8th Avenue West" "Birmingham" "AL" "35204" -86.8365213 33.5137045
+"Birmingham Public Library - Southside" "1814 11th Avenue South" "Birmingham" "AL" "35205" -86.7982777 33.4998992
+"Birmingham Public Library - Springville Road" "1224 Old Springville Road" "Birmingham" "AL" "35235" -86.6681986 33.6225182
+"Birmingham Public Library - Titusville" "2 6th Avenue Sw" "Birmingham" "AL" "35211" -86.8315173 33.4926728
+"Birmingham Public Library - West End" "1241 Tuscaloosa Avenue Sw" "Birmingham" "AL" "35211" -86.853213 33.493121
+"Birmingham Public Library - Woodlawn" "5709 First Avenue North" "Birmingham" "AL" "35212" -86.7496688 33.542151
+"Birmingham Public Library - Wylam" "4300 7th Avenue Wylam" "Birmingham" "AL" "35224" -86.9200784 33.5058693
+"North Shelby Library" "5521 Cahaba Valley Road" "Birmingham" "AL" "35242" -86.7165499 33.3646429
+"Blountsville Public Library" "65 Chestnut Street" "Blountsville" "AL" "35031" -86.5906527 34.078931
+"Boaz Public Library" "404 Thomas Ave." "Boaz" "AL" "35957" -86.1614144 34.2014471
+"Brantley Public Library" "10 Mlk Dr." "Brantley" "AL" "36009" -86.2571786 31.5823832
+"Brewton Public Library" "206 West Jackson Street" "Brewton" "AL" "36426" -87.0701288 31.1202566
+"Bridgeport - Lena Cagle Public Library" "401 Alabama Avenue" "Bridgeport" "AL" "35740" -85.7143153 34.9476979
+"Brundidge - Tupper Lightfoot Memorial Library" "164 South Main Street" "Brundidge" "AL" "36010" -85.8156034 31.7186264
+"Choctaw County Public Library" "124 North Academy Avenue" "Butler" "AL" "36904" -88.2200806 32.0878598
+"Calera Public Library" "9700 Highway 25" "Calera" "AL" "35040" -86.7681657 33.0966917
+"Wilcox County Library" "100 Broad Street" "Camden" "AL" "36726" -87.2894706 31.9911146
+"Carbon Hill City Library" "215 Nw 2nd Street" "Carbon Hill" "AL" "35549" -87.5286175 33.8906857
+"Carrollton Public Library" "225 Commerce Avenue" "Carrollton" "AL" "35447" -88.0945315 33.2592948
+"Pickens County Cooperative Library" "155 Reform Street" "Carrollton" "AL" "35447" -88.0940023 33.2614172
+"Cherokee County Public Library" "310 Mary Street" "Centre" "AL" "35960" -85.6764508 34.1494971
+"Brent-Centreville Public Library" "20 Library Street" "Centreville" "AL" "35042" -87.1508666 32.9468363
+"Washington County Public Library" "14102 St. Stephens Ave." "Chatom" "AL" "36518" -88.2434587 31.4597533
+"Chelsea Public Library" "11611 Chelsea Road" "Chelsea" "AL" "35043" -86.6313055 33.3420979
+"Cherokee Public Library" "118 Church Street" "Cherokee" "AL" "35616" -87.9721922 34.7564629
+"Chickasaw - Ina Pullen Smallwood Memorial Library" "224 Grant Street" "Chickasaw" "AL" "36611" -88.0784381 30.7648744
+"Childersburg - Earle A. Rainwater Memorial Library" "124 Ninth Avenue Sw" "Childersburg" "AL" "35044" -86.3556708 33.2774838
+"Citronelle Memorial Library" "7855 State Street" "Citronelle" "AL" "36522" -88.229204 31.090651
+"Clanton Public Library" "100 First Avenue" "Clanton" "AL" "35045" -86.6243728 32.8408031
+"Clayton Town And County Public Library" "45 North Midway Street" "Clayton" "AL" "36016" -85.4496405 31.8810801
+"Elton B. Stephens Library" "17 School Street" "Clio" "AL" "36017" -85.4699733 31.6572036
+"Collinsville Public Library" "4299 Alabama Highway 68" "Collinsville" "AL" "35961" -85.8632053 34.2652036
+"Houston-Love Memorial Library - Columbia" "200 S Main St" "Columbia" "AL" "36319" -85.1116593 31.2921921
+"Columbiana Public Library" "50 Lester Street" "Columbiana" "AL" "35051" -86.6090882 33.179728
+"Cordova Public Library" "84 Main St." "Cordova" "AL" "35550" -87.1830184 33.7598749
+"Courtland Public Library" "215 College Street" "Courtland" "AL" "35618" -87.3104363 34.66594
+"Crane Hill Community Library" "14538 County Rd. 222" "Crane Hill" "AL" "35053" -87.0544205 34.0967317
+"Crossville Public Library" "80 Gaines Street" "Crossville" "AL" "35962" -85.9928337 34.2870642
+"Cullman County Public Library System" "200 Clark Street Ne" "Cullman" "AL" "35055" -86.8406395 34.1791098
+"Fairview Public Library" "7525 Alabama Hwy 69n" "Cullman" "AL" "35058" -86.675133 34.244799
+"Dadeville Public Library" "205 North West Street" "Dadeville" "AL" "36853" -85.7653866 32.8319694
+"Horseshoe Bend Regional Library" "207 North West Street" "Dadeville" "AL" "36853" -85.7653958 32.8314306
+"Daleville Public Library" "308 Donnell Boulevard" "Daleville" "AL" "36322" -85.7070872 31.3148978
+"Daphne Public Library" "2607 U.S. Highway 98" "Daphne" "AL" "36526" -87.8913014 30.550763
+"Decatur Public Library" "504 Cherry St., Ne" "Decatur" "AL" "35601" -86.9808343 34.6059415
+"Wheeler Basin Regional Library" "504 Cherry Street Ne" "Decatur" "AL" "35601" -86.9808343 34.6059415
+"Demopolis Public Library" "211 E. Washington Street" "Demopolis" "AL" "36732" -87.8359998 32.5173433
+"Dora Public Library" "1485 Sharon Blvd" "Dora" "AL" "35062" -87.0824773 33.7361678
+"Houston-Love Memorial Library - Dothan" "212 West Burdeshaw Street" "Dothan" "AL" "36303" -85.3952319 31.228544
+"Double Springs Public Library" "637 Blake Drive" "Double Springs" "AL" "35553" -87.3919538 34.1473221
+"Dutton Public Library" "23 Main Street" "Dutton" "AL" "35744" -85.9167554 34.6102694
+"Mitchell Branch Library" "4440 Highpoint Boulevard" "Eight Mile" "AL" "36613" -88.1611019 30.7601476
+"Elba Public Library" "406 Simmons Street" "Elba" "AL" "36323" -86.0681741 31.4146165
+"Enterprise Public Library" "101 East Grubbs Street" "Enterprise" "AL" "36330" -85.8529249 31.3141262
+"Eufaula Carnegie Library" "217 North Eufaula Avenue" "Eufaula" "AL" "36027" -85.1456438 31.8932957
+"James C. Poole Jr. Memorial Library" "420 Prairie Avenue" "Eutaw" "AL" "35462" -87.8878796 32.8393461
+"Eva Public Library" "4549 Highway 55 East" "Eva" "AL" "35621" -86.7576575 34.3318344
+"Evergreen Public Library" "119 Cemetery Avenue" "Evergreen" "AL" "36401" -86.9523294 31.4339608
+"Walter J. Hanna Memorial Library" "4615 Gary Avenue" "Fairfield" "AL" "35064" -86.9151117 33.4909474
+"Fairhope Public Library" "501 Fairhope Ave." "Fairhope" "AL" "36532" -87.9014255 30.5234802
+"Falkville Public Library" "7 North 1st Ave." "Falkville" "AL" "35622" -86.9074236 34.3679175
+"Fayette County Memorial Library" "326 Temple Avenue North" "Fayette" "AL" "35555" -87.83063 33.688408
+"Flomaton Public Library" "608 Mccurdy Street" "Flomaton" "AL" "36441" -87.2600561 31.0039393
+"Florala Public Library" "1214 Fourth Street" "Florala" "AL" "36442" -86.3267746 31.0063286
+"Florence-Lauderdale Public Library" "350 North Wood Avenue" "Florence" "AL" "35630" -87.6742217 34.8036752
+"Foley Public Library" "319 East Laurel Avenue" "Foley" "AL" "36535" -87.6790322 30.4069456
+"Fort Deposit Public Library" "24 South Pollard St" "Fort Deposit" "AL" "36032" -86.5803928 31.9771524
+"Dekalb County Public Library" "504 Grand Avenue Nw" "Fort Payne" "AL" "35967" -85.72035 34.4448856
+"Fultondale Public Library" "1015 Old Walkers Chapel Road" "Fultondale" "AL" "35068" -86.7988602 33.6084288
+"Carver Memorial Library" "1030 Tuscaloosa Avenue" "Gadsden" "AL" "35901" -86.014006 34.023308
+"East Gadsden Branch Library" "919 Wilson Avenue" "Gadsden" "AL" "35903" -85.9746711 34.0053221
+"Gadsden Public Library" "254 College Street" "Gadsden" "AL" "35901" -86.0092074 34.0125804
+"Hoyt Warsham Alabama City Branch Library" "2700 West Meighan" "Gadsden" "AL" "35904" -86.0461685 34.02255
+"Garden City Public Library" "501 1st Avenue South" "Garden City" "AL" "35070" -86.749531 34.0105696
+"Gardendale Martha Moore Public Library" "995 Mt. Olive Road" "Gardendale" "AL" "35071" -86.8177439 33.6503664
+"Emma Knox Kenan Public Library" "312 South Commerce Street" "Geneva" "AL" "36340" -85.8650663 31.0362033
+"Geraldine Public Library" "13543 Alabama Highway 227" "Geraldine" "AL" "35974" -86.0063576 34.3584378
+"Goodwater Public Library" "36 Weogufka Street" "Goodwater" "AL" "35072" -86.0553793 33.0635847
+"Ruth Holliman Memorial Public Library" "287 Main Street South" "Gordo" "AL" "35466" -87.9018923 33.3189084
+"Grant Public Library" "5379 Main Street" "Grant" "AL" "35747" -86.2526897 34.5255712
+"Graysville Public Library" "315 South Main Street" "Graysville" "AL" "35073" -86.9731572 33.6265372
+"Woodstock Library" "321 Presbyterian Church Road" "Green Pond" "AL" "35074" -87.1249986 33.2211028
+"Hale County Library" "1103 Main Street" "Greensboro" "AL" "36744" -87.592671 32.7041106
+"Butler County Public Library" "309 Ft. Dale Street" "Greenville" "AL" "36037" -86.6263449 31.8319622
+"Grove Hill Public Library" "108 Dubose Avenue" "Grove Hill" "AL" "36451" -87.7718309 31.7053936
+"Mchs Community Library" "8115 U.S. Highway 43" "Guin" "AL" "35563" -87.915497 33.975107
+"Thomas B. Norton Public Library" "221 West 19th Avenue" "Gulf Shores" "AL" "36542" -87.6900648 30.2720002
+"Guntersville Public Library" "1240 Obrig Avenue" "Guntersville" "AL" "35976" -86.3030457 34.3487879
+"Gurley Public Library" "331 Walker Street" "Gurley" "AL" "35748" -86.366885 34.695642
+"Haleyville Public Library" "913 20th Street" "Haleyville" "AL" "35565" -87.6239387 34.2263069
+"Clyde Nix Public Library" "350 Bexar Avenue West" "Hamilton" "AL" "35570" -87.992751 34.143836
+"Hanceville Public Library" "108 Main Street" "Hanceville" "AL" "35077" -86.7679089 34.0589595
+"Tom Bevel Branch" "115 Byars Road" "Hanceville" "AL" "35077" -86.8886527 33.9480369
+"Harpersville Public Library" "39397 Alabama 25" "Harpersville" "AL" "35078" -86.4390229 33.3428721
+"Hartford - Mcgregor-Mckinney Public Library" "101 East Fulton St." "Hartford" "AL" "36344" -85.696583 31.098357
+"Hartselle - William Bradford Huie Public Library" "152 Sparkman Street Nw" "Hartselle" "AL" "35640" -86.934673 34.444261
+"Hayneville-Lowndes County Public Library" "4 Washington Street" "Hayneville" "AL" "36040" -86.5799119 32.1822279
+"Tillman Hill Branch Library" "131 Knowledge Drive" "Hazel Green" "AL" "35750" -86.5729633 34.9341833
+"Blanche R. Solomon Memorial Library" "17 Park Street" "Headland" "AL" "36345" -85.3419681 31.3517209
+"Cheaha Regional Library" "935 Coleman Street" "Heflin" "AL" "36264" -85.5873211 33.6434689
+"Lucile L. Morgan Public Library" "541 Ross Street" "Heflin" "AL" "36264" -85.5874533 33.647127
+"Jane B. Holmes Public Library" "230 Tucker Road" "Helena" "AL" "35080" -86.8428119 33.2890701
+"Henagar Public Library" "17163 Al Highway 75" "Henagar" "AL" "35978" -85.7453086 34.6314105
+"Hokes Bluff - Rufus Floyd Public Library" "3310 Alfords Bend Road" "Hokes Bluff" "AL" "35903" -85.8665868 33.9919016
+"Homewood Public Library" "1721 Oxmoor Road" "Homewood" "AL" "35209" -86.795404 33.4750533
+"Hoover Public Library" "200 Municipal Drive" "Hoover" "AL" "35216" -86.8030863 33.3881436
+"Hueytown Public Library" "1372 Hueytown Road" "Hueytown" "AL" "35023" -86.9968417 33.4481865
+"Bailey Cove Branch Library" "1409 Weatherly Plaza" "Huntsville" "AL" "35803" -86.5411894 34.6449819
+"Bessie K. Russell Branch Library" "3011-C Sparkman Drive" "Huntsville" "AL" "35810" -86.6109389 34.7601232
+"Blue Spring Branch" "4600 Blue Spring Road" "Huntsville" "AL" "35810" -86.5975127 34.7826728
+"Eleanor E. Murphy Branch Library" "7910 Charlotte Drive" "Huntsville" "AL" "35802" -86.5723069 34.6607586
+"Huntsville-Madison County Public Library" "915 Monroe Street" "Huntsville" "AL" "35801" -86.5896439 34.7228206
+"Oscar Mason Branch" "149 Mason Court" "Huntsville" "AL" "35805" -86.6041854 34.7289724
+"Ider Public Library" "10808 Alabama Highway 75" "Ider" "AL" "35981" -85.6745415 34.6890101
+"Irondale Public Library" "105 20th Street South" "Irondale" "AL" "35210" -86.7063593 33.5379282
+"City Of Bayou La Batre Public Library" "12747 Padgett Switch Road" "Irvington" "AL" "36509" -88.2411547 30.4256811
+"White Smith Memorial Library" "213 College Avenue" "Jackson" "AL" "36545" -87.8938402 31.5125927
+"Jacksonville Public Library" "200 Pelham Road South" "Jacksonville" "AL" "36265" -85.761 33.8127
+"Carl Elliott Regional Library System" "98 18th Street East" "Jasper" "AL" "35501" -87.274683 33.833501
+"Jasper Public Library" "98 East 18th Street" "Jasper" "AL" "35501" -87.274683 33.833501
+"Kennedy Public Library" "17885 Hwy. 96" "Kennedy" "AL" "35574" -87.9861532 33.585721
+"Killen Public Library" "325 J. C. Mauldin Highway" "Killen" "AL" "35645" -87.5417555 34.8590251
+"Lafayette Pilot Public Library" "198 First Street, Se" "Lafayette" "AL" "36862" -85.4003046 32.8978922
+"Jane Culbreth Library" "8104 Parkway Drive" "Leeds" "AL" "35094" -86.54156 33.5437301
+"Leighton Public Library" "8740 Main Street" "Leighton" "AL" "35646" -87.5290091 34.7003011
+"Burchell Campbell Memorial Library" "11075 Highway 101" "Lexington" "AL" "35648" -87.3711816 34.968008
+"Lincoln Public Library" "49 Complex Drive" "Lincoln" "AL" "35096" -86.5834912 34.7328357
+"Marengo County Public Library" "507 North Main" "Linden" "AL" "36748" -87.7980353 32.3105512
+"Lineville Public Library" "60119 Highway 49" "Lineville" "AL" "36266" -85.7555672 33.3079719
+"Ruby Pickens Tartt Public Library" "206 Monroe Street" "Livingston" "AL" "35470" -88.1892566 32.5844597
+"Louisville Public Library" "1951 Main St." "Louisville" "AL" "36048" -85.5547484 31.7847356
+"Loxley Public Library" "1001 Loxley Avenue" "Loxleyabama" "AL" "36551" -87.7528336 30.6197927
+"Luverne Public Library" "148 East Third Avenue" "Luverne" "AL" "36049" -86.2612019 31.7163041
+"Madison Public Library" "130 Plaza Drive" "Madison" "AL" "35758" -86.7457525 34.7111175
+"Monrovia Branch" "1962 Jeff Road" "Madison" "AL" "35757" -86.713772 34.804962
+"Triana Branch Library" "280 Zierdt Road" "Madison" "AL" "35756" -86.7368373 34.5868081
+"Maplesville Public Library" "9400 Al Highway 22" "Maplesville" "AL" "36750" -86.8714715 32.7885151
+"Autauga Prattville Public Library - Marbury" "205 County Road 20 East" "Marbury" "AL" "36051" -86.4635223 32.6997666
+"Marion-Perry County Library" "202 Washington Street" "Marion" "AL" "36756" -87.3194768 32.6353513
+"Mcintosh Public Library" "83 Olin Road, Mcintosh" "Mcintosh" "AL" "36553" -88.0313903 31.2662818
+"Midfield Public Library" "400 Breland Drive" "Midfield" "AL" "35228" -86.9155595 33.457662
+"Mary Berry Brown Memorial Library" "1318 Hinton Waters Ave" "Midland City" "AL" "36350" -85.4948802 31.3179863
+"Millbrook Public Library" "3650 Grandview Road" "Millbrook" "AL" "36054" -86.362538 32.476691
+"Millport Public Library" "920 Black Street" "Millport" "AL" "35576" -88.0799823 33.5614964
+"Dauphin Island Parkway Branch" "1924j Dauphin Island Parkway" "Mobile" "AL" "36605" -88.0897327 30.6301571
+"Mobile Public Library" "701 Government Street" "Mobile" "AL" "36602" -88.0505905 30.6866853
+"Monte L. Moorer-Springhill Branch" "4 Mcgregor Avenue S" "Mobile" "AL" "36608" -88.1439274 30.6951803
+"Tillmans Corner Branch" "5451 Halls Mill Road, Suite 10" "Mobile" "AL" "36619" -88.167379 30.5898211
+"Toulminville Branch" "2318 St. Stephens Road" "Mobile" "AL" "36617" -88.0837841 30.7186722
+"West Regional Library" "5555 Grelot Road" "Mobile" "AL" "36609" -88.1719282 30.6615195
+"Monroe County Public Library" "121 Pineville Road" "Monroeville" "AL" "36460" -87.3232803 31.5280369
+"Montevallo - Parnell Memorial Library" "277 Park Drive" "Montevallo" "AL" "35115" -86.8587609 33.1007714
+"Parnell Memorial Library" "845 Valley Street" "Montevallo" "AL" "35115" -86.8623771 33.1022656
+"Coliseum Boulevard Branch Library" "840 Coliseum Boulevard" "Montgomery" "AL" "36109" -86.2594413 32.4000282
+"El Lowder Regional Library" "3950 Bell Road" "Montgomery" "AL" "36116" -86.1956129 32.3268637
+"Governors Square Branch Library" "2885-B East South Blvd." "Montgomery" "AL" "36116" -86.2485914 32.3291457
+"Hampstead Branch Library" "5251 Hampstead High Street Suite 107" "Montgomery" "AL" "36116" -86.1862069 32.311957
+"Juliette Hampton Morgan Memorial Library" "245 High Street" "Montgomery" "AL" "36104" -86.3054481 32.3725223
+"Pintlala Branch Library" "255 Federal Road" "Montgomery" "AL" "36043" -86.2724879 32.3837338
+"Rosa L. Parks Avenue Branch Library" "1276 Rosa Parks Avenue" "Montgomery" "AL" "36108" -86.3171237 32.359173
+"Rufus A. Lewis Regional Library" "3095 Mobile Highway" "Montgomery" "AL" "36108" -86.3388236 32.3475034
+"Doris Stanley Memorial Library" "2900 Daniel Drive" "Moody" "AL" "35004" -86.4919484 33.5901376
+"Moody - Doris Stanley Memorial Library" "1515 Bookmark Lane" "Moody" "AL" "35004" -86.4947801 33.5944397
+"Lawrence County Public Library" "401 College Street" "Moulton" "AL" "35650" -87.2937452 34.4760097
+"Moundville Public Library" "410 Market Street" "Moundville" "AL" "35474" -87.6285818 32.9972752
+"Emmet Oneal Library" "50 Oak Street" "Mountain Brook" "AL" "35213" -86.7565774 33.5012941
+"Mt. Vernon Public Library" "1220 Military Road" "Mt. Vernon" "AL" "36560" -88.012246 31.086514
+"Muscle Shoals Public Library" "1918 East Avalon Avenue" "Muscle Shoals" "AL" "35661" -87.6441062 34.7444046
+"Elizabeth Carpenter Public Library" "5496 Main Street" "New Hope" "AL" "" -86.3945301 34.5368889
+"Newton Public Library" "209 Oates Drive" "Newton" "AL" "36352" -85.5977027 31.3325039
+"Odenville Public Library" "200 Alabama Street" "Odenville" "AL" "35120" -86.3964012 33.6802104
+"Ohatchee Public Library" "7803 Al Highway 77" "Ohatchee" "AL" "36271" -86.0379926 33.7805179
+"Oneonta Public Library" "221 Second Street South" "Oneonta" "AL" "35121" -86.4762339 33.943832
+"Lewis Cooper Jr. Memorial Library" "200 South 6th Street" "Opelika" "AL" "" -85.3751314 32.6489533
+"Opp Public Library" "1604 North Main Street" "Opp" "AL" "36467" -86.254919 31.304901
+"Orange Beach Public Library" "26267 Canal Road" "Orange Beach" "AL" "36561" -87.5770429 30.2930572
+"Oxford Public Library" "110 East 6th Street" "Oxford" "AL" "36203" -85.8353713 33.6093397
+"Ozark - Dale County Public Library" "416 James Street" "Ozark" "AL" "36360" -85.6335554 31.451843
+"Pelham Public Library" "3160 Pelham Parkway" "Pelham" "AL" "35124" -86.8113367 33.2877472
+"Pell City Public Library" "1923 1st Avenue North" "Pell City" "AL" "35125" -86.2855575 33.5876574
+"Phenix City-Russell County Library" "1501 17th Avenue" "Phenix City" "AL" "36867" -85.0164134 32.4751263
+"Piedmont Public Library" "106 N Main Street" "Piedmont" "AL" "36272" -85.6135763 33.9237755
+"Pike Road Branch Library" "9585 Vaughn Road" "Pike Road" "AL" "36064" -86.0908143 32.3469069
+"Pine Hill Branch Public Library" "530 Oak Grove Street" "Pine Hill" "AL" "36769" -87.5891318 31.9878196
+"Pine Level Branch Library" "20 Kohn Drive" "Pine Level" "AL" "36065" -86.060425 32.064222
+"Clay Public Library" "7257 Old Springville Road" "Pinson" "AL" "35126" -86.5779254 33.7149448
+"Pinson Public Library" "4410 Main Street" "Pinson" "AL" "35126" -86.6816775 33.6920587
+"Pleasant Grove Public Library" "501 Park Road" "Pleasant Grove" "AL" "35127" -86.9708124 33.4898692
+"Autauga - Prattville Public Library" "254 Doster Street" "Prattville" "AL" "36067" -86.4673659 32.4565481
+"Priceville Public Library" "103 Faye Drive" "Priceville" "AL" "35603" -86.891186 34.525829
+"Prichard Public Library" "300 West Lovejoy Loop" "Prichard" "AL" "36610" -88.0811239 30.7307296
+"Ragland Public Library" "738 Main Street" "Ragland" "AL" "35131" -86.1549195 33.7426913
+"Rainbow City Public Library" "3702 Rainbow Drive" "Rainbow City" "AL" "35906" -86.0465946 33.9498737
+"Rainsville Public Library" "941 East Main Street" "Rainsville" "AL" "35986" -85.8325119 34.4879937
+"Ramer Branch Library" "5444 Sr-94" "Ramer" "AL" "36069" -86.219229 32.0521296
+"Red Bay - Weatherford Public Library" "307 4th Avenue South" "Red Bay" "AL" "35582" -88.1418228 34.4405097
+"Reform Public Library" "302 First Street South" "Reform" "AL" "35481" -88.0159079 33.3765269
+"Roanoke - Annie L. Awbrey Public Library" "736 College Street" "Roanoke" "AL" "36274" -85.371001 33.149916
+"Baldwin County Library Cooperative" "22251 Palmer Street" "Robertsdale" "AL" "36567" -87.7176292 30.5485433
+"Robertsdale Public Library" "18301 Pennsylvania Street" "Robertsdale" "AL" "36567" -87.7120033 30.5539162
+"Rockford Public Library" "110 Main Street" "Rockford" "AL" "35136" -86.2178358 32.8924405
+"Rogersville Public Library" "74 Bank Street" "Rogersville" "AL" "35652" -87.2920402 34.8240038
+"Russellville Public Library" "110 East Lawrence Street" "Russellville" "AL" "35653" -87.7299436 34.5045842
+"Samson Public Library" "200 North Johnson Street" "Samson" "AL" "36477" -86.0455999 31.1167
+"Saraland Public Library" "111 Saraland Loop" "Saraland" "AL" "36571" -88.0733887 30.8249035
+"Sardis City Public Library" "1310 Church Street" "Sardis City" "AL" "35956" -86.1226746 34.1746555
+"Satsuma Public Library" "5466 Old Highway 43" "Satsuma" "AL" "36572" -88.0581362 30.8486158
+"Scottsboro Public Library" "1002 South Broad Street" "Scottsboro" "AL" "35768" -86.0354858 34.6607283
+"Selma-Dallas County Public Library" "1103 Selma Avenue" "Selma" "AL" "36703" -87.0200695 32.4092156
+"Sheffield Public Library" "316 North Montgomery Avenue" "Sheffield" "AL" "35660" -87.6986158 34.7612377
+"Oscar Johnson Memorial Library" "15965 Silverhill Ave." "Silverhill" "AL" "36576" -87.7070564 30.5456684
+"Slocomb Public Library" "134 South Dalton Avenue" "Slocomb" "AL" "36375" -85.5934542 31.105981
+"Somerville Public Library" "192 Broad St" "Somerville" "AL" "35670" -86.798897 34.473684
+"Springville Public Library" "6496 U.S. Highway 11" "Springville" "AL" "35146" -86.470521 33.775576
+"Steele Public Library" "78 Hillview Street" "Steele" "AL" "35987" -86.199079 33.944465
+"Stevenson Public Library" "102 West Main Street" "Stevenson" "AL" "35772" -85.8376203 34.8694699
+"Sulligent Public Library" "514 Elm Street" "Sulligent" "AL" "35586" -88.1310047 33.899209
+"Sumiton Public Library" "416 State Street" "Sumiton" "AL" "35148" -87.0494723 33.7533018
+"Summerdale - Marjorie Younce Snook Public Library" "202 West Broadway Street" "Summerdale" "AL" "36580" -87.7014456 30.4872271
+"B .B. Comer Memorial Library" "314 North Broadway Avenue" "Sylacauga" "AL" "35150" -86.2502538 33.1720457
+"Talladega Public Library" "202 South Street East" "Talladega" "AL" "35160" -86.0982848 33.4333568
+"Tallassee Community Library" "99 Freeman Avenue" "Tallassee" "AL" "36078" -85.8836203 32.5349448
+"Tarrant Public Library" "1143 Ford Avenue" "Tarrant" "AL" "35217" -86.77009 33.582875
+"Thomasville Public Library" "1401 Mosley Drive" "Thomasville" "AL" "36784" -87.7384934 31.9294043
+"Troy Public Library" "300 North Three Notch Street" "Troy" "AL" "36081" -85.9723058 31.8092392
+"Trussville Public Library" "201 Parkway Drive" "Trussville" "AL" "35173" -86.6044634 33.6268938
+"Tuscaloosa Public Library" "1801 Jack Warner Parkway" "Tuscaloosa" "AL" "35401" -87.5618324 33.2155467
+"Weaver-Bolden Branch Library" "2937 18th Street" "Tuscaloosa" "AL" "35401" -87.5733325 33.1965618
+"Tuscumbia - Helen Keller Public Library" "511 North Main Street" "Tuscumbia" "AL" "35674" -87.70356 34.73755
+"Macon County - Tuskegee Public Library" "302 South Main Street" "Tuskegee" "AL" "36083" -85.6890752 32.4219354
+"Union Springs Public Library" "103 North Prairie Street" "Union Springs" "AL" "36089" -85.7161044 32.1442773
+"Uniontown Public Library" "108 Water Street" "Uniontown" "AL" "36786" -87.5143031 32.4461628
+"H. Grady Bradshaw - Chambers County Library" "3419 20th Avenue" "Valley" "AL" "36854" -85.1779768 32.8379883
+"Vernon - Mary Wallace Cobb Memorial Library" "110 First Avenue West" "Vernon" "AL" "35592" -88.1092289 33.7578521
+"Vestavia Hills Public Library" "1112 Montgomery Highway" "Vestavia Hills" "AL" "35216" -86.789924 33.436392
+"Vincent - Lallouise F. Mcgraw Library" "42860 Highway 25" "Vincent" "AL" "35178" -86.4107079 33.3871157
+"Westside Public Library" "5151 Walnut Grove Road" "Walnut Grove" "AL" "35990" -86.3074437 34.0538793
+"Warrior Public Library" "101 First Street" "Warrior" "AL" "35180" -86.8045894 33.8133303
+"West Blocton Public Library" "62 Walter Owens Drive" "West Blocton" "AL" "35184" -87.113395 33.1182669
+"Wetumpka Public Library" "212 South Main Street" "Wetumpka" "AL" "36092" -86.2063165 32.5358691
+"White Hall Public Library" "640 Freedom Road" "White Hall" "AL" "36040" -86.7123025 32.3001745
+"Wilsonville - Vernice Stoudenmire Library" "p.o. box 24" "Wilsonville" "AL" "35186" -86.4835916 33.234281
+"Northwest Regional Library" "185 Ashwood Drive" "Winfield" "AL" "35594" -87.8148779 33.9298605
+"Woodville Public Library" "26 Venson Street" "Woodville" "AL" "35776" -86.2747427 34.6271565
+"Hightower Memorial Library" "630 Avenue A" "York" "AL" "36925" -88.2960413 32.4846594

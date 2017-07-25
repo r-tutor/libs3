@@ -1,0 +1,394 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Abilene Public Library" "209 Nw 4th" "Abilene" "KS" "67410" -97.2149578 38.9183371
+"Agra-F Lee Doctor Library" "222 Main" "Agra" "KS" "67621" -99.1189594 39.7607157
+"F. Lee Doctor Public Library, Agra" "330 Main" "Agra" "KS" "" -99.1189573 39.7622855
+"Lyon County Library Dist. 1" "421 Main" "Allen" "KS" "66833" -96.169942 38.6556214
+"Alma Branch Library" "115 West 3rd" "Alma" "KS" "" -96.2897781 39.0128356
+"Almena City Library" "415 Main" "Almena" "KS" "67622" -99.7067096 39.8936485
+"Alta Vista Mini Branch" "310 Center" "Alta Vista" "KS" "" -96.4908319 38.8641224
+"Altamont Public Library" "407 Huston Ave" "Altamont" "KS" "67330" -95.296931 37.1924004
+"Altoona Public Library" "714 Main" "Altoona" "KS" "66710" -95.6623984 37.5231138
+"Altoona Public Library" "713 Main St." "Altoona" "KS" "" -95.6623984 37.5231138
+"Americus Township Library" "710 Main" "Americus" "KS" "66835" -96.262519 38.507381
+"Andale District Library" "328 Main St" "Andale" "KS" "67001" -97.629731 37.791538
+"Andover Public Library" "1511 E. Central" "Andover" "KS" "67002" -97.1190661 37.6933562
+"Anthony Public Library" "624 E. Main St." "Anthony" "KS" "67003" -98.0232475 37.1522439
+"Dixon Township Library" "120 W Walnut" "Argonia" "KS" "67004" -97.7668633 37.2657986
+"Arkansas City Public Library" "120 E. 5th Avenue" "Arkansas City" "KS" "67005" -97.0381071 37.0613121
+"Arlington City Library" "111 E. Main" "Arlington" "KS" "67514" -98.1754 37.8960999
+"Arma City Library" "508 E. Washington Street" "Arma" "KS" "66712" -94.6990295 37.5441374
+"Ashland Library" "604 Main" "Ashland" "KS" "67831" -99.7657793 37.1906485
+"Atchison Library" "401 Kansas Avenue" "Atchison" "KS" "66002" -95.1180208 39.5632796
+"Attica City Library" "125 North Main" "Attica" "KS" "67009" -98.2262294 37.2408561
+"Atwood Public Library" "102 S. 6th St." "Atwood" "KS" "67730" -101.0396222 39.8075651
+"Augusta Public Library" "1609 State St." "Augusta" "KS" "67010" -96.979637 37.69203
+"Axtell Public Library" "401 Maple" "Axtell" "KS" "66403" -96.2591629 39.872545
+"Baldwin City Library" "800 7th St." "Baldwin City" "KS" "66006" -95.1871281 38.7745972
+"Basehor Community Library, Dist 2, Lv. Co." "1400 158th Street" "Basehor" "KS" "66007" -94.9467607 39.1224273
+"Johnston Public Library" "210 W. 10th St." "Baxter Springs" "KS" "66713" -94.7366226 37.0258276
+"Belle Plaine Public Library" "222 W. 5th" "Belle Plaine" "KS" "67013" -97.2820455 37.3937576
+"Belleville Public Library" "1327 19th Street" "Belleville" "KS" "66935" -97.6305967 39.8226497
+"Port Library" "311 W. Main" "Beloit" "KS" "67420" -98.113127 39.4590488
+"Bird City Public Library" "110 East 4th" "Bird City" "KS" "67731" -101.5313322 39.7496326
+"Bison Community Library" "202 Main" "Bison" "KS" "67520" -99.198208 38.5213729
+"Library District 3 Of Linn County, Blue Moun" "po box 13" "Blue Mound" "KS" "" -95.0063593 38.0900303
+"Linn County Library Dist 3" "316 E. Main St" "Blue Mound" "KS" "66010" -95.00849 38.090209
+"Blue Rapids Public Library" "14 Public Square" "Blue Rapids" "KS" "66411" -81.6961005 41.4994946
+"Bonner Springs City Library" "200 E. Third Street" "Bonner Springs" "KS" "66012" -94.8826503 39.0578811
+"Bronson Public Library" "509 Clay" "Bronson" "KS" "66716" -95.072096 37.8945627
+"Brownell Public Library" "201 S. Sixth Street" "Brownell" "KS" "67521" -99.7474177 38.6395558
+"Bucklin Public Library" "201 N. Main" "Bucklin" "KS" "67834" -99.6345042 37.5506901
+"Buhler Public Library" "121 N. Main St." "Buhler" "KS" "67522" -97.7705964 38.135547
+"Burdett Community Library" "207 Elm Street" "Burdett" "KS" "" -99.5271067 38.1908671
+"Burlingame Community Library" "122 W. Santa Fe Ave" "Burlingame" "KS" "66413" -95.835909 38.754075
+"Coffey County Library" "410 Juniatta Street" "Burlington" "KS" "66839" -95.7388232 38.1974635
+"Burns Public Library" "104 North Washington Ave" "Burns" "KS" "66840" -96.8864252 38.0895081
+"Burr Oak Community Library" "221 A Main Street" "Burr Oak" "KS" "66936" -98.3059996 39.8693166
+"Burrton Public Library" "121 N. Burrton Ave" "Burrton" "KS" "67020" -97.6715352 38.0243239
+"Ruth Dole Memorial Library" "121 N Burrton" "Burrton Ks" "KS" "67020" -97.6715352 38.0243239
+"Caldwell Public Library" "8 N. Osage" "Caldwell" "KS" "67022" -97.6096311 37.0325408
+"Caney City Library" "100 N. Ridgeway" "Caney" "KS" "67333" -95.9296914 37.0115773
+"Canton Township" "200 N Main" "Canton" "KS" "67428" -97.42799 38.3845
+"Carbondale City Library" "234 Main Street" "Carbondale" "KS" "66414" -95.6908459 38.819284
+"Cawker City Public Library" "802 Locust" "Cawker City" "KS" "67430" -98.431711 39.5083887
+"Cedar Vale Memorial Library" "608 Cedar" "Cedar Vale" "KS" "67024" -96.498237 37.1048296
+"Centralia Community Library" "520 4th Street" "Centralia" "KS" "66415" -96.1300012 39.7227814
+"Chanute Public Library" "111 N. Lincoln Ave." "Chanute" "KS" "66720" -95.4518137 37.68277
+"Chapman Public Library" "402 N. Marshall" "Chapman" "KS" "67431" -97.019416 38.970518
+"Cheney Public Library" "203 N. Main" "Cheney" "KS" "67025" -97.781556 37.628079
+"Cherryvale Public Library" "329 East Main" "Cherryvale" "KS" "67335" -95.5489536 37.2683903
+"Chetopa City Library" "312 Maple" "Chetopa" "KS" "67336" -95.086035 37.0369229
+"Cimarron City Library" "120 North Main" "Cimarron" "KS" "67835" -100.3484359 37.8058135
+"Cimarron City Library" "111 Main" "Cimarron" "KS" "" -100.3482888 37.8073367
+"Cimarron City Library" "120 N. Main" "Cimarron" "KS" "" -100.3484359 37.8058135
+"Lansing Community Library" "108 S 2nd Street" "City Of Lansing" "KS" "66043" -94.8962466 39.249262
+"Independent Township" "108 Main" "Claflin" "KS" "67525" -98.5335486 38.5225374
+"Clay Center Carnegie Library" "706 6 St" "Clay Center" "KS" "67432" -97.1245857 39.376478
+"Clearwater Public Library" "109 E. Ross" "Clearwater" "KS" "67026" -97.505368 37.504325
+"Clifton Public Library" "104 E. Parallel" "Clifton" "KS" "66937" -97.2789342 39.5667339
+"Randolph-Decker Pub. Lib." "107 S Green St." "Clyde ." "KS" "66938" -97.3985742 39.5901734
+"Coffeyville Public Library" "311 W Tenth Street" "Coffeyville" "KS" "67337" -95.6201243 37.0337324
+"Colby-Pioneer Memorial Library" "375 West 4th Street" "Colby" "KS" "67701" -101.0491925 39.3970673
+"Pioneer Memorial Library, Colby" "375 W. 4th St." "Colby" "KS" "" -101.0491925 39.3970673
+"Coldwater-Wilmore Regional Library" "221 E.Main" "Coldwater" "KS" "67029" -99.3259676 37.2699914
+"Colony City Library" "339 Cherry Street" "Colony" "KS" "66015" -95.3668619 38.0701895
+"Columbus Public Library" "205 N. Kansas" "Columbus" "KS" "66725" -94.8425746 37.1719362
+"Colwich Community Library" "432 W Colwich" "Colwich" "KS" "67030" -97.540705 37.781315
+"Frank Carlson Library" "702 Broadway" "Concordia" "KS" "66901" -97.6592582 39.5704815
+"Conway Springs City Library" "210 W. Springs Ave" "Conway Springs" "KS" "67031" -97.6431327 37.3902871
+"Copeland Public Library" "109 Santa Fe" "Copeland" "KS" "67837" -100.6295372 37.5426643
+"Corning City Library" "6621 5th St." "Corning" "KS" "66417" -96.029389 39.6572529
+"Burnley Memorial Library" "401 Oak Street" "Cottonwood Falls" "KS" "" -96.5422124 38.3656558
+"Cottonwood Falls-Burnley Memorial" "405 N. Oak" "Cottonwood Falls" "KS" "66845" -96.5420955 38.3695876
+"Council Grove Public Library" "829 W. Main St." "Council Grove" "KS" "66846" -96.4990733 38.6585919
+"Courtland Community Library" "403 Main St." "Courtland" "KS" "66939" -97.8950479 39.7829984
+"Hillcrest Library" "804 Bristol Street" "Cuba" "KS" "66940" -97.4538091 39.8024851
+"Cunningham Public Library" "105 North Main" "Cunningham" "KS" "67035" -98.4328685 37.6453369
+"Delphos Public Library" "114 W. 2nd" "Delphos" "KS" "67436" -97.7657204 39.2738551
+"Derby Public Library" "611 N Mulberry Rd, Suite 200" "Derby" "KS" "67037" -97.2485949 37.5488666
+"Johnson County Library, Desoto" "33145 West 83rd Street" "Desoto" "KS" "" -94.9697002 38.9778762
+"Dighton-Lane County Library" "144 South Lane" "Dighton" "KS" "67839" -100.4655084 38.481564
+"Lane County Library, Dighton" "144 S. Lane" "Dighton" "KS" "" -100.4655084 38.481564
+"Dodge City Public Library" "1001 N. Second Ave" "Dodge City" "KS" "67801" -100.0192574 37.7578206
+"Southwest Kansas Library System" "100 Military Avenue Suite 210" "Dodge City" "KS" "67801" -100.0164714 37.7540807
+"Douglass Public Library" "319 S. Forest" "Douglass" "KS" "67039" -94.6964403 39.0496912
+"Downs Carnegie Library" "504 Morgan Ave" "Downs" "KS" "67437" -98.5444615 39.5004163
+"Dwight Public Library" "637 Main" "Dwight" "KS" "66849" -96.5930699 38.8431977
+"Edgerton Library" "319 E. Nelson" "Edgerton" "KS" "" -95.0071837 38.7647262
+"Edna Public Library" "105 N Delaware" "Edna" "KS" "67342" -95.3592222 37.0570068
+"Effingham Community Library" "414 Main Street" "Effingham" "KS" "66023" -95.3961886 39.5218325
+"Bradford Memorial Library" "611 S. Washington" "El Dorado" "KS" "67042" -96.8539163 37.812707
+"Elkhart-Morton County Library" "410 Kansas" "Elkhart" "KS" "67950" -101.900843 37.00281
+"Ellinwood School Community Library" "210 N. Schiller" "Ellinwood" "KS" "67526" -98.5776227 38.3557408
+"Ellis Public Library" "907 Washington" "Ellis" "KS" "67637" -99.5602722 38.9384243
+"J.H. Robbins Memorial Library" "219 N. Lincoln Ave." "Ellsworth" "KS" "67439" -98.2294397 38.7292273
+"Elwood Branch Library" "410 N 9th" "Elwood" "KS" "" -94.880664 39.7585545
+"Emporia Public Library" "110 E. Sixth Avenue" "Emporia" "KS" "66801" -96.1784401 38.4053889
+"Enterprise Public Library" "123 S. S Factory" "Enterprise" "KS" "67441" -97.117728 38.904262
+"Erie City Public Library" "204 S. Butler" "Erie" "KS" "66733" -95.241989 37.5672815
+"Eskridge Branch" "115 S. Main" "Eskridge" "KS" "" -96.107398 38.8604078
+"Eudora Public Library" "14 E 9th St." "Eudora" "KS" "66025" -95.0981836 38.9437784
+"Eureka Public Library" "606 North Main" "Eureka" "KS" "67045" -96.2941314 37.824393
+"Barnes Reading Room" "640 Main Street" "Everest" "KS" "66424" -95.4264687 39.6772927
+"Fall River Public Library" "314 Merchant Ave." "Fall River" "KS" "67047" -96.028319 37.6094795
+"Florence Public Library" "324 Main St." "Florence" "KS" "66851" -96.9261335 38.2405447
+"Ford City Library" "701 E 8th St" "Ford" "KS" "67842" -99.751689 37.6365292
+"Formoso Public Library" "204 Main" "Formoso" "KS" "66942" -97.993135 39.7793233
+"Combined Arms Research Library" "250 Gibbon Ave" "Fort Leavenworth" "KS" "" -94.91606 39.346528
+"Fort Scott Public Library" "201 S. National" "Fort Scott" "KS" "66701" -94.7073173 37.8398309
+"Fowler Public Library" "510 Main" "Fowler" "KS" "67844" -100.195498 37.3820473
+"Frankfort City Library" "104 E. Second St" "Frankfort" "KS" "66427" -96.4185794 39.702253
+"Fredonia Public Library" "807 Jefferson St." "Fredonia" "KS" "66736" -95.8248831 37.5325343
+"Galena Public Library" "315 W. 7th Street" "Galena" "KS" "66739" -94.6415909 37.0749696
+"Finney County Public Library" "605 E Walnut" "Garden City" "KS" "67846" -100.8650272 37.9709795
+"Garden Plain Community Library" "421 Ave B" "Garden Plain" "KS" "67050" -97.684896 37.658385
+"Johnson County Library, Gardner" "116 East Main" "Gardner" "KS" "" -94.9265742 38.8112986
+"Garnett Public Library" "125 W. 4th" "Garnett" "KS" "66032" -95.2427052 38.2809662
+"Gaylord City Library" "505 Main" "Gaylord" "KS" "67638" -98.8461533 39.6466131
+"Geneseo Public Library" "725 Main Street" "Geneseo" "KS" "67444" -98.1565242 38.5162713
+"Girard Public Library" "128 West Prairie Ave." "Girard" "KS" "66743" -94.8438854 37.5095332
+"Glen Elder Library" "105 S. Mill St." "Glen Elder" "KS" "67446" -98.308404 39.500116
+"Goessel Public Library" "101 S. Cedar" "Goessel" "KS" "67053" -97.3461313 38.2455571
+"Goodland Public Library" "812 Broadway" "Goodland" "KS" "67735" -101.7104293 39.3510903
+"Gove City Library" "519 Broad Street" "Gove" "KS" "67736" -100.4878773 38.960029
+"Grainfield City Library" "242 Main St." "Grainfield" "KS" "67737" -100.4653712 39.1135771
+"Central Kansas Library System" "1409 Williams Street" "Great Bend" "KS" "67530" -98.7665292 38.3656008
+"Great Bend Public Library" "1409 Williams" "Great Bend" "KS" "67530" -98.7665292 38.3656008
+"Grenola Public" "205 South Main" "Grenola" "KS" "67346" -96.4493659 37.3455576
+"Gridley Library" "512 Main" "Gridley" "KS" "" -95.8843115 38.0985275
+"Grinnell-Moore Family Library" "95 S. Adams" "Grinnell" "KS" "67738" -100.6290365 39.1257938
+"Gypsum Community Library" "521 Maple St." "Gypsum" "KS" "67448" -97.4273803 38.7047416
+"Halstead Public Library" "264 Main" "Halstead" "KS" "67056" -97.505581 38.003323
+"Hamilton City Library" "21 E. Main" "Hamilton" "KS" "66853" -96.1637476 37.9797066
+"Hanover Public" "205 Jackson Street" "Hanover" "KS" "66945" -96.8739057 39.891489
+"Hanston City Library" "105 N Logan" "Hanston" "KS" "67849" -99.7145413 38.1209068
+"Hardtner Public Library" "102 E Central" "Hardtner" "KS" "67057" -98.6479463 37.013843
+"Harper Public Library" "1002 Oak" "Harper" "KS" "67058" -98.0273185 37.2866773
+"Hartford-Elmendaro Township" "224 Commercial St." "Hartford" "KS" "66854" -95.9574202 38.3085422
+"Harveyville Mini Library" "128 W. Oak Street" "Harveyville" "KS" "" -95.960706 38.7915442
+"Havana Study Club Library" "po box 33" "Havana" "KS" "" -95.9419271 37.091735
+"Haven Public Library" "121 North Kansas Avenue" "Haven" "KS" "67543" -97.7826555 37.9003967
+"Kiowa County Library" "112 N. Main" "Haviland" "KS" "67059" -99.1062343 37.6159145
+"Hays Public Library" "1205 Main St." "Hays" "KS" "67601" -99.330076 38.873165
+"Haysville Community Library" "130 West Grand Avenue" "Haysville" "KS" "67060" -97.353062 37.564897
+"Healy Extension Of Lane County Library" "box 63" "Healy" "KS" "" -100.6163245 38.6006198
+"Hepler City Library" "105 S. Prairie" "Hepler" "KS" "66746" -94.9696812 37.6599872
+"Herington Public Library" "102 S. Broadway" "Herington" "KS" "67449" -96.943228 38.66971
+"Hesston Public Library" "110 E. Smith" "Hesston" "KS" "67062" -97.4307032 38.1387368
+"Hiawatha-Morrill Public Library" "431 Oregon" "Hiawatha" "KS" "66434" -95.5332945 39.8528708
+"Highland Branch Library" "306 W. Main" "Highland" "KS" "" -95.2675442 39.8595765
+"Graham County Public Library" "414 N West" "Hill City" "KS" "67642" -99.8405558 39.3679023
+"Hillsboro Public Library" "120 E. Grand Ave." "Hillsboro" "KS" "67063" -97.203453 38.353482
+"Hoisington Public Library" "169 South Walnut" "Hoisington" "KS" "67544" -98.776534 38.513237
+"Beck-Bookman Library" "420 West 4th" "Holton" "KS" "66436" -95.740144 39.4636337
+"Hope Community Library" "216 N. Main" "Hope" "KS" "67451" -97.078204 38.6909289
+"Horton Public Library" "809 1st Ave. East" "Horton" "KS" "66439" -95.5258991 39.6602597
+"Howard City Library" "124 S. Wabash" "Howard" "KS" "67349" -96.2635714 37.4684805
+"Sheridan County Public Library" "801 Royal Avenue" "Hoxie" "KS" "67740" -100.4432883 39.3549159
+"Stevens County Library" "500 Monroe" "Hugoton" "KS" "67951" -101.3459507 37.1782893
+"Humboldt Public Library" "916 Bridge" "Humboldt" "KS" "66748" -95.4352695 37.8112253
+"Hutchinson Public Library" "901 N. Main" "Hutchinson" "KS" "67501" -97.9325156 38.0632223
+"Independence Public Library" "220 East Maple" "Independence" "KS" "67301" -95.7043621 37.2225048
+"Inman Public Library" "100 N. Main" "Inman" "KS" "67546" -97.7756255 38.232087
+"Iola Public Library" "218 East Madison" "Iola" "KS" "66749" -95.4016758 37.9215778
+"Southeast Kansas Library System" "218 East Madison Avenue" "Iola" "KS" "66749" -95.4016758 37.9215778
+"Jamestown City Library" "311 D Walnut" "Jamestown" "KS" "66948" -97.8623674 39.5997587
+"Jennings City Library" "p.o.box84" "Jennings" "KS" "67643" -100.2934724 39.6794486
+"Jetmore Public Library" "308 Main Street" "Jetmore" "KS" "67854" -99.8938097 38.0866731
+"Jewell Public Library" "216 Delaware Street" "Jewell" "KS" "66949" -98.154496 39.6694576
+"Stanton County Public Library" "103 E Sherman" "Johnson" "KS" "67855" -101.7507098 37.5713529
+"Dorothy Bramlage Public Library" "230 West Seventh Street" "Junction City" "KS" "66441" -96.8328704 39.0296301
+"Kanopolis Public Library" "221 N. Kansas" "Kanopolis" "KS" "67454" -98.1579003 38.7137364
+"Argentine Branch Library" "2800 Metropolitan Ave" "Kansas City" "KS" "" -94.6610889 39.0732672
+"Kansas City, Kansas Public Library" "625 Minnesota Avenue" "Kansas City" "KS" "66101" -94.6251274 39.1149907
+"Mr. And Mrs. F.L. Schlagle Library" "4051 West Drive" "Kansas City" "KS" "" -94.790189 39.1611458
+"West Wyandotte Branch Library" "1737 N. 82nd Street" "Kansas City" "KS" "" -94.7697991 39.1247195
+"Kensington Community-School Library" "203 S Jackson" "Kensington" "KS" "66951" -99.0305076 39.7654969
+"Kingman Carnegie Library" "455 North Main" "Kingman" "KS" "67068" -98.1132138 37.6459238
+"Kinsley" "208 E. 8th St." "Kinsley" "KS" "67547" -99.4111065 37.920797
+"Kiowa Public Library" "123 N 7th" "Kiowa" "KS" "67070" -98.4853221 37.0172384
+"Kirwin City Library" "1st And Main" "Kirwin" "KS" "67644" -99.1224102 39.6671993
+"Kismet Public Library" "503 Main Street" "Kismet" "KS" "67859" -100.7001415 37.2030113
+"Barnard Library" "521 Elm" "La Crosse" "KS" "67548" -99.3107915 38.5279613
+"Library District 2 , Linn County" "206 N. Commercial" "Lacygne" "KS" "66040" -94.762818 38.346173
+"Library District 2 Of Linn County, La Cygne" "210 N. Commercial" "Lacygne" "KS" "" -94.7613475 38.3500206
+"Kearny County Library" "101 E. Prairie" "Lakin" "KS" "67860" -101.2568297 37.9429883
+"Lansing Community Library" "108 S. 2nd Street" "Lansing" "KS" "" -94.8962466 39.249262
+"Jordaan Memorial Library" "724 Broadway" "Larned" "KS" "67550" -99.0983525 38.1809083
+"Lawrence Public Library" "707 Vermont Street" "Lawrence" "KS" "66044" -95.2376545 38.9708416
+"Northeast Kansas Library System" "4317 W. 6th St." "Lawrence" "KS" "66049" -95.2959171 38.9715165
+"Leavenworth Public Library" "417 Spruce Street" "Leavenworth" "KS" "66048" -94.9128192 39.3105123
+"Johnson County Library, Leawood" "4700 Town Center Drive" "Leawood" "KS" "" -94.6406764 38.9173722
+"Lebanon Community" "404 Main" "Lebanon" "KS" "66952" -98.5551589 39.8091717
+"Lebo Library" "327 Ogden" "Lebo" "KS" "" -95.8578535 38.4102617
+"Johnson County Library, Lackman" "15345 West 87th Street Parkway" "Lenexa" "KS" "" -94.7644429 38.9698332
+"Lenora Public Library" "110 N Main" "Lenora" "KS" "67645" -100.0022055 39.6105865
+"Leon Public Library" "113 S. Main" "Leon" "KS" "67074" -96.7813009 37.6877297
+"Leonardville City Library" "117 N. Erpelding Rd" "Leonardville" "KS" "66449" -96.859314 39.364989
+"Wichita County Library" "208 South Fourth" "Leoti" "KS" "67861" -101.3583498 38.4802473
+"Leroy Library" "725 Main" "Leroy" "KS" "" -95.6337125 38.0835515
+"Meadowlark Library-Lewis" "208 Main St." "Lewis" "KS" "67552" -99.2543745 37.937492
+"Liberal Memorial Library" "519 N. Kansas Avenue" "Liberal" "KS" "67901" -100.922203 37.043036
+"Lincoln Carnegie Library" "203 S Third" "Lincoln" "KS" "67455" -98.1460503 39.0392165
+"Lindsborg Community Library" "111 S. Main" "Lindsborg" "KS" "67456" -97.67541 38.572881
+"Linwood Community Library District 1" "302 Main Street" "Linwood" "KS" "66052" -95.03874 39.001126
+"Little River Community Library" "125 Main Street" "Little River" "KS" "67457" -98.0106236 38.4005934
+"Logan Public Library" "109 W. Main" "Logan" "KS" "67646" -99.567683 39.6616668
+"Long Island Community Library" "369 Washington" "Long Island" "KS" "67647" -99.5340494 39.9486666
+"Longton Public Library" "512a Kansas Ave" "Longton" "KS" "67352" -96.0807314 37.3775849
+"Library District 1, Miami County" "206 S. Broadway St." "Louisburg" "KS" "66053" -94.6813439 38.61951
+"Louisburg Library" "206 S. Broadway" "Louisburg" "KS" "66053" -94.6813439 38.61951
+"Lucas Public Library" "209 S. Main St." "Lucas" "KS" "67648" -98.5383109 39.0577048
+"Luray City Library" "119 N. Main" "Luray" "KS" "67649" -98.6919361 39.1134631
+"Lyndon Carnegie Library" "127 E 6th St" "Lyndon" "KS" "66451" -95.683423 38.609031
+"Lyons Public Library" "217 East Ave South" "Lyons" "KS" "67554" -98.2032729 38.3464452
+"Macksville City Library" "333 N. Main" "Macksville" "KS" "67557" -98.9678203 37.9593914
+"Madison Public Library" "110 South 1st St." "Madison" "KS" "66860" -96.1332338 38.1371905
+"Manhattan Public Library" "629 Poyntz Avenue" "Manhattan" "KS" "66502" -96.5661671 39.1789594
+"Mankato City Library" "214 N High Ste 1" "Mankato" "KS" "66956" -98.2113358 39.7845989
+"Marion City Library" "101 Library St" "Marion" "KS" "66861" -94.4198095 39.258772
+"Marquette Community Library" "121 North Washington" "Marquette" "KS" "67464" -97.8342642 38.5541467
+"Marysville Public Library" "1009 Broadway" "Marysville" "KS" "66508" -96.6455176 39.8417074
+"Mccracken Public Library" "303 Main" "Mccracken" "KS" "67556" -99.5697662 38.5845535
+"Mccune Osage Township Library" "509 6th St." "Mccune" "KS" "66753" -95.0186331 37.3532497
+"Mclouth Public Library" "215 South Union" "Mclouth" "KS" "66054" -95.208686 39.1961609
+"Mcpherson Public Library" "214 W. Marlin" "Mcpherson" "KS" "67460" -97.6687386 38.3707348
+"Meade Public Library" "104 E. West Plains" "Meade" "KS" "67864" -100.3413825 37.2843801
+"Meriden Community Library" "7272 K-4 Hwy, Ste D" "Meriden" "KS" "66512" -95.5706029 39.1773361
+"Johnson County Library, Antioch Central" "8700 Shawnee Mission Pwky." "Merriam" "KS" "" -94.6868988 39.0155674
+"Minneapolis Public" "519 Delia Ave." "Minneapolis" "KS" "67467" -97.7037061 39.1253726
+"Minneola City Library" "112 Main" "Minneola" "KS" "67865" -100.0138337 37.442989
+"Moline Public Library" "107 N. Main" "Moline" "KS" "67353" -96.3028333 37.3592794
+"Montezuma Township Library" "309 N. Aztec" "Montezuma" "KS" "67867" -100.4428185 37.5984512
+"Moran Public Library" "335 N. Cedar" "Moran" "KS" "66755" -95.17007 37.9167116
+"Mary Sommerville Free Library, Mound City" "509 Main Street" "Mound City" "KS" "66056" -94.8133414 38.142574
+"Mound Valley Library" "411 Hickory" "Mound Valley" "KS" "67354" -95.4050038 37.2050653
+"Moundridge Public Library" "220 S. Christian" "Moundridge" "KS" "67107" -97.5190253 38.2014518
+"Mt. Hope Public Library" "109 South Ohio" "Mt. Hope" "KS" "67108" -97.665671 37.868324
+"Mulvane Public Library" "101 East Main" "Mulvane" "KS" "67110" -97.2441066 37.4747026
+"Neodesha-W.A. Rankin Memorial" "502 Indiana" "Neodesha" "KS" "66757" -95.6798251 37.4185365
+"Ness City Public Library" "113 South Iowa" "Ness City" "KS" "67560" -99.9038 38.4536238
+"New Strawn Library" "365 North Main" "New Strawn" "KS" "" -95.7384577 38.2624578
+"Newton Public Library" "720 N Oak" "Newton" "KS" "67114" -97.3424134 38.0507137
+"Nickerson Public Library" "23 N. Nickerson" "Nickerson" "KS" "67561" -98.0819 38.1473
+"Norcatur Public Library" "301 E. Ossipee" "Norcatur" "KS" "67653" -100.188545 39.8340296
+"North Kansas City Public Library-High School Media Center" "2251 Howell Street" "North Kansas City" "KS" "" -94.5722517 39.144831
+"Northwest Kansas Library System" "2 Washington Square" "Norton" "KS" "67654" -99.887809 39.8334271
+"Norton Public Library" "1 Washington Square" "Norton" "KS" "67654" -99.89851 39.8276709
+"Nortonville Public Library" "407 Main" "Nortonville" "KS" "66060" -95.3323319 39.416845
+"Norwich Public" "209 South Parkway" "Norwich" "KS" "67118" -97.8465883 37.4581151
+"Oakley Public Library" "700 West 3rd" "Oakley" "KS" "67748" -100.8605081 39.1277116
+"Oberlin City Library" "104 E. Oak" "Oberlin" "KS" "67749" -100.5289662 39.8228389
+"Indian Creek Branch Library" "1290 South Blackbob Road" "Olathe" "KS" "" -94.7609761 38.876542
+"Olathe Public Library" "201 E Park Street" "Olathe" "KS" "66061" -94.8176701 38.8817531
+"Olsburg Mini Library" "318 North 2nd Street" "Olsburg" "KS" "" -96.6147362 39.4312369
+"Onaga Branch" "313 Leonard Street" "Onaga" "KS" "" -96.170201 39.490207
+"Lieber Public Library, Osage City" "214 S. 6th St." "Osage City" "KS" "" -95.825332 38.632857
+"Osage City Public Library" "515 Main St." "Osage City" "KS" "66523" -95.826756 38.633206
+"Osawatomie Public Library" "527 Brown Avenue" "Osawatomie" "KS" "66064" -94.9491949 38.4980454
+"Osborne Public Library" "325 W Main" "Osborne" "KS" "67473" -98.6984027 39.4381816
+"Oskaloosa Public Library" "315 Jefferson St." "Oskaloosa" "KS" "66066" -95.313908 39.2151799
+"Oswego Public" "704 Fourth Street" "Oswego" "KS" "67356" -95.1074619 37.167082
+"Otis Community Library" "122 South Main" "Otis" "KS" "67565" -99.051391 38.5354364
+"Ottawa Library" "105 S Hickory St" "Ottawa" "KS" "66067" -95.266856 38.6168845
+"Overbrook Public Library" "317 Maple" "Overbrook" "KS" "66524" -95.5566546 38.7777863
+"Johnson County Library" "9875 W. 87th Street" "Overland Park" "KS" "66212" -94.6996266 38.9698241
+"Johnson County Library, Blue Valley" "15185 South Lowell" "Overland Park" "KS" "" -94.6780599 38.8528674
+"Johnson County Library, Oak Park" "9500 Bluejacket" "Overland Park" "KS" "" -94.7126363 38.9561842
+"Johnson County Library, Shawnee Mission" "8826 Santa Fe" "Overland Park" "KS" "" -94.689015 38.9725484
+"Oxford Public Library" "115 South Sumner" "Oxford" "KS" "67119" -97.1690126 37.2731601
+"Palco Public Library" "311 Main" "Palco" "KS" "67657" -99.5630107 39.2534411
+"Paola Free Library" "101 East Peoria" "Paola" "KS" "66071" -94.876593 38.5724594
+"Park City Public Library" "1530 E. 61st St. N." "Park City" "KS" "67219" -97.3189176 37.7964802
+"Library District 1 Of Linn County, Parker" "105 N. Main" "Parker" "KS" "" -94.98748 38.328073
+"Linn County Library District 1" "230 W. Main" "Parker" "KS" "66072" -94.991675 38.328676
+"Parsons Public Library" "311 S 17th Street" "Parsons" "KS" "67357" -95.2608539 37.3383192
+"Partridge Public Library" "23 S Main" "Partridge" "KS" "67566" -98.0926999 37.9677999
+"Peabody Township Library" "214 N. Walnut" "Peabody" "KS" "66866" -97.1068018 38.1662857
+"Phillipsburg City Library" "888 Fourth Street" "Phillipsburg" "KS" "67661" -99.3231261 39.7580096
+"Pittsburg Public Library" "308 North Walnut" "Pittsburg" "KS" "66762" -94.7074078 37.4106661
+"Plains Community Library" "500 Grand Ave." "Plains" "KS" "67869" -100.5899292 37.2613145
+"Plainville Memorial" "200 Sw 1st" "Plainville" "KS" "67663" -99.2996785 39.2334046
+"Lincoln Library, Pleasanton" "9th Palm" "Pleasanton" "KS" "" -94.7113471 38.1778053
+"Linn County Library District 5" "904 Main Street" "Pleasanton" "KS" "66075" -94.709892 38.1758359
+"Pomona Community Library" "219 Jefferson" "Pomona" "KS" "66076" -95.454454 38.6069599
+"Potwin Public Library" "126 N. Randall" "Potwin" "KS" "67123" -97.019992 37.9386935
+"Sunshine City Library" "207 Kansas" "Prairie View" "KS" "67664" -99.5714688 39.8323819
+"Johnson County Library, Corinth" "8100 Mission Road" "Prairie Village" "KS" "" -94.6308083 38.9819841
+"Pratt Public Library" "4th Jackson St." "Pratt" "KS" "67124" -98.7409393 37.640791
+"Prescott City Library" "174 W. 3rd" "Prescott" "KS" "66767" -94.69871 38.06541
+"Pretty Prairie Public Library" "119 W. Main St." "Pretty Prairie" "KS" "67570" -98.0197066 37.7807252
+"Protection Township Library" "404 North Broadway" "Protection" "KS" "67127" -99.4839427 37.2043039
+"Jay Johnson Public Library" "411 Main Street" "Quinter" "KS" "67752" -100.2348172 39.0684664
+"Randall Public Library" "107 Main St." "Randall" "KS" "66963" -98.043829 39.6406311
+"Ransom Public Library" "411 S. Vermont" "Ransom" "KS" "67572" -99.9315353 38.6367439
+"Rae Hobson Memorial Library" "401 Pawnee Ave." "Republic" "KS" "66964" -97.8218968 39.9238831
+"Richmond Public Library" "107 E. Central" "Richmond" "KS" "66080" -95.2557999 38.4013
+"Riley City Library" "206 S. Broadway St" "Riley" "KS" "66531" -96.8249799 39.2975597
+"Johnson County Library, Cedar Roe" "5120 Cedar" "Roeland Park" "KS" "" -94.6422959 39.0355907
+"Rose Hill Public Library" "306 N Rose Hill Rd" "Rose Hill" "KS" "67133" -97.1348311 37.561195
+"Russell Public Library" "126 East 6th Street" "Russell" "KS" "67665" -98.8603895 38.8911297
+"Mary Cotton Pubic Library" "915 Virginia" "Sabetha" "KS" "66534" -95.8013901 39.9023827
+"Salina Public Library" "301 W. Elm Street" "Salina" "KS" "67401" -97.6112742 38.8446026
+"Dudley Township Library" "105 Sequoyah Street" "Satanta" "KS" "67870" -100.9855731 37.4392245
+"Savonburg Public Library" "101 S. Walnut St" "Savonburg" "KS" "66772" -95.1428599 37.747734
+"Scandia City Library" "318 Fourth Street" "Scandia" "KS" "66966" -97.7853427 39.7962095
+"Scott County Library" "110 W. 8th St." "Scott City" "KS" "67871" -100.907024 38.4794698
+"Sedan Public Library" "115 N Chautauqua" "Sedan" "KS" "67361" -96.1868315 37.1270364
+"Lillian Tear Library, Sedgwick" "112 W. 5th" "Sedgwick" "KS" "" -97.425547 37.917407
+"Sedgwick-Lillian Tear" "501 Commercial" "Sedgwick" "KS" "67135" -97.4244915 37.9172804
+"Selden Public Library" "109 S. Kansas Avenue" "Selden" "KS" "67757" -100.5677511 39.5406061
+"Seneca Free Library" "606 Main Street" "Seneca" "KS" "66538" -96.0614116 39.8342479
+"Sharon Wisner Library" "102 South Broadway" "Sharon" "KS" "67138" -98.4202273 37.2492722
+"Wisner Library" "102 S. Boardway" "Sharon" "KS" "67138" -98.4202273 37.2492722
+"Sharon Springs Public Library" "113 W.2nd" "Sharon Springs" "KS" "67758" -101.752971 38.8960929
+"Johnson County Library, Shawnee" "13811 Johnson Drive" "Shawnee" "KS" "" -94.7454344 39.0216518
+"Silver Lake Library" "203 Railroad" "Silver Lake" "KS" "66539" -95.8596155 39.1055255
+"Smith Center Public Library" "117 W. Court" "Smith Center" "KS" "66967" -98.7860126 39.7767025
+"Solomon Public Library" "108 N. Walnut" "Solomon" "KS" "67480" -97.37044 38.919018
+"South Haven Township Library" "104 W. Baird" "South Haven" "KS" "67140" -97.4022971 37.0485781
+"South Central Kansas Library System" "321 North Main Street" "South Hutchinson" "KS" "67650" -97.9409907 38.0324156
+"Spearville Township Library" "414 N. Main Street" "Spearville" "KS" "67876" -99.7564258 37.8496077
+"Johnson County Library, Spring Hill" "109 South Webster" "Spring Hill" "KS" "" -94.8258031 38.7429385
+"Graves Memorial Public Library" "717 Central" "St Paul" "KS" "66771" -95.1723182 37.5192352
+"St. Francis Public Library" "121 N. Scott" "St. Francis" "KS" "67756" -101.8014563 39.7752351
+"Ida Long Goodman Memorial Library" "406 N. Monroe Ave" "St. John" "KS" "67576" -98.7591606 38.0025427
+"Pottawatomie Wabaunsee Regional Library" "306 N. 5th Street" "St. Marys" "KS" "66536" -96.068406 39.19616
+"St. Marys Library" "306 North 5th Street" "St. Marys" "KS" "" -96.068406 39.19616
+"Nora E. Larabee Memorial Library" "108 North Union" "Stafford" "KS" "67578" -98.601732 37.96221
+"Sterling Free Public Library" "138 N. Broadway" "Sterling" "KS" "67579" -98.2068512 38.2108156
+"Stockton" "124 N. Cedar" "Stockton" "KS" "67669" -99.2751073 39.4369486
+"Haskell Township Library" "700 West Chouteau" "Sublette" "KS" "67877" -100.8528738 37.4800561
+"Summerfield Public Library" "300 Main St" "Summerfield" "KS" "66541" -96.3485594 39.9984975
+"Sylvan Grove Public Library" "122 S Main" "Sylvan Grove" "KS" "67481" -98.3932416 39.0106798
+"Sylvia Public Library" "121 S. Main" "Sylvia" "KS" "67581" -98.4086652 37.9591868
+"Hamilton County Public Library" "102 W. Ave C" "Syracuse" "KS" "67878" -101.7532941 37.9829162
+"Thayer Friday Reading Club City Library" "200 West Neosho Avenue" "Thayer" "KS" "66776" -95.4718511 37.4878869
+"Tonganoxie Public Library" "303 Bury St." "Tonganoxie" "KS" "66086" -95.0876163 39.110196
+"Kansas State Historical Society" "6425 Sw Sixth Avenue" "Topeka" "KS" "" -95.7747342 39.0562129
+"Topeka And Shawnee County Public Library" "1515 Sw 10th Ave" "Topeka" "KS" "66604" -95.6965309 39.0507561
+"Toronto Public Library" "107 W. Main St." "Toronto" "KS" "66777" -95.9501612 37.7982886
+"Towanda Public Library" "620 Highland" "Towanda" "KS" "67144" -96.9995239 37.79937
+"Greeley County Public Library" "517 Broadway" "Tribune" "KS" "67879" -101.7524437 38.4708805
+"Turon Community Library" "501 E. Price" "Turon" "KS" "67583" -98.423712 37.8057233
+"Udall Public Library" "109 E. First St" "Udall" "KS" "67146" -97.1169414 37.3874102
+"Grant County Library" "215 E. Grant Ave." "Ulysses" "KS" "67880" -101.3557044 37.5806512
+"Utica Library Association" "249 N Ohio" "Utica" "KS" "67584" -100.1669969 38.6420648
+"Edna Buschow Memorial Library" "321 West 1st St." "Valley Center" "KS" "67147" -97.375518 37.833454
+"Delaware Township Library" "421 Mary St. A" "Valley Falls" "KS" "66088" -95.458191 39.344829
+"Vermillion Public Library" "102 Main" "Vermillion" "KS" "66544" -96.2657797 39.7165049
+"Viola Township" "100 N. Grice" "Viola" "KS" "67149" -97.642232 37.482754
+"Wakeeney Public Library" "610 Russell Ave." "Wakeeney" "KS" "67672" -99.882259 39.0255228
+"Wakefield Public Library" "205 Third Street" "Wakefield" "KS" "67487" -97.0123127 39.2123455
+"Walnut Public Library" "511 W. Robbins" "Walnut" "KS" "66780" -95.0808174 37.5989601
+"Walton Community Library" "122 Main St" "Walton" "KS" "67151" -97.256587 38.1181425
+"Wamego Public Library" "431 Lincoln Avenue" "Wamego" "KS" "66547" -96.3053668 39.20198
+"Washington Library" "116 E. 2nd" "Washington" "KS" "66968" -97.0508889 39.8185802
+"Bern Community Library" "405 Main St" "Washington Townsh" "KS" "66408" -95.4237244 39.6772793
+"Waterville Public Library" "129 E Commercial" "Waterville" "KS" "66548" -96.7488227 39.6925317
+"Wathena Branch Library" "206 St. Joseph" "Wathena" "KS" "" -94.9447453 39.759786
+"Waverly Library" "608 Pearson" "Waverly" "KS" "" -95.600204 38.395329
+"Weir Public Library" "612 South Jefferson" "Weir" "KS" "66781" -94.7705248 37.3051909
+"Wellington Public" "121 West 7th" "Wellington" "KS" "67152" -97.3983098 37.2668173
+"Wellsville City Library" "115 W. 6th St." "Wellsville" "KS" "66092" -95.0828 38.7188
+"Westmoreland Mini Library" "315 Main Street" "Westmoreland" "KS" "" -96.4127826 39.3928481
+"Wetmore Public Library" "333 2nd St." "Wetmore" "KS" "66550" -95.8110849 39.6318683
+"White City Public Library" "111 E Mackenzie" "White City" "KS" "66872" -96.7354192 38.795689
+"Whitewater Memorial Library" "118 East Topeka" "Whitewater" "KS" "67154" -97.1487971 37.9626565
+"Alford Branch Library" "3447 S. Meridian" "Wichita" "KS" "" -97.3718844 37.6318739
+"Comotara Branch Library" "2244 N. Rock Road" "Wichita" "KS" "" -97.244488 37.7236487
+"Evergreen Branch Library" "2601 N. Arkansas" "Wichita" "KS" "" -97.3454962 37.7302855
+"Ford Rockwell Branch Library" "5939 E 9th" "Wichita" "KS" "" -97.2673165 37.7006533
+"Linwood Park Branch Library" "1901 S Kansas" "Wichita" "KS" "" -97.3139309 37.6590551
+"Maya Angelou Branch Library" "3051 E. 21st" "Wichita" "KS" "" -97.3002715 37.7223191
+"Orchard Park Branch Library" "4808 W 9th" "Wichita" "KS" "" -97.4001869 37.7026945
+"Westlink Branch Library" "8515 Bekemeyer" "Wichita" "KS" "" -97.441561 37.6969683
+"Wichita Public Library" "223 S. Main St" "Wichita" "KS" "67202" -97.338887 37.68436
+"Williamsburg Community Library" "107 S. Louisa" "Williamsburg" "KS" "66095" -95.4653905 38.4786164
+"Wilmore Branch Library" "po box 276" "Wilmore" "KS" "" -99.2101104 37.3358562
+"Elm Creek Township Library" "213 North 5th St." "Wilsey" "KS" "66873" -96.6767446 38.6376335
+"Lang Memorial" "2405 Ave. F" "Wilson" "KS" "67490" -98.4748673 38.8270334
+"Winchester Public Library" "203 Fourth Street" "Winchester" "KS" "66097" -95.268209 39.323899
+"Winfield Public Library" "605 College" "Winfield" "KS" "67156" -96.9789372 37.2433775
+"Yates Center Public Library" "218 N Main" "Yates Center" "KS" "66783" -95.7324294 37.882616
+"Zenda Public Library" "215 N. Main" "Zenda" "KS" "67159" -98.2819891 37.4439915

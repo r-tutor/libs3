@@ -1,0 +1,253 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Ada Public School District Library" "320 N. Main St." "Ada" "OH" "45810" -83.822766 40.7730215
+"Akron-Summit County Public Library" "60 S. High St." "Akron" "OH" "44326" -81.5169097 41.0833864
+"Alexandria Public Library" "10 Maple Dr." "Alexandria" "OH" "43001" -82.6136512 40.0900485
+"Alger Public Library" "100 W. Wagner St" "Alger" "OH" "45812" -83.8440312 40.7071098
+"Rodman Public Library" "215 E. Broadway" "Alliance" "OH" "44601" -81.1022698 40.9188696
+"Amherst Public Library" "221 Spring St." "Amherst" "OH" "44001" -82.222329 41.3979412
+"Andover Public Library" "142 W. Main St." "Andover" "OH" "44003" -80.5731205 41.6072027
+"Arcanum Public Library" "101 North St." "Arcanum" "OH" "45304" -84.554378 39.992418
+"Archbold Community Library" "205 Stryker St." "Archbold" "OH" "43502" -84.3080119 41.5215435
+"Ashland Public Library" "224 Claremont Ave." "Ashland" "OH" "44805" -82.3187872 40.8675055
+"Wornstaff Memorial Public Library" "302 E. High St." "Ashley" "OH" "43003" -82.951691 40.409234
+"Ashtabula County District Library" "335 W. 44th St." "Ashtabula" "OH" "44004" -80.78466 41.868
+"Harbor-Topky Memorial Library" "1633 Walnut Blvd." "Ashtabula Harbor" "OH" "44004" -80.8058079 41.8995984
+"Seneca East Public Library" "14 N. Main St." "Attica" "OH" "44807" -82.8873938 41.0649316
+"Avon Lake Public Library" "32649 Electric Blvd." "Avon Lake" "OH" "44012" -82.0126808 41.5098636
+"Barberton Public Library" "602 W. Park Avenue" "Barberton" "OH" "44203" -81.6118244 41.0134769
+"Barnesville Hutton Memorial Public Library" "308 E. Main St." "Barnesville" "OH" "43713" -81.1742582 39.9868676
+"Clermont County Public Library" "326 Broadway" "Batavia" "OH" "45103" -84.177532 39.07455
+"Bellaire Public Library" "330 32nd Street" "Bellaire" "OH" "43906" -80.7434577 40.0141042
+"Belle Center Free Public Library" "103 S. Elizabeth St." "Belle Center" "OH" "43310" -83.7522584 40.507636
+"Logan County District Library" "220 N Main St" "Bellefontaine" "OH" "43311" -83.7589034 40.3636432
+"Bellevue Public Library" "224 E. Main St." "Bellevue" "OH" "44811" -82.838145 41.2729181
+"Bettsville Public Library" "233 State St." "Bettsville" "OH" "44815" -83.2353293 41.2458794
+"Bexley Public Library" "2411 E. Main St." "Bexley" "OH" "43209" -82.934339 39.95674
+"Blanchester Public Library" "110 N. Broadway" "Blanchester" "OH" "45107" -83.9886102 39.2937105
+"Bliss Memorial Public Library" "20 S. Marion St." "Bloomville" "OH" "44818" -83.0153541 41.0516655
+"Bluffton Public Library" "145 S. Main St." "Bluffton" "OH" "45817" -83.7948956 41.0043358
+"Bowerston Public Library" "200 Main St." "Bowerston" "OH" "44695" -81.1900337 40.4266085
+"Northwest Regional Library System" "181 1-2 S. Main St." "Bowling Green" "OH" "43402" -83.6501904 41.3734748
+"Wood County District Public Library" "251 N. Main St." "Bowling Green" "OH" "43402" -83.6510245 41.3764812
+"Bradford Public Library" "138 E. Main St." "Bradford" "OH" "45308" -84.429507 40.132211
+"Bristol Public Library" "1855 Greenville Rd. N.W." "Bristolville" "OH" "44402" -80.867625 41.38698
+"Williams Co Public Library" "107 E. High St." "Bryan" "OH" "43506" -84.550051 41.4749538
+"Bucyrus Public Library" "200 E. Mansfield" "Bucyrus" "OH" "44820" -82.9737686 40.8089852
+"Burton Public Library" "14588 W. Park St." "Burton" "OH" "44021" -81.146439 41.471657
+"Puskarich Public Library" "200 E. Market St" "Cadiz" "OH" "43907" -80.995808 40.271899
+"Caldwell Public Library" "517 Spruce St." "Caldwell" "OH" "43724" -81.5177466 39.7486229
+"Guernsey County District Public Library" "800 Steubenville Ave." "Cambridge" "OH" "43725" -81.5899193 40.0259225
+"Canal Fulton Public Library" "154 Market St. Ne" "Canal Fulton" "OH" "44614" -81.5978115 40.8909305
+"Stark County District Library" "715 Market Ave North" "Canton" "OH" "44702" -81.3736381 40.8033439
+"Cardington-Lincoln Public Library" "128 E. Main St." "Cardington" "OH" "43315" -82.8931999 40.5005588
+"Dorcas Carey Public Library" "236 E. Findlay St." "Carey" "OH" "43316" -83.3807501 40.9522476
+"Carroll County District Library" "70 Second St." "Carrollton" "OH" "44615" -81.0857739 40.5739605
+"Mercer County District Public Library" "303 N. Main St." "Celina" "OH" "45822" -84.5713143 40.5512186
+"Centerburg Public Library" "49 E. Main St." "Centerburg" "OH" "43011" -82.694956 40.304951
+"Washington-Centerville Public Library" "111 W. Spring Valley Road" "Centerville" "OH" "45458" -84.1625897 39.6138047
+"Geauga County Public Library" "12701 Ravenwood Dr." "Chardon" "OH" "44024" -81.1830441 41.5077667
+"Selover Public Library" "31 State Route 95" "Chesterville" "OH" "43317" -82.6838171 40.4802144
+"Chillicothe And Ross County Public Library" "140 S. Paint St." "Chillicothe" "OH" "45601" -82.9816277 39.3297788
+"The PL Of Cincinnati And Hamilton County" "800 Vine St." "Cincinnati" "OH" "45202" -84.5133093 39.105276
+"Southwest Ohio And Neighboring Libraries" "10901 Reed Hartman Highway Suite 120" "Cincinnati" "OH" "45242" -84.3810203 39.2641781
+"Pickaway Cnty District Public Library" "1160 North Court Street" "Circleville" "OH" "43113" -82.9403751 39.6208926
+"Cleveland Public Library" "325 Superior Ave." "Cleveland" "OH" "44114" -81.691775 41.501174
+"Cleveland Heights-University Heights Pl" "2345 Lee Road" "Cleveland Hts." "OH" "44118" -81.5646573 41.4957369
+"Clyde Public Library" "222 W. Buckeye St." "Clyde" "OH" "43410" -82.977622 41.303849
+"Coldwater Public Library" "305 W. Main St." "Coldwater" "OH" "45828" -84.631286 40.479586
+"Columbiana Public Library" "332 N. Middle St." "Columbiana" "OH" "44408" -80.6960003 40.8937986
+"Columbus Metropolitan Library" "96 S. Grant Avenue" "Columbus" "OH" "43215" -82.9894763 39.961237
+"Conneaut Public Library" "304 Buffalo Street" "Conneaut" "OH" "44030" -80.556753 41.9452811
+"Coshocton Public Library" "655 Main St." "Coshocton" "OH" "43812" -81.8597892 40.2730619
+"J.R. Clarke Public Library" "102 E. Spring St." "Covington" "OH" "45318" -84.353151 40.117014
+"Crestline Public Library" "324 N. Thoman St." "Crestline" "OH" "44827" -82.7390659 40.787185
+"Cuyahoga County Public Library" "2111 Snow Rd." "Cuy. Co.-Parma" "OH" "44134" -81.6973464 41.4029292
+"Cuyahoga Falls Library" "2015 Third St." "Cuyahoga Falls" "OH" "44221" -81.4854053 41.1347382
+"Dayton Metro Library" "215 E. Third St." "Dayton" "OH" "45402" -84.1878269 39.7605486
+"Defiance Public Library" "320 Fort St." "Defiance" "OH" "43512" -84.3579676 41.2876669
+"Delaware County District Library" "84 E. Winter St." "Delaware" "OH" "43015" -83.0649228 40.2996717
+"Delphos Public Library" "309 W. 2nd St." "Delphos" "OH" "45833" -84.3429129 40.8433665
+"Delta Public Library" "402 Main St." "Delta" "OH" "43515" -84.00585 41.57355
+"Patrick Henry School District Public Library" "208 N. East Ave." "Deshler" "OH" "43516" -83.898822 41.2075574
+"Dover Public Library" "525 N. Walnut St." "Dover" "OH" "44622" -81.4808174 40.5242865
+"Hardin Northern Public Library" "153 N. Main St." "Dunkirk" "OH" "45836" -83.6435769 40.788867
+"East Cleveland Public Library" "14101 Euclid Ave." "East Cleveland" "OH" "44112" -81.5847901 41.5283383
+"Carnegie Public Library" "219 E. Fourth St." "East Liverpool" "OH" "43920" -80.5775782 40.617797
+"East Palestine Memorial Public Library" "309 N. Market St." "East Palestine" "OH" "44413" -80.5402727 40.8367874
+"Preble County District Library" "450 S. Barron St." "Eaton" "OH" "45320" -84.6359226 39.7387265
+"Harris-Elmore Public Library" "328 Toledo St." "Elmore" "OH" "43416" -83.2938902 41.4752021
+"Elyria Public Library" "320 Washington Ave." "Elyria" "OH" "44035" -82.1070455 41.3725911
+"Euclid Public Library" "631 E. 222nd St." "Euclid" "OH" "44123" -81.5257873 41.597965
+"Fairport Harbor Public Library" "335 Vine St." "Fairport Harbor" "OH" "44077" -81.2721617 41.7541715
+"Normal Memorial Library" "301 N. Eagle St." "Fayette" "OH" "43521" -84.3251804 41.6765019
+"Findlay Hancock Cnty Dist Public Library" "206 Broadway" "Findlay" "OH" "45840" -83.651595 41.0400371
+"Forest-Jackson Public Library" "102 W. Lima St" "Forest" "OH" "45843" -83.512049 40.8018969
+"Fort Recovery Public Library" "113 N. Wayne St." "Fort Recovery" "OH" "45846" -84.779924 40.413565
+"Kaubisch Memorial Public Library" "205 Perry St." "Fostoria" "OH" "44830" -83.416003 41.1609815
+"Franklin Public Library" "44 E. 4th St" "Franklin" "OH" "45005" -84.3025783 39.5587938
+"Birchard Public Library Of Sandusky County" "423 Croghan St." "Fremont" "OH" "43420" -83.1155315 41.3459567
+"Galion Public Library Association" "123 N. Market St." "Galion" "OH" "44833" -82.7890734 40.7348145
+"Dr. Samuel L. Bossard Memorial Library" "7 Spruce St." "Gallipolis" "OH" "45631" -82.1991018 38.8109895
+"Portage County District Library" "10482 South St." "Garrettsville" "OH" "44231" -81.095176 41.278217
+"Brown County Public Library" "200 W. Grant Ave." "Georgetown" "OH" "45121" -83.9056109 38.866278
+"Germantown Public Library" "51 N. Plum St." "Germantown" "OH" "45327" -84.3722128 39.6257534
+"Girard Free Library" "105 E. Prospect St." "Girard" "OH" "44420" -80.7000398 41.1575515
+"Gnadenhuttenp.L.-Indian Valley School Dist." "160 N. Walnut St." "Gnadenhutten" "OH" "44629" -81.436732 40.359453
+"Grafton-Midview Public Library" "983 Main St." "Grafton" "OH" "44044" -82.0553347 41.2727489
+"Grandview Heights Public Library" "1685 W. First Ave." "Grandview Hts." "OH" "43212" -83.050118 39.981834
+"Granville Public Library" "217 E. Broadway" "Granville" "OH" "43023" -82.5180314 40.0673328
+"Marion Lawrence Memorial Library" "15 E. Franklin Street" "Gratis" "OH" "45330" -84.529119 39.6484253
+"Greenville Public Library" "520 Sycamore St." "Greenville" "OH" "45331" -84.6326584 40.0991088
+"Southwest Public Libraries" "3359 Park St." "Grove City" "OH" "43123" -83.0929138 39.8812847
+"Lane Public Library" "300 N. Third St." "Hamilton" "OH" "45011" -84.5581961 39.4027752
+"Highland County District Library" "10 Willettsville Pike" "Hillsboro" "OH" "45133" -83.6210239 39.2037331
+"Holgate Community Library" "204 Railway Ave." "Holgate" "OH" "43527" -84.131286 41.249994
+"Homer Public Library" "385 South St. N.W." "Homer" "OH" "43027" -82.5210271 40.2519189
+"Hubbard Public Library" "436 W. Liberty St." "Hubbard" "OH" "44425" -80.5773967 41.1567155
+"Hudson Library And Historical Society" "96 Library Street" "Hudson" "OH" "44236" -81.4436201 41.2416074
+"Huron Public Library" "333 Williams St." "Huron" "OH" "44839" -82.557314 41.3937334
+"Briggs Lawrence County Public Library" "321 S. 4th St." "Ironton" "OH" "45638" -82.6825803 38.5340931
+"Jackson City Library" "21 Broadway St." "Jackson" "OH" "45640" -82.641079 39.0491971
+"Henderson Memorial Public Library Association" "54 E. Jefferson St." "Jefferson" "OH" "44047" -80.766678 41.737733
+"Kent Free Library" "312 W. Main St." "Kent" "OH" "44240" -81.3612789 41.1533443
+"Mary Lou Johnson-Hardin Cnty Pl" "325 E. Columbus St." "Kenton" "OH" "44326" -83.6047469 40.6485156
+"Kingsville Public Library" "6006 Academy St." "Kingsville" "OH" "44048" -80.6756544 41.8907593
+"Kinsman Free Public Library" "6420 Church St." "Kinsman" "OH" "44428" -80.588121 41.448022
+"Kirtland Public Library" "9267 Chillicothe Rd." "Kirtland" "OH" "44094" -81.3569854 41.6192075
+"Lakewood Public Library" "15425 Detroit Avenue" "Lakewood" "OH" "44107" -81.804263 41.4846897
+"Fairfield County District Library" "219 N. Broad St." "Lancaster" "OH" "43130" -82.6021194 39.7157956
+"Lebanon Public Library" "101 S. Broadway" "Lebanon" "OH" "45036" -84.208959 39.4331724
+"Leetonia Community Public Library" "24 Walnut St." "Leetonia" "OH" "44431" -80.7575954 40.8777219
+"Brown Memorial Library" "101 S. Commerce St." "Lewisburg" "OH" "45338" -84.540124 39.845742
+"Liberty Center Public Library" "124 East St." "Liberty Center" "OH" "43532" -84.007444 41.4443259
+"Lima Public Library" "650 W. Market St." "Lima" "OH" "45801" -84.1151955 40.7404921
+"Lepper Library" "303 E. Lincoln Way" "Lisbon" "OH" "44432" -80.764637 40.772236
+"Wagnalls Memorial Library" "150 E. Columbus St." "Lithopolis" "OH" "43136" -82.805544 39.802128
+"Logan-Hocking County District Library" "230 East Main St." "Logan" "OH" "43138" -82.4051267 39.5399004
+"London Public Library" "20 E First St" "London" "OH" "43140" -83.445433 39.885411
+"Lorain Public Library" "351 W. Sixth St." "Lorain" "OH" "44052" -82.1772156 41.464569
+"Loudonville Public Library" "122 E. Main St." "Loudonville" "OH" "44842" -82.2323007 40.6352439
+"Louisville Public Library" "700 Lincoln Ave." "Louisville" "OH" "44641" -81.2545484 40.8403005
+"Madison Public Library" "6111 Middle Ridge Rd." "Madison" "OH" "44057" -81.069811 41.7889837
+"Mansfield-Richland County Public Library" "43 W. Third St." "Mansfield" "OH" "44902" -82.5172511 40.759859
+"Washington County Public Library" "615 Fifth St." "Marietta" "OH" "45750" -81.45786 39.4241616
+"Marion Public Library" "445 E. Church St." "Marion" "OH" "43302" -83.1194224 40.5871951
+"Martins Ferry Public Library" "20 James Wright Place" "Martins Ferry" "OH" "43935" -80.724526 40.0959055
+"Marysville Public Library" "231 S. Plum St." "Marysville" "OH" "43040" -83.3662258 40.2344879
+"Mason Public Library" "200 Reading Rd." "Mason" "OH" "45040" -84.312664 39.359404
+"Massillon Public Library" "208 Lincoln Way E." "Massillon" "OH" "44646" -81.5201392 40.7976995
+"Herbert Wescoat Memorial Library" "12o N. Market St." "Mcarthur" "OH" "45651" -82.4789484 39.2466859
+"Mccomb Public Library" "113 S. Todd St." "Mccomb" "OH" "45858" -83.791345 41.106854
+"Kate Love Simpson-Morgan County Library" "358 E. Main St." "Mcconnelsville" "OH" "43756" -81.849164 39.648439
+"Mechanicsburg Public Library" "60 S. Main St." "Mechanicsburg" "OH" "43044" -83.5542283 40.0706555
+"Medina County District Library" "210 S. Broadway" "Medina" "OH" "44256" -81.8625956 41.137666
+"Mentor Public Library" "8215 Mentor Ave." "Mentor" "OH" "44060" -81.3466863 41.6653429
+"Evergreen Community Library" "253 Maple St." "Metamora" "OH" "43540" -83.911226 41.710527
+"Middletown Public Library" "125 S. Broad St." "Middletown" "OH" "45044" -84.4049323 39.5139207
+"Milan-Berlin Township Public Library-Berlin-Milan Local Sd" "19 E. Church St." "Milan" "OH" "44846" -82.6047192 41.2976915
+"Holmes County District Public Library" "3102 Glen Dr." "Millersburg" "OH" "44654" -81.9124388 40.5448819
+"Minerva Public Library" "677 Lynwood Dr." "Minerva" "OH" "44657" -81.0962224 40.7313029
+"Monroeville Public Library" "34 Monroe St." "Monroeville" "OH" "44847" -82.695835 41.2433229
+"Montpelier Public Library" "216 E. Main St." "Montpelier" "OH" "43543" -84.6051947 41.5864599
+"Salem Township Public Library" "535 W. Pike St." "Morrow" "OH" "45152" -84.1411339 39.356569
+"Mt Gilead Public Library" "41 E. High St." "Mt. Gilead" "OH" "43338" -82.8267695 40.548839
+"Brown County Public Library" "613 S. High Street" "Mt. Orab" "OH" "45154" -83.9235454 39.018595
+"Mt Sterling Public Library" "60 W. Columbus St." "Mt. Sterling" "OH" "43143" -83.2660407 39.7186263
+"Mt Vernon Knox County, Public Library Of" "201 N. Mulberry St." "Mt. Vernon" "OH" "43050" -82.4868257 40.3958172
+"Ridgemont Public Library" "124 E. Taylor St." "Mt. Victory" "OH" "43340" -83.5199739 40.534374
+"Napoleon Public Library" "310 W. Clinton St." "Napoleon" "OH" "43545" -84.1290199 41.3913059
+"Nelsonville Public Library" "95 W. Washington" "Nelsonville" "OH" "45764" -82.2340556 39.4610676
+"New Carlisle Public Library" "111 E. Lake Ave" "New Carlisle" "OH" "45344" -84.0233997 39.9412165
+"Perry County District Library" "117 S. Jackson St." "New Lexington" "OH" "43764" -82.2065066 39.7143151
+"New London Public Library" "67 S. Main St." "New London" "OH" "44851" -82.398157 41.083956
+"New Madison Public Library" "142 S. Main St." "New Madison" "OH" "45346" -84.710965 39.96714
+"Tuscarawas County Public Library" "121 Fair Avenue Nw" "New Philadelphia" "OH" "44663" -81.4458927 40.4916874
+"New Straitsville Public Library" "102 E Main St" "New Straitsville" "OH" "43766" -82.2338759 39.5765567
+"Licking County Library" "101 W. Main St." "Newark" "OH" "43055" -82.4060435 40.0558786
+"Newcomerstown Public Library" "123 East Main St." "Newcomerstown" "OH" "43832" -81.4349725 40.3587471
+"Newton Falls Public Library" "204 S. Canal St." "Newton Falls" "OH" "44444" -80.9800899 41.1864812
+"Mckinley Memorial Library" "40 N. Main St." "Niles" "OH" "44446" -80.7660693 41.180996
+"North Baltimore Public Library" "230 N. Main St." "North Baltimore" "OH" "45872" -83.677959 41.18388
+"North Canton Public Library" "185 N. Main St." "North Canton" "OH" "44720" -81.4028426 40.8770419
+"Norwalk Public Library" "46 W. Main St." "Norwalk" "OH" "44857" -82.6175861 41.2418645
+"Oak Harbor Public Library" "147 W. Main St." "Oak Harbor" "OH" "43449" -83.146662 41.508468
+"Oak Hill Public Library" "226 South Front Street." "Oak Hill" "OH" "45656" -82.5733548 38.8938087
+"Wright Memorial Public Library" "1776 Far Hills Ave." "Oakwood" "OH" "45419" -84.1711944 39.7155799
+"Oberlin Public Library" "65 S. Main St." "Oberlin" "OH" "44074" -82.216432 41.289989
+"Grand Valley Public Library" "1 N. School St." "Orwell" "OH" "44076" -80.8664939 41.5352629
+"Putnam County District Library" "124 Putnam Parkway" "Ottawa" "OH" "45875" -84.0465092 41.0357431
+"Morley Library" "184 Phelps St." "Painesville" "OH" "44077" -81.2428585 41.7276696
+"Pataskala Public Library" "101 S. Vine St." "Pataskala" "OH" "43062" -82.6784599 40.0002061
+"Paulding County Carnegie Library" "205 S. Main St." "Paulding" "OH" "45879" -84.579126 41.1361577
+"Adams County Public Library" "157 High Street" "Peebles" "OH" "45660" -83.4066514 38.950706
+"Pemberville Public Library" "375 E. Front St." "Pemberville" "OH" "43450" -83.4567749 41.412623
+"Peninsula Library Historical Society" "6105 Riverview Rd" "Peninsula" "OH" "44264" -81.554003 41.2396722
+"Perry Public Library" "3753 Main St." "Perry" "OH" "44081" -81.1517679 41.7648623
+"Way Public Library" "101 E. Indiana Ave." "Perrysburg" "OH" "43551" -83.6275414 41.5576532
+"Pickerington Public Library" "201 Opportunity Way" "Pickerington" "OH" "43147" -82.7580874 39.8747487
+"Piqua Public Library" "116 West High Street" "Piqua" "OH" "45356" -84.2402361 40.1489443
+"Meigs County District Public Library" "216 W. Main St." "Pomeroy" "OH" "45769" -82.0370053 39.0258929
+"Ida Rupp Public Library" "310 Madison St." "Port Clinton" "OH" "43452" -82.941408 41.510004
+"Portsmouth Public Library" "1220 Gallia St." "Portsmouth" "OH" "45662" -82.9887 38.7346
+"Reed Memorial Library" "167 E. Main St" "Ravenna" "OH" "44266" -81.2399195 41.1579868
+"Richwood-North Union Public Library" "4 E. Ottawa St." "Richwood" "OH" "43344" -83.296075 40.4261886
+"Union Township Public Library" "27 Main" "Ripley" "OH" "45167" -83.845514 38.745223
+"Rock Creek Public Library" "2988 High St." "Rock Creek" "OH" "44084" -80.8574063 41.6620941
+"Rockford Carnegie Library" "162 S. Main St." "Rockford" "OH" "45882" -84.645973 40.6909009
+"Rocky River Public Library" "1600 Hampton Rd." "Rocky River" "OH" "44116" -81.841522 41.4767502
+"Rossford Public Library" "720 Dixie Highway" "Rossford" "OH" "43460" -83.5617228 41.6084214
+"Sabina Public Library" "11 E. Elm St." "Sabina" "OH" "45169" -83.636096 39.490142
+"Salem Public Library" "821 E. State St." "Salem" "OH" "44460" -80.8493173 40.9006205
+"Sandusky Library" "114 W. Adams St." "Sandusky" "OH" "44870" -82.7107141 41.453167
+"Shaker Heights Public Library" "16500 Van Aken Boulevard" "Shaker Heights" "OH" "44120" -81.5664832 41.4658937
+"Perry Cook Memorial Public Library" "7406 County Road 242" "Shauck" "OH" "43349" -82.6635739 40.6211711
+"Marvin Memorial Library" "29 W. Whitney" "Shelby" "OH" "44875" -82.6620886 40.8827222
+"Shelby County Libraries - Amos Memorial" "230 E. North St." "Sidney" "OH" "45365" -84.1539866 40.2871288
+"Clark County Public Library" "201 S. Fountain Ave." "Springfield" "OH" "45506" -83.811319 39.9217247
+"St. Clairsville Public Library" "108 W. Main St." "St. Clairsville" "OH" "43950" -80.9010088 40.0801204
+"St. Marys Community Public Library" "140 S. Chestnut St." "St. Marys" "OH" "45885" -84.3853402 40.5430945
+"St. Paris Public Library" "127 E. Main St." "St. Paris" "OH" "43072" -83.9582063 40.1281783
+"Steubenville Jefferson County, Pl Of" "407 S. 4th St." "Steubenville" "OH" "43952" -80.6177874 40.3550912
+"Stow-Munroe Falls Public Library" "3512 Darrow Rd." "Stow" "OH" "44224" -81.440856 41.1608261
+"Community Library" "44 Burrer Dr" "Sunbury" "OH" "43074" -82.8630178 40.2428915
+"Swanton Public Library" "305 Chestnut St." "Swanton" "OH" "43558" -83.886533 41.588902
+"Mohawk Community Library" "200 S. Sycamore Ave." "Sycamore" "OH" "44882" -83.1699656 40.9485308
+"Tiffin-Seneca Public Library" "77 Jefferson St." "Tiffin" "OH" "44883" -83.1745734 41.1156687
+"Tipp City Public Library" "11 E. Main St." "Tipp City" "OH" "45371" -84.1708425 39.961462
+"Toledo-Lucas County Public Library" "325 Michigan St." "Toledo" "OH" "43604" -83.5400961 41.6546975
+"Troy-Miami County Public Library" "419 W. Main St." "Troy" "OH" "45373" -84.2073349 40.0417786
+"Twinsburg Public Library" "10050 Ravenna Rd." "Twinsburg" "OH" "44087" -81.4488209 41.3173847
+"Upper Arlington Public Library" "2800 Tremont Rd." "Upper Arlington" "OH" "43221" -83.0674758 40.0126714
+"Upper Sandusky Community Library" "301 N. Sandusky Ave." "Upper Sandusky" "OH" "43351" -83.2809562 40.8306164
+"Champaign County Library" "1060 Scioto St." "Urbana" "OH" "43078" -83.7255536 40.1058818
+"Brumback Library" "215 W. Main St." "Van Wert" "OH" "45891" -84.5849517 40.8702107
+"Ritter Public Library" "5680 Liberty Ave." "Vermilion" "OH" "44089" -82.3672034 41.4224749
+"Worch Memorial Public Library" "790 South Center St." "Versailles" "OH" "45380" -84.4854171 40.2154459
+"Ella M. Everhard Public Library" "132 Broad St." "Wadsworth" "OH" "44281" -81.7281975 41.0259201
+"Auglaize County Public District Library" "203 S. Perry St." "Wapakoneta" "OH" "45895" -84.1951439 40.5686703
+"Northeast Ohio Regional Library System" "4445 Mahoning Ave Nw" "Warren" "OH" "44483" -80.8444218 41.2815617
+"Warren-Trumbull County Public Library" "444 Mahoning Ave. N.W." "Warren" "OH" "44483" -80.8228817 41.2403382
+"Carnegie Public Library" "127 S. North St." "Washington Ch" "OH" "43160" -83.4370541 39.5364843
+"Wauseon Public Library" "117 E. Elm St." "Wauseon" "OH" "43567" -84.1408164 41.5495135
+"Garnet A. Wilson Pl Of Pike Co" "207 N. Market St." "Waverly" "OH" "45690" -82.9853572 39.1268852
+"Wayne Public Library" "137 E. Main St." "Wayne" "OH" "43466" -83.472283 41.300645
+"Mary L. Cook Public Library" "381 Old Stage Rd." "Waynesville" "OH" "45068" -84.0852267 39.5373045
+"Herrick Memorial Public Library" "101 Willard Memorial Square" "Wellington" "OH" "44090" -82.2179354 41.1689421
+"Sylvester Memorial Wellston Public Library" "135 E. Second St." "Wellston" "OH" "45692" -82.5335036 39.121645
+"Wellsville Carnegie Public Library" "115 Ninth St." "Wellsville" "OH" "43968" -80.6461955 40.6037746
+"Hurt-Battelle Memorial Librarywest Jefferson" "270 Lilly Chapel Rd." "West Jefferson" "OH" "43162" -83.2738649 39.9387922
+"Milton Union Public Library" "560 S. Main St." "West Milton" "OH" "45383" -84.3262973 39.9556364
+"Westerville Public Library" "126 S. State St." "Westerville" "OH" "43081" -82.929757 40.1227288
+"Porter Public Library" "27333 Center Ridge Rd." "Westlake" "OH" "44145" -81.9246437 41.4477264
+"Weston Public Library" "13153 Main St." "Weston" "OH" "43569" -83.7959266 41.344008
+"Wickliffe Public Library" "1713 Lincoln Rd." "Wickliffe" "OH" "44092" -81.474167 41.604216
+"Willard Memorial Library" "6 W. Emerald St." "Willard" "OH" "44890" -82.7263608 41.0552919
+"Willoughby-Eastlake Public Library" "263 E. 305 Street" "Willowick" "OH" "44095" -81.4725505 41.6377656
+"Wilmington Public Library Of Clinton County" "268 N. South St." "Wilmington" "OH" "45177" -83.8277449 39.4490149
+"Monroe County District Library" "96 Home Ave." "Woodsfield" "OH" "43793" -81.1090013 39.7602354
+"Wayne County Public Library" "304 N. Market St." "Wooster" "OH" "44691" -81.941111 40.800732
+"Worthington Public Library" "820 High St" "Worthington" "OH" "43085" -83.0169259 40.0906089
+"Greene County Public Library" "76 E. Market" "Xenia" "OH" "45385" -83.9284701 39.6865143
+"Youngstown And Mahoning County, Pl Of" "305 Wick Ave." "Youngstown" "OH" "44503" -80.6462104 41.1028552
+"Dr. Earl S. Sloan Library" "2817 Sandusky St." "Zanesfield" "OH" "43360" -83.6771586 40.337811
+"Muskingum County Library System" "220 N. Fifth St." "Zanesville" "OH" "43701" -82.005574 39.943913

@@ -1,0 +1,124 @@
+"location" "miles" "latitude" "longitude"
+"Henry L. Aulds Jr. Branch<br/>3950 Wayne Avenue<br/>Bossier City, LA" 1.54305631581966 -93.6688753 32.4818681
+"Broadmoor Branch<br/>1212 Capitain Shreve Drive<br/>Shreveport, LA" 3.70830509695789 -93.7085983 32.4703963
+"Bossier Parish<br/>2206 Beckett Street<br/>Bossier City, LA" 3.82622019545247 -93.7162169 32.5259003
+"East 80 Branch<br/>1050 Bellevue Road<br/>Haughton, LA" 4.63254717687396 -93.6134338 32.5577794
+"Shreve Memorial<br/>424 Texas Street<br/>Shreveport, LA" 5.45780507760072 -93.7497087 32.5133196
+"David Raines Branch<br/>2855 Martin Luther King, Jr. Drive<br/>Shreveport, LA" 5.66111802715984 -93.7501789 32.5251516
+"Cedar Grove-Line Avenue Branch<br/>8303 Line Avenue<br/>Shreveport, LA" 7.0936451043209 -93.7424415 32.4288065
+"Wallette Lakeside Branch<br/>363 Hearne Avenue<br/>Shreveport, LA" 7.14276501827248 -93.7793921 32.5075937
+"Extension Center Branch<br/>5802 Union Street<br/>Shreveport, LA" 7.37799254382006 -93.7715369 32.4564333
+"Atkins Branch<br/>2709 Hassett<br/>Shreveport, LA" 8.33171283400264 -93.798575 32.485222
+"Haughton Branch<br/>116 W. Mckinley<br/>Haughton, LA" 9.11238602355166 -93.5055003 32.5335347
+"Koran Branch<br/>1684 Highway 527-Johnson Store Rd.<br/>Haughton, LA" 9.17947419639026 -93.5040627 32.5326514
+"Mooretown Branch<br/>4260 Hollywood Avenue<br/>Shreveport, LA" 9.41452198753483 -93.8092971 32.4566046
+"Hamilton-South Caddo Branch<br/>2111 Bert Koons So. Industrial Loop<br/>Shreveport, LA" 10.624441230119 -93.794199 32.4007943
+"North Shreveport<br/>4844 North Market Street<br/>Shreveport, LA" 10.7728476485898 -93.8121125 32.5866419
+"West Shreveport Branch<br/>6723 Pines Road, Suite 110<br/>Shreveport, LA" 12.5042591669134 -93.8613543 32.4471209
+"Benton Branch<br/>6th Sibley Streets<br/>Benton, LA" 14.3337107536437 -93.7402353 32.6968913
+"Blanchard Branch<br/>344 Alexander Street<br/>Blanchard, LA" 14.5836867013342 -93.8873623 32.5842254
+"Doyline Branch<br/>333 Main Street<br/>Doyline, LA" 14.604373143734 -93.4101815 32.5366599
+"Stonewall Branch<br/>1460 Highway 171<br/>Stonewall, LA" 18.9397776754116 -93.8235573 32.266875
+"Higginbotham-Bryson Branch<br/>9359 Greenwood Road<br/>Greenwood, LA" 18.9546065033846 -93.9745006 32.4435442
+"Belcher-Wyche Branch<br/>409 Charles Street<br/>Belcher, LA" 19.9330098833217 -93.832951 32.749068
+"Mooringsport Branch<br/>603 Latimer Street<br/>Mooringsport, LA" 21.8231193684986 -93.9600105 32.6873858
+"Heflin Branch<br/>7041 Highway 531<br/>Heflin, LA" 23.1533375801316 -93.2641118 32.4559794
+"Webster Parish<br/>521 East And West<br/>Minden, LA" 23.4158672405825 -93.2812959 32.6212215
+"Waskom Public Library<br/>103 Waskom Ave<br/>Waskom, TX" 23.5520136407373 -94.0599278 32.4794731
+"South Bienville Ringold Branch<br/>2078 Hall Street<br/>Ringgold, LA" 24.6226584501846 -93.2884254 32.3291757
+"Oil City Branch<br/>102 Allen Street<br/>Oil City, LA" 24.9752827716996 -93.9724955 32.746435
+"Gilliam Branch<br/>12797 Main Street<br/>Gilliam, LA" 25.0105487920569 -93.845046 32.826983
+"Dr. John Pugh Memorial Branch<br/>256 Main Street<br/>Cotton Valley, LA" 25.9890219368344 -93.417256 32.8186733
+"Hosston Branch<br/>15487 Us Highway 71<br/>Hosston, LA" 29.837290576635 -93.8784128 32.890937
+"North Caddo Branch<br/>615 N. Pine Street<br/>Vivian, LA" 32.1172814967172 -93.9851724 32.8751664
+"Desoto Parish Library<br/>109 Crosby Street<br/>Mansfield, LA" 32.2544254291037 -93.7045823 32.037304
+"Willie Mary Mack Memorial Branch<br/>217 North Main Street<br/>Springhill, LA" 36.6135153787752 -93.461286 33.004879
+"Means Memorial Branch<br/>7016 East Magnolia Lane<br/>Ida, LA" 37.3952461086535 -93.894226 33.004348
+"Rodessa Branch<br/>10093 Main Street<br/>Rodessa, LA" 37.9610477492583 -93.9955946 32.9710191
+"Red River Parish<br/>2022 Alonzo St<br/>Coushatta, LA" 38.3503042379248 -93.3449579 32.0143406
+"Claiborne Parish<br/>909 Edgewood Drive<br/>Homer, LA" 39.8311899341708 -93.0686778 32.7952242
+"Marshall Public Library<br/>300 S Alamo Blvd<br/>Marshall, TX" 41.2573373207571 -94.362823 32.5429621
+"Logansport Branch<br/>808 Main Street<br/>Logansport, LA" 41.6053911319127 -93.9997659 31.9748149
+"Bienville Parish Library<br/>2768 Maple Street<br/>Arcadia, LA" 42.8985479897991 -92.9236729 32.5481814
+"Taylor Public Library<br/>101 West Pope<br/>Taylor, AR" 42.9718869089834 -93.4629505 33.1012526
+"Pelican Branch<br/>139 Jackson Ave.<br/>Pelican, LA" 43.0687492035886 -93.5863346 31.8821289
+"Jefferson Carnegie Library<br/>301 W Lafayette St<br/>Jefferson, TX" 43.8766041826762 -94.3472432 32.7559386
+"Joe Webb Memorial Branch<br/>1919 Main Street<br/>Haynesville, LA" 44.1623218656448 -93.1322028 32.9629468
+"Saline Branch<br/>920 Cooper Street<br/>Saline, LA" 46.2447087843748 -92.9743715 32.1640489
+"Sammy Brown Library<br/>522 W College St<br/>Carthage, TX" 46.8667914498385 -94.3478947 32.1578106
+"Pleasant Hill Branch<br/>2112 West Main Street<br/>Pleasant Hill, LA" 47.8770063236376 -93.5150132 31.8202666
+"Converse Branch<br/>102 West Port Arthur Avenue<br/>Converse, LA" 49.8204681838246 -93.70126 31.7826024
+"Atlanta Public Library<br/>101 W Hiram St<br/>Atlanta, TX" 51.7031010728686 -94.1655962 33.1150866
+"Fannie Brown Booth Memorial Library<br/>619 Tenaha St<br/>Center, TX" 57.3233940417744 -94.1878738 31.8055559
+"Jackson Parish Library<br/>614 South Polk Avenue<br/>Jonesboro, LA" 57.9692764923354 -92.7147479 32.2396233
+"Lafayette County Library<br/>219 East Third Street<br/>Lewisville, AR" 59.3550724511286 -93.5763347 33.3572378
+"Lincoln Parish Library<br/>910 North Trenton Street<br/>Ruston, LA" 59.4753783068273 -92.6383209 32.5372219
+"Columbia County Library<br/>220 East Main Street<br/>Magnolia, AR" 59.4851766443127 -93.2365051 33.2859247
+"Stamps Public Library<br/>312 Main Street<br/>Stamps, AR" 60.1819125773518 -93.4979212 33.3615513
+"Zwolle Branch<br/>2218 Port Arthur Avenue<br/>Zwolle, LA" 60.1920134388257 -93.6424458 31.6317865
+"Natchitoches Parish Library<br/>450 Second Street<br/>Natchitoches, LA" 61.2125156760334 -93.0886774 31.7593375
+"Calvin Branch<br/>255 Second Street<br/>Calvin, LA" 63.2244264868014 -92.776334 31.9723886
+"Longview Public Library<br/>222 W Cotton St<br/>Longview, TX" 63.3827249044609 -94.7435228 32.4945233
+"Harper Memorial Library<br/>301 North Myrtle<br/>Junction City, AR" 64.8177885907785 -92.7260817 33.0166357
+"Dodson Branch<br/>206 East Gresham Street<br/>Dodson, LA" 65.3238835459831 -92.6593493 32.0772069
+"Sabine Parish<br/>705 Main Street<br/>Many, LA" 65.40641053897 -93.4840844 31.5677655
+"Fisher Branch<br/>842 Four-L Drive<br/>Fisher, LA" 66.8662043953539 -93.464049 31.5491747
+"Texarkana Public Library<br/>600 W 3rd St<br/>Texarkana, TX" 67.4953455432496 -94.0488963 33.420574
+"Texarkana Public Library<br/>600 West 3rd Street<br/>Texarkana, AR" 67.5654744326311 -94.0380685 33.4248494
+"Marietta - Love County Library<br/>500 South Hwy 77<br/>Marietta, OK" 68.5527895515217 -94.5002389 33.1950234
+"Sarepta Branch<br/>24448 Highway 7<br/>Sarepta, LA" 69.0886588297864 -93.6421227 33.500556
+"Toledo Branch<br/>12224 Texas Highway<br/>Many, LA" 69.652189263911 -93.6596038 31.4949391
+"Maud Public Library<br/>132 Main St<br/>Maud, TX" 69.8917336542562 -94.3420675 33.3327074
+"White Oak School Community Library<br/>200 S White Oak Rd<br/>White Oak, TX" 70.2557988965756 -94.8611578 32.5294052
+"Rusk County Library System<br/>106 E Main St<br/>Henderson, TX" 70.990793336071 -94.7994483 32.153238
+"Kilgore Public Library<br/>301 N Henderson Blvd<br/>Kilgore, TX" 71.2457691173328 -94.8694828 32.3833908
+"Stephens Public Library<br/>108 W. Ruby<br/>Stephens, AR" 71.5631248285778 -93.0711837 33.412116
+"Winn Parish<br/>205 West Main Street<br/>Winnfield, LA" 71.6157718525952 -92.6396642 31.926685
+"Daingerfield Public Library<br/>207 Jefferson St<br/>Daingerfield, TX" 71.8608260873031 -94.7196132 33.0320013
+"San Augustine Public Library<br/>413 E Columbia St<br/>San Augustine, TX" 72.2027303513528 -94.1063156 31.5300242
+"Atlanta Branch<br/>110 School Road<br/>Atlanta, LA" 72.4152469967218 -92.7337525 31.805586
+"Florien Branch<br/>514 West Port Arthur Avenue<br/>Florien, LA" 73.9970206678908 -93.4701623 31.44395
+"Sikes Branch<br/>125 Fifth Street<br/>Sikes, LA" 74.3029217853383 -92.488539 32.0800362
+"Lee Public Library<br/>312 W Pacific Ave<br/>Gladewater, TX" 75.2281493501778 -94.946247 32.536398
+"Union Parish Library<br/>202 West Jackson Street<br/>Farmerville, LA" 75.3114388726458 -92.4054875 32.7746747
+"Hooks Public Library<br/>108 W 1st St<br/>Hooks, TX" 76.1943175006565 -94.2900612 33.4669786
+"Barton Library<br/>200 East 5th Street<br/>El Dorado, AR" 76.3439885626725 -92.661798 33.2223363
+"Naples Public Library<br/>101 Walnut St<br/>Naples, TX" 77.0039022287293 -94.685028 33.2044482
+"Upshur County Library<br/>702 W Tyler St<br/>Gilmer, TX" 77.0153884223871 -94.9512195 32.7287495
+"New Boston Public Library<br/>127 N Ellis St<br/>New Boston, TX" 79.5946881127801 -94.4158864 33.46047
+"Hempstead County Library<br/>500 South Elm Street<br/>Hope, AR" 80.5330520112567 -93.5921206 33.6648053
+"Norphlet Public Library<br/>101 E.Padgett Street<br/>Norphlet, AR" 80.6356450300026 -92.6633379 33.3159761
+"Smackover Public Library<br/>700 North Broadway<br/>Smackover, AR" 80.9406734695529 -92.7227377 33.3703002
+"Jr Huffman Public Library<br/>box 2140<br/>Hemphill, TX" 81.0870735062169 -93.846852 31.3407403
+"West Ouachita Branch<br/>188 Highway 546<br/>West Monroe, LA" 82.3336529790527 -92.245826 32.516503
+"Pittsburg-Camp County Public Library<br/>613 Quitman St<br/>Pittsburg, TX" 84.245270094834 -94.978196 33.0007246
+"Nacogdoches Public Library<br/>1112 North St<br/>Nacogdoches, TX" 84.7666101355102 -94.6521276 31.6127045
+"Ashdown Community Library<br/>160 East Commerce Street<br/>Ashdown, AR" 85.6076568759823 -94.1293398 33.6745079
+"Strong Public Library<br/>246 West 2nd Street<br/>Strong, AR" 86.4241739375478 -92.3583402 33.109548
+"Ouachita Valley Branch<br/>601 Mcmillan Road<br/>West Monroe, LA" 87.4260211415969 -92.1585082 32.5130061
+"Grant Parish<br/>300 Main Street<br/>Colfax, LA" 87.8213315833788 -92.7123947 31.51692
+"Arthur Temple Sr Memorial Library<br/>106 Timberland Hwy<br/>Pineland, TX" 88.5854406777033 -93.9783143 31.2506065
+"Mount Pleasant Public Library<br/>213 N Madison Ave<br/>Mt Pleasant, TX" 88.7792887335392 -94.9697804 33.1581074
+"Public Library Of Camden Ouachita County<br/>120 Harrison Ave. S. W.<br/>Camden, AR" 88.9287419420746 -92.8312371 33.5851308
+"Cameron-J Jarvis Troup Municipal Library<br/>102 S Georgia St<br/>Troup, TX" 89.0474225609453 -95.120434 32.1439
+"West Monroe Branch<br/>315 Cypress Street<br/>West Monroe, LA" 89.2548542338671 -92.1271924 32.5020058
+"Ouachita Parish Public Library<br/>1800 Stubbs Avenue<br/>Monroe, LA" 90.3627447454019 -92.1081956 32.519992
+"Allen Memorial Public Library<br/>121 E Blackbourn St<br/>Hawkins, TX" 90.4412473816355 -95.2047801 32.5882842
+"Georgetown Branch<br/>4570 Highway 500<br/>Georgetown, LA" 90.4742164367692 -92.3797208 31.7665959
+"Nevada County Library<br/>129 West 2nd Street<br/>Prescott, AR" 91.4364488725274 -93.3815506 33.8034141
+"Carver Branch<br/>2941 Renwick Street<br/>Monroe, LA" 91.6818592782729 -92.085551 32.514183
+"Anna Meyer Branch<br/>1808 Highway 165 South<br/>Monroe, LA" 91.7597611107415 -92.084501 32.48624
+"Dry Prong Branch<br/>605 Elm Street<br/>Dry Prong, LA" 92.034632401954 -92.5287166 31.5770452
+"Tollette Branch Library<br/>506 Plum Street<br/>Tollette, AR" 92.3232308278038 -93.898538 33.821139
+"Whitehouse Community Library<br/>107 Bascom Rd<br/>Whitehouse, TX" 93.2961704459534 -95.2206316 32.2278239
+"Foreman Public Library<br/>216 Schuman St.<br/>Foreman, AR" 94.6878156642695 -94.396964 33.7224253
+"Paul Laurence Dunbar Branch<br/>1003 North Gladys St. At Nona St.<br/>Leesville, LA" 96.1488704680002 -93.2703116 31.1513024
+"Mineral Springs Public Library<br/>310 East Rummels<br/>Mineral Springs, AR" 96.1748250475134 -93.914406 33.875436
+"Boyce Branch<br/>500 A Ulster<br/>Boyce, LA" 96.3156660740022 -92.6698373 31.3896951
+"Sevier County Library-Ben Lomond Branch<br/>448 Willson Creek Road<br/>Ben Lomond, AR" 96.5172959040135 -94.127311 33.8405104
+"Caldwell Parish Library<br/>211 Jackson Street<br/>Caldwell, LA" 96.5463759409602 -92.0739444 32.1051365
+"Tyler Public Library<br/>201 S College Ave<br/>Tyler, TX" 96.5987364948582 -95.301719 32.3496328
+"Vernon Parish<br/>1401 Nolan Trace<br/>Leesville, LA" 96.6117541745087 -93.281038 31.142246
+"Calhoun County Library<br/>109 2nd Street<br/>Hampton, AR" 99.3147922591875 -92.471511 33.537775
+"Pollock Branch<br/>1316 Pine Street<br/>Pollock, LA" 99.7625790531339 -92.4063621 31.5244957
+"Mcmullen Memorial Library<br/>900 N Main St<br/>Huntington, TX" 99.9358116986648 -94.5731416 31.2843153

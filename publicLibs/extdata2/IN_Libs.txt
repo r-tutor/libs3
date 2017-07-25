@@ -1,0 +1,429 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Akron Carnegie Public Library" "205 East Rochester Street" "Akron" "IN" "46910" -86.0271541 41.0386754
+"Noble County Public Library" "813 East Main Street" "Albion" "IN" "46701" -85.414266 41.396669
+"Alexandria-Monroe Public Library" "117 East Church Street" "Alexandria" "IN" "46001" -85.673599 40.263373
+"Anderson Public Library" "111 East 12th Street" "Anderson" "IN" "46016" -85.677673 40.103805
+"Andrews-Dallas Township Public Library" "30 East Madison Street" "Andrews" "IN" "46702" -85.6011623 40.857705
+"Carnegie Public Library Of Steuben County" "322 South Wayne Street" "Angola" "IN" "46703" -84.9997694 41.6321896
+"Argos Public Library" "142 North Michigan Street" "Argos" "IN" "46501" -86.2452945 41.2375757
+"Atlanta Branch" "100 South Walnut Street" "Atlanta" "IN" "" -84.4065406 33.7518401
+"Attica Public Library" "305 South Perry Street" "Attica" "IN" "47918" -87.249502 40.291809
+"Eckhart Public Library" "603 South Jackson Street" "Auburn" "IN" "46706" -85.057397 41.363993
+"William H. Willennar Genealogy Center" "700 South Jackson Street" "Auburn" "IN" "" -85.0566755 41.3633737
+"Aurora Public Library District" "414 2nd Street" "Aurora" "IN" "47001" -84.9018592 39.0571948
+"Austin Branch Library" "26 Union Avenue" "Austin" "IN" "" -85.8055238 38.7446906
+"East Branch Library" "1116 West Albion Street" "Avilla" "IN" "" -85.2488156 41.3657635
+"Avon-Washington Township Public Library" "498 North State Road 267" "Avon" "IN" "46123" -86.4004492 39.7696408
+"Batesville Memorial Public Library" "131 North Walnut Street" "Batesville" "IN" "47006" -85.2226794 39.3005044
+"Bedford Public Library" "1323 K Street" "Bedford" "IN" "47421" -86.4859438 38.8636609
+"Beech Grove Public Library" "1102 Main Street" "Beech Grove" "IN" "46107" -86.0946411 39.721965
+"Berne Public Library" "166 North Sprunger Street" "Berne" "IN" "46711" -84.951865 40.658505
+"Bicknell-Vigo Township Public Library" "201 West 2nd Street" "Bicknell" "IN" "47512" -87.3081102 38.7729315
+"Bloomfield-Eastern Greene County Public Library" "125 South Franklin Street" "Bloomfield" "IN" "47424" -86.938159 39.025235
+"Monroe County Public Library" "303 East Kirkwood Avenue" "Bloomington" "IN" "47408" -86.5304387 39.1670537
+"Bluffton-Wells County Public Library" "200 W Washington St" "Bluffton" "IN" "" -85.1733229 40.7384419
+"Wells County Public Library" "200 West Washington Street" "Bluffton" "IN" "46714" -85.1733229 40.7384419
+"Boonville-Warrick County Public Library" "611 West Main Street" "Boonville" "IN" "47601" -87.281096 38.050586
+"Borden Library" "117 West Main Street" "Borden" "IN" "" -85.947676 38.468312
+"Boswell-Grant Township Public Library" "101 East Main Street" "Boswell" "IN" "47921" -87.38154 40.518458
+"Bourbon Public Library" "307 North Main Street" "Bourbon" "IN" "46504" -86.1162958 41.2972978
+"Annex Building" "203 North Walnut Street" "Brazil" "IN" "" -87.128054 39.5242162
+"Brazil Public Library" "204 North Walnut Street" "Brazil" "IN" "47834" -87.1284748 39.524313
+"Bremen Public Library" "304 North Jackson Street" "Bremen" "IN" "46506" -86.1473809 41.4484956
+"Bristol-Washington Township Public Library" "505 West Vistula Street" "Bristol" "IN" "46507" -85.8233669 41.7202504
+"Brook-Iroquois-Washington Public Library" "100 West Main Street" "Brook" "IN" "47922" -87.363814 40.865892
+"Brooklyn Branch" "6 East Mill Street" "Brooklyn" "IN" "" -86.370186 39.538837
+"Brookston-Prairie Township Public Library" "111 West 2nd Street" "Brookston" "IN" "47923" -86.86642 40.6036729
+"Brookville Public Library" "919 Main Street" "Brookville" "IN" "" -85.01227 39.424633
+"Brownsburg Public Library" "450 South Jefferson Street" "Brownsburg" "IN" "46112" -86.397034 39.836607
+"Brownstown Public Library" "120 East Spring Street" "Brownstown" "IN" "47220" -86.040452 38.879574
+"Butler Public Library" "340 South Broadway" "Butler" "IN" "46721" -84.871315 41.4272009
+"Cambridge City Public Library" "33 West Main Street" "Cambridge City" "IN" "47327" -85.171166 39.81283
+"Camden-Jackson Township Public Library" "183 West Main" "Camden" "IN" "46917" -86.5406871 40.6085596
+"Cannelton Public Library" "210 South 8th Street" "Cannelton" "IN" "47520" -86.7402236 37.911939
+"Carlisle Library" "201 N Ledgerwood St" "Carlisle" "IN" "" -87.4025745 38.9630699
+"Carmel Clay Public Library" "55 4th Avenue Se" "Carmel" "IN" "46032" -86.12181 39.977727
+"Henry Henley Public Library" "102 North Main Street" "Carthage" "IN" "46115" -85.5715078 39.7395231
+"Henry Henley Public Library" "103 N Main St" "Carthage" "IN" "" -85.5715097 39.7393905
+"Cayuga-Eugene Branch Library" "273 W Clay St" "Cayuga" "IN" "" -87.47389 39.964185
+"Cedar Lake Branch" "13330 Parrish Street" "Cedar Lake" "IN" "" -87.450847 41.3767349
+"Centerville-Center Township Public Library" "126 East Main Street" "Centerville" "IN" "47330" -84.995087 39.818016
+"Chandler Branch" "402 South Jaycee Street" "Chandler" "IN" "" -87.3701826 38.0399937
+"Charlestown Clark County Public Library" "51 Clark Road" "Charlestown" "IN" "47111" -85.668132 38.448095
+"Eastern Hancock Branch" "10450 E 250 N" "Charlottesville" "IN" "" -85.6078603 39.8228114
+"Thomas Library" "200 West Indiana Avenue" "Chesterton" "IN" "" -87.0538371 41.6101725
+"Churubusco Public Library" "116 North Mulberry Street" "Churubusco" "IN" "46723" -85.3205777 41.2306721
+"Hamilton North Public Library" "209 West Brinton Street" "Cicero" "IN" "46034" -86.017004 40.1231719
+"Clarksville Branch Library" "1312 Eastern Boulevard" "Clarksville" "IN" "" -85.7683932 38.3082608
+"Clayton-Liberty Township Public Library" "5199 Iowa Street" "Clayton" "IN" "46118" -86.5230021 39.6875834
+"Clinton Public Library" "313 South 4th Street" "Clinton" "IN" "47842" -87.401344 39.657951
+"Coatesville-Clay Township Public Library" "4928 Milton Street" "Coatesville" "IN" "46121" -86.67007 39.688943
+"Colfax-Perry Township Public Library" "207 South Clark Street" "Colfax" "IN" "46035" -86.666136 40.193254
+"Peabody Public Library" "1160 East Highway 205" "Columbia City" "IN" "46725" -85.4687524 41.1585331
+"Bartholomew County Public Library" "536 Fifth Street" "Columbus" "IN" "47201" -85.9187672 39.2041629
+"Fayette County Public Library" "828 Grand Avenue" "Connersville" "IN" "47331" -85.1374316 39.6454659
+"Converse-Jackson Township Public Library" "108 South Jefferson Street" "Converse" "IN" "46919" -85.8733574 40.5776011
+"Frederick Porter Griffin Center For Local History And Genealogy" "117 West Beaver Street" "Corydon" "IN" "" -86.1264952 38.2110174
+"Harrison County Public Library" "105 North Capitol Avenue" "Corydon" "IN" "47112" -86.1266237 38.2108485
+"Covington-Veedersburg Public Library" "622 5th Street" "Covington" "IN" "47932" -87.395693 40.140335
+"Crawfordsville District Public Library" "205 South Washington Street" "Crawforsdsville" "IN" "47933" -86.9014236 40.0404856
+"Ncpl West Branch Library" "120 Jefferson" "Cromwell" "IN" "" -85.6148272 41.4012463
+"Crothersville Library" "120 E Main St" "Crothersville" "IN" "" -85.8398663 38.7950827
+"Crown Point Community Public Library" "214 South Court Street" "Crown Point" "IN" "46307" -87.365152 41.415881
+"Winfield Library" "10645 Randolph" "Crown Point" "IN" "" -87.2383797 41.4248663
+"Culver-Union Township Public Library" "107 North Main Street" "Culver" "IN" "46511" -86.423836 41.217217
+"Lincoln Heritage Public Library" "105 Wallace Street" "Dale" "IN" "47523" -86.9873027 38.170563
+"Dana Branch Library" "104 Maple St" "Dana" "IN" "" -87.4946827 39.8045141
+"Danville-Center Township Public Library" "101 South Indiana Street" "Danville" "IN" "46122" -86.5222665 39.7596943
+"Darlington Public Library" "203 West Main Street" "Darlington" "IN" "47940" -86.7772912 40.1097524
+"Adams Public Library System" "128 South 3rd Street" "Decatur" "IN" "46733" -84.925326 40.828836
+"Decatur Public Library" "128 S 3rd Street" "Decatur" "IN" "" -84.925326 40.828836
+"Delphi Public Library" "222 East Main Street" "Delphi" "IN" "46923" -86.6725984 40.5866311
+"Demotte Library" "901 Birch St Sw" "Demotte" "IN" "" -87.2007386 41.19338
+"Dillsboro Public Library" "10151 Library Lane" "Dillsboro" "IN" "" -85.055496 39.0194044
+"Dublin Public Library" "2249 East Cumberland" "Dublin" "IN" "47335" -85.20819 39.811668
+"Dubois Branch Library" "5506 E Main St" "Dubois" "IN" "" -86.8009222 38.4454473
+"Dugger Library" "8007 E Main St" "Dugger" "IN" "" -87.259475 39.067865
+"Dunkirk Public Library" "127 West Washington Street" "Dunkirk" "IN" "47336" -85.2112339 40.3735967
+"Earl Park Public Library" "102 East Fifth Street" "Earl Park" "IN" "47942" -87.414575 40.683635
+"York Township Public Library" "8908 West 845 North" "Earl Park" "IN" "47942" -87.489468 40.728581
+"Bessie Owens Community Center Library" "4001 Alexander Avenue" "East Chicago" "IN" "" -87.463517 41.640588
+"East Chicago Public Library" "2401 East Columbus Drive" "East Chicago" "IN" "46312" -87.4418291 41.6373785
+"Heritage Hall" "4506 Tod Ave" "East Chicago" "IN" "" -87.4785568 41.6318418
+"Martin Luther King Community Center Library" "4902 Melville Avenue" "East Chicago" "IN" "" -87.463446 41.624513
+"Pennsylvania Center Library" "3550 Pennsylvania Avenue" "East Chicago" "IN" "" -87.442645 41.648696
+"Robert A Pastrick Library" "1008 West Chicago Avenue" "East Chicago" "IN" "" -87.4841787 41.6294932
+"Roberto Clemente Center" "3616 Elm Street" "East Chicago" "IN" "" -87.4474153 41.6461977
+"St Catherine Hospital" "4321 Fir Street" "East Chicago" "IN" "" -87.4490091 41.6346627
+"West Calumet Central Library" "4925 Gladiola St" "East Chicago" "IN" "" -87.4674866 41.6235789
+"Edinburgh Wright-Hageman Public Library" "119 West Main Cross Street" "Edinburgh" "IN" "46124" -85.967579 39.353968
+"Elberfeld Branch Library" "175 Sycamore Street" "Elberfeld" "IN" "" -87.4476488 38.1604836
+"Cleveland Branch" "53715 Cr 1" "Elkhart" "IN" "" -86.0470236 41.7146862
+"Dunlap Branch" "58485 Cr 13" "Elkhart" "IN" "" -85.9224336 41.6452877
+"Elkhart Public Library" "300 South 2nd Street" "Elkhart" "IN" "46516" -85.9733565 41.6846258
+"Osolo Branch Library" "3429 East Bristol Street" "Elkhart" "IN" "" -85.9250486 41.7017608
+"Pierre Moran Branch Library" "2400 Benham Avenue" "Elkhart" "IN" "" -85.9681346 41.6628869
+"Ellettsville Branch" "600 W Temperance" "Ellettsville" "IN" "" -86.6251467 39.2344099
+"Elwood Public Library" "1600 Main Street" "Elwood" "IN" "" -85.8396838 40.2773485
+"Crawford County Public Library" "203 Indiana Avenue" "English" "IN" "47118" -86.442904 38.352345
+"East Branch" "840 E Chandler Avenue" "Evansville" "IN" "" -87.5504799 37.9659081
+"Evansville-Vanderburgh Public Library" "200 Se Martin Luther King Jr Blvd" "Evansville" "IN" "47713" -87.5659879 37.971461
+"Mccullough Branch" "5115 Washington Avenue" "Evansville" "IN" "" -87.4885077 37.9619774
+"North Park Branch" "960 Koehler Dr." "Evansville" "IN" "" -87.5772024 38.0269468
+"Oaklyn Branch" "3001 Oaklyn Drive" "Evansville" "IN" "" -87.5115526 38.0107178
+"Red Bank Branch" "120 S Red Bank Rd" "Evansville" "IN" "" -87.6364085 37.977988
+"Stringtown Branch" "2100 Stringtown Road" "Evansville" "IN" "" -87.555245 37.996832
+"Willard Library Of Evansville" "21 First Avenue" "Evansville" "IN" "47710" -87.574016 37.9783492
+"Fairmount Public Library" "217 South Main Street" "Fairmount" "IN" "46928" -85.6502693 40.4141977
+"Farmersburg Library" "116 W Main St" "Farmersburg" "IN" "" -87.3805528 39.2538795
+"Farmland Public Library" "116 South Main Street" "Farmland" "IN" "47340" -85.12791 40.18709
+"Ferdinand Branch Library" "243 West 10th St" "Ferdinand" "IN" "" -86.863467 38.224618
+"Fishers Branch" "5 Municipal Drive" "Fishers" "IN" "" -86.01518 39.960456
+"Flora-Monroe Township Public Library" "109 North Center Street" "Flora" "IN" "46929" -86.5237425 40.5486605
+"Fort Branch-Johnson Township Public Library" "107 East Locust Street" "Fort Branch" "IN" "47648" -87.5782893 38.2473893
+"Aboite Branch" "5630 Coventry Lane" "Fort Wayne" "IN" "" -85.259843 41.0356632
+"Allen County Public Library" "900 Library Plaza" "Fort Wayne" "IN" "46801" -85.1432369 41.0771709
+"Dupont Branch" "563 East Dupont Road" "Fort Wayne" "IN" "" -85.1346085 41.1782795
+"Georgetown Branch" "6600 East State Boulevard" "Fort Wayne" "IN" "" -85.0568506 41.1020704
+"Hessen Cassel Branch" "3030 East Paulding Road" "Fort Wayne" "IN" "" -85.0976247 41.0317962
+"Little Turtle Branch" "2201 Sherman Boulevard" "Fort Wayne" "IN" "" -85.1545917 41.0953725
+"Pontiac Branch" "3304 Warsaw Street" "Fort Wayne" "IN" "" -85.1303727 41.0547392
+"Shawnee Branch" "5600 Noll Avenue" "Fort Wayne" "IN" "" -85.1360576 41.033074
+"Tecumseh Branch" "1411 East State Blvd" "Fort Wayne" "IN" "" -85.1208882 41.0970378
+"Waynedale Branch" "2200 Lower Huntington Road" "Fort Wayne" "IN" "" -85.1649365 41.020747
+"Fortville-Vernon Township Public Library" "625 East Broadway" "Fortville" "IN" "46040" -85.842998 39.9343284
+"Benton County Public Library" "102 North Van Buren Avenue" "Fowler" "IN" "47944" -87.320037 40.617997
+"Francesville-Salem Township Public Library" "201 West Montgomery Street" "Francesville" "IN" "47946" -86.883187 40.985369
+"Frankfort-Clinton County Contractual Public Library" "208 West Clinton Street" "Frankfort" "IN" "46041" -86.5139736 40.2808758
+"Johnson County Public Library" "401 South State Street" "Franklin" "IN" "46131" -86.0471936 39.4769201
+"Frankton Community Library" "102 S. Church Street" "Frankton" "IN" "" -85.7794127 40.2229614
+"Fremont Public Library" "1004 West Toledo Street" "Fremont" "IN" "46737" -84.947897 41.73089
+"Melton Public Library" "8496 West College Street" "French Lick" "IN" "47432" -86.617472 38.5489839
+"Galveston Branch Library" "304 East Jackson" "Galveston" "IN" "" -86.187185 40.579151
+"Garrett Public Library" "107 West Houston" "Garrett" "IN" "46738" -85.135994 41.3482709
+"Black Oak Branch" "5921 W 25th Avenue" "Gary" "IN" "" -87.4103498 41.5731033
+"Brunswick Branch" "4030 W. 5th Ave" "Gary" "IN" "" -87.3868862 41.6022286
+"Dubois Branch" "1835 Broadway" "Gary" "IN" "" -87.336501 41.584189
+"Forty-First Avenue Branch" "3941 West 41st Avenue" "Gary" "IN" "" -87.3864846 41.5443503
+"Gary Public Library" "220 West 5th Avenue" "Gary" "IN" "46402" -87.3402919 41.6023102
+"Kennedy Branch" "3953 Broadway" "Gary" "IN" "" -87.3360388 41.5464927
+"Tolleston Branch" "1113 Taft Street" "Gary" "IN" "" -87.365666 41.590991
+"Wildermuth Branch" "501 S Lake Street" "Gary" "IN" "" -87.267539 41.6013329
+"Gas City-Mill Township Public Library" "135 East Main Street" "Gas City" "IN" "46933" -85.6142605 40.4879087
+"Geneva Public Library" "305 E Line Street" "Geneva" "IN" "" -84.9587412 40.5920311
+"Goodland Grant Township Public Library" "111 South Newton Street" "Goodland" "IN" "47948" -87.29272 40.7648719
+"Goshen Public Library" "601 South 5th Street" "Goshen" "IN" "46526" -85.833234 41.57893
+"Grandview Branch" "403 Main St" "Grandview" "IN" "" -94.5412832 38.8896715
+"Putnam County Public Library" "103 East Poplar Street" "Greencastle" "IN" "46135" -86.8631184 39.6429701
+"Hancock County Public Library" "900 West Mckenzie Road" "Greenfield" "IN" "46140" -85.7836436 39.7999639
+"Greensburg-Decatur County Contractual Public Library" "1110 East Main Street" "Greensburg" "IN" "47240" -85.4677901 39.3372585
+"Greentown Eastern Howard School Public Library" "421 South Harrison Street" "Greentown" "IN" "46936" -85.9756136 40.4744402
+"Greentown Childrens Library" "301 South Meridian" "Greentown" "IN" "" -85.9665744 40.4757887
+"Greenwood Public Library" "310 South Meridian" "Greenwood" "IN" "46143" -86.1071195 39.6115336
+"White River Library" "1664 Library Blvd" "Greenwood" "IN" "" -86.1560256 39.6081224
+"Griffith Branch" "940 N Broad Street" "Griffith" "IN" "" -87.428282 41.538937
+"Hagerstown-Jefferson Township Public Library" "10 West College Street" "Hagerstown" "IN" "47346" -85.161489 39.911956
+"Hamlet Public Library" "4 N Starke St" "Hamlet" "IN" "" -86.5822737 41.3805648
+"E B Hayward Branch Library" "1212 172nd Street" "Hammond" "IN" "" -87.4997879 41.5828139
+"Hammond Public Library" "564 State Street" "Hammond" "IN" "46320" -87.514845 41.6173112
+"Howard Branch Library" "7047 Grand Avenue" "Hammond" "IN" "" -87.4417729 41.5849693
+"Hanna Branch" "202 N Thompson" "Hanna" "IN" "" -86.780404 41.414388
+"Harlan Branch" "17430 State Road 37" "Harlan" "IN" "" -84.9205825 41.1957269
+"Hartford City Public Library" "314 North High Street" "Hartford City" "IN" "47348" -85.3681689 40.4533454
+"Hatfield Branch" "900 W State Rd 66" "Hatfield" "IN" "" -87.2377411 37.9046189
+"Haubstadt Branch" "101 S Main" "Haubstadt" "IN" "" -87.574821 38.205007
+"Hebron Library" "201 West Sigler Street" "Hebron" "IN" "" -87.2014513 41.3186503
+"Henryville Library" "214 East Main Street" "Henryville" "IN" "" -85.7701961 38.5394403
+"Highland Branch" "2841 Jewett Avenue" "Highland" "IN" "" -87.4595871 41.5547607
+"Hobart Branch" "100 N Main Street" "Hobart" "IN" "" -99.0931329 35.0284536
+"Hope Branch Library" "635 Harrison" "Hope" "IN" "" -85.7701188 39.303305
+"Huntingburg Public Library" "419 North Jackson Street" "Huntingburg" "IN" "47542" -86.953676 38.297148
+"Huntington City-Township Public Library" "200 West Market" "Huntington" "IN" "46750" -85.4973132 40.8817484
+"Brightwood Branch Library" "2435 N Sherman Drive" "Indianapolis" "IN" "" -86.1012873 39.8029733
+"Central Library" "40 East St Clair Street" "Indianapolis" "IN" "" -86.156761 39.778541
+"College Avenue Branch Library" "4180 N. College Avenue" "Indianapolis" "IN" "" -86.1454792 39.8320381
+"Decatur Branch Library" "5301 Kentucky Avenue" "Indianapolis" "IN" "" -86.2786732 39.6868305
+"Eagle Branch Library" "3325 Lowry Road" "Indianapolis" "IN" "" -86.2382776 39.8163245
+"East 38th Street Branch Library" "5420 E. 38th Street" "Indianapolis" "IN" "" -86.0761673 39.8258007
+"East Washington Branch Library" "2822 East Washington Street" "Indianapolis" "IN" "" -86.1157951 39.7686317
+"Flanner House Branch Library" "2424 Dr. Martin Luther King Jr. Street" "Indianapolis" "IN" "" -86.171458 39.800526
+"Fountain Square Branch Library" "1066 Virginia Avenue" "Indianapolis" "IN" "" -86.1400517 39.7525613
+"Franklin Road Branch Library" "5500 S. Franklin Road" "Indianapolis" "IN" "" -86.018351 39.6878856
+"Glendale Branch Library" "6101 N Keystone Avenue" "Indianapolis" "IN" "" -86.1194334 39.8657901
+"Haughville Branch Library" "2121 W. Michigan Street" "Indianapolis" "IN" "" -86.1974529 39.7744225
+"Indianapolis-Marion County Public Library" "2450 North Meridian Street" "Indianapolis" "IN" "46206" -86.158416 39.8008958
+"Infozone Branch Library (At The Childrens Museum)" "3000 N. Meridian Street" "Indianapolis" "IN" "" -86.1579106 39.8107901
+"Irvington Branch Library" "5625 East Washington Street" "Indianapolis" "IN" "" -86.0707898 39.7704173
+"Lawrence Branch Library" "7898 North Hague Road" "Indianapolis" "IN" "" -86.033839 39.8979681
+"Nora Branch Library" "8625 Guilford Avenue" "Indianapolis" "IN" "" -86.1414951 39.9130366
+"Shelby Branch Library" "2502 Shelby Street" "Indianapolis" "IN" "" -86.1400345 39.7319586
+"Southport Branch Library" "2630 East Stop 11 Road" "Indianapolis" "IN" "" -86.1175385 39.6508727
+"Spades Park Branch Library" "1801 Nowland Avenue" "Indianapolis" "IN" "" -86.1290219 39.7849287
+"Warren Branch Library" "9701 East 21st Street" "Indianapolis" "IN" "" -85.9955099 39.7960768
+"Wayne Branch Library" "198 South Girls School Road" "Indianapolis" "IN" "" -86.2897896 39.7612504
+"West Indianapolis Branch Library" "1216 Kappes Street" "Indianapolis" "IN" "" -86.194693 39.7507813
+"Jasper-Dubois County Contractual Public Library" "1116 Main Street" "Jasper" "IN" "47546" -86.9301359 38.3953807
+"Jeffersonville Township Public Library" "211 East Court Avenue" "Jeffersonville" "IN" "47131" -85.7405599 38.2757035
+"Jonesboro Public Library" "124 East 4th Street" "Jonesboro" "IN" "46938" -85.6267548 40.4823542
+"Kendallville Public Library" "221 South Park Avenue" "Kendallville" "IN" "46755" -85.2529325 41.4425153
+"Kentland-Jefferson Township Public Library" "201 East Graham Street" "Kentland" "IN" "47951" -87.446787 40.768982
+"Kewanna-Union Township Public Library" "210 East Main Street" "Kewanna" "IN" "46939" -86.412999 41.0185853
+"Kingman-Millcreek Public Library" "123 East State Street" "Kingman" "IN" "47952" -87.2779655 39.9673141
+"Kingsford Heights Branch" "436 Evanston Street" "Kingsford Heights" "IN" "" -86.694867 41.482154
+"Kirklin Public Library" "115 North Main St" "Kirklin" "IN" "46050" -86.3599292 40.1931943
+"Knightstown Public Library" "5 East Main Street" "Knightstown" "IN" "46148" -85.527261 39.795089
+"Henry F. Schricker Main Library" "152 W Culver Road" "Knox" "IN" "" -86.6252365 41.2876797
+"Starke County Public Library System" "152 West Culver Road" "Knox" "IN" "46534" -86.6252365 41.2876797
+"Kokomo-Howard County Public Library" "220 North Union Street" "Kokomo" "IN" "46901" -86.1296743 40.4881071
+"South Branch Library" "1755 East Center Road" "Kokomo" "IN" "" -86.1030078 40.4336209
+"Kouts Library" "101 E Daumer Road" "Kouts" "IN" "" -87.02509 41.309653
+"La Crosse Public Library" "16 East Main Street" "La Crosse" "IN" "46348" -86.890728 41.317067
+"La Porte County Public Library" "904 Indiana Avenue" "La Porte" "IN" "46350" -86.7212941 41.6087341
+"Ladoga-Clark Township Public Library" "128 East Main Street" "Ladoga" "IN" "47954" -86.799937 39.913761
+"Tippecanoe County Public Library" "627 South Street" "Lafayette" "IN" "47901" -86.8892678 40.4169912
+"La Grange County Public Library" "203 West Spring Street" "Lagrange" "IN" "46761" -85.4194811 41.643399
+"Lake Station Branch" "2400 Central Avenue" "Lake Station" "IN" "" -87.254276 41.572383
+"Newton County Public Library" "9444 North 315 West" "Lake Village" "IN" "46349" -85.869905 41.2486977
+"Lakeville Branch" "601 North Michigan" "Lakeville" "IN" "" -86.3041794 41.4718379
+"Lapel Public Library" "610 Main St" "Lapel" "IN" "" -85.8479298 40.0663839
+"Laurel Community Library" "200 North Clay St" "Laurel" "IN" "" -85.186034 39.502768
+"Lawrenceburg Public Library District" "150 Mary Street" "Lawrenceburg" "IN" "47025" -84.8496193 39.0914988
+"Breeden Memorial Library" "529 Old State Road 62" "Leavenworth" "IN" "" -86.343796 38.1996878
+"Lebanon Public Library" "104 East Washington Street" "Lebanon" "IN" "46052" -86.4675115 40.0487955
+"Aubbee Branch Library" "4562 N North St" "Leiters Ford" "IN" "" -86.4151507 41.1400542
+"Union County Public Library" "2 East Seminary Street" "Liberty" "IN" "47353" -84.9296842 39.6345044
+"Ligonier Public Library" "300 South Main Street" "Ligonier" "IN" "46767" -85.5891076 41.4637411
+"Linden Carnegie Public Library" "102 South Main Street" "Linden" "IN" "47955" -87.7979679 32.3053146
+"Linton Public Library" "95 Se 1st Street" "Linton" "IN" "47441" -87.1649543 39.0327165
+"Margaret Cooper Public Library" "110 East Vincennes Street" "Linton" "IN" "" -87.1647522 39.034281
+"Logansport-Cass County Public Library" "616 East Broadway" "Logansport" "IN" "46947" -86.3621668 40.7548597
+"Loogootee Public Library" "106 North Line Street" "Loogootee" "IN" "47553" -86.9140462 38.6772123
+"Lowell Public Library" "1505 East Commercial Avenue" "Lowell" "IN" "46356" -87.4054503 41.2910787
+"Lynnville Branch Library" "211 N Main Street" "Lynnville" "IN" "" -87.2978449 38.1980701
+"Madison-Jefferson County Public Library" "420 West Main Street" "Madison" "IN" "47250" -85.3842161 38.7373555
+"Marion Public Library" "600 South Washington Street" "Marion" "IN" "46953" -85.660157 40.5558802
+"Markle Branch" "197 E. Morse" "Markle" "IN" "" -85.337482 40.824226
+"Morgan County Public Library" "110 South Jefferson Street" "Martinsville" "IN" "46151" -86.4276106 39.4256265
+"North East Branch" "9410 State Road 144" "Martinsville" "IN" "" -86.2526645 39.5664854
+"Matthews Public Library" "722 Massachusetts Avenue" "Matthews" "IN" "46957" -85.4992667 40.3882514
+"Medaryville Branch" "510 E Main St" "Medaryville" "IN" "" -86.887062 41.080885
+"Medora Library" "27 W Main" "Medora" "IN" "" -86.1707009 38.824921
+"Bell Memorial Public Library" "101 West Main Street" "Mentone" "IN" "46539" -86.036715 41.173065
+"Merom Library" "8554 W Market St" "Merom" "IN" "" -87.5502255 39.0563028
+"Lake County Public Library" "1919 West 81st Avenue" "Merrillville" "IN" "46410" -87.3595689 41.4703853
+"Coolspring Branch" "7089 West 400 North" "Michigan City" "IN" "" -86.8368532 41.665986
+"Michigan City Public Library" "100 East 4th Street" "Michigan City" "IN" "46360" -86.9026186 41.7189329
+"Michigantown Community Library" "702 N Main Street" "Michigantown" "IN" "" -86.393289 40.330423
+"Middlebury Community Public Library" "101 East Winslow Street" "Middlebury" "IN" "46540" -85.7055729 41.6764516
+"Middletown Fall Creek Township Public Library" "780 High Street" "Middletown" "IN" "47356" -85.5371748 40.0560294
+"Milan Public Library" "112 Franklin Street" "Milan" "IN" "" -85.1322568 39.1233327
+"Milford Public Library" "101 North Main Street" "Milford" "IN" "46542" -85.8463529 41.410075
+"Bittersweet Branch Library" "602 Bittersweet Road" "Mishawaka" "IN" "" -86.1093472 41.6674593
+"Mishawaka-Penn-Harris Public Library" "209 Lincoln Way East" "Mishawaka" "IN" "46544" -86.17858 41.6606189
+"Mitchell Community Public Library" "804 Main Street" "Mitchell" "IN" "47446" -86.4747293 38.7324745
+"Monon Town Township Public Library" "427 North Market Street" "Monon" "IN" "47959" -86.8790477 40.8632294
+"Monroeville Branch" "104 Allen Street" "Monroeville" "IN" "" -84.869345 40.974334
+"Monrovia Branch" "50 S Walnut Street" "Monrovia" "IN" "" -86.48134 39.578589
+"Monterey-Tippecanoe Township Public Library" "6260 East Main Street" "Monterey" "IN" "46960" -86.481267 41.156774
+"Montezuma Public Library" "270 Crawford Street" "Montezuma" "IN" "47862" -87.370054 39.792694
+"Monticello-Union Township Public Library" "321 West Broadway Street" "Monticello" "IN" "47960" -86.765901 40.744814
+"Montpelier-Harrison Township Public Library" "301 South Main Street" "Montpelier" "IN" "47359" -85.2781856 40.5530552
+"Mooresville Public Library" "220 W Harrison St" "Mooresville" "IN" "46158" -86.3802254 39.6122345
+"Morgantown Branch" "39 W Washington Street" "Morgantown" "IN" "" -86.2614497 39.371093
+"Morocco Branch Library" "120 E State Street" "Morocco" "IN" "" -87.453737 40.946434
+"Alexandrian Public Library" "115 West 5th Street" "Mount Vernon" "IN" "47620" -87.8966161 37.9333429
+"Mulberry Community Library" "132 S Glick Street" "Mulberry" "IN" "" -86.666363 40.3442067
+"Carnegie Library" "301 E Jackson Street" "Muncie" "IN" "" -85.3839933 40.1925541
+"John F. Kennedy Library" "1700 W Mcgalliard Road" "Muncie" "IN" "" -85.40634 40.219365
+"Local History Genealogy Center" "210 S. Jefferson Street" "Muncie" "IN" "" -85.3843041 40.1926778
+"Muncie-Center Township Public Library" "2005 South High Street" "Muncie" "IN" "47302" -85.3890098 40.1764474
+"Vivian Conley Library" "1824 E Centennial Avenue" "Muncie" "IN" "" -85.365986 40.207704
+"Munster Branch" "8701 Calumet Avenue" "Munster" "IN" "" -87.5085388 41.5548559
+"Nappanee Public Library" "157 North Main Street" "Nappanee" "IN" "46550" -86.000894 41.4433533
+"Brown County Public Library" "205 Locust Lane" "Nashville" "IN" "47448" -86.245822 39.2091692
+"New Albany-Floyd County Public Library" "180 West Spring Street" "New Albany" "IN" "47150" -85.8261898 38.2855952
+"New Carlisle Olive Township Public Library" "408 South Bray Street" "New Carlisle" "IN" "46552" -86.5112163 41.7019841
+"New Castle-Henry County Public Library" "376 South 15th Street" "New Castle" "IN" "47362" -85.3669402 39.9292028
+"New Chicago Branch" "3250 Michigan Avenue" "New Chicago" "IN" "" -87.275053 41.558649
+"New Harmony Workingmens Institute" "407 West Tavern Street" "New Harmony" "IN" "47631" -87.9363589 38.1285529
+"New Haven Branch" "435 Ann Street" "New Haven" "IN" "" -85.016345 41.0737373
+"Hancock County Public Library - Sugar Creek" "5087 W. U.S. 52" "New Palestine" "IN" "46163" -85.8971281 39.7218547
+"New Washington Library" "210 South Poplar Street" "New Washington" "IN" "" -85.5395307 38.561981
+"Clark Pleasant" "530 Tracy Rd Ste 250" "New Whiteland" "IN" "" -86.0894221 39.5651974
+"Central Library" "4111 Lakeshore Dr" "Newburgh" "IN" "47629" -87.4064693 37.9739511
+"Newburgh Library" "30 W Water St" "Newburgh" "IN" "" -87.4063662 37.944459
+"Ohio Township Public Library System" "4111 Lakeshore Drive" "Newburgh" "IN" "47629" -87.4064693 37.9739511
+"Newport-Vermillion County Public Library" "385 E Market St" "Newport" "IN" "" -87.4042266 39.8836145
+"Vermillion County Public Library" "385 East Market Street" "Newport" "IN" "47966" -87.4042266 39.8836145
+"Princes Lakes Town Hall" "post office box 155" "Nineveh" "IN" "" -86.0847136 39.3622722
+"North Judson-Wayne Township Public Library" "208 Keller Avenue" "North Judson" "IN" "46366" -86.775882 41.216182
+"North Liberty Branch" "105 West Center St" "North Liberty" "IN" "" -86.4279728 41.5346352
+"North Manchester Public Library" "405 North Market Street" "North Manchester" "IN" "46962" -85.769145 41.002969
+"Jennings County Public Library" "2375 North State Hwy 3" "North Vernon" "IN" "47265" -85.6422232 39.021124
+"North Webster Community Public Library" "301 North Main Street" "North Webster" "IN" "46555" -85.6972368 41.3279388
+"Oakland City-Columbia Township Public Library" "210 South Main Street" "Oakland City" "IN" "47660" -87.3462598 38.3370995
+"Odon Winkelpleck Public Library" "202 West Main Street" "Odon" "IN" "47562" -86.992465 38.842826
+"Joyce Public Library" "9490 West State Road 120" "Orland" "IN" "46776" -85.1711436 41.730687
+"Orleans Town Township Public Library" "174 North Maple Street" "Orleans" "IN" "47452" -86.4527257 38.6635183
+"Osgood Public Library" "136 West Ripley Street" "Osgood" "IN" "47037" -85.2922725 39.1291877
+"Ossian Branch Library" "207 N Jefferson St" "Ossian" "IN" "" -85.1669443 40.8810261
+"Otterbein Public Library" "23 East First Street" "Otterbein" "IN" "47970" -87.095809 40.489865
+"Otwell Branch" "2301 N Spring St" "Otwell" "IN" "" -87.092405 38.456525
+"Owensville Carnegie Public Library" "110 South Main Street" "Owensville" "IN" "47665" -87.6913369 38.2721832
+"Oxford Public Library" "201 East Smith Street" "Oxford" "IN" "47971" -87.248779 40.5204499
+"Paoli Public Library" "10 East Court" "Paoli" "IN" "47454" -86.467594 38.556563
+"Pendleton Community Public Library" "595 East Water Street" "Pendleton" "IN" "46064" -85.7353713 40.0042207
+"Penn Township Public Library" "195 North Union" "Pennville" "IN" "47369" -85.1482205 40.4934411
+"Perrysville Branch Library" "111 S Jackson St" "Perrysville" "IN" "" -87.433508 40.051115
+"Peru Public Library" "102 East Main Street" "Peru" "IN" "46970" -86.0660407 40.7554681
+"Pike County Public Library" "1104 Main Street" "Petersburg" "IN" "47567" -87.2772929 38.4931113
+"Pierceton Washington Township Public Library" "101 Catholic Street" "Pierceton" "IN" "46562" -85.705679 41.19872
+"Plainfield-Guilford Township Public Library" "1120 Stafford Road" "Plainfield" "IN" "46168" -86.3867644 39.697376
+"Plymouth Public Library" "201 North Center Street" "Plymouth" "IN" "46563" -86.3108577 41.3411849
+"Southern Wells Branch" "9120 South 300 West" "Poneto" "IN" "" -85.2783111 40.6088864
+"Portage Public Library" "2665 Irving Street" "Portage" "IN" "" -87.180485 41.5744248
+"Hageman Memorial Library" "100 Francis Street" "Porter" "IN" "" -87.0727995 41.6163644
+"Jay County Public Library" "315 North Ship Street" "Portland" "IN" "47371" -84.9801822 40.4358155
+"Poseyville Carnegie Public Library" "55 South Cale Street" "Poseyville" "IN" "47633" -87.7832718 38.1683199
+"Princeton Public Library" "124 South Hart Street" "Princeton" "IN" "47670" -87.5683838 38.3545298
+"Remington-Carpenter Township Public Library" "105 North Ohio Street" "Remington" "IN" "47977" -87.150656 40.761629
+"Jasper County Public Library" "208 West Susan Street" "Rensselaer" "IN" "47978" -87.15409 40.93848
+"Marylee Vogel" "6014 W Division" "Richland" "IN" "" -85.6058765 41.1621549
+"Morrisson-Reeves Library" "80 North 6th Street" "Richmond" "IN" "47374" -84.8945807 39.8301395
+"Ridgeville Public Library" "308 North Walnut Street" "Ridgeville" "IN" "47380" -85.028891 40.291582
+"Ohio County Public Library" "503 Second Street" "Rising Sun" "IN" "47040" -84.858745 38.949808
+"Roachdale-Franklin Township Public Library" "100 East Washington Street" "Roachdale" "IN" "46172" -86.8009335 39.8520018
+"Roann-Paw Paw Township Public Library" "240 S Chippewa Road" "Roann" "IN" "46974" -85.924676 40.910011
+"Roanoke Public Library" "126 North Main Street" "Roanoke" "IN" "46783" -85.372939 40.96166
+"Fulton County Public Library" "320 West 7th Street" "Rochester" "IN" "46975" -86.2191505 41.0672419
+"Rochester Library" "320 W 7th Street" "Rochester" "IN" "46975" -86.2191505 41.0672419
+"Spencer County Public Library" "210 Walnut Street" "Rockport" "IN" "47635" -87.046914 37.881883
+"Rockville Public Library" "106 North Market Street" "Rockville" "IN" "47872" -87.22948 39.763153
+"Rolling Prairie Branch" "1 E Michigan" "Rolling Prairie" "IN" "" -86.617043 41.674294
+"Limberlost Public Library" "164 Kelly Street" "Rome City" "IN" "" -85.377011 41.495554
+"Roselawn Branch Library" "4077 Kellar" "Roselawn" "IN" "" -87.313175 41.14331
+"Rossville Community Library" "400 West Main Street" "Rossville" "IN" "" -86.604741 40.417579
+"Royal Center-Boone Township Public Library" "203 North Chicago Street" "Royal Center" "IN" "46978" -86.498337 40.863742
+"Rushville Public Library" "130 West Third Street" "Rushville" "IN" "46173" -85.4461884 39.6093251
+"Russiaville Branch Library" "315 Mesa Dr" "Russiaville" "IN" "" -86.268098 40.419466
+"Salem-Washington Township Public Library" "212 North Main Street" "Salem" "IN" "47167" -86.1007993 38.6069019
+"San Pierre Library" "103 S Broadway" "San Pierre" "IN" "" -86.891972 41.198261
+"Sandborn Branch" "201 N Anderson St" "Sandborn" "IN" "" -87.187093 38.894491
+"Dyer Schererville Branch" "1001 West Lincoln Highway" "Schererville" "IN" "" -87.4753704 41.4901185
+"Schneider Branch" "24002 Parrish Ave" "Schneider" "IN" "" -87.448738 41.181969
+"Scott County Public Library" "108 South Main St" "Scottsburg" "IN" "47170" -85.7705928 38.6845879
+"Sellersburg Library" "430 North Indiana Ave" "Sellersburg" "IN" "" -85.7535558 38.402659
+"Jackson County Public Library" "303 W Second Street" "Seymour" "IN" "47274" -85.8921187 38.9583462
+"Shelburn Library" "17 W Griffith" "Shelburn" "IN" "" -87.3942711 39.178975
+"Shelby Branch" "23323 Shelby Rd" "Shelby" "IN" "" -87.347424 41.19385
+"Genealogy And History Room" "58 West Broadway" "Shelbyville" "IN" "" -85.7790181 39.5229666
+"Shelbyville-Shelby County Public Library" "57 West Broadway" "Shelbyville" "IN" "46176" -85.7789092 39.5226208
+"Sheridan Public Library" "103 West First Street" "Sheridan" "IN" "46069" -86.2217955 40.1383585
+"Shipshewana Branch Library" "315 N Morton St" "Shipshewana" "IN" "" -85.577644 41.678955
+"Shoals Public Library" "404 High Street" "Shoals" "IN" "47581" -86.790046 38.66593
+"Centre Township Branch" "1150 East Kern Road" "South Bend" "IN" "" -86.2339245 41.6071586
+"Lasalle Branch" "3232 West Ardmore Trail" "South Bend" "IN" "" -86.295136 41.6891641
+"River Park Branch" "2022 Mishawaka Avenue" "South Bend" "IN" "" -86.2170886 41.6655838
+"Roger B. Francis Branch" "52655 North Ironwood Road" "South Bend" "IN" "" -86.2176865 41.7290051
+"St Joseph County Public Library" "304 South Main Street" "South Bend" "IN" "46601" -86.2514446 41.6732338
+"Virginia M. Tutt Branch Library" "2223 Miami Street" "South Bend" "IN" "" -86.2353259 41.6512487
+"Western Branch" "611 South Lombardy Drive" "South Bend" "IN" "" -86.3102496 41.6718966
+"South Whitley-Cleveland Township Public Library" "201 East Front Street" "South Whitley" "IN" "46787" -85.6261509 41.084801
+"Speedway Public Library" "5633 West 25th Street" "Speedway" "IN" "46224" -86.25986 39.801384
+"Owen County Public Library" "10 South Montgomery Street" "Spencer" "IN" "47460" -86.7636142 39.2856933
+"Spencer Owen Public Library" "110 E Market" "Spencer" "IN" "" -86.761129 39.285013
+"Spiceland Town-Township Public Library" "105 West Main Street" "Spiceland" "IN" "47385" -85.4391671 39.8383598
+"St. John Branch" "9450 Wicker Drive" "St. John" "IN" "" -87.4701591 41.446984
+"Sullivan County Public Library" "100 South Crowder Street" "Sullivan" "IN" "47882" -87.4116167 39.0943699
+"Ralph E. Hazelbaker Library" "1013 West Church Street" "Summitville" "IN" "" -85.6466024 40.3366798
+"Swayzee Public Library" "301 South Washington Street" "Swayzee" "IN" "46986" -85.8255482 40.5064251
+"Syracuse-Turkey Creek Township Public Library" "115 East Main Street" "Syracuse" "IN" "46567" -85.7516625 41.4279752
+"Tell City-Perry County Public Library" "2328 Tell Street" "Tell City" "IN" "47586" -86.7489348 37.9557471
+"Tennyson Branch Library" "114 E Oak St" "Tennyson" "IN" "" -87.117181 38.083197
+"Thorntown Public Library" "124 North Market Street" "Thorntown" "IN" "46071" -86.6060285 40.1302921
+"Tipton County Public Library" "127 East Madison Street" "Tipton" "IN" "46072" -86.0399562 40.2805745
+"Topeka Branch Library" "105 S. Main St" "Topeka" "IN" "" -85.5391209 41.5391683
+"Trafalgar Community Center" "100 Pearl St" "Trafalgar" "IN" "" -86.1512944 39.4162383
+"Union City Public Library" "408 North Columbia Street" "Union City" "IN" "47390" -84.808795 40.2014501
+"Union Mills Branch" "3727 West 800 South" "Union Mills" "IN" "" -86.773355 41.491585
+"Barton Rees Pogue Memorial Public Library" "29 West Washington Street" "Upland" "IN" "46989" -85.4956605 40.4752727
+"Porter County Public Library System" "103 Jefferson Street" "Valparaiso" "IN" "46383" -87.0589947 41.4690586
+"South Haven Branch Library" "403 West 700 North" "Valparaiso" "IN" "" -87.1438294 41.5358605
+"Van Buren Public Library" "115 South First Street" "Van Buren" "IN" "46991" -85.5049428 40.6173791
+"Van Buren Public Library" "115 S First St" "Van Buren" "IN" "" -85.5049428 40.6173791
+"Veedersburg Public Library" "408 N Main Street" "Veedersburg" "IN" "" -87.262799 40.115612
+"Tyson Library Association, Inc" "325 West Tyson Street" "Versailles" "IN" "47042" -85.2545573 39.0714709
+"Switzerland County Public Library" "205 Ferry Street" "Vevay" "IN" "47043" -85.067186 38.746635
+"Knox County Public Library" "502 North 7th Street" "Vincennes" "IN" "47591" -87.5240539 38.6791507
+"Wabash Carnegie Public Library" "188 West Hill Street" "Wabash" "IN" "46992" -85.8239939 40.7988178
+"Wakarusa-Olive Harrison Township Public Library" "124 North Elkhart Street" "Wakarusa" "IN" "46574" -86.0209951 41.5372911
+"Fish Lake Branch Library" "7981 E Sr 4" "Walkerton" "IN" "" -86.5447631 41.5650363
+"Koontz Lake Library" "7954 North Highway 23" "Walkerton" "IN" "" -86.4898733 41.4176108
+"Walkerton-Lincoln Township Public Library" "300 Michigan Street" "Walkerton" "IN" "46574" -86.4827477 41.4672436
+"Walton Tipton Township Public Library" "110 North Main Street" "Walton" "IN" "46994" -86.2427359 40.6611959
+"Wanatah Public Library" "114 South Main Street" "Wanatah" "IN" "46390" -86.898459 41.428682
+"Warsaw Community Public Library" "310 East Main Street" "Warsaw" "IN" "46580" -85.9748598 41.2608258
+"Washington Carnegie Public Library" "300 West Main Street" "Washington" "IN" "47501" -77.0582855 35.5435638
+"Waterloo-Grant Township Public Library" "300 South Wayne Street" "Waterloo" "IN" "46793" -85.0199177 41.4299339
+"Waveland-Brown Township Public Library" "115 East Green Street" "Waveland" "IN" "47989" -87.044759 39.8783871
+"North Dearborn Library" "25969 Dole Road" "West Harrison" "IN" "" -84.8861411 39.2471158
+"Library Annex" "200 Northwestern Ave" "West Lafayette" "IN" "" -86.9080127 40.4257687
+"West Lafayette Public Library" "208 West Columbia Street" "West Lafayette" "IN" "47906" -86.907445 40.425109
+"West Lebanon-Pike Township Public Library" "200 North High Street" "West Lebanon" "IN" "47991" -87.3866342 40.2727712
+"West Branch Library" "626 National Avenue" "West Terre Haute" "IN" "" -87.4501635 39.4650374
+"Westfield Washington Public Library" "333 West Hoover Street" "Westfield" "IN" "46074" -86.1311022 40.0495831
+"Westport Branch Library" "205 West Main St" "Westport" "IN" "" -85.577189 39.175078
+"Westville-New Durham Township Public Library" "153 Main Street" "Westville" "IN" "46391" -86.8988 41.541354
+"Wheatfield Library" "350 S. Bierma Street" "Wheatfield" "IN" "" -87.0548753 41.1872182
+"Whiting Public Library" "1735 Oliver Street" "Whiting" "IN" "46394" -87.493946 41.6816425
+"Williamsport-Washington Township Public Library" "28 East Second Street" "Williamsport" "IN" "47993" -87.2938543 40.2882236
+"Pulaski County Public Library" "121 South Riverside Drive" "Winamac" "IN" "46996" -86.600641 41.051084
+"Winchester Community Public Library" "125 North East Street" "Winchester" "IN" "47394" -84.980035 40.173399
+"Windfall Branch" "104 Mcclelland St" "Windfall" "IN" "" -91.1355357 30.5073949
+"Winslow Branch Library" "105 E Center St" "Winslow" "IN" "" -87.21558 38.383141
+"Wolcott Community Public Library" "101 East North" "Wolcott" "IN" "47995" -87.0404361 40.7602032
+"Woodburn Branch" "22735 Main Street" "Woodburn" "IN" "" -84.8486195 41.125142
+"Worthington Jefferson Township Public Library" "26 North Commercial Street" "Worthington" "IN" "47471" -86.97555 39.119843
+"Northwest Branch" "164 W Forest St" "Yeoman" "IN" "" -86.721966 40.6683354
+"Yorktown-M. Pleasant Township Public Library" "8920 West Adaline Street" "Yorktown" "IN" "47396" -85.4907195 40.1746723
+"Hussey-Mayfield Memorial Public Library" "250 North Fifth Street" "Zionsville" "IN" "46077" -86.2662842 39.953285

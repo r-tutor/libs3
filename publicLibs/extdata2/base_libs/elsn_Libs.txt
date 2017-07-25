@@ -1,0 +1,8 @@
+"location" "miles" "latitude" "longitude"
+"North Pole Branch Library<br/>601 Snowman Lane<br/>North Pole, AK" 11.2372772626957 -147.3514088 64.7493087
+"Fairbanks North Star Borough Public Library<br/>1215 Cowles Street<br/>Fairbanks, AK" 24.0134587675591 -147.736923 64.8380752
+"Delta Community Library<br/>2291 Deborah Street<br/>Delta Junction, AK" 57.6435540913503 -145.7191344 64.0468248
+"Nenana Public Library<br/>201 East Second Street<br/>Nenana, AK" 60.4227332492592 -149.0918469 64.5624226
+"Anderson Village Library<br/>101 First Street<br/>Anderson, AK" 66.6519613729451 -149.1908006 64.343687
+"Cantwell Community Library<br/>1 School Road<br/>Cantwell, AK" 79.1593233680789 -149.011105 63.8720774
+"Tri-Valley Community Library<br/>400 Suntrana Street<br/>Healy, AK" 79.2377849645606 -149.017756 63.873543

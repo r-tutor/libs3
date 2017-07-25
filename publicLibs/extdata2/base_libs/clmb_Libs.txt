@@ -1,0 +1,158 @@
+"location" "miles" "latitude" "longitude"
+"Caledonia Public Library<br/>754 Main Street<br/>Caledonia, MS" 7.17782766140481 -88.32441 33.682719
+"Columbus-Lowndes Public Library<br/>314 North 7th Street<br/>Columbus, MS" 9.54325519840632 -88.425514 33.49799
+"Bryan Public Library<br/>338 Commerce Street<br/>West Point, MS" 12.4007801939963 -88.6475063 33.6043465
+"Evans Memorial Library<br/>105 North Long Street<br/>Aberdeen, MS" 14.6535039666963 -88.5486029 33.8255242
+"Artesia Public Library<br/>323 Front Street<br/>Artesia, MS" 19.5557274302926 -88.6437998 33.412582
+"Vernon - Mary Wallace Cobb Memorial Library<br/>110 First Avenue West<br/>Vernon, AL" 20.5931137175624 -88.1092289 33.7578521
+"Millport Public Library<br/>920 Black Street<br/>Millport, AL" 21.1194553073894 -88.0799823 33.5614964
+"Amory Municipal Library<br/>401 2nd Ave. N. At 4th Street<br/>Amory, MS" 24.5244902828788 -88.4879402 33.9875518
+"Starkville-Oktibbeha County Public Library Sy<br/>326 University Drive<br/>Starkville, MS" 24.6856432828059 -88.8106178 33.4635328
+"Sulligent Public Library<br/>514 Elm Street<br/>Sulligent, AL" 25.2770272217367 -88.1310047 33.899209
+"Crawford Public Library<br/>320 Main Street<br/>Crawford, MS" 25.4014852833593 -88.620299 33.302391
+"Kennedy Public Library<br/>17885 Hwy. 96<br/>Kennedy, AL" 26.1185343306023 -87.9861532 33.585721
+"Wren Public Library<br/>32655 Hwy 45 North<br/>Aberdeen, MS" 26.1832080044951 -88.6179558 33.982544
+"Brooksville Public Library<br/>100 West Main Street<br/>Brooksville, MS" 29.0181095486175 -88.5823771 33.2344947
+"Reform Public Library<br/>302 First Street South<br/>Reform, AL" 30.1202636367824 -88.0159079 33.3765269
+"Okolona Carnegie Library<br/>321 Main Street<br/>Okolona, MS" 31.2748761313485 -88.750239 34.0045637
+"Pickens County Cooperative Library<br/>155 Reform Street<br/>Carrollton, AL" 32.5405901948106 -88.0940023 33.2614172
+"Carrollton Public Library<br/>225 Commerce Avenue<br/>Carrollton, AL" 32.6392376633392 -88.0945315 33.2592948
+"Dorothy J. Lowe Memorial Library<br/>182 Main Street<br/>Nettleton, MS" 33.240968195791 -88.6269785 34.0891903
+"Fayette County Memorial Library<br/>326 Temple Avenue North<br/>Fayette, AL" 35.0177691948465 -87.83063 33.688408
+"Houston Carnegie Library<br/>105 West Madison<br/>Houston, MS" 37.1574663279582 -89.0003169 33.8966828
+"Ada S. Fant Memorial Library<br/>103 East King Street<br/>Macon, MS" 37.3352322454698 -88.5607657 33.1061918
+"Maben Public Library<br/>3982 Second Avenue<br/>Maben, MS" 37.6208711030889 -89.0820972 33.5598046
+"Ruth Holliman Memorial Public Library<br/>287 Main Street South<br/>Gordo, AL" 37.7920540253391 -87.9018923 33.3189084
+"Mchs Community Library<br/>8115 U.S. Highway 43<br/>Guin, AL" 38.0092358232059 -87.915497 33.975107
+"Aliceville Public Library<br/>416 Third Avenue Ne<br/>Aliceville, AL" 38.780894562697 -88.1474944 33.1292805
+"Northwest Regional Library<br/>185 Ashwood Drive<br/>Winfield, AL" 41.0779626644029 -87.8148779 33.9298605
+"Clyde Nix Public Library<br/>350 Bexar Avenue West<br/>Hamilton, AL" 43.3814789098276 -87.992751 34.143836
+"Houlka Public Library<br/>201 Walker Street<br/>Houlka, MS" 43.6590202842078 -89.0224769 34.036541
+"Itawamba County-Pratt Memorial Library<br/>210 Cedar Street<br/>Fulton, MS" 44.062264249064 -88.4090066 34.2723012
+"J. L. Edmondson Memorial Library<br/>109 Stovall Street<br/>Vardaman, MS" 45.6278909390808 -89.1734235 33.8780691
+"Lee-Itawamba Library System<br/>219 N.Madison<br/>Tupelo, MS" 45.9197120268524 -88.7117734 34.258731
+"Vista J. Daniel Memorial Library<br/>402 Residence Street<br/>Shuqualak, MS" 46.0370993497132 -88.5718623 32.9799891
+"Webster County Public Library<br/>202 West Fox Avenue<br/>Eupora, MS" 48.5144443927959 -89.2699455 33.5421519
+"Winston County Library<br/>301 West Park Street<br/>Louisville, MS" 50.4264120949935 -89.0553844 33.1223587
+"Calhoun City Public Library<br/>113 East Burkitt Street<br/>Calhoun City, MS" 52.6546070776601 -89.3113189 33.857364
+"Dixie Regional Library System<br/>111 North Main Street<br/>Pontotoc, MS" 53.4040940480706 -88.9995617 34.2497847
+"Carbon Hill City Library<br/>215 Nw 2nd Street<br/>Carbon Hill, AL" 55.0558424904397 -87.5286175 33.8906857
+"Sherman Library<br/>20 West Lamar<br/>Sherman, MS" 55.4686882780785 -88.840465 34.3639305
+"Weir Public Library<br/>123 Front Street<br/>Weir, MS" 55.4820381299076 -89.2893288 33.2670919
+"Scooba Public Library<br/>1037 Kemper Street<br/>Scooba, MS" 55.7183175273738 -88.4774291 32.8309721
+"Jesse Yancy Memorial Library<br/>314 N. Newberger Street<br/>Bruce, MS" 57.9775713283725 -89.3470972 33.99475
+"Red Bay - Weatherford Public Library<br/>307 4th Avenue South<br/>Red Bay, AL" 58.1615859079332 -88.1418228 34.4405097
+"Tuscaloosa Public Library<br/>1801 Jack Warner Parkway<br/>Tuscaloosa, AL" 58.2146392553312 -87.5618324 33.2155467
+"Weaver-Bolden Branch Library<br/>2937 18th Street<br/>Tuscaloosa, AL" 58.3181519014512 -87.5733325 33.1965618
+"Anne Spencer Cox Library<br/>303 North Third Street<br/>Baldwyn, MS" 61.6207606845594 -88.6337739 34.5112519
+"Haleyville Public Library<br/>913 20th Street<br/>Haleyville, AL" 61.95817824653 -87.6239387 34.2263069
+"Belmont Public Library<br/>102 South Third Street<br/>Belmont, MS" 61.9748004778015 -88.213119 34.5124866
+"James C. Poole Jr. Memorial Library<br/>420 Prairie Avenue<br/>Eutaw, AL" 63.5489791880008 -87.8878796 32.8393461
+"Moundville Public Library<br/>410 Market Street<br/>Moundville, AL" 64.2344251499133 -87.6285818 32.9972752
+"Akron Public Library<br/>207 First Avenue South<br/>Akron, AL" 66.0398615745608 -87.7419306 32.8773776
+"Kilmichael Public Library<br/>102 First Street<br/>Kilmichael, MS" 66.7670247912993 -89.5698101 33.4412474
+"Jennie Stephens Smith Library<br/>219 King Street<br/>New Albany, MS" 67.7901613321552 -89.0090474 34.4928455
+"Carl Elliott Regional Library System<br/>98 18th Street East<br/>Jasper, AL" 68.1663290548858 -87.274683 33.833501
+"Jasper Public Library<br/>98 East 18th Street<br/>Jasper, AL" 68.1663290548858 -87.274683 33.833501
+"Double Springs Public Library<br/>637 Blake Drive<br/>Double Springs, AL" 69.5932340075995 -87.3919538 34.1473221
+"George E. Allen Library<br/>500 W. Church Street<br/>Booneville, MS" 71.013264531544 -88.5672101 34.6564977
+"Neshoba County Public Library<br/>230 Beacon Street<br/>Philadelphia, MS" 71.5161810064611 -89.1133574 32.7712662
+"Russellville Public Library<br/>110 East Lawrence Street<br/>Russellville, AL" 72.4363332012315 -87.7299436 34.5045842
+"Cordova Public Library<br/>84 Main St.<br/>Cordova, AL" 72.5929133025404 -87.1830184 33.7598749
+"Duck Hill Public Library<br/>127 North State Street<br/>Duck Hill, MS" 73.114325004692 -89.7049858 33.628344
+"Ruby Pickens Tartt Public Library<br/>206 Monroe Street<br/>Livingston, AL" 74.1045300720064 -88.1892566 32.5844597
+"Nance-Mcneely Memorial Library<br/>1177 B Springdale Ave.<br/>Myrtle, MS" 74.8709995122844 -89.1194893 34.5580662
+"Yalobusha County Library<br/>14432 Main Street<br/>Coffeeville, MS" 74.916435756047 -89.6727428 33.976484
+"Coffeeville Public Library<br/>714 Main Street<br/>Coffeeville, MS" 74.9528032025263 -89.6732279 33.9769472
+"Winona-Montgomery County Library<br/>115 North Quitman Street<br/>Winona, MS" 75.3079539868283 -89.7290772 33.4829306
+"Arley Public Library<br/>6788 County Road 41<br/>Arley, AL" 76.6709151429752 -87.2125482 34.0796557
+"Blackmur Memorial Library<br/>608 Blackmur Drive<br/>Water Valley, MS" 76.7787703605778 -89.621382 34.1485921
+"Attala County Library<br/>201 South Huntington Street<br/>Kosciusko, MS" 77.6913363795844 -89.5876618 33.0567497
+"Dora Public Library<br/>1485 Sharon Blvd<br/>Dora, AL" 78.1892305332332 -87.0824773 33.7361678
+"Vaiden Public Library<br/>207 Lee Street<br/>Vaiden, MS" 78.2448562885118 -89.7423031 33.3329586
+"Blue Mountain Public Library<br/>110 Mill Street<br/>Blue Mountain, MS" 79.1383621962262 -89.027682 34.669509
+"Elizabeth Jones Library<br/>1050 Fairfield Avenue<br/>Grenada, MS" 79.5281481970851 -89.8075552 33.7737078
+"Lafayette County-Oxford Public Library<br/>401 Bramlett Blvd.<br/>Oxford, MS" 79.6166993614555 -89.509585 34.365033
+"Hightower Memorial Library<br/>630 Avenue A<br/>York, AL" 80.0308399121785 -88.2960413 32.4846594
+"Sumiton Public Library<br/>416 State Street<br/>Sumiton, AL" 80.1851949721811 -87.0494723 33.7533018
+"Hickory Flat Public Library<br/>1067 Spruce Street<br/>Hickory Flat, MS" 80.6124799768913 -89.2001886 34.6141861
+"Hale County Library<br/>1103 Main Street<br/>Greensboro, AL" 80.8350667983763 -87.592671 32.7041106
+"Woodstock Library<br/>321 Presbyterian Church Road<br/>Green Pond, AL" 80.9104331309218 -87.1249986 33.2211028
+"Ripley Public Library<br/>308 North Commerce Street<br/>Ripley, MS" 81.3163161157863 -88.9482817 34.7320594
+"Cherokee Public Library<br/>118 Church Street<br/>Cherokee, AL" 81.9340318502765 -87.9721922 34.7564629
+"West Public Library<br/>24843 Highway 51<br/>West, MS" 82.3939950158217 -89.7689557 33.2111219
+"Iuka Public Library<br/>204 North Main Street<br/>Iuka, MS" 82.6277256639117 -88.1902406 34.8128565
+"Kemper-Newton Regional Library<br/>101 Peachtree Street<br/>Union, MS" 83.5329028236847 -89.118155 32.5720617
+"Hueytown Public Library<br/>1372 Hueytown Road<br/>Hueytown, AL" 83.9551172586964 -86.9968417 33.4481865
+"Graysville Public Library<br/>315 South Main Street<br/>Graysville, AL" 84.227950076226 -86.9731572 33.6265372
+"West Blocton Public Library<br/>62 Walter Owens Drive<br/>West Blocton, AL" 84.3432946666309 -87.113395 33.1182669
+"Demopolis Public Library<br/>211 E. Washington Street<br/>Demopolis, AL" 84.8068010599647 -87.8359998 32.5173433
+"Pleasant Grove Public Library<br/>501 Park Road<br/>Pleasant Grove, AL" 85.0279233343455 -86.9708124 33.4898692
+"Adamsville Public Library<br/>4825 Main Street<br/>Adamsville, AL" 85.4194769726466 -86.9532687 33.6001556
+"Crane Hill Community Library<br/>14538 County Rd. 222<br/>Crane Hill, AL" 85.4975185566043 -87.0544205 34.0967317
+"Potts Camp Library<br/>17 South Center Street<br/>Potts Camp, MS" 85.8258026762846 -89.307715 34.6448396
+"Bessemer Public Library<br/>400 19th Street N<br/>Bessemer, AL" 86.8781248943634 -86.9551311 33.4030112
+"Tuscumbia - Helen Keller Public Library<br/>511 North Main Street<br/>Tuscumbia, AL" 86.9683581109473 -87.70356 34.73755
+"Lawrence County Public Library<br/>401 College Street<br/>Moulton, AL" 87.5236718664757 -87.2937452 34.4760097
+"Birmingham Public Library - Wylam<br/>4300 7th Avenue Wylam<br/>Birmingham, AL" 87.8041013810888 -86.9200784 33.5058693
+"Walter J. Hanna Memorial Library<br/>4615 Gary Avenue<br/>Fairfield, AL" 88.2075786493918 -86.9151117 33.4909474
+"Brent-Centreville Public Library<br/>20 Library Street<br/>Centreville, AL" 88.2505223051027 -87.1508666 32.9468363
+"Midfield Public Library<br/>400 Breland Drive<br/>Midfield, AL" 88.4896437606032 -86.9155595 33.457662
+"Sheffield Public Library<br/>316 North Montgomery Avenue<br/>Sheffield, AL" 88.5394271924655 -87.6986158 34.7612377
+"Carthage-Leake County Library<br/>114 East Franklin<br/>Carthage, MS" 88.8363750243764 -89.5327634 32.7378265
+"Muscle Shoals Public Library<br/>1918 East Avalon Avenue<br/>Muscle Shoals, AL" 89.06382017458 -87.6441062 34.7444046
+"Birmingham Public Library - Ensley<br/>1201 25th Street Ensley<br/>Birmingham, AL" 89.3448153071475 -86.8934928 33.5036919
+"Meridian-Lauderdale County Public Library<br/>2517 Seventh Street<br/>Meridian, MS" 89.3482915840223 -88.7042479 32.3638492
+"Birmingham Public Library - East Ensley<br/>900 14th Street Ensley<br/>Birmingham, AL" 89.525958039556 -86.8888798 33.515173
+"Oakland Public Library<br/>324 Holly Street<br/>Oakland, MS" 89.80625231523 -89.9155057 34.053639
+"Birmingham Public Library - Pratt City<br/>1100 Hibernian Street<br/>Birmingham, AL" 89.9690608494214 -86.8783691 33.5408147
+"Birmingham Public Library - Powderly<br/>3301 Jefferson Avenue Sw<br/>Birmingham, AL" 90.0511207972298 -86.8872075 33.4635109
+"Leighton Public Library<br/>8740 Main Street<br/>Leighton, AL" 90.0829001519906 -87.5290091 34.7003011
+"Sebastopol Public Library<br/>17403 Hwy. 21<br/>Sebastopol, MS" 90.2013657341232 -89.33592 32.5719463
+"Corinth Public Library<br/>1023 Fillmore Street<br/>Corinth, MS" 90.2598896923064 -88.5182405 34.9387447
+"Birmingham Public Library - Five Points West<br/>4620 Avenue V<br/>Birmingham, AL" 90.2852123895645 -86.8783539 33.494365
+"Durant Public Library<br/>15338 North Jackson Street<br/>Durant, MS" 90.6755536095189 -89.8542008 33.0751569
+"Tom Bevel Branch<br/>115 Byars Road<br/>Hanceville, AL" 91.5126263045927 -86.8886527 33.9480369
+"Birmingham Public Library - West End<br/>1241 Tuscaloosa Avenue Sw<br/>Birmingham, AL" 91.735751075616 -86.853213 33.493121
+"Florence-Lauderdale Public Library<br/>350 North Wood Avenue<br/>Florence, AL" 91.7802413336133 -87.6742217 34.8036752
+"Birmingham Public Library - Smithfield<br/>1 8th Avenue West<br/>Birmingham, AL" 92.5407144964348 -86.8365213 33.5137045
+"Chalybeate Public Library<br/>2501-A Hwy 354<br/>Walnut, MS" 92.9180483284255 -88.8687512 34.9303976
+"Birmingham Public Library - Titusville<br/>2 6th Avenue Sw<br/>Birmingham, AL" 92.9826283782328 -86.8315173 33.4926728
+"Birmingham Public Library - Slossfield<br/>1916 25th Court North<br/>Birmingham, AL" 93.0160047666375 -86.8250496 33.5441005
+"Gardendale Martha Moore Public Library<br/>995 Mt. Olive Road<br/>Gardendale, AL" 93.1690022797776 -86.8177439 33.6503664
+"Birmingham Public Library - North Birmingham<br/>2501 31st Avenue North<br/>Birmingham, AL" 93.2981971135228 -86.8194447 33.5520552
+"Walnut Grove Public Library<br/>146 Main Street<br/>Walnut Grove, MS" 93.3873878494313 -89.4588461 32.5925975
+"Birmingham Public Library<br/>2100 Park Place<br/>Birmingham, AL" 94.1618604630332 -86.8074291 33.5211254
+"Fultondale Public Library<br/>1015 Old Walkers Chapel Road<br/>Fultondale, AL" 94.2927200465958 -86.7988602 33.6084288
+"Walnut Public Library<br/>650 N. Main Street<br/>Walnut, MS" 94.4598353103324 -88.900512 34.9461092
+"Warrior Public Library<br/>101 First Street<br/>Warrior, AL" 94.6330166456041 -86.8045894 33.8133303
+"Marion-Perry County Library<br/>202 Washington Street<br/>Marion, AL" 94.6956821055396 -87.3194768 32.6353513
+"Birmingham Public Library - Southside<br/>1814 11th Avenue South<br/>Birmingham, AL" 94.8330966692263 -86.7982777 33.4998992
+"Jane B. Holmes Public Library<br/>230 Tucker Road<br/>Helena, AL" 94.9876789874721 -86.8428119 33.2890701
+"Homewood Public Library<br/>1721 Oxmoor Road<br/>Homewood, AL" 95.196710974179 -86.795404 33.4750533
+"Hoover Public Library<br/>200 Municipal Drive<br/>Hoover, AL" 95.6949039580815 -86.8030863 33.3881436
+"Birmingham Public Library - Inglenook<br/>4100 40th Terrace North<br/>Birmingham, AL" 95.7170404702438 -86.7765851 33.562336
+"Vestavia Hills Public Library<br/>1112 Montgomery Highway<br/>Vestavia Hills, AL" 95.8793691082733 -86.789924 33.436392
+"Tarrant Public Library<br/>1143 Ford Avenue<br/>Tarrant, AL" 96.0147660318393 -86.77009 33.582875
+"Courtland Public Library<br/>215 College Street<br/>Courtland, AL" 96.0556603421821 -87.3104363 34.66594
+"Birmingham Public Library - Avondale Regional Library<br/>509 40th Street South<br/>Birmingham, AL" 96.062151876445 -86.7743532 33.5209967
+"Birmingham Public Library - North Avondale<br/>501 43rd Street N<br/>Birmingham, AL" 96.1347827039415 -86.772041 33.5310049
+"Charleston Public Library<br/>102 Walnut Street<br/>Charleston, MS" 96.7030847753909 -90.0581637 34.0060815
+"Tallahatchie County Library<br/>102 Walnut<br/>Charleston, MS" 96.7030847753909 -90.0581637 34.0060815
+"Alabaster - Albert L. Scott Library<br/>100 9th Street N.W.<br/>Alabaster, AL" 96.7042982222801 -86.8270053 33.2448142
+"Pelham Public Library<br/>3160 Pelham Parkway<br/>Pelham, AL" 96.769657802302 -86.8113367 33.2877472
+"Goodman Public Library<br/>9792 Main Street<br/>Goodman, MS" 96.8658979269715 -89.9092045 32.9693549
+"Emmet Oneal Library<br/>50 Oak Street<br/>Mountain Brook, AL" 97.2149362131172 -86.7565774 33.5012941
+"Marshall County Library<br/>109 East Gholson Avenue<br/>Holly Springs, MS" 97.3435227778014 -89.4482546 34.7665563
+"Birmingham Public Library - Woodlawn<br/>5709 First Avenue North<br/>Birmingham, AL" 97.3598351802762 -86.7496688 33.542151
+"Parnell Memorial Library<br/>845 Valley Street<br/>Montevallo, AL" 98.0851872875833 -86.8623771 33.1022656
+"Uniontown Public Library<br/>108 Water Street<br/>Uniontown, AL" 98.1024108797298 -87.5143031 32.4461628
+"Montevallo - Parnell Memorial Library<br/>277 Park Drive<br/>Montevallo, AL" 98.3183465707027 -86.8587609 33.1007714
+"Batesville Public Library<br/>206 Hwy 51 North<br/>Batesville, MS" 98.4634927801321 -89.943136 34.316298
+"Birmingham Public Library - East Lake<br/>5 Oporto Madrid Blvd South<br/>Birmingham, AL" 98.5548105780386 -86.7273854 33.5606541
+"Marengo County Public Library<br/>507 North Main<br/>Linden, AL" 98.8481457974941 -87.7980353 32.3105512
+"Killen Public Library<br/>325 J. C. Mauldin Highway<br/>Killen, AL" 98.8556330641734 -87.5417555 34.8590251
+"Cullman County Public Library System<br/>200 Clark Street Ne<br/>Cullman, AL" 98.9769241449645 -86.8406395 34.1791098
+"Linden Carnegie Public Library<br/>102 South Main Street<br/>Linden, IN" 99.1860104782187 -87.7979679 32.3053146
+"Carroll County Public Library<br/>1102 Lexington Avenue<br/>Carrollton, MS" 99.5888562518992 -90.0487054 33.1274592
+"Irondale Public Library<br/>105 20th Street South<br/>Irondale, AL" 99.8717936422001 -86.7063593 33.5379282

@@ -1,0 +1,669 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Abington Township Public Library" "1030 Old York Rd" "Abington" "PA" "19001" -75.1235584 40.1126463
+"Adamstown Area Library" "3000 North Reading Road Route 272" "Adamstown" "PA" "19501" -76.058301 40.241001
+"Albion Area Public Library" "111 East Pearl Street" "Albion" "PA" "16401" -80.361212 41.891895
+"Beaver County Library System" "109 Pleasant Drive, Suite 101" "Aliqiuipa" "PA" "15001" -80.31599 40.6338114
+"B F Jones Memorial Library" "663 Franklin Ave" "Aliquippa" "PA" "15001" -80.2511954 40.6134127
+"Center Express Branch Library" "109 Pleasant Dr Suite 101" "Aliquippa" "PA" "15001" -80.31599 40.6338114
+"Allentown Public Library" "1210 Hamilton St" "Allentown" "PA" "18102" -75.4821354 40.5989864
+"Parkland Community Library" "4422 Walbert Avenue" "Allentown" "PA" "18104" -75.5648838 40.6112425
+"Hampton Community Library" "3101 Mccully Road" "Allison Park" "PA" "15101" -79.9337361 40.5855956
+"Altoona Area Public Library" "1600 Fifth Avenue" "Altoona" "PA" "16602" -78.3992939 40.5081781
+"Laughlin Memorial Free Library" "99 Eleventh St" "Ambridge" "PA" "15003" -80.2318268 40.593035
+"Annville Free Library" "216 E Main St" "Annville" "PA" "17003" -76.5120963 40.3296151
+"Apollo Memorial Library" "219 North Pennsylvania Ave" "Apollo" "PA" "15613" -79.565709 40.583899
+"Ardmore Library" "108 Ardmore Avenue" "Ardmore" "PA" "19003" -75.2961022 40.0076114
+"Lower Merion Library System" "75 East Lancaster Ave" "Ardmore" "PA" "19003" -75.2879292 40.0069062
+"Ashland Public Library" "1229 Centre St" "Ashland" "PA" "17921" -76.3466124 40.7817434
+"Aston Public Library" "3270 Concord Road" "Aston" "PA" "19014" -75.4207322 39.8676189
+"Atglen Public Library" "413 Valley Avenue" "Atglen" "PA" "19310" -75.9748478 39.9490837
+"Spalding Memorial Library" "724 S Main St" "Athens" "PA" "18810" -76.5163844 41.951244
+"Avalon Public Library" "317 South Home Ave." "Avalon" "PA" "15202" -80.0628739 40.497138
+"Avella Area Library Center" "11 School Court" "Avella" "PA" "15312" -80.4657288 40.2724814
+"Avonmore Public Library" "619 Allegheny Ave" "Avonmore" "PA" "15618" -79.462086 40.528756
+"Baden Memorial Library" "385 State St" "Baden" "PA" "15005" -80.2284317 40.6352792
+"Bala Cynwyd Library" "131 Old Lancaster Road" "Bala Cynwyd" "PA" "19004" -75.2391061 40.0017321
+"Belmont Hills Library" "120 Mary Watersford Road" "Bala Cynwyd" "PA" "19004" -75.2404821 40.0239202
+"Bangor Public Library" "39 South Main St" "Bangor" "PA" "18013" -75.2042061 40.8659374
+"Beaver Area Memorial Library" "100 College Ave" "Beaver" "PA" "15009" -80.3019072 40.6923412
+"Beaver County Bookmobile Schedule" "2811 Darlington Road" "Beaver Falls" "PA" "15010" -80.393743 40.779182
+"Carnegie Free Library - Beaver Falls" "1301 7th Ave" "Beaver Falls" "PA" "15010" -80.319904 40.7542516
+"Beaverdale Public Library" "506 Jefferson Ave" "Beaverdale" "PA" "15921" -78.6993342 40.3206304
+"Beavertown Community Library" "111 W. Walnut Street" "Beavertown" "PA" "17813" -77.170823 40.754919
+"Bedford County Library" "240 South Wood Street" "Bedford" "PA" "15522" -78.4958587 40.0168549
+"Friendship Library" "P.O. Box 478" "Beech Creek" "PA" "16822" -77.5886026 41.0758987
+"Belle Vernon Public Library" "505 Speer St" "Belle Vernon" "PA" "15012" -79.8658062 40.1296649
+"Rostraver Public Library" "700 Plaza Drive" "Belle Vernon" "PA" "15012" -79.8097315 40.1871024
+"Centre County Library Historical Museum" "203 North Allegheny St" "Bellefonte" "PA" "16823" -77.7784345 40.9134626
+"Andrew Bayne Memorial Library" "34 North Balph Ave" "Bellevue" "PA" "15202" -80.0543584 40.4964671
+"Bellwood Antis Public Library" "526 Main St" "Bellwood" "PA" "16617" -78.3322686 40.6013094
+"Bucks County Free Library - Bensalem Branch" "3700 Hulmeville Road" "Bensalem" "PA" "19020" -74.9391947 40.1069454
+"Bentleyville Public Library" "931 Main St" "Bentleyville" "PA" "15314" -80.0054704 40.1224205
+"Bernville Area Community Library" "6721 Bernville Rd." "Bernville" "PA" "19506" -76.1191858 40.4392671
+"Mcbride Memorial Library" "500 Market Street" "Berwick" "PA" "18603" -76.2361548 41.0578869
+"Easttown Library Info Center" "720 First Avenue" "Berwyn" "PA" "19312" -75.4414224 40.0440902
+"F D Campbell Memorial Library" "17 South Main Street" "Bessemer" "PA" "16112" -80.4937824 40.9735717
+"Bethany Public Library" "8 Court Street" "Bethany" "PA" "18431" -75.2846471 41.6142178
+"Bethel-Tulpehocken Public Library" "8601 Lancaster Ave" "Bethel" "PA" "19507" -76.294691 40.4776216
+"Bethel Park Public Library" "5100 West Library Ave" "Bethel Park" "PA" "15102" -80.0314612 40.3325638
+"Bethlehem Area Public Library" "11 West Church St" "Bethlehem" "PA" "18018" -75.3790404 40.6183089
+"Harbaugh Thomas Library" "59 W. York Street" "Biglerville" "PA" "17307" -77.249623 39.930603
+"Boone Area Library" "129 N. Mill St." "Birdsboro" "PA" "19508" -75.806295 40.264902
+"Burrell Township Library" "190 Park Drive" "Black Lick" "PA" "15716" -79.1919744 40.4726864
+"Community Library Of Western Perry County" "104 E. Main St." "Blain" "PA" "17006" -77.5103186 40.3362689
+"Blairsville Public Library" "113 N. Walnut St." "Blairsville" "PA" "15717" -79.264707 40.4320297
+"Bloomsburg Public Library" "225 Market St" "Bloomsburg" "PA" "17815" -76.45721 41.002346
+"Columbia County Traveling Library Authority" "15 Perry Ave" "Bloomsburg" "PA" "17815" -76.477426 40.995271
+"Blossburg Memorial Library" "307 Main St" "Blossburg" "PA" "16912" -77.065022 41.681626
+"Wissahickon Valley Pub Library" "650 Skippack Pike" "Blue Bell" "PA" "19422" -75.2691337 40.1529973
+"Blue Ridge Summit Free Library" "P.O. Box 34" "Blue Ridge Summit" "PA" "17214" -77.4713782 39.7242616
+"Boyertown Community Library" "29 E Philadelphia Ave" "Boyertown" "PA" "19512" -75.6363833 40.3332182
+"Braddock Carnegie Library" "419 Library Street" "Braddock" "PA" "15104" -79.8655137 40.4018615
+"Bradford Area Public Library" "67 W Washington St" "Bradford" "PA" "16701" -78.654258 41.957172
+"Bridgeville Public Library" "441 Station St" "Bridgeville" "PA" "15017" -80.110759 40.3580759
+"Bucks County Free Library - Margaret R. Grundy Memorial Library" "680 Radcliffe Street" "Bristol" "PA" "19007" -74.8500349 40.0977266
+"Mengle Memorial Library" "324 Main Street" "Brockway" "PA" "15824" -78.8004695 41.2493254
+"Western Pocono Community Library" "2000 Pilgrim Way" "Brodheadsville" "PA" "18322" -75.4074556 40.9277359
+"Rebecca M Arthurs Memorial Library" "223 Valley St" "Brookville" "PA" "15825" -79.085642 41.166027
+"Brownsville Free Public Library" "100 Seneca St" "Brownsville" "PA" "15417" -79.887052 40.02135
+"Ludington Library" "5. S. Bryn Mawr Avenue" "Bryn Mawr" "PA" "19010" -75.3176323 40.0207672
+"Burgettstown Community Library" "2 Kerr St" "Burgettstown" "PA" "15021" -80.3897898 40.3792385
+"Butler Area Public Library" "218 North Mckean St" "Butler" "PA" "16001" -79.8936928 40.85918
+"Butler County Federated Library System" "218 N. Mckean St." "Butler" "PA" "16001" -79.8940295 40.8630688
+"California Area Public Library" "100 Wood Street" "California" "PA" "15419" -79.889051 40.0682626
+"Cambridge Springs Public Library" "158 Mcclellan St" "Cambridge Springs" "PA" "16403" -80.0541208 41.8059406
+"Pine Creek Link" "145 Railroad St." "Cammal" "PA" "17723" -77.4613249 41.4020429
+"Cleve J. Fredricksen Library" "100 North 19th Street" "Camp Hill" "PA" "17011" -76.9169945 40.2416644
+"Greater Canonsburg Pub Library" "68 East Pike St" "Canonsburg" "PA" "15317" -80.1848399 40.2588002
+"Green Free Library" "14 North Center St" "Canton" "PA" "17724" -76.851604 41.6544899
+"Carbondale Public Library" "5 North Main St" "Carbondale" "PA" "18407" -75.5308043 41.5505902
+"Bosler Free Library" "158 West High St" "Carlisle" "PA" "17013" -77.193362 40.2015629
+"Flenniken Public Library" "102 East George St" "Carmichaels" "PA" "15320" -79.9746117 39.8974965
+"Andrew Carnegie Free Library" "300 Beechwood Ave" "Carnegie" "PA" "15106" -80.0857689 40.4068031
+"Carrolltown Public Library" "140 East Carroll Street" "Carrolltown" "PA" "15722" -78.7056212 40.6028277
+"Community Library Of Castle Shannon" "3677 Myrtle Ave" "Castle Shannon" "PA" "15234" -80.0222582 40.3677735
+"Catasauqua Public Library" "PO Box 127" "Catasauqua" "PA" "18032" -75.4746273 40.6548191
+"Southern Lehigh Public Library" "3200 Preston Lane" "Center Valley" "PA" "18034" -75.3885183 40.5359812
+"Coyle Free Library" "102 North Main St" "Chambersburg" "PA" "17201" -77.6606277 39.9392327
+"Franklin County Library System" "101 Ragged Edge Road South" "Chambersburg" "PA" "17201" -77.5927888 39.918467
+"Franklin County Library System Bookmobile - Outreach" "101 Ragged Edge Rd S" "Chambersburg" "PA" "17202" -77.5927888 39.918467
+"Grove Family Library" "101 Ragged Edge Rd South" "Chambersburg" "PA" "17202" -77.5927888 39.918467
+"John K Tener Library" "638 Fallowfield Ave" "Charleroi" "PA" "15022" -79.9002326 40.1397828
+"J. Lewis Crozer Library" "620 Engle St" "Chester" "PA" "19013" -75.3876369 39.837908
+"Chester Springs Library" "1685a Art School Road" "Chester Springs" "PA" "19425" -75.6221908 40.1002579
+"Moores Memorial Library" "326 N Bridge St" "Christiana" "PA" "17509" -75.99789 39.95852
+"Clairton Public Library" "616 Miller Ave" "Clairton" "PA" "15025" -79.883347 40.291923
+"Clarion County Library System" "644 Main Street" "Clarion" "PA" "" -79.3828902 41.2132202
+"Clarion Free Library" "644 Main St." "Clarion" "PA" "16214" -79.3828902 41.2132202
+"Abington Community Library" "1200 West Grove Street" "Clarks Summit" "PA" "18411" -75.7187334 41.4855315
+"Claysburg Area Public Library Inc" "p.o.box 189" "Claysburg" "PA" "16625" -78.449737 40.2967427
+"Joseph Elizabeth Shaw Library" "1 South Front St" "Clearfield" "PA" "16830" -78.440443 41.021769
+"Coatesville Area Public Library" "501 E Lincoln Highway" "Coatesville" "PA" "19320" -75.815943 39.9845692
+"Cochranton Area Public Library" "107 Pine St" "Cochranton" "PA" "16314" -80.0494971 41.5186734
+"Collingdale Public Library" "823 Macdade Blvd" "Collingdale" "PA" "19023" -75.2786294 39.9114857
+"Columbia Public Library" "24 South Sixth St" "Columbia" "PA" "17512" -76.4976454 40.0344807
+"Margaret Shontz Memorial Library" "145 Second St" "Conneaut Lake" "PA" "16316" -80.3028767 41.603903
+"James A Stone Memorial Library" "1101 Main Street" "Conneautville" "PA" "16406" -80.3625827 41.7506457
+"Carnegie Free Library - Connellsville" "299 S Pittsburgh St" "Connellsville" "PA" "15425" -79.588255 40.015774
+"Conshohocken Free Library" "301 Fayette Street" "Conshohocken" "PA" "19428" -75.3041448 40.0754865
+"Cooperstown Public Library" "182 N. Main Street" "Cooperstown" "PA" "16317" -79.873376 41.5009049
+"Coplay Public Library" "49 South Fifth St" "Coplay" "PA" "18037" -75.4935976 40.6702101
+"Coraopolis Memorial Library" "601 School St" "Coraopolis" "PA" "15108" -80.1618972 40.5153648
+"Corry Public Library" "117 W Washington St." "Corry" "PA" "16407" -79.643264 41.922042
+"Coudersport Public Library" "502 Park Ave" "Coudersport" "PA" "16915" -78.0142413 41.7722986
+"Potter-Tioga Library System" "502 Park Avenue" "Coudersport" "PA" "16915" -78.0142413 41.7722986
+"Cranberry Public Library" "2525 Rochester Rd Suite 300" "Cranberry Twp" "PA" "16066" -80.1079972 40.6979597
+"Barrett Paradise Friendly Library" "box 1010" "Cresco" "PA" "18326" -75.2804597 41.1539795
+"Cresson Public Library" "231 Laurel Ave" "Cresson" "PA" "16630" -78.5890096 40.4621559
+"Clearfield County Public Library" "601 Beech St" "Curwensville" "PA" "16833" -78.520911 40.96738
+"Back Mountain Memorial Library" "96 Huntsville Rd" "Dallas" "PA" "18612" -75.961105 41.332788
+"Dalton Community Library" "113 East Main St" "Dalton" "PA" "18414" -75.737001 41.5348034
+"Thomas Beaver Free Library" "205 Ferry Street" "Danville" "PA" "17821" -76.6174145 40.9601684
+"Darby Library" "1001 Main St" "Darby" "PA" "19023" -75.2630932 39.9202416
+"Brownfield Community Public Library" "291 Banning Road" "Dawson" "PA" "15428" -79.660309 40.063382
+"Delmont Public Library" "77 Greensburg St" "Delmont" "PA" "15626" -79.5717216 40.4104416
+"Caldwell Memorial Library" "988 N Chestnut St Ext" "Derry" "PA" "15627" -77.5601914 40.6019208
+"Dillsburg Area Public Library" "17 South Baltimore Street" "Dillsburg" "PA" "17019" -77.035075 40.110499
+"Donora Public Library" "510 Meldon Ave" "Donora" "PA" "15033" -79.8554659 40.1763552
+"Dover Area Community Library" "3700-3 Davidsburg Rd." "Dover" "PA" "17315" -76.8368445 39.9793662
+"Downingtown Library Company" "330 East Lancaster Ave" "Downingtown" "PA" "19335" -75.6984148 40.0083179
+"Bucks County Free Library - Doylestown District Center Library" "150 South Pine St" "Doylestown" "PA" "18901" -75.1254169 40.3081779
+"Dubois Public Library" "31 S Brady St" "Dubois" "PA" "15801" -78.7627449 41.1178349
+"Dunbar Community Library" "60 Connellsville Street" "Dunbar" "PA" "15431" -79.6158167 39.9751937
+"Carnegie Library Of Mckeesport - Duquesne" "300 Kennedy Avenue" "Duquesne" "PA" "15110" -79.8474576 40.371674
+"Sullivan County Library" "206 Center Street" "Dushore" "PA" "18614" -76.4021526 41.5240441
+"Lower Providence Community Library" "50 Parklane Dr" "Eagleville" "PA" "19403" -75.4077748 40.162357
+"East Berlin Community Library" "105 Locust Street" "East Berlin" "PA" "17316" -76.980283 39.937131
+"Easton Area Public Library" "515 Church St" "Easton" "PA" "18042" -75.2136442 40.6921216
+"Mary Meuser Memorial Library" "1803 Northampton St" "Easton" "PA" "18042" -75.237458 40.6898536
+"Ebensburg Free Public Library" "225 W Highland Ave" "Ebensburg" "PA" "15931" -78.7262587 40.4897555
+"Carnegie Library Of Mckeesport - Elizabeth Forward" "401 Rock Run Road" "Elizabeth" "PA" "15037" -79.8258168 40.2762391
+"Elizabethtown Public Library" "10 South Market Street" "Elizabethtown" "PA" "17022" -76.6059922 40.1509426
+"Elizabethville Area Library" "80 North Market Street" "Elizabethville" "PA" "17023" -76.8132583 40.551544
+"Elkland Area Community Library" "110 E Parkway Ave" "Elkland" "PA" "16920" -77.3112773 41.9922895
+"Ellwood City Area Pub Library" "510 Crescent Ave" "Ellwood City" "PA" "16117" -80.2881293 40.8574185
+"Ralpho Township Public Library" "206 S. Market St. Suite 6" "Elysburg" "PA" "17824" -76.5431906 40.8549437
+"Emmaus Public Library" "11 East Main St" "Emmaus" "PA" "18049" -75.4868087 40.5412001
+"Barbara Moscato Brown Memorial Library" "27 West 4th. Street" "Emporium" "PA" "15834" -78.2388089 41.5114544
+"Ephrata Public Library" "550 South Reading Rd" "Ephrata" "PA" "17522" -76.195363 40.1734291
+"Tinicum Memorial Public Library" "620 Seneca St" "Essington" "PA" "19029" -75.2932789 39.8686191
+"Red Land Community Library" "48 Robin Hood Dr" "Etters" "PA" "17319" -76.8202061 40.1546834
+"Evans City Public Library" "204 S. Jackson Street" "Evans City" "PA" "16033" -80.061144 40.7680603
+"Everett Free Library" "137 East Main St" "Everett" "PA" "15537" -78.3709844 40.0118461
+"Chester County Library" "450 Exton Square Parkway" "Exton" "PA" "19341" -75.620791 40.0321235
+"Factoryville Public Library" "163 College Avenue" "Factoryville" "PA" "18419" -75.7871765 41.5677846
+"Bucks County Free Library - Fallsington Library" "139 Yardley Avenue" "Fallsington" "PA" "19054" -74.8191157 40.1889659
+"Stey Nevant Public Library" "1000 Roemer Blvd" "Farrell" "PA" "16121" -80.49652 41.2121627
+"Bucks County Free Library - Township Library Of Lower Southampton (Feasterville)" "1983 Bridgetown Pike" "Feasterville" "PA" "19053" -74.9843816 40.1629324
+"Fleetwood Area Public Library" "110 W Arch St" "Fleetwood" "PA" "19522" -75.82062 40.456103
+"Borough Of Folcroft Public Library" "1725 Delmar Dr" "Folcroft" "PA" "19032" -75.2788707 39.8940724
+"Folcroft Public Library" "1725 Delmar Drive" "Folcroft" "PA" "19032" -75.2788707 39.8940724
+"Ridley Township Public Library" "100 E Macdade Blvd" "Folsom" "PA" "19033" -75.3293095 39.8863533
+"Ford City Public Library" "1136 Fourth Ave" "Ford City" "PA" "16226" -79.5284435 40.7734924
+"Susquehanna County Library - Forest City Branch Library" "531 Main St." "Forest City" "PA" "18421" -75.4663432 41.6496187
+"Fort Loudon Community Library" "210 Mullen Street" "Fort Loudon" "PA" "17224" -77.906399 39.9151728
+"Upper Dublin Public Library" "805 Loch Alsh Ave" "Fort Washington" "PA" "19034" -75.201349 40.1524351
+"Foxburg Free Library Association" "31 Main Street" "Foxburg" "PA" "16036" -79.6789576 41.1400902
+"Frackville Free Public Library" "56 N. Lehigh Avenue" "Frackville" "PA" "17931" -76.2314007 40.785938
+"Frackville Free Public Library" "56 North Lehigh Avenue" "Frackville" "PA" "17931" -76.2314007 40.785938
+"Franklin Public Library" "421 12th St" "Franklin" "PA" "16323" -79.8284327 41.3964616
+"Matthews Public Library" "102 West Main Street" "Fredericksburg" "PA" "17026" -76.431106 40.444533
+"Fredericktown Area Public Library" "38 Water St." "Fredericktown" "PA" "15333" -79.9966885 39.9997947
+"Galeton Public Library" "5 Park Lane" "Galeton" "PA" "16922" -77.6471026 41.7343747
+"Gallitzin Public Library" "411 Convent Street, Suite 30" "Gallitzin" "PA" "16641" -78.5516773 40.4822122
+"Pequea Valley Public Library - Gap Branch" "875 Houston Run Dr., Suite 220" "Gap" "PA" "17527" -76.0382282 39.9866028
+"Genesee Area Library" "301 Main Street" "Genesee" "PA" "16923" -77.86972 41.9908078
+"Adams County Library System" "140 Baltimore St" "Gettysburg" "PA" "17325" -77.2307074 39.8288113
+"Northern Tier Regional Library - Pine Center" "700 Warrendale Road" "Gibsonia" "PA" "15044" -80.014114 40.658544
+"Northern Tier Regional Library - Richland Center" "4015 Dickey Rd" "Gibsonia" "PA" "15044" -79.9524379 40.6416768
+"Rice Avenue Community Public Library" "705 Rice Avenue" "Girard" "PA" "16417" -80.324546 42.006966
+"Gladwyne Library" "362 Righters Mill Road" "Gladwyne" "PA" "19035" -75.2810048 40.0380946
+"Rachel Kohl Community Library" "687 Smithbridge Road" "Glen Mills" "PA" "19342" -75.5148227 39.8658112
+"Arthur Hufnagel Public Library Of Glen Rock" "32 Main Street" "Glen Rock" "PA" "17327" -76.731465 39.793748
+"Glenolden Library" "211 S Llanwellyn Ave" "Glenolden" "PA" "19036" -75.2927551 39.8998403
+"Shaler North Hills Library" "1822 Mount Royal Blvd" "Glenshaw" "PA" "15116" -79.9642929 40.52829
+"Cheltenham Township Library System" "215 S Keswick Ave" "Glenside" "PA" "19038" -75.1539109 40.096882
+"Pike County Public Library - Lackawaxen Township Branch" "223 Route 590" "Greeley" "PA" "18425" -74.9955165 41.4226566
+"Lilian S. Besore Memorial Library" "305 East Baltimore Street" "Greencastle" "PA" "17225" -77.7217328 39.7884322
+"Greensburg Hempfield Area Library" "237 South Pennsylvania Avenue" "Greensburg" "PA" "15601" -79.5442932 40.3003776
+"Greenville Area Public Library" "330 Main St" "Greenville" "PA" "16125" -80.3797226 41.4084129
+"Grove City Community Library" "125 West Main St" "Grove City" "PA" "16127" -80.0880865 41.157893
+"Susquehanna County Library - Hallstead-Great Bend Branch Library" "135 Franklin Ave." "Hallstead" "PA" "18822" -75.7450109 41.9622691
+"Hamburg Public Library" "35 North 3rd St" "Hamburg" "PA" "19526" -75.9840719 40.5553985
+"Salem Public Library" "518 Easton Tpk" "Hamlin" "PA" "18427" -75.397288 41.3989509
+"The Community Library Of Lake Salem Townships" "518 Easton Turnpike (Rt. 191)" "Hamlin" "PA" "18427" -75.397288 41.3989509
+"Guthrie Memorial Library - Hanovers Public Library" "2 Library Place" "Hanover" "PA" "17331" -76.9859568 39.8041633
+"Dauphin County Library System" "101 Walnut St." "Harrisburg" "PA" "17101" -76.8838425 40.2595872
+"East Shore Area Library" "4501 Ethel Street" "Harrisburg" "PA" "17109" -76.8180633 40.3036352
+"Kline Library" "530 South 29th Street" "Harrisburg" "PA" "17104" -76.8412436 40.2644473
+"Madeline L. Olewine Memorial Library" "2410 North Third St." "Harrisburg" "PA" "17110" -76.8986563 40.284518
+"Mccormick Riverfront Library" "101 Walnut Street" "Harrisburg" "PA" "17101" -76.8838425 40.2595872
+"Penn Area Library" "2001 Municipal Court" "Harrison City" "PA" "15636" -79.651058 40.357427
+"Hastings Public Library" "312 Beaver St" "Hastings" "PA" "16646" -78.7128007 40.6547883
+"Union Library Company Of Hatborough" "243 South York Rd" "Hatboro" "PA" "19040" -75.1072346 40.1733752
+"Haverford Township Free Library" "1601 Darby Road" "Havertown" "PA" "19083" -75.3049103 39.9815516
+"Hawley Library" "103 Main St" "Hawley" "PA" "18428" -75.183695 41.477984
+"Hazleton Area Public Library" "55 N Church St" "Hazleton" "PA" "18201" -75.9760902 40.9560658
+"Tri Valley Free Public Library" "633 East Main St" "Hegins" "PA" "17938" -76.4995307 40.6512329
+"Kreutz Creek Valley Library Center" "66 Walnut Springs Rd." "Hellam" "PA" "17406" -76.5826199 40.0135456
+"Hellertown Area Library" "409 Constitution Ave" "Hellertown" "PA" "18055" -75.3313427 40.5773828
+"Sewickley Township Public Library" "201 Highland Avenue" "Herminie" "PA" "15637" -79.716294 40.261696
+"Hershey Public Library" "701 Cocoa Ave." "Hershey" "PA" "17033" -76.6468451 40.2764969
+"Hollidaysburg Area Public Library" "405 Clark St" "Hollidaysburg" "PA" "16648" -78.3891426 40.430987
+"Somerset County Library - Conemaugh Township Branch" "120 Whistler Street" "Hollsopple" "PA" "15935" -78.9285274 40.2083458
+"Wayne County Public Library" "1406 Main St" "Honesdale" "PA" "18431" -75.2596813 41.5795027
+"Honey Brook Community Library" "687 Compass Road" "Honey Brook" "PA" "19344" -75.916758 40.088192
+"Horsham Township Library" "435 Babylon Road" "Horsham" "PA" "19044" -75.1723061 40.1973142
+"Chartiers-Houston Com Library" "730 West Grant St" "Houston" "PA" "15342" -80.2148791 40.2420318
+"Hughesville Area Public Library" "146 South 5th Street" "Hughesville" "PA" "17737" -76.7215954 41.2360473
+"William H. Marion C. Alexander Family Library" "200 West Second Street" "Hummelstown" "PA" "17036" -76.7124623 40.2664023
+"Huntingdon County Library" "330 Penn St" "Huntingdon" "PA" "16652" -78.0105466 40.4843634
+"Huntingdon Valley Library" "625 Red Lion Rd" "Huntingdon Valley" "PA" "19006" -75.0612049 40.1249398
+"Hustontown Branch Library" "PO Box 426" "Hustontown" "PA" "17229" -78.0269475 40.0489743
+"Hyde Park Public Library" "700 Main St." "Hyde Park" "PA" "15641" -79.5892154 40.6328445
+"Hyndman-Londonderry Public Library" "161 Clarence Street" "Hyndman" "PA" "15545" -78.7212217 39.8205732
+"Indiana Free Library Inc" "845 Philadelphia St" "Indiana" "PA" "15701" -79.1558738 40.6232396
+"Pequea Valley Public Library" "31 Center Street" "Intercourse" "PA" "17534" -76.108247 40.036179
+"Norwin Public Library Association" "100 Caruthers Lane" "Irwin" "PA" "15642" -79.6997464 40.3210859
+"Village Library" "35 C N. Main St." "Jacobus" "PA" "17407" -76.7095182 39.8829126
+"Jeannette Public Library" "500 Magee Avenue" "Jeannette" "PA" "15644" -79.617852 40.328245
+"Greene County Library System" "107 Hatfield St." "Jefferson" "PA" "15344" -80.0603918 39.9339496
+"Jefferson Hills Public Library" "925 Old Clairton Rd" "Jefferson Hills" "PA" "15025" -79.929888 40.2975254
+"Jenkintown Library" "460 Old York Road" "Jenkintown" "PA" "19046" -75.1258373 40.0984502
+"Jersey Shore Public Library" "110 Oliver Street" "Jersey Shore" "PA" "17740" -77.27311 41.2019051
+"Dimmick Memorial Library" "54 Broadway" "Jim Thorpe" "PA" "18229" -75.7394279 40.863775
+"Johnsonburg Public Library" "520 Market St" "Johnsonburg" "PA" "15845" -78.675494 41.489083
+"Cambria County Library System" "248 Main St." "Johnstown" "PA" "15901" -78.9224978 40.3269763
+"Highland Community Library" "330 Schoolhouse Rd" "Johnstown" "PA" "15904" -78.8396461 40.269196
+"Friends Memorial Library" "230 Chase Street" "Kane" "PA" "16735" -78.8096789 41.6600198
+"Bayard Taylor Memorial Library" "216 East State Street" "Kennett Square" "PA" "19348" -75.7094999 39.8471321
+"Upper Merion Township Library" "175 W Valley Forge Rd" "King Of Prussia" "PA" "19406" -75.3718424 40.1018105
+"Hoyt Library" "284 Wyoming Ave" "Kingston" "PA" "18704" -75.8954391 41.2638671
+"Kittanning Public Library" "280 N Jefferson St" "Kittanning" "PA" "16201" -79.5218476 40.8167401
+"Knox Public Library" "620 S Main St" "Knox" "PA" "16232" -79.5388955 41.22843
+"Knoxville Public Library" "112 E Main St." "Knoxville" "PA" "16928" -77.4389086 41.9570206
+"Louisa Gonser Community Library Inc" "70 Bieber Alley" "Kutztown" "PA" "19530" -75.774711 40.516346
+"Laceyville Public Library" "p o box 68" "Laceyville" "PA" "18623" -76.1613189 41.6459089
+"William Jeanes Memorial Library" "4051 Joshua Rd" "Lafayette Hill" "PA" "19444" -75.2573088 40.0980803
+"Northern Wayne Community Library" "11 Library Road" "Lakewood" "PA" "18439" -75.377438 41.853406
+"Lancaster Public Library" "125 North Duke St" "Lancaster" "PA" "17602" -76.3037907 40.0406808
+"Library System Of Lancaster County" "1866 Colonial Village Ln, Suite 107" "Lancaster" "PA" "17601" -76.2346255 40.05383
+"Manheim Township Public Library" "595 Granite Run Drive" "Lancaster" "PA" "17601" -76.3209319 40.0783644
+"Shuts Environmental Library" "3 Natures Way" "Lancaster" "PA" "17602" -76.2773151 40.0130075
+"Bucks County Free Library - Langhorne Branch" "301 S. Pine Street" "Langhorne" "PA" "19047" -74.9159159 40.1744377
+"Lansdale Public Library" "301 Vine Street" "Lansdale" "PA" "19446" -75.287136 40.242272
+"Lansdowne Public Library" "55 South Lansdowne Ave" "Lansdowne" "PA" "19050" -75.2715769 39.9365002
+"Adams Memorial Library" "1112 Ligonier St" "Latrobe" "PA" "15650" -79.3825817 40.3150717
+"Unity Library" "156 Beatty-County Road" "Latrobe" "PA" "15650" -79.4350321 40.2893538
+"Muhlenberg Community Library" "3612 Kutztown Rd" "Laureldale" "PA" "19605" -75.9211688 40.3921513
+"West End Library" "45 Ball Park Road" "Laurelton" "PA" "17835" -77.1950159 40.8826936
+"Lebanon Community Library" "125 N Seventh St" "Lebanon" "PA" "17046" -76.4227408 40.3410675
+"Schuylkill Valley Community Library" "1310 Washington Rd" "Leesport" "PA" "19533" -75.9629826 40.4375552
+"Lehighton Area Memorial Library" "124 North St" "Lehighton" "PA" "18235" -75.709473 40.834863
+"Lancaster Public Library - Leola Branch" "46 Hillcrest Avenue" "Leola" "PA" "17540" -76.1863206 40.086559
+"Bucks County Free Library - Levittown Branch" "7311 New Falls Road" "Levittown" "PA" "19055" -74.854671 40.157049
+"Public Library For Union County" "255 Reitz Blvd" "Lewisburg" "PA" "17837" -76.911722 40.961704
+"Mifflin County Library" "123 North Wayne St" "Lewistown" "PA" "17044" -77.5771019 40.5979598
+"Ligonier Valley Library" "120 West Main St" "Ligonier" "PA" "15658" -79.2380448 40.2436811
+"Lilly Washington Pub Library" "520 Church St" "Lilly" "PA" "15938" -78.621374 40.426824
+"Middletown Free Library" "21 North Pennell Road" "Lima" "PA" "19037" -75.4393939 39.913693
+"Linesville Community Public Library" "111 Penn Street" "Linesville" "PA" "16424" -80.4252035 41.6568404
+"Lititz Public Library" "651 Kissel Hill Road" "Lititz" "PA" "17543" -76.2944432 40.1469062
+"Littlestown Library" "232 North Queen Street" "Littlestown" "PA" "17340" -77.0918928 39.748222
+"Annie Halenbake Ross Library" "232 West Main St" "Lock Haven" "PA" "17745" -77.451542 41.138384
+"Peoples Library - Lower Burrell" "3052 Wachter Ave." "Lower Burrell" "PA" "15068" -79.7113819 40.5832085
+"Northern Dauphin Library" "683 Main Street" "Lykens" "PA" "17048" -76.6983543 40.5670369
+"Lower Macungie Library" "3450 Brookside Road" "Macungie" "PA" "18062" -75.5486888 40.5254576
+"Mahanoy City Public Library" "17-19 West Mahanoy St." "Mahanoy City" "PA" "17948" -76.141753 40.8112104
+"Malvern Public Library" "1 E First Avenue, Suite 2" "Malvern" "PA" "19355" -75.511905 40.0335117
+"Manheim Community Library" "15 East High St" "Manheim" "PA" "17545" -76.3945412 40.1639315
+"Manor Public Library" "44 Main Street, Suite 500" "Manor" "PA" "15665" -79.668822 40.3329189
+"Mansfield Free Public Library" "71 North Main St" "Mansfield" "PA" "16933" -77.079154 41.80903
+"Marianna Community Public Library" "247 Jefferson Avenue" "Marianna" "PA" "15345" -80.0887072 40.0218539
+"Marienville Area Library" "110 East Spruce St" "Marienville" "PA" "16239" -79.1198692 41.4691244
+"Mars Area Public Library" "107 Grand Ave" "Mars" "PA" "16046" -80.0108467 40.6984362
+"Martinsburg Community Library" "201 South Walnut St" "Martinsburg" "PA" "16662" -78.3210488 40.3090695
+"Marysville Rye Library" "198 Overcrest Road" "Marysville" "PA" "17053" -76.9383421 40.3403748
+"German-Masontown Public Library" "9 South Washington St" "Masontown" "PA" "15461" -79.900631 39.845928
+"Pike County Public Library Drop Box - Matamoras" "10 Avenue I" "Matamoras" "PA" "18336" -74.7000186 41.3712946
+"Mcclure Community Library" "P.O. Box 370" "Mcclure" "PA" "17841" -77.3144337 40.7070206
+"Fulton County Library" "227 North First St" "Mcconnellsburg" "PA" "17233" -77.9993866 39.9354272
+"Heritage Public Library" "52 Fourth St" "Mcdonald" "PA" "15057" -80.237562 40.366776
+"Montgomery House Warrior Run Area Public Library" "20 Church St" "Mcewensville" "PA" "17749" -76.8174245 41.0726969
+"F.O.R. Sto-Rox Library" "500 Chartiers Ave" "Mckees Rocks" "PA" "15136" -80.0588108 40.4649852
+"Carnegie Library Of Mckeesport" "1507 Library Avenue" "Mckeesport" "PA" "15132" -79.8551695 40.3453175
+"Peters Township Public Library" "616 East Mcmurray Rd" "Mcmurray" "PA" "15317" -80.080925 40.2804808
+"Meadville Public Library" "848 North Main Street" "Meadville" "PA" "16335" -80.1499348 41.6397389
+"Joseph T. Simpson Public Library" "16 N Walnut St" "Mechanicsburg" "PA" "17055" -77.0029068 40.2157679
+"Francis J. Catania Law Library" "201 W. Front St." "Media" "PA" "19063" -75.3914841 39.9201207
+"Med Upper Prov Free Library" "1 East Front St" "Media" "PA" "19063" -75.3888984 39.9190305
+"Media-Upper Providence Library" "1 E. Front St." "Media" "PA" "19063" -75.3888984 39.9190305
+"Mercer Area Library" "143 North Pitt St" "Mercer" "PA" "16137" -80.2379372 41.2279359
+"Meyersdale Public Library" "210 Center" "Meyersdale" "PA" "15552" -79.0258057 39.8151334
+"Middleburg Community Library" "13 North Main Street" "Middleburg" "PA" "17842" -77.0466579 40.792812
+"Middletown Public Library" "20 North Catherine St" "Middletown" "PA" "17057" -76.7323864 40.1956602
+"Carnegie Library, Midland" "61 Ninth St" "Midland" "PA" "15059" -80.4507609 40.6362219
+"Juniata County Library" "498 Jefferson St" "Mifflintown" "PA" "17059" -77.391767 40.5697242
+"Pike County Public Library - Dingman Township Branch" "100 Bond Court" "Milford" "PA" "18328" -74.9583225 41.2987785
+"Pike County Public Library - Milford Branch - Adminstration Offices" "201 Broad Street" "Milford" "PA" "18337" -74.802891 41.3221471
+"Johnson Memorial Library" "799 East Center Street" "Millersburg" "PA" "17061" -76.9573983 40.5334036
+"Milton Public Library" "23 South Front St" "Milton" "PA" "17847" -76.8554107 41.0197188
+"Minersville Public Library" "220 S Fourth St" "Minersville" "PA" "17954" -76.2649737 40.6907188
+"Community College Of Beaver County" "1 Campus Drive" "Monaca" "PA" "15061" -80.3047048 40.6550444
+"Monaca Public Library" "609 Pennsylvania Avenue" "Monaca" "PA" "15061" -80.2838573 40.6915229
+"Monessen Public Library District Center" "326 Donner Avenue" "Monessen" "PA" "15062" -79.8828867 40.1610487
+"Monongahela Area Library" "813 West Main St" "Monongahela" "PA" "15063" -79.9333859 40.2057904
+"Monroeton Public Library" "110 College Avenue" "Monroeton" "PA" "18832" -76.4461556 41.7613036
+"Monroeville Public Library" "4000 Gateway Campus Blvd" "Monroeville" "PA" "15146" -79.7526853 40.4301081
+"Montgomery Area Public Library" "1 South Main Street" "Montgomery" "PA" "17752" -76.8768393 41.1704487
+"Dr. W. B. Konkle Memorial Library" "384 Broad St" "Montoursville" "PA" "17754" -76.9246671 41.2491611
+"Susquehanna County Historical Society Free Library Association" "18 Monument Street" "Montrose" "PA" "18801" -75.8762637 41.8348758
+"Susquehanna County Library - Outreach Services" "2 Monument Square" "Montrose" "PA" "18801" -75.876615 41.8336522
+"Moon Township Public Library" "1700 Beaver Grade Rd, Suite 100" "Moon Township" "PA" "15108" -80.2024347 40.4963171
+"South Fayette Township Library" "515 Millers Run Rd" "Morgan" "PA" "15064" -80.1434161 40.355052
+"Village Library Of Morgantown" "207 N. Walnut Street" "Morgantown" "PA" "19543" -75.8931 40.156832
+"Bucks County Free Library - Morrisville Free Library" "300 N. Pennsylvania Avenue" "Morrisville" "PA" "19067" -74.77869 40.2120239
+"Morrisville Free Library Association" "300 North Pennsylvania Ave" "Morrisville" "PA" "19067" -74.77869 40.2120239
+"North Pocono Public Library" "113 Van Brunt St" "Moscow" "PA" "18444" -75.5192541 41.336086
+"Mount Carmel Public Library" "30 South Oak St" "Mount Carmel" "PA" "17851" -76.4134012 40.7962759
+"Mount Jewett Memorial Library" "7 E. Main St" "Mount Jewett" "PA" "16740" -78.638879 41.7252345
+"Milanof-Schock Library" "1184 Anderson Ferry Rd." "Mount Joy" "PA" "17552" -76.5125773 40.1038694
+"Mount Pleasant Free Public Library Association" "120 S Church St" "Mount Pleasant" "PA" "15666" -79.546384 40.149334
+"Marian Sutherland Kirby Library" "35 Kirby Avenue" "Mountaintop" "PA" "18707" -75.8825981 41.1596322
+"Lancaster Public Library West - Mountville Branch" "120 College Avenue" "Mountville" "PA" "17554" -76.4266082 40.0425608
+"Amelia S Givin Library" "114 North Baltimore Ave" "Mt Holly Springs" "PA" "17065" -77.1890654 40.1164962
+"Muncy Public Library" "108 South Main St" "Muncy" "PA" "17756" -76.7861009 41.2035365
+"Carnegie Library Of Homestead" "510 10th Ave" "Munhall" "PA" "15120" -79.902948 40.4070139
+"Westmoreland Library Network" "4130 Sardis Rd" "Murrsyville" "PA" "15668" -79.666328 40.453985
+"Myerstown Community Library" "199 North College St" "Myerstown" "PA" "17067" -76.3066567 40.3777298
+"Mill Memorial Library" "495 East Main St" "Nanticoke" "PA" "18634" -75.994467 41.205212
+"Nanty Glo Public Library" "942 Roberts St" "Nanty Glo" "PA" "15943" -78.8363166 40.4707957
+"Narberth Community Library" "80 Windsor Avenue" "Narberth" "PA" "19072" -75.2653655 40.0054769
+"Community Library Of Allegheny Valley - Harrison Location" "1522 Broadview Blvd." "Natrona Heights" "PA" "15065" -79.7284209 40.6205757
+"Memorial Library Of Nazareth Vicinity" "295 E Center St" "Nazareth" "PA" "18064" -75.3064221 40.7428798
+"New Albany Community Library" "98 Front Street" "New Albany" "PA" "18833" -76.4427957 41.602996
+"New Bethlehem Area Free Public Library" "720 Broad St" "New Bethlehem" "PA" "16242" -79.3235417 41.0027923
+"Bloomfield Public Library" "p.o. box 558" "New Bloomfield" "PA" "17068" -77.1872047 40.4197907
+"New Brighton Public Library" "1021 3rd Ave" "New Brighton" "PA" "15066" -80.311644 40.7327926
+"New Castle Public Library" "207 East North Street" "New Castle" "PA" "16101" -80.3439037 41.0017047
+"New Cumberland Public Library" "1 Benjamin Plaza" "New Cumberland" "PA" "17070" -76.8737026 40.2289333
+"New Florence Community Library" "122 Ligonier Street" "New Florence" "PA" "15944" -79.0763444 40.376787
+"Eastern Lancaster County Library" "11 Chestnut Dr" "New Holland" "PA" "17557" -76.072781 40.10339
+"Bucks County Free Library - Free Library Of New Hope And Solebury" "93 W. Ferry Street" "New Hope" "PA" "18938" -74.9553568 40.3636662
+"Free Library Of New Hope Solebury" "93 West Ferry St" "New Hope" "PA" "18938" -74.9553568 40.3636662
+"Peoples Library - New Kensington" "880 Barnes St" "New Kensington" "PA" "15068" -79.7642616 40.5653638
+"Pratt Memorial Library" "752 Main St" "New Milford" "PA" "18834" -75.7272977 41.8767572
+"New Oxford Area Library" "122 North Peter Street" "New Oxford" "PA" "17350" -77.0552701 39.8663446
+"Newfoundland Area Public Library" "954 Main Street" "Newfoundland" "PA" "18445" -75.3206355 41.3063092
+"Newport Public Library" "316 North Fourth St" "Newport" "PA" "17074" -77.1354471 40.4806992
+"Newtown Public Library" "201 Bishop Hollow Rd" "Newtown Square" "PA" "19073" -75.4079429 39.9805933
+"John Graham Public Library" "9 Parsonage St" "Newville" "PA" "17241" -77.4004927 40.1713174
+"Montgomery County-Norristown Public Library" "1001 Powell St" "Norristown" "PA" "19401" -75.3400823 40.1219544
+"Mccord Memorial Library" "32 West Main Street" "North East" "PA" "16428" -79.836089 42.215839
+"North Versailles Public Library" "1401 Greensburg Ave" "North Versailles" "PA" "15137" -79.8176719 40.3809953
+"North Wales Library" "233 S. Swartley Street" "North Wales" "PA" "19454" -75.2760491 40.208165
+"North Wales Mem Free Library" "201 Summit St" "North Wales" "PA" "19454" -75.2714852 40.2103053
+"Northern Cambria Public Library" "1030 Philadelphia Avenue" "Northern Cambria" "PA" "15714" -78.7807244 40.6628564
+"Priestley Forsyth Memorial Library" "100 King St" "Northumberland" "PA" "17857" -76.7942208 40.8900248
+"Norwood Public Library" "513 Welcome Ave" "Norwood" "PA" "19074" -75.3019391 39.8909745
+"Western Allegheny Community Library" "8042 Steubenville Pike" "Oakdale" "PA" "15071" -80.2449802 40.4410586
+"Oakmont Carnegie Library" "700 Allegheny River Blvd" "Oakmont" "PA" "15139" -79.841728 40.5220366
+"Oil City Library" "2 Central Ave" "Oil City" "PA" "16301" -79.7114378 41.4289293
+"Orwigsburg Area Fr Pub Library" "214 E. Independence St" "Orwigsburg" "PA" "17961" -76.0996285 40.6532526
+"Osceola Mills Public Library" "600 Lingle St." "Osceola Mills" "PA" "16666" -78.269448 40.851104
+"Oxford Public Library" "48 South Second Street" "Oxford" "PA" "19363" -75.980776 39.7846
+"Palmerton Library" "402 Delaware Ave" "Palmerton" "PA" "18071" -75.6073187 40.8024482
+"Palmyra Public Library" "325 South Railroad Street" "Palmyra" "PA" "17078" -76.5921316 40.304754
+"Parkesburg Free Library" "105 West St" "Parkesburg" "PA" "19365" -75.918493 39.95793
+"Patton Public Library" "404 Magee Avenue" "Patton" "PA" "16668" -78.6478226 40.6339048
+"Valley Community Library" "739 River St" "Peckville" "PA" "18452" -75.5801044 41.4770521
+"Bucks County Free Library - Perkasie" "491 Arthur Avenue" "Perkasie" "PA" "18944" -75.3002936 40.3689055
+"Mary Fuller Frazier School Community Library" "403 West Constitution Street" "Perryopolis" "PA" "15473" -79.7507708 40.0887643
+"Free Library Of Philadelphia" "1901 Vine St" "Philadelphia" "PA" "19103" -75.1710236 39.9596055
+"Free Library Of Philadelphia - Andorra Branch" "705 East Cathedral Road" "Philadelphia" "PA" "19128" -75.2384494 40.0643502
+"Free Library Of Philadelphia - Blanche A. Nixon-Cobbs Creek Branch" "5800 Cobbs Creek Parkway" "Philadelphia" "PA" "19143" -75.2416389 39.9457034
+"Free Library Of Philadelphia - Bushrod Branch" "6304 Castor Avenue" "Philadelphia" "PA" "19149" -75.078621 40.0386524
+"Free Library Of Philadelphia - Bustleton Branch" "10199 Bustleton Avenue" "Philadelphia" "PA" "19116" -75.0261692 40.1077764
+"Free Library Of Philadelphia - Cecil B. Moore Branch" "2320 Cecil B. Moore Avenue" "Philadelphia" "PA" "19121" -75.1735557 39.9804968
+"Free Library Of Philadelphia - Central Library" "1901 Vine Street" "Philadelphia" "PA" "19103" -75.1710236 39.9596055
+"Free Library Of Philadelphia - Charles L. Durham Branch" "3320 Haverford Avenue" "Philadelphia" "PA" "19104" -75.1911708 39.9639027
+"Free Library Of Philadelphia - Charles Santore Branch" "932 South 7th Street" "Philadelphia" "PA" "19147" -75.155274 39.937044
+"Free Library Of Philadelphia - Chestnut Hill Branch" "8711 Germantown Avenue" "Philadelphia" "PA" "19118" -75.2092813 40.0778578
+"Free Library Of Philadelphia - David Cohen Ogontz Branch" "6017 Ogontz Avenue" "Philadelphia" "PA" "19141" -75.1509445 40.0467444
+"Free Library Of Philadelphia - Eastwick Branch" "2851 Island Avenue" "Philadelphia" "PA" "19153" -75.2403308 39.9059349
+"Free Library Of Philadelphia - Falls Of Schuylkill Branch" "3501 Midvale Avenue" "Philadelphia" "PA" "19129" -75.1923638 40.0142949
+"Free Library Of Philadelphia - Fishtown Community Branch" "1217 East Montgomery Avenue" "Philadelphia" "PA" "19125" -75.1271851 39.971911
+"Free Library Of Philadelphia - Fox Chase Branch" "501 Rhawn Street" "Philadelphia" "PA" "19111" -75.0819215 40.0767105
+"Free Library Of Philadelphia - Frankford Branch" "4634 Frankford Avenue" "Philadelphia" "PA" "19124" -75.0850614 40.0157558
+"Free Library Of Philadelphia - Fumo Family Branch" "2437 South Broad Street" "Philadelphia" "PA" "19148" -75.1703248 39.9198713
+"Free Library Of Philadelphia - Greater Olney Branch" "5501 North 5th Street" "Philadelphia" "PA" "19120" -75.1306018 40.035012
+"Free Library Of Philadelphia - Haddington Branch" "446 North 65th Street" "Philadelphia" "PA" "19151" -75.2497024 39.9706134
+"Free Library Of Philadelphia - Haverford Branch" "5543 Haverford Avenue" "Philadelphia" "PA" "19139" -75.2316551 39.967675
+"Free Library Of Philadelphia - Holmesburg Branch" "7810 Frankford Avenue" "Philadelphia" "PA" "19136" -75.0308478 40.0404308
+"Free Library Of Philadelphia - Independence Branch" "18 S. 7th Street" "Philadelphia" "PA" "19106" -75.1523786 39.9502748
+"Free Library Of Philadelphia - Joseph E. Coleman Northwest Regional Library" "68 West Chelten Avenue" "Philadelphia" "PA" "19144" -75.1760498 40.0340548
+"Free Library Of Philadelphia - Katharine Drexel Branch" "11099 Knights Road" "Philadelphia" "PA" "19154" -74.9734231 40.0839872
+"Free Library Of Philadelphia - Kensington Branch" "104 West Dauphin Street" "Philadelphia" "PA" "19133" -75.1326812 39.9846191
+"Free Library Of Philadelphia - Kingsessing Branch" "1201 South 51st Street" "Philadelphia" "PA" "19143" -75.2181806 39.9420261
+"Free Library Of Philadelphia - Lawncrest Branch" "6098 Rising Sun Avenue" "Philadelphia" "PA" "19111" -75.0995767 40.0460628
+"Free Library Of Philadelphia - Library For The Blind And Physically Handicapped" "919 Walnut Street" "Philadelphia" "PA" "19107" -75.1567386 39.9488023
+"Free Library Of Philadelphia - Lillian Marrero Branch" "601 West Lehigh Avenue" "Philadelphia" "PA" "19133" -75.1425045 39.9927808
+"Free Library Of Philadelphia - Logan Branch" "1333 Wagner Avenue" "Philadelphia" "PA" "19141" -75.1453293 40.0317922
+"Free Library Of Philadelphia - Lovett Branch" "6945 Germantown Avenue" "Philadelphia" "PA" "19119" -75.1876897 40.0567752
+"Free Library Of Philadelphia - Lucien E. Blackwell West Philadelphia Regional Library" "125 South 52nd Street" "Philadelphia" "PA" "19139" -75.2250558 39.9574729
+"Free Library Of Philadelphia - Mcpherson Square Branch" "601 East Indiana Avenue" "Philadelphia" "PA" "19134" -75.1188828 39.9948515
+"Free Library Of Philadelphia - Nicetown-Tioga Branch" "3720 North Broad Street" "Philadelphia" "PA" "19140" -75.1513976 40.0099974
+"Free Library Of Philadelphia - Northeast Regional Library" "2228 Cottman Avenue" "Philadelphia" "PA" "19149" -75.0614917 40.0481285
+"Free Library Of Philadelphia - Oak Lane Branch" "6614 North 12th Street" "Philadelphia" "PA" "19126" -75.1378648 40.0545856
+"Free Library Of Philadelphia - Overbrook Park Branch" "7422 Haverford Avenue" "Philadelphia" "PA" "19151" -75.2640069 39.9760162
+"Free Library Of Philadelphia - Paschalville Branch" "6942 Woodland Avenue" "Philadelphia" "PA" "19142" -75.2409414 39.9204532
+"Free Library Of Philadelphia - Philadelphia City Institute" "1905 Locust Street" "Philadelphia" "PA" "19103" -75.1733449 39.9495012
+"Free Library Of Philadelphia - Queen Memorial Library" "1201 South 23rd Street" "Philadelphia" "PA" "19146" -75.1812344 39.937769
+"Free Library Of Philadelphia - Ramonita De Rodriguez Branch" "600 West Girard Avenue" "Philadelphia" "PA" "19123" -75.1468412 39.9701271
+"Free Library Of Philadelphia - Richmond Branch" "2987 Almond Street" "Philadelphia" "PA" "19134" -75.108286 39.983012
+"Free Library Of Philadelphia - Roxborough Branch" "6245 Ridge Avenue" "Philadelphia" "PA" "19128" -75.2181954 40.0367164
+"Free Library Of Philadelphia - South Philadelphia Branch" "1700 South Broad Street" "Philadelphia" "PA" "19145" -75.16912 39.9291562
+"Free Library Of Philadelphia - Tacony Branch" "6742 Torresdale Avenue" "Philadelphia" "PA" "19135" -75.0452367 40.0253661
+"Free Library Of Philadelphia - Thomas F. Donatucci, Sr." "1935 Shunk Street" "Philadelphia" "PA" "19145" -75.1801444 39.9196212
+"Free Library Of Philadelphia - Torresdale Branch" "3079 Holme Avenue" "Philadelphia" "PA" "19136" -75.015809 40.0568744
+"Free Library Of Philadelphia - Wadsworth Branch" "1500 Wadsworth Avenue" "Philadelphia" "PA" "19150" -75.1737193 40.0789708
+"Free Library Of Philadelphia - Walnut Street West" "201 South 40th Street" "Philadelphia" "PA" "19104" -75.2024592 39.9537945
+"Free Library Of Philadelphia - Welsh Road Branch" "9233 Roosevelt Boulevard" "Philadelphia" "PA" "19114" -75.0324021 40.0771306
+"Free Library Of Philadelphia - West Oak Lane Branch" "2000 Washington Lane" "Philadelphia" "PA" "19138" -75.1577178 40.0671768
+"Free Library Of Philadelphia - Whitman Branch" "200 Snyder Avenue" "Philadelphia" "PA" "19148" -75.1503319 39.9215883
+"Free Library Of Philadelphia - Widener Branch" "2808 West Lehigh Avenue" "Philadelphia" "PA" "19132" -75.1775949 39.9967044
+"Free Library Of Philadelphia - Wynnefield Branch" "5325 Overbrook Avenue" "Philadelphia" "PA" "19131" -75.2335844 39.995067
+"Free Library Of Philadelphia - Wyoming Branch" "231 East Wyoming Avenue" "Philadelphia" "PA" "19120" -75.1206868 40.0213573
+"Phoenixville Public Library" "183 Second Ave" "Phoenixville" "PA" "19460" -75.514096 40.1288701
+"Bucks County Free Library - Pipersville Free Library" "7114 Durham Road" "Pipersville" "PA" "18947" -75.1393666 40.4249453
+"Allegheny County Library Association" "22 Wabash Street, Suite 203" "Pittsburgh" "PA" "15220" -80.035114 40.4405928
+"Brentwood Library" "3501 Brownsville Rd" "Pittsburgh" "PA" "15227" -79.9749959 40.3749316
+"Carnegie Library Of Pittsburgh - Allegheny" "1230 Federal Street" "Pittsburgh" "PA" "15212" -80.006615 40.4563927
+"Carnegie Library Of Pittsburgh - Beechview" "1910 Broadway Avenue" "Pittsburgh" "PA" "15216" -80.0277175 40.4070489
+"Carnegie Library Of Pittsburgh - Brookline" "708-710 Brookline Boulevard" "Pittsburgh" "PA" "15226" -80.0211475 40.3945742
+"Carnegie Library Of Pittsburgh - Carrick" "1811 Brownsville Road" "Pittsburgh" "PA" "15210" -79.9875492 40.3969918
+"Carnegie Library Of Pittsburgh - Downtown Business" "612 Smithfield Street" "Pittsburgh" "PA" "15222" -79.9971122 40.4417491
+"Carnegie Library Of Pittsburgh - East Liberty" "130 S. Whitfield Street" "Pittsburgh" "PA" "15206" -79.926522 40.460864
+"Carnegie Library Of Pittsburgh - Hazelwood" "4901 Second Avenue" "Pittsburgh" "PA" "15207" -79.9437959 40.4098478
+"Carnegie Library Of Pittsburgh - Hill District" "2177 Centre Avenue At Kirkpatrick Street" "Pittsburgh" "PA" "15219" -79.9767578 40.4454367
+"Carnegie Library Of Pittsburgh - Homewood" "7101 Hamilton Ave" "Pittsburgh" "PA" "15208" -79.899213 40.455284
+"Carnegie Library Of Pittsburgh - Knoxville" "400 Brownsville Road" "Pittsburgh" "PA" "15210" -79.9891605 40.4132042
+"Carnegie Library Of Pittsburgh - Lawrenceville" "279 Fisk Street" "Pittsburgh" "PA" "15201" -79.959082 40.467605
+"Carnegie Library Of Pittsburgh - Library For The Blind And Physically Handicapped" "4724 Baum Boulevard" "Pittsburgh" "PA" "15213" -79.949183 40.453817
+"Carnegie Library Of Pittsburgh - Main (Oakland)" "4400 Forbes Avenue" "Pittsburgh" "PA" "15213" -79.949915 40.4431957
+"Carnegie Library Of Pittsburgh - Mt. Washington" "315 Grandview Avenue" "Pittsburgh" "PA" "15211" -80.010471 40.4335161
+"Carnegie Library Of Pittsburgh - Sheraden" "720 Sherwood Avenue" "Pittsburgh" "PA" "15204" -80.0565352 40.4552007
+"Carnegie Library Of Pittsburgh - South Side" "2205 East Carson Street" "Pittsburgh" "PA" "15203" -79.9742727 40.4286817
+"Carnegie Library Of Pittsburgh - Squirrel Hill" "5801 Forbes Avenue" "Pittsburgh" "PA" "15217" -79.9227127 40.4384436
+"Carnegie Library Of Pittsburgh - West End" "47 Wabash Avenue" "Pittsburgh" "PA" "15220" -80.0340451 40.4400573
+"Carnegie Library Of Pittsburgh - Woods Run" "1201 Woods Run Avenue" "Pittsburgh" "PA" "15212" -80.0302122 40.476239
+"Cooper-Siegel Community Library" "403 Fox Chapel Road" "Pittsburgh" "PA" "15238" -79.8798945 40.5153348
+"Crafton Public Library" "140 Bradford Ave" "Pittsburgh" "PA" "15205" -80.066815 40.4344699
+"Dormont Public Library" "2950 West Liberty Ave" "Pittsburgh" "PA" "15216" -80.0359602 40.3942107
+"Forest Hills Library" "444 Avenue D" "Pittsburgh" "PA" "15221" -79.8425008 40.4109132
+"Green Tree Public Library" "10 W Manilla Ave" "Pittsburgh" "PA" "15220" -80.0470231 40.4187671
+"Mount Lebanon Public Library" "16 Castle Shannon Blvd" "Pittsburgh" "PA" "15228" -80.045264 40.377009
+"Northland Public Library" "300 Cumberland Rd" "Pittsburgh" "PA" "15237" -80.0347192 40.5710577
+"Pleasant Hills Public Library" "302 Old Clairton Rd" "Pittsburgh" "PA" "15236" -79.9619905 40.3337455
+"Plum Borough Library" "445 Center-New Texas Road" "Pittsburgh" "PA" "15239" -79.7540533 40.4877458
+"Robinson Township Library" "1000 Church Hill Rd." "Pittsburgh" "PA" "15205" -80.144192 40.438728
+"Whitehall Public Library" "100 Borough Park Dr" "Pittsburgh" "PA" "15236" -79.9807985 40.3511687
+"Wilkinsburg Public Library - Eastridge Branch" "1900 Graham Blvd." "Pittsburgh" "PA" "15235" -79.8566584 40.4566328
+"William E. Anderson Library Of Penn Hills" "1037 Stotler Road" "Pittsburgh" "PA" "15235" -79.8104986 40.4827185
+"Pittston Memorial Library" "47 Broad St" "Pittston" "PA" "18640" -75.789056 41.3212515
+"Pleasant Mount Public Library" "375 Great Bend Turnpike" "Pleasant Mount" "PA" "18453" -75.434037 41.740316
+"Plymouth Public Library" "107 West Main St" "Plymouth" "PA" "18651" -75.9467167 41.2401336
+"Clymer Library Association" "hc89, box 39b" "Pocono Pines" "PA" "18350" -75.4548992 41.1081084
+"Point Marion Library" "300 Ontario Avenue" "Point Marion" "PA" "15474" -79.8974099 39.7369426
+"Samuel W Smith Mem Pub Library" "22 Church St" "Port Allegany" "PA" "16743" -78.28134 41.8138504
+"Port Carbon Public Library" "111 Pike St" "Port Carbon" "PA" "17965" -76.1663324 40.6954021
+"Portage Public Library" "704 Main Street" "Portage" "PA" "15946" -78.6732669 40.3861304
+"Pottstown Public Library" "500 High Street" "Pottstown" "PA" "19464" -75.6421786 40.2446213
+"Pottsville Free Public Library" "215 W Market St" "Pottsville" "PA" "17901" -76.1969176 40.6849417
+"Upper Darby Township Sellers Memorial Free Public Library" "409 Ashland Ave." "Primos" "PA" "19018" -75.3051266 39.9186164
+"Prospect Community Library" "357 Main Street" "Prospect" "PA" "16052" -80.0443542 40.9046232
+"Prospect Park Free Library" "720 Maryland Ave" "Prospect Park" "PA" "19076" -75.3083385 39.8880862
+"Punxsutawney Memorial Library" "301 East Mahoning St., Suite 4" "Punxsutawney" "PA" "15767" -78.9678705 40.9439038
+"Bucks County Free Library - Quakertown Branch" "401 West Mill Street" "Quakertown" "PA" "18951" -75.3399387 40.445465
+"Quarryville Library Center" "357 Buck Road" "Quarryville" "PA" "17566" -76.174953 39.891177
+"Ralston Link" "10975 Route 14 Hwy" "Ralston" "PA" "17763" -76.9548614 41.5054203
+"Berks County Public Libraries" "1037f Macarthur Road" "Reading" "PA" "19605" -75.974505 40.378899
+"Exeter Community Library" "4569 Prestwick Drive" "Reading" "PA" "19606" -75.8631851 40.3047476
+"Reading Public Library" "100 S. 5th Street" "Reading" "PA" "19602" -75.9279512 40.3336743
+"Upper Perkiomen Valley Library" "350 Main Street" "Red Hill" "PA" "18076" -75.4807628 40.3735748
+"Kaltreider-Benfer Library" "147 S Charles St" "Red Lion" "PA" "17356" -76.6059515 39.8980401
+"Renovo Library" "317 7th Street" "Renovo" "PA" "17764" -77.7519294 41.3255086
+"Republic Community Library" "Box 165" "Republic" "PA" "15475" -79.8767144 39.9625752
+"Reynoldsville Public Library" "460 E. Main St." "Reynoldsville" "PA" "15851" -78.8880836 41.0959108
+"Bucks County Free Library - Free Library Of Northampton Township" "25 Upper Holland Road" "Richboro" "PA" "18954" -75.0090403 40.2096484
+"Richland Community Library" "111 East Main Street" "Richland" "PA" "17087" -76.256108 40.357737
+"Ridgway Public Library" "329 Center St" "Ridgway" "PA" "15853" -78.727489 41.421817
+"Ridley Park Public Library" "107 E. Ward Street" "Ridley Park" "PA" "19078" -75.3244338 39.8809694
+"Bucks County Free Library - Riegelsville Public Library" "615 Easton Road" "Riegelsville" "PA" "18077" -75.1959591 40.596369
+"Eccles Lesher Memorial Library" "673 Main St." "Rimersburg" "PA" "16248" -79.5017219 41.0433447
+"Ringtown Area Library" "132 W. Main Street" "Ringtown" "PA" "17967" -76.2321324 40.8584955
+"Roaring Spring Comm Library" "320 East Main St" "Roaring Spring" "PA" "16673" -78.4023772 40.3355607
+"Robesonia Community Library" "75-A South Brooke St" "Robesonia" "PA" "19551" -76.1373171 40.3518054
+"Rochester Public Library" "252 Adams St" "Rochester" "PA" "15074" -80.283695 40.7024913
+"Royersford Free Public Library" "200 South Fourth Avenue" "Royersford" "PA" "19468" -75.5369408 40.1837427
+"Saegertown Area Library" "325 Broad St" "Saegertown" "PA" "16433" -80.1480984 41.7205123
+"Saltsburg Free Library" "307 Point Street, Suite 2" "Saltsburg" "PA" "15681" -79.4502778 40.4856634
+"Saxonburg Area Library" "240 West Main St" "Saxonburg" "PA" "16056" -79.813077 40.7512029
+"Saxton Community Library" "315 Front St" "Saxton" "PA" "16678" -78.2363269 40.2206828
+"Sayre Public Library" "122 South Elmer Ave" "Sayre" "PA" "18840" -76.5166546 41.9819135
+"Schuylkill Haven Free Public Library" "104 Saint John St" "Schuylkill Haven" "PA" "17972" -76.171176 40.6282574
+"Perkiomen Valley Library At Schwenksville" "290 Second Street" "Schwenksville" "PA" "19473" -75.464741 40.2547799
+"Scott Township Public Library" "301 Lindsay Road" "Scott Township" "PA" "15106" -80.0839871 40.3869774
+"Scottdale Public Library" "106 Spring Street" "Scottdale" "PA" "15683" -79.587784 40.1022
+"Albright Memorial Library" "500 Vine Street" "Scranton" "PA" "18509" -75.6593716 41.4107927
+"Lackawanna County Childrens Library" "520 Vine Street" "Scranton" "PA" "18509" -75.6593663 41.4107887
+"Selinsgrove Community Library" "297 Route 204" "Selinsgrove" "PA" "17870" -76.869758 40.813084
+"Snyder County Libraries, Inc." "1 North High St" "Selinsgrove" "PA" "17870" -76.862939 40.799743
+"Sewickley Public Library" "500 Thorn St" "Sewickley" "PA" "15143" -80.1814649 40.5387645
+"Shamokin Coal Township Public Library" "210 East Independence St" "Shamokin" "PA" "17872" -76.5536503 40.791856
+"Community Library Of The Shenango Valley" "11 N Sharpsville" "Sharon" "PA" "16146" -80.5053854 41.2332436
+"Sharon Hill Public Library" "246 Sharon Ave" "Sharon Hill" "PA" "19079" -75.2724217 39.9066527
+"Sheffield Township Library" "20 Leather St" "Sheffield" "PA" "16347" -79.032377 41.702104
+"Shenandoah Area Free Public Library" "15 West Washington Street" "Shenandoah" "PA" "17976" -76.2020914 40.823347
+"Mifflin Community Library" "6 Philadelphia Ave." "Shillington" "PA" "19607" -75.967911 40.3031499
+"Oswayo Valley Memorial Library" "103 North Pleasant Street" "Shinglehouse" "PA" "16748" -78.1930275 41.9629949
+"Shippensburg Public Library" "73 W King St" "Shippensburg" "PA" "17257" -77.5234511 40.0497966
+"Paul Smith Library Of Southern York County" "80 Constitution Avenue" "Shrewsbury" "PA" "17361" -76.6799631 39.7513448
+"Southern York County Library" "80 Constitution Ave" "Shrewsbury" "PA" "17361" -76.6799631 39.7513448
+"Sinking Spring Public Library" "3940 Penn Ave" "Sinking Spring" "PA" "19608" -76.0220494 40.3249931
+"Slatington Library Inc" "650 Main St" "Slatington" "PA" "18080" -75.613041 40.750745
+"Hamlin Memorial Library" "123 S Mechanic St" "Smethport" "PA" "16749" -78.4417101 41.8082998
+"Smithfield Library" "P.O. Box 497" "Smithfield" "PA" "15478" -79.8078289 39.8031324
+"Smithton Public Library" "P.O.Box 382" "Smithton" "PA" "15479" -79.7411535 40.1539613
+"Mary S Biesecker Public Library" "230 S Rosina Ave" "Somerset" "PA" "15501" -79.0830219 40.0068594
+"Somerset County Federated Library System" "6022 Glades Pike" "Somerset" "PA" "15501" -79.0264529 40.0034626
+"Somerset County Library" "6022 Glades Pike, Suite 120" "Somerset" "PA" "15501" -79.0264529 40.0034626
+"South Fork Public Library" "320 Main St" "South Fork" "PA" "15956" -78.7914244 40.3650413
+"South Park Township Library" "2575 Brownsville Rd" "South Park" "PA" "15129" -79.9961672 40.2917766
+"Bucks County Free Library - Southampton Free Library" "947 Street Road" "Southampton" "PA" "18966" -75.0369761 40.1711634
+"Southampton Free Library" "947 Street Rd" "Southampton" "PA" "18966" -75.0369761 40.1711634
+"Spring City Free Public Library" "245 Broad St" "Spring City" "PA" "19475" -75.549451 40.1775499
+"Glatfelter Memorial Library" "101 Glenview Rd" "Spring Grove" "PA" "17362" -76.8619026 39.8876336
+"Springboro Public Library" "110 S Main St" "Springboro" "PA" "16435" -80.3685134 41.7997749
+"Springdale Free Public Library" "331 School St" "Springdale" "PA" "15144" -79.7783248 40.5421127
+"Springfield Township Library" "70 Powell Rd" "Springfield" "PA" "19064" -75.3298458 39.9307466
+"Saint Marys Public Library" "127 Center St" "St Marys" "PA" "15857" -78.562271 41.427914
+"Saint Thomas Library" "30 School House Road" "St Thomas" "PA" "17252" -77.7978607 39.917798
+"Schlow Centre Region Library" "211 South Allen Street" "State College" "PA" "16801" -77.8597695 40.7933602
+"Mason Dixon Public Library" "250 Bailey Drive" "Stewartstown" "PA" "17363" -76.5985726 39.7545276
+"Strasburg-Heisler Library" "143 Precision Ave" "Strasburg" "PA" "17579" -76.1910602 39.9854065
+"Eastern Monroe Public Library" "1002 North 9th St" "Stroudsburg" "PA" "18360" -75.217977 40.990269
+"Sugar Grove Free Library" "22 Harmon St" "Sugar Grove" "PA" "16350" -79.3400879 41.9817716
+"Summerville Public Library" "114 Second Avenue" "Summerville" "PA" "15864" -79.1875159 41.1151592
+"Degenstein Community Library" "40 South Fifth Street" "Sunbury" "PA" "17801" -76.7894236 40.8597206
+"Susquehanna County Library - Susquehanna Branch Library" "83 Erie Boulevard, Suite C" "Susquehanna" "PA" "18847" -75.6072241 41.9456645
+"Swarthmore Public Library" "121 Park Avenue" "Swarthmore" "PA" "19081" -75.348373 39.9016025
+"Carnegie Free Library Of Swissvale" "1800 Monongahela Ave" "Swissvale" "PA" "15218" -79.8911655 40.4225531
+"Sykesville Public Library" "21 East Main St" "Sykesville" "PA" "15865" -78.8217224 41.0505334
+"Tamaqua Public Library" "30 South Railroad St" "Tamaqua" "PA" "18252" -75.9703515 40.7960714
+"Community Library Of Allegheny Valley - Tarentum Location" "400 Lock Street" "Tarentum" "PA" "15084" -79.7539117 40.6016333
+"Taylor Community Library" "710 South Main Street" "Taylor" "PA" "18517" -75.7178398 41.3792757
+"Indian Valley Public Library" "100 East Church Ave" "Telford" "PA" "18969" -75.332972 40.329805
+"Sarah S Bovard Memorial Library" "156 Elm St." "Tionesta" "PA" "16353" -79.4564454 41.4908132
+"Benson Memorial Library, Inc." "213 North Franklin St" "Titusville" "PA" "16354" -79.6733837 41.6283048
+"Pocono Mountain Public Library" "5540 Memorial Blvd" "Tobyhanna" "PA" "18466" -75.4073644 41.1714747
+"Brandywine Community Library" "60 Tower Drive" "Topton" "PA" "19562" -75.6987321 40.4956369
+"Towanda Public Library" "104 Main St" "Towanda" "PA" "18848" -76.4434329 41.7691772
+"Tower-Porter Community Library" "230 E Grand Ave" "Tower City" "PA" "17980" -76.556224 40.58833
+"Trafford Community Public Library" "416 Brinton Avenue" "Trafford" "PA" "15085" -79.760723 40.38538
+"Tremont Area Free Public Library" "19 North Pine Street" "Tremont" "PA" "17981" -76.3903608 40.6287536
+"Cogan House Link" "4609 Route 184 Hwy." "Trout Run" "PA" "17771" -77.2095069 41.4393883
+"Allen F. Pierce Free Library" "115 Center Street" "Troy" "PA" "16947" -76.8185899 41.7997607
+"Bradford County Library System" "16093 Route 6" "Troy" "PA" "16947" -76.8180428 41.7990453
+"Tunkhannock Public Library" "220 W Tioga St." "Tunkhannock" "PA" "18657" -75.9647277 41.5461419
+"Braddock Carnegie Library" "519 Penn Avenue" "Turtle Creek" "PA" "15145" -79.8287612 40.4056979
+"Tyrone-Snyder Township Public Library" "1000 Pennsylvania Ave." "Tyrone" "PA" "16686" -78.2379775 40.6706254
+"Mather Memorial Library" "300 Main Street" "Ulster" "PA" "18850" -76.5019935 41.8462793
+"Ulysses Library" "401 North Main St" "Ulysses" "PA" "16948" -77.7612558 41.9066176
+"Union City Public Library" "2 Stranahan St." "Union City" "PA" "16438" -79.8457415 41.8965102
+"Uniontown Public Library" "24 Jefferson St" "Uniontown" "PA" "15401" -79.72269 39.899337
+"Unityville Link" "4298 Route 42 Hwy." "Unityville" "PA" "17774" -76.5311343 41.2530196
+"Upper Darby Township Sellers Memorial Free Public Library" "100 Garrett Road" "Upper Darby" "PA" "19082" -75.2630871 39.9599756
+"Upper Darby Township Sellers Memorial Free Public Library" "76 South State Rd" "Upper Darby" "PA" "19082" -75.2733778 39.9622595
+"Upper St Clair Township Library" "1820 Mclaughlin Run Rd" "Upper St Clair" "PA" "15241" -80.0708156 40.3347173
+"Vandergrift Public Library Association" "128 C Washington Ave." "Vandergrift" "PA" "15690" -79.5649469 40.6038256
+"Helen Kate Furness Fr Library" "100 North Providence Rd" "Wallingford" "PA" "19086" -75.374785 39.9045918
+"Warminster Township Free Library" "1076 Emma Lane" "Warminster" "PA" "18974" -75.1036619 40.2190913
+"Warren Library Association" "205 Market St" "Warren" "PA" "16365" -79.1461075 41.8457753
+"Citizens Library" "55 South College St" "Washington" "PA" "15301" -80.2429155 40.170083
+"Waterford Public Library" "24 South Park Row" "Waterford" "PA" "16441" -79.9830743 41.9423129
+"Memorial Library Of Radnor Township" "114 West Wayne Ave" "Wayne" "PA" "19087" -75.3889843 40.0428141
+"Tredyffrin Public Library" "582 Upper Gulph Rd" "Wayne" "PA" "19087" -75.4026359 40.0568552
+"Alexander Hamilton Memorial Free Library" "45 East Main Street" "Waynesboro" "PA" "17268" -77.5764091 39.7551751
+"Eva K Bowlby Public Library" "311 North West St" "Waynesburg" "PA" "15370" -80.1918677 39.8994798
+"Green Free Library" "134 Main St" "Wellsboro" "PA" "16901" -77.304682 41.746207
+"Wernersville Public Library" "100 North Reber Street" "Wernersville" "PA" "19565" -76.076982 40.3309758
+"West Chester Public Library" "415 North Church St" "West Chester" "PA" "19380" -75.6087451 39.9635084
+"Avon Grove Free Library" "117 Rosehill Avenue" "West Grove" "PA" "19390" -75.825355 39.8224791
+"West Newton Public Library" "124 N Water St." "West Newton" "PA" "15089" -79.76711 40.21119
+"West Pittston Library" "200 Exeter Ave" "West Pittston" "PA" "18643" -75.7954521 41.3302944
+"Westfield Public Library" "147 Maple St" "Westfield" "PA" "16950" -77.5374471 41.9182978
+"Carnegie Library Of Mckeesport - White Oak" "169 Victoria Drive" "White Oak" "PA" "15131" -79.8136159 40.3529572
+"Whitehall Township Public Library" "3700 Mechanicsville Rd" "Whitehall" "PA" "18052" -75.5026368 40.6501047
+"Wilcox Public Library" "105 Clarion Street" "Wilcox" "PA" "15870" -78.688221 41.575264
+"Osterhout Free Library" "71 South Franklin St" "Wilkes-Barre" "PA" "18701" -75.8854789 41.2460965
+"Wilkinsburg Public Library" "605 Ross Ave" "Wilkinsburg" "PA" "15221" -79.8858507 40.4433488
+"Williamsburg Public Library" "511 West 2nd St" "Williamsburg" "PA" "16693" -78.2036997 40.461996
+"Barbours Link" "179 Dunwoody Road" "Williamsport" "PA" "17701" -76.7970378 41.3915265
+"James V. Brown Library" "19 East 4th Street" "Williamsport" "PA" "17701" -77.0018881 41.242938
+"Lycoming County Library System" "19 East 4th St" "Williamsport" "PA" "17701" -77.0018881 41.242938
+"Upper Moreland Free Public Library" "109 Park Avenue" "Willow Grove" "PA" "19090" -75.1171592 40.1444791
+"Windber Public Library Association" "1909 Graham Ave" "Windber" "PA" "15963" -78.8274481 40.2327099
+"Womelsdorf Community Library" "203 W High St" "Womelsdorf" "PA" "19567" -76.1868939 40.3638251
+"W W F Community Library" "214 East Main St" "Worthington" "PA" "16262" -79.6256329 40.837309
+"Bucks County Free Library - Village Library Of Wrightstown" "727 Penns Park Road" "Wrightstown" "PA" "18940" -74.9927559 40.2650571
+"Wyalusing Public Library" "202 Church Street" "Wyalusing" "PA" "18853" -76.2621394 41.6666186
+"Free Library Of Springfield Township" "1600 Paper Mill Rd" "Wyndmoor" "PA" "19038" -75.1955235 40.0995248
+"Penn Wynne Library" "130 Overbrook Parkway" "Wynnewood" "PA" "19096" -75.2749395 39.9836355
+"Wyoming Free Library" "358 Wyoming Ave" "Wyoming" "PA" "18644" -75.840128 41.30885
+"Spring Township Library" "78-C Commerce Drive" "Wyomissing" "PA" "19610" -75.985801 40.349128
+"Wyomissing Public Library" "9 Reading Blvd" "Wyomissing" "PA" "19610" -75.9582365 40.3346673
+"Bucks County Free Library - Yardley-Makefield Branch" "1080 Edgewood Road" "Yardley" "PA" "19067" -74.8387863 40.2238548
+"Yeadon Public Library" "809 Longacre Blvd" "Yeadon" "PA" "19050" -75.2510993 39.9362063
+"Jefferson Resource Center And Computer Lab" "501 N. Pershing Ave." "York" "PA" "17404" -76.7350218 39.9677746
+"Martin Library At Manchester Township" "3200 Farmtrail Road" "York" "PA" "17402" -76.753609 40.0208815
+"Martin Library At The Art Institute Of York" "1409 Williams Road" "York" "PA" "17402" -76.663816 39.9922779
+"Martin Memorial Library" "159 East Market St" "York" "PA" "17401" -76.7241589 39.9637418
+"Wellington Resource Center And Computer Lab" "303 Brooklyn Ave" "York" "PA" "17403" -76.734146 39.9554015
+"York County Library System" "159 East Market Street" "York" "PA" "17401" -76.7241589 39.9637418
+"Youngsville Public Library" "100 Broad Street" "Youngsville" "PA" "16371" -79.3213061 41.8520812
+"Youngwood Area Public Library" "17 South Sixth St" "Youngwood" "PA" "15697" -79.58169 40.239918
+"Zelienople Public Library" "227 South High St" "Zelienople" "PA" "16063" -80.1354606 40.7933856
+"Aguada Public Library" "159 Colon St." "Aguada" "PA" "00602" -77.1945247 41.2033216
+"Aguadilla Public Library (Ana Roque De Duprey)" "20 Agustin Stahl St." "Aguadilla" "PA" "00605" -77.1945247 41.2033216
+"Arecibo Public Library (Nicolas Nabal Barreto)" "210 Santiago Iglesias Pantin Ave." "Arecibo" "PA" "00612" -77.1945247 41.2033216
+"Caguas Public Library (Dr. Pedro Albizu Campos)" "38 Padial St." "Caguas" "PA" "72609" -77.1945247 41.2033216
+"Camuy Public Library" "po box 569" "Camuy" "PA" "00627" -77.1945247 41.2033216
+"Catao Public Library (Alberto Davila Fuertes)" "165 Las Nereidas Ave." "Catao" "PA" "00962" -77.1945247 41.2033216
+"Ceiba Public Library" "po box 224" "Ceiba" "PA" "00735" -79.9352778 9.2433333
+"Corozal Public Library" "13 Marina St." "Corozal" "PA" "78322" NA NA
+"Fajardo Public Library (Arcadio S. Belaval)" "53 Garrido Morales St. Corner Of Ig" "Fajardo" "PA" "00738" -77.1945247 41.2033216
+"Florida Municipal Library" "65 Juan Rosado Ave." "Florida" "PA" "00650" -77.1945247 41.2033216
+"Guanica Public Library (Domingo Suarez Cruz)" "49 Trece De Marzo St." "Guanica" "PA" "00653" -77.1945247 41.2033216
+"Guayama Electronic Municipal Library" "1 Ashford St., Corner Of Vicente Pa" "Guayama" "PA" "78503" -77.1945247 41.2033216
+"San Juan Community Library At Bucaplaa" "po box 3758" "Guaynabo" "PA" "97037" -77.1945247 41.2033216
+"Hatillo Electronic Library (Pedro Lopez)" "po box 8" "Hatillo" "PA" "65900" -80.7796313 7.9681361
+"Hormigueros Public Municipal Library" "po box 47" "Hormigueros" "PA" "00660" -77.1945247 41.2033216
+"Jayuya Public Library (Nemesio R. Canales)" "86 Guillermo Estevez St." "Jayuya" "PA" "66404" -77.1945247 41.2033216
+"Juncos Public Library (Dr. Jose M. Gallardo)" "po box 1706" "Juncos" "PA" "00777" -75.965858 40.313096
+"Las Piedras Municipal Library (Aurea M. Perez)" "89 Celso Barbosa St." "Las Piedras" "PA" "00771" -77.1945247 41.2033216
+"Loiza Public Library" "po box 508" "Loiza" "PA" "00772" -77.1945247 41.2033216
+"Morovis Electronic Municipal Library" "po box 655" "Morovis" "PA" "00687" -77.1945247 41.2033216
+"Naranjito Public Municipal Library (Eugenio Morales Ayala)" "136 Ignacio Morales St." "Naranjito" "PA" "00719" -77.1945247 41.2033216
+"Patillas Public Library (Luis Manuel Santana Gaston)" "17 Luis Munoz Rivera St." "Patillas" "PA" "72306" -77.1945247 41.2033216
+"Ponce Municipal Library (Mariana Suarez De Longo Municipal A" "po box 1709" "Ponce" "PA" "73317" -78.71624 41.163277
+"San German Public Library (Raquel Quinones)" "11 Jose Julian Acosta St." "San German" "PA" "68340" -79.8520818 39.8841524
+"Biblioteca De Todos - La Fondita De Jesus" "1050 Monserrate St." "San Juan" "PA" "91013" -66.0798018 18.4481091
+"Carnegie Public Library" "7 Constitution Ave." "San Juan" "PA" "90120" -77.0925431 -12.0417683
+"Puerto Rico Art Museum Research Center Library" "299 De Diego Ave." "San Juan" "PA" "94012" -66.0662587 18.4484447
+"Regional Library For The Blind And Physically Impaired" "520 Constitution Ave" "San Juan" "PA" "00901" -77.0923043 -12.0422744
+"Toa Baja Public Library (Jaime Fonalledas)" "55 Luis Munoz Rivera St." "Toa Baja" "PA" "00949" -77.1945247 41.2033216
+"Trujillo Alto Municipal Library (Emilio Diaz Valcarcel)" "29 Luis Munoz Rivera St." "Trujillo Alto" "PA" "97718" -77.1945247 41.2033216
+"Utuado Public Library" "118 Dr. Cueto St." "Utuado" "PA" "64128" -77.1945247 41.2033216
+"Yabucoa Public Library (Reinaldo Alvarez Costa)" "po box 97" "Yabucoa" "PA" "00767" -77.1945247 41.2033216
+"Yauco Public Library (Luis E. Catala)" "4 Baldorioty St." "Yauco" "PA" "00698" -77.1945247 41.2033216

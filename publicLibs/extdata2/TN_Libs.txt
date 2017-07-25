@@ -1,0 +1,285 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Irving Meek Jr., Public Library" "204 West Main Street" "Adamsville" "TN" "38310" -88.3980253 35.2336542
+"Crockett County Library" "258 E. Church Street" "Alamo" "TN" "38001" -89.1131592 35.7866172
+"Alexandria Branch Library" "109 Public Square" "Alexandria" "TN" "" -86.0333222 36.0775587
+"Algood Branch Library" "125 Fourth Avenue" "Algood" "TN" "" -85.4522567 36.1937925
+"Altamont Public Library" "1433 Main Street" "Altamont" "TN" "37305" -85.7219996 35.426716
+"Southeast Branch Library" "2325 Hickory Highlands Drive" "Antioch" "TN" "" -86.6411873 36.0603468
+"Ardmore Public Library" "26347 Main Street" "Ardmore" "TN" "38449" -86.8496974 34.9930952
+"Sam T. Wilson Public Library" "11968 Walker" "Arlington" "TN" "38002" -89.663814 35.295724
+"Cheatham County Public Library" "188 County Services Drive, Suite 20" "Ashland City" "TN" "37015" -87.0521502 36.2885305
+"E. G. Fisher Public Library" "1289 Ingleside Avenue" "Athens" "TN" "37303" -84.582611 35.4547162
+"Auburntown Public Library" "73 East Main Street" "Auburntown" "TN" "" -86.0959648 35.9482666
+"Bartlett Branch Library" "6382 Stage Road" "Bartlett" "TN" "" -89.8503719 35.2050052
+"Bean Station Public Library" "895 Broadway Drive" "Bean Station" "TN" "37708" -83.2817005 36.332413
+"Beersheba Springs Public Library" "19683 State Route 56" "Beersheba Springs" "TN" "37305" -85.6578573 35.4649192
+"Benton Public Library" "6239 Highway 411" "Benton" "TN" "37307" -84.653193 35.173392
+"Big Sandy Branch Library" "12 Front Street" "Big Sandy" "TN" "" -88.0866788 36.2348958
+"Blaine Public Library" "220 Indian Ridge Road" "Blaine" "TN" "37709" -83.6985939 36.1523085
+"Sullivan County Public Library" "1655 Blountville Boulevard" "Blountville" "TN" "37617" -82.3165804 36.5326633
+"Thomas Memorial Branch Library" "481 Cedar Street" "Bluff City" "TN" "" -82.260267 36.474249
+"Bolivar Hardeman County Library" "213 North Wasington St." "Bolivar" "TN" "38008" -88.9891139 35.2571534
+"The Brentwood Library" "8109 Concord Road" "Brentwood" "TN" "37027" -86.7895988 35.9945549
+"Briceville Public Library" "921 Andys Ridge Road" "Briceville" "TN" "37710" -84.1773883 36.1806747
+"Bristol Public Library" "701 Goode Street" "Bristol" "TN" "" -82.1855215 36.5959409
+"Elma Ross Public Library" "1011 E. Main Street" "Brownsville" "TN" "38012" -89.25202 35.5935763
+"St. Clair Library" "118 St. Clair Park Circle" "Bulls Gap-St. Clair" "TN" "" -83.0856096 36.3301288
+"Pickett County Library" "79 Pickett Square Annex" "Byrdstown" "TN" "38549" -85.1398711 36.5746764
+"Calhoun Public Library" "746 Hwy 163" "Calhoun" "TN" "37309" -84.7504256 35.2968484
+"Benton County Library" "121 South Forrest Avenue" "Camden" "TN" "38320" -88.097821 36.056776
+"Smith County Public Library" "215 North Main Street" "Carthage" "TN" "37030" -85.952511 36.251594
+"Caryville Public Library" "4839 Old Highway 63, Suite 2" "Caryville" "TN" "37714" -84.2232612 36.2989682
+"Clay County Public Library" "116 Guffey Street" "Celina" "TN" "38551" -85.5073722 36.5481331
+"Hickman County Public Library" "120 West Swan Street" "Centerville" "TN" "37033" -87.4704998 35.7823165
+"Chattanooga-Hamilton County Bicentennial Library" "1001 Broad Street" "Chattanooga" "TN" "37402" -85.310803 35.0443746
+"Eastgate Branch Library" "5705 Marlin Road" "Chattanooga" "TN" "" -85.2113456 35.0085796
+"Northgate Branch Library" "520 Northgate Mall" "Chattanooga" "TN" "" -85.2410423 35.1327657
+"South Chattanooga Branch Library" "925 West 39th Street" "Chattanooga" "TN" "" -85.3205773 35.0086658
+"Church Hillbranch Library" "412 East Main Boulevard" "Church Hill" "TN" "" -82.7001784 36.5245392
+"Clarksville Montgomery County Public Library" "350 Pageant Lane, Suite 501" "Clarksville" "TN" "37040" -87.3409037 36.5207876
+"Cleveland Bradley County Library" "795 Church Street Ne" "Cleveland" "TN" "37311" -84.8726352 35.1634178
+"Cleveland History Branch" "833 North Ocoee Street" "Cleveland" "TN" "" -84.873301 35.164536
+"Clifton Branch Library" "300 East Water Street" "Clifton" "TN" "" -87.9906369 35.3876845
+"Clinton Public Library" "118 South Hicks Street" "Clinton" "TN" "37716" -84.135368 36.0989356
+"Coalfield Public Library" "112 Jerry Jones Road" "Coalfield" "TN" "37719" -84.419915 36.0264507
+"Coalmont Public Library" "7426 Sr 56" "Coalmont" "TN" "37313" -85.6995176 35.3635627
+"Cossitt Branch Library" "33 South Front Street" "Collierville" "TN" "" -89.7278232 35.0971007
+"Lucius E. And Elsie C. Burch, Jr. Library" "501 Poplar View Pkwy" "Collierville" "TN" "38017" -89.701177 35.053333
+"Collinwood Depot Branch Library" "101 East Depot Street" "Collinwood" "TN" "" -87.736545 35.173714
+"Maury County Public Library" "211 West Eighth Street" "Columbia" "TN" "38401" -87.037088 35.613469
+"Putnam County Library" "50 East Broad Street" "Cookeville" "TN" "38501" -85.504155 36.1635132
+"Copperhill Public Library" "160 Main Street" "Copperhill" "TN" "37317" -84.3863632 35.0316377
+"Cordova Branch Library" "1017 North Sanga Road" "Cordova" "TN" "" -89.7720153 35.1530115
+"Corryton Branch Library" "7733 Corryton Road" "Corryton" "TN" "" -83.7818181 36.1536883
+"Cosby Community Library" "3292 Cosby Hwy, Suite 1" "Cosby" "TN" "37722" -83.2228831 35.8428214
+"Tipton County Public Library" "300 West Church Avenue" "Covington" "TN" "38019" -89.648927 35.5621915
+"Art Circle Public Library" "154 East First" "Crossville" "TN" "38555" -85.0232155 35.9479251
+"Dandridge Memorial Library" "1235 Circle Drive" "Dandridge" "TN" "37725" -83.414756 36.014176
+"Clyde W. Roddy Public Library" "371 First Avenue" "Dayton" "TN" "37321" -85.014218 35.493756
+"Meigs-Decatur Public Library" "120 Memorial Drive" "Decatur" "TN" "37322" -84.789738 35.5142049
+"Decatur County Public Library" "20 West Market Street" "Decaturville" "TN" "38329" -88.1219669 35.5848714
+"Deer Lodge Public Library" "110 Corinne Ave" "Deer Lodge" "TN" "37726" -84.759113 36.2014629
+"Marie Ellison Memorial Library" "480 S. Hwy 107" "Del Rio" "TN" "37727" -83.017323 35.903535
+"Dickson County Public Library" "206 Henslee Drive" "Dickson" "TN" "37055" -87.3737346 36.0759262
+"Stewart County Public Library" "102 Natcor Drive" "Dover" "TN" "37058" -87.831222 36.485881
+"Ned R. Mcwherter Weakley County Library" "341 Linden Street" "Dresden" "TN" "38225" -88.705355 36.287546
+"Ducktown Public Library" "340 Main Street" "Ducktown" "TN" "37326" -84.3817585 35.0365971
+"Sequatchie County Public Library" "227 Cherry Street" "Dunlap" "TN" "37327" -85.391066 35.3715959
+"Mcivers Grant Public Library" "204 N. Mill Street" "Dyersburg" "TN" "38024" -89.3864453 36.033949
+"East Ridge City Library" "1517 Tombras Avenue" "East Ridge (In)" "TN" "37412" -85.2424584 34.9966227
+"Elizabethton Carter County Public Library" "201 N. Sycamore Street" "Elizabethton" "TN" "37643" -82.2152468 36.3490886
+"Elkton Branch Library" "110 Main Street" "Elkton" "TN" "" -86.8887837 35.0523675
+"Englewood Public Library" "35 Carroll Street" "Englewood" "TN" "37329" -84.4894101 35.42569
+"Houston County Public Library" "24 S. Spring Street" "Erin" "TN" "37061" -87.69483 36.317999
+"Unicoi County Public Library" "201 Nolichucky Ave" "Erwin" "TN" "37650" -82.4181001 36.1453851
+"Etowah Carnegie Library" "723 Ohio Avenue" "Etowah" "TN" "37331" -84.5261462 35.3244738
+"Fairview Public Library" "2240 Fairview Boulevard" "Fairview" "TN" "" -87.1297692 35.972217
+"Fayetteville-Lincoln County Public Library" "400 Rocky Knob Lane" "Fayetteville" "TN" "37334" -86.569669 35.155625
+"Leipers Fork Public Library" "5333 Old Highway 96" "Franklin" "TN" "" -86.9977428 35.8972079
+"Williamson County Genealogy Library" "510 Columbia Avenue" "Franklin" "TN" "" -86.8714582 35.9232383
+"Williamson County Public Library" "1314 Columbia Ave" "Franklin" "TN" "37064" -86.8747193 35.9147789
+"Charles Ralph Holland Memorial Library" "205 West Hull Avenue" "Gainesboro" "TN" "38562" -85.660247 36.35524
+"Gallatin Public Library Of Sumner County" "658 Hartsville Pike" "Gallatin" "TN" "37066" -86.430547 36.391055
+"Anna Porter Public Library" "207 Cherokee Orchard Rd" "Gatlinburg" "TN" "37738" -83.5137265 35.7111875
+"Germantown Community Library" "1925 Exeter Road" "Germantown" "TN" "38138" -89.8027452 35.0965256
+"Gleason Memorial Library" "105 College" "Gleason" "TN" "38229" -88.6127215 36.2128835
+"Goodlettsville Branch Library" "106 Old Brick Church Pike" "Goodlettsville" "TN" "" -86.7144176 36.3256639
+"Gordonsville Branch Library" "63 E. Main Street" "Gordonsville" "TN" "" -85.93734 36.173323
+"Grand Junction Community Library" "103 Washington Street" "Grand Junction" "TN" "38039" -89.186554 35.0471695
+"Gray Branch Library" "5026 Bobby Hicks Highway" "Gray" "TN" "" -82.4745241 36.4093527
+"Graysville Public Library" "151 Mill Street" "Graysville" "TN" "37338" -85.078684 35.445576
+"Greenback Public Library" "6889 Morganton Road" "Greenback" "TN" "37742" -84.176959 35.658507
+"Greeneville-Greene County Public Library" "210 N. Main Street" "Greeneville" "TN" "37745" -82.8301045 36.1645571
+"T. Elmer Cox Historical And Genealogical Collection" "229 N Main Street" "Greeneville" "TN" "" -82.829113 36.167007
+"Dr. Nathan Porter Library" "228 North Front St." "Greenfield" "TN" "38230" -88.800056 36.15571
+"Halls Public Library" "110 North Church Street" "Halls" "TN" "38040" -89.3959857 35.8758555
+"Harriman Public Library" "601 Walden Street" "Harriman" "TN" "37748" -84.5502468 35.9331669
+"Fred A. Vaught Memorial Library" "211 White Oak Street" "Hartsville" "TN" "37074" -86.161453 36.39474
+"Chester County Library" "1012 East Main" "Henderson" "TN" "38340" -88.6014888 35.449775
+"Martin Curtis-Hendersonville Public Library" "116 Dunn Street" "Hendersonville" "TN" "37077" -86.6223167 36.303064
+"Hermitage Branch Library" "3700 James Kay Lane" "Hermitage" "TN" "" -86.6155396 36.1771847
+"Lewis County Public Library" "15 Kyle Avenue" "Hohenwald" "TN" "38462" -87.5525834 35.5504275
+"Humboldt Public Library" "115 S. 16th Ave." "Humboldt" "TN" "38343" -88.9153802 35.819162
+"Carroll County Library" "625 High Street, Suite 102" "Huntingdon" "TN" "38344" -88.410222 36.022371
+"Huntsville Public Library" "314 Court House Square" "Huntsville" "TN" "37756" -86.7058793 34.7932149
+"Jacksboro Public Library" "585 Main Street, Suite 201" "Jacksboro" "TN" "37757" -84.1829417 36.3302105
+"Jackson-Madison County Library" "433 East Lafayette Street" "Jackson" "TN" "38301" -88.8146733 35.6153307
+"Fentress County Library" "306 South Main Street" "Jamestown" "TN" "38556" -84.9325065 36.4241032
+"Jasper Public Library" "14 West Second Street" "Jasper" "TN" "37347" -85.6241322 35.0754873
+"Jefferson City Public Library" "1427 Russell Ave" "Jefferson City" "TN" "37760" -83.4932221 36.1170209
+"Jellico Public Library" "104 North Main Street" "Jellico" "TN" "37762" -84.1268668 36.5879065
+"Johnson City Public Library" "100 West Millard Street" "Johnson City" "TN" "37604" -82.3544368 36.3197438
+"Washington County-Jonesborough Public Library" "200 Sabin Drive" "Jonesborough" "TN" "37659" -82.4722818 36.2959065
+"Bloomingdale Branch Library" "3230 Van Horn Street" "Kingsport" "TN" "" -82.4882779 36.5856489
+"Colonial Heights Branch Library" "149 Pactolus Road" "Kingsport" "TN" "" -82.527766 36.4913148
+"George Washington Carver Branch Library" "1013 Douglas Street" "Kingsport" "TN" "" -82.5547183 36.5367666
+"Kingsport Public Library" "400 Broad Street" "Kingsport" "TN" "37660" -82.5595152 36.5486105
+"Sullivan Gardens Branch Library" "104 Bluegrass Drive" "Kingsport" "TN" "" -82.594873 36.4787309
+"Kingston Public Library" "1004 Bradford Way" "Kingston" "TN" "37763" -84.5207329 35.8658609
+"South Cheatham Public Library" "358 North Main Street" "Kingston Springs" "TN" "37082" -87.1148333 36.099668
+"Bonny Kate Branch Library" "7732 Martin Mill Pike" "Knoxville" "TN" "" -83.893831 35.879788
+"Burlington Branch Library" "4512 Asheville Highway" "Knoxville" "TN" "" -83.8624779 36.0046159
+"Carter Branch Library" "9036 Asheville Highway" "Knoxville" "TN" "" -83.725652 36.022953
+"Cedar Bluff Branch Library" "9045 Cross Park Drive" "Knoxville" "TN" "" -84.08403 35.9236322
+"Farragut Branch Library" "417 N Campbell Station Road" "Knoxville" "TN" "" -84.1696536 35.8894972
+"Fountain City Branch Library" "213 Hotel Avenue" "Knoxville" "TN" "" -83.9333958 36.0368585
+"Halls Branch Library" "7006a Maynardville Highway" "Knoxville" "TN" "" -83.7662897 36.2803604
+"Karns Branch Library" "7516 Oak Ridge Highway" "Knoxville" "TN" "" -84.0976648 35.9812537
+"Knox County Public Library System" "500 W. Church Avenue" "Knoxville" "TN" "37902" -83.9194949 35.9622831
+"Lawson Mcghee Library" "500 West Church Avenue" "Knoxville" "TN" "" -83.9194949 35.9622831
+"Mcclung, East Tn History Center Knox Archives" "314 West Clinch Avenue" "Knoxville" "TN" "" -83.9178622 35.9642033
+"North Knoxville Branch Library" "2901 Ocoee Trail" "Knoxville" "TN" "" -83.9229082 36.0006232
+"Norwood Branch Library" "1110 Merchants Drive" "Knoxville" "TN" "" -83.9831522 36.0026548
+"Sequoyah Branch Library" "1140 Southgate Road" "Knoxville" "TN" "" -83.9673262 35.9328723
+"South Knoxville Branch Library" "4500 Chapman Highway" "Knoxville" "TN" "" -83.9034304 35.9329085
+"West Knoxville Branch Library" "100 Golf Club Road" "Knoxville" "TN" "" -84.0168162 35.9317203
+"Kodak Branch" "319 West Dumplin Valley Road" "Kodak" "TN" "" -83.6223946 35.9770815
+"La Vergne Public Library" "5063 Murfreesboro Road" "La Vergne" "TN" "37086" -86.5827063 36.0225863
+"Macon County Public Library" "311 Church Street" "Lafayette" "TN" "37083" -86.0325065 36.5222649
+"Lafollette Public Library" "201 South Tennessee Avenue" "Lafollette" "TN" "37766" -84.121336 36.379605
+"Lake City Public Library" "226 North Main St." "Lake City" "TN" "37769" -84.156327 36.224087
+"Lawrence County Public Library" "519 East Gaines Street" "Lawrenceburg" "TN" "38464" -87.3271058 35.2400681
+"Lebanon-Wilson County Public Library" "108 South Hatton Avenue" "Lebanon" "TN" "37087" -86.2987888 36.2081066
+"Lenoir City Public Library" "100 West Broadway" "Lenoir City" "TN" "37771" -84.2660957 35.7905818
+"Marshall County Memorial Library" "310 Old Farmington Road" "Lewisburg" "TN" "37091" -86.782676 35.457584
+"Everett Horn Public Library" "702 West Church Street" "Lexington" "TN" "38351" -88.4216244 35.659936
+"Perry County Public Library" "104 College Ave" "Linden" "TN" "37096" -87.8394853 35.6091003
+"Millard Oakley Public Library" "107 East Main Street" "Livingston" "TN" "38570" -85.3224587 36.3831846
+"Overton County Public Library" "225 East Main Street" "Livingston" "TN" "" -85.318984 36.383984
+"Lobelville Public Library" "55 South Main Street" "Lobelville" "TN" "37097" -87.7836931 35.7715558
+"Loretto Branch Library" "102 South Main Street" "Loretto" "TN" "" -87.4398752 35.0788631
+"Loudon Public Library" "210 River Road" "Loudon" "TN" "37774" -84.3451451 35.7393471
+"Tellico Village Public Library" "304 Lakeside Plaza" "Loudon" "TN" "37774" -84.2645528 35.6850234
+"Luttrell Public Library" "115 Park Road" "Luttrell" "TN" "37779" -83.7552024 36.2025567
+"East Hickman Public Library" "4887 Highway 100" "Lyles" "TN" "" -87.3302912 35.9162628
+"Moore County Public Library" "17 Lynchburg Hwy." "Lynchburg" "TN" "37352" -86.3733869 35.283927
+"Robert B. Jones Memorial Library Museum" "135 Main Street" "Lynnville" "TN" "38472" -87.0026042 35.3774335
+"Nashville Talking Library" "700 2nd Avenue South, Room 200" "Madison" "TN" "" -86.710791 36.261117
+"Madisonville Public Library" "884 Englewood Road A" "Madisonville" "TN" "37354" -84.3776553 35.5067077
+"Coffee County-Manchester Public Library" "1005 Hillsboro Blvd." "Manchester" "TN" "37355" -86.0775242 35.4739256
+"C. E. Weldon Public Library" "100 Main Street" "Martin" "TN" "38237" -88.850149 36.343376
+"Blount County Public Library" "508 N. Cusick Street" "Maryville" "TN" "37804" -83.9724568 35.7586884
+"Mascot Branch Library" "2010 Library Road" "Mascot" "TN" "" -83.7427699 36.0625794
+"Maynardville Public Library" "296 Main Street" "Maynardville" "TN" "37807" -83.811121 36.242543
+"Mckenzie Memorial Library" "15 N. Broadway" "Mckenzie" "TN" "38201" -88.5187234 36.1314055
+"Magness Community House Library" "118 West Main Street" "Mcminnville" "TN" "37110" -85.774229 35.68156
+"Cherokee Branch Library" "3300 Sharpe" "Memphis" "TN" "" -89.9530419 35.0870734
+"Cornelia Crenshaw Branch" "531 Vance Avenue" "Memphis" "TN" "" -90.0443338 35.1343568
+"East Shelby Branch" "7200 East Shelby Drive" "Memphis" "TN" "" -89.823277 35.02129
+"Frayser Branch" "3712 Argonne" "Memphis" "TN" "" -90.0014279 35.2267751
+"Gaston Park Branch" "1040 South Third Street" "Memphis" "TN" "" -90.0550895 35.1190629
+"Highland Branch" "460 South Highland" "Memphis" "TN" "" -89.9451365 35.1189378
+"Hollywood Branch" "1530 North Hollywood" "Memphis" "TN" "" -89.9862099 35.15555
+"Levi Branch" "3676 Highway 61 South" "Memphis" "TN" "" -90.062432 35.0483972
+"Memphis Public Library And Information Center" "3030 Poplar Avenue" "Memphis" "TN" "38111" -89.9606029 35.1335112
+"North Branch" "1192 Vollintine" "Memphis" "TN" "" -90.0174121 35.1658213
+"Parkway Village Branch" "4655 Knight Arnold" "Memphis" "TN" "" -89.9084175 35.0620234
+"Poplar-White Station Branch" "5094 Poplar" "Memphis" "TN" "" -89.892124 35.111567
+"Raleigh Branch" "3157 Powers Road" "Memphis" "TN" "" -89.9214377 35.2119526
+"Randolph Branch" "3752 Given" "Memphis" "TN" "" -89.9352446 35.1563345
+"South Branch" "1929 South Third Street" "Memphis" "TN" "" -90.0558252 35.0958243
+"Whitehaven Branch" "4122 Barton Drive" "Memphis" "TN" "" -90.021916 35.036359
+"Middleton Community Library" "110 Bolton Ave" "Middleton" "TN" "38052" -88.8899417 35.0598444
+"Mildred G. Fields Memorial Library" "1075a E. Van Hook Street" "Milan" "TN" "38358" -88.7504115 35.9185989
+"Millington Public Library" "4858 Navy Road" "Millington" "TN" "38053" -89.90141 35.3417848
+"Minor Hill Public Library" "108 Pickett Drive" "Minor Hill" "TN" "38473" -87.1593067 35.051391
+"May Justus Memorial Library" "24 Dixie Lee Avenue" "Monteagle" "TN" "37356" -85.826115 35.23959
+"Monterey Branch Library" "401 E Commercial Avenue" "Monterey" "TN" "" -85.2652697 36.145326
+"Morristown-Hamblen Public Library" "417 West Main Street" "Morristown" "TN" "37814" -83.2959076 36.2114964
+"Mosheim Public Library" "730 Main Street" "Mosheim" "TN" "37818" -82.9596641 36.1889449
+"Johnson County Public Library" "219 N. Church Street" "Mountain City" "TN" "37683" -81.803882 36.4758039
+"Mt. Pleasant Branch Library" "200 Hay Long Avenue" "Mt Pleasant" "TN" "" -87.2080468 35.5348937
+"Mt. Carmel Library" "100 1-2 Main Street" "Mt. Carmel (In)" "TN" "37645" -82.6549251 36.5454237
+"Mt. Juliet-Harvey Freeman Public Library" "2765 N. Mt. Juliet Rd." "Mt. Juliet" "TN" "37122" -86.5159003 36.2083916
+"Munford-Tipton Memorial Public Library" "87 College Street" "Munford" "TN" "38058" -89.8139246 35.4461984
+"Linebaugh Public Library" "105 West Vine Street" "Murfreesboro" "TN" "37130" -86.3921044 35.844191
+"Bellevue Branch Library" "650 Colice Jeanne Road" "Nashville" "TN" "" -86.9336061 36.0724476
+"Bordeaux Branch Library" "4000 Clarksville Pike" "Nashville" "TN" "" -86.8383548 36.2113434
+"Donelson Branch Library" "2315 Lebanon Road" "Nashville" "TN" "" -86.6834104 36.1683418
+"East Branch Library" "206 Gallatin Road" "Nashville" "TN" "" -86.7114583 36.2642596
+"Edgehill Branch Library" "1409 12th Avenue, South" "Nashville" "TN" "" -86.7880374 36.1394278
+"Edmondson Pike Branch Library" "5501 Edmondson Pike" "Nashville" "TN" "" -86.745315 36.0449439
+"Green Hills Branch Library" "3701 Benham Avenue" "Nashville" "TN" "" -86.8091029 36.109904
+"Hadley Park Branch Library" "1038 28th Avenue, North" "Nashville" "TN" "" -86.8203359 36.1670606
+"Inglewood Branch Library" "4312 Gallatin Road" "Nashville" "TN" "" -86.7248365 36.2257292
+"Library Service For Deaf And Hard Of Hearing" "615 Church Street" "Nashville" "TN" "" -86.7815583 36.1617302
+"Madison Branch Library" "610 Gallatin Pike South" "Nashville" "TN" "" -86.7152057 36.2575207
+"Mary Charles W. Pruitt Library" "117 Charles E Davis Boulevard" "Nashville" "TN" "" -86.7616844 36.151731
+"Metropolitan Archives Of Davidson County" "1113 Elm Hill Pike" "Nashville" "TN" "" -86.733886 36.143014
+"North Branch Library" "1001 Monroe Street" "Nashville" "TN" "" -86.7959057 36.1741182
+"Richland Park Branch Library" "4711 Charlotte Avenue" "Nashville" "TN" "" -86.8436347 36.1521224
+"Thompson Lane Branch Library" "380 Thompson Lane" "Nashville" "TN" "" -86.7432676 36.1111019
+"Watkins Park Community Library" "612 17th Avenue North" "Nashville" "TN" "" -86.8001381 36.1624355
+"Z. Alexander Looby Branch Library" "2301 Metro Center Boulevard" "Nashville" "TN" "" -86.7980849 36.1847678
+"Newbern City Library" "220 E. Main Street" "Newbern" "TN" "38059" -89.2622385 36.1131169
+"Stokely Memorial Library" "383 East Broadway" "Newport" "TN" "37821" -83.182238 35.966115
+"Niota Public Library" "11 East Main Street" "Niota" "TN" "37826" -84.5487614 35.513972
+"Nolensville Public Library" "915 Oldham Drive" "Nolensville" "TN" "" -86.6731459 35.9620024
+"Norris Community Library" "p. o. box 1110" "Norris" "TN" "37828" -84.067974 36.1956343
+"Oak Ridge Public Library" "1401 Oak Ridge Turnpike" "Oak Ridge (In)" "TN" "37830" -84.2567163 36.0145175
+"Oakdale Public Library" "212 Queen Street" "Oakdale" "TN" "37829" -84.5613236 35.9838836
+"Old Hickory Branch Library" "1010 Jones Avenue" "Old Hickory" "TN" "" -86.6462174 36.2599982
+"Oliver Springs Public Library" "610 Walker Avenue." "Oliver Springs" "TN" "37840" -84.345135 36.044876
+"Oneida Public Library" "290 South Main St." "Oneida" "TN" "37841" -84.5133828 36.5044549
+"Ooltewah-Collegedale Branch Library" "9318 Apison Pike" "Ooltewah" "TN" "" -85.0706695 35.0608714
+"W. G. Rhea Public Library" "400 West Washington Street" "Paris" "TN" "38242" -88.32873 36.3030864
+"Parrottsville Community Library" "2060 Canary Drive" "Parrottsville" "TN" "37843" -83.0930666 36.0094608
+"Parsons Public Library" "535 Tn Ave S." "Parsons" "TN" "38363" -88.1230451 35.6419604
+"Petros Public Library" "208 Main Street" "Petros" "TN" "37845" -84.443362 36.095473
+"Philadelphia Public Library" "714 Thompson St." "Philadelphia" "TN" "37846" -84.4040048 35.678304
+"Pigeon Forge Public Library" "2449 Library Drive" "Pigeon Forge" "TN" "37863" -83.5809106 35.8070769
+"Bledsoe County Library" "478 Cumberland Avenue" "Pikeville" "TN" "37367" -85.1885266 35.6052506
+"Portland Public Library" "301 Portland Boulevard" "Portland" "TN" "37148" -86.5090536 36.582416
+"Giles County Public Library" "122 South Second Street" "Pulaski" "TN" "38478" -87.0320598 35.1987092
+"Red Boiling Springs Branch Library" "335 E Main Street" "Red Boiling Springs" "TN" "" -85.8472064 36.5305213
+"Ridgely Public Library" "134 N. Main Street" "Ridgely" "TN" "38080" -89.4874682 36.264416
+"Lauderdale County Library" "120 Lafayette Street" "Ripley" "TN" "38063" -89.5280136 35.7472998
+"Rockwood Public Library" "117 North Front Street" "Rockwood" "TN" "37854" -84.6864062 35.8679232
+"H. B. Stamps Memorial Library" "407 East Main St" "Rogersville" "TN" "37857" -83.0039598 36.4079588
+"Rutledge Public Library" "8030 Rutledge Pike" "Rutledge" "TN" "37861" -83.5161357 36.2805472
+"Hardin County Library" "1365 Pickwick Street" "Savannah" "TN" "38372" -88.244966 35.207519
+"Jack Mcconnico Memorial Library" "225 Oak Grove Rd." "Selmer" "TN" "38375" -88.5731371 35.1634145
+"Sevier County Public Library System" "321 Court Ave" "Sevierville" "TN" "37862" -83.5667261 35.8644206
+"Seymour Branch Library" "11560 Chapman Highway" "Seymour" "TN" "" -83.7516194 35.8678886
+"Sharon Public Library" "133 Main St." "Sharon" "TN" "38255" -88.8257496 36.2337066
+"Argie Cooper Public Library" "100 S. Main Street" "Shelbyville" "TN" "37160" -86.460377 35.482029
+"Signal Mountain Public Library" "1114 James Boulevard" "Signal Mountain" "TN" "" -85.3356355 35.1333454
+"Justin Potter Library" "101 South First Street" "Smithville" "TN" "37166" -85.811934 35.960537
+"Smyrna Public Library" "400 Enon Springs West" "Smyrna" "TN" "" -86.5211391 35.9778082
+"Hancock County Public Library" "138 Willow Street" "Sneedville" "TN" "37869" -83.214208 36.534568
+"Somerville-Fayette County Library" "216 W. Market Street" "Somerville" "TN" "38068" -89.3518798 35.2443429
+"Beene-Pearson Public Library" "208 Elm Avenue" "South Pittsburg" "TN" "37380" -85.706132 35.013269
+"White County Public Library" "11 N. Church Street" "Sparta" "TN" "38583" -85.465368 35.926666
+"Burritt Memorial Library" "424 College Street" "Spencer" "TN" "38585" -85.4631405 35.7462516
+"Audrey Pack Memorial Library" "169 West Rhea Avenue" "Spring City" "TN" "37381" -84.8618517 35.6942468
+"Spring Hill Public Library" "144 Kedron Parkway" "Spring Hill" "TN" "37174" -86.9378254 35.7495784
+"Gorham Macbane Public Library" "405 White Street" "Springfield" "TN" "37172" -86.89033 36.5108
+"Parrott-Wood Memorial Library" "3133 W. Old Andrew Johnson Hwy." "Strawberry Plains" "TN" "37871" -83.685869 36.063007
+"Sunbright Public Library" "142 Melton Drive" "Sunbright" "TN" "37872" -84.6699442 36.2434093
+"Surgoinsville Public Library" "120 Old Stage Road" "Surgoinsville" "TN" "" -82.8533095 36.4699855
+"Sweetwater Public Library" "210 Mayes Avenue" "Sweetwater" "TN" "37874" -84.461221 35.602617
+"Barbara Reynolds Carr Memorial Library" "1304 Old Knoxville Road" "Tazewell" "TN" "37879" -83.581273 36.449093
+"Tellico Plains Public Library" "209 Highway 165" "Tellico Plains" "TN" "37385" -84.29941 35.367305
+"Bethesda Public Library" "4905 Bethesda Road" "Thompsons Station" "TN" "" -86.7989599 35.766666
+"Tiptonville Public Library" "126 Tipton Street" "Tiptonville" "TN" "38079" -89.477671 36.379214
+"Mary E. Tippitt Memorial Library" "120 Tiger Drive" "Townsend" "TN" "37882" -83.7550809 35.6742461
+"Tracy City Public Library" "217 Shook Street" "Tracy City" "TN" "37387" -85.731667 35.257042
+"Gibson County Memorial Library" "303 High Street" "Trenton" "TN" "38382" -88.942615 35.978631
+"Hamilton Parks Public Library" "74 Parks Plaza" "Trimble" "TN" "38259" -89.1914791 36.2045121
+"Trimble Public Library" "86 Main Street" "Trimble" "TN" "" -89.1928294 36.2021537
+"Coffee County Lannom Memorial Public Library" "312 North Collins Street" "Tullahoma" "TN" "37388" -86.2192941 35.3615479
+"Obion County Public Library" "1221 East Reelfoot Avenue" "Union City" "TN" "38261" -89.0458143 36.4135676
+"Vonore Public Library" "611 Church Street" "Vonore" "TN" "37885" -84.2449589 35.5909537
+"Wartburg Public Library" "514 Spring St." "Wartburg" "TN" "37887" -84.594877 36.103406
+"Washburn Public Library" "7715 Highway 141" "Washburn" "TN" "37888" -83.5955574 36.2894746
+"Watertown-Wilson County Library" "206 Public Square" "Watertown" "TN" "" -86.1339971 36.1001588
+"Humphreys County Public Library" "201 Pavo Avenue" "Waverly" "TN" "37185" -87.795434 36.084773
+"Wayne County Public Library" "525 Highway 64 East" "Waynesboro" "TN" "38485" -87.731076 35.3302404
+"Westmoreland Public Library" "2305 Epperson Springs Road" "Westmoreland" "TN" "37186" -86.246746 36.563086
+"White House Inn Library" "412 Highway 76" "White House" "TN" "37188" -86.6611036 36.4688206
+"White Pine Public Library" "1708 Main St" "White Pine" "TN" "37890" -83.285821 36.108134
+"Lee Ola Roberts Library" "140 W. Main St." "Whiteville" "TN" "38075" -89.1584026 35.3216952
+"Orena Humphreys Public Library" "900 Main Street, Suite 1" "Whitwell" "TN" "37397" -85.519439 35.200752
+"Franklin County Public Library" "105 South Porter Street" "Winchester" "TN" "37398" -86.1103525 35.1868814
+"Winfield Public Library" "24961 Scott Highway" "Winfield" "TN" "37892" -84.4487377 36.5653968
+"Adams Memorial Library" "212 College Street" "Woodbury" "TN" "" -86.075761 35.825758

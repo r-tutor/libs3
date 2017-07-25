@@ -1,0 +1,108 @@
+"location" "miles" "latitude" "longitude"
+"Airway Heights Library<br/>1213 S. Lundstrom<br/>Airway Heights, WA" 2.99733322249539 -117.5926528 47.6444723
+"Medical Lake Library<br/>321 E. Herb<br/>Medical Lake, WA" 3.67110061793086 -117.6796618 47.5710033
+"Cheney Library<br/>610 First Street<br/>Cheney, WA" 9.53907784394058 -117.5743989 47.4885736
+"Spokane Public Library<br/>906 W. Main Ave.<br/>Spokane, WA" 10.5665007018323 -117.42554 47.6594332
+"Shadle Branch Library<br/>2111 W. Wellesley<br/>Spokane, WA" 10.9732740945939 -117.442278 47.700308
+"Indian Trail Branch Library<br/>4909 W. Barnes Road<br/>Spokane, WA" 11.3057390371996 -117.4826107 47.7404391
+"Reardan Memorial Library<br/>120 S Oak<br/>Reardan, WA" 11.6354571422842 -117.8818269 47.6691334
+"South Hill Branch Library<br/>3324 S. Perry<br/>Spokane, WA" 11.8154582132241 -117.3905983 47.62431
+"East Side Branch Library<br/>524 S. Stone<br/>Spokane, WA" 12.6433316216386 -117.376977 47.650913
+"Moran Prairie Library<br/>3022 E. 57th, Suite 19<br/>Spokane, WA" 13.0111605084077 -117.3659085 47.6019241
+"Hillyard Branch Library<br/>4005 N. Cook<br/>Spokane, WA" 13.6337889119618 -117.3741318 47.6946806
+"North Spokane Library<br/>44 E. Hawthorne Road<br/>Spokane, WA" 14.269155346725 -117.409031 47.7507792
+"Lakeside Community Library<br/>6176 Hwy 291<br/>Nine Mile Falls, WA" 14.9352451029326 -117.6019347 47.8323239
+"Argonne Library<br/>4322 N. Argonne Road<br/>Spokane, WA" 17.7077739178968 -117.2819421 47.6964113
+"Spokane County Library District<br/>4322 N Argonne Rd<br/>Spokane, WA" 17.7077739178968 -117.2819421 47.6964113
+"Valley Library<br/>12004 E. Main Avenue<br/>Spokane Valley, WA" 18.8708930223009 -117.2434249 47.658564
+"Davenport Public Library<br/>505 7th St<br/>Davenport, WA" 23.7530292473953 -118.150754 47.653537
+"Deer Park Library<br/>208 S. Forest<br/>Deer Park, WA" 24.6094297190181 -117.4608787 47.9521093
+"Liberty Lake Municipal Library<br/>1421 N. Meadowwood Ln, Suite 130<br/>Liberty Lake, WA" 25.4686374352657 -117.1030088 47.6710503
+"Otis Orchards Library<br/>22324 E. Wellesley Avenue<br/>Otis Orchards, WA" 25.6957169435679 -117.10583 47.699926
+"Sprague Public Library<br/>119 West Second<br/>Sprague, WA" 27.0064046699437 -117.976962 47.299356
+"Fairfield Library<br/>305 E. Main<br/>Fairfield, WA" 27.3866363208709 -117.1700137 47.3852897
+"Rosalia Branch Library<br/>106 W. 5th<br/>Rosalia, WA" 29.3652471622983 -117.3706754 47.2360861
+"Harrington Public Library<br/>po box 496<br/>Harrington, WA" 30.0462531384198 -118.2544187 47.4809872
+"Library Of The Lakes<br/>4008 Cedar St.<br/>Loon Lake, WA" 30.7506079158751 -117.633422 48.062752
+"Community Library Network - Post Falls<br/>821 N Spokane<br/>Post Falls, ID" 33.0723979903524 -116.9490237 47.7164352
+"St. John Branch Library<br/>19 East Front Street<br/>St. John, WA" 36.5298341977694 -117.582023 47.0918355
+"Tekoa Branch Library<br/>120 E. Main<br/>Tekoa, WA" 38.2550589959501 -117.0734631 47.2221563
+"Plummer Public<br/>800 D St<br/>Plummer, ID" 40.5395669036365 -116.8854652 47.3341565
+"Coeur Dalene Public<br/>702 E Front Ave<br/>Coeur Dalene, ID" 40.5834647921508 -116.7767103 47.6721829
+"Community Library Network - Rathdrum<br/>16780 W Hwy 41<br/>Rathdrum, ID" 40.8318379372765 -116.8522531 47.8734222
+"Community Library Network - Hayden<br/>8385 N. Government Way<br/>Hayden, ID" 40.8734818604857 -116.7875599 47.7479346
+"Kootenai-Shoshone District<br/>8385 N Government Wy<br/>Hayden, ID" 40.8734818604857 -116.7875599 47.7479346
+"Community Library Network - Harrison<br/>111 Coeur Dalene Avenue<br/>Harrison, ID" 41.6565082416135 -116.785845 47.453626
+"Community Library Network - Spirit Lake<br/>32575 N. 5th Ave<br/>Spirit Lake, ID" 43.0611180122462 -116.8685908 47.9591662
+"Hunters Public Library<br/>6209 Columbia River Rd.<br/>Hunters, WA" 43.1069464681761 -118.2032025 48.1158011
+"Chewelah Public Library<br/>307 East Clay Ave<br/>Chewelah, WA" 45.701286560466 -117.7140253 48.2772669
+"Endicott Branch Library<br/>324 E Street<br/>Endicott, WA" 47.7760756799716 -117.685654 46.9281735
+"Newport Public Library<br/>116 S Washington Avenue<br/>Newport, WA" 47.837039949669 -117.0439936 48.1808592
+"Pend Oreille County Library District<br/>116 S. Washington Avenue<br/>Newport, WA" 47.837039949669 -117.0439936 48.1808592
+"Garfield Branch Library<br/>113 N 3rd<br/>Garfield, WA" 48.3628510997402 -117.1410436 47.0078467
+"Ritzville Public Library<br/>302 W Main<br/>Ritzville, WA" 48.5071395193861 -118.3816235 47.1262198
+"Community Library Network - Athol<br/>330399 3rd Street<br/>Athol, ID" 49.1212885141461 -116.7067618 47.9465678
+"Wilbur (Hesseltine) Public Library<br/>14 Nw Division<br/>Wilbur, WA" 50.3416638314702 -118.704655 47.7586988
+"Benewah District<br/>4345 Fox Rd<br/>Tensed, ID" 50.4912038704668 -116.812142 47.153829
+"Calispel Valley Library<br/>107 1st Ave<br/>Cusick, WA" 52.211459432903 -117.294775 48.3359716
+"Colfax Library<br/>102 S. Main<br/>Colfax, WA" 52.6736753900692 -117.3650619 46.880679
+"Whitman County Library<br/>102 S. Main Street<br/>Colfax, WA" 52.6736753900692 -117.3650619 46.880679
+"Odessa Public Library<br/>21 E. First Street<br/>Odessa, WA" 52.7511488766715 -118.6903759 47.3332644
+"St Maries Public<br/>822 College Ave<br/>St Maries, ID" 54.5001494209259 -116.5679959 47.3152771
+"Palouse Branch Library<br/>120 E Main<br/>Palouse, WA" 55.7753864554875 -117.0766863 46.9097378
+"Lacrosse Branch Library<br/>107 S Main<br/>Lacrosse, WA" 56.8502313806194 -117.8826181 46.8125702
+"Potlatch Public Library<br/>1010 Onaway Rd<br/>Potlatch, ID" 59.1296372554757 -116.9009488 46.9278839
+"Albion Branch Library<br/>310 F Street<br/>Albion, WA" 59.9969779970525 -117.2504361 46.7931253
+"Colville Public Library<br/>195 South Oak<br/>Colville, WA" 65.1279898850245 -117.9038188 48.5436262
+"Pullman (Neill) Public Library<br/>210 N Grand Ave<br/>Pullman, WA" 65.1362062869075 -117.1808553 46.7307755
+"Community Library Network - Pinehurst<br/>107 Main Avenue<br/>Pinehurst, ID" 65.7946710551354 -116.2386292 47.53979
+"Grand Coulee Community Library<br/>225 Federal<br/>Grand Coulee, WA" 66.9564874728092 -119.0027531 47.9393238
+"East Bonner County District<br/>1407 Cedar St<br/>Sandpoint, ID" 67.4376437042878 -116.5685389 48.2752965
+"East Bonner County Library District Sandpoint Branch Library<br/>1407 Cedar Street<br/>Sandpoint, ID" 67.4376437042878 -116.5685389 48.2752965
+"Latah County District<br/>110 S Jefferson St<br/>Moscow, ID" 68.3249898504431 -116.9982702 46.7333547
+"Kettle Falls Public Library<br/>605 Meyers St.<br/>Kettle Falls, WA" 71.0433918530194 -118.0561695 48.6077202
+"Columbia River Community Library<br/>225 E 3rd<br/>Kettle Falls, WA" 71.2378625152267 -118.0545879 48.6109327
+"Kellogg Public<br/>16 W Market Ave<br/>Kellogg, ID" 71.2429609631738 -116.1222804 47.5338496
+"Troy Public Library<br/>402 S Main St<br/>Troy, ID" 73.4790670431016 -116.7702372 46.73748
+"Priest Lake District<br/>28769 Hwy 57<br/>Priest Lake, ID" 76.0280942508349 -116.8233991 48.5710269
+"Deary Public Library<br/>304 2nd Ave<br/>Deary, ID" 76.096039166848 -116.562275 46.7995034
+"Colton Branch Library<br/>706 Broadway<br/>Colton, WA" 76.597090877301 -117.1286163 46.5679631
+"Coulee City Community Library<br/>405 W Main<br/>Coulee City, WA" 76.9316619120123 -119.2936619 47.6111275
+"East Bonner County Library District - Clark Fork Branch Library<br/>601 Main Street<br/>Clark Fork, ID" 77.2992588029387 -116.1766428 48.1479702
+"Osburn Public<br/>921 Mullan Ave<br/>Osburn, ID" 77.556980321461 -115.9912271 47.5023908
+"Clarkia District<br/>377 Poplar St<br/>Clarkia, ID" 77.7562769147964 -116.2533893 47.0060103
+"Ione Public Library<br/>210 Blackwell, Suite 1<br/>Ione, WA" 78.2910655285982 -117.4186583 48.7400688
+"Bovill Public Library<br/>310 First Ave<br/>Bovill, ID" 78.6965419738214 -116.3965252 46.8585499
+"Uniontown Branch Library<br/>110 S Montgomery<br/>Uniontown, WA" 79.1241121952906 -117.08741 46.5389917
+"Pomeroy (Denny Ashby) Library<br/>856 Arlington St<br/>Pomeroy, WA" 79.4073220387592 -117.5999133 46.4707064
+"Warden Community Library<br/>305 S Main<br/>Warden, WA" 79.4977645965655 -119.040594 46.9675686
+"Kahlotus Library<br/>255 Weston<br/>Kahlotus, WA" 79.9499438962472 -118.553833 46.6422358
+"Wallace Public<br/>415 River St<br/>Wallace, ID" 80.8340695216101 -115.925825 47.474041
+"Genesee Public Library<br/>140 E Walnut Street<br/>Genesee, ID" 81.2425946500622 -116.9253094 46.5505341
+"Onion Creek Library<br/>2191 Clugston-Onion Cr. Rd.<br/>Colville, WA" 83.0986328654843 -117.8128315 48.8142861
+"Moses Lake Community Library<br/>418 E 5th Ave<br/>Moses Lake, WA" 83.3744241821628 -119.2718952 47.1311381
+"Juliaetta Public Library<br/>205 Main Street<br/>Juliaetta, ID" 84.4520294935064 -116.7077039 46.5768901
+"Mullan Public<br/>117 Hunter Ave<br/>Mullan, ID" 86.5896039442433 -115.8023243 47.4705931
+"Metalines Community Library<br/>302 Park St<br/>Metaline Falls, WA" 86.838815963081 -117.374456 48.860757
+"Republic Community Library<br/>794 S Clark Ave<br/>Republic, WA" 87.1922121010688 -118.737607 48.645895
+"Connell Library<br/>118 N. Columbia<br/>Connell, WA" 87.568458286049 -118.8613094 46.660736
+"Soap Lake Community Library<br/>32 E Main<br/>Soap Lake, WA" 87.6922688981018 -119.4896579 47.3893675
+"Asotin County Library<br/>417 Sycamore<br/>Clarkston, WA" 88.0861720665832 -117.0438792 46.4123307
+"Prairie-River District Nezperce<br/>602 4th Avenue<br/>Nezperce, ID" 88.0942240204891 -117.025011 46.4166412
+"Heights Branch Library<br/>2036 4th Ave.<br/>Clarkston, WA" 88.832216526406 -117.0815124 46.3926474
+"Elk River District<br/>203 Main St<br/>Elk River, ID" 89.8846401530632 -116.179464 46.7824219
+"Northport Community Library<br/>311 Columbia Ave.<br/>Northport, WA" 90.1397328315765 -117.7831761 48.9180589
+"Kettle River East Library<br/>5th And C Street<br/>Orient, WA" 90.2243239387512 -118.2070642 48.8675015
+"Othello Library<br/>101 E. Main Street<br/>Othello, WA" 90.3827602677159 -119.1739972 46.8261771
+"Columbia County Rural Library District<br/>111 S 3rd St.<br/>Dayton, WA" 91.1091148927611 -117.9776348 46.3209889
+"Dayton Memorial Library<br/>111 S 3rd St<br/>Dayton, WA" 91.1091148927611 -117.9776348 46.3209889
+"Lewiston City Library<br/>428 Thain Rd<br/>Lewiston, ID" 91.3838429301541 -116.9738656 46.3787049
+"Ephrata Community Library<br/>45 Alder Nw<br/>Ephrata, WA" 91.4591415563564 -119.5497107 47.3208329
+"Prairie-River District<br/>103 N Main St<br/>Lapwai, ID" 92.7812407202784 -116.804477 46.40519
+"Prairie-River District Lapwai<br/>103 North Main<br/>Lapwai, ID" 92.7812407202784 -116.804477 46.40519
+"Waitsburg (Weller) Public Library<br/>212 Main Street<br/>Waitsburg, WA" 96.3277495925196 -118.1549752 46.2701256
+"Prescott Library<br/>103 D St.<br/>Prescott, WA" 96.5765939153234 -118.315139 46.299411
+"Boundary County District<br/>6370 Kootenai<br/>Bonners Ferry, ID" 96.6737831056826 -116.310507 48.696298
+"Prairie-River District - Culdesac<br/>608 Main<br/>Culdesac, ID" 97.5338434784251 -116.6714068 46.3739757
+"Prairie-River District - Peck<br/>217 N Main St<br/>Peck, ID" 97.8192241788135 -116.42222 46.47506
+"Bridgeport Community Library<br/>1206 Columbia St<br/>Bridgeport, WA" 98.1147277283753 -119.6742019 48.0093348

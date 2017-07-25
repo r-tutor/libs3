@@ -1,0 +1,380 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Advance Community Library" "308 Gabriel Ave" "Advance" "MO" "63730" -89.9113106 37.1039611
+"Albany Carnegie Public Library" "101 West Clay" "Albany" "MO" "64402" -94.3317625 40.2478708
+"Altenburg Branch" "66 Poplar St." "Altenburg" "MO" "" -89.5888962 37.6295379
+"Oregon County Library District" "po box 158" "Alton" "MO" "65606" -91.3993039 36.6942252
+"Annapolis Branch Library" "204 School Street" "Annapolis" "MO" "" -90.6990936 37.3594239
+"Appleton City Library" "105 W. 4th Street" "Appleton City" "MO" "64724" -94.0282086 38.1905336
+"Arbyrd Branch Library" "100 Douglas St." "Arbyrd" "MO" "" -90.2354669 36.050902
+"Archie Branch" "315 S. Main" "Archie" "MO" "" -94.353693 38.480892
+"Fox Branch" "2103 Jeffco Blvd." "Arnold" "MO" "" -90.3751819 38.4209401
+"Southern Boone County Public Library" "117 E. Broadway" "Ashland" "MO" "" -92.261221 38.774996
+"South County Branch" "5577 Walnut St." "Augusta" "MO" "" -90.8828974 38.5732685
+"Aurora Branch" "202 Jefferson" "Aurora" "MO" "" -93.7194806 36.9740453
+"Douglas County Public Library" "301 Sw 3rd Ave" "Ava" "MO" "65608" -92.6612398 36.9507981
+"Windsor Branch" "7479 Metropolitan Blvd." "Barnhart" "MO" "" -90.4011572 38.331847
+"Maries County Library Belle Branch" "206 B South Alvarado" "Belle" "MO" "" -91.7209697 38.286132
+"Belton Branch" "422 Main St." "Belton" "MO" "" -94.53177 38.811032
+"Benton Branch" "44 N. Winchester" "Benton" "MO" "" -89.5625982 37.0988227
+"Bernie Public Library" "111 N Allen" "Bernie" "MO" "63822" -89.9696322 36.6703384
+"Bethany Public Library" "3105 Miller Street" "Bethany" "MO" "64424" -94.0208431 40.2652427
+"Birch Tree City Library" "box 2" "Birch Tree" "MO" "" -91.4926376 36.9911648
+"Bloomfield Public Library" "200 Seneca" "Bloomfield" "MO" "63825" -89.929962 36.8853252
+"Mid-Continent Public Library - Blue Springs North" "850 Nw Hunter Drive" "Blue Springs" "MO" "" -94.2732334 39.0502423
+"Mid-Continent Public Library - Blue Springs South" "2220 South 7 Hwy." "Blue Springs" "MO" "" -94.2724222 38.9970765
+"Polk County Library" "1690 W. Broadway" "Bolivar" "MO" "65613" -93.428407 37.6119099
+"Bonne Terre Memorial Library" "5 Southwest Main Street" "Bonne Terre" "MO" "63628" -90.551084 37.9215833
+"Boonville-Cooper Branch" "618 Main St." "Boonville" "MO" "" -92.7431217 38.9732845
+"Bourbon Branch Library" "575 Elm St." "Bourbon" "MO" "" -91.2470122 38.1544808
+"Bowling Green Public Library" "201 W. Locust Street" "Bowling Green" "MO" "63334" -91.1952979 39.3446369
+"Taneyhills Community Library" "200 South Fourth Street" "Branson" "MO" "" -93.2204577 36.6430031
+"Breckenridge Public Library" "3 Main" "Breckenridge" "MO" "" -93.8105054 39.7618812
+"Brentwood Public Library" "8765 Eulalie Ave" "Brentwood" "MO" "63144" -90.3477679 38.6179263
+"Bridgeton Trails Branch" "3455 Mckelvey Rd." "Bridgeton" "MO" "" -90.4309363 38.7492369
+"Brookfield Public Library" "102 East Boston Street" "Brookfield" "MO" "64628" -93.073407 39.785882
+"Brunswick Public Library" "115 West Broadway" "Brunswick" "MO" "65236" -93.1306621 39.423416
+"Mid-Continent Public Library - Buckner" "19 East Jefferson" "Buckner" "MO" "" -94.1984738 39.1352923
+"Dallas County Library" "219 West Main Street" "Buffalo" "MO" "65622" -93.0934907 37.6440427
+"Bunker Branch" "303 Main St." "Bunker" "MO" "" -91.211357 37.4522565
+"Butler Public Library" "100 W. Atkison" "Butler" "MO" "" -94.3334035 38.252887
+"Texas County Library - Cabool Branch" "418 Walnut" "Cabool" "MO" "65689" -92.0977242 37.1225832
+"Wood Place Library" "102 South East Street" "California" "MO" "" -92.564503 38.6256756
+"Mid-Continent Public Library - Camden Point" "401 Hardesty St." "Camden Point" "MO" "" -94.7433298 39.4543265
+"Camden County Library" "89 Rodeo Road" "Camdenton" "MO" "65020" -92.7386562 38.0029714
+"Cameron Public Library" "312 N. Chestnut" "Cameron" "MO" "64429" -94.2384778 39.7414452
+"Campbell Branch Library" "104 South Ash" "Campbell" "MO" "" -90.0760899 36.493494
+"Canton Public Library" "403 Lewis Street" "Canton" "MO" "63435" -91.5188258 40.1303108
+"Municipal Library District Of The City Of Cape Girardeau" "711 N Clark" "Cape Girardeau" "MO" "63701" -89.548104 37.314728
+"Cardwell Branch Library" "110 N Main St." "Cardwell" "MO" "" -90.2932349 36.0482867
+"Carthage Public Library" "612 S. Garrison Avenue" "Carthage" "MO" "64836" -94.3132084 37.1744509
+"Caruthersville Public Library" "707 West 13th Street" "Caruthersville" "MO" "63830" -89.6647242 36.1847453
+"Cassville Branch Library" "301 W. 17th Street" "Cassville" "MO" "" -93.8676613 36.6883008
+"Ralls County Library" "102 North Public" "Center" "MO" "63436" -91.5291587 39.5106774
+"Centerville Branch" "220 Pine Street" "Centerville" "MO" "" -90.957762 37.4347796
+"Reynolds County Library District" "2306 Pine St." "Centerville" "MO" "63633" -90.957762 37.4347796
+"Centralia Public Library" "210 S. Jefferson St" "Centralia" "MO" "65240" -92.1338974 39.2086011
+"Chaffee Public Library" "202 Wright Avenue" "Chaffee" "MO" "63740" -89.6569448 37.1816703
+"Mississippi County Library District" "105 East Marshall" "Charleston" "MO" "63834" -89.3499672 36.9208371
+"Samuel C. Sachs Branch" "16400 Burkhardt Place" "Chesterfield" "MO" "" -90.5695554 38.653445
+"Livingston County Library" "450 Locust" "Chillicothe" "MO" "64601" -93.5527796 39.7922904
+"Clarence Public Library" "100 W. Maple" "Clarence" "MO" "63437" -92.2610714 39.7430153
+"Clarence Public Library" "101 West Maple" "Clarence" "MO" "" -92.2625078 39.7430119
+"Clarksville Public Library" "401 Second Street" "Clarksville" "MO" "" -90.9012063 39.3657143
+"Clarkton Branch Library" "113 South Main St." "Clarkton" "MO" "" -89.9672295 36.4505228
+"Mid-Continent Public Library - Claycomo" "309 N.E. 69 Highway" "Claycomo" "MO" "" -94.4987251 39.1993898
+"Mid-County Branch" "7821 Maryland Ave." "Clayton" "MO" "" -90.3375941 38.6520724
+"Climax Springs Branch Library" "215 Climax Ave" "Climax Springs" "MO" "" -93.0506127 38.1022264
+"Henry County Library" "123 East Green" "Clinton" "MO" "64735" -93.7744117 38.3722632
+"Cole Camp Branch" "104 E. Main Street" "Cole Camp" "MO" "" -93.2033728 38.4602586
+"Daniel Boone Regional Library" "100 West Broadway" "Columbia" "MO" "65203" -92.3398143 38.9511584
+"Concordia Branch" "709 Main" "Concordia" "MO" "" -93.5682676 38.9819817
+"Corder Branch" "221 N. Lafayette" "Corder" "MO" "" -93.6408551 39.0995255
+"Crane Area Branch Library" "111 Main Street" "Crane" "MO" "" -93.5728816 36.9049488
+"Crocker Branch" "106 South Commercial" "Crocker" "MO" "" -92.2638302 37.9487129
+"Crystal City Public Library" "736 Mississippi Avenue" "Crystal City" "MO" "63019" -90.3778351 38.2272809
+"Recklein Memorial Branch Library" "305 N. Smith St." "Cuba" "MO" "" -91.4077354 38.0635761
+"De Soto Public Library" "712 South Main Street" "De Soto" "MO" "63020" -90.5561907 38.1327509
+"Mid-Continent Public Library - Dearborn" "206 Maple Leaf Avenue" "Dearborn" "MO" "" -94.7713605 39.5217587
+"Desloge Public Library" "209 N. Desloge Drive" "Desloge" "MO" "63601" -90.5272203 37.872668
+"Keller Public Library Of Dexter" "402 West Grant Street" "Dexter" "MO" "63841" -89.9645361 36.7894459
+"Jessie E. Mccully Memorial Library" "200 S. Pine St" "Dixon" "MO" "65459" -92.0983687 37.9959496
+"Doniphan-Ripley County Library District" "207 Locust Street" "Doniphan" "MO" "63935" -90.8246305 36.618485
+"Drexel Branch" "211 E. Main St" "Drexel" "MO" "" -94.608187 38.479695
+"Mitchell Memorial Branch Library" "204 E. Washington" "East Prairie" "MO" "" -89.3819042 36.7775401
+"Mid-Continent Public Library - Edgerton" "404 Frank Street" "Edgerton" "MO" "" -94.6324426 39.5054174
+"Knox County Branch Library" "120 South Main" "Edina" "MO" "" -92.1727284 40.1666327
+"Cedar County Library District" "808 S. Main" "El Dorado Springs" "MO" "64744" -94.0219699 37.8691094
+"Miller County Library Eldon Branch" "308 East First" "Eldon" "MO" "" -92.5789067 38.3495283
+"Ellington Branch" "110 Main St." "Ellington" "MO" "" -90.9697136 37.2431862
+"Joseph R. Palmer Family Memorial Library" "502 Broadway" "Elsberry" "MO" "63343" -90.7846473 39.1648563
+"Eureka Hills Branch" "103 Hilltop Village Center" "Eureka" "MO" "" -90.642366 38.5062412
+"Mid-Continent Public Library - Excelsior Springs" "1460 Kearney Road" "Excelsior Springs" "MO" "" -94.2441003 39.3405739
+"Fairfax Branch" "118 Main St." "Fairfax" "MO" "" -95.3945283 40.3390771
+"Farber Branch" "111 W. Front Street" "Farber" "MO" "" -91.57587 39.272521
+"Farmington Public Library" "108 W. Harrison St." "Farmington" "MO" "63640" -90.4226418 37.7796125
+"Howard County Public Library" "201 S Main St" "Fayette" "MO" "65248" -92.6820924 39.1454108
+"Meramec Valley Branch" "645 New Smizer Mill Rd." "Fenton" "MO" "" -90.4529449 38.5185165
+"Ferguson Municipal Public Library District" "35 N. Florissant Rd." "Ferguson" "MO" "63135" -90.3059509 38.74571
+"Festus Public Library" "222 N. Mill Street" "Festus" "MO" "63028" -90.3930241 38.2219296
+"Fisk Community Library" "508 Garfield St" "Fisk" "MO" "63940" -90.2080019 36.7838394
+"Florissant Valley Branch" "195 New Florissant Rd. S." "Florissant" "MO" "" -90.3261252 38.7857956
+"Jamestown Bluffs Branch" "4153 N. Hwy. 67" "Florissant" "MO" "" -90.2784472 38.8173506
+"Fordland Deposit Collection Branch" "1230 School St." "Fordland" "MO" "" -92.9532341 37.161321
+"Forsyth Public Library" "162 Main Street" "Forsyth" "MO" "" -93.1189947 36.6858722
+"Fredericktown Branch Library" "115 S. Main Street" "Fredericktown" "MO" "" -90.2944467 37.559339
+"Callaway County Public Library" "710 Court Street" "Fulton" "MO" "" -91.9472841 38.8501568
+"Stone County Library" "322 W State Highway 248" "Galena" "MO" "65656" -93.4680374 36.806128
+"Daviess County Library" "306 West Grand" "Gallatin" "MO" "64640" -93.9639816 39.9141674
+"Garden City Branch" "207-C Date Street" "Garden City" "MO" "" -94.1908142 38.5619268
+"Gerald Area Library" "357 S. Main" "Gerald" "MO" "" -91.3306347 38.3978683
+"Rhodes Memorial Branch Library" "303 S Main" "Gideon" "MO" "" -89.9198295 36.452057
+"Mid-Continent Public Library - Antioch" "6060 North Chestnut" "Gladstone" "MO" "" -94.546595 39.2040086
+"Lewis Library Of Glasgow" "315 Market St" "Glasgow" "MO" "65254" -92.8448306 39.2261464
+"Golden City Public Library" "607 Main" "Golden City" "MO" "" -94.0944478 37.3930491
+"Mid-Continent Public Library - Grain Valley" "110 Front Street" "Grain Valley" "MO" "" -94.1989437 39.015312
+"Grandin Branch" "2 Main" "Grandin" "MO" "" -90.8188154 36.8326171
+"Mid-Continent Public Library - Grandview" "12930 Booth Lane" "Grandview" "MO" "" -94.521759 38.8893739
+"Worth County Library" "510 East Avenue" "Grant City" "MO" "64456" -94.4073635 40.4839318
+"Dade County Library" "209 S. Main St." "Greenfield" "MO" "65661" -93.8403724 37.4130199
+"Hamilton Public Library" "312 N Davis" "Hamilton" "MO" "64644" -93.9980961 39.7444406
+"Hannibal Free Public Library" "200 South Fifth Street" "Hannibal" "MO" "63401" -91.3581608 39.7073702
+"Hannibal Free Public Library" "200 S. Fifth St." "Hannibal" "MO" "" -91.3581608 39.7073702
+"Cass County Public Library" "400 E. Mechanic" "Harrisonville" "MO" "64701" -94.3461724 38.6536215
+"Harrisonville Branch" "400 E. Mechanic St." "Harrisonville" "MO" "" -94.3461724 38.6536215
+"Hartville Branch" "125 Court Square" "Hartville" "MO" "" -92.5108845 37.2500747
+"Conran Memorial Library" "302 East Main Street" "Hayti" "MO" "" -89.7491153 36.2320619
+"Hayti Conran Memorial Library" "302 E. Main" "Hayti" "MO" "63851" -89.7491153 36.2320619
+"Prairie Commons Branch" "915 Utz Ln." "Hazelwood" "MO" "" -90.3777065 38.782865
+"Herculaneum Public Library" "1 Parkwood Ct." "Herculaneum" "MO" "" -90.3784506 38.2634611
+"Hermann Branch" "113 East Fourth" "Hermann" "MO" "" -91.4372144 38.7043213
+"Hickory County Library" "99 New Hermitage Dr." "Hermitage" "MO" "65668" -93.343294 37.949236
+"Robertson Memorial Library" "19 West 20th St." "Higginsville" "MO" "64037" -93.7178405 39.0750294
+"Jefferson County Library District" "5678 State Road Pp" "High Ridge" "MO" "63049" -90.5360771 38.455697
+"Northwest Branch" "3033 High Ridge Blvd." "High Ridge" "MO" "" -90.536998 38.457695
+"Holcomb Branch Library" "301 W. Main St." "Holcomb" "MO" "" -90.0300952 36.4409283
+"Holden Public Library" "101 W. Third St." "Holden" "MO" "" -93.9910447 38.7169754
+"Hornersville Branch" "403 North Main Street" "Hornersville" "MO" "" -90.1137374 36.0428394
+"Texas County Library" "117 W. Walnut" "Houston" "MO" "65483" -91.9563799 37.327939
+"Humansville Branch" "109 W. Main St." "Humansville" "MO" "" -93.5782223 37.7959945
+"Huntsville Branch Library" "102 E. Library" "Huntsville" "MO" "" -92.5443394 39.4399359
+"Miller County Library Iberia Branch" "304 North St. Louis" "Iberia" "MO" "" -92.2917258 38.0922166
+"Geneology And Local History Branch" "317 W. 24 Highway" "Independence" "MO" "" -94.4188541 39.1005562
+"Mid-Continent Public Library - Administration" "15616 East 24 Highway" "Independence" "MO" "64050" -94.3916385 39.1115776
+"Mid-Continent Public Library - North Independence" "317 W. 24 Hwy." "Independence" "MO" "64050" -94.4188541 39.1005562
+"Mid-Continent Public Library - South Independence" "13700 East 35th Street South" "Independence" "MO" "64055" -94.4182465 39.0580397
+"Midwest Genealogy Center" "3440 S. Lees Summit Road" "Independence" "MO" "64055" -94.3902853 39.0554751
+"Trails West Branch" "11401 E 23rd" "Independence" "MO" "" -94.4419553 39.0797858
+"Ozark Regional Library" "402 N Main St" "Ironton" "MO" "63650" -90.6281468 37.6035352
+"Jackson Public Library" "100 N. Missouri St." "Jackson" "MO" "63755" -89.6688853 37.3826945
+"Riverside Regional Library" "204 S. Union Ave." "Jackson" "MO" "63755" -89.673633 37.382033
+"Jamesport Branch" "312 Main Street" "Jamesport" "MO" "" -93.7990945 39.9757223
+"Missouri River Regional Library" "209 Adams Street" "Jefferson City" "MO" "65101" -92.167444 38.574757
+"Joplin Public Library" "300 S Main Street" "Joplin" "MO" "64801" -94.5137572 37.0881431
+"H.E. Sever Memorial Branch Library" "207 West Chestnut" "Kahoka" "MO" "" -91.7208717 40.4223816
+"Northeast Missouri Library Service" "207 West Chestnut Street" "Kahoka" "MO" "63445" -91.7208717 40.4223816
+"Hillcrest Community Center (Library-To-Go)" "10401 Hillcrest Road" "Kansas City" "MO" "64134" -94.520384 38.935556
+"I. H. Ruiz Biblioteca De Las Americas" "2017 West Pennway" "Kansas City" "MO" "" -94.5944034 39.0889636
+"Kansas City Public Library" "913 Baltimore Ave" "Kansas City" "MO" "64105" -94.5838629 39.103114
+"L. H. Bluford Branch" "3050 Prospect" "Kansas City" "MO" "" -94.5531942 39.0702182
+"Marlborough Community Center (Library-To-Go)" "8200 Paseo Blvd." "Kansas City" "MO" "64131" -94.5673493 38.9788034
+"Mid-Continent Public Library - Blue Ridge" "9253 Blue Ridge Boulevard" "Kansas City" "MO" "" -94.5043178 38.9563819
+"Mid-Continent Public Library - Boardwalk" "8656 N. Ambassador Drive" "Kansas City" "MO" "" -94.6504969 39.2502503
+"Mid-Continent Public Library - North Oak" "8700 North Oak Street Trafficway" "Kansas City" "MO" "" -94.5763873 39.2516801
+"Mid-Continent Public Library - Red Bridge" "11140 Locust Street" "Kansas City" "MO" "64131" -94.5867846 38.9244473
+"North-East Branch" "6000 Wilson Road" "Kansas City" "MO" "" -94.5113344 39.1065264
+"Platte County Resource Center (Library-To-Go)" "11724 Nw Plaza Circle" "Kansas City" "MO" "64153" -94.684966 39.3060799
+"Plaza Branch" "301 E. 51st" "Kansas City" "MO" "" -94.583456 39.034422
+"Southeast Branch" "6242 Swope Parkway" "Kansas City" "MO" "" -94.542979 39.0123869
+"Waldo Branch" "201 E 75th Street" "Kansas City" "MO" "" -94.5869258 38.9916297
+"Westport Branch" "118 Westport Road" "Kansas City" "MO" "" -94.5883276 39.0546258
+"Mid-Continent Public Library - Kearney" "100 South Platte-Clay Way" "Kearney" "MO" "" -94.3681523 39.3710966
+"Dunklin County Library" "209 North Main Street" "Kennett" "MO" "63857" -90.0568218 36.2372736
+"Keytesville Public Library" "406 West Bridge Street" "Keytesville" "MO" "65261" -92.9389827 39.4345532
+"Kimberling Area Library" "po box 730" "Kimberling City" "MO" "" -93.4168531 36.6333962
+"Kirkwood Public Library" "140 East Jefferson Ave" "Kirkwood" "MO" "63122" -90.4044949 38.5818878
+"Knob Noster Branch" "109 E. Mcpherson" "Knob Noster" "MO" "" -93.555836 38.7647
+"Koshkonong Branch Library" "302 Luyster" "Koshkonong" "MO" "" -91.6450452 36.596082
+"Laplata Public Library" "103 East Moore St" "La Plata" "MO" "63549" -92.4913119 40.023632
+"Labelle Branch Library" "425 State" "Labelle" "MO" "" -91.9141074 40.1166825
+"Laddonia Branch (Ed French Memorial Library)" "204 2nd Street" "Laddonia" "MO" "" -91.6466607 39.2405022
+"Lagrange Branch Library" "114 S. Main" "Lagrange" "MO" "" -91.4980113 40.0429813
+"Barton County Library" "300 W. 10th St." "Lamar" "MO" "64759" -94.2790228 37.4958303
+"Schuyler County Library District" "108 E Jackson Street" "Lancaster" "MO" "63548" -92.5252352 40.5228256
+"Lebanon-Laclede County Library" "915 S. Jefferson Ave" "Lebanon" "MO" "65536" -92.6557764 37.6721033
+"Mid-Continent Public Library - Colbern Road" "1000 N.E. Colbern Road" "Lees Summit" "MO" "" -94.3570078 38.9469811
+"Mid-Continent Public Library - Lees Summit" "150 N.W. Oldham Parkway" "Lees Summit" "MO" "" -94.401087 38.9156057
+"Lexington Branch" "1008 Main Street" "Lexington" "MO" "" -93.8831776 39.1856231
+"Liberal Public Branch Library" "201 S. Main" "Liberal" "MO" "" -94.5199888 37.5615637
+"Mid-Continent Public Library - Liberty" "1000 Kent Street" "Liberty" "MO" "" -94.4333412 39.2349375
+"Texas County Library - Licking Branch" "126 S. Main" "Licking" "MO" "65542" -91.8569228 37.4979686
+"Lilbourn Memorial Library" "210 E. Lewis" "Lilbourn" "MO" "63862" -89.6156493 36.5914852
+"Osage County Branch Library" "1014 D East Main Street" "Linn" "MO" "" -91.8427526 38.4796228
+"Lockwood Public Library" "721 S. Main St" "Lockwood" "MO" "65682" -93.9532432 37.3863717
+"Mid-Continent Public Library - Lone Jack" "211 North Bynum Road" "Lone Jack" "MO" "" -94.1725165 38.8724803
+"Louisiana Public Library" "121 North Third Stret" "Louisiana" "MO" "63353" -91.0476004 39.4501361
+"Macks Creek Branch Library" "90 State Road N" "Macks Creek" "MO" "" -92.9640935 37.963205
+"Macon Public Library" "210 N. Rutherford Street" "Macon" "MO" "63552" -92.4698718 39.7387784
+"Atterbury Memorial Branch Library" "113 E. Broadway" "Madison" "MO" "" -92.2079311 39.4734248
+"Malden Branch Library" "113 North Madinson" "Malden" "MO" "" -89.9664188 36.5590703
+"Grand Glaize Branch" "1010 Meramec Station Rd." "Manchester" "MO" "" -90.4976075 38.5711936
+"Maplewood Public Library" "7550 Lohmeyer Ave." "Maplewood" "MO" "63143" -90.3255432 38.6146332
+"Bollinger County Library" "302 Conrad Street" "Marble Hill" "MO" "63764" -89.9760276 37.3052323
+"Marceline Carnegie Library" "119 E California Ave" "Marceline" "MO" "64658" -92.9494448 39.716054
+"Marionville Branch" "22 E. Washington Street" "Marionville" "MO" "" -93.6371518 37.0048054
+"Marshall Public Library" "214 N. Lafayette" "Marshall" "MO" "65340" -93.19714 39.122362
+"Webster County Library" "219 W Jackson St" "Marshfield" "MO" "65706" -92.9081958 37.3378836
+"Martinsburg Branch Library" "201 E. Washington" "Martinsburg" "MO" "" -91.6459918 39.1006554
+"Maryville Public Library" "509 North Main" "Maryville" "MO" "64468" -94.8728035 40.3501432
+"Scotland County Memorial Library" "306 W. Madison St" "Memphis" "MO" "63555" -92.1734709 40.4589084
+"Mexico Branch" "305 W. Jackson" "Mexico" "MO" "" -91.885021 39.172455
+"Mexico-Audrain County Library District" "305 West Jackson" "Mexico" "MO" "65265" -91.885021 39.172455
+"Sullivan County Public Library" "109 East Second Street" "Milan" "MO" "63556" -93.1253896 40.2028329
+"Miller Branch" "112 E. Main Street" "Miller" "MO" "" -93.8404196 37.2147777
+"Little Dixie Regional Libraries" "111 North Fourth Street" "Moberly" "MO" "65270" -92.4406467 39.4190488
+"Barry-Lawrence Regional Library" "213 Sixth St." "Monett" "MO" "65708" -93.9209497 36.9222406
+"Monett Branch" "213 Sixth Street" "Monett" "MO" "65708" -93.9209497 36.9222406
+"Monroe City Public Library" "109a Second Street" "Monroe City" "MO" "63456" -91.7342065 39.6541549
+"Montgomery City Public Library" "224 North Allen" "Montgomery City" "MO" "63361" -91.5064413 38.9777008
+"Mound City Public Library" "207 East Sixth Street" "Mound City" "MO" "64470" -95.2310504 40.1320612
+"Mountain Grove Branch" "219 E 2nd St" "Mountain Grove" "MO" "" -92.2612156 37.1298392
+"Mountain View Public Library" "125 South Oak St" "Mountain View" "MO" "65548" -91.7024538 36.9952024
+"Mt. Vernon Branch" "206 W. Water St." "Mt. Vernon" "MO" "" -93.8200488 37.1039944
+"Naylor Branch Library" "310 Broad Street" "Naylor" "MO" "" -90.6092037 36.5757254
+"Neosho Newton County Library" "201 West Spring Street" "Neosho" "MO" "64850" -94.3700291 36.8695861
+"Nevada Public Library" "212 West Walnut Street" "Nevada" "MO" "64772" -94.3582469 37.8394791
+"New Haven Branch" "901 Maupin" "New Haven" "MO" "" -91.2179332 38.6105692
+"Boones Trail Branch" "10 Fiddlecreek Plaza" "New Melle" "MO" "" -90.8835348 38.7251567
+"Noel Community Branch Library" "626 Johnson Rd" "Noel" "MO" "" -94.4853066 36.5368538
+"Norborne Public Library" "109 E Second St" "Norborne" "MO" "64668" -93.6753933 39.3027718
+"North Kansas City Public Library" "2251 Howell St." "North Kansas City" "MO" "64116" -94.5722517 39.144831
+"Norwood Branch" "248 S. Eagle St." "Norwood" "MO" "" -92.4162523 37.1062876
+"Mid-Continent Public Library - Oak Grove" "2320 South Broadway Street" "Oak Groves" "MO" "" -94.1306504 38.9916055
+"Odessa Branch" "107 W. Mason Street" "Odessa" "MO" "" -93.9526632 38.9992143
+"Deer Run Branch" "1300 North Main Street" "Ofallon" "MO" "" -90.699102 38.8284119
+"Library Express At Winghaven" "7435 Village Center Drive" "Ofallon" "MO" "" -90.734792 38.743082
+"Middendorf-Kredell Branch" "2750 Highway K" "Ofallon" "MO" "" -90.699264 38.767812
+"Oran Branch" "120 Mountain St." "Oran" "MO" "" -89.6557919 37.0864684
+"Oregon Public Library" "103 S. Washington" "Oregon" "MO" "64473" -95.1447714 39.98707
+"Osage Beach Library" "1064 Gutridge Lane" "Osage Beach" "MO" "" -92.6243617 38.1492534
+"Saint Clair County Library" "115 Chestnut Street" "Osceola" "MO" "64776" -93.70228 38.0471549
+"Owensville Branch" "107 North First" "Owensville" "MO" "" -91.5005113 38.3471028
+"Christian County Library" "1005 N 4th Avenue" "Ozark" "MO" "65721" -93.2023543 37.0291066
+"Pacific Branch" "140 West St. Louis" "Pacific" "MO" "" -90.742103 38.4820578
+"Palmyra Bicentennial Public Library" "212 S. Main St." "Palmyra" "MO" "63461" -91.5230846 39.7983615
+"Dulany Memorial Branch Library" "101 N. Main" "Paris" "MO" "" -92.0002371 39.4806342
+"Park Hills Public Library" "16 S Coffman St" "Park Hills" "MO" "63601" -90.5213304 37.8504493
+"Mid-Continent Public Library - Parkville" "8815 Tom Watson Pkwy" "Parkville" "MO" "64152" -94.6831393 39.2099415
+"Parma Branch" "205 North Broad" "Parma" "MO" "" -89.8169065 36.6142119
+"Peculiar Branch" "220 N. Main St." "Peculiar" "MO" "" -94.4603048 38.7194022
+"Perryville Branch" "800 City Park Dr. Suite A" "Perryville" "MO" "" -89.8535435 37.724813
+"Piedmont Public Library" "118 West Green Street" "Piedmont" "MO" "63957" -90.6952832 37.155585
+"Pierce City Branch" "100 West Main Street" "Pierce City" "MO" "" -94.0029954 36.9451428
+"Mcdonald County Library" "808 Bailey Road" "Pineville" "MO" "64856" -94.3841558 36.5973395
+"Mid-Continent Public Library - Platte City" "2702 Nw Prairie View Road" "Platte City" "MO" "64079" -94.7585073 39.3482429
+"Pleasant Hill Branch" "1204-B N. Hwy 7" "Pleasant Hill" "MO" "" -94.261316 38.8002602
+"Poplar Bluff Public Library" "318 N. Main" "Poplar Bluff" "MO" "63901" -90.3922017 36.7579838
+"North County Branch" "1825 Commonwealth Road" "Portage Des Sioux" "MO" "" -90.3417806 38.9250485
+"New Madrid County Library" "309 East Main Street" "Portagevile" "MO" "63873" -89.6988808 36.4252662
+"Morehouse Branch" "204 West Beech" "Portageville" "MO" "" -89.6995256 36.4253413
+"New Madrid Memorial Branch Library" "431 Mill Street" "Portageville" "MO" "" -78.0830872 42.5025816
+"Washington County Library" "235 E. High St." "Potosi" "MO" "63664" -90.7848134 37.9343607
+"Mercer County Library" "601 W. Grant Street" "Princeton" "MO" "64673" -93.5875681 40.4004431
+"Puxico Public Library" "201 N. Hickman Street" "Puxico" "MO" "63960" -90.1570909 36.9504829
+"Raymore Branch" "112 N. Madison" "Raymore" "MO" "" -94.4573253 38.805396
+"Mid-Continent Public Library - Raytown" "6131 Raytown Road" "Raytown" "MO" "" -94.4623684 39.0108792
+"Rich Hill Memorial Library" "514 E. Walnut" "Rich Hill" "MO" "64779" -94.3640587 38.0975129
+"Pulaski County Library" "111 Camden" "Richland" "MO" "65556" -92.4030315 37.8567259
+"Ray County Library" "215 E Lexington St" "Richmond" "MO" "64085" -93.9749764 39.276885
+"Richmond Heights Memorial Library" "8001 Dale Avenue" "Richmond Heights" "MO" "63117" -90.331252 38.6287325
+"Risco Branch" "210 Missouri" "Risco" "MO" "" -89.8217146 36.5521146
+"Mid-Continent Public Library - Riverside" "2700 N.W. Vivion Road" "Riverside" "MO" "64150" -94.6124376 39.1787224
+"Rock Hill Public Library" "9741 Manchester Road" "Rock Hill" "MO" "63119" -90.3717208 38.607825
+"Atchison County Library" "200 South Main St." "Rock Port" "MO" "64482" -95.5148307 40.4132785
+"Rogersville Library" "100 W. Clinton" "Rogersville" "MO" "" -93.0583771 37.1193412
+"Rolla Public Library" "900 Pine Street" "Rolla" "MO" "65401" -91.771321 37.950918
+"Salem Public Library" "102 North Jackson" "Salem" "MO" "65560" -91.5383886 37.6437456
+"Dulany Memorial Library" "501 S. Broadway" "Salisbury" "MO" "65281" -92.8015878 39.4206017
+"Sarcoxie Public Library" "506 Center Street" "Sarcoxie" "MO" "64862" -94.116287 37.068637
+"Savannah Branch" "514 W. Main" "Savannah" "MO" "" -94.831297 39.941236
+"Scott City Branch" "2016 Main St." "Scott City" "MO" "" -89.5323769 37.2152288
+"Boonslick Regional Library" "219 West Third Street" "Sedalia" "MO" "65301" -93.2293593 38.7086567
+"Sedalia Public Library" "311 W. Third Street" "Sedalia" "MO" "65301" -93.2307938 38.708463
+"Senath Branch Library" "119-21 North Main St." "Senath" "MO" "" -90.1592536 36.1341906
+"Seneca Branch Library" "1216 Cherokee St." "Seneca" "MO" "" -94.6112142 36.8401364
+"Seymour Community Library" "320 E. Clinton" "Seymour" "MO" "65746" -92.7643432 37.1494283
+"Carnegie Public Library" "102 N. Center" "Shelbina" "MO" "63468" -92.0405122 39.6930462
+"Shelbina Carnegie Public Library" "102 N. Center St." "Shelbina" "MO" "63468" -92.0405122 39.6930462
+"Sheldon City Library" "p.o. box 52" "Sheldon" "MO" "" -94.2927255 37.6580988
+"Sikeston Public Library" "121 East North Street" "Sikeston" "MO" "63801" -89.590971 36.8782778
+"Slater Public Library" "201 N. Main" "Slater" "MO" "65349" -93.0609707 39.2202295
+"Mid-Continent Public Library - Smithville" "120 Richardson St." "Smithville" "MO" "64089" -94.5819617 39.3745075
+"Ash Grove Branch" "101 E Main Ash Grove" "Springfield" "MO" "" -93.5848071 37.3153096
+"Brentwood Branch Library" "2214 Brentwood Blvd." "Springfield" "MO" "" -93.260249 37.1735922
+"Fair Grove Branch Library" "71 S Orchard Blvd Fair Grove Mo" "Springfield" "MO" "" -93.1567469 37.3828863
+"Midtown Carnegie Branch" "397 E. Central" "Springfield" "MO" "" -93.2898327 37.2176653
+"Republic Branch Library" "1264 U S Highway 60 East Republic" "Springfield" "MO" "" -93.484564 37.1127109
+"Springfield-Greene County Library District" "4653 S Campbell" "Springfield" "MO" "65810" -93.298315 37.1303834
+"The Library Center Branch" "4653 S. Campbell" "Springfield" "MO" "65810" -93.298315 37.1303834
+"The Library Station" "2535 N Kansas Exp" "Springfield" "MO" "" -93.3121488 37.2436044
+"Willard Branch Library" "160 Highway East Center Willard" "Springfield" "MO" "" -93.2922989 37.2089572
+"Rock Road Branch" "10267 St. Charles Rock Rd." "St. Ann" "MO" "" -90.3793439 38.7278771
+"Kathryn Linnemann Branch" "2323 Elm Street" "St. Charles" "MO" "" -90.5002719 38.7953171
+"Kisker Road Branch" "1000 Kisker Road" "St. Charles" "MO" "" -90.617904 38.7262603
+"Mcclay Branch" "2760 Mcclay Road" "St. Charles" "MO" "" -90.551344 38.757836
+"St. Clair Branch" "570 South Main" "St. Clair" "MO" "" -90.9810404 38.3454098
+"James Memorial Library" "300 W. Scioto St." "St. James" "MO" "65559" -91.615795 37.9939892
+"East Hills Branch" "3702 Frederick Ave., 41a" "St. Joseph" "MO" "" -94.8001119 39.7741252
+"Rolling Hills Consolidated" "1912 N. Belt Hwy." "St. Joseph" "MO" "64506" -94.8038548 39.7837406
+"St Joseph Public Library" "927 Felix Street" "St. Joseph" "MO" "64501" -94.8484994 39.7668659
+"Washington Park Branch" "1821 North Third St." "St. Joseph" "MO" "" -94.8562988 39.7807669
+"Baden Branch" "8448 Church Road" "St. Louis" "MO" "" -90.2327206 38.7149575
+"Barr Branch" "1701 S. Jefferson" "St. Louis" "MO" "" -90.2214025 38.61452
+"Buder Branch Library" "4401 Hampton Avenue" "St. Louis" "MO" "" -90.2948063 38.5904405
+"Cabanne Branch" "1106 N. Union" "St. Louis" "MO" "" -90.2721424 38.657396
+"Carondelet Branch" "6800 Michigan Avenue" "St. Louis" "MO" "" -90.2542381 38.5547479
+"Carpenter Branch" "3309 S. Grand Avenue" "St. Louis" "MO" "" -90.2435246 38.5966018
+"Central Library" "1301 Olive Street" "St. Louis" "MO" "" -90.1994918 38.6307034
+"Charing Cross Branch" "356 N. Skinker" "St. Louis" "MO" "" -90.3000004 38.6515203
+"Cliff Cave Branch" "5430 Telegraph Rd." "St. Louis" "MO" "" -90.3035869 38.475989
+"Divoll Branch" "4234 N. Grand Avenue" "St. Louis" "MO" "" -90.2117373 38.6674566
+"Film Library" "1624 Locust Street" "St. Louis" "MO" "" -90.2036017 38.6319835
+"Julia Davis Branch" "4415 Natural Bridge" "St. Louis" "MO" "" -90.236854 38.6703966
+"Kingshighway Branch" "2260 S. Vandeventer" "St. Louis" "MO" "" -90.2668767 38.6128318
+"Lewis And Clark Branch" "9909 Lewis And Clark Blvd." "St. Louis" "MO" "" -90.240782 38.7474545
+"Machacek Branch" "6424 Scanlan Avenue" "St. Louis" "MO" "" -90.2978473 38.6047757
+"Marketplace Minibranch" "6548 Manchester Avenue" "St. Louis" "MO" "" -90.2987195 38.6197847
+"Natural Bridge Branch" "7606 Natural Bridge Rd." "St. Louis" "MO" "" -90.3019571 38.7049074
+"Oak Bend Branch" "842 S. Holmes Ave." "St. Louis" "MO" "" -90.3910116 38.5692646
+"Saint Louis County Library" "1640 South Lindbergh Blvd" "St. Louis" "MO" "63131" -90.4049885 38.6301169
+"Schlafly Branch" "225 N. Euclid Ave." "St. Louis" "MO" "" -90.2621031 38.6439159
+"St. Louis County Library" "1640 S. Lindbergh Blvd." "St. Louis" "MO" "" -90.4049885 38.6301169
+"Tesson Ferry Branch" "9920 Lin-Ferry Dr." "St. Louis" "MO" "" -90.3523137 38.5238391
+"Thornhill Branch" "12863 Willowyck Dr." "St. Louis" "MO" "" -90.4711342 38.6914081
+"Walnut Park Branch" "5760 W. Florissant" "St. Louis" "MO" "" -90.247189 38.7036447
+"Weber Road Branch" "4444 Weber Rd." "St. Louis" "MO" "" -90.2980142 38.5509406
+"Library District Administrative Office" "77 Boone Hills Drive" "St. Peters" "MO" "" -90.5998085 38.7846645
+"Saint Charles City-County Library District" "77 Boone Hills Dr." "St. Peters" "MO" "63376" -90.5998085 38.7846645
+"Spencer Road Branch" "427 Spencer Road" "St. Peters" "MO" "" -90.6011528 38.7840609
+"Gentry County Library" "304 N. Park" "Stanberry" "MO" "64489" -94.5414311 40.2152166
+"Ste. Genevieve Branch Library" "21388 Hwy 32" "Ste. Genevieve" "MO" "" -90.0649386 37.9582592
+"Steele Public Library" "108 East Main" "Steele" "MO" "63877" -89.8294636 36.0838419
+"Steelville Branch Library" "107 Third St." "Steelville" "MO" "" -91.1520529 37.9648899
+"Stockton Branch" "3 Public Square" "Stockton" "MO" "" -93.796044 37.6989279
+"Stoutland Branch Library" "36 East State Rd. H" "Stoutland" "MO" "" -92.513283 37.8108609
+"Sugar Creek Branch" "102 S. Sterling" "Sugar Creek" "MO" "" -94.4453317 39.109318
+"Sullivan Public Library" "104 West Vine St" "Sullivan" "MO" "63080" -91.1589917 38.2089141
+"Texas County Library - Summersville Branch" "139 Rogers" "Summersville" "MO" "65571" -91.6575772 37.1776772
+"Sunrise Beach Library" "box 1205" "Sunrise Beach" "MO" "" -92.7843553 38.1758645
+"Sweet Springs Public Library" "217 Turner Street" "Sweet Springs" "MO" "65351" -93.4183883 38.9638395
+"Tarkio Branch" "308 Main St." "Tarkio" "MO" "" -95.3784503 40.4405486
+"Thayer Branch Library" "121 N. 2nd St." "Thayer" "MO" "" -91.5395565 36.5247272
+"Moniteau County Library" "104 E Morgan St" "Tipton" "MO" "65081" -92.7798477 38.6554951
+"Price James Memorial Library" "104 E. Morgan St." "Tipton" "MO" "65081" -92.7798477 38.6554951
+"Grundy County-Jewett Norris Library" "1331 Main" "Trenton" "MO" "64683" -93.6175389 40.0778243
+"Powell Memorial Library" "951 W. College" "Troy" "MO" "" -90.9882281 38.9786941
+"Scenic Regional Library" "308 Hawthorne Drive" "Union" "MO" "63084" -91.0006143 38.4437952
+"Putnam County Public Library" "115 South 16th" "Unionville" "MO" "63565" -93.0017328 40.4765068
+"University City Public Library" "6701 Delmar Blvd." "University City" "MO" "63130" -90.3092673 38.6567324
+"Valley Park Community Library" "320 Benton Street" "Valley Park" "MO" "63088" -90.4872113 38.5519949
+"Carter County Library" "104 Ash Street" "Van Buren" "MO" "63965" -91.0156532 36.9954149
+"Vandalia Branch Library" "309 S. Main" "Vandalia" "MO" "" -91.486425 39.3080588
+"Morgan County Library" "600 N Hunter" "Versailles" "MO" "65084" -92.8440329 38.4387014
+"Heartland Regional Library System" "315 Third Street" "Vienna" "MO" "65582" -91.9470937 38.1850431
+"Indian Trails Branch" "8400 Delport Dr." "Vinita Park" "MO" "" -90.339411 38.6954443
+"Trails Regional Library" "432 North Holden" "Warrensburg" "MO" "64093" -93.740611 38.767137
+"Warrensburg Branch" "125 N. Holden" "Warrensburg" "MO" "" -93.7403299 38.7639455
+"Warrenton Branch" "912 South Hwy 47" "Warrenton" "MO" "" -91.1448683 38.8028464
+"Warsaw-Benton County Branch" "950 East Main Street" "Warsaw" "MO" "" -93.3658032 38.2403155
+"Washington Public Library" "415 Jefferson Street" "Washington" "MO" "63090" -91.012674 38.5569905
+"Waverly Branch" "203 E. Kelling" "Waverly" "MO" "" -93.5161363 39.2094184
+"Waynesville Branch Library" "306 Historic 66 West" "Waynesville" "MO" "" -92.209682 37.8257713
+"Webb City Public Library" "101 South Liberty Street" "Webb City" "MO" "64870" -94.4649278 37.1445708
+"City Of Webster Groves Municipal Library" "301 E. Lockwood Avenue" "Webster Groves" "MO" "63119" -90.3504081 38.5923997
+"Wellsville Public Library" "108 W. Hudson St." "Wellsville" "MO" "63384" -91.5689655 39.0712959
+"Corporate Parkway Branch" "1200 Corporate Parkway" "Wentzville" "MO" "" -90.8180695 38.8001021
+"Library Express At Discovery Village" "378 Shadow Pines Drive" "Wentzville" "MO" "" -90.8971302 38.8050125
+"West Plains Public Library" "750 West Broadway" "West Plains" "MO" "65775" -91.8589602 36.7312244
+"Mid-Continent Public Library - Weston" "18204 Library Drive" "Weston" "MO" "64098" -94.8957185 39.4220186
+"Willow Springs Public Library" "214 North Harris Street" "Willow Springs" "MO" "67593" -91.9691676 36.9920034
+"Lenora Blackmore Public Library" "115 E. Benton St." "Windsor" "MO" "" -93.5214252 38.5317479
+"Winona Public Library" "106 N Ash" "Winona" "MO" "65588" -91.3260075 37.0094832

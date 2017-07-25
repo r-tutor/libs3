@@ -1,0 +1,301 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Adams Public Library" "300 8th Street" "Adams" "NE" "68301" -96.5110538 40.4595517
+"Ainsworth Public Library" "445 North Main Street" "Ainsworth" "NE" "69210" -99.8625468 42.5504403
+"Albion Public Library" "437 South 3rd Street" "Albion" "NE" "68620" -97.9996662 41.6894585
+"Tucker Memorial Library" "313 Harbine Street" "Alexandria" "NE" "68303" -97.3896315 40.245292
+"Springbank Township Library" "100 East 2nd Street" "Allen" "NE" "68710" -96.8451828 42.4160308
+"Alliance Public Library" "1750 Sweetwater Avenue" "Alliance" "NE" "69301" -102.8689123 42.1113662
+"Hoesch Memorial Library" "po box 438" "Alma" "NE" "68920" -99.3620427 40.0975108
+"Winters Memorial Library" "101 North Dorr Street" "Anselmo" "NE" "68813" -99.8634855 41.6206027
+"Ansley Township Library" "619 Main Street" "Ansley" "NE" "68814" -99.381232 41.2879128
+"Arapahoe Public Library" "302 Nebraska Avenue" "Arapahoe" "NE" "68922" -99.8976466 40.3010977
+"Arcadia Township Library" "100 South Reynolds" "Arcadia" "NE" "68815" -81.8624147 27.2071175
+"Arlington Public Library" "410 West Elm Street" "Arlington" "NE" "68002" -96.3525237 41.4537742
+"Finch Memorial Library" "205 North Walnut" "Arnold" "NE" "69120" -100.1947204 41.4240312
+"Arthur County Library" "205 First Street" "Arthur" "NE" "69121" -97.2174775 47.1049168
+"Ashland Public Library" "207 North 15th Street" "Ashland" "NE" "68003" -96.3695419 41.0401706
+"Atkinson Public Library" "210 West State Street" "Atkinson" "NE" "68713" -98.9796172 42.5312768
+"Auburn Memorial Library" "1810 Courthouse Avenue" "Auburn" "NE" "68305" -95.8423233 40.3864309
+"Alice M Farr Library" "1603 L Street" "Aurora" "NE" "68818" -97.9974766 40.8675104
+"Axtell Public Library" "305 North Main Street" "Axtell" "NE" "68924" -99.1266798 40.4786566
+"Bancroft Public Library" "103 E. Poplar" "Bancroft" "NE" "68004" -96.5700034 42.0122628
+"H. R. Jordan Memorial Library" "103 Poplar" "Bancroft" "NE" "" -96.5716613 42.0129649
+"Bartley Public Library" "411 Commercial" "Bartley" "NE" "69020" -100.3060025 40.2521214
+"Rock County Public Library" "400 State Street" "Bassett" "NE" "68714" -99.5365117 42.589685
+"Lied Battle Creek Public Library" "103 East Main Street" "Battle Creek" "NE" "68715" -97.5968708 41.9995056
+"Bayard Public Library" "509 Avenue A" "Bayard" "NE" "69334" -103.3256228 41.7555573
+"Beatrice Public Library" "100 North 16th Street" "Beatrice" "NE" "68310" -96.7315919 40.2663295
+"Beaver City Public Library" "408 10th Street" "Beaver City" "NE" "68926" -99.827027 40.1363838
+"Beaver Crossing Community Library" "436 434th Road" "Beaver Crossing" "NE" "68313" -97.2822684 40.7786191
+"Karlen Memorial Library" "215 Blaine Street" "Beemer" "NE" "68716" -96.8068111 41.9287594
+"Bellevue Public Library" "1003 Lincoln Road" "Bellevue" "NE" "68005" -95.906925 41.1503126
+"Dundy County Library" "126 7th Avenue East" "Benkelman" "NE" "69021" -101.5327491 40.0501746
+"Bennington Public Library" "15505 Warehouse Street" "Bennington" "NE" "68007" -96.1579935 41.3633253
+"Big Springs Public Library" "400 Pine Street" "Big Springs" "NE" "69122" -102.074608 41.0630172
+"Blair Public Library" "210 South 17th Street" "Blair" "NE" "68008" -96.1372531 41.5425837
+"Bloomfield Public Library" "121 South Broadway" "Bloomfield" "NE" "68718" -97.6458652 42.5978508
+"Blue Hill Public Library" "317 West Gage Street" "Blue Hill" "NE" "68930" -98.4464232 40.3325364
+"Village Of Brady Public Library" "107 Commercial St" "Brady" "NE" "69123" -100.3669081 41.0228978
+"Bridgeport Public Library" "722 Main Street" "Bridgeport" "NE" "69336" -103.0995589 41.6679016
+"Broadwater Public Library" "106 E. Guthrie Street" "Broadwater" "NE" "69125" -102.8533085 41.5961083
+"Broken Bow Public Library" "626 South D Street" "Broken Bow" "NE" "68822" -99.637396 41.4026505
+"Bruning Public Library" "141 Main Street" "Bruning" "NE" "68322" -97.5683786 40.3361992
+"Brunswick Public Library" "303 Franklin St." "Brunswick" "NE" "68720" -97.9706214 42.3374986
+"Garfield County Library" "217 G Street" "Burwell" "NE" "68823" -99.1273207 41.782036
+"Davies Memorial Library" "612 Thayer Street" "Butte" "NE" "68722" -98.8490865 42.9142744
+"Byron Public Library" "119 Kansas Ave." "Byron" "NE" "68325" -97.7690359 40.0058633
+"Nigel Sprouse Memorial Library" "102 East Kimball" "Callaway" "NE" "68825" -99.925369 41.2908303
+"Butler Memorial Library" "621 Penn" "Cambridge" "NE" "69022" -100.1675467 40.2822018
+"Campbell Public Library" "721 Broad Street" "Campbell" "NE" "68932" -98.7319549 40.2992466
+"Carrol Public Library" "506 Main Street" "Carroll" "NE" "68723" -97.1893232 42.276261
+"Cedar Rapids Public Library" "423 West Main Street" "Cedar Rapids" "NE" "68627" -98.1481083 41.5599566
+"Central City Public Library" "1604 15th Avenue" "Central City" "NE" "68826" -97.9989531 41.1160692
+"Ceresco Community Library" "425 South 2nd Street" "Ceresco" "NE" "68017" -96.6449485 41.0568575
+"Chadron Public Library" "507 Bordeaux Street" "Chadron" "NE" "69337" -102.9999202 42.8262398
+"Chappell Memorial Library Art Gallery" "289 Babcock Avenue" "Chappell" "NE" "69129" -102.4709511 41.0935232
+"Chester Public Library" "623 Thayer Avenue" "Chester" "NE" "68327" -97.6187874 40.0103946
+"Clarks Public Library" "101 West Amity Street" "Clarks" "NE" "68628" -97.837743 41.216683
+"Clarkson Public Library" "318 Pine Street" "Clarkson" "NE" "68629" -97.122266 41.7246864
+"Clay Center Public Library" "117 West Edgar Street" "Clay Center" "NE" "68933" -98.0545834 40.5207312
+"Clearwater Public Library" "626 Main Street" "Clearwater" "NE" "68726" -94.0469577 45.4183119
+"Columbus Public Library" "2504 14th Street" "Columbus" "NE" "68601" -97.3585966 41.4305989
+"Northeast Library System" "3038 33rd Ave., Suite 13" "Columbus" "NE" "68601" -97.3682576 41.4459182
+"Comstock Township Library" "119 West Main Street" "Comstock" "NE" "68828" -96.7426531 46.6604999
+"Wilson Public Library" "910 Meridian" "Cozad" "NE" "69130" -99.9855344 40.8611677
+"Crawford Public Library" "601 Second Street" "Crawford" "NE" "69339" -103.413185 42.6836309
+"Creighton Public Library" "701 State Street" "Creighton" "NE" "68729" -97.9076535 42.4676046
+"Crete Public Library" "305 East 13th Street" "Crete" "NE" "68333" -96.9589866 40.625228
+"Eastern Township Library" "206 West Main Street" "Crofton" "NE" "68730" -87.4861681 37.0475102
+"Culbertson Public Library" "503 New York" "Culbertson" "NE" "69024" -100.8383357 40.2285746
+"Klyte Burt Memorial Library" "316 Center Avenue" "Curtis" "NE" "69025" -100.5154438 40.6315939
+"Dakota City Public Library" "1710 Broadway" "Dakota City" "NE" "68731" -96.4206658 42.4149964
+"Dalton Public Library" "306 Main Street" "Dalton" "NE" "69131" -102.9738218 41.4073041
+"Davenport Public Library" "109 North Maple Avenue" "Davenport" "NE" "68335" -97.8132541 40.3138834
+"Hruska Memorial Public Library" "399 North 5th Street" "David City" "NE" "68632" -97.1286927 41.2527673
+"John G Smith Memorial Library" "517 Ridge Street" "Dawson" "NE" "68337" -95.8306689 40.131336
+"Daykin Public Library" "201 Mary Avenue" "Daykin" "NE" "68338" -97.2974301 40.3203112
+"Deshler Public Library" "310 East Pearl Avenue" "Deshler" "NE" "68340" -97.7241483 40.1419656
+"Bob Wauneta Burkley Library Resource Center" "208 East Fillmore" "Dewitt" "NE" "68341" -96.9214231 40.3945908
+"John Rogers Memorial Library" "703 2nd Street" "Dodge" "NE" "68633" -96.8787154 41.7210533
+"Dorchester Public Library" "6th Washington" "Dorchester" "NE" "68343" -96.2094407 41.3976146
+"Douglas Public Library" "p. o. box 56" "Douglas" "NE" "68344" -96.195132 41.3148116
+"Dwight Community Library" "142 West Pine" "Dwight" "NE" "68635" -97.0190473 41.0835568
+"Elgin Public Library" "2nd And Bowen" "Elgin" "NE" "68636" -98.0845496 41.9788575
+"Bess Johnson Elkhorn Public Library" "100 Reading Road" "Elkhorn" "NE" "" -96.2335051 41.2781319
+"Elm Creek Public Library" "241 North Tyler Street" "Elm Creek" "NE" "68836" -99.373279 40.718638
+"Elmwood Public Library" "124 West D Street" "Elmwood" "NE" "68349" -96.2953073 40.8415881
+"Elwood Public Library" "505 Ripley Street" "Elwood" "NE" "68937" -99.8598788 40.5903049
+"Emerson Public Library" "110 Main Street" "Emerson" "NE" "68733" -96.7268057 42.2790958
+"Eustis Public Library" "108 North Morton Street" "Eustis" "NE" "69028" -100.0303785 40.6635475
+"Ewing Township Library" "202 East Nebraska" "Ewing" "NE" "68735" -98.3437063 42.2578018
+"Exeter Public Library" "202 South Exeter Avenue" "Exeter" "NE" "68351" -97.4501629 40.6441454
+"Fairbury Public Library" "601 7th Street" "Fairbury" "NE" "68352" -97.1785311 40.1382999
+"Fairfield Public Library" "412 D Street" "Fairfield" "NE" "68938" -98.105755 40.4310118
+"Fairmont Public Library" "600 F Street" "Fairmont" "NE" "68354" -97.5852481 40.6352031
+"Falls City Library And Arts Center" "1400 Stone Street" "Falls City" "NE" "68355" -95.6029176 40.0587642
+"Lydia Bruun Woods Memorial Library" "120 East 18th Street" "Falls City" "NE" "" -95.6027213 40.0627093
+"Farnam Public Library" "308 Main Street" "Farnam" "NE" "69029" -100.214711 40.7058537
+"Franklin Public Library" "1502 P Street" "Franklin" "NE" "68939" -98.9535512 40.0997152
+"Keene Memorial Library" "1030 North Broad Street" "Fremont" "NE" "68025" -96.497695 41.4392062
+"Gilbert Public Library" "628 Second Street" "Friend" "NE" "68359" -97.285581 40.6537232
+"Fullerton Public Library" "903 Broadway" "Fullerton" "NE" "68638" -97.9686176 41.3565669
+"Geneva Public Library" "1043 G Street" "Geneva" "NE" "68361" -97.5996874 40.5253584
+"Genoa Public Library" "421 Willard Avenue" "Genoa" "NE" "68640" -97.7296407 41.448539
+"Gering Public Library" "1055 P Street" "Gering" "NE" "69341" -103.6614336 41.8244796
+"Gibbon Public Library" "116 Labarre Street" "Gibbon" "NE" "68840" -98.845076 40.7479183
+"Giltner Public Library" "4020 North Commercial Avenue" "Giltner" "NE" "68841" -98.1535882 40.7740756
+"Gordon City Library" "101 West 5th Street" "Gordon" "NE" "69343" -102.2032447 42.8088427
+"Gothenburg Public Library" "1104 Lake Avenue" "Gothenburg" "NE" "69138" -100.160664 40.9295785
+"Grand Island Public Library" "211 North Washington Street" "Grand Island" "NE" "68801" -98.351483 40.9201314
+"Hastings Memorial Library" "505 Central Avenue" "Grant" "NE" "69140" -101.7252433 40.8449748
+"Greeley Village Public Library" "117 South Galloway Street" "Greeley" "NE" "68842" -83.1505578 39.9293016
+"Gresham Public Library" "424 Elm Street" "Gresham" "NE" "68367" -97.4012287 41.0283366
+"Gretna Public Library" "736 South Street" "Gretna" "NE" "68028" -96.2486589 41.1361923
+"Auld-Doudna Public Library" "155 West Grant" "Guide Rock" "NE" "68942" -98.331707 40.0736349
+"Sioux County Library" "182 West 3rd" "Harrison" "NE" "69346" -103.8820459 42.6886363
+"Hartington Public Library" "106 South Broadway" "Hartington" "NE" "68739" -97.2646818 42.6205043
+"Harvard Public Library" "309 North Clay Avenue" "Harvard" "NE" "68944" -98.097213 40.6190405
+"Hastings Public Library" "517 West 4th Street" "Hastings" "NE" "68901" -98.3883288 40.5867682
+"Republican Valley Library System" "2727 W. 2nd 233" "Hastings" "NE" "68901" -98.4196501 40.5844748
+"Cravath Memorial Library" "243 North Main" "Hay Springs" "NE" "69347" -102.6899022 42.6846974
+"Hayes Center Public Library" "402 Troth Street" "Hayes Center" "NE" "69032" -101.0188651 40.5108887
+"Hebron Secrest Library" "146 North 4th Street" "Hebron" "NE" "68370" -97.5903199 40.167215
+"Hemingford Public Library" "812 Box Butte" "Hemingford" "NE" "69348" -103.0728548 42.3216783
+"Hildreth Public Library" "248 Commerical Avenue" "Hildreth" "NE" "68947" -99.0432628 40.3372697
+"Holdrege Area Public Library" "604 East Avenue" "Holdrege" "NE" "68949" -99.3695777 40.4402085
+"Hooper Public Library" "126 North Main" "Hooper" "NE" "68031" -96.5477439 41.61104
+"Howells Public Library" "128 North 3rd Street" "Howells" "NE" "68641" -97.0030513 41.7256073
+"Bruun Memorial Library" "730 3rd Street" "Humboldt" "NE" "68376" -95.9467218 40.1628542
+"Humphrey Public Library" "307 Main Street" "Humphrey" "NE" "68642" -97.4848269 41.6917377
+"Grant County Library" "po box 328" "Hyannis" "NE" "69350" -101.7618438 42.0005407
+"Lied Imperial Public Library" "703 Broadway" "Imperial" "NE" "69033" -101.6434773 40.5181726
+"Indianola Public Library" "122 North 4th Street" "Indianola" "NE" "69034" -93.5555809 41.3604939
+"Jackson Public Library" "223 N John St" "Jackson" "NE" "68743" -96.5637683 42.4495363
+"Kearney Public Library" "2020 First Avenue" "Kearney" "NE" "68847" -99.0835316 40.6961959
+"Meridian Library System" "816 East 25th Street, Suite 7" "Kearney" "NE" "68847" -99.0703671 40.7005598
+"Kimball Public Library" "208 South Walnut" "Kimball" "NE" "69145" -103.6615797 41.2366098
+"La Vista Public Library" "9110 Giles Road" "La Vista" "NE" "68128" -96.0542902 41.1771757
+"Laurel Community Learning Center" "502 Wakefield St." "Laurel" "NE" "68745" -97.0948621 42.4255556
+"Leigh Public Library" "156 Main Street" "Leigh" "NE" "68643" -97.09385 40.906941
+"Lewellen Public Library" "208 Main Street" "Lewellen" "NE" "69147" -102.1442658 41.3318236
+"Lexington Public Library" "907 North Washington Street" "Lexington" "NE" "68850" -99.7419175 40.7822515
+"Arnold Heights Branch Library" "3815 Nw 54th Street" "Lincoln" "NE" "" -96.794332 40.851845
+"Bennett Martin Public Library" "136 South 14th Street" "Lincoln" "NE" "" -96.7007138 40.8128148
+"Bess Dodson Walt Branch" "6701 South 14th Street" "Lincoln" "NE" "" -96.7022806 40.7452328
+"Bethany Branch Library" "1810 North Cotner Boulevard" "Lincoln" "NE" "" -96.6300494 40.8308564
+"Charles H. Gere Branch Library" "2400 South 56th Street" "Lincoln" "NE" "" -96.6434306 40.7875232
+"Lincoln City Libraries" "136 So. 14th Street" "Lincoln" "NE" "68508" -96.7007138 40.8128148
+"Loren Corey Eiseley Branch" "1530 Superior Street" "Lincoln" "NE" "" -96.6982964 40.8579996
+"Nebraska Center For The Book" "1200 N Street, Ste. 120" "Lincoln" "NE" "68508" -96.703264 40.8127307
+"South Branch Library" "2675 South Street" "Lincoln" "NE" "" -96.6827533 40.7914204
+"Southeast Library System" "5730 R Street, Ste. C-1" "Lincoln" "NE" "68505" -96.6420828 40.8174867
+"Victor E. Anderson Branch Library" "3635 Touzalin Avenue" "Lincoln" "NE" "" -96.6405788 40.8493489
+"Litchfield Public Library" "102 West Buford Street" "Litchfield" "NE" "68852" -99.1535342 41.1564497
+"Nancy Fawcett Memorial Library" "724 Oberfelder Street" "Lodgepole" "NE" "69149" -102.6380414 41.1495169
+"Loomis Public Library" "301 Commercial" "Loomis" "NE" "68958" -99.5070994 40.4775026
+"Louisville Public Library" "217 Main Street" "Louisville" "NE" "68037" -96.162383 41.000388
+"Loup City Library" "800 North 8th Street" "Loup City" "NE" "68853" -98.9686755 41.2831254
+"Lyman Public Library" "313 Jeffers Street" "Lyman" "NE" "69352" -104.0390392 41.9163222
+"Lynch Public Library" "423 West Hoffman" "Lynch" "NE" "68746" -98.4640213 42.830337
+"Lyons Public Library" "305 Main Street" "Lyons" "NE" "68038" -96.4755725 41.9375713
+"Madison Public Library" "208 West 3rd Street" "Madison" "NE" "68748" -97.4563917 41.8279739
+"Sunshine Township Library" "417 Main Street" "Mason City" "NE" "68855" -99.3003421 41.2218192
+"Mccook Public Library" "802 Norris Avenue" "Mccook" "NE" "69001" -100.6257721 40.2047781
+"Mead Public Library" "316 South Vine" "Mead" "NE" "68041" -96.4890756 41.2274544
+"Meadow Grove Public Library" "205 Main Street" "Meadow Grove" "NE" "68752" -75.6773142 45.4079655
+"Brenizer Public Library" "430 West Center Avenue" "Merna" "NE" "68856" -99.7618541 41.484038
+"Webermeier Memorial Library" "617 2nd Street" "Milford" "NE" "68405" -97.052074 40.7731718
+"Milligan Public Library" "424 Main Street" "Milligan" "NE" "68406" -97.3889279 40.4986815
+"Minatare Public Library" "309 Main Street" "Minatare" "NE" "69356" -103.5035607 41.8088944
+"Jensen Memorial Library" "443 North Kearney" "Minden" "NE" "68959" -98.9462856 40.4988942
+"Mitchell Public Library" "1449 Center Avenue" "Mitchell" "NE" "69357" -103.8086859 41.9425134
+"Morrill Public Library" "119 East Webster Street" "Morrill" "NE" "69358" -103.9260452 41.9634055
+"Hooker County Library" "102 North Cleveland Avenue" "Mullen" "NE" "69152" -101.044909 42.0429632
+"Morton-James Public Library" "923 First Corso" "Nebraska City" "NE" "68410" -95.856608 40.6757062
+"Nehawka Public Library" "221 Maple" "Nehawka" "NE" "68413" -95.988597 40.829064
+"Neligh Public Library" "710 Main Street" "Neligh" "NE" "68756" -98.0299188 42.1317385
+"Nelson Public Library" "10 West 3rd Street" "Nelson" "NE" "68961" -98.0674255 40.2025924
+"Newman Grove Public Library" "615 Hale Avenue" "Newman Grove" "NE" "68758" -97.77636 41.7466429
+"Niobrara Public Library" "25414 Park Avenue Ste 3" "Niobrara" "NE" "68760" -98.0324277 42.7496309
+"Norfolk Public Library" "308 Prospect Avenue" "Norfolk" "NE" "68701" -97.4111837 42.0370131
+"North Bend Public Library" "140 East 8th Street" "North Bend" "NE" "68649" -76.9949807 38.891537
+"North Loup Township Library" "112 South B Street" "North Loup" "NE" "68859" -98.7740476 41.4949043
+"North Platte Public Library" "120 West 4th Street" "North Platte" "NE" "69101" -100.763516 41.1365527
+"Oakdale Public Library" "406 5th Street" "Oakdale" "NE" "68761" -97.9706038 42.0696601
+"Oakland Public Library" "110 East 3rd Street" "Oakland" "NE" "68045" -96.4665881 41.8356614
+"Oconto Public Library" "43352 Road 780" "Oconto" "NE" "68860" -99.7467377 41.1326938
+"Goodall City Library" "203 West A Street" "Ogallala" "NE" "69153" -101.7203719 41.1255099
+"A V Sorenson Branch Library" "4808 Cass Street" "Omaha" "NE" "" -95.9863589 41.2635552
+"Benson Branch Library" "2918 No. 60th Street" "Omaha" "NE" "" -96.0049803 41.2857679
+"Charles B Washington Branch Library" "2869 Ames Avenue" "Omaha" "NE" "" -95.9551679 41.2995469
+"Eastern Library System" "11929 Elm Street, Suite 18" "Omaha" "NE" "68144" -96.099858 41.2328493
+"Florence Branch Library" "2920 Bondesson Street" "Omaha" "NE" "" -95.9609868 41.3406572
+"Millard Branch Library" "13214 Westwood Lane" "Omaha" "NE" "" -96.1206691 41.2280208
+"Milton R Abrahams Branch Library" "5111 North 90th Street" "Omaha" "NE" "" -96.0517663 41.3044738
+"Omaha Public Library" "215 S 15th Street" "Omaha" "NE" "68102" -95.9350505 41.2581283
+"South Branch Library" "2302 M Street" "Omaha" "NE" "" -95.9458837 41.2112666
+"W Clarke Swanson Branch Library" "9101 West Dodge Road" "Omaha" "NE" "" -96.0537756 41.2629102
+"W Dale Clark Library" "215 So. 15th Street" "Omaha" "NE" "" -95.9350505 41.2581283
+"Willa Cather Branch Library" "1905 South 44th Street" "Omaha" "NE" "" -95.9777953 41.2411901
+"Oneill Public Library" "601 E. Douglas" "Oneill" "NE" "68763" -98.6358271 42.4572487
+"Orchard Public Library" "232 Windom Street" "Orchard" "NE" "68764" -98.2410485 42.3363367
+"Ord Township Library" "1718 M Street" "Ord" "NE" "68862" -98.9307949 41.6021843
+"Cordelia B Preston Memorial Library" "510 South Orleans Avenue" "Orleans" "NE" "68966" -99.455095 40.1300576
+"Osceola Public Library" "131 North Main" "Osceola" "NE" "68651" -93.7656226 41.03588
+"Oshkosh Public Library" "307 West 1st Street" "Oshkosh" "NE" "69154" -102.3456813 41.4049284
+"Osmond Public Library" "412 North State Street" "Osmond" "NE" "68765" -97.5969178 42.3598332
+"Overton Community Library" "407 Highway 30" "Overton" "NE" "68863" -99.5337108 40.7381197
+"Oxford Municipal Library" "411 Ogden Street" "Oxford" "NE" "68967" -99.6336718 40.2514773
+"Palisade Public Library" "124 North Main Street" "Palisade" "NE" "69040" -101.1077378 40.3480587
+"Palmer Public Library" "p.o. box 248" "Palmer" "NE" "68864" 2.6501603 39.5696005
+"Palmyra Memorial Library" "525 Illinois Place" "Palmyra" "NE" "68418" -96.390477 40.704685
+"Sump Memorial Library" "222 North Jefferson" "Papillion" "NE" "68046" -96.042478 41.1577459
+"Pawnee City Public Library" "735 8th St" "Pawnee City" "NE" "68420" -96.1526236 40.1104837
+"Paxton Public Library" "110 North Oak Street" "Paxton" "NE" "69155" -101.3563817 41.1234996
+"House Memorial Library" "220 Thurston Avenue" "Pender" "NE" "68047" -96.7136113 42.1120019
+"Petersburg Public Library" "103 South Second Street" "Petersburg" "NE" "68652" -132.9545505 56.8100981
+"Lied Pierce Public Library" "207 West Court" "Pierce" "NE" "68767" -97.5286818 42.1999817
+"Pilger Public Library" "120 North Main" "Pilger" "NE" "68768" -97.0538445 42.0073495
+"Plainview Carnegie Library" "102 Main Street" "Plainview" "NE" "68769" -97.7935102 42.3508231
+"Plattsmouth Public Library" "401 Avenue A" "Plattsmouth" "NE" "68048" -95.8840724 41.0120186
+"Plymouth Public Library" "103 North Jefferson Avenue" "Plymouth" "NE" "68424" -96.9876617 40.3040627
+"Polk Public Library" "180 North Main" "Polk" "NE" "68654" -79.9195056 41.3742823
+"Ponca Carnegie Library" "203 2nd Street" "Ponca" "NE" "68770" -96.7067144 42.5637908
+"Potter Public Library" "333 Chestnut" "Potter" "NE" "69156" -103.3155425 41.2166543
+"Primrose Public Library" "229 Commercial Street" "Primrose" "NE" "68655" -98.2383556 41.6250817
+"Baright Public Library" "5555 South 77th Street" "Ralston" "NE" "68127" -96.0309861 41.2021562
+"Lied Randolph Public Library" "109 North Douglas" "Randolph" "NE" "68771" -97.3582944 42.3788219
+"Randolph Public Library" "111 North Douglas" "Randolph" "NE" "" -97.3582937 42.3788429
+"Ravenna Public Library" "121 West Seneca" "Ravenna" "NE" "68869" -98.9130378 41.0262942
+"Auld Public Library" "537 North Webster" "Red Cloud" "NE" "68970" -98.5193223 40.0902364
+"Rising City Community Library" "675 Main Street" "Rising City" "NE" "68658" -97.2964523 41.1981054
+"Royal Public Library" "3rd Ryan Streets" "Royal" "NE" "68773" -98.1249146 42.3330736
+"Rushville Public Library" "207 Sprague Street" "Rushville" "NE" "69360" -102.4612617 42.7174972
+"Ruskin Public Library" "po box 146" "Ruskin" "NE" "68974" -97.8692079 40.1438979
+"Sargent Township Library" "504 Main Street" "Sargent" "NE" "68874" -99.3711813 41.6404864
+"Schuyler Public Library" "1123 A Street" "Schuyler" "NE" "68661" -97.0584821 41.4480092
+"Scotia Public Library" "po box 188" "Scotia" "NE" "68875" -4.2026458 56.4906712
+"Lied Scottsbluff Public Library" "1809 3rd Avenue" "Scottsbluff" "NE" "69361" -103.6586066 41.8643498
+"Panhandle Library System" "115 Railway Street" "Scottsbluff" "NE" "69361" -103.6650529 41.8624626
+"Seward Memorial Library" "233 South 5th Street" "Seward" "NE" "68434" -97.0982691 40.9062561
+"Shelby Public Library" "255 N. Walnut" "Shelby" "NE" "68662" -97.4258973 41.1969703
+"Shelton Township Library" "313 C Street" "Shelton" "NE" "68876" -98.7339529 40.7777958
+"Virgil Biegert Public Library" "214 North Market Street" "Shickley" "NE" "68436" -97.7231652 40.4214384
+"Shubert Public Library" "313 Main Street" "Shubert" "NE" "68437" -95.682914 40.2355721
+"Sidney Public Library" "1112 12th Avenue" "Sidney" "NE" "69162" -102.97926 41.142652
+"Silver Creek Township Library" "309 Vine Street" "Silver Creek" "NE" "68663" -97.6643513 41.3163582
+"Snyder Public Library" "203 Ash Street" "Snyder" "NE" "68664" -96.7889272 41.7043075
+"South Sioux City Public Library" "2121 Dakota Avenue" "South Sioux City" "NE" "68776" -96.4145002 42.4694847
+"Spalding Public Library" "141 Saint Joseph Street" "Spalding" "NE" "68665" -98.3643905 41.6887591
+"Spencer Township Library" "110 West Main Street" "Spencer" "NE" "68777" -98.7014896 42.8739823
+"Springfield Memorial Library" "665 Main Street" "Springfield" "NE" "68059" -96.127743 41.081193
+"Keya Paha County Library" "p. o. box 134" "Springview" "NE" "68778" -99.7490055 42.8244444
+"Saint Edward Public Library" "302 Beaver Street" "St. Edward" "NE" "68660" -97.8656724 41.5698934
+"Saint Paul Public Library" "1301 Howard Avenue" "St. Paul" "NE" "68873" -98.4652556 41.2131854
+"Stanton Public Library" "1009 Jackpine" "Stanton" "NE" "68779" -97.2238225 41.9512752
+"Logan County Library" "317 Main Street" "Stapleton" "NE" "69163" -100.5127217 41.4799099
+"Stella Community Library" "3rd Main Streets" "Stella" "NE" "68442" -95.7734779 40.2310492
+"Sterling Public Library" "150 Broadway Street" "Sterling" "NE" "68443" -96.3767613 40.4589099
+"Stratton Public Library" "502 Bailey Street" "Stratton" "NE" "69043" -101.2271253 40.1489859
+"Stromsburg Public Library" "320 Central Street" "Stromsburg" "NE" "68666" -97.5941597 41.1132724
+"Stuart Township Library" "2nd And Main Street" "Stuart" "NE" "68780" -99.1426064 42.5994123
+"Superior Public Library" "449 North Kansas Street" "Superior" "NE" "68978" -98.0687374 40.0204069
+"Sutherland Public Library" "900 2nd Street" "Sutherland" "NE" "69165" -101.1267991 41.1582748
+"Sutton Memorial Library" "201 South Saunders" "Sutton" "NE" "68979" -97.8595178 40.6055414
+"Syracuse Public Library" "496 6th Street" "Syracuse" "NE" "68446" -96.1838951 40.6580595
+"Table Rock Public Library" "511 Luzerne Street" "Table Rock" "NE" "68447" -96.0963976 40.1783359
+"Talmage Public Library" "405 Main Street" "Talmage" "NE" "68448" -96.0218888 40.5324664
+"Taylor Public Library" "207 Williams Street" "Taylor" "NE" "68879" -99.3810132 41.7683
+"Tecumseh Public Library" "170 Branch Street" "Tecumseh" "NE" "68450" -96.19006 40.368953
+"Tekamah Carnegie Public Library" "204 South 13th Street" "Tekamah" "NE" "68061" -96.2212233 41.7770291
+"Thomas County Library" "501 Main Street" "Thedford" "NE" "69166" -100.5730326 41.9775329
+"Raymond A. Whitwer Tilden Public Library" "202 South Center Street" "Tilden" "NE" "68781" -97.8341339 42.0469242
+"Tobias Public Library" "101 Main Street" "Tobias" "NE" "68453" -97.3361077 40.4176589
+"Trenton Public Library" "406 Main Street" "Trenton" "NE" "69044" -101.0130712 40.1778171
+"Ulysses Township Library" "410 C Street" "Ulysses" "NE" "68669" -97.202154 41.0718644
+"Valentine Public Library" "324 North Main Street" "Valentine" "NE" "69201" -100.5506049 42.875105
+"Valley Public Library" "210 N. Locust Street" "Valley" "NE" "68064" -96.6263945 41.2073433
+"Valparaiso Public Library" "300 West 2nd" "Valparaiso" "NE" "68065" -96.8342487 41.0814472
+"Verdigre Public Library" "101 East 3rd Avenue" "Verdigre" "NE" "68783" -98.0334266 42.5980206
+"Village Of Verdon Library" "306 1-2 Main Street" "Verdon" "NE" "68457" -95.7125736 40.1476443
+"Wahoo Public Library" "637 North Maple Street" "Wahoo" "NE" "68066" -96.6212547 41.2113803
+"Gardner Public Library" "114 West Third Street" "Wakefield" "NE" "68784" -96.8657045 42.269159
+"Faith Memorial Library" "122 North Garrison Avenue" "Wallace" "NE" "69169" -101.1664684 40.8399348
+"Walthill Public Library" "222 Main Street" "Walthill" "NE" "68067" -96.4873641 42.1483731
+"Agnes Robinson Waterloo Public Library" "23704 Cedar Drive" "Waterloo" "NE" "68069" -96.2883942 41.2849174
+"Wauneta Public Library" "319 North Tecumseh" "Wauneta" "NE" "69045" -101.371325 40.4141607
+"Lincoln Township Library" "105 South Hampton" "Wausa" "NE" "68786" -97.5377722 42.5012957
+"Wayne Public Library" "410 North Pearl Street" "Wayne" "NE" "68787" -97.019282 42.2325735
+"Weeping Water Public Library" "206 West H Street" "Weeping Water" "NE" "68463" -96.1418375 40.8708997
+"John A Stahl Library" "330 North Colfax" "West Point" "NE" "68788" -96.7094213 41.8424858
+"Struckman-Baatz Memorial Library" "104 South West Avenue" "Western" "NE" "68464" -97.1978942 40.3934629
+"Dvoracek Memorial Library" "419 West Third Street" "Wilber" "NE" "68465" -96.965136 40.480877
+"Wilcox Public Library" "121 South Main Street" "Wilcox" "NE" "68982" -99.1700707 40.3623562
+"Wilsonville Public Library" "203 Iva Street" "Wilsonville" "NE" "69046" -100.1069851 40.1127919
+"Little Priest Tribal College Winnebago Public Library" "601 E College Dr" "Winnebago" "NE" "68071" -96.4679552 42.2348359
+"Wisner Public Library" "1015 East E Street" "Wisner" "NE" "68791" -96.9133417 41.9867417
+"Wolbach Public Library" "610 Kingston" "Wolbach" "NE" "68882" -98.3907781 41.3959688
+"Maltman Memorial Public Library" "910 Main Street" "Wood River" "NE" "68883" -98.6016471 40.8206553
+"Wymore Public Library" "116 West F Street" "Wymore" "NE" "68466" -96.6636728 40.1213383
+"Kilgore Memorial Library" "520 Nebraska Avenue" "York" "NE" "68467" -97.5900501 40.8666405
+"Yutan Public Library" "502 3rd Street" "Yutan" "NE" "68073" -96.3984334 41.244795

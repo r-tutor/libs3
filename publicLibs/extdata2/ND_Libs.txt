@@ -1,0 +1,93 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Carnegie Regional Library" "503 Briggs Ave., Adams, Nd 58210" "Adams" "ND" "" -98.0789893 48.4213852
+"Ashley Public Library" "113 First Avenue Nw" "Ashley" "ND" "58413" -99.3732404 46.0355714
+"Golden Valley County Library" "54 Central Avenue" "Beach" "ND" "58621" -104.0061837 46.9144302
+"Beulah Public Library" "116 Central Avenue N" "Beulah" "ND" "58523" -101.7779228 47.2636393
+"Bismarck Veterans Memorial Public Library" "515 N 5th Street" "Bismarck" "ND" "58501" -100.783778 46.810103
+"Bottineau County Library" "314 West 5th Street" "Bottineau" "ND" "58318" -100.4493871 48.8273359
+"Bowman Regional Public Library" "18 Divide Street East" "Bowman" "ND" "58623" -103.394722 46.1822209
+"Margaret Fraase Public Library" "204 Wilcox Ave N" "Buffalo" "ND" "58011" -97.5517069 46.921436
+"Cando Community Library" "523 Main" "Cando" "ND" "58324" -99.203316 48.4898865
+"Carrington City Library" "55 Ninth Ave S" "Carrington" "ND" "58421" -99.1248524 47.4489773
+"Casselton Public Library" "702 1st Street North" "Casselton" "ND" "58012" -97.210709 46.901981
+"Cavalier Public Library" "106 West 2nd Ave South" "Cavalier" "ND" "58220" -97.6255674 48.7933202
+"Griggs County Library" "902 Burrel Ave Se" "Cooperstown" "ND" "58425" -98.1236505 47.4445481
+"Divide County Public Library" "204 First Street Ne" "Crosby" "ND" "58730" -103.2933502 48.9138032
+"Lake Region Public Library" "423 7th Street Ne" "Devils Lake" "ND" "58301" -98.8592841 48.1151472
+"Dickinson Public Library" "139 Third Street West" "Dickinson" "ND" "58601" -102.7871675 46.8819445
+"Drake Public Library" "5th Avenue Main Street, Drake, Nd 58736" "Drake" "ND" "" -100.3723605 47.9241692
+"Dunn Center Public Library" "150 2nd Street West" "Dunn Center Nd" "ND" "58626" -102.622581 47.3546274
+"Edgeley Public Library" "530 Main Street" "Edgeley" "ND" "58433" -98.7112844 46.3602013
+"Ellendale Public Library" "67 1st Ave. South" "Ellendale" "ND" "58436" -98.5271811 46.0008847
+"Enderlin Municipal Library" "303 Railway Street" "Enderlin" "ND" "58027" -97.602136 46.6246185
+"Fargo Public Library" "102 North 3rd Street" "Fargo" "ND" "58102" -96.7837511 46.8773063
+"Northport Library" "2714 Broadway, Fargo, Nd 58102" "Fargo" "ND" "" -96.7873948 46.9116379
+"Southpointe Library" "3051 25th St S, Fargo, Nd 58103" "Fargo" "ND" "" -96.8220489 46.8344739
+"Flasher Public Library" "104 5th Avenue East" "Flasher" "ND" "58535" -101.2304798 46.4574698
+"Forman Public Library" "347 Main Street" "Forman" "ND" "58032" -97.6363719 46.1069712
+"Sioux County Library" "300 Second Ave" "Fort Yates" "ND" "58538" -100.6307446 46.0853821
+"Gackle Public Library" "302 Main" "Gackle" "ND" "58442" -99.1425519 46.6278485
+"Garrison Public Library" "32 South Main Street" "Garrison" "ND" "58540" -101.4174208 47.6510915
+"Goodrich Public Library" "122 Mckinley Ave., Goodrich, Nd 58444" "Goodrich" "ND" "" -100.1254828 47.4765096
+"Carnegie Regional Library" "49 West 7th Street" "Grafton" "ND" "58237" -97.4118996 48.4175586
+"Carnegie Regional Library" "7th Griggs, Grafton, Nd 58237" "Grafton" "ND" "" -97.410634 48.4122107
+"Grand Forks Public Library" "2110 Library Circle" "Grand Forks" "ND" "58206" -97.04898 47.8990188
+"Hankinson Public Library" "315 Main Avenue S" "Hankinson" "ND" "58041" -96.9020667 46.0700426
+"Harvey Public Library" "119 East Tenth Street" "Harvey" "ND" "58341" -99.9360423 47.7685706
+"Hatton School Public Library" "503 4th Street, Hatton, Nd 58240" "Hatton" "ND" "" -97.4599456 47.641563
+"Hazen Public Library" "203 East Main" "Hazen" "ND" "58545" -101.6192945 47.2945794
+"Hebron Public Library" "606 Lincoln Avenue" "Hebron" "ND" "58638" -102.0460106 46.8995183
+"Adams County Library" "103 N 6th Street" "Hettinger" "ND" "58639" -102.6353683 46.0012136
+"Alfred Dickey Public Library" "105 Third Street Se" "Jamestown" "ND" "58401" -98.7079971 46.9065942
+"Stutsman County Library" "910 Fifth Street Se" "Jamestown" "ND" "58401" -98.6952568 46.9041479
+"Kenmare Branch Library" "5 Ne 3rd, Kenmare, Nd 58746" "Kenmare" "ND" "" -102.0824669 48.6735764
+"Killdeer Public Library" "101 High Street Nw" "Killdeer" "ND" "58640" -102.754236 47.3720459
+"Kindred Public Library" "330 Elm Street" "Kindred" "ND" "58051" -97.0160036 46.6485605
+"Lakota City Library" "116 West B Avenue" "Lakota" "ND" "58344" -98.3442344 48.0414429
+"Lamoure Public School Library" "105 3rd Ave Se" "Lamoure" "ND" "58458" -98.29014 46.3569058
+"Cavalier County Library" "600 Fifth Avenue" "Langdon" "ND" "58249" -98.3724892 48.7592758
+"Edna Ralston Public Library" "116 1-2 Towner Avenue" "Larimore" "ND" "58251" -97.6237826 47.9039857
+"Leeds Public Library" "221 Main Street West" "Leeds" "ND" "58346" -99.4431803 48.2899119
+"Watts Free Library" "101 Third Street North" "Leonard" "ND" "58052" -97.245506 46.654108
+"Lidgerwood City Library" "15 Wiley Ave N" "Lidgerwood" "ND" "58053" -97.152 46.0756451
+"Harry L. Petrie Public Library" "101 Ne First" "Linton" "ND" "58552" -100.2313776 46.2669248
+"Lisbon Public Library" "409 Forest Street" "Lisbon" "ND" "58054" -97.6840623 46.4424432
+"Maddock Community Library" "2nd Dakota" "Maddock" "ND" "58348" -99.530133 47.9625088
+"Mandan Public Library" "108 First Street Nw, Mandan, Nd 58554" "Mandan" "ND" "" -100.8901295 46.8274665
+"Morton Mandan Public Library" "609 W. Main St." "Mandan" "ND" "58554" -100.8969729 46.8253012
+"Max Community Library" "215 Main Street" "Max" "ND" "58759" -101.2935041 47.8217379
+"Mayville Public Library" "52 Center Avenue North" "Mayville" "ND" "58257" -97.3264271 47.5007064
+"McVille Community Library" "101 North Main Street" "McVille" "ND" "58254" -98.1773122 47.7646209
+"Carnegie Regional Library" "105 1st Street East, Michigan, Nd 58259" "Michigan" "ND" "" -98.1207803 48.0242358
+"Satre Memorial Library" "528 5th Street" "Milnor" "ND" "58060" -97.4551035 46.2600559
+"Minnewaukan Public Library" "170 Main Street East" "Minnewaukan" "ND" "58351" -99.2508151 48.0715058
+"Minot Public Library" "516 2nd Ave Sw" "Minot" "ND" "58701" -101.3010344 48.2342605
+"Ward County Public Library" "405 Third Avenue Se" "Minot" "ND" "58701" -101.2866013 48.2335906
+"Mohall Public Library" "115 Main Street West" "Mohall" "ND" "58761" -101.5123966 48.763477
+"Mott Public Library" "202 E Third Street" "Mott" "ND" "58646" -102.3238448 46.373359
+"New England Public Library" "726 Mckenzie Avenue" "New England" "ND" "58647" -102.8664775 46.5385365
+"New Rockford Public Library" "10 8th Street N." "New Rockford" "ND" "58356" -99.1379092 47.6802102
+"New Town Public Library" "103 Main Sooline Place" "New Town" "ND" "58763" -102.4901804 47.9808483
+"Oakes School Public Library" "804 Main Avenue" "Oakes" "ND" "58474" -98.0889725 46.1385812
+"Park River School Public Library" "605 6th Sreet W" "Park River" "ND" "58270" -97.7507747 48.3926367
+"Parshall Public Library" "114 4th Ave Ne" "Parshall" "ND" "58770" -102.1333577 47.9589624
+"Pembina School City Library" "155 South Third Street" "Pembina" "ND" "58271" -97.2477825 48.9673923
+"Mclean-Mercer Regional Library" "216 Second St." "Riverdale" "ND" "58565" -101.3724424 47.4984606
+"Rolette Public Library" "1015 1st Avenue" "Rolette" "ND" "58366" -99.8359036 48.6609105
+"Rolla Public Library" "14 First Street Se" "Rolla" "ND" "58367" -99.6151065 48.8590501
+"Heart Of America Library" "201 W Third Street" "Rugby" "ND" "58368" -99.9976687 48.3676745
+"Linson Memorial Library" "206 South Main" "Stanley" "ND" "58784" -102.390633 48.3170932
+"Stanton Public Library" "312 Harmon Ave" "Stanton" "ND" "58571" -101.3814334 47.3211233
+"Kidder County Public Library" "115 West Broadway" "Steele" "ND" "58482" -99.9159373 46.8546761
+"Williston Community Library" "210 N Main St., Tioga, Nd 58801" "Tioga" "ND" "" -102.940647 48.392856
+"Turtle Lake Public Library" "107 Eggert Street" "Turtle Lake" "ND" "58575" -100.8915044 47.5219522
+"Underwood Public Library" "88 Lincoln Ave" "Underwood" "ND" "58576" -101.132932 47.457662
+"Valley City Barnes County Public Library" "410 North Central Avenue" "Valley City" "ND" "58072" -98.0031262 46.9264316
+"Velva Public School Library" "101 West 4th Street" "Velva" "ND" "58790" -100.9344899 48.0602648
+"Leach Public Library" "417 2nd Ave N" "Wahpeton" "ND" "58075" -96.6057311 46.2649743
+"Walhalla Public Library" "1010 Central Ave" "Walhalla" "ND" "58282" -97.9154478 48.9224288
+"Washburn Public Library" "705 Main Ave" "Washburn" "ND" "58577" -101.0287251 47.2888958
+"Mckenzie County Public Library" "112 Second Avenue Ne" "Watford City" "ND" "58854" -103.2814896 47.8023118
+"West Fargo Public Library" "109 Third Street East" "West Fargo" "ND" "58078" -96.8950462 46.8749351
+"Williston Community Library" "1302 Davidson Drive" "Williston" "ND" "58801" -103.6395174 48.1565008
+"Wishek School Public Library" "100 Badger Street S" "Wishek" "ND" "58495" -99.5505969 46.2580307

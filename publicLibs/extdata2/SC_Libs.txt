@@ -1,0 +1,194 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Abbeville County Library System" "201 South Main Street" "Abbeville" "SC" "29620" -82.3774021 34.1763622
+"Abbe Regional Library System" "314 Chesterfield Street Sw" "Aiken" "SC" "29801" -81.72089 33.5559839
+"Aiken County Library" "314 Chesterfield Street, Sw" "Aiken" "SC" "29801" -81.72089 33.5559839
+"Allendale County Library" "158 Mcnair Street" "Allendale" "SC" "29810" -81.3058622 33.012567
+"Anderson County Library" "300 N Mcduffie Street" "Anderson" "SC" "29621" -82.6486189 34.5059588
+"Anderson County Library - Westside Community Center Library" "1100 West Franklin Street" "Anderson" "SC" "" -82.6645758 34.496686
+"Georgetown County Library - Andrews Branch Library" "105 North Morgan Avenue" "Andrews" "SC" "29510" -79.5606007 33.452608
+"Horry County Memorial Library - Aynor Library" "500 9th Ave." "Aynor" "SC" "29511" -79.2000904 33.998338
+"Bamberg County Public Library" "3156 Railroad Avenue" "Bamberg" "SC" "29003" -81.0328952 33.2971177
+"Barnwell County Public Library" "40 Burr Street" "Barnwell" "SC" "29812" -81.3637954 33.2431932
+"Lexington County Library - Batesburg-Leesville" "203 Armory Street" "Batesburg" "SC" "29006" -81.5349688 33.9180017
+"Beaufort County Library" "311 Scott Street" "Beaufort" "SC" "29902" -80.6703411 32.4321848
+"Anderson County Library - Belton Branch Library" "91 Breazeale Street" "Belton" "SC" "29627" -82.4951552 34.5238157
+"Marian Wright Edelman Public Library" "203 Fayetteville Avenue" "Bennettsville" "SC" "29512" -79.681511 34.615317
+"Marlboro County Library System" "200 John Corry Road" "Bennettsville" "SC" "29512" -79.6795881 34.6208539
+"Bethune Public Library" "206 Main Street" "Bethune" "SC" "29009" -80.346491 34.4130193
+"Lee County Public Library System" "200 North Main Street" "Bishopville" "SC" "29010" -80.2475013 34.2189073
+"Blacksburg Library" "201 S. Rutherford Street" "Blacksburg" "SC" "29702" -81.5163253 35.1194052
+"Barnwell County Public Library - Blackville Branch Library" "19420 Sol Blatt Avenue" "Blackville" "SC" "29817" -81.2705864 33.3600537
+"Beaufort County Library - Bluffton Branch Library" "120 Palmetto Way" "Bluffton" "SC" "29910" -80.857213 32.241563
+"Richland County Public Library - Blythewood Branch Library" "218 Mcnulty Road" "Blythewood" "SC" "29016" -80.9737568 34.2158626
+"Spartanburg County Public Library - Boiling Springs Branch Library" "871 Double Bridge Road" "Boiling Springs" "SC" "29316" -81.9813689 35.0432841
+"Abbeville County Library - Calhoun Falls Branch Library" "409 N. Tugaloo St." "Calhoun Falls" "SC" "29628" -82.5894391 34.090706
+"Kershaw County Library - Camden Branch Library" "1304 Broad Street" "Camden" "SC" "29020" -80.6068821 34.2500021
+"Kershaw County Library System" "632 W. Dekalb Street Suite 109" "Camden" "SC" "29020" -80.6087686 34.2465572
+"Pickens County Library - Central-Clemson Branch Library" "105 Commons Way" "Central" "SC" "29630" -82.7890472 34.7139706
+"Lexington County Library - Chapin" "129 N.W. Columbia Avenue" "Chapin" "SC" "29036" -81.3560149 34.1683179
+"Berkeley County Library - Daniel Island" "2301 Daniel Island Drive" "Charleston" "SC" "29492" -79.9096206 32.8505269
+"Charleston County Main Library" "68 Calhoun Street" "Charleston" "SC" "29401" -79.931129 32.7885564
+"Charleston County Main Library - James Island Branch Library" "1248 Camp Road" "Charleston" "SC" "29412" -79.9494893 32.728166
+"Charleston County Main Library - John L. Dart Library" "1067 King Street" "Charleston" "SC" "29403" -79.9511252 32.8051409
+"Matheson Library" "227 Huger Street" "Cheraw" "SC" "29520" -79.8897774 34.6949716
+"Spartanburg County Public Library - Chesnee Branch Library" "100 Pickens Avenue" "Chesnee" "SC" "29323" -81.8602786 35.138556
+"Chester County Library" "100 Center Street" "Chester" "SC" "29706" -81.2150005 34.7050242
+"Chesterfield County Library System" "119 W. Main Street" "Chesterfield" "SC" "29709" -80.0884125 34.7359995
+"Clinton Public Library" "107 Jacobs Highway" "Clinton" "SC" "29325" -81.8763844 34.4579363
+"Clover Public Library" "107 Knox Street" "Clover" "SC" "29710" -81.2265618 35.1091039
+"Lexington County Library - Irmo" "6251 St. Andrews Road" "Columbia" "SC" "29212" -81.163383 34.0588748
+"Richland County Public Library" "1431 Assembly Street" "Columbia" "SC" "29201" -81.0374081 34.0041546
+"Richland County Public Library - John Hughes Cooper Branch Library" "5317 N. Trenholm Road" "Columbia" "SC" "29206" -80.9671832 34.0215386
+"Richland County Public Library - North Main Branch Library" "5306 North Main Street" "Columbia" "SC" "29203" -81.0219035 34.0519037
+"Richland County Public Library - Northeast Regional Branch Library" "7490 Parklane Road" "Columbia" "SC" "29223" -80.9575298 34.0755709
+"Richland County Public Library - Sandhills Branch Library" "1 Summit Parkway" "Columbia" "SC" "29229" -80.8828684 34.1391242
+"Richland County Public Library - Southeast Regional Branch Library" "7421 Garners Ferry Road" "Columbia" "SC" "29209" -80.9466882 33.9680199
+"Richland County Public Library - St. Andrews Regional Branch Library" "2916 Broad River Road" "Columbia" "SC" "29210" -81.1026135 34.0478102
+"Horry County Memorial Library - Administration" "1008 5th Avenue" "Conway" "SC" "29526" -79.048798 33.837656
+"Horry County Memorial Library - Bucksport Library" "7657 Highway 701 South" "Conway" "SC" "29527" -79.1066987 33.7017522
+"Horry County Memorial Library - Conway Library" "801 Main Street" "Conway" "SC" "29526" -79.0510357 33.8413674
+"Spartanburg County Public Library - Cowpens Branch Library" "181 School Street" "Cowpens" "SC" "29330" -81.8033412 35.0198419
+"Darlington County Library System" "204 N. Main Street" "Darlington" "SC" "29532" -79.872642 34.30589
+"Bamberg County Public Library - Denmark Branch Library" "19 Maple Avenue" "Denmark" "SC" "29042" -81.1410002 33.31384
+"Dillon County Library System" "600 East Main Street" "Dillon" "SC" "29536" -79.3669313 34.4144143
+"Abbeville County Library - W.M. Agnew Branch Library" "429 W. Main St" "Donalds" "SC" "29638" -82.3515004 34.369887
+"Pickens County Library System" "304 Biltmore Road" "Easley" "SC" "29641" -82.5804738 34.8248778
+"Richland County Public Library - Eastover Branch Library" "608 Main Street" "Eastover" "SC" "29044" -80.694785 33.876793
+"Edgefield County Public Library" "105 Court House Square" "Edgefield" "SC" "29824" -81.929158 33.789603
+"Charleston County Main Library - Edisto Branch Library" "1589 Hwy 174" "Edisto" "SC" "29438" -80.28395 32.569332
+"Edisto Beach Library" "71 Station Court" "Edisto Island" "SC" "29438" -80.2985433 32.520929
+"Kershaw County Library - Elgin Branch Library" "2652 Main Street" "Elgin" "SC" "29045" -80.8044284 34.1646915
+"Orangeburg County Library - Mentor Branch Library" "2621 Cleveland Street" "Elloree" "SC" "29047" -80.6077441 33.4689068
+"Hampton County Library - Estill Branch Library" "276 West Third Street" "Estill" "SC" "29918" -81.2367235 32.7538395
+"Florence County Library System" "509 South Dargan Street" "Florence" "SC" "29506" -79.766409 34.1896424
+"Charleston County Main Library - Folly Beach Library" "55 Center Street" "Folly Beach" "SC" "29439" -79.9423499 32.6576188
+"Fort Mill Public Library" "1818 Second Baxter Crossing" "Fort Mill" "SC" "29708" -80.9689734 35.0294945
+"Greenville County Library - Fountain Inn (Kerry Ann Younts Culp) Branch" "311 N. Main Street" "Fountain Inn" "SC" "29644" -82.2034178 34.6958163
+"Cherokee County Library" "300 East Rutledge Avenue" "Gaffney" "SC" "29340" -81.6509556 35.0657902
+"Cherokee County Public Library" "300 E. Rutledge Avenue" "Gaffney" "SC" "29340" -81.6509556 35.0657902
+"Lexington County Library - Gaston" "214 South Main Street" "Gaston" "SC" "29053" -81.101225 33.81368
+"Georgetown County Library" "405 Cleland Street" "Georgetown" "SC" "29440" -79.2849753 33.3740429
+"Lexington County Library - Gilbert-Summit" "405 Broad Street" "Gilbert" "SC" "29054" -81.400828 33.921706
+"Berkeley County Library - Goose Creek Library" "325 Old Moncks Corner Road" "Goose Creek" "SC" "29445" -80.043499 33.020166
+"Great Falls Library" "39 Calhoun Street" "Great Falls" "SC" "29055" -80.9020237 34.5751447
+"Williamsburg County Library - Dr C. E. Murray Branch" "72 C. E. Murray Blvd." "Greeleyville" "SC" "29056" -79.9920313 33.5816321
+"Horry County Memorial Library - Green Sea Floyds Library" "5331 Highway 9" "Green Sea" "SC" "29545" -79.0194176 34.146221
+"Greenville County Library - Anderson Road (West) Branch" "2625 Anderson Road" "Greenville" "SC" "29611" -82.4398585 34.8159481
+"Greenville County Library - Augusta Road (Ramsey Family) Branch" "100 Lydia Street" "Greenville" "SC" "29605" -82.3781259 34.8040349
+"Greenville County Library - Berea (Sarah Dobey Jones) Branch" "111 N. Highway 25 Bypass" "Greenville" "SC" "29617" -82.459626 34.9212109
+"Greenville County Library - Mauldin (W. Jack Greer) Branch" "800 W. Butler Road" "Greenville" "SC" "29607" -82.3264043 34.7758811
+"Greenville County Library - Pelham Road (F.W. Symmes) Branch" "1508 Pelham Road" "Greenville" "SC" "29615" -82.2999775 34.8569758
+"Greenville County Library System" "25 Heritage Green Place" "Greenville" "SC" "29601" -82.4020194 34.8569622
+"Greenwood County Library System" "106 N. Main Street" "Greenwood" "SC" "29646" -82.1606131 34.1929909
+"Greenville County Library - Greer (Jean M. Smith) Branch" "505 Pennsylvania Avenue" "Greer" "SC" "29650" -82.2479342 34.940237
+"Hampton County Library" "12 Locust Street" "Hampton" "SC" "29924" -81.110784 32.8645123
+"Berkeley County Library - Hanahan Library" "1274 Yeamans Hall Road" "Hanahan" "SC" "29406" -80.0103594 32.9012342
+"Hardeeville Community Library" "37 Main Street" "Hardeeville" "SC" "29927" -81.0791031 32.2855686
+"Hartsville Memorial Library" "147 W. College Avenue" "Hartsville" "SC" "29550" -80.0756948 34.374237
+"Georgetown County Library - Carvers Bay" "13048 Choppee Road" "Hemingway" "SC" "29554" -79.329005 33.612391
+"Williamsburg County Library - Hemingway" "306 North Main Street" "Hemingway" "SC" "29554" -79.4470824 33.7561624
+"Beaufort County Library - Hilton Head Island" "11 Beach City Road" "Hilton Head Island" "SC" "29926" -80.7133658 32.2186286
+"Orangeburg County Library - Holly Hill" "8441 Old State Road" "Holly Hill" "SC" "29059" -80.41516 33.32445
+"Anderson County Library - Jennie Erwin" "318 Shirley Avenue" "Honea Path" "SC" "29654" -82.3952585 34.4496352
+"Spartanburg County Public Library - Inman" "50 Mill Street" "Inman" "SC" "29349" -82.0936359 35.045696
+"The Link In Ballentine" "1321 Dutch Fork Road" "Irmo" "SC" "29063" -81.2350757 34.1243039
+"Anderson County Library - Iva Branch Library" "203 W. Cruette Street" "Iva" "SC" "29655" -82.6667146 34.3041463
+"Aiken County Library - Jackson Branch Library" "106 Main Street" "Jackson" "SC" "29831" -81.788518 33.3254427
+"Fanny D. Lowry Memorial Library" "500 North Main Street" "Jefferson" "SC" "29718" -80.3888202 34.6472498
+"Charleston County Main Library - Johns Island Regional Library" "3531 Maybank Highway" "Johns Island" "SC" "29455" -80.0771934 32.7225307
+"Johnsonville Public Library" "252 South Georgetown Highway" "Johnsonville" "SC" "29555" -79.4419403 33.8149234
+"Edgefield County Public Library - Johnston Branch (Mobley Library)" "407 Calhoun Street" "Johnston" "SC" "29832" -81.801667 33.83138
+"Lancaster County Library - Kershaw Branch Library" "3855 Fork Hill Road" "Kershaw" "SC" "29067" -80.5865893 34.571062
+"Williamsburg County Library - Kingstree" "215 North Jackson Street" "Kingstree" "SC" "29556" -79.8323687 33.6649948
+"Lake City Public Library" "220 E. Main Street" "Lake City" "SC" "29560" -79.7518847 33.8712561
+"Lake View Library" "207 Main Street" "Lake View" "SC" "29563" -79.1659349 34.3446172
+"Lake Wylie Public Library" "185 Blucher Circle" "Lake Wylie" "SC" "29710" -81.0420407 35.1107725
+"Lamar District Library" "103 E Main Street" "Lamar" "SC" "29069" -80.061977 34.168305
+"Lancaster County Library System" "313 S. White St." "Lancaster" "SC" "29720" -80.7670122 34.7172065
+"Spartanburg County Public Library - Landrum Branch Library" "111 Asbury Drive" "Landrum" "SC" "29356" -82.1739149 35.179107
+"Aiken County Library - Midland Valley Branch Library" "9 Hillside Road" "Langley" "SC" "29834" -81.848686 33.514063
+"Latta Library" "101 North Marion Street" "Latta" "SC" "29565" -79.4342179 34.3386439
+"Laurens County Library System" "1017 West Main Street" "Laurens" "SC" "29360" -82.0350322 34.4925254
+"Lexington County Public Library System - Main" "5440 Augusta Road" "Lexington" "SC" "29072" -81.2199553 33.9756526
+"Pickens County Library - Sarlin Branch Library" "15 South Palmetto Street" "Liberty" "SC" "29657" -82.6948489 34.7869996
+"Horry County Memorial Library - Stephens Crossroad Branch Library" "107 Highway 57 North" "Little River" "SC" "29566" -78.685452 33.886096
+"Beaufort County Library - Lobeco Public Library" "1862 Trask Parkway (Highway 21)" "Lobeco" "SC" "29931" -80.7434394 32.5526863
+"Horry County Memorial Library - Loris Library" "4316 Main Street" "Loris" "SC" "29569" -78.8867985 34.0548091
+"Spartanburg County Public Library - Middle Tyger Branch Library" "170 Groce Road" "Lyman" "SC" "29365" -82.1227308 34.9393317
+"Clarendon County Library System" "215 N. Brooks St." "Manning" "SC" "29102" -80.2105378 33.6993713
+"Marion County Library System" "101 East Court Street" "Marion" "SC" "29571" -79.399868 34.1783172
+"Mcbee Depot Library" "96 West Pine Avenue" "Mcbee" "SC" "29101" -80.2574785 34.4694168
+"Charleston County Main Library - Mcclellanville Branch Library" "222 Baker Street" "Mcclellanville" "SC" "29458" -79.462562 33.088533
+"Mccormick County Library System" "201 Railroad Ave." "Mccormick" "SC" "29835" -82.3002728 33.9149391
+"Berkeley County Library" "1003 Hwy. 52" "Moncks Corner" "SC" "29461" -79.9688275 33.2193417
+"Berkeley County Library System" "100 Library St." "Moncks Corner" "SC" "29461" -80.0089447 33.1947187
+"Mullins Public Library" "210 N. Main Street" "Mullins" "SC" "29574" -79.2548388 34.2068721
+"Chapin Memorial Library" "400 14th Ave. N." "Myrtle Beach" "SC" "29577" -78.876689 33.697787
+"Chapin Memorial Library" "400 14th Avenue North" "Myrtle Beach" "SC" "29577" -78.876689 33.697787
+"Horry County Memorial Library - Socastee Branch Library" "141 707-Connector Road" "Myrtle Beach" "SC" "29588" -79.0030377 33.6751614
+"Aiken County Library - New Ellenton Branch Library" "407 Main Street" "New Ellenton" "SC" "29809" -81.6852373 33.4148348
+"Hal Kohn Memorial Library" "1100 Friend Street" "Newberry" "SC" "29108" -81.6198148 34.273209
+"Newberry County Library System" "1300 Friend Street" "Newberry" "SC" "29108" -81.6185333 34.2740601
+"Nichols Library" "208 Floyd Street" "Nichols" "SC" "29581" -79.1483829 34.2356668
+"Greenwood County Library - Ninety Six Branch Library" "118 Cambridge Street, S" "Ninety Six" "SC" "29666" -82.0240822 34.1737453
+"Orangeburg County Library - North Branch Library" "9316 North Road" "North" "SC" "29112" -81.1041717 33.6156186
+"Aiken County Library - North Augusta Branch Library (Nancy Carson Library)" "135 Edgefield Rd." "North Augusta" "SC" "29841" -81.9524734 33.5229852
+"Cooper River Memorial Library" "3503 Rivers Avenue" "North Charleston" "SC" "29405" -79.9793826 32.8564834
+"Dorchester Road Regional Library" "6325 Dorchester Road" "North Charleston" "SC" "29418" -80.060016 32.874364
+"Horry County Memorial Library - North Myrtle Beach Library" "910 1st Ave S" "North Myrtle Beach" "SC" "29582" -78.6825483 33.8281068
+"John M. Thomason Public Library (Olanta)" "210 East Hampton Street" "Olanta" "SC" "29114" -79.9298189 33.9386559
+"Orangeburg County Library Commission" "510 Louis St" "Orangeburg" "SC" "29115" -80.8621336 33.4955591
+"Spartanburg County Public Library - Tri-Pacolet Branch Library" "390 W. Main Street" "Pacolet" "SC" "29372" -81.767321 34.902199
+"Pageland Community Library" "109 West Blakeney Street" "Pageland" "SC" "29728" -80.3918132 34.7693583
+"Pamplico Public Library" "100 East Main Street" "Pamplico" "SC" "29583" -79.569567 33.99565
+"Georgetown County Library - Waccamaw Branch Library" "24 Commerce Drive" "Pawleys Island" "SC" "29585" -79.122336 33.449105
+"Lexington County Library - Pelion" "206 Pine Street" "Pelion" "SC" "29123" -81.242605 33.770452
+"Anderson County Library - Pendleton Branch Library" "650 S. Mechanic Street" "Pendleton" "SC" "29670" -82.7829603 34.6425105
+"Pickens County Library - Village Branch Library" "124 North Catherine Street" "Pickens" "SC" "29671" -82.710524 34.884339
+"Anderson County Library - Piedmont Branch Library" "1407 Highway 86" "Piedmont" "SC" "29673" -82.4852601 34.7044664
+"Anderson County Library - Powdersville Branch Library" "4 Civic Court" "Powdersville" "SC" "29642" -82.4883949 34.7760694
+"Lewisville Community Library" "3771 Lancaster Hwy" "Richburg" "SC" "29729" -81.003444 34.7196437
+"Ridge Spring Library" "636 Main Street" "Ridge Spring" "SC" "29129" -81.6611431 33.8455473
+"Jasper County Library" "451a Wilson Street" "Ridgeland" "SC" "29936" -80.9777657 32.4815973
+"Fairfield County Library - Ridgeway Branch Library" "175 South Palmer Street" "Ridgeway" "SC" "" -80.95972 34.3066135
+"York County Library System" "138 East Black Street" "Rock Hill" "SC" "29730" -81.0279227 34.924808
+"Oconee County Public Library - Salem Branch Library" "5 Park Avenue" "Salem" "SC" "29676" -82.9770023 34.8908593
+"Saluda County Library System" "101 S Main Street" "Saluda" "SC" "29138" -81.7721035 34.0013776
+"Orangeburg County Library - Santee Branch Library" "119 Dazzy Circle" "Santee" "SC" "29142" -80.484392 33.474534
+"Oconee County Public Library - Seneca Branch Library" "300 E. South Second Street" "Seneca" "SC" "29678" -82.9505224 34.6819014
+"Greenville County Library - Simpsonville (Hendricks) Branch" "626 Ne Main Street" "Simpsonville" "SC" "29681" -82.2601584 34.7479218
+"Society Hill Branch Library" "473 S. Main Street" "Society Hill" "SC" "29593" -79.8582114 34.5057298
+"Spartanburg County Public Library - H. Carlisle Bean Law Library" "180 Magnolia Street, 3rd Floor" "Spartanburg" "SC" "29306" -81.9355086 34.9517067
+"Spartanburg County Public Library - Westside Branch Library" "525 Oak Grove Road" "Spartanburg" "SC" "29301" -82.0018919 34.9201286
+"Spartanburg County Public Library System" "151 S. Church Street" "Spartanburg" "SC" "29306" -81.9304458 34.9482922
+"Orangeburg County Library - Springfield Branch Library" "210 Brodie Street" "Springfield" "SC" "29146" -81.2741751 33.4943424
+"Dorchester County Library System" "506 N. Parler Avenue" "St. George" "SC" "29477" -80.5713363 33.1888868
+"Jennie Johnston Mcmahan Library, St.George" "506 North Parler Avenue" "St. George" "SC" "29477" -80.5713363 33.1888868
+"Beaufort County Library - St. Helena Branch Library" "1025 Sea Island Parkway" "St. Helena Island" "SC" "29920" -80.5636888 32.401551
+"Calhoun County Library" "900 F.R. Huff Drive" "St. Matthews" "SC" "29135" -80.7782757 33.6635197
+"Berkeley County Library - St. Stephen Library" "1104 South Main Street" "St. Stephen" "SC" "29479" -79.923989 33.399759
+"Charleston County Main Library - Edgar Allen Poe-Sullivans Island Branch Library" "1921 Ion Avenue" "Sullivans Island" "SC" "29482" -79.840985 32.75958
+"Berkeley County Library - Sangaree Library" "595 Sangaree Parkway" "Summerville" "SC" "29483" -80.1214553 33.0302597
+"George H. Seago, Jr. Library, Summerville" "76 Old Trolley Road" "Summerville" "SC" "29485" -80.1827767 32.9977933
+"Sumter County Public Library - South Sumter Branch" "337 Manning Avenue" "Sumter" "SC" "29150" -80.3407337 33.9094664
+"Sumter County Public Library - Wesmark Branch" "180 W. Wesmark Boulevard" "Sumter" "SC" "29150" -80.3844644 33.9503611
+"Sumter County Public Library System" "111 N. Harvin Street" "Sumter" "SC" "29150" -80.3390298 33.9223118
+"Horry County Memorial Library - Surfside" "410 Surfside Drive" "Surfside Beach" "SC" "29579" -78.9747877 33.6078394
+"Lexington County Library - Swansea" "199 N. Lawrence Ave." "Swansea" "SC" "29160" -81.0974497 33.7382177
+"Greenville County Library - Taylors (Burdette) Branch" "316 W. Main Street" "Taylors" "SC" "29687" -82.3082626 34.9200926
+"Baker Memorial Public Library (Timmonsville)" "298 West Smith Street" "Timmonsville" "SC" "29161" -79.9427564 34.1297632
+"Greenville County Library - Travelers Rest (Sargent) Branch" "17 Center Street" "Travelers Rest" "SC" "29690" -82.4407465 34.9698653
+"Edgefield County Public Library - Trenton Branch Library" "117 Watson Road" "Trenton" "SC" "29847" -81.842523 33.74164
+"Union County Library System" "300 East South Street" "Union" "SC" "29379" -81.6209176 34.713503
+"Oconee County Public Library" "501 W S Broad St" "Walhalla" "SC" "29691" -83.0729366 34.7647747
+"Colleton County Library System" "600 Hampton Street" "Walterboro" "SC" "29488" -80.6572098 32.9011174
+"Greenwood County Library - Ware Shoals Branch Library" "54 S. Greenwood Avenue" "Ware Shoals" "SC" "29692" -82.2411613 34.393703
+"Lexington County Library - Cayce-West Columbia" "1500 Augusta Road" "West Columbia" "SC" "29169" -81.078203 33.9866884
+"Lexington County Library - South Congaree - Pine Ridge Branch" "200 Sunset Drive" "West Columbia" "SC" "29172" -81.1322558 33.9105567
+"Oconee County Public Library - Westminster Branch Library" "112 W North Avenue" "Westminster" "SC" "29693" -83.1002313 34.6692718
+"Whitmire Memorial Library" "1510 Church Street" "Whitmire" "SC" "29178" -81.6098497 34.5024506
+"Anderson County Library - Lander Memorial Regional Library" "925 Greenville Drive" "Williamston" "SC" "29697" -82.4688988 34.6319472
+"Barnwell County Public Library - Williston Branch Library" "5121 Springfield Road" "Williston" "SC" "29853" -81.4190007 33.4033556
+"Fairfield County Library" "300 W. Washington Street" "Winnsboro" "SC" "29180" -81.08976 34.37977
+"Spartanburg County Public Library - Woodruff Branch Library" "270 E. Hayne Street" "Woodruff" "SC" "29388" -82.0351377 34.7399761
+"York Public Library" "21 East Liberty Street" "York" "SC" "29745" -81.2405463 34.9938094

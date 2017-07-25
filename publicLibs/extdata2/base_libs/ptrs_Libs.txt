@@ -1,0 +1,147 @@
+"location" "miles" "latitude" "longitude"
+"Ruth Holly Branch<br/>685 North Murray Boulevard<br/>Colorado Springs, CO" 2.7704877058498 -104.7459808 38.8429409
+"Sand Creek Branch<br/>1821 South Academy Boulevard<br/>Colorado Springs, CO" 3.29866632980247 -104.7555756 38.8063741
+"Security Public Library<br/>715 Aspen Drive<br/>Security, CO" 5.33520438103705 -104.7314175 38.7526243
+"Penrose Public Library<br/>20 North Cascade Avenue<br/>Colorado Springs, CO" 6.84708179924622 -104.8260561 38.8353301
+"East Library<br/>5550 North Union Boulevard<br/>Colorado Springs, CO" 7.35794075674517 -104.7782358 38.9126388
+"Cheyenne Mountain Branch<br/>1785 South 8th Street, Suite 100<br/>Colorado Springs, CO" 7.69578157043366 -104.8398258 38.8046928
+"Old Colorado City Branch Library<br/>2418 West Pikes Peak Avenue<br/>Colorado Springs, CO" 8.82974256358966 -104.8610255 38.8476303
+"Fountain Branch Library<br/>230 South Main Street<br/>Fountain, CO" 9.97752756953506 -104.6996681 38.6814166
+"Rockrimmon Branch<br/>832 Village Center Drive<br/>Colorado Springs, CO" 10.3097684264356 -104.844503 38.923059
+"Manitou Springs Public Library<br/>701 Manitou Ave<br/>Manitou Springs, CO" 11.7833973954844 -104.91464 38.856704
+"Ute Pass Branch<br/>8010 Severy<br/>Cascade, CO" 15.3669694046837 -104.969833 38.896887
+"Monument Library<br/>1706 Lake Woodmoor Dr<br/>Monument, CO" 20.5781824883056 -104.8598363 39.0957938
+"Rampart Library District-Woodland Parkflorissant<br/>218 E. Midland<br/>Woodland Park, CO" 22.2310255492777 -105.0506724 38.9949445
+"Woodland Park Public Library<br/>218 East Midland<br/>Woodland Park, CO" 22.2310255492777 -105.0506724 38.9949445
+"Palmer Lake Branch Library<br/>66 Lower Glenway<br/>Palmer Lake, CO" 23.4172738056009 -104.9152449 39.1197573
+"Victor Public Library<br/>124 South 3rd Street<br/>Victor, CO" 25.0890478876987 -105.1401623 38.7092298
+"Franklin Ferguson Memorial Library<br/>410 B Street<br/>Cripple Creek, CO" 26.7341951865307 -105.1841043 38.7436196
+"Penrose Library District<br/>555 Fourth Avenue<br/>Penrose, CO" 32.5484228151248 -105.0208628 38.4276462
+"Florissant Branch<br/>2001teller County Rd 31<br/>Florissant, CO" 33.0528555144585 -105.2931276 38.9476339
+"Penrose Library District<br/>35 7th Avenue<br/>Penrose, CO" 33.1757683872417 -105.0505557 38.4321442
+"White Branch<br/>298 S Joe Martinez Blvd<br/>Pueblo West, CO" 34.7445438579839 -104.7412671 38.3244312
+"Lake George Branch Library<br/>box 3<br/>Lake George, CO" 36.984059519179 -105.3574943 38.9797141
+"Elbert County Library District<br/>239 Main Street<br/>Elizabeth, CO" 37.4039085434182 -104.5956 39.3603252
+"Elizabeth Branch Library<br/>207 Main<br/>Elizabeth, CO" 37.4147035976101 -104.5956304 39.3604866
+"Barkman Branch Library<br/>1300 Jerry Murphy Road<br/>Pueblo, CO" 37.4673841796233 -104.5946971 38.2902588
+"John C. Fremont Library District (Florence)<br/>130 Church Ave<br/>Florence, CO" 37.7315151736867 -105.122184 38.391505
+"Douglas County Libraries<br/>100 South Wilcox<br/>Castle Rock, CO" 38.4883943050118 -104.8590461 39.3681268
+"Pueblo City-County Library District<br/>100 E Abriendo Ave<br/>Pueblo, CO" 39.3967511539629 -104.620059 38.2595273
+"Robert Hoag Rawlings Public Library<br/>100 East Abriendo Avenue<br/>Pueblo, CO" 39.3967511539629 -104.620059 38.2595273
+"Simla Branch Library<br/>504 Washingtion<br/>Simla, CO" 39.4330093364115 -104.087817 39.140005
+"Canon City Public Library<br/>516 Macon Ave<br/>Canon City, CO" 39.5143147183306 -105.240614 38.4413277
+"Lamb Branch Library<br/>2525 South Pueblo Boulevard<br/>Pueblo, CO" 41.6180854506064 -104.661386 38.22475
+"Guffey Branch Library<br/>1625 B. County Rd 102<br/>Guffey, CO" 44.5762767138056 -105.5211203 38.7532638
+"Wetmore Community Library<br/>95 County Road 393<br/>Wetmore, CO" 45.779328767062 -105.0860786 38.2369406
+"Louviers Library<br/>7885 Louviers Blvd<br/>Louviers, CO" 47.916066818892 -105.006704 39.476126
+"Parker Library<br/>10851 So. Crossroads Dr.<br/>Parker, CO" 48.1447538638631 -104.767264 39.5196782
+"Neighborhood Library At Roxborough<br/>8357 N. Rampart Range Rd. Suite 200<br/>Littleton, CO" 49.7772325205097 -105.0754459 39.4835976
+"Neighborhood Library At Lone Tree<br/>8827 Lone Tree Pkwy<br/>Lone Tree, CO" 50.9080435355307 -104.8865248 39.5472031
+"Highlands Ranch Library<br/>9292 Ridgeline Blvd<br/>Highlands Ranch, CO" 52.3498654880476 -104.9960252 39.5467303
+"Arapahoe Library District<br/>12855 East Adam Aircraft Circle<br/>Englewood, CO" 52.5849327473133 -104.8390773 39.5781242
+"Arapahoe Library District<br/>12855 E. Adam Aircraft Circle<br/>Englewood, CO" 52.5849327473133 -104.8390773 39.5781242
+"Southglenn Library<br/>7500 South University Blvd, 101<br/>Centennial, CO" 54.0104803190892 -104.9590255 39.5801327
+"Southglenn Public Library<br/>7500 South University Blvd., 101<br/>Littleton, CO" 54.0104803190892 -104.9590255 39.5801327
+"Castlewood Library<br/>6739 South Uinta Street<br/>Centennial, CO" 54.2056875154468 -104.8940031 39.5946643
+"Smoky Hill Public Library<br/>5430 South Biscay Circle<br/>Centennial, CO" 54.936225875385 -104.7675316 39.6180927
+"Koelbel Library<br/>5955 South Holly Street<br/>Centennial, CO" 55.4960422199681 -104.9236206 39.6089333
+"Littleton-Bemis Public Library<br/>6014 S. Datura St.<br/>Littleton, CO" 56.5133789874549 -105.0038795 39.6078883
+"South Branch Library<br/>15324 East Hampden Circle<br/>Aurora, CO" 57.3653360533151 -104.8092771 39.6505925
+"Columbine Library<br/>7706 West Bowles Avenue<br/>Littleton, CO" 57.915020578142 -105.0823068 39.6086428
+"Hampden Branch<br/>9755 East Girard Avenue<br/>Denver, CO" 58.1083063549077 -104.8747666 39.6546682
+"Conifer Library<br/>10441 Highway 73<br/>Conifer, CO" 58.6395242631964 -105.3087779 39.5296697
+"Park County Public Library<br/>350 Bulldogger Road<br/>Bailey, CO" 58.6799835251627 -105.4526999 39.440783
+"Sheridan Library<br/>3201 West Oxford Avenue<br/>Sheridan, CO" 59.3089784122324 -105.0294875 39.6440953
+"Iliff Square Library<br/>2245 South Peoria Street<br/>Aurora, CO" 59.3469657531982 -104.8471586 39.6759587
+"Ross-University Hills Branch<br/>4310 East Amherst Avenue<br/>Denver, CO" 59.4544600147207 -104.9373627 39.6652013
+"Englewood Public Library<br/>1000 Englewood Parkway<br/>Englewood, CO" 59.548006844318 -104.9990508 39.6546794
+"Fowler Public Library<br/>114 East Cranston Avenue<br/>Fowler, CO" 60.4530358210764 -104.0229409 38.1305502
+"Bear Valley Branch<br/>5171 West Dartmouth Avenue<br/>Denver, CO" 60.4838154699603 -105.0514531 39.6564899
+"Fowler Public Library<br/>400 6th Street<br/>Fowler, CO" 60.5659648372984 -104.0229873 38.1284769
+"Virginia Village Branch<br/>1500 South Dahlia Street<br/>Denver, CO" 60.9845448008964 -104.931099 39.688861
+"Aurora Public Library<br/>14949 East Alameda Parkway<br/>Aurora, CO" 61.512814920432 -104.8151612 39.7104005
+"Decker Branch<br/>1501 South Logan Street<br/>Denver, CO" 61.6336410972388 -104.9830775 39.6892003
+"Glendale Library<br/>999 South Clermont<br/>Glendale, CO" 61.693199460915 -104.935269 39.6986556
+"Hadley Branch<br/>1890 South Grove Street<br/>Denver, CO" 61.8014093236853 -105.0258716 39.6826197
+"Cotopaxi School-Community Library<br/>0345 County Road 12<br/>Cotopaxi, CO" 61.8228053488238 -105.6896509 38.378295
+"Eugene Field Library<br/>810 South University Boulevard<br/>Denver, CO" 62.1699372915527 -104.9589582 39.7016933
+"Limon Memorial Library<br/>205 E Ave<br/>Limon, CO" 62.1701952552627 -103.6879112 39.2619973
+"Schlessman Family Branch<br/>100 South Poplar Street<br/>Denver, CO" 62.4375645490477 -104.9043474 39.7142547
+"Athmar Park Branch<br/>1055 S. Tejon Street<br/>Denver, CO" 62.5826493142438 -105.0135857 39.6971052
+"Westwood Branch<br/>1000 South Lowell Boulevard<br/>Denver, CO" 62.9739927975862 -105.033683 39.698517
+"West Custer County Library District<br/>209 Main Street<br/>Westcliffe, CO" 63.2846156283037 -105.4680013 38.1363231
+"Ross-Broadway Branch<br/>33 East Bayaud Avenue<br/>Denver, CO" 63.4097080853337 -104.9866333 39.7149952
+"Ross-Cherry Creek Branch<br/>305 Milwaukee Street<br/>Denver, CO" 63.4151979650066 -104.952556 39.721257
+"Chambers Plaza Library<br/>15057 Colfax Avenue<br/>Aurora, CO" 63.558886811635 -104.8136218 39.740243
+"Martin Luther King Jr. Branch Library<br/>9901 East 16th Avenue<br/>Aurora, CO" 64.0657832454497 -104.8728579 39.7420593
+"Ross-Barnum Branch<br/>3570 West 1st Avenue<br/>Denver, CO" 64.2748223618304 -105.0345571 39.7179274
+"Belmar Library<br/>555 South Allison Parkway<br/>Lakewood, CO" 64.297546977031 -105.083808 39.706291
+"Byers Library<br/>675 Santa Fe Drive<br/>Denver, CO" 64.3806083281373 -104.9988968 39.7270737
+"Evergreen Library<br/>5000 Highway 73<br/>Evergreen, CO" 64.6542298955711 -105.3246336 39.6251424
+"Moorhead Branch<br/>2390 Havana Street<br/>Aurora, CO" 64.6907795599529 -104.865466 39.752002
+"Davies Library<br/>303 Third Avenue<br/>Deer Trail, CO" 64.7651411783974 -104.0420752 39.611227
+"Denver Public Library<br/>10 W 14th Avenue Parkway<br/>Denver, CO" 64.9237371010115 -104.9881457 39.7372618
+"Park Hill Branch<br/>4705 Montview Boulevard<br/>Denver, CO" 64.9936056514723 -104.9325269 39.747775
+"Ordway Combined Community Library<br/>1007 Main Street<br/>Ordway, CO" 65.6949434944883 -103.7566114 38.2275335
+"Blair-Caldwell Library<br/>2401 Welton Street<br/>Denver, CO" 65.8621824816097 -104.9816069 39.7524359
+"Ford Warren Library<br/>2825 High Street<br/>Denver, CO" 65.9938519519348 -104.9650955 39.7573035
+"Pauline Robinson Branch<br/>5575 E 33rd Ave<br/>Denver, CO" 66.0060124397301 -104.9227264 39.7641148
+"Bennett Branch Library<br/>495 7th Street<br/>Bennett, CO" 66.2213271863984 -104.4258142 39.7592387
+"Kelver Library<br/>404 East Front Street<br/>Byers, CO" 66.2740817934279 -104.2182688 39.7083071
+"Montbello Branch<br/>12955 Albrook Drive<br/>Denver, CO" 66.460822865741 -104.840467 39.7802398
+"Edgewater Library<br/>5843 West 25th Avenue<br/>Edgewater, CO" 67.014243007908 -105.0610858 39.7531688
+"Woodbury Branch<br/>3265 Federal Boulevard<br/>Denver, CO" 67.1576772513915 -105.0257471 39.7631346
+"Manzanola School-Public Library<br/>301 S Catalpa<br/>Manzanola, CO" 67.2195543828738 -103.8663249 38.1054817
+"Jefferson County Public Library<br/>10200 W 20th Ave<br/>Lakewood, CO" 67.473788331659 -105.1132838 39.7470416
+"Lakewood Library<br/>10200 West 20th Avenue<br/>Lakewood, CO" 67.473788331659 -105.1132838 39.7470416
+"Wheat Ridge Library<br/>5475 West 32nd Avenue<br/>Wheat Ridge, CO" 67.5517787649359 -105.0571922 39.7621836
+"Valdez-Perry<br/>4690 Vine Street<br/>Denver, CO" 67.607225266148 -104.9620771 39.7816807
+"Smiley Branch<br/>4501 West 46th Avenue<br/>Denver, CO" 68.6331915863877 -105.048587 39.780393
+"Hugo Public Library<br/>522 2nd Ave<br/>Hugo, CO" 69.4365081126413 -103.4718975 39.1368613
+"Commerce City Branch Library<br/>7185 Monaco<br/>Commerce City, CO" 70.1860644167228 -104.9131363 39.8267617
+"Golden Library<br/>1019 Tenth Street<br/>Golden, CO" 70.2396533861872 -105.2256059 39.755898
+"Arvada Library<br/>7525 W. 57th Avenue<br/>Arvada, CO" 70.4363377998933 -105.0804447 39.8003525
+"Perl Mack Branch Library<br/>7611 Hilltop Circle<br/>Denver, CO" 71.6687607124683 -105.0029351 39.8348159
+"76th Avenue Branch<br/>3031 West 76th Avenue<br/>Westminster, CO" 71.9529120613066 -105.0266063 39.8346187
+"Salida Regional Library<br/>405 E Street<br/>Salida, CO" 72.7255907398868 -105.9930522 38.532766
+"Thornton Branch Library<br/>8992 North Washington<br/>Thornton, CO" 73.037736497879 -104.9773452 39.8594436
+"Standley Lake Library<br/>8485 Kipling Street<br/>Arvada, CO" 74.229100439075 -105.1111614 39.8504515
+"Northglenn Branch Library<br/>10530 North Huron Street<br/>Northglenn, CO" 75.131115817992 -104.996088 39.887317
+"Park County Public Library<br/>418 Main Street<br/>Fairplay, CO" 75.2604465637655 -106.0021995 39.2253248
+"Rocky Ford Public Library<br/>400 South 10th Street<br/>Rocky Ford, CO" 75.4635537800006 -103.71936 38.05064
+"Rangeview Library District<br/>11658 N. Huron<br/>Northglenn, CO" 76.5386206221214 -104.9951983 39.9082773
+"College Hill Library<br/>3705 W 112th Ave<br/>Westminster, CO" 76.5722135843069 -105.0403055 39.9008226
+"Westminster Public Library<br/>3705 W. 112th Ave<br/>Westminster, CO" 76.5722135843069 -105.0403055 39.9008226
+"Idaho Springs Public Library<br/>219 14th Avenue<br/>Idaho Springs, CO" 77.0698612248174 -105.5182085 39.742116
+"Northern Chaffee County Lib Dist-Buena Vista<br/>131 Linderman Avenue<br/>Buena Vista, CO" 77.2620577726856 -106.1333303 38.8413044
+"Broomfield-Eisenhower Public Library<br/>3 Community Park Road<br/>Broomfield, CO" 78.0753361296696 -105.0689285 39.9176433
+"Brighton Branch Library<br/>575 South 8th Avenue<br/>Brighton, CO" 79.9562502401551 -104.8131159 39.978206
+"Swink School-Public Library<br/>610 Columbia Ave<br/>Swink, CO" 80.8768732412105 -103.6286083 38.0114447
+"Clear Creek Library District<br/>605 Sixth Street<br/>Georgetown, CO" 81.0309598574672 -105.6974841 39.7062158
+"Spanish Peaks Library District<br/>415 Walsen Ave.<br/>Walsenburg, CO" 82.786053525721 -104.7860565 37.6307931
+"Louisville Public Library<br/>951 Spruce Street<br/>Louisville, CO" 82.9870792460616 -105.1311127 39.978091
+"Gilpin County Library District<br/>15131 Highway 119<br/>Black Hawk, CO" 83.149855747354 -105.465374 39.8717375
+"Lafayette Public Library<br/>775 W Baseline Rd<br/>Lafayette, CO" 83.769007019052 -105.0811365 40.0002383
+"George Reynolds Branch<br/>3595 Table Mesa Drive<br/>Boulder, CO" 85.4325264450359 -105.2526034 39.9844433
+"La Junta-Woodruff Memorial Library<br/>522 Colorado Ave<br/>La Junta, CO" 85.5631579573472 -103.5431914 37.983722
+"South Branch Library<br/>504 Airport Road<br/>Breckenridge, CO" 85.7592376921819 -106.0480663 39.4918497
+"Meadows Branch Library<br/>4800 Baseline Road<br/>Boulder, CO" 86.0154558897408 -105.2343462 39.9985008
+"Hudson Public Library<br/>555 Main Street<br/>Hudson, CO" 86.3620318587928 -104.6443679 40.0734149
+"Fort Lupton Public School Library<br/>425 South Denver Avenue<br/>Fort Lupton, CO" 86.7129841406065 -104.8106242 40.0762824
+"Boulder Public Library<br/>1001 Arapahoe Avenue<br/>Boulder, CO" 87.8878588289372 -105.281769 40.013952
+"Dacono Public Library<br/>512 Cherry Street<br/>Dacono, CO" 88.0449083472346 -104.9365845 40.0852521
+"Carnegie Branch For Local History<br/>1125 Pine Street<br/>Boulder, CO" 88.2795962303633 -105.2815311 40.0200819
+"Carbon Valley Branch Library<br/>320 Maple St. B<br/>Frederick, CO" 89.0423025905974 -104.932868 40.100232
+"Nederland Community Library District<br/>20 Lakeview Drive<br/>Nederland, CO" 89.6069759803843 -105.5094579 39.9598444
+"Summit County Library<br/>0037 County Road 1005<br/>Frisco, CO" 90.2770035088079 -106.0817664 39.5713127
+"Lake County Public Library<br/>1115 Harrison Ave<br/>Leadville, CO" 90.5899281759742 -106.2935048 39.2528134
+"North Branch Library<br/>651 Center Circle<br/>Silverthorne, CO" 92.5905360528477 -106.0740283 39.637013
+"La Veta Regional Library District<br/>310 South Main Street<br/>La Veta, CO" 92.7244026391765 -105.0090832 37.5074576
+"Northern Saguache County Library District<br/>702 Pitkin Street<br/>Saguache, CO" 93.3907334613588 -106.1407336 38.0845598
+"Flagler Community Library<br/>311 Main Ave<br/>Flagler, CO" 93.3932114744371 -103.0676298 39.2915578
+"Longmont Public Library<br/>409 4th Ave<br/>Longmont, CO" 95.1000331221363 -105.1005035 40.1652087
+"Bent County Library District<br/>306 Fifth Street<br/>Las Animas, CO" 95.7527178630373 -103.2205415 38.0677811
+"Las Animas-Bent County Library District<br/>306 5th Street<br/>Las Animas, CO" 95.7527178630373 -103.2205415 38.0677811
+"Platteville Public Library<br/>504 Marion Avenue<br/>Platteville, CO" 96.3800814291004 -104.8254901 40.2155809
+"Fraser Valley Library<br/>241 Norgen Rd<br/>Fraser, CO" 97.9648396783309 -105.82007 39.9462868
+"Aguilar Public Library<br/>146 W. Main Street<br/>Aguilar, CO" 98.5758094060848 -104.6576893 37.4009825

@@ -1,0 +1,107 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Alberton Branch Library" "701 Railroad Avenue" "Alberton" "MT" "" -114.4775636 47.0029822
+"Hearst Free Library" "401 Main Street" "Anaconda" "MT" "59711" -112.9536538 46.1273471
+"Augusta Branch Library" "205 Main St" "Augusta" "MT" "" -112.392084 47.492148
+"Fallon County Library" "6 West Fallon Ave" "Baker" "MT" "59313" -104.2757896 46.3608834
+"Belgrade Community Library" "106 N Broadway St." "Belgrade" "MT" "59714" -111.1752371 45.7776362
+"Belt Public Library" "404 Millard St" "Belt" "MT" "59412" -110.9243895 47.3842426
+"Big Sandy Branch Library" "230 1st Ave N" "Big Sandy" "MT" "" -110.1187912 48.1799373
+"Carnegie Public Library" "314 Mcleod" "Big Timber" "MT" "59011" -109.953036 45.832409
+"Bigfork Branch Library" "525 Electric Ave" "Bigfork" "MT" "" -114.0732773 48.0623035
+"Parmly Billings Library" "510 North Broadway" "Billings" "MT" "59101" -108.5097778 45.7855486
+"Boulder Community Library" "202 S Main" "Boulder" "MT" "59632" -112.1196777 46.2352071
+"Bozeman Public Library" "626 E Main Street" "Bozeman" "MT" "59715" -111.0271324 45.678392
+"Bridger Public Library" "119 West Broadway" "Bridger" "MT" "59014" -108.9171192 45.2957083
+"Henry A Malley Memorial Library" "102 South Lincoln" "Broadus" "MT" "59317" -105.406301 45.443186
+"Browning Branch Library" "9 2nd St Nw" "Browning" "MT" "" -113.0182592 48.5559529
+"Butte-Silver Bow Public Library" "226 West Broadway" "Butte" "MT" "59701" -112.5402352 46.0131279
+"Wedsworth Memorial Library" "13 Front Street North" "Cascade" "MT" "59421" -111.6996245 47.2706219
+"Liberty County Library" "100 East 1st Street" "Chester" "MT" "59522" -110.964877 48.515414
+"Blaine County Library" "112 4th St West" "Chinook" "MT" "59523" -109.23194 48.592169
+"Choteau-Teton Public Library" "17 Main Avenue North" "Choteau" "MT" "59422" -112.182487 47.811756
+"George Mccone Memorial County Library" "1101 C Avenue" "Circle" "MT" "59215" -108.543864 45.7861819
+"Bicentennial Library Of Colstrip" "417 Willow Ave" "Colstrip" "MT" "" -106.6194105 45.8841348
+"Columbia Falls Branch Library" "130 6th St W C" "Columbia Falls" "MT" "" -114.1829823 48.3732804
+"Stillwater County Library" "27 N 4th St" "Columbus" "MT" "59019" -109.2590391 45.6426155
+"Swan Valley Branch Library" "6811 Hwy 83" "Condon" "MT" "" -113.6751236 47.479996
+"Conrad Public Library" "15 4th Avenue Sw" "Conrad" "MT" "59425" -111.947549 48.169434
+"Culbertson Public Library" "202 Broadway Ave S" "Culbertson" "MT" "" -104.5174272 48.145561
+"Glacier County Library" "21 1st Avenue Se" "Cut Bank" "MT" "59427" -112.331508 48.634813
+"Darby Community Public Library" "101 1-2 South Marshall Street" "Darby" "MT" "59829" -114.1767997 46.020801
+"William K. Kohrs Memorial Library" "501 Missouri Ave" "Deer Lodge" "MT" "59722" -112.731711 46.3989199
+"Denton Public Library" "515 Broadway" "Denton" "MT" "59430" -109.9501873 47.3195942
+"Dillon Public Library" "121 S Idaho Street" "Dillon" "MT" "59725" -112.637586 45.2162638
+"Dodson Branch Library" "121 2nd St East" "Dodson" "MT" "" -108.2456088 48.3960288
+"Drummond School Community Library" "108 W Edwards" "Drummond" "MT" "59832" -113.148608 46.670746
+"Dutton Public Library" "22 Main St W" "Dutton" "MT" "59433" -111.7152203 47.8481527
+"East Helena Branch Library" "400 North Kalispell" "East Helena" "MT" "" -111.9063482 46.5935137
+"Ekalaka Public Library" "115 So. Main St." "Ekalaka" "MT" "59324" -104.5487378 45.8892168
+"Madison Valley Public Library" "210 East Main Street" "Ennis" "MT" "59729" -111.7284079 45.3488129
+"Eureka Branch Library" "318 Dewey Avenue" "Eureka" "MT" "" -115.053534 48.8813037
+"Fairfield Public Library" "14 North 4th St" "Fairfield" "MT" "59436" -111.9817033 47.6144853
+"Rosebud County Library" "201 North 9th Avenue" "Forsyth" "MT" "59327" -106.6797939 46.2663331
+"Chouteau County Library" "1518 Main" "Fort Benton" "MT" "59442" -110.667963 47.818333
+"Froid Branch Library" "110 Main St" "Froid" "MT" "" -104.3762181 48.2460636
+"Geraldine Branch Library" "603 Main St" "Geraldine" "MT" "" -110.2658682 47.6006473
+"Glasgow City-County Library" "408 Third Avenue South" "Glasgow" "MT" "59230" -106.6362177 48.1927013
+"Glendive Public Library" "200 South Kendrick" "Glendive" "MT" "59330" -104.716179 47.104047
+"Great Falls Public Library" "301 2nd Ave North" "Great Falls" "MT" "59401" -111.301947 47.50783
+"Bitterroot Public Library" "306 State Street" "Hamilton" "MT" "59840" -114.1585713 46.2458722
+"Big Horn County Public Library" "419 North Custer Avenue" "Hardin" "MT" "59034" -107.60707 45.733225
+"Harlem Public Library" "37 1st Avenue" "Harlem" "MT" "59526" -108.7833898 48.5320095
+"Harlowton Public Library" "13 South Central Ave" "Harlowton" "MT" "59036" -109.831538 46.4354129
+"Havre-Hill County Library" "402 3rd Street" "Havre" "MT" "59501" -109.6768663 48.5513154
+"Lewis And Clark Library" "120 South Last Chance Gulch" "Helena" "MT" "59601" -112.0417772 46.5852204
+"Highwood Branch Library" "1412 Main Street" "Highwood" "MT" "" -110.7907223 47.5848406
+"Hobson Community Library" "110 Main" "Hobson" "MT" "" -112.5377563 45.984905
+"Preston Town County Library" "203 East Main" "Hot Springs" "MT" "59845" -114.6699211 47.6084685
+"Joliet Public Library" "211 E Front Street" "Joliet" "MT" "59041" -108.9675582 45.4865591
+"Garfield County Library" "228 Main St" "Jordan" "MT" "59337" -106.9067007 47.3206585
+"Flathead County Library" "247 1st Ave East" "Kalispell" "MT" "59901" -114.3108324 48.1963983
+"Laurel Public Library" "720 West 3rd St" "Laurel" "MT" "59044" -108.781571 45.671013
+"Lewistown Public Library" "701 West Main" "Lewistown" "MT" "59457" -109.4306188 47.0623656
+"Lincoln County Public Libraries" "220 West 6th Street" "Libby" "MT" "59923" -115.5542354 48.3909689
+"Library Lincoln Branch Library" "102 9th Avenue South" "Lincoln" "MT" "" -112.67401 46.954764
+"Livingston-Park County Public Library" "228 West Callender Street" "Livingston" "MT" "59047" -110.5614785 45.6606252
+"Phillips County Library" "10 South 4th St East" "Malta" "MT" "59538" -107.874299 48.356103
+"Manhattan Community Library" "200 W Fulton Ave" "Manhattan" "MT" "59741" -111.3291592 45.8604841
+"Marion Branch Library" "205 Gopher Lane" "Marion" "MT" "" -114.6629228 48.103231
+"Missoula Public Library" "301 E Main" "Missoula" "MT" "59802" -113.9909758 46.869837
+"Moore Public Library" "403 Fergus Avenue" "Moore" "MT" "59464" -109.6946184 46.9731806
+"Opheim Community Library" "100 Rock Street" "Opheim" "MT" "" -106.4105346 48.8575348
+"Philipsburg Public Library" "102 S Sansome" "Philipsburg" "MT" "59858" -113.294155 46.332012
+"Plains Public Library District" "108 West Railroad" "Plains" "MT" "59859" -114.876863 47.455318
+"Sheridan County Library" "100 West Laurel Ave" "Plentywood" "MT" "59254" -104.5567728 48.7779999
+"Polson City Library" "2 First Avenue East" "Polson" "MT" "59860" -114.162669 47.695461
+"Poplar City Library" "208 3rd Ave West" "Poplar" "MT" "" -105.1993149 48.1083527
+"Red Lodge Carnegie Library" "3 West 8th Street" "Red Lodge" "MT" "59068" -109.2474343 45.1898717
+"Richey Public Library" "223 South Main Street" "Richey" "MT" "" -105.0701965 47.6446055
+"Ronan City Library" "203 Main Street Sw" "Ronan" "MT" "59864" -114.1004652 47.5287209
+"Roundup School-Community Library" "525 6th Ave West" "Roundup" "MT" "59072" -108.5477841 46.4468412
+"Saco Branch Library" "201b Taylor Street" "Saco" "MT" "" -107.343589 48.456769
+"St Ignatius School-Community Library" "76 Third Ave." "Saint Ignatius" "MT" "59865" -114.0917324 47.3187782
+"St Regis Branch Library" "7 Tiger Street" "Saint Regis" "MT" "" -115.099647 47.299508
+"Daniels County Library" "203 Timmons St" "Scobey" "MT" "59263" -105.4188168 48.7914287
+"Toole County Library" "229 2nd Ave S" "Shelby" "MT" "59474" -111.8581176 48.5039523
+"Sheridan Public Library" "109 East Hamilton" "Sheridan" "MT" "59749" -112.1969291 45.4556098
+"Sidney-Richland County Library" "121 3rd Ave Nw" "Sidney" "MT" "59270" -104.1598659 47.7163178
+"Judith Basin County Free Library" "93 Third Street North" "Stanford" "MT" "59479" -110.2215327 47.1546186
+"North Valley Public Library" "208 Main Street" "Stevensville" "MT" "59870" -114.0928766 46.5109539
+"North Toole County Library" "105 First St N" "Sunburst" "MT" "" -111.9107117 48.8848603
+"Mineral County Public Library" "301 2nd Ave East" "Superior" "MT" "59872" -114.887993 47.193868
+"Prairie County Library" "309 Garfield Ave" "Terry" "MT" "59349" -105.3144372 46.7912871
+"Thompson Falls Public Library" "911 Main Street" "Thompson Falls" "MT" "59873" -115.3527688 47.5959006
+"Three Forks Community Library" "607 Main St" "Three Forks" "MT" "59752" -111.5523019 45.8889622
+"Broadwater School And Community Library" "201 N Spruce St" "Townsend" "MT" "59644" -111.520886 46.321591
+"Troy Branch Library" "3rd Kalispell" "Troy" "MT" "" -115.8898946 48.4641097
+"Twin Bridges Public Library" "206 S Main" "Twin Bridges" "MT" "59754" -112.3304785 45.5374566
+"Valier Public Library" "400 Teton Avenue" "Valier" "MT" "59486" -112.2536029 48.3081971
+"Thompson-Hickman County Library" "217 Idaho Street" "Virginia City" "MT" "59755" -111.9390909 45.293759
+"West Yellowstone Public Library" "23 N Dunraven Street" "West Yellowstone" "MT" "59758" -111.101548 44.6598339
+"Meagher County-City Library" "15 First Avenue Se" "White Sulphur Spring" "MT" "59645" -110.9022053 46.5474052
+"Whitefish Branch Library" "9 Spokane Ave" "Whitefish" "MT" "" -114.3352371 48.4124036
+"Whitehall Community Library" "110 First St West" "Whitehall" "MT" "" -112.1005732 45.8708135
+"Wibaux Public Library" "115 S Wibaux" "Wibaux" "MT" "59353" -104.1860987 46.9917924
+"Dorothy Asbjornson Community Library" "110 Main Street" "Winifred" "MT" "59489" -109.3755686 47.5594174
+"Petroleum County School-Community Library" "205 South Broadway" "Winnett" "MT" "59087" -108.3519429 47.0020211
+"Roosevelt County Library" "220 2nd Ave South" "Wolf Point" "MT" "59201" -105.6388216 48.0897693

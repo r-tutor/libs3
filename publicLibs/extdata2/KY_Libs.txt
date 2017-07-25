@@ -1,0 +1,189 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Clinton County Public Library" "302 King Drive" "Albany" "KY" "42602" -85.1348011 36.7108012
+"Boyd County Public Library" "1740 Central Avenue" "Ashland" "KY" "41101" -82.6394425 38.4753442
+"Summit Branch" "1016 Summit Road" "Ashland" "KY" "" -82.6933217 38.4327172
+"Auburn Branch" "344 West Main Street" "Auburn" "KY" "" -86.7120142 36.8625889
+"Knox County Public Library" "206 Knox Street" "Barbourville" "KY" "40906" -83.8877643 36.8667168
+"Nelson County Public Library" "201 Cathedral Manor" "Bardstown" "KY" "40004" -85.4724797 37.8080169
+"Lee County Public Library" "123 Center Street" "Beattyville" "KY" "41311" -83.7097295 37.5735214
+"Trimble County Public Library" "112 Highway 42 North" "Bedford" "KY" "40006" -85.31645 38.5946549
+"Belfry Branch" "24371 U.S. Highway 119" "Belfry" "KY" "" -82.2690877 37.6186083
+"Marshall County Public Library System" "1003 Poplar Street" "Benton" "KY" "42025" -88.3498997 36.8586417
+"Berea Branch Library" "319 East Chestnut" "Berea" "KY" "" -84.2956544 37.5686336
+"Blackey Public Library" "295 Main Street" "Blackey" "KY" "" -82.9802879 37.1394062
+"Bloomfield Branch" "141 Fairfield Hill" "Bloomfield" "KY" "" -85.3317642 37.9129358
+"Owsley County Public Library" "2 Booneville Action Pl" "Booneville" "KY" "41314" -83.6749145 37.4761991
+"Depot Branch Library" "401 Kentucky Street" "Bowling Green" "KY" "" -86.4382464 37.0001758
+"Sugar Maple Branch" "1347 Kentucky Highway 185" "Bowling Green" "KY" "" -86.441313 37.0093969
+"The Bowling Green Public Library" "1225 State Street" "Bowling Green" "KY" "" -86.4457405 36.9897498
+"Meade County Public Library" "400 Library Place" "Brandenburg" "KY" "40108" -86.1687436 38.0008029
+"Bracken County Public Library" "310 West Miami Street" "Brooksville" "KY" "41004" -84.0563577 38.6792143
+"Edmonson County Public Library" "280 Ferguson St." "Brownsville" "KY" "42210" -86.255861 37.191624
+"Cumberland County Public Library" "114 Hill Street" "Burkesville" "KY" "42717" -85.3716434 36.7908752
+"Boone County Public Library District" "1786 Burlington Pike" "Burlington" "KY" "41005" -84.6915861 39.0202261
+"John L. Street Public Library" "244 Main Street" "Cadiz" "KY" "42211" -87.8226169 36.8670365
+"Calvert City Branch Library" "1315 Fifth Avenue S.E." "Calvert City" "KY" "" -88.3397101 37.0237662
+"Taylor County Public Library" "205 North Columbia Avenue" "Campbellsville" "KY" "42718" -85.3455161 37.3411236
+"Wolfe County Public Library" "176 Kentucky Highway 15 North" "Campton" "KY" "41301" -83.5151037 37.6968353
+"Nicholas County Public Library" "223 North Broadway" "Carlisle" "KY" "40311" -84.0275015 38.3127217
+"Carroll County Public Library District" "136 Court Street" "Carrollton" "KY" "41008" -85.1811053 38.6815388
+"Catlettsburg Branch" "2704 Louisa Street" "Catlettsburg" "KY" "" -82.598164 38.4164186
+"Central City Public Library" "108 East Broad Street" "Central City" "KY" "" -87.124232 37.293308
+"Hickman County Memorial Library" "209 Mayfield Road" "Clinton" "KY" "42031" -88.9928536 36.6653112
+"Cloverport Branch" "101 4th Street" "Cloverport" "KY" "" -86.6345222 37.8334424
+"Campbell County Public Library District" "3920 Alexandria Pike" "Cold Spring" "KY" "41076" -84.444048 39.023978
+"Adair County Public Library" "307 Greensburg Street" "Columbia" "KY" "42728" -85.3074333 37.1041755
+"South Branch" "727 West Cumberland Gap Parkway" "Corbin" "KY" "" -84.0748527 36.9606284
+"Kenton County Public Library" "502 Scott Boulevard" "Covington" "KY" "41011" -84.5085315 39.0857549
+"Oldham County Public Library" "5895 West Highway 146" "Crestwood" "KY" "40014" -85.4653072 38.3525793
+"South Oldham Library" "6720 West Highway 146" "Crestwood" "KY" "" -85.4781127 38.3196308
+"Rebecca Caudill Public Library" "310 West Main Street" "Cumberland" "KY" "" -82.9921407 36.9752301
+"Cynthiana-Harrison County Public Library" "104 North Main Street" "Cynthiana" "KY" "41031" -84.2972626 38.3908248
+"Boyle County Public Library" "307 West Broadway" "Danville" "KY" "40422" -84.7727071 37.6476384
+"Dawson Springs Branch" "103 West Ramsey" "Dawson Springs" "KY" "" -87.69147 37.166098
+"Webster County Public Library" "101 State Route 132 East" "Dixon" "KY" "42409" -87.7179077 37.5228739
+"Olde Town Branch" "1200 Highway 490" "East Bernstadt" "KY" "" -84.1182167 37.1893343
+"Lyon County Public Library" "261 Commerce Street" "Eddyville" "KY" "42038" -88.0864219 37.0915762
+"Metcalfe County Public Library" "200 South Main Street" "Edmonton" "KY" "42129" -85.612201 36.9784187
+"Hardin County Public Library" "100 Jim Owen Drive" "Elizabethown" "KY" "42701" -85.8853311 37.6972596
+"Hardin County Public Library" "201 West Dixie Avenue" "Elizabethtown" "KY" "" -85.8594411 37.6942041
+"Elkhorn City Branch Library" "150 East Main Street" "Elkhorn City" "KY" "" -82.3533641 37.3047368
+"Todd County Public Library" "302 East Main Street" "Elkton" "KY" "42220" -87.1517828 36.809102
+"Henry County Public Library" "172 Eminence Terrace" "Eminence" "KY" "40019" -85.1834776 38.3691023
+"Erlanger Branch" "3130 Dixie Highway" "Erlanger" "KY" "" -84.5918411 39.0208098
+"Pendleton County Public Library" "228 Main Street" "Falmouth" "KY" "41040" -84.3295591 38.6777485
+"Flatwoods Branch" "1705 Argillite Road" "Flatwoods" "KY" "" -82.7154919 38.524191
+"Fleming County Public Library" "202 Bypass Boulevard" "Flemingsburg" "KY" "41041" -83.7514398 38.4174891
+"Florence Branch" "7425 U.S. 42" "Florence" "KY" "" -84.631248 38.9954009
+"Philip N. Carrico Branch" "1000 Highland Avenue" "Fort Thomas" "KY" "" -84.4666018 39.0721465
+"Franklin County Library District" "319 Wapping Street" "Frankfort" "KY" "40601" -84.8798689 38.1976497
+"Paul Sawyier Public Library" "305 Wapping Street" "Frankfort" "KY" "" -84.8792372 38.1974041
+"Goodnight Memorial Library" "203 South Main Street" "Franklin" "KY" "42134" -86.5778623 36.7206297
+"Menifee County Public Library" "1585 Main Street" "Frenchburg" "KY" "40322" -83.6408775 37.9511109
+"Fulton Public Library" "312 Main Street" "Fulton" "KY" "42041" -88.8740383 36.5032914
+"Scott County Public Library" "104 South Bradford Lane" "Georgetown" "KY" "40324" -84.5640871 38.1913242
+"Mary Wood Weldon Memorial Public Library" "107 West College Street" "Glasgow" "KY" "42141" -85.9135679 36.9933643
+"Mahan-Oldham County Library" "12505 Harmony Landing Road" "Goshen" "KY" "" -85.5846114 38.4008219
+"Green County Public Library" "112 West Court Street" "Greensburg" "KY" "42743" -85.5026644 37.261053
+"Greenup County Public Library" "614 Main Street" "Greenup" "KY" "41144" -82.8345536 38.5763792
+"Muhlenberg County Public Libraries" "117 South Main Street" "Greenville" "KY" "42345" -87.1787789 37.2005399
+"Hardin Branch" "104 Second Street" "Hardin" "KY" "" -88.2990034 36.7616351
+"Breckinridge County Public Library" "112 South Main Street" "Hardinsburg" "KY" "40143" -86.4615478 37.7823181
+"Harlan County Public Library" "107 North Third Street" "Harlan" "KY" "40831" -83.3200075 36.8473059
+"Mercer County Public Library" "109 West Lexington Street" "Harrodsburg" "KY" "40330" -84.8434941 37.762363
+"Ohio County Public Library" "413 South Main Street" "Hartford" "KY" "42347" -86.9079702 37.4500755
+"Hancock County Public Library" "240 Court Square" "Hawesville" "KY" "42348" -86.7491714 37.9005411
+"Perry County Public Library" "289 Black Gold Blvd." "Hazard" "KY" "41701" -83.2063125 37.2510646
+"Lents Branch" "3215 Cougar Path" "Hebron" "KY" "" -84.7032352 39.0602924
+"Henderson County Public Library" "101 South Main Street" "Henderson" "KY" "42420" -87.5944707 37.8381646
+"Hickman Branch" "902 Moscow Ave." "Hickman" "KY" "" -89.1841655 36.5711221
+"Knott County Public Library" "238 Highway 160 South" "Hindman" "KY" "41822" -82.9579202 37.3197189
+"Larue County Public Library" "201 South Lincoln Boulevard" "Hodgenville" "KY" "42748" -85.7403594 37.5719706
+"Hopkinsville-Christian County Public Library" "1101 Bethel Street" "Hopkinsville" "KY" "42240" -87.4905904 36.8652554
+"Leslie County Public Library" "22065 Main Street" "Hyden" "KY" "41749" -83.3741703 37.162163
+"William E. Durr Branch" "1992 Walton-Nicholson Road" "Independence" "KY" "" -84.5461319 38.906301
+"Martin County Public Library" "180 East Main Street" "Inez" "KY" "41224" -82.536039 37.8668809
+"Estill County Public Library" "246 Main Street" "Irvine" "KY" "40336" -83.9756565 37.7030376
+"Irvington Branch" "212 East First Street" "Irvington" "KY" "" -86.2887211 37.8747143
+"Breathitt County Public Library" "1024 College Avenue" "Jackson" "KY" "41339" -83.383309 37.553305
+"Russell County Public Library District" "94 North Main Street" "Jamestown" "KY" "42629" -85.0636672 36.9854222
+"Jenkins Public Library" "9543 Highway 805" "Jenkins" "KY" "" -82.6341463 37.1716562
+"Garrard County Public Library" "101 Lexington Street" "Lancaster" "KY" "40444" -84.5785951 37.6200793
+"Anderson County Public Library" "114 North Main Street" "Lawrenceburg" "KY" "40342" -84.8964231 38.0383643
+"Marion County Public Library" "201 East Main Street" "Lebanon" "KY" "40033" -85.2502289 37.5709266
+"Lebanon Junction Branch Library" "276 East Main Street" "Lebanon Junction" "KY" "" -85.7328549 37.8344658
+"Grayson County Public Library" "130 East Market Street" "Leitchfield" "KY" "42754" -86.2936799 37.4787559
+"Lewisburg Branch" "155 Front Street" "Lewisburg" "KY" "" -86.9488777 36.9873615
+"Lewisport Branch" "17 Pell Street" "Lewisport" "KY" "" -86.8977376 37.9389716
+"Beaumont Branch" "3080 Fieldstone Way" "Lexington" "KY" "" -84.5575269 38.0129218
+"Eagle Creek Branch" "101 North Eagle Creek Drive" "Lexington" "KY" "" -84.442378 37.999159
+"Lexington Public Library" "140 East Main Street" "Lexington" "KY" "40507" -84.4965517 38.0453225
+"Northside Branch" "1737 Russell Cave Road" "Lexington" "KY" "" -84.470783 38.081256
+"Tates Creek Branch" "3628 Walden Drive" "Lexington" "KY" "" -84.4986712 37.9794049
+"Casey County Public Library" "238 Middleburg Street" "Liberty" "KY" "42539" -84.9359597 37.3160783
+"Bennett Center Branch" "60 Bennett Circle" "London" "KY" "" -84.124175 37.0760058
+"Laurel County Public Library" "120 College Park Drive" "London" "KY" "40741" -84.0611172 37.1158075
+"Lawrence County Public Library" "102 West Main Jefferson" "Louisa" "KY" "41230" -82.6072997 38.1174767
+"Bon Air Branch" "2816 Del Rio Place" "Louisville" "KY" "" -85.6551983 38.2151821
+"Crescent Hill Branch" "2762 Frankfort Avenue" "Louisville" "KY" "" -85.6911279 38.2544764
+"Dorothea Stottman Library" "1251 Hillview Blvd." "Louisville" "KY" "" -85.6880861 38.0777177
+"Fairdale Branch" "10616 West Manslick Road" "Louisville" "KY" "" -85.7605955 38.106276
+"Fern Creek Branch" "6768 Bardstown Road" "Louisville" "KY" "" -85.5885116 38.1480941
+"Highland-Shelby Park Branch" "1250 Bardstown Road" "Louisville" "KY" "" -85.7171853 38.2352925
+"Iroquois Branch" "601 West Woodlawn Ave." "Louisville" "KY" "" -85.7715639 38.1826589
+"Jeffersontown Branch" "10635 Watterson Trail" "Louisville" "KY" "" -85.5610988 38.1978494
+"Louisville Free Public Library" "301 York Street" "Louisville" "KY" "40203" -85.7577693 38.2448434
+"Middleton Branch" "200 North Juneau Drive" "Louisville" "KY" "" -85.5264033 38.2478095
+"Okolona Branch" "7709 Preston Highway" "Louisville" "KY" "" -85.6868862 38.1397965
+"Portland Branch" "3305 Northwestern Pky." "Louisville" "KY" "" -85.8013323 38.2752441
+"Saint Matthews-Eline Memorial Branch" "3940 Grandview Avenue" "Louisville" "KY" "" -85.6496361 38.2493007
+"Shawnee Branch" "3912 West Broadway" "Louisville" "KY" "" -85.8172212 38.2498483
+"Shively-Newman Branch" "3920 Dixie Highway" "Louisville" "KY" "" -85.8092296 38.1949716
+"Southwest Regional Branch" "10375 Dixie Highway" "Louisville" "KY" "" -85.8684724 38.1048262
+"Western Branch" "604 South Tenth Street" "Louisville" "KY" "" -85.7681028 38.249826
+"Westport Middle School" "8100 Westport Road - Suite B" "Louisville" "KY" "" -85.6003938 38.2757018
+"Rufus M. Reed Public Library" "1442 River Front Road" "Lovely" "KY" "41231" -82.4013162 37.8276818
+"Hopkins County-Madisonville Public Library" "31 South Main Street" "Madisonville" "KY" "42431" -87.4989942 37.3275659
+"Clay County Public Library" "211 Bridge Street" "Manchester" "KY" "40962" -83.7610332 37.1538928
+"Crittenden County Public Library" "204 West Carlisle Street" "Marion" "KY" "42064" -88.0847161 37.3325523
+"Graves County Public Library" "601 North 17th Street" "Mayfield" "KY" "42066" -88.6496855 36.746759
+"Mason County Public Library" "218 East Third Street" "Maysville" "KY" "41056" -83.7602589 38.6441334
+"Jackson County Public Library" "118 U.S. Highway 421 North" "Mckee" "KY" "40447" -83.9979834 37.430364
+"Bell County Public Library District" "126 South 20th Street" "Middlesboro" "KY" "40965" -83.7144059 36.6086819
+"Wayne County Public Library" "150 South Main Street" "Monticello" "KY" "42633" -84.8502111 36.8286861
+"Rowan County Public Library" "185 East First Street" "Morehead" "KY" "40351" -83.4328134 38.1833071
+"Union County Public Library District" "126 South Morgan Street" "Morganfield" "KY" "42437" -87.9172647 37.6834038
+"Butler County Public Library" "116 West Ohio Street" "Morgantown" "KY" "42261" -86.6851994 37.2274865
+"Robertson County Public Library" "207 North Main Street" "Mount Olivet" "KY" "41064" -84.0336485 38.5351502
+"Mt. Sterling - Montgomery County Library" "241 West Locust Street" "Mount Sterling" "KY" "40353" -83.9458251 38.0543332
+"Rockcastle County Public Library" "60 Ford Drive" "Mount Vernon" "KY" "40456" -84.3364734 37.350226
+"Mount Washington Branch Library" "311 Snapp St." "Mount Washington" "KY" "" -85.5428064 38.0498177
+"Hart County Public Library" "500 East Union Street" "Munfordville" "KY" "42765" -85.8882379 37.2746878
+"Calloway County Public Library" "710 Main Street" "Murray" "KY" "42071" -88.3075263 36.6110175
+"Lillian Webb Memorial Branch" "1049 Highway 317" "Neon" "KY" "" -82.7083531 37.2195171
+"New Haven Branch" "139 South Main Street" "New Haven" "KY" "" -85.5936706 37.6579142
+"Jessamine County Public Library" "600 South Main Street" "Nicholasville" "KY" "40356" -84.5751943 37.8734216
+"Daviess County Public Library District" "2020 Frederica Street" "Owensboro" "KY" "42301" -87.1121167 37.7559529
+"Owen County Public Library District" "118 North Main Street" "Owenton" "KY" "40359" -84.8360631 38.5364908
+"Bath County Memorial Library" "24 West Main Street" "Owingsville" "KY" "40360" -83.7645611 38.1446869
+"Mccracken County Public Library" "555 Washington Street" "Paducah" "KY" "42003" -88.5988375 37.0841169
+"Johnson County Public Library" "444 Main Street" "Paintsville" "KY" "41240" -82.8082204 37.8133686
+"Paris-Bourbon County Library" "701 High Street" "Paris" "KY" "40361" -84.2528289 38.2106481
+"Phelps Branch" "38575 State Highway 194 E" "Phelps" "KY" "" -82.1536937 37.5178291
+"Pike County Public Library District" "119 College Street Suite 3" "Pikeville" "KY" "41501" -82.5220194 37.4764406
+"Floyd County Public Library" "161 North Arnold Avenue" "Prestonsburg" "KY" "41653" -82.7764563 37.6706392
+"George Coon Public Library" "114 South Harrison Street" "Princeton" "KY" "42445" -87.883489 37.1091479
+"Providence Branch" "230 North Willow Street" "Providence" "KY" "" -87.7614219 37.3993887
+"North Branch" "800 South Logsdon Parkway" "Radcliff" "KY" "" -85.9474275 37.8252972
+"Madison County Public Library" "507 West Main Street" "Richmond" "KY" "40475" -84.2989848 37.7498494
+"Russell Springs Branch Library" "512 Main Street" "Russell Springs" "KY" "" -85.0825319 37.0600919
+"Logan County Public Library" "201 West Sixth Street" "Russellville" "KY" "42276" -86.8883223 36.8431088
+"Magoffin County Public Library" "141 Church Street" "Salyersville" "KY" "41465" -83.0688245 37.7524939
+"Elliott County Public Library" "400 Main Street" "Sandy Hook" "KY" "41171" -83.127525 38.085623
+"Science Hill Branch" "p.o. box 448" "Science Hill" "KY" "" -84.6357766 37.1770222
+"Allen County Public Library" "936 Old Glasgow Road" "Scottsville" "KY" "42164" -86.178727 36.7539715
+"Shelby County Public Library" "309 Eighth Street" "Shelbyville" "KY" "40065" -85.2201799 38.2126944
+"Bullitt County Library District" "127 North Walnut Street" "Shepherdsville" "KY" "40165" -85.7153446 37.9873002
+"Livingston County Public Library" "321 Court Street" "Smithland" "KY" "42081" -88.4047083 37.1395754
+"Smiths Grove Branch" "127 South Main Street" "Smiths Grove" "KY" "" -86.2088413 37.0505211
+"Pulaski County Public Library" "304 South Main Street" "Somerset" "KY" "42501" -84.6032474 37.090098
+"Shopville-Stab Branch Library" "331 Stab Road" "Somerset" "KY" "" -84.4379198 37.1513916
+"Washington County Public Library" "210 East Main Street" "Springfield" "KY" "40069" -85.220363 37.684452
+"Lincoln County Public Library" "201 Lancaster St." "Stanford" "KY" "40484" -84.6618966 37.5300682
+"Powell County Public Library" "725 Breckenridge Street" "Stanton" "KY" "40380" -83.8605303 37.8527174
+"Sturgis Branch" "111 West Seventh Street" "Sturgis" "KY" "" -87.9856508 37.5478797
+"Spencer County Public Library" "168 Taylorsville Road" "Taylorsville" "KY" "40071" -85.3410449 38.0342057
+"William B. Harlan Memorial Library" "500 West Fourth Street" "Tompkinsville" "KY" "42167" -85.6991439 36.7049918
+"Uniontown Branch" "520 Second Street" "Uniontown" "KY" "" -87.9329166 37.7749024
+"Lewis County Public Library" "52 Second Street" "Vanceburg" "KY" "41179" -83.319805 38.6041475
+"Logan Helm Woodford County Library" "115 North Main Street" "Versailles" "KY" "40383" -84.7305657 38.0534097
+"Vesta Roberts Johnson Memorial Library" "p.o. box 548" "Virgie" "KY" "" -82.5795988 37.3351043
+"Walton Branch" "21 South Main Street" "Walton" "KY" "" -84.6106475 38.8642074
+"Gallatin County Public Library" "209 West Market Street" "Warsaw" "KY" "41095" -84.8998843 38.7837841
+"Morgan County Public Library" "151 University Drive" "West Liberty" "KY" "41472" -83.2892847 37.9006323
+"Harry M. Caudill Memorial Library" "220 Main Street" "Whitesburg" "KY" "41858" -82.825868 37.117819
+"Mccreary County Public Library District" "6 North Main Street" "Whitley City" "KY" "42653" -84.4701956 36.7268874
+"Ballard-Carlislelivingston Public Library" "410 Ohio Street" "Wickliffe" "KY" "42087" -89.0889612 36.9657986
+"Whitley County Public Library" "285 South Third Street" "Williamsburg" "KY" "40769" -84.1580249 36.7409884
+"Grant County Public Library District" "201 Barnes Road" "Williamstown" "KY" "41097" -84.5753111 38.6515362
+"Clark County Public Library" "370 South Burns Avenue" "Winchester" "KY" "40391" -84.1884062 37.9886235

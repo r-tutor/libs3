@@ -1,0 +1,373 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Washington County Public Library" "205 Oak Hill Street" "Abingdon" "VA" "24210" -81.973217 36.712624
+"Washington County Public Library - Hayters Gap" "7720 Hayters Gap Road" "Abingdon" "VA" "24210" -81.9291724 36.8346906
+"Eastern Shore Public Library" "23610 Front St." "Accomac" "VA" "23301" -75.6621541 37.7200317
+"Alexandria Library - Charles E. Beatley, Jr. Central Library" "5005 Duke Street" "Alexandria" "VA" "22304" -77.117092 38.8123849
+"Alexandria Library - Ellen Coolidge Burke Branch" "4701 Seminary Road" "Alexandria" "VA" "22304" -77.1098687 38.8277912
+"Alexandria Library - James M. Duncan Branch Library" "2501 Commonwealth Avenue" "Alexandria" "VA" "22301" -77.0606148 38.8277936
+"Alexandria Library - Kate Waller Barrett Branch" "717 Queen Street" "Alexandria" "VA" "22314" -77.0471444 38.8078034
+"John Marshall Library" "6209 Rose Hill Dr." "Alexandria" "VA" "22310" -77.1187885 38.7827661
+"Kingstowne Library" "6500 Landsdowne Centre" "Alexandria" "VA" "22315" -77.1645936 38.7400751
+"Martha Washington Library" "6614 Fort Hunt Road" "Alexandria" "VA" "22307" -77.0629649 38.7730454
+"Sherwood Regional Library" "2501 Sherwood Hall Ln." "Alexandria" "VA" "22306" -77.0749236 38.7434755
+"Staunton River Memorial Library" "500 Washington Street" "Altavista" "VA" "24517" -79.2913354 37.1099787
+"James L. Hamner Public Library" "16351 Dunn St." "Amelia" "VA" "23002" -77.9779384 37.3388198
+"Amherst County Public Library" "382 South Main Street" "Amherst" "VA" "24521" -79.0505009 37.5879448
+"George Mason Regional Library" "7001 Little River Turnpike" "Annandale" "VA" "22003" -77.1862695 38.8274251
+"J. Robert Jamerson Memorial Library" "157 Main Street" "Appomattox" "VA" "24522" -78.828944 37.354151
+"Arlington Central Library" "1015 N. Quincy St" "Arlington" "VA" "22201" -77.1072897 38.8837948
+"Arlington Department Of Libraries" "2100 Clarendon Blvd." "Arlington" "VA" "22201" -77.0854467 38.8904283
+"Arlington Public Library - Glencarlyn Branch Library" "300 South Kensington Street" "Arlington" "VA" "22204" -77.1258882 38.8636035
+"Arlington Public Library - Plaza Branch Library Arlington Shop" "2100 Clarendon Blvd" "Arlington" "VA" "22201" -77.0854467 38.8904283
+"Aurora Hills Library" "735 S. 18th St." "Arlington" "VA" "22202" -77.0591731 38.8575326
+"Central Library" "1015 N. Quincy St." "Arlington" "VA" "22201" -77.1072897 38.8837948
+"Cherrydale Library" "2190 N. Military Rd." "Arlington" "VA" "22207" -77.1092792 38.8987252
+"Columbia Pike Library" "816 S. Walter Reed Dr." "Arlington" "VA" "22204" -77.0884744 38.8643634
+"Government Reference Library" "1 Courthouse Plaza Suite 406" "Arlington" "VA" "22201" -77.0815435 38.8701968
+"Shirlington Library" "2786 S. Arlington Mill Dr." "Arlington" "VA" "22206" -77.0872637 38.8410692
+"Westover Library" "1800 N. Lexington St." "Arlington" "VA" "22205" -77.140016 38.887379
+"Ashburn Library" "43316 Hay Rd" "Ashburn" "VA" "20147" -77.502622 39.045962
+"Pamunkey Regional Library - Richard S. Gillis, Jr.-Ashland Branch Library" "201 S. Railroad Avenue" "Ashland" "VA" "23005" -77.4811934 37.758036
+"Blue Ridge Regional Library - Bassett Branch" "3969 Fairystone Park Highway" "Bassett" "VA" "24055" -79.9972984 36.7652104
+"Blue Ridge Regional Library - Historical Center" "3964 Fairystone Park Highway" "Bassett" "VA" "24055" -79.9957117 36.7633634
+"Basye-Orkney Springs Library" "P.O. Box 251" "Basye" "VA" "22810" -78.7646228 38.81435
+"Bedford Public Library System" "321 North Bridge Street" "Bedford" "VA" "24523" -79.5225895 37.3376904
+"Roanoke County Public Library - Bent Mountain Branch" "10148 Tinsley Lane" "Bent Mountain" "VA" "24059" -80.12187 37.154618
+"Clarke County Library" "36 East Main Street" "Berryville" "VA" "22611" -77.9802354 39.1505023
+"Big Island Library" "1111 Schooldays Rd." "Big Island" "VA" "24526" -79.4161139 37.53142
+"C. Bascom Slemp Memorial Library" "11 Proctor St. N." "Big Stone Gap" "VA" "24219" -82.7794766 36.8640894
+"Blacksburg Library" "200 Miller Street" "Blacksburg" "VA" "24060" -80.4125997 37.2259318
+"Blackstone Library" "415 South Main Street" "Blackstone" "VA" "23824" -77.9992327 37.076705
+"Smyth-Bland Regional Library - Bland Branch" "P.O. Box 480" "Bland" "VA" "24315" -81.116215 37.1021861
+"Tazewell County Public Library - Bluefield" "108 Huffard Drive" "Bluefield" "VA" "24605" -81.2636658 37.2352443
+"Caroline Library, Inc." "17202 Richmond Turnpike" "Bowling Green" "VA" "22427" -77.3409131 38.024258
+"Boydton Headquarters" "316 Washington Street" "Boydton" "VA" "23917" -78.3880786 36.6659173
+"North River Library" "118 Mt Crawford Avenue" "Bridgewater" "VA" "22812" -78.965434 38.3849549
+"Bristol Public Library" "701 Goode Street" "Bristol" "VA" "24201" -82.1855215 36.5959409
+"Bristol Public Library - Avoca Branch Library" "1550 Volunteer Parkway" "Bristol" "VA" "37620" -82.2180414 36.5548322
+"Village Library" "113 S. Central Street" "Broadway" "VA" "22815" -78.7981713 38.6125678
+"Patrick Henry Memorial Library" "204 Lynchburg Avenue" "Brookneal" "VA" "24528" -78.9423969 37.0485432
+"Buchanan Library" "19795 Main Street" "Buchanan" "VA" "24066" -79.6795829 37.528479
+"Buena Vista Public Library" "2110 Magnolia Avenue" "Buena Vista" "VA" "24416" -79.3541714 37.7346271
+"Burke Centre Library" "5935 Freds Oak Road" "Burke" "VA" "22015" -77.3171854 38.7874673
+"Kings Park Library" "9000 Burke Lake Rd." "Burke" "VA" "22015" -77.2565112 38.8074812
+"Pohick Regional Library" "6450 Sydenstricker Rd." "Burke" "VA" "22015" -77.2680915 38.7749267
+"Burkeville Library" "114 Agnew Street" "Burkeville" "VA" "23922" -78.2012336 37.1877539
+"Eastern Shore Public Library - Northampton Memorial Library" "500 Tazewell Avenue" "Cape Charles" "VA" "23310" -76.0149966 37.2688442
+"Carrollton Library" "14362 New Towne Haven Lane" "Carrollton" "VA" "23314" -76.557231 36.94083
+"Carson Depot Library" "16101 Halligan Park Rd" "Carson" "VA" "23830" -77.394419 37.0347549
+"Centreville Regional Library" "14200 St. Germain Dr." "Centreville" "VA" "20121" -77.4408766 38.8374855
+"Chantilly Regional Library" "4000 Stringfellow Rd" "Chantilly" "VA" "20151" -77.4081927 38.8826348
+"Technical Operations Center" "4000 Stringfellow Road" "Chantilly" "VA" "20151" -77.4081927 38.8826348
+"Heritage Public Library - Charles City Location" "10780 Courthouse Rd" "Charles City" "VA" "23030" -77.071012 37.341122
+"Charlotte County Library" "112-116 Legrande Ave" "Charlotte Court Hous" "VA" "23923" -78.6379177 37.055979
+"Albemarle Charlottesville Historical Society" "200 Second St. Ne" "Charlottesville" "VA" "22902" -78.479986 38.0318381
+"Gordon Avenue Library" "1500 Gordon Avenue" "Charlottesville" "VA" "22903" -78.4985161 38.0395535
+"Jefferson-Madison Regional Library" "201 East Market Street" "Charlottesville" "VA" "22902" -78.479925 38.0314266
+"Jefferson-Madison Regional Library - Bookmobile" "201 E. Market St" "Charlottesville" "VA" "22902" -78.479925 38.0314266
+"Northside Library" "300 Albemarle Square" "Charlottesville" "VA" "22901" -78.4712426 38.0820361
+"Butler Memorial Library" "515 Marshall Street" "Chase City" "VA" "23924" -78.4561373 36.7950813
+"Pittsylvania County Public Library" "24 Military Drive" "Chatham" "VA" "24531" -79.400609 36.8285229
+"Chesapeake Central Library" "298 Cedar Road" "Chesapeake" "VA" "23322" -76.2477196 36.7148469
+"Dr. Clarence V. Cuffee Library" "2726 Border Road" "Chesapeake" "VA" "23324" -76.2517072 36.8152559
+"Greenbrier Library" "1214 Volvo Parkway" "Chesapeake" "VA" "23320" -76.2181997 36.7689941
+"Indian River Library" "2320 Old Greenbrier Road" "Chesapeake" "VA" "23325" -76.2353781 36.8032197
+"Major Hillard Library" "824 Old George Washington Highway, N." "Chesapeake" "VA" "23323" -76.344254 36.7682629
+"Russell Memorial Library" "2808 Taylor Road" "Chesapeake" "VA" "23321" -76.4182989 36.833528
+"South Norfolk Memorial Library" "1100 Poindexter Street" "Chesapeake" "VA" "23324" -76.276535 36.818267
+"Chester Library" "11800 Centre Street" "Chester" "VA" "23831" -77.4477668 37.3579513
+"Enon Library" "1801 Enon Church Rd." "Chester" "VA" "23836" -77.327672 37.3312201
+"Central Library" "9501 Lori Road" "Chesterfield" "VA" "23832" -77.51292 37.3821429
+"Smyth-Bland Regional Library - Chilhowie Branch" "807 Chilhowie Street" "Chilhowie" "VA" "24319" -81.6774431 36.8029906
+"Eastern Shore Public Library - Island Library" "4077 Main Street" "Chincoteague" "VA" "23336" -75.3770168 37.9341168
+"Christiansburg Library" "125 Sheltman Street" "Christiansburg" "VA" "24073" -80.4138 37.1299
+"Augusta County Library - Churchville Branch Library" "3714 Churchville Ave" "Churchville" "VA" "24421" -79.1593859 38.2231873
+"Claremont Library" "91 Mancha Avenue" "Claremont" "VA" "23899" -76.965575 37.2277802
+"Clarksville Area Public Library" "914 Virginia Avenue" "Clarksville" "VA" "23927" -78.5646289 36.6207811
+"Clifton Forge Public Library" "535 Church Street" "Clifton Forge" "VA" "24422" -79.8236388 37.8168952
+"Jonnie B. Deel Memorial Library" "198 Chase Street" "Clintwood" "VA" "24228" -82.456404 37.1487893
+"Coeburn Community Library" "111 Third St." "Coeburn" "VA" "24230" -82.4706956 36.9437206
+"Blue Ridge Regional Library - Collinsville Branch" "2540 Virginia Avenue" "Collinsville" "VA" "24078" -79.9093135 36.7148395
+"Central Rappahannock Regional Library - Cooper Branch" "20 Washington Avenue" "Colonial Beach" "VA" "22443" -76.963377 38.250469
+"Colonial Heights Public Library" "1000 Yacht Basin Drive" "Colonial Heights" "VA" "23834" -77.3918082 37.2649556
+"Blackwater Regional Library" "22511 Main Street" "Courtland" "VA" "23837" -77.06276 36.7116476
+"Charles Pinckney Jones Memorial Library" "406 W. Riverside Street" "Covington" "VA" "24426" -79.998289 37.792211
+"Crewe Library" "400 Tyler St." "Crewe" "VA" "23930" -78.1199636 37.1776275
+"Nottoway County Library System" "414 Tyler Street" "Crewe" "VA" "23930" -78.1194987 37.1803176
+"Crozet Library" "5791 Three Notched Road" "Crozet" "VA" "22932" -78.699968 38.0697029
+"Culpeper County Library" "271 Southgate Shopping Center" "Culpeper" "VA" "22701" -78.000311 38.4633335
+"Cumberland County Public Library" "1539 Anderson Highway" "Cumberland" "VA" "23040" -78.2520274 37.4905499
+"Dale City Neighborhood Library" "4249 Dale Boulevard" "Dale City" "VA" "22193" -77.3377917 38.6459729
+"Washington County Public Library - Damascus" "126 East Laurel Avenue" "Damascus" "VA" "24236" -81.78779 36.63442
+"Danville Public Law Library" "511 Patton Street" "Danville" "VA" "24541" -79.3926384 36.5857848
+"Danville Public Library - Westover Branch" "94 Clifton Street" "Danville" "VA" "24540" -79.4863027 36.6036471
+"Pittsylvania County Public Library - Brosville" "11948 Martinsville Highway" "Danville" "VA" "24541" -79.602521 36.620848
+"Pittsylvania County Public Library - Mt. Hermon" "2725 Franklin Turnpike, Suite J" "Danville" "VA" "24540" -79.4120737 36.6577728
+"Middlesex County Public Library - Deltaville Branch" "35 Lovers Lane" "Deltaville" "VA" "23043" -76.3368124 37.5543864
+"Appomattox Regional Library - Dinwiddie Branch Library" "14103 Boydton Plank Rd" "Dinwiddie" "VA" "23841" -77.5883353 37.0775796
+"Burrowsville Library" "18701 James River Dr" "Disputanta" "VA" "23842" -77.076284 37.213508
+"Disputanta Library" "10010 County Drive" "Disputanta" "VA" "23842" -77.2268253 37.1246407
+"Charles Ona B Free Memorial Library" "300 Giles Avenue" "Dublin" "VA" "24084" -80.687344 37.108118
+"Dumfries Neighborhood Library" "18007 Dumfries Shopping Plaza" "Dumfries" "VA" "22026" -77.3284791 38.5615819
+"Eagle Rock Library" "55 Eagles Nest Drive" "Eagle Rock" "VA" "24085" -79.811283 37.654624
+"Shenandoah County Library" "514 Stony Creek Blvd." "Edinburg" "VA" "22824" -78.5700728 38.8274436
+"Elkton Community Library" "106 N. Terrace Avenue" "Elkton" "VA" "22827" -78.623897 38.408351
+"Richardson Memorial Libary" "100 Spring Street" "Emporia" "VA" "23847" -77.5412098 36.6872468
+"Access Services" "12000 Government Center Parkway Suite 123" "Fairfax" "VA" "22035" -77.3563658 38.8541263
+"City Of Fairfax Regional Library" "10360 North Street" "Fairfax" "VA" "22030" -77.3037471 38.8470801
+"Fairfax County Public Library" "12000 Government Center Parkway Sui" "Fairfax" "VA" "22035" -77.3563658 38.8541263
+"Library Administration" "12000 Government Center Parkway Suite 324" "Fairfax" "VA" "22035" -77.3563658 38.8541263
+"Mary Riley Styles Public Library" "120 North Virginia Avenue" "Falls Church" "VA" "22046" -77.1746309 38.885778
+"Thomas Jefferson Library" "7415 Arlington Boulevard" "Falls Church" "VA" "22042" -77.2016916 38.8654691
+"Tysons-Pimmit Regional Library" "7584 Leesburg Pike" "Falls Church" "VA" "22043" -77.2064149 38.906871
+"Woodrow Wilson Library" "6101 Knollwood Dr." "Falls Church" "VA" "22041" -77.1429758 38.8512666
+"Central Virginia Regional Library" "217 W. Third Street" "Farmville" "VA" "23901" -78.3934963 37.3031031
+"Central Virginia Regional Library - Farmville-Prince Edward Community Library" "217 West Third Street" "Farmville" "VA" "23901" -78.3934963 37.3031031
+"Fincastle Library" "11 Academy Street" "Fincastle" "VA" "24090" -79.8772497 37.4965598
+"Augusta County Library" "1759 Jefferson Hwy." "Fishersville" "VA" "22939" -78.9703493 38.0989567
+"Jessie Peterman Memorial Library" "321 West Main Street" "Floyd" "VA" "24091" -80.32353 36.910427
+"Forest Library" "15583 Forest Rd." "Forest" "VA" "24551" -79.2850156 37.3649641
+"Fort Valley Library" "6190 Woodstock Tower Road" "Fort Valley" "VA" "22652" -78.4227461 38.855496
+"Ruth Camp Campbell Memorial Library" "280 North College Drive" "Franklin" "VA" "23851" -76.9421076 36.6765133
+"Central Rappahannock Regional Library" "1201 Caroline Street" "Fredericksburg" "VA" "22401" -77.4606503 38.3060602
+"Central Rappahannock Regional Library - Salem Church Branch" "2607 Salem Church Road" "Fredericksburg" "VA" "22407" -77.5333352 38.2766611
+"Fries Public Library" "105 W. Main St" "Fries" "VA" "24330" -80.9733888 36.7151652
+"Samuels Public Library" "538 Villa Avenue" "Front Royal" "VA" "22630" -78.197301 38.926498
+"Galax Public Library" "610 West Stuart Drive" "Galax" "VA" "24333" -80.9299388 36.6581957
+"Galax-Carroll Regional Library" "610 W. Stuart Drive" "Galax" "VA" "24333" -80.9299388 36.6581957
+"Scott County Public Library" "297 West Jackson Street" "Gate City" "VA" "24251" -82.593622 36.6334807
+"Washington County Public Library - Glade Spring" "305 North Glade Street" "Glade Spring" "VA" "24340" -81.770274 36.791024
+"Glasgow Public Library" "1015 Blue Ridge Road" "Glasgow" "VA" "24555" -79.4502984 37.6335186
+"Henrico County Public Library - Glen Allen" "10501 Staples Mill Road" "Glen Allen" "VA" "23060" -77.527582 37.663393
+"Henrico County Public Library - Twin Hickory" "5001 Twin Hickory Road" "Glen Allen" "VA" "23059" -77.595037 37.6760487
+"Gloucester Library" "6920 Main St." "Gloucester" "VA" "23061" -76.5197161 37.4091222
+"Pamunkey Regional Library - Goochland Branch Library" "3075 River Road West" "Goochland" "VA" "23063" -77.8876794 37.6924987
+"Orange County Public Library - Gordonsville Branch" "319 N. Main Street" "Gordonsville" "VA" "22942" -78.1883498 38.138854
+"Goshen Public Library" "1124 Virginia Avenue" "Goshen" "VA" "24439" -79.4977962 37.9884016
+"Great Falls Library" "9830 Georgetown Pike" "Great Falls" "VA" "22066" -77.2869304 38.9982667
+"Pittsylvania County Public Library - Gretna" "207 A Coffey St" "Gretna" "VA" "24557" -79.3705722 36.947034
+"Massanutten Regional Library - Grottoes Branch Library" "601 Dogwood Avenue" "Grottoes" "VA" "24441" -78.8271341 38.2656917
+"Buchanan County Public Library" "1185 Poe Town Street" "Grundy" "VA" "24614" -82.106672 37.282578
+"Central Rappahannock Regional Library - Newton Branch" "22 Coles Point Road" "Hague" "VA" "22469" -76.6463467 38.0700932
+"Halifax County-South Boston Regional Library" "177 S. Main St." "Halifax" "VA" "24558" -78.9284555 36.7635702
+"Hampton Public Library" "4207 Victoria Blvd" "Hampton" "VA" "23669" -76.3513813 37.0206163
+"Hampton Public Library - George Wythe Law Library" "101 Kings Way" "Hampton" "VA" "23669" -76.3450673 37.0268088
+"Hampton Public Library - Northampton Branch Library" "936 Big Bethel Road" "Hampton" "VA" "23669" -76.4280176 37.0455352
+"Hampton Public Library - Phoebus Branch Library" "1 South Mallory Street" "Hampton" "VA" "23663" -76.3213244 37.0189842
+"Hampton Public Library - Willow Oaks Branch Library" "227 Fox Hill Road" "Hampton" "VA" "23669" -76.3280361 37.0577629
+"Caroline Library - Dawn Branch" "16315-C Dawn Boulevard" "Hanover" "VA" "23069" -77.364245 37.833524
+"Pamunkey Regional Library" "7527 Library Drive" "Hanover" "VA" "23069" -77.3664227 37.7625179
+"Massanutten Regional Library" "174 S. Main Street" "Harrisonburg" "VA" "22801" -78.8687252 38.4474558
+"Point Branch Library" "1720 George Washington Memorial Highway" "Hayes" "VA" "23062" -76.495393 37.258815
+"Gainesville Neighborhood Library" "4603 James Madison Highway" "Haymarket" "VA" "20169" -77.6348525 38.852872
+"Haysi Public Library" "157 Oquinn Street" "Haysi" "VA" "24256" -82.2865453 37.2091337
+"Northumberland Public Library" "7204 Northumberland Highway" "Heathsville" "VA" "22473" -76.469263 37.915702
+"Henrico County Public Library" "1001 N. Laburnum Avenue" "Henrico" "VA" "23223" -77.3725762 37.5579652
+"Henrico County Public Library - Bookmobile" "1001 N. Laburnum Ave." "Henrico" "VA" "23223" -77.3725762 37.5579652
+"Henrico County Public Library - Dumbarton" "6800 Staples Mill Road" "Henrico" "VA" "23228" -77.4968666 37.6109216
+"Henrico County Public Library - Gayton" "10600 Gayton Road" "Henrico" "VA" "23238" -77.607379 37.607806
+"Henrico County Public Library - Municipal Government Law" "4301 E. Parham Rd." "Henrico" "VA" "23228" -77.5152934 37.6288605
+"Henrico County Public Library - North Park" "8508 Franconia Road" "Henrico" "VA" "23227" -77.4415138 37.6407952
+"Henrico County Public Library - Tuckahoe" "1901 Starling Drive" "Henrico" "VA" "23229" -77.5667374 37.6100268
+"Henrico County Public Library - Varina" "2001 Library Road" "Henrico" "VA" "23231" -77.3763476 37.4751876
+"Herndon Fortnightly Library" "768 Center St." "Herndon" "VA" "20170" -77.387063 38.971844
+"Carroll County Public Library" "101 Beaver Dam Road" "Hillsville" "VA" "24343" -80.7399526 36.7723514
+"Honaker Community Library" "10 Library Drive" "Honaker" "VA" "24260" -81.9742921 37.016222
+"Appomattox Regional Library System" "209 East Cawson Street" "Hopewell" "VA" "23860" -77.2866857 37.3053833
+"Maude Langhorne Nelson Library (Hopewell)" "209 E Cawson St" "Hopewell" "VA" "23860" -77.2866857 37.3053833
+"Grayson County Public Library" "147 South Independence Ave" "Independence" "VA" "24348" -81.151801 36.621056
+"Wythe-Grayson Regional Library" "147 S. Independence Ave." "Independence" "VA" "24348" -81.151801 36.621056
+"Ripberger Public Library" "117 South Broad Street" "Kenbridge" "VA" "23944" -78.1247997 36.9627348
+"Charlotte County Library - Keysville Branch Library" "300 King Street" "Keysville" "VA" "23947" -78.4798546 37.0391292
+"Lancaster Community Library" "235 School Street" "Kilmarnock" "VA" "22482" -76.383211 37.713941
+"Lewis Egerton Smoot Memorial Library" "9533 Kings Highway" "King George" "VA" "22485" -77.1782051 38.2661085
+"Pamunkey Regional Library - Upper King William Branch Library" "694-J Sharon Road" "King William" "VA" "23086" -77.1336334 37.7389536
+"Brunswick County Library" "133 West Hicks Street" "Lawrenceville" "VA" "23868" -77.8478104 36.7577092
+"Meherrin Regional Library System" "133 W. Hicks Street" "Lawrenceville" "VA" "23868" -77.8478104 36.7577092
+"Lebanon Library" "248 W. Main Street" "Lebanon" "VA" "24266" -82.0884147 36.9003219
+"Russell County Public Library" "248 W Main Street" "Lebanon" "VA" "24266" -82.0884147 36.9003219
+"Loudoun County Public Library" "908a Trailview Blvd., S.E." "Leesburg" "VA" "20175" -77.5377586 39.0997197
+"Rust Library" "380 Old Waterford Rd." "Leesburg" "VA" "20175" -77.567789 39.123557
+"Rockbridge Regional Library" "138 S. Main Street" "Lexington" "VA" "24450" -79.4432643 37.7831235
+"Orange County Public Library - Wilderness Branch" "6421 Flat Run Road" "Locust Grove" "VA" "22508" -77.7794204 38.3127006
+"Lorton Library" "9520 Richmond Highway" "Lorton" "VA" "22079" -77.2136604 38.698602
+"Lovettsville Library" "12 North Light Street" "Lovettsville" "VA" "20180" -77.6355315 39.2742472
+"Nelson Memorial Library" "8521 Thomas Nelson Highway" "Lovingston" "VA" "22949" -78.8767918 37.752191
+"Page Public Library" "100 Zerkel Street" "Luray" "VA" "22835" -78.4595224 38.663876
+"Lynchburg Public Downtown Branch Library And Public Law Library" "900 Church Street" "Lynchburg" "VA" "24504" -79.1425869 37.4140524
+"Lynchburg Public Library" "2315 Memorial Avenue" "Lynchburg" "VA" "24501" -79.1675717 37.4041912
+"Timbrook Library" "21039 Timberlake Road, Suite F" "Lynchburg" "VA" "24502" -79.2444103 37.3353392
+"Madison County Library, Inc." "402 N Main St" "Madison" "VA" "22727" -78.2547579 38.3832854
+"Amherst County Public Library - Madison Heights Branch" "200 Madison Heights Square" "Madison Heights" "VA" "24572" -79.1340224 37.4231642
+"Bull Run Regional Library" "8051 Ashton Avenue" "Manassas" "VA" "20109" -77.520341 38.786795
+"Central Community Library" "8601 Mathis Avenue" "Manassas" "VA" "20110" -77.4548225 38.7687828
+"Independent Hill Neighborhood Library" "14418 Bristow Road" "Manassas" "VA" "20112" -77.44564 38.6375428
+"Smyth-Bland Regional Library - Marion Branch" "118 South Sheffey Street" "Marion" "VA" "24354" -81.5210515 36.8315984
+"Fluvanna County Public Library - John Marshall Branch" "4133 Rectortown Road" "Marshall" "VA" "20115" -77.854767 38.868338
+"Blue Ridge Regional Library - Martinsville Main Branch" "310 E. Church Street" "Martinsville" "VA" "24115" -79.8664221 36.688887
+"Mathews Memorial Library" "251 Main Street" "Mathews" "VA" "23109" -76.320945 37.433448
+"Mckenney Library" "20707 First St" "Mckenney" "VA" "23872" -77.7224475 36.9871849
+"Dolley Madison Library" "1244 Oak Ridge Ave." "Mclean" "VA" "22101" -77.1846526 38.9399888
+"Pamunkey Regional Library - Atlee Branch Library" "9161 Atlee Road" "Mechanicsville" "VA" "23116" -77.4007448 37.6493374
+"Pamunkey Regional Library - Mechanicsville Branch Library" "7461 Sherwood Crossing Place" "Mechanicsville" "VA" "23111" -77.3442535 37.613744
+"Washington County Public Library - Mendota" "2562 Mendota Road" "Mendota" "VA" "24270" -82.3059002 36.7072306
+"Middleburg Library" "101 Reed Street" "Middleburg" "VA" "20117" -77.740933 38.9692025
+"Clover Hill Library" "6701 Deer Run Dr." "Midlothian" "VA" "23112" -77.654546 37.4076639
+"Midlothian Library" "521 Coalfield Rd." "Midlothian" "VA" "23114" -77.6527822 37.4944244
+"Louisa County Library" "881 Davis Highway" "Mineral" "VA" "23117" -77.9223577 38.0201363
+"Moneta-Sml Library" "13641 Moneta Rd." "Moneta" "VA" "24121" -79.624388 37.1781239
+"Highland County Public Library" "31 N. Water Street" "Monterey" "VA" "24465" -79.5822692 38.411551
+"Pamunkey Regional Library - Lois Wickham Jones-Montpelier Branch Library" "17205 Sycamore Tavern Lane" "Montpelier" "VA" "23192" -77.688438 37.823282
+"Central Rappahannock Regional Library - Montross Branch" "15692 Kings Highway" "Montross" "VA" "22520" -76.828663 38.0937394
+"Montvale Library" "11575 W. Lynchburg-Salem Turnpike" "Montvale" "VA" "24122" -79.731956 37.385688
+"Mt. Jackson Community Library" "5901 Main Street" "Mt. Jackson" "VA" "22842" -78.6421874 38.7477401
+"Iris Brammer Library" "109 Mary Street" "Narrows" "VA" "24124" -80.8130818 37.3279658
+"Eastern Shore Public Library - Northampton Free Library" "7401 Railroad Avenue" "Nassawadox" "VA" "23413" -75.8583352 37.4740742
+"Craig County Public Library" "303 Main Street" "New Castle" "VA" "24127" -80.1143898 37.4965608
+"Heritage Public Library - New Kent Location" "6215-D Chesapeake Circle" "New Kent" "VA" "23124" -77.026478 37.491269
+"New Market Area Library" "160 E. Lee Street" "New Market" "VA" "22844" -78.6705645 38.6460668
+"Library Administration Office" "700 Town Center Drive, Suite 300" "Newport News" "VA" "23606" -76.4739288 37.0864711
+"Main Street Library-Bookmobile" "110 Main Street" "Newport News" "VA" "23601" -76.458627 37.032522
+"Newport News Public Library System" "700 Town Center Dr., Ste. 300" "Newport News" "VA" "23606" -76.4739288 37.0864711
+"Pearl Bailey Library" "2510 Wickham Ave." "Newport News" "VA" "23607" -76.4127321 36.9852876
+"Public Law Library" "2501 Washington Ave." "Newport News" "VA" "23607" -76.4307974 36.9779112
+"Virgil I. Grissom Library" "366 Deshazor Drive" "Newport News" "VA" "23608" -76.5444934 37.129177
+"West Ave. Library" "30th West Ave." "Newport News" "VA" "23607" -76.4203605 36.9857179
+"Nokesville Neighborhood Library" "12993 Fitzwater Drive" "Nokesville" "VA" "20181" -77.582243 38.699091
+"Barron F. Black Branch Library" "6700 E. Tanners Creek Dr." "Norfolk" "VA" "23513" -76.2294529 36.9016462
+"Blyden Branch Library" "879 E. Princess Anne Rd." "Norfolk" "VA" "23504" -76.2758939 36.8570714
+"Horace C. Downing Branch Library" "555 E. Liberty Street" "Norfolk" "VA" "23523" -76.2807118 36.8285716
+"Janaf Branch Library" "124 Janaf Shopping Center" "Norfolk" "VA" "23502" -76.2858726 36.8507689
+"Jordan-Newby Branch Library" "961 Park Avenue" "Norfolk" "VA" "23504" -76.2662872 36.851663
+"Lafayette Branch Library" "1610 Cromwell Drive" "Norfolk" "VA" "23509" -76.2644317 36.8875731
+"Larchmont Branch Library" "6525 Hampton Blvd." "Norfolk" "VA" "23508" -76.3041985 36.9012018
+"Little Creek Branch Library" "7853 Tarpon Place" "Norfolk" "VA" "23518" -76.2099101 36.9154086
+"Mary D. Pretlow Anchor Branch Library" "111 W. Ocean View Avenue" "Norfolk" "VA" "23503" -76.2512446 36.9529338
+"Norfolk Main Library" "235 East Plume Street" "Norfolk" "VA" "23510" -76.2904329 36.846621
+"Norfolk Public Library" "301 East City Hall Avenue" "Norfolk" "VA" "23510" -76.289653 36.847278
+"Park Place Branch Library" "620 West 29th Street" "Norfolk" "VA" "23508" -76.2916195 36.8757542
+"Van Wyck Branch Library" "1368 Debree Avenue" "Norfolk" "VA" "23517" -76.2914075 36.8646454
+"Oakton Library" "10304 Lynnhaven Place" "Oakton" "VA" "22124" -77.3025467 38.8839576
+"Orange County Public Library" "146a Madison Road" "Orange" "VA" "22960" -78.1123822 38.2465122
+"Fluvanna County Public Library" "214 Commons Blvd." "Palmyra" "VA" "22963" -78.2771385 37.8661976
+"Pearisburg Public Library" "209 Fort Branch Road" "Pearisburg" "VA" "24134" -80.7228717 37.3253547
+"Lee County Public Library" "539 Joslyn Avenue" "Pennington Gap" "VA" "24277" -83.0324151 36.754347
+"Ettrick-Matoaca Library" "4501 River Road" "Petersburg" "VA" "23803" -77.4438868 37.2324616
+"Petersburg Public Library - A.P. Hill Branch" "1237 Halifax Street" "Petersburg" "VA" "23803" -77.4132394 37.2100614
+"Petersburg Public Library - Rodof Sholom Branch" "1865 S. Sycamore St." "Petersburg" "VA" "23803" -77.3863853 37.2042798
+"Petersburg Public Library - William R. Mckenney Branch Library" "137 S. Sycamore St." "Petersburg" "VA" "23803" -77.4024509 37.2255448
+"Rohoic Library" "7301 Boydton Plank Rd" "Petersburg" "VA" "23830" -77.5022879 37.170281
+"Charlotte County Library - Phenix Branch" "P.O. Box 187" "Phenix" "VA" "23959" -78.7477837 37.079867
+"Poquoson Public Library" "500 City Hall Ave." "Poquoson" "VA" "23662" -76.3966502 37.1218729
+"Esther Murdaugh Wilson Memorial Room" "601 Court Street" "Portsmouth" "VA" "23704" -76.300284 36.8343707
+"Portsmouth Public Library - Churchland Branch" "4934 High Street West" "Portsmouth" "VA" "23703" -76.3785152 36.8524036
+"Portsmouth Public Library - Cradock Branch" "28 Prospect Parkway" "Portsmouth" "VA" "23702" -76.3171134 36.8016799
+"Portsmouth Public Library - Manor Branch" "1401 Elmhurst Lane" "Portsmouth" "VA" "23701" -76.380787 36.812612
+"Cascades Library" "21030 Whitfield Place" "Potomac Falls" "VA" "20165" -77.3947641 39.0332296
+"Powhatan County Public Library" "2270 Mann Rd." "Powhatan" "VA" "23139" -77.9290375 37.5467022
+"Prince George Library" "6605 Courts Drive" "Prince George" "VA" "23875" -77.2874682 37.2223087
+"Chinn Park Regional Library" "13065 Chinn Park Drive" "Prince William" "VA" "22192" -77.3332197 38.6703075
+"Prince William Public Library System" "13083 Chinn Park Drive" "Prince William" "VA" "22192" -77.3348021 38.6713727
+"Pulaski County Library System" "60 West Third Street" "Pulaski" "VA" "24301" -80.7813694 37.0491849
+"Purcellville Library" "220 East Main Street" "Purcellville" "VA" "20132" -77.7123858 39.1362661
+"Radford Public Library" "30 West Main St." "Radford" "VA" "24141" -80.5689662 37.1372495
+"Reston Regional Library" "11925 Bowman Towne Dr." "Reston" "VA" "20190" -77.358419 38.961687
+"Tazewell County Public Library - Richlands" "102 Suffolk Avenue" "Richlands" "VA" "24641" -81.79852 37.0936359
+"Bon Air Library" "9103 Rattlesnake Road" "Richmond" "VA" "23235" -77.5656814 37.531314
+"Laprade Library" "9000 Hull Street Rd." "Richmond" "VA" "23236" -77.5600099 37.4534119
+"Meadowdale Library" "4301 Meadowdale Blvd." "Richmond" "VA" "23234" -77.4746604 37.4377107
+"Richmond Public Library" "101 East Franklin Street" "Richmond" "VA" "23219" -77.4424796 37.5427793
+"Richmond Public Library - Belmont" "3100 Ellwood Avenue" "Richmond" "VA" "23221" -77.4796445 37.5543788
+"Richmond Public Library - Broad Rock" "4820 Warwick Road" "Richmond" "VA" "23224" -77.4797977 37.4838018
+"Richmond Public Library - East End" "2414 R Street" "Richmond" "VA" "23223" -77.4114218 37.5397634
+"Richmond Public Library - Ginter Park" "1200 Westbrook Avenue" "Richmond" "VA" "23227" -77.4541332 37.597106
+"Richmond Public Library - Hull Street" "1400 Hull Street" "Richmond" "VA" "23224" -77.445698 37.5195444
+"Richmond Public Library - North Avenue" "2901 North Avenue" "Richmond" "VA" "23222" -77.4325385 37.5701591
+"Richmond Public Library - West End" "5420 Patterson Avenue" "Richmond" "VA" "23226" -77.5112211 37.5776448
+"Richmond Public Library - Westover Hills" "1408 Westover Hills Boulevard" "Richmond" "VA" "23225" -77.4885082 37.5219928
+"Blue Ridge Regional Library - Ridgeway Branch" "900 Vista View Lane" "Ridgeway" "VA" "24148" -79.8537978 36.5792002
+"Blue Ridge Library" "28 Avery Row" "Roanoke" "VA" "24012" -79.864894 37.330416
+"Roanoke City Public Library" "706 S. Jefferson St." "Roanoke" "VA" "24016" -79.9401035 37.2679382
+"Roanoke City Public Library - Gainsboro Branch" "15 Patton Avenue Nw" "Roanoke" "VA" "24016" -79.9411558 37.2772784
+"Roanoke City Public Library - Garden City E-Branch" "3800 Yellow Mountain Road Se" "Roanoke" "VA" "24013" -79.9313181 37.2264554
+"Roanoke City Public Library - Jackson Park Branch" "1101 Morningside Street Se" "Roanoke" "VA" "24013" -79.9253824 37.2656482
+"Roanoke City Public Library - Melrose Branch" "2607 Salem Turnpike Nw" "Roanoke" "VA" "24017" -79.9804887 37.2856124
+"Roanoke City Public Library - Raleigh Court Branch" "2112 Grandin Road Sw" "Roanoke" "VA" "24015" -79.9848384 37.2565915
+"Roanoke City Public Library - Valley View E-Branch" "4802 Valley View Blvd Nw" "Roanoke" "VA" "24012" -79.964281 37.30403
+"Roanoke City Public Library - Williamson Road Branch" "3837 Williamson Road Nw" "Roanoke" "VA" "24012" -79.9476177 37.3079859
+"Roanoke County Public Library" "3131 Electric Road S.W." "Roanoke" "VA" "24018" -80.0288831 37.2437042
+"Roanoke County Public Library - Hollins Branch" "6624 Peters Creek Rd." "Roanoke" "VA" "24019" -79.96071 37.345795
+"Roanoke County Public Library - Mt. Pleasant Branch" "2918 Jae Valley Rd." "Roanoke" "VA" "24014" -79.9094503 37.2380959
+"Pamunkey Regional Library - Cochrane Rockville Branch Library" "16600 Pouncey Tract Road" "Rockville" "VA" "23146" -77.6796277 37.725774
+"Franklin County Public Library" "355 Franklin St." "Rocky Mount" "VA" "24151" -79.8917869 36.998005
+"Rose Hill Community Library" "6463 Thomas Walker Road" "Rose Hill" "VA" "24281" -83.3659717 36.6727297
+"Rural Retreat Public Library" "119 North Greever St" "Rural Retreat" "VA" "24368" -81.2714148 36.894187
+"Campbell County Public Library" "684 Village Highway Lower Level" "Rustburg" "VA" "24588" -79.1008543 37.2768113
+"Caroline Library - Ladysmith Branch" "18108 Allen Street" "Ruther Glen" "VA" "22546" -77.5176278 38.0163669
+"Roanoke County Public Library - Glenvar Branch" "3917 Daugherty Rd." "Salem" "VA" "24153" -80.1295673 37.2764989
+"Salem Public Library" "28 E. Main St." "Salem" "VA" "24153" -80.0573677 37.2922439
+"Smyth-Bland Regional Library - Saltville Branch" "P.O. Box 1033" "Saltville" "VA" "24370" -81.7620635 36.8815031
+"Henrico County Public Library - Sandston" "23 E. Williamsburg Rd." "Sandston" "VA" "23150" -77.3124745 37.5224335
+"Scottsville Library" "330 Bird Street" "Scottsville" "VA" "24590" -78.497829 37.7988209
+"Meadowbrook Public Library" "267 Alleghany Spring Road" "Shawsville" "VA" "24162" -80.2557999 37.167
+"Shenandoah Community Library" "418 S. Third Street (Rt. 340)" "Shenandoah" "VA" "22849" -78.6147693 38.4802365
+"Smithfield Library" "255 James Street" "Smithfield" "VA" "23430" -76.6383371 36.9831158
+"South Boston Public Library" "509 Broad Street" "South Boston" "VA" "24592" -78.8998617 36.6988258
+"R.T. Arnold Public Library" "110 East Danville Street" "South Hill" "VA" "23970" -78.1299783 36.7243504
+"Central Rappahannock Regional Library - Snow Branch" "8740 Courthouse Road" "Spotsylvania" "VA" "22553" -77.5876211 38.1963115
+"Archives Records Center For Fairfax County" "6800-A Industrial Road" "Springfield" "VA" "22151" -77.180994 38.798831
+"Richard Byrd Library" "7250 Commerce Street" "Springfield" "VA" "22150" -77.1921295 38.7795851
+"J. Fred Matthews Memorial Library" "16552 Wise St." "St. Paul" "VA" "24283" -82.3117737 36.9063953
+"Pamunkey Regional Library - King Queen Branch Library" "450 Newtown Road" "St. Stephens Church" "VA" "23148" -77.0548056 37.8131558
+"Central Rappahannock Regional Library - Porter Branch" "2001 Parkway Boulevard" "Stafford" "VA" "22554" -77.4469337 38.4643755
+"Green County Library" "222 Main Street" "Stanardsville" "VA" "22973" -78.4378815 38.2974569
+"William Bill Kibler Memorial Library" "140 East Main St." "Stanley" "VA" "22851" -78.5043035 38.5754889
+"Staunton Public Library" "1 Churchville Avenue" "Staunton" "VA" "24401" -79.0731692 38.1564259
+"Mary Jane And James L. Bowman Library" "871 Tasker Road" "Stephens City" "VA" "22655" -78.192323 39.1014696
+"Sterling Library" "120 Enterprise Street" "Sterling" "VA" "20164" -77.402036 38.9989109
+"Strasburg Community Library" "195 West King Street" "Strasburg" "VA" "22657" -78.3634693 38.9895373
+"Blue Ridge Regional Library - Bookmobile" "116 W. Blue Ridge Street" "Stuart" "VA" "24171" -80.2698357 36.6423169
+"Chuckatuck Branch Library" "P.O. Box 2278" "Suffolk" "VA" "23432" -76.5835621 36.7282054
+"Morgan Memorial Library" "443 W. Washington Street" "Suffolk" "VA" "23434" -76.5891513 36.7293651
+"North Suffolk Library" "2000 Bennetts Creek Park Road" "Suffolk" "VA" "23435" -76.4710798 36.8522158
+"Suffolk Public Library System" "443 West Washington Street" "Suffolk" "VA" "23434" -76.5891513 36.7293651
+"Surry Public Library" "11640 Rolfe Highway" "Surry" "VA" "23883" -76.8359035 37.1334692
+"Essex Public Library" "117 N. Church Lane" "Tappahannock" "VA" "22560" -76.8618886 37.9296198
+"Tazewell County Public Library" "310 E. Main Street" "Tazewell" "VA" "24651" -81.5188057 37.1159472
+"Middlesex County Public Library" "150 Grace Street" "Urbanna" "VA" "23175" -76.5793444 37.6363299
+"Victoria Public Library" "1417 7th Street" "Victoria" "VA" "23974" -78.2254075 36.9947242
+"Patrick Henry Library" "101 Maple Ave. East" "Vienna" "VA" "22180" -77.264369 38.9016499
+"Roanoke County Public Library - Vinton Branch" "800 E. Washington Ave." "Vinton" "VA" "24179" -79.8910704 37.2801088
+"Stewartsville Library" "45 Cascade Dr." "Vinton" "VA" "24179" -79.808145 37.272261
+"Bayside Special Service Library" "936 Independence Boulevard" "Virginia Beach" "VA" "23455" -76.1327721 36.8697773
+"Great Neck Area Library" "1251 Bayne Drive" "Virginia Beach" "VA" "23454" -76.0357508 36.8657034
+"Kempsville Area Library" "832 Kempsville Road" "Virginia Beach" "VA" "23464" -76.1634456 36.8152901
+"Meyera E. Oberndorf Central Library" "100 Virginia Beach Boulevard" "Virginia Beach" "VA" "23452" -75.9796628 36.8681345
+"Oceanfront Area Library" "700 Virginia Beach Boulevard" "Virginia Beach" "VA" "23451" -75.9834077 36.8443506
+"Princess Anne Area Library" "1444 Nimmo Parkway" "Virginia Beach" "VA" "23456" -76.0219402 36.7643624
+"Pungo-Blackwater Library" "916 Princess Anne Road" "Virginia Beach" "VA" "23457" -76.037875 36.6367844
+"South Rosemont Youth Library" "1503 Competitor Court" "Virginia Beach" "VA" "23453" -76.0963352 36.7903353
+"Virginia Beach Public Library" "2416 Courthouse Drive Building 19" "Virginia Beach" "VA" "23456" -76.055131 36.7512037
+"Virginia Beach Public Library - Library Administration" "2416 Courthouse Dr." "Virginia Beach" "VA" "23456" -76.055131 36.7512037
+"Wahab Public Law Library" "2425 Nimmo Parkway Judicial Center, Bldg 10b" "Virginia Beach" "VA" "23456" -75.977985 36.8529263
+"Windsor Woods Area Library" "3612 South Plaza Trail" "Virginia Beach" "VA" "23452" -76.0970298 36.8302042
+"Troxler Memorial Library" "100 Wilson Avenue" "Wakefield" "VA" "23888" -76.9877814 36.9721559
+"Fauquier County Public Library" "11 Winchester Street" "Warrenton" "VA" "20186" -77.795198 38.714637
+"Richmond County Public Library" "52 Campus Drive" "Warsaw" "VA" "22572" -76.7621562 37.9569681
+"Rappahannock County Library" "4 Library Road" "Washington" "VA" "22747" -78.1458558 38.7149397
+"Agnes Taylor Gray Library" "125 Bank Street" "Waverly" "VA" "23890" -77.0941131 37.0341433
+"Waynesboro Public Library" "600 S. Wayne Ave." "Waynesboro" "VA" "22980" -78.8933156 38.0617283
+"Pamunkey Regional Library - West Point Branch Library" "721 Main Street" "West Point" "VA" "23181" -76.7966534 37.5321175
+"Whitetop Public Library" "16309 Highlands Parkway" "Whitetop" "VA" "24292" -81.6019089 36.6157129
+"James City County Library" "7770 Croaker Rd." "Williamsburg" "VA" "23188" -76.770995 37.377573
+"Williamsburg Library" "515 Scotland St." "Williamsburg" "VA" "23185" -76.7083125 37.2739169
+"Williamsburg Regional Library" "7770 Croaker Road" "Williamsburg" "VA" "23188" -76.770995 37.377573
+"Handley Regional Library" "100 W. Piccadilly St." "Winchester" "VA" "22601" -78.1664808 39.1871413
+"Windsor Library" "18 Duke Street" "Windsor" "VA" "23487" -76.743212 36.809908
+"Lonesome Pine Regional Library" "124 Library Road Sw" "Wise" "VA" "24293" -82.5839583 36.9755566
+"Lake Ridge Neighborhood Library" "12964 Harbor Drive" "Woodbridge" "VA" "22192" -77.280837 38.674025
+"Potomac Community Library" "2201 Opitz Boulevard" "Woodbridge" "VA" "22191" -77.2807006 38.632715
+"Wythe County Public Library" "300 East Monroe St" "Wytheville" "VA" "24382" -81.0826106 36.9518017
+"Tabb Library" "100 Long Green Blvd." "Yorktown" "VA" "23693" -76.4463579 37.1136288
+"York County Public Library" "100 Long Green Boulevard" "Yorktown" "VA" "23693" -76.4463579 37.1136288
+"Yorktown Library" "8500 George Washington Memorial Highway" "" "VA" "23692" -76.4897478 37.1956577

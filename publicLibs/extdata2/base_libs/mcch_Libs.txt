@@ -1,0 +1,207 @@
+"location" "miles" "latitude" "longitude"
+"Parkland-Spanaway Library<br/>13718 Pacific Avenue South<br/>Tacoma, WA" 2.34249142648875 -122.436043 47.132215
+"Lakewood Library<br/>6300 Wildaire Road Sw<br/>Lakewood, WA" 2.46609371989329 -122.5214186 47.1603566
+"Tillicum Library<br/>14916 Washington Avenue Sw<br/>Lakewood, WA" 3.3066909826782 -122.554292 47.123784
+"Fern Hill Branch Library<br/>765 South 84th<br/>Tacoma, WA" 3.84425675881982 -122.4428546 47.1815553
+"Pierce County Library System<br/>3005 112th Street East<br/>Tacoma, WA" 4.87407536590967 -122.3869745 47.1555293
+"South Tacoma Branch Library<br/>3411 South 56th Street<br/>Tacoma, WA" 4.99605415698149 -122.4820518 47.206425
+"Steilacoom Library<br/>2950 Steilacoom Boulevard Sw<br/>Steilacoom, WA" 5.25883163277777 -122.5784724 47.1766993
+"Moore Branch Library<br/>215 South 56th Street<br/>Tacoma, WA" 5.53523542596318 -122.43573 47.2066841
+"Summit Library<br/>5107 112th Street East<br/>Tacoma, WA" 6.055825215725 -122.360652 47.1549017
+"University Place Library<br/>3605 Bridgeport Way West<br/>University Place, WA" 6.79758012338307 -122.536961 47.2261362
+"Swan Creek Branch Library<br/>3828 Portland Avenue<br/>Tacoma, WA" 7.07551001581581 -122.40823 47.221921
+"Mottet Branch Library<br/>3523 East G Street<br/>Tacoma, WA" 7.19347796704425 -122.4218855 47.2287483
+"Dr. Martin Luther King, Jr. Branch Library<br/>1902 South Cedar<br/>Tacoma, WA" 7.49350945016766 -122.476684 47.242398
+"Tacoma Public Library<br/>1102 Tacoma Ave S<br/>Tacoma, WA" 8.38659853331751 -122.4447808 47.2522468
+"Swasey Branch Library<br/>7001 Sixth Avenue<br/>Tacoma, WA" 8.66982725671213 -122.5304581 47.2558375
+"South Hill Library<br/>15420 Meridian East<br/>Puyallup, WA" 9.10257331495583 -122.2941397 47.1162804
+"Wheelock Branch Library<br/>3722 North 26th<br/>Tacoma, WA" 9.44350649578985 -122.4865267 47.2707616
+"Roy City Library<br/>122 3rd St. E<br/>Roy, WA" 9.48669910120498 -122.5427266 47.0027083
+"Puyallup Public Library<br/>324 S Meridian<br/>Puyallup, WA" 9.73748148045943 -122.2953643 47.1895802
+"Graham Library<br/>9202 224th Street East<br/>Graham, WA" 10.1009790077167 -122.3077892 47.0527132
+"Milton Library<br/>1000 Laurel St.<br/>Milton, WA" 11.0825169606462 -122.3216157 47.2492679
+"Kobetich Branch Library<br/>212 Browns Point Blvd. Ne<br/>Tacoma, WA" 11.6146963811278 -122.3863938 47.2879937
+"Peninsula Library<br/>4424 Point Fosdick Drive Nw<br/>Gig Harbor, WA" 12.2283566712533 -122.5799213 47.2990392
+"Sumner Library<br/>1116 Fryar Avenue<br/>Sumner, WA" 12.3602014843986 -122.2441439 47.2046247
+"Federal Way Library<br/>34200 1st Way South<br/>Federal Way, WA" 13.2422887113145 -122.3317517 47.2945815
+"Orting Library<br/>202 Washington Avenue<br/>Orting, WA" 13.5855767690343 -122.202352 47.097054
+"Algona-Pacific Library<br/>255 Ellingson Road<br/>Pacific, WA" 14.4684870393327 -122.2536461 47.2716701
+"Yelm Timberland Library<br/>210 Prairie Park St.<br/>Yelm, WA" 14.5220580003703 -122.5995681 46.9391673
+"Bonney Lake Library<br/>18501 90th Street East<br/>Bonney Lake, WA" 14.5670286619343 -122.1820908 47.1756248
+"Federal Way 320th Library<br/>848 S 320th Street<br/>Federal Way, WA" 14.7389029874523 -122.3209108 47.3155456
+"Auburn Public Library<br/>1102 Auburn Way South<br/>Auburn, WA" 16.957612055611 -122.2181037 47.2987199
+"Lacey Timberland Library<br/>500 College St. Se<br/>Lacey, WA" 17.0487393740934 -122.8225006 47.0438573
+"Woodmont Library<br/>26809 Pacific Hwy S<br/>Des Moines, WA" 17.7664879161311 -122.3082245 47.3610631
+"Key Center Library<br/>8905 Key Peninsula Hwy N<br/>Lakebay, WA" 18.690279748759 -122.746551 47.3383133
+"Muckleshoot Library<br/>38811 172nd Avenue Se<br/>Auburn, WA" 19.2744417385848 -122.1150181 47.2533346
+"Olympia Timberland Library<br/>313 8th Ave. Se<br/>Olympia, WA" 20.4582065485563 -122.8980687 47.0412432
+"Des Moines Library<br/>21620 11th Avenue S<br/>Des Moines, WA" 20.4891210130621 -122.3194722 47.4081187
+"Kent Library<br/>212 2nd Ave N<br/>Kent, WA" 20.8468332664609 -122.2342107 47.3826063
+"Eatonville Library<br/>205 Center Street<br/>Eatonville, WA" 21.2649972511253 -122.2647428 46.8663061
+"Buckley Library<br/>123 South River Avenue<br/>Buckley, WA" 21.5691863378068 -122.0291665 47.1627243
+"Vashon Library<br/>17210 Vashon Highway Sw<br/>Vashon Island, WA" 21.936357109956 -122.4594478 47.4508633
+"Timberland Regional Library<br/>415 Tumwater Blvd. Sw<br/>Tumwater, WA" 22.3521259452845 -122.905048 46.9831998
+"Tumwater Timberland Library<br/>7023 New Market St.<br/>Tumwater, WA" 22.6496166112975 -122.9134891 46.9849237
+"Covington Library<br/>27100 164th Avenue Se<br/>Covington, WA" 23.1096640766048 -122.1217756 47.3591185
+"Valley View Library<br/>17850 Military Road S<br/>Seatac, WA" 23.5738402279301 -122.2737336 47.443213
+"Enumclaw Public Library<br/>1700 First Street<br/>Enumclaw, WA" 23.9106634919952 -121.9876129 47.2035657
+"Burien Library<br/>14700 6th Avenue Sw<br/>Burien, WA" 24.2817917362398 -122.341376 47.4713459
+"Library Connection At Southcenter<br/>1386 Southcenter Mall<br/>Tukwila, WA" 24.7928439382017 -122.2612147 47.4587069
+"Black Diamond Library<br/>24301 Roberts Drive<br/>Black Diamond, WA" 25.0936846464615 -122.018885 47.310514
+"Foster Library<br/>4060 S 144th Street<br/>Tukwila, WA" 25.4116983905133 -122.281536 47.4745118
+"Tukwila Library<br/>14475 59th Avenue S<br/>Tukwila, WA" 25.6476123840142 -122.259537 47.471801
+"Tenino Timberland Library<br/>172 Central Ave. W.<br/>Tenino, WA" 25.8129596053077 -122.8518454 46.8569403
+"White Center Library<br/>11220 16th Avenue Sw<br/>Seattle, WA" 26.1695511711391 -122.354331 47.5019247
+"Boulevard Park Library<br/>12015 Roseberg Avenue S<br/>Seattle, WA" 26.3303148936263 -122.3078428 47.4952747
+"Maple Valley Library<br/>21844 Se 248th Street<br/>Maple Valley, WA" 26.6552401158988 -122.0485155 47.380071
+"North Mason Timberland Library<br/>23081 Ne State Rt. 3<br/>Belfair, WA" 26.8197220774116 -122.8339878 47.4416885
+"Fairwood Library<br/>17009 140th Avenue Se<br/>Renton, WA" 26.8463962324061 -122.1546196 47.4507698
+"Greenbridge Library<br/>9720 8th Ave S.W.<br/>Seattle, WA" 27.217014355579 -122.3450329 47.515971
+"Skyway Library<br/>7614 S 126th Street<br/>Seattle, WA" 27.2783738447273 -122.2375385 47.4908865
+"Seattle Public Library - Southwest<br/>9010 35th Ave Sw<br/>Seattle, WA" 27.3385416302367 -122.3762739 47.5224353
+"Renton Library<br/>100 Mill Avenue South<br/>Renton, WA" 27.4823919313269 -122.2020346 47.4818671
+"Seattle Public Library - South Park<br/>8604 Eighth Ave. S. At South Cloverdale Street<br/>Seattle, WA" 28.1746510971015 -122.3225876 47.526252
+"Seattle Public Library - Rainier Beach<br/>9125 Rainier Ave S<br/>Seattle, WA" 28.615680387723 -122.2705382 47.5213573
+"Seattle Public Library - High Point<br/>6338 32nd Ave Sw<br/>Seattle, WA" 28.8693102148424 -122.3737367 47.5446321
+"Port Orchard Library<br/>87 Sidney St.<br/>Port Orchard, WA" 29.0979642227118 -122.635753 47.5424263
+"Highlands Public Library<br/>2902 Ne 12th St<br/>Renton, WA" 29.2758900053057 -122.1808227 47.5035587
+"Renton Highlands Library<br/>2902 Ne 12th Street<br/>Renton, WA" 29.2758900053057 -122.1808227 47.5035587
+"Manchester Library<br/>8067 E. Main St.<br/>Manchester, WA" 29.2962065938387 -122.544653 47.5558761
+"Seattle Public Library - Newholly<br/>7058 32nd Ave S<br/>Seattle, WA" 29.4710442809156 -122.2904189 47.5392077
+"Seattle Public Library - Delridge<br/>5423 Delridge Way Sw<br/>Seattle, WA" 29.5397636564669 -122.3633638 47.553156
+"William G. Reed Public Library<br/>710 W. Alder St.<br/>Shelton, WA" 29.7787655197176 -123.1072572 47.2169115
+"Bremerton Library<br/>612 5th St.<br/>Bremerton, WA" 30.6571753538183 -122.6284617 47.5667587
+"Seattle Public Library - Columbia<br/>4721 Rainier Ave S<br/>Seattle, WA" 30.8828117154534 -122.2869591 47.5599006
+"Seattle Public Library - West Seattle<br/>2306 42nd Ave Sw<br/>Seattle, WA" 31.3796746591212 -122.3846954 47.5826887
+"Seattle Public Library - Beacon Hill<br/>2519 15th Ave S<br/>Seattle, WA" 31.9019020321194 -122.3136895 47.5804625
+"Mercer Island Library<br/>4400 88th Avenue Se<br/>Mercer Island, WA" 32.397821033512 -122.2211918 47.5669511
+"Kitsap Regional Library<br/>1301 Sylvan Way<br/>Bremerton, WA" 32.5402984767782 -122.624949 47.5951125
+"Seattle Public Library - International District - Chinatown Branch<br/>713 Eighth Ave. S.<br/>Seattle, WA" 32.8566144973258 -122.3227843 47.5962327
+"Seattle Public Library - Central Library<br/>1000 4th Ave<br/>Seattle, WA" 33.448927981065 -122.3329838 47.6066004
+"Seattle Public Library - Douglass-Truth<br/>2300 E Yesler Way<br/>Seattle, WA" 33.4804449485787 -122.3016502 47.6019183
+"Newport Way Library<br/>14250 Se Newport Way<br/>Bellevue, WA" 34.0539120696578 -122.1490423 47.5705089
+"Seattle Public Library - Madrona Sally Goldmark<br/>1134 33rd Ave<br/>Seattle, WA" 34.3411217605042 -122.2900203 47.6126747
+"Issaquah Library<br/>10 W Sunset Way<br/>Issaquah, WA" 34.5478297063459 -122.0369681 47.5303935
+"Seattle Public Library - Capitol Hill<br/>425 Harvard Ave E<br/>Seattle, WA" 34.6598116922404 -122.3223185 47.6229294
+"Bainbridge Island Library<br/>1270 Madison N.<br/>Bainbridge Island, WA" 34.695578754799 -122.5205154 47.6352645
+"King County Library System<br/>960 Newport Way Nw<br/>Issaquah, WA" 34.7238707539921 -122.0503372 47.5403584
+"Seattle Public Library - Queen Anne<br/>400 W Garfield St<br/>Seattle, WA" 35.0343414737002 -122.362665 47.6338136
+"Seattle Public Library - Magnolia<br/>2801 34th Ave W<br/>Seattle, WA" 35.5728100707887 -122.4014357 47.645323
+"Seattle Public Library - Montlake<br/>2300 24th Ave E<br/>Seattle, WA" 36.0078179877283 -122.3018166 47.6396761
+"Seattle Public Library - Fremont<br/>731 N 35th St<br/>Seattle, WA" 36.25564112185 -122.3484226 47.6500621
+"Bellevue Library<br/>1111 110th Avenue Ne<br/>Bellevue, WA" 36.2781439594687 -122.1943373 47.6201601
+"Lake Hills Library<br/>15228 Lake Hills Boulevard<br/>Bellevue, WA" 36.3140275179611 -122.1367488 47.6029979
+"Centralia Timberland Library<br/>110 S. Silver St.<br/>Centralia, WA" 36.4733600769815 -122.9561699 46.7161571
+"Silverdale Library<br/>3450 Nw Carlton St.<br/>Silverdale, WA" 36.7704358203039 -122.6962878 47.6463441
+"Seattle Public Library - Wallingford<br/>1501 N 45th St<br/>Seattle, WA" 37.0924349203653 -122.3389307 47.6611801
+"Mccleary Timberland Library<br/>121 S. 4th St.<br/>Mccleary, WA" 37.1944247915222 -123.266901 47.054881
+"Seattle Public Library - Ballard<br/>5711 24th Ave Nw<br/>Seattle, WA" 37.3810679916253 -122.387891 47.6705674
+"Library Connection At Crossroads<br/>15600 Ne 8th Street, Suite K-11<br/>Bellevue, WA" 37.4817192135499 -122.1300629 47.6196266
+"Seattle Public Library - University<br/>5009 Roosevelt Way Ne<br/>Seattle, WA" 37.5624387190403 -122.3178828 47.6652442
+"Seattle Public Library - Green Lake<br/>7364 E Green Lake Dr N<br/>Seattle, WA" 38.5807007688961 -122.3266587 47.6814943
+"Seattle Public Library - Northeast<br/>6801 35th Ave Ne<br/>Seattle, WA" 38.7059048233228 -122.2906962 47.6780008
+"Seattle Public Library - Greenwood<br/>8016 Greenwood Ave N<br/>Seattle, WA" 38.7553319486138 -122.3547574 47.6874519
+"Sammamish Library<br/>825 228th Avenue Ne<br/>Sammamish, WA" 39.4692068859731 -122.036202 47.6168394
+"Chehalis Timberland Library<br/>76 N.E. Park St.<br/>Chehalis, WA" 39.698017520299 -122.967702 46.6642411
+"Kirkland Library<br/>308 Kirkland Avenue<br/>Kirkland, WA" 39.7439821472676 -122.2029481 47.6759865
+"Seattle Public Library - Northgate<br/>10548 Fifth Ave. N.E.<br/>Seattle, WA" 40.2775174480679 -122.322842 47.705987
+"Oakville Timberland Library<br/>204 Main St.<br/>Oakville, WA" 40.8098065293346 -123.2353301 46.8399883
+"Fall City Library<br/>33415 Se 42nd Place<br/>Fall City, WA" 40.8967230885978 -121.8939361 47.568746
+"Snoqualmie Library<br/>38580 Se River Street<br/>Snoqualmie, WA" 41.1358208914006 -121.8267231 47.5268566
+"Seattle Public Library - Broadview<br/>12755 Greenwood Ave N<br/>Seattle, WA" 41.1726567126646 -122.356098 47.7229572
+"Redmond Library<br/>15990 Ne 85th Street<br/>Redmond, WA" 41.2292885621822 -122.1280775 47.6789086
+"North Bend Library<br/>115 E 4th Street<br/>North Bend, WA" 41.4016233839099 -121.783299 47.496795
+"Seattle Public Library - Lake City<br/>12501 28th Ave Ne<br/>Seattle, WA" 41.4399029790646 -122.298113 47.719716
+"Poulsbo Library<br/>700 Ne Lincoln St.<br/>Poulsbo, WA" 42.2318173283322 -122.6397004 47.7358164
+"Salkum Timberland Library<br/>2480 U.S. Hwy. 12<br/>Salkum, WA" 42.2348139162463 -122.6297792 46.5316832
+"Shoreline Library<br/>345 Ne 175th St<br/>Shoreline, WA" 43.634741799617 -122.3247695 47.7555826
+"Kingsgate Library<br/>12315 Ne 143rd Street<br/>Kirkland, WA" 43.6646828338284 -122.1763356 47.729773
+"Library Express At Redmond Ridge<br/>10735 Cedar Park Crescent Ne<br/>Redmond, WA" 43.8120329085866 -122.0456439 47.6932303
+"Lake Forest Park Library<br/>17171 Bothell Way Ne<br/>Lake Forest Park, WA" 43.9345993406072 -122.2803596 47.7540085
+"Elma Timberland Library<br/>118 N. First<br/>Elma, WA" 44.0793890545362 -123.4019383 47.0052139
+"Richmond Beach Library<br/>19601 21st Avenue Nw<br/>Shoreline, WA" 44.3576452236723 -122.3849906 47.7718684
+"Carnation Library<br/>4804 Tolt Avenue<br/>Carnation, WA" 44.6756914140069 -121.9122954 47.6504103
+"Kenmore Library<br/>18138 73rd Ave Ne<br/>Kenmore, WA" 44.7589641526231 -122.24334 47.7601914
+"Bothell Library<br/>18215 98th Avenue Ne<br/>Bothell, WA" 45.1791826864402 -122.2103764 47.7602661
+"Mountlake Terrace Library<br/>23300 58th Ave. W<br/>Mountlake Terrace, WA" 45.8865744559603 -122.3115966 47.787069
+"Kingston Library<br/>11212 Ne State Hwy 104<br/>Kingston, WA" 45.9784597750493 -122.4979312 47.7988768
+"Brier Library<br/>23303 Brier Rd.<br/>Brier, WA" 46.2327313687803 -122.2736141 47.7870371
+"Woodinville Library<br/>17105 Avondale Road Ne<br/>Woodinville, WA" 46.6957608084932 -122.0818695 47.7515723
+"Edmonds Library<br/>650 Main St.<br/>Edmonds, WA" 47.0480278787741 -122.3729211 47.8101022
+"Duvall Library<br/>15619 Ne Main Street<br/>Duvall, WA" 48.0581800394161 -121.9861395 47.7412796
+"Mountain View Timberland Library<br/>210 Silverbrook Rd.<br/>Randle, WA" 48.3234062561563 -121.9585756 46.5359346
+"Lynnwood Library<br/>19200 44th Ave. W<br/>Lynnwood, WA" 48.5599164083209 -122.2931328 47.8240733
+"Winlock Timberland Library<br/>322 1st St.<br/>Winlock, WA" 49.2643217134656 -122.936363 46.492291
+"Little Boston Library<br/>31980 Little Boston Rd. Ne<br/>Kingston, WA" 51.1648185697028 -122.5461057 47.872779
+"Mill Creek Library<br/>15429 Bothell-Everett Hwy<br/>Mill Creek, WA" 51.5789284761748 -122.2182188 47.8576547
+"Mukilteo Public Library<br/>4675 Harbour Pointe Blvd.<br/>Mukilteo, WA" 52.8997279285574 -122.2921106 47.8877199
+"Packwood Timberland Library<br/>109 W. Main St.<br/>Packwood, WA" 53.0416875340044 -121.6720898 46.6064425
+"W. H. Abel Memorial Library<br/>125 Main St. S.<br/>Montesano, WA" 53.624279422122 -123.6010897 46.9806418
+"Monroe Library<br/>1070 Village Way<br/>Monroe, WA" 54.7253846487945 -121.9832359 47.8488169
+"Evergreen Branch Library<br/>9512 Evergreen Way<br/>Everett, WA" 55.0501821127994 -122.2382704 47.9123315
+"Snohomish Library<br/>311 Maple Avenue<br/>Snohomish, WA" 57.1268417083377 -122.0884006 47.9152977
+"Clinton Library<br/>4781 Deer Lake Rd<br/>Clinton, WA" 58.7266353075429 -122.3583849 47.9788604
+"Sultan Library<br/>319 Main St., Suite 100<br/>Sultan, WA" 59.2864914202555 -121.8168755 47.8625176
+"Everett Public Library<br/>2702 Hoyt Ave<br/>Everett, WA" 60.0085947662453 -122.2106585 47.9816618
+"Freeland Library<br/>5495 Harbor Ave<br/>Freeland, WA" 60.7239827550727 -122.5238237 48.0117195
+"Castle Rock Public Library<br/>137 Cowlitz St W.<br/>Castle Rock, WA" 62.7455247195288 -122.9097129 46.2750223
+"Langley Library<br/>104 Second St.<br/>Langley, WA" 62.7680505339205 -122.4064869 48.0400703
+"Jefferson County Rural Library District<br/>620 Cedar Avenue<br/>Port Hadlock, WA" 63.5625543243997 -122.7725515 48.0325363
+"Aberdeen Timberland Library<br/>121 E. Market St.<br/>Aberdeen, WA" 63.7222711632843 -123.8175957 46.9753192
+"Lake Stevens Library<br/>1804 Main St.<br/>Lake Stevens, WA" 63.9533105387189 -122.0644316 48.0140118
+"Sno-Isle Libraries<br/>7312 35th Avenue Ne<br/>Marysville, WA" 65.7206492491459 -122.1853206 48.0624846
+"Skykomish Library<br/>100 Fifth Street<br/>Skykomish, WA" 65.932099009778 -121.36112 47.708283
+"Marysville Library<br/>6120 Grove Street<br/>Marysville, WA" 66.1874565060824 -122.1477546 48.063543
+"Raymond Timberland Library<br/>507 Duryea St.<br/>Raymond, WA" 66.4826652248409 -123.7309003 46.6868184
+"Hoquiam Timberland Library<br/>420 7th St.<br/>Hoquiam, WA" 66.9239834258762 -123.8870006 46.9772001
+"Port Townsend Public Library<br/>1220 Lawrence Street<br/>Port Townsend, WA" 69.162212634874 -122.7629579 48.1164713
+"Amanda Park Timberland Library<br/>6118 U.S. Highway 101<br/>Amanda Park, WA" 69.8490978428144 -123.8954001 47.4592976
+"Granite Falls Library<br/>815 East Galena<br/>Granite Falls, WA" 70.0386866800446 -121.9596571 48.0826074
+"South Bend Timberland Library<br/>1st Pacific<br/>South Bend, WA" 70.2381922833642 -123.8019769 46.6628829
+"Roslyn Public Library<br/>201 S. First St.<br/>Roslyn, WA" 70.5270757493531 -120.991353 47.222532
+"Kelso Public Library<br/>314 Academy St.<br/>Kelso, WA" 71.3165858580823 -122.909332 46.145127
+"Sequim Public Library<br/>630 N. Sequim Avenue<br/>Sequim, WA" 71.8025150731235 -123.100905 48.085809
+"Longview Public Library<br/>1600 Louisiana Street<br/>Longview, WA" 72.0042063035982 -122.937971 46.140706
+"Cle Elum (Carpenter Memorial) Library<br/>302 Pennsylvania Ave.<br/>Cle Elum, WA" 72.9062498431175 -120.9381569 47.1958708
+"Arlington Library<br/>135 N. Washington Ave.<br/>Arlington, WA" 75.2345237213449 -122.118393 48.1933598
+"Rainier City Library<br/>106 B St<br/>Rainier, OR" 75.3930594962955 -122.9362061 46.0891745
+"Coupeville Library<br/>788 Nw Alexander<br/>Coupeville, WA" 75.6511498866579 -122.6885771 48.2193289
+"Nile Library<br/>1891 Nile Rd<br/>Naches, WA" 76.106029438527 -120.939598 46.821624
+"Stanwood Library<br/>9701 271st St. Nw<br/>Stanwood, WA" 76.8615507740006 -122.3642801 48.242376
+"Cathlamet (Blanche Bradley) Public Library<br/>100 Main St<br/>Cathlamet, WA" 77.3437737495123 -123.3845093 46.201599
+"Westport Timberland Library<br/>506 N. Montesano St.<br/>Westport, WA" 78.1592267577354 -124.1039316 46.8906291
+"Clatskanie Library District<br/>11 Lillich St<br/>Clatskanie, OR" 78.9024985123809 -123.2017217 46.1050331
+"Ocean Shores Public Library<br/>573 Pt. Brown Ave. N.W.<br/>Ocean Shores, WA" 79.4553048702184 -124.1606203 47.0003365
+"Kalama Public Library<br/>312 N 1st<br/>Kalama, WA" 79.6421923283267 -122.8452948 46.009743
+"Oak Harbor Library<br/>1000 Se Regatta Drive<br/>Oak Harbor, WA" 80.238014646052 -122.634562 48.289869
+"North Olympic Library System<br/>2210 South Peabody Street<br/>Port Angeles, WA" 80.5918593801485 -123.439014 48.1061323
+"Port Angeles Public Library<br/>2210 S. Peabody Street<br/>Port Angeles, WA" 80.5918593801485 -123.439014 48.1061323
+"Naselle Timberland Library<br/>4 Parpala Rd.<br/>Naselle, WA" 82.2992364404077 -123.8117876 46.3660921
+"Woodland Community Library<br/>770 Park Street<br/>Woodland, WA" 86.0203527747199 -122.747294 45.903787
+"Ocean Park Timberland Library<br/>1308 256th Place<br/>Ocean Park, WA" 86.5765040272762 -124.0515197 46.4875932
+"La Conner Regional Library<br/>614 Morris St.<br/>La Conner, WA" 87.0013196555318 -122.489384 48.39197
+"Tieton Library<br/>418 Maple<br/>Tieton, WA" 87.0287813949842 -120.7554137 46.7027988
+"Darrington Library<br/>1005 Cascade St.<br/>Darrington, WA" 87.7032077004507 -121.6039985 48.2546653
+"Naches Library<br/>303 Naches Ave<br/>Naches, WA" 88.775867462328 -120.700653 46.732555
+"Mount Vernon City Library<br/>315 Snoqualmie St.<br/>Mount Vernon, WA" 88.9275524768134 -122.3383405 48.4159979
+"St. Helens Public Library<br/>375 S 18th St, Ste A<br/>St. Helens, OR" 89.8706849060508 -122.8147872 45.8549307
+"Leavenworth Community Library<br/>700 Hwy 2<br/>Leavenworth, WA" 91.1024256076175 -120.6641831 47.5951161
+"Astoria Public Library<br/>450 Tenth St<br/>Astoria, OR" 91.4898611009995 -123.8324449 46.1881151
+"Ridgefield Community Library<br/>210 North Main Avenue<br/>Ridgefield, WA" 91.9629805149252 -122.745824 45.816905
+"Ellensburg Public Library<br/>209 North Ruby Street<br/>Ellensburg, WA" 91.9632208511908 -120.5448627 46.9940179
+"Burlington Public Library<br/>820 East Washington Avenue<br/>Burlington, WA" 93.0028084771021 -122.3237531 48.4743244
+"Peshastin Community Library<br/>8396 Main St<br/>Peshastin, WA" 93.1502386790367 -120.604718 47.5695229
+"Ilwaco Timberland Library<br/>158 1st Ave. N.<br/>Ilwaco, WA" 93.2521416743533 -124.0433847 46.311292
+"Battle Ground Community Library<br/>12 West Main Street<br/>Battle Ground, WA" 93.6461214867565 -122.5379909 45.7809325
+"Vernonia Public Library<br/>701 Weed Ave<br/>Vernonia, OR" 94.5557026798837 -123.1969782 45.8579855
+"Sedro-Woolley Public Library<br/>802 Ball Avenue<br/>Sedro-Woolley, WA" 95.5078838037728 -122.2289559 48.5041416
+"Anacortes Public Library<br/>1220 10th St<br/>Anacortes, WA" 95.6896331257855 -122.6165134 48.5147855
+"Warrenton Community Library<br/>225 S Main Ave<br/>Warrenton, OR" 95.8243924272527 -123.9254027 46.163462
+"Scappoose Public Library<br/>52469 Se 2nd St<br/>Scappoose, OR" 97.0948042936913 -122.876659 45.7566814
+"Summitview Library<br/>5709 Summitview Ave<br/>Yakima, WA" 97.1984361738689 -120.5847566 46.6000252
+"Kittitas Public Library<br/>2nd Pierce St<br/>Kittitas, WA" 97.941116644215 -120.4191611 46.983245
+"Lopez Island Library District<br/>2225 Fisherman Bay Rd<br/>Lopez Island, WA" 97.9681302548666 -122.909265 48.521683
+"White Swan Library<br/>391 1st St<br/>White Swan, WA" 98.0889556437846 -120.7311156 46.3819192
+"Three Creeks Community Library<br/>800-C Tenney Road<br/>Vancouver, WA" 98.0940383657851 -122.6650424 45.7215477
+"Selah Library<br/>115 W Naches<br/>Selah, WA" 98.1585939605554 -120.5314378 46.6543346
+"Cashmere Community Library<br/>300 Woodring<br/>Cashmere, WA" 98.35225346488 -120.4677839 47.5227928

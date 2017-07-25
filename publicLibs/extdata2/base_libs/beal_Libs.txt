@@ -1,0 +1,226 @@
+"location" "miles" "latitude" "longitude"
+"Penn Valley Library Station<br/>11336 Pleasant Valley Road<br/>Penn Valley, CA" 11.4369607950625 -121.2041883 39.2244911
+"Yuba County Library<br/>303 Second St.<br/>Marysville, CA" 12.3252053100283 -121.5871701 39.1371322
+"Sutter County Library<br/>750 Forbes Ave.<br/>Yuba City, CA" 14.320315769023 -121.6246189 39.1375387
+"Browns Branch Library<br/>1248 Pacific Ave.<br/>Rio Oso, CA" 14.3987496613566 -121.5242915 38.9471369
+"Lincoln Public Library<br/>590 Fifth St.<br/>Lincoln, CA" 15.6219262905571 -121.2913114 38.8920433
+"Bear River High School Library Station<br/>11130 Magnolia Road<br/>Grass Valley, CA" 15.9475962112251 -121.0747976 39.0468815
+"Library Literacy Services<br/>714 W. Main Street<br/>Grass Valley, CA" 17.3944006438072 -121.067727 39.220705
+"Grass Valley Library<br/>207 Mill Street<br/>Grass Valley, CA" 17.4972899951396 -121.0633044 39.2168943
+"Lincoln Public Library<br/>485 Twelve Bridges Drive<br/>Lincoln, CA" 18.465045872639 -121.2922877 38.8497877
+"Meadow Vista Library<br/>16981 Placer Hills Rd. Suite B-6<br/>Meadow Vista, CA" 19.6755345172351 -121.0227567 39.0002731
+"Barber Branch Library<br/>10321 Live Oak Blvd.<br/>Live Oak, CA" 19.945737834896 -121.6609422 39.2809303
+"Auburn Library<br/>350 Nevada St.<br/>Auburn, CA" 20.7086424285523 -121.0807375 38.9051678
+"Penryn Library<br/>2215 Rippey Road.<br/>Penryn, CA" 20.7189819401632 -121.1697739 38.8509758
+"Nevada County Library<br/>980 Helling Way<br/>Nevada City, CA" 21.0728427831002 -121.024032 39.2697728
+"Doris Foley Library For Historical Research<br/>211 N. Pine St.<br/>Nevada City, CA" 21.0929942125295 -121.0189955 39.2637314
+"Sutter Branch Library<br/>2147 California St.<br/>Sutter, CA" 21.1208377481454 -121.7487265 39.1590292
+"Madelyn Helling Branch<br/>980 Helling Way Government Cen<br/>Nevada City, CA" 21.1557072753321 -121.0160594 39.2615606
+"Applegate Library<br/>18018 Applegate Road<br/>Applegate, CA" 21.2776540316438 -120.9902242 39.0009587
+"Pleasant Grove Branch Library<br/>3075 Howsley Rd.<br/>Pleasant Grove, CA" 21.3669170195776 -121.504408 38.8237787
+"Colfax Library<br/>10 W. Church St<br/>Colfax, CA" 21.7931971774729 -120.954184 39.099298
+"Loomis Library<br/>6050 Library Dr.<br/>Loomis, CA" 22.1236803622015 -121.1905828 38.8200185
+"Rocklin Library<br/>4890 Granite Drive<br/>Rocklin, CA" 23.4218870668951 -121.2269559 38.7890731
+"Gridley Branch<br/>299 Spruce St.<br/>Gridley, CA" 25.0322545675264 -121.690994 39.3668243
+"Roseville Public Library<br/>225 Taylor St.<br/>Roseville, CA" 25.6029615742492 -121.2844467 38.7460579
+"Maidu Branch Library<br/>1530 Maidu Drive<br/>Roseville, CA" 26.6364337531044 -121.2531378 38.7354974
+"Granite Bay Library<br/>6475 Douglas Blvd<br/>Granite Bay, CA" 27.1720788542254 -121.1806527 38.7442701
+"Biggs Branch<br/>464a B St.<br/>Biggs, CA" 28.0717862152844 -121.7102017 39.4133634
+"North Highlands-Antelope Library<br/>4235 Antelope Road<br/>Antelope, CA" 28.142976866885 -121.3648542 38.7046752
+"Grimes Branch<br/>240 Main<br/>Grimes, CA" 28.8071399320265 -121.8942986 39.0741961
+"Knights Landing Branch Library<br/>42351 Third St.<br/>Knights Landing, CA" 28.8850464347252 -121.7179227 38.8002973
+"Butte County Library<br/>1820 Mitchell Avenue<br/>Oroville, CA" 29.1868841979983 -121.551584 39.5065116
+"Rio Linda Library<br/>902 Oak Lane<br/>Rio Linda, CA" 29.4554816510823 -121.445144 38.6908842
+"Sylvan Oaks Library<br/>6700 Auburn Blvd.<br/>Citrus Heights, CA" 29.5121609363463 -121.3077403 38.6867974
+"Foresthill Library<br/>24580 Main St.<br/>Foresthill, CA" 29.8610762703504 -120.8165214 39.020005
+"Orangevale Library<br/>8820 Greenback Lane L<br/>Orangevale, CA" 30.7997699074199 -121.2295646 38.6779547
+"Georgetown Library<br/>6680 Orleans Street<br/>Georgetown, CA" 31.4603560033713 -120.837591 38.906228
+"Fair Oaks Library<br/>11601 Fair Oaks Blvd.<br/>Fair Oaks, CA" 31.4862761759868 -121.2630622 38.6626066
+"Folsom Public Library<br/>411 Stafford St<br/>Folsom, CA" 31.5321966374144 -121.1666214 38.6811902
+"Del Paso Heights Library<br/>920 Grand Ave.<br/>Sacramento, CA" 33.1817471150968 -121.445263 38.636442
+"Oak Ridge Joint-Use Library<br/>1120 Harvard Way<br/>El Dorado Hills, CA" 33.6738773278416 -121.070664 38.6798659
+"Arcade Community Library<br/>2443 Marconi Ave.<br/>Sacramento, CA" 34.1864605978579 -121.4040801 38.6184892
+"Carmichael Regional Library<br/>5605 Marconi Ave.<br/>Carmichael, CA" 34.1891998267437 -121.3342318 38.6176536
+"South Natomas Library<br/>2901 Truxel Road<br/>Sacramento, CA" 34.9001742393612 -121.500089 38.618924
+"North Sacramento-Hagginwood Library<br/>2109 Del Paso Blvd.<br/>Sacramento, CA" 35.0185604856773 -121.4514195 38.6103033
+"Colusa County Free Library<br/>738 Market St.<br/>Colusa, CA" 35.6577312823698 -122.0112245 39.2148494
+"Cameron Park Branch<br/>2500 Country Club Dr.<br/>Cameron Park, CA" 36.5939055236568 -121.0057152 38.6599955
+"Arden-Dimick Library<br/>891 Watt Ave.<br/>Sacramento, CA" 36.7338021498405 -121.3835351 38.5807837
+"Rancho Cordova Library<br/>9845 Folsom Blvd.<br/>Sacramento, CA" 37.0353241980087 -121.3292534 38.5766368
+"Alleghany Station Library<br/>123 Main Street<br/>Alleghany, CA" 37.1078340874449 -120.8434883 39.4693436
+"Woodland Public Library<br/>250 First St.<br/>Woodland, CA" 37.2910812189534 -121.7737712 38.6792311
+"Central Library<br/>828 I Street<br/>Sacramento, CA" 37.367286803502 -121.4950844 38.5816683
+"Sacramento Public Library<br/>828 I St.<br/>Sacramento, CA" 37.367286803502 -121.4950844 38.5816683
+"Mckinley Library<br/>601 Alhambra Blvd.<br/>Sacramento, CA" 37.3965929323769 -121.4627632 38.5768537
+"Yolo County Library<br/>226 Buckeye St.<br/>Woodland, CA" 37.7218649735453 -121.794818 38.6839536
+"A. F. Turner Branch Library<br/>1212 Merkley Ave.<br/>West Sacramento, CA" 37.7884590780811 -121.5233126 38.5802531
+"Arbuckle Branch<br/>610 King St.<br/>Arbuckle, CA" 38.2271204224176 -122.0605096 39.0142593
+"Ella K. Mcclatchy Library<br/>2112 - 22nd St.<br/>Sacramento, CA" 38.4817662640847 -121.48292 38.563512
+"El Dorado County Library<br/>345 Fair Lane<br/>Placerville, CA" 38.9950637794229 -120.8277011 38.7289361
+"Princeton Branch<br/>232 Prince St.<br/>Princeton, CA" 40.3125838237368 -122.0102533 39.4048186
+"Colonial Heights Library<br/>4799 Stockton Blvd.<br/>Sacramento, CA" 40.3378183370157 -121.4455578 38.5321957
+"Belle Cooledge Library<br/>5600 South Land Park Dr.<br/>Sacramento, CA" 41.4543562334564 -121.5119149 38.5240452
+"Williams Branch<br/>901 E St.<br/>Williams, CA" 42.6150116024691 -122.1522417 39.1535821
+"Southgate Library<br/>6132 - 66th Ave.<br/>Sacramento, CA" 43.0368793596582 -121.433727 38.4920113
+"Martin Luther King Jr. Regional Library<br/>7340 - 24th St. Bypass<br/>Sacramento, CA" 43.3941888201169 -121.4808938 38.4913077
+"Davis Branch Library<br/>315 E. 14th St.<br/>Davis, CA" 43.6706901213087 -121.7470866 38.5568902
+"Valley-Hi North Laguna Library<br/>6351 Mack Road<br/>Sacramento, CA" 44.1455738603336 -121.4281987 38.4755414
+"Durham Branch<br/>2545 Durham Dayton Hwy<br/>Durham, CA" 44.27556718888 -121.8094268 39.6490431
+"La Porte Station Library<br/>1861 Cedar Lane<br/>La Porte, CA" 44.2917101960651 -120.9864879 39.6831059
+"Esparto Branch Library - Esparto Union High<br/>17065 Yolo Ave.<br/>Esparto, CA" 45.7151559994197 -122.0167726 38.6926569
+"Maxwell Branch<br/>34 Oak St.<br/>Maxwell, CA" 46.0529330905231 -122.192154 39.2763986
+"Paradise Branch<br/>5922 Clark Rd.<br/>Paradise, CA" 46.6231328714908 -121.6069455 39.7579334
+"Pollock Pines Library<br/>6210 Pony Express Trail<br/>Pollock Pines, CA" 48.1361919203225 -120.588146 38.759517
+"Elk Grove Library<br/>8962 Elk Grove Blvd.<br/>Elk Grove, CA" 48.6180341797435 -121.368682 38.4086939
+"Clarksburg Branch Library<br/>52915 Netherlands Ave.<br/>Clarksburg, CA" 48.910139563525 -121.5264263 38.4164646
+"Bayliss Branch Library<br/>7830 Road 39<br/>Glenn, CA" 49.1181927842376 -122.0469919 39.5825365
+"Franklin Library<br/>10055 Franklin High Road<br/>Elk Grove, CA" 49.9168210196021 -121.4314533 38.3920464
+"Chico Branch<br/>1108 Sherman Ave.<br/>Chico, CA" 50.5675461363305 -121.8343825 39.7440145
+"Plymouth Branch<br/>9375 Main St.<br/>Plymouth, CA" 51.5851025063986 -120.8484983 38.481204
+"Dixon Public Library<br/>230 North First St.<br/>Dixon, CA" 52.295463185917 -121.8220331 38.4468614
+"Winters Branch Library<br/>201 First St.<br/>Winters, CA" 52.439720555762 -121.969731 38.520808
+"Willows Public Library<br/>201 N. Lassen St.<br/>Willows, CA" 53.1542701800341 -122.199643 39.5218542
+"Amador City Branch<br/>14203 Highway 49<br/>Amador City, CA" 54.3196014583695 -120.8528256 38.4329965
+"Ione Branch<br/>25 E. Main St<br/>Ione, CA" 57.3042621517366 -120.9328933 38.3529974
+"Sutter Creek Branch<br/>35 Main St.<br/>Sutter Creek, CA" 58.1045422803733 -120.80316 38.39242
+"Marian O. Lawrence (Galt) Library<br/>1000 Caroline Ave.<br/>Galt, CA" 59.6152868890768 -121.2958538 38.2511298
+"Walnut Grove Library<br/>14177 Market St.<br/>Walnut Grove, CA" 60.8030255933764 -121.5140196 38.2407842
+"Plumas County Library<br/>445 Jackson St.<br/>Quincy, CA" 61.1477691980398 -120.9470268 39.9361299
+"Amador County Library<br/>530 Sutter St.<br/>Jackson, CA" 61.1705784302942 -120.7768094 38.3531302
+"Thornton Library<br/>26341 N. Thornton Rd.<br/>Thornton, CA" 61.3581007236028 -121.423996 38.225898
+"Pine Grove Branch<br/>19889 Hwy 88<br/>Pine Grove, CA" 61.3922280502829 -120.6575129 38.4131149
+"Vacaville Public Library - Cultural Center<br/>1020 Ulatis Dr.<br/>Vacaville, CA" 61.5740608126325 -121.9624264 38.3555677
+"Vacaville Public Library - Town Square<br/>1 Town Square Place<br/>Vacaville, CA" 62.1834881742138 -121.9872514 38.3574285
+"Orland Free Library<br/>333 Mill St.<br/>Orland, CA" 62.4802636225868 -122.1932386 39.7451523
+"Pioneer Branch<br/>25100 Buckhorn Ridge Road<br/>Pioneer, CA" 63.3563754753293 -120.5605433 38.4402609
+"Truckee Library<br/>10031 Levon Avenue<br/>Truckee, CA" 63.9088042233121 -120.1998131 39.3256073
+"Tahoe City Library<br/>740 N. Lake Blvd.<br/>Tahoe City, CA" 65.6754836776512 -120.1382682 39.1727796
+"Stonyford Branch<br/>5080 Stonyford-Indian Valley School<br/>Stonyford, CA" 66.0311998752387 -122.5445485 39.3750411
+"Mokelumne Hill Branch Library<br/>8328 Main St.<br/>Mokelumne Hill, CA" 66.2200252407105 -120.7057799 38.3016241
+"Isleton Branch Library<br/>401 Union Street<br/>Isleton, CA" 67.0800984579584 -121.6099119 38.161634
+"Lodi Public Library<br/>201 W. Locust Street<br/>Lodi, CA" 67.5594677834894 -121.2754048 38.137067
+"Portola Branch Library<br/>34 3rd Ave.<br/>Portola, CA" 67.6880648072942 -120.4657501 39.8050163
+"Rio Vista Library<br/>44 S. Second St.<br/>Rio Vista, CA" 68.4862401209666 -121.6924849 38.1561328
+"Redbud Library<br/>14785 Burns Valley Rd.<br/>Clearlake, CA" 69.2122283457127 -122.6341775 38.9649433
+"Suisun City Library<br/>601 Pintail Drive<br/>Suisun City, CA" 69.2292817534416 -122.0099671 38.2488973
+"Valley Springs Branch<br/>240 Pine St.<br/>Valley Springs, CA" 69.7385341185169 -120.8329169 38.1911479
+"Law Library<br/>600 Union Avenue<br/>Fairfield, CA" 70.0871075612895 -122.0397823 38.2484277
+"Fairfield Civic Center Library<br/>1150 Kentucky St.<br/>Fairfield, CA" 70.1016743523803 -122.0478949 38.2520974
+"Loyalton Station Library<br/>511 Main St.<br/>Loyalton, CA" 71.3308164546571 -120.243459 39.676308
+"Corning Branch Library<br/>740 Third St.<br/>Corning, CA" 71.4848064399919 -122.1799121 39.9287083
+"Elk Creek Branch Library<br/>120 Church St.<br/>Elk Creek, CA" 71.7964556180593 -122.5398646 39.6064046
+"Kings Beach Library<br/>301 Secline Dr.<br/>Kings Beach, CA" 71.8411679455838 -120.0302175 39.2385118
+"Yountville Library<br/>6548 Yount St.<br/>Yountville, CA" 72.9364466634765 -122.361833 38.4034627
+"St. Helena Public Library<br/>1492 Library Lane<br/>St. Helena, CA" 72.9486480395355 -122.4696095 38.5078524
+"Solano Community College Library<br/>4000 Suisun Valley Road<br/>Suisun, CA" 73.3367726585638 -122.1235419 38.2348293
+"Calaveras County Library<br/>891 Mountain Ranch Rd<br/>San Andreas, CA" 73.8333689771657 -120.6683297 38.1908461
+"Calaveras County Library<br/>1299 Gold Hunter Road<br/>San Andreas, CA" 74.0935544270291 -120.6620878 38.1893545
+"Greenville Branch Library<br/>204 Ann St.<br/>Greenville, CA" 74.4190613130166 -120.9517989 40.1404036
+"Los Molinos Branch Library<br/>7881 Highway 99e<br/>Los Molinos, CA" 74.5044491773689 -122.0998639 40.0251304
+"Fairfield Cordelia Library<br/>5050 Business Center Drive<br/>Fairfield, CA" 74.9224803319166 -122.1440317 38.218042
+"Napa County Library -Napa Main Library<br/>580 Coombs St.<br/>Napa, CA" 75.3144692524658 -122.2837166 38.2956021
+"South Lake Tahoe Library<br/>1000 Rufus Allen Blvd.<br/>South Lake Tahoe, CA" 75.4126400398428 -119.9728596 38.9454194
+"Calistoga Public Library<br/>1108 Myrtle St.<br/>Calistoga, CA" 75.4452305839918 -122.579919 38.5761144
+"Incline Village Library<br/>846 Tahoe Blvd<br/>Incline Village, NV" 75.9985186670954 -119.9537878 39.2497697
+"Troke Library<br/>502 W. Benjamin Holt Dr.<br/>Stockton, CA" 76.1340382361833 -121.3176091 38.0113734
+"Napa Valley College Library<br/>2277 Napa-Vallejo Hwy.<br/>Napa, CA" 76.2194745730916 -122.2777462 38.2743057
+"Lake Tahoe Branch Library<br/>233 Warrior Way<br/>Stateline, NV" 76.3938121474109 -119.943505 39.01066
+"Linden Library<br/>19012 E. Main St.<br/>Linden, CA" 76.8655147463602 -121.0828411 38.0216179
+"Verdi Community Library<br/>250 Bridge Street<br/>Verdi, NV" 78.6134551782033 -119.989728 39.521303
+"Cesar Chavez Central Library<br/>605 N. El Dorado St.<br/>Stockton, CA" 79.8064307702399 -121.2921637 37.9590038
+"Fair Oaks Library<br/>2370 E. Main St.<br/>Stockton, CA" 80.2111156023686 -121.255973 37.954789
+"Antioch Library<br/>501 W. 18th St.<br/>Antioch, CA" 80.38055790875 -121.8126178 38.0047261
+"Arnold Branch<br/>1065 Blagen Road<br/>Arnold, CA" 80.4661861701702 -120.3474269 38.2579251
+"Pittsburg Library<br/>80 Power Ave.<br/>Pittsburg, CA" 80.8604278848725 -121.8908946 38.0187652
+"American Canyon<br/>300 Crawford Way<br/>American Canyon, CA" 81.221152765524 -122.2557832 38.1686237
+"Oakley Library<br/>1050 Neroly Road<br/>Oakley, CA" 81.3384757109418 -121.7167706 37.9692511
+"Bay Point<br/>205 Pacifica Ave.<br/>Bay Point, CA" 81.4722811618228 -121.967148 38.0336258
+"Maya Angelou Library<br/>2324 Pock Lane<br/>Stockton, CA" 81.67116958878 -121.2463897 37.9341729
+"Sonoma Valley Regional Library<br/>755 W. Napa St.<br/>Sonoma, CA" 82.549633392132 -122.4727309 38.2930055
+"Rincon Valley Regional Library<br/>6959 Montecito Blvd<br/>Santa Rosa, CA" 82.6844545117218 -122.6612819 38.4790144
+"Angels Camp Branch<br/>426 N. Main Street<br/>Angels Camp, CA" 82.8883853331522 -120.5664764 38.0861282
+"Murphys Branch<br/>480 Park Lane<br/>Murphys, CA" 83.045638757334 -120.463123 38.136566
+"Chester Branch Library<br/>222 First Ave.<br/>Chester, CA" 83.1608710827771 -121.2271052 40.3093675
+"Upper Lake Library<br/>310 Second St.<br/>Upper Lake, CA" 83.2610058274969 -122.910174 39.166012
+"Brentwood Library<br/>751 Third St.<br/>Brentwood, CA" 83.4282315869184 -121.6925807 37.9338485
+"Springstowne Library<br/>1003 Oakwood Ave.<br/>Vallejo, CA" 83.7191992573397 -122.2182654 38.1040899
+"Lake County Library<br/>1425 N. High St<br/>Lakeport, CA" 83.732193902587 -122.9173608 39.0514555
+"Bear Valley Library Station<br/>367 Creekside Dr.<br/>Bear Valley, CA" 84.0641171160242 -120.0389445 38.465895
+"Northwest Library<br/>2325 Robb Drive<br/>Reno, NV" 84.2424913187662 -119.8853199 39.5382001
+"Benicia Public Library<br/>150 East L St.<br/>Benicia, CA" 84.8720890973453 -122.1545458 38.0534168
+"John F. Kennedy Library<br/>505 Santa Clara St.<br/>Vallejo, CA" 85.1487467010592 -122.2607094 38.101689
+"Douglas County Public Library<br/>1625 Library Lane<br/>Minden, NV" 85.7355913211865 -119.776965 38.9553779
+"Carson City Library<br/>900 North Roop Street<br/>Carson City, NV" 85.8318000860766 -119.761774 39.1692253
+"Concord Library<br/>2900 Salvio St.<br/>Concord, CA" 86.0478279037431 -122.0251918 37.9816051
+"Santa Rosa Central Library<br/>211 E St.<br/>Santa Rosa, CA" 86.3448858875875 -122.7106191 38.441216
+"Martinez Library<br/>740 Court St.<br/>Martinez, CA" 86.4625996252112 -122.1341672 38.0179515
+"Northwest Santa Rosa Library<br/>150 Coddingtown Center<br/>Santa Rosa, CA" 86.6055636263353 -122.7308854 38.4592215
+"Crockett Library<br/>991 Loring<br/>Crockett, CA" 86.6230362728184 -122.2207527 38.0554056
+"Clayton Community Library<br/>6125 Clayton Rd<br/>Clayton, CA" 86.6420502307163 -121.9352925 37.942646
+"Tehama County Library<br/>645 Madison St.<br/>Red Bluff, CA" 87.1990936471458 -122.2380238 40.1754053
+"South Valleys Library<br/>25650a Wedge Parkway<br/>Reno, NV" 87.3178909494115 -119.7698416 39.3896252
+"Windsor Regional Library<br/>9291 Old Redwood Highway 100<br/>Windsor, CA" 87.4726531470285 -122.8140376 38.5494514
+"Reading Information Referral Center<br/>4001 South Virginia<br/>Reno, NV" 87.6442899979836 -119.7958123 39.4862495
+"Sierra View Library<br/>4001 S. Virginia (Old Town Mall)<br/>Reno, NV" 87.6443289497184 -119.8138027 39.5296329
+"Downtown Library<br/>301 South Center St<br/>Reno, NV" 87.6591168031289 -119.8104031 39.5225136
+"Washoe County Library System<br/>301 S. Center St.<br/>Reno, NV" 87.6591168031289 -119.8104031 39.5225136
+"North Valleys Library<br/>1075 North Hills Blvd. 340<br/>Reno, NV" 88.1554269840114 -119.84036 39.6052988
+"Healdsburg Regional Library<br/>139 Piper St.<br/>Healdsburg, CA" 88.3074836095216 -122.870053 38.6144436
+"Senior Center Library<br/>1155 East 9th Street<br/>Reno, NV" 88.5930315444937 -119.7991769 39.5390296
+"Duncan-Traner Library<br/>1650 Carville Drive<br/>Reno, NV" 88.9316665056387 -119.7936692 39.5417291
+"Rodeo Library<br/>220 Pacific Ave.<br/>Rodeo, CA" 89.1997864285243 -122.2684372 38.0352447
+"Ygnacio Valley Library<br/>2661 Oak Grove Rd.<br/>Walnut Creek, CA" 89.4093351470969 -122.012557 37.9241067
+"Rohnert Park-Cotati Regional Library<br/>6250 Lynne Conde Way<br/>Rohnert Park, CA" 89.6582417744722 -122.7041875 38.3497323
+"Alpine County Library-Archives<br/>270 Laramie St.<br/>Markleeville, CA" 89.737117807741 -119.7818798 38.6932476
+"Contra Costa County Library<br/>1750 Oak Park Boulevard<br/>Pleasant Hill, CA" 89.9743329350656 -122.0687043 37.9349211
+"Copperopolis Branch Library<br/>60 Copper Cove Drive C<br/>Copperopolis, CA" 90.6964116882418 -120.6070415 37.9400686
+"Sparks Library<br/>1125 12th Street<br/>Sparks, NV" 90.7366012640523 -119.7589277 39.5440329
+"Manteca Library<br/>320 W. Center St.<br/>Manteca, CA" 91.1193994583593 -121.2197326 37.7988214
+"Petaluma Regional Library<br/>100 Fairgrounds Dr.<br/>Petaluma, CA" 91.2744084884403 -122.6316256 38.2423372
+"Cloverdale Regional Library<br/>401 N. Cloverdale Blvd.<br/>Cloverdale, CA" 91.7187825558501 -123.0200419 38.8087167
+"Walnut Creek Library<br/>1644 N. Broadway<br/>Walnut Creek, CA" 91.8974539075233 -122.0602279 37.9012911
+"Pinole Library<br/>2935 Pinole Valley Rd.<br/>Pinole, CA" 92.1772570269383 -122.2849852 37.9924221
+"Sebastopol Regional Library<br/>7140 Bodega Ave.<br/>Sebastopol, CA" 93.0535992472807 -122.8255489 38.4020084
+"Storey County Public Library<br/>95 South R Street<br/>Virginia City, NV" 93.0918994408703 -119.6415719 39.3077632
+"Escalon Library<br/>1540 Second St.<br/>Escalon, CA" 93.2425865513142 -120.992625 37.7945839
+"Forestville Library<br/>7050 Covey Rd.<br/>Forestville, CA" 93.278436582235 -122.889562 38.481329
+"Mendive Community Library<br/>1900 Whitewood Drive<br/>Sparks, NV" 93.5316459081933 -119.7070358 39.5518205
+"Lafayette Library<br/>952 Moraga Rd.<br/>Lafayette, CA" 94.0105517246033 -122.1182422 37.888868
+"El Sobrante Library<br/>4191 Appian Way<br/>El Sobrante, CA" 94.3595333151187 -122.3096589 37.9674151
+"Tuolumne County Library<br/>480 Greenley Rd.<br/>Sonora, CA" 94.7171118677797 -120.3690511 37.9825844
+"Tracy Library<br/>20 E. Eaton Ave.<br/>Tracy, CA" 94.7530880331609 -121.4251717 37.742667
+"Jamestown Library<br/>18299 5th Ave.<br/>Jamestown, CA" 94.9333361283303 -120.4171972 37.9540277
+"San Pablo Library<br/>2300 El Portal Dr. Suite D<br/>San Pablo, CA" 95.4311980759304 -122.3431663 37.9661601
+"Danville Library<br/>400 Front St.<br/>Danville, CA" 95.6913473641946 -121.9959106 37.8208817
+"Ripon Library<br/>430 W. Main St.<br/>Ripon, CA" 95.7550477920585 -121.128134 37.739183
+"Novato Regional Library<br/>1720 Novato Blvd.<br/>Novato, CA" 95.7952582274212 -122.5802275 38.1072339
+"Orinda Library<br/>24 Orinda Way<br/>Orinda, CA" 96.1170817288895 -122.1866071 37.8818137
+"Twain Harte Library<br/>18701 Tiffeni Suite 1f<br/>Twain Harte, CA" 96.2631669304607 -120.225449 38.039067
+"Miwuk Library<br/>24411 Sierra Park Dr<br/>Miwuk Village, CA" 96.3536519341916 -120.184542 38.064453
+"South Novato Library<br/>476 Ignacio Blvd<br/>Novato, CA" 96.4856995716621 -122.5434094 38.0675342
+"Kensington Library<br/>61 Arlington Ave.<br/>Kensington, CA" 96.7365913174824 -122.2810871 37.9130941
+"Moraga Library<br/>1500 St. Marys Rd.<br/>Moraga, CA" 97.1203218629187 -122.1226194 37.8407783
+"Oakdale Library<br/>151 S. First Ave.<br/>Oakdale, CA" 97.1902473364056 -120.8487343 37.7647229
+"Richmond Public Library<br/>325 Civic Center Plaza<br/>Richmond, CA" 97.2098986889722 -122.3440588 37.9358756
+"Dayton Valley Branch Library<br/>321 Old Dayton Valley Road<br/>Dayton, NV" 97.3634594587821 -119.5530833 39.2519093
+"El Cerrito Library<br/>6510 Stockton Ave.<br/>El Cerrito, CA" 97.6598922407692 -122.3040007 37.9083848
+"Lassen Library District<br/>1618 Main St.<br/>Susanville, CA" 97.755685894656 -120.649413 40.414927
+"Guerneville Regional Library<br/>14107 Armstrong Woods Rd.<br/>Guerneville, CA" 97.7615253942665 -122.9973195 38.5037779
+"Bayview Branch Library<br/>5100 Hartnett Ave.<br/>Richmond, CA" 97.8297308241365 -122.3238378 37.9151287
+"Riverbank Library<br/>3442 Santa Fe Ave.<br/>Riverbank, CA" 97.943285871871 -120.9327436 37.7356992
+"North Branch Library<br/>1170 The Alameda<br/>Berkeley, CA" 98.2049131040964 -122.2753781 37.8858474
+"Salida Library<br/>4835 Sisk Rd.<br/>Salida, CA" 98.2567957324326 -121.0785731 37.7082659
+"Occidental Library<br/>73 Main St.<br/>Occidental, CA" 98.5504163968202 -122.9473788 38.4062327
+"San Ramon Branch Library<br/>100 Montgomery St.<br/>San Ramon, CA" 98.5754424559464 -121.9532807 37.7643744
+"Albany Library<br/>1247 Marin Avenue<br/>Albany, CA" 98.5875622925987 -122.2931821 37.8876469
+"West Side Branch Library<br/>135 Washington Ave.<br/>Richmond, CA" 99.0010998181729 -122.385364 37.926318
+"Berkeley Public Library<br/>2090 Kittredge St.<br/>Berkeley, CA" 99.0970680659178 -122.2686679 37.8679631
+"Mendocino County Library<br/>105 N. Main St.<br/>Ukiah, CA" 99.1205793437958 -123.2064904 39.1505299
+"Springtown Branch Library<br/>998 Bluebell Dr.<br/>Livermore, CA" 99.2969410573697 -121.737496 37.7068471
+"Claremont Branch Library<br/>2940 Benvenue Ave.<br/>Berkeley, CA" 99.4020808132453 -122.2543607 37.8566036
+"West Branch Library<br/>1125 University Ave.<br/>Berkeley, CA" 99.6048434640839 -122.290914 37.869562
+"Civic Center Library<br/>3501 Civic Center Dr 427<br/>San Rafael, CA" 99.7321360168734 -122.530975 37.9979138
+"Marin County Free Library<br/>3501 Civic Center Dr, Rm 414<br/>San Rafael, CA" 99.7321360168734 -122.530975 37.9979138
+"South Branch Library<br/>1901 Russell St.<br/>Berkeley, CA" 99.8535294006778 -122.2709732 37.8564358
+"Montclair Branch Library<br/>1687 Mountain Blvd.<br/>Oakland, CA" 99.8699169496916 -122.2141551 37.8319791
+"Tuolumne City Library<br/>18880 Birch St.<br/>Tuolumne, CA" 99.9998531216868 -120.2333161 37.9654357

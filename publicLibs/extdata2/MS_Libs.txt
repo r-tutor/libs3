@@ -1,0 +1,225 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Evans Memorial Library" "105 North Long Street" "Aberdeen" "MS" "" -88.5486029 33.8255242
+"Wren Public Library" "32655 Hwy 45 North" "Aberdeen" "MS" "" -88.6179558 33.982544
+"Amory Municipal Library" "401 2nd Ave. N. At 4th Street" "Amory" "MS" "" -88.4879402 33.9875518
+"Arcola Public Library" "106 Martin Luther King Dr." "Arcola" "MS" "" -90.8782304 33.2699531
+"Artesia Public Library" "323 Front Street" "Artesia" "MS" "" -88.6437998 33.412582
+"Benton County Library" "6 Main Street" "Ashland" "MS" "38603" -91.3817663 31.8065313
+"Avon Public Library" "874 Riverside Rd." "Avon" "MS" "" -91.0409968 33.2267379
+"Anne Spencer Cox Library" "303 North Third Street" "Baldwyn" "MS" "" -88.6337739 34.5112519
+"Dr. Frank L. Leggett Public Library" "161 General Robert E. Blount Blvd." "Bassfield" "MS" "" -89.7416357 31.496521
+"Batesville Public Library" "206 Hwy 51 North" "Batesville" "MS" "" -89.943136 34.316298
+"Bay Springs Municipal Library" "815 South Court Street" "Bay Springs" "MS" "" -89.2881731 31.9691593
+"Hancock County Library" "312 Hwy. 90" "Bay St. Louis" "MS" "39520" -89.339811 30.3186944
+"William Estes Powell Memorial Library" "1502 Bolton Avenue" "Beaumont" "MS" "" -88.9208801 31.1676631
+"Belmont Public Library" "102 South Third Street" "Belmont" "MS" "" -88.213119 34.5124866
+"Humphreys County Library System" "105 South Hayden Street" "Belzoni" "MS" "39038" -90.4886986 33.1750087
+"Benoit Public Library" "109 Preston St" "Benoit" "MS" "" -91.0100131 33.6523949
+"Biloxi Public Library" "580 Howard Avenue" "Biloxi" "MS" "39530" -88.8810785 30.3963661
+"Margaret S. Sherry Memorial Library" "2141 Popps Ferry Road" "Biloxi" "MS" "39532" -88.9662797 30.4363046
+"St. Martin Public Library" "15004 Lemoyne Blvd." "Biloxi" "MS" "" -88.8584879 30.4437709
+"West Biloxi Public Library" "2047 Pass Road" "Biloxi" "MS" "39531" -88.9580715 30.402148
+"Woolmarket Library" "8455 Woolmarket Rd" "Biloxi" "MS" "39532" -88.9783883 30.4705225
+"Blue Mountain Public Library" "110 Mill Street" "Blue Mountain" "MS" "" -89.027682 34.669509
+"Annie Thompson Jeffers Library" "111 Madison" "Bolton" "MS" "" -90.4601816 32.3488181
+"George E. Allen Library" "500 W. Church Street" "Booneville" "MS" "" -88.5672101 34.6564977
+"Brandon Public Library" "1475 W. Government Street" "Brandon" "MS" "" -90.01691 32.2836536
+"Central Mississippi Regional Library" "104 Office Park Drive" "Brandon" "MS" "39042" -90.02836 32.2826
+"Northwest Point Reservoir Library" "2300 Spillway Road" "Brandon" "MS" "" -90.0247503 32.3756564
+"Lincoln-Lawrence-Franklin Regional Library" "100 South Jackson Street" "Brookhaven" "MS" "39601" -90.4446157 31.5798774
+"Brooksville Public Library" "100 West Main Street" "Brooksville" "MS" "" -88.5823771 33.2344947
+"Jesse Yancy Memorial Library" "314 N. Newberger Street" "Bruce" "MS" "" -89.3470972 33.99475
+"Bude Public Library" "903 Railroad Avenue" "Bude" "MS" "" -90.8429775 31.4624805
+"Ruth B. French Library" "161 Hwy 309" "Byhalia" "MS" "" -89.6891825 34.8775203
+"Beverly Brown Library" "7395 South Siwell Road" "Byram" "MS" "" -90.2606905 32.1862456
+"Caledonia Public Library" "754 Main Street" "Caledonia" "MS" "" -88.32441 33.682719
+"Calhoun City Public Library" "113 East Burkitt Street" "Calhoun City" "MS" "" -89.3113189 33.857364
+"Madison County Library System" "102 Priestley Street" "Canton" "MS" "39046" -90.0326053 32.6122395
+"Carroll County Public Library" "1102 Lexington Avenue" "Carrollton" "MS" "38947" -90.0487054 33.1274592
+"Carthage-Leake County Library" "114 East Franklin" "Carthage" "MS" "" -89.5327634 32.7378265
+"Kevin Poole Vancleave Memorial Library" "141 West Park" "Centreville" "MS" "" -91.0665099 31.0894287
+"Charleston Public Library" "102 Walnut Street" "Charleston" "MS" "" -90.0581637 34.0060815
+"Tallahatchie County Library" "102 Walnut" "Charleston" "MS" "38921" -90.0581637 34.0060815
+"Carnegie Public Library" "114 Delta Avenue" "Clarksdale" "MS" "38614" -90.5753602 34.2039604
+"Bolivar County Library" "104 South Leflore Avenue" "Cleveland" "MS" "38732" -90.7262762 33.7439917
+"Cleveland Depot Library" "101 S. Bayou Ave." "Cleveland" "MS" "" -90.7223439 33.744227
+"A. E. Wood Library" "111 Clinton Blvd." "Clinton" "MS" "" -90.3163141 32.3349708
+"Coffeeville Public Library" "714 Main Street" "Coffeeville" "MS" "" -89.6732279 33.9769472
+"Yalobusha County Library" "14432 Main Street" "Coffeeville" "MS" "38922" -89.6727428 33.976484
+"Jessie J. Edwards Public Library" "610 East Central Avenue" "Coldwater" "MS" "" -89.9714862 34.6859496
+"R. E. Blackwell Memorial Library" "403 South Fir Avenue" "Collins" "MS" "" -89.5579563 31.6429594
+"Columbia-Marion County Library" "900 Broad Street" "Columbia" "MS" "" -89.8233019 31.2507277
+"Columbus-Lowndes Public Library" "314 North 7th Street" "Columbus" "MS" "39701" -88.425514 33.49799
+"Emily Jones Pointer Library" "104 Main Street Se" "Como" "MS" "" -89.9409213 34.5109809
+"Corinth Public Library" "1023 Fillmore Street" "Corinth" "MS" "" -88.5182405 34.9387447
+"Crawford Public Library" "320 Main Street" "Crawford" "MS" "" -88.620299 33.302391
+"Sam Lapidus Memorial Public Library" "108 Missouri Street" "Crenshaw" "MS" "" -90.193316 34.5033997
+"J.T. Biggs Jr. Memorial Library" "200 S. Jackson Street" "Crystal Springs" "MS" "" -90.3567384 31.9871968
+"Jerry Lawrence Memorial Library" "10391 Auto Mall Parkway" "Diberville" "MS" "" -88.9004648 30.436508
+"Dlo Public Library" "4 Poplar Street" "Dlo" "MS" "" -89.9003793 31.9845857
+"Drew Public Library" "290 West Park Avenue" "Drew" "MS" "" -90.5324675 33.8121529
+"Duck Hill Public Library" "127 North State Street" "Duck Hill" "MS" "" -89.7049858 33.628344
+"Durant Public Library" "15338 North Jackson Street" "Durant" "MS" "" -89.8542008 33.0751569
+"Lois A. Flagg Branch" "105a Williamson Avenue" "Edwards" "MS" "" -90.6070541 32.3276136
+"Ellisville Public Library" "110 Court Street" "Ellisville" "MS" "" -89.1964841 31.6033071
+"Webster County Public Library" "202 West Fox Avenue" "Eupora" "MS" "" -89.2699455 33.5421519
+"Jefferson County Public Library" "218 S. Main St." "Fayette" "MS" "" -91.0628871 31.7086957
+"Flora Public Library" "144 Clark Street" "Flora" "MS" "" -90.3117393 32.5412023
+"Florence Public Library" "115 West Main Street" "Florence" "MS" "" -90.1328077 32.1530715
+"G. Chastaine Flynt Memorial Library" "103 Winners Circle" "Flowood" "MS" "" -90.0637003 32.3486793
+"Forest Public Library" "210 South Raleigh" "Forest" "MS" "" -89.4722283 32.3628847
+"Itawamba County-Pratt Memorial Library" "210 Cedar Street" "Fulton" "MS" "" -88.4090066 34.2723012
+"Kathleen Mcilwain Public Library Of Gautier" "2100 Library Lane" "Gautier" "MS" "" -88.6425517 30.3923671
+"Georgetown Library" "1164 Railroad Avenue" "Georgetown" "MS" "" -90.1645912 31.8693858
+"Glen Allan Public Library" "970 East Side Lake Washington Rd." "Glen Allan" "MS" "" -91.0309254 33.0288444
+"Gloster Public Library" "299 East Main Street" "Gloster" "MS" "" -91.0187852 31.1973066
+"Goodman Public Library" "9792 Main Street" "Goodman" "MS" "" -89.9092045 32.9693549
+"Washington County Library" "341 Main Street" "Greenville" "MS" "38701" -91.0623601 33.4102156
+"Greenwood-Leflore Public Library" "405 West Washington" "Greenwood" "MS" "38930" -90.185023 33.518665
+"Jodie Wilson Branch Library" "209 E. Martin Luther King Drive" "Greenwood" "MS" "" -90.172494 33.510121
+"Elizabeth Jones Library" "1050 Fairfield Avenue" "Grenada" "MS" "38901" -89.8075552 33.7737078
+"Gulfport Public Library" "1708 25th Avenue" "Gulfport" "MS" "39501" -89.092864 30.3716219
+"Harrison County Library System" "2600 24th Avenue 6" "Gulfport" "MS" "39501" -89.0916784 30.3817926
+"Orange Grove Public Library" "12031 Mobile Avenue" "Gulfport" "MS" "39503" -89.099134 30.4594072
+"Harrisville Public Library" "1767 Simpson Hwy. 469" "Harrisville" "MS" "" -90.0914321 31.9836869
+"The Library Of Hattiesburg, Petal Forrest C" "329 Hardy Street" "Hattiesburg" "MS" "39401" -89.2958271 31.3252764
+"Copiah-Jefferson Regional Library" "223 South Extension Street" "Hazelhurst" "MS" "39083" -90.3965715 31.8563106
+"Mary Weems Parker Memorial Library" "1016 N. Pine Avenue" "Heidelberg" "MS" "" -88.9906861 31.8938392
+"First Regional Library" "370 West Commerce Street" "Hernando" "MS" "38632" -89.9959015 34.8239174
+"Hickory Flat Public Library" "1067 Spruce Street" "Hickory Flat" "MS" "" -89.2001886 34.6141861
+"Torrey Woods Memorial Library" "302 East Avenue North" "Hollandale" "MS" "" -90.8548932 33.1712272
+"Marshall County Library" "109 East Gholson Avenue" "Holly Springs" "MS" "38635" -89.4482546 34.7665563
+"M. R. Dye Public Library" "2885 Goodman Road" "Horn Lake" "MS" "" -90.0422595 34.9626108
+"Houlka Public Library" "201 Walker Street" "Houlka" "MS" "" -89.0224769 34.036541
+"Houston Carnegie Library" "105 West Madison" "Houston" "MS" "" -89.0003169 33.8966828
+"Henry M. Seymour Library" "200 East Percy" "Indianola" "MS" "" -90.6484085 33.4531395
+"Sunflower County Library" "201 Cypress Drive" "Indianola" "MS" "38751" -90.6484088 33.4524824
+"Inverness Public Library" "802 East Grand Avenue" "Inverness" "MS" "" -90.5927813 33.3540691
+"Itta Bena Branch Library" "305 Thurman" "Itta Bena" "MS" "" -90.3200774 33.4923523
+"Iuka Public Library" "204 North Main Street" "Iuka" "MS" "" -88.1902406 34.8128565
+"Colonial Mart Library" "5070 Parkway Drive" "Jackson" "MS" "" -90.1231224 32.3750923
+"Dr. Margaret Walker Alexander Library" "959 Ellis Avenue" "Jackson" "MS" "" -90.2277525 32.3062492
+"Eudora Welty Library" "300 North State Street" "Jackson" "MS" "" -90.1793023 32.3015673
+"Fannie Lou Hamer Library" "3540 Albermarle Road" "Jackson" "MS" "" -90.2038498 32.3404325
+"Medgar Evers Blvd. Library" "4215 Medgar Evers Blvd." "Jackson" "MS" "" -90.2209161 32.3454083
+"Northside Branch Library" "807 East Northside Drive" "Jackson" "MS" "" -90.1580591 32.3554075
+"South Hills Branch Library" "515 W. Mcdowell Road" "Jackson" "MS" "" -90.2253504 32.2682518
+"Whiterock Public Library" "560 Country Club Drive" "Jackson" "MS" "" -90.2484053 32.3337318
+"Kilmichael Public Library" "102 First Street" "Kilmichael" "MS" "" -89.5698101 33.4412474
+"Kiln Public Library" "17065 Hwy 603" "Kiln" "MS" "" -89.4345886 30.4117007
+"Attala County Library" "201 South Huntington Street" "Kosciusko" "MS" "" -89.5876618 33.0567497
+"Lake Public Library" "100 Front Street" "Lake" "MS" "" -89.3278859 32.3438264
+"Laurel-Jones County Library" "530 Commerce Street" "Laurel" "MS" "39440" -89.1325882 31.6923688
+"Leakesville Public Library" "101 Lafayette" "Leakesville" "MS" "" -88.5525934 31.151976
+"Leland Public Library" "107 North Broad Street" "Leland" "MS" "" -90.8988639 33.4040799
+"Lexington Public Library" "208 Tchula Street" "Lexington" "MS" "" -90.0533782 33.114313
+"Liberty Public Library" "196 Clinic Drive" "Liberty" "MS" "" -90.8062118 31.1596215
+"Long Beach Public Library" "209 Jeff Davis Avenue" "Long Beach" "MS" "39560" -89.1500481 30.3488638
+"Winston County Library" "301 West Park Street" "Louisville" "MS" "" -89.0553844 33.1223587
+"Lucedale-George County Library" "507 Oak Street" "Lucedale" "MS" "" -88.5904053 30.9257304
+"Lumberton Public Library" "106 East Main Street" "Lumberton" "MS" "" -89.4426197 30.9990145
+"Maben Public Library" "3982 Second Avenue" "Maben" "MS" "" -89.0820972 33.5598046
+"Ada S. Fant Memorial Library" "103 East King Street" "Macon" "MS" "" -88.5607657 33.1061918
+"Rebecca Baine Rigby Library" "994 Madison Avenue" "Madison" "MS" "" -90.1117395 32.4582264
+"Magee Public Library" "120 N. W. First Street" "Magee" "MS" "" -89.7331125 31.8743098
+"Magnolia Public Library" "230 South Cherry Street" "Magnolia" "MS" "" -90.4608636 31.1424521
+"Marks-Quitman County Library" "315 East Main" "Marks" "MS" "38646" -90.2704661 34.2569984
+"Alpha Center Library" "414 Mccomb" "Mccomb" "MS" "" -90.4631816 31.2563244
+"McComb Public Library" "1022 Virginia Avenue" "Mccomb" "MS" "" -90.4676952 31.2440348
+"Progress Public Library" "5071 Mt. Herman Road" "Mccomb" "MS" "" -90.3254713 31.0450424
+"William And Dolores Mauldin Library" "25 Mchenry School Drive" "Mchenry" "MS" "" -89.1416441 30.7081781
+"Mclain Public Library" "117 Church Avenue" "Mclain" "MS" "" -88.8265027 31.1092523
+"Franklin County Public Library" "106 First Street" "Meadville" "MS" "" -90.8924792 31.4715845
+"Mendenhall Public Library" "1630 Simpson Street" "Mendenhall" "MS" "" -89.8795344 31.9637568
+"Meridian-Lauderdale County Public Library" "2517 Seventh Street" "Meridian" "MS" "39301" -88.7042479 32.3638492
+"Thelma R. Rayner Memorial Library" "201 South Front Street" "Merigold" "MS" "" -90.7259797 33.8363075
+"R.T. Prince Library" "210 Highway 28" "Mize" "MS" "" -89.5559269 31.8674526
+"Lawrence County Public Library" "142 Washington Street" "Monticello" "MS" "" -90.1043379 31.5540307
+"Morton Public Library" "16 East Fourth Street" "Morton" "MS" "" -89.6559008 32.3466818
+"East Central Public Library" "21801 Slider Road" "Moss Point" "MS" "" -88.517314 30.661292
+"Ina Thompson Moss Point Library" "4119 Bellview Street" "Moss Point" "MS" "" -88.5409763 30.4129944
+"Mound Bayou Public Library" "503 Martin Luther King, Jr. Street" "Mound Bayou" "MS" "" -90.7335347 33.8795608
+"Jane Blain Brewer Memorial Library" "102 South Fifth Street" "Mt. Olive" "MS" "" -89.6550209 31.7611592
+"Nance-Mcneely Memorial Library" "1177 B Springdale Ave." "Myrtle" "MS" "" -89.1194893 34.5580662
+"Judge George W. Armstrong Library" "220 S. Commerce" "Natchez" "MS" "39120" -91.4035542 31.5583938
+"Natchez Adams Wilkinson Library Service" "220 S. Commerce Street" "Natchez" "MS" "39120" -91.4035542 31.5583938
+"Dorothy J. Lowe Memorial Library" "182 Main Street" "Nettleton" "MS" "" -88.6269785 34.0891903
+"Jennie Stephens Smith Library" "219 King Street" "New Albany" "MS" "38652" -89.0090474 34.4928455
+"New Augusta Public Library" "28 Buck Creek Road" "New Augusta" "MS" "" -89.0440141 31.2605199
+"New Hebron Public Library" "209 Jones Street" "New Hebron" "MS" "" -89.98573 31.731405
+"J. Elliott Mcmullan Library" "300 West Church Street" "Newton" "MS" "" -89.165418 32.322341
+"Oakland Public Library" "324 Holly Street" "Oakland" "MS" "" -89.9155057 34.053639
+"Ocean Springs Municipal Library" "1525 Dewey Avenue" "Ocean Springs" "MS" "" -88.8264108 30.4083936
+"Okolona Carnegie Library" "321 Main Street" "Okolona" "MS" "" -88.750239 34.0045637
+"B. J. Chain Public Library" "6619 South Cockrum" "Olive Branch" "MS" "" -89.8309565 34.9567291
+"Osyka Public Library" "568 West Railroad Avenue" "Osyka" "MS" "" -90.4697121 31.0053979
+"Lafayette County-Oxford Public Library" "401 Bramlett Blvd." "Oxford" "MS" "" -89.509585 34.365033
+"Jackson-George Regional Library System" "3214 Pascagoula Street" "Pascagoula" "MS" "39567" -88.556252 30.3664235
+"Pass Christian Branch Library" "111 Hiern Street" "Pass Christian" "MS" "39571" -89.2500379 30.3139834
+"Pearl Public Library" "3470 Hwy. 80 East" "Pearl" "MS" "" -90.1035579 32.2837375
+"Pearlington Public Library" "6096 First Avenue" "Pearlington" "MS" "" -89.614674 30.2557641
+"Pelahatchie Public Library" "603 Second Street" "Pelahatchie" "MS" "" -89.8005741 32.3130464
+"Conway Hall Library" "9220 Hwy 42" "Petal" "MS" "" -89.1100058 31.3756662
+"Neshoba County Public Library" "230 Beacon Street" "Philadelphia" "MS" "39350" -89.1133574 32.7712662
+"Margaret Reed Crosby Memorial Library" "900 Goodyear Blvd." "Picayune" "MS" "" -89.6885847 30.5312186
+"Pickens Public Library" "309 Highway 51" "Pickens" "MS" "" -89.9754513 32.8704457
+"Dixie Regional Library System" "111 North Main Street" "Pontotoc" "MS" "38863" -88.9995617 34.2497847
+"Poplarville Public Library" "202 West Beers Street" "Poplarville" "MS" "" -89.5362284 30.8417237
+"Harriette Person Memorial Library" "606 Main Street" "Port Gibson" "MS" "39150" -90.9844228 31.9606829
+"Potts Camp Library" "17 South Center Street" "Potts Camp" "MS" "" -89.307715 34.6448396
+"Prentiss Public Library" "2229 Pearl Street" "Prentiss" "MS" "" -89.8671649 31.60016
+"Puckett Public Library" "118 Cemetery Road" "Puckett" "MS" "" -89.7765218 32.084602
+"Lamar County Library System" "122 Shelby Speights Drive" "Purvis" "MS" "39475" -89.4105039 31.143481
+"Clarke County-Quitman Public Library" "116 Water Street" "Quitman" "MS" "" -88.7263702 32.0385973
+"Floyd J. Robinson Memorial Library" "105 Main Street" "Raleigh" "MS" "" -89.5227492 32.0337008
+"Richland Public Library" "370 Scarbrough Street" "Richland" "MS" "" -90.161937 32.2142946
+"Pine Forest Regional Library" "210 Front Street" "Richton" "MS" "39476" -88.9357528 31.3507512
+"Elsie E. Jurgens Memorial Library" "397 Hwy 51" "Ridgeland" "MS" "" -90.1333013 32.4217363
+"Ripley Public Library" "308 North Commerce Street" "Ripley" "MS" "" -88.9482817 34.7320594
+"Sharkey-Issaquena County Library" "116 East China Street" "Rolling Fork" "MS" "39159" -90.8781704 32.9072828
+"Rosedale Public Library" "702 Front Street" "Rosedale" "MS" "" -91.0288553 33.8546952
+"Horace Stansel Memorial Library" "128 Ruby Street" "Ruleville" "MS" "" -90.5515127 33.7265527
+"Sandhill Public Library" "698 Pisgah Road" "Sand Hill" "MS" "" -89.8676502 32.4837937
+"Sandersville Public Library" "102 Maple Street" "Sandersville" "MS" "" -89.0326693 31.7859604
+"Sardis Public Library" "101 Mclaurin Street" "Sardis" "MS" "" -89.9162048 34.4338078
+"Saucier Childrens Library" "24006 First Street" "Saucier" "MS" "39574" -89.1333282 30.6327777
+"Scooba Public Library" "1037 Kemper Street" "Scooba" "MS" "" -88.4774291 32.8309721
+"Sebastopol Public Library" "17403 Hwy. 21" "Sebastopol" "MS" "" -89.33592 32.5719463
+"Conner-Graham Memorial Library" "102 Willow Street" "Seminary" "MS" "" -89.4992254 31.5727437
+"Senatobia Public Library" "222 Ward Street" "Senatobia" "MS" "" -89.9650234 34.616473
+"Field Memorial Library" "132 Peeler Ave." "Shaw" "MS" "" -90.7722154 33.6023858
+"Sherman Library" "20 West Lamar" "Sherman" "MS" "" -88.840465 34.3639305
+"Vista J. Daniel Memorial Library" "402 Residence Street" "Shuqualak" "MS" "" -88.5718623 32.9799891
+"M. R. Davis Public Library" "8889 Northwest Drive" "Southaven" "MS" "" -90.005585 34.9900788
+"Starkville-Oktibbeha County Public Library Sy" "326 University Drive" "Starkville" "MS" "39760" -88.8106178 33.4635328
+"State Line Public Library" "8 Farrier Street" "State Line" "MS" "" -90.9720302 33.4876266
+"Stonewall Public Library" "801 Erwin Road" "Stonewall" "MS" "" -88.8046631 32.1508782
+"L. R. Boyer Memorial Library" "103 Poplar" "Sumrall" "MS" "" -89.5435648 31.4192393
+"Evon A. Ford Memorial Library" "208 Spring Street" "Taylorsville" "MS" "" -89.4259741 31.8305538
+"Tchula Public Library" "105 Mercer Street" "Tchula" "MS" "" -90.2236079 33.1854416
+"Ella Bess Austin Library" "320 W. Cunningham" "Terry" "MS" "" -90.29854 32.0987696
+"Robert C. Irwin Public Library" "1285 Kenny Hill Avenue" "Tunica" "MS" "" -90.379621 34.6885123
+"Lee-Itawamba Library System" "219 N.Madison" "Tupelo" "MS" "38801" -88.7117734 34.258731
+"Tutwiler Branch Library" "402 Second Avenue" "Tutwiler" "MS" "" -90.43301 34.0135173
+"Walthall County Library" "707 Union Road" "Tylertown" "MS" "" -90.1403059 31.1249085
+"Kemper-Newton Regional Library" "101 Peachtree Street" "Union" "MS" "39365" -89.118155 32.5720617
+"Evelyn Taylor Majure Library" "217 West Main Street" "Utica" "MS" "" -90.625026 32.109395
+"Vaiden Public Library" "207 Lee Street" "Vaiden" "MS" "" -89.7423031 33.3329586
+"Vancleave Public Library" "12604 Hwy 57" "Vancleave" "MS" "" -88.6891263 30.5266293
+"J. L. Edmondson Memorial Library" "109 Stovall Street" "Vardaman" "MS" "" -89.1734235 33.8780691
+"Warren County-Vicksburg Public Library" "700 Veto Street" "Vicksburg" "MS" "" -90.882391 32.3466906
+"Walls Public Library" "7181 Delta Bluff Parkway" "Walls" "MS" "" -90.1379128 34.964936
+"Chalybeate Public Library" "2501-A Hwy 354" "Walnut" "MS" "" -88.8687512 34.9303976
+"Walnut Public Library" "650 N. Main Street" "Walnut" "MS" "" -88.900512 34.9461092
+"Walnut Grove Public Library" "146 Main Street" "Walnut Grove" "MS" "" -89.4588461 32.5925975
+"Blackmur Memorial Library" "608 Blackmur Drive" "Water Valley" "MS" "38965" -89.621382 34.1485921
+"Waveland Library" "333 Coleman Avenue" "Waveland" "MS" "" -89.374033 30.2864589
+"Waynesboro-Wayne County Library System" "1103 A Mississippi Drive" "Waynesboro" "MS" "39367" -88.6462759 31.6812336
+"Weir Public Library" "123 Front Street" "Weir" "MS" "" -89.2893288 33.2670919
+"Longie Dale Hamilton Memorial Library" "1012 Spring Street" "Wesson" "MS" "" -90.3990748 31.7022743
+"West Public Library" "24843 Highway 51" "West" "MS" "" -89.7689557 33.2111219
+"Bryan Public Library" "338 Commerce Street" "West Point" "MS" "" -88.6475063 33.6043465
+"Stone County Library" "242 Second Street" "Wiggins" "MS" "" -89.1357131 30.8613282
+"Winona-Montgomery County Library" "115 North Quitman Street" "Winona" "MS" "" -89.7290772 33.4829306
+"Woodville Public Library" "489 Main Street" "Woodville" "MS" "" -91.2984 31.1040798
+"B.S. Ricks Memorial Library" "310 North Main Street" "Yazoo City" "MS" "" -90.4124619 32.8492903

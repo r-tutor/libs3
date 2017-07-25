@@ -1,0 +1,220 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Adams Public Library" "190 North Main" "Adams" "OR" "97810" -118.5631235 45.7675717
+"Agness Community Library District" "03905 Cougar Ln" "Agness" "OR" "97406" -124.0699018 42.5568865
+"Albany Public Library" "1390 Waverly Dr Se" "Albany" "OR" "97322" -123.0736429 44.6289178
+"Carnegie Library" "302 Ferry Street Sw" "Albany" "OR" "" -123.1085979 44.6351487
+"Alsea Branch Library" "120 N 2nd Street" "Alsea" "OR" "" -123.5970825 44.3825559
+"Amity Public Library" "307 S Trade St" "Amity" "OR" "97101" -123.2061778 45.1173257
+"Applegate Branch Library" "15095 Hwy 238" "Applegate" "OR" "" -123.1676008 42.2555628
+"Arlington Public Library" "500 W First St" "Arlington" "OR" "97812" -120.2033862 45.7167452
+"Ashland Branch Library" "410 Siskiyou Blvd" "Ashland" "OR" "" -122.7096973 42.1939269
+"Astoria Public Library" "450 Tenth St" "Astoria" "OR" "97103" -123.8324449 46.1881151
+"Athena Public Library" "418 E Main St" "Athena" "OR" "97813" -118.4884864 45.8115741
+"Baker County Library District" "2400 Resort St" "Baker City" "OR" "97814" -117.8286124 44.7809063
+"Bandon Public Library" "1204 11th St Sw" "Bandon" "OR" "97411" -124.4289125 43.1139641
+"Banks Public Library" "111 Market St" "Banks" "OR" "97106" -123.1138545 45.6198671
+"Bay City Branch Library" "5525 B St" "Bay City" "OR" "" -123.8908608 45.5243898
+"Beaverton City Library" "12375 Se 5th St" "Beaverton" "OR" "97005" -122.804052 45.4841472
+"Bend Public Library" "601 Nw Wall St" "Bend" "OR" "" -121.3165935 44.0572068
+"Deschutes Public Library District" "507 Nw Wall St" "Bend" "OR" "97701" -121.3176001 44.0563455
+"Blanchard Public Library" "205 Ne 10th Street" "Blanchard" "OR" "73010" NA NA
+"Bly Branch Library" "366 Elder" "Bly" "OR" "" -121.0428654 42.3979851
+"Boardman Library" "200 South Main St" "Boardman" "OR" "" -119.7010137 45.8363969
+"Oregon Trail Library District" "200 S Main" "Boardman" "OR" "97818" -119.7010137 45.8363969
+"Bonanza Branch Library" "31703 Hwy 70" "Bonanza" "OR" "" -121.4089403 42.1987453
+"Chetco Community Public Library" "405 Alder St" "Brookings" "OR" "97415" -124.276228 42.052543
+"Brownsville Community Library" "146 Spaulding" "Brownsville" "OR" "97327" -122.9832779 44.3940518
+"Harney County Library" "80 West D St" "Burns" "OR" "97720" -119.0552883 43.5921911
+"Butte Falls Branch Library" "626 Fir Street" "Butte Falls" "OR" "" -122.5676148 42.5418263
+"Canby Public Library" "292 N Holly St" "Canby" "OR" "97013" -122.6945189 45.2638478
+"Canyonville Branch Library" "250 N. Main" "Canyonville" "OR" "" -123.280575 42.9299235
+"Cascade Locks Branch Library" "140 Se Wa-Na-Pa Street" "Cascade Locks" "OR" "" -121.889324 45.6702856
+"Illinois Valley Branch Library" "209 W Palmer St" "Cave Junction" "OR" "" -123.6480958 42.1683722
+"Central Point Branch Library" "226 E Pine St" "Central Point" "OR" "" -122.9156173 42.3747172
+"Chiloquin Branch Library" "216 S.1st St" "Chiloquin" "OR" "" -121.8635142 42.57557
+"Sunnyside Library" "13793 SE Sieben Park Way" "Clackamas" "OR" "97015" -122.5137555 45.4223089
+"Clatskanie Library District" "11 Lillich St" "Clatskanie" "OR" "97016" -123.2017217 46.1050331
+"Gilliam County Library" "310 S Main" "Condon" "OR" "97823" -120.1847799 45.2346263
+"Coos Bay Public Library" "525 Anderson" "Coos Bay" "OR" "97420" -124.2173239 43.3672003
+"Coos County Library Service District" "1988 Newmark, Tioga 3rd Floor" "Coos Bay" "OR" "97420" -124.2532757 43.3956527
+"Coquille Public Library" "105 N Birch St" "Coquille" "OR" "97423" -124.1908693 43.1754975
+"Cornelius Public Library" "1355 N Barlow St" "Cornelius" "OR" "97113" -123.0550766 45.5215531
+"Corvallis-Benton County Public Library" "645 Nw Monroe Ave" "Corvallis" "OR" "97330" -123.2643997 44.5657016
+"Cottage Grove Public Library" "700 E Gibbs Ave" "Cottage Grove" "OR" "97424" -123.0608441 43.7991446
+"Lane Library District" "64 W. Oregon Ave." "Creswell" "OR" "97426" -123.0195373 43.9181813
+"Dallas Public Library" "950 Main St" "Dallas" "OR" "97338" -123.3163178 44.9199952
+"Mary Gilkey Public Library" "416 Ferry St" "Dayton" "OR" "97114" -123.0773353 45.2196922
+"Drain Branch Library" "205 West" "Drain" "OR" "" -121.7838453 42.0283595
+"Dufur School-Community Library" "802 Ne Fifth St" "Dufur" "OR" "97021" -121.1242725 45.454948
+"Eagle Point Branch Library" "158 W Main St" "Eagle Point" "OR" "" -122.8026432 42.4730972
+"Echo Public Library" "20 S. Bonanza" "Echo" "OR" "97826" -119.1951573 45.7424959
+"Elgin Public Library" "1699 Division St" "Elgin" "OR" "97827" -117.926526 45.565129
+"Enterprise City Library" "101 Ne First St" "Enterprise" "OR" "97828" -117.275976 45.4258049
+"Troy Station Library" "66247 Redmond Grade, Troy" "Enterprise" "OR" "" -117.4498077 45.9446036
+"Wallowa County Library" "207 Nw Logan" "Enterprise" "OR" "97828" -117.279558 45.427588
+"Estacada Public Library" "825 Nw Wade" "Estacada" "OR" "97023" -122.3386332 45.2969088
+"Bethel Branch Library" "1990 Echo Hollow Rd." "Eugene" "OR" "" -123.1696272 44.0842323
+"Eugene Public Library" "100 W 10th Ave" "Eugene" "OR" "97401" -123.094962 44.0485301
+"Sheldon Branch Library" "1566 Coburg Rd" "Eugene" "OR" "" -123.0685128 44.0789657
+"Fairview-Columbia Branch Library" "1520 Ne Village St." "Fairview" "OR" "" -122.4393359 45.5322825
+"Wagner Community Library" "111 N Main St" "Falls City" "OR" "97344" -123.4284004 44.8658104
+"Siuslaw Public Library District" "1460 9th St" "Florence" "OR" "97439" -124.1053194 43.9744147
+"Forest Grove City Library" "2114 Pacific Ave" "Forest Grove" "OR" "97116" -123.1091406 45.5194367
+"Fossil Public Library" "401 Main St" "Fossil" "OR" "97830" -120.2137488 44.9998827
+"Garibaldi Branch Library" "107 Sixth St" "Garibaldi" "OR" "" -123.9142232 45.5597945
+"Gilchrist Branch Library" "201 Mountain View Dr." "Gilchrist" "OR" "" -121.684348 43.478044
+"Gladstone Public Library" "135 E Dartmouth" "Gladstone" "OR" "97027" -122.5936954 45.380307
+"Glendale Branch Library" "190 Third St" "Glendale" "OR" "" -123.4274506 42.7366434
+"Curry Public Library District" "94341 3rd Street" "Gold Beach" "OR" "97444" -124.4149148 42.4132226
+"Gold Hill Branch Library" "420 6th Ave" "Gold Hill" "OR" "" -123.0487536 42.433806
+"Josephine County Library System" "200 Nw C St" "Grants Pass" "OR" "97526" -123.326693 42.442999
+"Gresham Regional Branch Library" "385 Nw Miller Ave" "Gresham" "OR" "" -122.4329179 45.5001188
+"Haines Branch Library" "45794 Quail Lane" "Haines" "OR" "" -118.028951 44.895225
+"Halfway Branch Library" "260 Gover Lane" "Halfway" "OR" "" -117.108685 44.875374
+"Harrisburg Public Library" "354 Smith St" "Harrisburg" "OR" "97446" -123.1701309 44.2721305
+"Helix Public Library" "119 Columbia St" "Helix" "OR" "97835" -118.6576358 45.8496165
+"Heppner Branch Library" "444 Main St" "Heppner" "OR" "" -119.5533858 45.3573952
+"Hermiston Public Library" "235 E Gladys Ave" "Hermiston" "OR" "97838" -119.2880769 45.841652
+"Hillsboro Public Library" "2850 Ne Brookwood Parkway" "Hillsboro" "OR" "97124" -122.9359812 45.5428783
+"Shute Park Branch" "775 Se Tenth Ave" "Hillsboro" "OR" "" -122.9749096 45.514475
+"Washington County Cooperative Library Services" "111 Ne Lincoln St., Ms 58" "Hillsboro" "OR" "97124" -122.989827 45.5228939
+"Hood River County Library" "502 State St" "Hood River" "OR" "97031" -121.5152947 45.708395
+"Huntington Branch Library" "50 E. Adams" "Huntington" "OR" "" -117.2684933 44.3504834
+"Independence Public Library" "175 Monmouth St" "Independence" "OR" "97351" -123.185666 44.8510027
+"Jacksonville Branch Library" "170 S Oregon St" "Jacksonville" "OR" "" -122.9689442 42.3142615
+"Jefferson Public Library" "128 N Main St" "Jefferson" "OR" "97352" -123.0116493 44.7177273
+"Grant County Library" "507 S Canyon Blvd" "John Day" "OR" "97845" -118.9521765 44.409853
+"Joseph City Library" "201 N Main St" "Joseph" "OR" "97846" -117.22996 45.35352
+"Junction City Public Library" "726 Greenwood St" "Junction City" "OR" "97448" -123.202397 44.220329
+"Keno Branch Library" "15555 Hwy. 66, Space 8" "Keno" "OR" "" -121.9317913 42.1259158
+"Klamath County Library Service District" "126 S Third St" "Klamath Falls" "OR" "97601" -121.7845454 42.2219842
+"South Suburban Branch Library" "3706 S 6th St" "Klamath Falls" "OR" "" -121.7435568 42.2064978
+"La Grande Public Library" "2006 4th Street" "La Grande" "OR" "97850" -118.096799 45.3302103
+"La Pine Branch Library" "16425 1st St" "La Pine" "OR" "" -121.505138 43.673795
+"Lake Oswego Public Library" "706 4th St" "Lake Oswego" "OR" "97034" -122.6673796 45.4239821
+"Lakeside Public Library" "915 N Lake" "Lakeside" "OR" "97449" -124.172908 43.576043
+"Lake County Library District" "513 Center St" "Lakeview" "OR" "97630" -120.3450157 42.1894789
+"Langlois Library District" "48234 Hwy 101" "Langlois" "OR" "97450" -124.4502793 42.9217293
+"Lebanon Public Library" "626 Second St" "Lebanon" "OR" "97355" -122.9089009 44.5396607
+"Driftwood Public Library" "801 Sw Hwy 101 201" "Lincoln City" "OR" "97367" -124.0141686 44.9718328
+"Lyons Public Library" "448 Cedar St" "Lyons" "OR" "97358" -122.613473 44.77501
+"Jefferson County Library District" "241 Se 7th St" "Madras" "OR" "97741" -121.1272497 44.6326243
+"Malin Branch Library" "2307 Front St" "Malin" "OR" "" -121.406816 42.013222
+"Manzanita Branch Library" "571 Laneda" "Manzanita" "OR" "" -123.9317735 45.7194511
+"Mapleton Branch Library" "88148 Riverview Ave" "Mapleton" "OR" "" -123.8620916 44.0364031
+"Southern Wasco County Library" "410 Deschutes Ave" "Maupin" "OR" "97037" -121.080409 45.175708
+"Mcloud Public Library" "133 North Main" "Mcloud" "OR" "74851" -123.0068472 45.0113915
+"Mcminnville Public Library" "225 Nw Adams St" "Mcminnville" "OR" "97128" -123.1996916 45.2097515
+"Jackson County Library Services" "205 S Central Ave" "Medford" "OR" "97501" -122.8700005 42.3247407
+"Merrill Branch Library" "365 W Front St" "Merrill" "OR" "" -121.6003935 42.0239878
+"Milton-Freewater Public Library" "8 Sw Eighth Ave" "Milton-Freewater" "OR" "97862" -118.3858327 45.9274829
+"Ledding Library" "10660 Se 21st Ave" "Milwaukie" "OR" "97222" -122.6403619 45.4461289
+"Molalla Public Library" "201 E Fifth St" "Molalla" "OR" "97038" -122.5772464 45.144114
+"Monmouth Public Library" "168 S Ecols St" "Monmouth" "OR" "97361" -123.2318303 44.8473854
+"Monroe Community Library" "668 Commercial St" "Monroe" "OR" "" -123.2999291 44.314804
+"Sherman County Public-School Library" "65912 High School Loop" "Moro" "OR" "97039" -120.7382721 45.4779671
+"Mt. Angel Public Library" "290 E Charles St" "Mount Angel" "OR" "97362" -122.797794 45.0680644
+"Myrtle Creek Branch Library" "231 Division St" "Myrtle Creek" "OR" "" -123.284679 43.027857
+"Dora Public Library" "56125 Goldbrick Rd" "Myrtle Point" "OR" "97458" -123.9555117 43.154538
+"Flora M. Laird Memorial Library" "435 5th St" "Myrtle Point" "OR" "97458" -124.1420581 43.0641101
+"Newberg Public Library" "503 E Hancock St" "Newberg" "OR" "97132" -122.9747297 45.3015465
+"Newcastle Public Library" "705 Nw 10th" "Newcastle" "OR" "73065" NA NA
+"Lincoln County Library District" "1247 Nw Grove, 2" "Newport" "OR" "97365" -124.054359 44.6456703
+"Newport Public Library" "35 Nw Nye St" "Newport" "OR" "97365" -124.0560041 44.6369131
+"Noble Public Library" "204 N. 5th Street" "Noble" "OR" "73068" NA NA
+"Norman Public Library" "225 North Webster" "Norman" "OR" "73069" NA NA
+"North Bend Public Library" "1800 Sherman" "North Bend" "OR" "97459" -124.2246046 43.4087817
+"North Plains Public Library" "31334 Nw Commercial St." "North Plains" "OR" "97133" -122.9993095 45.5974419
+"North Powder City Library" "290 E St" "North Powder" "OR" "97867" -117.9207541 45.0292319
+"Nyssa Public Library" "319 Main St." "Nyssa" "OR" "97913" -116.997331 43.876523
+"Oak Lodge Library" "16201 Se Mcloughlin Blvd" "Oak Grove" "OR" "97267" -122.6249227 45.4054944
+"Oakridge Public Library" "48318 E 1st" "Oakridge" "OR" "97463" -122.45698 43.747408
+"Ontario Community Library" "388 Sw 2nd Ave" "Ontario" "OR" "97914" -116.9683095 44.0253004
+"Oregon City Public Library" "362 Warner Milne Rd" "Oregon City" "OR" "97045" -122.5920182 45.3365136
+"Pacific City Branch Library" "6200 Camp St." "Pacific City" "OR" "" -123.9609903 45.2050184
+"Paisley Branch Library" "513 Mill St" "Paisley" "OR" "" -120.5435408 42.6938708
+"Parkdale Branch Library" "7300 Clear Creek Road" "Parkdale" "OR" "" -121.597921 45.5194163
+"Pendleton Public Library" "502 Sw Dorion Ave" "Pendleton" "OR" "97801" -118.7915526 45.6701907
+"Philomath Community Library" "1050 Applegate" "Philomath" "OR" "" -123.3711778 44.5391247
+"Phoenix Branch Library" "110 W 2nd St" "Phoenix" "OR" "" -122.81618 42.274473
+"Pilot Rock Public Library" "144 N. Alder Pl" "Pilot Rock" "OR" "97868" -118.8327871 45.4824118
+"Port Orford Public Library" "1421 Oregon St" "Port Orford" "OR" "97465" -124.497407 42.7496278
+"Albina Branch Library" "3605 Ne 15th Ave" "Portland" "OR" "" -122.6513616 45.5488591
+"Belmont Branch Library" "1038 Se 39th Ave" "Portland" "OR" "" -122.6229101 45.5154496
+"Capitol Hill Branch Library" "10723 Sw Capitol Hwy" "Portland" "OR" "" -122.7254319 45.4480512
+"Cedar Mill Community Library" "12505 Nw Cornell Rd" "Portland" "OR" "97229" -122.8059265 45.527394
+"Garden Home Community Library" "7475 Sw Oleson Rd" "Portland" "OR" "97223" -122.7533285 45.4661943
+"Gregory Heights Branch Library" "7921 Ne Sandy Blvd" "Portland" "OR" "" -122.5813811 45.5516569
+"Hillsdale" "6345 Sw Capitol Hwy" "Portland" "OR" "" -122.6955037 45.4788483
+"Holgate Branch Library" "7905 Se Holgate Blvd" "Portland" "OR" "" -122.5822454 45.4905098
+"Hollywood Branch Library" "4040 Ne Tillamook St" "Portland" "OR" "" -122.6212373 45.5375441
+"Midland Regional Branch Library" "805 Se 122nd Ave" "Portland" "OR" "" -122.5384885 45.5166834
+"Multnomah County Library" "205 Ne Russell" "Portland" "OR" "97212" -122.6632677 45.5412217
+"North Portland Branch Library" "512 N Killingsworth St" "Portland" "OR" "" -122.6714909 45.5624734
+"Northwest Branch Library" "2300 Nw Thurman St." "Portland" "OR" "" -122.6991187 45.5353341
+"Rockwood Branch Library" "17917 Se Stark St" "Portland" "OR" "" -122.4790403 45.5195195
+"Sellwood-Moreland Branch Library" "7860 Se 13th Ave" "Portland" "OR" "" -122.6526389 45.4677028
+"St. Johns Branch Library" "7510 N Charleston Ave" "Portland" "OR" "" -122.7510322 45.5900541
+"West Slope Community Library" "3678 Sw 78th Ave." "Portland" "OR" "" -122.7571965 45.4933309
+"Woodstock Branch Library" "6008 Se 49th Ave" "Portland" "OR" "" -122.6120907 45.4789461
+"Hazel M. Lewis Library" "511 3rd Ave" "Powers" "OR" "97466" -124.0702856 42.8815955
+"Crook County Library" "175 N.W. Meadowlakes Dr" "Prineville" "OR" "97754" -120.8574265 44.3015873
+"Prospect Branch Library" "300 Mill Creek Dr" "Prospect" "OR" "" -122.4887751 42.7521514
+"Purcell Public Library" "919 North Ninth" "Purcell" "OR" "73080" NA NA
+"Rainier City Library" "106 B St" "Rainier" "OR" "97048" -122.9362061 46.0891745
+"Redmond Branch Library" "827 Sw Deschutes Ave." "Redmond" "OR" "" -121.1769487 44.2741961
+"Reedsport Branch Library" "395 Winchester Ave" "Reedsport" "OR" "" -124.096248 43.701987
+"Richland" "37986 Hwy 86" "Richland" "OR" "" -117.231431 44.7844539
+"Riddle Branch Library" "637 First St" "Riddle" "OR" "" -123.3581845 42.9522504
+"Rockaway Branch Library" "120 N. Coral" "Rockaway" "OR" "" -123.9416271 45.6135371
+"Rogue River Branch Library" "412 E Main St" "Rogue River" "OR" "" -123.1656409 42.4323158
+"Douglas County Library System" "1409 Ne Diamond Lake Blvd" "Roseburg" "OR" "97470" -123.3406237 43.2127467
+"Ruch Branch Library" "7388 Highway 238" "Ruch" "OR" "" -123.0368707 42.2392791
+"Salem Public Library" "585 Liberty St Se" "Salem" "OR" "97301" -123.0422597 44.9352032
+"West Salem Branch Library" "395 Glen Creek Road Nw" "Salem" "OR" "" -123.0486935 44.9505145
+"Sandy Public Library" "38980 Proctor Blvd" "Sandy" "OR" "97055" -122.261856 45.396954
+"Scappoose Public Library" "52469 Se 2nd St" "Scappoose" "OR" "97056" -122.876659 45.7566814
+"Scio Public Library" "38957 Nw 1st" "Scio" "OR" "97374" -122.8497873 44.7049592
+"Seaside Public Library" "60 N Roosevelt" "Seaside" "OR" "97138" -123.9203122 45.994288
+"Shady Cove Branch Library" "22477 Hwy 62" "Shady Cove" "OR" "" -122.8081042 42.6236337
+"Shawnee Public Library" "101 North Philadelphia" "Shawnee" "OR" "74801" NA NA
+"Sheridan Public Library" "142 Nw Yamhill" "Sheridan" "OR" "97378" -123.3961644 45.1000108
+"Sherwood Public Library" "22560 Sw Pine St" "Sherwood" "OR" "97140" -122.840105 45.3567048
+"Siletz Public Library" "243 W. Buford Ave" "Siletz" "OR" "" -123.9198435 44.7220033
+"Silver Falls Library District" "410 S Water St" "Silverton" "OR" "97381" -122.7815636 45.0029107
+"Sisters Branch Library" "291 E. Main St." "Sisters" "OR" "" -121.547891 44.29191
+"Spray Public-School Library" "303 Park Ave." "Spray" "OR" "97874" -119.7932155 44.8336668
+"Springfield Public Library" "225 5th St" "Springfield" "OR" "97477" -123.0184315 44.0470477
+"St. Helens Public Library" "375 S 18th St, Ste A" "St. Helens" "OR" "97051" -122.8147872 45.8549307
+"Stanfield Public Library" "180 West Coe Ave" "Stanfield" "OR" "97875" -119.2186415 45.7805452
+"Stayton Public Library" "515 N First Ave" "Stayton" "OR" "97383" -122.7950731 44.7987383
+"Sunriver Branch Library" "56855 Venture Lane" "Sunriver" "OR" "" -121.4352461 43.865876
+"C. Giles Hunt Memorial Library, Sutherlin Bra" "210 E. Central St" "Sutherlin" "OR" "" -123.310976 43.3902659
+"Sweet Home Public Library" "1101 13th Ave" "Sweet Home" "OR" "97386" -122.7287595 44.3964525
+"Talent Branch Library" "105 North I Street" "Talent" "OR" "" -122.7877438 42.244743
+"Tecumseh Public Library" "114 North Broadway" "Tecumseh" "OR" "74873" NA NA
+"The Dalles-Wasco County Library" "722 Court St" "The Dalles" "OR" "97058" -121.1855877 45.5992812
+"Tigard Public Library" "13500 Sw Hall Blvd" "Tigard" "OR" "97223" -122.764864 45.4225981
+"Tillamook County Library" "1716 Third St" "Tillamook" "OR" "97141" -123.8463775 45.4566413
+"Toledo Public Library" "173 Nw 7th St" "Toledo" "OR" "97391" -123.9384755 44.6252824
+"Tualatin Public Library" "18878 Sw Martinazzi Ave" "Tualatin" "OR" "97062" -122.7585245 45.3843112
+"Ukiah Public Library" "201 Hill St" "Ukiah" "OR" "97880" -118.9334337 45.1355839
+"Umatilla Public Library" "911 7th St" "Umatilla" "OR" "97882" -119.3421581 45.9168697
+"Union Carnegie Public Library" "182 N Main St" "Union" "OR" "97883" -117.8654773 45.2099006
+"Emma Humphrey Library" "150 A St E" "Vale" "OR" "97918" -117.239679 43.982113
+"Fern Ridge Library District" "88026 Territorial Rd" "Veneta" "OR" "97487" -123.3520441 44.046653
+"Vernonia Public Library" "701 Weed Ave" "Vernonia" "OR" "97064" -123.1969782 45.8579855
+"Waldport Public Library" "460 Hemlock" "Waldport" "OR" "97394" -124.0666672 44.4269982
+"Wallowa Public Library" "201 East 1st St" "Wallowa" "OR" "97885" -117.527759 45.570469
+"Warrenton Community Library" "225 S Main Ave" "Warrenton" "OR" "97146" -123.9254027 46.163462
+"Hoodland Branch Library" "68236 E Highway 26" "Welches" "OR" "" -121.9632649 45.3481183
+"West Linn Public Library" "1595 Burns St" "West Linn" "OR" "97068" -122.6139653 45.3674671
+"Weston Public Library" "108 E Main St" "Weston" "OR" "97886" -118.4251094 45.8135762
+"White City Branch Library" "3143 Ave C" "White City" "OR" "" -122.8334405 42.4305133
+"Willamina Public Library" "382 Ne C St" "Willamina" "OR" "97396" -123.4847684 45.0797166
+"Williams Branch Library" "20695 Williams Highway" "Williams" "OR" "" -123.273041 42.218735
+"Wilsonville Public Library" "8200 Sw Wilsonville Rd" "Wilsonville" "OR" "97070" -122.7613 45.302531
+"Winston Branch Library" "131 Nw Rose St" "Winston" "OR" "" -123.413521 43.123773
+"Wolf Creek Branch Library" "102 Ruth Avenue" "Wolf Creek" "OR" "" -123.3958119 42.6954051
+"Woodburn Public Library" "280 Garfield St" "Woodburn" "OR" "97071" -122.8585067 45.1427953
+"Yoncalla Branch Library" "194 Birch" "Yoncalla" "OR" "" -123.2845749 43.599854

@@ -1,0 +1,57 @@
+"location" "miles" "latitude" "longitude"
+"Edna Ralston Public Library<br/>116 1-2 Towner Avenue<br/>Larimore, ND" 11.6788415340353 -97.6237826 47.9039857
+"Grand Forks Public Library<br/>2110 Library Circle<br/>Grand Forks, ND" 15.8940099710193 -97.04898 47.8990188
+"East Grand Forks-Campbell Library<br/>422 4th Street Northwest<br/>East Grand Forks, MN" 16.6153768525795 -97.0253602 47.930735
+"Hatton School Public Library<br/>503 4th Street, Hatton, Nd 58240<br/>Hatton, ND" 21.8093108550946 -97.4599456 47.641563
+"Mayville Public Library<br/>52 Center Avenue North<br/>Mayville, ND" 31.3619992233632 -97.3264271 47.5007064
+"Carnegie Regional Library<br/>7th Griggs, Grafton, Nd 58237<br/>Grafton, ND" 31.8248695652273 -97.410634 48.4122107
+"Carnegie Regional Library<br/>49 West 7th Street<br/>Grafton, ND" 32.1969031468399 -97.4118996 48.4175586
+"Godel Memorial Library<br/>314 East Johnson<br/>Warren, MN" 33.0709469605629 -96.7684391 48.1980049
+"Carnegie Regional Library<br/>105 1st Street East, Michigan, Nd 58259<br/>Michigan, ND" 34.5400474952399 -98.1207803 48.0242358
+"Park River School Public Library<br/>605 6th Sreet W<br/>Park River, ND" 34.8647357884279 -97.7507747 48.3926367
+"Climax Public Library<br/>104 W. Broadway<br/>Climax, MN" 35.5123204745485 -96.8164944 47.6076605
+"Crookston Public Library<br/>110 N Ash<br/>Crookston, MN" 38.1391936432854 -96.605165 47.77349
+"McVille Community Library<br/>101 North Main Street<br/>McVille, ND" 39.1142387950698 -98.1773122 47.7646209
+"Lakota City Library<br/>116 West B Avenue<br/>Lakota, ND" 44.942403066624 -98.3442344 48.0414429
+"Carnegie Regional Library<br/>503 Briggs Ave., Adams, Nd 58210<br/>Adams, ND" 45.6481248477386 -98.0789893 48.4213852
+"Griggs County Library<br/>902 Burrel Ave Se<br/>Cooperstown, ND" 49.2482801403859 -98.1236505 47.4445481
+"Red Lake Falls Public Library<br/>105 Champagne Avenue Sw<br/>Red Lake Falls, MN" 51.5486803600392 -96.2753466 47.8830929
+"Thief River Falls Public Library<br/>101 East First Street<br/>Thief River Falls, MN" 56.7043234239084 -96.1814714 48.11706
+"Northwest Regional Library<br/>210 Labree Avenue North<br/>Thief River Falls, MN" 56.7914550144743 -96.1799651 48.1184692
+"Fertile Public Library<br/>101 S Mill Street<br/>Fertile, MN" 58.8807235075962 -96.2804244 47.5337158
+"Arthur County Library<br/>205 First Street<br/>Arthur, NE" 59.1356771348739 -97.2174775 47.1049168
+"Cavalier Public Library<br/>106 West 2nd Ave South<br/>Cavalier, ND" 59.2239993705631 -97.6255674 48.7933202
+"Hallock Public Library<br/>163 South 3rd<br/>Hallock, MN" 60.647065461755 -96.9460317 48.7799352
+"Ada Public Library<br/>107 4th Avenue E<br/>Ada, MN" 60.6971131738962 -96.511009 47.3005818
+"Lake Region Public Library<br/>423 7th Street Ne<br/>Devils Lake, ND" 69.2308592506267 -98.8592841 48.1151472
+"Pembina School City Library<br/>155 South Third Street<br/>Pembina, ND" 70.4733024872668 -97.2477825 48.9673923
+"Walhalla Public Library<br/>1010 Central Ave<br/>Walhalla, ND" 71.4111439186244 -97.9154478 48.9224288
+"Margaret Fraase Public Library<br/>204 Wilcox Ave N<br/>Buffalo, ND" 71.7618057720625 -97.5517069 46.921436
+"Cavalier County Library<br/>600 Fifth Avenue<br/>Langdon, ND" 72.0075536609115 -98.3724892 48.7592758
+"Mcintosh Public Library<br/>115 Broadway Nw<br/>Mcintosh, MN" 72.8172527780476 -95.887476 47.6370128
+"Casselton Public Library<br/>702 1st Street North<br/>Casselton, ND" 73.1123395070987 -97.210709 46.901981
+"Greenbush Public Library<br/>234 Main Street North<br/>Greenbush, MN" 75.7027971986874 -96.1817187 48.7011198
+"Valley City Barnes County Public Library<br/>410 North Central Avenue<br/>Valley City, ND" 76.688031174496 -98.0031262 46.9264316
+"Northport Library<br/>2714 Broadway, Fargo, Nd 58102<br/>Fargo, ND" 77.1971871804356 -96.7873948 46.9116379
+"West Fargo Public Library<br/>109 Third Street East<br/>West Fargo, ND" 77.9531567499803 -96.8950462 46.8749351
+"Mahnomen Public Library<br/>203 S Main St<br/>Mahnomen, MN" 79.3262704841138 -95.9687696 47.3140555
+"Fargo Public Library<br/>102 North 3rd Street<br/>Fargo, ND" 79.4799074866175 -96.7837511 46.8773063
+"Lake Agassiz Regional Library<br/>118 5th St S<br/>Moorhead, MN" 79.9529682017689 -96.7714497 46.8731589
+"Moorhead Public Library<br/>118 S 5th Street<br/>Moorhead, MN" 79.9529682017689 -96.7714497 46.8731589
+"Fosston Public Library<br/>403 Foss Ave N<br/>Fosston, MN" 80.3570066488702 -95.7463381 47.5781897
+"Southpointe Library<br/>3051 25th St S, Fargo, Nd 58103<br/>Fargo, ND" 81.669274741404 -96.8220489 46.8344739
+"New Rockford Public Library<br/>10 8th Street N.<br/>New Rockford, ND" 83.6873612348547 -99.1379092 47.6802102
+"Minnewaukan Public Library<br/>170 Main Street East<br/>Minnewaukan, ND" 86.8477337071056 -99.2508151 48.0715058
+"Carrington City Library<br/>55 Ninth Ave S<br/>Carrington, ND" 88.2752209510579 -99.1248524 47.4489773
+"Hawley Public Library<br/>421 Hartford Street<br/>Hawley, MN" 89.3113708247647 -96.3153363 46.8821463
+"Watts Free Library<br/>101 Third Street North<br/>Leonard, ND" 90.0448885432478 -97.245506 46.654108
+"Cando Community Library<br/>523 Main<br/>Cando, ND" 91.7794846894216 -99.203316 48.4898865
+"Kindred Public Library<br/>330 Elm Street<br/>Kindred, ND" 91.8223428423528 -97.0160036 46.6485605
+"Enderlin Municipal Library<br/>303 Railway Street<br/>Enderlin, ND" 92.4318387525847 -97.602136 46.6246185
+"Comstock Township Library<br/>119 West Main Street<br/>Comstock, NE" 94.2761394611731 -96.7426531 46.6604999
+"Stutsman County Library<br/>910 Fifth Street Se<br/>Jamestown, ND" 95.0407528664129 -98.6952568 46.9041479
+"Alfred Dickey Public Library<br/>105 Third Street Se<br/>Jamestown, ND" 95.2976985347856 -98.7079971 46.9065942
+"Roseau Public Library<br/>110 2nd Avenue Ne<br/>Roseau, MN" 96.7445316486906 -95.7622032 48.8463766
+"Bagley Public Library<br/>21 Main Avenue N<br/>Bagley, MN" 96.9634763959149 -95.3986916 47.5222748
+"Leeds Public Library<br/>221 Main Street West<br/>Leeds, ND" 97.9754593220043 -99.4431803 48.2899119
+"Maddock Community Library<br/>2nd Dakota<br/>Maddock, ND" 99.4887031132483 -99.530133 47.9625088

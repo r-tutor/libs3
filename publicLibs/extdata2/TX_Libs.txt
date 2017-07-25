@@ -1,0 +1,643 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Abernathy Public Library" "811 Avenue D" "Abernathy" "TX" "79311" -101.8435785 33.8319618
+"Abilene Library Consortium" "3305 N. 3rd St." "Abilene" "TX" "79603" -99.762436 32.45272
+"Abilene Public Library" "202 Cedar St" "Abilene" "TX" "79601" -99.7357361 32.4509175
+"Big Country Library System" "202 Cedar Street" "Abilene" "TX" "79601" -99.7357361 32.4509175
+"Alamo Public Library" "416 N Tower Rd" "Alamo" "TX" "78516" -98.1100378 26.1862124
+"Fernando De La Rosa Memorial Library" "416 N. Tower Rd." "Alamo" "TX" "78516" -98.1100378 26.1862124
+"Sergeant Fernando De La Rosa Memorial Library" "416 North Tower Road" "Alamo" "TX" "78516" -98.1100378 26.1862124
+"Shackelford County Library" "402 N 2nd St" "Albany" "TX" "76430" -99.296051 32.7274339
+"East Parker County Library" "201 N Fm 1187" "Aledo" "TX" "76008" -97.6037068 32.6989467
+"Alice Public Library" "401 E 3rd St" "Alice" "TX" "78332" -98.0733234 27.7531453
+"Allen Public Library" "300 N Allen Dr" "Allen" "TX" "75013" -96.6708911 33.1054481
+"Alpine Public Library" "203 N 7th St" "Alpine" "TX" "79830" -103.664061 30.35805
+"Stella Hill Memorial Library" "200 W San Antonio St" "Alto" "TX" "75925" -95.0718025 31.6510051
+"Alvarado Public Library" "210 N Baugh St" "Alvarado" "TX" "76009" -97.2082102 32.4085864
+"Alvord Public Library" "117 N Wickham St" "Alvord" "TX" "76225" -97.6948236 33.3590032
+"Amarillo Public Library" "413 E 4th Ave" "Amarillo" "TX" "79101" -101.8290725 35.2087347
+"Harrington Library Consortium" "413 E. Fourth Avenue" "Amarillo" "TX" "79189" -101.8290725 35.2087347
+"Chambers County Library System" "202 Cummings St" "Anahuac" "TX" "77514" -94.6852541 29.7708523
+"Andrews County Library" "109 Nw 1st St" "Andrews" "TX" "79714" -102.5482923 32.3190158
+"Brazoria County Library System" "451 N Velasco St Ste 250" "Angleton" "TX" "77515" -95.4329689 29.1679937
+"Anson Public Library" "1137 12th St" "Anson" "TX" "79501" -99.896841 32.755895
+"Ed And Hazel Richmond Public Library" "110 N Lamont St" "Aransas Pass" "TX" "78336" -97.1488901 27.9089728
+"Archer Public Library" "105 N Center" "Archer City" "TX" "76351" -98.6255685 33.5960586
+"Arlington Public Library System" "101 E Abram St" "Arlington" "TX" "76010" -97.1063497 32.7360371
+"Stonewall County Library" "516 S Washington Ave" "Aspermont" "TX" "79502" -100.2288545 33.1386789
+"Henderson Cnty Clint W Murchison Memorial Library" "121 S Prairieville St" "Athens" "TX" "75751" -95.8547381 32.2035522
+"Atlanta Public Library" "101 W Hiram St" "Atlanta" "TX" "75551" -94.1655962 33.1150866
+"Aubrey Area Library" "226 Countryside" "Aubrey" "TX" "76227" -96.98913 33.290116
+"Austin Public Library" "800 Guadalupe St" "Austin" "TX" "78701" -97.7460168 30.2713021
+"Austin Public Library - Austin History Center" "810 Guadalupe St." "Austin" "TX" "78701" -97.7458906 30.2717033
+"Austin Public Library - Carver Branch" "1161 Angelina St., 78702" "Austin" "TX" "78702" -97.7240278 30.2695584
+"Austin Public Library - Cepeda Branch" "651 N. Pleasant Valley Rd." "Austin" "TX" "78702" -97.7088905 30.2590471
+"Austin Public Library - Faulk Central Library" "800 Guadalupe St." "Austin" "TX" "78701" -97.7460168 30.2713021
+"Austin Public Library - Hampton Branch At Oak Hill" "5125 Convict Hill Rd." "Austin" "TX" "78749" -97.8550267 30.2176045
+"Austin Public Library - Howson Branch" "2500 Exposition Blvd." "Austin" "TX" "78703" -97.7675915 30.2982508
+"Austin Public Library - Little Walnut Creek Branch" "835 W. Rundberg Ln." "Austin" "TX" "78758" -97.6984619 30.3632362
+"Austin Public Library - Manchaca Road Branch" "5500 Manchaca Rd." "Austin" "TX" "78745" -97.7973369 30.2166039
+"Austin Public Library - Milwood Branch" "12500 Amherst Dr." "Austin" "TX" "78727" -97.7161692 30.4223444
+"Austin Public Library - North Village Branch" "2505 Steck Ave." "Austin" "TX" "78757" -97.7305032 30.362144
+"Austin Public Library - Oak Springs Branch" "3101 Oak Springs Dr." "Austin" "TX" "78702" -97.699748 30.2729762
+"Austin Public Library - Old Quarry Branch" "7051 Village Center Dr." "Austin" "TX" "78731" -97.7551561 30.3529975
+"Austin Public Library - Pleasant Hill Branch" "211 E. William Cannon Dr." "Austin" "TX" "78745" -97.7771661 30.1922461
+"Austin Public Library - Recycled Reads Bookstore" "5335 Burnet Rd." "Austin" "TX" "78756" -97.7393012 30.3270694
+"Austin Public Library - Ruiz Branch" "1600 Grove Blvd." "Austin" "TX" "78741" -97.7070109 30.2298616
+"Austin Public Library - Southeast Austin Community Branch" "5803 Nuckols Crossing Rd." "Austin" "TX" "78744" -97.7419319 30.1876256
+"Austin Public Library - Spicewood Springs Branch" "8637 Spicewood Springs Rd." "Austin" "TX" "78759" -97.7730809 30.4337083
+"Austin Public Library - St. John Branch" "7500 Blessing Ave." "Austin" "TX" "78752" -97.6937014 30.3328231
+"Austin Public Library - Terrazas Branch" "1105 East Csar Chvez St." "Austin" "TX" "78702" -97.7334621 30.2599154
+"Austin Public Library - Twin Oaks Branch" "1800 S. Fifth St." "Austin" "TX" "78704" -97.7623975 30.2486884
+"Austin Public Library - University Hills Branch" "4721 Loyola Ln." "Austin" "TX" "78723" -97.6665407 30.3086669
+"Austin Public Library - Windsor Park Branch" "5833 Westminster Dr." "Austin" "TX" "78723" -97.6902298 30.3116523
+"Austin Public Library - Yarborough Branch" "2200 Hancock Dr." "Austin" "TX" "78756" -97.7407213 30.3234684
+"Central Texas Library System, Inc" "1005 West 41st Street" "Austin" "TX" "78756" -97.7415032 30.3091326
+"Wells Branch Community Library" "15001 Wells Port Dr" "Austin" "TX" "78728" -97.6755865 30.4457273
+"Azle Memorial Library" "333 W Main St" "Azle" "TX" "76020" -97.5480434 32.8954243
+"Callahan County Library" "100 W 4th Ste B1" "Baird" "TX" "79504" -99.4016909 32.3949607
+"Balch Springs Library-Learning Center" "12450 Elam Rd" "Balch Springs" "TX" "75180" -96.6119432 32.7188902
+"Carnegie Library Of Ballinger" "204 N 8th St" "Ballinger" "TX" "76821" -99.9499984 31.7394338
+"Bandera County Library" "515 Main St" "Bandera" "TX" "78003" -99.0733816 29.726248
+"Kronkosky Library Of Bandera County" "515 Main St." "Bandera" "TX" "78003" -99.0733816 29.726248
+"Teinert Memorial Public Library" "337 N Dalton St" "Bartlett" "TX" "76511" -97.427154 30.792064
+"Bastrop Public Library" "1100 Church St" "Bastrop" "TX" "78602" -97.3218828 30.1119127
+"Bay City Public Library" "1100 7th St" "Bay City" "TX" "77414" -95.977202 28.9827653
+"Beaumont Public Library System" "801 Pearl St" "Beaumont" "TX" "77701" -94.0953854 30.0809495
+"Jefferson County Library" "7933 Viterbo Rd Ste 7" "Beaumont" "TX" "77705" -94.02062 29.9634323
+"Bedford Public Library" "2424 Forest Ridge" "Bedford" "TX" "76021" -97.1417729 32.8460923
+"Bee Cave Public Library" "4000 Galleria Pkwy" "Bee Cave" "TX" "78738" -97.9398921 30.3083838
+"Joe Barnhart Bee County Library" "110 W Corpus Christi St" "Beeville" "TX" "78102" -97.7490806 28.4018684
+"Bellaire City Library" "5111 Jessamine St" "Bellaire" "TX" "77401" -95.4693376 29.7017729
+"Bellville Public Library" "12 W Palm St" "Bellville" "TX" "77418" -96.257394 29.951846
+"Lena Armstrong Public Library" "301 E 1st Ave" "Belton" "TX" "76513" -97.4613083 31.0565215
+"Duval County Public Library - Benavides Branch" "131 Mesquite St." "Benavides" "TX" "78341" -98.4134712 27.5970121
+"Benbrook Public Library" "1065 Mercedes St" "Benbrook" "TX" "76126" -97.4511692 32.6792141
+"Reagan County Library" "300 Courthouse Sq" "Big Lake" "TX" "76932" -101.4611676 31.1925565
+"Howard County Library" "500 S Main St" "Big Spring" "TX" "79720" -101.4759302 32.2500205
+"Bishop Public Library" "115 S. Ash Streeet" "Bishop" "TX" "78343" -97.8001454 27.5840112
+"Blanco County South Library District" "1118 Main St Ste A" "Blanco" "TX" "78606" -98.4192657 30.1049147
+"Blooming Grove Community Library" "301 S Fordyce St" "Blooming Grove" "TX" "76626" -96.7151797 32.0911075
+"Boerne Public Library" "210 N Main St" "Boerne" "TX" "78006" -98.732652 29.794728
+"Bonham Public Library" "305 E 5th St" "Bonham" "TX" "75418" -96.1759021 33.5783217
+"Booker School-Public Library" "po box 288" "Booker" "TX" "79005" -100.5373673 36.4533648
+"Hutchinson County Library" "625 Weatherly St" "Borger" "TX" "79007" -101.3887773 35.6720088
+"Bowie Public Library" "301 Walnut St" "Bowie" "TX" "76230" -97.8499554 33.5619037
+"Boyd Public Library" "101 W Rock Island Ave" "Boyd" "TX" "76023" -97.566238 33.0785547
+"Kinney County Public Library" "510 S Ellen" "Brackettville" "TX" "78832" -100.4167468 29.3101652
+"Fm Buck Richards Memorial Library" "1106 S Blackburn St" "Brady" "TX" "76825" -99.334291 31.126482
+"Breckenridge Library" "209 N Breckenridge Ave" "Breckenridge" "TX" "76424" -98.9026023 32.7563927
+"Bremond Public Library" "115 S Main St" "Bremond" "TX" "76629" -96.675746 31.1658247
+"Nancy Carol Roberts Memorial Library" "100 Martin Luther King Jr Pkwy" "Brenham" "TX" "77833" -96.3994976 30.1706472
+"Bridge City Public Library" "101 Parkside Place Dr" "Bridge City" "TX" "77611" -93.8440987 30.0341083
+"Bridgeport Public Library" "2159 10th St" "Bridgeport" "TX" "76426" -97.758272 33.2226963
+"Kendrick Memorial Library" "301 W Tate St" "Brownfield" "TX" "79316" -102.2774584 33.1770456
+"Brownsville Public Library - Southmost Branch Library" "4320 Southmost Boulevard" "Brownsville" "TX" "78522" -97.451642 25.8952191
+"Brownsville Public Library System" "2600 Central Blvd" "Brownsville" "TX" "78520" -97.5086845 25.9408643
+"Brownwood Public Library" "600 Carnegie St" "Brownwood" "TX" "76801" -98.9811941 31.7175631
+"Bryancollege Station Public Library System" "201 E 26th St" "Bryan" "TX" "77803" -96.3722499 30.673107
+"Buda Public Library" "303 Main St" "Buda" "TX" "78610" -97.8421711 30.0828925
+"Buffalo Public Library" "1005 Hill St" "Buffalo" "TX" "75831" -96.0847587 31.4672075
+"Bullard Community Library" "211 W Main St" "Bullard" "TX" "75757" -95.3220531 32.1387101
+"Bulverde-Spring Branch Library" "131 Bulverde Crossing" "Bulverde" "TX" "78163" -98.422018 29.7943915
+"Buna Public Library" "1042 Hwy 62 S" "Buna" "TX" "77612" -93.9600773 30.4304838
+"Burkburnett Library" "215 E 4th St" "Burkburnett" "TX" "76354" -98.5734919 34.0981497
+"Burleson Public Library" "248 Sw Johnson Ave" "Burleson" "TX" "76028" -97.3281043 32.5403457
+"Burnet County Library System" "100 E Washington St" "Burnet" "TX" "78611" -98.2273778 30.7576916
+"Harrie P Woodson Memorial Library" "704 W Hwy 21" "Caldwell" "TX" "77836" -96.702265 30.5310881
+"Cameron Public Library" "304 E 3rd St" "Cameron" "TX" "76520" -96.9741354 30.8517386
+"Camp Wood Public Library" "106 Nueces St" "Camp Wood" "TX" "78833" -100.0121797 29.6687036
+"Hemphill County Library" "500 Main St" "Canadian" "TX" "79014" -100.3778663 35.9096554
+"Van Zandt County Library" "317 1st Monday Ln" "Canton" "TX" "75103" -95.8725357 32.5610405
+"Canyon Area Library" "1501 3rd Ave" "Canyon" "TX" "79015" -101.9283222 34.9812528
+"Tye Preston Memorial Library" "16311 South Access Road" "Canyon Lake" "TX" "78133" -98.1905313 29.8660352
+"Dimmit County Public Library" "200 N 9th St" "Carrizo Springs" "TX" "78834" -99.863502 28.523908
+"Carrollton Public Library" "1700 Keller Springs Rd" "Carrollton" "TX" "75006" -96.8934191 32.9708379
+"Sammy Brown Library" "522 W College St" "Carthage" "TX" "75633" -94.3478947 32.1578106
+"Castroville Public Library" "802 London St" "Castroville" "TX" "78009" -98.8797731 29.353134
+"Zula Bryant Wylie Library" "225 Cedar St" "Cedar Hill" "TX" "75104" -96.9501731 32.5890769
+"Cedar Park Public Library" "550 Discovery Blvd" "Cedar Park" "TX" "78613" -97.8239849 30.518893
+"Celina Public Library" "142 N Ohio Dr" "Celina" "TX" "75009" -96.7864928 33.3235445
+"Fannie Brown Booth Memorial Library" "619 Tenaha St" "Center" "TX" "75935" -94.1878738 31.8055559
+"Elmer P Jewel Ward Memorial Library" "207 E St Marys" "Centerville" "TX" "75833" -95.978707 31.2599918
+"Charlotte Public Library" "77 Yule St" "Charlotte" "TX" "78011" -98.7062689 28.8643391
+"Chico Public Library Inc" "106 W Jacksboro St" "Chico" "TX" "76431" -97.7982559 33.2946779
+"Childress Public Library" "117 Ave B Ne" "Childress" "TX" "79201" -100.2063632 34.4225704
+"Cisco Public Library" "600 Ave G" "Cisco" "TX" "76437" -98.9831854 32.3883866
+"Burton Memorial Library" "217 S Kearney" "Clarendon" "TX" "79226" -100.8891957 34.9364842
+"Red River County Public Library" "307 N Walnut St" "Clarksville" "TX" "75426" -95.0510216 33.6137008
+"Claude Public Library" "100 Trice St" "Claude" "TX" "79019" -101.3597096 35.1091949
+"Cleburne Public Library" "302 W Henderson St" "Cleburne" "TX" "76033" -97.3886035 32.3474364
+"Austin Memorial Library" "220 S Bonham Ave" "Cleveland" "TX" "77327" -95.0875582 30.3400353
+"Tarkington Community Library Inc" "3032 Fm 163 Rd" "Cleveland" "TX" "77327" -94.966036 30.310543
+"Nellie Pederson Civic Library" "406 Liveoak St" "Clifton" "TX" "76634" -97.5765086 31.7850645
+"Clint Isd Public Library" "12625 Alameda Ave" "Clint" "TX" "79836" -106.237346 31.5941523
+"Clyde Public Library" "125 Oak St" "Clyde" "TX" "79510" -99.493776 32.406871
+"Coldspring Area Public Library" "14221 Hwy 150 W" "Coldspring" "TX" "77331" -95.1368754 30.5827773
+"Coleman Public Library" "402 S Commercial Ave" "Coleman" "TX" "76834" -99.423045 31.8280375
+"Colleyville Public Library" "110 Main St" "Colleyville" "TX" "76034" -97.1570404 32.8850726
+"Mitchell County Public Library" "340 Oak St" "Colorado City" "TX" "79512" -100.8682919 32.3893162
+"Nesbitt Memorial Library" "529 Washington St" "Columbus" "TX" "78934" -96.5413989 29.7040337
+"Comanche Public Library" "311 N Austin St" "Comanche" "TX" "76442" -98.6038912 31.8996357
+"Comfort Public Library" "701 High St" "Comfort" "TX" "78013" -98.9079089 29.9670776
+"Commerce Public Library" "1210 Park St" "Commerce" "TX" "75428" -95.8981621 33.2505336
+"Montgomery County Memorial Library System" "104 I 45 N" "Conroe" "TX" "77301" -95.4676183 30.3101743
+"Converse Public Library" "601 S Seguin Rd" "Converse" "TX" "78109" -98.3113976 29.5134349
+"Delta County Public Library" "300 W Dallas Ave" "Cooper" "TX" "75432" -95.6904794 33.3738081
+"William T Cozby Public Library" "177 N Heartz Rd" "Coppell" "TX" "75019" -96.9896096 32.9735474
+"Copperas Cove Public Library" "501 S Main St" "Copperas Cove" "TX" "76522" -97.9026735 31.1203792
+"Anita And W.T. Neyland Public Library" "1230 Carmel Pkwy." "Corpus Christi" "TX" "78411" -97.3845911 27.7287046
+"Corpus Christi Public Libraries" "805 Comanche St" "Corpus Christi" "TX" "78401" -97.3990879 27.7927313
+"Dr. Clotilde P. Garcia Public Library" "5930 Brockhampton" "Corpus Christi" "TX" "78414" -97.3808616 27.669204
+"La Retama Central Library" "805 Comanche St." "Corpus Christi" "TX" "78401" -97.3990879 27.7927313
+"La Retama Central Library - Greenwood Branch Library" "4044 Greenwood" "Corpus Christi" "TX" "78416" -97.4311446 27.7586562
+"La Retama Central Library - Janet F. Harte Branch" "2629 Waldron Rd." "Corpus Christi" "TX" "78418" -97.296803 27.6439852
+"La Retama Central Library - Northwest Branch Library" "3202 Mckinzie Rd." "Corpus Christi" "TX" "78410" -97.572647 27.8417604
+"South Texas Library System" "805 Comanche" "Corpus Christi" "TX" "78401" -97.3990879 27.7927313
+"Mickey Reily Public Library" "604 S Mathews St" "Corrigan" "TX" "75939" -94.8246683 30.9898757
+"Corsicana Public Library" "100 N 12th St" "Corsicana" "TX" "75110" -96.4665975 32.09257
+"Alexander Memorial Library" "201 Center St" "Cotulla" "TX" "78014" -99.2349507 28.4353163
+"Crandall-Combine Community Library" "13385 Fm 3039" "Crandall" "TX" "75114" -96.4615284 32.6149398
+"Crane County Library" "701 S Alford St" "Crane" "TX" "79731" -102.3511815 31.3963814
+"Jh Wootters Crockett Public Library" "709 E Houston Ave" "Crockett" "TX" "75835" -95.4539056 31.3184605
+"Crosby County Library" "114 W Aspen St" "Crosbyton" "TX" "79322" -101.2382534 33.6588803
+"Cross Plains Public Library" "149 N Main St" "Cross Plains" "TX" "76443" -99.1657409 32.1259568
+"Foard County Library" "110 E California" "Crowell" "TX" "79227" -99.7202123 33.9829702
+"Crowley Public Library" "409 S Oak St" "Crowley" "TX" "76036" -97.366281 32.5746613
+"Crystal City Memorial Library" "101 E Dimmit St" "Crystal City" "TX" "78839" -99.8283746 28.6786245
+"Cuero Public Library" "207 E Main St" "Cuero" "TX" "77954" -97.5009197 28.981432
+"Daingerfield Public Library" "207 Jefferson St" "Daingerfield" "TX" "75638" -94.7196132 33.0320013
+"Dallam-Hartley County Library" "420 Denrock Ave" "Dalhart" "TX" "79022" -102.5232148 36.061758
+"Cockrell Hill Public Library" "4125 W Clarendon Dr" "Dallas" "TX" "75211" -96.8882524 32.7354326
+"Dallas Public Library" "1515 Young St" "Dallas" "TX" "75201" -96.7968466 32.7781689
+"University Park Public Library" "6517 Hillcrest Ave Ste 110" "Dallas" "TX" "75205" -96.7874767 32.8463682
+"Jones Public Library" "307 W Houston St" "Dayton" "TX" "77535" -94.8893009 30.0428513
+"Deleon City County Library" "125 E Reynosa Ave" "De Leon" "TX" "76444" -98.5363069 32.108966
+"Desoto Public Library" "211 E Pleasant Run Rd Ste C" "De Soto" "TX" "75115" -96.8548077 32.6056939
+"Decatur Public Library" "1700 S Fm 51" "Decatur" "TX" "76234" -97.5960722 33.2212287
+"Deer Park Public Library" "3009 Center St" "Deer Park" "TX" "77536" -95.122663 29.6838449
+"Val Verde County Library" "300 Spring St" "Del Rio" "TX" "78840" -100.8956445 29.3615654
+"East Travis Gateway Library District" "13512 Fm 812" "Del Valle" "TX" "78617" -97.638337 30.124251
+"Grace Grebing Public-School Library" "110 N Main" "Dell City" "TX" "79837" -105.201229 31.938282
+"Denison Public Library" "300 W Gandy St" "Denison" "TX" "75020" -96.538799 33.757153
+"Denton Public Library" "502 Oakland St" "Denton" "TX" "76201" -97.1299265 33.2184206
+"Yoakum County-Cecil Bickley Library" "205 W 4th St" "Denver City" "TX" "79323" -102.8306111 32.96788
+"Driscoll Public Library" "202 E Hondo Ave" "Devine" "TX" "78016" -98.9052641 29.1390196
+"Tll Temple Memorial Library Archives" "300 Park St" "Diboll" "TX" "75941" -94.7820739 31.1880277
+"Dickinson Public Library" "4411 Hwy 3" "Dickinson" "TX" "77539" -95.0494801 29.4597382
+"Dilley Public Library" "231 W Fm 117" "Dilley" "TX" "78017" -99.1599087 28.6645372
+"Black Bridge Library" "1079 Sf Austin Blvd" "Dime Box" "TX" "77853" -96.826939 30.357065
+"Rhoads Memorial Library" "103 Sw 2nd St" "Dimmitt" "TX" "79027" -102.313779 34.5509585
+"Donna Public Library" "301 S Main St" "Donna" "TX" "78537" -98.0551081 26.1677201
+"Dripping Springs Community Library" "501 Sportsplex Dr" "Dripping Springs" "TX" "78620" -98.0987847 30.1961882
+"Dublin Public Library" "206 W Blackjack St" "Dublin" "TX" "76446" -98.3439562 32.0855722
+"Killgore Memorial Library" "124 S Bliss Ave" "Dumas" "TX" "79029" -101.9718222 35.8650879
+"Duncanville Public Library" "201 James Collins Blvd" "Duncanville" "TX" "75116" -96.9072033 32.6492948
+"Eula David Wintermann Library" "101 N Walnut Ave" "Eagle Lake" "TX" "77434" -96.33548 29.590094
+"Eagle Pass Public Library" "589 E Main St" "Eagle Pass" "TX" "78852" -100.5010134 28.7085032
+"Centennial Memorial Library" "210 S Lamar St" "Eastland" "TX" "76448" -98.8188834 32.4004946
+"Eden Public Library" "117 Market St" "Eden" "TX" "76837" -99.8455777 31.2153399
+"Dustin Michael Sekula Memorial Library" "1906 S Closner Blvd" "Edinburg" "TX" "78539" -98.1648731 26.2838409
+"Hidalgo County Library System" "401 E. Cano" "Edinburg" "TX" "78539" -98.1592377 26.2998592
+"Jackson County Memorial Library" "411 N Wells St Ste 121" "Edna" "TX" "77957" -96.648513 28.9806584
+"El Paso Public Library" "501 N Oregon St" "El Paso" "TX" "79901" -106.4906893 31.7605019
+"El Paso Public Library - Armijo Branch Library" "620 E. 7th Ave" "El Paso" "TX" "" -106.4804692 31.7518768
+"El Paso Public Library - Clardy Fox" "5515 Robert Alva" "El Paso" "TX" "" -106.4242933 31.7641528
+"El Paso Public Library - Dorris Van Doren" "551 Redd Road" "El Paso" "TX" "" -106.5644329 31.8613746
+"El Paso Public Library - Esperanza Acosta Moreno" "12480 Pebble Hills" "El Paso" "TX" "" -106.2538487 31.7829863
+"El Paso Public Library - Irving Schwartz" "1865 Dean Martin" "El Paso" "TX" "" -106.299016 31.7651232
+"El Paso Public Library - Jenna Welch Laura Bush Community Library" "6701 S. Desert Blvd" "El Paso" "TX" "" -106.5881334 31.9025275
+"El Paso Public Library - Jos Cisneros Cielo Vista" "1300 Hawkins" "El Paso" "TX" "" -106.3720633 31.7782925
+"El Paso Public Library - Judge Marquez" "610 N. Yarbrough" "El Paso" "TX" "" -106.3457191 31.742329
+"El Paso Public Library - Memorial Park" "3200 Copper" "El Paso" "TX" "" -106.4553256 31.7901123
+"El Paso Public Library - Richard Burges" "9600 Dyer" "El Paso" "TX" "" -106.4154271 31.8870151
+"El Paso Public Library - Westside" "125 Belvidere" "El Paso" "TX" "" -106.5578151 31.837904
+"El Paso Public Library - Ysleta" "9321 Alameda" "El Paso" "TX" "" -106.3184942 31.6876496
+"Robert J. Galvan Law Library" "500 E. San Antonio Suite 1202" "El Paso" "TX" "79901" -106.4840749 31.7581227
+"Texas Trans-Pecos Library System" "501 North Oregon" "El Paso" "TX" "79901" -106.4906893 31.7605019
+"Schleicher County Public Library" "201 Sw Main St" "Eldorado" "TX" "76936" -100.6016646 30.8584126
+"Electra Public Library" "401 N Waggoner St" "Electra" "TX" "76360" -98.9177492 34.0329014
+"Elgin Public Library" "404 N Main St" "Elgin" "TX" "78621" -97.3720138 30.3507394
+"Elsa Public Library" "711 N Hidalgo St" "Elsa" "TX" "78543" -98.001741 26.2994558
+"Rains County Public Library" "150 Doris Briggs Pkwy" "Emory" "TX" "75440" -95.7767123 32.8807645
+"Ennis Public Library" "501 W Ennis Ave" "Ennis" "TX" "75119" -96.6311538 32.325361
+"Euless Public Library" "201 N Ector Dr" "Euless" "TX" "76039" -97.0931614 32.8391145
+"Everman Public Library" "100 N Race St" "Everman" "TX" "76140" -97.2868386 32.6313681
+"Fabens Isd Community Library" "400 Ne Camp St" "Fabens" "TX" "79838" -106.154282 31.5022415
+"Fairfield Library" "350 W Main St" "Fairfield" "TX" "75840" -96.1654595 31.7263452
+"Ed Rachal Memorial Library" "203 S Calixto Mora Ave" "Falfurrias" "TX" "78355" -98.1429088 27.225588
+"Falls City Public Library" "206 N Irvin St" "Falls City" "TX" "78113" -98.019306 28.9812529
+"Farmers Branch Manske Public Library" "13613 Webb Chapel Rd" "Farmers Branch" "TX" "75234" -96.8736903 32.9333685
+"Charles J Rike Memorial Library" "203 Orange Ave" "Farmersville" "TX" "75442" -96.3585887 33.1612012
+"Ferris Public Library" "514 S Mable St" "Ferris" "TX" "75125" -96.6610825 32.5310313
+"Sam Fore Jr Wilson County Public Library" "1 Library Ln" "Floresville" "TX" "78114" -98.1566047 29.133426
+"Flower Mound Public Library" "3030 Broadmoor Ln" "Flower Mound" "TX" "75022" -97.0775118 33.0337284
+"Floyd County Library" "111 S Wall St" "Floydada" "TX" "79235" -101.3333945 33.9854259
+"Forest Hill Public Library" "6962 Forest Hill Dr" "Forest Hill" "TX" "76140" -97.2706507 32.6532594
+"Ellen Brooks West Memorial Library Of Forney" "800 Fm 741" "Forney" "TX" "75126" -96.4566676 32.7243208
+"Jeff Davis County Library" "100 Memorial Sq" "Fort Davis" "TX" "79734" -95.7213345 29.7984092
+"Fort Hancock Isd-Public Library" "101 School Dr" "Fort Hancock" "TX" "79839" -105.8517582 31.2911283
+"Fort Stockton Public Library" "500 N Water St" "Fort Stockton" "TX" "79735" -102.878048 30.8891148
+"Fort Worth Library" "500 W 3rd St" "Fort Worth" "TX" "76102" -97.3348947 32.7539831
+"North Texas Library Partners" "6320 Southwest Blvd. Suite 101" "Fort Worth" "TX" "76109" -97.4176889 32.6922351
+"Frankston Depot Library" "159 W Railroad Ave" "Frankston" "TX" "75763" -95.5038626 32.0491786
+"Pioneer Memorial Library" "115 W Main St" "Fredericksburg" "TX" "78624" -98.8732864 30.2757836
+"Duval County Public Library - Freer Branch" "608 Carolyn" "Freer" "TX" "78357" -98.6144256 27.8837685
+"Friendswood Public Library" "416 S Friendswood Dr" "Friendswood" "TX" "77546" -95.2006341 29.5284929
+"Friona Public Library" "109 W 7th St" "Friona" "TX" "79035" -102.7197821 34.6374876
+"Frisco Public Library" "6101 Frisco Square Blvd Ste 3000" "Frisco" "TX" "75034" -96.8345485 33.15004
+"Cooke County Library" "200 S Weaver St" "Gainesville" "TX" "76240" -97.147601 33.6232228
+"Rosenberg Library" "2310 Sealy Ave" "Galveston" "TX" "77550" -94.7924372 29.3010499
+"Nicholson Memorial Library System" "625 Austin St" "Garland" "TX" "75040" -96.6383666 32.9148597
+"Northeast Texas Library System" "4845 Broadway Blvd." "Garland" "TX" "75043" -96.6025127 32.8552507
+"Gatesville Public Library" "111 N 8th St" "Gatesville" "TX" "76528" -97.7491947 31.4356073
+"Live Oak County Library" "402 Houston St" "George West" "TX" "78022" -98.1149584 28.3343102
+"Georgetown Public Library" "402 W 8th St" "Georgetown" "TX" "78626" -97.6799401 30.6362124
+"Giddings Public Library" "276 N Orange St" "Giddings" "TX" "78942" -96.929327 30.182851
+"Upshur County Library" "702 W Tyler St" "Gilmer" "TX" "75644" -94.9512195 32.7287495
+"Lee Public Library" "312 W Pacific Ave" "Gladewater" "TX" "75647" -94.946247 32.536398
+"Somervell County Library" "108 Allen Dr" "Glen Rose" "TX" "76043" -97.761433 32.228362
+"Jennie Trent Dew Library" "1101 Hutchings St" "Goldthwaite" "TX" "76844" -98.5723372 31.449535
+"Goliad County Library" "320 S Commercial St" "Goliad" "TX" "77963" -97.3926598 28.6656815
+"Gonzales Public Library" "415 St. Matthew" "Gonzales" "TX" "78629" -97.4514886 29.4999272
+"Charlie Garrett Memorial Library" "103 S Fisher" "Gorman" "TX" "76454" -98.6740782 32.2117148
+"Library Of Graham" "910 Cherry St" "Graham" "TX" "76450" -98.5885724 33.0987589
+"Hood County Public Library" "222 N Travis St" "Granbury" "TX" "76048" -97.7891819 32.4444582
+"Grand Prairie Public Library System" "901 Conover Dr" "Grand Prairie" "TX" "75051" -97.0174017 32.7375285
+"Grand Saline Public Library" "201 E Pacific St" "Grand Saline" "TX" "75140" -95.7086881 32.6725678
+"Grandview Public Library" "112 S 3rd St" "Grandview" "TX" "76050" -97.179878 32.269258
+"Grapeland Public Library" "212 N Oak St" "Grapeland" "TX" "75844" -95.479778 31.489162
+"Grapevine Public Library" "1201 Municipal Way" "Grapevine" "TX" "76051" -97.0766965 32.9296984
+"W Walworth Harrison Public Library" "1 Lou Finney Blvd" "Greenville" "TX" "75401" -96.1075212 33.1223199
+"Maffett Memorial Library" "601 W Yeagua St" "Groesbeck" "TX" "76642" -96.5249308 31.5158203
+"Groves Public Library" "5600 W Washington St" "Groves" "TX" "77619" -93.9244519 29.9429732
+"Groveton Public Library" "126 W First St" "Groveton" "TX" "75845" -95.1266741 31.0553424
+"Gruver City Library" "504 King St" "Gruver" "TX" "79040" -101.4055539 36.2634865
+"Guthrie CSD King County Consolidated Library" "301 Jaguar Ln" "Guthrie" "TX" "79236" -100.3243304 33.6234376
+"Hale Center Public Library Inc" "609 Main St" "Hale Center" "TX" "79041" -101.845705 34.063676
+"Friench Simpson Memorial Library" "705 E 4th St" "Hallettsville" "TX" "77964" -96.9378222 29.4446597
+"Haltom City Public Library" "4809 Haltom Rd" "Haltom City" "TX" "76117" -97.2729061 32.8334874
+"Hamilton Public Library" "201 N Pecan St" "Hamilton" "TX" "76531" -98.1207565 31.7039042
+"Harker Heights Public Library" "400 Indian Trl" "Harker Heights" "TX" "76548" -97.6559895 31.0814926
+"Harlingen Public Library" "410 76 Dr" "Harlingen" "TX" "78550" -97.689072 26.1969672
+"Haskell County Library" "300 N Ave E" "Haskell" "TX" "79521" -99.7338955 33.1597721
+"Haslet Public Library" "100 Gammill St" "Haslet" "TX" "76052" -97.3488406 32.9741041
+"Allen Memorial Public Library" "121 E Blackbourn St" "Hawkins" "TX" "75765" -95.2047801 32.5882842
+"Smith-Welch Memorial Library" "105 W 5th St" "Hearne" "TX" "77859" -96.5963032 30.8820874
+"Jim Hogg County Public Library" "210 N Smith Ave" "Hebbronville" "TX" "78361" -98.6783163 27.3078199
+"Jr Huffman Public Library" "box 2140" "Hemphill" "TX" "75948" -93.846852 31.3407403
+"Waller County Library" "2331 11th St" "Hempstead" "TX" "77445" -96.0803905 30.0833214
+"Rusk County Library System" "106 E Main St" "Henderson" "TX" "75652" -94.7994483 32.153238
+"Edwards Public Library" "210 W Gilbert St" "Henrietta" "TX" "76365" -98.1964911 33.8156133
+"Deaf Smith County Library" "211 E 4th St" "Hereford" "TX" "79045" -102.3988118 34.8182672
+"Hewitt Public Library" "100 Zuni Dr" "Hewitt" "TX" "76643" -97.1993088 31.4660966
+"Hidalgo Public Library" "710 E Texano Dr" "Hidalgo" "TX" "78557" -98.2539931 26.1035467
+"Higgins Public Library" "201 N Main" "Higgins" "TX" "79046" -100.0260097 36.1216652
+"Highland Park Library" "4700 Drexel Dr" "Highland Park" "TX" "75205" -96.7964732 32.8284814
+"Hillsboro City Library" "118 S Waco St" "Hillsboro" "TX" "76645" -97.13042 32.0098089
+"Genevieve Miller Hitchcock Public Library" "8005 Barry Ave" "Hitchcock" "TX" "77563" -95.0202 29.347453
+"Bj Hill Library" "402 W Travis St" "Holland" "TX" "76534" -97.4069742 30.8799218
+"Hondo Public Library" "1011 19th St" "Hondo" "TX" "78861" -99.1058772 29.3491959
+"Bertha Voyer Memorial Library" "500 6th St" "Honey Grove" "TX" "75446" -95.9091701 33.5831149
+"Hooks Public Library" "108 W 1st St" "Hooks" "TX" "75561" -94.2900612 33.4669786
+"Harris County Public Library" "8080 El Rio St" "Houston" "TX" "77054" -95.387936 29.688556
+"Houston Area Library System" "500 Mckinney Street Suite 400" "Houston" "TX" "77002" -95.369953 29.759431
+"Houston Public Library" "500 Mckinney St" "Houston" "TX" "77002" -95.369953 29.759431
+"Howe Community Library" "315 S Collins Fwy" "Howe" "TX" "75459" -96.6185618 33.5021662
+"Mcmullen Memorial Library" "900 N Main St" "Huntington" "TX" "75949" -94.5731416 31.2843153
+"Huntsville Public Library" "1216 14th St" "Huntsville" "TX" "77340" -95.5520143 30.7203724
+"Hurst Public Library" "901 Precinct Line Rd" "Hurst" "TX" "76053" -97.187113 32.8262048
+"Hutchins-Atwell Public Library" "300 N Denton St" "Hutchins" "TX" "75141" -96.7163947 32.6480251
+"Hutto Public Library" "205 West St" "Hutto" "TX" "78634" -97.5499252 30.5442053
+"Idalou Community Library" "210 Main St" "Idalou" "TX" "79329" -101.680485 33.6648689
+"Imperial Public Library" "223 W Farm To Market Rd 11" "Imperial" "TX" "79743" -95.4317785 30.0204094
+"Ingleside Public Library" "2775 Waco St" "Ingleside" "TX" "78362" -97.2160531 27.8781392
+"Tom Burnett Memorial Library" "400 W Alameda St" "Iowa Park" "TX" "76367" -98.6717351 33.9553885
+"Iraan Public Library" "120 W 5th St" "Iraan" "TX" "79744" -101.8982929 30.9130331
+"Irving Public Library" "801 W Irving Blvd" "Irving" "TX" "75060" -96.9539556 32.814243
+"Gladys Johnson Ritchie Public Library" "626 W College St" "Jacksboro" "TX" "76458" -98.1677573 33.2202632
+"Jacksonville Public Library" "502 S Jackson St" "Jacksonville" "TX" "75766" -95.269153 31.961696
+"Jasper Public Library" "175 E Water St" "Jasper" "TX" "75951" -93.9996958 30.9196985
+"Kent County Library" "156 W 4th St" "Jayton" "TX" "79528" -100.574914 33.2480314
+"Jefferson Carnegie Library" "301 W Lafayette St" "Jefferson" "TX" "75657" -94.3472432 32.7559386
+"Johnson City Library" "501 Nugent St" "Johnson City" "TX" "78636" -98.4116275 30.2817538
+"Jonestown Community Library" "18649 Fm 1431 Ste 10a" "Jonestown" "TX" "78645" -97.9233387 30.4928684
+"Joshua School Public Library" "907 S Broadway St" "Joshua" "TX" "76058" -97.3838646 32.4507524
+"Jourdanton Community Library" "1101 Campbell Ave" "Jourdanton" "TX" "78026" -98.5440416 28.9171788
+"Kimble County Library" "208 N 10th St" "Junction" "TX" "76849" -99.7708619 30.4893898
+"Justin Community Library" "408 Pafford St" "Justin" "TX" "76247" -97.3041371 33.0884259
+"Karnes City Public Library" "302 S Panna Maria Ave" "Karnes City" "TX" "78118" -97.9011669 28.8829338
+"Kaufman County Library" "3790 S Houston St" "Kaufman" "TX" "75142" -96.316999 32.5649137
+"Keller Public Library" "640 Johnson Rd" "Keller" "TX" "76248" -97.2388963 32.9409431
+"Kendalia Public Library" "2610b Hwy 473" "Kendalia" "TX" "78027" -98.5225082 29.9689286
+"Kenedy Public Library" "303 W Main St" "Kenedy" "TX" "78119" -97.8502025 28.8186368
+"Kennedale Public Library" "316 W 3rd St" "Kennedale" "TX" "76060" -97.2257896 32.6474763
+"Kerens Library" "121 S Colket St" "Kerens" "TX" "75144" -96.2275912 32.1311378
+"Winkler County Library" "307 S Poplar St" "Kermit" "TX" "79745" -103.0925128 31.8557325
+"Butt-Holdsworth Memorial Library" "505 Water St" "Kerrville" "TX" "78028" -99.1434747 30.0480683
+"Kilgore Public Library" "301 N Henderson Blvd" "Kilgore" "TX" "75662" -94.8694828 32.3833908
+"Killeen City Library System" "205 E Church Ave" "Killeen" "TX" "76541" -97.7269128 31.1242497
+"Robert J Kleberg Public Library" "220 N 4th St" "Kingsville" "TX" "78363" -97.8702919 27.5183762
+"Kirbyville Public Library" "210 S Elizabeth Ave" "Kirbyville" "TX" "75956" -93.8925272 30.6589299
+"Kountze Public Library" "800 Redwood St" "Kountze" "TX" "77625" -94.3150172 30.3682816
+"Krum Public Library" "803 E Mccart St" "Krum" "TX" "76249" -97.2308419 33.2594426
+"Kyle Community Library" "409 W Blanco St" "Kyle" "TX" "78640" -97.8786221 29.9906049
+"Bailey H Dunlap Memorial Library" "400 S Main St" "La Feria" "TX" "78559" -97.8240104 26.1548519
+"Fayette Public Library" "855 S Jefferson St" "La Grange" "TX" "78945" -96.871793 29.899443
+"La Joya Municipal Library" "925 S Leo Ave" "La Joya" "TX" "78560" -98.4812656 26.2378856
+"La Marque Public Library" "1011 Bayou Rd" "La Marque" "TX" "77568" -94.9717591 29.3707331
+"Lago Vista Public Library" "5803 Thunderbird Ste 40" "Lago Vista" "TX" "78645" -97.987362 30.4530039
+"Laguna Vista Public Library" "1300 Palm Blvd" "Laguna Vista" "TX" "78578" -97.2978958 26.1066414
+"Lake Cities Library" "302 S Shady Shores Dr" "Lake Dallas" "TX" "75065" -97.0300292 33.1264021
+"Mary Lou Reddick Public Library" "3801 Adam Grubb" "Lake Worth" "TX" "76135" -97.4364249 32.8115886
+"Lakehills Area Library" "7200 Fm 1283" "Lakehills" "TX" "78063" -98.9301812 29.60629
+"Lake Travis Community Library" "2300 Lohmans Spur Ste 100" "Lakeway" "TX" "78734" -97.9711762 30.3381703
+"Dawson County Public Library" "511 N 3rd St" "Lamesa" "TX" "79331" -101.9537542 32.7349907
+"Lampasas Public Library" "201 S Main St" "Lampasas" "TX" "76550" -98.1807159 31.0668934
+"Lancaster Veterans Memorial Library" "1600 Veterans Memorial Pkwy" "Lancaster" "TX" "75134" -96.7574117 32.6090015
+"Laredo Public Library" "1120 E Calton Rd" "Laredo" "TX" "78041" -99.4826071 27.5416154
+"Laredo Public Library - Bruni Plaza Branch" "1120 San Bernardo" "Laredo" "TX" "78040" -99.5051452 27.5092657
+"Laredo Public Library - Santo Nino Branch" "2200 Zacateras" "Laredo" "TX" "78043" -99.4735905 27.474949
+"Helen Hall Library" "100 W Walker St" "League City" "TX" "77573" -95.0930454 29.5043781
+"Real County Public Library" "225 Main St" "Leakey" "TX" "78873" -99.7617547 29.7265632
+"Leander Public Library" "1011 S Bagdad Rd" "Leander" "TX" "78641" -97.8624245 30.5599877
+"Leon Valley Public Library" "6425 Evers Rd" "Leon Valley" "TX" "78238" -98.6132387 29.501181
+"Leonard Public Library" "102 S Main St" "Leonard" "TX" "75452" -96.2475079 33.379951
+"Hockley County Memorial Library" "811 Austin St" "Levelland" "TX" "79336" -102.3767539 33.5862849
+"Lewisville Public Library" "1197 W Main St" "Lewisville" "TX" "75067" -97.0233096 33.0429208
+"Liberty Municipal Library" "1710 Sam Houston St" "Liberty" "TX" "77575" -94.7993711 30.0586902
+"Liberty Hill Public Library" "355 Loop 332" "Liberty Hill" "TX" "78642" -97.9110206 30.6654847
+"Lindale Library" "200 E Hubbard St" "Lindale" "TX" "75771" -95.4083519 32.5161832
+"Little Elm Public Library" "100 W Eldorado Pkwy" "Little Elm" "TX" "75068" -96.9399545 33.1578685
+"Lamb County Library" "110 E 6th St" "Littlefield" "TX" "79339" -102.3300446 33.9203183
+"Murphy Memorial Library" "601 W Church St" "Livingston" "TX" "77351" -94.9379581 30.7106265
+"Llano County Library System" "102 E Haynie St" "Llano" "TX" "78643" -98.6756328 30.7510296
+"Dr Eugene Clark Library" "217 S Main St" "Lockhart" "TX" "78644" -97.6724251 29.8831567
+"Lone Oak Area Public Library" "102 Jones St" "Lone Oak" "TX" "75453" -95.9422912 32.9994635
+"Longview Public Library" "222 W Cotton St" "Longview" "TX" "75601" -94.7435228 32.4945233
+"Cameron County Library System" "402 W. Ocean Blvd." "Los Fresnos" "TX" "78566" -97.4811483 26.0720355
+"Ethel L Whipple Memorial Library" "402 W Ocean Blvd" "Los Fresnos" "TX" "78566" -97.4811483 26.0720355
+"Lubbock Public Library" "1306 9th St" "Lubbock" "TX" "79401" -101.8490726 33.5880382
+"West Texas Library System" "1306 Ninth Street" "Lubbock" "TX" "79401" -101.8490726 33.5880382
+"Kurth Memorial Library" "706 S Raguet St" "Lufkin" "TX" "75904" -94.731643 31.3306978
+"Jb Nickells Memorial Library" "215 S Pecan Ave" "Luling" "TX" "78648" -97.6504797 29.6793617
+"Lumberton Public Library" "130 E Chance Rd" "Lumberton" "TX" "77657" -94.1980248 30.2658401
+"Lytle Public Library" "19325 W Fm 2790 S" "Lytle" "TX" "78052" -98.8049024 29.2409143
+"Tri-County Library" "132 E Market St" "Mabank" "TX" "75147" -96.09977 32.365834
+"Madison County Library" "605 S May St" "Madisonville" "TX" "77864" -95.9089861 30.9465741
+"Red Waller Community Library" "109 Melton St" "Malakoff" "TX" "75148" -96.0141528 32.1705732
+"Mansfield Public Library" "104 S Wisteria St" "Mansfield" "TX" "76063" -97.1239729 32.5647561
+"Marfa Public Library" "115 E Oak St" "Marfa" "TX" "79843" -104.0211997 30.3112956
+"Marion Community Library" "500 Bulldog Dr" "Marion" "TX" "78124" -98.1408015 29.5683034
+"Pauline And Jane Chilton Memorial Marlin Public Library" "400 Oaks St" "Marlin" "TX" "76661" -96.8944849 31.3096265
+"Marshall Public Library" "300 S Alamo Blvd" "Marshall" "TX" "75670" -94.362823 32.5429621
+"Nancy Nail Memorial Library" "124 S Pearl St" "Mart" "TX" "76664" -96.833006 31.541183
+"Mason County M Beven Eckert Memorial Library" "410 Post Hill Rd" "Mason" "TX" "76856" -99.2325255 30.7458457
+"Motley County Library" "1105 Main St" "Matador" "TX" "79244" -100.8221862 34.013034
+"Mathis Public Library" "103 Lamar St" "Mathis" "TX" "78368" -97.8165249 28.0856333
+"Maud Public Library" "132 Main St" "Maud" "TX" "75567" -94.3420675 33.3327074
+"Mcallen Memorial Library" "601 N Main St" "Mcallen" "TX" "78501" -98.2337442 26.2097252
+"Mcallen Memorial Library - Lark Branch Library And Community Center" "2601 Lark Ave." "Mcallen" "TX" "78504" -98.2418672 26.2616747
+"Mcallen Memorial Library - Palm View Branch Library And Community Center" "P.O. Box 220" "Mcallen" "TX" "78505" -98.2300124 26.2034071
+"Upton County Public Library" "212 W 7th St" "Mccamey" "TX" "79752" -102.2243384 31.1312086
+"Mcginley Memorial Public Library" "317 S Main St" "Mcgregor" "TX" "76657" -97.4059699 31.4390519
+"Roy And Helen Hall Memorial Library" "101 E Hunt St" "Mckinney" "TX" "75069" -96.6153558 33.1997252
+"Lovett Memorial Library Mclean" "302 N Main" "Mclean" "TX" "79057" -100.5996879 35.233257
+"Medina Community Library" "13948 State Hwy 16 N" "Medina" "TX" "78055" -99.2792752 29.849583
+"Melissa Public Library" "1713 Cooper St" "Melissa" "TX" "75454" -96.572042 33.286032
+"Memphis Public Library" "303 S 8th St" "Memphis" "TX" "79245" -100.5396627 34.7278838
+"Menard Public Library" "105 E Mission St" "Menard" "TX" "76859" -99.7838714 30.9146649
+"Mercedes Memorial Library" "434 S Ohio St" "Mercedes" "TX" "78570" -97.9118358 26.1472276
+"Meridian Public Library" "118 N Main St" "Meridian" "TX" "76665" -97.6575495 31.9235475
+"Merkel Public Library" "100 Kent" "Merkel" "TX" "79536" -100.0124548 32.4709261
+"Irion County Library" "111 W Fayette Ave" "Mertzon" "TX" "76941" -100.8230245 31.2594605
+"Mesquite Public Library" "300 W Grubb Dr" "Mesquite" "TX" "75149" -96.6016042 32.7750271
+"Gibbs Memorial Library" "305 E Rusk St" "Mexia" "TX" "76667" -96.482556 31.685386
+"Midland County Public Library" "301 W Missouri Ave" "Midland" "TX" "79701" -102.0771363 31.9959874
+"Ah Meadows Library" "923 S 9th St" "Midlothian" "TX" "76065" -96.9955645 32.4717449
+"Mineola Memorial Library" "301 N Pacific St" "Mineola" "TX" "75773" -95.4875172 32.6652587
+"Boyce Ditto Public Library" "2300 Se Martin Luther King Jr St" "Mineral Wells" "TX" "76067" -98.0907167 32.8033327
+"Speer Memorial Library" "801 E 12th St" "Mission" "TX" "78572" -98.3163088 26.2174013
+"Ward County Library" "409 S Dwight St" "Monahans" "TX" "79756" -102.8878356 31.5930195
+"Moody Community Library" "108 5th St" "Moody" "TX" "76557" -97.361512 31.309728
+"Cochran County Love Memorial Library" "318 S Main St" "Morton" "TX" "79346" -102.7592544 33.7230825
+"Mount Calm Public Library" "222 Allyn Ave" "Mount Calm" "TX" "76673" -96.8803323 31.7573461
+"Mount Pleasant Public Library" "213 N Madison Ave" "Mt Pleasant" "TX" "75455" -94.9697804 33.1581074
+"Franklin County Library" "100 E Main St" "Mt Vernon" "TX" "75457" -95.2214646 33.1885572
+"Muenster Public Library" "418 N Elm St" "Muenster" "TX" "76252" -97.3775757 33.6525332
+"Muleshoe Area Public Library" "322 W 2nd St" "Muleshoe" "TX" "79347" -102.7265557 34.2250389
+"Munday City-County Library" "121 E B St" "Munday" "TX" "76371" -99.6239941 33.4523402
+"Nacogdoches Public Library" "1112 North St" "Nacogdoches" "TX" "75961" -94.6521276 31.6127045
+"Naples Public Library" "101 Walnut St" "Naples" "TX" "75568" -94.685028 33.2044482
+"Navasota Public Library" "1411 E Washington Ave" "Navasota" "TX" "77868" -96.0775106 30.3945474
+"Marion Ed Hughes Public Library" "2712 Nederland Ave" "Nederland" "TX" "77627" -94.0012068 29.9643618
+"New Boston Public Library" "127 N Ellis St" "New Boston" "TX" "75570" -94.4158864 33.46047
+"New Braunfels Public Library" "700 E Common St" "New Braunfels" "TX" "78130" -98.1125179 29.7130354
+"New Waverly Public Library" "9372 State Hwy 75 S" "New Waverly" "TX" "77358" -95.485493 30.5332369
+"Newark Public Library" "209 Hudson St" "Newark" "TX" "76071" -97.4808574 33.0018398
+"Newton County Public Library" "212 High St" "Newton" "TX" "75966" -93.7603892 30.8495394
+"Aphne Pattillo Nixon Public Library" "401 N. Nixon Ave." "Nixon" "TX" "78140" -97.7653531 29.2706006
+"The Aphne Pattillo Nixon Public Library" "401 N Nixon Ave" "Nixon" "TX" "78140" -97.7653531 29.2706006
+"Nocona Public Library" "10 Cooke St" "Nocona" "TX" "76255" -97.7251316 33.7873058
+"North Richland Hills Public Library" "9015 Grand Ave" "North Richland Hills" "TX" "76180" -97.192581 32.8549572
+"Odem Public Library" "516 Voss Ave" "Odem" "TX" "78370" -97.582715 27.949696
+"Ector County Library" "321 W 5th St" "Odessa" "TX" "79761" -102.3718908 31.8471695
+"Olney Community Library And Arts Center" "807 W Hamilton St" "Olney" "TX" "76374" -98.7626781 33.3693929
+"Olton Area Library" "701 Main St" "Olton" "TX" "79064" -102.1349392 34.1821709
+"Onalaska Public Library" "372 S Fm 356 Ste 103" "Onalaska" "TX" "77360" -95.1199626 30.8145159
+"Orange Public Library" "220 5th St" "Orange" "TX" "77630" -93.7339943 30.0917765
+"Orange Grove School- Public Library" "P.O. Box 534" "Orange Grove" "TX" "78372" -97.9369447 27.9566843
+"Crockett County Public Library" "1201 Ave G" "Ozona" "TX" "76943" -101.2032028 30.7088234
+"Bicentennial City-County Library" "825 Backus St" "Paducah" "TX" "79248" -100.3015139 34.0144826
+"Palacios Library Inc" "326 Main St" "Palacios" "TX" "77465" -96.214344 28.7014858
+"Palestine Public Library" "1101 N Cedar St" "Palestine" "TX" "75801" -95.6307266 31.7704419
+"Lovett Memorial Library Pampa" "111 N Houston St" "Pampa" "TX" "79065" -100.9580392 35.537509
+"Carson County Public Library" "401 Main St" "Panhandle" "TX" "79068" -101.3804547 35.3451216
+"Paris Public Library" "326 S Main St" "Paris" "TX" "75460" -95.5567699 33.6583037
+"Pasadena Public Library" "1201 Jeff Ginn Memorial Dr" "Pasadena" "TX" "77506" -95.1967027 29.6926464
+"Pearsall Public Library" "200 E Trinity St" "Pearsall" "TX" "78061" -99.0953709 28.8951188
+"Reeves County Library" "505 S Park St" "Pecos" "TX" "79772" -103.5043313 31.4201478
+"Penitas Public Library" "1111 S. Main Street" "Peitas" "TX" "78576" -98.4449725 26.2305234
+"Perry Memorial Library" "22 Se 5th Ave" "Perryton" "TX" "79070" -100.8024325 36.3953595
+"Petersburg Public Library" "1614 Main St" "Petersburg" "TX" "79250" -101.5977621 33.8697965
+"Pflugerville Community Library" "102 S 10th St" "Pflugerville" "TX" "78660" -97.628432 30.442151
+"Pharr Memorial Library" "121 E Cherokee Ave" "Pharr" "TX" "78577" -98.1850299 26.192441
+"Pilot Point Community Library" "324 S Washington St" "Pilot Point" "TX" "76258" -96.961727 33.393751
+"Arthur Temple Sr Memorial Library" "106 Timberland Hwy" "Pineland" "TX" "75968" -93.9783143 31.2506065
+"Pittsburg-Camp County Public Library" "613 Quitman St" "Pittsburg" "TX" "75686" -94.978196 33.0007246
+"Yoakum County Library" "910 Ave E" "Plains" "TX" "79355" -102.8304458 33.1890335
+"Unger Memorial Library" "825 N Austin St" "Plainview" "TX" "79072" -101.704538 34.189405
+"Plano Public Library System" "2501 Coit Rd" "Plano" "TX" "75075" -96.770871 33.0322804
+"Pleasanton Public Library" "321 N Main St" "Pleasanton" "TX" "78064" -98.4841775 28.9615057
+"Calhoun County Public Library - Point Comfort Branch Library" "1 Lamar St." "Point Comfort" "TX" "77987" -96.5547729 28.6767576
+"Betty Foster Public Library" "405 Shaffner St" "Ponder" "TX" "76259" -97.2879976 33.1840391
+"Ellis Memorial Library" "700 West Ave. A" "Port Aransas" "TX" "78373" -97.0686181 27.8362497
+"William R Bill Ellis Memorial Library" "700 W Ave A" "Port Aransas" "TX" "78373" -97.0686181 27.8362497
+"Port Arthur Public Library" "4615 9th Ave" "Port Arthur" "TX" "77642" -93.9478685 29.9262536
+"Port Isabel Public Library" "213 N Yturria St" "Port Isabel" "TX" "78578" -97.212337 26.0764413
+"Calhoun County Public Library" "200 W Mahan St" "Port Lavaca" "TX" "77979" -96.628465 28.615415
+"Effie Wilton Hebert Public Library" "2025 Merriman St" "Port Neches" "TX" "77651" -93.95507 29.9800301
+"Calhoun County Public Library - Port Oconnor Branch Library" "P. O. Box 424" "Port Oconnor" "TX" "77982" -96.4053596 28.4475898
+"Calhoun County Public Library - Seadrift Branch Library" "103 W. Dallas" "Port Oconnor" "TX" "77983" -99.9018131 31.9685988
+"Bell-Whittington Public Library" "2400 Memorial Pkwy" "Portland" "TX" "78374" -97.3148083 27.900576
+"Post Public Library" "105 E Main St" "Post" "TX" "79356" -101.3781789 33.1908418
+"Poteet Public Library" "500 Ave H" "Poteet" "TX" "78065" -98.5739434 29.037331
+"Pottsboro Area Public Library" "104 N Main St" "Pottsboro" "TX" "75076" -96.667759 33.76017
+"Tri-Community Library" "6910 Hwy 80" "Prairie Lea" "TX" "78661" -97.7523822 29.7305639
+"City Of Presidio Library" "1200 E Oreilly St" "Presidio" "TX" "79845" -104.3563845 29.5607627
+"Princeton Community Library" "319 Mckinney Ave" "Princeton" "TX" "75407" -96.4973942 33.1809053
+"Prosper Community Library" "300 Eagle Ln" "Prosper" "TX" "75078" -96.798681 33.2588375
+"Thompson Sawyer Public Library" "403 W 3rd St" "Quanah" "TX" "79252" -99.742894 34.2983314
+"Quemado Public Library" "19791 Us Highway 277" "Quemado" "TX" "78877" -100.62319 28.9457281
+"Caprock Public Library" "104 N 1st St" "Quitaque" "TX" "79255" -101.0578511 34.3681532
+"Quitman Public Library" "202 E Goode St" "Quitman" "TX" "75783" -95.45042 32.795572
+"Ranger City Library" "718 Pine St" "Ranger" "TX" "76470" -98.6892838 32.473147
+"Rankin Public Library" "310 E 10th St" "Rankin" "TX" "79778" -101.9435749 31.2258481
+"Reber Memorial Library" "193 N 4th St" "Raymondville" "TX" "78580" -97.7872326 26.4826308
+"Red Oak Public Library" "200 Lakeview Pkwy" "Red Oak" "TX" "75154" -96.8263508 32.5140678
+"Dennis M Oconnor Public Library" "815 Commerce St" "Refugio" "TX" "78377" -97.2756134 28.2960032
+"Rhome Public Library" "106b N Main St" "Rhome" "TX" "76078" -97.4721056 33.0532545
+"Richardson Public Library" "900 Civic Center Dr" "Richardson" "TX" "75080" -96.7320575 32.9601744
+"Richland Hills Public Library" "6724 Rena Dr" "Richland Hills" "TX" "76118" -97.2374698 32.8069912
+"Fort Bend County Libraries" "1001 Golfview Dr" "Richmond" "TX" "77469" -95.7586479 29.562025
+"Rio Grande City Public Library" "591 E Canales Bros St" "Rio Grande City" "TX" "78582" -98.8203046 26.3797874
+"Rio Grande City Public Library - La Rosita Branch Library" "Box 1" "Rio Grande City" "TX" "78582" -98.8203046 26.3797874
+"Rio Hondo Public Library" "121 W Arroyo Blvd" "Rio Hondo" "TX" "78583" -97.5832989 26.2345913
+"River Oaks Public Library" "4900 River Oaks Blvd" "River Oaks" "TX" "76114" -97.393768 32.77875
+"Roanoke Public Library" "308 S Walnut St" "Roanoke" "TX" "76262" -97.2277269 32.9955809
+"Coke County Library" "706 Austin St" "Robert Lee" "TX" "76945" -100.4857276 31.8933197
+"Keach Family Library" "1000 Terry Shamsie Blvd." "Robstown" "TX" "78380" -97.6688843 27.7903032
+"Nueces County Keach Family Library" "1000 Terry Shamsie Blvd" "Robstown" "TX" "78380" -97.6688843 27.7903032
+"Lucy Hill Patterson Memorial Library" "201 Ackerman St" "Rockdale" "TX" "76567" -97.000373 30.6560837
+"Aransas County Public Library" "701 E Mimosa St" "Rockport" "TX" "78382" -97.0540413 28.0260637
+"Claud H Gilmer Memorial Library" "201 N Hwy 377" "Rocksprings" "TX" "78880" -100.2064768 30.0154764
+"Rockwall County Library" "1215 Yellow Jacket Ln" "Rockwall" "TX" "75087" -96.449103 32.914324
+"Starr County Public Library- Roma Branch" "1705 North Athens" "Roma" "TX" "78584" -99.0142857 26.4186478
+"D Brown Memorial Library" "203 N 2nd St" "Rosebud" "TX" "76570" -96.9766646 31.0754843
+"Rotan Public Library" "404 E Sammy Baugh Ave" "Rotan" "TX" "79546" -100.4622159 32.8527363
+"Round Rock Public Library System" "216 E Main Ave" "Round Rock" "TX" "78664" -97.6771794 30.5094074
+"Round Top Family Library" "206 W Mill St" "Round Top" "TX" "78954" -96.6979529 30.0662643
+"Rowlett Public Library" "3900 Main St" "Rowlett" "TX" "75088" -96.5646261 32.9023763
+"Cf Goodwin Public Library" "309 N Arch St" "Royse City" "TX" "75189" -96.3317193 32.9766499
+"Runge Public Library" "311 N Helena St" "Runge" "TX" "78151" -97.7132492 28.8847825
+"Singletary Memorial Library" "207 E 6th St" "Rusk" "TX" "75785" -95.1494291 31.7959482
+"Sabinal Public Library" "412 N Center St" "Sabinal" "TX" "78881" -99.4670719 29.3213376
+"Sachse Public Library" "3815 Sachse Rd Bldg C" "Sachse" "TX" "75048" -96.5847726 32.9740705
+"John Ed Keeter Public Library" "355 W Mcleroy Blvd" "Saginaw" "TX" "76179" -97.370565 32.8580248
+"Salado Public Library District" "1151 N Main St" "Salado" "TX" "76571" -97.533704 30.9565523
+"Tom Green County Library System" "113 W Beauregard Ave" "San Angelo" "TX" "76903" -100.4395376 31.4614493
+"Alamo Area Library System" "600 Soledad Street" "San Antonio" "TX" "78205" -98.4928305 29.4324141
+"San Antonio Public Library" "600 Soledad St" "San Antonio" "TX" "78205" -98.4928305 29.4324141
+"San Augustine Public Library" "413 E Columbia St" "San Augustine" "TX" "75972" -94.1063156 31.5300242
+"San Benito Public Library" "101 W Rose St" "San Benito" "TX" "78586" -97.627755 26.1364594
+"Duval County-San Diego Public Library" "315 S Dr E E Dunlap St" "San Diego" "TX" "78384" -98.2396917 27.7613186
+"San Juan Public Library" "1010 S Standard Ave" "San Juan" "TX" "78589" -98.1595991 26.1844931
+"San Marcos Public Library" "625 E Hopkins St" "San Marcos" "TX" "78666" -97.9315523 29.8854452
+"Rylander Memorial Library" "103 S Live Oak St" "San Saba" "TX" "76877" -98.7165137 31.195788
+"Terrell County Public Library" "108 Hackberry" "Sanderson" "TX" "79848" -102.3943277 30.1425838
+"Sanger Public Library" "501 Bolivar St" "Sanger" "TX" "76266" -97.1736921 33.3622396
+"Santa Anna Library" "606 Wallis Ave" "Santa Anna" "TX" "76878" -99.3226309 31.7422991
+"Mae S Bruce Library" "13302 W 6th St" "Santa Fe" "TX" "77510" -95.1052256 29.3849725
+"Schertz Public Library" "608 Schertz Pkwy" "Schertz" "TX" "78154" -98.2662952 29.5600124
+"Schulenburg Public Library" "310 Simpson St" "Schulenburg" "TX" "78956" -96.9022118 29.6779691
+"Seagoville Public Library" "702 N Hwy 175" "Seagoville" "TX" "75159" -96.5412994 32.6492852
+"Virgil Josephine Gordon Memorial Library" "917 N Circle Dr" "Sealy" "TX" "77474" -96.158883 29.773994
+"Seguin-Guadalupe County Public Library" "707 E College St" "Seguin" "TX" "78155" -97.957749 29.5741002
+"Gaines County Library" "704 Hobbs Hwy" "Seminole" "TX" "79360" -102.6561707 32.7202908
+"The Library At Cedar Creek Lake" "410 E Cedar Creek Pkwy" "Seven Points" "TX" "75143" -96.2060175 32.3232412
+"Baylor County Free Library" "101 S Washington St" "Seymour" "TX" "76380" -99.2610544 33.5873289
+"Shallowater School County Library" "1202 Ave L" "Shallowater" "TX" "79363" -101.992094 33.690356
+"Shamrock Public Library" "712 N Main St" "Shamrock" "TX" "79079" -100.2491503 35.2208328
+"Shepherd Public Library" "30 N Liberty St" "Shepherd" "TX" "77371" -94.997168 30.498498
+"Sheridan Memorial Library" "5805 S Logan Park Dr" "Sheridan" "TX" "77475" -96.670537 29.4935162
+"Sherman Public Library" "421 N Travis St" "Sherman" "TX" "75090" -96.6099079 33.6401513
+"Hoffie And Lank Wolters Shiner Public Library" "115 E. Wolters-2nd. St." "Shiner" "TX" "77984" -97.1682844 29.4268303
+"Shiner Public Library" "115 E Wolters 2nd St" "Shiner" "TX" "77984" -97.1682844 29.4268303
+"Silsbee Public Library" "295 N 4th St" "Silsbee" "TX" "77656" -94.1764527 30.3495851
+"San Patricio County Library System" "313 N. Rachal Ave., Room 226" "Sinton" "TX" "78387" -97.5104739 28.0390947
+"Sinton Public Library" "100 N Pirate Blvd" "Sinton" "TX" "78387" -97.497686 28.03663
+"Slaton City Library" "200 W Lynn St" "Slaton" "TX" "79364" -101.6444226 33.4390164
+"Stella Hart Memorial Library" "P.O. Box 88" "Smiley" "TX" "78159" -97.6358283 29.2677433
+"Smithville Public Library" "507 Main St" "Smithville" "TX" "78957" -97.1583524 30.0106987
+"Scurry County Library" "1916 23rd St" "Snyder" "TX" "79549" -100.9186482 32.7191703
+"Sutton County Library" "306 E Mulberry St" "Sonora" "TX" "76950" -100.6465342 30.5725814
+"Alma M Carpenter Public Library" "300 S Ann St" "Sour Lake" "TX" "77659" -94.4119526 30.1380427
+"Southlake Public Library" "1400 Main St Ste 130" "Southlake" "TX" "76092" -97.1312501 32.9428933
+"Hansford County Library" "122 Main St" "Spearman" "TX" "79081" -101.194636 36.2001925
+"Springlake-Earth Community Library" "472 Farm To Market Road 302" "Springlake" "TX" "79082" -102.3579109 34.2614143
+"Springtown Public Library" "626 N Main St" "Springtown" "TX" "76082" -97.684934 32.9741335
+"Dickens County Spur Public Library" "415 E Hill St" "Spur" "TX" "79370" -100.8494901 33.478907
+"Stamford Carnegie Library" "600 E Mcharg St" "Stamford" "TX" "79553" -99.7960255 32.9449542
+"Martin County Library" "200 N St Mary" "Stanton" "TX" "79782" -101.788769 32.1309229
+"Stephenville Public Library" "174 N Columbia St" "Stephenville" "TX" "76401" -98.2039341 32.2203682
+"Sterling County Public Library" "301 Main" "Sterling City" "TX" "76951" -100.987287 31.83553
+"Sherman County Public Library" "719 N Main" "Stratford" "TX" "79084" -102.076151 36.3403426
+"Sulphur Springs Public Library" "611 Davis St N" "Sulphur Springs" "TX" "75482" -95.6029143 33.1431724
+"Sunnyvale Public Library" "402 Tower Pl" "Sunnyvale" "TX" "75182" -96.5920559 32.8139361
+"County-City Library" "206 Elm St" "Sweetwater" "TX" "79556" -100.4062795 32.4717062
+"Taft Public Library" "503 Green Ave" "Taft" "TX" "78390" -97.3930094 27.9816034
+"City County Library" "1717 Main St" "Tahoka" "TX" "79373" -101.7964545 33.1669494
+"Taylor Public Library" "801 Vance St" "Taylor" "TX" "76574" -97.4127591 30.5744083
+"Teague Public Library" "400 Main St" "Teague" "TX" "75860" -96.2840978 31.6271477
+"Temple Public Library" "100 W Adams Ave" "Temple" "TX" "76501" -97.3421791 31.0983784
+"Riter C Hulsey Public Library" "301 N Rockwall St" "Terrell" "TX" "75160" -96.280809 32.7392266
+"Texarkana Public Library" "600 W 3rd St" "Texarkana" "TX" "75501" -94.0488963 33.420574
+"Moore Memorial Public Library" "1701 9th Ave N" "Texas City" "TX" "77590" -94.9201254 29.3923504
+"Texline Public Library" "517 S 2nd St" "Texline" "TX" "79087" -103.0152792 36.3715494
+"The Colony Public Library" "6800 Main St" "The Colony" "TX" "75056" -96.891477 33.0971577
+"Live Oak County Library - Three Rivers Branch Library" "102 E. Leroy" "Three Rivers" "TX" "78071" -98.1826458 28.4583138
+"Depot Public Library" "120 E Chestnut St" "Throckmorton" "TX" "76483" -99.176964 33.1786418
+"Lucile Teague Library" "201 S Britton St Ste 2" "Tom Bean" "TX" "75489" -96.4845915 33.5192876
+"Blanche K Werner Public Library" "203 Prospect Dr" "Trinity" "TX" "75862" -95.3822539 30.9573191
+"Cameron-J Jarvis Troup Municipal Library" "102 S Georgia St" "Troup" "TX" "75789" -95.120434 32.1439
+"Swisher County Library" "127 Sw 2nd St" "Tulia" "TX" "79088" -101.765459 34.5353888
+"Turkey Public Library" "602 Lyles" "Turkey" "TX" "79261" -100.8938056 34.3906919
+"Noonday Community Library" "16662 Cr 196" "Tyler" "TX" "75703" -95.4065408 32.237805
+"Tyler Public Library" "201 S College Ave" "Tyler" "TX" "75702" -95.301719 32.3496328
+"Universal City Public Library" "100 Northview Dr" "Universal City" "TX" "78148" -98.2970501 29.5496838
+"Utopia Memorial Library" "800 Main St" "Utopia" "TX" "78884" -99.5270464 29.6170849
+"El Progreso Memorial Library" "301 W Main St" "Uvalde" "TX" "78801" -99.7902979 29.2071166
+"Valley Mills Public Library" "405 5th St" "Valley Mills" "TX" "76689" -97.4390645 31.5345287
+"Van Community Library" "310 Chestnut Dr" "Van" "TX" "75790" -95.6212199 32.5291502
+"Van Alstyne Public Library" "117 N Waco St" "Van Alstyne" "TX" "75495" -96.5771271 33.4213502
+"Van Horn City County Library" "410 Crockett St" "Van Horn" "TX" "79855" -104.8336154 31.0450094
+"Oldham County Public Library" "914 Main" "Vega" "TX" "79092" -102.4283037 35.2523782
+"Joe A Hall High School And Community Library" "12 Bulldog Dr" "Venus" "TX" "76084" -97.1027441 32.4254635
+"Carnegie City-County Library" "2810 Wilbarger St" "Vernon" "TX" "76384" -99.2961448 34.1526151
+"Victoria Public Library" "302 N Main St" "Victoria" "TX" "77901" -97.0047885 28.8011508
+"Vidor Public Library" "440 E Bolivar St" "Vidor" "TX" "77662" -94.0096425 30.1290939
+"Waco-Mclennan County Library" "1717 Austin Ave" "Waco" "TX" "76701" -97.1437399 31.5467586
+"Waelder Public Library" "310 N Ave E" "Waelder" "TX" "78959" -97.2983384 29.6950917
+"Austin County Library System" "6730 Railroad St" "Wallis" "TX" "77485" -96.0680032 29.6332727
+"Waskom Public Library" "103 Waskom Ave" "Waskom" "TX" "75692" -94.0599278 32.4794731
+"Watauga Public Library" "7109 Whitley Rd" "Watauga" "TX" "76148" -97.2556003 32.8757478
+"Nicholas P Sims Library" "515 W Main St" "Waxahachie" "TX" "75165" -96.7867984 32.2072154
+"Weatherford Public Library" "1014 Charles St" "Weatherford" "TX" "76086" -97.8133374 32.745339
+"Weimar Public Library" "1 Jackson Sq" "Weimar" "TX" "78962" -96.7807814 29.7017651
+"Collingsworth Public Library" "711 15th St" "Wellington" "TX" "79095" -100.21612 34.84905
+"Rube Sessions Memorial Library" "298 Rusk Ave" "Wells" "TX" "75976" -94.9421291 31.489367
+"Weslaco Public Library" "525 S Kansas Ave" "Weslaco" "TX" "78596" -97.9892888 26.1561034
+"West Public Library" "209 Tokio Rd" "West" "TX" "76691" -97.0955431 31.7913429
+"Westbank Community Library" "1309 Westbank Dr" "West Lake Hills" "TX" "78746" -97.8115376 30.2740219
+"Tawakoni Area Public Library" "340 W Hwy 276" "West Tawakoni" "TX" "75474" -96.043997 32.904049
+"Wharton County Library" "1920 N Fulton St" "Wharton" "TX" "77488" -96.0933783 29.3278444
+"Wheeler Public Library" "306 S Canadian St" "Wheeler" "TX" "79096" -100.2748572 35.4451575
+"White Oak School Community Library" "200 S White Oak Rd" "White Oak" "TX" "75693" -94.8611578 32.5294052
+"White Settlement Public Library" "8215 White Settlement Rd" "White Settlement" "TX" "76108" -97.4603342 32.7593425
+"Whitehouse Community Library" "107 Bascom Rd" "Whitehouse" "TX" "75791" -95.2206316 32.2278239
+"Whitesboro Public Library" "308 W Main St" "Whitesboro" "TX" "76273" -96.9095987 33.6558801
+"Whitewright Public Library" "200 W Grand St" "Whitewright" "TX" "75491" -96.3941024 33.5127324
+"Lake Whitney Library" "106 N Colorado St" "Whitney" "TX" "76692" -97.322319 31.9506026
+"Wichita Falls Public Library" "600 11th St" "Wichita Falls" "TX" "76301" -98.48859 33.9106141
+"Wildwood Civic Library" "94 Cypress Bend Dr" "Wildwood" "TX" "77663" -94.4387943 30.5171201
+"Gilliam Memorial Public Library" "205 E Belt Line Rd" "Wilmer" "TX" "75172" -96.6851233 32.5892955
+"Wimberley Village Library" "400 Fm 2325" "Wimberley" "TX" "78676" -98.1040517 30.002633
+"Gilbreath Memorial Library" "916 N Main St" "Winnsboro" "TX" "75494" -95.2872852 32.9641022
+"Winters Public Library" "120 N Main St" "Winters" "TX" "79567" -99.9628114 31.958109
+"Wolfe City Public Library" "203 E Williams St" "Wolfe City" "TX" "75496" -96.0728173 33.3717443
+"City Of Wolfforth Library" "508 E Hwy 62-82" "Wolfforth" "TX" "79382" -101.8322333 33.5778567
+"Allan Shivers Library Museum" "302 N Charlton St" "Woodville" "TX" "75979" -94.4160987 30.776824
+"Rita Truett Smith Public Library" "800 Thomas St" "Wylie" "TX" "75098" -96.5321548 33.003558
+"Carl And Mary Welhausen Library" "810 Front St" "Yoakum" "TX" "77995" -97.1506699 29.2862377
+"Yorktown Public Library" "103 W Main St" "Yorktown" "TX" "78164" -97.5044739 28.9808119
+"Olga V Figueroa Zapata County Public Library" "901 Kennedy St" "Zapata" "TX" "78076" -99.2705277 26.9025735
+"Olga V Figueroa Zapata County Public Library - Zapata County Branch Library" "301 Lincoln St." "Zapata" "TX" "78076" -99.2668948 26.8965076

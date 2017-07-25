@@ -1,0 +1,285 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Acton Public Library" "35 H Road-Route 109" "Acton" "ME" "04001" -70.9097448 43.5325283
+"Mayhew Library Assn" "290 Water Street" "Addison" "ME" "04606" -67.742258 44.6229337
+"Albion Public Library" "18 Main Street" "Albion" "ME" "04910" -69.4406589 44.5324276
+"Parsons Memorial Library" "27 Saco Road" "Alfred" "ME" "04002" -70.7152625 43.4762509
+"Allagash Public Library" "894 Allagash Road" "Allagash" "ME" "" -69.0278284 47.086618
+"Faye Oleary Hafford Library" "1063 Allagash Road" "Allagash" "ME" "04774" -69.0414792 47.0828028
+"Andover Public Library" "46 Church Street" "Andover" "ME" "04216" -70.7509803 44.6316854
+"Milldred Stevens Williams Memorial Library" "2957 Sennebec Road" "Appleton" "ME" "04862" -69.2490904 44.2885805
+"Ashland Community Library" "57 Exchange Street" "Ashland" "ME" "04732" -68.4008747 46.6308584
+"Auburn Public Library" "49 Spring Street" "Auburn" "ME" "04210" -70.2292564 44.0981429
+"Lithgow Public Library" "45 Winthrop Street" "Augusta" "ME" "04330" -69.7777833 44.3155899
+"Woodland Public Library" "169 Main Street" "Baileyville" "ME" "04694" -67.4078268 45.1579945
+"Bangor Public Library" "145 Harlow Street" "Bangor" "ME" "04401" -68.7715852 44.8044323
+"Jesup Memorial Library" "34 Mount Desert Street" "Bar Harbor" "ME" "04609" -68.2066178 44.3867797
+"Berry Memorial Library" "93 Main Street" "Bar Mills" "ME" "04004" -70.543089 43.612614
+"Patten Free Library" "33 Summer Street" "Bath" "ME" "04530" -69.8148726 43.9157178
+"Belfast Free Library" "106 High Street" "Belfast" "ME" "04915" -69.0051865 44.4252263
+"Belgrade Public Library" "1 Center Drive" "Belgrade" "ME" "04917" -69.7190134 44.5470018
+"Bass Harbor Memorial Library" "89 Main Street" "Bernard" "ME" "04612" -68.3281852 44.2860284
+"Berwick Public Library" "103 Old Pine Hill Road North" "Berwick" "ME" "03901" -70.8600534 43.2774007
+"Bethel Library Assn" "5 Broad Street" "Bethel" "ME" "04217" -70.7906188 44.4040359
+"Mcarthur Public Library" "270 Main Street" "Biddeford" "ME" "04005" -70.457993 43.4945558
+"Bingham Union Library" "297 Main Street" "Bingham" "ME" "04920" -69.8831556 45.056728
+"Blue Hill Library" "5 Parker Point Road" "Blue Hill" "ME" "" -68.5900689 44.4118843
+"Boothbay Harbor Memorial Library" "4 Oak Street" "Boothbay Harbor" "ME" "04538" -69.6284555 43.8516839
+"Bowdoinham Public Library" "13a School Street" "Bowdoinham" "ME" "04008" -69.8992605 44.008627
+"John B. Curtis Free Public Library" "435 Main Rd" "Bradford" "ME" "04410" -68.9364588 45.0673519
+"Bremen Public Library" "204 Waldoboro Rd" "Bremen" "ME" "04551" -69.4153042 44.0367226
+"Brewer Public Library" "100 South Main Street" "Brewer" "ME" "04412" -68.7673128 44.7925328
+"Bridgton Public Library" "1 Church Street" "Bridgton" "ME" "04009" -70.7093798 44.0544057
+"Friend Memorial Public Library" "1 Reach Road" "Brooklin" "ME" "04616" -68.5699422 44.2659197
+"Brooksville Free Public Library" "1 Town House Road" "Brooksville" "ME" "04617" -68.7500351 44.3637434
+"Brownfield Public Library" "216 Main Street" "Brownfield" "ME" "04010" -70.9068197 43.9387121
+"Brownville Public Library" "27 Church Street" "Brownville" "ME" "04414" -69.0332 45.306642
+"Curtis Memorial Library" "23 Pleasant Street" "Brunswick" "ME" "04011" -69.9671948 43.9135043
+"Whitman Memorial Library" "28 South Main Street" "Bryant Pond" "ME" "04219" -70.6441275 44.3795874
+"Zadoc Long Free Library" "5 Turner Street" "Buckfield" "ME" "04220" -70.3647345 44.2894556
+"Buck Memorial Library" "47 Main Street" "Bucksport" "ME" "04416" -68.7919509 44.5716204
+"West Buxton Public Library" "34 River Road (Route 112)" "Buxton" "ME" "04093" -70.6000716 43.6655412
+"Calais Free Library" "9 Union Street" "Calais" "ME" "04619" -67.2775914 45.1895549
+"Camden Public Library" "55 Main Street" "Camden" "ME" "04843" -69.0645604 44.2115819
+"Canaan Public Library" "288 Main Street" "Canaan" "ME" "04924" -69.5608282 44.7624258
+"Cape Elizabeth - Thomas Memorial Library" "6 Scott Dyer Road" "Cape Elizabeth" "ME" "" -70.2292477 43.5956214
+"Thomas Memorial Library" "6 Scott Dyer Rd." "Cape Elizabeth" "ME" "04107" -70.2292477 43.5956214
+"Cape Porpoise Library" "173 Main Street" "Cape Porpoise" "ME" "04014" -70.4409885 43.3719397
+"Caribou Public Library" "30 High Street" "Caribou" "ME" "04736" -68.01103 46.860921
+"Simpson Memorial Library" "8 Plymouth Rd" "Carmel" "ME" "04419" -69.0517337 44.796884
+"Carrabassett Valley Public Library" "1234 Carrabassett Drive" "Carrabassett" "ME" "04947" -70.2206088 45.0874067
+"Casco Public Library" "5 Leach Hill Road" "Casco" "ME" "04015" -70.5227726 44.0040277
+"Witherle Memorial Library" "41 School Street" "Castine" "ME" "04421" -68.7983716 44.3899697
+"Charleston Public Library" "13 Atkinson Road" "Charleston" "ME" "04422" -69.0403793 45.086446
+"Cumberland - Chebeague Island Library" "25 South Road, Rr 1" "Chebeague" "ME" "" -70.1009702 43.7544407
+"Chebeague Island Library" "247 South Road, Unit 3" "Chebeague Island" "ME" "04017" -70.1076274 43.7400287
+"Cherryfield Public Library" "35 Main Street" "Cherryfield" "ME" "04622" -67.9264825 44.6070792
+"Albert Church Brown Memorial Library" "37 Main Street" "China Village" "ME" "04926" -69.5171287 44.4805768
+"Cliff Island Library" "119 Sunset Avenue" "Cliff Island" "ME" "04019" -70.1037548 43.7000145
+"Brown Memorial Library - Clinton" "53 Railroad Street" "Clinton" "ME" "04927" -69.5049862 44.6408597
+"Clinton - Brown Memorial Library" "14 Railroad Street" "Clinton" "ME" "" -69.5032059 44.6384297
+"Stewart Free Library" "8 Levi Stewart Drive" "Corinna" "ME" "04928" -69.2629038 44.9209096
+"Atkins Memorial Library" "360 Main Street" "Corinth" "ME" "04427" -69.0218853 45.0001111
+"Bonney Memorial Library" "36 Main Street" "Cornish" "ME" "04020" -70.8007551 43.805124
+"Great Cranberry Library" "13 Main Road" "Cranberry Isles" "ME" "04625" -68.2368929 44.2616921
+"Prince Memorial Library" "266 Main Street" "Cumberland" "ME" "04021" -70.2590913 43.7935686
+"Cushing Public Library" "39 Cross Road" "Cushing" "ME" "04563" -69.2498687 44.0210606
+"Louise Clements Library" "2655 Cutler Road" "Cutler" "ME" "04626" -67.2103509 44.6581179
+"Skidompha Public Library" "184 Main Street" "Damariscotta" "ME" "04543" -69.5305914 44.0325941
+"Danforth Public Library" "46 Central Street" "Danforth" "ME" "04424" -67.8665291 45.6575172
+"Chase Emerson Memorial Library" "17 Main Street" "Deer Isle" "ME" "04627" -68.6800379 44.223898
+"Denmark Public Library" "121 East Main Street" "Denmark" "ME" "04022" -70.792235 43.973313
+"Lincoln Memorial Library - Dennysville" "17 King Street" "Dennysville" "ME" "04628" -67.2295201 44.9039867
+"Anna Field Fernald Library" "35 South Main Street" "Detroit" "ME" "04929" -69.2892505 44.78989
+"Ludden Memorial Library" "42 Main Street" "Dixfield" "ME" "04224" -70.4557699 44.5311371
+"Thompson Free Library" "186 East Main St." "Dover-Foxcroft" "ME" "04426" -69.2176574 45.1798156
+"Bridge Academy Public Library" "44 Middle Road" "Dresden" "ME" "04342" -69.7263996 44.1051144
+"Waterboro Public Library" "187 Main St." "E. Waterboro" "ME" "04030" -70.7195831 43.4880426
+"Brown Memorial Library - Baldwin" "2 Norton Place" "East Baldwin" "ME" "04024" -70.6779011 43.8019071
+"East Blue Hill Public Library" "9 Curtis Cove Road" "East Blue Hill" "ME" "04629" -68.5219046 44.4174712
+"Sturdivant Public Library" "514 Main Street" "East Machias" "ME" "04630" -67.3901687 44.7380275
+"East Millinocket Public Library" "53 Main Street" "East Millinocket" "ME" "04430" -68.5750669 45.6254271
+"Vassalboro Public Library" "930 Bog Road" "East Vassalboro" "ME" "04935" -69.6205644 44.44986
+"Peavey Memorial Library" "26 Water Street" "Eastport" "ME" "04631" -66.9852138 44.9036613
+"William Fogg Public Library" "116 Old Road" "Eliot" "ME" "03903" -70.7976197 43.1282258
+"Ellsworth Public Library" "20 State Street" "Ellsworth" "ME" "04605" -68.4256443 44.542102
+"Cole Memorial Library" "789 Hammett Road" "Enfield" "ME" "04493" -68.5893476 45.2482172
+"Lawrence Public Library" "33 Lawrence Avenue" "Fairfield" "ME" "04937" -69.596121 44.587756
+"Falmouth Memorial Library" "5 Lunt Road" "Falmouth" "ME" "04105" -70.2360144 43.7233212
+"Farmington Public Library" "117 Academy Street" "Farmington" "ME" "04938" -70.1482166 44.6694082
+"Underwood Memorial Library" "2006 Main Street" "Fayette" "ME" "04349" -70.0083129 44.4060783
+"Fort Fairfield Public Library" "339 Main Street" "Fort Fairfield" "ME" "04742" -67.8337755 46.7720894
+"Fort Kent Public Library" "1 Monument Square" "Fort Kent" "ME" "04743" -68.5945872 47.2505555
+"Waldo Peirce Reading Room" "11a Main Road South" "Frankfort" "ME" "04438" -68.8431221 44.641201
+"Freeport Community Library" "10 Library Drive" "Freeport" "ME" "04032" -70.1017236 43.8633594
+"Friendship Public Library" "3 Main Street" "Friendship" "ME" "04547" -69.333841 43.983787
+"Fryeburg Public Library" "515 Main Street" "Fryeburg" "ME" "04037" -70.9820564 44.0156266
+"Gardiner Public Library" "152 Water Street" "Gardiner" "ME" "04345" -69.7710368 44.2286659
+"Lyndon Oak Memorial Library" "5 Dexter Road" "Garland" "ME" "04939" -69.1601377 45.0387689
+"Laura E. Richards Library" "863 Five Islands Road" "Georgetown" "ME" "04548" -69.7492899 43.803655
+"Glenburn Library" "991 Hudson Road" "Glenburn" "ME" "04401" -68.8461778 44.9171705
+"Baxter Memorial Library" "71 South Street" "Gorham" "ME" "04038" -70.442031 43.677112
+"North Gorham Public Library" "2 Standish Neck Road" "Gorham" "ME" "04038" -70.455349 43.798507
+"South Windham Public Library" "857 Gray Road" "Gorham" "ME" "04038" -70.4256255 43.7333682
+"Gray Public Library" "5 Hancock Street" "Gray" "ME" "04039" -70.3270812 43.8844686
+"Julia Adams Morse Memorial Library" "105 Main Street" "Greene" "ME" "04236" -70.1434406 44.1893258
+"Shaw Public Library - Greenville" "9 Lily Bay Road" "Greenville" "ME" "04441" -69.5913795 45.4594991
+"Guilford Memorial Library" "4 Library Street" "Guilford" "ME" "04443" -69.3830878 45.1706531
+"Hubbard Free Library" "115 Second Street" "Hallowell" "ME" "04347" -69.7912049 44.2860844
+"Edythe Dyer Community Library" "269 Main Road North" "Hampden" "ME" "04444" -68.819429 44.7509109
+"Cundys Harbor Library" "935 Cundys Harbor Road" "Harpswell" "ME" "04079" -69.892994 43.791491
+"Gallison Memorial Library" "1292 Main Street" "Harrington" "ME" "04643" -67.8069516 44.6199255
+"Bolsters Mills Village Library" "659 Bolsters Mills Road" "Harrison" "ME" "04040" -70.598213 44.11594
+"Harrison Village Library" "4 Front Street" "Harrison" "ME" "04040" -70.6795762 44.108606
+"Hartland Public Library" "16 Mill Street" "Hartland" "ME" "04943" -69.451555 44.8829436
+"Soldiers Memorial Library" "85 Main Street" "Hiram" "ME" "04041" -70.7976844 43.8821666
+"Hollis Center Public Library" "14 Little Falls Road" "Hollis" "ME" "04042" -70.5955101 43.6000842
+"Salmon Falls Library" "322 Old Alfred Road" "Hollis" "ME" "04042" -70.5632085 43.5937951
+"Hope Library" "443 Camden Road" "Hope" "ME" "04847" -69.1575765 44.2645818
+"Cary Library-Houlton" "107 Main Street" "Houlton" "ME" "04730" -67.837499 46.1254822
+"Thomas Free Library" "8 Main Street" "Howland" "ME" "04448" -68.6567263 45.2413199
+"Katahdin Public Library" "20 Library Street" "Island Falls" "ME" "04747" -68.269595 46.0091536
+"Alice L. Pendleton Library" "309 Main Road" "Islesboro" "ME" "04848" -68.900728 44.3029579
+"Islesford Library" "10 Mosswood Road" "Islesford" "ME" "04646" -68.2350341 44.2625877
+"Jackman Public Library" "604 Main Street" "Jackman" "ME" "04945" -70.3365276 45.7753117
+"Jefferson Public Library" "48 Washington Road" "Jefferson" "ME" "04348" -69.4546915 44.2041022
+"Peabody Memorial Library" "162 Main Street" "Jonesport" "ME" "04649" -67.6048901 44.5315356
+"Case Memorial Library" "911 Stetson Road" "Kenduskeag" "ME" "04450" -68.9328368 44.9193012
+"Kennebunk Free Library" "112 Main Street" "Kennebunk" "ME" "04043" -70.537885 43.3878563
+"Graves Memorial Library" "18 Maine Street" "Kennebunkport" "ME" "04046" -70.4747738 43.3617123
+"Webster Free Library" "22 Depot Street" "Kingfield" "ME" "04947" -70.1570374 44.9579878
+"Rice Public Library" "8 Wentworth Street" "Kittery" "ME" "03904" -70.7425464 43.0867713
+"Lebanon Town Library" "649 Center Road" "Lebanon" "ME" "04027" -70.903195 43.4027843
+"Levant Heritage Library" "3519 Union Street" "Levant" "ME" "04456" -68.9339818 44.8695145
+"Lewiston Public Library" "200 Lisbon Street" "Lewiston" "ME" "04240" -70.2161981 44.0954589
+"Ivan O. Davis-Liberty Library" "59 Main Street" "Liberty" "ME" "04949" -69.3072001 44.3925485
+"Limerick Public Library" "55 Washington Street" "Limerick" "ME" "04048" -70.7914596 43.6909741
+"Frost Memorial Library" "238 Main Street" "Limestone" "ME" "" -67.824894 46.896416
+"Davis Memorial Library" "928 Cape Road" "Limington" "ME" "04049" -70.7095027 43.7312409
+"Lincoln Memorial Library" "21 West Broadway" "Lincoln" "ME" "04457" -68.5075953 45.3629932
+"Lisbon Library Dept" "28 Main Street" "Lisbon" "ME" "04252" -70.060259 43.9972908
+"Livermore Public Library" "22 Church Street" "Livermore" "ME" "04253" -70.2513032 44.3846972
+"Treat Memorial Library" "56 Main Street" "Livermore Falls" "ME" "04254" -70.1903991 44.4743453
+"Long Island Community Library" "7 Gorham Street" "Long Island" "ME" "04050" -70.1622878 43.6847482
+"Charlotte Hobbs Memorial Library" "227 Main Street" "Lovell" "ME" "04051" -70.891645 44.126708
+"Hill Memorial Library" "box 470" "Lovell" "ME" "" -70.8930466 44.1255995
+"Lewis Dana Hill Memorial Library" "2079 Main Street" "Lovell" "ME" "04016" -70.873396 44.244312
+"Lubec Memorial Library" "55 Water Street" "Lubec" "ME" "04652" -66.9830744 44.8597886
+"Lyman Community Library" "10 John Street" "Lyman" "ME" "04002" -70.5825657 43.5076599
+"Machias - Porter Memorial Library" "52 Court Street" "Machias" "ME" "" -67.4564662 44.7168995
+"Porter Memorial Library" "92 Court St" "Machias" "ME" "04654" -67.4599765 44.715564
+"Madawaska Public Library" "393 East Main Street" "Madawaska" "ME" "04756" -68.3228131 47.3553105
+"Madison Public Library" "12 Old Point Avenue" "Madison" "ME" "04950" -69.8800157 44.7966781
+"Walter T. A. Hansen Memorial Library" "10 Hansen Street" "Mars Hill" "ME" "04758" -67.8687588 46.5133676
+"Mattawamkeag Public Library" "327 Main Street" "Mattawamkeag" "ME" "04459" -68.3540379 45.5174935
+"Mechanic Falls Public Library" "15 Elm Street" "Mechanic Falls" "ME" "04256" -70.390764 44.1108092
+"Shaw Public Library - Mercer" "77 Main Street" "Mercer" "ME" "04957" -69.9369535 44.6776932
+"Mexico Free Public Library" "134 Main Street" "Mexico" "ME" "04257" -70.5411162 44.5559869
+"Milbridge Public Library" "22 School Street" "Milbridge" "ME" "04658" -67.881761 44.5388839
+"Millinocket Memorial Library" "5 Maine Avenue" "Millinocket" "ME" "04462" -68.711386 45.6562185
+"Milo Free Public Library" "4 Pleasant Street" "Milo" "ME" "04463" -68.9858034 45.2535841
+"Monhegan Memorial Library" "1 Library Lane" "Monhegan Island" "ME" "04852" -69.3182507 43.7649924
+"Cumston Public Library" "796 Main Street" "Monmouth" "ME" "04259" -70.0340128 44.2410194
+"Monroe Community Library" "8 Swan Lake Avenue" "Monroe" "ME" "04951" -69.0181309 44.6148724
+"Monson Public Library" "10 Tenney Hill Road" "Monson" "ME" "04464" -69.5017143 45.2814971
+"Somesville Library Association" "116 Main Street" "Mount Desert" "ME" "04660" -68.2408655 44.3019243
+"Dr.Shaw Memorial Library" "344 Pond Road" "Mount Vernon" "ME" "04352" -69.9875817 44.5020032
+"Naples Public Library" "940 Roosevelt Trail" "Naples" "ME" "04055" -70.6069671 43.969953
+"New Gloucester Public Library" "379 Intervale Road" "New Gloucester" "ME" "04260" -70.2826795 43.964225
+"New Portland Community Library" "899 River Road" "New Portland" "ME" "04961" -70.0941229 44.8851832
+"Jim Ditzler Memorial Library" "37 Library Road" "New Sharon" "ME" "04955" -70.0154885 44.6393784
+"New Vineyard Public Library" "20 Lake Street" "New Vineyard" "ME" "04956" -70.1470463 44.8023082
+"Newfield Village Library-Reading Room" "637 Water Street" "Newfield" "ME" "04056" -70.8541706 43.6491835
+"Newport Public Library" "145 Main Street" "Newport" "ME" "04953" -69.275152 44.8350149
+"Norridgewock Free Public Library" "86 Sophie May Lane" "Norridgewcock" "ME" "04957" -69.8007973 44.7185073
+"Stewart Public Library" "37 Elm Street" "North Anson" "ME" "04958" -69.8748804 44.8030434
+"D.A. Hurd Library" "41 High Street" "North Berwick" "ME" "03906" -70.7395285 43.3084497
+"North Bridgton Public Library" "113 Waterford Rd" "North Bridgton" "ME" "04057" -70.7068146 44.1449088
+"North Haven Public Library" "33 Main Street" "North Haven" "ME" "04853" -68.8723933 44.1276606
+"Jay-Niles Memorial Library" "983 Main Street" "North Jay" "ME" "04262" -70.2378556 44.5479554
+"North Monmouth Public Library" "132 North Main Street" "North Monmouth" "ME" "04265" -70.0278806 44.2756339
+"Northeast Harbor Library" "1 Joy Road" "Northeast Harbor" "ME" "04662" -68.2913786 44.2942182
+"Norway Memorial Library" "258 Main Street" "Norway" "ME" "04268" -70.5392601 44.2122183
+"Oakland Public Library" "18 Church Street" "Oakland" "ME" "04963" -69.7196834 44.5463217
+"Ocean Park Memorial Library" "11 Temple Avenue" "Ocean Park" "ME" "04063" -70.385621 43.500292
+"Old Orchard Beach - Ocean Park Memorial Lib" "box 336" "Ocean Park" "ME" "" -70.3861607 43.5006404
+"Ogunquit Memorial Library" "166 Shore Road" "Ogunquit" "ME" "03907" -70.5966739 43.243953
+"Libby Memorial Library" "27 Staples Street" "Old Orchard Beach" "ME" "04064" -70.3766643 43.5156919
+"Old Town Public Library" "46 Middle Street" "Old Town" "ME" "04468" -68.6481369 44.935347
+"Orono Public Library" "16 Goodridge Drive" "Orono" "ME" "04473" -68.6740159 44.8824039
+"Orrington Public Library" "15 School Street" "Orrington" "ME" "04474" -68.7665803 44.7925927
+"Orrs Island Library" "1699 Harpwell Islands Road (Rt. 24)" "Orrs Island" "ME" "04066" -69.9761052 43.7614084
+"Otis Public Library" "132 Otis Road" "Otis" "ME" "04605" -68.4525307 44.7345878
+"Harrison - Bolsters Mills Village Library" "6 Big Hill Road" "Otisfield" "ME" "" -70.5944433 44.1153092
+"Owls Head Village Library" "31 South Shore Drive" "Owls Head" "ME" "04854" -69.057268 44.0798831
+"Freeland Holmes Library" "109 Pleasant Street" "Oxford" "ME" "04270" -70.496039 44.132392
+"Palermo Community Library" "2315 Route 3" "Palermo" "ME" "04354" -69.3996242 44.3797832
+"Hamlin Memorial Library" "16 Hannibal Hamlin Drive" "Paris" "ME" "04271" -70.502253 44.26017
+"Harvey Memorial Library" "771 State Highway 150" "Parkman" "ME" "04443" -69.4591178 45.0530592
+"Kezar Falls Circulating Library" "11 Waddly Street" "Parsonsfield" "ME" "04047" -70.8829526 43.8066671
+"Veterans Memorial Library" "30 Main Street" "Patten" "ME" "04765" -68.4472776 45.9973404
+"Peaks Island Branch Library" "129 Island Avenue" "Peaks Island" "ME" "" -70.1986766 43.6586541
+"Bristol Area Library" "619 Old County Road" "Pemaquid" "ME" "04554" -69.4961887 43.9252496
+"Pembroke Library" "221 Old County Road" "Pembroke" "ME" "04666" -67.1734771 44.9475845
+"Phillips Public Library" "96 Main Street" "Phillips" "ME" "04966" -70.3446854 44.8244481
+"Albert F. Totman Library" "28 Parker Head Road" "Phippsburg" "ME" "04562" -69.812728 43.8202489
+"Pittsfield Public Library" "110 Library Street" "Pittsfield" "ME" "04967" -69.386875 44.7803722
+"Ricker Memorial Library" "1211 Maine Street" "Poland" "ME" "04274" -70.394576 44.061594
+"Burbank Branch Library" "377 Stevens Avenue" "Portland" "ME" "" -70.294754 43.6713165
+"Munjoy Branch Library" "195 North Street" "Portland" "ME" "" -70.253651 43.671422
+"Portland Public Library" "467 Congress Street" "Portland" "ME" "04101" -70.2594617 43.657465
+"Reiche Branch Library" "166 Brackett Street" "Portland" "ME" "" -70.267431 43.6509663
+"Riverton Branch Library" "1600 Forest Avenue" "Portland" "ME" "" -70.3077295 43.6969851
+"Mark And Emily Turner Memorial Library" "39 Second Street" "Presque Isle" "ME" "04769" -68.013757 46.680756
+"Princeton Public Library" "40 Main Street" "Princeton" "ME" "04668" -67.5184297 45.2009086
+"Rangeley Public Library" "7 Lake Street" "Rangeley" "ME" "04970" -70.6434776 44.9642256
+"Raymond Village Library" "3 Meadow Rd" "Raymond" "ME" "04071" -70.468554 43.901698
+"Readfield Community Library" "1151 Main Street" "Readfield" "ME" "04355" -69.9671643 44.388006
+"Isaac F Umberhine Public Library" "86 Main Street" "Richmond" "ME" "04357" -69.8050815 44.0884829
+"Rockland Public Library" "80 Union St." "Rockland" "ME" "04841" -69.1123523 44.1053277
+"Rockport Public Library" "1 Limerock Street" "Rockport" "ME" "04856" -69.0704154 44.1881224
+"Rumford Public Library" "56 Rumford Ave." "Rumford" "ME" "04276" -70.548214 44.545931
+"Town Square Library" "1 Sabattus Mall" "Sabattus" "ME" "" -70.1157783 44.109568
+"Dyer Library" "371 Main Street" "Saco" "ME" "04072" -70.4417365 43.5013048
+"Goodall Memorial Library" "952 Main Street" "Sanford" "ME" "04073" -70.7728148 43.4364467
+"Sangerville Public Library" "1 Town Hall Ave" "Sangerville" "ME" "04479" -69.3581811 45.1655424
+"Sargentville Library Assn" "653 Reach Road" "Sargentville" "ME" "04673" -68.6696818 44.3004065
+"Scarborough Public Library" "48 Gorham Road" "Scarborough" "ME" "04074" -70.3372825 43.5969591
+"Searsmont Town Library" "37 Main St. South" "Searsmont" "ME" "04973" -69.1469557 44.44087
+"Carver Memorial Library" "12 Union Street" "Searsport" "ME" "04974" -68.9227528 44.4603239
+"Spaulding Memorial Library" "282 Sebago Road" "Sebago" "ME" "04029" -70.6388176 43.8547516
+"Sedgwick Library Assn" "45 Main Street" "Sedgwick" "ME" "04676" -68.6160082 44.303913
+"Shapleigh Community Library" "607 Shapleigh Corner Road" "Shapleigh" "ME" "04076" -70.8506214 43.5434684
+"Sherman Public Library" "9 Church Street" "Sherman" "ME" "04776" -68.3850172 45.8724957
+"Skowhegan Public Library" "9 Elm Street" "Skowhegan" "ME" "04976" -69.720652 44.766031
+"Coolidge Library" "17 South Main Street" "Solon" "ME" "04979" -69.858747 44.9490347
+"South Berwick Public Library" "37 Portland St." "South Berwick" "ME" "03908" -70.8086223 43.234965
+"Rutherford Library" "2000 State Route 129" "South Bristol" "ME" "04568" -69.5590782 43.8674556
+"South China Public Library" "247 Village St." "South China" "ME" "04358" -69.573157 44.395531
+"Paris Public Library" "37 Market Square" "South Paris" "ME" "04281" -75.2614854 39.9620011
+"Memorial Branch Library" "155 Wescott Road" "South Portland" "ME" "" -70.3051084 43.6271231
+"South Portland Public Library" "482 Broadway" "South Portland" "ME" "04106" -70.2483081 43.6354667
+"South Thomaston Public Library" "8 Dublin Rd" "South Thomaston" "ME" "04858" -69.1245608 44.0520601
+"Southport Memorial Library" "1032 Hendricks Hill Road" "Southport" "ME" "04576" -69.6553789 43.8411596
+"Southwest Harbor Public Library" "338 Main Street" "Southwest Harbor" "ME" "04679" -68.3264909 44.2800548
+"Springvale Public Library" "443 Main Street" "Springvale" "ME" "04083" -70.7986679 43.4668666
+"Long Lake Public Library" "384 Main Street" "St. Agatha" "ME" "04772" -68.3129651 47.2423119
+"Standish - Richville Library" "743 Richville Road" "Standish" "ME" "" -70.5695886 43.7984646
+"Steep Falls Library" "1128 Pequawket Trail" "Steep Falls" "ME" "04085" -70.6500137 43.7925497
+"Stetson Public Library" "70 Village Road" "Stetson" "ME" "04488" -69.1330208 44.8934247
+"Henry D. Moore Library" "22 Village Road" "Steuben" "ME" "04680" -67.9620124 44.5106352
+"Stockton Springs Community Library" "6 Station Street" "Stockton Springs" "ME" "04981" -68.8552003 44.4886707
+"Stonington Public Library" "64 Main Street" "Stonington" "ME" "04681" -68.6645811 44.1560817
+"Stratton Public Library" "88 Main Street" "Stratton" "ME" "04982" -70.4403843 45.1404564
+"Strong Public Library" "14 South Main St." "Strong" "ME" "04983" -70.2202158 44.8084271
+"Frenchmans Bay Library" "1776 Us Highway 1" "Sullivan" "ME" "04664" -68.224023 44.530439
+"Swans Island Public Library" "451 Atlantic Road" "Swans Island" "ME" "04685" -68.4087776 44.1684885
+"Jackson Memorial Library" "38 Main Street" "Tenants Harbor" "ME" "04860" -69.2106573 43.9659047
+"Thomaston Public Library" "60 Main Street" "Thomaston" "ME" "04861" -69.180127 44.0793742
+"Topsham Public Library" "25 Foreside Road" "Topsham" "ME" "04086" -69.9486223 43.9241066
+"Turner Public Library" "98 Matthews Way" "Turner" "ME" "04282" -70.2253164 44.2703506
+"Vose Library" "343 Common Road" "Union" "ME" "04862" -69.2733356 44.2117768
+"Dorothy W Quimby Library" "90 Quaker Hill Road" "Unity" "ME" "04988" -69.3308352 44.6033491
+"Abel J.Morneault Memorial Library" "153 Main Street" "Van Buren" "ME" "04785" -67.9352938 47.1570068
+"Vinalhaven Public Library" "6 Carver Street" "Vinalhaven" "ME" "04863" -68.8308415 44.0494231
+"Waldoboro Public Library" "958 Main Street" "Waldoboro" "ME" "04572" -69.374191 44.0968469
+"Warren Free Public Library" "282 Main Street" "Warren" "ME" "04864" -69.2426109 44.12027
+"Washburn Memorial Library" "1290 Main Street" "Washburn" "ME" "04786" -68.1570135 46.7901576
+"Gibbs Library" "40 Old Union Road" "Washington" "ME" "04574" -69.363921 44.2732222
+"Waterford Library Association" "663 Waterford Road" "Waterford" "ME" "04088" -70.7163076 44.1800402
+"Waterville Public Library" "73 Elm Street" "Waterville" "ME" "04901" -69.6319408 44.5512877
+"Cary Memorial Library-Wayne" "17 Old Winthrop Road" "Wayne" "ME" "04284" -70.065804 44.3472124
+"Weld Public Library" "25 Church Street" "Weld" "ME" "04285" -70.4229253 44.6999189
+"Wells Public Library" "1434 Post Road" "Wells" "ME" "04090" -70.5833807 43.3184116
+"West Paris Public Library" "226 Main Street" "West Paris" "ME" "04289" -70.5729927 44.3255014
+"Walker Memorial Library" "800 Main Street" "Westbrook" "ME" "04092" -70.3636139 43.67593
+"Warren Memorial Library" "479 Main Street" "Westbrook" "ME" "04092" -70.351515 43.6816771
+"Whitneyville Public Library" "51 School Street" "Whitneyville" "ME" "04654" -67.5219863 44.7220209
+"Wilton Free Public Library" "6 Goodspeed Street" "Wilton" "ME" "04294" -70.2280983 44.5926953
+"Windham Public Library" "217 Windham Center Road" "Windham" "ME" "04062" -70.4116498 43.7906283
+"Winslow Public Library" "136 Halifax Street" "Winslow" "ME" "04901" -69.6088067 44.5441414
+"Winter Harbor Public Library" "18 Chapel Lane" "Winter Harbor" "ME" "04693" -68.0879587 44.390967
+"Winterport Memorial Library" "229 Main Street" "Winterport" "ME" "04496" -68.847258 44.6346991
+"Bailey Public Library" "39 Bowdoin Street" "Winthrop" "ME" "04364" -69.9729319 44.3080273
+"Wiscasset Public Library" "21 High Street" "Wiscasset" "ME" "04578" -69.6679577 44.0032503
+"Merrill Memorial Library" "215 Main Street" "Yarmouth" "ME" "04096" -70.1871571 43.8012694
+"York Public Library" "15 Long Sands Road" "York" "ME" "03909" -70.6490647 43.1438507

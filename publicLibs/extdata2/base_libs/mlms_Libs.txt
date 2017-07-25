@@ -1,0 +1,29 @@
+"location" "miles" "latitude" "longitude"
+"Great Falls Public Library<br/>301 2nd Ave North<br/>Great Falls, MT" 5.74740475155935 -111.301947 47.50783
+"Belt Public Library<br/>404 Millard St<br/>Belt, MT" 14.5213426339396 -110.9243895 47.3842426
+"Highwood Branch Library<br/>1412 Main Street<br/>Highwood, MT" 18.9702165791995 -110.7907223 47.5848406
+"Wedsworth Memorial Library<br/>13 Front Street North<br/>Cascade, MT" 29.2496713482513 -111.6996245 47.2706219
+"Chouteau County Library<br/>1518 Main<br/>Fort Benton, MT" 32.2333137733342 -110.667963 47.818333
+"Dutton Public Library<br/>22 Main St W<br/>Dutton, MT" 34.4887252129411 -111.7152203 47.8481527
+"Fairfield Public Library<br/>14 North 4th St<br/>Fairfield, MT" 38.2350263789851 -111.9817033 47.6144853
+"Geraldine Branch Library<br/>603 Main St<br/>Geraldine, MT" 43.1514425327216 -110.2658682 47.6006473
+"Judith Basin County Free Library<br/>93 Third Street North<br/>Stanford, MT" 50.9931286069368 -110.2215327 47.1546186
+"Choteau-Teton Public Library<br/>17 Main Avenue North<br/>Choteau, MT" 51.3623851983142 -112.182487 47.811756
+"Augusta Branch Library<br/>205 Main St<br/>Augusta, MT" 56.6954900327293 -112.392084 47.492148
+"Conrad Public Library<br/>15 4th Avenue Sw<br/>Conrad, MT" 58.2263471577505 -111.947549 48.169434
+"Denton Public Library<br/>515 Broadway<br/>Denton, MT" 58.9255679152455 -109.9501873 47.3195942
+"Meagher County-City Library<br/>15 First Avenue Se<br/>White Sulphur Spring, MT" 67.4637305084368 -110.9022053 46.5474052
+"Big Sandy Branch Library<br/>230 1st Ave N<br/>Big Sandy, MT" 67.8788113750263 -110.1187912 48.1799373
+"Liberty County Library<br/>100 East 1st Street<br/>Chester, MT" 70.6437312161978 -110.964877 48.515414
+"East Helena Branch Library<br/>400 North Kalispell<br/>East Helena, MT" 71.7205938389151 -111.9063482 46.5935137
+"Valier Public Library<br/>400 Teton Avenue<br/>Valier, MT" 74.6662456422598 -112.2536029 48.3081971
+"Lewis And Clark Library<br/>120 South Last Chance Gulch<br/>Helena, MT" 75.4653501333107 -112.0417772 46.5852204
+"Toole County Library<br/>229 2nd Ave S<br/>Shelby, MT" 75.9580929884063 -111.8581176 48.5039523
+"Moore Public Library<br/>403 Fergus Avenue<br/>Moore, MT" 78.8015801356975 -109.6946184 46.9731806
+"Library Lincoln Branch Library<br/>102 9th Avenue South<br/>Lincoln, MT" 79.8475810096683 -112.67401 46.954764
+"Broadwater School And Community Library<br/>201 N Spruce St<br/>Townsend, MT" 83.3880759560755 -111.520886 46.321591
+"Dorothy Asbjornson Community Library<br/>110 Main Street<br/>Winifred, MT" 84.3156986782878 -109.3755686 47.5594174
+"Lewistown Public Library<br/>701 West Main<br/>Lewistown, MT" 87.5529815953172 -109.4306188 47.0623656
+"Glacier County Library<br/>21 1st Avenue Se<br/>Cut Bank, MT" 94.6209500382467 -112.331508 48.634813
+"Harlowton Public Library<br/>13 South Central Ave<br/>Harlowton, MT" 97.5278416312912 -109.831538 46.4354129
+"Boulder Community Library<br/>202 S Main<br/>Boulder, MT" 98.4095749543391 -112.1196777 46.2352071

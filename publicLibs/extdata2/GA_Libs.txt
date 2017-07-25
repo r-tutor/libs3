@@ -1,0 +1,361 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Wilcox County Public Library" "104 North Broad" "Abbeville" "GA" "" -83.3068997 31.9925503
+"Acworth Library" "4569 Dallas Street" "Acworth" "GA" "" -84.6784411 34.0651938
+"Adairsville Branch Library" "202 North Main Street" "Adairsville" "GA" "" -84.934105 34.370976
+"Cook County Library" "213 East Second Street" "Adel" "GA" "" -83.422477 31.140451
+"Guam Public Library System" "254 Martyr Street" "Agana" "GA" "96910" 144.7536117 13.4757267
+"Wheeler County Library" "203 W. Forest Avenue" "Alamo" "GA" "" -82.7838207 32.1474231
+"Central Library" "300 Pine Avenue" "Albany" "GA" "" -84.1539749 31.5781483
+"Northwest Branch Library" "2215 Barnesdale Way" "Albany" "GA" "" -84.2008324 31.6090979
+"Southside Branch Library" "2114 Habersham" "Albany" "GA" "" -84.1715499 31.5504492
+"Tallulah Massey Branch" "2004 Stratford Drive" "Albany" "GA" "" -84.0991632 31.5712809
+"Westtown Branch Library" "2124 Waddell Avenue" "Albany" "GA" "" -84.200708 31.5664845
+"Alma-Bacon County Public Library" "217 North Pierce Street" "Alma" "GA" "" -82.46208 31.5424165
+"Dr. Robert E. Fulton Regional At Ocee" "5090 Abbotts Bridge Rd." "Alpharetta" "GA" "" -84.2096254 34.0646054
+"Northeast-Spruill Oaks Regional" "9560 Spruill Road" "Alpharetta" "GA" "" -84.2242155 34.01417
+"Ambrose Public Library" "1070 Cypress Avenue" "Ambrose" "GA" "" -83.0139181 31.5957813
+"Lake Blackshear Regional Library System" "307 East Lamar Street" "Americus" "GA" "31709" -84.2272286 32.071418
+"Victoria Evans Memorial Library" "605 North Street" "Ashburn" "GA" "" -83.65522 31.712323
+"Athens Regional Library System" "2025 Baxter Street" "Athens" "GA" "30606" -83.4035953 33.9450079
+"East Athens Resource Center" "400 Mckinley Drive" "Athens" "GA" "" -83.35599 33.959985
+"Lay Park Resource Center" "297 Hoyt Street" "Athens" "GA" "" -83.3757817 33.9641423
+"Adams Park Branch" "2231 Campbellton Road Sw" "Atlanta" "GA" "" -84.4616745 33.7056691
+"Adamsville-Collier Heights Branch" "3424 Martin Luther King Jr., Dr." "Atlanta" "GA" "" -84.5001855 33.7550563
+"Auburn Avenue Research Library" "101 Auburn Avenue, Ne" "Atlanta" "GA" "" -84.3842751 33.7554722
+"Bankhead Courts Branch" "1415 Maynard Road" "Atlanta" "GA" "" -84.4997812 33.7939603
+"Bowen Homes Branch" "2880 Yates Drive, N.W." "Atlanta" "GA" "" -84.4827385 33.782299
+"Buckhead Branch" "269 Buckhead Avenue" "Atlanta" "GA" "" -84.379144 33.837746
+"Carver Homes Branch" "215 Lakewood Way, Suite 104" "Atlanta" "GA" "" -84.3967392 33.7007792
+"Cleveland Ave.-Roy Yancy, Sr., Branch" "47 Cleveland Avenue, Sw" "Atlanta" "GA" "" -84.3905627 33.6815324
+"College Park Branch" "3647 Main Street" "Atlanta" "GA" "" -84.44974 33.655686
+"Dogwood Branch" "1838 Donald Lee Hollowell Pkwy Nw" "Atlanta" "GA" "" -84.4470367 33.7740391
+"East Atlanta Branch" "400 Flat Shoals Ave. Se" "Atlanta" "GA" "" -84.3480902 33.7431206
+"Georgia Hill Branch" "250 Georgia Avenue, S.E." "Atlanta" "GA" "" -84.3795471 33.7370101
+"Kirkwood Branch" "11 Kirkwood Road, Se" "Atlanta" "GA" "" -84.3162086 33.7507904
+"Martin Luther King Jr., Branch" "409 John Wesley Dobbs Ave" "Atlanta" "GA" "" -84.373977 33.758569
+"Mechanicsville Branch" "400 Formwalt Street Sw" "Atlanta" "GA" "" -84.3950944 33.7437565
+"Northside Branch" "3295 Northside Parkway Nw" "Atlanta" "GA" "" -84.4253753 33.8451277
+"Peachtree Branch" "1315 Peachtree Street, N.E." "Atlanta" "GA" "" -84.3846492 33.7906557
+"Perry Homes Branch" "2121 Hollywood Rd Nw" "Atlanta" "GA" "" -84.4683901 33.813602
+"Ponce De Leon Branch" "980 Ponce De Leon Avenue Ne" "Atlanta" "GA" "" -84.3551243 33.7741745
+"Sandy Springs Branch" "395 Mount Vernon Hwy Ne" "Atlanta" "GA" "" -84.3742842 33.9239692
+"Southwest Regional" "3665 Cascade Road, S.W." "Atlanta" "GA" "" -84.5068224 33.7245501
+"Stewart-Lakewood" "2893 Lakewood Avenue" "Atlanta" "GA" "" -84.4019745 33.6971678
+"Thomasville Heights Branch" "1700 Thomasville Drive Se" "Atlanta" "GA" "" -84.356266 33.7037685
+"Washington Park-Annie L. Mcpheeters Branch" "1116 Martin Luther King, Jr., Dr." "Atlanta" "GA" "" -84.4240721 33.7543161
+"West End Branch" "525 Peeples Street, S.W." "Atlanta" "GA" "" -84.4208876 33.7403112
+"Auburn Library" "7 Seventh Street" "Auburn" "GA" "" -83.824385 34.011302
+"Appleby Branch" "2260 Walton Way" "Augusta" "GA" "" -82.0162183 33.4771777
+"Audiovisual-Tbc" "425 Ninth St" "Augusta" "GA" "" -81.9687146 33.4736577
+"East Central Georgia Regional Library System" "902 Greene Street" "Augusta" "GA" "30901" -81.969147 33.473604
+"Friedman Branch" "1447 Jackson Rd" "Augusta" "GA" "" -82.0689864 33.4716036
+"Headquarters Library (Main)" "902 Greene St." "Augusta" "GA" "" -81.969147 33.473604
+"Maxwell Branch" "1927 Lumkin Rd." "Augusta" "GA" "" -82.0131744 33.4178274
+"Wallace Branch" "1237 Laney Walker Blvd." "Augusta" "GA" "" -81.9803565 33.4662832
+"Sweetwater Valley Library" "2773 Sweetwater Street" "Austell" "GA" "" -84.6331892 33.8151348
+"Decatur County - Gilbert H. Gragg Library" "301 South Monroe Street" "Bainbridge" "GA" "" -84.5700336 30.9039384
+"Southwest Georgia Regional Library System" "301 S. Monroe Street" "Bainbridge" "GA" "39819" -84.5700336 30.9039384
+"Barnesville-Lamar County Library" "401 Thomaston Street" "Barnesville" "GA" "" -84.1570719 33.0517144
+"Appling County Public Library" "300 City Hall Drive" "Baxley" "GA" "" -81.2099241 32.0857197
+"Berlin Community Library" "285 Langford Street" "Berlin" "GA" "" -83.6238012 31.0690876
+"Blackshear Memorial Library" "600 South Main Street" "Blackshear" "GA" "" -82.238126 31.3021896
+"Marian Anderson Public Library" "424 Lee Street" "Blackshear" "GA" "" -82.2474251 31.300149
+"Union County Public Library" "194 Hospital Street" "Blairsville" "GA" "" -83.961924 34.872183
+"Lucy Maddox Memorial Library" "628 Columbia Road" "Blakely" "GA" "" -84.9525729 31.3713898
+"Fannin County Public Library" "400 West Main Street" "Blue Ridge" "GA" "" -84.3268084 34.864311
+"Bogart Branch Library" "200 S. Burson St." "Bogart" "GA" "" -83.531681 33.945783
+"Boston Carnegie Library" "250 South Main Street" "Boston" "GA" "" -83.790492 30.790397
+"Warren P. Sewell Memorial Library-Bowdon" "450 West Avenue" "Bowdon" "GA" "" -85.2570221 33.5441236
+"Bowman Branch" "1 Prince Avenue" "Bowman" "GA" "" -83.032151 34.2052671
+"Braselton Library" "65 Frances Street" "Braselton" "GA" "" -83.7636238 34.1077598
+"Warren P. Sewell Memorial Library-Bremen" "315 Hamilton Avenue" "Bremen" "GA" "" -85.1478511 33.7245869
+"Broxton Public Library" "105 Church Street" "Broxton" "GA" "" -82.8862569 31.6125919
+"Brunswick Glynn County Regional Library" "208 Gloucester Street" "Brunswick" "GA" "" -81.4959606 31.1484145
+"Three Rivers Regional Library System" "208 Gloucester St" "Brunswick" "GA" "31520" -81.4959606 31.1484145
+"Marion County Library" "5th Avenue" "Buena Vista" "GA" "" -84.5158915 32.3185326
+"Buford-Sugar Hill" "2100 Buford Hwy" "Buford" "GA" "" -83.9985203 34.1109516
+"Butler Public Library" "21o West Main Street" "Butler" "GA" "" -84.23622 32.557168
+"Byromville Public Library" "452 Main Street" "Byromville" "GA" "" -83.90647 32.2019884
+"Byron Public Library" "105 West Church Street" "Byron" "GA" "" -83.7589567 32.6506327
+"Roddenbery Memorial Library System" "320 North Broad Street" "Cairo" "GA" "39828" -84.2081565 30.87941
+"Calhoun-Gordon County Library" "100 N. Park Street" "Calhoun" "GA" "" -84.9524155 34.5032269
+"Desoto Trail Regional Library System" "145 East Broad Street" "Camilla" "GA" "31730" -84.2034894 31.2310358
+"Hickory Flat Public Library" "2740 East Cherokee Drive" "Canton" "GA" "" -84.4214352 34.1704298
+"R. T. Jones Memorial Library" "116 Brown Industrial Parkway" "Canton" "GA" "" -84.468936 34.237974
+"Neva Lomason Memorial Library" "710 Rome Street" "Carrollton" "GA" "" -85.0748441 33.5854005
+"Bartow County Library System" "429 West Main Street" "Cartersville" "GA" "30120" -84.8055423 34.1638411
+"Cartersville-Bartow County Library" "429 W. Main Street" "Cartersville" "GA" "" -84.8055423 34.1638411
+"Emmie Nelson Library" "108 Covered Bridge Road" "Cartersville" "GA" "" -84.9264829 34.1131023
+"Cave Spring Library" "10-B Cedartown Street" "Cave Spring" "GA" "" -85.336952 34.103795
+"Cedartown Library" "245 East Avenue" "Cedartown" "GA" "" -85.2517998 34.0148876
+"Centerville Branch Library" "310 E Church Street" "Centerville" "GA" "" -83.681986 32.623398
+"Chamblee Branch" "4115 Clairmont Rd" "Chamblee" "GA" "" -84.3089233 33.8823001
+"Embry Hills Branch" "3733 Chamblee-Tucker Road" "Chamblee" "GA" "" -84.2415226 33.8833991
+"Chatsworth-Murray County Library" "706 Old Dalton-Ellijay Road" "Chatsworth" "GA" "" -84.782579 34.779157
+"Chickamauga Public Library" "306 Cove Road" "Chickamauga" "GA" "" -85.2934741 34.8699784
+"Clarkesville-Habersham Co. Lib." "178 East Green Street" "Clarkesville" "GA" "" -83.5236381 34.6161014
+"Clarkston Branch" "951 N. Indian Creek Dr" "Clarkston" "GA" "" -84.2388074 33.8049996
+"Evans County Library" "701 West Main Street" "Claxton" "GA" "" -81.9156435 32.1610325
+"Rabun Co. Public Library" "73 Library Circle" "Clayton" "GA" "" -83.4040076 34.8794372
+"Clermont Library" "197 King Street" "Clermont" "GA" "" -83.7744154 34.4775511
+"White County Public Library-Cleveland Branch" "post office box 657" "Cleveland" "GA" "" -83.7632366 34.5970402
+"Tessie W. Norris Cochran-Bleckley County Pl" "315 Third Street Se" "Cochran" "GA" "" -83.3536082 32.3875251
+"James W. Merritt, Jr. Memorial Library" "259 East Main Street" "Colquitt" "GA" "" -84.7313096 31.1721778
+"Chattahoochee Valley Regional Library System" "3000 Macon Road" "Columbus" "GA" "31906" -84.9440487 32.4769318
+"Mildred L. Terry Branch Library" "640 Veterans Parkway" "Columbus" "GA" "" -84.9872996 32.4582255
+"North Columbus Branch Library" "5689 Armour Road" "Columbus" "GA" "" -84.9543614 32.5258517
+"South Columbus Branch Library" "2034 S Lumpkin Road" "Columbus" "GA" "" -84.9517372 32.4151038
+"W. C. Bradley Memorial Library" "1120 Bradley Drive" "Columbus" "GA" "" -84.975532 32.467322
+"Commerce Public Library" "1344 South Broad Street" "Commerce" "GA" "" -83.4526732 34.1996592
+"Conyers-Rockdale Library System" "864 Green Street" "Conyers" "GA" "30012" -84.0181108 33.6649281
+"Cordele-Crisp Carnegie Library" "115 East Eleventh Avenue" "Cordele" "GA" "" -83.7810959 31.9691477
+"Cornelia-Habersham Co. Lib." "301 North Main" "Cornelia" "GA" "" -83.528659 34.513909
+"Newton County Library System" "7116 Floyd Street" "Covington" "GA" "30014" -83.8392981 33.599275
+"Taliaferro County Library" "117 Askin Street" "Crawfordville" "GA" "" -82.8955219 33.5514613
+"Forsyth County Public Library System" "585 Dahlonega Road" "Cumming" "GA" "30040" -84.1317717 34.2205957
+"Sharon Forks Library" "2820 Old Atlanta Road" "Cumming" "GA" "" -84.1565526 34.1187797
+"Randolph County Branch Library" "200 East Pearl Street" "Cuthbert" "GA" "" -84.7901575 31.7718586
+"Lumpkin County Library" "342 Courthouse Hill" "Dahlonega" "GA" "" -83.9808798 34.5357058
+"New Georgia Public Library" "94 Ridge Road" "Dallas" "GA" "" -84.8879518 33.8079734
+"Paulding County Public Library" "1010 East Memorial Drive" "Dallas" "GA" "" -84.8258517 33.9326524
+"Dalton-Whitfield County Public Library" "310 Cappes Street" "Dalton" "GA" "" -84.9775748 34.7754957
+"Madison County Library" "1315 Hwy 98 W" "Danielsville" "GA" "" -83.2001186 34.1182119
+"Ida Hilton Public Library" "1105 Northway" "Darien" "GA" "" -81.4333892 31.3806518
+"Kinchafoonee Regional Library System" "913 Forrester Drive, Se" "Dawson" "GA" "39842" -84.4371905 31.7613811
+"Chestatee Regional Library System" "342 Allen Street" "Dawsonville" "GA" "30534" -84.108363 34.4187696
+"Covington Branch" "3500 Covington Hwy" "Decatur" "GA" "" -84.2508421 33.7672718
+"Decatur Library" "215 Sycamore St" "Decatur" "GA" "" -84.2940387 33.7741573
+"Dekalb County Public Library System" "215 Sycamore Street" "Decatur" "GA" "30030" -84.2940387 33.7741573
+"Flat Shoals Branch" "4022 Flat Shoals Pkwy" "Decatur" "GA" "" -84.25826 33.691393
+"Scott Candler Branch" "2644 Mcafee Road" "Decatur" "GA" "" -84.2817059 33.7321752
+"Toco Hill-Avis G. Williams Branch" "1282 Mcconnell Drive" "Decatur" "GA" "" -84.3070188 33.8092369
+"Wesley Chapel-William C. Brown Branch" "2861 Wesley Chapel Road" "Decatur" "GA" "" -84.2211535 33.7043247
+"Monroe Memorial Library" "232 Broad Street" "Doerun" "GA" "" -83.9194841 31.3213279
+"Seminole County Public Library" "104 West Fourth Street" "Donalsonville" "GA" "" -84.8793633 31.0389933
+"Doraville Branch" "3748 Central Ave" "Doraville" "GA" "" -84.2783348 33.9015004
+"Douglas-Coffee County Public Library" "201 South Coffee Avenue" "Douglas" "GA" "" -82.8470328 31.5080349
+"Satilla Regional Library System" "200 S. Madison Avenue, Suite D" "Douglas" "GA" "31533" -82.849443 31.5081946
+"Douglas County Public Library" "6810 Selman Drive" "Douglasville" "GA" "" -84.7523374 33.7431225
+"Laurens County Library" "801 Bellevue Avenue" "Dublin" "GA" "" -82.9163239 32.5377907
+"Duluth" "3480 Duluth Park Lane" "Duluth" "GA" "" -84.1587391 34.0007997
+"Dunwoody Branch" "5339 Chamblee-Dunwoody Rd" "Dunwoody" "GA" "" -84.3317741 33.9446505
+"East Point Branch" "2757 Main Street" "East Point" "GA" "" -84.4406947 33.6803507
+"Murrell Memorial-Dodge County Public Library" "505 Second Avenue Sw" "Eastman" "GA" "" -83.1798609 32.192918
+"Ocmulgee Regional Library System" "531 Second Ave." "Eastman" "GA" "31023" -83.1800748 32.1927162
+"Eatonton - Putnam County Library" "309 North Madison Avenue" "Eatonton" "GA" "" -83.392128 33.329526
+"Calhoun County Branch Library" "227 East Hartford Street" "Edison" "GA" "" -84.7435391 31.558071
+"Elbert County Public Library System" "345 Heard Street" "Elberton" "GA" "30635" -82.859526 34.107382
+"Schley County Library" "234 South Broad Street" "Ellaville" "GA" "" -84.308772 32.2339992
+"Gilmer County Library" "15 Dalton Street" "Ellijay" "GA" "" -84.4825618 34.7010549
+"Gibbs Memorial Library" "326 Belair Road" "Evans" "GA" "" -82.140771 33.524287
+"Fairburn-Hobgood-Palmer Branch" "60 Valley View Drive" "Fairburn" "GA" "" -84.5849522 33.5667996
+"Fayette County Public Library" "1821 Heritage Parkway" "Fayetteville" "GA" "" -84.457466 33.4470105
+"Fitzgerald-Ben Hill County Library" "123 North Main Street" "Fitzgerald" "GA" "31750" -83.2545634 31.7155852
+"Charlton County Public Library" "701 North Cross Street" "Folkston" "GA" "" -81.99411 30.8398443
+"Forest Park Branch Library" "696 Main Street" "Forest Park" "GA" "" -84.367292 33.622231
+"Monroe County Library" "62 West Main Street" "Forsyth" "GA" "" -83.9410978 33.034167
+"Clay County Branch Library" "208 South Hancock Street" "Fort Gaines" "GA" "" -85.0498096 31.6082157
+"Peach County Public Libraries System" "315 Martin Luther King Jr. Drive" "Fort Valley" "GA" "31030" -83.8840346 32.5514125
+"Thomas Public Library" "213 Persons Street" "Fort Valley" "GA" "" -83.8877098 32.5559767
+"Heard County Public Library" "564 Main Street" "Franklin" "GA" "" -85.0950507 33.277656
+"Blackshear Place Library" "2927 Atlanta Highway" "Gainesville" "GA" "" -83.858138 34.2273978
+"East Hall Branch And Special Needs Library" "2434 Old Cornelia Highway" "Gainesville" "GA" "" -83.7770082 34.3137889
+"Hall County Library System" "127 Main Street Nw" "Gainesville" "GA" "30501" -83.8285138 34.3001677
+"Glascock County" "738 Railroad Street" "Gibson" "GA" "" -82.5929014 33.2305922
+"Glennville Public Library" "408 East Barnard Street" "Glennville" "GA" "" -81.9241227 31.9349372
+"Grantville Public Library" "123 La Grange Street" "Grantville" "GA" "" -84.8391813 33.2325519
+"Jones County Public Library" "146 Railroad Avenue" "Gray" "GA" "" -83.5347489 33.0062288
+"Greene County Library" "610 South Main Street" "Greensboro" "GA" "" -83.1830279 33.568723
+"Greenville Area Public Library" "10 Gilbert Street" "Greenville" "GA" "" -84.7102795 33.0266601
+"Flint River Regional Library System" "800 Memorial Drive" "Griffin" "GA" "30223" -84.2534006 33.2452328
+"Euchee Creek Branch" "5907 Euchee Creek Dr." "Grovetown" "GA" "" -82.2647211 33.476313
+"Slater Hahira Library" "220 East Main Street" "Hahira" "GA" "" -83.3686425 30.9915667
+"Harris County Public Library" "138 North College Street" "Hamilton" "GA" "" -84.874306 32.760913
+"Fortson Public Library" "14 Old Griffin Rd" "Hampton" "GA" "" -84.2880349 33.381348
+"Hapeville Branch" "525 King Arnold Street" "Hapeville" "GA" "" -84.404688 33.658581
+"Harlem Branch" "375 N. Louisville Street" "Harlem" "GA" "" -82.310523 33.418871
+"Hart County Library System" "150 Benson Street" "Hartwell" "GA" "30643" -82.9304194 34.3497893
+"M. E. Roden Memorial Library" "400 Commerce Street" "Hawkinsville" "GA" "" -83.4697045 32.2832569
+"Hazlehurst-Jeff Davis Public Library" "700 Cromartie Street" "Hazlehurst" "GA" "" -82.5908807 31.8758461
+"White County Public Library-Helen Branch" "box 1088" "Helen" "GA" "" -83.7315675 34.7014839
+"Towns County Public Library" "99 South Berrong Street" "Hiawassee" "GA" "" -83.7566864 34.9468039
+"Liberty" "236 Memorial Drive" "Hinesville" "GA" "" -81.5992958 31.8516906
+"Maude P. Ragsdale Public Library" "4969 Hiram-Acworth Highway" "Hiram" "GA" "" -84.7464982 33.91311
+"Hogansville Public Library" "600 East Main Street" "Hogansville" "GA" "" -84.909822 33.172113
+"Banks County Public Library" "226 Hwy 51 S," "Homer" "GA" "" -83.4775229 34.3450254
+"Clinch County Public Library" "507 W. Dame Street" "Homerville" "GA" "" -82.7556985 31.035729
+"Ideal Public Library" "605 Tom Watson Avenue" "Ideal" "GA" "" -84.188698 32.376544
+"East Wilkinson County Library" "154 E. Main Street" "Irwinton" "GA" "" -83.1694739 32.8156367
+"Jackson-Butts County Public Library" "436 East College Street" "Jackson" "GA" "" -83.9628893 33.2928663
+"Jakin Public Library" "p. o. box 234" "Jakin" "GA" "" -84.98215 31.0910162
+"Pickens County Library" "100 Library Lane" "Jasper" "GA" "" -84.4208165 34.4738183
+"Twiggs County Public Library" "151 Ash Street" "Jeffersonville" "GA" "" -83.3424114 32.6893165
+"Wayne County Library" "759 Sunset Boulevard" "Jesup" "GA" "" -81.9043666 31.6119501
+"Clayton County Library System" "865 Battle Creek Road" "Jonesboro" "GA" "30236" -84.3633345 33.5532549
+"Jonesboro Branch Library" "124 Smith Street" "Jonesboro" "GA" "" -84.356684 33.5229069
+"Kennesaw Library" "2250 Lewis Street" "Kennesaw" "GA" "" -84.6163491 34.0244425
+"West Cobb Regional Library" "1750 Dennis Kemp Lane" "Kennesaw" "GA" "" -84.7026714 33.9986177
+"Camden County Public Library" "1410 Highway 40 East" "Kingsland" "GA" "" -81.6456403 30.787004
+"Cherokee Regional Library System" "305 South Duke Street" "Lafayette" "GA" "30728" -85.280923 34.702476
+"Lagrange Memorial Library" "115 Alford Street" "Lagrange" "GA" "" -85.038128 33.0378039
+"Johnson Lakes Library" "720 Lakes Blvd" "Lake Park" "GA" "" -83.2112121 30.6838105
+"Miller Lakeland Library" "124 South Valdosta Road" "Lakeland" "GA" "" -83.0752357 31.0408795
+"Lavonia-Carnegie Library" "28 Hartwell Rd" "Lavonia" "GA" "" -83.1025907 34.4345829
+"Collins Hill" "455 Camp Perrin Rd" "Lawrenceville" "GA" "" -84.0023128 34.0154716
+"Five Forks" "2780 Five Forks Trickum Rd" "Lawrenceville" "GA" "" -84.0557675 33.8930893
+"Gwinnett County Public Library System" "1001 Lawrenceville Highway" "Lawrenceville" "GA" "30045" -84.0147313 33.9424062
+"Lee County Public Library System" "245 Walnut Avenue, South" "Leesburg" "GA" "31763" -84.1717355 31.722149
+"Redbone Library" "104 Thundering Springs Road" "Leesburg" "GA" "" -84.0694331 31.6741164
+"Oglethorpe County Library" "858 Athens Rd." "Lexington" "GA" "" -83.131993 33.888869
+"Lilburn" "788 Hillcrest Rd. Nw" "Lilburn" "GA" "" -84.1456186 33.9017059
+"Mountain Park" "1210 Pounds Rd. Sw" "Lilburn" "GA" "" -84.1203325 33.8472774
+"Lincoln County Library" "181 N. Peachtree St." "Lincolnton" "GA" "" -82.4778415 33.7943654
+"Lithia Springs Public Library" "7100 Junior High Drive" "Lithia Springs" "GA" "" -84.6593203 33.7808985
+"Bruce Street Branch" "2484 Bruce Street" "Lithonia" "GA" "" -84.0982231 33.7140721
+"Lithonia-Davidson Branch" "6821 Church Street" "Lithonia" "GA" "" -84.1090925 33.7122467
+"Salem-Panola Branch" "5137 Salem Road" "Lithonia" "GA" "" -84.1779532 33.6780832
+"Locust Grove Public Library" "3918 Highway 42" "Locust Grove" "GA" "" -84.109595 33.34574
+"Okelly Memorial Library" "363 Conyers Road" "Loganville" "GA" "" -83.9032795 33.8381708
+"Jefferson County Library System" "306 E. Broad Street" "Louisville" "GA" "30434" -82.4069836 32.9975727
+"Louisville Public Library" "306 E. Broad St." "Louisville" "GA" "" -82.4069836 32.9975727
+"Long County Public Library" "26 Main Street" "Ludowici" "GA" "" -81.7391403 31.7020672
+"Nelle Brown Memorial Public Library" "166 West Liberty Street" "Lyons" "GA" "" -82.3237489 32.202621
+"South Cobb Library" "5801 Mableton Parkway" "Mableton" "GA" "" -84.5716727 33.8124913
+"Middle Georgia Regional Library System" "1180 Washington Avenue" "Macon" "GA" "31201" -83.6387163 32.8385818
+"Riverside Branch Library" "110 Holiday Drive North" "Macon" "GA" "" -83.6867893 32.8983065
+"Rocky Creek Branch Library" "1504 Rocky Creek Road" "Macon" "GA" "" -83.6713808 32.7912189
+"Shurling Branch Library" "1765 Shurling Drive" "Macon" "GA" "" -83.5942255 32.8610426
+"West Bibb Branch Library" "5580 Thomaston Road" "Macon" "GA" "" -83.7440787 32.8323715
+"Morgan County Library" "1131 East Avenue" "Madison" "GA" "" -83.4537759 33.5954041
+"Manchester Public Library" "218 Perry Street" "Manchester" "GA" "" -84.6172963 32.8600271
+"Cobb County Public Library System" "266 Roswell Street" "Marietta" "GA" "30060" -84.5440069 33.9500185
+"East Marietta Library" "2051 Lower Roswell Road" "Marietta" "GA" "" -84.4929831 33.9501886
+"Gritters Library" "880 Shaw Park Road" "Marietta" "GA" "" -84.524238 34.02516
+"Hattie G. Wilson Library" "350 Lemon Street" "Marietta" "GA" "" -84.5419592 33.9552163
+"Kemp Memorial Library" "4029 Due West Road" "Marietta" "GA" "" -84.6684906 33.966482
+"Merchants Walk Library" "1315 Johnson Ferry Road" "Marietta" "GA" "" -84.4252394 33.9807384
+"Mountain View Library" "3320 Sandy Plains Road" "Marietta" "GA" "" -84.4657452 34.0313292
+"Sibley Library" "1539 South Cobb Drive" "Marietta" "GA" "" -84.5480813 33.9156474
+"Stratton Library" "1100 Powder Springs Road" "Marietta" "GA" "" -84.5849393 33.9176118
+"Maysville Public Library" "9247 Gillsville Road" "Maysville" "GA" "" -83.5625295 34.2539696
+"Henry County Library System" "1001 Florence Mcgarity Pkwy" "Mcdonough" "GA" "30252" -84.1266922 33.4427305
+"Telfair County Public Library" "815 College Street" "Mcrae" "GA" "" -82.9091346 32.0686015
+"L. C. Anderson Memorial Library" "325 West Vertia Street" "Metter" "GA" "" -82.0641975 32.3959023
+"Midville Branch" "149 Trout" "Midville" "GA" "" -82.2365078 32.8182555
+"Midway-Riceboro" "1165 Bill Martin Road" "Midway" "GA" "" -81.4306642 31.805769
+"Lake Sinclair Library" "3061 North Columbia Street" "Milledgeville" "GA" "" -83.289647 33.184708
+"Twin Lakes Library System" "151 South Jefferson Street" "Milledgeville" "GA" "31061" -83.2252782 33.0805955
+"Jenkins County Memorial Library" "223 Daniel Street" "Millen" "GA" "" -81.939787 32.8042897
+"Monroe-Walton County Library" "217 West Spring Street" "Monroe" "GA" "" -83.715512 33.7939014
+"Montezuma Public Library" "506 N. Dooly Street" "Montezuma" "GA" "" -84.0258041 32.3088634
+"Jasper County Library" "319 East Green Street" "Monticello" "GA" "" -83.680753 33.304035
+"Morrow Branch Library" "6225 Maddox Road" "Morrow" "GA" "" -84.314123 33.584986
+"Moultrie-Colquitt County Library System" "204 5th Street Se" "Moultrie" "GA" "31768" -83.7833048 31.1772135
+"Montgomery County Public Library" "215 Railroad Street" "Mt. Vernon" "GA" "" -82.5653194 32.1866301
+"Murrayville Library" "4796 Thompson Bridge Road" "Murrayville" "GA" "" -83.8911676 34.4016999
+"Carrie Dorsey Perry Memorial Library" "315 West Marion Avenue" "Nashville" "GA" "" -83.2531954 31.2074753
+"Coweta County Public Library System" "85 Literary Lane" "Newnan" "GA" "30265" -84.669793 33.38561
+"Newnan-Coweta Public Library" "25 Hospital Road" "Newnan" "GA" "" -84.8167974 33.3877318
+"Baker County" "100 River Street" "Newton" "GA" "" -84.3124312 31.2843828
+"Nicholls Public Library" "108 North Liberty Street" "Nicholls" "GA" "" -82.6349684 31.5160753
+"Harold S. Swindle Public Library" "5466 U.S. Hwy. 441 South" "Nicholson" "GA" "" -83.4223844 34.0746558
+"Norcross" "6025 Buford Hwy." "Norcross" "GA" "" -84.2179562 33.934485
+"Peachtree Corners" "5570 Spalding Dr." "Norcross" "GA" "" -84.2263137 33.970187
+"Irwin County Library" "310 South Beech Street" "Ocilla" "GA" "" -83.2516315 31.5915819
+"Pavo Public Library" "219 E. Harris Street" "Pavo" "GA" "" -83.7339204 30.9597655
+"Peachtree City Library" "201 Willowbend Road" "Peachtree City" "GA" "" -84.5805645 33.400456
+"Pearson Public Library" "202 E. Bullard Ave." "Pearson" "GA" "" -82.8488295 31.2984569
+"Pelham-Carnegie Library" "133 Hand Avenue" "Pelham" "GA" "" -84.1533174 31.1275305
+"Pembroke Public Library" "1018 Camelia Drive" "Pembroke" "GA" "" -81.611823 32.1468837
+"Houston County Public Libraries System" "1201 Washington Street" "Perry" "GA" "31069" -83.7336689 32.4610208
+"West Chatham" "216 S Rogers Street" "Pooler" "GA" "" -81.2482647 32.115089
+"Powder Springs Library" "4262 Marietta Street" "Powder Springs" "GA" "" -84.6784357 33.8589814
+"Webster County Library" "572 Washington Street" "Preston" "GA" "" -84.537649 32.0666511
+"Brooks County Public Library System" "404 Barwick Rd." "Quitman" "GA" "31643" -83.5707859 30.7886564
+"Redan-Trotti Branch" "1569 Wellborn Road" "Redan" "GA" "" -84.1422632 33.7457471
+"Tattnall County Library" "129 Tattnall Street" "Reidsville" "GA" "" -82.1213525 32.0827419
+"Reynolds Community Library" "124e Talbot Street" "Reynolds" "GA" "" -84.0976714 32.5597326
+"Parks Memorial Library" "112 Wall Street" "Richland" "GA" "" -84.6675412 32.0831985
+"Richmond Hill Public Library" "9607 Ford Avenue" "Richmond Hill" "GA" "" -81.3150745 31.9524735
+"South Effingham" "17th Street Highway 21" "Rincon" "GA" "" -81.2346467 32.2919304
+"Catoosa County Library At Benton Place Campus" "108 Catoosa Circle" "Ringgold" "GA" "" -85.181821 34.935917
+"Catoosa County Library At Ringgold" "404 Gym Street" "Ringgold" "GA" "" -85.1091173 34.9159099
+"Riverdale Branch Library" "420 Valley Hill Road" "Riverdale" "GA" "" -84.4032954 33.5699113
+"Crawford County Public Library" "340 Mccrary Street" "Roberta" "GA" "" -84.0117942 32.7248189
+"Rockmart Library" "134 West Elm Street" "Rockmart" "GA" "" -85.0517849 33.9982687
+"Rome-Floyd County Library" "205 Riverside Parkway Ne" "Rome" "GA" "" -85.1690977 34.2580907
+"Sara Hightower Regional Library System" "205 Riverside Parkway, Ne" "Rome" "GA" "30161" -85.1690977 34.2580907
+"Ephesus Public Library" "200 Rogers Street" "Roopville" "GA" "30170" -85.2513266 33.4058662
+"Rossville Public Library" "504 Mcfarland Avenue" "Rossville" "GA" "" -85.2891339 34.9801664
+"Roswell Regional Branch" "115 Norcross Street" "Roswell" "GA" "" -84.3579384 34.0250084
+"Royston Branch Library" "684 Franklin Springs St.." "Royston" "GA" "" -83.1212799 34.2846788
+"Rosa M. Tarbutton Memorial Library" "314 S. Harris Street" "Sandersville" "GA" "" -82.8104738 32.9778578
+"Sardis Branch" "905 C. H. Perry Ave." "Sardis" "GA" "" -81.759876 32.976343
+"Bull Street" "2002 Bull Street" "Savannah" "GA" "" -81.0994579 32.0577399
+"Carnegie" "537 East Henry Street" "Savannah" "GA" "" -81.0912993 32.0612907
+"Forest City" "1501 Stiles Avenue" "Savannah" "GA" "" -81.1212204 32.0642834
+"Hitch" "840 Hitch Drive" "Savannah" "GA" "" -81.081374 32.070858
+"Islands Branch" "125 Wilmington Island Road" "Savannah" "GA" "" -80.9872618 32.0076981
+"Kayton" "624 W Gwinnett Street" "Savannah" "GA" "" -81.104516 32.0687
+"Ogeechee" "1820 Ogeechee Road" "Savannah" "GA" "" -81.109449 32.0615499
+"Oglethorpe Mall" "7 Mall Annex" "Savannah" "GA" "" -81.0998342 32.0835407
+"Ola Wyeth" "4 East Bay Street" "Savannah" "GA" "" -81.0902577 32.0806685
+"Port City Branch Library" "3501 Houlihan Avenue" "Savannah" "GA" "" -81.1413127 32.096959
+"Port Wentworth" "102 Aberfeldy Street" "Savannah" "GA" "" -81.161937 32.1502679
+"W W Law" "909 East Bolton Street" "Savannah" "GA" "" -81.082939 32.0625829
+"Scottdale-Tobie Grant Branch" "644 Parkdale Drive" "Scottdale" "GA" "" -84.2559196 33.7956074
+"Senoia Area Public Library" "62 Main Street" "Senoia" "GA" "" -84.554159 33.3015315
+"Smithville Library" "116 Main Street" "Smithville" "GA" "" -84.252017 31.901918
+"Lewis A. Ray Library" "4500 Oakdale Road" "Smyrna" "GA" "" -84.4944902 33.8445787
+"Smyrna Public Library" "100 Village Green Circle" "Smyrna" "GA" "" -84.5172267 33.885537
+"Elizabeth H. Williams" "2740 Lenora Church Rd." "Snellville" "GA" "" -84.0128064 33.8444993
+"W. H. Stanton Memorial Library" "1045 West Hightower Trail" "Social Circle" "GA" "" -83.7301398 33.6777294
+"Treutlen County Library" "2nd Street" "Soperton" "GA" "" -82.5895972 32.3802751
+"Hancock County Library" "403 East Broad Street" "Sparta" "GA" "" -82.9713992 33.2761698
+"Effingham" "810 Highway 119 South" "Springfield" "GA" "" -81.3314749 32.3611211
+"St. Marys Public Library" "100 Herb Bauer Drive" "St. Marys" "GA" "" -81.5526481 30.7414029
+"Statesboro Regional Library System" "124 South Main Street" "Statesboro" "GA" "30458" -81.783318 32.4455473
+"Statham Public Library" "330 Jefferson Street" "Statham" "GA" "" -83.596196 33.9650109
+"Cochran Public Library" "4602 N. Henry Blvd" "Stockbridge" "GA" "" -84.2301352 33.544231
+"Hairston Crossing Branch" "4911 Redan Road" "Stone Mountain" "GA" "" -84.1920134 33.7588599
+"Stone Mountain-Sue Kellogg Branch" "952 Leon Street" "Stone Mountain" "GA" "" -84.1713029 33.8061596
+"Chattooga County Library System" "360 Farrar Drive" "Summerville" "GA" "30747" -85.331657 34.491488
+"Franklin Memorial Library" "331 West Main Street" "Swainsboro" "GA" "" -82.3410331 32.5931614
+"Screven-Jenkins Regional Library System" "106 S. Community Dr." "Sylvania" "GA" "30467" -81.6433254 32.7498783
+"Margaret Jones Memorial Library" "205 Pope Street" "Sylvester" "GA" "" -83.8343245 31.5293559
+"Tallapoosa Public Library" "388 Bowdon Street" "Tallapoosa" "GA" "" -85.2950907 33.7658402
+"Hightower Memorial Library" "800 West Gordon Street" "Thomaston" "GA" "" -84.3338883 32.8872196
+"Thomas County Public Library System" "201 North Madison Street" "Thomasville" "GA" "31792" -83.9831601 30.8378437
+"Thomson-Mcduffie County Library" "338 Main Street" "Thomson" "GA" "" -82.5043128 33.469638
+"Thunderbolt" "2708 Mechanics Avenue" "Thunderbolt" "GA" "" -81.0533712 32.0342207
+"Coastal Plain Regional Library System" "2014 Chestnut Avenue" "Tifton" "GA" "31794" -83.501714 31.4737637
+"Toccoa-Stephens County Public Library" "121 West Savannah Street" "Toccoa" "GA" "" -83.333265 34.5807587
+"Dade County Public Library" "102 Court Street" "Trenton" "GA" "" -85.5097954 34.8728011
+"Trion Public Library" "15 Bulldog Boulevard" "Trion" "GA" "" -85.3094538 34.5336034
+"Northlake-Barbara Loar Branch" "3772 Lavista Road" "Tucker" "GA" "" -84.2610724 33.841838
+"Tucker-Reid H. Cofer Branch" "4316 Church Street" "Tucker" "GA" "" -84.2117283 33.8561117
+"Tybee" "403 Butler Avenue" "Tybee Island" "GA" "" -80.8430941 32.0086952
+"Tyrone Public Library" "881 Senoia Road" "Tyrone" "GA" "" -84.5963151 33.475203
+"Elizabeth Harris Library" "312 Harmon Street" "Unadilla" "GA" "" -83.7348882 32.2681237
+"South Fulton Regional" "4055 Flat Shoals Road" "Union City" "GA" "" -84.5197348 33.5871519
+"Mccullen Southside Library" "527 Griffin Avenue" "Valdosta" "GA" "" -83.2654018 30.8187657
+"South Georgia Regional Library System" "300 Woodrow Wilson Drive" "Valdosta" "GA" "31602" -83.2855274 30.860037
+"Ladson Genealogy Library" "119 Church Street" "Vidalia" "GA" "" -82.4134186 32.2171578
+"Ohoopee Regional Library System" "610 Jackson Street" "Vidalia" "GA" "30474" -82.4146742 32.2113777
+"Dooly County Library" "1200 East Union Street" "Vienna" "GA" "" -83.767469 32.0866745
+"Villa Rica Public Library" "70 Horace Luther Drive" "Villa Rica" "GA" "" -84.9315837 33.7337034
+"Wadley Public Library" "11 W. College Ave." "Wadley" "GA" "" -82.405003 32.86818
+"Nola Brantley Memorial Library" "721 Watson Blvd." "Warner Robins" "GA" "" -83.607963 32.618346
+"Warren County Public Library" "101 Warren Street" "Warrenton" "GA" "" -82.6620139 33.4075154
+"Bartram Trail Regional Library System" "204 E. Liberty Street" "Washington" "GA" "30673" -82.7380503 33.7354927
+"Okefenokee Regional Library System" "401 Lee Avenue" "Waycross" "GA" "31501" -82.3535989 31.2074944
+"Burke County Library" "412 4th Street" "Waynesboro" "GA" "" -82.0138365 33.0834984
+"Piedmont Regional Library System" "189 Bell View Street" "Winder" "GA" "30680" -83.7231539 33.9981705
+"Winterville Branch Library" "115 Marigold Land" "Winterville" "GA" "" -83.2782101 33.9670589
+"Woodstock Public Library" "510 North Main Street" "Woodstock" "GA" "" -84.5191116 34.1013118
+"Rose Creek Public Library" "4476 Towne Lake Parkway" "Wookstock" "GA" "" -84.5809933 34.1286759
+"Mccollum Public Library" "405 N. Main St." "Wrens" "GA" "" -82.385788 33.21266
+"Harlie Fulford Memorial Library" "301 West Elm Street" "Wrightsville" "GA" "" -82.7375572 32.7273571
+"Yatesville Public Library" "77 Childs Avenue" "Yatesville" "GA" "" -84.1452907 32.9118654
+"Mountain Regional Library System" "698 Miller Street" "Young Harris" "GA" "30582" -83.849081 34.9379729
+"J. Joel Edwards Public Library" "618 Hwy 19 South" "Zebulon" "GA" "" -84.3421137 33.107549

@@ -1,0 +1,654 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Addison Branch Library" "102 South Talbot Street" "Addison" "MI" "" -84.346954 41.986399
+"Adrian Public Library" "143 East Maumee Street" "Adrian" "MI" "49221" -84.0347993 41.8986679
+"Lenawee County Library" "4459 West Us 223" "Adrian" "MI" "49221" -84.0835493 41.9054894
+"Alanson Area Public Library" "7631 Burr Avenue" "Alanson" "MI" "49706" -84.789711 45.440092
+"Albion District Library" "501 South Superior Street" "Albion" "MI" "49224" -84.7525767 42.2419499
+"Helena Township Public Library" "8751 Helena Road" "Alden" "MI" "49612" -85.2674319 44.8812468
+"Algonac-Clay Township Library" "2011 Saint Clair River Drive" "Algonac" "MI" "" -82.523888 42.626733
+"Allegan Public Library" "331 Hubbard Street" "Allegan" "MI" "49010" -85.8514111 42.5277226
+"Allen Park Public Library" "8100 Allen Road" "Allen Park" "MI" "" -83.2187569 42.2497806
+"Allendale Township Library" "6175 Library Lane" "Allendale" "MI" "49401" -85.9387763 42.9741655
+"Alma Public Library" "351 North Court Street" "Alma" "MI" "48801" -84.6548062 43.3786173
+"Almont District Library" "213 West Saint Clair Street" "Almont" "MI" "48003" -83.0473398 42.920499
+"Alpena County Library" "211 North First Avenue" "Alpena" "MI" "49707" -83.4310953 45.0619772
+"Kent District Library - Alto" "071 Linfield Ave." "Alto" "MI" "49302" -85.382949 42.8555969
+"Ann Arbor District Library" "343 South Fifth Avenue" "Ann Arbor" "MI" "48104" -83.7456585 42.2781936
+"Malletts Creek Branch Library" "3090 E. Eisenhower Parkway" "Ann Arbor" "MI" "" -83.7179922 42.2436533
+"Pittsfield Branch Library" "2359 Oak Valley Drive" "Ann Arbor" "MI" "" -83.7780154 42.2526001
+"Washtenaw Library For The Blind And Physically Disabled" "343 S. Fifth Ave." "Ann Arbor" "MI" "48104" -83.7456585 42.2781936
+"West Branch Library" "2503 Jackson Avenue" "Ann Arbor" "MI" "" -83.7827306 42.2786067
+"Arcadia Township Branch Library" "3422 Lake St." "Arcadia" "MI" "" -86.2326988 44.4932477
+"Armada Free Public Library" "73930 Church Street" "Armada" "MI" "48005" -82.882878 42.842048
+"Ashley District Library" "104 New Street" "Ashley" "MI" "48806" -84.4738437 43.1865955
+"Athens Community Library" "106 East Burr Oak Street" "Athens" "MI" "49011" -85.2354438 42.0884141
+"Montmorency County Public Libraries" "11901 Haymeadow" "Atlanta" "MI" "49709" -84.1551996 45.0085867
+"Attica Township Library" "4302 Peppermill Road" "Attica" "MI" "" -83.1730381 43.0317941
+"Au Gres Branch Library" "300 North Mackinaw" "Au Gres" "MI" "" -83.6857337 44.0685855
+"Auburn Hills Public Library" "3400 East Seyburn Drive" "Auburn Hills" "MI" "48326" -83.2227888 42.6710268
+"Augusta-Ross Township District Library" "105 South Webster Street" "Augusta" "MI" "49012" -85.3517853 42.3344693
+"Bad Axe Area District Library" "200 South Hanselman Street" "Bad Axe" "MI" "48413" -82.9973924 43.8010919
+"Pathfinder Community Library" "812 Michigan Avenue" "Baldwin" "MI" "49304" -85.8516975 43.8957988
+"Shiawassee Township Library" "625 Grand River Road" "Bancroft" "MI" "" -84.0633546 42.8784828
+"Bangor Branch Library" "420 Division Street" "Bangor" "MI" "" -86.1139565 42.3133287
+"Barryton Public Library" "198 Northern Avenue" "Barryton" "MI" "49305" -85.1446871 43.7500466
+"Willard Public Library" "7 West Van Buren Street" "Battle Creek" "MI" "49017" -85.1807101 42.3210073
+"Bay City Branch Library" "708 Center Avenue" "Bay City" "MI" "" -83.8827636 43.5972554
+"Bay County Library System" "500 Center Avenue" "Bay City" "MI" "48708" -83.885753 43.5971944
+"Sage Branch Library" "4101 East Wilder Road" "Bay City" "MI" "" -83.8903911 43.6262228
+"South Side Branch Library" "311 Lafayette Avenue" "Bay City" "MI" "" -83.8955457 43.5796359
+"Keddie-Norconk Memorial Library" "12325 Virginia Street" "Bear Lake" "MI" "" -86.1461151 44.421723
+"Beaver Island District Library" "26400 Donegal Bay Road" "Beaver Island" "MI" "49782" -85.523327 45.7464661
+"Beaverton Branch Library" "128 West Saginaw Street" "Beaverton" "MI" "" -84.4869922 43.8812425
+"Alvah N. Belding Memorial Library" "302 East Main Street" "Belding" "MI" "48809" -85.2268185 43.0978464
+"Bellaire Public Library" "111 South Bridge Street" "Bellaire" "MI" "49615" -85.2099548 44.9745475
+"Fred C. Fischer Public Library" "167 Fourth Street" "Belleville" "MI" "" -83.4910289 42.2073629
+"Bellevue Township Library" "212 North Main Street" "Bellevue" "MI" "49021" -85.0180944 42.4453078
+"Benton Harbor Public Library" "213 East Wall Street" "Benton Harbor" "MI" "49022" -86.4532363 42.1159763
+"Benzonia Public Library" "891 Michigan Avenue" "Benzonia" "MI" "49616" -86.0991979 44.6195454
+"Berkley Public Library" "3155 Coolidge Highway" "Berkley" "MI" "48072" -83.184303 42.5010142
+"Berrien Springs Community Library" "215 West Union Street" "Berrien Springs" "MI" "49103" -86.3418061 41.9487299
+"Bessemer Public Library" "411 South Sophie Street" "Bessemer" "MI" "49911" -90.0503904 46.4780043
+"Darcy Library Of Beulah" "7238 Commercial Street" "Beulah" "MI" "49617" -86.0902081 44.6274045
+"Big Rapids Community Library" "426 South Michigan Avenue" "Big Rapids" "MI" "49307" -85.4822093 43.6933255
+"Thomas E. Fleschner Memorial Library" "11935 Silver Creek Drive" "Birch Run" "MI" "48415" -83.7868435 43.2507698
+"Baldwin Public Library" "300 West Merrill Street" "Birmingham" "MI" "48009" -83.2177377 42.5454716
+"Rolland Township Branch Library" "430 Harry Street" "Blanchard" "MI" "" -85.0780569 43.5207999
+"Schultz-Holmes Library" "407 South Lane Street" "Blissfield" "MI" "" -83.864101 41.828718
+"Bloomfield Township Public Library" "1099 Lone Pine Road" "Bloomfield Hills" "MI" "48302" -83.2816464 42.5658391
+"Bloomingdale Branch Library" "109 East Kalamazoo Avenue" "Bloomingdale" "MI" "" -85.9567521 42.3830466
+"Boyne District Library" "201 East Main Street" "Boyne City" "MI" "49712" -85.013292 45.211931
+"Boyne Falls Branch Library" "2290 Railroad Street" "Boyne Falls" "MI" "" -84.9157884 45.1679656
+"Howe Memorial Library" "128 East Saginaw Street" "Breckenridge" "MI" "48615" -84.4786666 43.4079657
+"Bridgman Public Library" "4460 Lake Street" "Bridgman" "MI" "49106" -86.5616207 41.9425708
+"Brighton District Library" "100 Library Drive" "Brighton" "MI" "48116" -83.7913945 42.5408766
+"Britton Branch Library" "120 College Avenue" "Britton" "MI" "" -83.8314492 41.9857638
+"Bronson Branch Library" "207 North Matteson Road" "Bronson" "MI" "" -85.1952193 41.9131657
+"Brooklyn Branch Library" "207 North Main" "Brooklyn" "MI" "" -84.247278 42.108468
+"Brown City Public Library" "4207 Main Street" "Brown City" "MI" "48416" -82.9881594 43.2123907
+"Buchanan District Library" "128 East Front Street" "Buchanan" "MI" "49107" -86.3598434 41.8270571
+"Buckley Branch Library" "305 South First Street" "Buckley" "MI" "" -85.6768576 44.506639
+"Burlington Township Library" "135 Elm Street" "Burlington" "MI" "49029" -85.0783214 42.1059503
+"Salem Township Library" "3007 142nd Ave" "Burnips" "MI" "49314" -85.8410393 42.7245956
+"Burr Oak Township Library" "220 South Second Street" "Burr Oak" "MI" "49030" -85.3168199 41.8458631
+"Taymouth Township Library" "2361 East Burt Road" "Burt" "MI" "48417" -83.907229 43.236293
+"Baker Park Library" "3410 South Grand Traverse" "Burton" "MI" "" -83.6832804 42.9775094
+"Byron Community Library" "312 West Maple" "Byron" "MI" "" -83.9484114 42.8239471
+"Kent District Library - Byron Township" "8191 Byron Center Ave Sw" "Byron Center" "MI" "" -85.7240451 42.8164353
+"Cadillac-Wexford Public Library" "411 South Lake Street" "Cadillac" "MI" "49601" -85.3997529 44.2468322
+"Kent District Library - Caledonia Township" "6260 92nd St. Se" "Caledonia" "MI" "49316" -85.5064572 42.7972529
+"Calumet Public-School Library" "57070 Mine Street" "Calumet" "MI" "49913" -88.44741 47.2440998
+"Camden Township Library" "119 South Main Street" "Camden" "MI" "49232" -84.7575812 41.7551866
+"Canton Public Library" "1200 South Canton Center Road" "Canton" "MI" "48188" -83.4877452 42.2967887
+"Capac Public Library" "111 North Main Street" "Capac" "MI" "" -82.9284835 43.0131095
+"Carleton Branch Library" "1444 Kent Street" "Carleton" "MI" "" -83.3939395 42.0584101
+"Caro Area District Library" "840 West Frank Street" "Caro" "MI" "48723" -83.4047202 43.4887375
+"Carson City Public Library" "102 West Main Street" "Carson City" "MI" "48811" -84.8465572 43.1770078
+"Rawson Memorial District Library" "6495 Pine Street" "Cass City" "MI" "48726" -83.1745991 43.5998564
+"Cass District Library" "319 M-62" "Cassopolis" "MI" "49031" -86.0182395 41.9203686
+"Local History Branch Library" "145 North Broadway" "Cassopolis" "MI" "" -86.0125333 41.9125893
+"Cedar Springs Public Library" "43 West Cherry Street" "Cedar Springs" "MI" "49319" -85.5522121 43.2237682
+"Les Cheneaux Community Library" "75 East Hodeck Street" "Cedarville" "MI" "" -84.3619994 45.9961929
+"Center Line Public Library" "7345 Weingartz Street" "Center Line" "MI" "48015" -83.0296728 42.4795239
+"Central Lake District Library" "7900 Maple Street" "Central Lake" "MI" "49622" -85.2614295 45.0709339
+"Nottawa Township Library" "685 East Main Street" "Centreville" "MI" "49032" -85.511377 41.9218841
+"Charlevoix Public Library" "220 West Clinton Street" "Charlevoix" "MI" "49720" -85.2614189 45.3170491
+"Charlotte Community Library" "226 South Bostwick Street" "Charlotte" "MI" "48813" -84.8379019 42.561204
+"Chase Township Public Library" "8400 East North Street" "Chase" "MI" "49623" -85.6342255 43.8896447
+"Cheboygan Area Public Library" "100 South Bailey Street" "Cheboygan" "MI" "49721" -84.480787 45.64388
+"Chelsea District Library" "221 South Main Street" "Chelsea" "MI" "48118" -84.0199339 42.3165405
+"Chesaning Public Library" "227 East Broad Street" "Chesaning" "MI" "48616" -84.1138181 43.1839391
+"Chesterfield Township Library" "50560 Patricia Avenue" "Chesterfield" "MI" "48051" -82.8400945 42.6702489
+"Garfield Memorial Library" "101 East Fourth Street" "Clare" "MI" "" -84.7678402 43.8187894
+"Pere Marquette District Library" "185 East Fourth Street" "Clare" "MI" "48617" -84.7666326 43.8190707
+"Independence Township Library" "6495 Clarkston Road" "Clarkston" "MI" "48346" -83.4086 42.739264
+"Clarksville Area Library" "200 Main Street" "Clarksville" "MI" "" -85.242571 42.8404913
+"Blair Memorial Library" "416 North Main Street" "Clawson" "MI" "48017" -83.1460781 42.5367748
+"Clayton Branch Library" "11029 Center Street," "Clayton" "MI" "" -84.2378398 41.864439
+"Clifford Branch Library" "9530 Main Street" "Clifford" "MI" "" -83.1791627 43.3130776
+"Lawrence Memorial Public Library" "107 North Main Street" "Climax" "MI" "49034" -85.3358979 42.2384294
+"Clinton Township Public Library" "100 Brown Street" "Clinton" "MI" "49236" -83.9718561 42.0728099
+"Clinton-Macomb Public Library" "40900 Romeo Plank Road" "Clinton Township" "MI" "48038" -82.9300818 42.5989737
+"Macomb County Library" "16480 Hall Road" "Clinton Township" "MI" "48038" -82.9570894 42.6268052
+"South Branch" "35891 Gratiot" "Clinton Township" "MI" "" -82.8967121 42.5611563
+"Branch District Library" "10 East Chicago Street" "Coldwater" "MI" "49036" -85.0002214 41.9402066
+"Coleman Area Library" "111 First Street" "Coleman" "MI" "48618" -84.5823863 43.7550832
+"Coloma Public Library" "151 West Center Street" "Coloma" "MI" "49038" -86.307323 42.1863923
+"Colon Township Library" "128 South Blackstone Avenue" "Colon" "MI" "49040" -85.325904 41.958176
+"Columbiaville Branch Library" "4718 First Street" "Columbiaville" "MI" "" -83.4109916 43.1571702
+"Commerce Township Community Library" "2869 North Pontiac Trail" "Commerce Township" "MI" "48390" -83.4486332 42.5567842
+"Kent District Library - Alpine Township" "5255 Alpine Ave. Nw" "Comstock Park" "MI" "49321" -85.6909239 43.0589613
+"Concord Branch Library" "110 Hanover Street" "Concord" "MI" "" -84.644619 42.178241
+"Constantine Township Library" "165 Canaris Street" "Constantine" "MI" "49042" -85.6699266 41.8410121
+"Northeast Ottawa District Library" "333 Ottawa Street" "Coopersville" "MI" "49404" -85.9359688 43.065575
+"Community District Library" "231 North Shiawassee Street" "Corunna" "MI" "48817" -84.1181036 42.981775
+"Corunna Public Library" "401 North Shiawassee Street" "Corunna" "MI" "" -84.1179406 42.9829321
+"Shiawassee County Library" "701 South Norton Street" "Corunna" "MI" "" -84.1237156 42.9730903
+"Covert Branch Library" "33805 M-140 Highway" "Covert" "MI" "" -86.2625185 42.2947398
+"Aitkin Memorial District Library" "111 North Howard Avenue" "Croswell" "MI" "48422" -82.621399 43.276544
+"Crystal Community Library" "221 South Lake Street" "Crystal" "MI" "" -84.9134074 43.2631669
+"Crystal Falls District Community Library" "237 Superior Avenue" "Crystal Falls" "MI" "49920" -88.3302445 46.0967581
+"Dansville Branch" "1379 East Mason Street" "Dansville" "MI" "" -84.3026579 42.556121
+"Springfield Township Library" "12000 Davisburg Road" "Davisburg" "MI" "48350" -83.5497397 42.7506201
+"Davison Area Library" "203 East Fourth Street" "Davison" "MI" "" -83.516114 43.034047
+"Bryant Branch Library" "22100 Michigan Avenue" "Dearborn" "MI" "" -83.2466086 42.3060002
+"Dearborn Public Library" "16301 Michigan Avenue" "Dearborn" "MI" "48126" -83.2026679 42.3131541
+"Esper Branch Library" "12929 West Warren Avenue" "Dearborn" "MI" "" -83.1702383 42.3439454
+"Snow Branch Library" "23950 Princeton Street" "Dearborn" "MI" "" -83.2701865 42.290817
+"Dearborn Heights City Libraries" "24590 George Street" "Dearborn Heights" "MI" "48127" -83.2782786 42.3320159
+"John F. Kennedy, Jr. Library" "24602 Van Born Road" "Dearborn Heights" "MI" "" -83.2759402 42.2693153
+"Van Buren District Library" "200 North Phelps Street" "Decatur" "MI" "49045" -85.9751633 42.109622
+"Deckerville Public Library" "3542 North Main Street" "Deckerville" "MI" "48427" -82.735004 43.5279339
+"Roberts-Ingold Memorial Library" "170 Raisin Street" "Deerfield" "MI" "" -83.777972 41.890486
+"Delton District Library" "330 North Grove Street" "Delton" "MI" "49046" -85.4079123 42.5025149
+"Detour Area School And Public Library" "202 South Division Street" "Detour Village" "MI" "49725" -83.9053447 45.9936798
+"Detroit Public Library" "5201 Woodward Avenue" "Detroit" "MI" "48202" -83.0670677 42.3583809
+"Detroit Public Library - Bowen" "3648 West Vernor Highway" "Detroit" "MI" "48216" -83.0889833 42.3232763
+"Detroit Public Library - Campbell" "8733 W. Vernor" "Detroit" "MI" "48209" -82.9941594 42.3633421
+"Detroit Public Library - Chandler Park" "12800 Harper Avenue" "Detroit" "MI" "48213" -82.9739224 42.4017026
+"Detroit Public Library - Chaney" "16101 Grand River Avenue" "Detroit" "MI" "48227" -83.2053709 42.3951787
+"Detroit Public Library - Chase" "17731 West Seven Mile Road" "Detroit" "MI" "48235" -83.2175744 42.43005
+"Detroit Public Library - Conely" "4600 Martin Street" "Detroit" "MI" "48210" -83.1272955 42.331919
+"Detroit Public Library - Douglass Branch For Specialized Services" "3666 Grand River Avenue" "Detroit" "MI" "48208" -83.074547 42.3432377
+"Detroit Public Library - Duffield" "2507 West Grand Boulevard" "Detroit" "MI" "48208" -83.0932724 42.3632584
+"Detroit Public Library - Edison" "18400 Joy Road" "Detroit" "MI" "48228" -83.2205111 42.3580769
+"Detroit Public Library - Elmwood Park" "550 Chene Street" "Detroit" "MI" "48207" -83.023601 42.3408469
+"Detroit Public Library - Franklin" "13651 East Mcnichols Road" "Detroit" "MI" "48205" -82.9840322 42.4271006
+"Detroit Public Library - Hubbard" "12929 West Mcnichols Road" "Detroit" "MI" "48235" -83.1727325 42.4163813
+"Detroit Public Library - Jefferson" "12350 East Outer Drive" "Detroit" "MI" "48224" -82.9373501 42.4040473
+"Detroit Public Library - Knapp" "13330 Conant Street" "Detroit" "MI" "48212" -83.0603351 42.4146901
+"Detroit Public Library - Mark Twain Annex" "4741 Iroquis Street" "Detroit" "MI" "48214" -83.0077331 42.3756502
+"Detroit Public Library - Montieth" "14100 Kercheval Street" "Detroit" "MI" "48215" -82.950709 42.3773953
+"Detroit Public Library - National Automotive History Collection" "121 Gratiot" "Detroit" "MI" "48226" -83.0467869 42.3339382
+"Detroit Public Library - Parkman" "1766 Oakman Boulevard" "Detroit" "MI" "48238" -83.1272817 42.3964324
+"Detroit Public Library - Redford" "21200 Grand River" "Detroit" "MI" "48219" -83.2501083 42.4140172
+"Detroit Public Library - Sherwood Forest" "7117 West Seven Mile Road" "Detroit" "MI" "48221" -83.1442023 42.4312697
+"Detroit Public Library - Skillman" "121 Gratiot Avenue" "Detroit" "MI" "48226" -83.0467869 42.3339382
+"Detroit Public Library - Wilder" "7140 East Seven Mile Road" "Detroit" "MI" "48234" -83.0299567 42.4336368
+"Dewitt Public Library" "13101 Schavey Road" "Dewitt" "MI" "48820" -84.5887146 42.8265971
+"Dexter District Library" "8040 Fourth Street" "Dexter" "MI" "48130" -83.8843468 42.3391057
+"Dorothy Hull Library - Windsor Township" "405 West Jefferson Street" "Dimondale" "MI" "48821" -84.655152 42.6462737
+"Osceola Township School Public Library" "48475 North Maple Drive" "Dollar Bay" "MI" "49922" -88.5089043 47.1179444
+"Dorr Township Library" "1804 Sunset Drive" "Dorr" "MI" "49323" -85.7224657 42.7333674
+"Saugatuck-Douglas District Library" "10 Mixer Street" "Douglas" "MI" "49406" -86.203463 42.6435359
+"Dowagiac District Library" "211 Commercial Street" "Dowagiac" "MI" "49047" -86.1105366 41.9830262
+"Drummond Island Library" "29934 East Court Street" "Drummond Island" "MI" "" -83.7403631 46.0163711
+"Dryden Township Library" "5480 Main Street" "Dryden" "MI" "48428" -83.123875 42.9460223
+"Dundee Branch Library" "144 East Main Street" "Dundee" "MI" "" -83.6583498 41.9576499
+"Durand Memorial Branch Library" "700 North Saginaw Street" "Durand" "MI" "" -83.9848376 42.9180699
+"Kent District Library - East Grand Rapids" "746 Lakeside Dr. Se" "East Grand Rapids" "MI" "49506" -85.6117852 42.9494869
+"Jordan Valley District Library" "103 Maple Street" "East Jordan" "MI" "49727" -85.1191378 45.1540458
+"East Lansing Public Library" "950 Abbot Road" "East Lansing" "MI" "48823" -84.4824836 42.743659
+"East Tawas Branch Library" "204 Sawyer Street" "East Tawas" "MI" "" -83.4920219 44.2806757
+"Iosco-Arenac District Library" "120 West Westover Street" "East Tawas" "MI" "48730" -83.4920441 44.2806374
+"Eastpointe Memorial Library" "15875 Oak Avenue" "Eastpointe" "MI" "48021" -82.9571812 42.4628937
+"Eaton Rapids Public Library" "220 South Main Street" "Eaton Rapids" "MI" "48827" -84.655849 42.5111395
+"Eau Claire District Library" "6528 East Main Street" "Eau Claire" "MI" "49111" -86.298874 41.985039
+"Ecorse Public Library" "4184 West Jefferson" "Ecorse" "MI" "" -83.1426247 42.2483265
+"Home Township Library" "329 East Main Street" "Edmore" "MI" "48829" -85.040399 43.408203
+"Edwardsburg Branch Library" "26745 Church Street" "Edwardsburg" "MI" "" -86.0845801 41.7967331
+"Mason-Union Branch Library" "17049 U.S. Hwy. 12 East" "Edwardsburg" "MI" "" -85.8977755 41.776058
+"Elk Rapids District Library" "300 Isle Of Pines" "Elk Rapids" "MI" "49629" -85.4154671 44.8990843
+"Elsie Public Library" "145 West Main Street" "Elsie" "MI" "48831" -84.3877588 43.0886891
+"Glen Lake Community Library" "10115 West Front Street" "Empire" "MI" "49630" -86.0603091 44.8109805
+"Engadine Library" "box 1" "Engadine" "MI" "" -85.5712686 46.1170049
+"Erie Branch Library" "2065 Erie Road" "Erie" "MI" "" -83.49791 41.7939544
+"Escanaba Public Library" "400 Ludington Street" "Escanaba" "MI" "49829" -87.0529527 45.7461964
+"Evart Public Library" "104 North Main Street" "Evart" "MI" "49631" -85.2593756 43.9006659
+"Mcmillan Township Library" "200 Cedar Street" "Ewen" "MI" "49925" -89.2814723 46.5360261
+"Ira Township Library" "7013 Meldrum Road" "Fair Haven" "MI" "" -82.668864 42.693356
+"Fairgrove District Library" "1959 Main Street" "Fairgrove" "MI" "48733" -83.5434004 43.5230204
+"Falmouth Area Library" "219 East Prosper Road" "Falmouth" "MI" "49632" -85.0894462 44.2437027
+"Farmington Branch Library" "23500 Liberty Street" "Farmington" "MI" "" -83.3779375 42.4643327
+"Farmington Community Library" "32737 West 12 Mile Road" "Farmington Hills" "MI" "48334" -83.3709079 42.4979705
+"Surrey Township Public Library" "105 East Michigan Street" "Farwell" "MI" "48622" -84.8667218 43.83603
+"Fennville District Library" "400 West Main Street" "Fennville" "MI" "49408" -86.1061161 42.5942871
+"Fenton Childrens Center" "200 East Caroline Street" "Fenton" "MI" "" -83.703471 42.796479
+"Palo Community School District Public Library" "8315 Mill Street" "Fenwick" "MI" "48870" -84.9868041 43.1108969
+"Ferndale Public Library" "222 East Nine Mile Road" "Ferndale" "MI" "48220" -83.1323733 42.4602665
+"Royal Oak Township Public Library" "21131 Garden Lane" "Ferndale" "MI" "48220" -83.1594523 42.4500505
+"Fife Lake Public Library" "77 Lakecrest Lane" "Fife Lake" "MI" "49633" -85.3469571 44.5784241
+"Flat Rock Public Library" "25200 Gibraltar Road" "Flat Rock" "MI" "48134" -83.2777997 42.0950459
+"Beecher Vera B. Rison Library" "1386 West Coldwater Road" "Flint" "MI" "" -83.708659 43.090844
+"Cody Branch Library" "3519 Fenton Road" "Flint" "MI" "" -83.6928005 42.9902608
+"Flint District Library" "1026 East Kearsley Street" "Flint" "MI" "48503" -83.6792912 43.0216088
+"Flint Township-Mccarty Library" "2071 South Graham Road" "Flint" "MI" "" -83.7523842 43.000078
+"Genesee Valley Demonstration Location" "3517 South Linden Road" "Flint" "MI" "" -83.7719238 42.9755936
+"North Flint Library" "5005 Cloverlawn Drive" "Flint" "MI" "" -83.7302899 43.0599647
+"West Flint Library" "3601 Beecher Road" "Flint" "MI" "" -83.731325 43.010476
+"Flushing Area Library" "120 North Maple Street" "Flushing" "MI" "" -83.8557522 43.0639885
+"Watertown Township Library" "9405 Foster Street" "Fostoria" "MI" "48435" -83.3720347 43.2498029
+"Fowlerville District Library" "131 Mill Street" "Fowlerville" "MI" "48836" -84.0728781 42.6620293
+"James E. Wickson Memorial Library" "359 South Franklin Street" "Frankenmuth" "MI" "48734" -83.739665 43.3315232
+"Benzie Shores District Library" "630 Main Street" "Frankfort" "MI" "49635" -86.2346948 44.6322857
+"Franklin Public Library" "32455 Franklin Road" "Franklin" "MI" "48025" -83.306349 42.526155
+"Fraser Public Library" "16330 East Fourteen Mile Road" "Fraser" "MI" "48026" -82.9553498 42.5384753
+"Frederic Community Library" "6872 Old 27" "Frederic" "MI" "" -84.7540299 44.7902408
+"Freeport District Library" "208 South State Street" "Freeport" "MI" "49325" -85.3163885 42.7639732
+"Fremont Area District Library" "104 East Main Street" "Fremont" "MI" "49412" -85.942328 43.46666
+"Gaines Station Library" "103 East Walker" "Gaines" "MI" "" -83.912689 42.872886
+"Galesburg Memorial Library" "188 East Michigan Avenue" "Galesburg" "MI" "49053" -85.4132401 42.2889207
+"Galien Township Public Library" "302 North Cleveland Avenue" "Galien" "MI" "49113" -86.499364 41.80565
+"Garden City Public Library" "31735 Maplewood Street" "Garden City" "MI" "48135" -83.354197 42.3318308
+"Otsego County Library" "700 South Otsego Avenue" "Gaylord" "MI" "49735" -84.6782398 45.0207625
+"Genesee Township-Johnson Memorial Library" "7397 North Genesee Road" "Genesee" "MI" "" -83.6184944 43.117021
+"Gladstone Area School Public Library" "300 South Tenth Street" "Gladstone" "MI" "49837" -87.021065 45.8443199
+"Gladwin County District Library" "402 James Robertson Drive" "Gladwin" "MI" "48624" -84.470362 43.9841029
+"Curtis Township Library" "4884 Bamfield Road" "Glennie" "MI" "48737" -83.7213219 44.5606024
+"Gobles Branch Library" "105 East Main" "Gobles" "MI" "" -85.8788324 42.3585996
+"Goodrich Library" "10237 Hegel Road" "Goodrich" "MI" "" -83.5052717 42.9170887
+"Kent District Library - Spencer Township" "14960 Meddler Avenue" "Gowen" "MI" "49326" -85.368919 43.238231
+"Grand Blanc-Mcfarlen Library" "515 Perry Road" "Grand Blanc" "MI" "" -83.6214432 42.9254529
+"Loutit District Library" "407 Columbus Avenue" "Grand Haven" "MI" "49417" -86.2267083 43.0641615
+"Grand Ledge Area District Library" "131 East Jefferson Street" "Grand Ledge" "MI" "48837" -84.7451012 42.7526483
+"Grand Ledge Area District Library At Wacousta" "13080 Wacousta Road" "Grand Ledge" "MI" "" -84.7008751 42.8264337
+"Grand Rapids Public Library" "111 Library Street, Ne" "Grand Rapids" "MI" "49503" -85.6659833 42.9649169
+"Kent District Library - Cascade Township" "2870 Jacksmith Ave., Se" "Grand Rapids" "MI" "49546" -85.5043154 42.9117596
+"Kent District Library - Gaines Township" "421 68th Street Se" "Grand Rapids" "MI" "49548" -85.6537642 42.8407568
+"Kent District Library - Plainfield" "2650 Five Mile Road Ne" "Grand Rapids" "MI" "49525" -85.6033726 43.04212
+"Madison Square Branch Library" "1201 Madison Se" "Grand Rapids" "MI" "" -85.6592561 42.9410501
+"Ottawa Hills Branch Library" "1150 Giddings Avenue Se" "Grand Rapids" "MI" "" -85.63419 42.9412084
+"Seymour Branch Library" "2350 Eastern Avenue Se" "Grand Rapids" "MI" "" -85.6471613 42.9204937
+"Vanbelkum Branch At Creston" "1563 Plainfield Ne" "Grand Rapids" "MI" "" -85.6630741 42.9910166
+"West Leonard Branch" "1017 Leonard Nw" "Grand Rapids" "MI" "" -85.6939259 42.985697
+"West Side Branch Library" "713 Bridge Street Nw" "Grand Rapids" "MI" "" -85.686055 42.970949
+"Yankee Clipper Branch Library" "2025 Leonard Street Ne" "Grand Rapids" "MI" "" -85.6196738 42.9849229
+"Kent District Library - Grandville" "4055 Maple Street Sw" "Grandville" "MI" "49418" -85.7646091 42.9077746
+"Grant Area District Library" "122 Elder Street" "Grant" "MI" "49327" -85.8019097 43.33458
+"Grass Lake Branch Library" "130 West Michigan" "Grass Lake" "MI" "" -84.2123259 42.2513034
+"Beaver Creek Township Library" "8888 South Grayling Road" "Grayling" "MI" "" -84.7107682 44.5562628
+"Crawford County Library" "201 Plum Street" "Grayling" "MI" "49738" -84.7076498 44.6649963
+"Lovells Township Library" "8405 Twin Bridge Road" "Grayling" "MI" "" -84.484876 44.805134
+"Flat River Community Library" "200 West Judd Street" "Greenville" "MI" "48838" -85.2548228 43.1742322
+"Grosse Pointe Public Library" "10 Kercheval Avenue" "Grosse Pointe Farms" "MI" "48236" -82.9053118 42.393726
+"Grosse Pointe Park Public Library" "15430 Kercheval Street" "Grosse Pointe Park" "MI" "" -82.9364288 42.3822401
+"Grosse Pointe Woods Public Library" "20600 Mack Avenue" "Grosse Pointe Woods" "MI" "" -82.9060353 42.4422356
+"Forsyth Township Public Library" "184 West Flint Street" "Gwinn" "MI" "49841" -87.4381298 46.2791394
+"Hadley Branch Library" "3556 Hadley Road" "Hadley" "MI" "" -83.403703 42.9541899
+"Plainfield Township Branch Library" "220 North Washington" "Hale" "MI" "" -83.8052945 44.3782612
+"Hamburg Township Library" "10411 Merrill Road" "Hamburg" "MI" "48139" -83.8204838 42.4509572
+"Hamtramck Public Library" "2360 Caniff Avenue" "Hamtramck" "MI" "48212" -83.0634779 42.3981999
+"Hancock School Public Library" "501 Campus Drive" "Hancock" "MI" "49930" -88.5858043 47.1413273
+"Hanover Branch Library" "118 West Main Street" "Hanover" "MI" "" -84.5543422 42.1019282
+"Harbor Beach Area District Library" "105 North Huron Avenue" "Harbor Beach" "MI" "48441" -82.6511026 43.8451244
+"Harper Woods Public Library" "19601 Harper Avenue" "Harper Woods" "MI" "48225" -82.9243542 42.43142
+"Harrison District Library" "105 East Main Street" "Harrison" "MI" "48625" -84.8011406 44.0196939
+"Alcona County Library" "312 West Main (M-72)" "Harrisville" "MI" "48740" -83.2988672 44.6564359
+"Hart Area Public Library" "415 South State Street" "Hart" "MI" "49420" -86.3638312 43.6983642
+"Hartford Public Library" "15 Franklin Street" "Hartford" "MI" "49057" -86.1699419 42.206524
+"Cromaine District Library" "3688 North Hartland Road" "Hartland" "MI" "48353" -83.7540852 42.6586465
+"Haslett Branch" "5670 School Street" "Haslett" "MI" "" -84.402555 42.745815
+"Dowling Public Library" "1765 East Dowling Road" "Hastings" "MI" "49058" -85.2542056 42.5224339
+"Hastings Public Library" "227 East State Street" "Hastings" "MI" "49058" -85.2849569 42.6490328
+"Hazel Park Memorial Library" "123 East Nine Mile Road" "Hazel Park" "MI" "48030" -83.1033136 42.4617053
+"Rauchholz Memorial Library" "1140 North Hemlock Road" "Hemlock" "MI" "48626" -84.2298246 43.424213
+"Hesperia Community Library" "80 South Division Street" "Hesperia" "MI" "49421" -86.038756 43.5682
+"Lyon Township Branch Library" "7851 W. Higgins Lake Drive, P.O. Bo" "Higgins Lake" "MI" "" -84.7797529 44.4836267
+"Highland Township Public Library" "444 Beach Farm Circle" "Highland" "MI" "48356" -83.6101488 42.6430659
+"Hillman-Wright Memorial Library" "p.o. box 247" "Hillman" "MI" "" -83.9011064 45.0591766
+"Hillsdale Community Library" "11 East Bacon Street" "Hillsdale" "MI" "49242" -84.6341229 41.9207044
+"Herrick District Library" "300 South River Avenue" "Holland" "MI" "49423" -86.1095866 42.7861833
+"North Side Branch" "155 Riley Street" "Holland" "MI" "" -86.1148238 42.8270533
+"Holly Township Library" "1116 North Saginaw Street" "Holly" "MI" "48442" -83.6275905 42.8046529
+"Holt-Delhi Branch" "2078 Aurelius Road" "Holt" "MI" "" -84.5222262 42.6425091
+"Holton Branch Library" "8776 Holton-Duck Lake Road" "Holton" "MI" "" -86.0789405 43.4129548
+"Homer Public Library" "141 West Main Street" "Homer" "MI" "49245" -84.8078849 42.1457643
+"Hopkins Public Library" "118 East Main Street" "Hopkins" "MI" "49328" -85.7626591 42.6240073
+"Portage Lake District Library" "58 Huron Street" "Houghton" "MI" "49931" -88.5681602 47.1220783
+"Houghton Lake Public Library" "4431 West Houghton Lake Drive" "Houghton Lake" "MI" "48629" -84.7281267 44.2973638
+"Reynolds Township Library" "215 East Edgerton Street" "Howard City" "MI" "" -85.4679906 43.3967381
+"Timothy C. Hauenstein Reynolds Township Library" "117 West Williams Street" "Howard City" "MI" "49329" -85.4696331 43.3980369
+"Howell Carnegie District Library" "314 West Grand River Avenue" "Howell" "MI" "48843" -83.9319299 42.6086838
+"Caledonia Branch Library" "1499 Hubert Road" "Hubbard Lake" "MI" "" -83.5871428 44.8590391
+"Hudson Public Library" "205 South Market Street" "Hudson" "MI" "49247" -84.35361 41.853838
+"Gary Byker Memorial Library Of Hudsonville" "3338 Van Buren Street" "Hudsonville" "MI" "49426" -85.8643755 42.8705011
+"Huntington Woods Public Library" "26415 Scotia Road" "Huntington Woods" "MI" "48070" -83.1736409 42.4852852
+"Ida Branch Library" "3016 Lewis Avenue" "Ida" "MI" "" -83.5745309 41.9081825
+"Idlewild Public Library" "473 East Baldwin Road" "Idlewild" "MI" "49642" -85.7905649 43.8869854
+"Goodland Branch Library" "2370 North Van Dyke Road" "Imlay City" "MI" "" -83.0725298 43.1127916
+"Ruth Hughes Memorial District Library" "211 North Almont Avenue" "Imlay City" "MI" "48444" -83.0779227 43.0258228
+"Indian River Area Library" "3546 South Straits Highway" "Indian River" "MI" "49749" -84.613147 45.410951
+"Inkster Public Library" "2005 Inkster Road" "Inkster" "MI" "" -83.3095821 42.2960924
+"Interlochen Public Library" "9700 Riley Road" "Interlochen" "MI" "49643" -85.77094 44.644078
+"Hall-Fowler Memorial Library" "126 East Main Street" "Ionia" "MI" "48846" -85.0620407 42.983257
+"Dickinson County Library" "401 Iron Mountain Street" "Iron Mountain" "MI" "49801" -88.0634995 45.8189104
+"West Iron District Library" "116 West Genesee Street" "Iron River" "MI" "49935" -88.6392207 46.0915257
+"Ironwood Carnegie Library" "235 East Aurora Street" "Ironwood" "MI" "49938" -90.1678803 46.4548516
+"Ishpeming Carnegie Public Library" "317 North Main Street" "Ishpeming" "MI" "49849" -87.6695168 46.4913803
+"Thompson Home Public Library" "125 West Center Street" "Ithaca" "MI" "48847" -84.6079977 43.2916432
+"Eastern Branch Library" "3125 East Michigan Avenue" "Jackson" "MI" "" -84.3635955 42.2553011
+"Jackson District Library" "244 West Michigan Avenue" "Jackson" "MI" "49201" -84.4109369 42.2479398
+"Meijer Branch Library" "2699 Airport Road" "Jackson" "MI" "" -84.451064 42.273863
+"Summit Branch Library" "104 Bird Avenue" "Jackson" "MI" "" -84.4005871 42.1986889
+"Patmos Library" "2445 Riley Street" "Jamestown" "MI" "49427" -85.8435087 42.8260027
+"Georgetown Township Public Library" "1525 Baldwin Street" "Jenison" "MI" "49428" -85.8200294 42.907994
+"Johannesburg Branch Library" "10900 East M-32" "Johannesburg" "MI" "" -84.4557989 44.9754246
+"Jonesville District Library" "310 Church Street" "Jonesville" "MI" "49250" -84.660509 41.9836431
+"Alma Powell Branch Library" "1000 West Paterson Street" "Kalamazoo" "MI" "" -85.598266 42.3037694
+"Eastwood Branch Library" "1112 Gayle Avenue" "Kalamazoo" "MI" "" -85.546268 42.302414
+"Kalamazoo Public Library" "315 South Rose Street" "Kalamazoo" "MI" "49007" -85.584295 42.289498
+"Oshtemo Branch Library" "7265 West Main Street" "Kalamazoo" "MI" "" -85.6910099 42.2943007
+"Washington Square Branch Library" "1244 Portage Street" "Kalamazoo" "MI" "" -85.5706828 42.2793481
+"Kaleva Branch Library" "9200 Aura Street" "Kaleva" "MI" "" -86.0114412 44.3726383
+"Kalkaska County Library" "247 South Cedar Street" "Kalkaska" "MI" "49646" -85.1767156 44.7324087
+"Kent District Library -Tyrone Township" "43 South Main Street" "Kent City" "MI" "49330" -85.751563 43.218661
+"Kent District Library - Kentwood" "4700 Kalamazoo Avenue Se" "Kentwood" "MI" "49508" -85.624701 42.877921
+"G. Lynn Campbell Township Library" "1955 North Allen Road" "Kimball" "MI" "" -82.523372 42.963066
+"Rj Wallis Elementary Library" "15901 Country Club Road" "Kincheloe" "MI" "" -84.4469235 46.2753078
+"Kingsley Public Library Branch" "104 South Brownson Avenue" "Kingsley" "MI" "" -85.536178 44.584544
+"Jacquelin E. Opperman Memorial Library" "5790 State Street" "Kingston" "MI" "48741" -83.1932978 43.4107336
+"Laingsburg Public Library" "255 East Grand River Road" "Laingsburg" "MI" "48848" -84.3507013 42.8902295
+"Missaukee District Library" "210 South Canal Street" "Lake City" "MI" "49651" -85.2136689 44.335978
+"Lake Linden-Hubbell School Public Library" "601 Calumet Street" "Lake Linden" "MI" "49945" -88.4061897 47.1940302
+"Lake Odessa Community Library" "1007 Fourth Avenue" "Lake Odessa" "MI" "48849" -85.1382056 42.7824044
+"Orion Township Public Library" "825 Joslyn Road" "Lake Orion" "MI" "48362" -83.2817081 42.7711712
+"Lakeport Book Deposit" "7097 Second Street" "Lakeport" "MI" "" -82.4916079 43.1138469
+"Tamarack District Library" "832 South Lincoln Avenue" "Lakeview" "MI" "48850" -85.273003 43.4394498
+"Lanse Area School-Public Library" "201 North 4th Street" "Lanse" "MI" "49946" -88.4481547 46.7574904
+"Capital Area District Library" "401 South Capitol Avenue" "Lansing" "MI" "48933" -84.5534086 42.7295218
+"Delta Township District Library" "5130 Davenport Drive" "Lansing" "MI" "48917" -84.6207377 42.7476769
+"Foster Branch" "200 North Foster Avenue" "Lansing" "MI" "" -84.5171876 42.7348588
+"South Lansing Branch" "3500 South Cedar Street, Suite 108" "Lansing" "MI" "" -84.5487614 42.695813
+"Elba Branch Library" "5508 Davison Road" "Lapeer" "MI" "" -83.4406366 43.0415105
+"Lapeer District Library" "201 Village West Drive South" "Lapeer" "MI" "48446" -83.3315472 43.0533345
+"Marguerite De Angeli Branch Library" "921 West Nepessing Street" "Lapeer" "MI" "" -83.3181669 43.0510741
+"Lawrence Branch Library" "122 West Saint Joseph Street" "Lawrence" "MI" "" -86.0518323 42.2192629
+"Lawton Public Library" "125 South Main Street" "Lawton" "MI" "49065" -85.8491708 42.1671412
+"Leland Township Public Library" "203 East Cedar Street" "Leland" "MI" "49654" -85.7621202 45.0221693
+"Perkins Library Of Lennon" "11904 Lennon Road" "Lennon" "MI" "" -83.9869539 42.9850207
+"Addison Township Public Library" "1440 Rochester Road" "Leonard" "MI" "48367" -83.1464065 42.8206392
+"Leroy Community Library" "104 West Gilbert Street" "Leroy" "MI" "49655" -85.4537777 44.0381885
+"Leslie Branch" "201 Pennsylvania Street" "Leslie" "MI" "" -84.4343471 42.4532265
+"Bliss Branch Library" "265 West Sturgeon Bay Trail" "Levering" "MI" "" -84.91989 45.6787486
+"Levering Branch Library" "6236 Mill Street" "Levering" "MI" "" -84.788127 45.634669
+"Lewiston Public Library" "4356 Hanson Road" "Lewiston" "MI" "" -84.3066019 44.8827038
+"Moore Public Library" "7239 Huron Avenue" "Lexington" "MI" "48450" -82.5317524 43.2683222
+"Lincoln Branch Library" "330 Traverse Bay Road" "Lincoln" "MI" "" -83.419049 44.6816113
+"Lincoln Park Public Library" "1381 Southfield Road" "Lincoln Park" "MI" "" -83.1798034 42.2505153
+"Linden Library" "p.o. box 158" "Linden" "MI" "" -83.7824526 42.8144731
+"Litchfield District Library" "108 North Chicago Street" "Litchfield" "MI" "49252" -84.758535 42.044055
+"Alfred Noble Branch Library" "32901 Plymouth Road" "Livonia" "MI" "" -83.3677291 42.3677075
+"Carl Sandburg Branch Library" "30100 Seven Mile Road" "Livonia" "MI" "" -83.3431601 42.4272887
+"Livonia Public Library" "32777 Five Mile Road" "Livonia" "MI" "48154" -83.3681496 42.3963083
+"Vest Pocket Library" "33000 Civic Center Dr." "Livonia" "MI" "" -83.3700651 42.3959845
+"Kent District Library - Englehardt" "200 North Monroe" "Lowell" "MI" "49331" -85.338011 42.9357746
+"Mason County District Library" "217 East Ludington Avenue" "Ludington" "MI" "49431" -86.4453562 43.9561572
+"Rasey Memorial Branch Library" "4349 Oak Street" "Luna Pier" "MI" "" -83.4432235 41.8108001
+"Luther Area Public Library" "115 State Street" "Luther" "MI" "49656" -85.6824085 44.035716
+"Lyons Township District Library" "240 East Bridge Street" "Lyons" "MI" "48851" -84.9469902 42.9820966
+"Mackinac Island Public Library" "7549 Huron Street" "Mackinac Island" "MI" "49757" -84.6192105 45.8464638
+"Mackinaw Area Public Library" "528 West Central Avenue" "Mackinaw City" "MI" "49701" -84.7432898 45.7820623
+"North Branch" "16800 24 Mile Road" "Macomb" "MI" "" -82.956253 42.6856217
+"Madison Heights Branch Library" "26550 John R Road" "Madison Heights" "MI" "" -83.1046369 42.4882305
+"Madison Heights Public Library" "240 West Thirteen Mile Road" "Madison Heights" "MI" "48071" -83.1080694 42.5205137
+"Mancelona Township Library" "202 West State Street" "Mancelona" "MI" "49659" -85.0631409 44.9023958
+"Manchester District Library" "912 City Road (M-52)" "Manchester" "MI" "48158" -84.024035 42.150142
+"Manistee County Library" "95 Maple Street" "Manistee" "MI" "49660" -86.3236565 44.249417
+"Manistique School Public Library" "100 North Cedar Street" "Manistique" "MI" "49854" -86.2455078 45.9587596
+"Manton Public Library" "404 West Main Street" "Manton" "MI" "" -85.4015291 44.410832
+"Maple Rapids Public Library" "130 South Maple Avenue" "Maple Rapids" "MI" "48853" -84.6921696 43.1037421
+"Marcellus Township-Wood Memorial Library" "205 East Main Street" "Marcellus" "MI" "49067" -85.8128264 42.0269664
+"Marine City Public Library" "300 South Parker Street" "Marine City" "MI" "" -82.50113 42.716679
+"M. Alice Chapin Memorial Library" "120 East Main Street" "Marion" "MI" "49665" -85.144878 44.1025
+"Marlette District Library" "3116 Main Street" "Marlette" "MI" "48453" -83.0798646 43.3257123
+"Peter White Public Library" "217 North Front Street" "Marquette" "MI" "49855" -87.3930552 46.5450222
+"Marshall District Library" "124 West Green Street" "Marshall" "MI" "49068" -84.9592135 42.2713439
+"J. C. Wheeler Public Library" "1576 South Main Street" "Martin" "MI" "49070" -85.6417465 42.5367529
+"Marysville Public Library" "1175 Delaware Avenue" "Marysville" "MI" "" -82.4733395 42.9131723
+"Aurelius Branch" "1939 South Aurelius Road" "Mason" "MI" "" -84.5223368 42.5257998
+"Mason Branch" "145 West Ash Street" "Mason" "MI" "" -84.4442617 42.5789804
+"Greenland Township Library" "1212 Adventure Avenue" "Mass City" "MI" "" -89.0788213 46.7618795
+"Antwerp Sunshine Branch Library" "24823 Front Street" "Mattawan" "MI" "" -85.7927586 42.2079536
+"Maybee Branch Library" "9060 Raisin Street" "Maybee" "MI" "" -83.5152269 42.0047648
+"Mayville District Public Library" "6090 Fulton Street" "Mayville" "MI" "48744" -83.3525232 43.3352924
+"Mcbain Community Library" "107 East Maple Street" "Mcbain" "MI" "49657" -85.209345 44.1947175
+"Morton Township Public Library" "110 South James Street" "Mecosta" "MI" "49332" -85.2289439 43.6208035
+"Melvindale Public Library" "18650 Allen Road" "Melvindale" "MI" "" -83.1892748 42.2794024
+"Memphis Public Library" "34830 Potter Street" "Memphis" "MI" "" -82.7699839 42.895332
+"Mendon Township Library" "314 West Main Street" "Mendon" "MI" "49072" -85.453498 42.0068463
+"Spies Public Library" "940 First Street" "Menominee" "MI" "49858" -87.6047954 45.1074792
+"Merrill District Library" "321 West Saginaw" "Merrill" "MI" "48637" -84.333157 43.409582
+"Mesick Public Library" "207 North Eugene St." "Mesick" "MI" "" -85.7152566 44.4067605
+"Metamora Branch Library" "4018 Oak Street" "Metamora" "MI" "" -83.2892948 42.9413201
+"Thornapple Kellogg School And Community Library" "3885 Bender Road" "Middleville" "MI" "49333" -85.4877478 42.7087149
+"Grace A. Dow Memorial Library" "1710 West Saint Andrews" "Midland" "MI" "48640" -84.2517162 43.625584
+"Mikado Township Library" "2291 South F-41" "Mikado" "MI" "" -83.4223832 44.5835821
+"Milan Public Library" "151 Wabash Street" "Milan" "MI" "48160" -83.6848434 42.0827703
+"Milford Public Library" "330 Family Drive" "Milford" "MI" "48381" -83.608733 42.59029
+"Millington Arbela District Library" "8530 Depot Street" "Millington" "MI" "48746" -83.5271039 43.2798707
+"Oscoda County Library" "430 West Eighth Street" "Mio" "MI" "48647" -84.1268138 44.6522757
+"Leighton Township Library" "4451 12th Street" "Moline" "MI" "49335" -85.6626964 42.7434806
+"Blue Bush Branch Library" "2210 Blue Bush Road" "Monroe" "MI" "" -83.4143603 41.9550725
+"Dorsch Memorial Branch Library" "18 East First Street" "Monroe" "MI" "" -83.3977417 41.9154477
+"Frenchtown-Dixie Branch Library" "2881 Nadeau Road" "Monroe" "MI" "" -83.3191111 41.9470632
+"L. S. Navarre Branch Library" "1135 East Second Street" "Monroe" "MI" "" -83.3854049 41.9083629
+"Monroe County Library System" "840 South Roessler Street" "Monroe" "MI" "48161" -83.4146191 41.9129701
+"Robert A. Vivian Branch Library" "2664 Vivian Road" "Monroe" "MI" "" -83.3658566 41.949946
+"Montague Branch Library" "8778 Ferry Street" "Montague" "MI" "" -86.3548516 43.4179881
+"Montrose-Jennings Library" "241 Feher Drive" "Montrose" "MI" "" -83.887927 43.180705
+"Brevort Township Library" "4009 North Church Street" "Moran" "MI" "" -84.9257659 46.1644478
+"Stair Public Library" "228 West Main Street" "Morenci" "MI" "49256" -84.2180449 41.7195138
+"Walton Erickson Public Library" "4808 Northland Drive" "Morley" "MI" "49336" -85.4425973 43.5418801
+"Morrice Village Library" "300 Main Street" "Morrice" "MI" "" -84.1778749 42.8375805
+"Mount Clemens Public Library" "150 Cass Avenue" "Mount Clemens" "MI" "48043" -82.8834097 42.5976706
+"Mount Morris Library" "685 Van Buren Avenue" "Mount Morris" "MI" "" -83.6951612 43.1238956
+"Chippewa River District Library System" "301 South University" "Mount Pleasant" "MI" "48858" -84.775044 43.6023954
+"Mulliken District Library" "135 Main Street" "Mulliken" "MI" "48861" -84.896027 42.762334
+"Munising School Public Library" "810 State Highway M-28 West Suite A" "Munising" "MI" "49862" -86.6626598 46.4173525
+"Egelston Branch Library" "5428 East Apple Avenue" "Muskegon" "MI" "" -86.1116438 43.2348368
+"Hackley Public Library" "316 West Webster Avenue" "Muskegon" "MI" "49440" -86.2514268 43.2341834
+"Muskegon Area District Library" "4845 Airline Road Unit 5" "Muskegon" "MI" "49444" -86.1949736 43.1640528
+"North Muskegon Walker Branch Library" "1522 Ruddiman" "Muskegon" "MI" "" -86.2674176 43.2563198
+"Norton Shores Branch Library" "705 Seminole Road" "Muskegon" "MI" "" -86.2612844 43.186515
+"Napoleon Branch Library" "6755 Brooklyn Road" "Napoleon" "MI" "" -84.262003 42.166628
+"Putnam District Library" "327 North Main" "Nashville" "MI" "49073" -85.0934817 42.6053912
+"Negaunee Public Library" "319 West Case Street" "Negaunee" "MI" "49866" -87.6116557 46.4998221
+"Macdonald Public Library" "36480 Main Street" "New Baltimore" "MI" "48047" -82.7338744 42.6800088
+"New Buffalo Township Public Library" "33 North Thompson Street" "New Buffalo" "MI" "49117" -86.742968 41.7956
+"Lenox Township Library" "58976 Main Street" "New Haven" "MI" "48048" -82.808062 42.733857
+"Twin Township Public-School Library" "9435 Beech Street" "New Lothrop" "MI" "" -83.9712682 43.1189415
+"Croton Branch Library" "6464 Croton-Hardy Drive" "Newaygo" "MI" "" -85.6341101 43.4552314
+"Newaygo Area District Library" "44 North State Road" "Newaygo" "MI" "49337" -85.79675 43.4236974
+"Tahquamenon Area Public Library" "700 Newberry Avenue" "Newberry" "MI" "49868" -85.5098203 46.3556637
+"Newport Branch Library" "8120 North Dixie Highway" "Newport" "MI" "" -83.2747992 41.9981368
+"Howard Branch Library" "2341 Yankee Street" "Niles" "MI" "" -86.2114831 41.8265941
+"Niles District Library" "620 East Main Street" "Niles" "MI" "49120" -86.2521268 41.8292804
+"North Adams Community Memorial Library" "110 East Main Street" "North Adams" "MI" "49262" -84.5249796 41.9709229
+"North Branch Township Library" "3714 Huron Road" "North Branch" "MI" "48461" -83.1993846 43.229216
+"Walker Branch Library" "1522 Ruddiman Drive" "North Muskegon" "MI" "" -86.2674176 43.2563198
+"Leelanau Township Library" "119 East Nagonaba Street" "Northport" "MI" "49670" -85.6154849 45.1297379
+"Northville District Library" "212 West Cady Street" "Northville" "MI" "48167" -83.4855041 42.4302555
+"Solomonson Branch Library" "620 Section Street" "Norway" "MI" "" -87.9036691 45.7863381
+"Novi Public Library" "45245 West Ten Mile Road" "Novi" "MI" "48375" -83.491212 42.465493
+"Crockery Township Library" "7431 112th St." "Nunica" "MI" "" -86.0669755 43.0911853
+"Oak Park Public Library" "14200 Oak Park Boulevard" "Oak Park" "MI" "48237" -83.189724 42.4657249
+"Hope Borbas Okemos Branch" "4321 Okemos Road" "Okemos" "MI" "" -84.433012 42.7072985
+"Omer Branch Library" "205 East Center Street" "Omer" "MI" "" -83.8509915 44.0476558
+"Onaway Branch Library" "20774 State Street" "Onaway" "MI" "" -84.2293578 45.3583033
+"Onekama Branch Library" "5283 Main Street" "Onekama" "MI" "" -86.1964526 44.3613776
+"Luella Reynolds-Onsted Community Library" "261 South Main Street" "Onsted" "MI" "" -84.188943 42.002103
+"Ontonagon Township Library" "311 North Steel Street" "Ontonagon" "MI" "49953" -89.3139262 46.8728124
+"Brandon Township Public Library" "304 South Street" "Ortonville" "MI" "48462" -83.448931 42.848295
+"Robert J. Parks Library" "6010 Skeel Street" "Oscoda" "MI" "" -83.3553827 44.4549006
+"Forest Township Library" "123 West Main Street" "Otisville" "MI" "" -83.525141 43.1659859
+"Otsego District Public Library" "219 South Farmer Street" "Otsego" "MI" "49078" -85.6972994 42.4592686
+"Otter Lake Branch Library" "6361 Detroit Street" "Otter Lake" "MI" "" -83.4582175 43.2122141
+"Ovid Public Library" "206 North Main Street" "Ovid" "MI" "48866" -84.3716944 43.0066194
+"Shiawassee District Library" "502 West Main Street" "Owosso" "MI" "48867" -84.1771459 42.9979705
+"Oxford Public Library" "530 Pontiac Road" "Oxford" "MI" "48371" -83.2669635 42.8136111
+"Richmond Township Library" "500 Smith Street" "Palmer" "MI" "49871" -87.5865585 46.4415214
+"Whitefish Township Community Library" "7247 North M-123" "Paradise" "MI" "49768" -85.0382983 46.6186125
+"Parchment Community Library" "401 South Riverview Drive" "Parchment" "MI" "49004" -85.5692296 42.3248463
+"Parma Branch Library" "102 Church Street" "Parma" "MI" "" -84.6011081 42.2585967
+"Paw Paw District Library" "609 West Michigan Avenue" "Paw Paw" "MI" "49079" -85.9053814 42.2160554
+"Elk Township Library" "29 East Lapeer Street" "Peck" "MI" "48466" -82.8175612 43.2586189
+"Pellston Branch Library" "175 N. Milton Street" "Pellston" "MI" "" -84.7854399 45.5526426
+"Pentwater Township Library" "402 East Park Street" "Pentwater" "MI" "49449" -86.4245176 43.7835354
+"Edna C. Bentley Memorial Library" "135 South Main Street" "Perry" "MI" "" -84.2190409 42.8247455
+"Summerfield-Petersburg Branch Library" "60 East Center Street" "Petersburg" "MI" "" -83.7137364 41.9010983
+"Petoskey Public Library" "500 East Mitchell Street" "Petoskey" "MI" "49770" -84.9525027 45.3736275
+"Pigeon District Library" "7236 Nitz Street" "Pigeon" "MI" "48755" -83.2704105 43.8281652
+"Pinckney Community Public Library" "125 Putnam Street" "Pinckney" "MI" "48169" -83.9461196 42.4583768
+"Pinconning Branch Library" "218 Kaiser St." "Pinconning" "MI" "" -83.9612367 43.8550855
+"Pittsford Public Library" "9268 East Hudson Road" "Pittsford" "MI" "49271" -84.4697986 41.8583948
+"Charles A. Ransom District Library" "180 South Sherwood Avenue" "Plainwell" "MI" "49080" -85.6349283 42.4419301
+"Henrietta Branch Library" "11744 Bunkerhill Road" "Pleasant Lake" "MI" "" -84.32471 42.382349
+"Plymouth District Library" "223 South Main Street" "Plymouth" "MI" "48170" -83.4673774 42.3716485
+"Oakland County Research Library" "1200 North Telegraph Road" "Pontiac" "MI" "48341" -83.326717 42.6556242
+"Pontiac Public Library" "60 East Pike Street" "Pontiac" "MI" "48342" -83.2889389 42.6367796
+"Port Austin Township Library" "114 Railroad Street" "Port Austin" "MI" "48467" -82.9912477 44.0456496
+"Saint Clair County Library" "210 Mcmorran Boulevard" "Port Huron" "MI" "48060" -82.4214905 42.9782464
+"Sanilac District Library" "7130 Main Street" "Port Sanilac" "MI" "48469" -82.5464626 43.430785
+"Portage District Library" "300 Library Lane" "Portage" "MI" "49002" -85.5870729 42.2036208
+"Portland District Library" "334 Kent Street" "Portland" "MI" "48875" -84.9053951 42.8678603
+"Posen Branch Library" "6987 Turtle Street" "Posen" "MI" "" -83.6988687 45.2651817
+"Potterville Benton Township District Library" "150 Library Lane" "Potterville" "MI" "48876" -84.740928 42.630527
+"Ogemaw East Branch Library" "200 Washington" "Prescott" "MI" "" -83.930479 44.1926278
+"Skidway Lake Branch Library" "2129 Greenwood Road" "Prescott" "MI" "" -84.0402941 44.1834999
+"Grand Lake Branch Library" "8797 East Grand Lake Road" "Presque Isle" "MI" "" -83.4776879 45.2954115
+"Algansee Branch Library" "580 South Ray Quincy Road" "Quincy" "MI" "" -84.8835851 41.8284027
+"Quincy Branch Library" "11 North Main Street" "Quincy" "MI" "" -84.8840249 41.9447854
+"Ravenna Branch Library" "12278 Stafford Street" "Ravenna" "MI" "" -85.9410984 43.1893912
+"Ray Township Public Library" "64255 Wolcott Road" "Ray" "MI" "48096" -82.928398 42.769544
+"Redford Township District Library" "25320 West Six Mile Road" "Redford" "MI" "48240" -83.2902343 42.4141729
+"Reed City Public Library" "410 West Upton Avenue" "Reed City" "MI" "49677" -85.5167021 43.8760016
+"Reese Unity District Library" "2065 Gates Street" "Reese" "MI" "48757" -83.6964281 43.4502564
+"Wheatland Township Library" "207 Michigan Avenue" "Remus" "MI" "49340" -85.1471091 43.5976074
+"Republic-Michigamme Public Library" "227 Maple Street" "Republic" "MI" "49879" -93.4781379 37.1196601
+"Richland Community Library" "8951 Park Street" "Richland" "MI" "49083" -85.4561275 42.3772684
+"Lois Wagner Memorial Library" "35200 Division Road" "Richmond" "MI" "48062" -82.7621689 42.8084188
+"River Rouge Public Library" "221 Burke Street" "River Rouge" "MI" "" -83.1336068 42.2723306
+"Seville Township Public Library" "6734 Lumberjack Road" "Riverdale" "MI" "48877" -84.8360048 43.3892605
+"Riverview Public Library" "14300 Sibley Road" "Riverview" "MI" "48193" -83.1960245 42.1718296
+"Rochester Hills Public Library" "500 Olde Towne Road" "Rochester" "MI" "48307" -83.1305667 42.6835455
+"Kent District Library - Krause Memorial" "140 East Bridge Street" "Rockford" "MI" "49341" -85.5577574 43.1195293
+"Rockland Township Library" "40 National Avenue" "Rockland" "MI" "" -89.1791591 46.7330816
+"Presque Isle District Library" "181 East Erie Street" "Rogers City" "MI" "49779" -83.8146602 45.4199272
+"Kezar Branch Library" "107 Church Street" "Romeo" "MI" "" -83.0139104 42.8040256
+"Romulus Public Library" "11121 Wayne Road" "Romulus" "MI" "" -83.3853296 42.2217694
+"Gerrish-Higgins School District Public Library" "10600 Oakwood Road" "Roscommon" "MI" "48653" -84.6282961 44.4864009
+"Ogemaw District Library" "107 West Main Street" "Rose City" "MI" "48654" -84.1176768 44.4214837
+"Faith Johnston Memorial Library" "4026 Michigan Street" "Rosebush" "MI" "" -84.766587 43.6989117
+"Roseville Public Library" "29777 Gratiot Avenue" "Roseville" "MI" "48066" -82.9274212 42.5157856
+"Royal Oak Public Library" "222 East Eleven Mile Road" "Royal Oak" "MI" "48068" -83.1425457 42.4894136
+"Rudyard School-Public Library" "11185 West Second Street" "Rudyard" "MI" "49780" -84.5955409 46.2295697
+"Turner Howson Elementary Library" "11183 W. Turner Howson Road" "Rudyard" "MI" "" -84.595211 46.2267542
+"Archer A. Claytor Library" "1410 North Twelfth Street" "Saginaw" "MI" "" -83.9196791 43.4467674
+"Bridgeport Public Library" "3399 Williamson Road" "Saginaw" "MI" "48601" -83.906305 43.3734682
+"Butman-Fish Library" "1716 Hancock Street" "Saginaw" "MI" "" -83.9723956 43.4263513
+"Hoyt Public Library" "505 Janes Avenue" "Saginaw" "MI" "" -83.935685 43.4304423
+"Rudolph C. Zauel Memorial Library" "3100 North Center Road" "Saginaw" "MI" "" -84.0143738 43.4527714
+"Ruth Brady Wickes Library" "1713 Hess Avenue" "Saginaw" "MI" "" -83.942667 43.400823
+"Thomas Township Library" "8207 Shields Drive" "Saginaw" "MI" "48609" -84.0739931 43.4183138
+"Saint Charles District Library" "104 West Spruce Street" "Saint Charles" "MI" "48655" -84.1433829 43.2994316
+"St. Clair Public Library" "310 South Second Street" "Saint Clair" "MI" "" -82.4875263 42.8198233
+"Saint Clair Shores Public Library" "22500 Eleven Mile Road" "Saint Clair Shores" "MI" "48081" -82.887941 42.4961614
+"Richfield Township Public Library" "1410 North Saint Helen Road" "Saint Helen" "MI" "48656" -84.410253 44.350514
+"Saint Ignace Public Library" "110 West Spruce Street" "Saint Ignace" "MI" "49781" -84.7163505 45.8608209
+"Briggs Public Library" "108 East Railroad Street" "Saint Johns" "MI" "48879" -84.5582868 43.0044125
+"Maud Preston Palenske Memorial Library" "500 Market Street" "Saint Joseph" "MI" "49085" -86.4848182 42.1071855
+"Theodore A. Cutler Memorial Library" "312 Michigan Avenue" "Saint Louis" "MI" "48880" -84.611348 43.4041668
+"Saline District Library" "555 North Maple Road" "Saline" "MI" "48176" -83.775371 42.1778483
+"Kent District Library - Sand Lake-Nelson Township" "2 Maple Street" "Sand Lake" "MI" "49343" -85.516623 43.292853
+"Sandusky District Library" "55 East Sanilac Avenue" "Sandusky" "MI" "48471" -82.8313757 43.4209779
+"Saranac Public Library" "61 Bridge Street" "Saranac" "MI" "48881" -85.2136304 42.9305516
+"Bayliss Public Library" "541 Library Drive" "Sault Ste. Marie" "MI" "49783" -84.3482849 46.4955547
+"Schoolcraft Community Library" "330 North Centre Street" "Schoolcraft" "MI" "49087" -85.6391961 42.1169595
+"Scottville Library" "204 East State Street" "Scottville" "MI" "" -86.2779564 43.954849
+"Sebewaing Township Library" "41 North Center Street" "Sebewaing" "MI" "48759" -83.4513791 43.7327537
+"Rothbury Branch Library" "189 Maple Street" "Shelby" "MI" "49455" -86.3623123 43.6111017
+"Shelby Township Library" "51680 Van Dyke Avenue" "Shelby Township" "MI" "48316" -83.031987 42.6739
+"Coe Township Branch Library" "308 West Wright Avenue" "Shepherd" "MI" "" -84.6951921 43.5243218
+"Sherwood Branch Library" "118 Sherman Street" "Sherwood" "MI" "" -85.2371405 42.0004343
+"Sodus Township Library" "3776 Naomi Road" "Sodus" "MI" "49126" -86.3661879 42.043149
+"Somerset Township Library" "12715 East Chicago Road" "Somerset Center" "MI" "49282" -84.407125 42.0492502
+"Marialyce Canonie Great Lakes Research Library" "260 Dyckman Road" "South Haven" "MI" "" -86.2744032 42.4066199
+"South Haven Memorial Library" "314 Broadway Street" "South Haven" "MI" "49090" -86.2714824 42.4028466
+"Lyon Township Public Library" "27005 South Milford Road" "South Lyon" "MI" "48165" -83.613818 42.486412
+"Salem-South Lyon District Library" "9800 Pontiac Trail" "South Lyon" "MI" "48178" -83.6472915 42.4293136
+"South Rockwood Branch Library" "12776 Fort Street" "South Rockwood" "MI" "" -83.2133072 42.114162
+"John Grace Branch" "21030 Indian Street" "Southfield" "MI" "" -83.3112419 42.445086
+"Southfield Public Library" "26300 Evergreen Road" "Southfield" "MI" "48076" -83.240079 42.4828206
+"Southgate Veterans Memorial Library" "14680 Dix-Toledo Road" "Southgate" "MI" "" -83.2074207 42.2036912
+"Sparta Carnegie Township Library" "80 North Union Street" "Sparta" "MI" "49345" -85.70629 43.162191
+"Spring Arbor Branch Library" "113 East Main Street" "Spring Arbor" "MI" "" -84.5535822 42.2052653
+"Spring Lake District Library" "123 East Exchange Street" "Spring Lake" "MI" "49456" -86.1956136 43.0763331
+"Springport Branch Library" "110 Mechanic Street" "Springport" "MI" "" -84.6989171 42.3783261
+"Mary Johnston Memorial Library" "114 North Court Street" "Standish" "MI" "" -83.9637481 43.9825413
+"White Pine Library" "106 East Walnut Street" "Stanton" "MI" "48888" -85.0814453 43.2914293
+"Menominee County Library" "p.o. box 128" "Stephenson" "MI" "49887" -87.6076164 45.4152511
+"Sterling Heights Public Library" "40255 Dodge Park Road" "Sterling Heights" "MI" "48313" -83.011111 42.5903676
+"Lincoln Township Public Library" "2099 West John Beers Road" "Stevensville" "MI" "49127" -86.503922 42.015014
+"Stockbridge Branch" "200 Wood Street" "Stockbridge" "MI" "" -84.1813392 42.4521807
+"Sturgis District Library" "255 North Street" "Sturgis" "MI" "49091" -85.4193932 41.8008524
+"Sunfield District Library" "112 Main Street" "Sunfield" "MI" "48890" -84.9951472 42.7624529
+"Suttons Bay-Bingham District Library" "416 Front Street" "Suttons Bay" "MI" "49682" -85.6490194 44.9777582
+"Swartz Creek-Perkins Library" "8095 Civic Drive" "Swartz Creek" "MI" "" -83.835264 42.958794
+"Tawas City Branch Library" "208 North Street" "Tawas City" "MI" "" -83.5140265 44.2726734
+"Taylor Community Library" "12303 Pardee Road" "Taylor" "MI" "" -83.2532698 42.2169821
+"Tecumseh District Library" "215 North Ottawa Street" "Tecumseh" "MI" "49286" -83.9437534 42.0055963
+"Tekonsha Township Public Library" "230 South Church Street" "Tekonsha" "MI" "49092" -84.9875072 42.091488
+"Bedford Branch Library" "6642 Lewis Ave." "Temperance" "MI" "" -83.5671365 41.7380028
+"Betsie Valley District Library" "14731 Thompson Avenue" "Thompsonville" "MI" "49683" -85.9442565 44.5194355
+"Three Oaks Township Public Library" "3 North Elm Street" "Three Oaks" "MI" "49128" -86.610907 41.801287
+"Three Rivers Public Library" "920 West Michigan Avenue" "Three Rivers" "MI" "49093" -85.6438976 41.941779
+"Topinabee Public Library" "1576 Straits Highway" "Topinabee" "MI" "49791" -84.5909519 45.4849535
+"East Bay Branch Library" "1989 Three Mile Road, North" "Traverse City" "MI" "" -85.5570687 44.7149354
+"Peninsula Community Library" "2735 Island View Road" "Traverse City" "MI" "49686" -85.5189026 44.8690683
+"Traverse Area District Library" "610 Woodmere Avenue" "Traverse City" "MI" "49686" -85.6076448 44.7568802
+"Trenton Veterans Memorial Library" "2790 Westfield Road" "Trenton" "MI" "" -83.2054449 42.1415724
+"Troy Public Library" "510 West Big Beaver Road" "Troy" "MI" "48084" -83.1547093 42.5645304
+"Tustin Community Library" "310 South Neilson Street" "Tustin" "MI" "" -85.4589342 44.1016019
+"Dalton Branch Library" "3175 Fifth Street" "Twin Lake" "MI" "" -86.163278 43.3615608
+"Sleeper Public Library" "2236 East Main Street" "Ubly" "MI" "48475" -82.9301555 43.7101691
+"Union Township Library" "221 N. Broadway" "Union City" "MI" "" -85.1347897 42.0667129
+"Columbia Township Library" "6456 Center Street" "Unionville" "MI" "48767" -83.4661781 43.652802
+"Columbia Township Library" "6643 Merry Street" "Unionville" "MI" "" -83.4651273 43.6537736
+"Utica Public Library" "7530 Auburn Road" "Utica" "MI" "48317" -83.036795 42.6254312
+"Vanderbilt Branch Library" "8170 Mill Street" "Vanderbilt" "MI" "" -84.6632096 45.1452308
+"Bullard Sanford Memorial Library" "520 West Huron Avenue" "Vassar" "MI" "48768" -83.5882156 43.3723396
+"Vermontville Township Library" "120 East First Street" "Vermontville" "MI" "49096" -85.0242712 42.627511
+"Vernon District Public Library" "115 East Main Street" "Vernon" "MI" "48476" -84.0324578 42.939184
+"Richland Township Library" "8821 Third Street" "Vestaburg" "MI" "48891" -84.9088493 43.3990085
+"Vicksburg District Library" "215 South Michigan Avenue" "Vicksburg" "MI" "49097" -85.5334268 42.1179257
+"Wakefield Public Library" "401 Hancock Street" "Wakefield" "MI" "49968" -89.9425076 46.474724
+"Kent District Library - Walker" "4293 Remembrance Nw" "Walker" "MI" "49544" -85.7747805 43.0067891
+"Walkerville Public-School Library" "145 East Lathrop" "Walkerville" "MI" "49459" -86.1218569 43.7149996
+"Walled Lake City Library" "1499 East West Maple Road" "Walled Lake" "MI" "48390" -83.4732041 42.539366
+"Crooked Tree District Library" "2203 Walloon Street" "Walloon Lake" "MI" "49796" -84.933775 45.2671745
+"Arthur J. Miller Branch Library" "5460 Arden" "Warren" "MI" "" -83.0535534 42.5303003
+"Dorothy M. Busch Branch Library" "23333 Ryan Road" "Warren" "MI" "" -83.0649677 42.4645676
+"Edgar A. Guest Branch Library" "14060 East Stephens Road" "Warren" "MI" "" -82.9809825 42.4713315
+"Maybelle Burnette Branch Library" "22005 Van Dyke Avenue" "Warren" "MI" "" -83.0269342 42.4573894
+"Walt Whitman Branch Library" "30033 Schoenherr Road" "Warren" "MI" "" -82.988597 42.515178
+"Romeo District Library" "65821 Van Dyke Avenue" "Washington" "MI" "48095" -83.0133037 42.7901407
+"Cai Branch Library" "5640 Williams Lake Road" "Waterford" "MI" "" -83.400741 42.6900662
+"Waterford Township Public Library" "5168 Civic Center Drive" "Waterford" "MI" "48329" -83.3881797 42.6700443
+"Watervliet District Library" "333 North Main Street" "Watervliet" "MI" "49098" -86.2601508 42.188714
+"Henika District Library" "149 South Main Street" "Wayland" "MI" "49348" -85.6432006 42.6729016
+"Wayne Public Library" "3737 South Wayne Road" "Wayne" "MI" "48184" -83.3830872 42.2811589
+"Webberville Branch" "115 South Main Street" "Webberville" "MI" "" -84.17369 42.666503
+"Weidman Public Library" "3453 North School Road" "Weidman" "MI" "" -84.9781295 43.6898142
+"Wellston Branch Library" "1451 Seaman Road" "Wellston" "MI" "" -85.9578513 44.2166649
+"West Bloomfield Township Public Library" "4600 Walnut Lake Road" "West Bloomfield" "MI" "48323" -83.3738288 42.5594356
+"Westacres Branch Library" "7321 Commerce Road" "West Bloomfield" "MI" "" -83.4283113 42.5916278
+"West Branch District Library" "119 North Fourth Street" "West Branch" "MI" "48661" -84.239875 44.2765693
+"Wayne County Public Library" "30555 Michigan Avenue" "Westland" "MI" "48186" -83.3408063 42.286177
+"William P. Faust Public Library Of Westland" "6123 Central City Parkway" "Westland" "MI" "48185" -83.4003896 42.3286084
+"White Cloud Community Library" "1038 Wilcox Avenue" "White Cloud" "MI" "49349" -85.7694434 43.5501425
+"White Lake Township Library" "7527 East Highland Road" "White Lake" "MI" "48383" -83.5110205 42.649318
+"White Pigeon Township Library" "102 North Kalamazoo Street" "White Pigeon" "MI" "49099" -85.643061 41.798631
+"Carp Lake Township Library" "10 Cedar Street" "White Pine" "MI" "49971" -89.5831169 46.7524748
+"White Lake Community Library" "3900 White Lake Drive" "Whitehall" "MI" "49461" -86.3387107 43.3854184
+"Northfield Township Area Library" "125 Barker Road" "Whitmore Lake" "MI" "48189" -83.7646802 42.4223921
+"Williamston Branch" "175 East Grand River Avenue" "Williamston" "MI" "" -84.281255 42.689102
+"Fremont Township Branch Library" "2833 West Blanchard Road" "Winn" "MI" "" -84.902603 43.5251779
+"Wixom Public Library" "49015 Pontiac Trail" "Wixom" "MI" "48393" -83.5316661 42.5243096
+"Wolverine Community Library" "5716 Main Street" "Wolverine" "MI" "49799" -84.60442 45.273431
+"George W. Spindler Memorial Library" "186 North Main Street" "Woodland" "MI" "48897" -85.1341506 42.7289639
+"Bacon Memorial District Library" "45 Vinewood Street" "Wyandotte" "MI" "48192" -83.1476951 42.2073875
+"Kent District Library - Wyoming" "3350 Michael Avenue, Sw" "Wyoming" "MI" "49509" -85.6940445 42.9035305
+"Yale Public Library" "2 Jones Street" "Yale" "MI" "" -82.799215 43.129484
+"Ydl-Michigan Avenue" "229 W. Michigan Avenue" "Ypsilanti" "MI" "" -83.6157058 42.2407631
+"Ypsilanti District Library" "5577 Whittaker Road" "Ypsilanti" "MI" "48197" -83.61557 42.208097
+"Howard Miller Library" "14 South Church Street" "Zeeland" "MI" "49464" -86.0143748 42.8117141

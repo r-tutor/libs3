@@ -1,0 +1,203 @@
+"location" "miles" "latitude" "longitude"
+"Nola Brantley Memorial Library<br/>721 Watson Blvd.<br/>Warner Robins, GA" 1.77184761620391 -83.607963 32.618346
+"Centerville Branch Library<br/>310 E Church Street<br/>Centerville, GA" 5.38243208707705 -83.681986 32.623398
+"Byron Public Library<br/>105 West Church Street<br/>Byron, GA" 9.76860402177357 -83.7589567 32.6506327
+"Rocky Creek Branch Library<br/>1504 Rocky Creek Road<br/>Macon, GA" 11.4416569970175 -83.6713808 32.7912189
+"Middle Georgia Regional Library System<br/>1180 Washington Avenue<br/>Macon, GA" 14.0060021540536 -83.6387163 32.8385818
+"Houston County Public Libraries System<br/>1201 Washington Street<br/>Perry, GA" 14.8924641429349 -83.7336689 32.4610208
+"Twiggs County Public Library<br/>151 Ash Street<br/>Jeffersonville, GA" 14.9133529008071 -83.3424114 32.6893165
+"Shurling Branch Library<br/>1765 Shurling Drive<br/>Macon, GA" 15.2908517200389 -83.5942255 32.8610426
+"West Bibb Branch Library<br/>5580 Thomaston Road<br/>Macon, GA" 15.9895598643409 -83.7440787 32.8323715
+"Peach County Public Libraries System<br/>315 Martin Luther King Jr. Drive<br/>Fort Valley, GA" 18.1042220669154 -83.8840346 32.5514125
+"Thomas Public Library<br/>213 Persons Street<br/>Fort Valley, GA" 18.2022323536607 -83.8877098 32.5559767
+"Riverside Branch Library<br/>110 Holiday Drive North<br/>Macon, GA" 18.7039375880527 -83.6867893 32.8983065
+"Tessie W. Norris Cochran-Bleckley County Pl<br/>315 Third Street Se<br/>Cochran, GA" 22.3142377987755 -83.3536082 32.3875251
+"Crawford County Public Library<br/>340 Mccrary Street<br/>Roberta, GA" 25.1513081761369 -84.0117942 32.7248189
+"Jones County Public Library<br/>146 Railroad Avenue<br/>Gray, GA" 25.5487073600316 -83.5347489 33.0062288
+"M. E. Roden Memorial Library<br/>400 Commerce Street<br/>Hawkinsville, GA" 25.6842023567051 -83.4697045 32.2832569
+"Elizabeth Harris Library<br/>312 Harmon Street<br/>Unadilla, GA" 27.0473743487718 -83.7348882 32.2681237
+"East Wilkinson County Library<br/>154 E. Main Street<br/>Irwinton, GA" 27.4107697542153 -83.1694739 32.8156367
+"Reynolds Community Library<br/>124e Talbot Street<br/>Reynolds, GA" 30.0027669755035 -84.0976714 32.5597326
+"Monroe County Library<br/>62 West Main Street<br/>Forsyth, GA" 33.9963803349012 -83.9410978 33.034167
+"Montezuma Public Library<br/>506 N. Dooly Street<br/>Montezuma, GA" 34.1522580469218 -84.0258041 32.3088634
+"Byromville Public Library<br/>452 Main Street<br/>Byromville, GA" 35.4371689352558 -83.90647 32.2019884
+"Twin Lakes Library System<br/>151 South Jefferson Street<br/>Milledgeville, GA" 37.1782231256705 -83.2252782 33.0805955
+"Yatesville Public Library<br/>77 Childs Avenue<br/>Yatesville, GA" 37.2858274426618 -84.1452907 32.9118654
+"Butler Public Library<br/>21o West Main Street<br/>Butler, GA" 37.9935285312055 -84.23622 32.557168
+"Murrell Memorial-Dodge County Public Library<br/>505 Second Avenue Sw<br/>Eastman, GA" 39.1769910199691 -83.1798609 32.192918
+"Ocmulgee Regional Library System<br/>531 Second Ave.<br/>Eastman, GA" 39.1803634660827 -83.1800748 32.1927162
+"Ideal Public Library<br/>605 Tom Watson Avenue<br/>Ideal, GA" 39.3048602957462 -84.188698 32.376544
+"Dooly County Library<br/>1200 East Union Street<br/>Vienna, GA" 39.6290111299881 -83.767469 32.0866745
+"Laurens County Library<br/>801 Bellevue Avenue<br/>Dublin, GA" 39.9935291413925 -82.9163239 32.5377907
+"Lake Sinclair Library<br/>3061 North Columbia Street<br/>Milledgeville, GA" 41.5623042121645 -83.289647 33.184708
+"Barnesville-Lamar County Library<br/>401 Thomaston Street<br/>Barnesville, GA" 43.4804217606377 -84.1570719 33.0517144
+"Jasper County Library<br/>319 East Green Street<br/>Monticello, GA" 46.2230914204859 -83.680753 33.304035
+"Hightower Memorial Library<br/>800 West Gordon Street<br/>Thomaston, GA" 46.4344320440835 -84.3338883 32.8872196
+"Cordele-Crisp Carnegie Library<br/>115 East Eleventh Avenue<br/>Cordele, GA" 47.7077814970266 -83.7810959 31.9691477
+"Wilcox County Public Library<br/>104 North Broad<br/>Abbeville, GA" 47.7811897401355 -83.3068997 31.9925503
+"Eatonton - Putnam County Library<br/>309 North Madison Avenue<br/>Eatonton, GA" 49.0825060162433 -83.392128 33.329526
+"Jackson-Butts County Public Library<br/>436 East College Street<br/>Jackson, GA" 50.0350865760085 -83.9628893 33.2928663
+"Harlie Fulford Memorial Library<br/>301 West Elm Street<br/>Wrightsville, GA" 50.0955726887752 -82.7375572 32.7273571
+"Schley County Library<br/>234 South Broad Street<br/>Ellaville, GA" 50.4100109659956 -84.308772 32.2339992
+"Rosa M. Tarbutton Memorial Library<br/>314 S. Harris Street<br/>Sandersville, GA" 51.0804427548052 -82.8104738 32.9778578
+"Lake Blackshear Regional Library System<br/>307 East Lamar Street<br/>Americus, GA" 54.0915951820112 -84.2272286 32.071418
+"J. Joel Edwards Public Library<br/>618 Hwy 19 South<br/>Zebulon, GA" 54.2817860328555 -84.3421137 33.107549
+"Telfair County Public Library<br/>815 College Street<br/>Mcrae, GA" 56.1531266128341 -82.9091346 32.0686015
+"Flint River Regional Library System<br/>800 Memorial Drive<br/>Griffin, GA" 56.816890886243 -84.2534006 33.2452328
+"Hancock County Library<br/>403 East Broad Street<br/>Sparta, GA" 56.8575341747459 -82.9713992 33.2761698
+"Locust Grove Public Library<br/>3918 Highway 42<br/>Locust Grove, GA" 57.3234496518441 -84.109595 33.34574
+"Wheeler County Library<br/>203 W. Forest Avenue<br/>Alamo, GA" 58.2040252696224 -82.7838207 32.1474231
+"Marion County Library<br/>5th Avenue<br/>Buena Vista, GA" 58.3332749089289 -84.5158915 32.3185326
+"Treutlen County Library<br/>2nd Street<br/>Soperton, GA" 61.155624860743 -82.5895972 32.3802751
+"Manchester Public Library<br/>218 Perry Street<br/>Manchester, GA" 61.5757913316119 -84.6172963 32.8600271
+"Henry County Library System<br/>1001 Florence Mcgarity Pkwy<br/>Mcdonough, GA" 63.6048213654519 -84.1266922 33.4427305
+"Smithville Library<br/>116 Main Street<br/>Smithville, GA" 64.0165241448144 -84.252017 31.901918
+"Victoria Evans Memorial Library<br/>605 North Street<br/>Ashburn, GA" 64.2782166702953 -83.65522 31.712323
+"Fortson Public Library<br/>14 Old Griffin Rd<br/>Hampton, GA" 65.2775092341757 -84.2880349 33.381348
+"Morgan County Library<br/>1131 East Avenue<br/>Madison, GA" 66.569827957242 -83.4537759 33.5954041
+"Fitzgerald-Ben Hill County Library<br/>123 North Main Street<br/>Fitzgerald, GA" 66.922347713352 -83.2545634 31.7155852
+"Montgomery County Public Library<br/>215 Railroad Street<br/>Mt. Vernon, GA" 67.6462863509031 -82.5653194 32.1866301
+"Newton County Library System<br/>7116 Floyd Street<br/>Covington, GA" 67.8886040538885 -83.8392981 33.599275
+"Webster County Library<br/>572 Washington Street<br/>Preston, GA" 68.0313968358456 -84.537649 32.0666511
+"Greene County Library<br/>610 South Main Street<br/>Greensboro, GA" 68.4683975775648 -83.1830279 33.568723
+"Greenville Area Public Library<br/>10 Gilbert Street<br/>Greenville, GA" 70.3002708345142 -84.7102795 33.0266601
+"Wadley Public Library<br/>11 W. College Ave.<br/>Wadley, GA" 70.8178596363778 -82.405003 32.86818
+"Glascock County<br/>738 Railroad Street<br/>Gibson, GA" 70.9326182200631 -82.5929014 33.2305922
+"Lee County Public Library System<br/>245 Walnut Avenue, South<br/>Leesburg, GA" 72.0011620309003 -84.1717355 31.722149
+"Senoia Area Public Library<br/>62 Main Street<br/>Senoia, GA" 72.2043813456234 -84.554159 33.3015315
+"W. H. Stanton Memorial Library<br/>1045 West Hightower Trail<br/>Social Circle, GA" 72.2292398847628 -83.7301398 33.6777294
+"Redbone Library<br/>104 Thundering Springs Road<br/>Leesburg, GA" 72.433694178045 -84.0694331 31.6741164
+"Cochran Public Library<br/>4602 N. Henry Blvd<br/>Stockbridge, GA" 72.6712937078813 -84.2301352 33.544231
+"Franklin Memorial Library<br/>331 West Main Street<br/>Swainsboro, GA" 72.9421008284785 -82.3410331 32.5931614
+"Jefferson County Library System<br/>306 E. Broad Street<br/>Louisville, GA" 73.1779216963322 -82.4069836 32.9975727
+"Louisville Public Library<br/>306 E. Broad St.<br/>Louisville, GA" 73.1779216963322 -82.4069836 32.9975727
+"Parks Memorial Library<br/>112 Wall Street<br/>Richland, GA" 73.7208477536805 -84.6675412 32.0831985
+"Ladson Genealogy Library<br/>119 Church Street<br/>Vidalia, GA" 74.7558652597279 -82.4134186 32.2171578
+"Ohoopee Regional Library System<br/>610 Jackson Street<br/>Vidalia, GA" 74.8479052328774 -82.4146742 32.2113777
+"Taliaferro County Library<br/>117 Askin Street<br/>Crawfordville, GA" 74.8517175898717 -82.8955219 33.5514613
+"Conyers-Rockdale Library System<br/>864 Green Street<br/>Conyers, GA" 75.0746973246406 -84.0181108 33.6649281
+"Fayette County Public Library<br/>1821 Heritage Parkway<br/>Fayetteville, GA" 75.0748337556722 -84.457466 33.4470105
+"Harris County Public Library<br/>138 North College Street<br/>Hamilton, GA" 75.1256878160334 -84.874306 32.760913
+"Irwin County Library<br/>310 South Beech Street<br/>Ocilla, GA" 75.2098547126585 -83.2516315 31.5915819
+"Jonesboro Branch Library<br/>124 Smith Street<br/>Jonesboro, GA" 75.4697358006671 -84.356684 33.5229069
+"Warren County Public Library<br/>101 Warren Street<br/>Warrenton, GA" 75.6707948468805 -82.6620139 33.4075154
+"Clayton County Library System<br/>865 Battle Creek Road<br/>Jonesboro, GA" 77.3959875429118 -84.3633345 33.5532549
+"Morrow Branch Library<br/>6225 Maddox Road<br/>Morrow, GA" 77.6192539039143 -84.314123 33.584986
+"Peachtree City Library<br/>201 Willowbend Road<br/>Peachtree City, GA" 77.8226802339762 -84.5805645 33.400456
+"Margaret Jones Memorial Library<br/>205 Pope Street<br/>Sylvester, GA" 78.1316295325121 -83.8343245 31.5293559
+"Kinchafoonee Regional Library System<br/>913 Forrester Drive, Se<br/>Dawson, GA" 78.3763006194146 -84.4371905 31.7613811
+"Hazlehurst-Jeff Davis Public Library<br/>700 Cromartie Street<br/>Hazlehurst, GA" 78.8768629507332 -82.5908807 31.8758461
+"Salem-Panola Branch<br/>5137 Salem Road<br/>Lithonia, GA" 79.4275111720321 -84.1779532 33.6780832
+"Chattahoochee Valley Regional Library System<br/>3000 Macon Road<br/>Columbus, GA" 79.6460911993283 -84.9440487 32.4769318
+"Riverdale Branch Library<br/>420 Valley Hill Road<br/>Riverdale, GA" 79.6810087312079 -84.4032954 33.5699113
+"Tallulah Massey Branch<br/>2004 Stratford Drive<br/>Albany, GA" 79.6819858310656 -84.0991632 31.5712809
+"Northwest Branch Library<br/>2215 Barnesdale Way<br/>Albany, GA" 79.7401298647811 -84.2008324 31.6090979
+"Ambrose Public Library<br/>1070 Cypress Avenue<br/>Ambrose, GA" 79.7705429729144 -83.0139181 31.5957813
+"North Columbus Branch Library<br/>5689 Armour Road<br/>Columbus, GA" 79.8144152295159 -84.9543614 32.5258517
+"Midville Branch<br/>149 Trout<br/>Midville, GA" 79.8187757277134 -82.2365078 32.8182555
+"Bruce Street Branch<br/>2484 Bruce Street<br/>Lithonia, GA" 79.8745928545693 -84.0982231 33.7140721
+"Nelle Brown Memorial Public Library<br/>166 West Liberty Street<br/>Lyons, GA" 79.9806981310822 -82.3237489 32.202621
+"Lithonia-Davidson Branch<br/>6821 Church Street<br/>Lithonia, GA" 79.9907793240605 -84.1090925 33.7122467
+"Monroe-Walton County Library<br/>217 West Spring Street<br/>Monroe, GA" 80.1399310507562 -83.715512 33.7939014
+"Mccollum Public Library<br/>405 N. Main St.<br/>Wrens, GA" 80.4465873148849 -82.385788 33.21266
+"Central Library<br/>300 Pine Avenue<br/>Albany, GA" 80.501036358135 -84.1539749 31.5781483
+"South Columbus Branch Library<br/>2034 S Lumpkin Road<br/>Columbus, GA" 80.8299668887288 -84.9517372 32.4151038
+"Coastal Plain Regional Library System<br/>2014 Chestnut Avenue<br/>Tifton, GA" 80.844917402042 -83.501714 31.4737637
+"Coweta County Public Library System<br/>85 Literary Lane<br/>Newnan, GA" 81.0582439565144 -84.669793 33.38561
+"Forest Park Branch Library<br/>696 Main Street<br/>Forest Park, GA" 81.453655690089 -84.367292 33.622231
+"W. C. Bradley Memorial Library<br/>1120 Bradley Drive<br/>Columbus, GA" 81.5624802361429 -84.975532 32.467322
+"Tyrone Public Library<br/>881 Senoia Road<br/>Tyrone, GA" 82.0352903780909 -84.5963151 33.475203
+"Wesley Chapel-William C. Brown Branch<br/>2861 Wesley Chapel Road<br/>Decatur, GA" 82.1487415414163 -84.2211535 33.7043247
+"Broxton Public Library<br/>105 Church Street<br/>Broxton, GA" 82.2110730747597 -82.8862569 31.6125919
+"Flat Shoals Branch<br/>4022 Flat Shoals Pkwy<br/>Decatur, GA" 82.3342358503454 -84.25826 33.691393
+"Mildred L. Terry Branch Library<br/>640 Veterans Parkway<br/>Columbus, GA" 82.3390554415555 -84.9872996 32.4582255
+"Westtown Branch Library<br/>2124 Waddell Avenue<br/>Albany, GA" 82.3872192102935 -84.200708 31.5664845
+"Southside Branch Library<br/>2114 Habersham<br/>Albany, GA" 82.6729246454063 -84.1715499 31.5504492
+"Redan-Trotti Branch<br/>1569 Wellborn Road<br/>Redan, GA" 82.8612994323087 -84.1422632 33.7457471
+"Grantville Public Library<br/>123 La Grange Street<br/>Grantville, GA" 83.2157411720295 -84.8391813 33.2325519
+"Phenix City-Russell County Library<br/>1501 17th Avenue<br/>Phenix City, AL" 83.842349693512 -85.0164134 32.4751263
+"Hapeville Branch<br/>525 King Arnold Street<br/>Hapeville, GA" 84.7413815161754 -84.404688 33.658581
+"South Fulton Regional<br/>4055 Flat Shoals Road<br/>Union City, GA" 84.7549209315095 -84.5197348 33.5871519
+"Okelly Memorial Library<br/>363 Conyers Road<br/>Loganville, GA" 84.8187312652757 -83.9032795 33.8381708
+"Hairston Crossing Branch<br/>4911 Redan Road<br/>Stone Mountain, GA" 84.8364844750031 -84.1920134 33.7588599
+"Hogansville Public Library<br/>600 East Main Street<br/>Hogansville, GA" 84.9378780574394 -84.909822 33.172113
+"Thomson-Mcduffie County Library<br/>338 Main Street<br/>Thomson, GA" 85.2523643130608 -82.5043128 33.469638
+"Scott Candler Branch<br/>2644 Mcafee Road<br/>Decatur, GA" 85.4582055375551 -84.2817059 33.7321752
+"Cleveland Ave.-Roy Yancy, Sr., Branch<br/>47 Cleveland Avenue, Sw<br/>Atlanta, GA" 85.6178686441394 -84.3905627 33.6815324
+"Thomasville Heights Branch<br/>1700 Thomasville Drive Se<br/>Atlanta, GA" 85.8727525502974 -84.356266 33.7037685
+"College Park Branch<br/>3647 Main Street<br/>Atlanta, GA" 86.0551809949947 -84.44974 33.655686
+"Fairburn-Hobgood-Palmer Branch<br/>60 Valley View Drive<br/>Fairburn, GA" 86.152576267181 -84.5849522 33.5667996
+"Elizabeth H. Williams<br/>2740 Lenora Church Rd.<br/>Snellville, GA" 86.807319873516 -84.0128064 33.8444993
+"Covington Branch<br/>3500 Covington Hwy<br/>Decatur, GA" 86.8084246366212 -84.2508421 33.7672718
+"Stewart-Lakewood<br/>2893 Lakewood Avenue<br/>Atlanta, GA" 86.8827205857821 -84.4019745 33.6971678
+"Carver Homes Branch<br/>215 Lakewood Way, Suite 104<br/>Atlanta, GA" 86.9296591990137 -84.3967392 33.7007792
+"East Point Branch<br/>2757 Main Street<br/>East Point, GA" 87.1531497302304 -84.4406947 33.6803507
+"Stone Mountain-Sue Kellogg Branch<br/>952 Leon Street<br/>Stone Mountain, GA" 87.3608151383804 -84.1713029 33.8061596
+"Kirkwood Branch<br/>11 Kirkwood Road, Se<br/>Atlanta, GA" 87.5356834983225 -84.3162086 33.7507904
+"Newnan-Coweta Public Library<br/>25 Hospital Road<br/>Newnan, GA" 87.8896175551697 -84.8167974 33.3877318
+"East Atlanta Branch<br/>400 Flat Shoals Ave. Se<br/>Atlanta, GA" 87.9749689927076 -84.3480902 33.7431206
+"Decatur Library<br/>215 Sycamore St<br/>Decatur, GA" 88.3576577005342 -84.2940387 33.7741573
+"Dekalb County Public Library System<br/>215 Sycamore Street<br/>Decatur, GA" 88.3576577005342 -84.2940387 33.7741573
+"Lagrange Memorial Library<br/>115 Alford Street<br/>Lagrange, GA" 88.4524780591991 -85.038128 33.0378039
+"Georgia Hill Branch<br/>250 Georgia Avenue, S.E.<br/>Atlanta, GA" 88.533469674664 -84.3795471 33.7370101
+"Scottdale-Tobie Grant Branch<br/>644 Parkdale Drive<br/>Scottdale, GA" 88.6975121913492 -84.2559196 33.7956074
+"Clarkston Branch<br/>951 N. Indian Creek Dr<br/>Clarkston, GA" 88.8608265130373 -84.2388074 33.8049996
+"Mountain Park<br/>1210 Pounds Rd. Sw<br/>Lilburn, GA" 88.9342734204478 -84.1203325 33.8472774
+"Adams Park Branch<br/>2231 Campbellton Road Sw<br/>Atlanta, GA" 89.2804080935006 -84.4616745 33.7056691
+"Mechanicsville Branch<br/>400 Formwalt Street Sw<br/>Atlanta, GA" 89.3976959157076 -84.3950944 33.7437565
+"Satilla Regional Library System<br/>200 S. Madison Avenue, Suite D<br/>Douglas, GA" 89.5672730256861 -82.849443 31.5081946
+"Douglas-Coffee County Public Library<br/>201 South Coffee Avenue<br/>Douglas, GA" 89.6456453170342 -82.8470328 31.5080349
+"Martin Luther King Jr., Branch<br/>409 John Wesley Dobbs Ave<br/>Atlanta, GA" 89.6488384278412 -84.373977 33.758569
+"Auburn Avenue Research Library<br/>101 Auburn Avenue, Ne<br/>Atlanta, GA" 89.7675648073168 -84.3842751 33.7554722
+"West End Branch<br/>525 Peeples Street, S.W.<br/>Atlanta, GA" 89.9821947179497 -84.4208876 33.7403112
+"Ponce De Leon Branch<br/>980 Ponce De Leon Avenue Ne<br/>Atlanta, GA" 90.0397506575264 -84.3551243 33.7741745
+"Atlanta Branch<br/>100 South Walnut Street<br/>Atlanta, IN" 90.2191784062093 -84.4065406 33.7518401
+"Oglethorpe County Library<br/>858 Athens Rd.<br/>Lexington, GA" 90.3875843203269 -83.131993 33.888869
+"Bogart Branch Library<br/>200 S. Burson St.<br/>Bogart, GA" 90.3919407517818 -83.531681 33.945783
+"Bartram Trail Regional Library System<br/>204 E. Liberty Street<br/>Washington, GA" 90.467982635068 -82.7380503 33.7354927
+"L. C. Anderson Memorial Library<br/>325 West Vertia Street<br/>Metter, GA" 90.6830708878986 -82.0641975 32.3959023
+"Five Forks<br/>2780 Five Forks Trickum Rd<br/>Lawrenceville, GA" 90.7400754266655 -84.0557675 33.8930893
+"Toco Hill-Avis G. Williams Branch<br/>1282 Mcconnell Drive<br/>Decatur, GA" 90.8550917342436 -84.3070188 33.8092369
+"Washington Park-Annie L. Mcpheeters Branch<br/>1116 Martin Luther King, Jr., Dr.<br/>Atlanta, GA" 90.8986104463129 -84.4240721 33.7543161
+"Athens Regional Library System<br/>2025 Baxter Street<br/>Athens, GA" 90.9245671018408 -83.4035953 33.9450079
+"Tucker-Reid H. Cofer Branch<br/>4316 Church Street<br/>Tucker, GA" 91.4491326341546 -84.2117283 33.8561117
+"Statham Public Library<br/>330 Jefferson Street<br/>Statham, GA" 91.6556879763982 -83.596196 33.9650109
+"Northlake-Barbara Loar Branch<br/>3772 Lavista Road<br/>Tucker, GA" 91.7112266340985 -84.2610724 33.841838
+"Harlem Branch<br/>375 N. Louisville Street<br/>Harlem, GA" 91.7783342963039 -82.310523 33.418871
+"Southwest Regional<br/>3665 Cascade Road, S.W.<br/>Atlanta, GA" 91.8411294169304 -84.5068224 33.7245501
+"Peachtree Branch<br/>1315 Peachtree Street, N.E.<br/>Atlanta, GA" 91.8741069790067 -84.3846492 33.7906557
+"East Athens Resource Center<br/>400 Mckinley Drive<br/>Athens, GA" 92.3190938641231 -83.35599 33.959985
+"Randolph County Branch Library<br/>200 East Pearl Street<br/>Cuthbert, GA" 92.3380861905047 -84.7901575 31.7718586
+"Lay Park Resource Center<br/>297 Hoyt Street<br/>Athens, GA" 92.4420256201606 -83.3757817 33.9641423
+"Dogwood Branch<br/>1838 Donald Lee Hollowell Pkwy Nw<br/>Atlanta, GA" 92.7579007049744 -84.4470367 33.7740391
+"Lilburn<br/>788 Hillcrest Rd. Nw<br/>Lilburn, GA" 92.9692392601865 -84.1456186 33.9017059
+"Monroe Memorial Library<br/>232 Broad Street<br/>Doerun, GA" 93.2221207772662 -83.9194841 31.3213279
+"H. Grady Bradshaw - Chambers County Library<br/>3419 20th Avenue<br/>Valley, AL" 93.3054839366458 -85.1779768 32.8379883
+"Adamsville-Collier Heights Branch<br/>3424 Martin Luther King Jr., Dr.<br/>Atlanta, GA" 93.3506037424 -84.5001855 33.7550563
+"Gwinnett County Public Library System<br/>1001 Lawrenceville Highway<br/>Lawrenceville, GA" 93.3525672252779 -84.0147313 33.9424062
+"Winterville Branch Library<br/>115 Marigold Land<br/>Winterville, GA" 93.5690531502269 -83.2782101 33.9670589
+"Embry Hills Branch<br/>3733 Chamblee-Tucker Road<br/>Chamblee, GA" 93.8628459509 -84.2415226 33.8833991
+"Tattnall County Library<br/>129 Tattnall Street<br/>Reidsville, GA" 94.1636074764351 -82.1213525 32.0827419
+"Piedmont Regional Library System<br/>189 Bell View Street<br/>Winder, GA" 94.2557329929871 -83.7231539 33.9981705
+"Bowen Homes Branch<br/>2880 Yates Drive, N.W.<br/>Atlanta, GA" 94.3534486079999 -84.4827385 33.782299
+"Buckhead Branch<br/>269 Buckhead Avenue<br/>Atlanta, GA" 94.5501840657674 -84.379144 33.837746
+"Chamblee Branch<br/>4115 Clairmont Rd<br/>Chamblee, GA" 95.4222548816345 -84.3089233 33.8823001
+"Bankhead Courts Branch<br/>1415 Maynard Road<br/>Atlanta, GA" 95.5668257625187 -84.4997812 33.7939603
+"Perry Homes Branch<br/>2121 Hollywood Rd Nw<br/>Atlanta, GA" 95.7265795450234 -84.4683901 33.813602
+"Auburn Library<br/>7 Seventh Street<br/>Auburn, GA" 95.8058184736201 -83.824385 34.011302
+"Nicholls Public Library<br/>108 North Liberty Street<br/>Nicholls, GA" 95.8583780308477 -82.6349684 31.5160753
+"Doraville Branch<br/>3748 Central Ave<br/>Doraville, GA" 95.8719786539137 -84.2783348 33.9015004
+"Euchee Creek Branch<br/>5907 Euchee Creek Dr.<br/>Grovetown, GA" 96.2552553842535 -82.2647211 33.476313
+"Northside Branch<br/>3295 Northside Parkway Nw<br/>Atlanta, GA" 96.3081055703502 -84.4253753 33.8451277
+"Norcross<br/>6025 Buford Hwy.<br/>Norcross, GA" 96.5879262156684 -84.2179562 33.934485
+"Burke County Library<br/>412 4th Street<br/>Waynesboro, GA" 96.6771184710643 -82.0138365 33.0834984
+"Jenkins County Memorial Library<br/>223 Daniel Street<br/>Millen, GA" 96.8036015022665 -81.939787 32.8042897
+"Heard County Public Library<br/>564 Main Street<br/>Franklin, GA" 97.7681087347692 -85.0950507 33.277656
+"Collins Hill<br/>455 Camp Perrin Rd<br/>Lawrenceville, GA" 98.0603875690432 -84.0023128 34.0154716
+"Lewis A. Ray Library<br/>4500 Oakdale Road<br/>Smyrna, GA" 98.3391499724049 -84.4944902 33.8445787
+"South Cobb Library<br/>5801 Mableton Parkway<br/>Mableton, GA" 98.960300699115 -84.5716727 33.8124913
+"Peachtree Corners<br/>5570 Spalding Dr.<br/>Norcross, GA" 99.0569370651576 -84.2263137 33.970187
+"Duluth<br/>3480 Duluth Park Lane<br/>Duluth, GA" 99.673033191955 -84.1587391 34.0007997
+"Sandy Springs Branch<br/>395 Mount Vernon Hwy Ne<br/>Atlanta, GA" 99.6796938599102 -84.3742842 33.9239692
+"Harold S. Swindle Public Library<br/>5466 U.S. Hwy. 441 South<br/>Nicholson, GA" 99.7208755143922 -83.4223844 34.0746558
+"Dunwoody Branch<br/>5339 Chamblee-Dunwoody Rd<br/>Dunwoody, GA" 99.8766418477488 -84.3317741 33.9446505

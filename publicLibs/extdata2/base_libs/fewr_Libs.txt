@@ -1,0 +1,103 @@
+"location" "miles" "latitude" "longitude"
+"Laramie County Library System<br/>2800 Central Ave<br/>Cheyenne, WY" 2.13474415842967 -104.8220005 41.1441236
+"Burns Branch Library<br/>112 Main Street<br/>Burns, WY" 26.4372060268861 -104.359233 41.1923455
+"Wellington Public Library<br/>3800 Wilson Ave<br/>Wellington, CO" 31.0071453676128 -105.0049853 40.7094622
+"Northern Plains Public Library<br/>216 2nd Street<br/>Ault, CO" 39.3991971281879 -104.736997 40.583137
+"Albany County Public Library<br/>310 South 8th St<br/>Laramie, WY" 39.414223932131 -105.5878593 41.3103221
+"Fort Collins Public Library<br/>201 Peterson Street<br/>Fort Collins, CO" 40.2424527411965 -105.0725797 40.5849335
+"Pine Bluffs Branch Library<br/>110 E. 2nd Street<br/>Pine Bluffs, WY" 41.4945226957139 -104.0677755 41.1828332
+"Chugwater Branch Library<br/>301 Second Street<br/>Chugwater, WY" 42.4144764830744 -104.8226172 41.7571003
+"Eaton Public Library<br/>132 Maple Avenue<br/>Eaton, CO" 43.4120672774608 -104.714814 40.5271926
+"Harmony Library<br/>4616 South Shields Street<br/>Fort Collins, CO" 44.6653665455697 -105.0928181 40.5228403
+"Red Feather Lakes Community Library<br/>71 Firehouse Lane<br/>Red Feather Lakes, CO" 44.7498889511531 -105.5897864 40.8020695
+"Windsor Severance Library District<br/>214 Fifth Street<br/>Windsor, CO" 46.0736087778593 -104.90441 40.479363
+"Windsor-Severance Library District<br/>720 Third Street<br/>Windsor, CO" 46.5797081978447 -104.9013022 40.4719331
+"Lincoln Park Branch<br/>919 7th Street<br/>Greeley, CO" 50.5141583862405 -104.6930046 40.4258589
+"Farr Branch<br/>1939 61st Avenue<br/>Greeley, CO" 51.1369945480286 -104.7793848 40.4081407
+"Centennial Park Branch<br/>2227 23rd Avenue<br/>Greeley, CO" 51.9720090634296 -104.7165358 40.4015836
+"Loveland Public Library<br/>300 North Adams Avenue<br/>Loveland, CO" 52.9700921794587 -105.0686421 40.3949336
+"Glenn A. Jones, M.D. Memorial Library<br/>400 S. Parish Avenue<br/>Johnstown, CO" 56.3585475526244 -104.9069261 40.3306216
+"Berthoud Community Library District<br/>236 Welch Ave<br/>Berthoud, CO" 59.1943299682814 -105.0770366 40.3044625
+"Kimball Public Library<br/>208 South Walnut<br/>Kimball, NE" 62.8599188708599 -103.6615797 41.2366098
+"Platte County Library System<br/>904 9th St<br/>Wheatland, WY" 63.2324050056381 -104.9532251 42.0563054
+"Estes Valley Public Library District<br/>335 E Elkhorn Ave<br/>Estes Park, CO" 63.2512107783429 -105.5197721 40.3774644
+"Platteville Public Library<br/>504 Marion Avenue<br/>Platteville, CO" 64.299271379578 -104.8254901 40.2155809
+"Lyons Depot Library<br/>430 Fifth Avenue<br/>Lyons, CO" 67.2581474744164 -105.2716459 40.2230772
+"Centennial Library Branch<br/>27 2nd Street<br/>Centennial, WY" 67.3108433152681 -106.1404117 41.2985345
+"Lyman Public Library<br/>313 Jeffers Street<br/>Lyman, NE" 68.33278934648 -104.0390392 41.9163222
+"Longmont Public Library<br/>409 4th Ave<br/>Longmont, CO" 68.8906214907986 -105.1005035 40.1652087
+"Rock River Branch Library<br/>321 Avenue D<br/>Rock River, WY" 71.0923424498328 -105.9765849 41.7442351
+"Carbon Valley Branch Library<br/>320 Maple St. B<br/>Frederick, CO" 72.3413939216402 -104.932868 40.100232
+"Goshen County Library<br/>2001 East A St<br/>Torrington, WY" 72.6734276074009 -104.1829531 42.064044
+"Dacono Public Library<br/>512 Cherry Street<br/>Dacono, CO" 73.3863275965796 -104.9365845 40.0852521
+"Fort Lupton Public School Library<br/>425 South Denver Avenue<br/>Fort Lupton, CO" 73.9560475850649 -104.8106242 40.0762824
+"Morrill Public Library<br/>119 East Webster Street<br/>Morrill, NE" 74.5616040653919 -103.9260452 41.9634055
+"Hudson Public Library<br/>555 Main Street<br/>Hudson, CO" 74.9871684125788 -104.6443679 40.0734149
+"Mitchell Public Library<br/>1449 Center Avenue<br/>Mitchell, NE" 77.62044534001 -103.8086859 41.9425134
+"Guernsey Branch Library<br/>108 South Wyoming Avenue<br/>Guernsey, WY" 78.0222835257695 -104.7415626 42.2689614
+"Gering Public Library<br/>1055 P Street<br/>Gering, NE" 78.0244470042569 -103.6614336 41.8244796
+"Panhandle Library System<br/>115 Railway Street<br/>Scottsbluff, NE" 79.4746726203413 -103.6650529 41.8624626
+"Jackson County Public Library<br/>412 4th Street<br/>Walden, CO" 79.5084526419319 -106.2829224 40.7316491
+"Juniper Library<br/>316 Garfield Street<br/>Grand Lake, CO" 79.5442540252742 -105.819278 40.252098
+"Lied Scottsbluff Public Library<br/>1809 3rd Avenue<br/>Scottsbluff, NE" 79.8163305063805 -103.6586066 41.8643498
+"Lafayette Public Library<br/>775 W Baseline Rd<br/>Lafayette, CO" 79.9906657771804 -105.0811365 40.0002383
+"Potter Public Library<br/>333 Chestnut<br/>Potter, NE" 80.7156494911293 -103.3155425 41.2166543
+"Brighton Branch Library<br/>575 South 8th Avenue<br/>Brighton, CO" 80.7317370725429 -104.8131159 39.978206
+"Carnegie Branch For Local History<br/>1125 Pine Street<br/>Boulder, CO" 80.8402019709012 -105.2815311 40.0200819
+"Boulder Public Library<br/>1001 Arapahoe Avenue<br/>Boulder, CO" 81.2519762720632 -105.281769 40.013952
+"Meadows Branch Library<br/>4800 Baseline Road<br/>Boulder, CO" 81.6510353566772 -105.2343462 39.9985008
+"Louisville Public Library<br/>951 Spruce Street<br/>Louisville, CO" 81.918067264983 -105.1311127 39.978091
+"George Reynolds Branch<br/>3595 Table Mesa Drive<br/>Boulder, CO" 82.8279722694264 -105.2526034 39.9844433
+"Fort Morgan Public Library<br/>414 Main Street<br/>Fort Morgan, CO" 83.1454662958987 -103.8008242 40.2522933
+"Minatare Public Library<br/>309 Main Street<br/>Minatare, NE" 84.1094301459822 -103.5035607 41.8088944
+"Broomfield-Eisenhower Public Library<br/>3 Community Park Road<br/>Broomfield, CO" 85.5663442502552 -105.0689285 39.9176433
+"Rangeview Library District<br/>11658 N. Huron<br/>Northglenn, CO" 85.808474943959 -104.9951983 39.9082773
+"College Hill Library<br/>3705 W 112th Ave<br/>Westminster, CO" 86.5457862073609 -105.0403055 39.9008226
+"Westminster Public Library<br/>3705 W. 112th Ave<br/>Westminster, CO" 86.5457862073609 -105.0403055 39.9008226
+"Medicine Bow Library<br/>302 Sage Street<br/>Medicine Bow, WY" 86.7094370700959 -106.2010653 41.8981252
+"Northglenn Branch Library<br/>10530 North Huron Street<br/>Northglenn, CO" 87.2575077455084 -104.996088 39.887317
+"Nederland Community Library District<br/>20 Lakeview Drive<br/>Nederland, CO" 88.7227640401315 -105.5094579 39.9598444
+"Elk Mountain Library<br/>105 Bridge Street<br/>Elk Mountain, WY" 88.7546437408272 -106.4134168 41.6873095
+"Thornton Branch Library<br/>8992 North Washington<br/>Thornton, CO" 89.1076680203614 -104.9773452 39.8594436
+"East Morgan County Library District-Brush<br/>500 Clayton Street<br/>Brush, CO" 89.3608228071901 -103.6231866 40.2584001
+"Bayard Public Library<br/>509 Avenue A<br/>Bayard, NE" 90.2141154642673 -103.3256228 41.7555573
+"Standley Lake Library<br/>8485 Kipling Street<br/>Arvada, CO" 90.4731475257753 -105.1111614 39.8504515
+"Perl Mack Branch Library<br/>7611 Hilltop Circle<br/>Denver, CO" 90.9066175672028 -105.0029351 39.8348159
+"76th Avenue Branch<br/>3031 West 76th Avenue<br/>Westminster, CO" 91.0295098734446 -105.0266063 39.8346187
+"Commerce City Branch Library<br/>7185 Monaco<br/>Commerce City, CO" 91.2033033030069 -104.9131363 39.8267617
+"Grand County Library District<br/>225 E Jasper Ave<br/>Granby, CO" 92.4426678109075 -105.9383755 40.0865651
+"Granby Branch Library<br/>13 East Jasper Avenue<br/>Granby, CO" 92.5518380562736 -105.9420381 40.0867183
+"Gilpin County Library District<br/>15131 Highway 119<br/>Black Hawk, CO" 93.5795543958844 -105.465374 39.8717375
+"Sterling Public Library<br/>420 North Fifth Street<br/>Sterling, CO" 93.6047324889926 -103.2079166 40.629285
+"Arvada Library<br/>7525 W. 57th Avenue<br/>Arvada, CO" 93.6933049836227 -105.0804447 39.8003525
+"Glendo Branch Library<br/>213 Second Street<br/>Glendo, WY" 94.3806039126637 -105.0266514 42.5036301
+"Montbello Branch<br/>12955 Albrook Drive<br/>Denver, CO" 94.3906256541967 -104.840467 39.7802398
+"Valdez-Perry<br/>4690 Vine Street<br/>Denver, CO" 94.4276507418624 -104.9620771 39.7816807
+"Smiley Branch<br/>4501 West 46th Avenue<br/>Denver, CO" 94.8767549745604 -105.048587 39.780393
+"Pauline Robinson Branch<br/>5575 E 33rd Ave<br/>Denver, CO" 95.5503801346494 -104.9227264 39.7641148
+"Woodbury Branch<br/>3265 Federal Boulevard<br/>Denver, CO" 95.9496429329973 -105.0257471 39.7631346
+"Ford Warren Library<br/>2825 High Street<br/>Denver, CO" 96.1201779862198 -104.9650955 39.7573035
+"Wheat Ridge Library<br/>5475 West 32nd Avenue<br/>Wheat Ridge, CO" 96.1769689906189 -105.0571922 39.7621836
+"Moorhead Branch<br/>2390 Havana Street<br/>Aurora, CO" 96.3365856394633 -104.865466 39.752002
+"Blair-Caldwell Library<br/>2401 Welton Street<br/>Denver, CO" 96.508705038877 -104.9816069 39.7524359
+"Park Hill Branch<br/>4705 Montview Boulevard<br/>Denver, CO" 96.698222785266 -104.9325269 39.747775
+"Edgewater Library<br/>5843 West 25th Avenue<br/>Edgewater, CO" 96.8189731874261 -105.0610858 39.7531688
+"Fraser Valley Library<br/>241 Norgen Rd<br/>Fraser, CO" 96.9670326594659 -105.82007 39.9462868
+"Martin Luther King Jr. Branch Library<br/>9901 East 16th Avenue<br/>Aurora, CO" 97.0256609094557 -104.8728579 39.7420593
+"Chambers Plaza Library<br/>15057 Colfax Avenue<br/>Aurora, CO" 97.1846365814238 -104.8136218 39.740243
+"Jefferson County Public Library<br/>10200 W 20th Ave<br/>Lakewood, CO" 97.5733118393319 -105.1132838 39.7470416
+"Lakewood Library<br/>10200 West 20th Avenue<br/>Lakewood, CO" 97.5733118393319 -105.1132838 39.7470416
+"Denver Public Library<br/>10 W 14th Avenue Parkway<br/>Denver, CO" 97.5788561735117 -104.9881457 39.7372618
+"Golden Library<br/>1019 Tenth Street<br/>Golden, CO" 97.9447813627104 -105.2256059 39.755898
+"Sidney Public Library<br/>1112 12th Avenue<br/>Sidney, NE" 98.1243065127967 -102.97926 41.142652
+"Byers Library<br/>675 Santa Fe Drive<br/>Denver, CO" 98.3216085125449 -104.9988968 39.7270737
+"Bridgeport Public Library<br/>722 Main Street<br/>Bridgeport, NE" 98.3868531281374 -103.0995589 41.6679016
+"Bennett Branch Library<br/>495 7th Street<br/>Bennett, CO" 98.5593486352799 -104.4258142 39.7592387
+"Ross-Cherry Creek Branch<br/>305 Milwaukee Street<br/>Denver, CO" 98.5761182759059 -104.952556 39.721257
+"Hot Sulphur Springs Library<br/>105 Moffat<br/>Hot Sulphur Springs, CO" 98.6484061155233 -106.1005943 40.0718036
+"Schlessman Family Branch<br/>100 South Poplar Street<br/>Denver, CO" 98.9715774785931 -104.9043474 39.7142547
+"Ross-Barnum Branch<br/>3570 West 1st Avenue<br/>Denver, CO" 99.1061276828136 -105.0345571 39.7179274
+"Ross-Broadway Branch<br/>33 East Bayaud Avenue<br/>Denver, CO" 99.1104586278033 -104.9866333 39.7149952
+"Aurora Public Library<br/>14949 East Alameda Parkway<br/>Aurora, CO" 99.2461451732493 -104.8151612 39.7104005
+"Dalton Public Library<br/>306 Main Street<br/>Dalton, NE" 99.8743855597873 -102.9738218 41.4073041
+"Eugene Field Library<br/>810 South University Boulevard<br/>Denver, CO" 99.9443878522481 -104.9589582 39.7016933

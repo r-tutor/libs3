@@ -1,0 +1,234 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Acworth Silsby Free Library" "5 Lynn Hill Road" "Acworth" "NH" "03601" -72.278302 43.221326
+"Haynes Library" "33 Washburn Road" "Alexandria" "NH" "03222" -71.7942975 43.612006
+"Shedd-Porter Memorial Library" "3 Main St" "Alstead" "NH" "03601" -72.3616902 43.149135
+"Gilman Library" "100 Main Street" "Alton" "NH" "03809" -71.219583 43.455215
+"Amherst Town Library" "14 Main Street" "Amherst" "NH" "03031" -71.627492 42.862495
+"Andover Public Library" "11 School Street" "Andover" "NH" "03216" -71.8207933 43.4353861
+"James A. Tuttle Library" "45 Main Street" "Antrim" "NH" "03440" -71.9378431 43.0279416
+"Ashland Town Library" "41 Main Street" "Ashland" "NH" "03217" -71.6305727 43.6949873
+"Thayer Public Library" "3 Main Street" "Ashuelot" "NH" "03441" -72.4241801 42.7781176
+"Kimball Library" "5 Academy Ave" "Atkinson" "NH" "03811" -71.1479442 42.8387464
+"Griffin Free Public Library" "22 Hooksett Road" "Auburn" "NH" "03032" -71.3483818 43.0059306
+"Barrington Public Library" "39 Province Lane" "Barrington" "NH" "03825" -70.9820128 43.1954559
+"Bartlett Public Library" "1313 Us Rte 302" "Bartlett" "NH" "03812" -71.2796354 44.078173
+"Bath Public Library" "4 West Bath Road" "Bath" "NH" "03740" -71.9866221 44.174525
+"Bedford Public Library" "3 Meetinghouse Road" "Bedford" "NH" "03110" -71.516209 42.9461054
+"Belmont Public Library" "146 Main Street" "Belmont" "NH" "03220" -71.4819959 43.4431429
+"G. E.P. Dodge Library" "2 Main Street" "Bennington" "NH" "" -71.9233855 43.0009834
+"Berlin Public Library" "270 Main Street" "Berlin" "NH" "03570" -71.1782385 44.4714066
+"Bethlehem Public Library" "2155 Main Street" "Bethlehem" "NH" "03574" -71.6867418 44.2805639
+"Boscawen Public Library" "116 North Main St" "Boscawen" "NH" "03303" -71.6034298 43.2893601
+"Baker Free Library" "509 South Street" "Bow" "NH" "03304" -71.5342327 43.1718807
+"Brown Memorial Library" "78 West Main Street" "Bradford" "NH" "03221" -71.9612871 43.2695542
+"Mary E. Bartlett Library" "22 Dalton Road" "Brentwood" "NH" "03833" -71.0686092 42.9822497
+"Bridgewater Public Library" "1032 River Road" "Bridgewater" "NH" "03264" -71.6557219 43.6529338
+"Minot-Sleeper Library" "35 Pleasant Street" "Bristol" "NH" "03222" -71.737763 43.590964
+"Brookline Public Library" "16 Main Street" "Brookline" "NH" "03033" -71.659431 42.733036
+"Campton Public Library" "1110 Nh Route 175" "Campton" "NH" "03223" -71.6342096 43.8513274
+"Canaan Town Library" "1173 U.S. Rt 4" "Canaan" "NH" "03741" -72.0115925 43.6464421
+"Smyth Public Library" "55 High Street" "Candia" "NH" "03034" -71.2894471 43.0617419
+"Elkins Library" "9 Center Road" "Canterbury" "NH" "03224" -71.5717494 43.3381734
+"Oscar Foss Memorial Library" "111 South Barnstead Road" "Center Barnstead" "NH" "03225" -71.2596423 43.3396127
+"James E. Nichols Memorial Library" "35 Plymouth Street" "Center Harbor" "NH" "03226" -71.4627501 43.7089788
+"Ossipee Public Library" "74 Main Street" "Center Ossipee" "NH" "03814" -71.1418766 43.7534718
+"Samuel H. Wentworth Library" "35 Main Street" "Center Sandwich" "NH" "03227" -71.4370475 43.8056553
+"Silsby Free Public Library" "226 Main Street" "Charlestown" "NH" "03603" -72.4240554 43.2338003
+"Chester Public Library" "3 Chester Street" "Chester" "NH" "03036" -71.2577217 42.9571322
+"Chesterfield Public Library" "524 Route 63" "Chesterfield" "NH" "03443" -72.4705638 42.8878807
+"Chichester Town Library" "161 Main Street" "Chichester" "NH" "03258" -71.3858652 43.2522537
+"Chocorua Public Library" "25 Deer Hill Road" "Chocorua" "NH" "03817" -71.2192734 43.8782639
+"Fiske Free Library" "108 Broad Street" "Claremont" "NH" "03743" -72.336177 43.3718303
+"Colebrook Public Library" "126 Main St." "Colebrook" "NH" "03576" -71.4913068 44.9091301
+"Concord Public Library" "45 Green Street" "Concord" "NH" "03301" -71.5403811 43.2066825
+"New Hampshire Historical Society Tuck Library" "30 Park Street" "Concord" "NH" "" -71.5396113 43.2072467
+"Hopkinton Town Library" "61 Houston Drive" "Contoocook" "NH" "03229" -71.7200011 43.2228674
+"Conway Public Library" "15 Main Street" "Conway" "NH" "03818" -71.11923 43.9787389
+"George H. Stowell Free Library" "24 School Street" "Cornish Flat" "NH" "03746" -72.2751999 43.4968924
+"Tuftonboro Free Library" "221 Middle Rd." "Ctr. Tuftonboro" "NH" "03816" -71.2546109 43.6645687
+"Dalton Public Library" "741 Dalton Road" "Dalton" "NH" "03598" -71.694327 44.4154753
+"George Gamble Library" "29 Route 104" "Danbury" "NH" "03230" -71.8603192 43.5250766
+"Colby Memorial Library" "7 Colby Road" "Danville" "NH" "03819" -71.1245491 42.9130974
+"Philbrick-James Library" "4 Church Street" "Deerfield" "NH" "03037" -71.2416628 43.1326227
+"Deering Public Library" "762 Deering Center Road" "Deering" "NH" "03244" -71.8462583 43.0741015
+"Derry Public Library" "64 East Broadway" "Derry" "NH" "03038" -71.3225345 42.8835152
+"Dover Public Library" "73 Locust Street" "Dover" "NH" "03820" -70.8763312 43.1928898
+"Dublin Public Library" "1114 Main Street" "Dublin" "NH" "03444" -72.0608019 42.9058901
+"Dummer Public Library" "67 Hill Road" "Dummer" "NH" "03588" -71.2065423 44.606924
+"Dunbarton Public Library" "1004 School Street" "Dunbarton" "NH" "03046" -71.6158163 43.102271
+"Durham Public Library" "7 Mill Road Unit H" "Durham" "NH" "03824" -70.925754 43.1328093
+"William Adams Bachelder Library" "12 Chase Hill Road" "East Andover" "NH" "03231" -71.7472123 43.4592468
+"Taylor Library" "49 East Derry Road" "East Derry" "NH" "03041" -71.2941024 42.8940352
+"East Kingston Public Library" "47 Maplevale Road" "East Kingston" "NH" "03827" -71.0086902 42.9231792
+"East Rochester Public Library" "57 Main Street" "East Rochester" "NH" "03868" -70.9800262 43.2759105
+"Effingham Free Public Library" "30 Town House Road" "Effingham" "NH" "03882" -71.0377562 43.7435892
+"Enfield Public Library" "23 Main Street" "Enfield" "NH" "03748" -72.1442874 43.6428099
+"Harvey-Mitchell Memorial Library" "151 Main Street" "Epping" "NH" "03042" -71.0732508 43.0393028
+"Epsom Public Library" "1606 Dover Road" "Epsom" "NH" "03234" -71.3337524 43.2238354
+"Errol Public Library" "67 Main Street" "Errol" "NH" "03579" -71.1375313 44.7810051
+"Hanover Town Library" "130 Etna Road" "Etna" "NH" "03750" -72.2200173 43.693589
+"Exeter Public Library" "4 Chestnut Street" "Exeter" "NH" "03833" -70.9442004 42.9818668
+"Goodwin Library" "422 Main St." "Farmington" "NH" "03835" -71.0548167 43.3852692
+"Fitzwilliam Town Library" "11 Templeton Turnpike" "Fitzwilliam" "NH" "03447" -72.1437979 42.7774177
+"George Holmes Bixby Memorial Library" "52 Main Street" "Francestown" "NH" "03043" -71.8136517 42.9889562
+"Abbie Greenleaf Library" "439 Main Street" "Franconia" "NH" "03580" -71.7469597 44.2270094
+"Franklin Public Library" "310 Central Street" "Franklin" "NH" "03235" -71.6475572 43.4442316
+"Freedom Public Library" "38 Old Portland Road" "Freedom" "NH" "03836" -71.0327491 43.8126571
+"Fremont Public Library" "7 Jackie Bernier Drive" "Fremont" "NH" "03044" -71.1219992 42.9795887
+"Gilford Public Library" "31 Potter Hill Road" "Gilford" "NH" "03249" -71.4052167 43.5484746
+"Gilmanton Corner Public Library" "509 Province Road" "Gilmanton" "NH" "03237" -71.4137982 43.4246787
+"Gilmanton Iron Works Library" "10 Elm Street" "Gilmanton Iron Works" "NH" "03837" -71.2965873 43.4173618
+"Gilsum Public Library" "650 Route 10" "Gilsum" "NH" "03448" -72.2587855 43.0480918
+"Goffstown Public Library" "2 High Street" "Goffstown" "NH" "03045" -71.5999599 43.020596
+"Gorham Public Library" "35 Railroad Street" "Gorham" "NH" "03581" -71.1783706 44.3877504
+"Olive G. Pettis Library" "36 Mill Village Road" "Goshen" "NH" "03752" -72.1476082 43.300056
+"Grafton Public Library" "26 Library Road" "Grafton" "NH" "03240" -71.9500873 43.5614661
+"Dunbar Free Library" "401 Route 10 South" "Grantham" "NH" "03753" -72.1443595 43.4790887
+"Stephenson Memorial Library" "761 Forest Road" "Greenfield" "NH" "03047" -71.869324 42.950083
+"Weeks Public Library" "36 Post Road" "Greenland" "NH" "03840" -70.8328729 43.0353252
+"Chamberlin Free Public Library" "46 Main Street" "Greenville" "NH" "03048" -71.8119965 42.7672621
+"Groton Free Public Library" "754 North Groton Road" "Groton" "NH" "03241" -71.799873 43.7654403
+"Northumberland Public Library" "31 State Street" "Groveton" "NH" "03582" -71.5148378 44.5990697
+"Hampstead Public Library" "9 Mary E. Clark Drive" "Hampstead" "NH" "03841" -71.1747756 42.8616604
+"Lane Memorial Library" "2 Academy Avenue" "Hampton" "NH" "03842" -70.8338382 42.9379227
+"Hampton Falls Free Library" "7 Drinkwater Road" "Hampton Falls" "NH" "03844" -70.8749885 42.9206732
+"Hancock Town Library" "25 Main Street" "Hancock" "NH" "03449" -71.9865376 42.9731062
+"Howe Library" "13 South Street" "Hanover" "NH" "03755" -72.2860365 43.6998766
+"Harrisville Public Library" "7 Canal Street" "Harrisville" "NH" "03450" -72.0949993 42.9457866
+"Haverhill Library Association" "67 Court Street" "Haverhill" "NH" "03765" -72.0571886 44.0321217
+"Hebron Public Library" "8 Church Lane" "Hebron" "NH" "03241" -71.8055261 43.6943472
+"Tucker Free Library" "31 Western Avenue" "Henniker" "NH" "03242" -71.8235598 43.1794433
+"Hill Public Library" "30 Crescent Street" "Hill" "NH" "03243" -71.7007743 43.5218432
+"Fuller Public Library" "29 School Street" "Hillsborough" "NH" "03244" -71.8958328 43.1164875
+"Hinsdale Public Library" "122 Brattleboro Road" "Hinsdale" "NH" "03451" -72.495619 42.7851793
+"Holderness Library" "866 Us Route 3" "Holderness" "NH" "03245" -71.5875727 43.7313466
+"Hollis Social Library" "2 Monument Square" "Hollis" "NH" "03049" -71.5892954 42.739982
+"Hooksett Public Library" "1701b Hooksett Road" "Hooksett" "NH" "03106" -71.4512657 43.0943294
+"Rodgers Memorial Library" "194 Derry Road" "Hudson" "NH" "03051" -71.4392372 42.7913421
+"Jackson Public Library" "125 Main Street" "Jackson" "NH" "03846" -71.1821717 44.1465693
+"Jaffrey Public Library" "38 Main Street" "Jaffrey" "NH" "03452" -72.0245473 42.8160961
+"Jefferson Public Library" "737 Presidential Highway" "Jefferson" "NH" "03583" -71.4764615 44.4204514
+"Keene Public Library" "60 Winter Street" "Keene" "NH" "03431" -72.2809894 42.9340832
+"Kensington Social Public Library" "126 Amesbury Road" "Kensington" "NH" "03833" -70.9431946 42.9282365
+"Nichols Memorial Library" "169 Main Street" "Kingston" "NH" "03848" -71.0533182 42.9367582
+"Goss Reading Room" "188 Elm Street" "Laconia" "NH" "" -71.4664529 43.5497035
+"Laconia Public Library" "695 Main Street" "Laconia" "NH" "03246" -71.4709512 43.5292584
+"William D. Weeks Memorial Library" "128 Main Street" "Lancaster" "NH" "03584" -71.5703411 44.4916404
+"Lebanon Public Library" "9 East Park Street" "Lebanon" "NH" "03766" -72.2499465 43.6424365
+"Lee Public Library" "7 Mast Road" "Lee" "NH" "03861" -71.0081798 43.1247105
+"Miner Memorial Library" "3 2nd New Hampshire Turnpike" "Lempster" "NH" "03605" -72.1771541 43.2270143
+"Lincoln Public Library" "22 Church Street" "Lincoln" "NH" "03251" -71.6696647 44.045304
+"Lisbon Public Library" "45 School Street" "Lisbon" "NH" "03585" -71.9115126 44.2146357
+"Aaron Cutler Memorial Library" "269 Charles Bancroft Highway" "Litchfield" "NH" "03052" -71.4768518 42.8373555
+"Littleton Public Library" "92 Main Street" "Littleton" "NH" "03561" -71.7737556 44.306901
+"Leach Library" "276 Mammoth Road" "Londonderry" "NH" "03053" -71.3754528 42.8678432
+"Maxfield Public Library" "8 Route 129" "Loudon" "NH" "03307" -71.4638897 43.2883319
+"Converse Free Library" "38 Union Street" "Lyme" "NH" "03768" -72.1593543 43.8104628
+"J.A. Tarbell Library" "136 Forest Road" "Lyndeborough" "NH" "03082" -71.7824437 42.8788451
+"Madbury Public Library" "9 Town Hall Road" "Madbury" "NH" "03823" -70.9412027 43.1670984
+"Madison Library" "1895 Village Road" "Madison" "NH" "03849" -71.1605488 43.8916589
+"Manchester City Library" "405 Pine Street" "Manchester" "NH" "03104" -71.4592978 42.9922826
+"West Side Community Library" "76 North Main Street" "Manchester" "NH" "" -71.47423 42.9850046
+"Frost Free Library" "28 Jaffrey Road" "Marlborough" "NH" "03455" -72.2060687 42.9008075
+"Marlow Town Library" "12 Church Street" "Marlow" "NH" "03456" -72.2612653 43.0471708
+"Mason Public Library" "16 Darling Hill Road" "Mason" "NH" "03048" -71.7688945 42.744089
+"Meredith Public Library" "91 Main Street" "Meredith" "NH" "03253" -71.4998105 43.6530758
+"Meriden Library" "22 Bean Road" "Meriden" "NH" "03770" -72.2508464 43.5427121
+"Merrimack Public Library" "470 Daniel Webster Highway" "Merrimack" "NH" "03054" -71.4937258 42.8670164
+"Milan Public Library" "20 Bridge Street" "Milan" "NH" "03588" -71.1834601 44.5733673
+"William Y. Wadleigh Memorial Library" "49 Nashua Street" "Milford" "NH" "03055" -71.6479651 42.8352485
+"Nute Library" "22 Elm Street" "Milton" "NH" "03851" -70.9911358 43.40824
+"Milton Free Public Library" "13 Main Street" "Milton Mills" "NH" "03852" -70.9614782 43.4989583
+"Monroe Public Library" "19 Plains Road" "Monroe" "NH" "03771" -72.0525105 44.2600255
+"Daland Memorial Library" "5 North Main Street" "Mont Vernon" "NH" "03057" -71.6742923 42.8952436
+"Moultonborough Public Library" "4 Holland Street" "Moultonborough" "NH" "03254" -71.3957856 43.7556531
+"Chandler Memorial Library Ethnic Center" "257 Main Street" "Nashua" "NH" "" -71.4633495 42.7565119
+"Nashua Public Library" "2 Court Street" "Nashua" "NH" "03060" -71.4643947 42.7631732
+"Olivia Rodham Memorial Library" "1 Nelson Common Road" "Nelson" "NH" "03457" -72.1281082 42.9780853
+"Whipple Free Library" "2 Central Square" "New Boston" "NH" "03070" -71.6917733 42.9764521
+"New Castle Library" "301 Wentworth Road" "New Castle" "NH" "03854" -70.7163542 43.0646663
+"New Durham Public Library" "2 Old Bay Road" "New Durham" "NH" "03855" -71.1630628 43.4347628
+"Easton Public Library" "1060 Easton Valley Road" "New Hampshire" "NH" "03580" -71.7876371 44.1654674
+"Gordon-Nash Library" "69 Main Street" "New Hampton" "NH" "03256" -71.6531767 43.6055426
+"New Ipswich Library" "6 Main Street" "New Ipswich" "NH" "03071" -71.8543174 42.7564554
+"Tracy Memorial Library" "304 Main Street" "New London" "NH" "03257" -71.9853337 43.4143489
+"Newbury Public Library" "933 Route 103" "Newbury" "NH" "03255" -72.0350874 43.320523
+"Newfields Public Library" "76 Main Street" "Newfields" "NH" "03856" -70.9415893 43.0362789
+"Langdon Library" "328 Nimble Hill Road" "Newington" "NH" "03801" -70.8324782 43.0977281
+"Newmarket Public Library" "1 Elm Street" "Newmarket" "NH" "03857" -70.9356176 43.0814117
+"Richards Free Library" "58 North Main Street" "Newport" "NH" "03773" -72.1758692 43.3675968
+"Gale Library" "16 South Main Street" "Newton" "NH" "03858" -71.0363617 42.8674975
+"North Conway Public Library Association" "2719 White Mountain Highway" "North Conway" "NH" "03860" -71.1283775 44.0536587
+"North Hampton Public Library" "237a Atlantic Avenue" "North Hampton" "NH" "03862" -70.8313164 42.9735174
+"Patten-North Haverhill Library" "2885 Dartmouth College Highway" "North Haverhill" "NH" "03774" -72.0253946 44.0943721
+"North Walpole Public Library" "70 Church Street" "North Walpole" "NH" "" -72.4502107 43.1435932
+"Hall Memorial Library" "18 Park Street" "Northfield" "NH" "03276" -71.5925684 43.4420562
+"Chesley Memorial Library" "8 Mountain Avenue" "Northwood" "NH" "03261" -71.1496047 43.19376
+"Blaisdell Memorial Library" "129 Stage Road" "Nottingham" "NH" "03290" -71.1014306 43.1171577
+"Orford Free Library" "2539 Route 25a" "Orford" "NH" "03777" -72.1024091 43.8828606
+"Orford Social Library" "573 Nh Rt. 10" "Orford" "NH" "03777" -72.1376093 43.9050629
+"Pelham Public Library" "24 Village Green" "Pelham" "NH" "03076" -71.3263951 42.7321033
+"Pembroke Town Library" "313 Pembroke Street" "Pembroke" "NH" "03275" -71.4601704 43.1503797
+"Peterborough Town Library" "2 Concord Street" "Peterborough" "NH" "03458" -71.9478547 42.877852
+"Piermont Public Library" "130 Route 10" "Piermont" "NH" "03779" -72.0798507 43.9694457
+"Pike Library" "1585 Mt. Moosilauke Highway" "Pike" "NH" "03780" -71.9142868 43.9958045
+"Bremer Pond Memorial Library" "12 School Street" "Pittsburg" "NH" "03592" -71.3903665 45.0523517
+"Philip Read Memorial Library" "1088 Route 12a" "Plainfield" "NH" "03781" -72.3560381 43.5355568
+"Plaistow Public Library" "85 Main Street" "Plaistow" "NH" "03865" -71.0930571 42.8285588
+"Pease Public Library" "1 Russell Street" "Plymouth" "NH" "03264" -71.6888516 43.7569064
+"Portsmouth Public Library" "175 Parrott Avenue" "Portsmouth" "NH" "03801" -70.7595599 43.0718974
+"Randolph Public Library" "130 Durand Road" "Randolph" "NH" "03593" -71.3047887 44.3723507
+"Dudley-Tucker Library" "6 Epping Street" "Raymond" "NH" "03077" -71.1825864 43.0370435
+"Richmond Public Library" "19 Winchester Road" "Richmond" "NH" "03470" -72.2731349 42.7546213
+"Ingalls Memorial Library" "203 Main Street" "Rindge" "NH" "03461" -72.0080471 42.7420198
+"Rochester Public Library" "65 South Main Street" "Rochester" "NH" "03867" -70.9743182 43.3024956
+"Rollinsford Public Library" "3 Front Street" "Rollinsford" "NH" "03869" -70.8173209 43.2355317
+"Byron G. Merrill Library" "10 Buffalo Road" "Rumney" "NH" "03266" -71.8134803 43.8045815
+"Rye Public Library" "581 Washington Road" "Rye" "NH" "03870" -70.7734377 43.0117137
+"Kelley Library" "234 Main Street" "Salem" "NH" "03079" -71.2112242 42.7843249
+"Salisbury Free Library" "641 Old Turnpike Road" "Salisbury" "NH" "03268" -71.7451083 43.39125
+"Sanbornton Public Library" "27 Meetinghouse Hill Road" "Sanbornton" "NH" "03269" -71.583923 43.4942434
+"The Gafney Library, Inc" "14 High Street" "Sanbornville" "NH" "03872" -71.029958 43.554644
+"Sandown Public Library" "305 Main Street" "Sandown" "NH" "03873" -71.1864863 42.9248968
+"Seabrook Library" "25 Liberty Lane" "Seabrook" "NH" "03874" -70.8612329 42.8850246
+"Shelburne Public Library" "74 Village Road" "Shelburne" "NH" "03581" -71.0740913 44.3993956
+"South Hampton Free Public Library" "3-1 Hilldale Avenue" "South Hampton" "NH" "03827" -70.9630957 42.8810628
+"Libbie A. Cass Memorial Library" "2748 Main St." "Springfield" "NH" "03284" -72.0488665 43.4940486
+"Hill Library" "1151 Parker Mountain Road" "Starfford" "NH" "03884" -71.123044 43.2684301
+"Stark Public Library" "1189 Stark Highway" "Stark" "NH" "03582" -71.4303153 44.599535
+"Davis Public Library" "1391 Route 123 North" "Stoddard" "NH" "03464" -72.0774284 43.0484271
+"Laura Johnson Memorial Library" "40 Hollow Road" "Stratford" "NH" "03590" -71.5588719 44.654061
+"Wiggin Memorial Library" "10 Bunker Hill Ave." "Stratham" "NH" "03885" -70.9170492 43.0110887
+"Richardson Memorial Library" "1411 Main Street" "Sugar Hill" "NH" "03586" -71.6949872 44.2798611
+"Sullivan Public Library" "436 Centre Street" "Sullivan" "NH" "03445" -72.2065497 42.9993056
+"Abbott Library" "542 Route 11" "Sunapee" "NH" "03782" -72.0877576 43.387429
+"Allenstown Public Library" "59 Main Street" "Suncook" "NH" "03275" -71.4543039 43.1281132
+"Reed Free Library" "8 Village Road" "Surry" "NH" "03431" -72.3218496 43.0204458
+"Sutton Free Library" "75 Main Street" "Sutton" "NH" "03221" -71.9492256 43.3324439
+"Mt. Caesar Union Library" "628 Old Homestead Highway" "Swanzey" "NH" "03446" -72.2812434 42.874402
+"Cook Memorial Library" "93 Main Street" "Tamworth" "NH" "03886" -71.266275 43.85949
+"Mansfield Public Library" "5 Main Street" "Temple" "NH" "03084" -71.8513101 42.8193609
+"Thornton Public Library" "1884 N.H. Route 175" "Thornton" "NH" "03285" -71.6644137 43.8948643
+"Gay-Kimball Library" "10 South Main Street" "Troy" "NH" "03465" -72.1814322 42.824326
+"Twin Mountain Public Library" "92 School Street" "Twin Mountain" "NH" "03595" -71.5415987 44.2721324
+"Unity Free Public Library" "13 Center Road, Unit 4" "Unity" "NH" "03603" -72.2712987 43.2816361
+"Dennis Joos Memorial Library" "888 Washington Street" "W. Stewartstown" "NH" "03597" -71.5313631 44.9951775
+"Wakefield Public Library" "2699 Wakefield Road" "Wakefield" "NH" "03872" -71.0297336 43.56947
+"Walpole Town Library" "48 Main Street" "Walpole" "NH" "03608" -72.4258064 43.0793291
+"Pillsbury Free Library" "18 East Main Street" "Warner" "NH" "03278" -71.8153693 43.2801378
+"Joseph Patch Library" "320 Nh Route 25" "Warren" "NH" "03279" -71.8888255 43.9081343
+"Shedd Free Library" "46 North Main Street" "Washington" "NH" "03280" -72.0960277 43.1757144
+"Osceola Library" "2 West Branch Road" "Waterville Valley" "NH" "03215" -71.5119238 43.9585194
+"Weare Public Library" "10 Paige Memorial Lane" "Weare" "NH" "03281" -71.7306313 43.0948033
+"Webster Free Public Library" "947 Battle Street" "Webster" "NH" "03303" -71.7195504 43.3135802
+"Webster Memorial Library" "20 Wentworth Village Road" "Wentworth" "NH" "03282" -71.9101699 43.8694624
+"Stratton Free Library" "9 Main Street" "West Swanzey" "NH" "03469" -72.3244187 42.8706668
+"Westmoreland Public Library" "33 South Village Road" "Westmoreland" "NH" "03467" -72.4395655 42.9628655
+"Whitefield Public Library" "8 Lancaster Road" "Whitefield" "NH" "03598" -71.6110624 44.3741314
+"Wilmot Public Library" "11 North Wilmot Road" "Wilmot" "NH" "03287" -71.9356464 43.4218706
+"Wilton Public Gregg Free Library" "7 Forest Road" "Wilton" "NH" "03086" -71.7388123 42.8451306
+"Conant Public Library" "111 Main Street" "Winchester" "NH" "03470" -72.3878996 42.7688185
+"Nesmith Library" "8 Fellows Road" "Windham" "NH" "03087" -71.2994662 42.8033523
+"Wolfeboro Public Library" "259 South Main Street" "Wolfeboro" "NH" "03894" -71.2008024 43.5798659
+"Moosilauke Public Library" "165 Lost River Road" "Woodstock" "NH" "03262" -71.7023216 44.0310651
+"Woodsville Free Public Library" "14 School Lane" "Woodsville" "NH" "03785" -72.0364921 44.1503401

@@ -1,0 +1,123 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"El Pueblo De Abiquiu Library And Community Center" "p.o. box 838" "Abiquiu" "NM" "87510" -106.3186397 36.207241
+"Alamogordo Public Library" "920 Oregon Avenue" "Alamogordo" "NM" "88310" -105.944516 32.8990858
+"Alamosa-Robert L. Murphy Memorial Library" "6900 Gonzales Rd. Sw" "Albuquerque" "NM" "" -106.7103233 35.071366
+"Albuquerque-Bernalillo County Library System" "501 Copper Ave. Nw" "Albuquerque" "NM" "87102" -106.6531118 35.0861328
+"Cherry Hills Library" "6901 Barstow Ne" "Albuquerque" "NM" "" -106.5563423 35.1589489
+"Erna Fergusson Library" "3401-A Monroe Ne" "Albuquerque" "NM" "" -106.5909166 35.1217394
+"Ernie Pyle Library" "900 Girard Blvd. Se" "Albuquerque" "NM" "" -106.6131332 35.0702243
+"Esperanza Branch" "5600 Esperanza Dr., Nw" "Albuquerque" "NM" "" -106.7003834 35.083153
+"Juan Tabo Library" "3407 Juan Tabo Blvd. Ne" "Albuquerque" "NM" "" -106.5165625 35.1206525
+"Lomas Tramway Library" "908 Eastridge Ne" "Albuquerque" "NM" "" -106.4979318 35.0857184
+"Los Griegos Library" "1000 Griegos Rd Nw" "Albuquerque" "NM" "" -106.6493603 35.1322928
+"North Valley Library" "7704 2nd St. Nw" "Albuquerque" "NM" "" -106.6281215 35.1673382
+"San Pedro Library" "5600 Trumbull Se" "Albuquerque" "NM" "" -106.5778395 35.0688593
+"South Broadway-Frances Parrish Library" "1025 Broadway Se" "Albuquerque" "NM" "" -106.6461001 35.0728412
+"South Valley Library" "3904 Isleta Blvd Sw" "Albuquerque" "NM" "" -106.6824074 35.0187712
+"Special Collections Library" "423 Central Ave. Ne" "Albuquerque" "NM" "" -106.6424318 35.083824
+"Taylor Ranch Library" "5700 Bogart Nw" "Albuquerque" "NM" "" -106.7167597 35.1491215
+"Westgate Library" "1300 Delgado Sw" "Albuquerque" "NM" "" -106.7515645 35.0511771
+"Wyoming Library" "8205 Apache Ne" "Albuquerque" "NM" "" -106.5526815 35.1078527
+"Shuter Library Of Angel Fire" "11 South Angel Fire Road" "Angel Fire" "NM" "87710" -105.278266 36.389591
+"Valley Public Library" "635 Church Street" "Anthony" "NM" "88021" -106.600689 32.0029955
+"Artesia Public Library" "306 W. Richardson Ave." "Artesia" "NM" "88210" -104.399965 32.8400177
+"Aztec Public Library" "319 S. Ash" "Aztec" "NM" "87410" -107.9995867 36.8202549
+"Bayard Public Library" "1120 Central Ave." "Bayard" "NM" "88023" -108.1389731 32.7577229
+"Belen Public Library" "333 Becker Avenue" "Belen" "NM" "87002" -106.7710303 34.6599415
+"Town Of Bernalillo Public Library" "124 Calle Malinche" "Bernalillo" "NM" "87004" -106.5500558 35.304135
+"Bloomfield Public Library" "333 South First Street" "Bloomfield" "NM" "87413" -107.979827 36.708754
+"Bosque Farms Public Library" "1455 W. Bosque Loop" "Bosque Farms" "NM" "87068" -106.706053 34.8533672
+"Capitan Public Library" "101 E. 2nd Street" "Capitan" "NM" "88316" -105.5723811 33.5446431
+"Carlsbad Public Library" "101 S. Halagueno" "Carlsbad" "NM" "88220" -104.2311149 32.4197492
+"Eleanor Daggett Memorial Library" "299 4th Street" "Chama" "NM" "87520" -106.5799611 36.9042087
+"Albert W. Thompson Memorial Library" "17 Chestnut Street" "Clayton" "NM" "88415" -103.1856686 36.4521885
+"Michael Nivison Public Library" "90 Swallow Place" "Cloudcroft" "NM" "88317" -105.7427681 32.9568653
+"Clovis Carver Public Library" "701 Main" "Clovis" "NM" "88101" -103.2045342 34.4051993
+"Irene S. Sweetkind Public Library" "6515 Hoochaneetsa Blvd." "Cochiti Lake" "NM" "87083" -106.3365128 35.6465578
+"Cochiti Pueblo Community Library" "245 Cochiti St." "Cochiti Pueblo" "NM" "" -106.3500419 35.6085626
+"Pueblo De Cochiti Library" "255 Cochiti St." "Cochiti Pueblo" "NM" "87072" -106.3500419 35.6085626
+"Columbus Village Library" "112 W. Broadway" "Columbus" "NM" "88029" -107.6395155 31.8305064
+"Village Of Corona Public Library" "521 Main Street" "Corona" "NM" "88318" -105.5949114 34.2489861
+"Corrales Community Library" "84 West La Entrada Road" "Corrales" "NM" "87048" -106.6178157 35.2230486
+"Cuba Public Library" "6382 U.S. 550" "Cuba" "NM" "87013" -106.961432 36.016385
+"Marshall Memorial Library" "110 S Diamond Street" "Deming" "NM" "88030" -107.7548973 32.2689178
+"Dexter Public Library" "115 E. Second Street" "Dexter" "NM" "" -104.369977 33.1968517
+"Embudo Valley Library Community Center" "217 Hwy 75 Dixon" "Dixon" "NM" "87527" -105.888532 36.1988885
+"Jicarilla Public Library" "165 Hawks Drive" "Dulce" "NM" "87528" -106.9876769 36.9402762
+"Eagle Nest Public Library" "74 N Tomboy Dr" "Eagle Nest" "NM" "87718" -105.2636179 36.554754
+"Edgewood Community Library" "1950b Pioneer Park Road" "Edgewood" "NM" "87015" -106.1815476 35.0658608
+"El Rito Public Library" "182 Placitas Road" "El Rito" "NM" "87530" -106.1655085 36.3268883
+"Elida Public Library" "703 Clark St." "Elida" "NM" "" -103.655621 33.9468333
+"Espanola Public Library" "313 North Paseo De Onate" "Espanola" "NM" "87532" -106.0830049 35.9943536
+"Santa Clara Pueblo Community Library" "1 Kee St. Los Alamos Hwy." "Espanola" "NM" "87532" -106.0805044 35.9871872
+"Estancia Public Library" "600 South Tenth Street" "Estancia" "NM" "87016" -106.0633237 34.7557355
+"Eunice Public Library" "10th St. Avenue N." "Eunice" "NM" "88231" -103.1557524 32.4383499
+"Farmington Public Library" "2101 Farmington Ave." "Farmington" "NM" "87401" -108.1809457 36.7496343
+"Fort Sumner Public Library" "235 W. Sumner Avenue" "Fort Sumner" "NM" "88119" -104.2544949 34.4759822
+"Octavia Fellin Public Library" "115 West Hill" "Gallup" "NM" "87301" -108.7411655 35.5252135
+"Gila Valley Library" "400 Highway 211" "Gila" "NM" "88038" -108.5774353 32.9636184
+"Glenwood Community Library" "14 Menges Lane" "Glenwood" "NM" "88039" -108.8836106 33.3129137
+"Mother Whiteside Memorial Library" "525 W. High St" "Grants" "NM" "87020" -107.8538697 35.1537199
+"Hatch Public Library" "530 E. Hall" "Hatch" "NM" "87937" -107.1411171 32.6599268
+"Hillsboro Community Library" "316 Elenora Street" "Hillsboro" "NM" "88042" -107.566974 32.9209072
+"Hobbs Public Library" "509 N. Shipp" "Hobbs" "NM" "88240" -103.137658 32.705095
+"Isleta Pueblo Library-Resource Center" "p.o. box 1270" "Isleta" "NM" "" -106.6930811 34.9078296
+"Pueblo Of Isleta Library" "p.o. box 610" "Isleta" "NM" "87022" -106.6930811 34.9078296
+"Woolworth Community Library" "3rd And Utah St." "Jal" "NM" "88252" -103.1933621 32.1126214
+"Jemez Pueblo Community Library" "020 Mission Rd" "Jemez Pueblo" "NM" "87024" -106.7247496 35.6124916
+"Jemez Springs Public Library" "030 Jemez Plaza, Hwy. 4" "Jemez Springs" "NM" "87025" -106.606042 35.814056
+"Rio Abajo Community Library" "28 South Calle De Centro" "La Joya" "NM" "87028" -106.8466737 34.3424892
+"Laguna Public Library" "29 Rodeo Drive" "Laguna" "NM" "87026" -107.3719713 35.0434993
+"Pueblo Of Laguna Library" "p.o. box 194" "Laguna" "NM" "" -107.3828231 35.0367105
+"Thomas Branigan Memorial Library" "200 E. Picacho Ave." "Las Cruces" "NM" "88001" -106.7783912 32.3156679
+"Carnegie Public Library" "500 National Avenue" "Las Vegas" "NM" "87701" -105.215299 35.5974656
+"Lordsburg-Hidalgo Library" "208 East Third St." "Lordsburg" "NM" "88045" -108.7076973 32.3481115
+"Los Alamos County Library System" "2400 Central Avenue" "Los Alamos" "NM" "87544" -106.304119 35.882861
+"White Rock Branch Library" "133 Longview Drive" "Los Alamos" "NM" "" -106.2063501 35.8259612
+"Los Lunas Public Library" "460 Main St. Ne" "Los Lunas" "NM" "87031" -106.7396394 34.8097266
+"Lovington Public Library" "115 South Main St." "Lovington" "NM" "88260" -103.3175852 33.2557444
+"Magdalena Public Library" "108 N. Main Street" "Magdalena" "NM" "87825" -107.244053 34.1183129
+"Mescalero Community Library" "148 Cottonwood Drive" "Mescalero" "NM" "88340" -105.7824891 33.1568438
+"David F. Cargo Public Library" "p.o. box 638" "Mora" "NM" "" -105.3300057 35.9742227
+"Moriarty Community Library" "202 South Broadway" "Moriarty" "NM" "87035" -106.0500836 35.0036146
+"Mountainair Public Library" "109 N. Roosevelt" "Mountainair" "NM" "87036" -106.2434752 34.5212655
+"Poe Tsawa Community Library" "232 Popay Avenue" "Ohkay Owingeh" "NM" "87566" -106.071038 36.0532295
+"Placitas Community Library" "01 Tierra Madre" "Placitas" "NM" "87043" -106.4958356 35.3091801
+"Pueblo Of Pojoaque Public Library" "101 B Lightning Loop" "Pojoaque" "NM" "87506" -106.01349 35.89006
+"Portales Public Library" "218 S. Ave. B" "Portales" "NM" "88130" -103.3402993 34.1864581
+"Acoma Learning Center" "17a Knots Landing Road" "Pueblo Of Acoma" "NM" "87034" -107.6158203 35.0359556
+"Questa Public Library" "6 1-2 Municipal Park Road" "Questa" "NM" "87556" -105.59242 36.72524
+"Talpa Community Center Library" "4 Archuleta Rd" "Ranchos De Taos" "NM" "87557" -105.5962096 36.3420704
+"Arthur Johnson Memorial Library" "244 Cook Avenue" "Raton" "NM" "87740" -104.4404049 36.901294
+"Red River Public Library" "702 E. Main St." "Red River" "NM" "87558" -105.4010982 36.7049671
+"Reserve Public Library" "15 Jake Scott St." "Reserve" "NM" "87830" -108.7628907 33.7080735
+"Rio Rancho Public Library" "755 Loma Colorado Dr. Se" "Rio Rancho" "NM" "87124" -106.6609613 35.2696759
+"Roswell Public Library" "301 N. Pennsylvania Ave" "Roswell" "NM" "88201" -104.5260093 33.3954376
+"Ruidoso Public Library" "107 Kansas City Road" "Ruidoso" "NM" "88345" -105.6611967 33.3502238
+"Pueblo Of San Felipe Community Library" "24 Black Mesa Rd" "San Felipe" "NM" "87001" -106.5033811 35.3194504
+"Sandia Pueblo Learning Resource Center" "236 Sandia Day School Road" "Sandia Pueblo" "NM" "87004" -106.5713701 35.2591151
+"Santa Ana Pueblo Community Library" "2 Dove Road" "Santa Ana" "NM" "87004" -106.530655 35.343659
+"Library Bookstop" "4250 Cerrillos Road 1264 Villa Lin" "Santa Fe" "NM" "" -105.937799 35.6869752
+"Oliver La Farge Library" "1730 Llano Street" "Santa Fe" "NM" "" -105.9721478 35.6542354
+"Pojoaque Pueblo Library" "box 71" "Santa Fe" "NM" "" -106.2177633 35.404657
+"Pueblo Of Tesuque Educational Resource Center" "box 360-t" "Santa Fe" "NM" "87506" -106.2172728 35.4035486
+"Santa Fe Public Library" "145 Washington Avenue" "Santa Fe" "NM" "87501" -105.9368047 35.6886954
+"Southside Library" "6599 Jaguar Drive" "Santa Fe" "NM" "" -106.0501162 35.6247921
+"Vista Grande Public Library" "14 Avenida Torreon" "Santa Fe" "NM" "87508" -105.8956765 35.5221426
+"Moise Memorial Library" "208 5th St." "Santa Rosa" "NM" "88435" -104.6851229 34.9415913
+"Santo Domingo Pueblo Library" "p.o. box 160" "Santo Domingo Pueblo" "NM" "87052" -106.3658588 35.5147562
+"The Public Library" "515 West College Avenue" "Silver City" "NM" "88061" -108.279187 32.774709
+"Socorro Public Library" "401 Park Street" "Socorro" "NM" "87801" -106.8939984 34.0550747
+"Fred Macaron Library" "600 Colbert Avenue" "Springer" "NM" "87747" -104.5971808 36.3633692
+"Sunland Park Community Library" "984 Mcnutt Rd" "Sunland Park" "NM" "88063" -106.5555596 31.7958434
+"Taos Public Library" "402 Camino De La Placita" "Taos" "NM" "87571" -105.5744716 36.4096609
+"Tatum Community Library" "323 E. Broadway" "Tatum" "NM" "88267" -103.3142588 33.2567692
+"East Mountain Library" "p.o. box 1570" "Tijeras" "NM" "" -106.3878905 35.0795244
+"Truchas Community Library" "60 County Road 75" "Truchas" "NM" "87578" -105.808267 36.0427872
+"Truth Or Consequences Public Library" "325 Library Lane" "Truth Or Consequence" "NM" "87901" -107.2532992 33.1333537
+"Schlientz Memorial Library" "602 S. Second St." "Tucumcari" "NM" "" -103.7261267 35.1737906
+"Tularosa Public Library" "515 Fresno St." "Tularosa" "NM" "88352" -106.019661 33.072389
+"Virden Public Library" "209 Church Street" "Virden" "NM" "88045" -109.0016146 32.6878608
+"Weed Community Library" "p.o. box 511" "Weed" "NM" "" -105.517031 32.8021809
+"Zia Enrichment Library" "162b Zia Blvd." "Zia Pueblo" "NM" "87053" -106.7298883 35.5000461
+"Zuni Public Library" "27 E. Chavez Circle" "Zuni" "NM" "87327" -108.8498696 35.0701724

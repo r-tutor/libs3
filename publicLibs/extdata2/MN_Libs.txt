@@ -1,0 +1,374 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Ada Public Library" "107 4th Avenue E" "Ada" "MN" "56510" -96.511009 47.3005818
+"Adrian Branch Library" "214 Maine Avenue" "Adrian" "MN" "" -95.9331177 43.6346305
+"Aitkin Public Library" "110 1st Avenue Ne" "Aitkin" "MN" "" -93.7046646 46.5326296
+"Great River Regional Library - Albany" "400 Railroad Avenue" "Albany" "MN" "" -94.568801 45.62953
+"Albert Lea Public Library" "211 E Clark St" "Albert Lea" "MN" "56007" -93.3664103 43.6501866
+"Douglas County Library" "720 Fillmore Street" "Alexandria" "MN" "56308" -95.3792711 45.8845436
+"Great River Regional Library - Annandale Branch" "30 Cedar Street East" "Annandale" "MN" "" -94.1233636 45.2638168
+"Rum River Library" "4201 6th Avenue N" "Anoka" "MN" "" -93.3821588 45.2296871
+"Galaxie Library" "14955 Galaxie Avenue" "Apple Valley" "MN" "" -93.2075834 44.7319947
+"Appleton Public Library" "323 W Schlieman Avenue" "Appleton" "MN" "" -96.0215185 45.2001993
+"Arden Hills Library" "1941 W County Rd E-2" "Arden Hills" "MN" "" -93.1797612 45.0465958
+"Arlington Public Library" "321 West Main Street" "Arlington" "MN" "" -94.080975 44.607344
+"Atwater Public Library" "318 Atlantic Avenue West" "Atwater" "MN" "" -94.7811543 45.1371163
+"Aurora Public Library" "14 West Second Avenue No" "Aurora" "MN" "55705" -92.2377082 47.5289014
+"Austin Public Library" "323 Fourth Ave Ne" "Austin" "MN" "55912" -92.9719454 43.6699434
+"Babbitt Public Library" "71 South Drive" "Babbitt" "MN" "55706" -91.9394326 47.7076351
+"Bagley Public Library" "21 Main Avenue N" "Bagley" "MN" "" -95.3986916 47.5222748
+"Balaton Community Library" "134 3rd Street" "Balaton" "MN" "" -95.871701 44.2338293
+"Barnesville Public Library" "104 N. Front Street" "Barnesville" "MN" "" -96.419594 46.653815
+"Baudette Public Library" "110 1st Avenue Sw" "Baudette" "MN" "56623" -94.6016092 48.711467
+"Bayport Public Library" "582 N 4th Street" "Bayport" "MN" "55003" -92.7814115 45.0212902
+"Great River Regional Library - Becker Branch" "1150 Sherburne Avenue" "Becker" "MN" "" -93.8719968 45.3875969
+"Great River Regional Library - Belgrade (Myrtle Mabee Library)" "324 Washburn Ave." "Belgrade" "MN" "56312" -95.004171 45.454029
+"Belle Plaine Branch Library" "125 W Main" "Belle Plaine" "MN" "" -93.76945 44.622711
+"Bemidji Public Library" "509 America Avenue" "Bemidji" "MN" "" -94.8846511 47.4732582
+"Benson Public Library" "200 13th Street North" "Benson" "MN" "" -95.5998643 45.3152872
+"Great River Regional Library - Big Lake" "160 Lake Street North" "Big Lake" "MN" "" -93.7451254 45.3331538
+"Bird Island Public Library" "260 S. Main" "Bird Island" "MN" "" -94.8949761 44.7654027
+"Blackduck Public Library" "1st Street East" "Blackduck" "MN" "" -94.5468515 47.731835
+"Anoka County Library" "707 County Rd 10 Ne" "Blaine" "MN" "55434" -93.252007 45.127277
+"Johnsville Branch Library" "12461 Oak Park Blvd Ne" "Blaine" "MN" "" -93.2441051 45.1964405
+"Northtown Library" "711 County Rd 10 Ne" "Blaine" "MN" "" -93.2522438 45.1273157
+"Blooming Prairie Public Library" "138 Highway Ave South" "Blooming Prairie" "MN" "" -93.049186 43.866221
+"Hennepin County Library - Oxboro" "8801 Portland Avenue South" "Bloomington" "MN" "55420" -93.2676153 44.8440419
+"Hennepin County Library - Penn Lake" "8800 Penn Avenue South" "Bloomington" "MN" "55431" -93.3095801 44.8439682
+"Blue Earth Community Library" "124 West 7th Street" "Blue Earth" "MN" "56013" -94.1031982 43.637594
+"Faribault County Library" "120 S Main St, Suite C" "Blue Earth" "MN" "56013" -94.1027718 43.637968
+"Bovey Public Library" "402 2nd Street" "Bovey" "MN" "55709" -93.4164174 47.2955257
+"Brainerd Public Library" "416 S 5th Street" "Brainerd" "MN" "" -94.2028238 46.3542096
+"Breckenridge Public Library" "205 7th Street N" "Breckenridge" "MN" "" -96.585283 46.2650359
+"Hennepin County Library - Brookdale" "6125 Shingle Creek Pkwy" "Brooklyn Center" "MN" "55430" -93.3108668 45.0660601
+"Hennepin County Library - Brooklyn Park" "8600 Zane Avenue North" "Brooklyn Park" "MN" "55443" -93.355205 45.110935
+"Browns Valley Public Library" "15 3rd Street S" "Browns Valley" "MN" "56219" -96.8323682 45.593315
+"Brownsdale Public Library" "103 E Main St" "Brownsdale" "MN" "55918" -92.8688302 43.741037
+"Brownton Public Library" "528 2nd Street N" "Brownton" "MN" "" -94.350415 44.7331079
+"Great River Regional Library - Buffalo Branch" "18 Nw Lake Blvd" "Buffalo" "MN" "" -93.8774144 45.1726303
+"Buhl Public Library" "400 Jones Avenue" "Buhl" "MN" "55713" -92.7760605 47.4959001
+"Burnhaven Community Library" "1101 W County Road 42" "Burnsville" "MN" "" -93.295136 44.7458266
+"Butterfield Branch Library" "111 2nd Street N" "Butterfield" "MN" "" -94.8394383 44.0514912
+"Caledonia Public Library" "231 E Main Street" "Caledonia" "MN" "55921" -91.4950539 43.6347161
+"Calumet Public Library" "po box 356" "Calumet" "MN" "55716" -93.2727778 47.3227778
+"Cambridge Public Library" "244 South Birch" "Cambridge" "MN" "" -93.226418 45.571154
+"East Central Regional Library" "244 South Birch Street" "Cambridge" "MN" "55008" -93.226418 45.571154
+"Canby Public Library" "110 Oscar Avenue N" "Canby" "MN" "" -96.2746147 44.7086627
+"Cannon Falls Library" "306 W. Mill St." "Cannon Falls" "MN" "55009" -92.90461 44.5079551
+"Carlton Public Library" "213 Chestnut Street" "Carlton" "MN" "55718" -92.4259264 46.6641375
+"Cass Lake Community Library" "223 Cedar" "Cass Lake" "MN" "" -94.6057602 47.3801451
+"Ceylon Branch Library" "108 West Main Street" "Ceylon" "MN" "" -94.6317973 43.5336847
+"Hennepin County Library - Champlin" "12154 Ensign Avenue North" "Champlin" "MN" "55316" -93.3940217 45.1747355
+"Chanhassen Public Library" "7711 Kerber Blvd" "Chanhassen" "MN" "" -93.5394751 44.8627481
+"Carver County Library System" "4 City Hall Plaza" "Chaska" "MN" "55318" -93.6014011 44.7875998
+"Chaska Public Library" "3 City Hall Plaza" "Chaska" "MN" "" -93.6014011 44.7875998
+"Chatfield Public Library" "314 S Main Street" "Chatfield" "MN" "55923" -92.1873007 43.8447203
+"Chisago Lakes Area Library" "11754 302nd St." "Chisago City" "MN" "55013" -92.9103668 45.3854224
+"Chisholm Public Library" "300 W Lake St" "Chisholm" "MN" "55719" -92.8838723 47.4892938
+"Centennial Branch Library" "100 Civic Heights Circle" "Circle Pines" "MN" "" -93.1555378 45.1438237
+"Clara City Library" "42 West Center Avenue" "Clara City" "MN" "" -95.3682469 44.955276
+"Clarkfield Public Library" "812 10th Avenue" "Clarkfield" "MN" "56223" -95.8017174 44.7907095
+"Great River Regional Library - Clearwater (Stickney Crossing Library)" "822 Clearwater Center" "Clearwater" "MN" "" -94.0488721 45.4194099
+"Cleveland Public Library" "205 4th Street" "Cleveland" "MN" "" -93.8373776 44.3248214
+"Climax Public Library" "104 W. Broadway" "Climax" "MN" "" -96.8164944 47.6076605
+"Cloquet Public Library" "320 14th St" "Cloquet" "MN" "55720" -92.4486068 46.7166236
+"Great River Regional Library - Cokato Branch" "175 4th Street West" "Cokato" "MN" "" -94.1907403 45.0754461
+"Great River Regional Library - Cold Spring" "27 Red River Road" "Cold Spring" "MN" "" -94.4290018 45.4555129
+"Coleraine Public Library" "203 Cole Avenue" "Coleraine" "MN" "55722" -93.4233517 47.2869167
+"Columbia Heights Public Library" "820 40th Avenue Ne" "Columbia Heights" "MN" "55421" -93.2502786 45.0407041
+"Comfrey Community Library" "306 Brown Street West" "Comfrey" "MN" "56019" -94.9074502 44.1098749
+"Cook Public Library" "103 South River St." "Cook" "MN" "55723" -92.688859 47.8524267
+"Crooked Lake Branch Library" "11440 Crooked Lake Blvd Nw" "Coon Rapids" "MN" "" -93.338691 45.17882
+"Northdale Branch Library" "408 Northdale Blvd" "Coon Rapids" "MN" "" -93.2774331 45.1763122
+"Cosmos Public Library" "209 Milkyway Street S" "Cosmos" "MN" "" -94.69658 44.938629
+"Park Grove Branch Library" "7900 Hemingway Avenue S" "Cottage Grove" "MN" "" -92.9537114 44.8348092
+"Cottonwood Community Library" "86 West Main Street" "Cottonwood" "MN" "" -95.6705699 44.6088602
+"Crookston Public Library" "110 N Ash" "Crookston" "MN" "" -96.605165 47.77349
+"Jessie F. Hallett Memorial Library" "101 1st Street Se" "Crosby" "MN" "56441" -93.9504204 46.4815004
+"Hennepin County Library - Rockford Road" "6401 42nd Avenue North" "Crystal" "MN" "55427" -93.3618636 45.0320798
+"Darfur Branch Library" "205 Adrian St." "Darfur" "MN" "" -94.8379975 44.0516276
+"Dassel Public Library" "460 Third St. N" "Dassel" "MN" "" -94.3092193 45.0807576
+"Dawson Public Library" "676 Pine Street" "Dawson" "MN" "" -96.0556921 44.9289215
+"Great River Regional Library - Delano" "140 Bridge Avenue East" "Delano" "MN" "" -93.7882992 45.0419546
+"Detroit Lakes Public Library" "1000 Washington Avenue" "Detroit Lakes" "MN" "" -95.8459446 46.8156307
+"Dodge Center Public Library" "13 1st Avenue Nw" "Dodge Center" "MN" "55927" -92.856448 44.028269
+"Duluth Public Library" "520 W. Superior St." "Duluth" "MN" "55802" -92.1049333 46.78134
+"Mount Royal Branch Library" "105 Mt. Royal Shopping Circle" "Duluth" "MN" "" -92.0733559 46.8214888
+"West Duluth Branch Library" "5830 Grand Avenue" "Duluth" "MN" "" -92.1714648 46.7366823
+"Dunnell Branch Library" "145 West Wenberg" "Dunnell" "MN" "" -94.7788975 43.5591797
+"Dakota County Library" "1340 Wescott Road" "Eagan" "MN" "55123" -93.1634347 44.8176615
+"Great River Regional Library - Eagle Bend" "127 East Main" "Eagle Bend" "MN" "" -95.0360196 46.1648801
+"East Grand Forks-Campbell Library" "422 4th Street Northwest" "East Grand Forks" "MN" "56721" -97.0253602 47.930735
+"Hennepin County Library - Eden Prairie" "565 Prairie Center Dr." "Eden Prairie" "MN" "55344" -93.4283201 44.8503232
+"Edgerton Public Library" "811 1st Av W" "Edgerton" "MN" "56128" -96.1301842 43.8735532
+"Runals Memorial Library" "750 1st Avenue W" "Edgerton" "MN" "" -96.1301266 43.874227
+"Hennepin County Library - Edina" "5280 Grandview Square" "Edina" "MN" "55436" -93.355778 44.907953
+"Hennepin County Library - Southdale" "7001 York Avenue South" "Edina" "MN" "55435" -93.3197386 44.8753445
+"Elbow Lake Thorson Mem Library" "117 Central Avenue" "Elbow Lake" "MN" "56531" -95.9767438 45.993357
+"Great River Regional Library - Elk River" "413 Proctor Avenue" "Elk River" "MN" "" -93.5778035 45.305882
+"Elmore Library" "302 E. Willis Street" "Elmore" "MN" "56027" -94.08509 43.5046891
+"Ely Public Library" "30 S 1st Ave E" "Ely" "MN" "55731" -91.8655074 47.9017441
+"Elysian Public Library" "106 West Main Street" "Elysian" "MN" "" -93.6770814 44.1986752
+"Eveleth Public Library" "614 Pierce Street" "Eveleth" "MN" "55734" -92.5361943 47.4626029
+"Hennepin County Library - Excelsior" "343 Third Street" "Excelsior" "MN" "55331" -93.5679365 44.902761
+"Fairfax Public Library" "124 First Street Se" "Fairfax" "MN" "" -94.7193243 44.527693
+"Central Library" "110 North Park Street" "Fairmont" "MN" "" -94.4604917 43.6536755
+"Faribault Buckham Memorial Library" "11 Division Street East" "Faribault" "MN" "55021" -93.267873 44.290043
+"Farmington Community Library" "508 Third Street" "Farmington" "MN" "" -93.146231 44.6375766
+"Fergus Falls Public Library" "205 East Hampden" "Fergus Falls" "MN" "56537" -96.0719362 46.2791663
+"Viking Library System" "204 N Cascade" "Fergus Falls" "MN" "56538" -96.0723973 46.2845971
+"Fertile Public Library" "101 S Mill Street" "Fertile" "MN" "" -96.2804244 47.5337158
+"Great River Regional Library - Foley" "251 North 4th Avenue" "Foley" "MN" "" -93.912163 45.664943
+"Forest Lake Branch Library" "220 North Lake" "Forest Lake" "MN" "" -92.9848908 45.281817
+"Fosston Public Library" "403 Foss Ave N" "Fosston" "MN" "" -95.7463381 47.5781897
+"Mississippi Branch Library" "410 Mississippi St Ne" "Fridley" "MN" "" -93.2602312 45.0856761
+"Fulda Memorial Library" "101 3rd St. Ne" "Fulda" "MN" "56131" -95.6001681 43.8717451
+"Gaylord Public Library" "332 W. Main Avenue" "Gaylord" "MN" "" -94.2204952 44.5532013
+"Sibley County Library" "400 Court Ave" "Gaylord" "MN" "55334" -94.2206479 44.5561386
+"Gibbon Public Library" "1050 Adams Avenue" "Gibbon" "MN" "" -94.5252056 44.533775
+"Gilbert Public Library" "17 N Broadway" "Gilbert" "MN" "55741" -92.4671312 47.4866853
+"Glencoe Public Library" "719 13th St. E" "Glencoe" "MN" "" -94.1528491 44.7720658
+"Glenwood Public Library" "108 Se First Av" "Glenwood" "MN" "56334" -95.3882785 45.6493339
+"Hennepin County Library - Golden Valley" "830 Winnetka Avenue North" "Golden Valley" "MN" "55427" -93.3795142 44.9882938
+"Graceville Public Library" "415 Studdart Avenue" "Graceville" "MN" "" -96.436028 45.5679654
+"Grand Marais Public Library" "104 2nd Avenue W." "Grand Marais" "MN" "55604" -90.3359782 47.7506982
+"Grand Meadow Public Library" "125 Grand Ave E" "Grand Meadow" "MN" "55936" -92.5723931 43.7058229
+"Grand Rapids Area Library" "140 Ne 2nd Street" "Grand Rapids" "MN" "55744" -93.5257248 47.2338558
+"Granite Falls Public Library" "155 Seventh Avenue" "Granite Falls" "MN" "" -95.5390851 44.8113434
+"Greenbush Public Library" "234 Main Street North" "Greenbush" "MN" "" -96.1817187 48.7011198
+"Great River Regional Library - Grey Eagle" "118 State Street East" "Grey Eagle" "MN" "" -94.7492262 45.8245585
+"Grove City Public Library" "210 Atlantic Avenue W" "Grove City" "MN" "" -94.6812981 45.1514117
+"Hallock Public Library" "163 South 3rd" "Hallock" "MN" "" -96.9460317 48.7799352
+"North Central Branch Library" "17565 Central Avenue Ne" "Ham Lake" "MN" "" -93.2318397 45.2896324
+"Hancock Community Library" "662 6th Street" "Hancock" "MN" "56244" -95.7951839 45.4980494
+"Hanska Public Library" "201 West 2nd Street" "Hanska" "MN" "56041" -94.4966802 44.1488144
+"Harmony Public Library" "225 3rd Av Sw" "Harmony" "MN" "55939" -92.0136891 43.5519717
+"Pleasant Hill Library" "1490 Frontage Road" "Hastings" "MN" "" -92.8842045 44.7377275
+"Hawley Public Library" "421 Hartford Street" "Hawley" "MN" "" -96.3153363 46.8821463
+"Hector Public Library" "126 Main St S" "Hector" "MN" "" -94.7154395 44.7445613
+"Henderson Public Library" "111 South 6th Street" "Henderson" "MN" "" -93.9082944 44.5276146
+"Hendricks Siverson Public Library" "100 W Garfield Street" "Hendricks" "MN" "56136" -96.4242858 44.5071393
+"Heron Lake Public Library" "401 9th Street" "Heron Lake" "MN" "" -95.3171663 43.7941967
+"Hibbing Public Library" "2020 East 5th Avenue" "Hibbing" "MN" "55746" -92.936429 47.426491
+"Hinckley Public Library" "106 1st Se" "Hinckley" "MN" "" -92.9416442 46.0167002
+"Hokah Public Library" "57 Main" "Hokah" "MN" "55941" -91.3460606 43.7593637
+"Hennepin County Library - Hopkins" "22 11th Avenue North" "Hopkins" "MN" "55343" -93.4142762 44.9254626
+"Houston Public Library" "202 East Cedar Street" "Houston" "MN" "55943" -91.5672817 43.7631356
+"Great River Regional Library - Howard Lake" "617 6th Avenue" "Howard Lake" "MN" "" -94.0685921 45.0608076
+"Hoyt Lakes Public Library" "206 Kennedy Memorial Dr" "Hoyt Lakes" "MN" "55750" -92.1631015 47.5182496
+"Hutchinson Public Library" "50 Hassan Street Se" "Hutchinson" "MN" "" -94.3681558 44.8916867
+"International Falls Public Library" "750 4th Street" "International Falls" "MN" "56649" -93.4109709 48.6017203
+"Inver Glen Library" "8098 Blaine Avenue" "Inver Grove Heights" "MN" "" -93.0522052 44.8328379
+"Mille Lacs Community Library" "285 2nd Avenue S" "Isle" "MN" "" -93.4696321 46.1370602
+"Ivanhoe Public Library" "401 N Harold" "Ivanhoe" "MN" "56142" -96.2458528 44.463259
+"Jackson County Library" "311 Third Street" "Jackson" "MN" "56143" -94.988899 43.620391
+"Janesville Public Library" "102 W Second" "Janesville" "MN" "" -93.7075698 44.1173305
+"Jordan Branch Library" "230 S Broadway" "Jordan" "MN" "" -93.6260739 44.6654877
+"Kasson Public Library" "16 First Avenue Nw" "Kasson" "MN" "55944" -92.749115 44.030041
+"Keewatin Public Library" "125 W 3rd Avenue" "Keewatin" "MN" "55753" -93.0767797 47.3988526
+"Kenyon Public Library" "709 2nd Street" "Kenyon" "MN" "55946" -92.9846708 44.2717899
+"Kerkhoven Public Library" "208 N. 10th Street" "Kerkhoven" "MN" "" -95.3176029 45.1892633
+"Great River Regional Library - Kimball" "5 Main Street North" "Kimball" "MN" "" -94.300642 45.312607
+"Kinney Public Library" "400 Main Street" "Kinney" "MN" "55758" -92.729453 47.5141945
+"La Crescent Public Library" "321 Main Street" "La Crescent" "MN" "55947" -91.2515056 43.8127617
+"Lake Benton Public Library" "110 E Benton" "Lake Benton" "MN" "56149" -96.2860958 44.2609898
+"Lake City Public Library" "201 S High Street" "Lake City" "MN" "55041" -92.2664411 44.4480616
+"Lake Crystal Public Library" "100 Robinson Street" "Lake Crystal" "MN" "" -94.2160614 44.1078677
+"Lake Elmo Public Library" "3537 Lake Elmo Avenue North" "Lake Elmo" "MN" "55042" -92.8796741 45.0001613
+"Lake Lillian Public Library" "450 Lakeview Street" "Lake Lillian" "MN" "" -94.880129 44.944635
+"Lakefield Public Library" "410 Main Street" "Lakefield" "MN" "" -95.1715334 43.6793415
+"Valley Branch Library" "380 St. Croix Trail S" "Lakeland" "MN" "" -92.772023 44.944054
+"Heritage Library" "20085 Heritage Drive" "Lakeville" "MN" "" -93.2456188 44.6580027
+"Lamberton Public Library" "101 E 2nd Avenue" "Lamberton" "MN" "56152" -95.2641799 44.2312232
+"Lanesboro Public Library" "202 Parkway Ave. S." "Lanesboro" "MN" "55949" -91.9769628 43.7195491
+"Le Center Public Library" "10 W Tyrone Street" "Le Center" "MN" "" -93.7316248 44.3907508
+"Le Roy Public Library" "605 N Broadway" "Le Roy" "MN" "55951" -92.5065038 43.5069589
+"Le Sueur Public Library" "118 E Ferry Street" "Le Sueur" "MN" "" -93.9157548 44.4600117
+"Lewisville Branch Library" "117 East Martin Street" "Lewisville" "MN" "" -94.4341271 43.9225254
+"Lindstrom Public Library" "30525 Linden St." "Lindstrom" "MN" "" -92.8500096 45.3893281
+"Litchfield Public Library" "216 North Marshall" "Litchfield" "MN" "" -94.5266464 45.1280664
+"Great River Regional Library - Little Falls" "108 Ne 3rd Street" "Little Falls" "MN" "" -94.358994 45.976316
+"Hennepin County Library - Long Lake" "1865 Wayzata Blvd West" "Long Lake" "MN" "55356" -93.5716016 44.9855941
+"Great River Regional Library - Long Prairie" "42 3rd Street North" "Long Prairie" "MN" "" -94.8603145 45.9750132
+"Rock County Community Library" "201 West Main" "Luverne" "MN" "56156" -96.2114671 43.6541806
+"Mabel Public Library" "110 E Newburg" "Mabel" "MN" "55954" -91.7691119 43.5215259
+"Madelia Branch Library" "23 1st Street" "Madelia" "MN" "" -94.41696 44.0498228
+"Madison Public Library" "401 Sixth Avenue" "Madison" "MN" "" -96.1931675 45.0123524
+"Mahnomen Public Library" "203 S Main St" "Mahnomen" "MN" "" -95.9687696 47.3140555
+"Wildwood Branch Library" "763 Stillwater Road" "Mahtomedi" "MN" "" -92.95112 45.0567549
+"Blue Earth County Library" "100 East Main Street" "Mankato" "MN" "56001" -94.0022229 44.1677237
+"Hennepin County Library - Maple Grove" "8001 Main Street North" "Maple Grove" "MN" "55369" -93.4413027 45.1019135
+"Hennepin County Library - Maple Plain" "5184 Main Street East" "Maple Plain" "MN" "55359" -93.6554008 45.0077429
+"Mapleton Public Library" "104 1st Avenue" "Mapleton" "MN" "" -93.9574782 43.9271696
+"Maplewood Library" "1670 Beam Avenue" "Maplewood" "MN" "" -93.0298262 45.0271314
+"Marble Public Library" "302 Alice Avenue" "Marble" "MN" "55764" -93.2979292 47.3205058
+"Marine Branch Library" "121 Judd St." "Marine" "MN" "" -92.7692473 45.1983923
+"Marshall-Lyon County Library" "301 West Lyon Street" "Marshall" "MN" "56258" -95.789343 44.448523
+"Maynard Public Library" "123 Mabel Avenue" "Maynard" "MN" "" -95.4712273 44.9076831
+"Mcintosh Public Library" "115 Broadway Nw" "Mcintosh" "MN" "" -95.887476 47.6370128
+"Mckinley Public Library" "5454 Grand Avenue" "Mckinley" "MN" "55741" -92.4110512 47.5120012
+"Great River Regional Library - Melrose" "225 East 1st Street" "Melrose" "MN" "" -94.8113535 45.6737134
+"Milaca Community Library" "145 S. Central" "Milaca" "MN" "" -93.6513102 45.7541983
+"Milan Public Library" "212 E Main Street" "Milan" "MN" "" -95.9114502 45.109571
+"Hennepin County Library - East Lake" "2727 E Lake Street" "Minneapolis" "MN" "55406" -93.2319508 44.9480564
+"Hennepin County Library - Franklin" "1314 E. Franklin Ave." "Minneapolis" "MN" "55404" -93.2558713 44.9630049
+"Hennepin County Library - Hosmer" "347 E 36th Street" "Minneapolis" "MN" "55408" -93.270543 44.9373938
+"Hennepin County Library - Linden Hills" "2900 W 43rd Street" "Minneapolis" "MN" "55410" -93.3164567 44.9250299
+"Hennepin County Library - Minneapolis Central" "300 Nicollet Mall" "Minneapolis" "MN" "55401" -93.2700336 44.9802568
+"Hennepin County Library - Nokomis" "5100 34th Avenue S" "Minneapolis" "MN" "55417" -93.2232492 44.9105502
+"Hennepin County Library - North Regional" "1315 Lowry Avenue N" "Minneapolis" "MN" "55411" -93.2963252 45.012854
+"Hennepin County Library - Northeast" "2200 Central Av Ne" "Minneapolis" "MN" "55418" -93.2479479 45.010165
+"Hennepin County Library - Pierre Bottineau" "55 Broadway Street Ne" "Minneapolis" "MN" "55413" -93.2699926 44.999135
+"Hennepin County Library - Roosevelt" "4026 28th Avenue S" "Minneapolis" "MN" "55406" -93.232475 44.9295915
+"Hennepin County Library - Southeast" "1222 4th Street Se" "Minneapolis" "MN" "55414" -93.237699 44.980873
+"Hennepin County Library - Sumner" "611 Van White Memorial Blvd." "Minneapolis" "MN" "55411" -93.2946161 44.9848013
+"Hennepin County Library - Walker" "2880 Hennepin Avenue" "Minneapolis" "MN" "55408" -93.2986993 44.9495877
+"Hennepin County Library - Washburn" "5244 Lyndale Avenue S" "Minneapolis" "MN" "55419" -93.2887813 44.9074825
+"Hennepin County Library - Webber Park" "4310 Webber Parkway" "Minneapolis" "MN" "55412" -93.290951 45.033572
+"Minneota Public Library" "103 N Jefferson" "Minneota" "MN" "56264" -95.9884478 44.5602577
+"Hennepin County Library - Minnetonka" "17524 Excelsior Boulevard" "Minnetonka" "MN" "55345" -93.5028378 44.9086726
+"Hennepin County Library - Ridgedale" "12601 Ridgedale Drive" "Minnetonka" "MN" "55305" -93.4400855 44.9646276
+"Chippewa County Public Library" "224 South First Street" "Montevideo" "MN" "56265" -95.7239045 44.9442013
+"Montgomery Public Library" "201 Ash Avenue Sw" "Montgomery" "MN" "" -93.582552 44.4377625
+"Great River Regional Library - Monticello" "404 Walnut Street" "Monticello" "MN" "" -93.7971051 45.3040648
+"Lake Agassiz Regional Library" "118 5th St S" "Moorhead" "MN" "56560" -96.7714497 46.8731589
+"Moorhead Public Library" "118 S 5th Street" "Moorhead" "MN" "" -96.7714497 46.8731589
+"Moose Lake Public Library" "313 Elm Avenue" "Moose Lake" "MN" "55767" -92.7614781 46.4535609
+"Mora Public Library" "200 W. Maple" "Mora" "MN" "" -93.2985776 45.8778001
+"Morgan Public Library" "210 Vernon Avenue" "Morgan" "MN" "56266" -94.926839 44.4163717
+"Morris Public Library" "102 E 6th Street" "Morris" "MN" "56267" -95.9132555 45.587663
+"Hennepin County Library - Westonka" "2079 Commerce Boulevard" "Mound" "MN" "55364" -93.6667781 44.9406644
+"Mounds View Library" "2576 County Road 10" "Mounds View" "MN" "" -93.2217922 45.1125731
+"Arrowhead Library System" "5528 Emerald Avenue" "Mountain Iron" "MN" "55768" -92.5931243 47.5177787
+"Mountain Iron Public Library" "5742 Mountain Avenue" "Mountain Iron" "MN" "55768" -92.6221858 47.5326413
+"Mountain Lake Public Library" "1054 4th Avenue" "Mountain Lake" "MN" "56159" -94.9295879 43.9401626
+"New London Public Library" "15 Ash Street South" "New London" "MN" "" -94.9424138 45.3015361
+"New Market Branch Library" "50 Church Street" "New Market" "MN" "" -93.3509022 44.5720543
+"New Prague Branch Library" "400 E Main Street" "New Prague" "MN" "" -93.5708342 44.5432761
+"New Richland Public Library" "129 S Broadway" "New Richland" "MN" "" -93.493707 43.8932573
+"New Ulm Public Library" "17 North Broadway" "New Ulm" "MN" "56073" -94.461509 44.3130795
+"New York Mills Public Library" "30 North Main" "New York Mills" "MN" "56567" -95.3758924 46.5187949
+"Newport Branch Library" "405 Seventh Ave" "Newport" "MN" "" -92.9999273 44.8599712
+"North Branch Area Library" "6381 Main Street" "North Branch" "MN" "" -92.978932 45.510965
+"North Mankato Taylor Library" "1001 Belgrade Ave" "North Mankato" "MN" "56003" -94.0262263 44.1680804
+"North St. Paul Library" "2290 North 1st Street" "North St. Paul" "MN" "55109" -92.996906 45.010465
+"Northfield Public Library" "210 Washington St" "Northfield" "MN" "55057" -93.158984 44.4577924
+"Norwood Young America Public Library" "102 Main Street E" "Norwood" "MN" "" -93.914754 44.78362
+"Oakdale Branch Library" "1010 Heron Avenue N" "Oakdale" "MN" "" -92.9488053 44.964049
+"Olivia Public Library" "405 South 10th Street" "Olivia" "MN" "" -94.9909738 44.7733257
+"Ortonville Public Library" "412 Nw 2nd Street" "Ortonville" "MN" "" -96.4477274 45.3075632
+"Hennepin County Library - Osseo" "415 Central Avenue" "Osseo" "MN" "55369" -93.4025736 45.1207858
+"Owatonna-Steele County Library" "105 N Elm Avenue" "Owatonna" "MN" "55060" -93.2229218 44.0851135
+"Park Rapids Public Library" "210 W 1st Street" "Park Rapids" "MN" "" -95.0612725 46.9218561
+"Great River Regional Library - Paynesville" "119 Washburn Avenue" "Paynesville" "MN" "" -94.713412 45.382084
+"Pelican Rapids Public Library A Multicultural Learning Cent" "25 West Mill Avenue" "Pelican Rapids" "MN" "56572" -96.0854203 46.5693655
+"Perham Area Public Library" "225 2nd Av Ne" "Perham" "MN" "56573" -95.5702895 46.594749
+"Great River Regional Library - Pierz" "220 Main Street" "Pierz" "MN" "" -94.1050815 45.9824727
+"Pine City Public Library" "300 5th St. Municipal Building" "Pine City" "MN" "" -92.9703435 45.8229105
+"Pine Island Van Horn Public Library" "115 Se 3rd Street" "Pine Island" "MN" "55963" -92.646142 44.2003942
+"Kitchigami Regional Library" "310 2nd Street" "Pine River" "MN" "56474" -94.405686 46.721666
+"Pine River Public Library" "212 Park Avenue" "Pine River" "MN" "" -94.403906 46.719453
+"Pipestone Meinders Community Library" "1401 7th Street Sw" "Pipestone" "MN" "56164" -96.33983 43.9977312
+"Plainview Public Library" "345 1st Avenue Nw" "Plainview" "MN" "55964" -92.171096 44.16572
+"Hennepin County Library - Plymouth" "15700 36th Avenue North" "Plymouth" "MN" "55446" -93.4810203 45.022721
+"Preston Public Library" "101 St Paul St Nw" "Preston" "MN" "55965" -92.0833671 43.6710701
+"Princeton Area Library" "100 S. 4th Avenue" "Princeton" "MN" "" -93.5785943 45.5697305
+"Prior Lake Branch Library" "16210 Eagle Creek Avenue Se" "Prior Lake" "MN" "" -93.4257714 44.7142788
+"Raymond Public Library" "208 Spicer Avenue" "Raymond" "MN" "" -95.23898 45.0170661
+"Red Lake Falls Public Library" "105 Champagne Avenue Sw" "Red Lake Falls" "MN" "" -96.2753466 47.8830929
+"Red Wing Public Library" "225 East Avenue" "Red Wing" "MN" "55066" -92.5355882 44.564457
+"Redwood Falls Public Library" "509 South Lincoln Street" "Redwood Falls" "MN" "56283" -95.1146098 44.5377477
+"Renville Public Library" "221 N. Main Street" "Renville" "MN" "" -95.2120254 44.7879746
+"Hennepin County Library - Augsburg Park" "7100 Nicollet Avenue" "Richfield" "MN" "55423" -93.2788069 44.873984
+"Great River Regional Library - Richmond" "63 Hall Avenue Sw" "Richmond" "MN" "" -94.5200456 45.4534009
+"Rochester Public Library" "101 2nd Street Se" "Rochester" "MN" "55904" -92.4608526 44.0219173
+"Great River Regional Library - Rockford" "8220 Cedar St." "Rockford" "MN" "55373" -93.7328412 45.089488
+"Hennepin County Library - Rogers" "21300 John Milless Drive" "Rogers" "MN" "55374" -93.5483724 45.1915879
+"Roseau Public Library" "110 2nd Avenue Ne" "Roseau" "MN" "" -95.7622032 48.8463766
+"Robert Trail Library" "14395 S. Robert Trail" "Rosemount" "MN" "55068" -93.1269084 44.7405302
+"Roseville Library" "2180 North Hamline Avenue" "Roseville" "MN" "" -93.1557684 45.007478
+"Great River Regional Library - Royalton" "13 North Cedar Street" "Royalton" "MN" "" -94.2917505 45.8305459
+"Rush City Public Library" "240 W. Fourth St." "Rush City" "MN" "" -92.9641297 45.6847487
+"Rushford Public Library" "101 Mill Street N" "Rushford" "MN" "55971" -91.753206 43.8102755
+"Arlington Hills Branch Library" "1105 Greenbrier Street" "Saint Paul" "MN" "" -93.0714019 44.9745018
+"Hamline Midway Branch Library" "1558 West Minnehaha Avenue" "Saint Paul" "MN" "" -93.1661988 44.9625944
+"Hayden Heights Branch Library" "1456 White Bear Avenue" "Saint Paul" "MN" "" -93.0248015 44.9852802
+"Highland Branch Library" "1974 Ford Parkway" "Saint Paul" "MN" "" -93.1829934 44.9175636
+"Lexington Branch Library" "1080 University Avenue" "Saint Paul" "MN" "" -93.1454436 44.9552893
+"Merriam Park Branch Library" "1831 Marshall Avenue" "Saint Paul" "MN" "" -93.1775307 44.948749
+"Rice Street Branch Library" "1011 Rice Street" "Saint Paul" "MN" "" -93.1063082 44.9717393
+"Riverview Branch Library" "1 East George Street" "Saint Paul" "MN" "" -93.0847349 44.9299148
+"Saint Paul Public Library" "90 West Fourth Street" "Saint Paul" "MN" "55102" -93.0971065 44.9439153
+"St. Anthony Park Branch Library" "2245 Como Avenue" "Saint Paul" "MN" "" -93.1935531 44.98101
+"Sun Ray Branch Library" "2105 Wilson Avenue" "Saint Paul" "MN" "" -93.011921 44.954329
+"West 7th Street Popular Library" "265 Oneida Street" "Saint Paul" "MN" "" -93.1238845 44.9329229
+"St. Peter Public Library" "601 South Washington Avenue" "Saint Peter" "MN" "56082" -93.9645936 44.3237332
+"Sandstone Community Library" "119 N. Fourth St." "Sandstone" "MN" "" -92.8643873 46.1310808
+"Great River Regional Library - Sauk (Bryant Public Library)" "430 Main Street South Unit 1" "Sauk Centre" "MN" "" -94.9523005 45.7349285
+"Scott County Library" "13090 Alabama Av S" "Savage" "MN" "55378" -93.3559705 44.7666267
+"Shakopee Branch Library" "235 S Lewis Street" "Shakopee" "MN" "" -93.5244871 44.7970256
+"Sherburn Branch Library" "27 N. Main St." "Sherburn" "MN" "" -94.7272878 43.652574
+"Ramsey County Library" "4570 North Victoria Street" "Shoreview" "MN" "55126" -93.134515 45.0803925
+"Silver Bay Public Library" "9 Davis Drive" "Silver Bay" "MN" "55614" -91.272869 47.2945507
+"Slayton Public Library" "2451 Broadway Av" "Slayton" "MN" "56172" -95.7563096 43.9896242
+"Sleepy Eye Dyckman Free Library" "345 West Main Street" "Sleepy Eye" "MN" "56085" -94.72695 44.296967
+"South Saint Paul Public Library" "106 3rd Avenue N" "South St Paul" "MN" "55075" -93.0368452 44.8909406
+"City Of South St. Paul Library" "106 Third Ave. N." "South St. Paul" "MN" "55075" -93.0368452 44.8909406
+"Spicer Public Library" "198 Manitoba" "Spicer" "MN" "" -94.9403669 45.2362894
+"Spring Grove Public Library" "172 West Main" "Spring Grove" "MN" "55974" -91.6386928 43.5607892
+"Spring Valley Public Library" "121 West Jefferson St" "Spring Valley" "MN" "55975" -92.3899033 43.6887554
+"Springfield Public Library" "120 North Cass Avenue" "Springfield" "MN" "56087" -94.9745534 44.2404667
+"Hennepin County Library - St. Anthony" "2941 Pentagon Dr. N.E." "St Anthony" "MN" "55418" -93.2191351 45.0158984
+"Hennepin County Library - St. Bonifacius" "8624 Kennedy Memorial Drive" "St Bonifacius" "MN" "55375" -93.743445 44.9041572
+"Great River Regional Library - St. Cloud" "1300 West St. Germain St." "St Cloud" "MN" "56301" -94.167956 45.5564239
+"St. Francis Branch Library" "3519 Bridge St Nw" "St Francis" "MN" "" -93.3555286 45.3874558
+"St. James-Watonwan County Library" "125 5th Street S" "St James" "MN" "" -94.6293376 43.9813415
+"Watonwan County Library" "125 5th Street South" "St James" "MN" "56081" -94.6293376 43.9813415
+"Hennepin County Library - St. Louis Park" "3240 Library Lane" "St Louis Park" "MN" "55426" -93.369542 44.943965
+"Roy Simms Community Library" "403 Central Avenue East" "St Michael" "MN" "" -93.6560058 45.2092261
+"St. Charles Public Library" "125 W. 11th Street" "St. Charles" "MN" "55972" -92.0653037 43.9677712
+"Great River Regional Library - St. Michael" "11800 Town Center Drive Ne Suite 100" "St. Michael" "MN" "55376" -93.651043 45.2127387
+"Great River Regional Library - Staples" "611 Iowa Avenue Ne" "Staples" "MN" "" -94.7916869 46.361116
+"Stewartville Public Library" "110 2nd Street Se" "Stewartville" "MN" "55976" -92.487094 43.854156
+"Stillwater Public Library" "224 Third Street North" "Stillwater" "MN" "55082" -92.8101106 45.0575782
+"Great River Regional Library - Swanville" "213 Degraff Street" "Swanville" "MN" "" -94.6407188 45.914459
+"Taylors Falls Public Library" "473 Bench Street" "Taylors Falls" "MN" "55084" -92.653017 45.403978
+"Northwest Regional Library" "210 Labree Avenue North" "Thief River Falls" "MN" "56701" -96.1799651 48.1184692
+"Thief River Falls Public Library" "101 East First Street" "Thief River Falls" "MN" "" -96.1814714 48.11706
+"Tracy Public Library" "117 3rd St." "Tracy" "MN" "56175" -95.6200007 44.2323397
+"Trimont Branch Library" "190 Main Street West" "Trimont" "MN" "" -94.7180366 43.7620052
+"Truman Branch Library" "101 East Ciro Street" "Truman" "MN" "" -94.4356119 43.8277226
+"Two Harbors Public Library" "320 Waterfront Drive" "Two Harbors" "MN" "55616" -91.6706518 47.0224882
+"Tyler Public Library" "230 Tyler Street N" "Tyler" "MN" "56178" -96.1346049 44.2788922
+"Virginia Public Library" "215 5th Avenue S" "Virginia" "MN" "55792" -92.533733 47.519004
+"Wabasha Public Library" "168 Alleghany Ave" "Wabasha" "MN" "55981" -92.0333162 44.3833936
+"Wabasso Public Library" "1248 Oak St" "Wabasso" "MN" "56293" -95.2560312 44.4029568
+"Waconia Public Library" "101 S Elm Street" "Waconia" "MN" "" -93.7860084 44.8493116
+"Wadena Public Library" "304 1st Street Sw" "Wadena" "MN" "" -95.1396215 46.4397342
+"Great River Regional Library - Waite Park" "253 N 5th Av" "Waite Park" "MN" "" -94.2228709 45.5580316
+"Waldorf Public Library" "109 Main Street North" "Waldorf" "MN" "" -93.697631 43.9342817
+"Walker Public Library" "207 4th Street" "Walker" "MN" "" -94.580427 47.103333
+"Godel Memorial Library" "314 East Johnson" "Warren" "MN" "" -96.7684391 48.1980049
+"Warroad Public Library" "202 North Main" "Warroad" "MN" "" -95.3174612 48.90685
+"Waseca-Le Sueur Regional Library" "408 N State St" "Waseca" "MN" "56093" -93.5068882 44.0810305
+"Watertown Library" "309 Lewis Avenue" "Watertown" "MN" "" -93.84544 44.966102
+"Waterville Public Library" "210 E Paquin St" "Waterville" "MN" "" -93.5671712 44.2177552
+"Hennepin County Library - Wayzata" "620 Rice Street" "Wayzata" "MN" "55391" -93.5113773 44.9709655
+"Welcome Branch Library" "304 1st Street" "Welcome" "MN" "" -94.618675 43.6671878
+"Wells Public Library" "54 1st Street Sw" "Wells" "MN" "56097" -93.726272 43.744044
+"West Concord Public Library" "180 E Main Street" "West Concord" "MN" "55985" -92.8991322 44.1516596
+"Wentworth Library" "199 East Wentworth Ave." "West St. Paul" "MN" "" -93.0755677 44.8980117
+"Westbrook Public Library" "556 1st Avenue" "Westbrook" "MN" "56183" -95.4360441 44.0416311
+"Wheaton Community Library" "901 1st Avenue N" "Wheaton" "MN" "56296" -96.49551 45.8053414
+"White Bear Lake Library" "4698 Clark Avenue" "White Bear Lake" "MN" "" -93.0093816 45.0830273
+"Pioneerland Library System" "410 5th Street Sw" "Willmar" "MN" "56201" -95.0492155 45.1200203
+"Willmar Public Library" "410 Sw Fifth Street" "Willmar" "MN" "" -95.0492155 45.1200203
+"Windom Public Library" "904 4th Avenue" "Windom" "MN" "56101" -95.1177602 43.8655081
+"Winnebago Muir Library" "36 Main St. N" "Winnebago" "MN" "56098" -94.165643 43.768669
+"Winona Public Library" "151 W Fifth Street" "Winona" "MN" "55987" -91.6406791 44.0510203
+"Winsted Public Library" "180 Main Avenue W" "Winsted" "MN" "" -94.0479961 44.9642192
+"Winthrop Public Library" "305 N. Main St." "Winthrop" "MN" "" -94.3639227 44.5423073
+"Rh Stafford Branch Library" "8595 Central Park Place" "Woodbury" "MN" "" -92.9322505 44.9165894
+"Nobles County Library" "407 12th Street" "Worthington" "MN" "56187" -95.5951206 43.6219007
+"Plum Creek Library System" "290 S.Lake Street" "Worthington" "MN" "56187" -95.5981465 43.6142629
+"Wyoming Area Giese Memorial Library" "26855 Forest Blvd." "Wyoming" "MN" "55092" -92.9980964 45.3380115
+"Zumbrota Public Library" "100 West Ave" "Zumbrota" "MN" "55992" -92.6711015 44.2956135

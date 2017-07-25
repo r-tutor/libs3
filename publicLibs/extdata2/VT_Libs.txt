@@ -1,0 +1,186 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Albany Town" "530 Main St." "Albany" "VT" "05820" -72.3786052 44.735318
+"Alburgh Pubilc Library" "16 S. Main St." "Alburgh" "VT" "05440" -73.301184 44.975271
+"Martha Canfield Memorial" "528 E. Arlington Rd." "Arlington" "VT" "05250" -73.1526 43.0650369
+"Weathersfield Proctor Library" "5181 Rte. 5" "Ascutney" "VT" "05030" -72.4072621 43.407094
+"H. F. Brigham Free" "104 Main St." "Bakersfield" "VT" "05441" -72.800781 44.783466
+"Charles B. Danforth" "6208 Vt Rte 12" "Barnard" "VT" "05031" -72.619637 43.729179
+"Barnet Public" "147 Church St." "Barnet" "VT" "05821" -72.052856 44.295952
+"Aldrich Public" "6 Washington St." "Barre" "VT" "05641" -72.5008176 44.1976656
+"Barton Public" "100 Church St." "Barton" "VT" "05822" -72.1806023 44.7496538
+"Rockingham Free Public" "65 Westminster St." "Bellows Falls" "VT" "05101" -72.4446371 43.1307552
+"Mount Holly" "1 Maple Hill Rd." "Belmont" "VT" "05730" -72.8211831 43.4144632
+"Bennington Free" "101 Silver St." "Bennington" "VT" "05201" -73.1936273 42.8776496
+"Benson Public" "2724 Stage Rd." "Benson" "VT" "05731" -73.309822 43.7083439
+"Bethel Public" "106 Main St." "Bethel" "VT" "05032" -72.6319397 43.8298315
+"Winhall Memorial" "2 Lower Taylor Hill Rd." "Bondville" "VT" "05340" -72.8969016 43.1460182
+"Bradford Public" "21 S. Main St." "Bradford" "VT" "05033" -72.128535 43.9929834
+"Brandon Free Public" "4 Franklin St." "Brandon" "VT" "05733" -73.0860138 43.7979405
+"Brooks Memorial" "224 Main St." "Brattleboro" "VT" "05301" -72.5599282 42.8552873
+"Lawrence Memorial" "40 North St." "Bristol" "VT" "05443" -73.078448 44.1357917
+"Brookfield Free Public" "40 Ralph Rd." "Brookfield" "VT" "05036" -72.602768 44.043159
+"Mary L. Blood Memorial" "41 Brownsville Hartland Rd." "Brownsville" "VT" "05037" -72.471428 43.468433
+"Fletcher Free" "235 College St." "Burlington" "VT" "05401" -73.2103291 44.4768628
+"Cabot Public" "3084 Main St." "Cabot" "VT" "05647" -72.310997 44.402111
+"Alice M. Ward Memorial" "27 Park St." "Canaan" "VT" "05903" -71.539427 44.995766
+"Castleton Free" "p.o. box 296" "Castleton" "VT" "05735" -73.179832 43.6106223
+"Charlotte" "115 Ferry Rd." "Charlotte" "VT" "05445" -73.249382 44.310692
+"Chelsea Public" "296 Rt. 110" "Chelsea" "VT" "05038" -72.447646 43.989248
+"Whiting" "117 Main St." "Chester" "VT" "05143" -72.5972434 43.2636375
+"Chittenden Public" "p.o. box 90" "Chittenden" "VT" "05737" -72.9428417 43.7271064
+"Burnham Memorial" "898 Main St." "Colchester" "VT" "05446" -73.1497446 44.5440121
+"Cornwall Free Public" "2629 Rte. 30" "Cornwall" "VT" "05753" -73.2094614 43.9612813
+"Craftsbury Public" "12 Church Lane" "Craftsbury Common" "VT" "05827" -72.3835158 44.6543934
+"John W. Simpson Mem." "1972 E Craftsbury Rd" "Craftsbury Common" "VT" "05827" -72.3381286 44.6399122
+"John Woodruff Simpson Memorial Library" "300 Shields La." "Craftsbury Common" "VT" "05827" -72.3823389 44.6542939
+"S. L. Griffith Memorial Library" "74 S. Main St." "Danby" "VT" "05739" -72.9773964 43.4705636
+"Pope Memorial" "121 Park St." "Danville" "VT" "05828" -72.140977 44.411084
+"Big Read Wagon (Nclc)" "101 Junior High Dr." "Derby" "VT" "05829" -72.132398 44.9489033
+"Haskell Free" "93 Caswell Ave." "Derby Line" "VT" "05830" -72.097669 45.0057339
+"Dorset Village Public" "p.o. box 38" "Dorset" "VT" "05251" -73.0987801 43.2548074
+"Blake Memorial" "676 Village Rd." "E. Corinth" "VT" "05040" -72.221765 44.063728
+"East Burke Community Library" "p.o. box 309" "East Burke" "VT" "05832" -71.9404554 44.589071
+"Dover Free" "22 Holland Rd." "East Dover" "VT" "05341" -72.802811 42.94449
+"Sarah Partridge Community Library" "431 E. Main St." "East Middlebury" "VT" "05740" -73.1745752 44.0076461
+"Enosburg Public" "241 Main St." "Enosburg Falls" "VT" "05450" -72.806358 44.906235
+"Essex Free" "2 Jericho Rd." "Essex" "VT" "05451" -73.0588373 44.511492
+"Brownell" "6 Lincoln St." "Essex Junction" "VT" "05452" -73.1115345 44.4914184
+"Fair Haven Free" "107 Main St." "Fair Haven" "VT" "05743" -73.2655504 43.594039
+"Fairfax Community" "75 Hunt St." "Fairfax" "VT" "05454" -73.0133097 44.6635539
+"Georgia Public" "1697 Ethan Allen Hwy" "Fairfax" "VT" "05454" -73.105309 44.703182
+"Bent Northrup Memorial" "57 Park St." "Fairfield" "VT" "05455" -72.947922 44.80051
+"Fairlee Public" "221 Us Rte 5 N" "Fairlee" "VT" "05045" -72.146194 43.906086
+"Haston" "5167 Main St." "Franklin" "VT" "05457" -72.9158025 44.9814999
+"Belcher Memorial" "4452 Vt Rte. 107" "Gaysville" "VT" "05746" -72.6982199 43.778389
+"Glover Public" "51 Bean Hill Rd" "Glover" "VT" "05839" -72.188042 44.70702
+"Grafton Public" "204 Main St." "Grafton" "VT" "05146" -72.6071958 43.1717611
+"Grand Isle Free" "10 Hyde Rd." "Grand Isle" "VT" "05458" -73.2951455 44.722482
+"Greensboro Free" "53 Wilson St." "Greensboro" "VT" "05841" -72.2963693 44.5767855
+"Groton Free Public" "1304 Scott Hwy." "Groton" "VT" "05046" -72.194254 44.210426
+"Guildhall Public Library" "7218 Vt Route 102" "Guildhall" "VT" "05905" -71.559983 44.564949
+"Guilford Free" "4024 Guilford Ctr Rd" "Guilford" "VT" "05301" -72.6243535 42.7923137
+"Hancock Free Public" "47 Rte. 125" "Hancock" "VT" "05748" -72.9491703 43.9361912
+"Jeudevine Memorial" "93 N. Main St." "Hardwick" "VT" "05843" -72.3652667 44.5058584
+"Hartford" "1587 Maple St." "Hartford" "VT" "05047" -72.342567 43.661358
+"Hartland Public" "153 Rte. 5" "Hartland" "VT" "05048" -72.4014119 43.540164
+"Highgate Public" "17 Mill Hill" "Highgate" "VT" "05459" -73.0446659 44.9382676
+"Carpenter Carse" "69 Ballards Corner Rd." "Hinesburg" "VT" "05461" -73.1182709 44.341713
+"Huntington Public" "2156 Main Rd." "Huntington" "VT" "05462" -72.9878454 44.3265484
+"Lanpher Memorial" "141 Main St." "Hyde Park" "VT" "05655" -72.6172898 44.5935572
+"Leach Public" "130 Park Ave." "Irasburg" "VT" "05849" -72.278229 44.802696
+"Island Pond Public" "49 Mill St. Ext." "Island Pond" "VT" "05846" -71.8799548 44.8146075
+"Isle La Motte Free Public" "2238 Main St." "Isle La Motte" "VT" "05463" -73.338357 44.87832
+"Whitingham Free Public" "2948 Vt Rte. 100" "Jacksonville" "VT" "05342" -72.823039 42.798429
+"Jamaica Memorial" "17 Depot St." "Jamaica" "VT" "05343" -72.7784279 43.1004377
+"Varnum Memorial" "194 Main St." "Jeffersonville" "VT" "05464" -72.828064 44.646339
+"Deborah Rawson Memorial" "8 River Rd." "Jericho" "VT" "05465" -72.9465339 44.5182312
+"Jericho Town" "7 The Green" "Jericho Center" "VT" "05465" -72.9719182 44.4693393
+"Johnson Public" "7 Library Dr." "Johnson" "VT" "05656" -72.6819979 44.634675
+"Sherburne Memorial" "2998 River Rd." "Killington" "VT" "05751" -72.77657 43.671496
+"Lincoln" "222 West River Rd." "Lincoln" "VT" "05443" -72.998823 44.108894
+"Lowell Community" "p.o. box 189" "Lowell" "VT" "05847" -72.4476024 44.7992084
+"Davies Memorial" "532 Maple St." "Lower Waterford" "VT" "05848" -71.90773 44.354362
+"Fletcher Memorial" "88 Main St." "Ludlow" "VT" "05149" -72.694587 43.396662
+"Tyson" "286 Dublin Rd." "Ludlow" "VT" "05149" -72.708046 43.467815
+"Alden Balch Memorial" "24 E. Main St." "Lunenburg" "VT" "05906" -71.681566 44.463057
+"Cobleigh Public" "14 Depot St." "Lyndonville" "VT" "05851" -72.0048742 44.5350964
+"Mark Skinner" "48 West Rd." "Manchester" "VT" "05254" -73.0717868 43.1641149
+"Jaquith Public" "122 School St." "Marshfield" "VT" "05658" -72.355082 44.349356
+"Mcindoes Academy" "37 Academy Lane" "Mcindoe Falls" "VT" "05050" -72.0643986 44.2642613
+"Ilsley Public" "75 Main St." "Middlebury" "VT" "05753" -73.1690606 44.0125638
+"Middletown Springs Public" "39 West St." "Middletown Spgs." "VT" "05757" -73.122147 43.485097
+"Milton Public Library" "39 Bombardier Rd." "Milton" "VT" "05468" -73.1241503 44.619009
+"Russell Memorial" "4333 State Prison Hollow Rd." "Monkton" "VT" "05469" -73.123444 44.254066
+"Montgomery Town" "86 Mountain Rd." "Montgomery Center" "VT" "05471" -72.6060945 44.8783044
+"Kellogg-Hubbard" "135 Main St." "Montpelier" "VT" "05602" -72.5736603 44.2610843
+"Moretown Memorial" "897 Rte. 100 B" "Moretown" "VT" "05660" -72.7833504 44.229988
+"Morristown Centennial" "7 Richmond St." "Morrisville" "VT" "05661" -72.5955686 44.5620952
+"Bailey Memorial" "111 Moulton Ave." "N. Clarendon" "VT" "05759" -72.968069 43.564637
+"Brainerd Memorial" "4215 Bruce Badger Mem. Hwy." "N. Danville" "VT" "05828" -72.099791 44.459307
+"New Haven Community Library" "78 North St, Suite 2" "New Haven" "VT" "05472" -73.153169 44.125628
+"Tenney Memorial" "4886 Main St. S." "Newbury" "VT" "05051" -72.056557 44.08046
+"Moore Free" "23 West St." "Newfane" "VT" "05345" -72.6565716 42.9867105
+"Goodrich Memorial" "202 Main St." "Newport" "VT" "05855" -72.210182 44.935646
+"J. G. Mccullough Free" "2 Main St." "North Bennington" "VT" "05257" -73.2093269 42.8832859
+"North Hero Public" "3195 Us Rte 2" "North Hero" "VT" "05474" -73.2921601 44.8113657
+"William Lucy Rand Memorial Library" "160 Railroad St." "North Troy" "VT" "05859" -72.405322 44.997642
+"Brown Public" "93 S. Main St." "Northfield" "VT" "05663" -72.6561165 44.1475083
+"Norwich Public" "368 Main St." "Norwich" "VT" "05055" -72.3085001 43.7168864
+"Jones Memorial" "1 Water St." "Orleans" "VT" "05860" -72.2020265 44.811022
+"Orwell Free Library" "473 Main St." "Orwell" "VT" "05760" -73.299919 43.803486
+"Pawlet Public" "141 School St." "Pawlet" "VT" "05761" -73.179291 43.345318
+"Peacham" "656 Bayley Hazen Rd." "Peacham" "VT" "05862" -72.1705525 44.3289636
+"Roger Clark Memorial" "40 Village Green" "Pittsfield" "VT" "05762" -72.812361 43.7706304
+"Maclure" "840 Arch St." "Pittsford" "VT" "05673" -73.026932 43.706276
+"Cutler Memorial" "151 High St." "Plainfield" "VT" "05667" -72.428658 44.277701
+"George Peabody" "7922 Rte. 113" "Post Mills" "VT" "05058" -72.260727 43.8853
+"Poultney Public" "205 Main St., Ste 1" "Poultney" "VT" "05764" -73.236969 43.516903
+"Solomon Wright Public" "97 Main St." "Pownal" "VT" "05261" -73.240944 42.767292
+"Proctor Free" "4 Main St." "Proctor" "VT" "05765" -73.032974 43.661579
+"Cavendish Fletcher Community" "573 Main St." "Proctorsville" "VT" "05153" -72.6368874 43.3836767
+"Putney Public" "55 Main St." "Putney" "VT" "05346" -72.522777 42.969578
+"Quechee" "1957 Quechee Main St." "Quechee" "VT" "05059" -72.4215307 43.6485733
+"Kimball Public" "67 N. Main St." "Randolph" "VT" "05060" -72.6655847 43.9251772
+"Reading Public" "717 Vt Rte 106" "Reading" "VT" "05060" -72.53767 43.4544599
+"Readsboro Community" "301 Phelps La." "Readsboro" "VT" "05350" -72.9470426 42.7718758
+"Richmond Free" "201 Bridge St." "Richmond" "VT" "05477" -72.9948365 44.4030627
+"Rochester Public" "22 S. Main St." "Rochester" "VT" "05767" -72.8085569 43.874099
+"Roxbury Free" "1491 Roxbury Rd." "Roxbury" "VT" "05669" -72.732909 44.093404
+"Rutland Free" "10 Court St." "Rutland" "VT" "05701" -72.9751423 43.6072455
+"South Burlington Community" "550 Dorset St." "S. Burlington" "VT" "05403" -73.177785 44.4547357
+"South Hero Community" "75 South St." "S. Hero" "VT" "05486" -73.3022079 44.636311
+"South Londonderry Free" "15 Old School St." "S. Londonderry" "VT" "05155" -72.812569 43.191006
+"Abbott Memorial" "p.o. box 95" "S. Pomfret" "VT" "05067" -72.5159287 43.704791
+"Salisbury Free Public" "918 Maple St." "Salisbury" "VT" "05769" -73.1016999 43.896217
+"Baxter Memorial" "5114 Rte. 14" "Sharon" "VT" "05065" -72.456222 43.783916
+"Pierson" "5376 Shelburne Rd." "Shelburne" "VT" "05482" -73.228754 44.379694
+"Sheldon Public" "1640 Main St." "Sheldon" "VT" "05483" -72.9467246 44.8806086
+"Platt Memorial" "279 Main St." "Shoreham" "VT" "05770" -73.314545 43.893459
+"Shrewsbury" "98 Town Hill Rd." "Shrewsbury" "VT" "05738" -72.880867 43.489445
+"Royalton Memorial" "23 Alexander Pl." "South Royalton" "VT" "05068" -72.5196681 43.818112
+"South Ryegate Public" "140 Church St." "South Ryegate" "VT" "05069" -72.140547 44.1863273
+"Springfield Town" "43 Main St." "Springfield" "VT" "05156" -72.482235 43.298179
+"St. Albans Free" "11 Maiden Lane" "St. Albans" "VT" "05478" -73.0814879 44.8128166
+"St. Johnsbury Athenaeum" "1171 Main St." "St. Johnsbury" "VT" "05819" -72.0214775 44.418377
+"Stamford Community" "986 Main Rd." "Stamford" "VT" "05352" -73.067411 42.7548249
+"Starksboro Public" "2827 Rte. 116" "Starksboro" "VT" "05487" -73.057167 44.225185
+"Stowe Free" "90 Pond St." "Stowe" "VT" "05672" -72.6846518 44.4637099
+"Morrill Mem. Harris" "220 Justin Morrill Hwy." "Strafford" "VT" "05072" -72.376167 43.8638723
+"Franklin-Grand Isle Bookmobile" "100 Robin Hood Dr." "Swanton" "VT" "05488" -73.111195 44.916191
+"Swanton Public" "1 First St." "Swanton" "VT" "05488" -73.1244265 44.9182656
+"Latham Memorial" "16 Library La." "Thetford" "VT" "05074" -72.2434689 43.8250578
+"Tinmouth" "9 Mtn. View Rd." "Tinmouth" "VT" "05773" -73.050224 43.44817
+"Townshend Public" "1971 Rte. 30" "Townshend" "VT" "05353" -72.667076 43.045063
+"Tunbridge Public" "289 Vt Rte. 110" "Tunbridge" "VT" "05077" -72.4923626 43.8897676
+"Bixby Memorial" "258 Main St." "Vergennes" "VT" "05491" -73.2536107 44.1675259
+"Vernon Free" "567 Gov. Hunt Rd." "Vernon" "VT" "05354" -72.521809 42.779883
+"Vershire Community" "po box 112" "Vershire" "VT" "05079" -72.3395077 43.9729649
+"R.K. Kittay Public" "2827 Rte. 153" "W. Rupert" "VT" "05776" -73.224701 43.258865
+"Joslin Memorial" "4391 Main St." "Waitsfield" "VT" "05673" -72.82408 44.190205
+"Gilbert Hart" "14 S. Main St." "Wallingford" "VT" "05773" -72.977598 43.471549
+"Wardsboro Free Public" "170 Main St." "Wardsboro" "VT" "05355" -72.789848 43.043156
+"Warren Public" "413 Main Street" "Warren" "VT" "05674" -72.855705 44.112694
+"Calef Memorial" "2964 Vt Rte. 110" "Washington" "VT" "05675" -72.4333309 44.1076358
+"Waterbury Public" "28 N. Main St." "Waterbury" "VT" "05676" -72.7585963 44.3397556
+"Wells Village" "5 East Wells Rd." "Wells" "VT" "05774" -73.202766 43.417225
+"Baldwin Memorial" "33 Main St." "Wells River" "VT" "05081" -72.046944 44.153404
+"Windham Co. Reads" "po box 2276" "West Brattleboro" "VT" "05303" -72.6031466 42.8559151
+"Walden Community" "135 Cahoon Farm Rd." "West Danville" "VT" "05873" -72.219322 44.452801
+"Lydia Taft Pratt" "156 Lyons St." "West Dummerston" "VT" "05357" -72.6126462 42.9284644
+"West Fairlee Free Public" "380 Rte. 113" "West Fairlee" "VT" "05083" -72.2633654 43.9003513
+"West Hartford" "5133 Rte. 14" "West Hartford" "VT" "05084" -72.417212 43.7125879
+"West Rutland Free" "595 Main St." "West Rutland" "VT" "05777" -73.0491176 43.5948042
+"Hitchcock Museum" "1252 Rte. 100" "Westfield" "VT" "05874" -72.429252 44.887731
+"Westford Town" "1717 Vt Rte. 128" "Westford" "VT" "05494" -73.01138 44.612124
+"Butterfield" "3435 Us Rte. 5" "Westminster" "VT" "05158" -72.460556 43.066467
+"Westminster West Public" "3409 Westminster W. Rd." "Westminster West" "VT" "05346" -72.5414109 43.0647992
+"Wilder Memorial" "24 Lawrence Hill Rd." "Weston" "VT" "05161" -72.7947159 43.2914699
+"Wilder Branch Library" "78 Norwich Avenue" "Wilder" "VT" "05088" -72.3072298 43.6740224
+"Ainsworth Public" "2338 Vt Rte. 14" "Williamstown" "VT" "05679" -72.5412587 44.1225205
+"Dorothy Alling Memorial" "21 Library Lane" "Williston" "VT" "05495" -73.0744488 44.4391467
+"Windham Town" "26 Harrington Rd." "Windham" "VT" "05359" -72.72583 43.180637
+"Windsor Public" "43 State St." "Windsor" "VT" "05089" -72.388512 43.480293
+"Winooski Memorial" "32D Mallets Bay Ave" "Winooski" "VT" "05404" -73.190813 44.492145
+"G. M. Kelley Community" "po box 179" "Wolcott" "VT" "05680" -72.4584429 44.5464417
+"Woodbury Community" "69 Valley Lake Rd." "Woodbury" "VT" "05681" -72.4169343 44.4401858
+"Norman Williams Public" "10 S. Park St." "Woodstock" "VT" "05091" -72.5192861 43.6242525

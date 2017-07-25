@@ -1,0 +1,464 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Abington Public Library" "600 Gliniewicz Way" "Abington" "MA" "02351" -70.9576436 42.1177626
+"Acton Memorial Library" "486 Main St." "Acton" "MA" "01720" -71.4333826 42.4866239
+"W. Acton Citizens Library" "21 Windsor Ave." "Acton" "MA" "01720" -71.4736029 42.475311
+"Russell Memorial Library" "88 Main St." "Acushnet" "MA" "02743" -70.912679 41.68241
+"Adams Free Library" "92 Park St." "Adams" "MA" "01220" -73.1203461 42.6238204
+"Agawam Public Library" "750 Cooper Street" "Agawam" "MA" "01001" -72.6432893 42.073205
+"Alford Free Public Library" "5 Alford Center Road" "Alford" "MA" "01230" -73.4142879 42.2361731
+"Honan-Allston Branch" "300 North Harvard St." "Allston" "MA" "" -71.1279858 42.3601156
+"Amesbury Public Library" "149 Main St." "Amesbury" "MA" "01913" -70.9328577 42.8553612
+"Jones Library, Inc." "43 Amity Street" "Amherst" "MA" "01002" -72.52084 42.376317
+"Munson Memorial Library" "1046 South East Street" "Amherst" "MA" "" -72.503409 42.340719
+"North Amherst Library" "8 Montague Road" "Amherst" "MA" "" -72.5310168 42.4107891
+"Aquinnah Public Library" "1 Church St." "Aquinnah" "MA" "02535" -70.8136728 41.3431392
+"Edith M. Fox Library" "175 Massachusetts Avenue" "Arlington" "MA" "" -71.1415957 42.4056745
+"Robbins Library" "700 Massachusetts Avenue" "Arlington" "MA" "02476" -71.1550859 42.4156522
+"Stevens Memorial Library" "20 Memorial Drive" "Ashburnham" "MA" "01430" -71.909442 42.6378168
+"Ashby Free Public Library" "812 Main Street" "Ashby" "MA" "01431" -71.819414 42.6771699
+"Belding Memorial Library" "244 Main St." "Ashfield" "MA" "01330" -72.797847 42.526898
+"Ashland Public Library" "66 Front St." "Ashland" "MA" "01721" -71.463236 42.260802
+"Guilford H. Hathaway Library" "6 North Main Street" "Assonet" "MA" "" -71.0677732 41.7953095
+"Athol Public Library" "568 Main St." "Athol" "MA" "01331" -72.2285143 42.5941277
+"Attleboro Public Library" "74 North Main Street" "Attleboro" "MA" "02703" -71.2867848 41.9456738
+"Auburn Free Public Library" "369 Southbridge St." "Auburn" "MA" "01501" -71.83507 42.2046394
+"Auburndale Branch Library" "375 Auburn Street" "Auburndale" "MA" "" -71.2494664 42.3464586
+"Avon Public Library" "280 West Main St." "Avon" "MA" "02322" -71.0415851 42.1290942
+"Ayer Public Library" "26 East Main St." "Ayer" "MA" "01432" -71.5830004 42.558
+"Sturgis Library" "3090 Main St." "Barnstable" "MA" "02630" -70.3071439 41.7032998
+"Woods Memorial Library" "19 Pleasant St." "Barre" "MA" "01005" -72.10664 42.422977
+"Becket Athenaeum" "3367 Main Street, Route 8" "Becket" "MA" "01223" -73.0837442 42.3316015
+"Bedford Free Public Library" "7 Mudge Way" "Bedford" "MA" "01730" -71.2836691 42.4920486
+"Clapp Memorial Library" "19 S. Main St." "Belchertown" "MA" "01007" -72.3998668 42.276181
+"Bellingham Public Library" "100 Blackstone Street" "Bellingham" "MA" "02019" -71.4702445 42.0756584
+"Belmont Public Library" "336 Concord Ave." "Belmont" "MA" "02478" -71.172377 42.3945806
+"Benton Branch Library" "75 Oakley Road" "Belmont" "MA" "" -71.169686 42.380429
+"Waverly Branch Library" "445 Trapelo Road" "Belmont" "MA" "" -71.1876153 42.3869108
+"Berkley Public Library" "3 North Main Street" "Berkley" "MA" "02779" -71.0824392 41.8469347
+"Berlin Public Library" "23 Carter Street" "Berlin" "MA" "01503" -71.6357649 42.3829378
+"Cushman Library" "28 Church St." "Bernardston" "MA" "01337" -72.5513691 42.6712537
+"Beverly Farms Branch Library" "24 Vine Street" "Beverly" "MA" "" -70.813781 42.562861
+"Beverly Public Library" "32 Essex St." "Beverly" "MA" "01915" -70.876824 42.550859
+"Billerica Public Library" "15 Concord Rd." "Billerica" "MA" "01821" -71.2699783 42.558409
+"Blackstone Free Public Library" "86 Main St." "Blackstone" "MA" "01504" -71.5352716 42.0195508
+"Porter Memorial Library" "87 Main Street" "Blandford" "MA" "01008" -72.9187753 42.177188
+"Bolton Public Library" "738 Main St." "Bolton" "MA" "01740" -71.611832 42.434637
+"Boston Public Library" "700 Boylston Street" "Boston" "MA" "02116" -71.0788285 42.3494163
+"Kirstein Business Branch" "20 City Hall Avenue" "Boston" "MA" "" -71.058887 42.358122
+"North End Branch Library" "25 Parmenter Street" "Boston" "MA" "" -71.0549132 42.3641023
+"South End Branch Library" "685 Tremont Street" "Boston" "MA" "" -71.0769638 42.3413927
+"West End Branch Library" "151 Cambridge Street" "Boston" "MA" "" -71.0650056 42.3615252
+"Jonathan Bourne Public Library" "19 Sandwich Road" "Bourne" "MA" "02532" -70.5981846 41.7421779
+"Sargent Memorial Library" "427 Mass. Ave." "Boxborough" "MA" "01719" -71.5032352 42.4816979
+"Boxford Town Library" "10 Elm St." "Boxford" "MA" "01921" -70.9974021 42.6628012
+"West Boxford Library" "188 Washington Street" "Boxford" "MA" "" -71.066824 42.7069084
+"Boylston Public Library" "695 Main St." "Boylston" "MA" "01505" -71.7344987 42.3536883
+"Thayer Public Library" "798 Washington Street" "Braintree" "MA" "02184" -71.004228 42.20552
+"Brewster Ladies Library Assoc." "1822 Main Street" "Brewster" "MA" "02631" -70.0854995 41.7585241
+"Bridgewater Public Library" "15 South St." "Bridgewater" "MA" "02324" -70.9772734 41.9884534
+"Brighton Branch Library" "40 Academy Hill Road" "Brighton" "MA" "" -71.1527074 42.34759
+"Faneuil Branch Library" "419 Faneuil Street" "Brighton" "MA" "" -71.1678814 42.3513618
+"Brimfield Public Library" "p.o. box 377" "Brimfield" "MA" "01010" -72.2005059 42.1225482
+"Brockton Public Library System" "304 Main St." "Brockton" "MA" "02301" -71.0193458 42.0793922
+"East Branch Library" "54 Kingman Street" "Brockton" "MA" "" -71.0012961 42.082409
+"West Branch Library" "540 Forest Avenue" "Brockton" "MA" "" -71.0428913 42.0710435
+"Merrick Public Library" "2 Lincoln Street" "Brookfield" "MA" "01506" -72.1016354 42.2134723
+"Brookline Public Library" "361 Washington St." "Brookline" "MA" "02445" -71.1213453 42.3346292
+"Coolidge Corner Branch Library" "31 Pleasant Street" "Brookline" "MA" "" -71.1191813 42.3435468
+"Buckland Public Library" "30 Upper St." "Buckland" "MA" "01338" -72.7911684 42.5921846
+"Burlington Public Library" "22 Sears Street" "Burlington" "MA" "01803" -71.1922734 42.5059752
+"Cambridge Public Library" "449 Broadway" "Cambridge" "MA" "02139" -71.1115872 42.3735163
+"Cambridge Public Library - Boudreau" "245 Concord Avenue" "Cambridge" "MA" "02139" -71.1325784 42.3833852
+"Cambridge Public Library - Central Square" "45 Pearl Street" "Cambridge" "MA" "02139" -71.103689 42.3641806
+"Cambridge Public Library - Collins" "64 Aberdeen Avenue" "Cambridge" "MA" "02138" -71.1469152 42.3769136
+"Cambridge Public Library - Oconnell" "48 Sixth Street" "Cambridge" "MA" "02141" -71.0848331 42.3704451
+"Cambridge Public Library - Oneill" "70 Rindge Avenue" "Cambridge" "MA" "02140" -71.1280895 42.391922
+"Cambridge Public Library - Valente" "826 Cambridge Street" "Cambridge" "MA" "02141" -71.0903137 42.3720978
+"Canton Public Library" "786 Washington St." "Canton" "MA" "02021" -71.1455076 42.1587506
+"Gleason Public Library" "22 Bedford Road" "Carlisle" "MA" "01741" -71.348117 42.528835
+"Carver Public Library" "2 Meadowbrook Way" "Carver" "MA" "02330" -70.7690106 41.8898956
+"Centerville Public Library" "585 Main St." "Centerville" "MA" "02632" -70.3461513 41.6452694
+"Tyler Memorial Library" "p. o. box 518" "Charlemont" "MA" "01339" -72.8698183 42.627862
+"Charlton Public Library" "40 Main St." "Charlton" "MA" "01507" -71.9702463 42.1339121
+"Eldredge Public Library" "564 Main St." "Chatham" "MA" "02633" -69.9582867 41.6814121
+"Chelmsford Public Library" "25 Boston Rd." "Chelmsford" "MA" "01824" -71.3516266 42.5945374
+"Chelsea Public Library" "569 Broadway" "Chelsea" "MA" "02150" -71.0320242 42.3935914
+"Cheshire Public Library" "23 Depot Street" "Cheshire" "MA" "01225" -73.1626372 42.5616751
+"Hamilton Memorial Library" "195 Route 20" "Chester" "MA" "01011" -72.9820087 42.2791995
+"Chesterfield Public Library" "408 Main Road" "Chesterfield" "MA" "01012" -72.8414699 42.3918647
+"Putterham Branch Library" "959 West Roxbury Parkway" "Chestnut Hill" "MA" "" -71.1501187 42.3025015
+"Aldenville Branch Library" "527 Grattan Street" "Chicopee" "MA" "" -72.5961409 42.170236
+"Chicopee Falls Branch Library" "216 Broadway" "Chicopee" "MA" "" -72.5803609 42.1521805
+"Chicopee Public Library" "449 Front St." "Chicopee" "MA" "01013" -72.5994751 42.1483888
+"Fairview Branch Library" "373 Britton Street" "Chicopee" "MA" "" -72.5745039 42.2086552
+"Chilmark Free Public Library" "522 South Rd." "Chilmark" "MA" "02535" -70.743523 41.342424
+"Clarksburg Town Library" "711 West Cross Road" "Clarksburg" "MA" "01247" -73.097623 42.7202847
+"Bigelow Free Public Library" "54 Walnut St." "Clinton" "MA" "01510" -71.6833831 42.41741
+"Paul Pratt Memorial Library" "35 Ripley Rd." "Cohasset" "MA" "02025" -70.809519 42.242022
+"Griswold Memorial Library" "14 Main Rd." "Colrain" "MA" "01340" -72.699929 42.672187
+"Concord Free Public Library" "129 Main Street" "Concord" "MA" "01742" -71.3533088 42.4591873
+"Loring N. Fowler Library" "1322 Main Street" "Concord" "MA" "" -71.3954283 42.4550273
+"Field Memorial Library" "1 Elm St." "Conway" "MA" "01341" -72.6961553 42.507871
+"Cotuit Library" "871 Main St." "Cotuit" "MA" "02635" -70.4352582 41.6182027
+"Cuttyhunk Public Library" "19 Tower Hill Road" "Cuttyhunk" "MA" "02713" -70.9324581 41.4210339
+"Dalton Free Public Library" "462 Main Street" "Dalton" "MA" "01226" -73.169636 42.4729079
+"Peabody Institute Library" "15 Sylvan St." "Danvers" "MA" "01923" -70.9406339 42.5618536
+"Dartmouth Public Libraries" "732 Dartmouth Street" "Dartmouth" "MA" "02748" -70.9412585 41.5991521
+"North Dartmouth Library" "1383 Tucker Road" "Dartmouth" "MA" "" -70.9825161 41.6380325
+"Russells Mills Library" "1205 Russells Mills Road" "Dartmouth" "MA" "" -71.0046875 41.5730569
+"Dedham Public Library" "43 Church St." "Dedham" "MA" "02026" -71.1762307 42.2478174
+"Endicott Branch Library" "257 Mount Vernon Street" "Dedham" "MA" "" -71.1608237 42.2399589
+"Dennis Public Library" "5 Hall St." "Dennisport" "MA" "02639" -70.1243402 41.6670986
+"Dighton Public Library" "395 Main Street" "Dighton" "MA" "02715" -71.1272927 41.8154196
+"Adams Street Branch Library" "690 Adams Street" "Dorchester" "MA" "" -71.0543819 42.2862895
+"Codman Square Branch Library" "690 Washington Street" "Dorchester" "MA" "" -71.0708456 42.2876358
+"Fields Corner Branch Library" "1520 Dorchester Avenue" "Dorchester" "MA" "" -71.0601775 42.2989231
+"Grove Hall Branch Libary" "5 Crawford Street" "Dorchester" "MA" "" -71.0837161 42.3107821
+"Lower Mills Branch Library" "27 Richmond Street" "Dorchester" "MA" "" -71.0684841 42.2734949
+"Simon Fairfield Public Library" "290 Main Street" "Douglas" "MA" "01516" -71.7136078 42.0725809
+"Dover Town Library" "56 Dedham St." "Dover" "MA" "02030" -71.2792745 42.2469454
+"Moses Greeley Parker Memorial Lib." "28 Arlington St." "Dracut" "MA" "01826" -71.3023336 42.6700511
+"Pearle L. Crawford Memorial Library" "1 Village Street" "Dudley" "MA" "01571" -71.890429 42.0478973
+"Dunstable Free Public Library" "588 Main St." "Dunstable" "MA" "01827" -71.487463 42.674469
+"Duxbury Free Library" "77 Alden Street" "Duxbury" "MA" "02332" -70.6831176 42.0467518
+"East Boston Branch Library" "276 Meridian Street" "East Boston" "MA" "" -71.0391542 42.3764452
+"Orient Heights Branch Library" "18 Barnes Avenue" "East Boston" "MA" "" -71.0059729 42.3860571
+"East Bridgewater Public Library" "32 Union St." "East Bridgewater" "MA" "02333" -70.959048 42.0338132
+"East Brookfield Public Library" "122 Connie Mack Drive" "East Brookfield" "MA" "01515" -72.0518644 42.2253003
+"Jacob Sears Memorial Library" "23 Center St." "East Dennis" "MA" "02641" -70.1532677 41.6701704
+"East Falmouth Branch Library" "310 East Falmouth Highway" "East Falmouth" "MA" "" -70.5623507 41.5793211
+"James White Memorial Library" "5 Washburn Road" "East Freetown" "MA" "02717" -70.9593585 41.7744533
+"East Longmeadow Public Library" "60 Center Square" "East Longmeadow" "MA" "01028" -72.5138662 42.0647461
+"Franklin N. Pratt Library" "1400 Pleasant Street" "East Weymouth" "MA" "" -70.9252866 42.2141976
+"Eastham Public Library" "190 Samoset Road" "Eastham" "MA" "02642" -69.9777887 41.8303334
+"Emily Williston Memorial Library" "9 Park St." "Easthampton" "MA" "01027" -72.674346 42.268443
+"Five Corners Library" "670 Depot Street" "Easton" "MA" "" -71.1165577 42.0265303
+"Edgartown Free Public Library" "58 North Water St." "Edgartown" "MA" "02539" -70.510931 41.3902619
+"Erving Center Branch" "12 E. Main St." "Erving" "MA" "" -72.3953223 42.5995396
+"Erving Public Library" "17 Moore St." "Erving" "MA" "01344" -72.491006 42.583804
+"T.O.H.P. Burnham Free Library" "30 Martin St." "Essex" "MA" "01929" -70.7863297 42.6294761
+"Parlin Memorial Library" "410 Broadway" "Everett" "MA" "02149" -71.0568033 42.4060122
+"Shute Memorial Library" "781 Broadway" "Everett" "MA" "" -71.0465397 42.4166969
+"Millicent Library" "45 Center St." "Fairhaven" "MA" "02719" -70.9033893 41.635698
+"East End Branch Library" "1386 Pleasant Street" "Fall River" "MA" "" -71.1344708 41.6910546
+"Fall River Public Library" "104 North Main St." "Fall River" "MA" "02720" -71.1555122 41.7034394
+"South Branch Library" "1310 South Main Street" "Fall River" "MA" "" -71.1694511 41.687936
+"Falmouth Public Library" "15 Carlson Lane" "Falmouth" "MA" "02540" -70.6201878 41.5702703
+"Fitchburg Public Library" "610 Main St." "Fitchburg" "MA" "01420" -71.8019467 42.5832687
+"Lilly Library" "19 Meadow St." "Florence" "MA" "01062" -72.6741526 42.3355654
+"Florida Free Public Library" "56 North County Road" "Florida" "MA" "01247" -73.0322656 42.6929587
+"Boyden Library" "10 Bird St." "Foxborough" "MA" "02035" -71.2505411 42.0660746
+"Framingham Public Library" "49 Lexington Street" "Framingham" "MA" "01702" -71.4167488 42.2820414
+"Mcauliffe Branch Library" "10 Nicholas Road" "Framingham" "MA" "" -71.4035311 42.3264937
+"Franklin Public Library" "118 Main Street" "Franklin" "MA" "02038" -71.4000283 42.0854235
+"Levi Heywood Memorial Library" "55 West Lynde St." "Gardner" "MA" "01440" -71.9934546 42.5761013
+"Gilbertville Public Library" "259 Main St." "Gilbertville" "MA" "01031" -72.2101969 42.307702
+"Slate Memorial Library" "332 Main Road" "Gill" "MA" "01376" -72.4992964 42.6410043
+"Gloucester Lyceum Sawyer Free Lib" "2 Dale Ave." "Gloucester" "MA" "01930" -70.663459 42.613696
+"Goshen Free Public Library" "42 Main Street" "Goshen" "MA" "01032" -72.7999198 42.4414486
+"Grafton Public Library" "35 Grafton Common" "Grafton" "MA" "01519" -71.6846116 42.2059613
+"Granville Public Library" "2 Granby Road" "Granville" "MA" "01034" -72.8611185 42.0670675
+"Mason Library" "231 Main St." "Great Barrington" "MA" "01230" -73.3605915 42.1959855
+"Greenfield Public Library" "402 Main St." "Greenfield" "MA" "01301" -72.5989496 42.5880423
+"Groton Public Library" "99 Main St." "Groton" "MA" "01450" -71.5683278 42.6050714
+"Langley Adams Library" "185 Main Street" "Groveland" "MA" "01834" -71.0256723 42.7675079
+"Goodwin Memorial Library" "50 Middle Street" "Hadley" "MA" "01035" -72.5886011 42.3426051
+"North Hadley Branch Library" "237 River Drive" "Hadley" "MA" "" -72.5814213 42.3877953
+"Holmes Public Library" "470 Plymouth St." "Halifax" "MA" "02338" -70.8584782 41.9915328
+"Hampden Free Library" "625 Main St." "Hampden" "MA" "01036" -72.4139313 42.0644954
+"Taylor Memorial Library" "733 Main Street" "Hancock" "MA" "01237" -73.2293108 42.5371211
+"John Curtis Free Library" "534 Hanover St." "Hanover" "MA" "02339" -70.8436955 42.1161431
+"Hanson Public Library" "132 Maquan St." "Hanson" "MA" "02341" -70.8559345 42.063007
+"Paige Memorial Library" "87 Petersham Road" "Hardwick" "MA" "01037" -72.199699 42.351268
+"Harvard Public Library" "4 Pond Rd." "Harvard" "MA" "01451" -71.5838334 42.4975168
+"Brooks Free Library" "739 Main Street" "Harwich" "MA" "02645" -70.0723277 41.6861002
+"Harwich Port Library Assoc." "box 175" "Harwich Port" "MA" "02646" -70.0591278 41.6694978
+"Hatfield Public Library" "39 Main St." "Hatfield" "MA" "01038" -72.5966979 42.3701694
+"Haydenville Public Library" "136 Main Street" "Haydenville" "MA" "" -72.7043436 42.3753114
+"Heath Free Public Library" "1 East Main Street" "Heath" "MA" "01346" -72.822018 42.673649
+"Hingham Public Library" "66 Leavitt St." "Hingham" "MA" "02043" -70.8744481 42.2349757
+"Hinsdale Public Library" "58 Maple St." "Hinsdale" "MA" "01235" -73.124178 42.438176
+"Holbrook Public Library" "2 Plymouth St." "Holbrook" "MA" "02343" -71.0077277 42.1550632
+"Gale Free Library" "23 Highland St." "Holden" "MA" "01520" -71.8612315 42.3514847
+"Holland Public Library" "23 Sturbridge Rd." "Holland" "MA" "01521" -72.1612308 42.0657693
+"Holliston Public Library" "752 Washington St." "Holliston" "MA" "01746" -71.4291408 42.2003777
+"Holyoke Public Library" "335 Maple St." "Holyoke" "MA" "01040" -72.6126615 42.2039045
+"Bancroft Memorial Library" "50 Hopedale Street" "Hopedale" "MA" "01747" -71.5411813 42.1301491
+"Hopkinton Public Library" "13 Main Street" "Hopkinton" "MA" "01748" -71.5195556 42.2287569
+"Ramsdell Public Library" "1087 Main Street" "Housatonic" "MA" "" -73.3659392 42.2577301
+"Hubbardston Public Library" "7 Main Street" "Hubbardston" "MA" "01452" -72.0077983 42.4759035
+"Hudson Public Library" "3 Washington Street At Wood Square" "Hudson" "MA" "01749" -71.5705908 42.3916002
+"Hull Public Library" "9 Main St." "Hull" "MA" "02045" -70.9065704 42.3021393
+"Huntington Public Library" "7 East Main St." "Huntington" "MA" "01050" -72.8763432 42.2350969
+"Hyannis Public Library Assoc." "401 Main St." "Hyannis" "MA" "02601" -70.284438 41.65209
+"Hyde Park Branch Library" "35 Harvard Avenue" "Hyde Park" "MA" "" -71.1220911 42.2569767
+"Indian Orchard Branch Library" "44 Oak Street" "Indian Orchard" "MA" "" -72.5037693 42.1589714
+"Ipswich Public Library" "25 North Main St." "Ipswich" "MA" "01938" -70.835891 42.680573
+"Connolly Branch Library" "433 Centre Street" "Jamaica Plain" "MA" "" -71.11109 42.3206503
+"Jamaica Plain Branch Library" "12 Sedgwick Street" "Jamaica Plain" "MA" "" -71.1148933 42.3086374
+"Kingston Public Library" "6 Green Street" "Kingston" "MA" "02364" -70.7312672 41.9948209
+"Lakeville Free Public Library" "4 Precinct St." "Lakeville" "MA" "02347" -70.9506162 41.8464219
+"Thayer Memorial Library" "717 Main St." "Lancaster" "MA" "01523" -71.6725506 42.4551654
+"Lanesborough Public Library" "83 North Main St. (Town Hall)" "Lanesborough" "MA" "01237" -90.4036818 39.4372233
+"Lawrence Public Library" "51 Lawrence St." "Lawrence" "MA" "01841" -71.162215 42.7107245
+"South Lawrence Branch Library" "135 Parker Street" "Lawrence" "MA" "" -71.1587253 42.6970698
+"Lee Library Association" "100 Main St." "Lee" "MA" "01238" -73.2495336 42.3064274
+"Leicester Public Library" "1136 Main St." "Leicester" "MA" "01524" -71.9122528 42.2460441
+"Lenox Library Association" "18 Main St." "Lenox" "MA" "01240" -73.2843285 42.3572855
+"Leominster Public Library" "30 West St." "Leominster" "MA" "01453" -71.7620131 42.5263923
+"Leverett Library" "75 Montague Road" "Leverett" "MA" "01054" -72.4983259 42.4614613
+"Cary Memorial Library" "1874 Massachusetts Avenue" "Lexington" "MA" "02420" -71.2296291 42.4482039
+"East Lexington Branch Library" "735 Massachusetts Avenue" "Lexington" "MA" "" -71.206776 42.429479
+"Robertson Memorial Library" "849 Greenfield Road" "Leyden" "MA" "01301" -72.6301525 42.7004103
+"Reuben Hoar Library" "41 Shattuck St." "Littleton" "MA" "01460" -71.480618 42.5421931
+"Richard Salter Storrs Library" "693 Longmeadow St." "Longmeadow" "MA" "01106" -72.5823698 42.0526469
+"Pollard Memorial Library" "401 Merrimack St." "Lowell" "MA" "01852" -71.3144306 42.6461029
+"Senior Center Branch" "276 Broadway Street" "Lowell" "MA" "" -71.3194655 42.6436417
+"Hubbard Memorial Library" "24 Center Street" "Ludlow" "MA" "01056" -72.4842986 42.1581012
+"Lunenburg Public Library" "1023 Massachusetts Ave." "Lunenburg" "MA" "01462" -71.7223946 42.5962926
+"Ritter Memorial Library" "1023 Massachusetts Avenue" "Lunenburg" "MA" "01462" -71.7223946 42.5962926
+"Lynn Public Library" "5 North Common St." "Lynn" "MA" "01902" -70.9536261 42.4644681
+"Lynnfield Public Library" "18 Summer St." "Lynnfield" "MA" "01940" -71.0478027 42.539373
+"Linden Branch Library" "141 Oliver Street" "Malden" "MA" "" -71.0295257 42.4321501
+"Malden Public Library" "36 Salem St." "Malden" "MA" "02148" -71.065487 42.4274552
+"Manchaug Branch Library" "2 Main Street" "Manchaug" "MA" "" -71.7468952 42.0935568
+"Manchester-By-The-Sea Pub. Library" "15 Union Street" "Manchester-By-The-Se" "MA" "01944" -70.7713857 42.5749735
+"Manomet Branch Library" "24 Manomet Point Road" "Manomet" "MA" "" -70.554001 41.9170295
+"Mansfield Public Library" "255 Hope Street" "Mansfield" "MA" "02048" -71.2098104 42.033903
+"Abbot Public Library" "235 Pleasant St." "Marblehead" "MA" "01945" -70.8632307 42.496374
+"Elizabeth Taber Memorial Library" "8 Spring St." "Marion" "MA" "02738" -70.7671415 41.7030502
+"Marlborough Public Library" "35 West Main St." "Marlborough" "MA" "01752" -71.5545448 42.3459875
+"Marstons Mills Public Library" "2160 Main St." "Marstons Mills" "MA" "02648" -70.4125573 41.6542474
+"Mashpee Public Library" "100 Nathan Ellis Hghwy." "Mashpee" "MA" "02649" -70.4941542 41.6176153
+"Mattapan Branch Library" "10 Hazelton Street" "Mattapan" "MA" "" -71.094151 42.27849
+"Mattapoisett Public Library" "7 Barstow St." "Mattapoisett" "MA" "02739" -70.8129871 41.6591317
+"Maynard Public Library" "77 Nason St." "Maynard" "MA" "01754" -71.452012 42.434173
+"Medfield Memorial Library" "468 Main Street" "Medfield" "MA" "02052" -71.3050869 42.1866155
+"Medford Public Library" "111 High St." "Medford" "MA" "02155" -71.1135305 42.4197198
+"Medway Public Library" "26 High St." "Medway" "MA" "02053" -71.4299279 42.1439372
+"Melrose Public Library" "69 West Emerson St." "Melrose" "MA" "02176" -71.0662697 42.4589528
+"Merrimac Public Library" "86 West Main St." "Merrimac" "MA" "01860" -71.012893 42.8273954
+"Nevins Memorial Library" "305 Broadway" "Methuen" "MA" "01844" -71.1889957 42.7303966
+"Middleborough Public Library" "102 North Main St." "Middleborough" "MA" "02346" -70.9080925 41.8936774
+"Middlefield Public Library" "188 Main Road" "Middlefield" "MA" "01243" -72.9984897 42.3353648
+"Flint Public Library" "1 South Main St." "Middleton" "MA" "01949" -71.016129 42.5947443
+"Milford Town Library" "80 Spruce Street" "Milford" "MA" "01757" -71.5202783 42.1424105
+"New Marlborough Town Library" "1 Mill River -Great Barrington Road" "Mill River" "MA" "01230" -73.2678114 42.1133229
+"Millbury Public Library" "128 Elm St." "Millbury" "MA" "01527" -71.7631639 42.1904325
+"Millers Falls Library" "23 Bridge Street" "Millers Falls" "MA" "" -72.494259 42.5783273
+"Millis Public Library" "25 Auburn Road" "Millis" "MA" "02054" -71.3639396 42.1656504
+"Millville Free Public Library" "169 Main St." "Millville" "MA" "01529" -71.5772089 42.0265001
+"East Milton Branch Library" "354 Edge Hill Road" "Milton" "MA" "" -71.0422891 42.2579023
+"Milton Public Library" "476 Canton Ave." "Milton" "MA" "02186" -71.0773788 42.2538608
+"Monroe Public Library" "3b School St." "Monroe Bridge" "MA" "01350" -72.9412851 42.7220653
+"Monson Free Library Reading Room" "2 High Street" "Monson" "MA" "01057" -72.3190796 42.1022236
+"Montague Center Library" "17 Center Street" "Montague" "MA" "" -72.5330929 42.5354812
+"Monterey Public Library" "452 Main Rd." "Monterey" "MA" "01245" -73.2120326 42.179203
+"Grace Hall Memorial Library" "161 Main Rd." "Montgomery" "MA" "01085" -72.8171352 42.2138697
+"Nahant Public Library" "15 Pleasant St." "Nahant" "MA" "01908" -70.912967 42.424098
+"Nantucket Atheneum" "1 India Street" "Nantucket" "MA" "02554" -70.0985586 41.284438
+"Morse Institute Library" "14 East Central Street" "Natick" "MA" "01760" -71.3458215 42.2845031
+"Needham Free Public Library" "1139 Highland Ave." "Needham" "MA" "02494" -71.2354833 42.2876401
+"Casa Da Saudade" "58 Crapo Street" "New Bedford" "MA" "" -70.9269798 41.6215855
+"Francis J. Lawler Branch Library" "745 Rockdale Avenue" "New Bedford" "MA" "" -70.9491576 41.6333337
+"Howland Green Library" "3 Rodney French Blvd." "New Bedford" "MA" "" -70.9197861 41.6159411
+"New Bedford Free Public Library" "613 Pleasant Street" "New Bedford" "MA" "02740" -70.927439 41.6350108
+"Wilks Library" "1911 Acushnet Avenue" "New Bedford" "MA" "" -70.9245417 41.6733503
+"New Braintree Public Library" "45 Memorial Drive" "New Braintree" "MA" "01531" -72.1224213 42.31738
+"New Salem Public Library" "24 South Main Street" "New Salem" "MA" "01355" -72.3312393 42.5000041
+"Andrews Branch Library" "77 Purchase Street" "Newburyport" "MA" "" -70.8577169 42.804395
+"Newburyport Public Library" "94 State St." "Newburyport" "MA" "01950" -70.8711658 42.808951
+"Nonantum Branch Library" "144 Bridge Street" "Newton" "MA" "" -71.2018675 42.3607731
+"Newton Free Library" "330 Homer Street" "Newton Centre" "MA" "02459" -71.2078584 42.3358737
+"Newton Corner Branch Library" "126 Vernon Street" "Newton Corner" "MA" "" -71.1853999 42.3550144
+"Norfolk Public Library" "139 Main St." "Norfolk" "MA" "02056" -71.3262403 42.1190676
+"North Adams Public Library" "74 Church St." "North Adams" "MA" "01247" -73.1087185 42.6983166
+"Stevens Memorial Library" "345 Main Street" "North Andover" "MA" "01845" -71.126422 42.696382
+"Richards Memorial Library" "118 North Washington Street" "North Attleborough" "MA" "02760" -71.3324258 41.9852882
+"Haston Free Public Library" "161 Main Street" "North Brookfield" "MA" "01535" -72.0849926 42.2680211
+"Mackay Branch Library" "43 Newfield Street" "North Chelmsford" "MA" "" -71.3839928 42.6375116
+"Ames Free Library Of Easton, Inc." "53 Main St." "North Easton" "MA" "02356" -71.1070271 42.0755864
+"North Falmouth Branch Library" "6 Chester Street" "North Falmouth" "MA" "" -70.6204006 41.651315
+"North Grafton Branch" "6 Prentice Street" "North Grafton" "MA" "" -71.711611 42.242505
+"Moore-Leland Library" "172 Athol Road" "North Orange" "MA" "" -72.2413451 42.5960119
+"Flint Memorial Library" "147 Park St." "North Reading" "MA" "01864" -71.0762676 42.5747042
+"Truro Public Library" "5 Library Lane" "North Truro" "MA" "02652" -70.0971881 42.0393199
+"North Branch Library" "220 North Street" "North Weymouth" "MA" "" -70.9434959 42.2422212
+"Forbes Library" "20 West St." "Northampton" "MA" "01060" -72.6356875 42.3167111
+"Northborough Free Library" "34 Main St." "Northborough" "MA" "01532" -71.6401554 42.3190271
+"Dickinson Memorial Library" "115 Main Street" "Northfield" "MA" "01360" -72.4535751 42.6997779
+"Field Library" "243 Millers Falls Road" "Northfield" "MA" "01360" -72.4697332 42.62179
+"Norton Public Library" "68 E. Main Street" "Norton" "MA" "02766" -71.181287 41.9705541
+"Norwell Public Library" "64 South St." "Norwell" "MA" "02061" -70.8348393 42.1533912
+"Morrill Memorial Library" "33 Walpole St." "Norwood" "MA" "02062" -71.2038444 42.1913067
+"Oak Bluffs Public Library" "56r School Street" "Oak Bluffs" "MA" "02557" -70.567197 41.455276
+"Fobes Memorial Library" "4 Maple St." "Oakham" "MA" "01068" -72.0427863 42.3535122
+"Wheeler Memorial Library" "49 East Main Street" "Orange" "MA" "01364" -72.3072425 42.5912131
+"Snow Library" "67 Main St." "Orleans" "MA" "02653" -69.9887385 41.7856313
+"Osterville Free Library" "43 Wianno Avenue" "Osterville" "MA" "02655" -70.3845027 41.6269787
+"Otis Free Public Library" "48 Main St." "Otis" "MA" "01253" -73.0508448 42.2650822
+"Oxford Free Public Library" "339 Main St." "Oxford" "MA" "01540" -71.8651965 42.1185738
+"Palmer Public Library" "1455 North Main St." "Palmer" "MA" "01069" -72.3304483 42.1585391
+"Richards Memorial Library" "44 Richards Ave." "Paxton" "MA" "01612" -71.927307 42.312945
+"Peabody Institute Library" "82 Main St." "Peabody" "MA" "01960" -70.9241921 42.5250109
+"South Branch Library" "78 Lynn Street" "Peabody" "MA" "" -70.9465493 42.5126995
+"West Branch Library" "603 Lowell Street" "Peabody" "MA" "" -70.9924068 42.5490891
+"Pelham Library" "2 South Valley Road" "Pelham" "MA" "01002" -72.468209 42.3780659
+"Pembroke Public Library" "142 Center St." "Pembroke" "MA" "02359" -70.808687 42.069474
+"Lawrence Library" "15 Main St." "Pepperell" "MA" "01463" -71.5960739 42.667144
+"Peru Library" "6 W. Main Road" "Peru" "MA" "01235" -73.0475952 42.4388499
+"Petersham Memorial Library" "23 Common St." "Petersham" "MA" "01366" -72.1872259 42.488512
+"Phillips Free Public Library" "25 Templeton Road" "Phillipston" "MA" "01331" -72.1312073 42.5494738
+"Berkshire Athenaeum" "1 Wendell Ave." "Pittsfield" "MA" "01201" -73.25137 42.447642
+"Shaw Memorial Library" "312 Main Street" "Plainfield" "MA" "01070" -72.9132808 42.5162633
+"Plainville Public Library" "198 South St." "Plainville" "MA" "02762" -71.339606 42.009866
+"Plymouth Public Library" "132 South Street" "Plymouth" "MA" "02360" -70.6570109 41.9428583
+"Plympton Public Library" "248 Main St." "Plympton" "MA" "02367" -70.8154777 41.9567411
+"Princeton Public Library" "2 Town Hall Drive" "Princeton" "MA" "01541" -71.8775473 42.4487131
+"Provincetown Public Library" "356 Commercial St." "Provincetown" "MA" "02657" -70.184352 42.0534745
+"Adams Shore Branch Library" "519 Sea Street" "Quincy" "MA" "" -70.9791099 42.2606376
+"North Quincy Branch Library" "381 Hancock Street" "Quincy" "MA" "" -71.0264067 42.2739519
+"Thomas Crane Public Library" "40 Washington Street" "Quincy" "MA" "02269" -71.0005903 42.2515108
+"Wollaston Branch Library" "41 Beale Street" "Quincy" "MA" "" -71.0179202 42.2668136
+"Raynham Public Library" "760 South Main St." "Raynham" "MA" "02767" -71.0530829 41.9227942
+"Reading Public Library" "64 Middlesex Ave." "Reading" "MA" "01867" -71.1102778 42.5261161
+"Blanding Public Library" "124 Bay State Road" "Rehoboth" "MA" "02769" -71.2495027 41.8413159
+"Revere Public Library" "179 Beach St." "Revere" "MA" "02151" -71.0091859 42.4080125
+"Richmond Free Public Library" "2821 State Road" "Richmond" "MA" "01254" -73.3808797 42.3598334
+"Joseph H. Plumb Memorial Library" "17 Constitution Way" "Rochester" "MA" "02770" -70.8215513 41.731397
+"Rockland Memorial Library" "20 Belmont St." "Rockland" "MA" "02370" -70.9168228 42.1321171
+"Rockport Public Library" "17 School Street" "Rockport" "MA" "01966" -70.6177413 42.6576331
+"Roslindale Branch Library" "4238 Washington Street" "Roslindale" "MA" "" -71.1284458 42.2858322
+"Rowe Town Library" "p.o. box 457" "Rowe" "MA" "01367" -72.899542 42.6934166
+"Rowley Public Library" "141 Main St." "Rowley" "MA" "01969" -70.879301 42.7148178
+"Dudley Branch Library" "65 Warren Street" "Roxbury" "MA" "" -71.083611 42.3280837
+"Dudley Literacy Center" "65 Warren St." "Roxbury" "MA" "" -71.083611 42.3280837
+"Egleston Square Branch Library" "2044 Columbus Avenue" "Roxbury" "MA" "" -71.0956804 42.3141077
+"Parker Hill Branch Library" "1497 Tremont Street" "Roxbury" "MA" "" -71.099069 42.332446
+"Phinehas S. Newton Library" "19 On The Common" "Royalston" "MA" "01368" -72.1873552 42.6756216
+"Russell Public Library" "162 Main St." "Russell" "MA" "01071" -72.853103 42.188966
+"Rutland Free Public Library" "280 Main Street" "Rutland" "MA" "01543" -71.9570663 42.3762547
+"Salem Public Library" "370 Essex St." "Salem" "MA" "01970" -70.9032027 42.5202704
+"Salisbury Public Library" "17 Elm Street" "Salisbury" "MA" "01952" -70.8615768 42.8397861
+"Sandisfield Public Library" "23 Sandisfield Road" "Sandisfield" "MA" "01255" -73.085746 42.0939
+"Sandwich Free Public Library" "142 Main Street" "Sandwich" "MA" "02563" -70.4986349 41.758078
+"Saugus Public Library" "295 Central St." "Saugus" "MA" "01906" -71.010183 42.4653159
+"Savoy Hollow Library" "720 Main Road" "Savoy" "MA" "01256" -73.0250642 42.5641442
+"Scituate Town Library" "85 Branch St." "Scituate" "MA" "02066" -70.755893 42.2031536
+"Seekonk Public Library" "410 Newman Ave." "Seekonk" "MA" "02771" -71.3294393 41.8533017
+"Sharon Public Library" "11 North Main St." "Sharon" "MA" "02067" -71.1782044 42.1241035
+"Shelburne Free Public Library" "233 Shelburne Center Road" "Shelburne" "MA" "01370" -72.6887572 42.5888943
+"Sherborn Library" "4 Sanger St." "Sherborn" "MA" "01770" -71.3706716 42.2397157
+"Hazen Memorial Library" "3 Keady Way" "Shirley" "MA" "01464" -71.6413152 42.5458191
+"Shrewsbury Free Public Library" "609 Main St." "Shrewsbury" "MA" "01545" -71.712773 42.29698
+"M. N. Spear Memorial Library" "p. o. box 256" "Shutesbury" "MA" "01072" -72.4098077 42.4564779
+"Somerset Public Library" "1464 County St." "Somerset" "MA" "02726" -71.1409505 41.7524821
+"East Branch Library" "115 Broadway" "Somerville" "MA" "" -71.0835845 42.3879313
+"Somerville Public Library" "79 Highland Avenue" "Somerville" "MA" "02143" -71.0943955 42.385793
+"West Branch Library" "40 College Avenue" "Somerville" "MA" "" -71.121735 42.398135
+"South Attleboro Branch Library" "609 Newport Avenue" "Souh Attleboro" "MA" "" -71.3554101 41.9216253
+"South Boston Branch Library" "646 East Broadway" "South Boston" "MA" "" -71.0386983 42.3358401
+"Washington Village Branch Library" "1226 Columbia Road" "South Boston" "MA" "" -71.0493491 42.3306389
+"South Chatham Public Library" "p. o. box 218" "South Chatham" "MA" "02659" -70.0241931 41.6795364
+"Tilton Library" "75 North Main St." "South Deerfield" "MA" "01373" -72.6067175 42.4795951
+"South Dennis Free Public Library" "389 Main St." "South Dennis" "MA" "02660" -70.194948 41.7286366
+"Egremont Free Library" "1 Button Ball Lane" "South Egremont" "MA" "01258" -73.4112428 42.1611298
+"South Grafton Branch Library" "71 Main Street" "South Grafton" "MA" "" -71.753659 42.18856
+"Gaylord Memorial Library" "47 College Street" "South Hadley" "MA" "01075" -72.5765776 42.2559687
+"South Hadley Public Library" "27 Bardwell St." "South Hadley" "MA" "01075" -72.5978448 42.2178814
+"Hamilton-Wenham Public Library" "14 Union St." "South Hamilton" "MA" "01982" -70.8797656 42.6118259
+"Bacon Free Library" "58 Eliot Street" "South Natick" "MA" "01760" -71.3161492 42.2722016
+"Fogg Library" "1 Columbian Square" "South Weymouth" "MA" "" -70.950924 42.1747439
+"Yarmouth Town Library Board" "312 Old Main Street" "South Yarmouth" "MA" "02664" -70.1859651 41.6660689
+"Edwards Public Library" "30 East Street" "Southampton" "MA" "01073" -72.7259182 42.2268222
+"Southborough Public Library" "25 Main St." "Southborough" "MA" "01772" -71.5300644 42.3062338
+"Jacob Edwards Library" "236 Main St." "Southbridge" "MA" "01550" -72.0324076 42.0746381
+"Southwick Public Library" "95 Feeding Hills Rd." "Southwick" "MA" "01077" -72.7478158 42.0640168
+"Richard Sugden Public Library" "8 Pleasant Street" "Spencer" "MA" "01562" -71.9946471 42.2444814
+"Brightwood Branch Library" "359 Plainfield Street" "Springfield" "MA" "" -72.6136637 42.1170104
+"East Forest Park" "122-124 Island Pond Road" "Springfield" "MA" "" -72.5507239 42.0966105
+"Mason Square Branch Library" "765 State Street" "Springfield" "MA" "" -72.5657083 42.1109181
+"Pine Point Branch Library" "204 Boston Road" "Springfield" "MA" "" -72.5328011 42.1263371
+"Sixteen Acres Branch Library" "1187 Parker Street" "Springfield" "MA" "" -72.4982956 42.1169833
+"Springfield City Library" "220 State St." "Springfield" "MA" "01103" -72.5847746 42.103029
+"Conant Free Public Library" "4 Meetinghouse Hill Road" "Sterling" "MA" "01564" -71.7610421 42.4376529
+"Stockbridge Library Association" "46 Main St." "Stockbridge" "MA" "01262" -73.3105961 42.2816023
+"Stoneham Public Library" "431 Main St." "Stoneham" "MA" "02180" -71.1006799 42.4779014
+"Stoughton Public Library" "84 Park St." "Stoughton" "MA" "02072" -71.0988973 42.1228125
+"Randall Library" "19 Crescent Street" "Stow" "MA" "01775" -71.504808 42.4371242
+"Joshua Hyde Public Library" "306 Main Street" "Sturbridge" "MA" "01566" -72.08011 42.108212
+"Goodnow Public Library" "21 Concord Road" "Sudbury" "MA" "01776" -71.4168741 42.3632998
+"Graves Memorial Library" "111 North Main Street" "Sunderland" "MA" "" -72.5792115 42.4669732
+"Sunderland Public Library" "20 School St." "Sunderland" "MA" "01375" -72.5808282 42.4671514
+"Sutton Free Public Library" "4 Uxbridge Road" "Sutton" "MA" "01590" -71.7626982 42.1494671
+"Swampscott Public Library" "61 Burrill St." "Swampscott" "MA" "01907" -70.9190396 42.4695056
+"Swansea Free Public Library" "69 Main St." "Swansea" "MA" "02777" -71.1900173 41.7490484
+"Taunton Public Library" "12 Pleasant Street" "Taunton" "MA" "02780" -71.0947677 41.9036882
+"Boynton Public Library" "27 Boynton St." "Templeton" "MA" "01468" -72.0684841 42.5581878
+"Tewksbury Public Library" "300 Chandler Street" "Tewksbury" "MA" "01876" -71.2252335 42.6067111
+"Tolland Public Library" "22 Clubhouse Rd." "Tolland" "MA" "01034" -73.0137187 42.0839009
+"Topsfield Town Library" "1 South Common Street" "Topsfield" "MA" "01983" -70.9495929 42.640901
+"Townsend Public Library" "12 Dudley Road" "Townsend" "MA" "01469" -71.7009427 42.6760342
+"Montague Public Libraries" "201 Avenue A" "Turners Falls" "MA" "01376" -72.5593804 42.6051949
+"Tyngsborough Public Library" "25 Bryant Lane" "Tyngsborough" "MA" "01879" -71.429644 42.679913
+"Tyringham Free Public Library" "118 Main Road" "Tyringham" "MA" "01264" -73.2025641 42.2447964
+"Uxbridge Free Public Library" "15 North Main St." "Uxbridge" "MA" "01569" -71.6299104 42.0774126
+"Vineyard Haven Public Library" "200 Main Street" "Vineyard Haven" "MA" "02568" -70.6039222 41.4594323
+"West Tisbury Free Public Library" "1042 State Rd." "Vineyard Haven" "MA" "02568" -70.6744589 41.3819415
+"Waban Branch Library" "1606 Beacon Street" "Waban" "MA" "" -71.2296614 42.3273437
+"Wales Public Library" "77 Main St." "Wales" "MA" "01081" -72.2167401 42.073983
+"Walpole Public Library" "65 Common St." "Walpole" "MA" "02081" -71.252662 42.142483
+"Waltham Public Library" "735 Main St." "Waltham" "MA" "02451" -71.2395325 42.3766522
+"Young Mens Library Association" "37 Main St." "Ware" "MA" "01082" -72.2397961 42.2599397
+"Wareham Free Library" "59 Marion Road" "Wareham" "MA" "02571" -70.7241704 41.7592727
+"Warren Public Library" "934 Main St." "Warren" "MA" "01083" -72.1941332 42.2131249
+"Warwick Free Public Library" "4 Hotel Road" "Warwick" "MA" "01378" -72.338746 42.682759
+"East Branch Library" "481 Mt. Auburn Street" "Watertown" "MA" "" -71.163727 42.3705969
+"North Branch Library" "265 Orchard Street" "Watertown" "MA" "" -71.1879143 42.3772746
+"Watertown Free Public Library" "123 Main St." "Watertown" "MA" "02472" -71.1869661 42.3675294
+"Wayland Free Public Library" "5 Concord Rd." "Wayland" "MA" "01778" -71.3608843 42.3651267
+"Chester C. Corbin Public Library" "2 Lake St." "Webster" "MA" "01570" -71.8795235 42.0497756
+"Fells Branch Library" "308 Weston Road" "Wellesley" "MA" "" -71.3123877 42.3045944
+"Hills Branch Library" "210 Washington Street" "Wellesley" "MA" "" -71.2709669 42.3147324
+"Wellesley Free Library" "530 Washington St." "Wellesley" "MA" "02482" -71.2905849 42.296607
+"Wellfleet Public Library" "55 West Main Street" "Wellfleet" "MA" "02667" -70.0354952 41.9389654
+"Wendell Free Library" "2 Lockesvillage Rd." "Wendell" "MA" "01379" -72.3980255 42.5466571
+"Whelden Memorial Library" "2401 Meetinghouse Way" "West Barnstable" "MA" "02668" -70.375752 41.7055099
+"Beaman Memorial Public Library" "8 Newton St." "West Boylston" "MA" "01583" -71.7833278 42.3651439
+"West Bridgewater Public Library" "80 Howard Street" "West Bridgewater" "MA" "02379" -71.0127487 42.0200139
+"Merriam-Gilbert Public Library" "3 West Main St." "West Brookfield" "MA" "01585" -72.1431912 42.2344874
+"West Dennis Free Public Library" "260 Main St." "West Dennis" "MA" "02670" -70.1716662 41.6646137
+"West Falmouth Library, Inc." "575 West Falmouth Hghwy." "West Falmouth" "MA" "02540" -70.634226 41.600452
+"Chase Library Assoc., Inc." "5 Main St." "West Harwich" "MA" "02671" -70.1219335 41.6688338
+"G. A. R. Memorial Library" "490 Main St." "West Newbury" "MA" "01985" -70.9809923 42.8052232
+"West Roxbury Branch Library" "1961 Centre Street" "West Roxbury" "MA" "" -71.1574971 42.2834155
+"West Springfield Public Library" "200 Park St." "West Springfield" "MA" "01089" -72.6221782 42.1045515
+"West Warren Library Association" "2370 Main Street" "West Warren" "MA" "01092" -72.2434175 42.2117649
+"West Yarmouth Library" "391 Main Street" "West Yarmouth" "MA" "" -70.2451902 41.650413
+"Westborough Public Library" "55 West Main St." "Westborough" "MA" "01581" -71.6154833 42.2678344
+"Westfield Athenaeum" "6 Elm St." "Westfield" "MA" "01085" -72.7499548 42.1205586
+"J. V. Fletcher Library" "50 Main St." "Westford" "MA" "01886" -71.4385691 42.5818231
+"Westhampton Memorial Library" "3 South Road" "Westhampton" "MA" "01027" -72.7750611 42.3037724
+"Forbush Memorial Library" "118 Main St." "Westminster" "MA" "01473" -71.9124396 42.5457849
+"Weston Public Library" "87 School Street" "Weston" "MA" "02493" -71.2937588 42.3612789
+"Westport Free Public Library" "408 Old County Rd." "Westport" "MA" "02790" -71.0639618 41.621235
+"Islington Branch Library" "280 Washington Street" "Westwood" "MA" "" -71.1878188 42.2193453
+"Westwood Public Library" "668 High St." "Westwood" "MA" "02090" -71.222018 42.225406
+"Tufts Library" "46 Broad St." "Weymouth" "MA" "02188" -70.9653029 42.2156901
+"S. White Dickinson Memorial Library" "202 Chestnut Plain Road" "Whately" "MA" "01093" -72.6352417 42.4421335
+"Whitinsville Social Library" "17 Church St." "Whitinsville" "MA" "01588" -71.6635993 42.1112876
+"Whitman Public Library" "100 Webster Street" "Whitman" "MA" "02382" -70.938138 42.0779027
+"Meekins Public Library" "2 Williams St." "Williamsburg" "MA" "01096" -72.7309758 42.3930927
+"David Joyce Milne Public Library" "1095 Main Street" "Williamstown" "MA" "01267" -73.2114661 42.7140849
+"Wilmington Memorial Library" "175 Middlesex Ave." "Wilmington" "MA" "01887" -71.163998 42.557534
+"Beals Memorial Library" "50 Pleasant St." "Winchendon" "MA" "01475" -72.0490406 42.6822703
+"Winchester Public Library" "80 Washington St." "Winchester" "MA" "01890" -71.1341416 42.4522437
+"Windsor Free Public Library" "1890 Route 9" "Windsor" "MA" "01270" -73.0553667 42.510903
+"Winthrop Public Library" "2 Metcalf Square" "Winthrop" "MA" "02152" -70.9841377 42.3776707
+"Woburn Public Library" "45 Pleasant St." "Woburn" "MA" "01801" -71.1545715 42.4791654
+"Woods Hole Public Library" "581 Woods Hole Rd." "Woods Hole" "MA" "02543" -70.668117 41.523443
+"Frances Perkins Branch Library At Greendale" "470 West Boylston Street" "Worcester" "MA" "" -71.7990396 42.3074232
+"Great Brook Valley Branch Library" "89 Tacoma Street" "Worcester" "MA" "" -71.7684837 42.3055516
+"Worcester Public Library" "3 Salem Square" "Worcester" "MA" "01608" -71.8003017 42.2603989
+"Worthington Library" "1 Huntington Rd." "Worthington" "MA" "01098" -72.937943 42.405808
+"Fiske Public Library" "110 Randall Road" "Wrentham" "MA" "02093" -71.3298237 42.0608445

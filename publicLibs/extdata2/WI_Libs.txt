@@ -1,0 +1,446 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Abbotsford Public Library" "203 First St." "Abbotsford" "WI" "54405" -90.319497 44.9472565
+"Adams County Public Library" "569 N. Cedar St., Suite 1" "Adams" "WI" "53910" -89.8216525 43.9667962
+"Albertson Memorial Library" "200 N. Water St." "Albany" "WI" "53502" -89.4386237 42.7093031
+"Algoma Public Library" "406 Fremont St." "Algoma" "WI" "54201" -87.4386513 44.6067375
+"Alma Public Library" "312 N. Main St." "Alma" "WI" "54610" -91.9175992 44.3249277
+"Altoona Public Library" "1303 Lynn Ave." "Altoona" "WI" "54720" -91.433111 44.806173
+"Amery Public Library" "225 Scholl Ct." "Amery" "WI" "54001" -92.366138 45.302446
+"Lettie W. Jensen Public Library" "278 N. Main St." "Amherst" "WI" "54406" -89.2838 44.4533
+"Antigo Public Library" "617 Clermont St." "Antigo" "WI" "54409" -89.1537701 45.1413243
+"Appleton Public Library" "225 N. Oneida St." "Appleton" "WI" "54911" -88.4066548 44.2637311
+"Outagamie Waupaca Library System" "225 North Oneida Street" "Appleton" "WI" "54911" -88.4066548 44.2637311
+"Arcadia Free Public Library" "406 E. Main St." "Arcadia" "WI" "54612" -91.4958057 44.2518422
+"Argyle Public Library" "401 E. Milwaukee" "Argyle" "WI" "53504" -89.8658889 42.7012215
+"Lester Public Library Of Arpin" "8091 County Road E" "Arpin" "WI" "54410" -90.0452906 44.5403323
+"Northern Waters Library Service" "3200 East Lake Shore Drive" "Ashland" "WI" "54806" -90.840632 46.609054
+"Vaughn Public Library" "502 W. Main St." "Ashland" "WI" "54806" -90.8882188 46.5890614
+"Marathon County Public Library - Athens" "221 Caroline St." "Athens" "WI" "54411" -90.076065 45.034208
+"Augusta Memorial Public Library" "113 N. Stone St." "Augusta" "WI" "54722" -91.1198061 44.6806771
+"Door County Library - Mcardle Branch" "2392 Highway F" "Baileys Harbor" "WI" "54202" -87.1243581 45.0660122
+"Baldwin Public Library" "400 Cedar St." "Baldwin" "WI" "54002" -92.3684027 44.9566067
+"Balsam Lake Public Library" "404 Main St." "Balsam Lake" "WI" "54810" -92.453006 45.450214
+"John Bosshard Memorial Library" "1720 Henry Johns Blvd." "Bangor" "WI" "54614" -90.9945735 43.8933043
+"Baraboo Public Library" "230 Fourth Ave." "Baraboo" "WI" "53913" -89.7453541 43.4709225
+"Barneveld Public Library" "107 W. Orbison St." "Barneveld" "WI" "53507" -89.8958169 43.014435
+"Barron Public Library" "10 N. 3rd St." "Barron" "WI" "54812" -91.853635 45.401894
+"Bayfield Carnegie Public Library" "37 N. Broad St." "Bayfield" "WI" "54814" -90.817409 46.811868
+"Red Cliff Public Library" "88840 Church Road" "Bayfield" "WI" "54814" -90.787725 46.8556966
+"Beaver Dam Community Library" "311 N. Spring St." "Beaver Dam" "WI" "53916" -88.8369507 43.4591957
+"Belleville Public Library" "130 S. Vine St." "Belleville" "WI" "53508" -89.533627 42.858275
+"Belmont Public Library" "220 Mound Ave." "Belmont" "WI" "53510" -90.3338335 42.7367465
+"John Turgeson Public Library" "220 S. Mound Ave." "Belmont" "WI" "53510" -90.3338335 42.7367465
+"Beloit Public Library" "605 Eclipse Blvd." "Beloit" "WI" "53511" -89.0312943 42.5195269
+"Benton Public Library" "48 W. Main St." "Benton" "WI" "53803" -90.3818988 42.5699414
+"Berlin Public Library" "121 W. Park Ave." "Berlin" "WI" "54923" -88.9478561 43.9692439
+"Big Bend Village Library" "po box 40" "Big Bend" "WI" "53103" -88.2067573 42.8814034
+"Birnamwood Library" "337 S. Main" "Birnamwood" "WI" "54414" -89.209857 44.928786
+"Black Creek Village Library" "507 S. Maple St." "Black Creek" "WI" "54106" -88.4497904 44.4684308
+"Black Earth Public Library" "1210 Mills St." "Black Earth" "WI" "53515" -89.7483285 43.1378752
+"Black River Falls Public Library" "222 Fillmore St." "Black River Falls" "WI" "54615" -90.8504611 44.2937377
+"Blair-Preston Public Library" "122 S. Urberg Ave." "Blair" "WI" "54616" -91.233392 44.2939388
+"Blanchardville Public Library" "208 Mason St." "Blanchardville" "WI" "53516" -89.8609704 42.8100077
+"G.E. Bleskacek Family Memorial Library" "1519 17th Ave." "Bloomer" "WI" "54724" -91.4920783 45.0997045
+"Bloomington Public Library" "453 Canal St." "Bloomington" "WI" "53804" -90.9245802 42.8832437
+"Bonduel Library" "117 1-2 W. Green Bay" "Bonduel" "WI" "54107" -88.4473823 44.7406474
+"Hildebrand Memorial Library" "1033 Wisconsin Ave." "Boscobel" "WI" "53805" -90.7055199 43.1340543
+"Boulder Junction Public Library" "5386 Park St." "Boulder Junction" "WI" "54512" -89.64252 46.1070244
+"Boyceville Public Library" "903 Main St." "Boyceville" "WI" "54725" -92.0391762 45.0447504
+"Brandon Public Library" "117 E. Main St." "Brandon" "WI" "53919" -88.7823147 43.7350018
+"Brillion Public Library" "326 N. Main St." "Brillion" "WI" "54110" -88.0642162 44.1791231
+"Brodhead Memorial Public Library" "1207 25th St." "Brodhead" "WI" "53520" -89.3812512 42.6062243
+"Brookfield Public Library" "1900 N. Calhoun Rd." "Brookfield" "WI" "53005" -88.1251378 43.0552467
+"Brown Deer Public Library" "5600 W. Bradley Road" "Brown Deer" "WI" "53223" -87.9806296 43.1637347
+"Brownsville Public Library" "379 Main St." "Brownsville" "WI" "53006" -88.4855231 43.6163755
+"Bruce Area Library" "102 W. River Ave." "Bruce" "WI" "54819" -91.2772429 45.4562127
+"Burlington Public Library" "166 E. Jefferson St." "Burlington" "WI" "53105" -88.2758449 42.67828
+"Butler Public Library" "12808 W. Hampton Ave." "Butler" "WI" "53007" -88.0722883 43.1050814
+"Forest Lodge Library" "13450 County Hwy M" "Cable" "WI" "54821" -91.2844372 46.2086842
+"Cadott Community Library" "331 N. Main St." "Cadott" "WI" "54727" -91.150992 44.948635
+"Jane Morgan Memorial Library" "109 W. Edgewater St." "Cambria" "WI" "53923" -89.108594 43.543307
+"Cambridge Community Library" "200 S. Spring St." "Cambridge" "WI" "53523" -89.0174746 43.0028687
+"Cameron Public Library" "603 Main St." "Cameron" "WI" "54822" -91.7349457 45.4136735
+"Campbellsport Public Library" "220 N. Helena" "Campbellsport" "WI" "53010" -88.2763541 43.5993836
+"Cashton Memorial Library" "720 Broadway St." "Cashton" "WI" "54619" -90.779424 43.7445639
+"Eckstein Memorial Library" "1034 E. Dewey St." "Cassville" "WI" "53806" -90.9767772 42.7085295
+"Cedar Grove Public Library" "131 Van Altena Ave." "Cedar Grove" "WI" "53013" -87.823863 43.57067
+"Centuria Public Library" "409 4th St." "Centuria" "WI" "54824" -92.5540057 45.4511559
+"Calhoun Memorial Library" "321 Moore St." "Chetek" "WI" "54728" -91.6535059 45.3150679
+"Chilton Public Library" "221 Park St." "Chilton" "WI" "53014" -88.1583339 44.0300226
+"Chippewa Falls Public Library" "105 W. Central St." "Chippewa Falls" "WI" "54729" -91.3937981 44.9351489
+"Clear Lake Public Library" "350 Fourth Ave." "Clear Lake" "WI" "54005" -92.2702893 45.2502036
+"Clinton Public Library" "214 Mill St." "Clinton" "WI" "53525" -88.8618245 42.5551471
+"Clintonville Public Library" "75 Hemlock St." "Clintonville" "WI" "54929" -88.764478 44.621601
+"Cobb Public Library" "109 S. Mifflin St." "Cobb" "WI" "53526" -90.3300613 42.9667732
+"Colby Public Library" "211 W. Spence St." "Colby" "WI" "54421" -90.318002 44.9095379
+"Coleman Library" "123 W. Main Street" "Coleman" "WI" "54112" -88.035544 45.06488
+"Colfax Public Library" "613 Main St." "Colfax" "WI" "54730" -91.7276618 44.9992497
+"Coloma Public Library" "155 S. Front St." "Coloma" "WI" "54930" -89.5224466 44.0340912
+"Columbus Public Library" "223 W. James St." "Columbus" "WI" "53925" -89.016348 43.3390907
+"Knutson Memorial Library" "500 Central Ave." "Coon Valley" "WI" "54623" -91.0116577 43.7023731
+"Cornell Public Library" "117 N. Third St." "Cornell" "WI" "54732" -91.148595 45.1679699
+"Crivitz Library" "606 Louisa Street" "Crivitz" "WI" "54114" -88.003815 45.232527
+"Rosemary Garfoot Public Library" "2107 Julius St." "Cross Plains" "WI" "53528" -89.6464444 43.1138216
+"Cuba City Public Library" "108 N. Main St." "Cuba City" "WI" "53807" -90.4306555 42.6068065
+"Cudahy Family Library" "3500 Library Drive" "Cudahy" "WI" "53110" -87.8618167 42.9568627
+"Cumberland Public Library" "1305 2nd Ave." "Cumberland" "WI" "54829" -92.0216126 45.5341179
+"Darien Public Library" "47 Park St." "Darien" "WI" "53114" -88.7076468 42.5984867
+"Johnson Public Library" "131 E. Catherine St." "Darlington" "WI" "53530" -90.1168572 42.6817208
+"Brown County Library - Kress Family Branch Library" "333 N. Broadway" "De Pere" "WI" "54115" -88.061069 44.452084
+"De Soto Public Library" "111 S. Houghton St." "De Soto" "WI" "54624" -91.1979694 43.4230642
+"Deer Park Public Library" "112 Front St. W." "Deer Park" "WI" "54007" -92.3897972 45.1880676
+"Deerfield Public Library" "12 W. Nelson St." "Deerfield" "WI" "53531" -89.0756819 43.0545276
+"Deforest Area Public Library" "203 Library St." "Deforest" "WI" "53532" -89.3419828 43.247024
+"Delafield Public Library" "500 Genesee St." "Delafield" "WI" "53018" -88.4038034 43.0591289
+"Aram Public Library" "404 E. Walworth Ave." "Delavan" "WI" "53115" -88.6433782 42.6326746
+"Brown County Library - Denmark Branch Library" "450 North Wall Street" "Denmark" "WI" "54208" -87.824184 44.353937
+"Brickl Memorial Library" "500 East Avenue" "Dickeyville" "WI" "53808" -90.5890083 42.6283487
+"Dodgeville Public Library" "139 S. Iowa St." "Dodgeville" "WI" "53533" -90.129814 42.9592979
+"Dorchester Public Library" "155 N. Second St." "Dorchester" "WI" "54425" -90.3324095 45.0043288
+"Dresser Public Library" "117 S. Central Ave." "Dresser" "WI" "54009" -92.6333789 45.3553851
+"Drummond Public Library" "14990 Superior St." "Drummond" "WI" "54832" -91.2563169 46.336821
+"Durand Community Library" "604 7th Ave. E." "Durand" "WI" "54736" -91.9582768 44.630489
+"Alice Baker Memorial Public Library" "820 E. Main St." "Eagle" "WI" "53119" -88.461697 42.8794063
+"Walter E. Olson Memorial Library" "203 N. Main St." "Eagle River" "WI" "54521" -89.250243 45.917662
+"East Troy Lions Public Library" "3094 Graydon Ave." "East Troy" "WI" "53120" -88.4154587 42.7866903
+"Indianhead Federated Library System" "1538 Truax Blvd" "Eau Claire" "WI" "54703" -91.52973 44.8355766
+"L.E. Phillips Memorial Public Library" "400 Eau Claire St." "Eau Claire" "WI" "54701" -91.4990731 44.8130402
+"Marathon County Public Library - Edgar" "224 S. 3rd Ave." "Edgar" "WI" "54426" -89.9642652 44.9218452
+"Edgerton Public Library" "101 Albion St." "Edgerton" "WI" "53534" -89.0715603 42.8364362
+"Door County Library - Egg Harbor Branch" "7860 Highway 42" "Egg Harbor" "WI" "54209" -87.279989 45.0526757
+"Antigo Public Library - Elcho" "P.O. Box 800" "Elcho" "WI" "54428" -89.1835167 45.4349158
+"Elkhart Lake Public Library" "40 Pine St." "Elkhart Lake" "WI" "53020" -88.017355 43.833883
+"Matheson Memorial Library" "101 N. Wisconsin St." "Elkhorn" "WI" "53121" -88.5429647 42.6739228
+"Ellsworth Public Library" "312 W. Main St." "Ellsworth" "WI" "54011" -92.4827326 44.7320941
+"Elm Grove Public Library" "13600 Juneau Blvd." "Elm Grove" "WI" "53122" -88.0829188 43.046817
+"Elmwood Public Library" "111 N. Main St" "Elmwood" "WI" "54740" -92.151864 44.779812
+"Elroy Public Library" "501 Second Main St." "Elroy" "WI" "53929" -90.2719605 43.7404422
+"Endeavor Public Library" "400 Church St." "Endeavor" "WI" "53930" -89.4657306 43.7116254
+"Door County Library - Ephraim Branch" "9996 Water St" "Ephraim" "WI" "54211" -87.1711651 45.1565472
+"Ettrick Public Library" "15570 School St" "Ettrick" "WI" "54627" -91.2652108 44.1672874
+"Eager Free Public Library" "39 W. Main St." "Evansville" "WI" "53536" -89.3009412 42.7799973
+"Fairchild Public Library" "208 Huron St." "Fairchild" "WI" "54741" -90.965293 44.600142
+"Fall Creek Public Library" "122 E. Lincoln Ave." "Fall Creek" "WI" "54742" -91.275982 44.763286
+"Dwight T. Parker Public Library" "925 Lincoln Ave." "Fennimore" "WI" "53809" -90.6551779 42.9834015
+"Southwest Wisconsin Library System" "1775 Fourth Street" "Fennimore" "WI" "53809" -90.6623916 42.9883831
+"Door County Library - Fish Creek Branch" "4097 Main St" "Fish Creek" "WI" "54212" -87.2418157 45.1263585
+"Florence County Library" "400 Olive Ave." "Florence" "WI" "54121" -88.2486397 45.9248072
+"Fond Du Lac Public Library" "32 Sheboygan St." "Fond Du Lac" "WI" "54935" -88.4453508 43.777477
+"Fontana Public Library" "166 2nd Ave." "Fontana" "WI" "53125" -88.5788487 42.550659
+"Door County Library - Forestville Branch" "123 S Forestville Ave." "Forestville" "WI" "54213" -87.479934 44.689119
+"Dwight Foster Public Library" "102 E. Milwaukee Ave." "Fort Atkinson" "WI" "53538" -88.835458 42.926476
+"Fox Lake Public Library" "117 W. State St." "Fox Lake" "WI" "53933" -88.907393 43.566304
+"Franklin Public Library" "9151 W. Loomis Rd." "Franklin" "WI" "53132" -88.0273461 42.9010043
+"Frederic Public Library" "127 Oak St. W." "Frederic" "WI" "54837" -92.4703943 45.6592712
+"Neuschafer Community Library" "317 Wolf River Drive" "Fremont" "WI" "54940" -88.8673429 44.261377
+"Galesville Public Library" "16787 S. Main St." "Galesville" "WI" "54630" -91.3492092 44.0818844
+"Gays Mills Public Library" "205 Main St." "Gays Mills" "WI" "54631" -90.8453499 43.3175438
+"Genoa City Public Library" "126 Freeman St." "Genoa City" "WI" "53128" -88.3295489 42.496718
+"Germantown Community Library" "po box 670" "Germantown" "WI" "53022" -88.1103691 43.2286174
+"Gillett Public Library" "200 E. Main St." "Gillett" "WI" "54124" -88.304605 44.890351
+"Western Taylor County Public Library" "380 E. Main St." "Gilman" "WI" "54433" -90.8095225 45.1663894
+"North Shore Library" "6800 N. Port Washington Rd." "Glendale" "WI" "53217" -87.9116501 43.1401038
+"Glenwood City Public Library" "127 Pine St." "Glenwood City" "WI" "54013" -92.1712902 45.0577524
+"U.S.S. Liberty Memorial Public Library" "1620 11th Ave." "Grafton" "WI" "53024" -87.9524377 43.3139562
+"Samson Memorial Library" "107 W. 2nd St." "Granton" "WI" "54436" -90.4614124 44.587379
+"Grantsburg Public Library" "415 S. Robert St." "Grantsburg" "WI" "54840" -92.679526 45.776305
+"Brown County Library" "515 Pine St." "Green Bay" "WI" "54301" -88.009711 44.5148356
+"Brown County Library - Ashwaubenon Branch" "1060 Orlando Drive" "Green Bay" "WI" "54304" -88.0723525 44.4935972
+"Brown County Library - East Branch Library" "2255 Main Street" "Green Bay" "WI" "54302" -87.968789 44.4828463
+"Brown County Library - Southwest Branch Library" "974 Ninth Street" "Green Bay" "WI" "54304" -88.0432894 44.5072493
+"Brown County Library - Weyers-Hilliard Branch Library" "2680 Riverview Drive" "Green Bay" "WI" "54313" -88.0880926 44.5554298
+"Nicolet Federated Library System" "515 Pine Street" "Green Bay" "WI" "54301" -88.009711 44.5148356
+"Caestecker Public Library" "518 Hill St." "Green Lake" "WI" "54941" -88.9585918 43.8451638
+"Greendale Public Library" "5647 Broad St." "Greendale" "WI" "53129" -87.9965377 42.9410621
+"Greenfield Public Library" "7215 W. Cold Spring Road" "Greenfield" "WI" "53220" -88.0033096 42.9665404
+"Greenwood Public Library" "102 N. Main St." "Greenwood" "WI" "54437" -90.5981447 44.7670084
+"Hales Corners Public Library" "5885 S. 116th St." "Hales Corners" "WI" "53130" -88.0591358 42.9379934
+"Hammond Community Library" "850 Davis St." "Hammond" "WI" "54015" -92.4360551 44.9774619
+"Hancock Public Library" "114 S. Main St." "Hancock" "WI" "54943" -89.5235279 44.1325277
+"Hartford Public Library" "115 N. Main St." "Hartford" "WI" "53027" -88.3788979 43.3194718
+"Hartland Public Library" "110 E. Park Ave." "Hartland" "WI" "53029" -88.3470451 43.1035078
+"Marathon County Public Library - Hatley" "435 Curtis Avenue" "Hatley" "WI" "54440" -89.3394 44.888653
+"Hawkins Area Library" "709 Main St." "Hawkins" "WI" "54530" -90.7146297 45.5124128
+"Lac Courte Oreilles Ojibwa College Community Library" "13466 W. Trepania Rd." "Hayward" "WI" "54843" -91.3618335 45.9435445
+"Sherman And Ruth Weiss Community Library" "10788 State Highway 27-77" "Hayward" "WI" "54843" -91.4837834 46.0247971
+"Hazel Green Public Library" "1610 Fairplay" "Hazel Green" "WI" "53811" -90.4357637 42.5327549
+"Hillsboro Public Library" "819 High Ave." "Hillsboro" "WI" "54634" -90.3413042 43.6525561
+"Holmen Area Library" "103 State Street" "Holmen" "WI" "54636" -91.2558665 43.9634013
+"La Crosse County Library" "103 State St." "Holmen" "WI" "54636" -91.2558665 43.9634013
+"Horicon Public Library" "404 E. Lake St." "Horicon" "WI" "53032" -88.630793 43.45181
+"Mid-Wisconsin Federated Library System" "112 Clinton St." "Horicon" "WI" "53032" -88.647449 43.450884
+"Hortonville Public Library" "102 W. Main St." "Hortonville" "WI" "54944" -88.638717 44.334628
+"Hudson Area Joint Library" "911 Fourth St." "Hudson" "WI" "54016" -92.754429 44.979539
+"Hurley Public Library" "405 5th Ave. N." "Hurley" "WI" "54534" -90.1862387 46.4530955
+"Hustisford Community Library" "609 W. Juneau St." "Hustisford" "WI" "53034" -88.6113359 43.3461528
+"Independence Public Library" "23688 Adams St." "Independence" "WI" "54747" -91.4216539 44.3575904
+"Iola Village Library" "180 S. Main St." "Iola" "WI" "54945" -89.1309666 44.5062637
+"Iron Ridge Public Library" "205 Park St." "Iron Ridge" "WI" "53035" -88.5343713 43.4028833
+"Evelyn Goldberg Briggs Memorial Library" "68235 S. Main St." "Iron River" "WI" "54847" -91.417042 46.5631644
+"Arrowhead Library System" "210 Dodge St." "Janesville" "WI" "53548" -89.0254058 42.6809443
+"Hedberg Public Library" "316 S. Main St." "Janesville" "WI" "53545" -89.0190151 42.6791556
+"Jefferson Public Library" "321 S. Main St." "Jefferson" "WI" "53549" -88.8078026 43.003011
+"Johnson Creek Public Library" "125 Lincoln St." "Johnson Creek" "WI" "53038" -88.7751545 43.077802
+"Juneau Public Library" "250 N. Fairfield Ave." "Juneau" "WI" "53039" -88.708248 43.408631
+"Kaukauna Public Library" "111 Main Ave." "Kaukauna" "WI" "54130" -88.2707279 44.2794371
+"Kendall Public Library" "110 E. South Railroad St." "Kendall" "WI" "54638" -90.3674714 43.7920264
+"Kenosha County Library System" "PO Box 1414" "Kenosha" "WI" "53141" -87.8211854 42.5847425
+"Kenosha Public Library" "812 56th St." "Kenosha" "WI" "53141" -87.821672 42.5850025
+"Menominee Tribal-County Library" "po box 1090" "Keshena" "WI" "54135" -88.6337152 44.8838712
+"Kewaskum Public Library" "206 First St." "Kewaskum" "WI" "53040" -88.2271579 43.5218367
+"Kewaunee Public Library" "822 Juneau St." "Kewaunee" "WI" "54216" -87.5059155 44.4549649
+"Kiel Public Library" "511 Third St." "Kiel" "WI" "53042" -88.0325342 43.9113075
+"Kimberly--Little Chute Public Library" "515 W. Kimberly Ave." "Kimberly" "WI" "54136" -88.3400545 44.271482
+"Mill Pond Public Library" "140 N. South St." "Kingston" "WI" "53939" -89.1277525 43.6946173
+"Kohler Public Library" "333 Upper Road" "Kohler" "WI" "53044" -87.7848521 43.7406759
+"La Crosse County Library - Campbell Branch Library" "2219 Bainbridge Street" "La Crosse" "WI" "54603" -91.26063 43.858655
+"La Crosse Public Library" "800 Main St." "La Crosse" "WI" "54601" -91.244733 43.8112187
+"Lawton Memorial Library" "118 N. Bird St." "La Farge" "WI" "54639" -90.6375631 43.5745491
+"Madeline Island Public Library" "1 Library St." "La Pointe" "WI" "54850" -90.7864687 46.7818269
+"La Valle Public Library" "101 W. Main St." "La Valle" "WI" "53941" -90.1300971 43.5817929
+"Ben Guthrie--Lac Du Flambeau Public Library" "622 Peace Pipe Road" "Lac Du Flambeau" "WI" "54538" -89.8924769 45.9704504
+"Rusk County Community Library" "418 Corbett Ave. W." "Ladysmith" "WI" "54848" -91.104889 45.4613219
+"Lake Geneva Public Library" "918 W. Main St." "Lake Geneva" "WI" "53147" -88.437675 42.591463
+"L.D. Fargo Public Library" "120 E. Madison St." "Lake Mills" "WI" "53551" -88.9105528 43.0810001
+"Lakes Country Public Library" "15235 Hwy. 32" "Lakewood" "WI" "54138" -88.518777 45.298583
+"Schreiner Memorial Library" "113 W. Elm St." "Lancaster" "WI" "53813" -90.7109514 42.849984
+"Land O Lakes Public Library" "4242 Co. Hwy. B" "Land O Lakes" "WI" "54540" -89.2199965 46.161961
+"Edith Evans Community Library" "5216 Forest Ave." "Laona" "WI" "54541" -88.6693988 45.5584986
+"Allen-Dietzman Public Library" "220 W. Barber Ave." "Livingston" "WI" "53554" -90.4300095 42.9009934
+"Lodi Womans Club Public Library" "130 Lodi St." "Lodi" "WI" "53555" -89.5275851 43.3137509
+"Lomira Public Library" "1038 Main St." "Lomira" "WI" "53048" -88.4470696 43.591886
+"Lone Rock Community Library" "234 N. Broadway" "Lone Rock" "WI" "53556" -90.1978719 43.185484
+"Lowell Public Library" "105 N. River St." "Lowell" "WI" "53557" -88.82102 43.340083
+"Loyal Public Library" "214 N. Main St." "Loyal" "WI" "54446" -90.495857 44.737255
+"Luck Public Library" "301 S. Main St." "Luck" "WI" "54853" -92.482403 45.573738
+"Dane County Library Service" "201 W. Mifflin Street" "Madison" "WI" "53703" -89.3872555 43.0733968
+"Madison Public Library" "201 W. Mifflin St." "Madison" "WI" "53703" -89.3872555 43.0733968
+"South Central Library System" "4610 South Biltmore Lane" "Madison" "WI" "53718" -89.2942605 43.1457099
+"Sturm Memorial Library" "130 N. Bridge St." "Manawa" "WI" "54949" -88.919653 44.46666
+"Frank B. Koller Memorial Library" "po box 100" "Manitowish Waters" "WI" "54545" -89.8854042 46.1375457
+"Manitowoc Public Library" "707 Quay St." "Manitowoc" "WI" "54220" -87.6571339 44.0908774
+"Marathon County Public Library - Marathon City" "515 Washington St." "Marathon" "WI" "54448" -89.838154 44.930016
+"Marinette County Consolidated Public Library Service" "1700 Hall Ave." "Marinette" "WI" "54143" -87.6307672 45.1004569
+"Stephenson Public Library" "1700 Hall Avenue" "Marinette" "WI" "54143" -87.6307672 45.1004569
+"Marion Public Library" "120 N. Main St." "Marion" "WI" "54950" -88.888793 44.671244
+"Markesan Public Library" "75 N. Bridge St." "Markesan" "WI" "53946" -88.9875352 43.707918
+"Marshall Community Library" "605 Waterloo Rd." "Marshall" "WI" "53559" -89.0524019 43.1680544
+"Marshfield Public Library" "211 E. Second St." "Marshfield" "WI" "54449" -90.17274 44.6653254
+"Mattoon-Hutchins Library" "311 Slate Av." "Mattoon" "WI" "54450" -89.0449872 45.0043607
+"Hatch Public Library" "111 W. State St." "Mauston" "WI" "53948" -90.0770359 43.7979176
+"Mayville Public Library" "111 N. Main St." "Mayville" "WI" "53050" -88.545088 43.497059
+"Mazomanie Free Library" "102 Brodhead St." "Mazomanie" "WI" "53560" -89.79351 43.1751999
+"E.D. Locke Public Library" "5920 Milwaukee St." "Mcfarland" "WI" "53558" -89.2882995 43.0136008
+"Frances L. Simek Memorial Library Medford" "400 N. Main St." "Medford" "WI" "54451" -90.3484043 45.1428182
+"Legion Memorial Library" "102 E. Bennett Ave." "Mellen" "WI" "54546" -90.6588625 46.3266998
+"Elisha D. Smith Public Library" "440 First St." "Menasha" "WI" "54952" -88.4466176 44.2033789
+"Menomonie Public Library" "600 Wolske Bay Rd." "Menomonie" "WI" "54751" -91.928182 44.887164
+"Frank L. Weyenberg Library Of Mequon-Thiensville" "11345 N. Cedarburg Rd." "Mequon" "WI" "53092" -87.9867155 43.2435519
+"Mercer Public Library" "2648 W. Margaret St." "Mercer" "WI" "54547" -90.062871 46.1677353
+"T.B. Scott Free Library" "106 W. First St." "Merrill" "WI" "54452" -89.7014685 45.179757
+"Middleton Public Library" "7425 Hubbard Ave." "Middleton" "WI" "53562" -89.5092899 43.094959
+"Milltown Public Library" "61 W. Main St." "Milltown" "WI" "54858" -92.5063266 45.5267051
+"Milton Public Library" "430 East High Street" "Milton" "WI" "53563" -88.9440365 42.7734798
+"Atkinson Library" "1960 W. Atkinson Ave." "Milwaukee" "WI" "53209" -87.9361271 43.0901287
+"Bay View Library" "2566 S.Kinnickinnic Ave." "Milwaukee" "WI" "53207" -87.899901 42.998096
+"Capitol Library" "3969 N. 74th St." "Milwaukee" "WI" "53216" -88.0053312 43.0896609
+"Center Street Library" "2727 W. Fond Du Lac Ave." "Milwaukee" "WI" "53210" -87.9482066 43.0676143
+"Central Library" "814 W. Wisconsin Ave." "Milwaukee" "WI" "53233" -87.9222933 43.0392742
+"East Library" "1910 E. North Ave" "Milwaukee" "WI" "53202" -87.88646 43.060732
+"Forest Home Library" "1432 W. Forest Home Ave." "Milwaukee" "WI" "53204" -87.9305111 43.0110816
+"Martin Luther King Library" "310 W. Locust St." "Milwaukee" "WI" "53212" -87.9144445 43.0716593
+"Mill Road Library" "6431 N. 76th St." "Milwaukee" "WI" "53223" -88.0062699 43.1351582
+"Milwaukee County Federated Library System" "709 N. 8th Street" "Milwaukee" "WI" "53233" -87.9220444 43.0390856
+"Tippecanoe Library" "3912 S Howell Ave." "Milwaukee" "WI" "53207" -87.9089622 42.9734709
+"Villard Avenue Library" "3310 W. Villard Ave." "Milwaukee" "WI" "53209" -87.9543455 43.1122164
+"Washington Park Library" "2121 N. Sherman Blvd." "Milwaukee" "WI" "53208" -87.9682205 43.0574293
+"Zablocki Library" "3501 W. Oklahoma Ave." "Milwaukee" "WI" "53215" -87.9585942 42.9880619
+"Mineral Point Public Library" "137 High St." "Mineral Point" "WI" "53565" -90.1791279 42.859894
+"Minocqua Public Library" "415 Menominee St." "Minocqua" "WI" "54548" -89.7067668 45.8704191
+"Mondovi Public Library" "146 W. Hudson St." "Mondovi" "WI" "54755" -91.671264 44.566798
+"Monona Public Library" "1000 Nichols Rd." "Monona" "WI" "53716" -89.341108 43.063669
+"Monroe Public Library" "925 16th Ave." "Monroe" "WI" "53566" -89.6405728 42.6023661
+"Montello Public Library" "128 Lake Ct." "Montello" "WI" "53949" -89.3311307 43.7922432
+"Montfort Public Library" "102 E. Park St." "Montfort" "WI" "53569" -90.4334726 42.9717297
+"Monticello Public Library" "512 E. Lake Ave." "Monticello" "WI" "53570" -89.5891734 42.7457372
+"Marathon County Public Library - Mosinee" "123 Main Street" "Mosinee" "WI" "54455" -89.7007891 44.7917061
+"Mount Horeb Public Library" "105 Perimeter St." "Mount Horeb" "WI" "53572" -89.7197938 43.0081257
+"Mukwonago Community Library" "300 Washington Ave." "Mukwonago" "WI" "53149" -88.331872 42.8672459
+"Muscoda Public Library" "206 N. Wisconsin Ave." "Muscoda" "WI" "53573" -90.4426812 43.1868212
+"Muskego Public Library" "po box 810" "Muskego" "WI" "53150" -88.1389779 42.905848
+"Necedah Siegler Memorial Library" "217 Oak Grove Drive" "Necedah" "WI" "54646" -90.079294 44.0233431
+"Neenah Public Library" "240 E. Wisconsin Ave." "Neenah" "WI" "54957" -88.4576722 44.1849583
+"Neillsville Public Library" "409 Hewett St." "Neillsville" "WI" "54456" -90.5960746 44.5591622
+"Charles Joann Lester Library" "100 Park St." "Nekoosa" "WI" "54457" -89.9016446 44.314128
+"Lester Public Library Of Rome" "1157 Rome Center Drive" "Nekoosa" "WI" "54457" -89.8102105 44.2003186
+"Neshkoro Public Library" "132 S. Main St." "Neshkoro" "WI" "54960" -89.218627 43.9633976
+"New Berlin Public Library" "15105 Library Lane" "New Berlin" "WI" "53151" -88.1014228 42.9792232
+"New Glarus Public Library" "319 2nd St." "New Glarus" "WI" "53574" -89.6354619 42.8164978
+"New Holstein Public Library" "2115 Washington St." "New Holstein" "WI" "53061" -88.0957884 43.9511867
+"New Lisbon Memorial Library" "115 W. Park St." "New Lisbon" "WI" "53950" -90.1665604 43.8773392
+"New London Public Library" "406 S. Pearl St." "New London" "WI" "54961" -88.7393022 44.3896338
+"Carleton A. Friday Memorial Library" "155 E. First St." "New Richmond" "WI" "54017" -92.536795 45.123116
+"Niagara Library" "1029 Roosevelt Road" "Niagara" "WI" "54151" -88.0090956 45.7823138
+"Spillman Public Library" "719 Wisconsin Ave." "North Fond Du Lac" "WI" "54937" -88.4814198 43.8088414
+"North Freedom Public Library" "105 N. Maple St." "North Freedom" "WI" "53951" -89.867041 43.460814
+"Town Hall Library" "po box 158" "North Lake" "WI" "53064" -88.3797726 43.1511741
+"Norwalk Public Library" "101 Railroad St." "Norwalk" "WI" "54648" -90.6219924 43.8332024
+"Oak Creek Public Library" "8620 S. Howell Ave." "Oak Creek" "WI" "53154" -87.9120636 42.8867404
+"Oakfield Public Library" "130 N. Main St." "Oakfield" "WI" "53065" -88.547877 43.683852
+"Oconomowoc Public Library" "200 South St." "Oconomowoc" "WI" "53066" -88.5019982 43.1107808
+"Farnsworth Public Library" "715 Main St." "Oconto" "WI" "54153" -87.872836 44.889194
+"Oconto Falls Community Library" "251 N. Main St." "Oconto Falls" "WI" "54154" -88.1455522 44.8763363
+"Bad River Public Tribal Library" "po box 39" "Odanah" "WI" "54861" -90.696851 46.6082759
+"Ogema Public Library" "po box 603" "Ogema" "WI" "54459" -90.2982037 45.4435776
+"Carter Memorial Library" "405 E. Huron St." "Omro" "WI" "54963" -88.7394287 44.038591
+"Onalaska Public Library" "741 Oak Avenue South" "Onalaska" "WI" "54650" -91.2293076 43.876629
+"Oneida Community Library" "201 Elm St." "Oneida" "WI" "54155" -88.1829709 44.4978508
+"Ontario Public Library" "313 Main St." "Ontario" "WI" "54651" -90.5896642 43.7235945
+"Oostburg Public Library" "213 N. 8th St." "Oostburg" "WI" "53070" -87.793735 43.625266
+"Oregon Public Library" "256 Brook St." "Oregon" "WI" "53575" -89.3815507 42.926014
+"Orfordville Public Library" "203 W. Beloit St." "Orfordville" "WI" "53576" -89.2561246 42.6283741
+"Osceola Public Library" "102 Chieftain St." "Osceola" "WI" "54020" -92.7048122 45.3198957
+"Oshkosh Public Library" "106 Washington Ave." "Oshkosh" "WI" "54901" -88.5358815 44.0181062
+"Winnefox Library System" "106 Washington Avenue" "Oshkosh" "WI" "54901" -88.5358815 44.0181062
+"Hauge Memorial Library" "50655 Charles St." "Osseo" "WI" "54758" -91.2228779 44.5786443
+"Owen Public Library" "414 Central Ave." "Owen" "WI" "54460" -90.5644405 44.9494572
+"Oxford Public Library" "129 S. Franklin Ave." "Oxford" "WI" "53952" -89.5726772 43.7775306
+"Packwaukee Public Library" "po box 406" "Packwaukee" "WI" "53953" -89.4582826 43.7634801
+"Powers Memorial Library" "115 W. Main St." "Palmyra" "WI" "53156" -88.584768 42.878019
+"Angie Williams Cox Public Library" "119 N. Main St." "Pardeeville" "WI" "53954" -89.30063 43.5371189
+"Park Falls Public Library" "121 N. Fourth Ave." "Park Falls" "WI" "54552" -90.4517847 45.9355093
+"Pepin Public Library" "510 2nd St." "Pepin" "WI" "54759" -92.148197 44.4400644
+"Peshtigo Library" "331 French Street" "Peshtigo" "WI" "54157" -87.7525359 45.054441
+"Pewaukee Public Library" "210 Main St." "Pewaukee" "WI" "53072" -88.2612086 43.0795581
+"Eleanor Ellis Public Library" "4495 Town Hall Rd." "Phelps" "WI" "54554" -89.0839179 46.0649006
+"Phillips Public Library" "286 Cherry St." "Phillips" "WI" "54555" -90.3996519 45.6892814
+"Leon-Saxeville Township Library" "po box 247" "Pine River" "WI" "54965" -89.0772092 44.1521559
+"Pittsville Community Library" "5291 Third Ave." "Pittsville" "WI" "54466" -90.126621 44.438624
+"Kraemer Library Community Center" "910 Main St." "Plain" "WI" "53577" -90.043329 43.279114
+"Plainfield Public Library" "126 S. Main St." "Plainfield" "WI" "54966" -89.4923498 44.2136785
+"Platteville Public Library" "65 S. Elm St." "Platteville" "WI" "53818" -90.481182 42.7338816
+"Plum City Public Library" "611 Main St." "Plum City" "WI" "54761" -92.192255 44.632882
+"Plymouth Public Library" "130 Division St." "Plymouth" "WI" "53073" -87.976566 43.748382
+"W.J. Niederkorn Library" "316 W. Grand Ave." "Port Washington" "WI" "53074" -87.8749475 43.387775
+"Portage Public Library" "253 W. Edgewater St." "Portage" "WI" "53901" -89.4627558 43.5385012
+"Poy Sippi Public Library" "po box 345" "Poy Sippi" "WI" "54967" -88.9952014 44.1374065
+"Poynette Area Public Library" "118 N. Main St." "Poynette" "WI" "53955" -89.4027369 43.3910422
+"Joseph W. Emma L. Wachute Memorial Library" "125 S. Wacouta Ave." "Prairie Du Chien" "WI" "53821" -91.1451126 43.0509171
+"Prairie Du Sac Public Library" "560 Park Ave." "Prairie Du Sac" "WI" "53578" -89.721695 43.291326
+"Prescott Public Library" "800 Borner St. N." "Prescott" "WI" "54021" -92.785961 44.757862
+"Presque Isle Community Library" "8306 School Loop Rd." "Presque Isle" "WI" "54557" -89.7276962 46.248317
+"Princeton Public Library" "424 W. Water St." "Princeton" "WI" "54968" -89.1277156 43.849937
+"Brown County Library - Pulaski Branch Library" "222 W. Pulaski Street" "Pulaski" "WI" "54162" -88.245617 44.67218
+"Racine Public Library" "75 Seventh St." "Racine" "WI" "53403" -87.7808377 42.7257122
+"Hutchinson Memorial Library" "228 N. High St." "Randolph" "WI" "53956" -89.0066 43.539782
+"Lakeview Community Library" "112 Butler St." "Random Lake" "WI" "53075" -87.9605717 43.5505174
+"Readstown Public Library" "129 W. Wisconsin Ave." "Readstown" "WI" "54652" -90.7603459 43.4510676
+"Redgranite Public Library" "135 W. Bannerman Ave." "Redgranite" "WI" "54970" -89.1034478 44.0439835
+"Reedsburg Public Library" "370 Vine St." "Reedsburg" "WI" "53959" -90.0055421 43.5308053
+"Reeseville Public Library" "216 S. Main St." "Reeseville" "WI" "53579" -88.847263 43.303043
+"Rhinelander District Library" "106 N. Stevens St." "Rhinelander" "WI" "54501" -89.4112875 45.6390624
+"Rib Lake Public Library" "645 Pearl St." "Rib Lake" "WI" "54470" -90.2054022 45.3172563
+"Rice Lake Public Library" "2 E. Marshall St." "Rice Lake" "WI" "54868" -91.7330799 45.5042267
+"Brewer Public Library" "325 N. Central Ave." "Richland Center" "WI" "53581" -90.385184 43.337459
+"Rio Community Library" "324 W. Lyons St." "Rio" "WI" "53960" -89.2428914 43.4455909
+"Ripon Public Library" "120 Jefferson St." "Ripon" "WI" "54971" -88.8390674 43.8472274
+"River Falls Public Library" "140 Union St." "River Falls" "WI" "54022" -92.622328 44.8642663
+"Hazel Mackin Community Library" "107 W. Main St." "Roberts" "WI" "54023" -92.553479 44.983278
+"Rochester Public Library" "208 W. Spring St." "Rochester" "WI" "53167" -88.2265535 42.742561
+"Rock Springs Public Library" "101 First St." "Rock Springs" "WI" "53961" -89.9181709 43.4776134
+"Marathon County Public Library - Rothschild" "211 Grand Ave." "Rothschild" "WI" "54474" -89.6141467 44.9290377
+"Community Library" "24615 89th St." "Salem" "WI" "53168" -88.1059558 42.5456424
+"Clarella Hackett Johnson Public Library" "po box 156" "Sand Creek" "WI" "54765" -91.6862801 45.1669055
+"Sauk City Public Library" "515 Water St." "Sauk City" "WI" "53583" -89.7210203 43.2749474
+"Oscar Grady Public Library" "151 S. Main St." "Saukville" "WI" "53080" -87.9426162 43.3813007
+"Plum Lake Public Library" "239 State Hwy 155" "Sayner" "WI" "54560" -89.5317973 45.9874565
+"Scandinavia Public Library" "349 N. Main St." "Scandinavia" "WI" "54977" -89.147775 44.458577
+"Muehl Public Library" "436 N. Main St." "Seymour" "WI" "54165" -88.328986 44.51575
+"Brigham Memorial Library" "131 Plain St." "Sharon" "WI" "53585" -88.730388 42.502786
+"Shawano City-County Library" "128 S. Sawyer St." "Shawano" "WI" "54166" -88.6071362 44.7810086
+"Eastern Shores Library System" "4632 South Taylor Drive" "Sheboygan" "WI" "53081" -87.7586509 43.7016559
+"Mead Public Library" "710 N. 8th St." "Sheboygan" "WI" "53081" -87.7135106 43.7523907
+"Sheboygan Falls Memorial Library" "330 Buffalo St." "Sheboygan Falls" "WI" "53085" -87.812743 43.729446
+"Shell Lake Public Library" "501 1st St." "Shell Lake" "WI" "54871" -91.9254768 45.7430548
+"Shorewood Public Library" "3920 N. Murray Avenue" "Shorewood" "WI" "53211" -87.884491 43.087774
+"Mccoy Public Library" "190 N. Judgement St." "Shullsburg" "WI" "53586" -90.2310278 42.5725007
+"Door County Library - Sister Bay-Liberty Grove Branch" "2323 Mill Road" "Sister Bay" "WI" "54234" -87.120754 45.1875519
+"Slinger Community Library" "220 Slinger Rd." "Slinger" "WI" "53086" -88.279116 43.328576
+"Soldiers Grove Public Library" "102 Passive Sun Dr., Solar Town Cen" "Soldiers Grove" "WI" "54655" -90.7742959 43.3952551
+"Somerset Public Library" "208 Hud St." "Somerset" "WI" "54025" -92.676325 45.124176
+"South Milwaukee Public Library" "1907 10th Ave." "South Milwaukee" "WI" "53172" -87.8602494 42.9122147
+"Sparta Free Library" "124 W. Main St." "Sparta" "WI" "54656" -90.8120205 43.9446817
+"Marathon County Public Library - Spencer" "105 Park St." "Spencer" "WI" "54479" -90.298042 44.756822
+"Spooner Memorial Library" "421 High St." "Spooner" "WI" "54801" -91.89129 45.8274545
+"Spring Green Community Library" "230 E. Monroe St." "Spring Green" "WI" "53588" -90.0661629 43.177667
+"Spring Valley Public Library" "po box 217" "Spring Valley" "WI" "54767" -92.2387957 44.8452432
+"St. Croix Falls Public Library" "210 N. Washington St." "St. Croix Falls" "WI" "54024" -92.6448388 45.4120509
+"St. Francis Public Library" "4230 S. Nicholson Ave." "St. Francis" "WI" "53235" -87.8722418 42.9673131
+"D.R. Moon Memorial Library" "154 4th Ave." "Stanley" "WI" "54768" -90.9391394 44.962408
+"Jean M. Thomsen Memorial Library" "105 N. Gershwin St." "Stetsonville" "WI" "54480" -90.3119612 45.0770134
+"Portage County Public Library" "1001 Main St." "Stevens Point" "WI" "54481" -89.5841 44.523
+"Stoughton Public Library" "304 S. 4th St." "Stoughton" "WI" "53589" -89.2181487 42.9164927
+"Marathon County Public Library - Stratford" "400 N. 4th Ave." "Stratford" "WI" "54484" -90.0745139 44.804299
+"Strum Public Library" "114 5th Ave. S." "Strum" "WI" "54770" -91.3925587 44.5498786
+"Door County Library" "107 S. 4th Ave." "Sturgeon Bay" "WI" "54235" -87.374444 44.8335859
+"Door County Library - Sturgeon Bay Branch" "107 S 4th Avenue" "Sturgeon Bay" "WI" "54235" -87.374444 44.8335859
+"Sun Prairie Public Library" "1350 Linnerud Drive" "Sun Prairie" "WI" "53590" -89.2355088 43.1756527
+"Superior Public Library" "1530 Tower Ave." "Superior" "WI" "54880" -92.1028347 46.7197428
+"Suring Area Public Library" "604 E. Main St." "Suring" "WI" "54174" -88.3729479 44.999273
+"Taylor Memorial Library" "420 2nd St." "Taylor" "WI" "54659" -91.1205279 44.3216991
+"Theresa Public Library" "290 Mayville St." "Theresa" "WI" "53091" -88.453537 43.520345
+"Thorp Public Library" "401 S. Conway Dr." "Thorp" "WI" "54771" -90.793459 44.9565
+"Edward U. Demmer Memorial Library" "6961 W. School St." "Three Lakes" "WI" "54562" -89.1690881 45.7962165
+"Tigerton Library" "221 Birch" "Tigerton" "WI" "54486" -89.062207 44.741172
+"Tomah Public Library" "716 Superior Ave." "Tomah" "WI" "54660" -90.5041068 43.9798265
+"Tomahawk Public Library" "300 W. Lincoln Ave." "Tomahawk" "WI" "54487" -89.7335813 45.4739087
+"Shirley M. Wright Memorial Library" "11455 Fremont St." "Trempealeau" "WI" "54661" -91.4312039 44.0046185
+"Turtle Lake Public Library" "114 Martin Ave. East" "Turtle Lake" "WI" "54889" -92.141133 45.395203
+"Lester Public Library" "1001 Adams St." "Two Rivers" "WI" "54241" -87.5692019 44.1434779
+"Graham Public Library" "1215 Main St." "Union Grove" "WI" "53182" -88.0518416 42.6848154
+"Verona Public Library" "500 Silent Street" "Verona" "WI" "53593" -89.5280009 42.9973964
+"Lester Public Library Of Vesper" "6550 Virginia St." "Vesper" "WI" "54489" -89.969205 44.483651
+"Viola Public Library" "137 S. Main St." "Viola" "WI" "54664" -90.6674355 43.5049779
+"Mcintosh Memorial Library" "118 E. Jefferson St." "Viroqua" "WI" "54665" -90.888391 43.5555302
+"Wabeno Public Library" "4556 N. Branch St." "Wabeno" "WI" "54566" -88.6601235 45.4388867
+"Walworth Memorial Library" "101 Maple Ave." "Walworth" "WI" "53184" -88.5994789 42.5299335
+"Washburn Public Library" "307 Washington Ave." "Washburn" "WI" "54891" -90.8947748 46.6730608
+"Door County Library - Washington Island Branch" "Route 1 Box 3" "Washington Island" "WI" "54246" -86.9073024 45.3798154
+"Waterford Public Library" "101 N. River St." "Waterford" "WI" "53185" -88.2137569 42.7634686
+"Karl Junginger Memorial Library" "625 N. Monroe St." "Waterloo" "WI" "53594" -88.9903764 43.1937868
+"Watertown Public Library" "100 S. Water St." "Watertown" "WI" "53094" -88.7263352 43.1942172
+"Waukesha County Federated Library System" "831 North Grand Avenue, Suite 220" "Waukesha" "WI" "53186" -88.231445 43.0110972
+"Waukesha Public Library" "321 Wisconsin Ave." "Waukesha" "WI" "53186" -88.232854 43.009035
+"Waunakee Public Library" "710 South St." "Waunakee" "WI" "53597" -89.4558482 43.1849738
+"Waupaca Area Public Library" "107 S. Main St." "Waupaca" "WI" "54981" -89.0848664 44.3578801
+"Waupun Public Library" "123 S. Forest St." "Waupun" "WI" "53963" -88.7314553 43.6314111
+"Marathon County Public Library" "300 N. First St." "Wausau" "WI" "54403" -89.630836 44.959686
+"Wisconsin Valley Library Service" "300 N First Street" "Wausau" "WI" "54403" -89.630836 44.959686
+"Wausaukee Library" "703 Main St., Suite 3," "Wausaukee" "WI" "54177" -87.952813 45.375699
+"Wautoma Public Library" "410 W. Main St." "Wautoma" "WI" "54982" -89.291773 44.075626
+"Wauwatosa Public Library" "7635 W. North Ave." "Wauwatosa" "WI" "53213" -88.0089549 43.0601172
+"Burnett Community Library" "7451 W. Main St." "Webster" "WI" "54893" -92.367134 45.8773978
+"West Allis Public Library" "7421 W. National Ave." "West Allis" "WI" "53214" -88.005154 43.011469
+"West Bend Community Memorial Library" "630 Poplar St." "West Bend" "WI" "53095" -88.1843305 43.4212913
+"Hazel Brown Leicht Memorial Library" "201 Neshonoc Road" "West Salem" "WI" "54669" -91.0738174 43.896476
+"Bekkum Memorial Public Library" "206 N. Main St." "Westby" "WI" "54667" -90.8566962 43.6548594
+"Ethel Everhard Memorial Library" "117 E. 3rd St." "Westfield" "WI" "53964" -89.492598 43.884381
+"Weyauwega Public Library" "301 S. Mill St." "Weyauwega" "WI" "54983" -88.9341104 44.3197533
+"Antigo Public Library - White Lake" "615 School Street" "White Lake" "WI" "54491" -88.7635322 45.1563365
+"Whitefish Bay Public Library" "5420 N. Marlborough Dr." "Whitefish Bay" "WI" "53217" -87.901003 43.1152895
+"Whitehall Public Library" "36245 Park St." "Whitehall" "WI" "54773" -91.3185771 44.3667271
+"Irvin L. Young Memorial Library" "431 W. Center St." "Whitewater" "WI" "53190" -88.7361565 42.8328584
+"Patterson Memorial Library" "500 Division St." "Wild Rose" "WI" "54984" -89.2472019 44.178487
+"Barrett Memorial Library" "65 W. Geneva St." "Williams Bay" "WI" "53191" -88.5434559 42.5771949
+"Wilton Public Library" "400 East St." "Wilton" "WI" "54670" -90.524403 43.813429
+"Winchester Public Library" "2117 Lake Street" "Winchester" "WI" "54557" -89.896246 46.22117
+"Winneconne Public Library" "31 S. Second St." "Winneconne" "WI" "54986" -88.7137214 44.1098897
+"Winter Public Library" "5129 N. Main St." "Winter" "WI" "54896" -90.8338096 45.8862999
+"Kilbourn Public Library" "620 Elm St." "Wisconsin Dells" "WI" "53965" -89.7717479 43.6253939
+"Mcmillan Memorial Library" "490 E. Grand Ave." "Wisconsin Rapids" "WI" "54494" -89.821508 44.388046
+"Withee Public Library" "504 Division St." "Withee" "WI" "54498" -90.5978363 44.953657
+"Wittenberg Library" "803 Cherry St." "Wittenberg" "WI" "54499" -89.1673691 44.8257723
+"Wonewoc Public Library" "305 Center St." "Wonewoc" "WI" "53968" -90.2232959 43.6547559
+"Woodville Community Library" "124 Main St." "Woodville" "WI" "54028" -92.2917602 44.9524291
+"Brown County Library - Wrightstown Branch Library" "615 Main Street" "Wrightstown" "WI" "54180" -88.1683645 44.3268587
+"Wyocena Public Library" "165 E. Dodge St." "Wyocena" "WI" "53969" -89.308973 43.4943

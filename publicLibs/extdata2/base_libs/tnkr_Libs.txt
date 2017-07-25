@@ -1,0 +1,148 @@
+"location" "miles" "latitude" "longitude"
+"Midwest City Library<br/>8143 E Reno<br/>Midwest City, OK" 3.34832986084163 -97.385022 35.4658885
+"Del City Branch Library<br/>4509 S E 15<br/>Del City, OK" 3.57235414359622 -97.436221 35.4504741
+"Nicoma Park Library<br/>2240 Overholser<br/>Nicoma Park, OK" 6.24021415926027 -97.32486 35.491964
+"Book Centers<br/>1364 N E 3rd<br/>Oklahoma City, OK" 6.73510351891748 -97.487928 35.4702
+"Ralph Ellison Branch Library<br/>2000 N E 23<br/>Oklahoma City, OK" 7.20798125855986 -97.4760697 35.4926434
+"Capitol Hill Branch Library<br/>334 S W 26<br/>Oklahoma City, OK" 7.58573493027973 -97.5196202 35.4380425
+"Southern Oaks Library<br/>6900 S Walker<br/>Oklahoma City, OK" 7.64268158695436 -97.5206655 35.3972232
+"Moore Public Library<br/>225 S Howard<br/>Moore, OK" 8.02968774698005 -97.4888246 35.3360489
+"Downtown Branch Library<br/>131 Dean A Mcgee<br/>Oklahoma City, OK" 8.14433895031453 -97.51606 35.471175
+"Metropolitan Library System<br/>300 Park Ave<br/>Okla City, OK" 8.19607478249275 -97.5186928 35.4685196
+"Downtown Library<br/>300 Park Ave.<br/>Oklahoma City, OK" 8.19607478249275 -97.5186928 35.4685196
+"Choctaw Library<br/>2525 North Muzzy<br/>Choctaw, OK" 8.51606053340619 -97.2698985 35.4949388
+"Wright Library<br/>2101 Exchange Ave<br/>Oklahoma City, OK" 9.58695079030026 -97.5518209 35.4530889
+"Jones Library<br/>111 E. Main<br/>Jones, OK" 11.7452461598286 -97.2859199 35.5658504
+"Belle Isle Library<br/>5501 N. Villa<br/>Oklahoma City, OK" 12.13274098643 -97.5570236 35.5256169
+"Harrah Public Library<br/>1971 N Church Ave<br/>Harrah, OK" 13.5909648529435 -97.1623813 35.4882331
+"Norman Public Library<br/>225 N Webster<br/>Norman, OK" 14.0447913296633 -97.4471961 35.2204313
+"Pioneer Library System<br/>225 N Webster Ave<br/>Norman, OK" 14.0447913296633 -97.4471961 35.2204313
+"Village Public Library<br/>10307 N Penn<br/>Village, OK" 14.2479316954063 -97.5497977 35.5754718
+"Bethany Public Library<br/>3510 N Mueller<br/>Bethany, OK" 15.098805184263 -97.6321846 35.5063937
+"Austin Branch Library<br/>88 Main Street<br/>Austin, NV" 15.4746707909092 -97.6001311 35.2763066
+"Warr Acres Library<br/>5901 N W 63<br/>Warr Acres, OK" 15.5765720614538 -97.6216085 35.5372534
+"Newcastle Public Library<br/>900 North Carr<br/>Newcastle, OK" 16.4876229123723 -97.601477 35.2552939
+"Mcloud Public Library<br/>133 N. Main<br/>Mcloud, OK" 16.6971155571961 -97.0921663 35.4371087
+"Edmond Branch Library<br/>10 S Boulevard<br/>Edmond, OK" 17.1641623867859 -97.4778451 35.6544931
+"Guthrie Public Library<br/>201 N Division<br/>Guthrie, OK" 17.3334097304701 -97.327478 35.66331
+"Northwest Library<br/>5600 Nw 122nd<br/>Oklahoma City, OK" 17.8258669002217 -97.617908 35.594165
+"Noble Public Library<br/>204 North 5th<br/>Noble, OK" 19.0931309895372 -97.3924152 35.1415344
+"Mustang Public Library<br/>1201 N. Mustang Rd.<br/>Mustang, OK" 19.1409580865711 -97.726436 35.402641
+"Yukon - Mabel C. Fry Public Library<br/>1200 Lakeshore Drive<br/>Yukon, OK" 19.9184812657476 -97.7236784 35.5064168
+"Luther Library<br/>310 Ne 3rd<br/>Luther, OK" 20.2666817812502 -97.19296 35.6641059
+"Mabel C. Fry Public Library<br/>500 W. Main<br/>Yukon, OK" 21.4079645756376 -97.7509223 35.5076353
+"Blanchard Public Library<br/>205 NE 10th Street<br/>Blanchard, OK" 24.13958125923 -97.6567979 35.1465516
+"Piedmont Public Library<br/>1129 Stout Street Nw<br/>Piedmont, OK" 25.9769320841561 -97.7540936 35.6455214
+"Shawnee Public Library<br/>101 N. Philadelphia<br/>Shawnee, OK" 27.1342121784561 -96.9191279 35.3277111
+"Purcell Public Library<br/>919 N 9th<br/>Purcell, OK" 27.3080842688268 -97.3716141 35.0229564
+"Tecumseh Public Library<br/>114 N Broadway<br/>Tecumseh, OK" 27.723122395047 -96.9367908 35.257859
+"Meeker Public Library<br/>616 W. Carl Hubbell Boulevard<br/>Meeker, OK" 27.9901181703368 -96.9019046 35.5032266
+"El Reno Carnegie Library<br/>215 E Wade<br/>El Reno, OK" 32.7934849156742 -97.9525111 35.5313956
+"Chandler Public Library<br/>1021 S Manvel<br/>Chandler, OK" 34.5357231195018 -96.8810955 35.6996601
+"Crescent Community Library<br/>205 N. Grand<br/>Crescent, OK" 38.8890423443057 -97.5955444 35.9537028
+"Tryon Public Library<br/>25 S Main St<br/>Tryon, OK" 39.2618806663633 -96.9638486 35.8688222
+"Chickasha Public Library<br/>527 Iowa Avenue<br/>Chickasha, OK" 40.3536533014429 -97.9393602 35.0472959
+"Maysville Public Library<br/>508 Williams<br/>Maysville, OK" 41.3969011760157 -97.4084197 34.8193178
+"Prague Public Library<br/>1619 W Main Street<br/>Prague, OK" 41.4663003749334 -96.657168 35.4917586
+"Lindsay Community Library<br/>112 W Choctaw<br/>Lindsay, OK" 42.0449232619844 -97.6027567 34.8357787
+"Kingfisher Memorial Library<br/>505 West Will Rogers<br/>Kingfisher, OK" 42.6395929571492 -97.9370797 35.842227
+"Seminole Public Library<br/>424 N Main<br/>Seminole, OK" 42.6617628507363 -96.6684748 35.227063
+"Perkins - Thomas-Wilhite Memorial Library<br/>101 E. Thomas<br/>Perkins, OK" 43.3254118644812 -97.0336968 35.9740939
+"Stroud Public Library<br/>301 West 7th<br/>Stroud, OK" 47.22122686287 -96.656746 35.753564
+"Konawa - Kennedy Library Of Konawa<br/>701 West South Street<br/>Konawa, OK" 47.5952674013896 -96.7620232 34.956885
+"Kennedy Library Of Konawa<br/>700 W. South<br/>Konawa, OK" 47.6966374655387 -96.761129 34.955512
+"Pauls Valley-Nora Sparks Warren Mem Library<br/>210 N Willow St<br/>Pauls Valley, OK" 47.7564774298308 -97.2214228 34.7406302
+"Stratford - Chandler-Watts Library<br/>340 N Oak<br/>Stratford, OK" 49.1037816715855 -96.9598898 34.7997916
+"Stillwater Public Library<br/>1107 S. Duck<br/>Stillwater, OK" 51.2585622666196 -97.061954 36.1098834
+"Cushing Public Library<br/>215 North Steele<br/>Cushing, OK" 52.2192957076144 -96.769064 35.981194
+"Wewoka Public Library<br/>118 W 5th<br/>Wewoka, OK" 53.6899650138587 -96.492928 35.154244
+"Anadarko Community Library<br/>215 W Broadway<br/>Anadarko, OK" 53.9810205691915 -98.2460605 35.0750952
+"Geary Public Library<br/>106 Main St<br/>Geary, OK" 54.4198378155043 -98.317909 35.630653
+"Rush Springs-Glover Spencer Memorial Library<br/>6th Blakely<br/>Rush Springs, OK" 54.4805180184782 -97.9569845 34.7825721
+"Hinton - Norman Smith Memorial Library<br/>115 E Main<br/>Hinton, OK" 54.6458844617957 -98.3548517 35.4714068
+"Wynnewood Public Library<br/>108 N. Dean A Mcgee<br/>Wynnewood, OK" 54.981482036774 -97.1703955 34.6428061
+"Hennessey Public Library<br/>525 S. Main<br/>Hennessey, OK" 55.5184058451922 -97.8986826 36.1045822
+"Drumright Public Library<br/>104 East Broadway<br/>Drumright, OK" 59.2463454331748 -96.6012371 35.9884947
+"Ada Public Library<br/>124 S. Rennie<br/>Ada, OK" 60.0064337916483 -96.676739 34.7737672
+"Perry Carnegie Library<br/>302 N 7th St<br/>Perry, OK" 60.3627661491389 -97.287877 36.286416
+"Holdenville - Grace Pickens Public Library<br/>209 E 9th<br/>Holdenville, OK" 60.4938659099477 -96.3975949 35.0837278
+"Okemah Public Library<br/>301 South 2nd<br/>Okemah, OK" 61.1765157896216 -96.3022128 35.4290214
+"Yale Public Library<br/>213 N Main<br/>Yale, OK" 61.8478515198997 -96.6990795 36.1157214
+"Marlow - Garland Smith Public Library<br/>407 W Seminole<br/>Marlow, OK" 62.4057172752289 -97.9593835 34.6464441
+"Bristow - Montfort Allie Jones Mem Library<br/>111 W. 7th Ave<br/>Bristow, OK" 62.9597807912423 -96.391837 35.834119
+"Davis Public Library<br/>209 E Benton<br/>Davis, OK" 64.8556572609212 -97.1205208 34.5058107
+"Watonga Public Library<br/>301 N Prouty<br/>Watonga, OK" 64.9177968356324 -98.4143771 35.8465394
+"Wetumka Public Library<br/>202 N Main<br/>Wetumka, OK" 65.8174902074257 -96.2419655 35.2386145
+"Apache Public Library<br/>111 E. Evans<br/>Apache, OK" 66.1272601533866 -98.3653748 34.8935279
+"Allen Public Library<br/>214 East Broadway<br/>Allen, OK" 66.4510897493474 -96.4143919 34.8791307
+"Duncan Public Library<br/>2211 N. Highway 81<br/>Duncan, OK" 67.0369217434145 -97.9676563 34.5729792
+"Sulphur - Mary E Parker Memorial Library<br/>500 West Broadway<br/>Sulphur, OK" 67.2663987696591 -96.972766 34.5063951
+"Hydro Public Library<br/>518 S. Broadway<br/>Hydro, OK" 67.6269288794739 -98.5770611 35.5494605
+"Okeene Public Library<br/>215 N Main<br/>Okeene, OK" 71.1921263928618 -98.3171125 36.1176649
+"Pawnee Public Library<br/>653 Illinois<br/>Pawnee, OK" 71.5983959625174 -96.8050933 36.3387874
+"Carnegie Public Library<br/>22 S Broadway<br/>Carnegie, OK" 71.9947041457784 -98.6048684 35.1091339
+"Enid-Public Library Of Enid And Garfield Co<br/>120 West Maine<br/>Enid, OK" 73.0640462595757 -97.8791617 36.395798
+"Weatherford Public Library<br/>219 E Franklin<br/>Weatherford, OK" 74.6474080525189 -98.7056287 35.5273032
+"Kellyville Public Library<br/>230 E Buffalo<br/>Kellyville, OK" 75.3166851843512 -96.213669 35.943391
+"Mannford Public Library<br/>101 Green Valley Park Rd<br/>Mannford, OK" 77.3594326566204 -96.3706861 36.1729156
+"Henryetta Public Library<br/>518 W. Main<br/>Henryetta, OK" 78.8881601774999 -95.9880824 35.4400664
+"Thomas - Hazel Cross Library<br/>115 W Broadway<br/>Thomas, OK" 79.8324990024366 -98.748416 35.744242
+"Mt View - Addie Davis Memorial Library<br/>301 N. 4th<br/>Mtn. View, OK" 79.8762824167956 -98.7477315 35.1018658
+"Lawton Public Library<br/>110 S W 4th St<br/>Lawton, OK" 79.9450115475305 -98.3929818 34.6067061
+"Jay C. Byers Memorial Library<br/>215 E. Wichita<br/>Cleveland, OK" 80.6979489314075 -96.4620167 36.3111535
+"Okmulgee Public Library<br/>218 S Okmulgee<br/>Okmulgee, OK" 80.7308755817953 -95.9756273 35.621786
+"Mounds Public Library<br/>15 West 14th Street<br/>Mounds, OK" 81.1185998854738 -96.0600197 35.8776397
+"Bartlett-Carnegie Sapulpa Public Library<br/>27 W Dewey<br/>Sapulpa, OK" 81.9930916351875 -96.115244 35.9988518
+"Healdton Community Library<br/>18 South 4th<br/>Healdton, OK" 82.7256051593283 -97.4877458 34.2244447
+"Fairview City Library<br/>115 S. 6th<br/>Fairview, OK" 84.9215631764619 -98.4785656 36.2689008
+"Pratt Library<br/>3219 S 113th W Ave<br/>Sand Springs, OK" 86.0394274080316 -96.1186709 36.1156236
+"Ringling - Gleason Memorial Library<br/>5th And Main St.<br/>Ringling, OK" 86.5045900919122 -97.5926181 34.1783782
+"Glenpool Library<br/>730 E 141 St<br/>Glenpool, OK" 86.5214329515977 -95.9990339 35.9587531
+"Wilson Public Library<br/>1087 U.S. Hwy. 70-A<br/>Wilson, OK" 86.8884805109513 -97.425089 34.161806
+"Chickasaw Regional Library System<br/>601 Railway Express<br/>Ardmore, OK" 87.206048875339 -97.16386 34.1702717
+"Tonkawa Public Library<br/>216 N. Seventh<br/>Tonkawa, OK" 87.4842412701564 -97.3085765 36.6806262
+"Charles Page Library<br/>551 E 4th St<br/>Sand Springs, OK" 87.8180435629628 -96.1018053 36.1413754
+"Ardmore Public Library<br/>320 E Street Nw<br/>Ardmore, OK" 87.9136080607238 -97.1240599 34.1651411
+"Fairfax Public Library<br/>158 East Elm<br/>Fairfax, OK" 88.6465279079619 -96.7034798 36.573425
+"Hominy Public Library<br/>121 West Main<br/>Hominy, OK" 88.6553333788563 -96.3950857 36.4159122
+"Clinton Public Library<br/>721 Frisco<br/>Clinton, OK" 89.3649650666451 -98.9691702 35.5144006
+"Jenks Library<br/>523 West B St<br/>Jenks, OK" 89.7356629858342 -95.9754855 36.0249169
+"Coal County Public Library<br/>115 W. Ohio<br/>Coalgate, OK" 89.8197174788002 -96.2198239 34.5395491
+"West Regional Library<br/>2224 W 51st<br/>Tulsa, OK" 89.8413451315105 -96.0177797 36.0894155
+"Zarrow Regional Library<br/>2224 W. 51st St.<br/>Tulsa, OK" 89.8413451315105 -96.0177797 36.0894155
+"Walters Public Library<br/>202 North Broadway<br/>Walters, OK" 89.9771792227159 -98.3091847 34.3590761
+"Ponca City Library<br/>515 East Grand<br/>Ponca City, OK" 90.6510085504194 -97.0779566 36.7039171
+"Bookmobile<br/>501 S. 28th St.<br/>Clinton, OK" 90.6914177906079 -98.9932756 35.5080539
+"Western Plains Library System<br/>501 S 28th Street<br/>Clinton, OK" 90.6914177906079 -98.9932756 35.5080539
+"Cordell Public Library<br/>208 S College<br/>Cordell, OK" 90.8589879287058 -98.9903168 35.2900978
+"Johnston County Library<br/>116 West Main<br/>Tishomingo, OK" 91.16933398516 -96.6783633 34.2350142
+"Bixby Public Library<br/>20 E Breckenridge<br/>Bixby, OK" 91.9774089580305 -95.8828082 35.9412932
+"Brookside Public Library<br/>1207 E 45th Place<br/>Tulsa, OK" 92.1455814273888 -95.9766337 36.098617
+"Helmerich Library<br/>5131 E 91st St<br/>Tulsa, OK" 92.7963121132549 -95.9187073 36.0323537
+"Peggy V. Helmerich Library<br/>5131 E. 91st St.<br/>Tulsa, OK" 92.7963121132549 -95.9187073 36.0323537
+"Central Library<br/>400 Civic Center<br/>Tulsa, OK" 93.1739902729044 -95.9944582 36.1506453
+"Hardesty Regional Library<br/>8316 E 93rd St<br/>Tulsa, OK" 94.4167419613436 -95.8828239 36.0266172
+"Schusterman-Benson Library<br/>3333 E 32nd Place<br/>Tulsa, OK" 94.5802177229322 -95.9390433 36.116406
+"Rudisill Regional Library<br/>1520 N Hartford<br/>Tulsa, OK" 94.6415932049329 -95.9847814 36.1775983
+"Genealogy Center<br/>2901 S Harvard<br/>Tulsa, OK" 94.7109074130314 -95.9398658 36.1212705
+"Herman Kate Kaiser Library<br/>5202 S Hudson, Ave., Ste. B<br/>Tulsa, OK" 94.7692760340266 -95.9142765 36.0866617
+"Kendall-Whittier Library<br/>21 S. Lewis<br/>Tulsa, OK" 95.2130034386485 -95.9578196 36.1590334
+"Blackwell Public Library<br/>123 West Padon<br/>Blackwell, OK" 95.9647018528022 -97.2832885 36.8022781
+"Library 51st<br/>7970 E 51st Street<br/>Tulsa, OK" 96.0181421186421 -95.8909959 36.0898866
+"Suburban Acres Library<br/>4606 N Garrison<br/>Tulsa, OK" 96.2155869762821 -95.98678 36.2205707
+"Nathan Hale Library<br/>6038 E 23rd<br/>Tulsa, OK" 96.6582310962266 -95.9056036 36.1297215
+"Kiowa Reading Center<br/>7th And Harrison<br/>Kiowa, OK" 96.7007594620608 -95.9049694 34.7231004
+"Judy Z. Kishner Library<br/>10150 N. Cincinnati Ave.<br/>Tulsa, OK" 97.2811376623192 -95.9919174 36.2529547
+"South Broken Arrow Library<br/>3600 S Chestnut<br/>Broken Arrow, OK" 97.3747572894833 -95.8184378 36.0166288
+"Mcalester Public Library<br/>401 North Second<br/>Mcalester, OK" 97.5354939373503 -95.7663675 34.9352981
+"Southeastern Public Library System Of Oklahoma<br/>401 N 2nd<br/>Mcalester, OK" 97.5354939373503 -95.7663675 34.9352981
+"Maxwell Park Library<br/>1313 N Canton<br/>Tulsa, OK" 97.5958059076287 -95.9189098 36.1737781
+"Kaw City - J.A. Walker Memorial Library<br/>900 Morgan Square<br/>Kaw City, OK" 97.8291296296745 -96.8597615 36.7659857
+"Medford Public Library<br/>123 S Main<br/>Medford, OK" 98.0396982374432 -97.7349968 36.8067369
+"Madill City-County Library<br/>500 West Overton St<br/>Madill, OK" 98.0628565039863 -96.7751234 34.0921317
+"Waurika Public Library<br/>98th Meridian<br/>Waurika, OK" 98.7085368703736 -97.9997124 34.0821647
+"Sperry Library<br/>15 E Main<br/>Sperry, OK" 99.150433381781 -95.9909017 36.2970338
+"Martin Regional Library<br/>2601 S Garnett<br/>Tulsa, OK" 99.2284157721073 -95.8504275 36.1265697
+"Broken Arrow Library<br/>300 W Broadway<br/>Broken Arrow, OK" 99.7010406295429 -95.7936721 36.0530385
+"Seiling Public Library<br/>211 Main<br/>Seiling, OK" 99.9542411810982 -98.9245658 36.1476266
+"Carmen Public Library<br/>421 West Main Street<br/>Carmen, OK" 99.959740481963 -98.4503031 36.5789127

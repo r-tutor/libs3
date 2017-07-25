@@ -1,0 +1,119 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"American Fork City Library" "64 South 100 East" "American Fork" "UT" "84003" -111.796341 40.37554
+"Beaver Public Library" "55 West Center Street" "Beaver" "UT" "84713" -112.6415952 38.2741781
+"Juab County Bookmobile Library" "79 North 100 West" "Bicknell" "UT" "84715" -111.5454644 38.3391794
+"San Juan County Library - Blanding Branch Library" "25 West 300 South" "Blanding" "UT" "84511" -109.4784458 37.6211105
+"Davis County Library - South Branch (Bountiful)" "725 S Main St." "Bountiful" "UT" "84010" -111.8800895 40.8818611
+"Brigham City Library" "26 East Forest Street" "Brigham City" "UT" "84302" -112.0146386 41.5106896
+"Emery County Library - Castle Dale Branch" "115 North 100 East" "Castle Dale" "UT" "84513" -111.0178475 39.2133558
+"Cedar City Public Library" "303 North 100 East" "Cedar City" "UT" "84721" -113.0601409 37.6827301
+"Davis County Library - Centerville Branch" "45 S. 400 W." "Centerville" "UT" "84014" -111.8851026 40.9168345
+"Davis County Library - North Branch (Clearfield)" "562 S 1000 E" "Clearfield" "UT" "84015" -112.0075147 41.1056028
+"Emery County Library - Cleveland Branch" "45 West Main" "Cleveland" "UT" "" -110.8524432 39.3487135
+"Summit County Library - Coalville Branch Library" "10 North Main" "Coalville" "UT" "84017" -111.3984244 40.9168709
+"Delta City Library" "76 North 200 West" "Delta" "UT" "84624" -112.5786985 39.3535899
+"Millard County Bookmobile Library" "90 North 200 West" "Delta" "UT" "84624" -112.5792057 39.3539176
+"Salt Lake County Library - Draper Library" "1136 East Pioneer Rd" "Draper" "UT" "84020" -111.8584389 40.5230035
+"Daggett County Bookmobile Library" "130 South Center Street, Suite A" "Duchesne" "UT" "84021" -110.4013321 40.1622243
+"Duchesne County Library" "130 S Center Street" "Duchesne" "UT" "84021" -110.4013321 40.1622243
+"Eagle Mountain Public Library" "1650 E. Stagecoach Run" "Eagle Mountain" "UT" "84005" -112.0119539 40.3093471
+"Salt Lake County Library - East Millcreek Library" "2250 Evergreen Avenue" "East Millcreek" "UT" "" -111.8257521 40.6966961
+"Emery County Library - Elmo Branch" "15 South 100 East" "Elmo" "UT" "84521" -110.851882 39.347198
+"Emery County Library - Emery Branch" "100 North Center" "Emery" "UT" "84522" -111.2486502 38.9246294
+"Iron County Bookmobile Library" "4763 North Santa Fe Trail" "Enoch" "UT" "84721" -113.0433978 37.764104
+"Washington County Library - Enterprise Branch" "393 South 200 East" "Enterprise" "UT" "84725" -113.716546 37.5670414
+"Ephraim Public Library" "30 South Main Street" "Ephraim" "UT" "84627" -111.5871415 39.3591316
+"Sanpete County Bookmobile Library" "75 South State Street" "Fairview" "UT" "84629" -111.4392374 39.6264857
+"Davis County Library - Headquarters (Farmington)" "38 South 100 East" "Farmington" "UT" "84025" -111.8854707 40.9800418
+"Emery County Library - Ferron Branch" "55 North 200 West" "Ferron" "UT" "84523" -111.1363661 39.0908878
+"President Millard Fillmore Library" "25 South 100 West" "Fillmore" "UT" "84631" -112.3264722 38.9683053
+"Garland Public Library" "86 West Factory Rd" "Garland" "UT" "84312" -112.161525 41.7410778
+"Tooele County Bookmobile Library" "429 East Main Street" "Grantsville" "UT" "84029" -112.4462697 40.6000785
+"Emery County Library - Green River Branch" "85 South Long St." "Green River" "UT" "84525" -110.1619331 38.9943877
+"Gunnison Civic Library" "38 West Center Street" "Gunnison" "UT" "84634" -111.8204213 39.1548893
+"Wasatch County Library" "465 East 1200 South" "Heber City" "UT" "84032" -111.405796 40.493677
+"Helper City Library" "19 South Main Street" "Helper" "UT" "84526" -110.854168 39.687456
+"Salt Lake County Library - Herriman Library" "5380 West Herriman Main Street" "Herriman" "UT" "84096" -112.0186969 40.5162738
+"Emery County Library - Huntington Branch" "92 South Main" "Huntington" "UT" "84528" -110.964568 39.3247473
+"Weber County Library - Ogden Valley Branch" "131 S 7400 E" "Huntsville" "UT" "84317" -111.7705737 41.26188
+"Washington County Library - Hurricane Branch" "36 South 300 West" "Hurricane" "UT" "84737" -113.2942559 37.1756911
+"Hyrum Library" "50 West Main Street" "Hyrum" "UT" "84319" -111.8565203 41.6344713
+"Summit County Library - Kamas Branch Library" "110 N. Main St" "Kamas" "UT" "84036" -111.2798954 40.6451852
+"Kanab City Library" "374 North Main Street" "Kanab" "UT" "84741" -112.5281609 37.0543479
+"Davis County Library - Kaysville Branch" "44 North Main" "Kaysville" "UT" "84037" -111.9381531 41.0356597
+"Salt Lake County Library - Kearns Library" "5350 South 4220 West" "Kearns" "UT" "84118" -111.992424 40.653782
+"Davis County Library - Central Branch (Layton)" "155 N. Wasatch Dr." "Layton" "UT" "84041" -111.9618027 41.0624014
+"Lehi City Public Library" "120 North Center Street" "Lehi" "UT" "84043" -111.8485785 40.389313
+"Lewiston Public Library" "33 South Main Street" "Lewiston" "UT" "84320" -111.8566452 41.9752324
+"Logan Library" "255 North Main Street" "Logan" "UT" "84321" -111.8355187 41.7364162
+"Salt Lake County Library - Magna Library" "2675 South, 8950 West" "Magna" "UT" "84044" -112.1042867 40.7112847
+"Manti City Library" "02 South Main Street" "Manti" "UT" "84642" -111.6370285 39.2654151
+"Utah County Bookmobile Library" "125 West 400 North" "Mapleton" "UT" "84664" -111.5796215 40.1330602
+"Salt Lake County Library - Ruth Vine Tyler Library" "8041 S. Wood Street(55 W)" "Midvale" "UT" "84047" -111.8926753 40.6050211
+"Milford Public Library" "400 South 100 West" "Milford" "UT" "84751" -113.0123145 38.3951736
+"Minersville Public Library" "40 West Main Street" "Minersville" "UT" "84752" -112.9247013 38.2156991
+"Grand County Public Library" "257 East Center St" "Moab" "UT" "84532" -109.5455618 38.5736277
+"Monroe Public Library" "55 North Main Street" "Monroe" "UT" "84754" -112.1214006 38.6328366
+"San Juan County Bookmobile Library" "835 E Highway 666" "Monticello" "UT" "84535" -109.3428948 37.8713829
+"San Juan County Library - Monticello Branch Library" "80 N Main" "Monticello" "UT" "84535" -109.3424243 37.8734934
+"Morgan County Library" "50 North 100 West" "Morgan" "UT" "84050" -111.679244 41.0371659
+"Mt. Pleasant Public Library" "24 East Main Street" "Mt. Pleasant" "UT" "84647" -111.4546717 39.5465161
+"Murray Public Library" "166 East 5300 South" "Murray" "UT" "84107" -111.8863943 40.6556811
+"Nephi Public Library" "21 East 100 North" "Nephi" "UT" "84648" -111.8357351 39.7100147
+"Washington County Library - New Harmony Branch" "34 South 2900 East" "New Harmony" "UT" "84757" -113.242777 37.481442
+"Newton Town Library" "51 South Center Street" "Newton" "UT" "84327" -111.989029 41.8612798
+"North Logan City Library" "475 East 2500 North" "North Logan" "UT" "84341" -111.8206049 41.7782437
+"Weber County Library" "2464 Jefferson Avenue" "Ogden" "UT" "84401" -111.9648366 41.2212961
+"Weber County Library - Law Library" "2464 Jefferson Ave." "Ogden" "UT" "84401" -111.9648366 41.2212961
+"Weber County Library - North Branch" "475 E 2600 N" "Ogden" "UT" "84414" -111.965529 41.3051935
+"Weber County Library - Pleasant Valley Branch" "5568 S Adams Ave." "Ogden" "UT" "84405" -111.9694892 41.1666058
+"Emery County Library - Orangeville Branch" "125 South Main" "Orangeville" "UT" "84537" -111.0531235 39.2259614
+"Orem Public Library" "58 North State Street" "Orem" "UT" "84057" -111.6946877 40.2986056
+"Garfield County-Panguitch City Library" "25 South 200 East" "Panguitch" "UT" "84759" -112.4316854 37.8212322
+"Park City Library" "1255 Park Avenue" "Park City" "UT" "84060" -111.5031987 40.6507278
+"Summit County Library" "6505 North Landmark Drive 100" "Park City" "UT" "84098" -111.5471518 40.7258351
+"Parowan Public Library" "16 South Main Street" "Parowan" "UT" "84761" -112.8280774 37.8417169
+"Payson City Library" "66 South Main Street" "Payson" "UT" "84651" -111.7325907 40.0430229
+"Pleasant Grove Public Library" "30 East Center Street" "Pleasant Grove" "UT" "84062" -111.7402038 40.3639048
+"Price City Library" "159 East Main Street" "Price" "UT" "84501" -110.8080465 39.5999582
+"Cache County Bookmobile Library" "15 North Main Street" "Providence" "UT" "84332" -111.8177551 41.7084282
+"Provo City Library" "550 North University Avenue" "Provo" "UT" "84601" -111.6586231 40.2412942
+"Rich County Bookmobile Library" "5 North Main Street" "Randolph" "UT" "84064" -111.3228204 41.825689
+"Richfield Public Library" "83 East Center Street" "Richfield" "UT" "84701" -112.083249 38.7680999
+"Richmond Public Library" "38 West Main Street" "Richmond" "UT" "84333" -111.8096791 41.9228044
+"Salt Lake County Library - Riverton Library" "12877 South 1830 West" "Riverton" "UT" "84065" -111.9401788 40.5172425
+"Duchesne County Library - Roosevelt Branch Library" "70 W Lagoon" "Roosevelt" "UT" "84066" -109.992909 40.2994517
+"Weber County Library - Southwest Branch" "1950 W 4800 S" "Roy" "UT" "84067" -112.0275552 41.176468
+"Salina Public Library" "90 West Main Street" "Salina" "UT" "84654" -111.8616318 38.9576007
+"Salt Lake City Public Library" "210 East 400 South" "Salt Lake City" "UT" "84111" -111.884841 40.760082
+"Salt Lake City Public Library - Anderson-Foothill" "1135 South 2100 East" "Salt Lake City" "UT" "84108" -111.830171 40.744448
+"Salt Lake City Public Library - Chapman" "577 South 900 West" "Salt Lake City" "UT" "84104" -111.9077343 40.74974
+"Salt Lake City Public Library - Corinne And Jack Sweet" "455 F Street (9th Avenue)" "Salt Lake City" "UT" "84103" -111.875858 40.779641
+"Salt Lake City Public Library - Day-Riverside" "1575 West 1000 North" "Salt Lake City" "UT" "84116" -111.9360222 40.7905146
+"Salt Lake City Public Library - Sprague" "2131 South 1100 East" "Salt Lake City" "UT" "84106" -111.8593456 40.7245799
+"Salt Lake County Library - Calvin S. Smith Library" "810 East 3300 South" "Salt Lake City" "UT" "84106" -111.8680113 40.6995707
+"Salt Lake County Library - Holladay Library" "2150 East Murray-Holladay Rd" "Salt Lake City" "UT" "84117" -111.8286539 40.6662201
+"Salt Lake County Library - Whitmore Library" "2197 East Fort Union Boulevard" "Salt Lake City" "UT" "84121" -111.8280027 40.6246462
+"Salt Lake County Library System" "2197 East Fort Union Blvd." "Salt Lake City" "UT" "84121" -111.8280027 40.6246462
+"Salt Lake County Library - Sandy Library" "10100 South Petunia Way" "Sandy" "UT" "84092" -111.8521974 40.5677496
+"Santaquin City Library" "20 West 100 South" "Santaquin" "UT" "84655" -111.7856682 39.9739943
+"Smithfield Library" "25 North Main Street" "Smithfield" "UT" "84335" -111.8330947 41.8370552
+"Salt Lake County Library - South Jordan Library" "10673 South Redwood Road" "South Jordan" "UT" "84095" -111.9365603 40.5572855
+"Salt Lake County Library - Columbus Library" "2530 South 500 East" "South Salt Lake City" "UT" "84106" -111.8780858 40.7154705
+"Spanish Fork Public Library" "49 South Main Street" "Spanish Fork" "UT" "84660" -111.6547228 40.1091547
+"Washington County Library - Springdale Branch" "126 Lion Blvd." "Springdale" "UT" "84767" -112.99828 37.195582
+"Springville Public Library" "50 South Main Street" "Springville" "UT" "84663" -111.6106475 40.1659709
+"Washington County Library - Santa Clara Branch" "1099 North Lava Flow Drive" "St. George" "UT" "84770" -113.6367574 37.1273108
+"Washington County Library - St. George Main Branch" "88 West 100 South" "St. George" "UT" "84770" -113.5850737 37.1068497
+"Davis County Library - Northwest Branch (Syracuse)" "1875 South 2000 West" "Syracuse" "UT" "84075" -112.064271 41.0866908
+"Salt Lake County Library - Taylorsville Library" "4870 South 2700 West" "Taylorsville" "UT" "84118" -111.9585967 40.663466
+"Tooele City Public Library" "128 West Vine Street" "Tooele" "UT" "84074" -112.3023212 40.5306348
+"Tremonton City Library" "210 North Tremont Street" "Tremonton" "UT" "84337" -112.164914 41.715078
+"Uintah County Library" "155 East Main Street" "Vernal" "UT" "84078" -109.525735 40.45576
+"Washington County Library - Washington Branch" "220 N 300 E" "Washington" "UT" "84780" -113.5043766 37.1343969
+"Carbon County Bookmobile Library" "150 West Main Street (Rear)" "Wellington" "UT" "84542" -75.4618937 40.643846
+"Salt Lake County Library - Bingham Creek Library" "4834 West 9000 South" "West Jordan" "UT" "84081" -112.0060171 40.5885373
+"Salt Lake County Library - West Jordan Library" "1970 West 7800 South" "West Jordan" "UT" "84084" -111.9438883 40.6095258
+"Salt Lake County Library - Hunter Library" "4740 West 4100 South" "West Valley City" "UT" "84120" -112.0039079 40.6827175
+"Salt Lake County Library - West Valley Library" "2880 West 3650 South" "West Valley City" "UT" "84119" -111.961504 40.693378
+"Box Elder County Bookmobile Library" "80 West 50 South" "Willard" "UT" "84340" -112.038344 41.408788

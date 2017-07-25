@@ -1,0 +1,201 @@
+"location" "miles" "latitude" "longitude"
+"Sumter County Public Library - Wesmark Branch<br/>180 W. Wesmark Boulevard<br/>Sumter, SC" 5.12861784236438 -80.3844644 33.9503611
+"Sumter County Public Library System<br/>111 N. Harvin Street<br/>Sumter, SC" 8.27942577457051 -80.3390298 33.9223118
+"Sumter County Public Library - South Sumter Branch<br/>337 Manning Avenue<br/>Sumter, SC" 8.61585126461711 -80.3407337 33.9094664
+"Richland County Public Library - Eastover Branch Library<br/>608 Main Street<br/>Eastover, SC" 14.5835242165956 -80.694785 33.876793
+"Kershaw County Library System<br/>632 W. Dekalb Street Suite 109<br/>Camden, SC" 20.4856171607476 -80.6087686 34.2465572
+"Kershaw County Library - Camden Branch Library<br/>1304 Broad Street<br/>Camden, SC" 20.6637239005861 -80.6068821 34.2500021
+"Lee County Public Library System<br/>200 North Main Street<br/>Bishopville, SC" 21.1812201985943 -80.2475013 34.2189073
+"Kershaw County Library - Elgin Branch Library<br/>2652 Main Street<br/>Elgin, SC" 23.304847262332 -80.8044284 34.1646915
+"Clarendon County Library System<br/>215 N. Brooks St.<br/>Manning, SC" 24.1141680217324 -80.2105378 33.6993713
+"Richland County Public Library - Sandhills Branch Library<br/>1 Summit Parkway<br/>Columbia, SC" 26.3168302799165 -80.8828684 34.1391242
+"Lamar District Library<br/>103 E Main Street<br/>Lamar, SC" 26.9344986805367 -80.061977 34.168305
+"Richland County Public Library - Southeast Regional Branch Library<br/>7421 Garners Ferry Road<br/>Columbia, SC" 27.3924968964065 -80.9466882 33.9680199
+"Calhoun County Library<br/>900 F.R. Huff Drive<br/>St. Matthews, SC" 27.8618260566014 -80.7782757 33.6635197
+"Richland County Public Library - John Hughes Cooper Branch Library<br/>5317 N. Trenholm Road<br/>Columbia, SC" 28.7460035631192 -80.9671832 34.0215386
+"Richland County Public Library - Northeast Regional Branch Library<br/>7490 Parklane Road<br/>Columbia, SC" 28.8641818896777 -80.9575298 34.0755709
+"John M. Thomason Public Library (Olanta)<br/>210 East Hampton Street<br/>Olanta, SC" 31.0461094108534 -79.9298189 33.9386559
+"Bethune Public Library<br/>206 Main Street<br/>Bethune, SC" 31.1788729457741 -80.346491 34.4130193
+"Baker Memorial Public Library (Timmonsville)<br/>298 West Smith Street<br/>Timmonsville, SC" 32.0431968989666 -79.9427564 34.1297632
+"Richland County Public Library - North Main Branch Library<br/>5306 North Main Street<br/>Columbia, SC" 32.1451773457173 -81.0219035 34.0519037
+"Richland County Public Library<br/>1431 Assembly Street<br/>Columbia, SC" 32.6541575024267 -81.0374081 34.0041546
+"Richland County Public Library - Blythewood Branch Library<br/>218 Mcnulty Road<br/>Blythewood, SC" 33.3979804644202 -80.9737568 34.2158626
+"Orangeburg County Library - Santee Branch Library<br/>119 Dazzy Circle<br/>Santee, SC" 34.5516250962149 -80.484392 33.474534
+"Lexington County Library - Cayce-West Columbia<br/>1500 Augusta Road<br/>West Columbia, SC" 34.9414987340933 -81.078203 33.9866884
+"Hartsville Memorial Library<br/>147 W. College Avenue<br/>Hartsville, SC" 35.6968466025637 -80.0756948 34.374237
+"Orangeburg County Library - Mentor Branch Library<br/>2621 Cleveland Street<br/>Elloree, SC" 35.8272860784683 -80.6077441 33.4689068
+"Fairfield County Library - Ridgeway Branch Library<br/>175 South Palmer Street<br/>Ridgeway, SC" 36.3086919539275 -80.95972 34.3066135
+"Mcbee Depot Library<br/>96 West Pine Avenue<br/>Mcbee, SC" 36.3557170617767 -80.2574785 34.4694168
+"Richland County Public Library - St. Andrews Regional Branch Library<br/>2916 Broad River Road<br/>Columbia, SC" 36.6757713127877 -81.1026135 34.0478102
+"Lexington County Library - Gaston<br/>214 South Main Street<br/>Gaston, SC" 37.9417241250276 -81.101225 33.81368
+"Lexington County Library - South Congaree - Pine Ridge Branch<br/>200 Sunset Drive<br/>West Columbia, SC" 38.2989684921334 -81.1322558 33.9105567
+"Williamsburg County Library - Dr C. E. Murray Branch<br/>72 C. E. Murray Blvd.<br/>Greeleyville, SC" 38.5876782616136 -79.9920313 33.5816321
+"Lexington County Library - Swansea<br/>199 N. Lawrence Ave.<br/>Swansea, SC" 39.597584685207 -81.0974497 33.7382177
+"Orangeburg County Library Commission<br/>510 Louis St<br/>Orangeburg, SC" 40.0688450362921 -80.8621336 33.4955591
+"Lexington County Library - Irmo<br/>6251 St. Andrews Road<br/>Columbia, SC" 40.2313128411603 -81.163383 34.0588748
+"Darlington County Library System<br/>204 N. Main Street<br/>Darlington, SC" 41.1603697334581 -79.872642 34.30589
+"Lake City Public Library<br/>220 E. Main Street<br/>Lake City, SC" 41.7832544746667 -79.7518847 33.8712561
+"Lancaster County Library - Kershaw Branch Library<br/>3855 Fork Hill Road<br/>Kershaw, SC" 41.8509102817692 -80.5865893 34.571062
+"Williamsburg County Library - Kingstree<br/>215 North Jackson Street<br/>Kingstree, SC" 42.3802118560827 -79.8323687 33.6649948
+"Florence County Library System<br/>509 South Dargan Street<br/>Florence, SC" 42.9439699440826 -79.766409 34.1896424
+"Lexington County Public Library System - Main<br/>5440 Augusta Road<br/>Lexington, SC" 43.0641681762906 -81.2199553 33.9756526
+"Orangeburg County Library - North Branch Library<br/>9316 North Road<br/>North, SC" 44.116777383785 -81.1041717 33.6156186
+"Orangeburg County Library - Holly Hill<br/>8441 Old State Road<br/>Holly Hill, SC" 45.0302596813562 -80.41516 33.32445
+"The Link In Ballentine<br/>1321 Dutch Fork Road<br/>Irmo, SC" 45.1095643337949 -81.2350757 34.1243039
+"Fairfield County Library<br/>300 W. Washington Street<br/>Winnsboro, SC" 45.269673969494 -81.08976 34.37977
+"Lexington County Library - Pelion<br/>206 Pine Street<br/>Pelion, SC" 46.5922094272681 -81.242605 33.770452
+"Fanny D. Lowry Memorial Library<br/>500 North Main Street<br/>Jefferson, SC" 46.8061275341291 -80.3888202 34.6472498
+"Great Falls Library<br/>39 Calhoun Street<br/>Great Falls, SC" 48.3930417811902 -80.9020237 34.5751447
+"Berkeley County Library - St. Stephen Library<br/>1104 South Main Street<br/>St. Stephen, SC" 50.6166113269237 -79.923989 33.399759
+"Society Hill Branch Library<br/>473 S. Main Street<br/>Society Hill, SC" 50.7390791526693 -79.8582114 34.5057298
+"Pamplico Public Library<br/>100 East Main Street<br/>Pamplico, SC" 51.6250793749278 -79.569567 33.99565
+"Lexington County Library - Chapin<br/>129 N.W. Columbia Avenue<br/>Chapin, SC" 52.5613241108074 -81.3560149 34.1683179
+"Lexington County Library - Gilbert-Summit<br/>405 Broad Street<br/>Gilbert, SC" 53.578125413209 -81.400828 33.921706
+"Lancaster County Library System<br/>313 S. White St.<br/>Lancaster, SC" 54.1584772852404 -80.7670122 34.7172065
+"Dorchester County Library System<br/>506 N. Parler Avenue<br/>St. George, SC" 54.6175983878302 -80.5713363 33.1888868
+"Jennie Johnston Mcmahan Library, St.George<br/>506 North Parler Avenue<br/>St. George, SC" 54.6175983878302 -80.5713363 33.1888868
+"Pageland Community Library<br/>109 West Blakeney Street<br/>Pageland, SC" 55.2039766622046 -80.3918132 34.7693583
+"Orangeburg County Library - Springfield Branch Library<br/>210 Brodie Street<br/>Springfield, SC" 56.9592616107668 -81.2741751 33.4943424
+"Bamberg County Public Library<br/>3156 Railroad Avenue<br/>Bamberg, SC" 56.966787147031 -81.0328952 33.2971177
+"Chesterfield County Library System<br/>119 W. Main Street<br/>Chesterfield, SC" 57.0286197657593 -80.0884125 34.7359995
+"Berkeley County Library<br/>1003 Hwy. 52<br/>Moncks Corner, SC" 59.6275019550368 -79.9688275 33.2193417
+"Bamberg County Public Library - Denmark Branch Library<br/>19 Maple Avenue<br/>Denmark, SC" 59.8408599817255 -81.1410002 33.31384
+"Matheson Library<br/>227 Huger Street<br/>Cheraw, SC" 59.8636590840585 -79.8897774 34.6949716
+"Lewisville Community Library<br/>3771 Lancaster Hwy<br/>Richburg, SC" 59.933989299288 -81.003444 34.7196437
+"Johnsonville Public Library<br/>252 South Georgetown Highway<br/>Johnsonville, SC" 60.0018390755634 -79.4419403 33.8149234
+"Berkeley County Library System<br/>100 Library St.<br/>Moncks Corner, SC" 60.0698699821401 -80.0089447 33.1947187
+"Williamsburg County Library - Hemingway<br/>306 North Main Street<br/>Hemingway, SC" 60.6114490275103 -79.4470824 33.7561624
+"Lexington County Library - Batesburg-Leesville<br/>203 Armory Street<br/>Batesburg, SC" 61.2770424295056 -81.5349688 33.9180017
+"Barnwell County Public Library - Blackville Branch Library<br/>19420 Sol Blatt Avenue<br/>Blackville, SC" 62.6987246824308 -81.2705864 33.3600537
+"Marion County Library System<br/>101 East Court Street<br/>Marion, SC" 62.8814215974818 -79.399868 34.1783172
+"Marian Wright Edelman Public Library<br/>203 Fayetteville Avenue<br/>Bennettsville, SC" 63.2081574447255 -79.681511 34.615317
+"Georgetown County Library - Andrews Branch Library<br/>105 North Morgan Avenue<br/>Andrews, SC" 63.5108505123598 -79.5606007 33.452608
+"Marlboro County Library System<br/>200 John Corry Road<br/>Bennettsville, SC" 63.5545203865333 -79.6795881 34.6208539
+"Latta Library<br/>101 North Marion Street<br/>Latta, SC" 64.3954948128344 -79.4342179 34.3386439
+"Chester County Library<br/>100 Center Street<br/>Chester, SC" 66.1232916222041 -81.2150005 34.7050242
+"Waxhaw Library<br/>509 South Providence Street<br/>Waxhaw, NC" 67.3840502097043 -80.740698 34.9219342
+"Barnwell County Public Library - Williston Branch Library<br/>5121 Springfield Road<br/>Williston, SC" 67.4210545328634 -81.4190007 33.4033556
+"Berkeley County Library - Sangaree Library<br/>595 Sangaree Parkway<br/>Summerville, SC" 68.2856089920331 -80.1214553 33.0302597
+"Ridge Spring Library<br/>636 Main Street<br/>Ridge Spring, SC" 68.9977251390385 -81.6611431 33.8455473
+"Newberry County Library System<br/>1300 Friend Street<br/>Newberry, SC" 69.0100666499461 -81.6185333 34.2740601
+"Hal Kohn Memorial Library<br/>1100 Friend Street<br/>Newberry, SC" 69.0626940670121 -81.6198148 34.273209
+"George H. Seago, Jr. Library, Summerville<br/>76 Old Trolley Road<br/>Summerville, SC" 69.5115278916507 -80.1827767 32.9977933
+"Union County Public Library<br/>316 East Windsor Street<br/>Monroe, NC" 69.7997066496309 -80.5457806 34.9809493
+"Dillon County Library System<br/>600 East Main Street<br/>Dillon, SC" 70.0455283070031 -79.3669313 34.4144143
+"Georgetown County Library - Carvers Bay<br/>13048 Choppee Road<br/>Hemingway, SC" 70.1551529655142 -79.329005 33.612391
+"Berkeley County Library - Goose Creek Library<br/>325 Old Moncks Corner Road<br/>Goose Creek, SC" 70.3935424910026 -80.043499 33.020166
+"Marshville Branch Library<br/>118 East Union Street<br/>Marshville, NC" 70.4050786166485 -80.370085 34.988388
+"Mullins Public Library<br/>210 N. Main Street<br/>Mullins, SC" 71.410782432613 -79.2548388 34.2068721
+"Hampton B. Allen Library<br/>120 South Greene Street<br/>Wadesboro, NC" 72.1491719742665 -80.0769557 34.9654843
+"Barnwell County Public Library<br/>40 Burr Street<br/>Barnwell, SC" 72.1831882459858 -81.3637954 33.2431932
+"Horry County Memorial Library - Aynor Library<br/>500 9th Ave.<br/>Aynor, SC" 72.8135962825107 -79.2000904 33.998338
+"York County Library System<br/>138 East Black Street<br/>Rock Hill, SC" 73.0923520127664 -81.0279227 34.924808
+"Saluda County Library System<br/>101 S Main Street<br/>Saluda, SC" 74.7501084278066 -81.7721035 34.0013776
+"Whitmire Memorial Library<br/>1510 Church Street<br/>Whitmire, SC" 74.775130983932 -81.6098497 34.5024506
+"Colleton County Library System<br/>600 Hampton Street<br/>Walterboro, SC" 74.9947704718178 -80.6572098 32.9011174
+"Hamlet Public Library<br/>302 Main Street<br/>Hamlet, NC" 76.720060131263 -79.7037222 34.8856991
+"Edgefield County Public Library - Johnston Branch (Mobley Library)<br/>407 Calhoun Street<br/>Johnston, SC" 77.1301540765667 -81.801667 33.83138
+"Union West Branch Library<br/>123 Unionville-Indian Trail Road<br/>Indian Trail, NC" 77.1559295269064 -80.6648512 35.0775658
+"Abbe Regional Library System<br/>314 Chesterfield Street Sw<br/>Aiken, SC" 77.5634901656613 -81.72089 33.5559839
+"Aiken County Library<br/>314 Chesterfield Street, Sw<br/>Aiken, SC" 77.5634901656613 -81.72089 33.5559839
+"Leath Memorial Library<br/>412 East Franklin Street<br/>Rockingham, NC" 77.7449323279963 -79.770011 34.9386409
+"Nichols Library<br/>208 Floyd Street<br/>Nichols, SC" 77.7908059373226 -79.1483829 34.2356668
+"Rowland Public Library<br/>401 E. Main Street<br/>Rowland, NC" 77.8809596806497 -79.2887992 34.5357151
+"Fort Mill Public Library<br/>1818 Second Baxter Crossing<br/>Fort Mill, SC" 78.3810534507274 -80.9689734 35.0294945
+"South County Regional Library<br/>8140-100 Providence Road<br/>Charlotte, NC" 78.4739117650878 -80.7744415 35.0801084
+"Berkeley County Library - Hanahan Library<br/>1274 Yeamans Hall Road<br/>Hanahan, SC" 78.7838887232658 -80.0103594 32.9012342
+"Lake View Library<br/>207 Main Street<br/>Lake View, SC" 78.8851780257962 -79.1659349 34.3446172
+"Dorchester Road Regional Library<br/>6325 Dorchester Road<br/>North Charleston, SC" 79.6412063338157 -80.060016 32.874364
+"Scotland County Memorial Library<br/>312 W. Church St.<br/>Laurinburg, NC" 79.7190796536792 -79.4658967 34.7753609
+"Georgetown County Library<br/>405 Cleland Street<br/>Georgetown, SC" 79.8069177986086 -79.2849753 33.3740429
+"Aiken County Library - New Ellenton Branch Library<br/>407 Main Street<br/>New Ellenton, SC" 79.9561339457294 -81.6852373 33.4148348
+"Carmel Branch Library<br/>6624 Walsh Blvd<br/>Charlotte, NC" 80.2390900134475 -80.853368 35.0898449
+"Matthews Branch Library<br/>124 W. John Street<br/>Matthews, NC" 80.3635698092643 -80.7229512 35.1166919
+"Edgefield County Public Library - Trenton Branch Library<br/>117 Watson Road<br/>Trenton, SC" 80.5038106511039 -81.842523 33.74164
+"Horry County Memorial Library - Bucksport Library<br/>7657 Highway 701 South<br/>Conway, SC" 80.517511003191 -79.1066987 33.7017522
+"Horry County Memorial Library - Conway Library<br/>801 Main Street<br/>Conway, SC" 81.9322970072121 -79.0510357 33.8413674
+"Horry County Memorial Library - Administration<br/>1008 5th Avenue<br/>Conway, SC" 82.0907868210605 -79.048798 33.837656
+"Allendale County Library<br/>158 Mcnair Street<br/>Allendale, SC" 82.1637052356748 -81.3058622 33.012567
+"Cooper River Memorial Library<br/>3503 Rivers Avenue<br/>North Charleston, SC" 82.3053976629528 -79.9793826 32.8564834
+"Gilbert Patterson Memorial Public Library<br/>210 N Florence St<br/>Maxton, NC" 83.0278226114743 -79.34951 34.7395314
+"York Public Library<br/>21 East Liberty Street<br/>York, SC" 83.1364620098715 -81.2405463 34.9938094
+"Union County Library System<br/>300 East South Street<br/>Union, SC" 83.3311067220503 -81.6209176 34.713503
+"Mint Hill Branch Library<br/>6840 Matthews Mint Hill Rd.<br/>Charlotte, NC" 83.5525594180767 -80.6588999 35.1716041
+"Morrison Regional Library<br/>7015 Morrison Blvd.<br/>Charlotte, NC" 83.9284094645371 -80.8229005 35.1517049
+"Horry County Memorial Library - Green Sea Floyds Library<br/>5331 Highway 9<br/>Green Sea, SC" 83.9350236420932 -79.0194176 34.146221
+"Berkeley County Library - Daniel Island<br/>2301 Daniel Island Drive<br/>Charleston, SC" 84.155665765478 -79.9096206 32.8505269
+"Charleston County Main Library - Mcclellanville Branch Library<br/>222 Baker Street<br/>Mcclellanville, SC" 84.379028775768 -79.462562 33.088533
+"Steele Creek Branch<br/>9124-F South Tryon Street<br/>Charlotte, NC" 84.6052740674432 -80.9406549 35.1337067
+"Edgefield County Public Library<br/>105 Court House Square<br/>Edgefield, SC" 84.8011504214511 -81.929158 33.789603
+"Independence Branch Library<br/>6015 Conference Drive<br/>Charlotte, NC" 84.9191178961775 -80.7551975 35.1787089
+"Lake Wylie Public Library<br/>185 Blucher Circle<br/>Lake Wylie, SC" 85.1462817946621 -81.0420407 35.1107725
+"Hampton County Library<br/>12 Locust Street<br/>Hampton, SC" 85.2090333037214 -81.110784 32.8645123
+"Fair Bluff Community Library<br/>p.o. box 428<br/>Fair Bluff, NC" 85.280437414595 -79.0372544 34.3134996
+"Aiken County Library - Midland Valley Branch Library<br/>9 Hillside Road<br/>Langley, SC" 85.4815064923435 -81.848686 33.514063
+"Hector Maclean Public Library<br/>106 South Main Street<br/>Fairmont, NC" 85.5236816422517 -79.1145127 34.4975598
+"Georgetown County Library - Waccamaw Branch Library<br/>24 Commerce Drive<br/>Pawleys Island, SC" 85.5813833063987 -79.122336 33.449105
+"Kemp Sugg Memorial Library<br/>279 2nd Street<br/>Ellerbe, NC" 85.9856270064603 -79.762967 35.072314
+"Charleston County Main Library - John L. Dart Library<br/>1067 King Street<br/>Charleston, SC" 86.2048876246543 -79.9511252 32.8051409
+"Horry County Memorial Library - Socastee Branch Library<br/>141 707-Connector Road<br/>Myrtle Beach, SC" 86.7519233983934 -79.0030377 33.6751614
+"Oakboro Branch Library<br/>214 Main Street<br/>Oakboro, NC" 86.8495948651877 -80.3261837 35.2238702
+"Myers Park Branch Library<br/>1361 Queens Road<br/>Charlotte, NC" 86.9946391912447 -80.827398 35.1964493
+"Clinton Public Library<br/>107 Jacobs Highway<br/>Clinton, SC" 87.1760935913372 -81.8763844 34.4579363
+"Scaleybark Branch Library<br/>101 Scaleybark Road<br/>Charlotte, NC" 87.1818338289381 -80.8751954 35.1890868
+"Pembroke Public Library<br/>413 Blaine St<br/>Pembroke, NC" 87.606930877 -79.1930208 34.6761324
+"Charleston County Main Library<br/>68 Calhoun Street<br/>Charleston, SC" 87.6853448429278 -79.931129 32.7885564
+"Aiken County Library - Jackson Branch Library<br/>106 Main Street<br/>Jackson, SC" 88.2195734537375 -81.788518 33.3254427
+"Plaza Midwood Branch Library<br/>1623 Central Avenue<br/>Charlotte, NC" 88.410633321692 -80.8110558 35.220619
+"Locust Branch Library<br/>1016 W. Main Street<br/>Locust, NC" 88.586103340866 -80.4381344 35.2542521
+"Norwood Branch Library<br/>207 Pee Dee Avenue<br/>Norwood, NC" 88.8537858132724 -80.1191654 35.225641
+"West Boulevard Branch Library<br/>2157 West Boulevard<br/>Charlotte, NC" 88.976891487879 -80.896174 35.211217
+"Stanly County Public Library<br/>133 East Main Street<br/>Albemarle, NC" 89.056283840236 -80.4224682 35.2607296
+"Wagram Branch Library<br/>PO box 118<br/>Wagram, NC" 89.2117097103529 -79.3661515 34.8879396
+"Public Library Of Charlotte Mecklenburg County<br/>310 North Tryon Street<br/>Charlotte, NC" 89.3175187729468 -80.839928 35.2285169
+"Belmont Center Branch<br/>700 Parkwood Avenue<br/>Charlotte, NC" 89.4527854338577 -80.819517 35.234492
+"Charleston County Main Library - Johns Island Regional Library<br/>3531 Maybank Highway<br/>Johns Island, SC" 89.4743256559911 -80.0771934 32.7225307
+"Horry County Memorial Library - Surfside<br/>410 Surfside Drive<br/>Surfside Beach, SC" 89.5656333727332 -78.9747877 33.6078394
+"Clover Public Library<br/>107 Knox Street<br/>Clover, SC" 89.6020904388818 -81.2265618 35.1091039
+"Mount Gilead Branch<br/>110 West Allenton Street<br/>Mount Gilead, NC" 89.8476388898677 -80.0027313 35.2146814
+"Greenwood County Library - Ninety Six Branch Library<br/>118 Cambridge Street, S<br/>Ninety Six, SC" 90.1537949914689 -82.0240822 34.1737453
+"Freedom Regional Branch<br/>1230 Alleghany St<br/>Charlotte, NC" 90.6922805380874 -80.890467 35.23829
+"Sugar Creek Branch Library<br/>4045 North Tryon Street<br/>Charlotte, NC" 90.7395810232897 -80.7975355 35.2575175
+"Aiken County Library - North Augusta Branch Library (Nancy Carson Library)<br/>135 Edgefield Rd.<br/>North Augusta, SC" 90.8316992450518 -81.9524734 33.5229852
+"Cityview Branch Library<br/>1516 Alleghany St<br/>Charlotte, NC" 90.8879095147556 -80.894824 35.240237
+"Horry County Memorial Library - Loris Library<br/>4316 Main Street<br/>Loris, SC" 90.9052667870999 -78.8867985 34.0548091
+"Charleston County Main Library - James Island Branch Library<br/>1248 Camp Road<br/>Charleston, SC" 91.2525026995959 -79.9494893 32.728166
+"Union Road Branch Library<br/>5800 S. Union Road<br/>Gastonia, NC" 91.4957176796167 -81.1326754 35.178517
+"Charleston County Main Library - Edgar Allen Poe-Sullivans Island Branch Library<br/>1921 Ion Avenue<br/>Sullivans Island, SC" 91.5020441330082 -79.840985 32.75958
+"Beatties Ford Road Branch Library<br/>2412 Beatties Ford Rd<br/>Charlotte, NC" 92.1264365583157 -80.8533522 35.2676379
+"Audiovisual-Tbc<br/>425 Ninth St<br/>Augusta, GA" 92.9483164537959 -81.9687146 33.4736577
+"Tabor City Public Library<br/>1 East Fifth Street<br/>Tabor City, NC" 92.9584925575075 -78.8618938 34.1554622
+"East Central Georgia Regional Library System<br/>902 Greene Street<br/>Augusta, GA" 92.9728129106873 -81.969147 33.473604
+"Headquarters Library (Main)<br/>902 Greene St.<br/>Augusta, GA" 92.9728129106873 -81.969147 33.473604
+"Belmont Branch Library<br/>111 Central Avenue<br/>Belmont, NC" 93.2462601306587 -81.0411154 35.2370366
+"University City Regional<br/>301 North E.W.T. Harris Road<br/>Charlotte, NC" 93.2815819967766 -80.746597 35.3029425
+"Chapin Memorial Library<br/>400 14th Ave. N.<br/>Myrtle Beach, SC" 93.4753389896533 -78.876689 33.697787
+"Chapin Memorial Library<br/>400 14th Avenue North<br/>Myrtle Beach, SC" 93.4753389896533 -78.876689 33.697787
+"Harrisburg Library<br/>201 Sims Parkway<br/>Harrisburg, NC" 93.6156745896854 -80.6589327 35.3181914
+"Wallace Branch<br/>1237 Laney Walker Blvd.<br/>Augusta, GA" 93.763561605422 -81.9803565 33.4662832
+"Robeson County Public Library<br/>101 N. Chestnut Street<br/>Lumberton, NC" 94.6277651480353 -79.0080896 34.6175279
+"Hampton County Library - Estill Branch Library<br/>276 West Third Street<br/>Estill, SC" 95.3315073390447 -81.2367235 32.7538395
+"Appleby Branch<br/>2260 Walton Way<br/>Augusta, GA" 95.4005995743763 -82.0162183 33.4771777
+"Coulwood Branch Library<br/>8410 Bellhaven Blvd.<br/>Charlotte, NC" 95.8301438856481 -80.9367454 35.3047709
+"Charleston County Main Library - Folly Beach Library<br/>55 Center Street<br/>Folly Beach, SC" 96.0079760403555 -79.9423499 32.6576188
+"Lowell Branch Library<br/>203 Mcadenville Road<br/>Lowell, NC" 96.367562586356 -81.098087 35.26733
+"Laurens County Library System<br/>1017 West Main Street<br/>Laurens, SC" 96.4648238999486 -82.0350322 34.4925254
+"Mt. Holly Branch Library<br/>245 West Catawba Avenue<br/>Mt. Holly, NC" 96.6746395765962 -81.0204894 35.2958028
+"Gaston-Lincoln Regional Library<br/>1555 East Garrison Boulevard<br/>Gastonia, NC" 96.7293591992038 -81.1578245 35.2522632
+"Maxwell Branch<br/>1927 Lumkin Rd.<br/>Augusta, GA" 96.822125724512 -82.0131744 33.4178274
+"Pinebluff Public Library<br/>305 East Baltimore Avenue<br/>Pinebluff, NC" 97.019142791977 -79.46822 35.108464
+"Chadbourn Community Library<br/>301 North Wilson St<br/>Chadbourn, NC" 97.1929614703336 -78.825247 34.324878
+"Charleston County Main Library - Edisto Branch Library<br/>1589 Hwy 174<br/>Edisto, SC" 97.7456195118736 -80.28395 32.569332
+"Spartanburg County Public Library - Tri-Pacolet Branch Library<br/>390 W. Main Street<br/>Pacolet, SC" 98.0176817222809 -81.767321 34.902199
+"Greenwood County Library System<br/>106 N. Main Street<br/>Greenwood, SC" 98.0772006623182 -82.1606131 34.1929909
+"Friedman Branch<br/>1447 Jackson Rd<br/>Augusta, GA" 98.3770147316478 -82.0689864 33.4716036
+"Mt. Pleasant Branch Library<br/>8556 Cook St.<br/>Mt. Pleasant, NC" 98.8963005586552 -80.4330492 35.403247
+"Ferguson Branch Library - Erwin Center<br/>913 Pryor Street<br/>Gastonia, NC" 98.8994915512356 -81.192555 35.2738301
+"Blacksburg Library<br/>201 S. Rutherford Street<br/>Blacksburg, SC" 99.1859349760771 -81.5163253 35.1194052
+"Hoke County Public Library<br/>334 North Main Street<br/>Raeford, NC" 99.5611652160463 -79.2237243 34.9825719
+"Beaufort County Library - Lobeco Public Library<br/>1862 Trask Parkway (Highway 21)<br/>Lobeco, SC" 99.5788042387023 -80.7434394 32.5526863
+"Cabarrus County Public Library<br/>27 Union Street North<br/>Concord, NC" 99.6076948812191 -80.5822886 35.4108384
+"Page Memorial Library<br/>100 S. Poplar Street<br/>Aberdeen, NC" 99.6855638131722 -79.4284844 35.132355

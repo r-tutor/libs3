@@ -1,0 +1,185 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Aberdeen Branch" "21 Franklin Street" "Aberdeen" "MD" "" -76.1643278 39.5126527
+"Abingdon Branch Library" "2510 Tollgate Road" "Abingdon" "MD" "21009" -76.3299671 39.4843868
+"Accident Branch Library" "106 S. North Street" "Accident" "MD" "21520" -79.321142 39.628737
+"Prince Georges County Memorial Library - Accokeek" "15773 Livingston Rd." "Accokeek" "MD" "20607" -77.0061573 38.6710564
+"Annapolis Area Library" "1410 West Street" "Annapolis" "MD" "21401" -76.5151597 38.9787464
+"Anne Arundel County Public Library Headquarters" "5 Harry S. Truman Parkway" "Annapolis" "MD" "21401" -76.5661912 38.9815315
+"Broadneck Branch" "1275 Green Holly Drive" "Annapolis" "MD" "21401" -76.4542905 39.0366323
+"Eastport-Annapolis Neck Branch" "269 Hillsmere Drive" "Annapolis" "MD" "21403" -76.4930899 38.9478308
+"Arbutus Library" "1581 Sulphur Spring Rd., Suite 105" "Baltimore" "MD" "21227" -76.6866024 39.2481167
+"Brooklyn Branch" "300 E. Patapsco Ave." "Baltimore" "MD" "21225" -76.6066064 39.237934
+"Brooklyn Park Branch" "1 East 11th Avenue" "Baltimore" "MD" "21225" -76.6118302 39.2230511
+"Canton Branch" "1030 S. Ellwood Avenue" "Baltimore" "MD" "21224" -76.5729379 39.280283
+"Cherry Hill Branch" "606 Cherry Hill Road" "Baltimore" "MD" "21225" -76.6223117 39.2506131
+"Clifton Branch" "2001 N. Wolfe Street" "Baltimore" "MD" "21213" -76.5914038 39.3133247
+"Edmondson Avenue Branch" "4330 Edmondson Avenue" "Baltimore" "MD" "21229" -76.6891233 39.2938328
+"Enoch Pratt Free Library" "400 Cathedral Street" "Baltimore" "MD" "21201" -76.6175457 39.2945319
+"Forest Park Branch" "3023 Garrison Boulevard" "Baltimore" "MD" "21216" -76.6807508 39.3234222
+"Govans Branch" "5714 Bellona Avenue" "Baltimore" "MD" "21212" -76.6112154 39.3595288
+"Hamilton Branch" "5910 Harford Road" "Baltimore" "MD" "21214" -76.5582626 39.3564868
+"Hampden Branch" "3641 Falls Road" "Baltimore" "MD" "21211" -76.6350463 39.3323091
+"Herring Run Branch" "3801 Erdman Avenue" "Baltimore" "MD" "21213" -76.5691236 39.3153603
+"Light Street Branch" "1251 Light Street" "Baltimore" "MD" "21230" -76.6117873 39.2749075
+"Mobile Library Services" "1716 Merritt Blvd." "Baltimore" "MD" "21222" -76.5041953 39.2695955
+"Northwood Branch" "4420 Loch Raven Boulevard" "Baltimore" "MD" "21218" -76.5925919 39.3455169
+"Orleans Street Branch" "1303 Orleans Street" "Baltimore" "MD" "21231" -76.5991795 39.2946989
+"Parkville-Carney Library" "9509 Harford Rd." "Baltimore" "MD" "21234" -76.5251194 39.3934414
+"Patterson Park Branch" "158 N. Linwood Avenue" "Baltimore" "MD" "21224" -76.5767264 39.294847
+"Pennsylvania Avenue Branch" "1531 W. North Avenue" "Baltimore" "MD" "21217" -76.6418446 39.3098603
+"Perry Hall Library" "9440 Belair Rd." "Baltimore" "MD" "21236" -76.469891 39.4078779
+"Pikesville Library" "1301 Reisterstown Rd." "Baltimore" "MD" "21208" -76.7233454 39.3756619
+"Reisterstown Road Branch" "6310 Reisterstown Road" "Baltimore" "MD" "21215" -76.7005876 39.3545809
+"Roland Park Branch" "5108 Roland Avenue" "Baltimore" "MD" "21210" -76.6350856 39.3559987
+"Rosedale Library" "6105 Kenwood Ave." "Baltimore" "MD" "21237" -76.5049731 39.3427875
+"Southeast Anchor Library" "3601 Eastern Avenue" "Baltimore" "MD" "21224" -76.5667424 39.2862705
+"Walbrook Branch" "3203 W. North Avenue" "Baltimore" "MD" "21216" -76.6716155 39.3086097
+"Washington Village Branch" "856 Washington Boulevard" "Baltimore" "MD" "21230" -76.6301574 39.2831046
+"Waverly Branch" "400 E. 33rd Street" "Baltimore" "MD" "21218" -76.610664 39.3286538
+"White Marsh Library" "8133 Sandpiper Circle" "Baltimore" "MD" "21236" -76.4705353 39.3718839
+"Woodlawn Library" "1811 Woodlawn Dr." "Baltimore" "MD" "21207" -76.7366155 39.3166938
+"Bel Air Branch Library" "100 E. Pennsylvania Ave" "Bel Air" "MD" "21014" -76.347871 39.5381533
+"Harford County Public Library" "1221-A Brass Mill Road" "Belcamp" "MD" "21017" -76.2353876 39.476954
+"Prince Georges County Memorial Library - Beltsville" "4319 Sellman Rd." "Beltsville" "MD" "20705" -76.9188618 39.0346354
+"Worcester County Library - Berlin" "220 North Main St." "Berlin" "MD" "21811" -75.2203778 38.3281534
+"Bethesda Branch Library" "7400 Arlington Rd." "Bethesda" "MD" "20814" -77.0989104 38.9834175
+"Davis Branch Library" "6400 Democracy Blvd." "Bethesda" "MD" "20817" -77.1288446 39.0229927
+"Little Falls Branch Library" "5501 Massachusetts Ave." "Bethesda" "MD" "20816" -77.1101676 38.9589012
+"Prince Georges County Memorial Library - Bladensburg" "4820 Annapolis Rd." "Bladensburg" "MD" "20710" -76.9346228 38.9396818
+"Prince Georges County Memorial Library - Bowie" "15210 Annapolis Road" "Bowie" "MD" "20715" -76.7422131 38.979003
+"Prince Georges County Memorial Library - South Bowie" "15301 Hall Road" "Bowie" "MD" "20721" -76.739597 38.9026
+"Prince Georges County Memorial Library - Baden" "13603 Baden-Westwood Road" "Brandywine" "MD" "20613" -76.7715707 38.6605015
+"Brunswick Branch Library" "915 North Maple Avenue" "Brunswick" "MD" "" -77.62431 39.320955
+"Marilyn J. Praisner Library (Fairland)" "14910 Old Columbia Pik" "Burtonsville" "MD" "20866" -76.9407277 39.1022296
+"Dorchester County Public Library" "303 Gay Street" "Cambridge" "MD" "21613" -76.0760586 38.5711822
+"Catonsville Library" "1100 Frederick Rd." "Catonsville" "MD" "21228" -76.7400611 39.2704477
+"Cecilton Branch Library" "215 East Main Street" "Cecilton" "MD" "21913" -75.8629359 39.4036695
+"Queen Annes County Free Library" "121 S Commerce Street" "Centreville" "MD" "21617" -76.0655451 39.0433695
+"Charlotte Hall Branch Library" "37600 New Market Road" "Charlotte Hall" "MD" "20622" -76.7764444 38.4740433
+"Twin Beaches Branch" "3819 Harbor Road" "Chesapeake Beach" "MD" "20732" -76.536665 38.689578
+"Cecil County Public Library - Chesapeake City" "2527 Augustine Herman Highway" "Chesapeake City" "MD" "" -75.8201486 39.5200508
+"Kent County Public Library" "408 High Street" "Chestertown" "MD" "21620" -76.0690761 39.2110727
+"Chevy Chase Branch Library" "8005 Connecticut Ave." "Chevy Chase" "MD" "20815" -77.0765884 38.9911721
+"Prince Georges County Memorial Library - Surratts-Clinton" "9400 Piscataway Rd." "Clinton" "MD" "20735" -76.9149794 38.7608137
+"Cockeysville Library" "9833 Greenside Dr." "Cockeysville" "MD" "21030" -76.629213 39.4602846
+"Central Library" "10375 Little Patuxent Parkway" "Columbia" "MD" "21044" -76.8584344 39.2111967
+"East Columbia Branch Library" "6600 Cradlerock Way" "Columbia" "MD" "21045" -76.8467857 39.1905285
+"Glenwood Branch Library" "2350 Route 97" "Cooksville" "MD" "21723" -77.0225066 39.3064231
+"Corbin Memorial Library" "4 E. Main Street" "Crisfield" "MD" "21817" -75.8432231 37.9814556
+"Crofton Area Branch" "1681 Riedel Road" "Crofton" "MD" "21114" -76.6793921 39.0134896
+"Allegany County Library System" "31 Washington St" "Cumberland" "MD" "21502" -78.7662805 39.6508049
+"South Cumberland Library" "100 Seymour Street" "Cumberland" "MD" "21502" -78.7594116 39.6372226
+"Washington Street Library" "31 Washington Street" "Cumberland" "MD" "21502" -78.7662805 39.6508049
+"Damascus Branch Library" "9701 Main Street" "Damascus" "MD" "20872" -77.2003648 39.2880087
+"Darlington Branch Library" "1134 Main Street" "Darlington" "MD" "21034" -76.203421 39.642726
+"South County Branch" "5940 Deale-Churchton Road" "Deale" "MD" "20751" -76.5532496 38.7836519
+"Caroline County Public Library" "100 Market Street" "Denton" "MD" "21629" -75.8338676 38.8864785
+"Prince Georges County Memorial Library - Spauldings" "5811 Old Silver Hill Road" "District Heights" "MD" "20747" -76.9053794 38.8531497
+"Talbot County Free Library" "100 W. Dover St." "Easton" "MD" "21601" -76.0781304 38.7748258
+"Edgewater Branch" "25 Stepneys Lane" "Edgewater" "MD" "21037" -76.5582571 38.9301374
+"Edgewood Branch Library" "629 Edgewood Road" "Edgewood" "MD" "21040" -76.2988348 39.4265616
+"Eldersburg Branch" "6400 Hemlock Drive" "Eldersburg" "MD" "21784" -76.936468 39.397792
+"Elkridge Branch Library" "6540 Washington Boulevard" "Elkridge" "MD" "21075" -76.7363177 39.2012449
+"Cecil County Public Library - Elkton" "301 Newark Avenue" "Elkton" "MD" "21921" -75.8373728 39.6186506
+"Miller Branch Library" "9421 Frederick Road" "Ellicott City" "MD" "21042" -76.8395818 39.2726693
+"Emmitsburg Branch Library" "300 South Seton Avenue" "Emmitsburg" "MD" "21727" -77.3285457 39.7016481
+"Essex Library" "1110 Eastern Blvd." "Essex" "MD" "21221" -76.463317 39.3152394
+"Ewell School" "20910 Caleb Jones Road" "Ewell" "MD" "21824" -76.03091 37.99518
+"Prince Georges County Memorial Library - Fairmount Heights" "5904 Kolb St." "Fairmount Heights" "MD" "20743" -76.9146738 38.90317
+"Fallston Branch Library" "1461 Fallston Road" "Fallston" "MD" "21047" -76.4267402 39.5253409
+"Federalsburg Branch" "123 Morris Avenue" "Federalsburg" "MD" "21632" -75.7763684 38.6950457
+"Finksburg Branch" "2265 Old Westminster Pike" "Finksburg" "MD" "21048" -76.917107 39.517941
+"C.Burr Artz Public Library" "110 East Patrick Street" "Frederick" "MD" "21701" -77.4087116 39.4134518
+"Urbana Regional Library" "9020 Amelung Street" "Frederick" "MD" "" -77.3540128 39.3313924
+"Friendsville Branch Library" "315 Chestnut Street" "Friendsville" "MD" "21531" -79.404763 39.662334
+"Frostburg Library" "65 East Main Street" "Frostburg" "MD" "21532" -78.9268021 39.6564905
+"Gaithersburg Branch Library" "18330 Montgomery Village Ave." "Gaithersburg" "MD" "20879" -77.2054053 39.1581138
+"Quince Orchard Branch Library" "15831 Quince Orchard Rd." "Gaithersburg" "MD" "20878" -77.2521494 39.1158907
+"Germantown Branch Library" "19840 Century Boulevard" "Germantown" "MD" "20874" -77.2660947 39.1819882
+"North County Area Library" "1010 Eastway" "Glen Burnie" "MD" "21060" -76.6133711 39.1533867
+"Prince Georges County Memorial Library - Glenarden" "8724 Glenarden Pkwy." "Glenarden" "MD" "20706" -76.8602162 38.930723
+"Grantsville Branch Library" "102 Parkside Dr." "Grantsville" "MD" "21536" -79.1560499 39.700376
+"Prince Georges County Memorial Library - Greenbelt" "11 Crescent Road" "Greenbelt" "MD" "20770" -76.8793572 39.0007782
+"North Carroll Branch" "2255 Hanover Pike" "Greenmount" "MD" "21074" -76.8648035 39.6376695
+"North County Branch" "101 Cedar Lane" "Greensboro" "MD" "21639" -75.8190187 38.9975908
+"Washington County Free Library" "100 S. Potomac St" "Hagerstown" "MD" "21740" -77.7212201 39.6402815
+"Havre De Grace Branch Library" "120 N. Union Ave." "Havre De Grace" "MD" "21078" -76.0921428 39.5484996
+"Hurlock Branch Library" "222 S. Main St." "Hurlock" "MD" "21643" -75.862296 38.631107
+"Prince Georges County Memorial Library - Hyattsville" "6530 Adelphi Rd." "Hyattsville" "MD" "20782" -76.949652 38.969253
+"Prince Georges County Memorial Library System" "6532 Adelphi Road" "Hyattsville" "MD" "20782" -76.9491094 38.969309
+"Potomac Branch Library" "3225 Ruth B. Swann Drive" "Indian Head" "MD" "20640" -77.08686 38.623004
+"Jarrettsville Branch Library" "3722 Norrisville Road" "Jarrettsville" "MD" "21084" -76.4805134 39.6019315
+"Joppa Branch Library" "655 Towne Center Dr." "Joppa" "MD" "21085" -76.356637 39.41162
+"Kensington Park Branch Library" "4201 Knowles Ave." "Kensington" "MD" "20895" -77.0813193 39.0290776
+"Noyes Library For Young Children" "10237 Carroll Place" "Kensington" "MD" "20895" -77.0729734 39.0245656
+"Kitzmiller Branch Library" "288 W. Main Street" "Kitzmiller" "MD" "21538" -79.188041 39.386955
+"Charles County Public Library" "2 Garrett Avenue" "La Plata" "MD" "20646" -76.9709593 38.5302124
+"Lansdowne Branch" "500 Third Avenue" "Lansdowne" "MD" "21227" -76.653667 39.2437113
+"Prince Georges County Memorial Library - Largo-Kettering" "9601 Capital Lane" "Largo" "MD" "20774" -76.8386632 38.8914619
+"Maryland City At Russett Branch" "3501 Russett Common" "Laurel" "MD" "20724" -76.8040104 39.1021202
+"Prince Georges County Memorial Library - Laurel" "507 7th Street" "Laurel" "MD" "20707" -76.8562203 39.1032798
+"Savage Branch Library" "9525 Durness Lane" "Laurel" "MD" "20723" -76.8358136 39.1322739
+"Allegany County Bookmobile" "815 National Highway" "Lavale" "MD" "21502" -78.818447 39.6488949
+"Leonardtown Branch Library" "23250 Hollywood Road" "Leonardtown" "MD" "20650" -76.631222 38.3067719
+"Lexington Park Branch Library" "21677 Fdr Blvd." "Lexington Park" "MD" "20653" -76.4572249 38.2616159
+"Linthicum Branch" "400 Shipley Road" "Linthicum" "MD" "21090" -76.657929 39.2017869
+"Georges Creek Library" "76 Main Street" "Lonaconing" "MD" "21539" -78.9797877 39.566886
+"Southern Branch" "20 Appeal Lane" "Lusby" "MD" "20657" -76.438029 38.380249
+"Middletown Branch Library" "101 Prospect Street" "Middletown" "MD" "21769" -77.5423782 39.4423222
+"Hereford Library" "16940 York Rd." "Monkton" "MD" "21111" -76.6637913 39.589787
+"Mount Airy Branch" "705 Ridge Avenue" "Mount Airy" "MD" "21771" -77.1545806 39.3691832
+"Prince Georges County Memorial Library - Mount Rainier" "3409 Rhode Island Ave." "Mount Rainier" "MD" "20712" -76.9595488 38.9367645
+"Prince Georges County Memorial Library - New Carrollton" "7414 Riverdale Rd.." "New Carrollton" "MD" "20784" -76.8826328 38.9622982
+"Cecil County Public Library - North East" "106 West Cecil Avenue" "North East" "MD" "21901" -75.9444611 39.6009725
+"Oakland Branch Library" "6 N. Second Street" "Oakland" "MD" "21550" -79.407098 39.4112269
+"Ruth Enlow Library Of Garrett County" "6 North Second Street" "Oakland" "MD" "21550" -79.407098 39.4112269
+"Worcester County Library - Ocean City" "10003 Coastal Highway" "Ocean City" "MD" "21842" -75.0582955 38.4135291
+"Worcester County Library - Ocean Pines" "11107 Cathell Rd." "Ocean Pines" "MD" "21811" -75.1663133 38.3798894
+"West County Area Library" "1325 Annapolis Road" "Odenton" "MD" "21113" -76.7001832 39.0872527
+"Olney Branch Library" "3500 Olney-Laytonsville Road" "Olney" "MD" "20832" -77.0690173 39.1537104
+"Fairview Branch" "8120 Southern Maryland Boulevard" "Owings" "MD" "20736" -76.640617 38.691248
+"Prince Georges County Memorial Library - Oxon Hill" "6200 Oxon Hill Rd." "Oxon Hill" "MD" "20745" -76.9838447 38.803491
+"Mountain Road Branch" "4730 Mountain Road" "Pasadena" "MD" "21122" -76.4774294 39.1058942
+"Riviera Beach Branch" "1130 Duvall Highway" "Pasadena" "MD" "21122" -76.526109 39.145152
+"Cecil County Public Library - Perryville" "500 Coudon Blvd." "Perryville" "MD" "21903" -76.065001 39.569079
+"Worcester County Library - Pocomoke City" "301 Market St." "Pocomoke City" "MD" "21851" -75.5662444 38.0741289
+"Edward F. Fry Memorial Library At Point Of Rocks" "1635 Ballenger Creek Pike" "Point Of Rocks" "MD" "" -77.5383288 39.2778792
+"Poolesville Branch Library" "19633 Fisher Ave." "Poolesville" "MD" "20837" -77.410304 39.1435391
+"Cecil County Public Library - Port Deposit" "13 South Main Street" "Port Deposit" "MD" "21904" -76.1149309 39.6043998
+"Potomac Branch Library" "10101 Glenolden Drive" "Potomac" "MD" "20854" -77.207592 39.019264
+"Calvert Library Prince Frederick" "850 Costley Way" "Prince Frederick" "MD" "20678" -76.5990829 38.5553644
+"Somerset County Library" "11767 Beechwood Street" "Princess Anne" "MD" "21853" -75.692147 38.2044523
+"Randallstown Library" "8604 Liberty Rd." "Randallstown" "MD" "21133" -76.7789865 39.3619948
+"Reisterstown Library" "21 Cockeys Mill Rd." "Reisterstown" "MD" "21136" -76.831018 39.4636581
+"Cecil County Public Library - Rising Sun" "111 Colonial Way" "Rising Sun" "MD" "21911" -76.056535 39.695269
+"Rock Hall Branch Library" "5585 Main Street" "Rock Hall" "MD" "21661" -76.2332956 39.133884
+"Aspen Hill Library" "4407 Aspen Hill Rd." "Rockville" "MD" "20853" -77.0887516 39.0796124
+"Montgomery County Public Libraries" "21 Maryland Ave., Suite 310" "Rockville" "MD" "20850" -77.1512366 39.0866536
+"Rockville Branch Library" "21 Maryland Ave." "Rockville" "MD" "20850" -77.1512366 39.0866536
+"Twinbrook Branch Library" "202 Meadow Hall Drive" "Rockville" "MD" "20851" -77.1134829 39.0751326
+"Wicomico Public Library" "122 South Division Street" "Salisbury" "MD" "21801" -75.6025363 38.3636232
+"Provinces Branch" "2624 Annapolis Road" "Severn" "MD" "21144" -76.737116 39.13104
+"Severna Park Area Branch" "45 Mckinsey Road" "Severna Park" "MD" "21146" -76.5403536 39.0760866
+"Long Branch Library" "8800 Garland Ave." "Silver Spring" "MD" "20901" -77.0011762 39.0007747
+"Silver Spring Branch Library" "8901 Colesville Road" "Silver Spring" "MD" "20910" -77.0250422 39.0001333
+"White Oak Branch Library" "11701 New Hampshire Ave." "Silver Spring" "MD" "20904" -76.9920951 39.0480914
+"Worcester County Library - Snow Hill" "307 N Washington Street" "Snow Hill" "MD" "21863" -75.3942951 38.178164
+"St. Michaels Branch Library" "106 Fremont St." "St. Michaels" "MD" "21663" -76.2257039 38.785814
+"Kent Island Branch" "200 Library Circle" "Stevensville" "MD" "21666" -76.305639 38.979183
+"Takoma Park Maryland Library" "101 Philadelphia Avenue" "Takoma Park" "MD" "20912" -77.0107628 38.9811501
+"Taneytown Branch" "10 Grand Drive" "Taneytown" "MD" "21787" -77.1608412 39.6493928
+"Prince Georges County Memorial Library - Hillcrest Heights" "2398 Iverson St." "Temple Hills" "MD" "20748" -76.9572023 38.8352344
+"Thurmont Branch Library" "11 Water Street" "Thurmont" "MD" "21788" -77.411847 39.6234207
+"Tilghman Branch Library" "21374 Foster Avenue" "Tilghman" "MD" "21671" -76.337588 38.712854
+"Baltimore County Public Library" "320 York Road" "Towson" "MD" "21204" -76.6024626 39.39889
+"Loch Raven Mini Library" "1046 Taylor Avenue" "Towson" "MD" "21286" -76.5731998 39.3843812
+"Towson Library" "320 York Rd." "Towson" "MD" "21204" -76.6024626 39.39889
+"Prince Georges County Memorial Library - Upper Marlboro" "14730 Main St." "Upper Marlboro" "MD" "20772" -76.750814 38.8169083
+"P.D. Brown Memorial Branch Library" "50 Village Street" "Waldorf" "MD" "20602" -76.900187 38.601612
+"Walkersville Branch Library" "57 West Frederick Street" "Walkersville" "MD" "21793" -77.3550667 39.4789879
+"Westernport Library" "66 Main Street" "Westernport" "MD" "21562" -79.0447309 39.48554
+"Bookmobile Services" "50 East Main Street" "Westminster" "MD" "21157" -76.9956484 39.5742544
+"Carroll County Public Library" "115 Airport Drive" "Westminster" "MD" "21157" -76.9991362 39.6053627
+"Wheaton Branch Library" "11701 Georgia Ave." "Wheaton" "MD" "20902" -77.0513794 39.0475671
+"Norrisville Branch Library" "5310 Norrisville Road" "White Hall" "MD" "21161" -76.534414 39.7018506
+"Whiteford Branch Library" "2407 Whiteford Road" "Whiteford" "MD" "21160" -76.34643 39.710303

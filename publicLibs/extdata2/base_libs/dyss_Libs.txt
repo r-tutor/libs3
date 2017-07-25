@@ -1,0 +1,47 @@
+"location" "miles" "latitude" "longitude"
+"Abilene Library Consortium<br/>3305 N. 3rd St.<br/>Abilene, TX" 5.09021291566083 -99.762436 32.45272
+"Abilene Public Library<br/>202 Cedar St<br/>Abilene, TX" 6.50308083707614 -99.7357361 32.4509175
+"Big Country Library System<br/>202 Cedar Street<br/>Abilene, TX" 6.50308083707614 -99.7357361 32.4509175
+"Merkel Public Library<br/>100 Kent<br/>Merkel, TX" 10.5088758224485 -100.0124548 32.4709261
+"Clyde Public Library<br/>125 Oak St<br/>Clyde, TX" 20.3553819962556 -99.493776 32.406871
+"Anson Public Library<br/>1137 12th St<br/>Anson, TX" 23.2918143330703 -99.896841 32.755895
+"Callahan County Library<br/>100 W 4th Ste B1<br/>Baird, TX" 25.7760105150604 -99.4016909 32.3949607
+"Calhoun County Public Library - Seadrift Branch Library<br/>103 W. Dallas<br/>Port Oconnor, TX" 31.5850008812823 -99.9018131 31.9685988
+"Winters Public Library<br/>120 N Main St<br/>Winters, TX" 32.8862457774194 -99.9628114 31.958109
+"County-City Library<br/>206 Elm St<br/>Sweetwater, TX" 33.1233339771427 -100.4062795 32.4717062
+"Stamford Carnegie Library<br/>600 E Mcharg St<br/>Stamford, TX" 36.246670842721 -99.7960255 32.9449542
+"Shackelford County Library<br/>402 N 2nd St<br/>Albany, TX" 38.1781314314737 -99.296051 32.7274339
+"Cross Plains Public Library<br/>149 N Main St<br/>Cross Plains, TX" 44.5439977947949 -99.1657409 32.1259568
+"Rotan Public Library<br/>404 E Sammy Baugh Ave<br/>Rotan, TX" 46.8185557269941 -100.4622159 32.8527363
+"Carnegie Library Of Ballinger<br/>204 N 8th St<br/>Ballinger, TX" 47.6647770318194 -99.9499984 31.7394338
+"Coleman Public Library<br/>402 S Commercial Ave<br/>Coleman, TX" 47.8772188448497 -99.423045 31.8280375
+"Cisco Public Library<br/>600 Ave G<br/>Cisco, TX" 50.203399098695 -98.9831854 32.3883866
+"Haskell County Library<br/>300 N Ave E<br/>Haskell, TX" 51.3929116104626 -99.7338955 33.1597721
+"Coke County Library<br/>706 Austin St<br/>Robert Lee, TX" 52.5449206990139 -100.4857276 31.8933197
+"Stonewall County Library<br/>516 S Washington Ave<br/>Aspermont, TX" 54.4205574140411 -100.2288545 33.1386789
+"Santa Anna Library<br/>606 Wallis Ave<br/>Santa Anna, TX" 56.0284197160131 -99.3226309 31.7422991
+"Breckenridge Library<br/>209 N Breckenridge Ave<br/>Breckenridge, TX" 59.4183287853148 -98.9026023 32.7563927
+"Centennial Memorial Library<br/>210 S Lamar St<br/>Eastland, TX" 59.7588632889492 -98.8188834 32.4004946
+"Mitchell County Public Library<br/>340 Oak St<br/>Colorado City, TX" 59.9876685318851 -100.8682919 32.3893162
+"Depot Public Library<br/>120 E Chestnut St<br/>Throckmorton, TX" 65.0481306354427 -99.176964 33.1786418
+"Scurry County Library<br/>1916 23rd St<br/>Snyder, TX" 66.0416641292887 -100.9186482 32.7191703
+"Ranger City Library<br/>718 Pine St<br/>Ranger, TX" 67.3723671890499 -98.6892838 32.473147
+"Charlie Garrett Memorial Library<br/>103 S Fisher<br/>Gorman, TX" 69.8049912023625 -98.6740782 32.2117148
+"Brownwood Public Library<br/>600 Carnegie St<br/>Brownwood, TX" 70.1582669200958 -98.9811941 31.7175631
+"Kent County Library<br/>156 W 4th St<br/>Jayton, TX" 71.2536883392371 -100.574914 33.2480314
+"Munday City-County Library<br/>121 E B St<br/>Munday, TX" 72.3598726169101 -99.6239941 33.4523402
+"Tom Green County Library System<br/>113 W Beauregard Ave<br/>San Angelo, TX" 75.1604352635927 -100.4395376 31.4614493
+"Sterling County Public Library<br/>301 Main<br/>Sterling City, TX" 78.4215064439194 -100.987287 31.83553
+"Deleon City County Library<br/>125 E Reynosa Ave<br/>De Leon, TX" 79.3817530712103 -98.5363069 32.108966
+"Comanche Public Library<br/>311 N Austin St<br/>Comanche, TX" 81.0117664455691 -98.6038912 31.8996357
+"Eden Public Library<br/>117 Market St<br/>Eden, TX" 83.4952013049889 -99.8455777 31.2153399
+"Library Of Graham<br/>910 Cherry St<br/>Graham, TX" 86.6256632842282 -98.5885724 33.0987589
+"Baylor County Free Library<br/>101 S Washington St<br/>Seymour, TX" 87.3432616508791 -99.2610544 33.5873289
+"Guthrie CSD King County Consolidated Library<br/>301 Jaguar Ln<br/>Guthrie, TX" 87.6665161377393 -100.3243304 33.6234376
+"Olney Community Library And Arts Center<br/>807 W Hamilton St<br/>Olney, TX" 90.6645433988555 -98.7626781 33.3693929
+"Dublin Public Library<br/>206 W Blackjack St<br/>Dublin, TX" 90.6701934967292 -98.3439562 32.0855722
+"Dickens County Spur Public Library<br/>415 E Hill St<br/>Spur, TX" 93.6047868334722 -100.8494901 33.478907
+"Fm Buck Richards Memorial Library<br/>1106 S Blackburn St<br/>Brady, TX" 94.4799757327092 -99.334291 31.126482
+"Howard County Library<br/>500 S Main St<br/>Big Spring, TX" 96.2449762606725 -101.4759302 32.2500205
+"Stephenville Public Library<br/>174 N Columbia St<br/>Stephenville, TX" 96.7601020289974 -98.2039341 32.2203682
+"Irion County Library<br/>111 W Fayette Ave<br/>Mertzon, TX" 98.9700229015384 -100.8230245 31.2594605

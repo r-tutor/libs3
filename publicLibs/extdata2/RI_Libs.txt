@@ -1,0 +1,74 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Barrington Public Library" "281 County Road" "Barrington" "RI" "02806" -71.3071069 41.7404848
+"Rogers Free Library" "525 Hope Street" "Bristol" "RI" "02809" -71.277086 41.671259
+"Jesse M. Smith Memorial Library" "100 Tinkham Lane" "Burrillville" "RI" "02830" -71.6745487 41.964994
+"Central Falls Free Public Library" "205 Central Street" "Central Falls" "RI" "02863" -71.38787 41.8858842
+"Cross Mills Public Library" "4417 Old Post Road" "Charlestown" "RI" "02813" -71.6408378 41.3825525
+"Coventry Public Library" "1672 Flat River Road" "Coventry" "RI" "02816" -71.5929287 41.7001867
+"Arlington Branch" "1064 Cranston St., Cranston, Ri 02920" "Cranston" "RI" "" -71.4480209 41.7973868
+"Auburn Branch" "396 Pontiac Ave., Cranston, Ri 02910" "Cranston" "RI" "" -71.4372417 41.7770303
+"Cranston Public Library" "140 Sockanosset Cross Road" "Cranston" "RI" "02920" -71.456979 41.754401
+"Knightsville Branch" "1847 Cranston St., Cranston, Ri 02920" "Cranston" "RI" "" -71.4670533 41.7787519
+"Oak Lawn Branch" "230 Wilbur Ave., Cranston, Ri 02920" "Cranston" "RI" "" -71.4863869 41.7496856
+"William Hall Library" "1825 Broad St., Cranston, Ri 02905" "Cranston" "RI" "" -71.3997855 41.7754389
+"Cumberland Public Library" "1464 Diamond Hill Road" "Cumberland" "RI" "02864" -71.4042438 41.9340888
+"East Greenwich Free Library" "82 Peirce Street" "East Greenwich" "RI" "02818" -71.4508134 41.6613663
+"East Providence Public Library" "41 Grove Avenue" "East Providence" "RI" "02914" -71.375259 41.818466
+"Fuller Branch" "260 Dover Ave., East Providence, Ri 02914" "East Providence" "RI" "" -71.358963 41.803654
+"Riverside Branch" "475 Bullocks Point Avenue, Riverside, Ri 02915" "East Providence" "RI" "" -71.3615243 41.7654741
+"Exeter Public Library" "773 Ten Rod Road" "Exeter" "RI" "02822" -71.5871447 41.5802329
+"Foster Public Library" "184 Howard Hill Road" "Foster" "RI" "02825" -71.7227416 41.7706194
+"Tyler Free Library" "81a Moosup Valley Rd., Foster, Ri 02825" "Foster" "RI" "" -71.752722 41.736232
+"Glocester Manton Free Public Library" "1137 Putnam Pike" "Glocester" "RI" "02814" -71.668492 41.911793
+"Harmony Library" "195 Putnam Pike" "Glocester" "RI" "02829" -71.595937 41.888566
+"Greene Public Library" "179 Hopkins Hollow Road" "Greene" "RI" "02827" -71.749493 41.688079
+"Ashaway Free Library" "15 Knight Street" "Hopkinton" "RI" "02804" -71.7883601 41.4243566
+"Langworthy Public Library" "24 Spring Street" "Hopkinton" "RI" "02832" -71.7180055 41.5088603
+"Jamestown Philomenian Library" "26 North Road" "Jamestown" "RI" "02835" -71.3741462 41.4976298
+"Marian J. Mohr Memorial Library" "1 Memorial Avenue" "Johnston" "RI" "02919" -71.5023777 41.8305254
+"Kingston Free Library" "2605 Kingstown Rd., Kingston, Ri 02881" "Kingston" "RI" "" -71.525217 41.480657
+"Lincoln Public Library" "145 Old River Road" "Lincoln" "RI" "02865" -71.4528456 41.9380127
+"Brownell Library, Home Of Little Compton" "44 Commons" "Little Compton" "RI" "02837" -71.170832 41.509954
+"Middletown Public Library" "700 West Main Road" "Middletown" "RI" "02842" -71.2996047 41.5215957
+"Narragansett Public Library" "35 Kingstown Road" "Narragansett" "RI" "02882" -71.4597953 41.431381
+"Island Free Library" "po box 1830" "New Shoreham" "RI" "02807" -71.5576073 41.172137
+"Newport Public Library" "300 Spring Street" "Newport" "RI" "02840" -71.3124233 41.4825897
+"Davisville Free Library" "481 Davisville Road" "North Kingstown" "RI" "02852" -71.4774356 41.6166862
+"North Kingstown Free Library" "100 Boone Street" "North Kingstown" "RI" "02852" -71.4560542 41.5701002
+"Willett Free Library" "45 Ferry Road" "North Kingstown" "RI" "02874" -71.423812 41.507733
+"Mayor Salvatore Mancini Union Free Library" "1810 Mineral Spring Avenue" "North Providence" "RI" "02904" -71.458867 41.86144
+"Pascoag Free Public Library" "57 Church St." "Pascoag" "RI" "02859" -71.704796 41.957218
+"Pawtucket Public Library" "13 Summer Street" "Pawtucket" "RI" "02860" -71.3843652 41.8786859
+"Peace Dale Library" "1057 Kingstown Rd., Peace Dale, Ri 02879" "Peace Dale" "RI" "" -71.4951098 41.4510146
+"Portsmouth Free Public Library" "2658 East Main Road" "Portsmouth" "RI" "02871" -71.2487648 41.6020724
+"Fox Point Library" "90 Ives St., Providence, Ri 02906" "Providence" "RI" "" -71.3924628 41.8206563
+"Knight Memorial Library" "275 Elmwood Ave., Providence, Ri 02907" "Providence" "RI" "" -71.4259842 41.8050532
+"Mount Pleasant Library" "315 Academy Ave., Providence, Ri 02908" "Providence" "RI" "" -71.4440315 41.8334178
+"Providence Public Library" "150 Empire Street" "Providence" "RI" "02903" -71.4169893 41.8219428
+"Rochambeau Library" "708 Hope Street Providence, Ri 02906" "Providence" "RI" "" -71.3966385 41.8462806
+"Smith Hill Library" "31 Candace Street Providence, Ri 02908" "Providence" "RI" "" -71.422189 41.8353668
+"South Providence Library" "441 Prairie Avenue Providence, Ri 02905" "Providence" "RI" "" -71.4137049 41.801972
+"Wanskuck Library" "233 Veazie Street Providence, Ri 02904" "Providence" "RI" "" -71.4343686 41.8514675
+"Washington Park Library" "1316 Broad Street Providence, Ri 02905" "Providence" "RI" "" -71.4054818 41.7909588
+"Clark Memorial Library" "7 Pinehurst Drive" "Richmond" "RI" "02812" -71.6614915 41.4668153
+"Rumford Branch" "1392 Pawtucket Avenue, Rumford, Ri 02916" "Rumford" "RI" "" -71.3478499 41.835274
+"Hope Library" "374 North Road" "Scituate" "RI" "02831" -71.5638902 41.7364665
+"North Scituate Public Library" "606 West Greenville Road" "Scituate" "RI" "02857" -71.5871954 41.8338278
+"North Smithfield Public Library" "20 Main Street" "Slatersville" "RI" "02876" -71.5804992 41.9998478
+"East Smithfield Public Library" "50 Esmond Street" "Smithfield" "RI" "02917" -71.5044958 41.8741808
+"Greenville Public Library" "573 Putnam Pike" "Smithfield" "RI" "02828" -71.5491998 41.8711064
+"South Kingstown Public Library" "1057 Kingstown Road" "South Kingstown" "RI" "02879" -71.4951098 41.4510146
+"Essex Public Library" "238 Highland Road" "Tiverton" "RI" "02878" -71.2074974 41.6282437
+"Union Free Library" "3832 Main Road Tiverton, Ri 02878" "Tiverton" "RI" "" -71.1879639 41.573028
+"Robert Beverly Hale Library" "2601 Commodore Perry Highway, Wakefield, Ri 02879" "Wakefield" "RI" "" -71.5441766 41.3985956
+"George Hail Free Library" "530 Main Street" "Warren" "RI" "02885" -71.2818806 41.7284757
+"Apponaug Branch" "3267 Post Rd., Warwick, Ri 02886" "Warwick" "RI" "" -71.4581746 41.6992671
+"Conimicut Branch" "55 Beach Ave., Warwick, Ri 02889" "Warwick" "RI" "" -71.3814218 41.723885
+"Norwood Branch" "328 Pawtuxet Ave., Warwick, Ri 02888" "Warwick" "RI" "" -71.430469 41.754289
+"Pontiac Free Library" "101 Greenwich Avenue" "Warwick" "RI" "02886" -71.474978 41.7297211
+"Warwick Public Library" "600 Sandy Lane" "Warwick" "RI" "02889" -71.4026615 41.7107381
+"Louttit Memorial Library" "274 Victory Highway" "West Greenwich" "RI" "02817" -71.688235 41.640443
+"West Warwick Public Library" "1043 Main Street" "West Warwick" "RI" "02893" -71.5238887 41.7119989
+"Westerly Public Library" "44 Broad Street" "Westerly" "RI" "02891" -71.8296343 41.3774049
+"Fairmount Branch" "18 Memorial Drive, Woonsocket, Ri 02895" "Woonsocket" "RI" "" -71.532349 41.99648
+"Woonsocket Harris Public Library" "303 Clinton Street" "Woonsocket" "RI" "02895" -71.5082002 42.0054054

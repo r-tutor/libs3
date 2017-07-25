@@ -1,0 +1,294 @@
+"Library Name" "Address" "City" "State" "ZIP Code" "Latitude" "Longitude"
+"Absecon Public Library" "305 New Jersey Avenue" "Absecon" "NJ" "08201" -74.5045078 39.4281891
+"Lee Memorial Library" "500 W. Crescent Avenue" "Allendale" "NJ" "07401" -74.1383312 41.0299414
+"W.H. Walters Free Public Library" "1001 East Blvd" "Alpha" "NJ" "08865" -75.160951 40.6633349
+"Asbury Park Free Public Library" "500 First Avenue" "Asbury Park" "NJ" "07712" -74.0074599 40.220238
+"Waterford Township Public Library" "2204 Atco Avenue" "Atco" "NJ" "08004" -74.8871702 39.769905
+"Atlantic City Free Public Library" "1 N. Tennessee Avenue" "Atlantic City" "NJ" "08401" -74.4280869 39.3621695
+"Atlantic Highlands Public Library" "100 First Avenue" "Atlantic Highlands" "NJ" "07716" -74.0379003 40.4126501
+"Audubon Free Public Library" "239 Oakland Avenue" "Audubon" "NJ" "08106" -75.0693128 39.8909808
+"Avalon Free Public Library" "235 32nd Street" "Avalon" "NJ" "08202" -74.7250529 39.0957237
+"Libraries Of Middlesex Automation Consortium" "1030 St. Georges Ave Suite 203" "Avenel" "NJ" "07001" -74.2934752 40.5741767
+"Bernards Township Library" "32 South Maple Avenue" "Basking Ridge" "NJ" "07920" -74.5476893 40.7060141
+"Bayonne Free Public Library" "697 Avenue C" "Bayonne" "NJ" "07002" -74.1155687 40.6717093
+"Bedminster-Far Hills" "2336 Lamington Road" "Bedminster" "NJ" "07921" -74.6509279 40.6782139
+"Belleville Public Library" "221 Washington Avenue" "Belleville" "NJ" "07109" -74.1527577 40.788446
+"Belmar Public Library" "517 Tenth Avenue" "Belmar" "NJ" "07719" -74.0234093 40.1785535
+"Belvidere Free Public Library" "301 Second Street" "Belvidere" "NJ" "07823" -75.078659 40.827251
+"Warren County Library" "199 Hardwick Street" "Belvidere" "NJ" "07823" -75.0756694 40.8279551
+"Bergenfield Free Public Library" "50 W. Clinton Avenue" "Bergenfield" "NJ" "07621" -73.9996079 40.9233384
+"Berkeley Heights Free Public Library" "290 Plainfield Avenue" "Berkeley Heights" "NJ" "07922" -74.439609 40.6789083
+"Marie Fleche Memorial Library" "49 South White Horse Pike" "Berlin" "NJ" "08009" -74.9320525 39.7959723
+"Bernardsville Public Library" "1 Anderson Hill Road" "Bernardsville" "NJ" "07924" -74.5690234 40.7194435
+"Beverly Free Library" "441 Cooper St." "Beverly" "NJ" "08010" -74.9189458 40.0642686
+"Bloomfield Public Library" "90 Broad Street" "Bloomfield" "NJ" "07003" -74.1981795 40.7966252
+"Bloomingdale Free Public Library" "101 Hamburg Turnpike" "Bloomingdale" "NJ" "07403" -74.3392042 41.0077642
+"Bogota Public Library" "375 Larch Avenue" "Bogota" "NJ" "07603" -74.029769 40.8793147
+"Boonton Holmes Public Library" "621 Main Street" "Boonton" "NJ" "07005" -74.4109676 40.9051125
+"Bradley Beach Public Library" "511 Fourth Avenue" "Bradley Beach" "NJ" "07720" -74.0162107 40.2003899
+"Bridgeton Free Public Library" "150 E. Commerce Street" "Bridgeton" "NJ" "08302" -75.2318444 39.428565
+"Cumberland County Library" "800 E. Commerce Street" "Bridgeton" "NJ" "08302" -75.2064581 39.4235901
+"Somerset County Library" "1 Vogt Drive" "Bridgewater" "NJ" "08807" -74.6076021 40.58792
+"Brielle Public Library" "610 South Street" "Brielle" "NJ" "08730" -74.0619267 40.1142299
+"Mendham Township Library" "2 East Main Street" "Brookside" "NJ" "07926" -74.5682723 40.7947117
+"Library Company Of Burlington" "23 W. Union Street" "Burlington" "NJ" "08016" -74.8602724 40.079059
+"Caldwell Free Public Library" "268 Bloomfield Avenue" "Caldwell" "NJ" "07006" -74.2744388 40.8381718
+"Camden Free Public Library" "418 Federal Street" "Camden" "NJ" "08103" -75.12245 39.943865
+"Cape May County Library" "30 Mechanic Street" "Cape May Court House" "NJ" "08210" -74.8251458 39.0831871
+"William E. Dermody Free Public Library" "420 Hackensack Street" "Carlstadt" "NJ" "07072" -74.0915767 40.8379983
+"Carteret Free Public Library" "100 Cooke Avenue" "Carteret" "NJ" "07008" -74.2191347 40.5789837
+"Chathams Joint Free Public Library" "214 Main Street" "Chatham" "NJ" "07928" -74.3807786 40.7406222
+"Cherry Hill Free Public Library" "1100 Kings Highway North" "Cherry Hill" "NJ" "08034" -75.0044077 39.920517
+"Chester Library" "250 West Main Street" "Chester" "NJ" "07930" -74.7066139 40.7814945
+"Clark Public Library" "303 Westfield Avenue" "Clark" "NJ" "07066" -74.3102877 40.6217537
+"Clementon Memorial Library" "195 Gibbsboro Road" "Clementon" "NJ" "08021" -74.9876691 39.8091395
+"Cliffside Park Free Public Library" "505 Palisade Avenue" "Cliffside Park" "NJ" "07010" -73.9887003 40.8208236
+"Clifton Public Library" "292 Piaget Avenue" "Clifton" "NJ" "07011" -74.1468795 40.8807939
+"Closter Public Library" "280 High Street" "Closter" "NJ" "07624" -73.9673903 40.9741038
+"Collingswood Free Public Library" "771 Haddon Avenue" "Collingswood" "NJ" "08108" -75.0667249 39.9158596
+"Cranbury Public Library" "23 N. Main Street" "Cranbury" "NJ" "08512" -74.5183911 40.3119997
+"Cranford Public Library" "224 Walnut Avenue" "Cranford" "NJ" "07016" -74.3042797 40.6515803
+"Cresskill Public Library" "53 Union Avenue" "Cresskill" "NJ" "07626" -73.9603635 40.9419871
+"Crosswicks Library Company" "483 Main Street" "Crosswicks" "NJ" "08015" -74.6467863 40.1533392
+"Delanco Public Library" "1303 Burlington Avenue" "Delanco" "NJ" "08075" -74.9482364 40.0529894
+"Demarest Public Library Association" "90 Hardenburgh Avenue" "Demarest" "NJ" "07627" -73.9675289 40.9576111
+"Denville Free Public Library" "121 Diamond Spring Road" "Denville" "NJ" "07834" -74.473464 40.8964859
+"James H. Johnson Memorial Library" "670 Ward Drive" "Deptford" "NJ" "08096" -75.1391319 39.8251008
+"Dover Free Public Library" "32 E. Clinton Street" "Dover" "NJ" "07801" -74.5571592 40.8863457
+"Dixon Homestead Library" "180 Washington Avenue" "Dumont" "NJ" "07628" -73.9936929 40.9418115
+"East Brunswick Public Library" "2 Jean Walling Civic Center" "East Brunswick" "NJ" "08816" -74.4049778 40.4316955
+"East Hanover Township Free Public Library" "415 Ridgedale Avenue" "East Hanover" "NJ" "07936" -74.3606938 40.8258885
+"East Orange Public Library" "21 S. Arlington Avenue" "East Orange" "NJ" "07018" -74.2119451 40.7600648
+"East Rutherford Memorial Library" "143 Boiling Springs Avenue" "East Rutherford" "NJ" "07073" -74.0989796 40.8327367
+"Eatontown Public Library" "33 Broad Street" "Eatontown" "NJ" "07724" -74.0586092 40.3052115
+"Edgewater Free Public Library" "49 Hudson Avenue" "Edgewater" "NJ" "07020" -73.9742757 40.829772
+"Edison Township Free Public Library" "340 Plainfield Avenue" "Edison" "NJ" "08817" -74.4081924 40.5174604
+"Elizabeth Free Public Library" "11 South Broad St." "Elizabeth" "NJ" "07202" -74.2156918 40.6615853
+"Elmer Public Library" "120 S. Main Street" "Elmer" "NJ" "08318" -75.1684304 39.5930954
+"Elmwood Park Free Public Library" "210 Lee Street" "Elmwood Park" "NJ" "07407" -74.1184481 40.9091982
+"Emerson Public Library" "20 Palisade Avenue" "Emerson" "NJ" "07630" -74.025872 40.97312
+"Englewood Free Public Library" "31 Engle Street" "Englewood" "NJ" "07631" -73.9716585 40.8938977
+"Fair Haven Public Library" "748 River Road" "Fair Haven" "NJ" "07704" -74.035683 40.3640832
+"Maurice M. Pine Free Public Library" "10-01 Fair Lawn Avenue" "Fair Lawn" "NJ" "07410" -74.131476 40.9364496
+"Anthony Pio Costa Memorial Library" "261 Hollywood Avenue" "Fairfield" "NJ" "07004" -74.3003089 40.8877716
+"Fairview Free Public Library" "213 Anderson Avenue" "Fairview" "NJ" "07022" -73.9957704 40.8158566
+"Fanwood Memorial Library" "14 Tillotson Road" "Fanwood" "NJ" "07023" -74.3854562 40.6426972
+"Mount Olive Public Library" "202 Flanders-Drakestown Road" "Flanders" "NJ" "07836" -74.7416159 40.844862
+"Flemington Free Public Library" "118 Main Street" "Flemington" "NJ" "08822" -74.8583546 40.5092009
+"Hunterdon County Library" "314 State Highway 12, Bldg. 3" "Flemington" "NJ" "08822" -74.8990627 40.5041248
+"Florham Park Free Public Library" "107 Ridgedale Avenue" "Florham Park" "NJ" "07932" -74.3997163 40.7831927
+"Fort Lee Free Public Library" "320 Main Street" "Fort Lee" "NJ" "07024" -73.97312 40.851625
+"Franklin Lakes Free Public Library" "470 Dekorte Drive" "Franklin Lakes" "NJ" "07417" -74.1988212 41.0187647
+"Franklin Twp Public Library-Gloucester" "1584 Coles Mill Road" "Franklinville" "NJ" "08322" -75.0781643 39.6168415
+"Freehold Public Library" "28 1-2 E. Main Street" "Freehold" "NJ" "07728" -74.273929 40.259897
+"Frenchtown Public Library" "29 Second Street" "Frenchtown" "NJ" "08825" -75.060764 40.5276752
+"Garfield Free Public Library" "500 Midland Avenue" "Garfield" "NJ" "07026" -74.1009051 40.8807138
+"Garwood Free Public Library" "411 Third Avenue" "Garwood" "NJ" "07027" -74.3267496 40.6546961
+"Gibbsboro Public Library" "49 Kirkwood Road" "Gibbsboro" "NJ" "08026" -74.9689013 39.8372475
+"Gloucester County Library - Greenwich Township" "411 Swedesboro Road" "Gibbstown" "NJ" "08027" -75.2667817 39.8172378
+"Long Hill Township Free Public Library" "917 Valley Road" "Gillette" "NJ" "07980" -74.4774677 40.6697761
+"Gloucester County Library - Glassboro" "2 Center Street" "Glassboro" "NJ" "08028" -75.1103168 39.7032065
+"Glen Ridge Free Public Library" "240 Ridgewood Avenue" "Glen Ridge" "NJ" "07028" -74.2040282 40.8015508
+"Glen Rock Public Library" "315 Rock Road" "Glen Rock" "NJ" "07452" -74.1263888 40.9627023
+"Gloucester City Library" "50 N. Railroad Avenue" "Gloucester City" "NJ" "08030" -75.118356 39.8964906
+"Johnson Free Public Library" "274 Main Street" "Hackensack" "NJ" "07601" -74.0407555 40.886766
+"Hackettstown Free Public Library" "110 Church Street" "Hackettstown" "NJ" "07840" -74.8282543 40.8518325
+"Haddon Heights Public Library" "608 Station Avenue" "Haddon Heights" "NJ" "08035" -75.0590189 39.8817654
+"Haddonfield Public Library" "60 N. Haddon Avenue" "Haddonfield" "NJ" "08033" -75.0347408 39.8990699
+"Haledon Free Public Library" "404 Morrissee Avenue" "Haledon" "NJ" "07508" -74.185354 40.93667
+"Hamilton Township Free Public Library" "1 Justice Samuel A. Alito, Jr. Way" "Hamilton" "NJ" "08619" -74.6957014 40.2113392
+"Harrington Park Public Library" "10 Herring Street" "Harrington Park" "NJ" "07640" -73.9782827 40.9872406
+"Harrison Public Library" "415 Harrison Avenue" "Harrison" "NJ" "07029" -74.1551603 40.7466873
+"Hasbrouck Heights Free Public Library" "320 Boulevard" "Hasbrouck Heights" "NJ" "07604" -74.0748179 40.8648898
+"Haworth Municipal Library" "300 Haworth Avenue" "Haworth" "NJ" "07641" -73.988265 40.9600197
+"Louis Bay 2nd Library" "345 Lafayette Avenue" "Hawthorne" "NJ" "07506" -74.1548509 40.9503148
+"High Bridge Public Library" "71 Main Street" "High Bridge" "NJ" "08829" -74.896013 40.669149
+"Highland Park Public Library" "31 N. Fifth Avenue" "Highland Park" "NJ" "08904" -74.4240282 40.5016664
+"Hillsdale Free Public Library" "509 Hillsdale Avenue" "Hillsdale" "NJ" "07642" -74.0459115 41.0024008
+"Hoboken Public Library" "500 Park Avenue" "Hoboken" "NJ" "07030" -74.0323081 40.7429535
+"Worth Pinkham Memorial Library" "91 Warren Avenue" "Ho-Ho-Kus" "NJ" "07423" -74.1121822 40.999056
+"Hopewell Public Library" "13 E. Broad Street" "Hopewell" "NJ" "08525" -74.7607612 40.3893419
+"Margaret E. Heggan Free Public Library" "208 E. Holly Avenue" "Hurffville" "NJ" "08080" -75.1090452 39.7451816
+"Jamesburg Public Library" "229 Gatzmer Avenue" "Jamesburg" "NJ" "08831" -74.4420886 40.3527857
+"Jersey City Free Public Library" "472 Jersey Avenue" "Jersey City" "NJ" "07302" -74.0473159 40.7189141
+"Kearny Public Library" "318 Kearny Avenue" "Kearny" "NJ" "07032" -74.1498335 40.7613821
+"Kenilworth Public Library" "548 Boulevard" "Kenilworth" "NJ" "07033" -74.2902812 40.6764772
+"Kinnelon Public Library" "132 Kinnelon Road" "Kinnelon" "NJ" "07405" -74.3729891 41.0015901
+"Lambertville Free Public Library" "6 Lilly Street" "Lambertville" "NJ" "08530" -74.9423606 40.3656754
+"Mercer County Library" "2751 Brunswick Pike" "Lawrenceville" "NJ" "08648" -74.718554 40.265937
+"Leonia Public Library" "227 Fort Lee Road" "Leonia" "NJ" "07605" -73.9888828 40.8626973
+"Lincoln Park Public Library" "12 Boonton Turnpike" "Lincoln Park" "NJ" "07035" -74.3055225 40.9219984
+"Linden Free Public Library" "31 E. Henry Street" "Linden" "NJ" "07036" -74.258269 40.6350105
+"Linwood Public Library" "301 Davis Avenue" "Linwood" "NJ" "08221" -74.5705 39.354566
+"Little Falls Public Library" "8 Warren Street" "Little Falls" "NJ" "07424" -74.2289974 40.8806788
+"Little Ferry Free Public Library" "239 Liberty Street" "Little Ferry" "NJ" "07643" -74.0440886 40.8514295
+"Little Silver Public Library" "484 Prospect Avenue" "Little Silver" "NJ" "07739" -74.0430579 40.3387106
+"Ruth L. Rockwood Memorial Library" "10 Robert H. Harp Drive" "Livingston" "NJ" "07039" -74.3158182 40.783199
+"Lodi Memorial Library" "1 Memorial Drive" "Lodi" "NJ" "07644" -74.0880245 40.8759161
+"Gloucester County Library - Logan Township" "498 Beckett Road" "Logan Township" "NJ" "08085" -75.3567136 39.7564653
+"Long Branch Free Public Library" "328 Broadway" "Long Branch" "NJ" "07740" -73.9926173 40.303485
+"Washington Twp Public Library-Morris" "37 E. Springtown Road" "Long Valley" "NJ" "07853" -74.79493 40.7962041
+"Lyndhurst Free Public Library" "355 Valley Brook Avenue" "Lyndhurst" "NJ" "07071" -74.124708 40.8124892
+"Madison Public Library" "39 Keep Street" "Madison" "NJ" "07940" -74.4137344 40.7522362
+"Mahwah Free Public Library" "100 Ridge Road" "Mahwah Township" "NJ" "07430" -74.159854 41.08805
+"Monmouth County Library" "125 Symmes Drive" "Manalapan" "NJ" "07726" -74.3037538 40.2934107
+"Manasquan Public Library" "55 Broad Street" "Manasquan" "NJ" "08736" -74.0505058 40.1255476
+"Manville Public Library" "100 S. Tenth Avenue" "Manville" "NJ" "08835" -74.595301 40.5409549
+"Maplewood Memorial Library" "51 Baker Street" "Maplewood" "NJ" "07040" -74.2756549 40.7293933
+"Margate City Public Library" "8100 Atlantic Avenue" "Margate" "NJ" "08402" -74.4991564 39.3277592
+"Matawan-Aberdeen Public Library" "165 Main Street" "Matawan" "NJ" "07747" -74.2300334 40.4134434
+"Atlantic County Library System" "40 Farragut Avenue" "Mays Landing" "NJ" "08330" -74.7254059 39.4509842
+"Maywood Public Library" "459 Maywood Avenue" "Maywood" "NJ" "07607" -74.0633356 40.9011709
+"Mendham Free Public Library" "10 Hilltop Road" "Mendham" "NJ" "07945" -74.5999202 40.7748571
+"Metuchen Public Library" "480 Middlesex Avenue" "Metuchen" "NJ" "08840" -74.3614115 40.5449864
+"Gloucester County Library - East Greenwich" "535 Kings Highway" "Mickleton" "NJ" "08056" -75.242175 39.78832
+"Middlesex Public Library" "1300 Mountain Avenue" "Middlesex" "NJ" "08846" -74.4998745 40.5793849
+"Middletown Township Public Library" "55 New Monmouth Road" "Middletown" "NJ" "07748" -74.1092432 40.4040913
+"Midland Park Memorial Library" "250 Godwin Avenue" "Midland Park" "NJ" "07432" -74.1407292 40.9903069
+"Holland Township Free Public Library" "129 Spring Mills Road" "Milford" "NJ" "08848" -75.1006263 40.596796
+"Milford Public Library" "40 Frenchtown-Milford Road" "Milford" "NJ" "08848" -75.0928852 40.5678523
+"Millburn Free Public Library" "200 Glen Avenue" "Millburn" "NJ" "07041" -74.3062522 40.7266191
+"Milltown Public Library" "20 W. Church Street" "Milltown" "NJ" "08850" -74.4399791 40.4518413
+"Millville Public Library" "210 Buck Street" "Millville" "NJ" "08332" -75.041346 39.398169
+"Monmouth Beach Public Library" "18 Willow Avenue" "Monmouth Beach" "NJ" "07750" -73.979298 40.330881
+"South Brunswick Public Library" "110 Kingston Lane" "Monmouth Junction" "NJ" "08852" -74.5307553 40.3829536
+"Monroe Twp Public Library-Middlesex" "4 Municipal Plaza" "Monroe Township" "NJ" "08831" -74.4429199 40.3270968
+"Montclair Public Library" "50 S. Fullerton Avenue" "Montclair" "NJ" "07042" -74.2187774 40.8116415
+"Montvale Free Public Library" "12 Mercedes Drive" "Montvale" "NJ" "07645" -74.0611923 41.0480929
+"Montville Township Public Library" "90 Horseneck Road" "Montville" "NJ" "07045" -74.358405 40.8924049
+"Moorestown Library" "111 W. Second Street" "Moorestown" "NJ" "08057" -74.9498912 39.9645789
+"Morris Plains Library" "77 Glenbrook Road" "Morris Plains" "NJ" "07950" -74.4865481 40.8283453
+"Morristown-Morris Twp Joint Public Library" "1 Miller Road" "Morristown" "NJ" "07960" -74.4785452 40.7938506
+"Mount Arlington Public Library" "333 Howard Boulevard" "Mount Arlington" "NJ" "07856" -74.634254 40.923888
+"Mount Holly Library And Lyceum" "307 High Street" "Mount Holly" "NJ" "08060" -74.7901834 39.9994664
+"Mount Laurel Library" "100 Walt Whitman Avenue" "Mount Laurel" "NJ" "08054" -74.9238233 39.9574025
+"Mountain Lakes Free Public Library" "9 Elm Road" "Mountain Lakes" "NJ" "07046" -74.4337966 40.8870217
+"Mountainside Free Public Library" "1 Constitution Plaza" "Mountainside" "NJ" "07092" -74.3572085 40.6726342
+"Gloucester County Library - Mullica Hill" "389 Wolfert Station Road" "Mullica Hill" "NJ" "08062" -75.2188409 39.7480062
+"Gloucester County Library - Swedesboro" "1442 Kings Highway" "Mullica Hill" "NJ" "08085" -75.2714385 39.770751
+"Neptune Township Public Library" "25 Neptune Boulevard" "Neptune" "NJ" "07753" -74.0367992 40.2098877
+"New Brunswick Free Public Library" "60 Livingston Avenue" "New Brunswick" "NJ" "08901" -74.445477 40.4913441
+"Bass River Community Library" "11 North Maple Avenue" "New Gretna" "NJ" "08224" -74.452392 39.59436
+"New Milford Public Library" "200 Dahlia Avenue" "New Milford" "NJ" "07646" -74.0233967 40.9200311
+"New Providence Memorial Library" "377 Elkwood Avenue" "New Providence" "NJ" "07974" -74.405263 40.7094359
+"Harding Township Library" "21 Blue Mill Road" "New Vernon" "NJ" "07976" -74.4918264 40.7470729
+"Newark Public Library" "5 Washington Street" "Newark" "NJ" "07102" -74.1707295 40.7445732
+"Newfield Public Library" "115 Catawba Avenue" "Newfield" "NJ" "08344" -75.020031 39.548202
+"Sussex County Library" "125 Morris Turnpike" "Newton" "NJ" "07860" -74.7554298 41.1235262
+"North Arlington Public Library" "210 Ridge Road" "North Arlington" "NJ" "07031" -74.1328984 40.7885967
+"North Bergen Free Public Library" "8411 Bergenline Avenue" "North Bergen" "NJ" "07047" -74.0047865 40.8048567
+"North Brunswick Free Public Library" "880 Hermann Road" "North Brunswick" "NJ" "08902" -74.4641406 40.4681208
+"North Haledon Free Public Library" "129 Overlook Avenue" "North Haledon" "NJ" "07508" -74.1832604 40.9532782
+"Otto Bruyns Public Library" "241 W. Mill Road" "Northfield" "NJ" "08225" -74.5557981 39.3671959
+"Norwood Public Library" "198 Summit Street" "Norwood" "NJ" "07648" -73.9606554 40.9962296
+"Nutley Free Public Library" "93 Booth Drive" "Nutley" "NJ" "07110" -74.158914 40.817314
+"Jefferson Township Public Library" "1031 Weldon Road" "Oak Ridge" "NJ" "07438" -74.549045 41.021066
+"Oakland Public Library" "2 Municipal Plaza" "Oakland" "NJ" "07436" -74.2452851 41.0240029
+"Oaklyn Memorial Library" "602 Newton Avenue" "Oaklyn" "NJ" "08107" -75.079939 39.9019247
+"Ocean City Free Public Library" "1735 Simpson Avenue" "Ocean City" "NJ" "08226" -74.5902465 39.2713175
+"Old Bridge Public Library" "1 Old Bridge Plaza" "Old Bridge" "NJ" "08857" -74.2965861 40.4044342
+"Old Tappan Free Public Library" "56 Russell Avenue" "Old Tappan" "NJ" "07675" -73.9815577 41.0098696
+"Tewksbury Township Public Library" "31 Old Turnpike Road" "Oldwick" "NJ" "08858" -74.7494373 40.670792
+"Oradell Public Library" "375 Kinderkamack Road" "Oradell" "NJ" "07649" -74.0321 40.9536811
+"The Orange Public Library" "348 Main Street" "Orange" "NJ" "07050" -74.2314808 40.7728741
+"Oxford Public Library" "42 Washington Avenue" "Oxford" "NJ" "07863" -74.9974979 40.803041
+"Palisades Park Free Public Library" "257 Second Street" "Palisades Park" "NJ" "07650" -73.9968933 40.8469618
+"Park Ridge Free Public Library" "51 Park Avenue" "Park Ridge" "NJ" "07656" -74.038268 41.0334695
+"Sayreville Free Public Library" "1050 Washington Road" "Parlin" "NJ" "08859" -74.3197032 40.4630156
+"Parsippany-Troy Hills Public Library" "449 Halsey Road" "Parsippany" "NJ" "07054" -74.4528382 40.8528933
+"Passaic Public Library" "195 Gregory Avenue" "Passaic" "NJ" "07055" -74.1277878 40.8576406
+"Paterson Free Public Library" "250 Broadway" "Paterson" "NJ" "07501" -74.1642376 40.9183981
+"Gill Memorial Library" "145 E. Broad Street" "Paulsboro" "NJ" "08066" -75.2379786 39.8310599
+"Pennington Free Public Library" "30 N. Main Street" "Pennington" "NJ" "08534" -74.7916771 40.3292276
+"Pennsauken Free Public Library" "5605 Crescent Boulevard" "Pennsauken" "NJ" "08110" -75.0555104 39.9590894
+"Pennsville Public Library" "190 S. Broadway" "Pennsville" "NJ" "08070" -75.517563 39.6455125
+"Perth Amboy Free Public Library" "196 Jefferson Street" "Perth Amboy" "NJ" "08861" -74.2705757 40.5105136
+"Phillipsburg Free Public Library" "200 Frost Avenue" "Phillipsburg" "NJ" "08865" -75.1805205 40.7007939
+"Piscataway Public Library" "500 Hoes Lane" "Piscataway" "NJ" "08854" -74.4713788 40.5367154
+"Mccowan Memorial Library" "15 Pitman Avenue" "Pitman" "NJ" "08071" -75.1294516 39.7316081
+"Plainfield Free Public Library" "800 Park Avenue" "Plainfield" "NJ" "07060" -74.415792 40.613639
+"Plainsboro Free Public Library" "641 Plainsboro Road" "Plainsboro" "NJ" "08536" -74.587104 40.333705
+"Pompton Lakes Borough Free Public Library" "333 Wanaque Avenue" "Pompton Lakes" "NJ" "07442" -74.2904128 41.0020273
+"Pequannock Township Public Library" "477 Newark Pompton Turnpike" "Pompton Plains" "NJ" "07444" -74.299108 40.957505
+"Princeton Public Library" "65 Witherspoon Street" "Princeton" "NJ" "08542" -74.6603299 40.35173
+"Rahway Public Library" "2 City Hall Plaza" "Rahway" "NJ" "07065" -74.2730462 40.6037165
+"Ramsey Free Public Library" "30 Wyckoff Avenue" "Ramsey" "NJ" "07446" -74.1466305 41.0558868
+"Randolph Township Free Public Library" "28 Calais Road" "Randolph" "NJ" "07869" -74.5916785 40.8273047
+"Raritan Public Library" "54 E. Somerset Street" "Raritan" "NJ" "08869" -74.6291048 40.5688813
+"Red Bank Public Library" "84 W. Front Street" "Red Bank" "NJ" "07701" -74.0690561 40.3515972
+"Ridgefield Free Public Library" "527 Morse Avenue" "Ridgefield" "NJ" "07657" -74.0053251 40.832213
+"Ridgefield Park Public Library" "107 Cedar Street" "Ridgefield Park" "NJ" "07660" -74.0221197 40.8543307
+"Ridgewood Public Library" "125 N. Maple Avenue" "Ridgewood" "NJ" "07450" -74.112126 40.9815322
+"Ringwood Public Library" "30 Cannici Drive" "Ringwood" "NJ" "07456" -74.2672877 41.0878776
+"River Vale Public Library" "412 Rivervale Road" "River Vale" "NJ" "07675" -74.0105927 41.0081148
+"Riverdale Public Library" "93 Newark Pompton Tpke" "Riverdale" "NJ" "07457" -74.3022195 40.9888841
+"Riverside Public Library" "10 Zurbrugg Way" "Riverside" "NJ" "08075" -74.958883 40.03867
+"Rockaway Borough Free Public Library" "82 E. Main Street" "Rockaway" "NJ" "07866" -74.508698 40.899067
+"Rockaway Township Free Public Library" "61 Mount Hope Road" "Rockaway" "NJ" "07866" -74.5315772 40.9121059
+"Florence Township Library" "1350 Hornberger Avenue" "Roebling" "NJ" "08554" -74.7775249 40.1160814
+"Roseland Free Public Library" "20 Roseland Avenue" "Roseland" "NJ" "07068" -74.2914125 40.8231412
+"Roselle Free Public Library" "104 W. Fourth Avenue" "Roselle" "NJ" "07203" -74.2632276 40.656548
+"Roselle Park Veterans Memorial Library" "404 Chestnut Street" "Roselle Park" "NJ" "07204" -74.2654169 40.6655802
+"Oceanic Free Library" "109 Avenue Of Two Rivers" "Rumson" "NJ" "07760" -73.9944231 40.3697588
+"Runnemede Public Library" "p.o. box 119" "Runnemede" "NJ" "08078" -75.0679497 39.8523358
+"Rutherford Free Public Library" "150 Park Avenue" "Rutherford" "NJ" "07070" -74.1070098 40.826404
+"Saddle Brook Free Public Library" "340 Mayhill Street" "Saddle Brook" "NJ" "07663" -74.0889629 40.9050526
+"Salem Free Public Library" "112 W. Broadway" "Salem" "NJ" "08079" -75.4700164 39.5727211
+"Scotch Plains Public Library" "1927 Bartle Avenue" "Scotch Plains" "NJ" "07076" -74.3975457 40.6517169
+"Sea Girt Library" "321 Baltimore Boulevard" "Sea Girt" "NJ" "08750" -74.0361492 40.1335296
+"Secaucus Free Public Library" "1379 Paterson Plank Road" "Secaucus" "NJ" "07094" -74.0591595 40.794015
+"Franklin Twp Public Library-Somerset" "485 Demott Lane" "Somerset" "NJ" "08873" -74.5251185 40.4975003
+"Somerville Public Library" "35 West End Avenue" "Somerville" "NJ" "08876" -74.6189218 40.5703996
+"Dowdell Library Of South Amboy" "100 Harold G. Hoffman Plaza" "South Amboy" "NJ" "08879" -74.2738711 40.4815601
+"South Orange Public Library" "65 Scotland Road" "South Orange" "NJ" "07079" -74.2572559 40.7470652
+"South Plainfield Free Public Library" "2484 Plainfield Avenue" "South Plainfield" "NJ" "07080" -74.4162563 40.5844297
+"South River Public Library" "55 Appleby Avenue" "South River" "NJ" "08882" -74.3771338 40.4344448
+"Sparta Public Library" "22 Woodport Road" "Sparta" "NJ" "07871" -74.63808 41.034984
+"Spotswood Public Library" "548 Main Street" "Spotswood" "NJ" "08884" -74.3913357 40.3918518
+"Spring Lake Public Library" "1501 Third Avenue" "Spring Lake" "NJ" "07762" -74.0273732 40.1554697
+"Springfield Free Public Library" "66 Mountain Avenue" "Springfield" "NJ" "07081" -74.3132929 40.7094829
+"Stratford Public Library" "303 Union Avenue" "Stratford" "NJ" "08084" -75.0075118 39.8327697
+"Roxbury Township Public Library" "103 Main Street" "Succasunna" "NJ" "07876" -74.6385169 40.8692319
+"Summit Free Public Library" "75 Maple Street" "Summit" "NJ" "07901" -74.3602671 40.715156
+"Teaneck Public Library" "840 Teaneck Road" "Teaneck" "NJ" "07666" -74.0063986 40.8850219
+"Tenafly Free Public Library" "100 Riveredge Road" "Tenafly" "NJ" "07670" -73.968741 40.9266003
+"Tinton Falls Public Library" "664 Tinton Avenue" "Tinton Falls" "NJ" "07724" -74.0983938 40.3023826
+"Ocean County Library" "101 Washington Street" "Toms River" "NJ" "08753" -74.1956919 39.9523675
+"Dwight D. Eisenhower Library" "537 Totowa Road" "Totowa" "NJ" "07512" -74.218035 40.903454
+"Trenton Free Public Library" "120 Academy Street" "Trenton" "NJ" "08608" -74.7632361 40.2223537
+"Washington Twp Public Library-Bergen" "144 Woodfield Road" "Twp. Of Washington" "NJ" "07676" -74.0620244 40.9866106
+"Union Free Public Library" "1980 Morris Avenue" "Union" "NJ" "07083" -74.268983 40.6954356
+"Union Beach Memorial Library" "810 Union Avenue" "Union Beach" "NJ" "07735" -74.1653174 40.4430095
+"Union City Public Library" "324 43rd Street" "Union City" "NJ" "07087" -74.0231736 40.7776788
+"Upper Saddle River Public Library" "245 Lake Street" "Upper Saddle Rive" "NJ" "07458" -74.0940338 41.059564
+"Verona Free Public Library" "17 Gould Street" "Verona" "NJ" "07044" -74.2463896 40.8329159
+"Sally Stretch Keen Memorial Library" "94 Main Street" "Vincentown" "NJ" "08088" -74.7504998 39.9355
+"Vineland Public Library" "1058 E. Landis Avenue" "Vineland" "NJ" "08360" -75.009258 39.4858831
+"Camden County Library" "203 Laurel Road" "Voorhees" "NJ" "08043" -75.0011971 39.8481294
+"Waldwick Public Library" "19 E. Prospect Street" "Waldwick" "NJ" "07463" -74.1176844 41.0110906
+"John F. Kennedy Memorial Library" "92 Hathaway Street" "Wallington" "NJ" "07057" -74.1136238 40.8560431
+"Wanaque Borough Free Public Library" "616 Ringwood Avenue" "Wanaque" "NJ" "07465" -74.2890242 41.0500915
+"Washington Public Library" "20 W. Carlton Avenue" "Washington" "NJ" "07882" -74.9848149 40.7629933
+"Wayne Public Library" "461 Valley Road" "Wayne" "NJ" "07470" -74.2318781 40.9285579
+"Weehawken Free Public Library" "49 Hauxhurst Avenue" "Weehawken" "NJ" "07086" -74.0231377 40.7690276
+"Wenonah Free Public Library" "101 E. Mantua Avenue" "Wenonah" "NJ" "08090" -75.1485909 39.791532
+"West Caldwell Public Library" "30 Clinton Road" "West Caldwell" "NJ" "07006" -74.2937424 40.850816
+"West Deptford Free Public Library" "420 Crown Point Road" "West Deptford" "NJ" "08086" -75.1314257 39.8702239
+"West Long Branch Public Library" "95 Poplar Avenue" "West Long Branch" "NJ" "07764" -74.0164825 40.290714
+"West Milford Township Library" "1490 Union Valley Road" "West Milford" "NJ" "07480" -74.368828 41.1304582
+"West New York Free Public Library" "425 60th Street" "West New York" "NJ" "07093" -74.0154681 40.7881182
+"West Orange Free Public Library" "46 Mt. Pleasant Avenue" "West Orange" "NJ" "07052" -74.2402907 40.7788707
+"Burlington County Library" "5 Pioneer Blvd" "Westampton" "NJ" "08060" -74.8206963 40.0146573
+"Westfield Memorial Library" "550 E. Broad Street" "Westfield" "NJ" "07090" -74.3422603 40.6564004
+"Westville Public Library" "1035 Broadway" "Westville" "NJ" "08093" -75.133969 39.861448
+"Westwood Free Public Library" "49 Park Avenue" "Westwood" "NJ" "07675" -74.0340736 40.9901429
+"Wharton Public Library" "15 S. Main Street" "Wharton" "NJ" "07885" -74.583786 40.8983739
+"Morris County Library" "30 E. Hanover Avenue" "Whippany" "NJ" "07981" -74.4140416 40.8205773
+"Whippanong Library-Hanover Township" "1000 Route 10" "Whippany" "NJ" "07981" -74.433382 40.8306327
+"Monroe Twp Public Library-Gloucester" "306 S. Main Street" "Williamstown" "NJ" "08094" -74.992215 39.684099
+"Willingboro Public Library" "220 Willingboro Parkway" "Willingboro" "NJ" "08046" -74.8697532 40.0379717
+"Woodbury Public Library" "33 Delaware Street" "Woodbury" "NJ" "08096" -75.1545964 39.8382224
+"Alfred H. Baumann Library-West Paterso" "7 Brophy Lane" "Woodland Park" "NJ" "07424" -74.1993902 40.8963727
+"Wood-Ridge Memorial Library" "231 Hackensack Street" "Wood-Ridge" "NJ" "07075" -74.0818308 40.8481887
+"Woodstown-Pilesgrove Library" "14 School Lane" "Woodstown" "NJ" "08098" -75.321509 39.651752
+"Wyckoff Free Public Library" "200 Woodland Avenue" "Wyckoff" "NJ" "07481" -74.1671984 41.0079054

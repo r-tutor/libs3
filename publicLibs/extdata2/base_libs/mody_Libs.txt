@@ -1,0 +1,115 @@
+"location" "miles" "latitude" "longitude"
+"Miller Lakeland Library<br/>124 South Valdosta Road<br/>Lakeland, GA" 8.58995102383724 -83.0752357 31.0408795
+"South Georgia Regional Library System<br/>300 Woodrow Wilson Drive<br/>Valdosta, GA" 9.30183510435831 -83.2855274 30.860037
+"Slater Hahira Library<br/>220 East Main Street<br/>Hahira, GA" 10.5337363730276 -83.3686425 30.9915667
+"Mccullen Southside Library<br/>527 Griffin Avenue<br/>Valdosta, GA" 11.219721114196 -83.2654018 30.8187657
+"Carrie Dorsey Perry Memorial Library<br/>315 West Marion Avenue<br/>Nashville, GA" 16.9027645301471 -83.2531954 31.2074753
+"Cook County Library<br/>213 East Second Street<br/>Adel, GA" 18.0590642290287 -83.422477 31.140451
+"Johnson Lakes Library<br/>720 Lakes Blvd<br/>Lake Park, GA" 19.7301043069016 -83.2112121 30.6838105
+"Brooks County Public Library System<br/>404 Barwick Rd.<br/>Quitman, GA" 25.6485775934112 -83.5707859 30.7886564
+"Jennings Public Library<br/>1322 Plum Street<br/>Jennings, FL" 25.8497725792497 -83.100053 30.603556
+"Clinch County Public Library<br/>507 W. Dame Street<br/>Homerville, GA" 26.3439035208607 -82.7556985 31.035729
+"Berlin Community Library<br/>285 Langford Street<br/>Berlin, GA" 26.4642552204059 -83.6238012 31.0690876
+"Pearson Public Library<br/>202 E. Bullard Ave.<br/>Pearson, GA" 30.5940776796352 -82.8488295 31.2984569
+"Pavo Public Library<br/>219 E. Harris Street<br/>Pavo, GA" 32.0874961351529 -83.7339204 30.9597655
+"Jasper Public Library<br/>311 Hatley Street Ne<br/>Jasper, FL" 34.4499697157044 -82.944648 30.518669
+"Madison County Library<br/>100 College Drive<br/>Madison, FL" 34.9255143224623 -83.3875785 30.4922038
+"Boston Carnegie Library<br/>250 South Main Street<br/>Boston, GA" 37.5498458481582 -83.790492 30.790397
+"Moultrie-Colquitt County Library System<br/>204 5th Street Se<br/>Moultrie, GA" 37.8309897169062 -83.7833048 31.1772135
+"Lee Library<br/>190 S.E. Cr 255<br/>Lee, FL" 38.5879191104587 -83.3006663 30.4184957
+"Coastal Plain Regional Library System<br/>2014 Chestnut Avenue<br/>Tifton, GA" 39.4258785453188 -83.501714 31.4737637
+"Satilla Regional Library System<br/>200 S. Madison Avenue, Suite D<br/>Douglas, GA" 42.4987518192779 -82.849443 31.5081946
+"Douglas-Coffee County Public Library<br/>201 South Coffee Avenue<br/>Douglas, GA" 42.5574234032796 -82.8470328 31.5080349
+"Irwin County Library<br/>310 South Beech Street<br/>Ocilla, GA" 43.231891534314 -83.2516315 31.5915819
+"Greenville Public Library<br/>312 S.W. Church Ave.<br/>Greenville, FL" 43.5642306986921 -83.632844 30.464946
+"Ambrose Public Library<br/>1070 Cypress Avenue<br/>Ambrose, GA" 44.6572449457875 -83.0139181 31.5957813
+"Thomas County Public Library System<br/>201 North Madison Street<br/>Thomasville, GA" 47.759648352064 -83.9831601 30.8378437
+"Broxton Public Library<br/>105 Church Street<br/>Broxton, GA" 48.0963028041851 -82.8862569 31.6125919
+"Monroe Memorial Library<br/>232 Broad Street<br/>Doerun, GA" 49.44540415535 -83.9194841 31.3213279
+"Jefferson County R. J. Bailar Public Library<br/>260 N. Cherry St.<br/>Monticello, FL" 49.6790726253991 -83.8690249 30.546286
+"Nicholls Public Library<br/>108 North Liberty Street<br/>Nicholls, GA" 50.2346875169425 -82.6349684 31.5160753
+"Wilderness Coast Public Libraries<br/>1180 West Washington Street<br/>Monticello, FL" 50.2759570544301 -83.880642 30.545378
+"White Springs Public Library<br/>12797 Roberts St.<br/>White Springs, FL" 50.9748934853972 -82.7610094 30.3322954
+"Fitzgerald-Ben Hill County Library<br/>123 North Main Street<br/>Fitzgerald, GA" 51.7983182149727 -83.2545634 31.7155852
+"Okefenokee Regional Library System<br/>401 Lee Avenue<br/>Waycross, GA" 52.401319644554 -82.3535989 31.2074944
+"Margaret Jones Memorial Library<br/>205 Pope Street<br/>Sylvester, GA" 54.2466822729219 -83.8343245 31.5293559
+"Pelham-Carnegie Library<br/>133 Hand Avenue<br/>Pelham, GA" 57.9601128307836 -84.1533174 31.1275305
+"Victoria Evans Memorial Library<br/>605 North Street<br/>Ashburn, GA" 58.2419803431199 -83.65522 31.712323
+"Alma-Bacon County Public Library<br/>217 North Pierce Street<br/>Alma, GA" 58.684177623262 -82.46208 31.5424165
+"Marian Anderson Public Library<br/>424 Lee Street<br/>Blackshear, GA" 60.504589436826 -82.2474251 31.300149
+"Roddenbery Memorial Library System<br/>320 North Broad Street<br/>Cairo, GA" 60.5514892182583 -84.2081565 30.87941
+"Blackshear Memorial Library<br/>600 South Main Street<br/>Blackshear, GA" 61.0670806130099 -82.238126 31.3021896
+"West Branch Library<br/>435 N.W. Hall Of Fame Drive<br/>Lake City, FL" 61.8994189855749 -82.6934648 30.1839146
+"Desoto Trail Regional Library System<br/>145 East Broad Street<br/>Camilla, GA" 62.5411526191668 -84.2034894 31.2310358
+"Columbia County Public Library<br/>308 Nw Columbia Avenue<br/>Lake City, FL" 63.0707928328259 -82.6379819 30.1920879
+"Taylor County Public Library<br/>403 North Washington Street<br/>Perry, FL" 63.106349803445 -83.581403 30.119836
+"Three Rivers Regional Library System<br/>262 W. Main St.<br/>Mayo, FL" 63.3377829147853 -83.1780175 30.0530639
+"Tallulah Massey Branch<br/>2004 Stratford Drive<br/>Albany, GA" 67.8820925173615 -84.0991632 31.5712809
+"Northeast Branch Library - Bruce J. Host Center<br/>5513 Thomasville Road<br/>Tallahassee, FL" 68.0431908557465 -84.2257737 30.5443376
+"Baker County<br/>100 River Street<br/>Newton, GA" 69.7890562886567 -84.3124312 31.2843828
+"Southside Branch Library<br/>2114 Habersham<br/>Albany, GA" 70.4806629871731 -84.1715499 31.5504492
+"Central Library<br/>300 Pine Avenue<br/>Albany, GA" 70.7481373657994 -84.1539749 31.5781483
+"Wilcox County Public Library<br/>104 North Broad<br/>Abbeville, GA" 71.1469679412321 -83.3068997 31.9925503
+"Redbone Library<br/>104 Thundering Springs Road<br/>Leesburg, GA" 71.1582082096915 -84.0694331 31.6741164
+"Branford Public Library<br/>703 N.W. Suwannee Ave.<br/>Branford, FL" 71.2617201747793 -82.9308772 29.9635093
+"Charlton County Public Library<br/>701 North Cross Street<br/>Folkston, GA" 71.7153544350296 -81.99411 30.8398443
+"Parkway Branch Library<br/>1210 Capital Circle Se<br/>Tallahassee, FL" 71.9234043483733 -84.2279221 30.4307436
+"Hazlehurst-Jeff Davis Public Library<br/>700 Cromartie Street<br/>Hazlehurst, GA" 72.1235781673938 -82.5908807 31.8758461
+"Westtown Branch Library<br/>2124 Waddell Avenue<br/>Albany, GA" 72.5252902936742 -84.200708 31.5664845
+"Lake Jackson Branch Library<br/>3840-302 North Monroe St.<br/>Tallahassee, FL" 74.163724501024 -84.281161 30.444908
+"Northwest Branch Library<br/>2215 Barnesdale Way<br/>Albany, GA" 74.2407280256725 -84.2008324 31.6090979
+"Leroy Collins Leon County Public Library Syst<br/>200 West Park Avenue<br/>Tallahassee, FL" 74.3766225784556 -84.2837553 30.4426123
+"Dr. B. L. Perry, Jr. Branch Library<br/>2804 South Adams Street<br/>Tallahassee, FL" 75.4019212976699 -84.2830996 30.4122383
+"Havana Public Library<br/>116 East 7th Avenue<br/>Havana, FL" 76.3555910576097 -84.4145858 30.6258634
+"Cordele-Crisp Carnegie Library<br/>115 East Eleventh Avenue<br/>Cordele, GA" 77.41904827462 -83.7810959 31.9691477
+"Lee County Public Library System<br/>245 Walnut Avenue, South<br/>Leesburg, GA" 77.8445066905334 -84.1717355 31.722149
+"Fort White Branch Library<br/>118 S.W. Wilson Springs Road<br/>Fort White, FL" 77.8689801372973 -82.7140661 29.9213734
+"Telfair County Public Library<br/>815 College Street<br/>Mcrae, GA" 77.9100308454443 -82.9091346 32.0686015
+"Hillard Branch<br/>37177 Pecan Street<br/>Hilliard, FL" 78.0581809259926 -81.9193868 30.6906882
+"Emily Taber Library<br/>14 Mciver Avenue West<br/>Macclenny, FL" 79.5560213569495 -82.122423 30.280173
+"Decatur County - Gilbert H. Gragg Library<br/>301 South Monroe Street<br/>Bainbridge, GA" 81.8217875822391 -84.5700336 30.9039384
+"Southwest Georgia Regional Library System<br/>301 S. Monroe Street<br/>Bainbridge, GA" 81.8217875822391 -84.5700336 30.9039384
+"New River Public Library Cooperative<br/>110 N. Lake Ave<br/>Lake Butler, FL" 82.8488157241998 -82.3383835 30.024063
+"Union County Public Library<br/>175 West Main Street<br/>Lake Butler, FL" 82.8492077700185 -82.3395384 30.0232831
+"Dooly County Library<br/>1200 East Union Street<br/>Vienna, GA" 84.4306170107615 -83.767469 32.0866745
+"Ocmulgee Regional Library System<br/>531 Second Ave.<br/>Eastman, GA" 84.6788898659561 -83.1800748 32.1927162
+"Murrell Memorial-Dodge County Public Library<br/>505 Second Avenue Sw<br/>Eastman, GA" 84.6929632295028 -83.1798609 32.192918
+"Bryceville Branch<br/>7280 Motes Road<br/>Bryceville, FL" 84.7049710799849 -81.933787 30.397057
+"Wheeler County Library<br/>203 W. Forest Avenue<br/>Alamo, GA" 85.0350669453154 -82.7838207 32.1474231
+"Callahan Branch<br/>450086 State Road 200, Suite 10<br/>Callahan, FL" 85.85707884724 -81.82566 30.5684413
+"High Springs Branch Library<br/>135 Northwest First Avenue<br/>High Springs, FL" 86.5319226204895 -82.5988871 29.8274562
+"Gadsden County Public Library<br/>732 S. Pat Thomas Parkway<br/>Quincy, FL" 87.5241491806707 -84.5932749 30.576703
+"Fort Braden Branch Library<br/>16327 Blountstown Highway<br/>Tallahassee, FL" 88.0710292561976 -84.532779 30.426426
+"Wayne County Library<br/>759 Sunset Boulevard<br/>Jesup, GA" 88.2219725372048 -81.9043666 31.6119501
+"Maxville Branch<br/>8375 Maxville Blvd<br/>Jacksonville, FL" 88.2276894663002 -82.0083159 30.202694
+"Smithville Library<br/>116 Main Street<br/>Smithville, GA" 89.8561322675973 -84.252017 31.901918
+"Alachua Branch Library<br/>14913 Nw 140 Street<br/>Alachua, FL" 91.4572993501884 -82.4939082 29.7920413
+"Kinchafoonee Regional Library System<br/>913 Forrester Drive, Se<br/>Dawson, GA" 91.6899850633418 -84.4371905 31.7613811
+"Montgomery County Public Library<br/>215 Railroad Street<br/>Mt. Vernon, GA" 92.0172724199446 -82.5653194 32.1866301
+"Wakulla County Public Library<br/>4330 Crawfordville Highway<br/>Crawfordville, FL" 92.0245332116602 -84.386465 30.123908
+"James W. Merritt, Jr. Memorial Library<br/>259 East Main Street<br/>Colquitt, GA" 92.2211372087922 -84.7313096 31.1721778
+"M. E. Roden Memorial Library<br/>400 Commerce Street<br/>Hawkinsville, GA" 92.3866632847944 -83.4697045 32.2832569
+"West Regional Library<br/>1425 Chaffee Rd S<br/>Jacksonville, FL" 92.6654564077255 -81.8477385 30.2943798
+"Camden County Public Library<br/>1410 Highway 40 East<br/>Kingsland, GA" 92.7224703714651 -81.6456403 30.787004
+"Byromville Public Library<br/>452 Main Street<br/>Byromville, GA" 95.1108330731099 -83.90647 32.2019884
+"Elizabeth Harris Library<br/>312 Harmon Street<br/>Unadilla, GA" 95.3891658724807 -83.7348882 32.2681237
+"Gilchrist County Library<br/>105 N.E. 11th Street<br/>Trenton, FL" 95.8687474899344 -82.818019 29.621048
+"Bradford County Public Library<br/>105 E. Jackson St.<br/>Starke, FL" 95.8801127522799 -82.108423 29.9453174
+"Yulee Branch<br/>76346 William Burgess Blvd.<br/>Yulee, FL" 96.474232932724 -81.6241775 30.6098372
+"Argyle Branch<br/>7973 S Old Middleburg Rd<br/>Jacksonville, FL" 97.4196884662617 -81.8212098 30.201307
+"Ohoopee Regional Library System<br/>610 Jackson Street<br/>Vidalia, GA" 97.4350070692337 -82.4146742 32.2113777
+"Highlands Regional Library<br/>1826 Dunn Avenue<br/>Jacksonville, FL" 97.5060569743118 -81.6760201 30.4342683
+"Lake Blackshear Regional Library System<br/>307 East Lamar Street<br/>Americus, GA" 97.6625391469201 -84.2272286 32.071418
+"Ladson Genealogy Library<br/>119 Church Street<br/>Vidalia, GA" 97.8219955710711 -82.4134186 32.2171578
+"Newberry Branch Library<br/>110 S. Seaboard St.<br/>Newberry, FL" 97.9302910384127 -82.6107851 29.6451326
+"Westbrook Library<br/>2809 Commonwealth Avenue<br/>Jacksonville, FL" 98.2443055391367 -81.7144038 30.3368597
+"Bradham Brooks Northwest Regional Library<br/>1755 Edgewood Avenue West<br/>Jacksonville, FL" 98.2464790426979 -81.6863067 30.3872379
+"Tessie W. Norris Cochran-Bleckley County Pl<br/>315 Third Street Se<br/>Cochran, GA" 98.6049757218959 -83.3536082 32.3875251
+"St. Marys Public Library<br/>100 Herb Bauer Drive<br/>St. Marys, GA" 98.6711132131661 -81.5526481 30.7414029
+"Murray Hill Library<br/>918 Edgewood Avenue South<br/>Jacksonville, FL" 98.7323177239177 -81.7194175 30.3130503
+"Charles D. Webb-Wesconnett Regional Library<br/>6887 103rd Street<br/>Jacksonville, FL" 98.9295970793978 -81.756884 30.2491623
+"Nelle Brown Memorial Public Library<br/>166 West Liberty Street<br/>Lyons, GA" 99.5497668011343 -82.3237489 32.202621
+"Chattahoochee Public Library<br/>715 Main Street<br/>Chattahoochee, FL" 99.6425419986298 -84.8406906 30.6975897
+"Tattnall County Library<br/>129 Tattnall Street<br/>Reidsville, GA" 99.6612832885696 -82.1213525 32.0827419
+"Long County Public Library<br/>26 Main Street<br/>Ludowici, GA" 99.7647785205317 -81.7391403 31.7020672
+"Dallas James Graham Library<br/>2304 North Myrtle Avenue<br/>Jacksonville, FL" 99.8447912149448 -81.6760625 30.35166

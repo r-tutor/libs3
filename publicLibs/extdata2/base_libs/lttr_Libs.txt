@@ -1,0 +1,97 @@
+"location" "miles" "latitude" "longitude"
+"Esther Dewitt Nixon Branch Library<br/>308 West Main St<br/>Jacksonville, AR" 2.70840389039913 -92.112646 34.867392
+"Amy Sanders Branch Library<br/>31 Shelby Drive<br/>Sherwood, AR" 5.57242551954792 -92.2069353 34.8341183
+"Arlene Cherry Memorial Library<br/>506 North Grant Street<br/>Cabot, AR" 9.24902200392728 -92.0126911 34.9749557
+"William F. Laman Public Library<br/>2801 Orange Street<br/>North Little Rock, AR" 10.7312992956638 -92.2700361 34.7803009
+"Central Arkansas Library System<br/>100 Rock Street<br/>Little Rock, AR" 12.4628050100309 -92.2671702 34.7469155
+"Aerospace Library<br/>3301 East Roosevelt Road<br/>Little Rock, AR" 13.3372171743391 -92.2397362 34.7201059
+"Sue Cowan Williams Library<br/>1800 Chester Avenue<br/>Little Rock, AR" 13.8165462914744 -92.2843719 34.7328807
+"Ward Public Library<br/>100 Owen Street<br/>Ward, AR" 14.3759860961559 -91.9493665 35.028964
+"John Gould Fletcher Branch Library<br/>823 North Buchanan<br/>Little Rock, AR" 14.5282406555068 -92.3383049 34.7591178
+"Neighborhood Resource Center<br/>3805 West 12th<br/>Little Rock, AR" 14.5600070168023 -92.3162211 34.7399769
+"Maumelle Public Library<br/>10 Lakepoint Drive<br/>Maumelle, AR" 14.8642336126205 -92.4035037 34.8633354
+"Lonoke-Prairie County Regional Library<br/>204 East 2nd Street<br/>Lonoke, AR" 15.9355298494705 -91.8988389 34.7852506
+"Mayflower Public Library<br/>6 Ashmore Drive<br/>Mayflower, AR" 16.4704582417037 -92.4245407 34.9600412
+"Adolphine F. Terry Branch Library<br/>2015 Napa Valley Drive<br/>Little Rock, AR" 17.3916929858641 -92.4104949 34.771471
+"Beebe Public Library<br/>115 West Illinois Street<br/>Beebe, AR" 19.2251074109824 -91.8807578 35.0710097
+"Dee Brown Branch Library<br/>6325 Baseline<br/>Little Rock, AR" 19.612768955067 -92.3502191 34.6686133
+"Faulkner-Van Buren Regional Library System<br/>1900 Tyler Street<br/>Conway, AR" 22.4675397509827 -92.450154 35.103495
+"Carlisle Public Library<br/>105 East 5th Street<br/>Carlisle, AR" 23.7959687721896 -91.7474538 34.7866432
+"Greenbrier Public Library<br/>13 Wilson Farm Road<br/>Greenbriar, AR" 26.4005159774071 -92.3868184 35.2225723
+"William F. Foster Library<br/>100 East Taylor St.<br/>England, AR" 26.618433544377 -91.9672482 34.5403152
+"Bryant Public Library<br/>201 Prickett Road<br/>Bryant, AR" 28.129749543288 -92.4954091 34.6094768
+"Redfield Public Library<br/>310 Brodie Street<br/>Redfield, AR" 31.1133539852696 -92.184686 34.44783
+"Saline County Library<br/>1800 Smithers Drive<br/>Benton, AR" 32.6009708180045 -92.5706499 34.5808345
+"White County Regional Library System<br/>113 East Pleasure Avenue<br/>Searcy, AR" 33.5299876920142 -91.7365766 35.2476929
+"Twin Groves Branch Library<br/>10 Twin Groves<br/>Twin Groves, AR" 33.5904030607457 -92.433761 35.320538
+"Des Arc Public Library<br/>408 Curran Street<br/>Des Arc, AR" 37.1552848312522 -91.4965204 34.9749448
+"Milam Library<br/>609 Aplin Avenue<br/>Perryville, AR" 38.2120816689292 -92.805467 35.0051391
+"Conway County Library<br/>101 West Church Street<br/>Morrilton, AR" 38.3244886659793 -92.745475 35.151164
+"Baldwin Memorial Library<br/>612 Van Buren<br/>Judsonia, AR" 38.6519831920858 -91.6395366 35.2723848
+"Devalls Bluff Branch Library<br/>173 Market Street<br/>Devalls Bluff, AR" 39.6844118495068 -91.4591106 34.7845369
+"Pangburn Public Library<br/>242 Main Street<br/>Pangburn, AR" 40.1699426632465 -91.8449562 35.4228962
+"Cleburne County Library<br/>1010 West Searcy Street<br/>Heber Springs, AR" 41.5549353264443 -92.0409136 35.4911344
+"White Hall Public Library<br/>300 Anderson Street<br/>White Hall, AR" 43.00559264505 -92.0946869 34.27607
+"Grant County Library<br/>216 North Oak Street<br/>Sheridan, AR" 43.2009313634909 -92.4014174 34.3087191
+"Bald Knob Public Library<br/>367 Hwy Avenue<br/>Bald Knob, AR" 43.3949612374887 -91.5679114 35.3098066
+"Altheimer Public Library<br/>222 South Edline<br/>Altheimer, AR" 43.6837010671316 -91.8428527 34.3158197
+"Arkansas County Library<br/>2002 S. Buerkle Street<br/>Stuttgart, AR" 43.920894827871 -91.558945 34.482662
+"Greers Ferry Public Library<br/>8739 Edgemont Road<br/>Greers Ferry, AR" 47.1153687125418 -92.1770862 35.5770197
+"Pine Bluff Jefferson County Library System<br/>200 E. 8th Avenue<br/>Pine Bluff, AR" 47.4773617707846 -92.0011093 34.2203215
+"Watson Chapel Branch Library<br/>4120 Camden Road<br/>Pine Bluff, AR" 49.2527671045795 -92.0684093 34.1871714
+"Monroe County Library<br/>270 Madison Street<br/>Clarendon, AR" 49.3352982343746 -91.3123202 34.6928234
+"Fairfield Bay Library<br/>369 Dave Creek Pky.<br/>Fairfield Bay, AR" 49.8135499675897 -92.2622065 35.6101169
+"Van Buren County Library<br/>110 Page Street<br/>Clinton, AR" 50.0304608539833 -92.4530519 35.5744043
+"Atkins Public Library<br/>216 North East First Street<br/>Atkins, AR" 50.8038461368337 -92.9358155 35.243041
+"Woodruff County Library<br/>201 Mulberry Street<br/>Augusta, AR" 51.4671768149819 -91.3667347 35.2816069
+"Malvern - Hot Spring County Library<br/>202 East Third Street<br/>Malvern, AR" 52.8970728689315 -92.811941 34.3641263
+"Bradford Public Library<br/>219 West Main Street<br/>Bradford, AR" 53.3425648949216 -91.4556426 35.4230372
+"Garland County Library<br/>1427 Malvern Avenue<br/>Hot Springs, AR" 57.9079821405356 -93.0400962 34.4978502
+"Hector Branch Library<br/>11600 Hwy 27<br/>Hector, AR" 61.4894790828531 -92.9749043 35.4706635
+"Arkansas River Valley Regional Library<br/>501 North Front Street<br/>Dardanelle, AR" 61.5339194637418 -93.1551077 35.2239302
+"Pope County Library System<br/>116 East 3rd Street<br/>Russellville, AR" 61.772427294488 -93.1326406 35.275771
+"Dewitt Public Library<br/>205 West Maxwell<br/>Dewitt, AR" 61.9268635675606 -91.336421 34.2974161
+"Dover Public Library<br/>80 Library Road<br/>Dover, AR" 64.3748106481149 -93.108542 35.3912865
+"Cleveland County Public Library<br/>203 West Magnolia<br/>Rison, AR" 64.976078563566 -92.192174 33.957908
+"Independence County Library<br/>368 E. Main Street<br/>Batesville, AR" 66.6262658426562 -91.6514679 35.7715275
+"Stone County Library<br/>326 W. Washington<br/>Mountain View, AR" 67.3266919172557 -92.1207729 35.8695225
+"Star City Public Library<br/>200 E. Wiley<br/>Star City, AR" 68.3637982333353 -91.8414044 33.9403061
+"Jackson County Library<br/>213 Walnut Street<br/>Newport, AR" 69.0909546935163 -91.2823282 35.6047191
+"Cleon Collier Memorial Library<br/>211 Main Street<br/>Gillett, AR" 69.4002313350068 -91.3773643 34.1174631
+"Gould Public Library<br/>320 South Main<br/>Gould, AR" 71.0760194182139 -91.5644742 33.9871182
+"Yell County Library<br/>904 Atlanta Street<br/>Danville, AR" 71.5407786946519 -93.3921505 35.053881
+"Marvell Public Library<br/>806 Carruth Street<br/>Marvell, AR" 73.9293703817803 -90.9116748 34.5568434
+"Clark County Library<br/>609 Caddo Street<br/>Arkadelphia, AR" 74.5772927341888 -93.0536843 34.120983
+"Jim G. Ferguson Searcy County Library<br/>202 East Main<br/>Marshall, AR" 75.1723297484281 -92.6289737 35.9089139
+"Dallas County Library<br/>501 East 4th Street<br/>Fordyce, AR" 76.2523449721158 -92.4086624 33.8158307
+"Forrest City Public Library<br/>421 South Washington Street<br/>Forrest City, AR" 77.5139672271203 -90.7841438 35.0066468
+"Tuckerman Branch Library<br/>200 West Main<br/>Tuckerman, AR" 78.5758586921493 -91.2014176 35.73183
+"Southeast Arkansas Regional Library - Dumas<br/>120 East Choctaw<br/>Dumas, AR" 79.1009146859437 -91.49059 33.888287
+"Lee County Public Library<br/>77 West Main Street<br/>Marianna, AR" 79.1258179876616 -90.7591325 34.7734865
+"Sharp County Library - Cave City Branch<br/>120 Spring Street<br/>Cave City, AR" 79.5633062793751 -91.5492836 35.9392667
+"East Central Arkansas Regional Library<br/>410 East Merriman<br/>Wynne, AR" 80.0473676545786 -90.788849 35.224203
+"Melbourne Public Library<br/>915 East Main Street<br/>Melbourne, AR" 81.6632851122609 -91.890408 36.0586738
+"Elaine Public Library<br/>126 Main Street<br/>Elaine, AR" 84.0467126073016 -90.8531721 34.3080249
+"Johnson County Library<br/>2 Taylor Circle<br/>Clarksville, AR" 84.4892725787049 -93.4645366 35.4693172
+"Calico Rock Branch<br/>1214 Second Street<br/>Calico Rock, AR" 84.5466334015375 -92.1315908 36.1186103
+"Bearden Public Library<br/>111 N. Cedar<br/>Bearden, AR" 85.4001420259399 -92.6157275 33.7247382
+"Sharp County Library Branch<br/>222 Main Street<br/>Evening Shade, AR" 86.5333885777646 -91.618784 36.0718068
+"Montgomery County Library<br/>145a Whittingdon Street<br/>Mount Ida, AR" 87.8496128791602 -93.633397 34.556046
+"Cabe Public Library<br/>204 East Walnut<br/>Gurdon, AR" 88.6686145854254 -93.150711 33.919567
+"Southeast Arkansas Regional Library - Warren<br/>115 Cypress<br/>Warren, AR" 88.8368736654447 -92.0641035 33.6138769
+"West Helena Public Library<br/>721 Plaza Street<br/>West Helena, AR" 89.0918430440147 -90.6375451 34.5438921
+"Glenwood Branch Library<br/>201 North 2nd<br/>Glenwood, AR" 89.2258527538361 -93.5510396 34.3270714
+"Southeast Arkansas Regional Library<br/>107 East Jackson<br/>Monticello, AR" 90.1788059544258 -91.7912509 33.6258928
+"Driftwood Public Library<br/>28 S. Hwy 25<br/>Lynn, AR" 91.8107730940338 -91.2524598 36.0069999
+"Phillips Lee Monroe Regional Library System<br/>623 Pecan Street<br/>Helena, AR" 92.0635462399907 -90.5886192 34.5286744
+"Poinsett County Library<br/>200 N. East Street<br/>Harrisburg, AR" 93.1351482970648 -90.7153587 35.5670719
+"Boyd T. Mollie Gattis Logan County Library<br/>100 East Academy<br/>Paris, AR" 93.7631557218126 -93.7299492 35.2900319
+"Horseshoe Bend Branch Library<br/>704 West Commerce<br/>Horseshoe Bend, AR" 94.1424060231126 -91.7644595 36.2217645
+"Calhoun County Library<br/>109 2nd Street<br/>Hampton, AR" 95.8226516061892 -92.471511 33.537775
+"Rosedale Public Library<br/>702 Front Street<br/>Rosedale, MS" 96.180053247462 -91.0288553 33.8546952
+"Newton County<br/>hc 31 box 8<br/>Jasper, AR" 96.7480614009312 -93.1865659 36.0081324
+"Marion County Library<br/>319 Highway 14 South<br/>Yellville, AR" 96.7895172719985 -92.6812091 36.2258398
+"Southeast Arkansas Regional Library - Mcgehee<br/>211 North 4th Street<br/>Mcgehee, AR" 97.535171824722 -91.3992752 33.6280909
+"Gassville Branch Library<br/>6469 Hwy. 62 West<br/>Gassville, AR" 98.2613406199839 -92.4653423 36.2927899
+"Earle Public Library<br/>703 Commerce Street<br/>Earle, AR" 98.5050294820961 -90.4657199 35.2709436
+"Public Library Of Camden Ouachita County<br/>120 Harrison Ave. S. W.<br/>Camden, AR" 98.8368374875973 -92.8312371 33.5851308
