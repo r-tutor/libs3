@@ -1,0 +1,31 @@
+F.3d.model.matrix       3-Dimensional capture-recapture model matrices
+F.cjs.covars            F.cjs.covars
+F.cjs.estim             F.cjs.estim - Cormack-Jolly-Seber estimation
+F.cjs.gof               F.cjs.gof
+F.cjs.simulate          F.cjs.simulate - Generation of capture
+                        histories that follow a CJS model.
+F.cr.model.avg          F.cr.model.avg - Model averaging of
+                        mark-recapture parameters.
+F.cr.model.matrix       Capture-Recapture model matrix
+F.fit.table             F.fit.table - Produce a summary table of model
+                        fit statistics.
+F.huggins.estim         F.huggins.estim - Estimation of Huggins closed
+                        population capture-recapture model.
+F.sat.lik               F.sat.lik
+F.step.cjs              F.step.cjs - Stepwise model selection for CJS
+                        models.
+F.update.df             F.update.df - Update degrees of freedom in a
+                        Cormack-Jolly-Seber fitted object
+dipper.data             European Dipper data
+ivar                    Expand Individual-varying covariates in models
+lines.cjs               lines.cjs
+mra-package             MRA - Mark Recapture Analysis
+mra.control             mra.control - Control over MRA fitting process
+plot.cjs                Plot CJS Model
+plot.nhat               Plot size estimates
+predict.cjs             predict.cjs
+print.cjs               Print Cormack-Jolly-Seber (CJS) Models
+print.hug               Print Huggin's Model objects
+print.nhat              print.nhat
+residuals.cjs           Residuals for CJS Model
+tvar                    Expand Time-varying covariates in models
