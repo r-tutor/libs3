@@ -1,0 +1,56 @@
+baseball                Data (paired comparisons): Baseball Games
+carconf                 Data (partial rankings): Car Configurator
+cemspc                  Data (paired comparisons with undecided): CEMS
+                        (Community of European management schools)
+checkMIS                Function to check/report missing values in
+                        paired comparison studies
+dat4                    Data (paired comparisons): dat4
+euro55.2.des            Design data frame for a paired comparison
+                        pattern model for rankings (Eurobarometer 55.2)
+expand.mat              Utility function to expand aggregated data
+immig                   Data (paired comparisons with undecided and
+                        forced NAs): Negative Attitudes towards
+                        Immigrants
+issp2000                Data (Likert items): ISSP 2000 Survey on
+                        Environmental Issues
+llbt.design             Loglinear Bradley-Terry Model (LLBT) - Design
+                        Matrix Generation
+llbt.fit                Function to fit an LLBT
+llbt.worth              Function to calculate and print worth
+                        parameters from LLBT model results
+llbtPC.fit              Function to fit a loglinear Bradley-Terry model
+                        for paired comparisons
+music                   Data (ratings): Music (US General social survey
+                        1993)
+patt.design             Paired Comparison Patterns - Design Matrix
+                        Generation
+patt.worth              Function to calculate and print worth
+                        parameters from pattern model results
+pattL.fit               Function to fit a pattern model for ratings
+                        (Likert items)
+pattLrep.fit            Function to fit a pattern model for repeated
+                        ratings (Likert items)
+pattPC.fit              Function to fit a pattern model for paired
+                        comparisons
+pattR.fit               Function to fit a pattern model for (partial)
+                        rankings
+pattRrep.fit            Function to fit a pattern model for repeated
+                        rankings)
+pattnpml.fit            NPML estimation for paired comparison models
+plot.wmat               Method to plot worth or model parameters from
+                        LLBT or pattern models
+plotworth               Deprecated function to plot worth or model
+                        parameters from LLBT or pattern models
+prefmod-package         'prefmod': Utilities to Fit Paired Comparison
+                        Models for Preferences
+print.pattMod           Print methods for pattern models
+salad                   Data (ranks): Salad Dressings (Critchlow and
+                        Fligner)
+simPC                   Utility function to simulate paired comparison
+                        or rankings data
+summary.pattNPML        Summarizing finite mixture regression fits
+tennis                  Data (paired comparisons): Preferred Interview
+                        Partner
+trdel                   Data (paired comparisons): Training delivery
+                        modes
+xmpl                    Data (Likert items): Example Data Set
