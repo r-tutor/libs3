@@ -1,0 +1,25 @@
+0.4
+  - Extract autobrew script
+
+0.3
+  - Add [<-.magick-image to support for assigning layers to image by index
+  - Revert Windows build to ImageMagick 6 because IM7 is too buggy
+  - Add plot(image) method
+  - Added intro vignette
+
+0.2.2
+  - Try again to fix the mac binary package
+  - Switch the Windows package to ImageMagick 7
+
+0.2.1
+  - Try to fix the mac binary package
+
+0.2
+  - Build binary package on OS-X --with-zero-configuation (fixes "config xml file" errors).
+  - image_read now reads straight from disk rather than via R.
+  - Add as.raster() method for images
+  - image_write gains a 'flatten' argument
+  - Lots of small tweaks here and there
+
+0.1
+  - Initial CRAN release
