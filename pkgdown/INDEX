@@ -1,0 +1,7 @@
+build_articles          Build articles
+build_home              Build home page
+build_news              Build news section
+build_reference         Build reference section
+build_site              Build pkgdown website
+render_page             Render page with template
+template_navbar         Generate YAML templates

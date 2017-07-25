@@ -1,0 +1,26 @@
+Package: pkgdown
+Version: 0.1.0.9000
+Title: Make Static HTML Documentation for a Package
+Description: Generate a beautiful and useful website from a source package.
+Authors@R: c(
+    person("Hadley", "Wickham", , "hadley@rstudio.com", role = c("aut", "cre")),
+    person("RStudio", role = c("cph", "fnd"))
+    )
+License: MIT + file LICENSE
+Depends: R (>= 3.2.0)
+Imports: desc, digest, devtools, evaluate, highlight, magick, magrittr,
+        purrr, pkgload, rmarkdown (>= 1.1.9007), roxygen2, tibble,
+        tools, whisker, yaml, xml2 (>= 1.0.0.9001)
+Suggests: knitr, testthat
+Remotes: hadley/xml2, rstudio/rmarkdown, r-pkgs/pkgload
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1.9000
+URL: https://github.com/hadley/pkgdown
+BugReports: https://github.com/hadley/pkgdown/issues
+Author: Hadley Wickham [aut, cre],
+  RStudio [cph]
+Maintainer: Hadley Wickham <hadley@rstudio.com>
+Built: R 3.3.2; ; 2017-03-03 04:32:15 UTC; windows
+RemoteType: local
+RemoteUrl: C:\Users\Jason\Downloads\pkgdown-master
+RemoteSha: 0.1.0.9000

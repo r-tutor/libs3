@@ -1,0 +1,12 @@
+build_articles	build_articles
+build_home	build_home
+build_news	build_news
+build_reference	build_reference
+build_reference_index	build_reference
+build_site	build_site
+data_template	render_page
+init_site	build_site
+render_page	render_page
+template_articles	templates
+template_navbar	templates
+template_reference	templates
