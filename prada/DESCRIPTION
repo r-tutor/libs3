@@ -1,0 +1,26 @@
+Package: prada
+Version: 1.52.0
+Title: Data analysis for cell-based functional assays
+Author: Florian Hahne <florian.hahne@novartis.com>, Wolfgang Huber <huber@ebi.ac.uk>, Markus Ruschhaupt, Joern Toedling <toedling@ebi.ac.uk>, Joseph Barry <joseph.barry@embl.de>
+Maintainer: Florian Hahne <florian.hahne@novartis.com>
+Depends: R (>= 2.10), Biobase, RColorBrewer, grid, methods, rrcov
+Suggests: cellHTS2, tcltk
+Imports: Biobase, BiocGenerics, graphics, grDevices, grid, MASS,
+        methods, RColorBrewer, rrcov, stats4, utils
+Collate: AllGenerics.R AllClasses.R methods-cytoFrame.R
+        methods-cytoSet.R methods-gate.R methods-gateSet.R
+        methods-misc.R analysePlate.R as.all.R barploterrbar.R
+        combineFrames.R csApply.R combineGates.R cytoFunctions.R
+        fitNorm2.R gateMatrix.R getPradaPar.R plotNorm2.R plotPlate.R
+        readCytoSet.R readFCS.R readSDM.R removeCensored.R thresholds.R
+        touchFCS.R tcltkProgress.R getAlphanumeric.R
+Description: Tools for analysing and navigating data from high-throughput phenotyping experiments
+ based on cellular assays and fluorescent detection (flow cytometry (FACS), high-content screening
+ microscopy).
+License: LGPL
+biocViews: CellBasedAssays, Visualization
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2017-04-24 23:18:57 UTC; biocbuild
+Built: R 3.4.0; i386-w64-mingw32; 2017-04-25 06:20:28 UTC; windows
+Archs: i386, x64
