@@ -1,0 +1,5 @@
+needs                   Attach/install packages
+needs-package           Easier package loading / auto-installation
+prioritize              Re-attach packages to prevent masking
+toProfile               Append to Rprofile in current working
+                        directory.
