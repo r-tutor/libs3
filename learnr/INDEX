@@ -1,0 +1,8 @@
+filesystem_storage      Filesystem-based storage for tutor state data
+initialize_tutorial     Initialize Tutorial R Markdown Extensions
+quiz                    Tutorial quiz questions
+run_tutorial            Run a tutorial
+tutorial                Tutorial document format
+tutorial_html_dependency
+                        Tutorial HTML dependency
+tutorial_options        Set tutorial options
