@@ -1,0 +1,15 @@
+bias_lines              Plot connection weights for bias lines
+bias_points             Plot bias points
+garson                  Variable importance using Garson's algorithm
+get_ys                  Get y locations for layers in 'plotnet'
+layer_lines             Plot connection weights
+layer_points            Plot neural network nodes
+lekgrps                 Create optional barplot for 'lekprofile' groups
+lekprofile              Sensitivity analysis using Lek's profile method
+neuraldat               Simulated dataset for function examples
+neuralskips             Get weights for the skip layer in a neural
+                        network
+neuralweights           Get weights for a neural network
+olden                   Variable importance using connection weights
+plotnet                 Plot a neural network model
+pred_sens               Predicted values for Lek profile method
