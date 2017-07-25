@@ -1,0 +1,31 @@
+agg_player_season       Detailed Player Aggregate Season Statistics
+drive_summary           Drive Summary and Results
+expected_points         Expected point function to add an expected
+                        point variable for each play in the play by
+                        play
+extracting_gameids      Extract GameIDs for each game in a given NFL
+                        season
+game_play_by_play       Parsed Descriptive Play-by-Play Dataset for a
+                        Single Game
+nflteams                NFL Team Names and Abbreviations
+player_game             Detailed Boxscore for Single NFL Game
+playerstats09           NFL Team Names and Abbreviations
+playerstats10           NFL Team Names and Abbreviations
+playerstats11           NFL Team Names and Abbreviations
+playerstats12           NFL Team Names and Abbreviations
+playerstats13           NFL Team Names and Abbreviations
+playerstats14           NFL Team Names and Abbreviations
+playerstats15           NFL Team Names and Abbreviations
+proper_jsonurl_formatting
+                        Formatting URL for location of NFL Game JSON
+                        Data
+season_games            Game Information for All Games in a Season
+season_play_by_play     Parsed Descriptive Play-by-Play Function for a
+                        Full Season
+season_player_game      Boxscore for Each Game in the Season - One line
+                        per player per game
+season_rosters          Season Rosters for Teams
+simple_boxscore         Simple Game Boxscore
+win_probability         Win probability function to add win probability
+                        columns for the offense and defense for each
+                        play in the game
