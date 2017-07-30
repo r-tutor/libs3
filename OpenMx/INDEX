@@ -112,6 +112,7 @@ imxGenerateNamespace    imxGenerateNamespace
 imxGenericModelBuilder
                         imxGenericModelBuilder
 imxGentleResize         Resize an MxMatrix while preserving entries
+imxGetNumThreads        imxGetNumThreads
 imxGetSlotDisplayNames
                         imxGetSlotDisplayNames
 imxHasConstraint        imxHasConstraint
@@ -192,7 +193,7 @@ mxBootstrapStdizeRAMpaths
 mxBounds                Create MxBounds Object
 mxCI                    Create mxCI Object
 mxCheckIdentification   Check that a model is locally identified
-mxCompare               Assign Model Parameters
+mxCompare               Likelihood ratio test
 mxComputeBootstrap      Repeatedly estimate model using resampling with
                         replacement
 mxComputeConfidenceInterval
@@ -230,7 +231,7 @@ mxConstraint            Create MxConstraint Object
 mxData                  Create MxData Object
 mxDataDynamic           Create dynamic data
 mxDataWLS               Create MxData Object for Least Squares (WLS,
-                        DLS, ULS) Analyses
+                        DWLS, ULS) Analyses
 mxEval                  Evaluate Values in MxModel
 mxEvaluateOnGrid        Evaluate an algebra on an abscissa grid and
                         collect column results
@@ -272,6 +273,8 @@ mxMatrix                Create MxMatrix Object
 mxModel                 Create MxModel Object
 mxNormalQuantiles       mxNormalQuantiles
 mxOption                Set or Clear an Optimizer Option
+mxParametricBootstrap   Assess whether potential parameters should be
+                        freed using parametric bootstrap
 mxPath                  Create List of Paths
 mxRAMObjective          DEPRECATED: Create MxRAMObjective Object
 mxRObjective            DEPRECATED: Create MxRObjective Object
@@ -335,6 +338,8 @@ omxGetNPSOL             omxGetNPSOL
 omxGetParameters        Fetch Model Parameters
 omxGetRAMDepth          omxGetRAMDepth
 omxGraphviz             Show RAM Model in Graphviz Format
+omxHasDefaultComputePlan
+                        omxHasDefaultComputePlan
 omxLapply               On-Demand Parallel Lapply
 omxLocateParameters     Summarize Model Parameters
 omxLogical              Logical mxAlgebra() operators

@@ -1,7 +1,7 @@
 Package: js
 Type: Package
 Title: Tools for Working with JavaScript in R
-Version: 1.0
+Version: 1.1
 Author: Jeroen Ooms
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Description: A set of utilities for working with JavaScript syntax in R.
@@ -15,7 +15,7 @@ Imports: V8 (>= 0.5)
 Suggests: knitr, rmarkdown
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-07-15 17:17:24 UTC; jeroen
+Packaged: 2017-07-28 18:58:15 UTC; jeroen
 Repository: CRAN
-Date/Publication: 2017-07-15 20:48:59 UTC
-Built: R 3.4.1; ; 2017-07-21 23:56:53 UTC; windows
+Date/Publication: 2017-07-28 21:32:04 UTC
+Built: R 3.4.1; ; 2017-07-28 22:25:04 UTC; windows

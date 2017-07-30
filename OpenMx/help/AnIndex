@@ -110,6 +110,7 @@ imxGenericModelBuilder	imxGenericModelBuilder
 imxGenSwift	imxGenSwift
 imxGentleResize	imxGentleResize
 imxGetExpectationComponent	mxGetExpected
+imxGetNumThreads	imxGetNumThreads
 imxGetSlotDisplayNames	imxGetSlotDisplayNames
 imxHasConstraint	imxHasConstraint
 imxHasDefinitionVariable	imxHasDefinitionVariable
@@ -235,6 +236,7 @@ mxCheckIdentification	mxCheckIdentification
 MxCI	MxCI-class
 mxCI	mxCI
 mxCompare	mxCompare
+mxCompareMatrix	mxCompare
 MxCompute	MxCompute-class
 MxCompute-class	MxCompute-class
 mxComputeBootstrap	mxComputeBootstrap
@@ -360,6 +362,7 @@ MxOptionalCharOrNumber-class	MxOptionalCharOrNumber-class
 MxOptionalLogical-class	MxOptionalLogical-class
 MxOptionalMatrix-class	MxOptionalMatrix-class
 MxOptionalNumeric-class	MxOptionalNumeric-class
+mxParametricBootstrap	mxParametricBootstrap
 mxPath	mxPath
 MxPath-class	mxPath
 MxRAMGraph	MxRAMGraph-class
@@ -444,6 +447,7 @@ omxGetParameters	omxGetParameters
 omxGetRAMDepth	omxGetRAMDepth
 omxGraphviz	omxGraphviz
 omxGreaterThan	omxLogical
+omxHasDefaultComputePlan	omxHasDefaultComputePlan
 omxLapply	omxLapply
 omxLessThan	omxLogical
 omxLocateParameters	omxLocateParameters

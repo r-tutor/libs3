@@ -86,9 +86,12 @@ offline	offline
 plotly	plotly
 plotly-shiny	plotly-shiny
 plotlyOutput	plotly-shiny
+plotlyProxy	plotlyProxy
+plotlyProxyInvoke	plotlyProxy
 plotly_build	plotly_build
 plotly_data	plotly_data
 plotly_empty	plotly_empty
+plotly_example	plotly_example
 plotly_IMAGE	plotly_IMAGE
 plotly_json	plotly_json
 plotly_POST	plotly_POST

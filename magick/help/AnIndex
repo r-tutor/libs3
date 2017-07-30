@@ -1,4 +1,5 @@
 coder_info	config
+device	device
 editing	edit
 imagemagick	edit
 image_animate	edit
@@ -19,7 +20,9 @@ image_contrast	transformations
 image_convert	transformations
 image_crop	transformations
 image_deskew	transformations
+image_device	device
 image_display	edit
+image_draw	device
 image_edge	transformations
 image_emboss	transformations
 image_enhance	transformations
