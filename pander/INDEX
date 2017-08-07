@@ -35,9 +35,12 @@ pander.coxph            Pander method for coxph class
 pander.cph              Prints an cph object from rms package in
                         Pandoc's markdown.
 pander.data.frame       Pander method for data.frame class
+pander.data.table       Pander method for data.table class
 pander.default          Default Pander method
 pander.density          Pander method for density class
 pander.describe         Pander method for describe class
+pander.ets              Prints an ets object from forecast package in
+                        Pandoc's markdown.
 pander.evals            Pander method for evals class
 pander.factor           Pander method for factor class
 pander.formula          Pander method for formula class
@@ -58,7 +61,6 @@ pander.lrm              Prints an lrm object from rms package in
 pander.manova           Pander method for manova class
 pander.matrix           Pander method for matrix class
 pander.microbenchmark   Pander method for microbenchmark class
-pander.mtable           Pander method for mtable class
 pander.name             Pander method for name class
 pander.nls              Prints an nls object from stats package in
                         Pandoc's markdown.

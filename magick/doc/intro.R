@@ -7,6 +7,12 @@ library(knitr)
   knitr::include_graphics(tmp)
 }
 
+dev.off <- function(){
+  invisible(grDevices::dev.off())
+}
+
+has_tesseract <- isTRUE(require(tesseract, quietly = TRUE))
+
 ## ------------------------------------------------------------------------
 str(magick::magick_config())
 
@@ -25,7 +31,7 @@ frink <- image_read("https://jeroen.github.io/images/frink.png")
 print(frink)
 
 # Add 20px left/right and 10px top/bottom
-image_border(frink, "red", "20x10")
+image_border(image_background(frink, "hotpink"), "#000080", "20x10")
 
 # Trim margins
 image_trim(frink)
@@ -42,8 +48,7 @@ image_rotate(frink, 45)
 image_flip(frink)
 image_flop(frink)
 
-# Set a background color
-image_background(frink, "pink", flatten = TRUE)
+# Paint the shirt orange
 image_fill(frink, "orange", point = "+100+200", fuzz = 30000)
 
 ## ------------------------------------------------------------------------
@@ -166,17 +171,17 @@ image_info(banana)
 background <- image_background(image_scale(logo, "200"), "white", flatten = TRUE)
 
 # Combine and flatten frames
-frames <- lapply(banana, function(frame) {
+frames <- image_apply(banana, function(frame) {
   image_composite(background, frame, offset = "+70+30")
 })
 
 # Turn frames into animation
-animation <- image_animate(image_join(frames))
+animation <- image_animate(frames, fps = 10)
 print(animation)
 
-## ---- results="hide"-----------------------------------------------------
+## ------------------------------------------------------------------------
 # Produce image using graphics device
-fig <- image_device(res = 96)
+fig <- image_graph(width = 400, height = 400, res = 96)
 ggplot2::qplot(mpg, wt, data = mtcars, colour = cyl)
 dev.off()
 
@@ -185,7 +190,7 @@ dev.off()
 out <- image_composite(fig, frink, offset = "+70+30")
 print(out)
 
-## ---- results="hide"-----------------------------------------------------
+## ------------------------------------------------------------------------
 # Or paint over an existing image
 img <- image_draw(frink)
 rect(20, 20, 200, 100, border = "red", lty = "dashed", lwd = 5)
@@ -198,6 +203,21 @@ dev.off()
 
 ## ------------------------------------------------------------------------
 print(img)
+
+## ------------------------------------------------------------------------
+library(gapminder)
+library(ggplot2)
+img <- image_graph(600, 400, res = 96)
+datalist <- split(gapminder, gapminder$year)
+out <- lapply(datalist, function(data){
+  p <- ggplot(data, aes(gdpPercap, lifeExp, size = pop, color = continent)) +
+    scale_size("population", limits = range(gapminder$pop)) + geom_point() + ylim(20, 90) + 
+    scale_x_log10(limits = range(gapminder$gdpPercap)) + ggtitle(data$year) + theme_classic()
+  print(p)
+})
+dev.off()
+animation <- image_animate(img, fps = 2)
+print(animation)
 
 ## ------------------------------------------------------------------------
 plot(as.raster(frink))
@@ -223,4 +243,14 @@ raster::plotRGB(r)
 buf <- as.integer(frink[[1]])
 rr <- raster::brick(buf)
 raster::plotRGB(rr, asp = 1)
+
+## ----eval=FALSE----------------------------------------------------------
+#  install.packages("tesseract")
+
+## ---- eval = has_tesseract-----------------------------------------------
+img <- image_read("http://jeroen.github.io/images/testocr.png")
+print(img)
+
+# Extract text
+cat(image_ocr(img))
 

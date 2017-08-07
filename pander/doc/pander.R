@@ -18,16 +18,14 @@ methods(pander)
 evals('1:10')
 
 ## ------------------------------------------------------------------------
-str(Pandoc.brew(text ='
-+   Pi equals to `<%= pi %>`.
-+   And here are some random data:
-+   `<%= runif(10) %>`
-+ '))
+str(Pandoc.brew(text ='Pi equals to `<%= pi %>`. And here are some random data: `<%= runif(10)%>`'))
 
 ## ------------------------------------------------------------------------
+pots <- panderOptions("table.style")
 panderOptions("table.style", "simple")
 pander(mtcars[1:3, 1:4])
 pander(head(iris))
 panderOptions("table.style", "grid")
 pander(head(iris))
+panderOptions("table.style", pots)
 

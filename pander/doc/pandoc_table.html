@@ -1,215 +1,371 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
+<title>Table styles</title>
 
-<meta name="author" content="Roman Tsegelskyi, Gergely Daróczi" />
-
-<meta name="date" content="2015-11-21" />
-
-<title>Rendering tables with pandoc.table</title>
-
-
-
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; }
-code > span.dt { color: #902000; }
-code > span.dv { color: #40a070; }
-code > span.bn { color: #40a070; }
-code > span.fl { color: #40a070; }
-code > span.ch { color: #4070a0; }
-code > span.st { color: #4070a0; }
-code > span.co { color: #60a0b0; font-style: italic; }
-code > span.ot { color: #007020; }
-code > span.al { color: #ff0000; font-weight: bold; }
-code > span.fu { color: #06287e; }
-code > span.er { color: #ff0000; font-weight: bold; }
-</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
   }
+};
+</script>
+
+<!-- Styles for R syntax highlighter -->
+<style type="text/css">
+   pre .operator,
+   pre .paren {
+     color: rgb(104, 118, 135)
+   }
+
+   pre .literal {
+     color: #990073
+   }
+
+   pre .number {
+     color: #099;
+   }
+
+   pre .comment {
+     color: #998;
+     font-style: italic
+   }
+
+   pre .keyword {
+     color: #900;
+     font-weight: bold
+   }
+
+   pre .identifier {
+     color: rgb(0, 0, 0);
+   }
+
+   pre .string {
+     color: #d14;
+   }
+</style>
+
+<!-- R syntax highlighter -->
+<script type="text/javascript">
+var hljs=new function(){function m(p){return p.replace(/&/gm,"&amp;").replace(/</gm,"&lt;")}function f(r,q,p){return RegExp(q,"m"+(r.cI?"i":"")+(p?"g":""))}function b(r){for(var p=0;p<r.childNodes.length;p++){var q=r.childNodes[p];if(q.nodeName=="CODE"){return q}if(!(q.nodeType==3&&q.nodeValue.match(/\s+/))){break}}}function h(t,s){var p="";for(var r=0;r<t.childNodes.length;r++){if(t.childNodes[r].nodeType==3){var q=t.childNodes[r].nodeValue;if(s){q=q.replace(/\n/g,"")}p+=q}else{if(t.childNodes[r].nodeName=="BR"){p+="\n"}else{p+=h(t.childNodes[r])}}}if(/MSIE [678]/.test(navigator.userAgent)){p=p.replace(/\r/g,"\n")}return p}function a(s){var r=s.className.split(/\s+/);r=r.concat(s.parentNode.className.split(/\s+/));for(var q=0;q<r.length;q++){var p=r[q].replace(/^language-/,"");if(e[p]){return p}}}function c(q){var p=[];(function(s,t){for(var r=0;r<s.childNodes.length;r++){if(s.childNodes[r].nodeType==3){t+=s.childNodes[r].nodeValue.length}else{if(s.childNodes[r].nodeName=="BR"){t+=1}else{if(s.childNodes[r].nodeType==1){p.push({event:"start",offset:t,node:s.childNodes[r]});t=arguments.callee(s.childNodes[r],t);p.push({event:"stop",offset:t,node:s.childNodes[r]})}}}}return t})(q,0);return p}function k(y,w,x){var q=0;var z="";var s=[];function u(){if(y.length&&w.length){if(y[0].offset!=w[0].offset){return(y[0].offset<w[0].offset)?y:w}else{return w[0].event=="start"?y:w}}else{return y.length?y:w}}function t(D){var A="<"+D.nodeName.toLowerCase();for(var B=0;B<D.attributes.length;B++){var C=D.attributes[B];A+=" "+C.nodeName.toLowerCase();if(C.value!==undefined&&C.value!==false&&C.value!==null){A+='="'+m(C.value)+'"'}}return A+">"}while(y.length||w.length){var v=u().splice(0,1)[0];z+=m(x.substr(q,v.offset-q));q=v.offset;if(v.event=="start"){z+=t(v.node);s.push(v.node)}else{if(v.event=="stop"){var p,r=s.length;do{r--;p=s[r];z+=("</"+p.nodeName.toLowerCase()+">")}while(p!=v.node);s.splice(r,1);while(r<s.length){z+=t(s[r]);r++}}}}return z+m(x.substr(q))}function j(){function q(x,y,v){if(x.compiled){return}var u;var s=[];if(x.k){x.lR=f(y,x.l||hljs.IR,true);for(var w in x.k){if(!x.k.hasOwnProperty(w)){continue}if(x.k[w] instanceof Object){u=x.k[w]}else{u=x.k;w="keyword"}for(var r in u){if(!u.hasOwnProperty(r)){continue}x.k[r]=[w,u[r]];s.push(r)}}}if(!v){if(x.bWK){x.b="\\b("+s.join("|")+")\\s"}x.bR=f(y,x.b?x.b:"\\B|\\b");if(!x.e&&!x.eW){x.e="\\B|\\b"}if(x.e){x.eR=f(y,x.e)}}if(x.i){x.iR=f(y,x.i)}if(x.r===undefined){x.r=1}if(!x.c){x.c=[]}x.compiled=true;for(var t=0;t<x.c.length;t++){if(x.c[t]=="self"){x.c[t]=x}q(x.c[t],y,false)}if(x.starts){q(x.starts,y,false)}}for(var p in e){if(!e.hasOwnProperty(p)){continue}q(e[p].dM,e[p],true)}}function d(B,C){if(!j.called){j();j.called=true}function q(r,M){for(var L=0;L<M.c.length;L++){if((M.c[L].bR.exec(r)||[null])[0]==r){return M.c[L]}}}function v(L,r){if(D[L].e&&D[L].eR.test(r)){return 1}if(D[L].eW){var M=v(L-1,r);return M?M+1:0}return 0}function w(r,L){return L.i&&L.iR.test(r)}function K(N,O){var M=[];for(var L=0;L<N.c.length;L++){M.push(N.c[L].b)}var r=D.length-1;do{if(D[r].e){M.push(D[r].e)}r--}while(D[r+1].eW);if(N.i){M.push(N.i)}return f(O,M.join("|"),true)}function p(M,L){var N=D[D.length-1];if(!N.t){N.t=K(N,E)}N.t.lastIndex=L;var r=N.t.exec(M);return r?[M.substr(L,r.index-L),r[0],false]:[M.substr(L),"",true]}function z(N,r){var L=E.cI?r[0].toLowerCase():r[0];var M=N.k[L];if(M&&M instanceof Array){return M}return false}function F(L,P){L=m(L);if(!P.k){return L}var r="";var O=0;P.lR.lastIndex=0;var M=P.lR.exec(L);while(M){r+=L.substr(O,M.index-O);var N=z(P,M);if(N){x+=N[1];r+='<span class="'+N[0]+'">'+M[0]+"</span>"}else{r+=M[0]}O=P.lR.lastIndex;M=P.lR.exec(L)}return r+L.substr(O,L.length-O)}function J(L,M){if(M.sL&&e[M.sL]){var r=d(M.sL,L);x+=r.keyword_count;return r.value}else{return F(L,M)}}function I(M,r){var L=M.cN?'<span class="'+M.cN+'">':"";if(M.rB){y+=L;M.buffer=""}else{if(M.eB){y+=m(r)+L;M.buffer=""}else{y+=L;M.buffer=r}}D.push(M);A+=M.r}function G(N,M,Q){var R=D[D.length-1];if(Q){y+=J(R.buffer+N,R);return false}var P=q(M,R);if(P){y+=J(R.buffer+N,R);I(P,M);return P.rB}var L=v(D.length-1,M);if(L){var O=R.cN?"</span>":"";if(R.rE){y+=J(R.buffer+N,R)+O}else{if(R.eE){y+=J(R.buffer+N,R)+O+m(M)}else{y+=J(R.buffer+N+M,R)+O}}while(L>1){O=D[D.length-2].cN?"</span>":"";y+=O;L--;D.length--}var r=D[D.length-1];D.length--;D[D.length-1].buffer="";if(r.starts){I(r.starts,"")}return R.rE}if(w(M,R)){throw"Illegal"}}var E=e[B];var D=[E.dM];var A=0;var x=0;var y="";try{var s,u=0;E.dM.buffer="";do{s=p(C,u);var t=G(s[0],s[1],s[2]);u+=s[0].length;if(!t){u+=s[1].length}}while(!s[2]);if(D.length>1){throw"Illegal"}return{r:A,keyword_count:x,value:y}}catch(H){if(H=="Illegal"){return{r:0,keyword_count:0,value:m(C)}}else{throw H}}}function g(t){var p={keyword_count:0,r:0,value:m(t)};var r=p;for(var q in e){if(!e.hasOwnProperty(q)){continue}var s=d(q,t);s.language=q;if(s.keyword_count+s.r>r.keyword_count+r.r){r=s}if(s.keyword_count+s.r>p.keyword_count+p.r){r=p;p=s}}if(r.language){p.second_best=r}return p}function i(r,q,p){if(q){r=r.replace(/^((<[^>]+>|\t)+)/gm,function(t,w,v,u){return w.replace(/\t/g,q)})}if(p){r=r.replace(/\n/g,"<br>")}return r}function n(t,w,r){var x=h(t,r);var v=a(t);var y,s;if(v){y=d(v,x)}else{return}var q=c(t);if(q.length){s=document.createElement("pre");s.innerHTML=y.value;y.value=k(q,c(s),x)}y.value=i(y.value,w,r);var u=t.className;if(!u.match("(\\s|^)(language-)?"+v+"(\\s|$)")){u=u?(u+" "+v):v}if(/MSIE [678]/.test(navigator.userAgent)&&t.tagName=="CODE"&&t.parentNode.tagName=="PRE"){s=t.parentNode;var p=document.createElement("div");p.innerHTML="<pre><code>"+y.value+"</code></pre>";t=p.firstChild.firstChild;p.firstChild.cN=s.cN;s.parentNode.replaceChild(p.firstChild,s)}else{t.innerHTML=y.value}t.className=u;t.result={language:v,kw:y.keyword_count,re:y.r};if(y.second_best){t.second_best={language:y.second_best.language,kw:y.second_best.keyword_count,re:y.second_best.r}}}function o(){if(o.called){return}o.called=true;var r=document.getElementsByTagName("pre");for(var p=0;p<r.length;p++){var q=b(r[p]);if(q){n(q,hljs.tabReplace)}}}function l(){if(window.addEventListener){window.addEventListener("DOMContentLoaded",o,false);window.addEventListener("load",o,false)}else{if(window.attachEvent){window.attachEvent("onload",o)}else{window.onload=o}}}var e={};this.LANGUAGES=e;this.highlight=d;this.highlightAuto=g;this.fixMarkup=i;this.highlightBlock=n;this.initHighlighting=o;this.initHighlightingOnLoad=l;this.IR="[a-zA-Z][a-zA-Z0-9_]*";this.UIR="[a-zA-Z_][a-zA-Z0-9_]*";this.NR="\\b\\d+(\\.\\d+)?";this.CNR="\\b(0[xX][a-fA-F0-9]+|(\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)";this.BNR="\\b(0b[01]+)";this.RSR="!|!=|!==|%|%=|&|&&|&=|\\*|\\*=|\\+|\\+=|,|\\.|-|-=|/|/=|:|;|<|<<|<<=|<=|=|==|===|>|>=|>>|>>=|>>>|>>>=|\\?|\\[|\\{|\\(|\\^|\\^=|\\||\\|=|\\|\\||~";this.ER="(?![\\s\\S])";this.BE={b:"\\\\.",r:0};this.ASM={cN:"string",b:"'",e:"'",i:"\\n",c:[this.BE],r:0};this.QSM={cN:"string",b:'"',e:'"',i:"\\n",c:[this.BE],r:0};this.CLCM={cN:"comment",b:"//",e:"$"};this.CBLCLM={cN:"comment",b:"/\\*",e:"\\*/"};this.HCM={cN:"comment",b:"#",e:"$"};this.NM={cN:"number",b:this.NR,r:0};this.CNM={cN:"number",b:this.CNR,r:0};this.BNM={cN:"number",b:this.BNR,r:0};this.inherit=function(r,s){var p={};for(var q in r){p[q]=r[q]}if(s){for(var q in s){p[q]=s[q]}}return p}}();hljs.LANGUAGES.cpp=function(){var a={keyword:{"false":1,"int":1,"float":1,"while":1,"private":1,"char":1,"catch":1,"export":1,virtual:1,operator:2,sizeof:2,dynamic_cast:2,typedef:2,const_cast:2,"const":1,struct:1,"for":1,static_cast:2,union:1,namespace:1,unsigned:1,"long":1,"throw":1,"volatile":2,"static":1,"protected":1,bool:1,template:1,mutable:1,"if":1,"public":1,friend:2,"do":1,"return":1,"goto":1,auto:1,"void":2,"enum":1,"else":1,"break":1,"new":1,extern:1,using:1,"true":1,"class":1,asm:1,"case":1,typeid:1,"short":1,reinterpret_cast:2,"default":1,"double":1,register:1,explicit:1,signed:1,typename:1,"try":1,"this":1,"switch":1,"continue":1,wchar_t:1,inline:1,"delete":1,alignof:1,char16_t:1,char32_t:1,constexpr:1,decltype:1,noexcept:1,nullptr:1,static_assert:1,thread_local:1,restrict:1,_Bool:1,complex:1},built_in:{std:1,string:1,cin:1,cout:1,cerr:1,clog:1,stringstream:1,istringstream:1,ostringstream:1,auto_ptr:1,deque:1,list:1,queue:1,stack:1,vector:1,map:1,set:1,bitset:1,multiset:1,multimap:1,unordered_set:1,unordered_map:1,unordered_multiset:1,unordered_multimap:1,array:1,shared_ptr:1}};return{dM:{k:a,i:"</",c:[hljs.CLCM,hljs.CBLCLM,hljs.QSM,{cN:"string",b:"'\\\\?.",e:"'",i:"."},{cN:"number",b:"\\b(\\d+(\\.\\d*)?|\\.\\d+)(u|U|l|L|ul|UL|f|F)"},hljs.CNM,{cN:"preprocessor",b:"#",e:"$"},{cN:"stl_container",b:"\\b(deque|list|queue|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array)\\s*<",e:">",k:a,r:10,c:["self"]}]}}}();hljs.LANGUAGES.r={dM:{c:[hljs.HCM,{cN:"number",b:"\\b0[xX][0-9a-fA-F]+[Li]?\\b",e:hljs.IMMEDIATE_RE,r:0},{cN:"number",b:"\\b\\d+(?:[eE][+\\-]?\\d*)?L\\b",e:hljs.IMMEDIATE_RE,r:0},{cN:"number",b:"\\b\\d+\\.(?!\\d)(?:i\\b)?",e:hljs.IMMEDIATE_RE,r:1},{cN:"number",b:"\\b\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d*)?i?\\b",e:hljs.IMMEDIATE_RE,r:0},{cN:"number",b:"\\.\\d+(?:[eE][+\\-]?\\d*)?i?\\b",e:hljs.IMMEDIATE_RE,r:1},{cN:"keyword",b:"(?:tryCatch|library|setGeneric|setGroupGeneric)\\b",e:hljs.IMMEDIATE_RE,r:10},{cN:"keyword",b:"\\.\\.\\.",e:hljs.IMMEDIATE_RE,r:10},{cN:"keyword",b:"\\.\\.\\d+(?![\\w.])",e:hljs.IMMEDIATE_RE,r:10},{cN:"keyword",b:"\\b(?:function)",e:hljs.IMMEDIATE_RE,r:2},{cN:"keyword",b:"(?:if|in|break|next|repeat|else|for|return|switch|while|try|stop|warning|require|attach|detach|source|setMethod|setClass)\\b",e:hljs.IMMEDIATE_RE,r:1},{cN:"literal",b:"(?:NA|NA_integer_|NA_real_|NA_character_|NA_complex_)\\b",e:hljs.IMMEDIATE_RE,r:10},{cN:"literal",b:"(?:NULL|TRUE|FALSE|T|F|Inf|NaN)\\b",e:hljs.IMMEDIATE_RE,r:1},{cN:"identifier",b:"[a-zA-Z.][a-zA-Z0-9._]*\\b",e:hljs.IMMEDIATE_RE,r:0},{cN:"operator",b:"<\\-(?!\\s*\\d)",e:hljs.IMMEDIATE_RE,r:2},{cN:"operator",b:"\\->|<\\-",e:hljs.IMMEDIATE_RE,r:1},{cN:"operator",b:"%%|~",e:hljs.IMMEDIATE_RE},{cN:"operator",b:">=|<=|==|!=|\\|\\||&&|=|\\+|\\-|\\*|/|\\^|>|<|!|&|\\||\\$|:",e:hljs.IMMEDIATE_RE,r:0},{cN:"operator",b:"%",e:"%",i:"\\n",r:1},{cN:"identifier",b:"`",e:"`",r:0},{cN:"string",b:'"',e:'"',c:[hljs.BE],r:0},{cN:"string",b:"'",e:"'",c:[hljs.BE],r:0},{cN:"paren",b:"[[({\\])}]",e:hljs.IMMEDIATE_RE,r:0}]}};
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
 </style>
 
 
-<link href="data:text/css,body%20%7B%0A%20%20background%2Dcolor%3A%20%23fff%3B%0A%20%20margin%3A%201em%20auto%3B%0A%20%20max%2Dwidth%3A%20700px%3B%0A%20%20overflow%3A%20visible%3B%0A%20%20padding%2Dleft%3A%202em%3B%0A%20%20padding%2Dright%3A%202em%3B%0A%20%20font%2Dfamily%3A%20%22Open%20Sans%22%2C%20%22Helvetica%20Neue%22%2C%20Helvetica%2C%20Arial%2C%20sans%2Dserif%3B%0A%20%20font%2Dsize%3A%2014px%3B%0A%20%20line%2Dheight%3A%201%2E35%3B%0A%7D%0A%0A%23header%20%7B%0A%20%20text%2Dalign%3A%20center%3B%0A%7D%0A%0A%23TOC%20%7B%0A%20%20clear%3A%20both%3B%0A%20%20margin%3A%200%200%2010px%2010px%3B%0A%20%20padding%3A%204px%3B%0A%20%20width%3A%20400px%3B%0A%20%20border%3A%201px%20solid%20%23CCCCCC%3B%0A%20%20border%2Dradius%3A%205px%3B%0A%0A%20%20background%2Dcolor%3A%20%23f6f6f6%3B%0A%20%20font%2Dsize%3A%2013px%3B%0A%20%20line%2Dheight%3A%201%2E3%3B%0A%7D%0A%20%20%23TOC%20%2Etoctitle%20%7B%0A%20%20%20%20font%2Dweight%3A%20bold%3B%0A%20%20%20%20font%2Dsize%3A%2015px%3B%0A%20%20%20%20margin%2Dleft%3A%205px%3B%0A%20%20%7D%0A%0A%20%20%23TOC%20ul%20%7B%0A%20%20%20%20padding%2Dleft%3A%2040px%3B%0A%20%20%20%20margin%2Dleft%3A%20%2D1%2E5em%3B%0A%20%20%20%20margin%2Dtop%3A%205px%3B%0A%20%20%20%20margin%2Dbottom%3A%205px%3B%0A%20%20%7D%0A%20%20%23TOC%20ul%20ul%20%7B%0A%20%20%20%20margin%2Dleft%3A%20%2D2em%3B%0A%20%20%7D%0A%20%20%23TOC%20li%20%7B%0A%20%20%20%20line%2Dheight%3A%2016px%3B%0A%20%20%7D%0A%0Atable%20%7B%0A%20%20margin%3A%201em%20auto%3B%0A%20%20border%2Dwidth%3A%201px%3B%0A%20%20border%2Dcolor%3A%20%23DDDDDD%3B%0A%20%20border%2Dstyle%3A%20outset%3B%0A%20%20border%2Dcollapse%3A%20collapse%3B%0A%7D%0Atable%20th%20%7B%0A%20%20border%2Dwidth%3A%202px%3B%0A%20%20padding%3A%205px%3B%0A%20%20border%2Dstyle%3A%20inset%3B%0A%7D%0Atable%20td%20%7B%0A%20%20border%2Dwidth%3A%201px%3B%0A%20%20border%2Dstyle%3A%20inset%3B%0A%20%20line%2Dheight%3A%2018px%3B%0A%20%20padding%3A%205px%205px%3B%0A%7D%0Atable%2C%20table%20th%2C%20table%20td%20%7B%0A%20%20border%2Dleft%2Dstyle%3A%20none%3B%0A%20%20border%2Dright%2Dstyle%3A%20none%3B%0A%7D%0Atable%20thead%2C%20table%20tr%2Eeven%20%7B%0A%20%20background%2Dcolor%3A%20%23f7f7f7%3B%0A%7D%0A%0Ap%20%7B%0A%20%20margin%3A%200%2E5em%200%3B%0A%7D%0A%0Ablockquote%20%7B%0A%20%20background%2Dcolor%3A%20%23f6f6f6%3B%0A%20%20padding%3A%200%2E25em%200%2E75em%3B%0A%7D%0A%0Ahr%20%7B%0A%20%20border%2Dstyle%3A%20solid%3B%0A%20%20border%3A%20none%3B%0A%20%20border%2Dtop%3A%201px%20solid%20%23777%3B%0A%20%20margin%3A%2028px%200%3B%0A%7D%0A%0Adl%20%7B%0A%20%20margin%2Dleft%3A%200%3B%0A%7D%0A%20%20dl%20dd%20%7B%0A%20%20%20%20margin%2Dbottom%3A%2013px%3B%0A%20%20%20%20margin%2Dleft%3A%2013px%3B%0A%20%20%7D%0A%20%20dl%20dt%20%7B%0A%20%20%20%20font%2Dweight%3A%20bold%3B%0A%20%20%7D%0A%0Aul%20%7B%0A%20%20margin%2Dtop%3A%200%3B%0A%7D%0A%20%20ul%20li%20%7B%0A%20%20%20%20list%2Dstyle%3A%20circle%20outside%3B%0A%20%20%7D%0A%20%20ul%20ul%20%7B%0A%20%20%20%20margin%2Dbottom%3A%200%3B%0A%20%20%7D%0A%0Apre%2C%20code%20%7B%0A%20%20background%2Dcolor%3A%20%23f7f7f7%3B%0A%20%20border%2Dradius%3A%203px%3B%0A%20%20color%3A%20%23333%3B%0A%7D%0Apre%20%7B%0A%20%20white%2Dspace%3A%20pre%2Dwrap%3B%20%20%20%20%2F%2A%20Wrap%20long%20lines%20%2A%2F%0A%20%20border%2Dradius%3A%203px%3B%0A%20%20margin%3A%205px%200px%2010px%200px%3B%0A%20%20padding%3A%2010px%3B%0A%7D%0Apre%3Anot%28%5Bclass%5D%29%20%7B%0A%20%20background%2Dcolor%3A%20%23f7f7f7%3B%0A%7D%0A%0Acode%20%7B%0A%20%20font%2Dfamily%3A%20Consolas%2C%20Monaco%2C%20%27Courier%20New%27%2C%20monospace%3B%0A%20%20font%2Dsize%3A%2085%25%3B%0A%7D%0Ap%20%3E%20code%2C%20li%20%3E%20code%20%7B%0A%20%20padding%3A%202px%200px%3B%0A%7D%0A%0Adiv%2Efigure%20%7B%0A%20%20text%2Dalign%3A%20center%3B%0A%7D%0Aimg%20%7B%0A%20%20background%2Dcolor%3A%20%23FFFFFF%3B%0A%20%20padding%3A%202px%3B%0A%20%20border%3A%201px%20solid%20%23DDDDDD%3B%0A%20%20border%2Dradius%3A%203px%3B%0A%20%20border%3A%201px%20solid%20%23CCCCCC%3B%0A%20%20margin%3A%200%205px%3B%0A%7D%0A%0Ah1%20%7B%0A%20%20margin%2Dtop%3A%200%3B%0A%20%20font%2Dsize%3A%2035px%3B%0A%20%20line%2Dheight%3A%2040px%3B%0A%7D%0A%0Ah2%20%7B%0A%20%20border%2Dbottom%3A%204px%20solid%20%23f7f7f7%3B%0A%20%20padding%2Dtop%3A%2010px%3B%0A%20%20padding%2Dbottom%3A%202px%3B%0A%20%20font%2Dsize%3A%20145%25%3B%0A%7D%0A%0Ah3%20%7B%0A%20%20border%2Dbottom%3A%202px%20solid%20%23f7f7f7%3B%0A%20%20padding%2Dtop%3A%2010px%3B%0A%20%20font%2Dsize%3A%20120%25%3B%0A%7D%0A%0Ah4%20%7B%0A%20%20border%2Dbottom%3A%201px%20solid%20%23f7f7f7%3B%0A%20%20margin%2Dleft%3A%208px%3B%0A%20%20font%2Dsize%3A%20105%25%3B%0A%7D%0A%0Ah5%2C%20h6%20%7B%0A%20%20border%2Dbottom%3A%201px%20solid%20%23ccc%3B%0A%20%20font%2Dsize%3A%20105%25%3B%0A%7D%0A%0Aa%20%7B%0A%20%20color%3A%20%230033dd%3B%0A%20%20text%2Ddecoration%3A%20none%3B%0A%7D%0A%20%20a%3Ahover%20%7B%0A%20%20%20%20color%3A%20%236666ff%3B%20%7D%0A%20%20a%3Avisited%20%7B%0A%20%20%20%20color%3A%20%23800080%3B%20%7D%0A%20%20a%3Avisited%3Ahover%20%7B%0A%20%20%20%20color%3A%20%23BB00BB%3B%20%7D%0A%20%20a%5Bhref%5E%3D%22http%3A%22%5D%20%7B%0A%20%20%20%20text%2Ddecoration%3A%20underline%3B%20%7D%0A%20%20a%5Bhref%5E%3D%22https%3A%22%5D%20%7B%0A%20%20%20%20text%2Ddecoration%3A%20underline%3B%20%7D%0A%0A%2F%2A%20Class%20described%20in%20https%3A%2F%2Fbenjeffrey%2Ecom%2Fposts%2Fpandoc%2Dsyntax%2Dhighlighting%2Dcss%0A%20%20%20Colours%20from%20https%3A%2F%2Fgist%2Egithub%2Ecom%2Frobsimmons%2F1172277%20%2A%2F%0A%0Acode%20%3E%20span%2Ekw%20%7B%20color%3A%20%23555%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%2F%2A%20Keyword%20%2A%2F%0Acode%20%3E%20span%2Edt%20%7B%20color%3A%20%23902000%3B%20%7D%20%2F%2A%20DataType%20%2A%2F%0Acode%20%3E%20span%2Edv%20%7B%20color%3A%20%2340a070%3B%20%7D%20%2F%2A%20DecVal%20%28decimal%20values%29%20%2A%2F%0Acode%20%3E%20span%2Ebn%20%7B%20color%3A%20%23d14%3B%20%7D%20%2F%2A%20BaseN%20%2A%2F%0Acode%20%3E%20span%2Efl%20%7B%20color%3A%20%23d14%3B%20%7D%20%2F%2A%20Float%20%2A%2F%0Acode%20%3E%20span%2Ech%20%7B%20color%3A%20%23d14%3B%20%7D%20%2F%2A%20Char%20%2A%2F%0Acode%20%3E%20span%2Est%20%7B%20color%3A%20%23d14%3B%20%7D%20%2F%2A%20String%20%2A%2F%0Acode%20%3E%20span%2Eco%20%7B%20color%3A%20%23888888%3B%20font%2Dstyle%3A%20italic%3B%20%7D%20%2F%2A%20Comment%20%2A%2F%0Acode%20%3E%20span%2Eot%20%7B%20color%3A%20%23007020%3B%20%7D%20%2F%2A%20OtherToken%20%2A%2F%0Acode%20%3E%20span%2Eal%20%7B%20color%3A%20%23ff0000%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%2F%2A%20AlertToken%20%2A%2F%0Acode%20%3E%20span%2Efu%20%7B%20color%3A%20%23900%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%2F%2A%20Function%20calls%20%2A%2F%20%0Acode%20%3E%20span%2Eer%20%7B%20color%3A%20%23a61717%3B%20background%2Dcolor%3A%20%23e3d2d2%3B%20%7D%20%2F%2A%20ErrorTok%20%2A%2F%0A%0A" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
+<p>Core functionality of <code>pander</code> is centered around <code>pandoc.table</code>, which is aimed at rendering tables in <code>markdown</code>. In case of 2D tables, <code>pander</code> calls <code>pandoc.table</code> internally, thus in such cases <code>pander</code> and <code>pandoc.table</code> support the same argument and in this vignette will be used iterchangingly. <code>pandoc.table</code> has a wide variety of options (<a href="#highlighting-cells">highlighting</a>, <a href="#table-styles">styles</a>, etc.) and this vignette aims to give a more detailed overview of the most common options. <code>pander</code> comes with a variety of globally adjustable options, which have an effect on the result of your reports. You can query and update these options with the <code>panderOptions</code> function.</p>
 
-
-
-<div id="header">
-<h1 class="title">Rendering tables with pandoc.table</h1>
-<h4 class="author"><em>Roman Tsegelskyi, Gergely Daróczi</em></h4>
-<h4 class="date"><em>2015-11-21</em></h4>
-</div>
-
-
-<p>Core functionality of <code>pander</code> is centered around <code>pandoc.table</code> which is aimed at rendering tables in <code>markdown</code>. In case of 2D tables, <code>pander</code> calls <code>pandoc.table</code> internally, thus in such cases <code>pander</code> and <code>pandoc.table</code> support the same argument and in this vignette will be used iterchangingly. <code>pandoc.table</code> has big variety of options (<a href="#highlighting-cells">highlighting</a>, <a href="#table-styles">styles</a>, etc.) and this vignette aims to give a more details overview of most common options. <code>pander</code> comes with a variety of globally adjustable options, which have an effect on the result of your reports. You can query and update these options with the <code>panderOptions</code> function.</p>
-<div id="table-styles" class="section level2">
 <h2>Table styles</h2>
-<p>Since <code>pander</code> aims at rendering R objects into <a href="http://pandoc.org/">Pandoc</a>’s markdown all four (<code>multiline</code>, <code>simple</code>, <code>grid</code>, <code>rmarkdown</code>) of <a href="http://johnmacfarlane.net/pandoc/README.html#tables">Pandoc</a>’s formats are supported. General advices is to stick with default <code>multiline</code> style, but if there is a need to change it either specify <code>style</code> argument when calling <code>pander/pandoc.table</code> or change default <code>style</code> using <code>panderOptions</code>.</p>
-<div id="multiline-tables" class="section level3">
+
+<p>Since <code>pander</code> aims at rendering R objects into <a href="http://pandoc.org/">Pandoc</a>&#39;s markdown all four (<code>multiline</code>, <code>simple</code>, <code>grid</code>, <code>rmarkdown</code>) of  <a href="http://johnmacfarlane.net/pandoc/README.html#tables">Pandoc</a>&#39;s formats are supported. Users are advised to stick with the default <code>multiline</code> style, but if there is a need to change it either specify <code>style</code> argument when calling <code>pander/pandoc.table</code> or change the default <code>style</code> using <code>panderOptions</code>.</p>
+
 <h3>multiline tables</h3>
-<p><code>multiline</code> tables allow headers and table rows to span multiple lines of text (but cells that span multiple columns or rows of the table are not supported). Also note, that, by default, line breaks are removed from cells for simplicity, so multiline cells are typically the result of <a href="#table-and-cell-width">splitting large cells</a> or setting <code>keep.line.breaks</code> to <code>TRUE</code>:</p>
-<pre class="sourceCode r"><code class="sourceCode r">m &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="st">'Value</span><span class="ch">\n</span><span class="st">1'</span>, <span class="st">'Value</span><span class="ch">\n</span><span class="st">2'</span>)
-<span class="kw">colnames</span>(m) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">'Multiline</span><span class="ch">\n</span><span class="st">Col1'</span>, <span class="st">'Multiline</span><span class="ch">\n</span><span class="st">Col2'</span>)
-<span class="kw">pandoc.table</span>(m, <span class="dt">keep.line.breaks =</span> <span class="ot">TRUE</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +-------------+-------------+</span>
-<span class="co">#&gt; |  Multiline  |  Multiline  |</span>
-<span class="co">#&gt; |    Col1     |    Col2     |</span>
-<span class="co">#&gt; +=============+=============+</span>
-<span class="co">#&gt; |    Value    |    Value    |</span>
-<span class="co">#&gt; |      1      |      2      |</span>
-<span class="co">#&gt; +-------------+-------------+</span>
-m &lt;-<span class="st"> </span>mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">4</span>]
-<span class="kw">pandoc.table</span>(m)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |     Datsun 710      | 22.8  |   4   |  108   |  93  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span></code></pre>
-</div>
-<div id="simple-tables" class="section level3">
+
+<p><code>multiline</code> tables allow headers and table rows to span multiple lines of text (but cells that span multiple columns or rows of the table are not supported). Also note that, for simplicity, line breaks are removed from cells by default, so multiline cells are typically the result of <a href="#table-and-cell-width">splitting large cells</a> or setting <code>keep.line.breaks</code> to <code>TRUE</code>:</p>
+
+<pre><code class="r">m &lt;- data.frame(&#39;Value\n1&#39;, &#39;Value\n2&#39;)
+colnames(m) &lt;- c(&#39;Multiline\nCol1&#39;, &#39;Multiline\nCol2&#39;)
+pandoc.table(m, keep.line.breaks = TRUE)
+#&gt; 
+#&gt; -----------------------
+#&gt;  Multiline   Multiline 
+#&gt;    Col1        Col2    
+#&gt; ----------- -----------
+#&gt;    Value       Value   
+#&gt;      1           2     
+#&gt; -----------------------
+m &lt;- mtcars[1:3, 1:4]
+pandoc.table(m)
+#&gt; 
+#&gt; ---------------------------------------------
+#&gt;                      mpg    cyl   disp   hp  
+#&gt; ------------------- ------ ----- ------ -----
+#&gt;      Mazda RX4        21     6    160    110 
+#&gt; 
+#&gt;    Mazda RX4 Wag      21     6    160    110 
+#&gt; 
+#&gt;     Datsun 710       22.8    4    108    93  
+#&gt; ---------------------------------------------
+</code></pre>
+
 <h3>simple tables</h3>
-<p><code>simple</code> tables are have more compact syntax that all other styles, but don’t they support multiline cells:</p>
-<pre class="sourceCode r"><code class="sourceCode r">m &lt;-<span class="st"> </span>mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">4</span>]
-<span class="kw">pandoc.table</span>(m, <span class="dt">style =</span> <span class="st">'simple'</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt;                      mpg   cyl   disp   hp </span>
-<span class="co">#&gt; ------------------- ----- ----- ------ ----</span>
-<span class="co">#&gt;      Mazda RX4       21     6    160   110 </span>
-<span class="co">#&gt;    Mazda RX4 Wag     21     6    160   110 </span>
-<span class="co">#&gt;     Datsun 710      22.8    4    108    93</span>
-m &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="st">'Value</span><span class="ch">\n</span><span class="st">1'</span>, <span class="st">'Value</span><span class="ch">\n</span><span class="st">2'</span>)
-<span class="kw">colnames</span>(m) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">'Multiline</span><span class="ch">\n</span><span class="st">Col1'</span>, <span class="st">'Multiline</span><span class="ch">\n</span><span class="st">Col2'</span>)
-<span class="kw">pandoc.table</span>(m, <span class="dt">keep.line.breaks =</span> <span class="ot">TRUE</span>, <span class="dt">style=</span><span class="st">'simple'</span>)
-<span class="co">#&gt; Error in eval(expr, envir, enclos): Pandoc does not support newlines in simple or Rmarkdown table format!</span></code></pre>
-</div>
-<div id="grid-tables" class="section level3">
+
+<p><code>simple</code> tables are have more compact syntax that all other styles, but don&#39;t they support multiline cells:</p>
+
+<pre><code class="r">m &lt;- mtcars[1:3, 1:4]
+pandoc.table(m, style = &#39;simple&#39;)
+#&gt; 
+#&gt; 
+#&gt;                      mpg    cyl   disp   hp  
+#&gt; ------------------- ------ ----- ------ -----
+#&gt;      Mazda RX4        21     6    160    110 
+#&gt;    Mazda RX4 Wag      21     6    160    110 
+#&gt;     Datsun 710       22.8    4    108    93
+m &lt;- data.frame(&#39;Value\n1&#39;, &#39;Value\n2&#39;)
+colnames(m) &lt;- c(&#39;Multiline\nCol1&#39;, &#39;Multiline\nCol2&#39;)
+pandoc.table(m, keep.line.breaks = TRUE, style=&#39;simple&#39;)
+#&gt; Error in table.expand(t.colnames, t.width, justify, sep.col): Pandoc does not support newlines in simple or Rmarkdown table format!
+</code></pre>
+
 <h3>grid tables</h3>
-<p><code>grid</code> format is really handy for <code>emacs</code> users (<a href="http://table.sourceforge.net/">Emacs table mod</a>) and it does support block elements (multiple paragraphs, code blocks, lists, etc.) inside cells. Alignments are not supported for grid tables by most parsers, meaning that even though <code>pander</code> will produce a table with alightnment, it will be lost during conversion from <code>markdown</code> to <code>HTML/PDF/DOCX</code>, and cells can’t span multiple columns or rows.</p>
-<pre class="sourceCode r"><code class="sourceCode r">m &lt;-<span class="st"> </span>mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">4</span>]
-<span class="kw">pandoc.table</span>(m, <span class="dt">style =</span> <span class="st">'grid'</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |     Datsun 710      | 22.8  |   4   |  108   |  93  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-m &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="st">'Value</span><span class="ch">\n</span><span class="st">1'</span>, <span class="st">'Value</span><span class="ch">\n</span><span class="st">2'</span>)
-<span class="kw">colnames</span>(m) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">'Multiline</span><span class="ch">\n</span><span class="st">Col1'</span>, <span class="st">'Multiline</span><span class="ch">\n</span><span class="st">Col2'</span>)
-<span class="kw">pandoc.table</span>(m, <span class="dt">keep.line.breaks =</span> <span class="ot">TRUE</span>, <span class="dt">style=</span><span class="st">'grid'</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +-------------+-------------+</span>
-<span class="co">#&gt; |  Multiline  |  Multiline  |</span>
-<span class="co">#&gt; |    Col1     |    Col2     |</span>
-<span class="co">#&gt; +=============+=============+</span>
-<span class="co">#&gt; |    Value    |    Value    |</span>
-<span class="co">#&gt; |      1      |      2      |</span>
-<span class="co">#&gt; +-------------+-------------+</span></code></pre>
-</div>
-<div id="rmarkdown-tables" class="section level3">
+
+<p><code>grid</code> format is really handy for <code>emacs</code> users (<a href="http://table.sourceforge.net/">Emacs table mod</a>) and it does support block elements (multiple paragraphs, code blocks, lists, etc.) inside cells, but cells can&#39;t span multiple columns or rows. Alignments are not supported for grid tables by most parsers, meaning that even though <code>pander</code> will produce a table with alignment, it will be lost during conversion from <code>markdown</code> to <code>HTML/PDF/DOCX</code>.</p>
+
+<pre><code class="r">m &lt;- mtcars[1:3, 1:4]
+pandoc.table(m, style = &#39;grid&#39;)
+#&gt; 
+#&gt; 
+#&gt; +-------------------+------+-----+------+-----+
+#&gt; |                   | mpg  | cyl | disp | hp  |
+#&gt; +===================+======+=====+======+=====+
+#&gt; |     Mazda RX4     |  21  |  6  | 160  | 110 |
+#&gt; +-------------------+------+-----+------+-----+
+#&gt; |   Mazda RX4 Wag   |  21  |  6  | 160  | 110 |
+#&gt; +-------------------+------+-----+------+-----+
+#&gt; |    Datsun 710     | 22.8 |  4  | 108  | 93  |
+#&gt; +-------------------+------+-----+------+-----+
+m &lt;- data.frame(&#39;Value\n1&#39;, &#39;Value\n2&#39;)
+colnames(m) &lt;- c(&#39;Multiline\nCol1&#39;, &#39;Multiline\nCol2&#39;)
+pandoc.table(m, keep.line.breaks = TRUE, style=&#39;grid&#39;)
+#&gt; 
+#&gt; 
+#&gt; +-----------+-----------+
+#&gt; | Multiline | Multiline |
+#&gt; |   Col1    |   Col2    |
+#&gt; +===========+===========+
+#&gt; |   Value   |   Value   |
+#&gt; |     1     |     2     |
+#&gt; +-----------+-----------+
+</code></pre>
+
 <h3>rmarkdown tables</h3>
-<p><code>rmarkdown</code> or pipe table format is often used directly with <code>knitr</code>, since it was supportered by the first versions of the <code>markdown</code> package. It is similar to <code>simple</code> table, meaning that multiline cells are not supported. The beginning and ending pipe characters are optional, but pipes are required between all columns:</p>
-<pre class="sourceCode r"><code class="sourceCode r">m &lt;-<span class="st"> </span>mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">4</span>]
-<span class="kw">pandoc.table</span>(m, <span class="dt">style =</span> <span class="st">'rmarkdown'</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |</span>
-<span class="co">#&gt; |:-------------------:|:-----:|:-----:|:------:|:----:|</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; |     Datsun 710      | 22.8  |   4   |  108   |  93  |</span>
-m &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="st">'Value</span><span class="ch">\n</span><span class="st">1'</span>, <span class="st">'Value</span><span class="ch">\n</span><span class="st">2'</span>)
-<span class="kw">colnames</span>(m) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">'Multiline</span><span class="ch">\n</span><span class="st">Col1'</span>, <span class="st">'Multiline</span><span class="ch">\n</span><span class="st">Col2'</span>)
-<span class="kw">pandoc.table</span>(m, <span class="dt">keep.line.breaks =</span> <span class="ot">TRUE</span>, <span class="dt">style=</span><span class="st">'rmarkdown'</span>)
-<span class="co">#&gt; Error in eval(expr, envir, enclos): Pandoc does not support newlines in simple or Rmarkdown table format!</span></code></pre>
-</div>
-</div>
-<div id="cell-alighnment" class="section level2">
-<h2>Cell alighnment</h2>
-<p><code>pander</code> allows users to control cell alignment (<code>left</code>, <code>right</code> or <code>center/centre</code>) in a table directly by setting the <code>justify</code> parameter when calling <code>pander/pandoc.table</code>. Note that it is possible to specify alighnment for each column separately by supplying a vector to justify:</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">pandoc.table</span>(<span class="kw">head</span>(iris[,<span class="dv">1</span>:<span class="dv">3</span>], <span class="dv">2</span>), <span class="dt">justify =</span> <span class="st">'right'</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span>
-<span class="co">#&gt; |   Sepal.Length |   Sepal.Width |   Petal.Length |</span>
-<span class="co">#&gt; +================+===============+================+</span>
-<span class="co">#&gt; |            5.1 |           3.5 |            1.4 |</span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span>
-<span class="co">#&gt; |            4.9 |             3 |            1.4 |</span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span>
-<span class="kw">pandoc.table</span>(<span class="kw">head</span>(iris[,<span class="dv">1</span>:<span class="dv">3</span>], <span class="dv">2</span>), <span class="dt">justify =</span> <span class="kw">c</span>(<span class="st">'right'</span>, <span class="st">'center'</span>, <span class="st">'left'</span>))
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span>
-<span class="co">#&gt; |   Sepal.Length |  Sepal.Width  | Petal.Length   |</span>
-<span class="co">#&gt; +================+===============+================+</span>
-<span class="co">#&gt; |            5.1 |      3.5      | 1.4            |</span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span>
-<span class="co">#&gt; |            4.9 |       3       | 1.4            |</span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span></code></pre>
-<p>Another possible way to define alignment is by using a permanent option <code>table.alignment.default/table.alignment.rownames</code> in <code>panderOptions</code> (prefered way) or by using <code>set.alignment</code> function (legacy way of setting alignment for next table or permanently) which support setting alignment separately for cells and rownames:</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">set.alignment</span>(<span class="st">'left'</span>, <span class="dt">row.names =</span> <span class="st">'right'</span>) <span class="co"># set only for next table since permanent parameter is falce</span>
-<span class="kw">pandoc.table</span>(mtcars[<span class="dv">1</span>:<span class="dv">2</span>,  <span class="dv">1</span>:<span class="dv">5</span>])
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |                     | mpg   | cyl   | disp   | hp   | drat   |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+========+</span>
-<span class="co">#&gt; |           Mazda RX4 | 21    | 6     | 160    | 110  | 3.9    |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |       Mazda RX4 Wag | 21    | 6     | 160    | 110  | 3.9    |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span></code></pre>
-<p>Interesting application for this functionality is specifying a function that takes the R object as its argument to compute some unique alignment for your table based on e.g. column values or variable types:</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">panderOptions</span>(<span class="st">'table.alignment.default'</span>,
+
+<p><code>rmarkdown</code> or pipe table format, is often used directly with <code>knitr</code>, since it was supported by the first versions of the <code>markdown</code> package. It is similar to <code>simple</code> table in that multiline cells are also not supported. The beginning and ending pipe characters are optional, but pipes are required between all columns:</p>
+
+<pre><code class="r">m &lt;- mtcars[1:3, 1:4]
+pandoc.table(m, style = &#39;rmarkdown&#39;)
+#&gt; 
+#&gt; 
+#&gt; |                   | mpg  | cyl | disp | hp  |
+#&gt; |:-----------------:|:----:|:---:|:----:|:---:|
+#&gt; |     Mazda RX4     |  21  |  6  | 160  | 110 |
+#&gt; |   Mazda RX4 Wag   |  21  |  6  | 160  | 110 |
+#&gt; |    Datsun 710     | 22.8 |  4  | 108  | 93  |
+m &lt;- data.frame(&#39;Value\n1&#39;, &#39;Value\n2&#39;)
+colnames(m) &lt;- c(&#39;Multiline\nCol1&#39;, &#39;Multiline\nCol2&#39;)
+pandoc.table(m, keep.line.breaks = TRUE, style=&#39;rmarkdown&#39;)
+#&gt; Error in table.expand(t.colnames, t.width, justify, sep.col): Pandoc does not support newlines in simple or Rmarkdown table format!
+</code></pre>
+
+<h2>Cell alignment</h2>
+
+<p><code>pander</code> allows users to control cell alignment (<code>left</code>, <code>right</code> or <code>center/centre</code>) in a table directly by setting the <code>justify</code> parameter when calling <code>pander/pandoc.table</code>. Note that it is possible to specify alignment for each column separately by supplying a vector to justify:</p>
+
+<pre><code class="r">pandoc.table(head(iris[,1:3], 2), justify = &#39;right&#39;)
+#&gt; 
+#&gt; -------------------------------------------
+#&gt;   Sepal.Length   Sepal.Width   Petal.Length
+#&gt; -------------- ------------- --------------
+#&gt;            5.1           3.5            1.4
+#&gt; 
+#&gt;            4.9             3            1.4
+#&gt; -------------------------------------------
+pandoc.table(head(iris[,1:3], 2), justify = c(&#39;right&#39;, &#39;center&#39;, &#39;left&#39;))
+#&gt; 
+#&gt; -------------------------------------------
+#&gt;   Sepal.Length  Sepal.Width  Petal.Length  
+#&gt; -------------- ------------- --------------
+#&gt;            5.1      3.5      1.4           
+#&gt; 
+#&gt;            4.9       3       1.4           
+#&gt; -------------------------------------------
+</code></pre>
+
+<p>Another  way to define alignment is by using a permanent option <code>table.alignment.default/table.alignment.rownames</code> in <code>panderOptions</code> (preferred way) or by using <code>set.alignment</code> function (legacy way of setting alignment for next table or permanently) which support setting alignment separately for cells and rownames:</p>
+
+<pre><code class="r">set.alignment(&#39;left&#39;, row.names = &#39;right&#39;) # set only for next table since permanent parameter is falce
+pandoc.table(mtcars[1:2,  1:5])
+#&gt; 
+#&gt; ---------------------------------------------------
+#&gt;                     mpg   cyl   disp   hp    drat  
+#&gt; ------------------- ----- ----- ------ ----- ------
+#&gt;           Mazda RX4 21    6     160    110   3.9   
+#&gt; 
+#&gt;       Mazda RX4 Wag 21    6     160    110   3.9   
+#&gt; ---------------------------------------------------
+</code></pre>
+
+<p>Interesting application for this functionality is specifying a function that takes the R object as its argument to compute some unique alignment for your table based on e.g. column values or variable types:</p>
+
+<pre><code class="r">panderOptions(&#39;table.alignment.default&#39;,
     function(df)
-        <span class="kw">ifelse</span>(<span class="kw">sapply</span>(df, mean) &gt;<span class="st"> </span><span class="dv">2</span>, <span class="st">'left'</span>, <span class="st">'right'</span>))
-<span class="kw">pandoc.table</span>(<span class="kw">head</span>(iris[,<span class="dv">1</span>:<span class="dv">3</span>], <span class="dv">2</span>))
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span>
-<span class="co">#&gt; | Sepal.Length   | Sepal.Width   |   Petal.Length |</span>
-<span class="co">#&gt; +================+===============+================+</span>
-<span class="co">#&gt; | 5.1            | 3.5           |            1.4 |</span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span>
-<span class="co">#&gt; | 4.9            | 3             |            1.4 |</span>
-<span class="co">#&gt; +----------------+---------------+----------------+</span>
-<span class="kw">panderOptions</span>(<span class="st">'table.alignment.default'</span>, <span class="st">'center'</span>)</code></pre>
-</div>
-<div id="highlighting-cells" class="section level2">
+        ifelse(sapply(df, mean) &gt; 2, &#39;left&#39;, &#39;right&#39;))
+pandoc.table(head(iris[,1:3], 2))
+#&gt; 
+#&gt; -------------------------------------------
+#&gt; Sepal.Length   Sepal.Width     Petal.Length
+#&gt; -------------- ------------- --------------
+#&gt; 5.1            3.5                      1.4
+#&gt; 
+#&gt; 4.9            3                        1.4
+#&gt; -------------------------------------------
+panderOptions(&#39;table.alignment.default&#39;, &#39;center&#39;)
+</code></pre>
+
 <h2>Highlighting cells</h2>
+
 <p>One of the great features of <code>pander</code> is the ease of highlighting rows, columns and cells in a table. This is a native <code>markdown</code> feature without custom <code>HTML</code> or <code>LaTeX</code>-only tweaks, so all <code>HTML/PDF/MS Word/OpenOffice</code> etc. formats are supported.</p>
+
 <p>This can be achieved by specifying one of the arguments below when calling <code>pander</code>/<code>pandoc.table</code> or change default style using <code>panderOptions</code>:</p>
+
 <ul>
 <li>emphasize.italics.rows</li>
 <li>emphasize.italics.cols</li>
@@ -221,262 +377,265 @@ m &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="
 <li>emphasize.verbatim.cols</li>
 <li>emphasize.verbatim.cells</li>
 </ul>
-<p>The <code>emphasize.italics</code> helpers would turn the affected cells to <em>italic</em>, <code>emphasize.strong</code> would apply a <strong>bold</strong> style to the cell and <code>emphasize.verbatim</code> would apply a <code>verbatim</code> style to the cell. A cell can be also <em>italic</em>, <strong>bold</strong> and <code>verbatim</code> at the same time.</p>
-<p>Those functions and arguments ending in rows or cols take a vector (like which columns or rows to emphasize in a table), while the cells argument take either a vector (for one dimensional “tables”) or an array-like data structure with two columns holding row and column indexes of cells to be emphasized – just like what <code>which(..., arr.ind = TRUE)</code> returns:</p>
-<pre class="sourceCode r"><code class="sourceCode r">t &lt;-<span class="st"> </span>mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">5</span>]
-<span class="kw">emphasize.italics.cols</span>(<span class="dv">1</span>)
-<span class="kw">emphasize.italics.rows</span>(<span class="dv">1</span>)
-<span class="kw">emphasize.strong.cells</span>(<span class="kw">which</span>(t &gt;<span class="st"> </span><span class="dv">20</span>, <span class="dt">arr.ind =</span> <span class="ot">TRUE</span>))
-<span class="kw">pandoc.table</span>(t)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |  drat  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+========+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |  3.9   |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |  3.9   |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |     Datsun 710      | 22.8  |   4   |  108   |  93  |  3.85  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="kw">pandoc.table</span>(t, <span class="dt">emphasize.verbatim.rows =</span> <span class="dv">1</span>, <span class="dt">emphasize.strong.cells =</span> <span class="kw">which</span>(t &gt;<span class="st"> </span><span class="dv">20</span>, <span class="dt">arr.ind =</span> <span class="ot">TRUE</span>))
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |  drat  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+========+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |  3.9   |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |  3.9   |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |     Datsun 710      | 22.8  |   4   |  108   |  93  |  3.85  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span></code></pre>
-<p>For more ellaborative examples, please see our blog post - <a href="http://blog.rapporter.net/2013/04/hihglight-cells-in-markdown-tables.html">Highlight cells in markdown tables</a>.</p>
-</div>
-<div id="table-and-cell-width" class="section level2">
+
+<p>The <code>emphasize.italics</code> helpers would turn the affected cells to <em>italic</em>, <code>emphasize.strong</code> would apply a <strong>bold</strong> style to the cell and <code>emphasize.verbatim</code> would apply a <code>verbatim</code> style to the cell. A cell can be also <em>italic</em>,  <strong>bold</strong> and <code>verbatim</code> at the same time.</p>
+
+<p>Those functions and arguments ending in rows or cols take a vector (like which columns or rows to emphasize in a table), while the cells argument take either a vector (for one dimensional &ldquo;tables&rdquo;) or an array-like data structure with two columns holding row and column indexes of cells to be emphasized &ndash; just like what <code>which(..., arr.ind = TRUE)</code> returns:</p>
+
+<pre><code class="r">t &lt;- mtcars[1:3, 1:5]
+emphasize.italics.cols(1)
+emphasize.italics.rows(1)
+emphasize.strong.cells(which(t &gt; 20, arr.ind = TRUE))
+pandoc.table(t)
+#&gt; 
+#&gt; ----------------------------------------------------
+#&gt;                      mpg    cyl   disp   hp    drat 
+#&gt; ------------------- ------ ----- ------ ----- ------
+#&gt;      Mazda RX4        21     6    160    110   3.9  
+#&gt; 
+#&gt;    Mazda RX4 Wag      21     6    160    110   3.9  
+#&gt; 
+#&gt;     Datsun 710       22.8    4    108    93    3.85 
+#&gt; ----------------------------------------------------
+pandoc.table(t, emphasize.verbatim.rows = 1, emphasize.strong.cells = which(t &gt; 20, arr.ind = TRUE))
+#&gt; 
+#&gt; ----------------------------------------------------
+#&gt;                      mpg    cyl   disp   hp    drat 
+#&gt; ------------------- ------ ----- ------ ----- ------
+#&gt;      Mazda RX4        21     6    160    110   3.9  
+#&gt; 
+#&gt;    Mazda RX4 Wag      21     6    160    110   3.9  
+#&gt; 
+#&gt;     Datsun 710       22.8    4    108    93    3.85 
+#&gt; ----------------------------------------------------
+</code></pre>
+
+<p>For more elaborative examples, please see our blog post - <a href="http://blog.rapporter.net/2013/04/hihglight-cells-in-markdown-tables.html">Highlight cells in markdown tables</a>.</p>
+
 <h2>Table and Cell width</h2>
-<p><code>pander/pandoc.table</code> is able to deal with the problem of wide tables. Ever had an issue in <code>LaTeX</code> or <code>MS Word</code> when tried to print a correlation matrix of 40 variables? This problem is carefully addressed with <code>split.table</code> parameter:</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">pandoc.table</span>(mtcars[<span class="dv">1</span>:<span class="dv">2</span>, ], <span class="dt">style =</span> <span class="st">&quot;grid&quot;</span>, <span class="dt">caption =</span> <span class="st">&quot;Wide table to be split!&quot;</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+-------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |  drat  |  wt   |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+========+=======+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |  3.9   | 2.62  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+-------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |  3.9   | 2.875 |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+-------+</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; Table: Wide table to be split! (continued below)</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt;  </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+--------+------+------+--------+--------+</span>
-<span class="co">#&gt; |                     |  qsec  |  vs  |  am  |  gear  |  carb  |</span>
-<span class="co">#&gt; +=====================+========+======+======+========+========+</span>
-<span class="co">#&gt; |      Mazda RX4      | 16.46  |  0   |  1   |   4    |   4    |</span>
-<span class="co">#&gt; +---------------------+--------+------+------+--------+--------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    | 17.02  |  0   |  1   |   4    |   4    |</span>
-<span class="co">#&gt; +---------------------+--------+------+------+--------+--------+</span></code></pre>
+
+<p><code>pander/pandoc.table</code> is able to deal with wide tables. Ever had an issue in <code>LaTeX</code> or <code>MS Word</code> when trying to print a correlation matrix of 40 variables? This problem is carefully addressed with <code>split.table</code> parameter:</p>
+
+<pre><code class="r">pandoc.table(mtcars[1:2, ], style = &quot;grid&quot;, caption = &quot;Wide table to be split!&quot;)
+#&gt; 
+#&gt; 
+#&gt; +-------------------+-----+-----+------+-----+------+-------+-------+
+#&gt; |                   | mpg | cyl | disp | hp  | drat |  wt   | qsec  |
+#&gt; +===================+=====+=====+======+=====+======+=======+=======+
+#&gt; |     Mazda RX4     | 21  |  6  | 160  | 110 | 3.9  | 2.62  | 16.46 |
+#&gt; +-------------------+-----+-----+------+-----+------+-------+-------+
+#&gt; |   Mazda RX4 Wag   | 21  |  6  | 160  | 110 | 3.9  | 2.875 | 17.02 |
+#&gt; +-------------------+-----+-----+------+-----+------+-------+-------+
+#&gt; 
+#&gt; Table: Wide table to be split! (continued below)
+#&gt; 
+#&gt;  
+#&gt; 
+#&gt; +-------------------+----+----+------+------+
+#&gt; |                   | vs | am | gear | carb |
+#&gt; +===================+====+====+======+======+
+#&gt; |     Mazda RX4     | 0  | 1  |  4   |  4   |
+#&gt; +-------------------+----+----+------+------+
+#&gt; |   Mazda RX4 Wag   | 0  | 1  |  4   |  4   |
+#&gt; +-------------------+----+----+------+------+
+</code></pre>
+
 <p><code>split.table</code> defaults to 80 characters and to turn it off, set <code>split.table</code> to <code>Inf</code>:</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">pandoc.table</span>(mtcars[<span class="dv">1</span>:<span class="dv">2</span>, ], <span class="dt">style =</span> <span class="st">&quot;grid&quot;</span>,
-             <span class="dt">caption =</span> <span class="st">&quot;Wide table to be split!&quot;</span>, <span class="dt">split.table =</span> <span class="ot">Inf</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+-------+--------+------+------+--------+--------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |  drat  |  wt   |  qsec  |  vs  |  am  |  gear  |  carb  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+========+=======+========+======+======+========+========+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |  3.9   | 2.62  | 16.46  |  0   |  1   |   4    |   4    |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+-------+--------+------+------+--------+--------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |  3.9   | 2.875 | 17.02  |  0   |  1   |   4    |   4    |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+-------+--------+------+------+--------+--------+</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; Table: Wide table to be split!</span></code></pre>
-<p>Also, <code>pander</code> tries to split too wide cells into multiline cells. The maximum number of characters in a cell is specified by <code>split.cells</code> parameter (defaults to 30), which can be a single value, vector (values for each column separately) and relative vector (percentages of <code>split.tables</code> parameter). Please not that this only works for <code>multiline</code> and <code>grid</code> tables:</p>
-<pre class="sourceCode r"><code class="sourceCode r">df &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">a =</span> <span class="st">'Lorem ipsum'</span>, <span class="dt">b =</span> <span class="st">'dolor sit'</span>, <span class="dt">c =</span> <span class="st">'amet'</span>)
-<span class="kw">pandoc.table</span>(df, <span class="dt">split.cells =</span> <span class="dv">5</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +-------+-------+------+</span>
-<span class="co">#&gt; |   a   |   b   |  c   |</span>
-<span class="co">#&gt; +=======+=======+======+</span>
-<span class="co">#&gt; | Lorem | dolor | amet |</span>
-<span class="co">#&gt; | ipsum |  sit  |      |</span>
-<span class="co">#&gt; +-------+-------+------+</span>
-<span class="kw">pandoc.table</span>(df, <span class="dt">split.cells =</span> <span class="kw">c</span>(<span class="dv">5</span>, <span class="dv">20</span>, <span class="dv">5</span>))
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +-------+-----------+------+</span>
-<span class="co">#&gt; |   a   |     b     |  c   |</span>
-<span class="co">#&gt; +=======+===========+======+</span>
-<span class="co">#&gt; | Lorem | dolor sit | amet |</span>
-<span class="co">#&gt; | ipsum |           |      |</span>
-<span class="co">#&gt; +-------+-----------+------+</span>
-<span class="kw">pandoc.table</span>(df, <span class="dt">split.cells =</span> <span class="kw">c</span>(<span class="st">&quot;80%&quot;</span>, <span class="st">&quot;10%&quot;</span>, <span class="st">&quot;10%&quot;</span>))
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +-------------+-------+------+</span>
-<span class="co">#&gt; |      a      |   b   |  c   |</span>
-<span class="co">#&gt; +=============+=======+======+</span>
-<span class="co">#&gt; | Lorem ipsum | dolor | amet |</span>
-<span class="co">#&gt; |             |  sit  |      |</span>
-<span class="co">#&gt; +-------------+-------+------+</span>
-<span class="kw">pandoc.table</span>(df, <span class="dt">split.cells =</span> <span class="dv">5</span>, <span class="dt">style =</span> <span class="st">'simple'</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt;      a          b      c  </span>
-<span class="co">#&gt; ----------- --------- ----</span>
-<span class="co">#&gt; Lorem ipsum dolor sit amet</span></code></pre>
-<p>In some cases it is also useful to split too long words like with hyphens, and <code>pander</code> uses <code>koRpus</code> functionality for that. Just specify <code>use.hyphening</code> argument and have <code>koRpus</code> installed:</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">pandoc.table</span>(<span class="kw">data.frame</span>(<span class="dt">baz =</span> <span class="st">'foobar'</span>, <span class="dt">foo=</span><span class="st">'accoutrements'</span>),
-             <span class="dt">use.hyphening =</span> <span class="ot">TRUE</span>, <span class="dt">split.cells =</span> <span class="dv">3</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +-------+----------+</span>
-<span class="co">#&gt; |  baz  |   foo    |</span>
-<span class="co">#&gt; +=======+==========+</span>
-<span class="co">#&gt; | foo-  |   ac-    |</span>
-<span class="co">#&gt; |  bar  |   cou-   |</span>
-<span class="co">#&gt; |       | trements |</span>
-<span class="co">#&gt; +-------+----------+</span></code></pre>
-</div>
-<div id="rounding-and-number-formatting" class="section level2">
+
+<pre><code class="r">pandoc.table(mtcars[1:2, ], style = &quot;grid&quot;,
+             caption = &quot;Wide table to be split!&quot;, split.table = Inf)
+#&gt; 
+#&gt; 
+#&gt; +-------------------+-----+-----+------+-----+------+-------+-------+----+----+------+------+
+#&gt; |                   | mpg | cyl | disp | hp  | drat |  wt   | qsec  | vs | am | gear | carb |
+#&gt; +===================+=====+=====+======+=====+======+=======+=======+====+====+======+======+
+#&gt; |     Mazda RX4     | 21  |  6  | 160  | 110 | 3.9  | 2.62  | 16.46 | 0  | 1  |  4   |  4   |
+#&gt; +-------------------+-----+-----+------+-----+------+-------+-------+----+----+------+------+
+#&gt; |   Mazda RX4 Wag   | 21  |  6  | 160  | 110 | 3.9  | 2.875 | 17.02 | 0  | 1  |  4   |  4   |
+#&gt; +-------------------+-----+-----+------+-----+------+-------+-------+----+----+------+------+
+#&gt; 
+#&gt; Table: Wide table to be split!
+</code></pre>
+
+<p>Also, <code>pander</code> tries to split too wide cells into multiline cells. The maximum number of characters in a cell is specified by the <code>split.cells</code> parameter (defaults to 30), which can be a single value, vector (values for each column separately) and relative vector (percentages of <code>split.tables</code> parameter). Please not that this only works for <code>multiline</code> and <code>grid</code> tables:</p>
+
+<pre><code class="r">df &lt;- data.frame(a = &#39;Lorem ipsum&#39;, b = &#39;dolor sit&#39;, c = &#39;amet&#39;)
+pandoc.table(df, split.cells = 5)
+#&gt; 
+#&gt; ----------------------
+#&gt;    a       b      c   
+#&gt; ------- ------- ------
+#&gt;  Lorem   dolor   amet 
+#&gt;  ipsum    sit         
+#&gt; ----------------------
+pandoc.table(df, split.cells = c(5, 20, 5))
+#&gt; 
+#&gt; --------------------------
+#&gt;    a         b        c   
+#&gt; ------- ----------- ------
+#&gt;  Lorem   dolor sit   amet 
+#&gt;  ipsum                    
+#&gt; --------------------------
+pandoc.table(df, split.cells = c(&quot;80%&quot;, &quot;10%&quot;, &quot;10%&quot;))
+#&gt; 
+#&gt; ----------------------------
+#&gt;       a          b      c   
+#&gt; ------------- ------- ------
+#&gt;  Lorem ipsum   dolor   amet 
+#&gt;                 sit         
+#&gt; ----------------------------
+pandoc.table(df, split.cells = 5, style = &#39;simple&#39;)
+#&gt; 
+#&gt; 
+#&gt;       a            b        c   
+#&gt; ------------- ----------- ------
+#&gt;  Lorem ipsum   dolor sit   amet
+</code></pre>
+
+<p>In some cases it is also useful to split too long words with hyphens, and <code>pander</code> uses <code>koRpus</code> functionality for that. Just specify <code>use.hyphening</code> argument and have <code>koRpus</code> installed:</p>
+
+<pre><code class="r">pandoc.table(data.frame(baz = &#39;foobar&#39;, foo=&#39;accoutrements&#39;),
+             use.hyphening = TRUE, split.cells = 3)
+#&gt; 
+#&gt; -----------------
+#&gt;  baz      foo    
+#&gt; ------ ----------
+#&gt;  foo-     ac-    
+#&gt;  bar      cou-   
+#&gt;         trements 
+#&gt; -----------------
+</code></pre>
+
 <h2>Rounding and number formatting</h2>
+
 <p><code>pander/pandoc.table</code> deals with formatting numbers by having 4 parameters:</p>
+
 <ul>
 <li><code>round</code> to the number of decimal places.</li>
 <li><code>digits</code> to specify how many significant digits are to be used for numeric</li>
 <li><code>decimal.mark/big.mark</code> to specify character for decimal point/orders of magnitude</li>
 </ul>
-<p><code>round</code> and <code>digits</code> param can be a vector specifying values for each column (has to be the same length as number of columns). Values for non-numeric columns will be disregarded.</p>
-<p>Now let’s get to some examples:</p>
-<pre class="sourceCode r"><code class="sourceCode r">r &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">c</span>(<span class="fl">283764.97430</span>, <span class="fl">29.12345678901</span>, -<span class="fl">7.1234</span>, -<span class="fl">100.1</span>), <span class="dt">ncol =</span> <span class="dv">2</span>)
-<span class="kw">pandoc.table</span>(r, <span class="dt">round =</span> <span class="dv">2</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +--------+--------+</span>
-<span class="co">#&gt; | 283765 | -7.12  |</span>
-<span class="co">#&gt; +--------+--------+</span>
-<span class="co">#&gt; | 29.12  | -100.1 |</span>
-<span class="co">#&gt; +--------+--------+</span>
-<span class="kw">pandoc.table</span>(r, <span class="dt">round =</span> <span class="kw">c</span>(<span class="dv">4</span>,<span class="dv">2</span>)) <span class="co"># vector for each column</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +--------+--------+</span>
-<span class="co">#&gt; | 283765 | -7.12  |</span>
-<span class="co">#&gt; +--------+--------+</span>
-<span class="co">#&gt; | 29.12  | -100.1 |</span>
-<span class="co">#&gt; +--------+--------+</span>
-<span class="kw">pandoc.table</span>(r, <span class="dt">digits =</span> <span class="dv">2</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +--------+------+</span>
-<span class="co">#&gt; | 283765 | -7.1 |</span>
-<span class="co">#&gt; +--------+------+</span>
-<span class="co">#&gt; |   29   | -100 |</span>
-<span class="co">#&gt; +--------+------+</span>
-<span class="kw">pandoc.table</span>(r, <span class="dt">digits =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">5</span>)) <span class="co"># vector for each column</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +----------+---------+</span>
-<span class="co">#&gt; | %#0.0-1e | -7.1234 |</span>
-<span class="co">#&gt; +----------+---------+</span>
-<span class="co">#&gt; |    29    | -100.1  |</span>
-<span class="co">#&gt; +----------+---------+</span>
-<span class="kw">pandoc.table</span>(r, <span class="dt">big.mark =</span> <span class="st">','</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------+--------+</span>
-<span class="co">#&gt; | 283,765 | -7.123 |</span>
-<span class="co">#&gt; +---------+--------+</span>
-<span class="co">#&gt; |  29.12  | -100.1 |</span>
-<span class="co">#&gt; +---------+--------+</span>
-<span class="kw">pandoc.table</span>(r, <span class="dt">decimal.mark =</span> <span class="st">','</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +--------+--------+</span>
-<span class="co">#&gt; | 283765 | -7,123 |</span>
-<span class="co">#&gt; +--------+--------+</span>
-<span class="co">#&gt; | 29,12  | -100,1 |</span>
-<span class="co">#&gt; +--------+--------+</span></code></pre>
-</div>
-<div id="other-options" class="section level2">
+
+<p><code>round</code> and <code>digits</code> parameter can be a vector specifying values for each column (has to be the same length as number of columns). Values for non-numeric columns will be disregarded.</p>
+
+<p>Now let&#39;s get to some examples:</p>
+
+<pre><code class="r">r &lt;- matrix(c(283764.97430, 29.12345678901, -7.1234, -100.1), ncol = 2)
+pandoc.table(r, round = 2)
+#&gt; 
+#&gt; -------- --------
+#&gt;  283765   -7.12  
+#&gt; 
+#&gt;  29.12    -100.1 
+#&gt; -------- --------
+pandoc.table(r, round = c(4,2)) # vector for each column
+#&gt; 
+#&gt; -------- --------
+#&gt;  283765   -7.12  
+#&gt; 
+#&gt;  29.12    -100.1 
+#&gt; -------- --------
+pandoc.table(r, digits = 2)
+#&gt; 
+#&gt; -------- ------
+#&gt;  283765   -7.1 
+#&gt; 
+#&gt;    29     -100 
+#&gt; -------- ------
+pandoc.table(r, digits = c(0, 5)) # vector for each column
+#&gt; 
+#&gt; ---------- ---------
+#&gt;  %#0.0-1e   -7.1234 
+#&gt; 
+#&gt;     29      -100.1  
+#&gt; ---------- ---------
+pandoc.table(r, big.mark = &#39;,&#39;)
+#&gt; 
+#&gt; --------- --------
+#&gt;  283,765   -7.123 
+#&gt; 
+#&gt;   29.12    -100.1 
+#&gt; --------- --------
+pandoc.table(r, decimal.mark = &#39;,&#39;)
+#&gt; 
+#&gt; -------- --------
+#&gt;  283765   -7,123 
+#&gt; 
+#&gt;  29,12    -100,1 
+#&gt; -------- --------
+</code></pre>
+
 <h2>Other options</h2>
-<p>Funtionality described in other sections is most notable, but <code>pander/pandoc.table</code> also has smaller nifty features that are worth mentioning:</p>
+
+<p>Functionality described in other sections is most notable, but <code>pander/pandoc.table</code> also has smaller nifty features that are worth mentioning:</p>
+
 <ul>
 <li><code>plain.ascii</code> - allows to have the output without <code>markdown</code> markup:</li>
 </ul>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">pandoc.table</span>(mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">4</span>])
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |     Datsun 710      | 22.8  |   4   |  108   |  93  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="kw">pandoc.table</span>(mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">4</span>], <span class="dt">plain.ascii =</span> <span class="ot">TRUE</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span>
-<span class="co">#&gt; |     Datsun 710      | 22.8  |   4   |  108   |  93  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+</span></code></pre>
+
+<pre><code class="r">pandoc.table(mtcars[1:3, 1:4])
+#&gt; 
+#&gt; ---------------------------------------------
+#&gt;                      mpg    cyl   disp   hp  
+#&gt; ------------------- ------ ----- ------ -----
+#&gt;      Mazda RX4        21     6    160    110 
+#&gt; 
+#&gt;    Mazda RX4 Wag      21     6    160    110 
+#&gt; 
+#&gt;     Datsun 710       22.8    4    108    93  
+#&gt; ---------------------------------------------
+pandoc.table(mtcars[1:3, 1:4], plain.ascii = TRUE)
+#&gt; 
+#&gt; ---------------------------------------------
+#&gt;                      mpg    cyl   disp   hp  
+#&gt; ------------------- ------ ----- ------ -----
+#&gt;      Mazda RX4        21     6    160    110 
+#&gt; 
+#&gt;    Mazda RX4 Wag      21     6    160    110 
+#&gt; 
+#&gt;     Datsun 710       22.8    4    108    93  
+#&gt; ---------------------------------------------
+</code></pre>
+
 <ul>
 <li><code>caption</code> - set caption (string) to be shown under the table:</li>
 </ul>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">pandoc.table</span>(mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">5</span>], <span class="dt">style =</span> <span class="st">&quot;grid&quot;</span>, <span class="dt">caption =</span> <span class="st">&quot;My caption!&quot;</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |  drat  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+========+</span>
-<span class="co">#&gt; |      Mazda RX4      |  21   |   6   |  160   | 110  |  3.9   |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |  21   |   6   |  160   | 110  |  3.9   |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |     Datsun 710      | 22.8  |   4   |  108   |  93  |  3.85  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; Table: My caption!</span></code></pre>
+
+<pre><code class="r">pandoc.table(mtcars[1:3, 1:5], style = &quot;grid&quot;, caption = &quot;My caption!&quot;)
+#&gt; 
+#&gt; 
+#&gt; +-------------------+------+-----+------+-----+------+
+#&gt; |                   | mpg  | cyl | disp | hp  | drat |
+#&gt; +===================+======+=====+======+=====+======+
+#&gt; |     Mazda RX4     |  21  |  6  | 160  | 110 | 3.9  |
+#&gt; +-------------------+------+-----+------+-----+------+
+#&gt; |   Mazda RX4 Wag   |  21  |  6  | 160  | 110 | 3.9  |
+#&gt; +-------------------+------+-----+------+-----+------+
+#&gt; |    Datsun 710     | 22.8 |  4  | 108  | 93  | 3.85 |
+#&gt; +-------------------+------+-----+------+-----+------+
+#&gt; 
+#&gt; Table: My caption!
+</code></pre>
+
 <ul>
 <li><code>missing</code> - set a string to replace missing values:</li>
 </ul>
-<pre class="sourceCode r"><code class="sourceCode r">m &lt;-<span class="st"> </span>mtcars[<span class="dv">1</span>:<span class="dv">3</span>, <span class="dv">1</span>:<span class="dv">5</span>]
-m$mpg &lt;-<span class="st"> </span><span class="ot">NA</span>
-<span class="kw">pandoc.table</span>(m, <span class="dt">missing =</span> <span class="st">'?'</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |                     |  mpg  |  cyl  |  disp  |  hp  |  drat  |</span>
-<span class="co">#&gt; +=====================+=======+=======+========+======+========+</span>
-<span class="co">#&gt; |      Mazda RX4      |   ?   |   6   |  160   | 110  |  3.9   |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |    Mazda RX4 Wag    |   ?   |   6   |  160   | 110  |  3.9   |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span>
-<span class="co">#&gt; |     Datsun 710      |   ?   |   4   |  108   |  93  |  3.85  |</span>
-<span class="co">#&gt; +---------------------+-------+-------+--------+------+--------+</span></code></pre>
-</div>
 
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
+<pre><code class="r">m &lt;- mtcars[1:3, 1:5]
+m$mpg &lt;- NA
+pandoc.table(m, missing = &#39;?&#39;)
+#&gt; 
+#&gt; ---------------------------------------------------
+#&gt;                      mpg   cyl   disp   hp    drat 
+#&gt; ------------------- ----- ----- ------ ----- ------
+#&gt;      Mazda RX4        ?     6    160    110   3.9  
+#&gt; 
+#&gt;    Mazda RX4 Wag      ?     6    160    110   3.9  
+#&gt; 
+#&gt;     Datsun 710        ?     4    108    93    3.85 
+#&gt; ---------------------------------------------------
+</code></pre>
 
 </body>
+
 </html>

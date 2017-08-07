@@ -57,7 +57,7 @@ test_that('errors', {
     expect_is(eval.msgs('runif would be nice to run')$msg$errors, 'character')
     expect_is(eval.msgs('no.R.object.like.that')$msg$errors, 'character')
     expect_error(evals())
-    expect_error(evals('1:5', hooks=1:10))
+    expect_error(evals('1:5', hooks = 1:10))
     expect_error(evals('plot(mtcars)', graph.name = 1))
     env <- new.env()
     env$plot <- 1
@@ -273,7 +273,7 @@ test_that('plots', {
         cache.dir = dir)
     lf <- list.files(dir)
     expect_true(length(list.files(dir, pattern = 'recordedplot$')) > 0)
-    png(filename=file.path(dir, 'recorded.png'))
+    png(filename = file.path(dir, 'recorded.png'))
     redraw.recordedplot(list.files(dir, pattern = 'recordedplot$', full.names = T)[1])
     dev.off()
 })
@@ -309,3 +309,12 @@ test_that('output param works correctly', {
 evalsOptions('cache.dir',  cache.dir)
 evalsOptions('graph.dir',  graph.dir)
 setwd(wd)
+
+test_that('switching cache works', {
+    co <- evalsOptions('cache')
+    evalsOptions('cache', FALSE)
+    expect_false(evalsOptions('cache'))
+    evalsOptions('cache', TRUE)
+    expect_true(evalsOptions('cache'))
+    evalsOptions('cache', co)
+})

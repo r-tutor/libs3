@@ -46,10 +46,12 @@ pander.coxph	pander.coxph
 pander.cph	pander.cph
 pander.CrossTable	pander.CrossTable
 pander.data.frame	pander.data.frame
+pander.data.table	pander.data.table
 pander.Date	pander.Date
 pander.default	pander.default
 pander.density	pander.density
 pander.describe	pander.describe
+pander.ets	pander.ets
 pander.evals	pander.evals
 pander.factor	pander.factor
 pander.formula	pander.formula
@@ -69,7 +71,6 @@ pander.lrm	pander.lrm
 pander.manova	pander.manova
 pander.matrix	pander.matrix
 pander.microbenchmark	pander.microbenchmark
-pander.mtable	pander.mtable
 pander.name	pander.name
 pander.nls	pander.nls
 pander.NULL	pander.NULL
