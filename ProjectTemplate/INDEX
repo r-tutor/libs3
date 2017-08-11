@@ -1,6 +1,8 @@
 .add.extension          Associate a reader function with an extension.
 ProjectTemplate         Automates the creation of new statistical
                         analysis projects.
+add.config              Add project specific config to the global
+                        config
 arff.reader             Read the Weka file format.
 cache                   Cache a data set for faster loading.
 cache.name              Translate a variable name into a file name for
@@ -8,18 +10,20 @@ cache.name              Translate a variable name into a file name for
 cache.project           Cache a project's data sets in binary format.
 clean.variable.name     Translate a file name into a valid R variable
                         name.
+clear                   Clear objects from the global environment
+clear.cache             Clear data sets from the cache
 create.project          Create a new project.
 csv.reader              Read a comma separated values (.csv) file.
 csv2.reader             Read a semicolon separated values (.csv2) file.
 db.reader               Read a SQlite3 database with a (.db) file
                         extension.
 dbf.reader              Read an XBASE file with a .dbf file extension.
-default.config          Default configuration
 epiinfo.reader          Read an Epi Info file with a .rec file
                         extension.
 file.reader             Read an arbitrary file described in a .file
                         file.
 get.project             Show information about the current project.
+list.data               Listing the data for the current project
 load.project            Automatically load data and packages for a
                         project.
 migrate.project         Migrates a project from a previous version of
@@ -27,15 +31,15 @@ migrate.project         Migrates a project from a previous version of
 mp3.reader              Read an MP3 file with a .mp3 file extension.
 mtp.reader              Read a Minitab Portable Worksheet with an .mtp3
                         file extension.
-new.config              Configuration for new projects
 octave.reader           Read an Octave file with a .m file extension.
 ppm.reader              Read a PPM file with a .ppm file extension.
 preinstalled.readers    Maps file types to the reader functions used to
                         autoload them.
+project.config          ProjectTemplate Configuration file
 r.reader                Read an R source file with a .R file extension.
 rdata.reader            Read an RData file with a .rdata or .rda file
                         extension.
-reload.project          Reload a project from scratch.
+reload.project          Reload or reset a project
 require.package         Require a package for use in the project
 run.project             Run all of the analyses in the 'src' directory.
 show.project            Show information about the current project.

@@ -11,7 +11,7 @@
 <div style="text-align: center;">
 <a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
 <a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
-</div><h2>Documentation for package &lsquo;ProjectTemplate&rsquo; version 0.7</h2>
+</div><h2>Documentation for package &lsquo;ProjectTemplate&rsquo; version 0.8</h2>
 
 <ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
 </ul>
@@ -26,6 +26,8 @@
 <td>Associate a reader function with an extension.</td></tr>
 <tr><td style="width: 25%;"><a href="require.package.html">.require.package</a></td>
 <td>Require a package for use in the project</td></tr>
+<tr><td style="width: 25%;"><a href="add.config.html">add.config</a></td>
+<td>Add project specific config to the global config</td></tr>
 <tr><td style="width: 25%;"><a href="arff.reader.html">arff.reader</a></td>
 <td>Read the Weka file format.</td></tr>
 <tr><td style="width: 25%;"><a href="cache.html">cache</a></td>
@@ -36,6 +38,10 @@
 <td>Cache a project's data sets in binary format.</td></tr>
 <tr><td style="width: 25%;"><a href="clean.variable.name.html">clean.variable.name</a></td>
 <td>Translate a file name into a valid R variable name.</td></tr>
+<tr><td style="width: 25%;"><a href="clear.html">clear</a></td>
+<td>Clear objects from the global environment</td></tr>
+<tr><td style="width: 25%;"><a href="clear.cache.html">clear.cache</a></td>
+<td>Clear data sets from the cache</td></tr>
 <tr><td style="width: 25%;"><a href="create.project.html">create.project</a></td>
 <td>Create a new project.</td></tr>
 <tr><td style="width: 25%;"><a href="csv.reader.html">csv.reader</a></td>
@@ -46,14 +52,14 @@
 <td>Read a SQlite3 database with a (.db) file extension.</td></tr>
 <tr><td style="width: 25%;"><a href="dbf.reader.html">dbf.reader</a></td>
 <td>Read an XBASE file with a .dbf file extension.</td></tr>
-<tr><td style="width: 25%;"><a href="default.config.html">default.config</a></td>
-<td>Default configuration</td></tr>
 <tr><td style="width: 25%;"><a href="epiinfo.reader.html">epiinfo.reader</a></td>
 <td>Read an Epi Info file with a .rec file extension.</td></tr>
 <tr><td style="width: 25%;"><a href="file.reader.html">file.reader</a></td>
 <td>Read an arbitrary file described in a .file file.</td></tr>
 <tr><td style="width: 25%;"><a href="get.project.html">get.project</a></td>
 <td>Show information about the current project.</td></tr>
+<tr><td style="width: 25%;"><a href="list.data.html">list.data</a></td>
+<td>Listing the data for the current project</td></tr>
 <tr><td style="width: 25%;"><a href="load.project.html">load.project</a></td>
 <td>Automatically load data and packages for a project.</td></tr>
 <tr><td style="width: 25%;"><a href="migrate.project.html">migrate.project</a></td>
@@ -62,8 +68,6 @@
 <td>Read an MP3 file with a .mp3 file extension.</td></tr>
 <tr><td style="width: 25%;"><a href="mtp.reader.html">mtp.reader</a></td>
 <td>Read a Minitab Portable Worksheet with an .mtp3 file extension.</td></tr>
-<tr><td style="width: 25%;"><a href="new.config.html">new.config</a></td>
-<td>Configuration for new projects</td></tr>
 <tr><td style="width: 25%;"><a href="octave.reader.html">octave.reader</a></td>
 <td>Read an Octave file with a .m file extension.</td></tr>
 <tr><td style="width: 25%;"><a href="ProjectTemplate.html">package-ProjectTemplate</a></td>
@@ -72,6 +76,8 @@
 <td>Read a PPM file with a .ppm file extension.</td></tr>
 <tr><td style="width: 25%;"><a href="preinstalled.readers.html">preinstalled.readers</a></td>
 <td>Maps file types to the reader functions used to autoload them.</td></tr>
+<tr><td style="width: 25%;"><a href="project.config.html">project.config</a></td>
+<td>ProjectTemplate Configuration file</td></tr>
 <tr><td style="width: 25%;"><a href="ProjectTemplate.html">ProjectTemplate</a></td>
 <td>Automates the creation of new statistical analysis projects.</td></tr>
 <tr><td style="width: 25%;"><a href="r.reader.html">r.reader</a></td>
@@ -79,7 +85,7 @@
 <tr><td style="width: 25%;"><a href="rdata.reader.html">rdata.reader</a></td>
 <td>Read an RData file with a .rdata or .rda file extension.</td></tr>
 <tr><td style="width: 25%;"><a href="reload.project.html">reload.project</a></td>
-<td>Reload a project from scratch.</td></tr>
+<td>Reload or reset a project</td></tr>
 <tr><td style="width: 25%;"><a href="require.package.html">require.package</a></td>
 <td>Require a package for use in the project</td></tr>
 <tr><td style="width: 25%;"><a href="run.project.html">run.project</a></td>

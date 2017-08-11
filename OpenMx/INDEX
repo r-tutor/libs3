@@ -55,8 +55,6 @@ MxVersionType-class     A package_version or character
 Named-entity            Named Entities
 OpenMx                  OpenMx: An package for Structural Equation
                         Modeling and Matrix Algebra Optimization
-as.statusCode           Convert a numeric or character vector into an
-                        optimizer status code factor
 cvectorize              Vectorize By Column
 demoOneFactor           Demonstration data for a one factor model
 demoTwoFactor           Demonstration data for a two factor model
@@ -112,7 +110,6 @@ imxGenerateNamespace    imxGenerateNamespace
 imxGenericModelBuilder
                         imxGenericModelBuilder
 imxGentleResize         Resize an MxMatrix while preserving entries
-imxGetNumThreads        imxGetNumThreads
 imxGetSlotDisplayNames
                         imxGetSlotDisplayNames
 imxHasConstraint        imxHasConstraint
@@ -184,24 +181,15 @@ mxAlgebraObjective      DEPRECATED: Create MxAlgebraObjective Object
 mxAutoStart             Automatically set starting values for an
                         MxModel
 mxAvailableOptimizers   mxAvailableOptimizers
-mxBootstrap             Repeatedly estimate model using resampling with
-                        replacement
-mxBootstrapEval         Evaluate Values in a bootstrapped MxModel
-mxBootstrapStdizeRAMpaths
-                        Bootstrap distribution of standardized RAM path
-                        coefficients
 mxBounds                Create MxBounds Object
 mxCI                    Create mxCI Object
 mxCheckIdentification   Check that a model is locally identified
-mxCompare               Likelihood ratio test
-mxComputeBootstrap      Repeatedly estimate model using resampling with
-                        replacement
+mxCompare               Assign Model Parameters
 mxComputeConfidenceInterval
                         Find likelihood-based confidence intervals
 mxComputeDefault        Default compute plan
 mxComputeEM             Fit a model using DLR's (1977)
                         Expectation-Maximization (EM) algorithm
-mxComputeGenerateData   Generate data
 mxComputeGradientDescent
                         Optimize parameters using a gradient descent
                         optimizer
@@ -231,7 +219,7 @@ mxConstraint            Create MxConstraint Object
 mxData                  Create MxData Object
 mxDataDynamic           Create dynamic data
 mxDataWLS               Create MxData Object for Least Squares (WLS,
-                        DWLS, ULS) Analyses
+                        DLS, ULS) Analyses
 mxEval                  Evaluate Values in MxModel
 mxEvaluateOnGrid        Evaluate an algebra on an abscissa grid and
                         collect column results
@@ -240,7 +228,6 @@ mxExpectationGREML      Create MxExpectationGREML Object
 mxExpectationHiddenMarkov
                         Hidden Markov expectation
 mxExpectationLISREL     Create MxExpectationLISREL Object
-mxExpectationMixture    Mixture expectation
 mxExpectationNormal     Create MxExpectationNormal Object
 mxExpectationRAM        Create an MxExpectationRAM Object
 mxExpectationStateSpace
@@ -273,8 +260,6 @@ mxMatrix                Create MxMatrix Object
 mxModel                 Create MxModel Object
 mxNormalQuantiles       mxNormalQuantiles
 mxOption                Set or Clear an Optimizer Option
-mxParametricBootstrap   Assess whether potential parameters should be
-                        freed using parametric bootstrap
 mxPath                  Create List of Paths
 mxRAMObjective          DEPRECATED: Create MxRAMObjective Object
 mxRObjective            DEPRECATED: Create MxRObjective Object
@@ -332,14 +317,10 @@ omxConstrainMLThresholds
                         omxConstrainMLThresholds
 omxDefaultComputePlan   Construct default compute plan
 omxDetectCores          omxDetectCores
-omxGetBootstrapReplications
-                        omxGetBootstrapReplications
 omxGetNPSOL             omxGetNPSOL
 omxGetParameters        Fetch Model Parameters
 omxGetRAMDepth          omxGetRAMDepth
 omxGraphviz             Show RAM Model in Graphviz Format
-omxHasDefaultComputePlan
-                        omxHasDefaultComputePlan
 omxLapply               On-Demand Parallel Lapply
 omxLocateParameters     Summarize Model Parameters
 omxLogical              Logical mxAlgebra() operators
