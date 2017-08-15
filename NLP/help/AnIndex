@@ -29,6 +29,7 @@ c.Span	Span
 c.Tagged_Token	Tagged_Token
 chunked_sents	viewers
 CoNLLTextDocument	CoNLLTextDocument
+CoNLLUTextDocument	CoNLLUTextDocument
 content	generics
 content<-	generics
 duplicated.Annotation	Annotation

@@ -1,5 +1,6 @@
 autoviewer              RStudio AutoViewer
 coder_info              Magick Configuration
+composite               Magick Composite
 device                  Magick Graphics Device
 editing                 Image Editing
 image_apply             Apply a Function over Image Frames

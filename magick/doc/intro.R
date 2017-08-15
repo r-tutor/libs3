@@ -11,7 +11,15 @@ dev.off <- function(){
   invisible(grDevices::dev.off())
 }
 
-has_tesseract <- isTRUE(require(tesseract, quietly = TRUE))
+cleanup_images <- function(){
+  lapply(ls(globalenv()), function(name){
+    if(name %in% c("frink"))
+      return()
+    if(inherits(get(name, globalenv()), "magick-image"))
+      rm(list = name, envir = globalenv())
+  })
+  invisible(gc())
+}
 
 ## ------------------------------------------------------------------------
 str(magick::magick_config())
@@ -195,7 +203,7 @@ print(out)
 img <- image_draw(frink)
 rect(20, 20, 200, 100, border = "red", lty = "dashed", lwd = 5)
 abline(h = 300, col = 'blue', lwd = '10', lty = "dotted")
-text(10, 250, "Hoiven-Glaven", family = "courier", cex = 4, srt = 90)
+text(30, 250, "Hoiven-Glaven", family = "courier", cex = 4, srt = 90)
 palette(rainbow(11, end = 0.9))
 symbols(rep(200, 11), seq(0, 400, 40), circles = runif(11, 5, 35),
   bg = 1:11, inches = FALSE, add = TRUE)
@@ -203,6 +211,10 @@ dev.off()
 
 ## ------------------------------------------------------------------------
 print(img)
+
+## ---- echo=FALSE, results="hide"-----------------------------------------
+# Workaround for 'invalid colormap index' bug in old IM versions
+cleanup_images()
 
 ## ------------------------------------------------------------------------
 library(gapminder)
@@ -247,7 +259,7 @@ raster::plotRGB(rr, asp = 1)
 ## ----eval=FALSE----------------------------------------------------------
 #  install.packages("tesseract")
 
-## ---- eval = has_tesseract-----------------------------------------------
+## ---- eval = isTRUE(require(tesseract, quietly = TRUE))------------------
 img <- image_read("http://jeroen.github.io/images/testocr.png")
 print(img)
 

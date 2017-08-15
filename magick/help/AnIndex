@@ -2,6 +2,7 @@ autoviewer	autoviewer
 autoviewer_disable	autoviewer
 autoviewer_enable	autoviewer
 coder_info	config
+composite	composite
 device	device
 editing	edit
 imagemagick	edit
@@ -20,7 +21,7 @@ image_chop	transformations
 image_coalesce	edit
 image_colorize	transformations
 image_compare	transformations
-image_composite	transformations
+image_composite	composite
 image_contrast	transformations
 image_convert	transformations
 image_crop	transformations

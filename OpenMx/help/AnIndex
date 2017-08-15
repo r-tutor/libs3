@@ -27,6 +27,7 @@ $<-,MxRAMModel-method	MxRAMModel-class
 $<-,MxThreshold-method	mxThreshold
 %&%	mxAlgebra
 %^%	mxAlgebra
+as.statusCode	as.statusCode
 BaseCompute-class	BaseCompute-class
 Bollen	Bollen_data
 cvectorize	cvectorize
@@ -109,6 +110,7 @@ imxGenericModelBuilder	imxGenericModelBuilder
 imxGenSwift	imxGenSwift
 imxGentleResize	imxGentleResize
 imxGetExpectationComponent	mxGetExpected
+imxGetNumThreads	imxGetNumThreads
 imxGetSlotDisplayNames	imxGetSlotDisplayNames
 imxHasConstraint	imxHasConstraint
 imxHasDefinitionVariable	imxHasDefinitionVariable
@@ -220,6 +222,10 @@ MxBaseNamed	MxBaseNamed-class
 MxBaseNamed-class	MxBaseNamed-class
 MxBaseObjectiveMetaData	MxBaseObjectiveMetaData-class
 MxBaseObjectiveMetaData-class	MxBaseObjectiveMetaData-class
+mxBootstrap	mxBootstrap
+mxBootstrapEval	mxBootstrapEval
+mxBootstrapEvalByName	mxBootstrapEval
+mxBootstrapStdizeRAMpaths	mxBootstrapStdizeRAMpaths
 MxBounds	MxBounds-class
 mxBounds	mxBounds
 MxBounds-class	MxBounds-class
@@ -230,14 +236,19 @@ mxCheckIdentification	mxCheckIdentification
 MxCI	MxCI-class
 mxCI	mxCI
 mxCompare	mxCompare
+mxCompareMatrix	mxCompare
 MxCompute	MxCompute-class
 MxCompute-class	MxCompute-class
+mxComputeBootstrap	mxComputeBootstrap
+MxComputeBootstrap-class	mxComputeBootstrap
 mxComputeConfidenceInterval	mxComputeConfidenceInterval
 MxComputeConfidenceInterval-class	mxComputeConfidenceInterval
 mxComputeDefault	mxComputeDefault
 MxComputeDefault-class	mxComputeDefault
 mxComputeEM	mxComputeEM
 MxComputeEM-class	mxComputeEM
+mxComputeGenerateData	mxComputeGenerateData
+MxComputeGenerateData-class	mxComputeGenerateData
 mxComputeGradientDescent	mxComputeGradientDescent
 MxComputeGradientDescent-class	mxComputeGradientDescent
 mxComputeHessianQuality	mxComputeHessianQuality
@@ -294,6 +305,8 @@ mxExpectationHiddenMarkov	mxExpectationHiddenMarkov
 MxExpectationHiddenMarkov-class	mxExpectationHiddenMarkov
 mxExpectationLISREL	mxExpectationLISREL
 MxExpectationLISREL-class	mxExpectationLISREL
+mxExpectationMixture	mxExpectationMixture
+MxExpectationMixture-class	mxExpectationMixture
 mxExpectationNormal	mxExpectationNormal
 MxExpectationNormal-class	mxExpectationNormal
 mxExpectationRAM	mxExpectationRAM
@@ -349,6 +362,7 @@ MxOptionalCharOrNumber-class	MxOptionalCharOrNumber-class
 MxOptionalLogical-class	MxOptionalLogical-class
 MxOptionalMatrix-class	MxOptionalMatrix-class
 MxOptionalNumeric-class	MxOptionalNumeric-class
+mxParametricBootstrap	mxParametricBootstrap
 mxPath	mxPath
 MxPath-class	mxPath
 MxRAMGraph	MxRAMGraph-class
@@ -407,6 +421,10 @@ omxAnd	omxLogical
 omxApply	omxApply
 omxApproxEquals	omxLogical
 omxAssignFirstParameters	omxAssignFirstParameters
+omxBootstrapCov	omxGetBootstrapReplications
+omxBootstrapEval	mxBootstrapEval
+omxBootstrapEvalByName	mxBootstrapEval
+omxBootstrapEvalCov	mxBootstrapEval
 omxBrownie	omxBrownie
 omxCbind	omxMatrixOperations
 omxCheckCloseEnough	omxCheckCloseEnough
@@ -423,11 +441,13 @@ omxDefaultComputePlan	omxDefaultComputePlan
 omxDetectCores	omxDetectCores
 omxDnbinom	mxAlgebra
 omxExponential	expm
+omxGetBootstrapReplications	omxGetBootstrapReplications
 omxGetNPSOL	omxGetNPSOL
 omxGetParameters	omxGetParameters
 omxGetRAMDepth	omxGetRAMDepth
 omxGraphviz	omxGraphviz
 omxGreaterThan	omxLogical
+omxHasDefaultComputePlan	omxHasDefaultComputePlan
 omxLapply	omxLapply
 omxLessThan	omxLogical
 omxLocateParameters	omxLocateParameters
@@ -465,6 +485,7 @@ print,MxDataStatic-method	MxDataStatic-class
 print,MxExpectationBA81-method	mxExpectationBA81
 print,MxExpectationHiddenMarkov-method	mxExpectationHiddenMarkov
 print,MxExpectationLISREL-method	mxExpectationLISREL
+print,MxExpectationMixture-method	mxExpectationMixture
 print,MxExpectationNormal-method	mxExpectationNormal
 print,MxExpectationRAM-method	mxExpectationRAM
 print,MxExpectationStateSpace-method	mxExpectationStateSpace
@@ -491,6 +512,7 @@ show,MxDataStatic-method	MxDataStatic-class
 show,MxExpectationBA81-method	mxExpectationBA81
 show,MxExpectationHiddenMarkov-method	mxExpectationHiddenMarkov
 show,MxExpectationLISREL-method	mxExpectationLISREL
+show,MxExpectationMixture-method	mxExpectationMixture
 show,MxExpectationNormal-method	mxExpectationNormal
 show,MxExpectationRAM-method	mxExpectationRAM
 show,MxExpectationStateSpace-method	mxExpectationStateSpace

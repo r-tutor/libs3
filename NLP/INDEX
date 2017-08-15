@@ -3,6 +3,7 @@ AnnotatedPlainTextDocument
 Annotation              Annotation objects
 Annotator               Annotator (pipeline) objects
 CoNLLTextDocument       CoNLL-Style Text Documents
+CoNLLUTextDocument      CoNNL-U Text Documents
 Penn_Treebank_POS_tags
                         NLP Tag Sets
 Regexp_Tokenizer        Regexp tokenizers
