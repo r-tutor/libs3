@@ -179,7 +179,7 @@ twoord.plot             Plot with two ordinates
 twoord.stackplot        Multiple (stack) plot with two ordinates
 valid.n                 Find the number of valid (not NA) values
 vectorField             Display magnitude/direction vectors
-violin_plot             Display a violin plot
+violin_plot             Display a "violin" plot
 weighted.hist           Display a weighted histogram
 zoomInPlot              Display a plot with a rectangular section
                         expanded in an adjacent plot
