@@ -64,9 +64,6 @@ image_fill(frink, "orange", point = "+100+200", fuzz = 30000)
 image_blur(frink, 10, 5)
 image_noise(frink)
 
-# This is so ugly it should be illegal
-image_frame(frink, "25x25+10+10")
-
 # Silly filters
 image_charcoal(frink)
 image_oilpaint(frink)
@@ -228,6 +225,7 @@ out <- lapply(datalist, function(data){
   print(p)
 })
 dev.off()
+img <- image_background(image_trim(img), 'white')
 animation <- image_animate(img, fps = 2)
 print(animation)
 

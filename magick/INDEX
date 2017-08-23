@@ -1,8 +1,14 @@
+analysis                Image Analysis
+animation               Image Frames and Animation
+attributes              Image Attributes
 autoviewer              RStudio AutoViewer
 coder_info              Magick Configuration
-composite               Magick Composite
+color                   Image Color
+composite               Image Composite
 device                  Magick Graphics Device
 editing                 Image Editing
-image_apply             Apply a Function over Image Frames
-image_ocr               OCR
-transformations         Image Transformations
+effects                 Image Effects
+index                   Magick Image Processing
+ocr                     Image Text OCR
+painting                Image Painting
+transform               Image Transform
