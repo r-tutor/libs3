@@ -1,7 +1,7 @@
 AustralianElectionPolling
                         Political opinion polls in Australia, 2004-07
 AustralianElections     elections to Australian House of
-                        Representatives, 1949-2007
+                        Representatives, 1949-2016
 EfronMorris             Batting Averages for 18 major league baseball
                         players, 1970
 RockTheVote             Voter turnout experiment, using Rock The Vote
@@ -64,7 +64,7 @@ predprob                compute predicted probabilities from fitted
 predprob.glm            Predicted Probabilties for GLM Fits
 predprob.ideal          predicted probabilities from fitting ideal to
                         rollcall data
-presidentialElections   elections for U.S. President, 1932-2012, by
+presidentialElections   elections for U.S. President, 1932-2016, by
                         state
 prussian                Prussian army horse kick data
 readKH                  read roll call data in Poole-Rosenthal KH
