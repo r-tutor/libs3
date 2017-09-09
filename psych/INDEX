@@ -6,14 +6,9 @@ Gleser                  Example data from Gleser, Cronbach and
                         generalizability theory.
 Gorsuch                 Example data set from Gorsuch (1997) for an
                         example factor extension.
-Harman                  Two data sets from Harman (1967). 9 cognitive
+Harman                  Five data sets from Harman (1967). 9 cognitive
                         variables from Holzinger and 8 emotional
                         variables from Burt
-Harman.5                5 socio-economic variables from Harman (1967)
-Harman.8                Correlations of eight physical variables (from
-                        Harman, 1966)
-Harman.political        Eight political variables used by Harman (1967)
-                        as example 8.17
 ICC                     Intraclass Correlations (ICC1, ICC2, ICC3 from
                         Shrout and Fleiss)
 ICLUST.cluster          Function to form hierarchical cluster analysis
@@ -58,6 +53,8 @@ bfi                     25 Personality items representing 5 factors
 bi.bars                 Draw pairs of bargraphs based on two groups
 biplot.psych            Draw biplots of factor or component scores by
                         factor or component loadings
+blant                   A 29 x 29 matrix that produces weird factor
+                        analytic results
 block.random            Create a block randomized structure for n
                         independent variables
 blot                    Bond's Logical Operations Test - BLOT
@@ -77,6 +74,7 @@ cluster.plot            Plot factor/cluster loadings and assign items
 cluster2keys            Convert a cluster vector (from e.g., kmeans) to
                         a keys matrix suitable for scoring item
                         clusters.
+cohen.d                 Find Cohen d and confidence intervals
 cohen.kappa             Find Cohen's kappa and weighted kappa
                         coefficients for correlation of two raters
 comorbidity             Convert base rates of two diagnoses and their
@@ -162,6 +160,8 @@ fa.parallel             Scree plots of data or correlation matrix
                         compared to random "parallel" matrices
 fa.poly                 Deprecated Exploratory Factor analysis
                         functions.  Please use fa
+fa.random               A first approximation to Random Effects
+                        Exploratory Factor Analysis
 fa.sort                 Sort factor analysis or principal components
                         analysis loadings
 factor.congruence       Coefficient of factor congruence
@@ -176,8 +176,8 @@ factor.stats            Find various goodness of fit statistics for
                         factor analysis and principal components
 factor2cluster          Extract cluster definitions from factor
                         loadings
-fisherz                 Transformations of r including Fisher r to z
-                        and z to r and confidence intervals
+fisherz                 Transformations of r, d, and t including Fisher
+                        r to z and z to r and confidence intervals
 galton                  Galton's Mid parent child height data
 geometric.mean          Find the geometric mean of a vector or columns
                         of a data.frame.
@@ -323,6 +323,8 @@ simulation.circ         Simulations of circumplex and simple structure
 smc                     Find the Squared Multiple Correlation (SMC) of
                         each variable with the remaining variables in a
                         matrix
+spi                     A sample from the SAPA Personality Inventory
+                        including an item dictionary and scoring keys.
 spider                  Make "radar" or "spider" plots.
 splitHalf               Alternative estimates of test reliabiity
 statsBy                 Find statistics (including correlations) within

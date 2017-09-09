@@ -1,3 +1,4 @@
+_index_                 Magick Image Processing
 analysis                Image Analysis
 animation               Image Frames and Animation
 attributes              Image Attributes
@@ -8,7 +9,6 @@ composite               Image Composite
 device                  Magick Graphics Device
 editing                 Image Editing
 effects                 Image Effects
-index                   Magick Image Processing
 ocr                     Image Text OCR
 painting                Image Painting
 transform               Image Transform

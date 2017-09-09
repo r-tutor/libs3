@@ -94,7 +94,6 @@ test <- image_annotate(test, "This is how we combine transformations", color = "
 print(test)
 
 ## ------------------------------------------------------------------------
-library(magrittr)
 image_read("https://jeroen.github.io/images/frink.png") %>%
   image_rotate(270) %>%
   image_background("blue", flatten = TRUE) %>%

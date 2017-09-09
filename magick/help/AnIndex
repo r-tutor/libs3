@@ -1,4 +1,5 @@
 magick-package	magick
+%>%	reexports
 analysis	analysis
 animation	animation
 attributes	attributes
@@ -73,9 +74,10 @@ image_scale	transform
 image_transparent	color
 image_trim	transform
 image_write	editing
-index	magick
 magick	magick
 magick_config	config
 ocr	ocr
 painting	painting
+reexports	reexports
 transform	transform
+_index_	magick

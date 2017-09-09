@@ -20,6 +20,7 @@ bifactor	Promax
 biplot.psych	biplot.psych
 biquartimin	Promax
 biserial	tetrachor
+blant	blant
 block.random	block.random
 blot	blot
 bock	bock.table
@@ -51,6 +52,9 @@ cluster.fit	cluster.fit
 cluster.loadings	cluster.loadings
 cluster.plot	cluster.plot
 cluster2keys	cluster2keys
+cohen.d	cohen.d
+cohen.d.by	cohen.d
+cohen.d.ci	cohen.d
 cohen.kappa	kappa
 comorbidity	comorbidity
 con2cat	sim.item
@@ -68,6 +72,7 @@ cor2latex	df2latex
 corCi	cor.ci
 corFiml	corFiml
 corPlot	cor.plot
+corPlotUpperLowerCi	cor.plot
 corr.p	corr.test
 corr.test	corr.test
 correct.cor	correct.cor
@@ -84,7 +89,9 @@ cta	cta
 cta.15	cta
 cubits	cubits
 cushny	cushny
-d2r	fisherz
+d.ci	cohen.d
+d2r	cohen.d
+d2t	cohen.d
 densityBy	densityBy
 describe	describe
 describe.by	describe.by
@@ -135,7 +142,9 @@ fa.parallel	fa.parallel
 fa.parallel.poly	fa.parallel
 fa.plot	cluster.plot
 fa.poly	deprecated
+fa.random	fa.random
 fa.rgraph	fa.diagram
+fa.sapa	fa
 fa.sort	fa.sort
 fa.stats	factor.stats
 fa2irt	irt.fa
@@ -167,11 +176,11 @@ Gleser	Gleser
 Gorsuch	Gorsuch
 guttman	guttman
 Harman	Harman
-Harman.5	Harman.5
-Harman.8	Harman.8
+Harman.5	Harman
+Harman.8	Harman
 Harman.Burt	Harman
 Harman.Holzinger	Harman
-Harman.political	Harman.political
+Harman.political	Harman
 harmonic.mean	harmonic.mean
 headTail	headtail
 headtail	headtail
@@ -320,7 +329,7 @@ r.con	fisherz
 r.test	r.test
 r2c	fisherz
 r2chi	fisherz
-r2d	fisherz
+r2d	cohen.d
 r2t	fisherz
 radar	spider
 rangeCorrection	range.correction
@@ -364,6 +373,9 @@ scoreOverlap	cluster.cor
 scree	VSS.scree
 scrub	scrub
 SD	SD
+selectFromKeys	make.keys
+sem.diagram	structure.diagram
+sem.graph	structure.diagram
 set.cor	set.cor
 setCor	set.cor
 setCor.diagram	set.cor
@@ -401,6 +413,9 @@ sim.VSS	sim.VSS
 simulation.circ	simulation.circ
 skew	skew
 smc	smc
+spi	spi
+spi.dictionary	spi
+spi.keys	spi
 spider	spider
 splitHalf	guttman
 statsBy	statsBy
@@ -413,6 +428,7 @@ structure.sem	structure.diagram
 summary.psych	print.psych
 super.matrix	super.matrix
 superMatrix	super.matrix
+t2d	cohen.d
 t2r	fisherz
 table2df	table2matrix
 table2matrix	table2matrix
