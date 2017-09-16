@@ -16,6 +16,7 @@ PKI.load.key	RSA
 PKI.load.OpenSSH.pubkey	RSA
 PKI.mkRSApubkey	RSA
 PKI.pubkey	X509
+PKI.random	PKI.random
 PKI.save.key	RSA
 PKI.sign	PKI.sign
 PKI.sign.tar	PKI.sign.tar

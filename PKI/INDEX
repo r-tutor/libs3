@@ -5,6 +5,8 @@ BIGNUMint               Functions for BIGNUM representation of
 PKI.crypt               PKI encryption/decryption functions
 PKI.digest              Compute digest sum based on SHA1, SHA256 or MD5
                         hash functions
+PKI.random              Generate cryptographically strong pseudo-random
+                        bytes.
 PKI.sign                PKI: sign content or verify a signature
 PKI.sign.tar            Functions for signing and verification of tar
                         files
