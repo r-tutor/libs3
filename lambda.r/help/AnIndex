@@ -1,5 +1,6 @@
 lambda.r-package	lambda.r-package
 %::%	framework
+%:=%	framework
 %as%	framework
 %hasa%	duck
 %hasall%	duck

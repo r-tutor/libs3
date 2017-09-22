@@ -9,7 +9,7 @@ euro55.2.des            Design data frame for a paired comparison
                         pattern model for rankings (Eurobarometer 55.2)
 expand.mat              Utility function to expand aggregated data
 immig                   Data (paired comparisons with undecided and
-                        forced NAs): Negative Attitudes towards
+                        forced 'NA's): Negative Attitudes towards
                         Immigrants
 issp2000                Data (Likert items): ISSP 2000 Survey on
                         Environmental Issues
@@ -39,8 +39,7 @@ pattRrep.fit            Function to fit a pattern model for repeated
 pattnpml.fit            NPML estimation for paired comparison models
 plot.wmat               Method to plot worth or model parameters from
                         LLBT or pattern models
-plotworth               Deprecated function to plot worth or model
-                        parameters from LLBT or pattern models
+prefmod-defunct         Defunct Functions in Package 'prefmod'
 prefmod-package         'prefmod': Utilities to Fit Paired Comparison
                         Models for Preferences
 print.pattMod           Print methods for pattern models

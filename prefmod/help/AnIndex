@@ -23,8 +23,9 @@ pattPC.fit	pattPC.fit
 pattR.fit	pattR.fit
 pattRrep.fit	pattRrep.fit
 plot.wmat	plot.wmat
-plotworth	plotworth
+plotworth	prefmod-defunct
 prefmod	prefmod-package
+prefmod-defunct	prefmod-defunct
 print.pattMod	print.pattMod
 print.pattNPML	summary.pattNPML
 salad	salad
