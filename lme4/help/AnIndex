@@ -20,6 +20,7 @@ cbpp	cbpp
 checkConv	checkConv
 coef.merMod	merMod-class
 confint.merMod	confint.merMod
+confint.thpr	confint.merMod
 convergence	convergence
 cov2sdcor	vcconv
 Cv_to_Sv	vcconv
