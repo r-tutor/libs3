@@ -23,6 +23,7 @@ image_blur	effects
 image_border	composite
 image_browse	editing
 image_capture	device
+image_channel	color
 image_charcoal	effects
 image_chop	transform
 image_coalesce	animation
@@ -32,6 +33,7 @@ image_compare	analysis
 image_composite	composite
 image_contrast	color
 image_convert	editing
+image_convolve	effects
 image_crop	transform
 image_deskew	transform
 image_despeckle	effects

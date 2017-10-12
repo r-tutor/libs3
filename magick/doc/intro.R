@@ -257,9 +257,9 @@ raster::plotRGB(rr, asp = 1)
 #  install.packages("tesseract")
 
 ## ---- eval = isTRUE(require(tesseract, quietly = TRUE))------------------
-img <- image_read("http://jeroen.github.io/images/testocr.png")
-print(img)
-
-# Extract text
-cat(image_ocr(img))
+#  img <- image_read("http://jeroen.github.io/images/testocr.png")
+#  print(img)
+#  
+#  # Extract text
+#  cat(image_ocr(img))
 
