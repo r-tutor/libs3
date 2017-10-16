@@ -194,6 +194,7 @@ mxBounds                Create MxBounds Object
 mxCI                    Create mxCI Object
 mxCheckIdentification   Check that a model is locally identified
 mxCompare               Likelihood ratio test
+mxComputeBenchmark      Repeatedly invoke a series of compute objects
 mxComputeBootstrap      Repeatedly estimate model using resampling with
                         replacement
 mxComputeConfidenceInterval
@@ -350,7 +351,9 @@ omxMatrixOperations     MxMatrix operations
 omxMnor                 Multivariate Normal Integration
 omxNameAnonymousParameters
                         omxNameAnonymousParameters
-omxParallelCI           omxParallelCI
+omxParallelCI           Dedicated functions for calculating confidence
+                        intervals without redoing the primary
+                        optimization.
 omxQuotes               omxQuotes
 omxRAMtoML              omxRAMtoML
 omxRMSEA                Get the RMSEA with confidence intervals from
