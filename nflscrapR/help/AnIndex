@@ -1,8 +1,12 @@
 agg_player_season	agg_player_season
+buildNameAbbr	buildNameAbbr
+buildURL	buildURL
 drive_summary	drive_summary
 expected_points	expected_points
 extracting_gameids	extracting_gameids
 game_play_by_play	game_play_by_play
+getPageNumbers	getPageNumbers
+getPlayers	getPlayers
 nflteams	nflteams
 playerstats09	playerstats09
 playerstats10	playerstats10

@@ -1,12 +1,18 @@
 agg_player_season       Detailed Player Aggregate Season Statistics
+buildNameAbbr           Build formatted player name from full player
+                        name
+buildURL                Building URL to scrape player season stat pages
 drive_summary           Drive Summary and Results
-expected_points         Expected point function to add an expected
-                        point variable for each play in the play by
-                        play
+expected_points         Expected point function to calculate expected
+                        points for each play in the play by play, and
+                        the expected points added in three ways, basic
+                        EPA, air yards EPA, and yards after catch EPA
 extracting_gameids      Extract GameIDs for each game in a given NFL
                         season
 game_play_by_play       Parsed Descriptive Play-by-Play Dataset for a
                         Single Game
+getPageNumbers          Get Number of Player Position Pages
+getPlayers              Scrape Player Names and Positions
 nflteams                NFL Team Names and Abbreviations
 player_game             Detailed Boxscore for Single NFL Game
 playerstats09           NFL Team Names and Abbreviations
@@ -27,5 +33,5 @@ season_player_game      Boxscore for Each Game in the Season - One line
 season_rosters          Season Rosters for Teams
 simple_boxscore         Simple Game Boxscore
 win_probability         Win probability function to add win probability
-                        columns for the offense and defense for each
+                        columns for the home and away teams for each
                         play in the game
