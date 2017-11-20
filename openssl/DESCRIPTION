@@ -2,7 +2,7 @@ Package: openssl
 Type: Package
 Title: Toolkit for Encryption, Signatures and Certificates Based on
         OpenSSL
-Version: 0.9.7
+Version: 0.9.9
 Authors@R: c(
     person("Jeroen", "Ooms", , "jeroen@berkeley.edu", role = c("cre", "aut")),
     person("Oliver", "Keyes", role = "ctb"))
@@ -21,13 +21,13 @@ BugReports: https://github.com/jeroen/openssl/issues
 SystemRequirements: OpenSSL >= 1.0.1
 VignetteBuilder: knitr
 Suggests: testthat, digest, knitr, rmarkdown, jsonlite, jose
-RoxygenNote: 6.0.1
+RoxygenNote: 6.0.1.9000
 NeedsCompilation: yes
-Packaged: 2017-09-06 15:02:37 UTC; jeroen
+Packaged: 2017-11-10 16:52:56 UTC; jeroen
 Author: Jeroen Ooms [cre, aut],
   Oliver Keyes [ctb]
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Repository: CRAN
-Date/Publication: 2017-09-06 20:56:56 UTC
-Built: R 3.4.1; i386-w64-mingw32; 2017-09-09 21:55:33 UTC; windows
+Date/Publication: 2017-11-10 18:33:32 UTC
+Built: R 3.4.2; x86_64-w64-mingw32; 2017-11-19 09:57:59 UTC; windows
 Archs: i386, x64
