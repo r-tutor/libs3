@@ -74,7 +74,7 @@ logLik.MclustDA         Log-Likelihood of a 'MclustDA' object
 majorityVote            Majority vote
 map                     Classification given Probabilities
 mapClass                Correspondence between classifications.
-mclust-package          Normal Mixture Modeling for Model-Based
+mclust-package          Gaussian Mixture Modelling for Model-Based
                         Clustering, Classification, and Density
                         Estimation
 mclust.options          Default values for use with MCLUST package
