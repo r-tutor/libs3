@@ -43,7 +43,7 @@ diamondplot             Plot multiple variables as polygons on a radial
                         grid
 dispersion              Display a measure of dispersion.
 do.first                Execute a graphic function on a plot
-dotplot.mtb             Minitab style dotplots
+dotplot.mtb             Minitab style dotplots.
 draw.arc                Draw arc
 draw.circle             Draw a circle
 draw.ellipse            Draw ellipse
@@ -88,6 +88,7 @@ hexagon                 Draw a hexagon
 histStack               Histogram "stacked" by categories
 intersectDiagram        Display set intersections
 jiggle                  Calculate equally spaced values within a range.
+joyPlot                 Display a series of density curves.
 kiteChart               Magnitude by position chart.
 labbePlot               Display a L'Abbe plot
 ladderplot              Ladder Plot
@@ -100,6 +101,7 @@ makeIntersectList       Count set intersections
 maxEmptyRect            Find an empty space on a plot
 mtext3d                 Display text in the margins of a 3D plot
 multhist                Plot a multiple histogram, as a barplot
+multivari               Function to draw a multivari chart
 multsymbolbox           Draw boxes filled with symbols
 oz.windrose             Display an Australian wind rose
 oz.windrose.legend      Display an Australian wind rose legend
@@ -156,6 +158,7 @@ spreadout               Spread out a vector of numbers to a minimum
 stackpoly               Display the columns of a matrix or data frame
                         as stacked polygons
 staircase.plot          Display a staircase plot
+staircasePlot           Display a staircase plot
 starPie                 A pie-like graphic object
 staxlab                 Place staggered or angled labels on an axis
 std.error               Calculate standard error of the mean

@@ -3,16 +3,6 @@ dev.off <- function(){
   invisible(grDevices::dev.off())
 }
 
-cleanup_images <- function(){
-  lapply(ls(globalenv()), function(name){
-    if(name %in% c("frink"))
-      return()
-    if(inherits(get(name, globalenv()), "magick-image"))
-      rm(list = name, envir = globalenv())
-  })
-  invisible(gc())
-}
-
 ## ------------------------------------------------------------------------
 str(magick::magick_config())
 
@@ -28,10 +18,6 @@ image_info(tiger_png)
 ## ------------------------------------------------------------------------
 # Example image
 frink <- image_read("https://jeroen.github.io/images/frink.png")
-
-## ----echo = FALSE--------------------------------------------------------
-# Reduce color depth because vignette is too large :/
-frink <- image_quantize(frink)
 
 ## ------------------------------------------------------------------------
 
@@ -59,7 +45,7 @@ image_flop(frink)
 image_modulate(frink, brightness = 80, saturation = 120, hue = 90)
 
 # Paint the shirt orange
-image_fill(frink, "orange", point = "+100+200", fuzz = 30000)
+image_fill(frink, "orange", point = "+100+200", fuzz = 20)
 
 ## ------------------------------------------------------------------------
 # Add randomness
@@ -95,8 +81,8 @@ image_annotate(frink, "I like R!", size = 70, gravity = "southwest", color = "gr
 image_annotate(frink, "CONFIDENTIAL", size = 30, color = "red", boxcolor = "pink",
   degrees = 60, location = "+50+100")
 
-# Only works if ImageMagick has fontconfig
-try(image_annotate(frink, "The quick brown fox", font = 'times-new-roman', size = 30), silent = T)
+# Fonts may require ImageMagick has fontconfig
+image_annotate(frink, "The quick brown fox", font = 'Times', size = 30)
 
 ## ------------------------------------------------------------------------
 frink <- image_read("https://jeroen.github.io/images/frink.png")
@@ -119,8 +105,11 @@ image_read("https://jeroen.github.io/images/frink.png") %>%
   image_annotate("The same thing with pipes", color = "white", size = 30)
 
 ## ------------------------------------------------------------------------
-earth <- image_read("https://jeroen.github.io/images/earth.gif")
-earth <- image_scale(earth, "200")
+# Download earth gif and make it a bit smaller for vignette
+earth <- image_read("https://jeroen.github.io/images/earth.gif") %>%
+  image_scale("200x") %>%
+  image_quantize(128)
+
 length(earth)
 earth
 head(image_info(earth))
@@ -149,12 +138,10 @@ image_flatten(img, 'Modulate')
 image_flatten(img, 'Minus')
 
 ## ------------------------------------------------------------------------
-left_to_right <- image_append(image_scale(img, "x200"))
-image_background(left_to_right, "white", flatten = TRUE)
+image_append(image_scale(img, "x200"))
 
 ## ------------------------------------------------------------------------
-top_to_bottom <- image_append(image_scale(img, "100"), stack = TRUE)
-image_background(top_to_bottom, "white", flatten = TRUE)
+image_append(image_scale(img, "100"), stack = TRUE)
 
 ## ------------------------------------------------------------------------
 bigdatafrink <- image_scale(image_rotate(image_background(frink, "none"), 300), "x200")
@@ -193,9 +180,7 @@ image_info(banana)
 background <- image_background(image_scale(logo, "200"), "white", flatten = TRUE)
 
 # Combine and flatten frames
-frames <- image_apply(banana, function(frame) {
-  image_composite(background, frame, offset = "+70+30")
-})
+frames <- image_composite(background, banana, offset = "+70+30")
 
 # Turn frames into animation
 animation <- image_animate(frames, fps = 10)
@@ -217,7 +202,7 @@ print(out)
 img <- image_draw(frink)
 rect(20, 20, 200, 100, border = "red", lty = "dashed", lwd = 5)
 abline(h = 300, col = 'blue', lwd = '10', lty = "dotted")
-text(30, 250, "Hoiven-Glaven", family = "courier", cex = 4, srt = 90)
+text(30, 250, "Hoiven-Glaven", family = "monospace", cex = 4, srt = 90)
 palette(rainbow(11, end = 0.9))
 symbols(rep(200, 11), seq(0, 400, 40), circles = runif(11, 5, 35),
   bg = 1:11, inches = FALSE, add = TRUE)
@@ -226,14 +211,10 @@ dev.off()
 ## ------------------------------------------------------------------------
 print(img)
 
-## ---- echo=FALSE, results="hide"-----------------------------------------
-# Workaround for 'invalid colormap index' bug in old IM versions
-cleanup_images()
-
 ## ------------------------------------------------------------------------
 library(gapminder)
 library(ggplot2)
-img <- image_graph(600, 400, res = 96)
+img <- image_graph(600, 340, res = 96)
 datalist <- split(gapminder, gapminder$year)
 out <- lapply(datalist, function(data){
   p <- ggplot(data, aes(gdpPercap, lifeExp, size = pop, color = continent)) +
@@ -242,7 +223,6 @@ out <- lapply(datalist, function(data){
   print(p)
 })
 dev.off()
-img <- image_background(image_trim(img), 'white')
 animation <- image_animate(img, fps = 2)
 print(animation)
 

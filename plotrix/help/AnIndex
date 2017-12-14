@@ -80,6 +80,7 @@ histStack.default	histStack
 histStack.formula	histStack
 intersectDiagram	intersectDiagram
 jiggle	jiggle
+joyPlot	joyPlot
 kiteChart	kiteChart
 labbePlot	labbePlot
 ladderplot	ladderplot
@@ -92,6 +93,7 @@ makeIntersectList	makeIntersectList
 maxEmptyRect	maxEmptyRect
 mtext3d	mtext3d
 multhist	multhist
+multivari	multivari
 multsymbolbox	multsymbolbox
 oz.windrose	oz.windrose
 oz.windrose.legend	oz.windrose.legend
@@ -143,6 +145,7 @@ spread.labels	spread.labels
 spreadout	spreadout
 stackpoly	stackpoly
 staircase.plot	staircase.plot
+staircasePlot	staircasePlot
 starPie	starPie
 staxlab	staxlab
 std.error	std.error

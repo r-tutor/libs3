@@ -13,6 +13,7 @@ Fleiss93cont	Fleiss93cont
 Fleiss93_CR	read.rm5
 forest	forest
 forest.meta	forest
+forest.metabind	forest
 funnel	funnel
 funnel.default	funnel
 funnel.meta	funnel
@@ -28,6 +29,7 @@ metabias.default	metabias
 metabias.meta	metabias
 metabias.rm5	print.rm5
 metabin	metabin
+metabind	metabind
 metacont	metacont
 metacor	metacor
 metacr	metacr
@@ -35,6 +37,7 @@ metacum	metacum
 metagen	metagen
 metainc	metainc
 metainf	metainf
+metamean	metamean
 metaprop	metaprop
 metarate	metarate
 metareg	metareg

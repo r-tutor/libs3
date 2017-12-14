@@ -1,7 +1,7 @@
 Package: magick
 Type: Package
 Title: Advanced Graphics and Image-Processing in R
-Version: 1.5
+Version: 1.6
 Author: Jeroen Ooms
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Description: Bindings to 'ImageMagick': the most comprehensive open-source image
@@ -21,12 +21,12 @@ SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or
 VignetteBuilder: knitr
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
-Suggests: rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster, rgdal,
-        gapminder, tesseract
-RoxygenNote: 6.0.1
+Suggests: spelling, methods, rmarkdown, rsvg, webp, png, pdftools,
+        ggplot2, raster, rgdal, gapminder, tesseract
+RoxygenNote: 6.0.1.9000
 NeedsCompilation: yes
-Packaged: 2017-11-03 13:59:11 UTC; jeroen
+Packaged: 2017-12-01 16:24:24 UTC; jeroen
 Repository: CRAN
-Date/Publication: 2017-11-03 16:51:11 UTC
-Built: R 3.4.2; x86_64-w64-mingw32; 2017-11-19 11:03:47 UTC; windows
+Date/Publication: 2017-12-01 17:56:46 UTC
+Built: R 3.4.3; x86_64-w64-mingw32; 2017-12-10 12:56:38 UTC; windows
 Archs: i386, x64
