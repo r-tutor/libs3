@@ -16,7 +16,6 @@ breaks_split	partysplit
 cforest	cforest
 character_split	partysplit
 coef.modelparty	mob
-coef.palmtree	palmtree
 ctree	ctree
 ctree_control	ctree_control
 data_party	party
@@ -25,12 +24,17 @@ depth.party	party-methods
 depth.partynode	partynode-methods
 deviance.modelparty	mob
 edge_simple	panelfunctions
+extree_data	extree_data
+extree_fit	extree_fit
 fitted.modelparty	mob
 fitted_node	partynode
 formatinfo_node	partynode
 formula.modelparty	mob
 getCall.modelparty	mob
 getCall.party	party-methods
+gettree	cforest
+gettree.cforest	cforest
+get_paths	nodeids
 glmtree	glmtree
 HuntingSpiders	HuntingSpiders
 id_node	partynode
@@ -49,12 +53,11 @@ length.party	party-methods
 length.partynode	partynode-methods
 lmtree	lmtree
 logLik.modelparty	mob
-logLik.palmtree	palmtree
 mob	mob
 mob_control	mob_control
 model.frame.modelparty	mob
-model.frame.rpart	model.frame.rpart
 modelparty	mob
+model_frame_rpart	model.frame.rpart
 names.party	party
 names<-.party	party
 nobs.modelparty	mob
@@ -76,7 +79,6 @@ node_mvar	panelfunctions
 node_party	party
 node_surv	panelfunctions
 node_terminal	panelfunctions
-palmtree	palmtree
 panelfunctions	panelfunctions
 party	party
 party-coercion	party-coercion
@@ -90,7 +92,6 @@ plot.constparty	party-plot
 plot.glmtree	glmtree
 plot.lmtree	lmtree
 plot.modelparty	mob
-plot.palmtree	palmtree
 plot.party	party-plot
 plot.simpleparty	party-plot
 pmmlTreeModel	party-coercion
@@ -98,7 +99,6 @@ predict.cforest	cforest
 predict.glmtree	glmtree
 predict.lmtree	lmtree
 predict.modelparty	mob
-predict.palmtree	palmtree
 predict.party	party-predict
 predict_party	party-predict
 predict_party.constparty	party-predict
@@ -108,11 +108,11 @@ print.constparty	party-methods
 print.glmtree	glmtree
 print.lmtree	lmtree
 print.modelparty	mob
-print.palmtree	palmtree
 print.party	party-methods
 print.partynode	partynode-methods
 print.simpleparty	party-methods
 prob_split	partysplit
+prune.modelparty	prune.modelparty
 refit.modelparty	mob
 residuals.modelparty	mob
 right_split	partysplit
@@ -122,6 +122,9 @@ split_node	partynode
 summary.modelparty	mob
 surrogates_node	partynode
 varid_split	partysplit
+varimp	varimp
+varimp.cforest	varimp
+varimp.constparty	varimp
 WeatherPlay	WeatherPlay
 weights.modelparty	mob
 width	partynode-methods
