@@ -4,9 +4,6 @@ autoplot.microbenchmark
                         ggplot2
 boxplot.microbenchmark
                         Boxplot of 'microbenchmark' timings.
-coalesce                Return first non null argument.
-convert_to_unit         Convert timings to different units.
-find_prefix             Find SI prefix for unit
 get_nanotime            Return the current value of the platform timer.
 microbenchmark          Sub-millisecond accurate timing of expression
                         evaluation.
