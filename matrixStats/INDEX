@@ -13,8 +13,8 @@ rowAlls                 Checks if a value exists / does not exist in
                         each row (column) of a matrix
 rowCollapse             Extracts one cell per row (column) from a
                         matrix
-rowCounts               Counts the number of TRUE values in each row
-                        (column) of a matrix
+rowCounts               Counts the number of occurrences of a specific
+                        value
 rowCumsums              Cumulative sums, products, minima and maxima
                         for each row (column) in a matrix
 rowDiffs                Calculates difference for each row (column) in
