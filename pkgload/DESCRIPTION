@@ -8,26 +8,27 @@ Authors@R: c(
 Description: pkgload is simulates the process of installing a package
     and then attaching it. This is a key part of devtools as it allows you
     to rapidly iterate with a package.
-Imports: withr, methods, rstudioapi, pkgbuild, roxygen2, bitops
-Suggests: Rcpp, testthat, covr
-Remotes: r-pkgs/pkgbuild
+Imports: withr, methods, rstudioapi, pkgbuild, rlang, rprojroot, desc
+Suggests: Rcpp, testthat, covr, bitops
+Remotes: r-lib/pkgbuild, tidyverse/rlang
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
-URL: https://github.com/hadley/pkgload
-BugReports: https://github.com/hadley/pkgload/issues
+RoxygenNote: 6.0.1
+URL: https://github.com/r-lib/pkgload
+BugReports: https://github.com/r-lib/pkgload/issues
+Roxygen: list(markdown = TRUE)
 Author: Hadley Wickham [aut, cre],
   RStudio [cph]
 Maintainer: Hadley Wickham <hadley@rstudio.com>
-Built: R 3.3.2; ; 2017-03-03 04:03:07 UTC; windows
+Built: R 3.4.3; ; 2018-01-30 20:33:31 UTC; windows
 RemoteType: github
 RemoteHost: https://api.github.com
 RemoteRepo: pkgload
-RemoteUsername: r-pkgs
+RemoteUsername: r-lib
 RemoteRef: master
-RemoteSha: fc907a143659cd1d2ec6bcdc916959b95010b590
+RemoteSha: 158834996f80c78370c308842bd3df5dab328f99
 GithubRepo: pkgload
-GithubUsername: r-pkgs
+GithubUsername: r-lib
 GithubRef: master
-GithubSHA1: fc907a143659cd1d2ec6bcdc916959b95010b590
+GithubSHA1: 158834996f80c78370c308842bd3df5dab328f99
