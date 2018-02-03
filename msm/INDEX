@@ -82,5 +82,6 @@ tnorm                   Truncated Normal distribution
 totlos.msm              Total length of stay, or expected number of
                         visits
 transient.msm           Transient and absorbing states
+updatepars.msm          updatepars.msm
 viterbi.msm             Calculate the probabilities of underlying
                         states and the most likely path through them

@@ -108,4 +108,5 @@ surface.msm	surface.msm
 tnorm	tnorm
 totlos.msm	totlos.msm
 transient.msm	transient.msm
+updatepars.msm	updatepars.msm
 viterbi.msm	viterbi.msm
