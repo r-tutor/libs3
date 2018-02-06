@@ -1,10 +1,10 @@
 Package: NeuralNetTools
 Type: Package
 Title: Visualization and Analysis Tools for Neural Networks
-Version: 1.5.0
-Date: 2016-11-24
+Version: 1.5.1
+Date: 2018-02-05
 Author: Marcus W. Beck [aut, cre]
-Maintainer: Marcus W. Beck <mbafs2012@gmail.com>
+Maintainer: Marcus W. Beck <marcusb@sccwrp.org>
 Description: Visualization and analysis tools to aid in the interpretation of
     neural network models.  Functions are available for plotting,
     quantifying variable importance, conducting a sensitivity analysis, and
@@ -17,10 +17,10 @@ Suggests: caret, neuralnet, RSNNS
 Depends: R (>= 3.1.1)
 Authors@R: person(given = "Marcus W.", family = "Beck",
     role = c("aut","cre"),
-    email = "mbafs2012@gmail.com")
-RoxygenNote: 5.0.1
+    email = "marcusb@sccwrp.org")
+RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2016-11-24 23:19:25 UTC; Marcus
+Packaged: 2018-02-05 16:58:12 UTC; Marcus
 Repository: CRAN
-Date/Publication: 2016-11-25 00:27:31
-Built: R 3.3.3; ; 2017-03-27 03:09:19 UTC; windows
+Date/Publication: 2018-02-05 22:49:37 UTC
+Built: R 3.4.3; ; 2018-02-05 23:20:14 UTC; windows
