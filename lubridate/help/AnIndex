@@ -261,11 +261,15 @@ Compare,ANY,Duration-method	hidden_aliases
 Compare,character,Duration-method	hidden_aliases
 Compare,character,Period-method	hidden_aliases
 Compare,difftime,Duration-method	hidden_aliases
+Compare,difftime,Period-method	hidden_aliases
 Compare,Duration,ANY-method	hidden_aliases
 Compare,Duration,character-method	hidden_aliases
+Compare,Duration,difftime-method	hidden_aliases
 Compare,Duration,Duration-method	hidden_aliases
 Compare,Duration,Period-method	hidden_aliases
+Compare,numeric,Period-method	hidden_aliases
 Compare,Period,character-method	hidden_aliases
+Compare,Period,difftime-method	hidden_aliases
 Compare,Period,Duration-method	hidden_aliases
 Compare,Period,numeric-method	hidden_aliases
 Compare,Period,Period-method	hidden_aliases

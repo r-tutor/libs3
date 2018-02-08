@@ -11,7 +11,7 @@
 <div style="text-align: center;">
 <a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
 <a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
-</div><h2>Documentation for package &lsquo;lubridate&rsquo; version 1.7.1</h2>
+</div><h2>Documentation for package &lsquo;lubridate&rsquo; version 1.7.2</h2>
 
 <ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
 <li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
@@ -97,7 +97,7 @@
 <tr><td style="width: 25%;"><a href="day.html">day&lt;-</a></td>
 <td>Get/set days component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">days</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="days_in_month.html">days_in_month</a></td>
 <td>Get the number of days in the month of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="duration.html">ddays</a></td>
@@ -185,7 +185,7 @@
 <tr><td style="width: 25%;"><a href="hour.html">hour&lt;-</a></td>
 <td>Get/set hours component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">hours</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 </table>
 
 <h2><a name="I">-- I --</a></h2>
@@ -234,7 +234,7 @@
 <tr><td style="width: 25%;"><a href="interval.html">is.interval</a></td>
 <td>Utilities for creation and manipulation of 'Interval' objects</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">is.period</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="is.POSIXt.html">is.POSIXct</a></td>
 <td>Is x a POSIXct or POSIXlt object?</td></tr>
 <tr><td style="width: 25%;"><a href="is.POSIXt.html">is.POSIXlt</a></td>
@@ -288,21 +288,21 @@
 <tr><td style="width: 25%;"><a href="ymd_hms.html">mdy_hms</a></td>
 <td>Parse date-times with *y*ear, *m*onth, and *d*ay, *h*our, *m*inute, and *s*econd components.</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">microseconds</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">milliseconds</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="minute.html">minute</a></td>
 <td>Get/set minutes component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="minute.html">minute&lt;-</a></td>
 <td>Get/set minutes component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">minutes</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="month.html">month</a></td>
 <td>Get/set months component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="month.html">month&lt;-</a></td>
 <td>Get/set months component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">months.numeric</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="hms.html">ms</a></td>
 <td>Parse periods with *h*our, *m*inute, and *s*econd components</td></tr>
 <tr><td style="width: 25%;"><a href="ymd.html">myd</a></td>
@@ -313,7 +313,7 @@
 
 <table width="100%">
 <tr><td style="width: 25%;"><a href="period.html">nanoseconds</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="now.html">now</a></td>
 <td>The current time</td></tr>
 </table>
@@ -333,13 +333,13 @@
 <tr><td style="width: 25%;"><a href="parse_date_time.html">parse_date_time2</a></td>
 <td>User friendly date-time parsing functions</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">period</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">periods</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="period_to_seconds.html">period_to_seconds</a></td>
 <td>Contrive a period to/from a given number of seconds</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">picoseconds</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="am.html">pm</a></td>
 <td>Does date time occur in the am or pm?</td></tr>
 <tr><td style="width: 25%;"><a href="pretty_dates.html">pretty_dates</a></td>
@@ -374,7 +374,7 @@
 <tr><td style="width: 25%;"><a href="second.html">second&lt;-</a></td>
 <td>Get/set seconds component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">seconds</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="period_to_seconds.html">seconds_to_period</a></td>
 <td>Contrive a period to/from a given number of seconds</td></tr>
 <tr><td style="width: 25%;"><a href="quarter.html">semester</a></td>
@@ -425,7 +425,7 @@
 <tr><td style="width: 25%;"><a href="week.html">week&lt;-</a></td>
 <td>Get/set weeks component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">weeks</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="with_tz.html">with_tz</a></td>
 <td>Get date-time in a different time zone</td></tr>
 </table>
@@ -450,7 +450,7 @@
 <tr><td style="width: 25%;"><a href="year.html">year&lt;-</a></td>
 <td>Get/set years component of a date-time</td></tr>
 <tr><td style="width: 25%;"><a href="period.html">years</a></td>
-<td>Create a period object</td></tr>
+<td>Create or parse period objects</td></tr>
 <tr><td style="width: 25%;"><a href="ymd.html">ymd</a></td>
 <td>Parse dates with *y*ear, *m*onth, and *d*ay components</td></tr>
 <tr><td style="width: 25%;"><a href="ymd_hms.html">ymd_h</a></td>

@@ -44,7 +44,7 @@ ms                      Parse periods with *h*our, *m*inute, and
 now                     The current time
 origin                  1970-01-01 UTC
 parse_date_time         User friendly date-time parsing functions
-period                  Create a period object
+period                  Create or parse period objects
 period_to_seconds       Contrive a period to/from a given number of
                         seconds
 pretty_dates            Computes attractive axis breaks for date-time
