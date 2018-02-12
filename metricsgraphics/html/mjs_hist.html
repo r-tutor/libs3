@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Shortcut for plotting MetricsGraphics histograms</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mjs_hist {metricsgraphics}"><tr><td>mjs_hist {metricsgraphics}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Shortcut for plotting MetricsGraphics histograms</h2>
+
+<h3>Description</h3>
+
+<p>This function performs the call to <code>mjs_plot</code> and assumes
+<code>data</code> is a numeric vector. It's intended to save keystrokes
+when plotting quick histograms. This function automatically a y
+axis label &quot;Frequency&quot; which you can override with a call to
+<code>mjs_labs</code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mjs_hist(data, bins = NULL, bar_margin = 1)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>numeric vector</p>
+</td></tr>
+<tr valign="top"><td><code>bins</code></td>
+<td>
+<p>number of bins for the histogram (<code>NULL</code> == let MetricsGraphcis.js library compute)</p>
+</td></tr>
+<tr valign="top"><td><code>bar_margin</code></td>
+<td>
+<p>space between bars (defaults to <code>1</code>)</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>metricsgraphics object
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+bimod &lt;- c(rnorm(1000, 0, 1), rnorm(1000, 3, 1))
+
+mjs_plot(bimod) %&gt;% mjs_histogram()
+bimod %&gt;% mjs_hist()
+
+mjs_plot(bimod) %&gt;% mjs_histogram(bins=30)
+bimod %&gt;% mjs_hist(30)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metricsgraphics</em> version 0.9.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

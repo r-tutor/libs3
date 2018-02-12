@@ -33,14 +33,14 @@ Author: Bob Rudis [aut, cre],
   Hamilton Ulmer [ctb, cph] (MetricsGraphics library),
   Mozilla [cph] (MetricsGraphics library),
   jQuery Foundation and contributors [ctb, cph] (jQuery library)
-Built: R 3.2.5; ; 2016-05-17 17:53:19 UTC; windows
+Built: R 3.4.3; ; 2018-02-06 22:03:42 UTC; windows
 RemoteType: github
 RemoteHost: api.github.com
 RemoteRepo: metricsgraphics
 RemoteUsername: hrbrmstr
 RemoteRef: master
-RemoteSha: 581d62c5739fca66755267c93058db457f99ace6
+RemoteSha: 97d514bce6d401f9345b3709f60e0d65e61f7906
 GithubRepo: metricsgraphics
 GithubUsername: hrbrmstr
 GithubRef: master
-GithubSHA1: 581d62c5739fca66755267c93058db457f99ace6
+GithubSHA1: 97d514bce6d401f9345b3709f60e0d65e61f7906

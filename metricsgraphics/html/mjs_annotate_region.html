@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Region annotations for line charts [EXPERIMENTAL]</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mjs_annotate_region {metricsgraphics}"><tr><td>mjs_annotate_region {metricsgraphics}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Region annotations for line charts [EXPERIMENTAL]</h2>
+
+<h3>Description</h3>
+
+<p>This function uses the <a href="https://github.com/senseyeio/mg-regions">mg-regions</a>
+plugin to enable region highlighting with an optional label.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mjs_annotate_region(mjs, x_start = NULL, x_end = NULL, label = NULL,
+  css_class = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>mjs</code></td>
+<td>
+<p>metricsgraphics object</p>
+</td></tr>
+<tr valign="top"><td><code>x_start</code></td>
+<td>
+<p>start point on x axis for region annotation</p>
+</td></tr>
+<tr valign="top"><td><code>x_end</code></td>
+<td>
+<p>end point on x axis for region annotation</p>
+</td></tr>
+<tr valign="top"><td><code>label</code></td>
+<td>
+<p>text label for annotation (leave <code>NULL</code>) for no label</p>
+</td></tr>
+<tr valign="top"><td><code>css_class</code></td>
+<td>
+<p>CSS class to apply (see References link for more information)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function is also experimental and relies on the plugin maintainer to
+continue support for it. You should be well-versed in CSS to use this function
+properly.
+</p>
+
+
+<h3>Value</h3>
+
+<p>metricsgraphics object
+</p>
+
+
+<h3>References</h3>
+
+<p><a href="https://github.com/senseyeio/mg-regions">https://github.com/senseyeio/mg-regions</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data.frame(year=seq(1790, 1970, 10),
+           uspop=as.numeric(uspop)) %&gt;%
+  mjs_plot(x=year, y=uspop, title="Population Chart") %&gt;%
+  mjs_line() %&gt;%
+  mjs_annotate_region(1850, 1900, "Bad stuff") %&gt;%
+  mjs_annotate_region(1810, 1830, "Stuff")
+
+set.seed(1492)
+stocks &lt;- data.frame(
+  time = as.Date('2009-01-01') + (365 * 0:9),
+  X = rnorm(10, 0, 1),
+  Y = rnorm(10, 0, 2),
+  Z = rnorm(10, 0, 4))
+
+stocks %&gt;%
+  mjs_plot(x=time, y=X) %&gt;%
+  mjs_line() %&gt;%
+  mjs_axis_x(xax_format="date") %&gt;%
+  mjs_annotate_region("2013-01-01", "2016-01-01", "Crazy times")
+
+## custom region color
+stocks %&gt;%
+  mjs_plot(x=time, y=X) %&gt;%
+  mjs_line() %&gt;%
+  mjs_axis_x(xax_format="date") %&gt;%
+  mjs_add_css_rule("{{ID}} .blk { fill:black }") %&gt;%
+  mjs_annotate_region("2013-01-01", "2016-01-01", "Crazy times", "blk")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metricsgraphics</em> version 0.9.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

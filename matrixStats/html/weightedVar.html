@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Weighted variance and weighted standard deviation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for weightedVar {matrixStats}"><tr><td>weightedVar {matrixStats}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Weighted variance and weighted standard deviation</h2>
+
+<h3>Description</h3>
+
+<p>Computes a weighted variance / standard deviation of a numeric vector or
+across rows or columns of a matrix.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+weightedVar(x, w = NULL, idxs = NULL, na.rm = FALSE, center = NULL, ...)
+
+weightedSd(...)
+
+rowWeightedVars(x, w = NULL, rows = NULL, cols = NULL, na.rm = FALSE,
+  ...)
+
+colWeightedVars(x, w = NULL, rows = NULL, cols = NULL, na.rm = FALSE,
+  ...)
+
+rowWeightedSds(x, w = NULL, rows = NULL, cols = NULL, na.rm = FALSE,
+  ...)
+
+colWeightedSds(x, w = NULL, rows = NULL, cols = NULL, na.rm = FALSE,
+  ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a <code><a href="../../base/html/numeric.html">numeric</a></code> <code><a href="../../base/html/vector.html">vector</a></code> containing
+the values whose weighted variance is to be computed.</p>
+</td></tr>
+<tr valign="top"><td><code>w</code></td>
+<td>
+<p>a vector of weights the same length as <code>x</code> giving the weights
+to use for each element of <code>x</code>. Negative weights are treated as zero
+weights. Default value is equal weight to all values.</p>
+</td></tr>
+<tr valign="top"><td><code>idxs, rows, cols</code></td>
+<td>
+<p>A <code><a href="../../base/html/vector.html">vector</a></code> indicating subset of
+elements (or rows and/or columns) to operate over. If
+<code><a href="../../base/html/NULL.html">NULL</a></code>, no subsetting is done.</p>
+</td></tr>
+<tr valign="top"><td><code>na.rm</code></td>
+<td>
+<p>a logical value indicating whether <code><a href="../../base/html/NA.html">NA</a></code>
+values in <code>x</code> should be stripped before the computation proceeds, or
+not.  If <code><a href="../../base/html/NA.html">NA</a></code>, no check at all for <code><a href="../../base/html/NA.html">NA</a></code>s
+is done.  Default value is <code><a href="../../base/html/NA.html">NA</a></code> (for efficiency).</p>
+</td></tr>
+<tr valign="top"><td><code>center</code></td>
+<td>
+<p>Optional <code><a href="../../base/html/numeric.html">numeric</a></code> scalar specifying the
+center location of the data.  If <code><a href="../../base/html/NULL.html">NULL</a></code>, it is estimated
+from data.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The estimator used here is the same as the one used by the &quot;unbiased&quot;
+estimator of the <b>Hmisc</b> package. More specifically,
+<code>weightedVar(x, w = w) == Hmisc::wtd.var(x, weights = w)</code>,
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns a <code><a href="../../base/html/numeric.html">numeric</a></code> scalar.
+</p>
+
+
+<h3>Missing values</h3>
+
+<p>Missing values are dropped at the very beginning,
+if argument <code>na.rm</code> is <code><a href="../../base/html/logical.html">TRUE</a></code>, otherwise not.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Henrik Bengtsson
+</p>
+
+
+<h3>See Also</h3>
+
+<p>For the non-weighted variance, see <code><a href="../../stats/html/var.html">var</a></code>.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>matrixStats</em> version 0.53.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

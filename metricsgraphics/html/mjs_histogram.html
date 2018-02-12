@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Plot Histograms with MetrisGraphics</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mjs_histogram {metricsgraphics}"><tr><td>mjs_histogram {metricsgraphics}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Plot Histograms with MetrisGraphics</h2>
+
+<h3>Description</h3>
+
+<p>Given a numeric vector or a data frame and numeric column name (bare or quoted),
+plot a histogram with the specified parameter. This function automatically a y
+axis label &quot;Frequency&quot; which you can override with a call to
+<code>mjs_labs</code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mjs_histogram(mjs, bar_margin = 1, bins = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>mjs</code></td>
+<td>
+<p>metricsgraphics plot object</p>
+</td></tr>
+<tr valign="top"><td><code>bar_margin</code></td>
+<td>
+<p>space between bars (defaults to <code>1</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>bins</code></td>
+<td>
+<p>numbenr of bins for the histogram (<code>NULL</code> == let MetricsGraphcis.js library compute)</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>metricsgraphics plot object
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+movies &lt;- ggplot2movies::movies[sample(nrow(ggplot2movies::movies), 1000), ]
+
+mjs_plot(movies$rating) %&gt;% mjs_histogram()
+
+mjs_plot(movies, rating) %&gt;%
+  mjs_histogram() %&gt;%
+  mjs_labs(x_label="Histogram of movie ratings")
+
+mjs_plot(movies$rating) %&gt;%
+  mjs_histogram(bins=30)
+
+mjs_plot(runif(10000)) %&gt;%
+  mjs_histogram() %&gt;%
+  mjs_labs(x_label="runif(10000)")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metricsgraphics</em> version 0.9.1 <a href="00Index.html">Index</a>]</div>
+</body></html>
