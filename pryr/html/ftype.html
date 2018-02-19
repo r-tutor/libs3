@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Determine function type.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ftype {pryr}"><tr><td>ftype {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Determine function type.</h2>
+
+<h3>Description</h3>
+
+<p>This function figures out whether the input function is a 
+regular/primitive/internal function, a internal/S3/S4 generic, or a 
+S3/S4/RC method. This is function is slightly simplified as it's possible
+for a method from one class to be a generic for another class, but that
+seems like such a bad idea that hopefully no one has done it.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+ftype(f)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>f</code></td>
+<td>
+<p>unquoted function name</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>a character of vector of length 1 or 2.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>Other object inspection: <code><a href="otype.html">otype</a></code>,
+<code><a href="inspect.html">sexp_type</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+ftype(`%in%`)
+ftype(sum)
+ftype(t.data.frame)
+ftype(t.test) # Tricky!
+ftype(writeLines)
+ftype(unlist)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Given a function class, find correspoding S4 method</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for method_from_call {pryr}"><tr><td>method_from_call {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Given a function class, find correspoding S4 method</h2>
+
+<h3>Description</h3>
+
+<p>Given a function class, find correspoding S4 method
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+method_from_call(call, env = parent.frame())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>unquoted function call</p>
+</td></tr>
+<tr valign="top"><td><code>env</code></td>
+<td>
+<p>environment in which to look for function definition</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(stats4)
+
+# From example(mle)
+y &lt;- c(26, 17, 13, 12, 20, 5, 9, 8, 5, 4, 8)
+nLL &lt;- function(lambda) -sum(dpois(y, lambda, log = TRUE))
+fit &lt;- mle(nLL, start = list(lambda = 5), nobs = length(y))
+
+method_from_call(summary(fit))
+method_from_call(coef(fit))
+method_from_call(length(fit))
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

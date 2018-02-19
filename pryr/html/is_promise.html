@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Promise info</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for is_promise {pryr}"><tr><td>is_promise {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Promise info</h2>
+
+<h3>Description</h3>
+
+<p>Promise info
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+is_promise(x)
+
+promise_info(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>unquoted object name</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p>Other promise tools: <code><a href="uneval.html">uneval</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+x &lt;- 10
+is_promise(x)
+(function(x) is_promise(x))(x = 10)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Recursive ls.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for rls {pryr}"><tr><td>rls {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Recursive ls.</h2>
+
+<h3>Description</h3>
+
+<p>Performs <code><a href="../../base/html/ls.html">ls</a></code> all the way up to a top-level environment (either
+the parent of the global environment, the empty environment or a namespace
+environment).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+rls(env = parent.frame(), all.names = TRUE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>env</code></td>
+<td>
+<p>environment to start the search at. Defaults to the
+<code><a href="../../base/html/sys.parent.html">parent.frame</a></code>. If a function is supplied, uses the environment
+associated with the function.</p>
+</td></tr>
+<tr valign="top"><td><code>all.names</code></td>
+<td>
+<p>Show all names, even those starting with <code>.</code>?
+Defaults to <code>TRUE</code>, the opposite of <code><a href="../../base/html/ls.html">ls</a></code></p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Winston Chang
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

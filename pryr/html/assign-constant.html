@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create a constant (locked) binding.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for %&amp;lt;c-% {pryr}"><tr><td>%&lt;c-% {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create a constant (locked) binding.</h2>
+
+<h3>Description</h3>
+
+<p>Infix wrapper for <code><a href="../../base/html/assign.html">assign</a></code> + <code><a href="../../base/html/bindenv.html">lockBinding</a></code> that
+creates a constant: a binding whose value can not be changed.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+x %&lt;c-% value
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>unquoted expression naming variable to create</p>
+</td></tr>
+<tr valign="top"><td><code>value</code></td>
+<td>
+<p>constant value</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+x %&lt;c-% 10
+#' Generates an error:
+## Not run: x &lt;- 20
+
+# Note that because of R's operator precedence rules, you
+# need to wrap compound RHS expressions in ()
+y %&lt;c-% 1 + 2
+y
+z %&lt;c-% (1 + 2)
+z
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Compute the size of an object.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for object_size {pryr}"><tr><td>object_size {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Compute the size of an object.</h2>
+
+<h3>Description</h3>
+
+<p><code>object_size</code> works similarly to <code><a href="../../utils/html/object.size.html">object.size</a></code>, but counts
+more accurately and includes the size of environments. <code>compare_size</code>
+makes it easy to compare the output of <code>object_size</code> and
+<code>object.size</code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+object_size(..., env = parent.frame())
+
+compare_size(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>env</code></td>
+<td>
+<p>Environment in which to terminate search. This defaults to the
+current environment so that you don't include the size of objects that
+are already stored elsewhere.</p>
+</td></tr>
+<tr valign="top"><td><code>x, ...</code></td>
+<td>
+<p>Set of objects to compute total size.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>An estimate of the size of the object, in bytes.
+</p>
+
+
+<h3>Environments</h3>
+
+<p><code>object_size</code> attempts to take into account the size of the
+environments associated with an object. This is particularly important
+for closures and formulas, since otherwise you may not realise that you've
+accidentally captured a large object. However, it's easy to over count:
+you don't want to include the size of every object in every environment
+leading back to the <code><a href="../../base/html/environment.html">emptyenv</a>()</code>. <code>object_size</code> takes
+a heuristic approach: it never counts the size of the global env,
+the base env, the empty env or any namespace.
+</p>
+<p>Additionally, the <code>env</code> argument allows you to specify another
+environment at which to stop. This defaults to the environment from which
+<code>object_size</code> is called to prevent double-counting of objects created
+elsewhere.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# object.size doesn't keep track of shared elements in an object
+# object_size does
+x &lt;- 1:1e4
+z &lt;- list(x, x, x)
+compare_size(z)
+
+# this means that object_size is not transitive
+object_size(x)
+object_size(z)
+object_size(x, z)
+
+# object.size doesn't include the size of environments, which makes
+# it easy to miss objects that are carrying around large environments
+f &lt;- function() {
+  x &lt;- 1:1e4
+  a ~ b
+}
+compare_size(f())
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

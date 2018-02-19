@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: A version of substitute that works in the global environment.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for subs {pryr}"><tr><td>subs {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>A version of substitute that works in the global environment.</h2>
+
+<h3>Description</h3>
+
+<p>This version of <code><a href="../../base/html/substitute.html">substitute</a></code> is more suited for interactive
+exploration because it will perform substitution in the global environment:
+the regular version has a special case for the global environment where it
+effectively works like <code><a href="../../base/html/substitute.html">quote</a></code>
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+subs(x, env = parent.frame())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a quoted call</p>
+</td></tr>
+<tr valign="top"><td><code>env</code></td>
+<td>
+<p>an environment, or something that behaves like an environment
+(like a list or data frame), or a reference to an environment (like a
+positive integer or name, see <code><a href="../../base/html/as.environment.html">as.environment</a></code> for more
+details)</p>
+</td></tr>
+</table>
+
+
+<h3>Substitution rules</h3>
+
+<p>Formally, substitution takes place by examining each name in the expression.
+If the name refers to:
+</p>
+
+<ul>
+<li><p> an ordinary variable, it's replaced by the value of the variable.
+</p>
+</li>
+<li><p> a promise, it's replaced by the expression associated with the
+promise.
+</p>
+</li>
+<li> <p><code>...</code>, it's replaced by the contents of <code>...</code>
+</p>
+</li></ul>
+
+
+
+<h3>Examples</h3>
+
+<pre>
+a &lt;- 1
+b &lt;- 2
+
+substitute(a + b)
+subs(a + b)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

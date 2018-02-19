@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: A version of substitute that evaluates its first argument.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for substitute_q {pryr}"><tr><td>substitute_q {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>A version of substitute that evaluates its first argument.</h2>
+
+<h3>Description</h3>
+
+<p>This version of substitute is needed because <code>substitute</code> does not
+evaluate it's first argument, and it's often useful to be able to modify
+a quoted call.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+substitute_q(x, env)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a quoted call</p>
+</td></tr>
+<tr valign="top"><td><code>env</code></td>
+<td>
+<p>an environment, or something that behaves like an environment
+(like a list or data frame), or a reference to an environment (like a
+positive integer or name, see <code><a href="../../base/html/as.environment.html">as.environment</a></code> for more
+details)</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+x &lt;- quote(a + b)
+substitute(x, list(a = 1, b = 2))
+substitute_q(x, list(a = 1, b = 2))
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

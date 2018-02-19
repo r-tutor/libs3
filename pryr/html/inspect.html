@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Inspect internal attributes of R objects.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for sexp_type {pryr}"><tr><td>sexp_type {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Inspect internal attributes of R objects.</h2>
+
+<h3>Description</h3>
+
+<p><code>typename</code> determines the internal C typename, <code>address</code>
+returns the memory location of the object, and <code>refs</code> returns the
+number of references pointing to the underlying object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+sexp_type(x)
+
+inspect(x, env = parent.frame())
+
+refs(x)
+
+address(x)
+
+typename(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>name of object to inspect. This can not be a value.</p>
+</td></tr>
+<tr valign="top"><td><code>env</code></td>
+<td>
+<p>When inspecting environments, don't go past this one.</p>
+</td></tr>
+</table>
+
+
+<h3>Non-standard evaluation</h3>
+
+<p>All functions uses non-standard evaluation to capture the symbol you are
+referring to and the environment in which it lives. This means that you can
+not call any of these functions on objects created in the function call.
+All the underlying C level functions use <code>Rf_findVar</code> to get to the
+underlying SEXP.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>Other object inspection: <code><a href="ftype.html">ftype</a></code>,
+<code><a href="otype.html">otype</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+x &lt;- 1:10
+## Not run: .Internal(inspect(x))
+
+typename(x)
+refs(x)
+address(x)
+
+y &lt;- 1L
+typename(y)
+z &lt;- list(1:10)
+typename(z)
+delayedAssign("a", 1 + 2)
+typename(a)
+a
+typename(a)
+
+x &lt;- 1:5
+address(x)
+x[1] &lt;- 3L
+address(x)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: How much memory is currently used by R?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mem_used {pryr}"><tr><td>mem_used {pryr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>How much memory is currently used by R?</h2>
+
+<h3>Description</h3>
+
+<p>R breaks down memory usage into Vcells (memory used by vectors) and
+Ncells (memory used by everything else). However, neither this distinction
+nor the &quot;gc trigger&quot; and &quot;max used&quot; columns are typically important. What
+we're usually most interested in is the the first column: the total memory
+used. This function wraps around <code>gc()</code> to return the total amount of
+memory (in megabytes) currently used by R.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mem_used()
+</pre>
+
+
+<h3>Value</h3>
+
+<p>Megabytes of ram used by R objects.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+mem_used()
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pryr</em> version 0.1.4 <a href="00Index.html">Index</a>]</div>
+</body></html>
