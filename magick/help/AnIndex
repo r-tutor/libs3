@@ -23,6 +23,7 @@ geometry_area	geometry
 geometry_point	geometry
 geometry_size_percent	geometry
 geometry_size_pixels	geometry
+granite	wizard
 gravity_types	options
 imagemagick	magick
 image_animate	animation
@@ -79,6 +80,7 @@ image_noise	effects
 image_normalize	color
 image_ocr	ocr
 image_oilpaint	effects
+image_orient	transform
 image_page	transform
 image_quantize	color
 image_read	editing
@@ -94,6 +96,7 @@ image_trim	transform
 image_types	options
 image_write	editing
 kernel_types	options
+logo	wizard
 magick	magick
 magick_config	config
 magick_options	options
@@ -102,7 +105,10 @@ noise_types	options
 ocr	ocr
 options	options
 option_types	options
+orientation_types	options
 painting	painting
 reexports	reexports
+rose	wizard
 transform	transform
+wizard	wizard
 _index_	magick

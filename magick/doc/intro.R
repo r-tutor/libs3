@@ -65,7 +65,7 @@ kern[3, 2] <- 0.25
 kern
 
 ## ------------------------------------------------------------------------
-img <- image_resize(image_read('logo:'), "300x300")
+img <- image_resize(logo, "300x300")
 img_blurred <- image_convolve(img, kern)
 image_append(c(img, img_blurred))
 
@@ -121,7 +121,7 @@ rev(earth) %>%
 ## ------------------------------------------------------------------------
 bigdata <- image_read('https://jeroen.github.io/images/bigdata.jpg')
 frink <- image_read("https://jeroen.github.io/images/frink.png")
-logo <- image_read("https://www.r-project.org/logo/Rlogo.png")
+logo <- image_read("https://jeroen.github.io/images/Rlogo.png")
 img <- c(bigdata, logo, frink)
 img <- image_scale(img, "300x300")
 image_info(img)
@@ -148,15 +148,15 @@ bigdatafrink <- image_scale(image_rotate(image_background(frink, "none"), 300), 
 image_composite(image_scale(bigdata, "x400"), bigdatafrink, offset = "+180+100")
 
 ## ---- eval = FALSE-------------------------------------------------------
-#  manual <- image_read('https://cran.r-project.org/web/packages/magick/magick.pdf', density = "72x72")
+#  manual <- image_read('https://cloud.r-project.org/web/packages/magick/magick.pdf', density = "72x72")
 #  image_info(manual)
 #  
 #  # Convert the first page to PNG
 #  image_convert(manual[1], "png", 8)
 
-## ------------------------------------------------------------------------
+## ---- eval = require(pdftools, quietly = TRUE)---------------------------
 library(pdftools)
-bitmap <- pdf_render_page('https://cran.r-project.org/web/packages/magick/magick.pdf',
+bitmap <- pdf_render_page('https://cloud.r-project.org/web/packages/magick/magick.pdf',
   page = 1, dpi = 72, numeric = FALSE)
 image_read(bitmap)
 
@@ -164,7 +164,7 @@ image_read(bitmap)
 image_animate(image_scale(img, "200x200"), fps = 1, dispose = "previous")
 
 ## ------------------------------------------------------------------------
-newlogo <- image_scale(image_read("https://www.r-project.org/logo/Rlogo.png"), "x150")
+newlogo <- image_scale(image_read("https://jeroen.github.io/images/Rlogo.png"), "x150")
 oldlogo <- image_scale(image_read("https://developer.r-project.org/Logo/Rlogo-3.png"), "x150")
 frames <- image_morph(c(oldlogo, newlogo), frames = 10)
 image_animate(frames)
@@ -254,7 +254,7 @@ raster::plotRGB(rr, asp = 1)
 ## ----eval=FALSE----------------------------------------------------------
 #  install.packages("tesseract")
 
-## ---- eval = isTRUE(require(tesseract, quietly = TRUE))------------------
+## ---- eval = require(tesseract, quietly = TRUE)--------------------------
 img <- image_read("http://jeroen.github.io/images/testocr.png")
 print(img)
 
