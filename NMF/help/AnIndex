@@ -44,13 +44,11 @@ algorithm,NMFfitXn-method	algorithmic
 algorithm,NMFList-method	algorithm-commaNMFList-method
 algorithm,NMFSeed-method	algorithmic
 algorithm,NMFStrategyFunction-method	algorithmic
-algorithm,NMFStrategyOctave-method	algorithm-commaNMFStrategyOctave-method
 algorithm-methods	algorithmic
 algorithm<-	algorithmic
 algorithm<-,NMFfit,ANY-method	algorithmic
 algorithm<-,NMFSeed,function-method	algorithmic
 algorithm<-,NMFStrategyFunction,function-method	algorithmic
-algorithm<-,NMFStrategyOctave,character-method	algorithmic
 algorithm<--methods	algorithmic
 algorithmic-NMF	algorithmic
 amargin	atrack
@@ -83,7 +81,6 @@ basisnames<-,ANY-method	dimnames
 basisnames<--methods	dimnames
 bioc-NMF	bioc
 brunet-nmf	KL-nmf
-brunet_M-nmf	KL-nmf
 brunet_R-nmf	KL-nmf
 bterms	terms
 bterms<-	terms-internal
@@ -365,7 +362,6 @@ nmf.stop.stationary	stop-NMF
 nmf.stop.threshold	stop-NMF
 nmfAlgorithm	nmfAlgorithm
 nmfAlgorithm.brunet	KL-nmf
-nmfAlgorithm.brunet_M	KL-nmf
 nmfAlgorithm.brunet_R	KL-nmf
 nmfAlgorithm.Frobenius	Frobenius-nmf
 nmfAlgorithm.KL	KL-nmf
@@ -436,7 +432,6 @@ NMFStrategy-class	NMFStrategy-class
 NMFStrategy-methods	NMFStrategy
 NMFStrategyFunction-class	NMFStrategyFunction-class
 NMFStrategyIterative-class	NMFStrategyIterative-class
-NMFStrategyOctave-class	NMFStrategyOctave-class
 nmfWrapper	nmfWrapper
 nmf_update.brunet	KL-nmf
 nmf_update.brunet_R	KL-nmf
@@ -619,7 +614,6 @@ show,NMFOffset-method	show-commaNMFOffset-method
 show,NMFSeed-method	show-commaNMFSeed-method
 show,NMFStrategy-method	NMFStrategy-class
 show,NMFStrategyIterative-method	show-commaNMFStrategyIterative-method
-show,NMFStrategyOctave-method	NMFStrategyOctave-class
 silhouette.NMF	silhouette.NMF
 smoothing	smoothing
 SNMF/L-nmf	SNMF-nmf

@@ -21,8 +21,6 @@ NMFStrategyFunction-class
 NMFStrategyIterative-class
                         Interface for Algorithms: Implementation for
                         Iterative NMF Algorithms
-NMFStrategyOctave-class
-                        S4 Interface for Octave-Matlab NMF Algorithms
 NMFfit-class            Base Class for to store Nonnegative Matrix
                         Factorisation results
 NMFfitX-class           Virtual Class to Handle Results from Multiple
@@ -41,10 +39,6 @@ algorithm,NMFList-method
                         Returns the method names used to compute the
                         NMF fits in the list. It returns 'NULL' if the
                         list is empty.
-algorithm,NMFStrategyOctave-method
-                        Returns the name of the Octave/Matlab function
-                        that implements the NMF algorithm - as stored
-                        in slot 'algorithm'.
 algorithmic-NMF         Generic Interface for Algorithms
 basis                   Accessing NMF Factors
 basiscor                Correlations in NMF Models
