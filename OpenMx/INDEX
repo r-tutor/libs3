@@ -277,10 +277,12 @@ mxOption                Set or Clear an Optimizer Option
 mxParametricBootstrap   Assess whether potential parameters should be
                         freed using parametric bootstrap
 mxPath                  Create List of Paths
+mxPowerSearch           Power curve
 mxRAMObjective          DEPRECATED: Create MxRAMObjective Object
 mxRObjective            DEPRECATED: Create MxRObjective Object
 mxRename                Rename MxModel or a Submodel
 mxRestore               Restore From Checkpoint File
+mxRetro                 Return random classic Mx error message
 mxRowObjective          DEPRECATED: Create MxRowObjective Object
 mxRun                   Send a Model to the Optimizer
 mxSE                    Compute standard errors in OpenMx
@@ -349,6 +351,7 @@ omxManifestModelByParameterJacobian
                         respect to parameters
 omxMatrixOperations     MxMatrix operations
 omxMnor                 Multivariate Normal Integration
+omxModelDeleteData      Remove all instances of data from a model
 omxNameAnonymousParameters
                         omxNameAnonymousParameters
 omxParallelCI           Dedicated functions for calculating confidence

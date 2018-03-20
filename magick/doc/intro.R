@@ -8,8 +8,8 @@ str(magick::magick_config())
 
 ## ------------------------------------------------------------------------
 library(magick)
-tiger <- image_read('http://jeroen.github.io/images/tiger.svg')
-image_info(tiger)
+tiger <- image_read_svg('http://jeroen.github.io/images/tiger.svg', width = 400)
+print(tiger)
 
 ## ------------------------------------------------------------------------
 tiger_png <- image_convert(tiger, "png")
@@ -147,18 +147,10 @@ image_append(image_scale(img, "100"), stack = TRUE)
 bigdatafrink <- image_scale(image_rotate(image_background(frink, "none"), 300), "x200")
 image_composite(image_scale(bigdata, "x400"), bigdatafrink, offset = "+180+100")
 
-## ---- eval = FALSE-------------------------------------------------------
-#  manual <- image_read('https://cloud.r-project.org/web/packages/magick/magick.pdf', density = "72x72")
-#  image_info(manual)
-#  
-#  # Convert the first page to PNG
-#  image_convert(manual[1], "png", 8)
-
 ## ---- eval = require(pdftools, quietly = TRUE)---------------------------
-library(pdftools)
-bitmap <- pdf_render_page('https://cloud.r-project.org/web/packages/magick/magick.pdf',
-  page = 1, dpi = 72, numeric = FALSE)
-image_read(bitmap)
+manual <- image_read_pdf('https://cloud.r-project.org/web/packages/magick/magick.pdf', density = 72)
+image_info(manual)
+manual[1]
 
 ## ------------------------------------------------------------------------
 image_animate(image_scale(img, "200x200"), fps = 1, dispose = "previous")

@@ -44,6 +44,7 @@ image_coalesce	animation
 image_colorize	color
 image_comment	attributes
 image_compare	analysis
+image_compare_dist	analysis
 image_composite	composite
 image_contrast	color
 image_convert	editing
@@ -65,6 +66,7 @@ image_flatten	animation
 image_flip	transform
 image_flop	transform
 image_frame	composite
+image_ggplot	image_ggplot
 image_graph	device
 image_implode	effects
 image_info	attributes
@@ -79,11 +81,15 @@ image_negate	effects
 image_noise	effects
 image_normalize	color
 image_ocr	ocr
+image_ocr_data	ocr
 image_oilpaint	effects
 image_orient	transform
 image_page	transform
 image_quantize	color
+image_raster	editing
 image_read	editing
+image_read_pdf	editing
+image_read_svg	editing
 image_reducenoise	effects
 image_repage	transform
 image_resize	transform

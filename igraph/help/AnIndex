@@ -280,8 +280,6 @@ from_literal	graph_from_literal
 full_bipartite_graph	make_full_bipartite_graph
 full_citation_graph	make_full_citation_graph
 full_graph	make_full_graph
-gclust.app	gclust.app
-gclust.rsvt	gclust.rsvt
 get.adjacency	as_adjacency_matrix
 get.adjedgelist	as_adj_list
 get.adjlist	as_adj_list
@@ -298,7 +296,6 @@ get.incidence	as_incidence_matrix
 get.shortest.paths	distances
 get.stochastic	stochastic_matrix
 get.vertex.attribute	vertex_attr
-getAICc	getAICc
 getIgraphOpt	igraph_options
 get_diameter	diameter
 girth	girth

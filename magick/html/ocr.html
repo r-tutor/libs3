@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Image Text OCR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ocr {magick}"><tr><td>ocr {magick}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Image Text OCR</h2>
+
+<h3>Description</h3>
+
+<p>Extract text from an image using the <a href="../../tesseract/html/tesseract.html">tesseract</a> package.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+image_ocr(image, language = "eng", ...)
+
+image_ocr_data(image, language = "eng", ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>image</code></td>
+<td>
+<p>magick image object returned by <code><a href="editing.html">image_read()</a></code> or <code><a href="device.html">image_graph()</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>language</code></td>
+<td>
+<p>passed to <a href="../../tesseract/html/tesseract.html">tesseract</a>. To install additional languages see
+instructions in <a href="../../tesseract/html/tesseract_download.html">tesseract_download()</a>.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>additional parameters passed to <a href="../../tesseract/html/tesseract.html">tesseract</a></p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>To use this function you need to tesseract first:</p>
+<pre>  install.packages("tesseract")
+</pre>
+<p>Best results are obtained if you set the correct language in <a href="../../tesseract/html/tesseract.html">tesseract</a>.
+To install additional languages see instructions in <a href="../../tesseract/html/tesseract_download.html">tesseract_download()</a>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>Other image: <code><a href="magick.html">_index_</a></code>, <code><a href="analysis.html">analysis</a></code>,
+<code><a href="animation.html">animation</a></code>, <code><a href="attributes.html">attributes</a></code>,
+<code><a href="color.html">color</a></code>, <code><a href="composite.html">composite</a></code>,
+<code><a href="device.html">device</a></code>, <code><a href="editing.html">editing</a></code>,
+<code><a href="effects.html">effects</a></code>, <code><a href="geometry.html">geometry</a></code>,
+<code><a href="options.html">options</a></code>, <code><a href="painting.html">painting</a></code>,
+<code><a href="transform.html">transform</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+if(require("tesseract")){
+img &lt;- image_read("http://jeroen.github.io/images/testocr.png")
+image_ocr(img)
+image_ocr_data(img)
+}
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>magick</em> version 1.8 <a href="00Index.html">Index</a>]</div>
+</body></html>

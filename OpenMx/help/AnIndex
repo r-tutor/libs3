@@ -367,6 +367,8 @@ MxOptionalNumeric-class	MxOptionalNumeric-class
 mxParametricBootstrap	mxParametricBootstrap
 mxPath	mxPath
 MxPath-class	mxPath
+mxPower	mxPower
+mxPowerSearch	mxPower
 MxRAMGraph	MxRAMGraph-class
 MxRAMGraph-class	MxRAMGraph-class
 MxRAMMetaData-class	MxRAMMetaData-class
@@ -375,6 +377,7 @@ mxRAMObjective	mxRAMObjective
 mxRefModels	omxSaturatedModel
 mxRename	mxRename
 mxRestore	mxRestore
+mxRetro	mxRetro
 mxRObjective	mxRObjective
 mxRobustLog	mxAlgebra
 mxRowObjective	mxRowObjective
@@ -457,6 +460,7 @@ omxLogical	omxLogical
 omxManifestModelByParameterJacobian	omxManifestModelByParameterJacobian
 omxMatrixOperations	omxMatrixOperations
 omxMnor	omxMnor
+omxModelDeleteData	omxModelDeleteData
 omxNameAnonymousParameters	omxNameAnonymousParameters
 omxNormalQuantiles	mxNormalQuantiles
 omxNot	omxLogical
@@ -534,6 +538,7 @@ show,MxThreshold-method	mxThreshold
 StandMatrix-class	MxMatrix-class
 summary.MxModel	summary.MxModel
 SymmMatrix-class	MxMatrix-class
+THard	mxTryHard
 tr	tr
 twinData	twinData
 twin_NA_dot	twin_NA_dot_data

@@ -146,14 +146,8 @@ estimate_betweenness    Vertex and edge betweenness centrality
 fit_hrg                 Fit a hierarchical random graph model
 fit_power_law           Fitting a power-law distribution function to
                         discrete data
-gclust.app              Graph Clustering Using NMF (and no SVT) -
-                        Apparent Clusters
-gclust.rsvt             Graph Clustering Using SVT and NMF - Clusters
-                        Implied by Singular Value Thresholding
 get.edge.ids            Find the edge ids based on the incident
                         vertices of the edges
-getAICc                 Compute AIC based on a Poisson Approximation
-                        using the output from 'gclust'
 girth                   Girth of a graph
 gorder                  Order (number of vertices) of a graph
 graph_                  Convert object to a graph

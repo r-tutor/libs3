@@ -11,6 +11,7 @@ device                  Magick Graphics Device
 editing                 Image Editing
 effects                 Image Effects
 geometry                Geometry Helpers
+image_ggplot            Image to ggplot
 ocr                     Image Text OCR
 options                 Magick Options
 painting                Image Painting
