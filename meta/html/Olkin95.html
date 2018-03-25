@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Thrombolytic Therapy after Acute Myocardial Infarction</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Olkin95 {meta}"><tr><td>Olkin95 {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Thrombolytic Therapy after Acute Myocardial Infarction</h2>
+
+<h3>Description</h3>
+
+<p>Meta-analysis on Thrombolytic Therapy after Acute Myocardial Infarction</p>
+
+
+<h3>Usage</h3>
+
+<pre>data(Olkin95)</pre>
+
+
+<h3>Format</h3>
+
+<p>A data frame with the following columns:
+</p>
+
+<dl>
+<dt>author</dt><dd><p>First author</p>
+</dd>
+<dt>year</dt><dd><p>Year of publication</p>
+</dd>
+<dt>event.e</dt><dd><p>Number of events in experimental group</p>
+</dd>
+<dt>n.e</dt><dd><p>Number of observations in experimental group</p>
+</dd>
+<dt>event.c</dt><dd><p>Number of events in control group</p>
+</dd>
+<dt>n.c</dt><dd><p>Number of observations in control group</p>
+</dd>
+</dl>
+
+
+
+<h3>Source</h3>
+
+<p>Olkin I (1995),
+Statistical and theoretical considerations in meta-analysis.
+<em>Journal of Clinical Epidemiology</em>, <b>48</b>, 133&ndash;146.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Olkin95)
+summary(metabin(event.e, n.e, event.c, n.c, data=Olkin95))
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

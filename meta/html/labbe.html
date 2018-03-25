@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: L'Abbe plot for meta-analysis with binary outcomes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for labbe.metabin {meta}"><tr><td>labbe.metabin {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>L'Abbe plot for meta-analysis with binary outcomes</h2>
+
+<h3>Description</h3>
+
+<p>Draw a L'Abbé plot for meta-analysis with binary outcomes.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+labbe(x, ...)
+
+## Default S3 method:
+labbe(x, y,
+      xlim, ylim,
+      xlab = NULL, ylab = NULL,
+      TE.fixed = NULL, TE.random = NULL,
+      comb.fixed = !is.null(TE.fixed), comb.random = !is.null(TE.random),
+      backtransf = TRUE,
+      axes = TRUE,
+      pch = 21, text = NULL, cex = 1,
+      col = "black", bg = "lightgray",
+      lwd = 1, lwd.fixed = lwd, lwd.random = lwd,
+      lty.fixed = 2, lty.random = 9,
+      col.fixed = col, col.random = col,
+      nulleffect = TRUE,
+      lwd.nulleffect = lwd, col.nulleffect = "lightgray",
+      sm = "", weight,
+      studlab = FALSE, cex.studlab = 0.8,
+      label.e = NULL, label.c = NULL,
+      ...)
+
+## S3 method for class 'metabin'
+labbe(x,
+      xlim, ylim,
+      xlab = NULL, ylab = NULL,
+      TE.fixed = x$TE.fixed,
+      TE.random = x$TE.random,
+      comb.fixed = x$comb.fixed,
+      comb.random = x$comb.random,
+      backtransf = x$backtransf,
+      axes = TRUE,
+      pch = 21, text = NULL, cex = 1,
+      col = "black", bg = "lightgray",
+      lwd = 1, lwd.fixed = lwd, lwd.random = lwd,
+      lty.fixed = 2, lty.random = 9,
+      col.fixed = col, col.random = col,
+      nulleffect = TRUE,
+      lwd.nulleffect = lwd, col.nulleffect = "lightgray",
+      sm = x$sm, weight,
+      studlab = FALSE, cex.studlab = 0.8,
+      label.e = x$label.e, label.c = x$label.c,
+      ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>An object of class <code>metabin</code>. Alternatively, the x
+coordinates of points of the L'Abbé plot.</p>
+</td></tr>
+<tr valign="top"><td><code>y</code></td>
+<td>
+<p>The y coordinates of the L'Abbé plot, if argument <code>x</code>
+is not an object of class <code>metabin</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>xlim</code></td>
+<td>
+<p>The x limits (min, max) of the plot.</p>
+</td></tr>
+<tr valign="top"><td><code>ylim</code></td>
+<td>
+<p>The y limits (min, max) of the plot.</p>
+</td></tr>
+<tr valign="top"><td><code>xlab</code></td>
+<td>
+<p>A label for the x-axis.</p>
+</td></tr>
+<tr valign="top"><td><code>ylab</code></td>
+<td>
+<p>A label for the y-axis.</p>
+</td></tr>
+<tr valign="top"><td><code>TE.fixed</code></td>
+<td>
+<p>A numeric or vector specifying combined fixed effect
+estimate(s).</p>
+</td></tr>
+<tr valign="top"><td><code>TE.random</code></td>
+<td>
+<p>A numeric or vector specifying combined random
+effects estimate(s).</p>
+</td></tr>
+<tr valign="top"><td><code>comb.fixed</code></td>
+<td>
+<p>A logical indicating whether the pooled fixed
+effect estimate should be plotted.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.random</code></td>
+<td>
+<p>A logical indicating whether the pooled random
+effects estimate should be plotted.</p>
+</td></tr>
+<tr valign="top"><td><code>backtransf</code></td>
+<td>
+<p>A logical indicating which values should be
+printed on x- and y-axis (see Details).</p>
+</td></tr>
+<tr valign="top"><td><code>axes</code></td>
+<td>
+<p>A logical indicating whether axes should be drawn on the
+plot.</p>
+</td></tr>
+<tr valign="top"><td><code>pch</code></td>
+<td>
+<p>The plotting symbol used for individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>text</code></td>
+<td>
+<p>A character vector specifying the text to be used instead
+of plotting symbol.</p>
+</td></tr>
+<tr valign="top"><td><code>cex</code></td>
+<td>
+<p>The magnification to be used for plotting symbol.</p>
+</td></tr>
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>A vector with colour of plotting symbols.</p>
+</td></tr>
+<tr valign="top"><td><code>bg</code></td>
+<td>
+<p>A vector with background colour of plotting symbols (only
+used if <code>pch</code> in <code>21:25</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>lwd</code></td>
+<td>
+<p>The line width.</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.fixed</code></td>
+<td>
+<p>The line width(s) for fixed effect estimate(s) (if
+<code>comb.fixed</code> is not <code>NULL</code> or <code>FALSE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.random</code></td>
+<td>
+<p>The line width(s) for random effects estimate(s)
+(if <code>comb.random</code> is not <code>NULL</code> or <code>FALSE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>lty.fixed</code></td>
+<td>
+<p>Line type(s) for fixed effect estimate(s).</p>
+</td></tr>
+<tr valign="top"><td><code>lty.random</code></td>
+<td>
+<p>Line type(s) for random effects estimate(s).</p>
+</td></tr>
+<tr valign="top"><td><code>col.fixed</code></td>
+<td>
+<p>Color of line(s) for fixed effect estimate(s).</p>
+</td></tr>
+<tr valign="top"><td><code>col.random</code></td>
+<td>
+<p>Color of line(s) for random effects estimate(s).</p>
+</td></tr>
+<tr valign="top"><td><code>nulleffect</code></td>
+<td>
+<p>A logical indicating whether line for null effect
+should be added to the plot..</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.nulleffect</code></td>
+<td>
+<p>Width of line for null effect.</p>
+</td></tr>
+<tr valign="top"><td><code>col.nulleffect</code></td>
+<td>
+<p>Color of line for null effect.</p>
+</td></tr>
+<tr valign="top"><td><code>sm</code></td>
+<td>
+<p>A character string indicating underlying summary measure,
+i.e., <code>"RD"</code>, <code>"RR"</code>, <code>"OR"</code>, or <code>"ASD"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>weight</code></td>
+<td>
+<p>Either a numeric vector specifying relative sizes of
+plotting symbols or a character string indicating which type of
+plotting symbols is to be used for individual treatment
+estimates. One of missing (see Details), <code>"same"</code>,
+<code>"fixed"</code>, or <code>"random"</code>, can be abbreviated. Plot symbols
+have the same size for all studies or represent study weights from
+fixed effect or random effects model.</p>
+</td></tr>
+<tr valign="top"><td><code>studlab</code></td>
+<td>
+<p>A logical indicating whether study labels should be
+printed in the graph. A vector with study labels can also be
+provided (must be of same length as <code>x$event.e</code> then).</p>
+</td></tr>
+<tr valign="top"><td><code>cex.studlab</code></td>
+<td>
+<p>Size of study labels.</p>
+</td></tr>
+<tr valign="top"><td><code>label.e</code></td>
+<td>
+<p>Label for experimental group.</p>
+</td></tr>
+<tr valign="top"><td><code>label.c</code></td>
+<td>
+<p>Label for control group.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Graphical arguments as in <code>par</code> may also be
+passed as arguments.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>A L'Abbé plot is a scatter plot with the risk in the control group
+on the x-axis and the risk in the experimental group on the y-axis
+(L'Abbé et al., 1987). It can be used to evaluate heterogeneity in
+meta-analysis. Furthermore, this plot can aid to choose a summary
+measure (odds ratio, risk ratio, risk difference) that will result
+in more consistent results.
+</p>
+<p>If argument <code>backtransf</code> is TRUE (default), event probabilities
+will be printed on x- and y-axis. Otherwise, transformed event
+probabilities will be printed as defined by the summary measure,
+i.e., log odds of probabilities for odds ratio as summary measure
+(<code>sm = "OR"</code>), log probabilities for <code>sm = "RR"</code>, and
+arcsine-transformed probabilities for <code>sm = "ASD"</code>.
+</p>
+<p>If <code>comb.fixed</code> is TRUE, the pooled estimate of the fixed effect
+model is plotted as a line. If <code>comb.random</code> is TRUE, the pooled
+estimate of the random effects model is plotted as a line.
+</p>
+<p>Information from object <code>x</code> is utilised if argument
+<code>weight</code> is missing. Weights from the fixed effect model are
+used (<code>weight = "fixed"</code>) if argument <code>x$comb.fixed</code> is
+<code>TRUE</code>; weights from the random effects model are used
+(<code>weight = "random"</code>) if argument <code>x$comb.random</code> is
+<code>TRUE</code> and <code>x$comb.fixed</code> is <code>FALSE</code>.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a></p>
+
+
+<h3>References</h3>
+
+<p>L'Abbé  KA, Detsky AS, O'Rourke K (1987),
+Meta-analysis in clinical research. <em>Annals of Internal
+Medicine</em>, <b>107</b>, 224&ndash;233.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="metabin.html">metabin</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Olkin95)
+meta1 &lt;- metabin(event.e, n.e, event.c, n.c,
+                 data = Olkin95,
+                 studlab = paste(author, year),
+                 sm = "RR", method = "I")
+
+#
+# L'Abbe plot for risk ratio
+#
+labbe(meta1)
+
+# L'Abbe plot for odds ratio
+#
+labbe(meta1, sm = "OR")
+# same plot
+labbe(update(meta1, sm = "OR"))
+
+# L'Abbe plot for risk difference
+#
+labbe(meta1, sm = "RD")
+
+# L'Abbe plot on log odds scale
+#
+labbe(meta1, sm = "OR", backtransf = FALSE)
+
+# L'Abbe plot for odds ratio with coloured lines for various treatment
+# effects (defined as log odds ratios)
+#
+mycols &lt;- c("blue", "yellow", "green", "red",
+            "green", "yellow", "blue")
+labbe(meta1, sm = "OR",
+      comb.random = FALSE,
+      TE.fixed = log(c(1 / 10, 1 / 5, 1 / 2,
+                       1, 2, 5, 10)),
+      col.fixed = mycols, lwd.fixed = 2)
+
+# L'Abbe plot on log odds scale with coloured lines for various
+# treatment effects (defined as log odds ratios)
+#
+labbe(meta1, sm = "OR",
+      comb.random = FALSE,
+      TE.fixed = log(c(1 / 10, 1 / 5, 1 / 2,
+                       1, 2, 5, 10)),
+      col.fixed = mycols, lwd.fixed = 2,
+      backtransf = FALSE)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

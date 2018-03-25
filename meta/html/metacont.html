@@ -1,0 +1,840 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Meta-analysis of continuous outcome data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for metacont {meta}"><tr><td>metacont {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Meta-analysis of continuous outcome data</h2>
+
+<h3>Description</h3>
+
+<p>Calculation of fixed and random effects estimates for meta-analyses
+with continuous outcome data; inverse variance weighting is used for
+pooling.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, studlab,
+         data=NULL, subset=NULL, exclude=NULL,
+         sm=gs("smcont"), pooledvar=gs("pooledvar"),
+         method.smd=gs("method.smd"), sd.glass=gs("sd.glass"),
+         exact.smd=gs("exact.smd"),
+         level=gs("level"), level.comb=gs("level.comb"),
+         comb.fixed=gs("comb.fixed"), comb.random=gs("comb.random"),
+         hakn=gs("hakn"),
+         method.tau=gs("method.tau"), tau.preset=NULL, TE.tau=NULL,
+         tau.common=gs("tau.common"),
+         prediction=gs("prediction"), level.predict=gs("level.predict"),
+         method.bias=gs("method.bias"),
+         backtransf=gs("backtransf"),
+         title=gs("title"), complab=gs("complab"), outclab="",
+         label.e=gs("label.e"), label.c=gs("label.c"),
+         label.left=gs("label.left"), label.right=gs("label.right"),
+         byvar, bylab, print.byvar=gs("print.byvar"),
+         byseparator=gs("byseparator"),
+         keepdata=gs("keepdata"),
+         warn=gs("warn"))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>n.e</code></td>
+<td>
+<p>Number of observations in experimental group.</p>
+</td></tr>
+<tr valign="top"><td><code>mean.e</code></td>
+<td>
+<p>Estimated mean in experimental group.</p>
+</td></tr>
+<tr valign="top"><td><code>sd.e</code></td>
+<td>
+<p>Standard deviation in experimental group.</p>
+</td></tr>
+<tr valign="top"><td><code>n.c</code></td>
+<td>
+<p>Number of observations in control group.</p>
+</td></tr>
+<tr valign="top"><td><code>mean.c</code></td>
+<td>
+<p>Estimated mean in control group.</p>
+</td></tr>
+<tr valign="top"><td><code>sd.c</code></td>
+<td>
+<p>Standard deviation in control group.</p>
+</td></tr>
+<tr valign="top"><td><code>studlab</code></td>
+<td>
+<p>An optional vector with study labels.</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>An optional data frame containing the study information.</p>
+</td></tr>
+<tr valign="top"><td><code>subset</code></td>
+<td>
+<p>An optional vector specifying a subset of studies to be
+used.</p>
+</td></tr>
+<tr valign="top"><td><code>exclude</code></td>
+<td>
+<p>An optional vector specifying studies to exclude from
+meta-analysis, however, to include in printouts and forest plots.</p>
+</td></tr>
+<tr valign="top"><td><code>level</code></td>
+<td>
+<p>The level used to calculate confidence intervals for
+individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>level.comb</code></td>
+<td>
+<p>The level used to calculate confidence intervals for
+pooled estimates.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.fixed</code></td>
+<td>
+<p>A logical indicating whether a fixed effect
+meta-analysis should be conducted.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.random</code></td>
+<td>
+<p>A logical indicating whether a random effects
+meta-analysis should be conducted.</p>
+</td></tr>
+<tr valign="top"><td><code>prediction</code></td>
+<td>
+<p>A logical indicating whether a prediction interval
+should be printed.</p>
+</td></tr>
+<tr valign="top"><td><code>level.predict</code></td>
+<td>
+<p>The level used to calculate prediction interval
+for a new study.</p>
+</td></tr>
+<tr valign="top"><td><code>hakn</code></td>
+<td>
+<p>A logical indicating whether the method by Hartung and
+Knapp should be used to adjust test statistics and
+confidence intervals.</p>
+</td></tr>
+<tr valign="top"><td><code>method.tau</code></td>
+<td>
+<p>A character string indicating which method is used
+to estimate the between-study variance <i>&tau;^2</i>. Either
+<code>"DL"</code>, <code>"PM"</code>, <code>"REML"</code>, <code>"ML"</code>, <code>"HS"</code>,
+<code>"SJ"</code>, <code>"HE"</code>, or <code>"EB"</code>, can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>tau.preset</code></td>
+<td>
+<p>Prespecified value for the square-root of the
+between-study variance <i>&tau;^2</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>TE.tau</code></td>
+<td>
+<p>Overall treatment effect used to estimate the
+between-study variance tau-squared.</p>
+</td></tr>
+<tr valign="top"><td><code>tau.common</code></td>
+<td>
+<p>A logical indicating whether tau-squared should be
+the same across subgroups.</p>
+</td></tr>
+<tr valign="top"><td><code>method.bias</code></td>
+<td>
+<p>A character string indicating which test is to be
+used. Either <code>"rank"</code>, <code>"linreg"</code>, or <code>"mm"</code>, can
+be abbreviated. See function <code><a href="metabias.html">metabias</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>backtransf</code></td>
+<td>
+<p>A logical indicating whether results for ratio of
+means (<code>sm="ROM"</code>) should be back transformed in printouts
+and plots. If TRUE (default), results will be presented as ratio
+of means; otherwise log ratio of means will be shown.</p>
+</td></tr>
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>Title of meta-analysis / systematic review.</p>
+</td></tr>
+<tr valign="top"><td><code>complab</code></td>
+<td>
+<p>Comparison label.</p>
+</td></tr>
+<tr valign="top"><td><code>outclab</code></td>
+<td>
+<p>Outcome label.</p>
+</td></tr>
+<tr valign="top"><td><code>label.e</code></td>
+<td>
+<p>Label for experimental group.</p>
+</td></tr>
+<tr valign="top"><td><code>label.c</code></td>
+<td>
+<p>Label for control group.</p>
+</td></tr>
+<tr valign="top"><td><code>label.left</code></td>
+<td>
+<p>Graph label on left side of forest plot.</p>
+</td></tr>
+<tr valign="top"><td><code>label.right</code></td>
+<td>
+<p>Graph label on right side of forest plot.</p>
+</td></tr>
+<tr valign="top"><td><code>sm</code></td>
+<td>
+<p>A character string indicating which summary measure
+(<code>"MD"</code>, <code>"SMD"</code>, or <code>"ROM"</code>) is to be used for
+pooling of studies.</p>
+</td></tr>
+<tr valign="top"><td><code>pooledvar</code></td>
+<td>
+<p>A logical indicating if a pooled variance should be
+used for the mean difference (<code>sm="MD"</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>method.smd</code></td>
+<td>
+<p>A character string indicating which method is used
+to estimate the standardised mean difference
+(<code>sm="SMD"</code>). Either <code>"Hedges"</code> for Hedges' g (default),
+<code>"Cohen"</code> for Cohen's d, or <code>"Glass"</code> for Glass' delta,
+can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>sd.glass</code></td>
+<td>
+<p>A character string indicating which standard
+deviation is used in the denominator for Glass' method to estimate
+the standardised mean difference. Either <code>"control"</code> using
+the standard deviation in the control group (<code>sd.c</code>) or
+<code>"experimental"</code> using the standard deviation in the
+experimental group (<code>sd.e</code>), can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>exact.smd</code></td>
+<td>
+<p>A logical indicating whether exact formulae should
+be used in estimation of the standardised mean difference and its
+standard error (see Details).</p>
+</td></tr>
+<tr valign="top"><td><code>byvar</code></td>
+<td>
+<p>An optional vector containing grouping information (must
+be of same length as <code>n.e</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>bylab</code></td>
+<td>
+<p>A character string with a label for the grouping variable.</p>
+</td></tr>
+<tr valign="top"><td><code>print.byvar</code></td>
+<td>
+<p>A logical indicating whether the name of the grouping
+variable should be printed in front of the group labels.</p>
+</td></tr>
+<tr valign="top"><td><code>byseparator</code></td>
+<td>
+<p>A character string defining the separator between
+label and levels of grouping variable.</p>
+</td></tr>
+<tr valign="top"><td><code>keepdata</code></td>
+<td>
+<p>A logical indicating whether original data (set)
+should be kept in meta object.</p>
+</td></tr>
+<tr valign="top"><td><code>warn</code></td>
+<td>
+<p>A logical indicating whether warnings should be printed
+(e.g., if studies are excluded from meta-analysis due to zero
+standard deviations).</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Calculation of fixed and random effects estimates for meta-analyses
+with continuous outcome data; inverse variance weighting is used for
+pooling.
+</p>
+<p>Three different types of summary measures are available for continuous
+outcomes:
+</p>
+
+<ul>
+<li><p> mean difference (argument <code>sm="MD"</code>)
+</p>
+</li>
+<li><p> standardised mean difference (<code>sm="SMD"</code>)
+</p>
+</li>
+<li><p> ratio of means (<code>sm="ROM"</code>)
+</p>
+</li></ul>
+
+<p>Meta-analysis of ratio of means &ndash; also called response ratios &ndash; is
+described in Hedges et al. (1999) and Friedrich et al. (2008).
+</p>
+<p>For the standardised mean difference three methods are implemented:
+</p>
+
+<ul>
+<li><p> Hedges' g (default, <code>method.smd="Hedges"</code>) - see Hedges (1981)
+</p>
+</li>
+<li><p> Cohen's d (<code>method.smd="Cohen"</code>) - see Cohen (1988)
+</p>
+</li>
+<li><p> Glass' delta (<code>method.smd="Glass"</code>) - see Glass (1976)
+</p>
+</li></ul>
+
+<p>Hedges (1981) calculated the exact bias in Cohen's d which is a
+ratio of gamma distributions with the degrees of freedom, i.e. total
+sample size minus two, as argument. By default (argument
+<code>exact.smd=FALSE</code>), an accurate approximation of this bias
+provided in Hedges (1981) is utilised for Hedges' g as well as its
+standard error; these approximations are also used in RevMan
+5. Following Borenstein et al. (2009) these approximations are not
+used in the estimation of Cohen's d. White and Thomas (2005) argued
+that approximations are unnecessary with modern software and
+accordingly promote to use the exact formulae; this is possible
+using argument <code>exact.smd=TRUE</code>. For Hedges' g the exact
+formulae are used to calculate the standardised mean difference as
+well as the standard error; for Cohen's d the exact formula is only
+used to calculate the standard error. In typical applications (with
+sample sizes above 10), the differences between using the exact
+formulae and the approximation will be minimal.
+</p>
+<p>For Glass' delta, by default (argument <code>sd.glass="control"</code>),
+the standard deviation in the control group (<code>sd.c</code>) is used in
+the denominator of the standard mean difference. The standard
+deviation in the experimental group (<code>sd.e</code>) can be used by
+specifying <code>sd.glass="experimental"</code>.
+</p>
+<p>Calculations are conducted on the log scale for ratio of means
+(<code>sm="ROM"</code>). Accordingly, list elements <code>TE</code>,
+<code>TE.fixed</code>, and <code>TE.random</code> contain the logarithm of ratio
+of means. In printouts and plots these values are back transformed
+if argument <code>backtransf=TRUE</code>.
+</p>
+<p>For several arguments defaults settings are utilised (assignments
+using <code><a href="gs.html">gs</a></code> function). These defaults can be changed
+using the <code><a href="settings.meta.html">settings.meta</a></code> function.
+</p>
+<p>Internally, both fixed effect and random effects models are
+calculated regardless of values choosen for arguments
+<code>comb.fixed</code> and <code>comb.random</code>. Accordingly, the estimate
+for the random effects model can be extracted from component
+<code>TE.random</code> of an object of class <code>"meta"</code> even if
+argument <code>comb.random=FALSE</code>. However, all functions in R
+package <b>meta</b> will adequately consider the values for
+<code>comb.fixed</code> and <code>comb.random</code>. E.g. function
+<code><a href="print.meta.html">print.meta</a></code> will not print results for the random
+effects model if <code>comb.random=FALSE</code>.
+</p>
+<p>The function <code>metagen</code> is called internally to calculate
+individual and overall treatment estimates and standard errors.
+</p>
+<p>A prediction interval for treatment effect of a new study is
+calculated (Higgins et al., 2009) if arguments <code>prediction</code> and
+<code>comb.random</code> are <code>TRUE</code>.
+</p>
+<p>R function <code><a href="update.meta.html">update.meta</a></code> can be used to redo the
+meta-analysis of an existing metacont object by only specifying
+arguments which should be changed.
+</p>
+<p>For the random effects, the method by Hartung and Knapp (2003) is
+used to adjust test statistics and confidence intervals if argument
+<code>hakn=TRUE</code>.
+</p>
+<p>The DerSimonian-Laird estimate (1986) is used in the random effects
+model if <code>method.tau="DL"</code>. The iterative Paule-Mandel method
+(1982) to estimate the between-study variance is used if argument
+<code>method.tau="PM"</code>. Internally, R function <code>paulemandel</code> is
+called which is based on R function <code>mpaule.default</code> from R
+package <b>metRology</b> from S.L.R. Ellison &lt;s.ellison at
+lgc.co.uk&gt;.
+</p>
+<p>If R package <b>metafor</b> (Viechtbauer 2010) is installed, the
+following methods to estimate the between-study variance
+<i>&tau;^2</i> (argument <code>method.tau</code>) are also available:
+</p>
+
+<ul>
+<li><p> Restricted maximum-likelihood estimator (<code>method.tau="REML"</code>)
+</p>
+</li>
+<li><p> Maximum-likelihood estimator (<code>method.tau="ML"</code>)
+</p>
+</li>
+<li><p> Hunter-Schmidt estimator (<code>method.tau="HS"</code>)
+</p>
+</li>
+<li><p> Sidik-Jonkman estimator (<code>method.tau="SJ"</code>)
+</p>
+</li>
+<li><p> Hedges estimator (<code>method.tau="HE"</code>)
+</p>
+</li>
+<li><p> Empirical Bayes estimator (<code>method.tau="EB"</code>).
+</p>
+</li></ul>
+
+<p>For these methods the R function <code>rma.uni</code> of R package
+<b>metafor</b> is called internally. See help page of R function
+<code>rma.uni</code> for more details on these methods to estimate
+between-study variance.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>c("metacont", "meta")</code> with corresponding
+<code>print</code>, <code>summary</code>, and <code>forest</code> functions. The
+object is a list containing the following components:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>n.e, mean.e, sd.e,</code></td>
+<td>
+</td></tr>
+<tr valign="top"><td><code>n.c, mean.c, sd.c,</code></td>
+<td>
+</td></tr>
+<tr valign="top"><td><code>studlab, exclude, sm, level, level.comb,</code></td>
+<td>
+</td></tr>
+<tr valign="top"><td><code>comb.fixed, comb.random,</code></td>
+<td>
+</td></tr>
+<tr valign="top"><td><code>pooledvar, method.smd, sd.glass,</code></td>
+<td>
+</td></tr>
+<tr valign="top"><td><code>hakn, method.tau, tau.preset, TE.tau, method.bias,</code></td>
+<td>
+</td></tr>
+<tr valign="top"><td><code>tau.common, title, complab, outclab,</code></td>
+<td>
+</td></tr>
+<tr valign="top"><td><code>label.e, label.c, label.left, label.right,</code></td>
+<td>
+</td></tr>
+<tr valign="top"><td><code>byvar, bylab, print.byvar, byseparator, warn</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>TE, seTE</code></td>
+<td>
+<p>Estimated treatment effect and standard error of individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>lower, upper</code></td>
+<td>
+<p>Lower and upper confidence interval limits
+for individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>zval, pval</code></td>
+<td>
+<p>z-value and p-value for test of treatment
+effect for individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>w.fixed, w.random</code></td>
+<td>
+<p>Weight of individual studies (in fixed and
+random effects model).</p>
+</td></tr>
+<tr valign="top"><td><code>TE.fixed, seTE.fixed</code></td>
+<td>
+<p>Estimated overall treatment effect and
+standard error (fixed effect model).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.fixed, upper.fixed</code></td>
+<td>
+<p>Lower and upper confidence interval limits
+(fixed effect model).</p>
+</td></tr>
+<tr valign="top"><td><code>zval.fixed, pval.fixed</code></td>
+<td>
+<p>z-value and p-value for test of
+overall treatment effect (fixed effect model).</p>
+</td></tr>
+<tr valign="top"><td><code>TE.random, seTE.random</code></td>
+<td>
+<p>Estimated overall treatment effect and
+standard error (random effects model).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.random, upper.random</code></td>
+<td>
+<p>Lower and upper confidence interval limits
+(random effects model).</p>
+</td></tr>
+<tr valign="top"><td><code>zval.random, pval.random</code></td>
+<td>
+<p>z-value or t-value and corresponding
+p-value for test of overall treatment effect (random effects
+model).</p>
+</td></tr>
+<tr valign="top"><td><code>prediction, level.predict</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>seTE.predict</code></td>
+<td>
+<p>Standard error utilised for prediction interval.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.predict, upper.predict</code></td>
+<td>
+<p>Lower and upper limits of prediction interval.</p>
+</td></tr>
+<tr valign="top"><td><code>k</code></td>
+<td>
+<p>Number of studies combined in meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>Q</code></td>
+<td>
+<p>Heterogeneity statistic.</p>
+</td></tr>
+<tr valign="top"><td><code>tau</code></td>
+<td>
+<p>Square-root of between-study variance.</p>
+</td></tr>
+<tr valign="top"><td><code>se.tau</code></td>
+<td>
+<p>Standard error of square-root of between-study variance.</p>
+</td></tr>
+<tr valign="top"><td><code>C</code></td>
+<td>
+<p>Scaling factor utilised internally to calculate common
+tau-squared across subgroups.</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>Pooling method: <code>"Inverse"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>df.hakn</code></td>
+<td>
+<p>Degrees of freedom for test of treatment effect for
+Hartung-Knapp method (only if <code>hakn=TRUE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>bylevs</code></td>
+<td>
+<p>Levels of grouping variable - if <code>byvar</code> is not
+missing.</p>
+</td></tr>
+<tr valign="top"><td><code>TE.fixed.w, seTE.fixed.w</code></td>
+<td>
+<p>Estimated treatment effect and
+standard error in subgroups (fixed effect model) - if <code>byvar</code>
+is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.fixed.w, upper.fixed.w</code></td>
+<td>
+<p>Lower and upper confidence
+interval limits in subgroups (fixed effect model) - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>zval.fixed.w, pval.fixed.w</code></td>
+<td>
+<p>z-value and p-value for test of
+treatment effect in subgroups (fixed effect model) - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>TE.random.w, seTE.random.w</code></td>
+<td>
+<p>Estimated treatment effect and
+standard error in subgroups (random effects model) - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.random.w, upper.random.w</code></td>
+<td>
+<p>Lower and upper confidence
+interval limits in subgroups (random effects model) - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>zval.random.w, pval.random.w</code></td>
+<td>
+<p>z-value or t-value and
+corresponding p-value for test of treatment effect in subgroups
+(random effects model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>w.fixed.w, w.random.w</code></td>
+<td>
+<p>Weight of subgroups (in fixed and
+random effects model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>df.hakn.w</code></td>
+<td>
+<p>Degrees of freedom for test of treatment effect for
+Hartung-Knapp method in subgroups - if <code>byvar</code> is not missing
+and <code>hakn=TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>n.harmonic.mean.w</code></td>
+<td>
+<p>Harmonic mean of number of observations in
+subgroups (for back transformation of Freeman-Tukey Double arcsine
+transformation) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>n.e.w</code></td>
+<td>
+<p>Number of observations in experimental group in
+subgroups - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>n.c.w</code></td>
+<td>
+<p>Number of observations in control group in subgroups -
+if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>k.w</code></td>
+<td>
+<p>Number of studies combined within subgroups - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>k.all.w</code></td>
+<td>
+<p>Number of all studies in subgroups - if <code>byvar</code>
+is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>Q.w</code></td>
+<td>
+<p>Heterogeneity statistics within subgroups - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>Q.w.fixed</code></td>
+<td>
+<p>Overall within subgroups heterogeneity statistic Q
+(based on fixed effect model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>Q.w.random</code></td>
+<td>
+<p>Overall within subgroups heterogeneity statistic Q
+(based on random effects model) - if <code>byvar</code> is not missing
+(only calculated if argument <code>tau.common</code> is TRUE).</p>
+</td></tr>
+<tr valign="top"><td><code>df.Q.w</code></td>
+<td>
+<p>Degrees of freedom for test of overall within
+subgroups heterogeneity - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>Q.b.fixed</code></td>
+<td>
+<p>Overall between subgroups heterogeneity statistic Q
+(based on fixed effect model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>Q.b.random</code></td>
+<td>
+<p>Overall between subgroups heterogeneity statistic
+Q (based on random effects model) - if <code>byvar</code> is not
+missing.</p>
+</td></tr>
+<tr valign="top"><td><code>df.Q.b</code></td>
+<td>
+<p>Degrees of freedom for test of overall between
+subgroups heterogeneity - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>tau.w</code></td>
+<td>
+<p>Square-root of between-study variance within subgroups
+- if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>C.w</code></td>
+<td>
+<p>Scaling factor utilised internally to calculate common
+tau-squared across subgroups - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>H.w</code></td>
+<td>
+<p>Heterogeneity statistic H within subgroups - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.H.w, upper.H.w</code></td>
+<td>
+<p>Lower and upper confidence limti for
+heterogeneity statistic H within subgroups - if <code>byvar</code> is
+not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>I2.w</code></td>
+<td>
+<p>Heterogeneity statistic I2 within subgroups - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.I2.w, upper.I2.w</code></td>
+<td>
+<p>Lower and upper confidence limti for
+heterogeneity statistic I2 within subgroups - if <code>byvar</code> is
+not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>keepdata</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>Original data (set) used in function call (if
+<code>keepdata=TRUE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>subset</code></td>
+<td>
+<p>Information on subset of original data used in
+meta-analysis (if <code>keepdata=TRUE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>Function call.</p>
+</td></tr>
+<tr valign="top"><td><code>version</code></td>
+<td>
+<p>Version of R package <b>meta</b> used to create object.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a></p>
+
+
+<h3>References</h3>
+
+<p>Borenstein et al. (2009),
+<em>Introduction to Meta-Analysis</em>,
+Chichester: Wiley.
+</p>
+<p>Cohen J (1988),
+<em>Statistical Power Analysis for the Behavioral Sciences (second ed.)</em>,
+Lawrence Erlbaum Associates.
+</p>
+<p>Cooper H &amp; Hedges LV (1994),
+<em>The Handbook of Research Synthesis</em>.
+Newbury Park, CA: Russell Sage Foundation.
+</p>
+<p>DerSimonian R &amp; Laird N (1986),
+Meta-analysis in clinical trials. <em>Controlled Clinical Trials</em>,
+<b>7</b>, 177&ndash;88.
+</p>
+<p>Friedrich JO, Adhikari NK, Beyene J (2008),
+The ratio of means method as an alternative to mean differences for
+analyzing continuous outcome variables in meta-analysis: A
+simulation study.
+<em>BMC Med Res Methodol</em>, <b>8</b>, 32.
+</p>
+<p>Glass G (1976),
+Primary, secondary, and meta-analysis of research.
+<em>Educational Researcher</em>, <b>5</b>, 3&ndash;8.
+</p>
+<p>Hartung J &amp; Knapp G (2001),
+On tests of the overall treatment effect in meta-analysis with
+normally distributed responses.
+<em>Statistics in Medicine</em>, <b>20</b>, 1771&ndash;82.
+doi: 10.1002/sim.791 .
+</p>
+<p>Hedges LV (1981),
+Distribution theory for Glass's estimator of effect size and related
+estimators.
+<em>Journal of Educational and Behavioral Statistics</em>,
+<b>6</b>, 107&ndash;28.
+</p>
+<p>Hedges LV, Gurevitch J, Curtis PS (1999),
+The meta-analysis of response ratios in experimental ecology.
+<em>Ecology</em>,
+<b>80</b>, 1150&ndash;6.
+</p>
+<p>Higgins JPT, Thompson SG, Spiegelhalter DJ (2009),
+A re-evaluation of random-effects meta-analysis.
+<em>Journal of the Royal Statistical Society: Series A</em>,
+<b>172</b>, 137&ndash;59.
+</p>
+<p>Knapp G &amp; Hartung J (2003),
+Improved Tests for a Random Effects Meta-regression with a Single
+Covariate.
+<em>Statistics in Medicine</em>, <b>22</b>, 2693&ndash;710,
+doi: 10.1002/sim.1482 .
+</p>
+<p>Paule RC &amp; Mandel J (1982),
+Consensus values and weighting factors.
+<em>Journal of Research of the National Bureau of Standards</em>,
+<b>87</b>, 377&ndash;85.
+</p>
+<p><em>Review Manager (RevMan)</em> [Computer program]. Version
+5.3. Copenhagen: The Nordic Cochrane Centre, The Cochrane
+Collaboration, 2014.
+</p>
+<p>Viechtbauer W (2010),
+Conducting Meta-Analyses in R with the Metafor Package.
+<em>Journal of Statistical Software</em>, <b>36</b>, 1&ndash;48.
+</p>
+<p>White IR, Thomas J (2005),
+Standardized mean differences in individually-randomized and
+cluster-randomized trials, with applications to meta-analysis.
+<em>Clinical Trials</em>, <b>2</b>, 141&ndash;51.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="update.meta.html">update.meta</a></code>, <code><a href="metabin.html">metabin</a></code>, <code><a href="metagen.html">metagen</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Fleiss93cont)
+meta1 &lt;- metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, data=Fleiss93cont, sm="SMD")
+meta1
+forest(meta1)
+
+meta2 &lt;- metacont(Fleiss93cont$n.e, Fleiss93cont$mean.e,
+                  Fleiss93cont$sd.e,
+                  Fleiss93cont$n.c, Fleiss93cont$mean.c,
+                  Fleiss93cont$sd.c,
+                  sm="SMD")
+meta2
+
+data(amlodipine)
+meta3 &lt;- metacont(n.amlo, mean.amlo, sqrt(var.amlo),
+                  n.plac, mean.plac, sqrt(var.plac),
+                  data=amlodipine, studlab=study)
+summary(meta3)
+
+# Use pooled variance
+#
+meta4 &lt;- metacont(n.amlo, mean.amlo, sqrt(var.amlo),
+                  n.plac, mean.plac, sqrt(var.plac),
+                  data=amlodipine, studlab=study,
+                  pooledvar=TRUE)
+summary(meta4)
+
+# Use Cohen's d instead of Hedges' g as effect measure
+#
+meta5 &lt;- metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, data=Fleiss93cont,
+                  sm="SMD", method.smd="Cohen")
+meta5
+
+# Use Glass' delta instead of Hedges' g as effect measure
+#
+meta6 &lt;- metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, data=Fleiss93cont,
+                  sm="SMD", method.smd="Glass")
+meta6
+
+# Use Glass' delta based on the standard deviation in the experimental group
+#
+meta7 &lt;- metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, data=Fleiss93cont,
+                  sm="SMD", method.smd="Glass", sd.glass="experimental")
+meta7
+
+# Calculate Hedges' g based on exact formulae
+#
+update(meta1, exact.smd=TRUE)
+
+#
+# Meta-analysis of response ratios (Hedges et al., 1999)
+#
+data(woodyplants)
+meta8 &lt;- metacont(n.elev, mean.elev, sd.elev,
+		  n.amb, mean.amb, sd.amb,
+                  data=woodyplants, sm="ROM")
+summary(meta8)
+summary(meta8, backtransf=FALSE)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-1 <a href="00Index.html">Index</a>]</div>
+</body></html>
