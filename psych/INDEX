@@ -1,6 +1,10 @@
+AUC                     Decision Theory measures of specificity,
+                        sensitivity, and d prime
 Bechtoldt               Seven data sets showing a bifactor solution.
 Dwyer                   8 cognitive variables used by Dwyer for an
                         example.
+Garcia                  Data from the sexism (protest) study of Garcia,
+                        Schmitt, Branscome, and Ellemers (2010)
 Gleser                  Example data from Gleser, Cronbach and
                         Rajaratnam (1965) to show basic principles of
                         generalizability theory.
@@ -28,8 +32,12 @@ Schmid                  12 variables created by Schmid and Leiman to
                         show the Schmid-Leiman Transformation
 Schutz                  The Schutz correlation matrix example from
                         Shapiro and ten Berge
+Tal_Or                  Data set testing causal direction in presumed
+                        media influence
 Tucker                  9 Cognitive variables discussed by Tucker and
                         Lewis (1973)
+Utility                 Useful utility functions for file/directory
+                        exploration and manipulation.
 VSS                     Apply the Very Simple Structure, MAP, and other
                         criteria to determine the appropriate number of
                         factors.
@@ -226,6 +234,8 @@ mixedCor                Find correlations for mixtures of continuous,
                         polytomous, and dichotomous variables
 msq                     75 mood items from the Motivational State
                         Questionnaire for 3896 participants
+msqR                    75 mood items from the Motivational State
+                        Questionnaire for 3032 unique participants
 mssd                    Find von Neuman's Mean Square of Successive
                         Differences
 multi.hist              Multiple histograms with density and normal
@@ -281,6 +291,8 @@ rescale                 Function to convert scores to "conventional "
 residuals.psych         Extract residuals from various psych objects
 reverse.code            Reverse the coding of selected items prior to
                         scale analysis
+sai                     State Anxiety data from the PMC lab over
+                        multiple occasions.
 sat.act                 3 Measures of ability: SATV, SATQ, ACT
 scaling.fits            Test the adequacy of simple choice, logistic,
                         or Thurstonian scaling.
@@ -339,6 +351,8 @@ table2matrix            Convert a table with counts to a matrix or
 test.irt                A simple demonstration (and test) of various
                         IRT scoring algorthims.
 test.psych              Testing of functions in the psych package
+testRetest              Find various test-retest statistics, including
+                        test, person and item reliability
 tetrachoric             Tetrachoric, polychoric, biserial and
                         polyserial correlations from various types of
                         input

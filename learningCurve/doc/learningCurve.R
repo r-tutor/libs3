@@ -1,6 +1,7 @@
 ## ---- message=FALSE, warning=FALSE---------------------------------------
 library(learningCurve)
-library(tidyverse)
+library(tibble)
+library(ggplot2)
 
 ## ---- collapse=TRUE------------------------------------------------------
 unit_curve(t = 100, m = 1, n = 125, r = .85)
