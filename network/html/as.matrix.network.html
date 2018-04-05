@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Coerce a Network Object to Matrix Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for as.matrix.network {network}"><tr><td>as.matrix.network {network}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Coerce a Network Object to Matrix Form </h2>
+
+<h3>Description</h3>
+
+<p>The <code>as.matrix</code> methods attempt to coerce their input to a matrix in adjacency, incidence, or edgelist form.  Edge values (from a stored attribute) may be used if present.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'network'
+as.matrix(x, matrix.type = NULL, attrname = NULL, ...)
+## S3 method for class 'adjacency'
+as.matrix.network(x, attrname=NULL, 
+    expand.bipartite = FALSE, ...)
+## S3 method for class 'edgelist'
+as.matrix.network(x, attrname=NULL, 
+    as.sna.edgelist = FALSE, ...)
+## S3 method for class 'incidence'
+as.matrix.network(x, attrname=NULL, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p> an object of class <code>network</code> </p>
+</td></tr>
+<tr valign="top"><td><code>matrix.type</code></td>
+<td>
+<p> one of <code>"adjacency"</code>, <code>"incidence"</code>, <code>"edgelist"</code>, or <code>NULL</code> </p>
+</td></tr>
+<tr valign="top"><td><code>attrname</code></td>
+<td>
+<p> optionally, the name of an edge attribute to use for edge values </p>
+</td></tr>
+<tr valign="top"><td><code>expand.bipartite</code></td>
+<td>
+<p> logical; if <code>x</code> is bipartite, should we return the full adjacency matrix (rather than the abbreviated, two-mode form)?</p>
+</td></tr>
+<tr valign="top"><td><code>as.sna.edgelist</code></td>
+<td>
+<p>logical; should the edgelist be returned in sna edglist form?</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p> additional arguments. </p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>If no matrix type is specified, <code><a href="which.matrix.type.html">which.matrix.type</a></code> will be used to make an educated guess based on the shape of <code>x</code>.  Where edge values are not specified, a dichotomous matrix will be assumed.
+</p>
+<p>Edgelists returned by these methods are by default in a slightly different form from the <code>sna</code> edgelist standard, but do contain the <code>sna</code> extended matrix attributes (see <code><a href="as.network.matrix.html">as.network.matrix</a></code>).  They should typically be compatible with <code>sna</code> library functions.  To ensure compatibility, the <code>as.sna.edgelist</code> argument can be set (which returns an exact <code>sna</code> edgelist). The <code><a href="as.edgelist.html">as.edgelist</a></code> function also returns a similar edgelist matrix but with an enforced sorting. 
+</p>
+<p>If the <code>attrname</code> attribute is used to include a charcter attribute, the resulting edgelist matrix will be character rather than numeric.
+</p>
+<p>Note that adjacency matrices may also be obtained using the extraction operator.  See the relevant man page for details.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An adjacency, incidence, or edgelist matrix
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p> Carter T. Butts <a href="mailto:buttsc@uci.edu">buttsc@uci.edu</a> and David Hunter <a href="mailto:dhunter@stat.psu.edu">dhunter@stat.psu.edu</a> </p>
+
+
+<h3>References</h3>
+
+<p> Butts, C. T.  (2008).  &ldquo;network: a Package for Managing Relational Data in R.&rdquo;  <em>Journal of Statistical Software</em>, 24(2).  <a href="http://www.jstatsoft.org/v24/i02/">http://www.jstatsoft.org/v24/i02/</a>
+</p>
+
+
+<h3>See Also</h3>
+
+ <p><code><a href="which.matrix.type.html">which.matrix.type</a></code>, <code><a href="network.html">network</a></code>, <code><a href="network.extraction.html">network.extraction</a></code>,<code><a href="as.edgelist.html">as.edgelist</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+#Create a random network
+m &lt;- matrix(rbinom(25,1,0.5),5,5)
+diag(m) &lt;- 0
+g &lt;- network(m)
+
+#Coerce to matrix form
+as.matrix.network(g,matrix.type="adjacency")
+as.matrix.network(g,matrix.type="incidence")
+as.matrix.network(g,matrix.type="edgelist")
+
+#Can also use the extraction operator
+g[,]                            #Get entire adjacency matrix
+g[1:5,6:10]                     #Obtain a submatrix
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>network</em> version 1.13.0.1 <a href="00Index.html">Index</a>]</div>
+</body></html>
