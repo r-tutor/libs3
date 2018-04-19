@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Unidimensionality Check using Modified Parallel Analysis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for unidimTest {ltm}"><tr><td>unidimTest {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Unidimensionality Check using Modified Parallel Analysis </h2>
+
+<h3>Description</h3>
+
+<p>An empirical check for the unidimensionality assumption for <code>ltm</code>, <code>rasch</code> and <code>tpm</code> models.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+unidimTest(object, data, thetas, IRT = TRUE, z.vals = NULL, 
+           B = 100, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>a model object inheriting either from class <code>ltm</code>, class <code>rasch</code> or class <code>tpm</code>. For
+<code>ltm()</code> it is assumed that the two-parameter logistic model has been fitted (i.e., one latent variable and
+no nonlinear terms); see <b>Note</b> for an extra option.</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>a <code>matrix</code> or a <code>data.frame</code> of response patterns with columns denoting the items; used 
+if <code>object</code> is missing.</p>
+</td></tr>
+<tr valign="top"><td><code>thetas</code></td>
+<td>
+<p>a numeric <code>matrix</code> with IRT model parameter values to be used in <code><a href="rmvlogis.html">rmvlogis</a></code>; used if 
+<code>object</code> is missing.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT</code></td>
+<td>
+<p>logical, if <code>TRUE</code>, then argument <code>thetas</code> contains the measurement model parameters under the 
+usual IRT parameterization (see <code><a href="rmvlogis.html">rmvlogis</a></code>); used if <code>object</code> is missing.</p>
+</td></tr>
+<tr valign="top"><td><code>z.vals</code></td>
+<td>
+<p>a numeric vector of length equal to the number of rows of <code>data</code>, providing ability estimates.
+If <code>object</code> is supplied then the abilities are estimated using <code><a href="factor.scores.html">factor.scores</a></code>. If <code>NULL</code>, 
+the abilities are simulated from a standard normal distribution.</p>
+</td></tr>
+<tr valign="top"><td><code>B</code></td>
+<td>
+<p>the number of samples for the Monte Carlo procedure to approximate the distribution of the statistic under 
+the null hypothesis.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>extra arguments to <code>polycor()</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function implements the procedure proposed by Drasgow and Lissak (1983) for examining the latent dimensionality
+of dichotomously scored item responses. The statistic used for testing unidimensionality is the second eigenvalue of
+the tetrachoric correlations matrix of the dichotomous items. The tetrachoric correlations between are computed 
+using function <code>polycor()</code> from package &lsquo;polycor&rsquo;, and the largest one is taken as communality estimate.
+</p>
+<p>A Monte Carlo procedure is used to approximate the distribution of this statistic under the null hypothesis. 
+In particular, the following steps are replicated <code>B</code> times:
+</p>
+
+<dl>
+<dt>Step 1:</dt><dd><p>If <code>object</code> is supplied, then simulate new ability estimates, say <i>z^*</i>, from a normal 
+distribution with mean the ability estimates <i>\hat{z}</i> in the original data-set, and standard deviation 
+the standard error of <i>\hat{z}</i> (in this case the <code>z.vals</code> argument is ignored). If <code>object</code> 
+is not supplied and the <code>z.vals</code> argument has been specified, then set <i>z^* =</i> <code>z.vals</code>. Finally, 
+if <code>object</code> is not supplied and the <code>z.vals</code> argument has not been specified, then simulate <i>z^*</i> 
+from a standard normal distribution.</p>
+</dd>
+<dt>Step 2:</dt><dd><p>Simulate a new data-set of dichotomous responses, using <i>z^*</i>, and parameters the estimated 
+parameters extracted from <code>object</code> (if it is supplied) or the parameters given in the <code>thetas</code> 
+argument.</p>
+</dd>
+<dt>Step 3:</dt><dd><p>For the new data-set simulated in Step 2, compute the tetrachoric correlations matrix and take the
+largest correlations as communalities. For this matrix compute the eigenvalues.</p>
+</dd>
+</dl>
+
+<p>Denote by <i>T_{obs}</i> the value of the statistic (i.e., the second eigenvalue) for the original data-set. Then the 
+<i>p</i>-value is approximated according to the formula <i>(1 + sum_{b = 1}^B I(T_b &gt;= T_{obs})) / (1 + B)</i>, where <i>I(.)</i> denotes the indicator function, and 
+<i>T_b</i> denotes the value of the statistic in the <i>b</i>th data-set.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>unidimTest</code> is a list with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>Tobs</code></td>
+<td>
+<p>a numeric vector of the eigenvalues for the observed data-set.</p>
+</td></tr>
+<tr valign="top"><td><code>Tboot</code></td>
+<td>
+<p>a numeric matrix of the eigenvalues for each simulated data-set.</p>
+</td></tr>
+<tr valign="top"><td><code>p.value</code></td>
+<td>
+<p>the <i>p</i>-value.</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>a copy of the matched call of <code>object</code> if that was supplied.</p>
+</td></tr>
+</table>
+
+
+<h3>Note</h3>
+
+<p>For <code>ltm</code> objects you can also use a likelihood ratio test to check unidimensionality. In particular, 
+<code>fit0 &lt;- ltm(data ~ z1); fit1 &lt;- ltm(data ~ z1 + z2); anova(fit0, fit1)</code>.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Drasgow, F. and Lissak, R. (1983) Modified parallel analysis: a procedure for examining the latent dimensionality
+of dichotomously scored item responses. <em>Journal of Applied Psychology</em>, <b>68</b>, 363&ndash;373.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="descript.html">descript</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+# Unidimensionality Check for the LSAT data-set
+# under a Rasch model:
+out &lt;- unidimTest(rasch(LSAT))
+out
+plot(out, type = "b", pch = 1:2)
+legend("topright", c("Real Data", "Average Simulated Data"), lty = 1, 
+    pch = 1:2, col = 1:2, bty = "n")
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

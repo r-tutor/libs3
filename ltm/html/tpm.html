@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Birnbaum's Three Parameter Model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for tpm {ltm}"><tr><td>tpm {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Birnbaum's Three Parameter Model </h2>
+
+<h3>Description</h3>
+
+<p>Fit Birnbaum's three parameter model under the Item Response Theory approach.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tpm(data, type = c("latent.trait", "rasch"), constraint = NULL, 
+    max.guessing = 1, IRT.param = TRUE, start.val = NULL, 
+    na.action = NULL, control = list())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>a <code>data.frame</code> (that will be converted to a numeric matrix using 
+<code>data.matrix()</code>) or a numeric <code>matrix</code> of manifest variables.</p>
+</td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>a character string indicating the type of model to fit. Available options are &lsquo;rasch&rsquo; that
+assumes equal discrimination parameter among items, and &lsquo;latent.trait&rsquo; (default) that assumes a different 
+discrimination parameter per item.</p>
+</td></tr>
+<tr valign="top"><td><code>constraint</code></td>
+<td>
+<p>a three-column numeric matrix specifying fixed-value constraints. The first column represents 
+the item (i.e., <i>1</i> denotes the first item, <i>2</i> the second, etc.); the second column denotes the type 
+of parameter to fix for the item specified in the first column (i.e., <i>1</i> denotes the guessing parameters,
+<i>2</i> the easiness parameters, and <i>3</i> the discrimination parameters); the third column specifies the value
+at which the corresponding parameter should be fixed. See <b>Examples</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>max.guessing</code></td>
+<td>
+<p>a scalar between 0 and 1 denoting the upper bound for the guessing parameters.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT.param</code></td>
+<td>
+<p>logical; if <code>TRUE</code> then the coefficients' estimates are reported under the 
+usual IRT parameterization. See <b>Details</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>start.val</code></td>
+<td>
+<p>the character string &quot;random&quot; or a numeric matrix supplying starting values with <i>p</i> rows and 
+3 columns, with <i>p</i> denoting the number of items. If <code>NULL</code> starting values are automatically computed. 
+If &quot;random&quot;, random starting values are used. If a matrix, then the first column should contain the guessing 
+parameter, the second <i>&beta;_{1i}</i>, and the third <i>&beta;_{2i}</i> (see <b>Details</b>). 
+If <code>type == "rasch"</code>, then the third should contain the same number <i>p</i> times.</p>
+</td></tr>
+<tr valign="top"><td><code>na.action</code></td>
+<td>
+<p> the <code>na.action</code> to be used on <code>data</code>. In case of missing data, if 
+<code>na.action = NULL</code> the model uses the available cases, i.e., it takes into account the observed 
+part of sample units with missing values (valid under MAR mechanisms if the model is correctly specified). 
+If you want to apply a complete case analysis then use <code>na.action = na.exclude</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>a list of control values with elements,
+</p>
+
+<dl>
+<dt>optimizer</dt><dd><p>a character string denoting the optimizer to use, either <code>"optim"</code> (default) 
+or <code>"nlminb"</code>.</p>
+</dd>
+<dt>iter.qN</dt><dd><p> scalar denoting the number of iterations in the optimization procedure. For <code>optim()</code>
+this is passed to the control argument &lsquo;maxit&rsquo;, whereas for <code>nlminb()</code> this is passed
+to both control arguments &lsquo;iter.max&rsquo; and &lsquo;eval.max&rsquo;. Default 1000.</p>
+</dd>
+<dt>GHk</dt><dd><p> scalar denoting the number of Gauss-Hermite quadrature points. Default 21.</p>
+</dd>
+<dt>method</dt><dd><p> a character string denoting the optimization method to be used in <code>optim()</code>. Default &quot;BFGS&quot;.</p>
+</dd>
+<dt>verbose</dt><dd><p> logical; if <code>TRUE</code> info about the optimization procedure are printed.</p>
+</dd>
+<dt>eps.hessian</dt><dd><p>the step-length to use in the central difference approximation that approximates the hessian.
+Default is <code>1e-03</code>.</p>
+</dd>
+<dt>parscale</dt><dd><p>a scaling numeric vector of length equal to the parameters to be estimated (taking into account 
+any constraints). This is passed to either to the &lsquo;parscale&rsquo; control argument of <code>optim()</code> 
+or to the &lsquo;scale&rsquo; argument of <code>nlminb()</code>. Default is 0.5 for the guessing parameters and 1 
+for the discrimination and easiness parameters.</p>
+</dd>
+</dl>
+
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+ 
+<p>Birnbaum's three parameter model is usually employed to handle the phenomenon of non-random guessing in the case
+of difficult items.  
+</p>
+<p>The model is defined as follows </p>
+<p style="text-align: center;"><i> &pi;_i = c_i + (1 - c_i) / [1 + exp{-(beta_{1i} + beta_{2i} z)}], </i></p>
+<p> where 
+<i>&pi;_i</i> denotes the conditional probability of responding correctly to the <i>i</i>th item given <i>z</i>, 
+<i>c_i</i> denotes the guessing parameter, <i>beta_{1i}</i> is the easiness parameter, 
+<i>beta_{2i}</i> is the discrimination parameter, and <i>z</i> denotes the 
+latent ability. In case <code>type = "rasch"</code>, <i>beta_{2i}</i> is assumed equal for all items.
+</p>
+<p>If <code>IRT.param = TRUE</code>, then the parameters estimates are reported under the usual IRT parameterization,
+i.e., </p>
+<p style="text-align: center;"><i> &pi;_i = c_i + (1 - c_i) / [1 + exp{-beta_{2i} (z - beta_{1i}^*)}].</i></p>
+
+<p>The fit of the model is based on approximate marginal Maximum Likelihood, using the Gauss-Hermite quadrature rule 
+for the approximation of the required integrals.
+</p>
+
+
+<h3>Value</h3>
+
+<p> An object of class <code>tpm</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>coefficients</code></td>
+<td>
+<p>a matrix with the parameter values at convergence. These are always the estimates of 
+<i>beta_i, beta</i> parameters, even if <code>IRT.param = TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>log.Lik</code></td>
+<td>
+<p>the log-likelihood value at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>convergence</code></td>
+<td>
+<p>the convergence identifier returned by <code>optim()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>hessian</code></td>
+<td>
+<p>the approximate Hessian matrix at convergence obtained using a central difference approximation.</p>
+</td></tr>
+<tr valign="top"><td><code>counts</code></td>
+<td>
+<p>the number of function and gradient evaluations used by the optimization algorithm.</p>
+</td></tr>
+<tr valign="top"><td><code>patterns</code></td>
+<td>
+<p>a list with two components: (i) <code>X</code>: a numeric matrix 
+that contains the observed response patterns, and (ii) <code>obs</code>: a numeric vector that contains the observed 
+frequencies for each observed response pattern.</p>
+</td></tr>
+<tr valign="top"><td><code>GH</code></td>
+<td>
+<p>a list with two components used in the Gauss-Hermite rule: (i) <code>Z</code>: a numeric matrix that contains 
+the abscissas, and (ii) <code>GHw</code>: a numeric vector that contains the corresponding  weights.</p>
+</td></tr> 
+<tr valign="top"><td><code>max.sc</code></td>
+<td>
+<p>the maximum absolute value of the score vector at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>the value of the <code>type</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>constraint</code></td>
+<td>
+<p>the value of the <code>constraint</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>max.guessing</code></td>
+<td>
+<p>the value of the <code>max.guessing</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT.param</code></td>
+<td>
+<p>the value of the <code>IRT.param</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>X</code></td>
+<td>
+<p>a copy of the response data matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>the values used in the <code>control</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>na.action</code></td>
+<td>
+<p>the value of the <code>na.action</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>the matched call.</p>
+</td></tr>
+</table>
+
+
+<h3>Warning</h3>
+
+ 
+<p>The three parameter model is known to have numerical problems like non-convergence or convergence on the boundary,
+especially for the guessing parameters. These problems usually result in a zero estimate for some guessing 
+parameters and/or in a non positive definite Hessian matrix or in a high absolute value for the score vector 
+(returned by the <code>summary</code> method) at convergence. In case of estimates on the boundary, the <code>constraint</code> 
+argument can be used to set the guessing parameter(s) for the problematic item(s) to zero. In addition, 
+<code>tpm()</code> has a number of control parameters that can be tuned in order to obtain successful convergence; 
+the most important of these are the starting values, the parameter scaling vector and the optimizer.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Baker, F. and Kim, S-H. (2004) <em>Item Response Theory</em>, 2nd ed. 
+New York: Marcel Dekker.
+</p>
+<p>Birnbaum, A. (1968). Some latent trait models and their use in inferring an examinee's ability. In F. M. Lord and
+M. R. Novick (Eds.), <em>Statistical Theories of Mental Test Scores</em>, 397&ndash;479. Reading, MA: Addison-Wesley.
+</p>
+<p>Rizopoulos, D. (2006) <b>ltm</b>: An R package for latent variable modelling and item response theory analyses. 
+<em>Journal of Statistical Software</em>, <b>17(5)</b>, 1&ndash;25. URL <a href="http://www.jstatsoft.org/v17/i05/">http://www.jstatsoft.org/v17/i05/</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="coef.html">coef.tpm</a></code>,
+<code><a href="fitted.html">fitted.tpm</a></code>,
+<code><a href="summary.html">summary.tpm</a></code>,
+<code><a href="anova.html">anova.tpm</a></code>,
+<code><a href="plot.html">plot.tpm</a></code>,
+<code><a href="vcov.html">vcov.tpm</a></code>,
+<code><a href="item.fit.html">item.fit</a></code>,
+<code><a href="person.fit.html">person.fit</a></code>,  
+<code><a href="margins.html">margins</a></code>,
+<code><a href="factor.scores.html">factor.scores</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# the three parameter model
+tpm(LSAT)
+
+# use 'nlminb' as optimizer
+tpm(LSAT, control = list(optimizer = "nlminb"))
+
+
+# the three parameter model with equal 
+# discrimination parameter across items
+# fix the guessing parameter for the third item to zero
+tpm(LSAT, type = "rasch", constraint = cbind(3, 1, 0))
+
+
+# the three parameter model for the Abortion data
+fit &lt;- tpm(Abortion)
+fit
+
+# the guessing parameter estimates for items 1, 3, and 4 seem to be on
+# the boundary; update the fit by fixing them to zero
+update(fit, constraint = cbind(c(1, 3, 4), 1, 0))
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

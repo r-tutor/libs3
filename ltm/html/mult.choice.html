@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Multiple Choice Items to Binary Responses</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mult.choice {ltm}"><tr><td>mult.choice {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Multiple Choice Items to Binary Responses 
+</h2>
+
+<h3>Description</h3>
+
+<p>It converts multiple choice items to a matrix of binary responses.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mult.choice(data, correct)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p> a <code>matrix</code> or a <code>data.frame</code> containing the manifest variables as columns. </p>
+</td></tr>
+<tr valign="top"><td><code>correct</code></td>
+<td>
+<p>a vector of length <code>ncol(data)</code> with the correct responses.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>a matrix of 0/1 values indicating wrong/correct answers.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+dat &lt;- data.frame(It1 = sample(4, 100, TRUE),
+                  It2 = sample(4, 100, TRUE),
+                  It3 = sample(5, 100, TRUE),
+                  It4 = sample(5, 100, TRUE),
+                  It5 = sample(4, 100, TRUE),
+                  It6 = sample(5, 100, TRUE))
+dat[] &lt;- lapply(dat, function (x) { x[sample(100, 4)] &lt;- NA; x })
+crct &lt;- c(3, 2, 5, 3, 4, 5)
+####################
+mult.choice(dat, crct)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

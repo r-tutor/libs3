@@ -1,11 +1,23 @@
 E_loo                   Compute weighted expectations
 compare                 Model comparison
-extract_log_lik         Extract pointwise log-likelihood matrix from a
-                        Stan model
-loo                     Leave-one-out cross-validation (LOO)
-loo-package             Efficient LOO and WAIC for Bayesian models
-pareto-k-diagnostic     Diagnostics for Pareto Smoothed Importance
-                        Sampling
-print.loo               Print method for 'loo' objects
-psislw                  Pareto smoothed importance sampling (PSIS)
+example_loglik_array    Objects to use in examples and tests
+extract_log_lik         Extract pointwise log-likelihood from a Stan
+                        model
+gpdfit                  Estimate parameters of the Generalized Pareto
+                        distribution
+kfold-helpers           Helper functions for K-fold cross-validation
+loo                     Efficient approximate leave-one-out
+                        cross-validation (LOO)
+loo-datasets            Datasets for loo examples and vignettes
+loo-package             Efficient LOO-CV and WAIC for Bayesian models
+loo_model_weights       Model averaging/weighting via stacking or
+                        pseudo-BMA weighting
+pareto-k-diagnostic     Diagnostics for Pareto smoothed importance
+                        sampling (PSIS)
+print.loo               Print methods
+psis                    Pareto smoothed importance sampling (PSIS)
+psislw                  Pareto smoothed importance sampling
+                        (deprecated, old version)
+relative_eff            Convenience function for computing relative
+                        efficiencies
 waic                    Widely applicable information criterion (WAIC)

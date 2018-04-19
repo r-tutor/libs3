@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Latent Trait Model - Latent Variable Model for Binary Data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ltm {ltm}"><tr><td>ltm {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Latent Trait Model - Latent Variable Model for Binary Data</h2>
+
+<h3>Description</h3>
+
+<p>Fit a latent trait model under the Item Response Theory (IRT) approach.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+ltm(formula, constraint = NULL, IRT.param, start.val, 
+    na.action = NULL, control = list())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>formula</code></td>
+<td>
+<p> a two-sided formula providing the responses data matrix and describing the latent 
+structure. In the left side of <code>formula</code> either a <code>data.frame</code> (that will be converted to 
+a numeric matrix using <code>data.matrix()</code>) or a numeric <code>matrix</code> of manifest variables must be 
+supplied. In the right side of <code>formula</code> only 
+two latent variables are allowed with codenames <code>z1</code>, <code>z2</code>. Interaction and quadratic 
+terms can also be used (see <b>Details</b> and <b>Examples</b> for more info).</p>
+</td></tr>
+<tr valign="top"><td><code>constraint</code></td>
+<td>
+<p>a three-column numeric matrix with at most <i>pq - 1</i> rows (where <i>p</i> is the number 
+of items and <i>q</i> the number of latent components plus the intercept), specifying fixed-value 
+constraints. The first column represents the item (i.e., <i>1</i> denotes the first item, <i>2</i> the 
+second, etc.), the second column represents the component of the latent structure (i.e., <i>1</i> 
+denotes the intercept <i>beta_{0i}</i>, <i>2</i> the loadings of the first factor <i>beta_{1i}</i>, etc.) and the third column denotes the value at which the corresponding parameter 
+should be fixed. See <b>Details</b> and <b>Examples</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT.param</code></td>
+<td>
+<p>logical; if <code>TRUE</code> then the coefficients' estimates for the two-parameter logistic 
+model are reported under the usual IRT parameterization. See <b>Details</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>start.val</code></td>
+<td>
+<p>the character string &quot;random&quot; or a numeric matrix supplying starting values with <i>p</i> rows and 
+<i>q</i> columns, with <i>p</i> denoting the number of items, and <code>q</code> denoting the number of terms in the 
+right-hand side of <code>formula</code>. If <code>NULL</code> starting values are automatically computed. If &quot;random&quot;, 
+random starting values are used. If a matrix, then depending on the latent structure specified in <code>formula</code>, 
+the first column should contain <i>&beta;_{0i}</i>, the second <i>&beta;_{1i}</i>, the third <i>&beta;_{2i}</i>, and 
+the remaing columns <i>&beta;_{nl,i}</i> (see <b>Details</b>)</p>
+</td></tr></table>
+<p>.
+</p>
+<table summary="R argblock">
+<tr valign="top"><td><code>na.action</code></td>
+<td>
+<p> the <code>na.action</code> to be used on the data frame in the left side of <code>formula</code>.
+In case of missing data, if <code>na.action = NULL</code> the model uses the available cases, i.e., it takes 
+into account the observed part of sample units with missing values (valid under MAR mechanisms if the
+model is correctly specified). If you want to apply a complete case analysis then use 
+<code>na.action = na.exclude</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p> a list of control values,
+</p>
+
+<dl>
+<dt>iter.em</dt><dd><p> the number of EM iterations. Default 40.</p>
+</dd>
+<dt>iter.qN</dt><dd><p> the number of quasi-Newton iterations. Default 150.</p>
+</dd>
+<dt>GHk</dt><dd><p> the number of Gauss-Hermite quadrature points. Default 15.</p>
+</dd>
+<dt>method</dt><dd><p> the optimization method to be used in <code>optim()</code>. Default &quot;BFGS&quot;.</p>
+</dd>
+<dt>verbose</dt><dd><p> logical; if <code>TRUE</code> info about the optimization procedure are printed.</p>
+</dd>
+</dl>
+
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The latent trait model is the analogue of the factor analysis model for binary observed data. 
+The model assumes that the dependencies between the observed response variables (known as items) 
+can be interpreted by a small number of latent variables. The model formulation is under the IRT 
+approach; in particular, </p>
+<p style="text-align: center;"><i>logit(pi_i)=beta_{0i} + beta_{1i}z_1 + beta_{2i}z_2,</i></p>
+<p> where <i>&pi;_i</i> is the the 
+probability of a positive response in the <i>i</i>th item, <i>&beta;_{i0}</i> is the easiness parameter, 
+<i>&beta;_{ij}</i> (<i>j=1,2</i>) are the discrimination parameters and <i>z_1, z_2</i> denote the two 
+latent variables.
+</p>
+<p>The usual form of the latent trait model assumes linear latent variable effects (Bartholomew and 
+Knott, 1999; Moustaki and Knott, 2000). <code>ltm()</code> fits the linear one- and two-factor models but 
+also provides extensions described by Rizopoulos and Moustaki (2006) to include nonlinear latent 
+variable effects. These are incorporated in the linear predictor of the model, i.e., </p>
+<p style="text-align: center;"><i>logit(pi_i)=beta_{0i} + beta_{1i}z_1 + beta_{2i}z_2 + beta_{nl}^tf(z_1, z_2),</i></p>
+<p> where <i>f(z_1, z_2)</i> is
+a function of <i>z_1</i> and <i>z_2</i> (e.g., <i>f(z_1, z_2) = z_1z_2</i>, <i>f(z_1, z_2) = z_1^2</i>, etc.) and 
+<i>&beta;_{nl}</i> is a matrix of nonlinear terms parameters (look also at the <b>Examples</b>).
+</p>
+<p>If <code>IRT.param = TRUE</code>, then the parameters estimates for the two-parameter logistic
+model (i.e., the model with one factor) are reported under the usual IRT parameterization, i.e., 
+</p>
+<p style="text-align: center;"><i>logit(&pi;_i) = 
+    beta_{1i}(z - beta_{0i}^*).</i></p>
+ 
+<p>The linear two-factor model is unidentified under orthogonal rotations on the factors' 
+space. To achieve identifiability you can fix the value of one loading using the <code>constraint</code> 
+argument. 
+</p>
+<p>The parameters are estimated by maximizing the approximate marginal log-likelihood under the conditional 
+independence assumption, i.e., conditionally on the latent structure the items are independent Bernoulli 
+variates under the logit link. The required integrals are approximated using the Gauss-Hermite rule. The 
+optimization procedure used is a hybrid algorithm. The procedure initially uses a moderate number of EM 
+iterations (see <code>control</code> argument <code>iter.em</code>) and then switches to quasi-Newton (see <code>control</code> 
+arguments <code>method</code> and <code>iter.qN</code>) iterations until convergence.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>ltm</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>coefficients</code></td>
+<td>
+<p>a matrix with the parameter values at convergence. These are always the estimates of 
+<i>beta_{li}, l = 0, 1, ...</i> parameters, even if <code>IRT.param = TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>log.Lik</code></td>
+<td>
+<p>the log-likelihood value at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>convergence</code></td>
+<td>
+<p>the convergence identifier returned by <code>optim()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>hessian</code></td>
+<td>
+<p>the approximate Hessian matrix at convergence returned by <code>optim()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>counts</code></td>
+<td>
+<p>the number of function and gradient evaluations used by the quasi-Newton algorithm.</p>
+</td></tr>
+<tr valign="top"><td><code>patterns</code></td>
+<td>
+<p>a list with two components: (i) <code>X</code>: a numeric matrix 
+that contains the observed response patterns, and (ii) <code>obs</code>: a numeric vector that contains the observed 
+frequencies for each observed response pattern.</p>
+</td></tr>
+<tr valign="top"><td><code>GH</code></td>
+<td>
+<p>a list with two components used in the Gauss-Hermite rule: (i) <code>Z</code>: a numeric matrix that contains 
+the abscissas, and (ii) <code>GHw</code>: a numeric vector that contains the corresponding  weights.</p>
+</td></tr> 
+<tr valign="top"><td><code>max.sc</code></td>
+<td>
+<p>the maximum absolute value of the score vector at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>ltst</code></td>
+<td>
+<p>a list describing the latent structure.</p>
+</td></tr>
+<tr valign="top"><td><code>X</code></td>
+<td>
+<p>a copy of the response data matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>the values used in the <code>control</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT.param</code></td>
+<td>
+<p>the value of the <code>IRT.param</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>constraint</code></td>
+<td>
+<p><code>if(!is.null(constraint))</code>, then it contains the value of the <code>constraint</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>the matched call.</p>
+</td></tr>
+</table>
+
+
+<h3>Warning</h3>
+
+ 
+<p>In case the Hessian matrix at convergence is not positive definite, try
+to re-fit the model; <code>ltm()</code> will use new random starting values.
+</p>
+<p>The inclusion of nonlinear latent variable effects produces more
+complex likelihood surfaces which might possess a number of local
+maxima. To ensure that the maximum likelihood value has been
+reached re-fit the model a number of times (simulations showed
+that usually 10 times are adequate to ensure global convergence).
+</p>
+<p>Conversion of the parameter estimates to the usual IRT parameterization
+works only for the two-parameter logistic model.
+</p>
+
+
+<h3>Note</h3>
+
+<p>In the case of the one-factor model, the optimization algorithm works under the constraint that 
+the discrimination parameter of the first item <i>beta_{11}</i> is always positive. If you wish 
+to change its sign, then in the fitted model, say <code>m</code>, use <code>m$coef[, 2] &lt;- -m$coef[, 2]</code>.
+</p>
+<p>When the coefficients' estimates are reported under the usual IRT parameterization (i.e., <code>IRT.param = TRUE</code>),
+their standard errors are calculated using the Delta method.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Baker, F. and Kim, S-H. (2004) <em>Item Response Theory</em>, 2nd ed. 
+New York: Marcel Dekker.
+</p>
+<p>Bartholomew, D. and Knott, M. (1999) <em>Latent Variable Models
+and Factor Analysis</em>, 2nd ed. London: Arnold.
+</p>
+<p>Bartholomew, D., Steel, F., Moustaki, I. and Galbraith, J. (2002)
+<em>The Analysis and Interpretation of Multivariate Data for
+Social Scientists</em>. London: Chapman and Hall.
+</p>
+<p>Moustaki, I. and Knott, M. (2000) Generalized latent trait
+models. <em>Psychometrika</em>, <b>65</b>, 391&ndash;411.
+</p>
+<p>Rizopoulos, D. (2006) <b>ltm</b>: An R package for latent variable modelling and item response theory analyses. 
+<em>Journal of Statistical Software</em>, <b>17(5)</b>, 1&ndash;25. URL <a href="http://www.jstatsoft.org/v17/i05/">http://www.jstatsoft.org/v17/i05/</a>
+</p>
+<p>Rizopoulos, D. and Moustaki, I. (2008) Generalized latent variable models
+with nonlinear effects. <em>British Journal of Mathematical and Statistical Psychology</em>, <b>61</b>, 415&ndash;438.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="coef.html">coef.ltm</a></code>,
+<code><a href="fitted.html">fitted.ltm</a></code>,
+<code><a href="summary.html">summary.ltm</a></code>,
+<code><a href="anova.html">anova.ltm</a></code>,
+<code><a href="plot.html">plot.ltm</a></code>,
+<code><a href="vcov.html">vcov.ltm</a></code>,
+<code><a href="item.fit.html">item.fit</a></code>,
+<code><a href="person.fit.html">person.fit</a></code>,  
+<code><a href="margins.html">margins</a></code>,
+<code><a href="factor.scores.html">factor.scores</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## The two-parameter logistic model for the WIRS data
+## with the constraint that (i) the easiness parameter 
+## for the 1st item equals 1 and (ii) the discrimination
+## parameter for the 6th item equals -0.5
+
+ltm(WIRS ~ z1, constr = rbind(c(1, 1, 1), c(6, 2, -0.5)))
+
+
+## One-factor and a quadratic term
+## using the Mobility data
+ltm(Mobility ~ z1 + I(z1^2))
+
+## Two-factor model with an interaction term
+## using the WIRS data
+ltm(WIRS ~ z1 * z2)
+
+
+## The two-parameter logistic model for the Abortion data 
+## with 20 quadrature points and 20 EM iterations;
+## report results under the usual IRT parameterization
+ltm(Abortion ~ z1, control = list(GHk = 20, iter.em = 20))
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

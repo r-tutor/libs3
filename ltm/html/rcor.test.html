@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Pairwise Associations between Items using a Correlation...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for rcor.test {ltm}"><tr><td>rcor.test {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Pairwise Associations between Items using a Correlation Coefficient
+</h2>
+
+<h3>Description</h3>
+
+<p>Computes and tests the pairwise associations between items using a correlation coefficient
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+rcor.test(mat, p.adjust = FALSE, p.adjust.method = "holm", ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>mat</code></td>
+<td>
+<p> a numeric <code>matrix</code> or a numeric <code>data.frame</code> containing the manifest variables as columns. </p>
+</td></tr>
+<tr valign="top"><td><code>p.adjust</code></td>
+<td>
+<p>logical; if <code>TRUE</code> the <i>p</i>-values are adjusted for multiple comparisons.</p>
+</td></tr>
+<tr valign="top"><td><code>p.adjust.method</code></td>
+<td>
+<p>the <code>method</code> argument of <code>p.adjust()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>extra arguments passed to <code>cor()</code> and <code>cor.test()</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>rcor.test</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>cor.mat</code></td>
+<td>
+<p>the correlation matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>p.values</code></td>
+<td>
+<p>a three column numeric matrix containing the <i>p</i>-values for all the combinations of items.</p>
+</td></tr>
+</table>
+<p>The print method for class <code>rcor.test</code> returns a square matrix in which the upper diagonal part contains
+the estimates of the correlation coefficients, and the lower diagonal part contains the corresponding <i>p</i>-values.
+</p>
+
+
+<h3>Note</h3>
+
+<p><code>rcor.test()</code> is more appropriate for informal testing of association between polytomous items.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## pairwise associations for Environment data:
+rcor.test(data.matrix(Environment), method = "kendall")
+
+## pairwise associations for independent normal random variates:
+mat &lt;- matrix(rnorm(1000), 100, 10, dimnames = list(NULL, LETTERS[1:10]))
+rcor.test(mat)
+rcor.test(mat, method = "kendall")
+rcor.test(mat, method = "spearman")
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

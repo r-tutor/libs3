@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Anova method for fitted IRT models</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for anova {ltm}"><tr><td>anova {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Anova method for fitted IRT models</h2>
+
+<h3>Description</h3>
+
+<p>Performs a Likelihood Ratio Test between two nested IRT models. 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'gpcm'
+anova(object, object2, simulate.p.value = FALSE, 
+    B = 200, verbose = getOption("verbose"), seed = NULL, ...)
+
+## S3 method for class 'grm'
+anova(object, object2, ...)
+
+## S3 method for class 'ltm'
+anova(object, object2, ...)
+
+## S3 method for class 'rasch'
+anova(object, object2, ...)
+
+## S3 method for class 'tpm'
+anova(object, object2, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>an object inheriting from either class <code>gpcm</code>, class <code>grm</code>, class <code>ltm</code>, class <code>rasch</code> 
+or class <code>tpm</code>, representing the model under the null hypothesis.</p>
+</td></tr>
+<tr valign="top"><td><code>object2</code></td>
+<td>
+<p>an object inheriting from either class <code>gpcm</code>, class <code>grm</code>, class <code>ltm</code>, class <code>rasch</code>,
+or class <code>tpm</code>, representing the model under the alternative hypothesis.</p>
+</td></tr>
+<tr valign="top"><td><code>simulate.p.value</code></td>
+<td>
+<p>logical; if <code>TRUE</code>, the reported <i>p</i>-value is based on a parametric Bootstrap approach.</p>
+</td></tr>
+<tr valign="top"><td><code>B</code></td>
+<td>
+<p>the number of Bootstrap samples.</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>logical; if <code>TRUE</code>, information is printed in the console during the parametric Bootstrap.</p>
+</td></tr>
+<tr valign="top"><td><code>seed</code></td>
+<td>
+<p>the seed to be used during the parametric Bootstrap; if <code>NULL</code>, a random seed is used.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p> additional arguments; currently none is used.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p><code>anova.gpcm()</code> also includes the option to estimate the <i>p</i>-value of the LRT using a parametric Bootstrap approach. 
+In particular, <code>B</code> data sets are simulated under the null hypothesis (i.e., under the generalized partial credit model 
+<code>object</code>), and both the null and alternative models are fitted and the value of LRT is computed. Then the <i>p</i>-value is 
+approximate using <i>[1 + {\# T_i  &gt; T_{obs}}]/(B + 1),</i> where <i>T_{obs}</i>
+is the value of the likelihood ratio statistic in the original data set, and <i>T_i</i> the value of the statistic in the <i>i</i>th 
+Bootstrap sample.
+</p>
+<p>In addition, when <code>simulate.p.value = TRUE</code> objects of class <code>aov.gpcm</code> have a method for the <code>plot()</code> generic function
+that produces a QQ plot comparing the Bootstrap sample of likelihood ration statistic with the asymptotic chi-squared distribution. For instance,
+you can use something like the following: <code>lrt &lt;- anova(obj1, obj2, simulate.p.value = TRUE); plot(lrt)</code>. 
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of either class <code>aov.gpcm</code>, <code>aov.grm</code>, class <code>aov.ltm</code> or class <code>aov.rasch</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>nam0</code></td>
+<td>
+<p>the name of <code>object</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>L0</code></td>
+<td>
+<p>the log-likelihood under the null hypothesis (<code>object</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>nb0</code></td>
+<td>
+<p>the number of parameter in <code>object</code>; returned only in <code>aov.gpcm</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>aic0</code></td>
+<td>
+<p>the AIC value for the model given by <code>object</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>bic0</code></td>
+<td>
+<p>the BIC value for the model given by <code>object</code>. </p>
+</td></tr>
+<tr valign="top"><td><code>nam1</code></td>
+<td>
+<p>the name of <code>object2</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>L1</code></td>
+<td>
+<p>the log-likelihood under the alternative hypothesis (<code>object2</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>nb1</code></td>
+<td>
+<p>the number of parameter in <code>object</code>; returned only in <code>aov.gpcm</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>aic1</code></td>
+<td>
+<p>the AIC value for the model given by <code>object2</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>bic1</code></td>
+<td>
+<p>the BIC value for the model given by <code>object2</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>LRT</code></td>
+<td>
+<p>the value of the Likelihood Ratio Test statistic. </p>
+</td></tr>
+<tr valign="top"><td><code>df</code></td>
+<td>
+<p>the degrees of freedom for the test (i.e., the difference in the number of parameters).</p>
+</td></tr>
+<tr valign="top"><td><code>p.value</code></td>
+<td>
+<p>the <i>p</i>-value of the test.</p>
+</td></tr>
+</table>
+
+
+<h3>Warning</h3>
+
+<p>The code does not check if the models are nested! The user is responsible to supply nested models in
+order the LRT to be valid.
+</p>
+<p>When <code>object2</code> represents a three parameter model, note that the
+null hypothesis in on the boundary of the parameter space for the guessing parameters. Thus, the Chi-squared reference 
+distribution used by these function might not be totally appropriate.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="GoF.html">GoF.gpcm</a></code>,
+<code><a href="GoF.html">GoF.rasch</a></code>,
+<code><a href="gpcm.html">gpcm</a></code>,
+<code><a href="grm.html">grm</a></code>,
+<code><a href="ltm.html">ltm</a></code>,
+<code><a href="rasch.html">rasch</a></code>,
+<code><a href="tpm.html">tpm</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## LRT between the constrained and unconstrained GRMs 
+## for the Science data:
+fit0 &lt;- grm(Science[c(1,3,4,7)], constrained = TRUE)
+fit1 &lt;- grm(Science[c(1,3,4,7)])
+anova(fit0, fit1)
+
+
+## LRT between the one- and two-factor models 
+## for the WIRS data:
+anova(ltm(WIRS ~ z1), ltm(WIRS ~ z1 + z2))
+
+
+## An LRT between the Rasch and a constrained 
+## two-parameter logistic model for the WIRS data: 
+fit0 &lt;- rasch(WIRS)
+fit1 &lt;- ltm(WIRS ~ z1, constraint = cbind(c(1, 3, 5), 2, 1))
+anova(fit0, fit1)
+
+
+## An LRT between the constrained (discrimination 
+## parameter equals 1) and the unconstrained Rasch
+## model for the LSAT data: 
+fit0 &lt;- rasch(LSAT, constraint = rbind(c(6, 1)))
+fit1 &lt;- rasch(LSAT)
+anova(fit0, fit1)
+
+
+## An LRT between the Rasch and the two-parameter 
+## logistic model for the LSAT data: 
+anova(rasch(LSAT), ltm(LSAT ~ z1))
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

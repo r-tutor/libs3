@@ -2,37 +2,42 @@ Package: loo
 Type: Package
 Title: Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian
         Models
-Version: 1.1.0
-Date: 2016-03-27
+Version: 2.0.0
+Date: 2018-04-06
 Authors@R: c(person("Aki", "Vehtari", email = "Aki.Vehtari@aalto.fi", role = c("aut")),
-             person("Andrew", "Gelman", email = "gelman@stat.columbia.edu", role = c("aut")),
+             person("Andrew", "Gelman", role = c("aut")),
              person("Jonah", "Gabry", email = "jsg2201@columbia.edu", role = c("cre", "aut")),
+             person("Yuling", "Yao", role = c("aut")),
              person("Juho", "Piironen", role = c("ctb")),
              person("Ben", "Goodrich", role = c("ctb")))
 Maintainer: Jonah Gabry <jsg2201@columbia.edu>
-URL: http://mc-stan.org/,
-        https://groups.google.com/forum/#!forum/stan-users
+URL: http://mc-stan.org, http://discourse.mc-stan.org
 BugReports: https://github.com/stan-dev/loo/issues
 Description: Efficient approximate leave-one-out cross-validation (LOO)
-    using Pareto smoothed importance sampling (PSIS), a new procedure for
+    for Bayesian models fit using Markov chain Monte Carlo. The approximation
+    uses Pareto smoothed importance sampling (PSIS), a new procedure for
     regularizing importance weights. As a byproduct of the calculations, we also
     obtain approximate standard errors for estimated predictive errors and for
-    the comparison of predictive errors between models. We also compute the
-    widely applicable information criterion (WAIC).
+    the comparison of predictive errors between models. The package also 
+    provides methods for using stacking and other model weighting techniques 
+    to average Bayesian predictive distributions.
 License: GPL (>= 3)
 LazyData: TRUE
 Depends: R (>= 3.1.2)
-Imports: graphics, matrixStats (>= 0.50.0), parallel, stats
-Suggests: knitr, rmarkdown, rstan, rstanarm, testthat
+Imports: graphics, matrixStats (>= 0.52), parallel, stats
+Suggests: bayesplot (>= 1.5.0), knitr, rmarkdown, rstan, rstanarm,
+        rstantools, testthat
 VignetteBuilder: knitr
+Encoding: UTF-8
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-03-27 14:54:10 UTC; jgabry
+Packaged: 2018-04-07 02:58:19 UTC; jgabry
 Author: Aki Vehtari [aut],
   Andrew Gelman [aut],
   Jonah Gabry [cre, aut],
+  Yuling Yao [aut],
   Juho Piironen [ctb],
   Ben Goodrich [ctb]
 Repository: CRAN
-Date/Publication: 2017-03-27 15:21:52 UTC
-Built: R 3.3.3; ; 2017-03-29 01:18:12 UTC; windows
+Date/Publication: 2018-04-11 12:34:58 UTC
+Built: R 3.4.4; ; 2018-04-16 18:45:49 UTC; windows

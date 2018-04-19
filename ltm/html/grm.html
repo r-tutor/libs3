@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Graded Response Model - Polytomous IRT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for grm {ltm}"><tr><td>grm {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Graded Response Model - Polytomous IRT</h2>
+
+<h3>Description</h3>
+
+<p>Fits the Graded Response model for ordinal polytomous data, under the Item Response Theory approach.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+grm(data, constrained = FALSE, IRT.param = TRUE, Hessian = FALSE, 
+    start.val = NULL, na.action = NULL, control = list())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>a <code>data.frame</code> (that will be converted to a numeric matrix using 
+<code>data.matrix()</code>) or a numeric <code>matrix</code> of manifest variables.</p>
+</td></tr>
+<tr valign="top"><td><code>constrained</code></td>
+<td>
+<p>logical; if <code>TRUE</code> the model with equal discrimination parameters across items is fitted. 
+See <b>Examples</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT.param</code></td>
+<td>
+<p>logical; if <code>TRUE</code> then the coefficients' estimates are reported under the 
+usual IRT parameterization. See <b>Details</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>Hessian</code></td>
+<td>
+<p>logical; if <code>TRUE</code> the Hessian matrix is computed.</p>
+</td></tr>
+<tr valign="top"><td><code>start.val</code></td>
+<td>
+<p> a list of starting values or the character string <code>"random"</code>. If a list, each one of its 
+elements corresponds to each item and should contain a numeric vector with initial values for the 
+extremity parameters and discrimination parameter; even if <code>constrained = TRUE</code> the discrimination 
+parameter should be provided for all the items. If <code>"random"</code> random starting values are computed.</p>
+</td></tr>
+<tr valign="top"><td><code>na.action</code></td>
+<td>
+<p> the <code>na.action</code> to be used on <code>data</code>; default <code>NULL</code> the model uses the available 
+cases, i.e., it takes into account the observed part of sample units with missing values (valid under MAR 
+mechanisms if the model is correctly specified)..</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>a list of control values,
+</p>
+
+<dl>
+<dt>iter.qN</dt><dd><p> the number of quasi-Newton iterations. Default 150.</p>
+</dd>
+<dt>GHk</dt><dd><p> the number of Gauss-Hermite quadrature points. Default 21.</p>
+</dd>
+<dt>method</dt><dd><p> the optimization method to be used in <code>optim()</code>. Default &quot;BFGS&quot;.</p>
+</dd>
+<dt>verbose</dt><dd><p> logical; if <code>TRUE</code> info about the optimization procedure are printed.</p>
+</dd>
+<dt>digits.abbrv</dt><dd><p> numeric value indicating the number of digits used in abbreviating the Item's names.
+Default 6.</p>
+</dd>
+</dl>
+
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+ 
+<p>The Graded Response Model is a type of polytomous IRT model, specifically designed for ordinal manifest variables.
+This model was first discussed by Samejima (1969) and it is mainly used in cases where the assumption of ordinal 
+levels of response options is plausible.
+</p>
+<p>The model is defined as follows </p>
+<p style="text-align: center;"><i> logit(&gamma;_ik) = beta_i z - beta_ik, </i></p>
+<p> where <i>&gamma;_{ik}</i> denotes the cumulative 
+probability of a response in category <i>k</i>th or lower to the <i>i</i>th item, given the latent ability <i>z</i>. 
+If <code>constrained = TRUE</code> it is assumed that <i>&beta;_i = &beta;</i> for all <i>i</i>.
+</p>
+<p>If <code>IRT.param = TRUE</code>, then the parameters estimates are reported under the usual IRT parameterization,
+i.e., </p>
+<p style="text-align: center;"><i> logit
+    (&gamma;_ik) = beta_i (z - beta_ik^*),</i></p>
+<p> where <i>beta_ik^* = beta_ik / beta_i</i>.
+</p>
+<p>The fit of the model is based on approximate marginal Maximum Likelihood, using the Gauss-Hermite quadrature rule 
+for the approximation of the required integrals.
+</p>
+
+
+<h3>Value</h3>
+
+<p> An object of class <code>grm</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>coefficients</code></td>
+<td>
+<p>a named list with components the parameter values at convergence for each item. These are always 
+the estimates of <i>beta_ik, beta_i</i> parameters, even if <code>IRT.param = TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>log.Lik</code></td>
+<td>
+<p>the log-likelihood value at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>convergence</code></td>
+<td>
+<p>the convergence identifier returned by <code>optim()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>hessian</code></td>
+<td>
+<p>the approximate Hessian matrix at convergence returned by <code>optim()</code>; returned 
+only if <code>Hessian = TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>counts</code></td>
+<td>
+<p>the number of function and gradient evaluations used by the quasi-Newton algorithm.</p>
+</td></tr>
+<tr valign="top"><td><code>patterns</code></td>
+<td>
+<p>a list with two components: (i) <code>X</code>: a numeric matrix 
+that contains the observed response patterns, and (ii) <code>obs</code>: a numeric vector that contains the observed 
+frequencies for each observed response pattern.</p>
+</td></tr>
+<tr valign="top"><td><code>GH</code></td>
+<td>
+<p>a list with two components used in the Gauss-Hermite rule: (i) <code>Z</code>: a numeric matrix that contains 
+the abscissas, and (ii) <code>GHw</code>: a numeric vector that contains the corresponding  weights.</p>
+</td></tr> 
+<tr valign="top"><td><code>max.sc</code></td>
+<td>
+<p>the maximum absolute value of the score vector at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>constrained</code></td>
+<td>
+<p>the value of the <code>constrained</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT.param</code></td>
+<td>
+<p>the value of the <code>IRT.param</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>X</code></td>
+<td>
+<p>a copy of the response data matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>the values used in the <code>control</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>na.action</code></td>
+<td>
+<p>the value of the <code>na.action</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>the matched call.</p>
+</td></tr>
+</table>
+
+
+<h3>Warning</h3>
+
+ 
+<p>In case the Hessian matrix at convergence is not positive definite try to re-fit the model,
+using <code>start.val = "random"</code>.
+</p>
+
+
+<h3>Note</h3>
+
+<p><code>grm()</code> returns the parameter estimates such that the discrimination parameter for the first item
+<i>beta_1</i> is positive.
+</p>
+<p>When the coefficients' estimates are reported under the usual IRT parameterization (i.e., <code>IRT.param = TRUE</code>),
+their standard errors are calculated using the Delta method.
+</p>
+<p><code>grm()</code> can also handle binary items, which should be coded as &lsquo;1, 2&rsquo; instead of &lsquo;0, 1&rsquo;.
+</p>
+<p>Some parts of the code used for the calculation of the log-likelihood and the score vector have been based 
+on <code>polr()</code> from package MASS.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Baker, F. and Kim, S-H. (2004) <em>Item Response Theory</em>, 2nd ed. 
+New York: Marcel Dekker.
+</p>
+<p>Samejima, F. (1969). Estimation of latent ability using a response pattern of graded scores. 
+<em>Psychometrika Monograph Supplement</em>, <b>34</b>, 100&ndash;114.
+</p>
+<p>Rizopoulos, D. (2006) <b>ltm</b>: An R package for latent variable modelling and item response theory analyses. 
+<em>Journal of Statistical Software</em>, <b>17(5)</b>, 1&ndash;25. URL <a href="http://www.jstatsoft.org/v17/i05/">http://www.jstatsoft.org/v17/i05/</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="coef.html">coef.grm</a></code>,
+<code><a href="fitted.html">fitted.grm</a></code>,
+<code><a href="summary.html">summary.grm</a></code>,
+<code><a href="anova.html">anova.grm</a></code>,
+<code><a href="plot.html">plot.grm</a></code>,
+<code><a href="vcov.html">vcov.grm</a></code>,
+<code><a href="margins.html">margins</a></code>,
+<code><a href="factor.scores.html">factor.scores</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## The Graded Response model for the Science data:
+grm(Science[c(1,3,4,7)])
+
+## The Graded Response model for the Science data,
+## assuming equal discrimination parameters across items:
+grm(Science[c(1,3,4,7)], constrained = TRUE)
+
+## The Graded Response model for the Environment data
+grm(Environment)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

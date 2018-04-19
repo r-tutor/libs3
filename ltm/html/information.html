@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Area under the Test or Item Information Curves</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for information {ltm}"><tr><td>information {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Area under the Test or Item Information Curves
+</h2>
+
+<h3>Description</h3>
+
+<p>Computes the amount of test or item information for a fitted IRT model, in a specified range.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+information(object, range, items = NULL, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>an object inheriting from either class <code>gpcm</code>, class <code>grm</code>, class <code>ltm</code>, class <code>rasch</code> or class <code>tpm</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>range</code></td>
+<td>
+<p>a numeric interval for which the test information should be computed.</p>
+</td></tr>
+<tr valign="top"><td><code>items</code></td>
+<td>
+<p>the items for which the information should be computed; the default <code>NULL</code> corresponds
+to all the items, which is equivalent to the test information.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>extra arguments passed to <code>integrate()</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The amount of information is computed as the area under the Item or Test Information Curve in the specified 
+interval, using <code>integrate()</code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A list of class <code>information</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>InfoRange</code></td>
+<td>
+<p>the amount of information in the specified interval.</p>
+</td></tr>
+<tr valign="top"><td><code>InfoTotal</code></td>
+<td>
+<p>the total amount of information; typically this is computed as the amount of information 
+in the interval <i>(-10, 10)</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>PropRange</code></td>
+<td>
+<p>the proportion of information in the specified range, i.e., 
+<code>"Info in range" / "Total Info"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>range</code></td>
+<td>
+<p>the value of <code>range</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>items</code></td>
+<td>
+<p>the value of <code>items</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>the matched call for <code>object</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="plot.html">plot.gpcm</a></code>,
+<code><a href="plot.html">plot.grm</a></code>,
+<code><a href="plot.html">plot.ltm</a></code>,
+<code><a href="plot.html">plot.rasch</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+fit &lt;- rasch(LSAT)
+information(fit, c(-2, 0))
+information(fit, c(0, 2), items = c(3, 5))
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

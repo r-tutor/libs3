@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Descriptive Statistics</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for descript {ltm}"><tr><td>descript {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Descriptive Statistics
+</h2>
+
+<h3>Description</h3>
+
+<p>Computes descriptive statistics for dichotomous and polytomous response matrices.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+descript(data, n.print = 10, chi.squared = TRUE, B = 1000)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p> a <code>matrix</code> or a <code>data.frame</code> containing the manifest variables as columns. </p>
+</td></tr>
+<tr valign="top"><td><code>n.print</code></td>
+<td>
+<p>numeric indicating the number of pairwise associations with the highest <i>p</i>-values 
+to be printed.</p>
+</td></tr>
+<tr valign="top"><td><code>chi.squared</code></td>
+<td>
+<p>logical; if <code>TRUE</code> the chi-squared test for the pairwise associations between items
+is performed. See <b>Details</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>B</code></td>
+<td>
+<p>an integer specifying the number of replicates used in the Monte Carlo test (i.e., this is the <code>B</code> 
+argument of <code>chisq.test()</code>).</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The following descriptive statistics are returned by <code>descript()</code>:
+</p>
+
+<dl>
+<dt>(i)</dt><dd><p>the proportions for all the possible response categories for each item. In case all items are
+dichotomous, the logit of the proportion for the positive responses is also included.</p>
+</dd>
+<dt>(ii)</dt><dd><p>the frequencies of all possible total scores. The total score of a response pattern is simply its sum.
+For dichotomous items this is the number of positive responses, whereas for polytomous items this is 
+the sum of the levels represented as numeric values (e.g., the response categories &quot;very concerned&quot;, 
+&quot;slightly concerned&quot;, and &quot;not very concerned&quot; in <code><a href="Environment.html">Environment</a></code> are represented as 1, 2, 
+and 3).</p>
+</dd>
+<dt>(iii)</dt><dd><p>Cronbach's alpha, for all items and excluding each time one of the items.</p>
+</dd>
+<dt>(iv)</dt><dd><p>for dichotomous response matrices two versions of the point biserial correlation of each item with the 
+total score are returned. In the first one the item is included in the computation of the
+total score, and in the second one is excluded.</p>
+</dd>
+<dt>(v)</dt><dd><p>pairwise associations between items. Before an analysis with latent variable models, it is useful to 
+inspect the data for evidence of positive correlations. In the case of binary or polytomous data, this 
+ad hoc check is performed by constructing the <i>2 by 2</i> contingency tables for all 
+possible pairs of items and examine the Chi-squared <i>p</i>-values. In case any expected frequencies 
+are smaller than 5, <code>simulate.p.value</code> is turned to <code>TRUE</code> in <code>chisq.test()</code>, 
+using <code>B</code> resamples.</p>
+</dd>
+</dl>
+
+
+
+<h3>Value</h3>
+
+<p><code>descript()</code> returns an object of class <code>descript</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>sample</code></td>
+<td>
+<p>a numeric vector of length 2, with elements the number of items and the number of sample units.</p>
+</td></tr>
+<tr valign="top"><td><code>perc</code></td>
+<td>
+<p>a numeric matrix containing the percentages of negative and positive responses for each item. If
+<code>data</code> contains only dichotomous manifest variables the logit of the positive responses (i.e.,
+second row) is also included.</p>
+</td></tr>
+<tr valign="top"><td><code>items</code></td>
+<td>
+<p>a numeric matrix containing the frequencies for the total scores.</p>
+</td></tr>
+<tr valign="top"><td><code>pw.ass</code></td>
+<td>
+<p>a matrix containing the <i>p</i>-values for the pairwise association between the items.</p>
+</td></tr>
+<tr valign="top"><td><code>n.print</code></td>
+<td>
+<p>the value of the <code>n.print</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>the name of argument <code>data</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>missin</code></td>
+<td>
+<p>a numeric matrix containing the frequency and percentages of missing values for each item;
+returned only if any <code>NA</code>'s exist in <code>data</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>bisCorr</code></td>
+<td>
+<p>a numeric vector containing sample estimates of the biserial correlation of dichotomous manifest
+variables with the total score.</p>
+</td></tr>
+<tr valign="top"><td><code>ExBisCorr</code></td>
+<td>
+<p>a numeric vector containing sample estimates of the biserial correlation of dichotomous manifest
+variables with the total score, where the latter is computed by excluding the specific item.</p>
+</td></tr>        
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>a copy of the <code>data</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>a numeric matrix with one column containing the sample estimates of Cronbach's alpha, for all items
+and excluding each time one item.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="plot.descript.html">plot.descript</a></code>,
+<code><a href="unidimTest.html">unidimTest</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## Descriptives for LSAT data:
+dsc &lt;- descript(LSAT, 3)
+dsc
+plot(dsc, type = "b", lty = 1, pch = 1:5)
+legend("topleft", names(LSAT), pch = 1:5, col = 1:5, lty = 1, bty = "n")
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

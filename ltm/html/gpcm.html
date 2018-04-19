@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Generalized Partial Credit Model - Polytomous IRT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for gpcm {ltm}"><tr><td>gpcm {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Generalized Partial Credit Model - Polytomous IRT</h2>
+
+<h3>Description</h3>
+
+<p>Fits the Generalized Partial Credit model for ordinal polytomous data, under the Item Response Theory approach.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+gpcm(data, constraint = c("gpcm", "1PL", "rasch"), IRT.param = TRUE, 
+    start.val = NULL, na.action = NULL, control = list())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>a <code>data.frame</code> or a numeric <code>matrix</code> of manifest variables.</p>
+</td></tr>
+<tr valign="top"><td><code>constraint</code></td>
+<td>
+<p>a character string specifying which version of the Generalized Partial Credit Model to fit. See <b>Details</b> and 
+<b>Examples</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT.param</code></td>
+<td>
+<p>logical; if <code>TRUE</code> then the coefficients' estimates are reported under the 
+usual IRT parameterization. See <b>Details</b> for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>start.val</code></td>
+<td>
+<p>a list of starting values or the character string <code>"random"</code>. If a list, each one of its 
+elements corresponds to each item and should contain a numeric vector with initial values for the 
+threshold parameters and discrimination parameter; even if <code>constraint = "rasch"</code> or <code>constraint = "1PL"</code>, 
+the discrimination parameter should be provided for all the items. If <code>"random"</code>, random starting values are computed.</p>
+</td></tr>
+<tr valign="top"><td><code>na.action</code></td>
+<td>
+<p>the <code>na.action</code> to be used on <code>data</code>; default <code>NULL</code> the model uses the available 
+cases, i.e., it takes into account the observed part of sample units with missing values (valid under MAR 
+mechanisms if the model is correctly specified).</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>a named list of control values with components,
+</p>
+
+<dl>
+<dt>iter.qN</dt><dd><p>the number of quasi-Newton iterations. Default 150.</p>
+</dd>
+<dt>GHk</dt><dd><p>the number of Gauss-Hermite quadrature points. Default 21.</p>
+</dd>
+<dt>optimizer</dt><dd><p>which optimization routine to use; options are &quot;optim&quot; and &quot;nlminb&quot;, the latter being the default.</p>
+</dd>
+<dt>optimMethod</dt><dd><p>the optimization method to be used in <code>optim()</code>. Default is &quot;BFGS&quot;.</p>
+</dd>
+<dt>numrDeriv</dt><dd><p>which numerical derivative algorithm to use to approximate the Hessian matrix; options are &quot;fd&quot; for
+forward difference approximation and &quot;cd&quot; for central difference approximation. Default is &quot;fd&quot;.</p>
+</dd>
+<dt>epsHes</dt><dd><p>step size to be used in the numerical derivative. Default is 1e-06. If you choose <code>numrDeriv = "cd"</code>, then
+change this to a larger value, e.g., 1e-03 or 1e-04.</p>
+</dd>
+<dt>parscale</dt><dd><p>the <code>parscale</code> control argument of <code>optim()</code>. Default is 0.5 for all parameters.</p>
+</dd>        
+<dt>verbose</dt><dd><p>logical; if <code>TRUE</code> info about the optimization procedure are printed.</p>
+</dd>
+</dl>
+
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+ 
+<p>The Generalized Partial Credit Model is an IRT model, that can handle ordinal manifest variables.
+This model was discussed by Masters (1982) and it was extended by Muraki (1992).
+</p>
+<p>The model is defined as follows </p>
+<p style="text-align: center;"><i>P_{ik}(z) = \frac{\exp &sum; \limits_{c = 0}^k &beta;_i (z - &beta;_{ic}^*)}{
+    &sum; \limits_{r = 0}^{m_i} \exp &sum; \limits_{c = 0}^r &beta;_i (z - &beta;_{ic}^*)},</i></p>
+<p> where <i>P_{ik}(z)</i> denotes the 
+probability of responding in category <i>k</i> for item <i>i</i>, given the latent ability <i>z</i>, <i>&beta;_{ic}^*</i> are the item-category 
+parameters, <i>&beta;_i</i> is the discrimination parameter, <i>m_i</i> is the number of categories for item <i>i</i>, and 
+</p>
+<p style="text-align: center;"><i>&sum; \limits_{c = 0}^0 &beta;_i (z - &beta;_{ic}^*) \equiv 0.</i></p>
+ 
+<p>If <code>constraint = "rasch"</code>, then the discrimination parameter <i>&beta;_i</i> is assumed equal for all items and fixed at one. If 
+<code>constraint = "1PL"</code>, then the discrimination parameter <i>&beta;_i</i> is assumed equal for all items but is estimated. 
+If <code>constraint = "gpcm"</code>, then each item has its one discrimination parameter <i>&beta;_i</i> that is estimated. See 
+<b>Examples</b> for more info. 
+</p>
+<p>If <code>IRT.param = FALSE</code>, then the linear predictor is of the form <i>&beta;_i z + &beta;_{ic}</i>.
+</p>
+<p>The fit of the model is based on approximate marginal Maximum Likelihood, using the Gauss-Hermite quadrature rule 
+for the approximation of the required integrals.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>gpcm</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>coefficients</code></td>
+<td>
+<p>a named list with components the parameter values at convergence for each item.</p>
+</td></tr>
+<tr valign="top"><td><code>log.Lik</code></td>
+<td>
+<p>the log-likelihood value at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>convergence</code></td>
+<td>
+<p>the convergence identifier returned by <code>optim()</code> or <code>nlminb()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>hessian</code></td>
+<td>
+<p>the approximate Hessian matrix at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>counts</code></td>
+<td>
+<p>the number of function and gradient evaluations used by the quasi-Newton algorithm.</p>
+</td></tr>
+<tr valign="top"><td><code>patterns</code></td>
+<td>
+<p>a list with two components: (i) <code>X</code>: a numeric matrix 
+that contains the observed response patterns, and (ii) <code>obs</code>: a numeric vector that contains the observed 
+frequencies for each observed response pattern.</p>
+</td></tr>
+<tr valign="top"><td><code>GH</code></td>
+<td>
+<p>a list with two components used in the Gauss-Hermite rule: (i) <code>Z</code>: a numeric matrix that contains 
+the abscissas, and (ii) <code>GHw</code>: a numeric vector that contains the corresponding  weights.</p>
+</td></tr> 
+<tr valign="top"><td><code>max.sc</code></td>
+<td>
+<p>the maximum absolute value of the score vector at convergence.</p>
+</td></tr>
+<tr valign="top"><td><code>constraint</code></td>
+<td>
+<p>the value of the <code>constraint</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>IRT.param</code></td>
+<td>
+<p>the value of the <code>IRT.param</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>X</code></td>
+<td>
+<p>a copy of the response data matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>the values used in the <code>control</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>na.action</code></td>
+<td>
+<p>the value of the <code>na.action</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>the matched call.</p>
+</td></tr>
+</table>
+
+
+<h3>Warning</h3>
+
+ 
+<p>In case the Hessian matrix at convergence is not positive definite try to re-fit the model by specifying the starting values or using
+<code>start.val = "random"</code>.
+</p>
+
+
+<h3>Note</h3>
+
+<p><code>gpcm()</code> can also handle binary items and can be used instead of <code><a href="rasch.html">rasch</a></code> and <code><a href="ltm.html">ltm</a></code> though it is less
+efficient. However, <code>gpcm()</code> can handle a mix of dichotomous and polytomous items that neither <code><a href="rasch.html">rasch</a></code> nor 
+<code><a href="ltm.html">ltm</a></code> can.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Masters, G. (1982). A Rasch model for partial credit scoring. <em>Psychometrika</em>, <b>47</b>, 149&ndash;174.
+</p>
+<p>Muraki, E. (1992). A generalized partial credit model: application of an EM algorithm. <em>Applied Psychological 
+Measurement</em>, <b>16</b>, 159&ndash;176.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="coef.html">coef.gpcm</a></code>,
+<code><a href="fitted.html">fitted.gpcm</a></code>,
+<code><a href="summary.html">summary.gpcm</a></code>,
+<code><a href="anova.html">anova.gpcm</a></code>,
+<code><a href="plot.html">plot.gpcm</a></code>,
+<code><a href="vcov.html">vcov.gpcm</a></code>,
+<code><a href="GoF.html">GoF.gpcm</a></code>,
+<code><a href="margins.html">margins</a></code>,
+<code><a href="factor.scores.html">factor.scores</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## The Generalized Partial Credit Model for the Science data:
+gpcm(Science[c(1,3,4,7)])
+
+## The Generalized Partial Credit Model for the Science data,
+## assuming equal discrimination parameters across items:
+gpcm(Science[c(1,3,4,7)], constraint = "1PL")
+
+## The Generalized Partial Credit Model for the Science data,
+## assuming equal discrimination parameters across items
+## fixed at 1:
+gpcm(Science[c(1,3,4,7)], constraint = "rasch")
+
+## more examples can be found at:
+## http://wiki.r-project.org/rwiki/doku.php?id=packages:cran:ltm#sample_analyses
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

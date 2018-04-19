@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Residuals for IRT models</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for residuals {ltm}"><tr><td>residuals {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Residuals for IRT models </h2>
+
+<h3>Description</h3>
+
+<p>Computes the residuals for vectors of response patterns.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'gpcm'
+residuals(object, resp.patterns = NULL, order = TRUE, ...)
+
+## S3 method for class 'grm'
+residuals(object, resp.patterns = NULL, order = TRUE, ...)
+
+## S3 method for class 'ltm'
+residuals(object, resp.patterns = NULL, order = TRUE, ...)
+
+## S3 method for class 'rasch'
+residuals(object, resp.patterns = NULL, order = TRUE, ...)
+
+## S3 method for class 'tpm'
+residuals(object, resp.patterns = NULL, order = TRUE, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>an object inheriting either from class <code>gpcm</code>, class <code>grm</code>, class <code>ltm</code>, class <code>rasch</code> or class 
+<code>tpm</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>resp.patterns</code></td>
+<td>
+<p>a <code>matrix</code> or a <code>data.frame</code> of response patterns with columns denoting the 
+items; if <code>NULL</code> the expected frequencies are computed for the observed response patterns.</p>
+</td></tr>
+<tr valign="top"><td><code>order</code></td>
+<td>
+<p>logical; if <code>TRUE</code> the response patterns are sorted according to the residual estimates.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>additional arguments; currently none is used.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The following residuals are computed: </p>
+<p style="text-align: center;"><i>(O_i - E_i) / E_i^(1/2),</i></p>
+<p> where
+<i>O_i</i> and <i>E_i</i> denote the observed and expected frequencies for the <i>i</i>th response pattern.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A numeric <code>matrix</code> containing the observed and expected frequencies as well as the residual value for
+each response pattern.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="fitted.html">fitted.gpcm</a></code>,
+<code><a href="fitted.html">fitted.grm</a></code>,
+<code><a href="fitted.html">fitted.ltm</a></code>,
+<code><a href="fitted.html">fitted.rasch</a></code>,
+<code><a href="fitted.html">fitted.tpm</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+fit &lt;- ltm(LSAT ~ z1)
+residuals(fit)
+residuals(fit, order = FALSE)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Item-Fit Statistics and P-values</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for item.fit {ltm}"><tr><td>item.fit {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Item-Fit Statistics and P-values </h2>
+
+<h3>Description</h3>
+
+<p>Computation of item fit statistics for <code>ltm</code>, <code>rasch</code> and <code>tpm</code> models.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+item.fit(object, G = 10, FUN = median, 
+         simulate.p.value = FALSE, B = 100)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>a model object inheriting either from class <code>ltm</code>, class <code>rasch</code> or class <code>tpm</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>G</code></td>
+<td>
+<p>either a number or a numeric vector. If a number, then it denotes the number of categories sample units
+are grouped according to their ability estimates.</p>
+</td></tr>
+<tr valign="top"><td><code>FUN</code></td>
+<td>
+<p>a function to summarize the ability estimate with each group (e.g., median, mean, etc.).</p>
+</td></tr>
+<tr valign="top"><td><code>simulate.p.value</code></td>
+<td>
+<p>logical; if <code>TRUE</code>, then the Monte Carlo procedure described in the <b>Details</b> 
+section is used to approximate the the distribution of the item-fit statistic under the null hypothesis.</p>
+</td></tr>  
+<tr valign="top"><td><code>B</code></td>
+<td>
+<p>the number of replications in the Monte Carlo procedure.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The item-fit statistic computed by <code>item.fit()</code> has the form: </p>
+<p style="text-align: center;"><i>&sum;_{j = 1}^g N_j (O_{ij} - E_{ij})^2 / [E_{ij} (1 - E_{ij})],</i></p>
+
+<p>where <i>i</i> is the item, <i>j</i> is the interval created by grouping sample units on the basis of their ability
+estimates, <i>G</i> is the number of sample units groupings (i.e., <code>G</code> argument), <i>N_j</i> is the number of
+sample units with ability estimates falling in a given interval <i>j</i>, <i>O_{ij}</i> is the observed proportion of 
+keyed responses on item <i>i</i> for interval <i>j</i>, and <i>E_{ij}</i> is the expected proportion of keyed responses 
+on item <i>i</i> for interval <i>j</i> based on the IRT model (i.e., <code>object</code>) evaluated at the ability estimate 
+<i>z^*</i> within the interval, with <i>z^*</i> denoting the result of <code>FUN</code> applied to the ability estimates in 
+group <i>j</i>.
+</p>
+<p>If <code>simulate.p.value = FALSE</code>, then the <i>p</i>-values are computed assuming a chi-squared distribution with 
+degrees of freedom equal to the number of groups <code>G</code> minus the number of estimated parameters. If 
+<code>simulate.p.value = TRUE</code>, a Monte Carlo procedure is used to approximate the distribution of the item-fit 
+statistic under the null hypothesis. In particular, the following steps are replicated <code>B</code> times:
+</p>
+
+<dl>
+<dt>Step 1:</dt><dd><p>Simulate a new data-set of dichotomous responses under the assumed IRT model, using the maximum
+likelihood estimates <i>\hat{theta}</i> in the original data-set, extracted from <code>object</code>.</p>
+</dd>
+<dt>Step 2:</dt><dd><p>Fit the model to the simulated data-set, extract the maximum likelihood estimates 
+<i>theta^*</i> and compute the ability estimates <i>z^*</i> for each response pattern.</p>
+</dd>
+<dt>Step 3:</dt><dd><p>For the new data-set, and using <i>z^*</i> and <i>theta^*</i>, compute the value of the 
+item-fit statistic.</p>
+</dd>
+</dl>
+
+<p>Denote by <i>T_{obs}</i> the value of the item-fit statistic for the original data-set. Then the <i>p</i>-value is 
+approximated according to the formula </p>
+<p style="text-align: center;"><i>(1 + 
+  sum_{b = 1}^B I(T_b &gt;= T_{obs})) / (1 + B),</i></p>
+<p> where <i>I(.)</i> denotes the indicator function, and <i>T_b</i> denotes 
+the value of the item-fit statistic in the <i>b</i>th simulated data-set.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>itemFit</code> is a list with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>Tobs</code></td>
+<td>
+<p>a numeric vector with item-fit statistics.</p>
+</td></tr>
+<tr valign="top"><td><code>p.values</code></td>
+<td>
+<p>a numeric vector with the corresponding <i>p</i>-values.</p>
+</td></tr>
+<tr valign="top"><td><code>G</code></td>
+<td>
+<p>the value of the <code>G</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>simulate.p.value</code></td>
+<td>
+<p>the value of the <code>simulate.p.value</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>B</code></td>
+<td>
+<p>the value of the <code>B</code> argument.</p>
+</td></tr>  
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>a copy of the matched call of <code>object</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Reise, S. (1990) A comparison of item- and person-fit methods of assessing model-data fit in IRT. <em>Applied
+Psychological Measurement</em>, <b>14</b>, 127&ndash;137.
+</p>
+<p>Yen, W. (1981) Using simulation results to choose a latent trait model. <em>Applied Psychological Measurement</em>, 
+<b>5</b>, 245&ndash;262.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="person.fit.html">person.fit</a></code>,
+<code><a href="margins.html">margins</a></code>,
+<code><a href="GoF.html">GoF.gpcm</a></code>,
+<code><a href="GoF.html">GoF.rasch</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# item-fit statistics for the Rasch model
+# for the Abortion data-set
+item.fit(rasch(Abortion))
+
+# Yen's Q1 item-fit statistic (i.e., 10 latent ability groups; the
+# mean ability in each group is used to compute fitted proportions) 
+# for the two-parameter logistic model for the LSAT data-set
+item.fit(ltm(LSAT ~ z1), FUN = mean)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

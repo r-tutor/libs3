@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Prepares Data for Test Equating</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for testEquatingData {ltm}"><tr><td>testEquatingData {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Prepares Data for Test Equating
+</h2>
+
+<h3>Description</h3>
+
+<p>Test equating by common items.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+testEquatingData(DataList, AnchoringItems = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>DataList</code></td>
+<td>
+<p> a list of <code>data.frame</code>s or <code>matrice</code>s containing common and unique items between 
+several forms.</p>
+</td></tr>
+<tr valign="top"><td><code>AnchoringItems</code></td>
+<td>
+<p> a <code>data.frame</code> or a <code>matrix</code> containing anchoring items for across sample equating.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The purpose of this function is to combine items from different forms. Two cases are considered. Alternate 
+Form Equating (where common and unique items are analyzed simultaneously) and Across Sample Equating (where different
+sets of unique items are analyzed separately based on previously calibrated anchor items).
+</p>
+
+
+<h3>Value</h3>
+
+<p>A <code>matrix</code> containing the common and unique items.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Yu, C.-H. and Osborn Popp, S. (2005) Test equating by common items and common subjects: concepts and applications.
+<em>Practical Assessment Research and Evaluation</em>, <b>10(4)</b>, 1&ndash;19. URL 
+<a href="http://pareonline.net/getvn.asp?v=10&amp;n=4">http://pareonline.net/getvn.asp?v=10&amp;n=4</a>
+</p>
+<p>Rizopoulos, D. (2006) <b>ltm</b>: An R package for latent variable modelling and item response theory analyses. 
+<em>Journal of Statistical Software</em>, <b>17(5)</b>, 1&ndash;25. URL <a href="http://www.jstatsoft.org/v17/i05/">http://www.jstatsoft.org/v17/i05/</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# Let two data-sets with common and unique items
+dat1 &lt;- as.data.frame(rmvlogis(20, cbind(c(-2, 1, 2, 1), 1)))
+names(dat1) &lt;- c("CIt2", "CIt3", "CIt4", "W")
+
+dat2 &lt;- as.data.frame(rmvlogis(10, cbind(c(-2, -1, 1, 2, 0.95), 1)))
+names(dat2) &lt;- c("CIt1", "CIt2", "CIt3", "CIt4", "K")
+
+# combine in one data-set by
+lisForms &lt;- list(dat1, dat2)
+testEquatingData(lisForms)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Goodness of Fit for Rasch Models</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for GoF {ltm}"><tr><td>GoF {ltm}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Goodness of Fit for Rasch Models</h2>
+
+<h3>Description</h3>
+
+<p>Performs a parametric Bootstrap test for Rasch and Generalized Partial Credit models. 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+GoF.gpcm(object, simulate.p.value = TRUE, B = 99, seed = NULL, ...)
+
+GoF.rasch(object, B = 49, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>an object inheriting from either class <code>gpcm</code> or class <code>rasch</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>simulate.p.value</code></td>
+<td>
+<p>logical; if <code>TRUE</code>, the reported <i>p</i>-value is based on a parametric Bootstrap approach.
+Otherwise the <i>p</i>-value is based on the asymptotic chi-squared distribution.</p>
+</td></tr>
+<tr valign="top"><td><code>B</code></td>
+<td>
+<p>the number of Bootstrap samples. See <b>Details</b> section for more info.</p>
+</td></tr>
+<tr valign="top"><td><code>seed</code></td>
+<td>
+<p>the seed to be used during the parametric Bootstrap; if <code>NULL</code>, a random seed is used.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>additional arguments; currently none is used.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p><code>GoF.gpcm</code> and <code>GoF.rasch</code> perform a parametric Bootstrap test based on Pearson's chi-squared statistic defined as
+</p>
+<p style="text-align: center;"><i>&sum;_{r=1}^{2^p} (O_r - E_r)^2 / E_r,</i></p>
+<p> where <i>r</i>
+represents a response pattern, <i>O_r</i> and <i>E_r</i> represent the observed and expected frequencies, 
+respectively and <i>p</i> denotes the number of items. The Bootstrap approximation to the reference distribution is preferable compared with 
+the ordinary Chi-squared approximation since the latter is not valid especially for large number of items 
+(=&gt; many response patterns with expected frequencies smaller than 1).
+</p>
+<p>In particular, the Bootstrap test is implemented as follows:
+</p>
+
+<dl>
+<dt>Step 0:</dt><dd><p>Based on <code>object</code> compute the observed value of the statistic <i>T_{obs}</i>.</p>
+</dd>
+<dt>Step 1:</dt><dd><p>Simulate new parameter values, say <i>&theta;^*</i>, from <i>N(\hat{&theta;}, C(\hat{&theta;}))</i>,
+where <i>\hat{&theta;}</i> are the MLEs and <i>C(\hat{&theta;})</i> their large sample covariance 
+matrix.</p>
+</dd>
+<dt>Step 2:</dt><dd><p>Using <i>&theta;^*</i> simulate new data (with the same dimensions as the 
+observed ones), fit the generalized partial credit or the Rasch model and based on this fit calculate the value 
+of the statistic <i>T_i</i>.</p>
+</dd>
+<dt>Step 3:</dt><dd><p>Repeat steps 1-2 <code>B</code> times and estimate the <i>p</i>-value using 
+<i>[1 + {\# T_i  &gt; T_{obs}}]/(B + 1).</i></p>
+</dd>
+</dl>
+
+<p>Furthermore, in <code>GoF.gpcm</code> when <code>simulate.p.value = FALSE</code>, then the <i>p</i>-value is based on the asymptotic
+chi-squared distribution.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>GoF.gpcm</code> or <code>GoF.rasch</code> with components,
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>Tobs</code></td>
+<td>
+<p>the value of the Pearson's chi-squared statistic for the observed data.</p>
+</td></tr>
+<tr valign="top"><td><code>B</code></td>
+<td>
+<p>the <code>B</code> argument specifying the number of Bootstrap samples used.</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>the matched call of <code>object</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>p.value</code></td>
+<td>
+<p>the <i>p</i>-value of the test.</p>
+</td></tr>
+<tr valign="top"><td><code>simulate.p.value</code></td>
+<td>
+<p>the value of <code>simulate.p.value</code> argument (returned on for class <code>GoF.gpcm</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>df</code></td>
+<td>
+<p>the degrees of freedom for the asymptotic chi-squared distribution (returned on for class <code>GoF.gpcm</code>).</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Dimitris Rizopoulos <a href="mailto:d.rizopoulos@erasmusmc.nl">d.rizopoulos@erasmusmc.nl</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="person.fit.html">person.fit</a></code>,
+<code><a href="item.fit.html">item.fit</a></code>,
+<code><a href="margins.html">margins</a></code>,
+<code><a href="gpcm.html">gpcm</a></code>,
+<code><a href="rasch.html">rasch</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## GoF for the Rasch model for the LSAT data:
+fit &lt;- rasch(LSAT)
+GoF.rasch(fit)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ltm</em> version 1.1-1 <a href="00Index.html">Index</a>]</div>
+</body></html>
