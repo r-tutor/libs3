@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Read a database described in a .sql file.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for sql.reader {ProjectTemplate}"><tr><td>sql.reader {ProjectTemplate}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Read a database described in a .sql file.</h2>
+
+<h3>Description</h3>
+
+<p>This function will load data from a SQL database based on configuration
+information found in the specified .sql file. The .sql file must specify
+a database to be accessed. All tables from the database, one specific tables
+or one specific query against any set of tables may be executed to generate
+a data set.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+sql.reader(data.file, filename, variable.name)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data.file</code></td>
+<td>
+<p>The name of the data file to be read.</p>
+</td></tr>
+<tr valign="top"><td><code>filename</code></td>
+<td>
+<p>The path to the data set to be loaded.</p>
+</td></tr>
+<tr valign="top"><td><code>variable.name</code></td>
+<td>
+<p>The name to be assigned to in the global environment.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>queries can support string interpolation to execute code snippets using mustache syntax (http://mustache.github.io). This is used
+to create queries that depend on data from other sources. Code delimited is {{...}}
+</p>
+<p>Example: query: SELECT * FROM my_table WHERE id IN ({{ids}}).
+Here ids is a vector previously loaded into the Global Environment through ProjectTemplate
+</p>
+<p>Examples of the DCF format and settings used in a .sql file are shown
+below:
+</p>
+<p>Example 1
+type: mysql
+user: sample_user
+password: sample_password
+host: localhost
+dbname: sample_database
+table: sample_table
+</p>
+<p>Example 2
+type: mysql
+user: sample_user
+password: sample_password
+host: localhost
+port: 3306
+socket: /Applications/MAMP/tmp/mysql/mysql.sock
+dbname: sample_database
+table: sample_table
+</p>
+<p>Example 3
+type: sqlite
+dbname: /path/to/sample_database
+table: sample_table
+</p>
+<p>Example 4
+type: sqlite
+dbname: /path/to/sample_database
+query: SELECT * FROM users WHERE user_active == 1
+</p>
+<p>Example 5
+type: sqlite
+dbname: /path/to/sample_database
+table: *
+</p>
+<p>Example 6
+type: postgres
+user: sample_user
+password: sample_password
+host: localhost
+dbname: sample_database
+table: sample_table
+</p>
+<p>Example 7
+type: odbc
+dsn: sample_dsn
+user: sample_user
+password: sample_password
+dbname: sample_database
+query: SELECT * FROM sample_table
+</p>
+<p>Example 8
+type: oracle
+user: sample_user
+password: sample_password
+dbname: sample_database
+table: sample_table
+</p>
+<p>Example 9
+type: jdbc
+class: oracle.jdbc.OracleDriver
+classpath: /path/to/ojdbc5.jar (or set in CLASSPATH)
+user: scott
+password: tiger
+url: jdbc:oracle:thin:@myhost:1521:orcl
+query: select * from emp
+</p>
+<p>Example 10
+type: heroku
+classpath: /path/to/jdbc4.jar (or set in CLASSPATH)
+user: scott
+password: tiger
+host: heroku.postgres.url
+port: 1234
+dbname: herokudb
+query: select * from emp
+</p>
+<p>Example 11
+In this example RSQLite::initExtension() is automatically called on the established connection.
+</p>
+<p>Liam Healy has written extension-functions.c, which is available on http://www.sqlite.org/contrib.
+It provides mathematical and string extension functions for SQL queries using the loadable extensions mechanism.
+</p>
+<p>type: sqlite
+dbname: /path/to/sample_database
+plugin: extension
+query: SELECT *,STDEV(value1) FROM example_table
+</p>
+
+
+<h3>Value</h3>
+
+<p>No value is returned; this function is called for its side effects.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library('ProjectTemplate')
+
+## Not run: sql.reader('example.sql', 'data/example.sql', 'example')
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ProjectTemplate</em> version 0.8.2 <a href="00Index.html">Index</a>]</div>
+</body></html>

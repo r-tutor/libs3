@@ -13,6 +13,7 @@ clean.variable.name     Translate a file name into a valid R variable
 clear                   Clear objects from the global environment
 clear.cache             Clear data sets from the cache
 create.project          Create a new project.
+create.template         Create a new template
 csv.reader              Read a comma separated values (.csv) file.
 csv2.reader             Read a semicolon separated values (.csv2) file.
 db.reader               Read a SQlite3 database with a (.db) file
@@ -28,6 +29,8 @@ load.project            Automatically load data and packages for a
                         project.
 migrate.project         Migrates a project from a previous version of
                         ProjectTemplate
+migrate.template        Migrate a template to a new version of
+                        ProjectTemplate
 mp3.reader              Read an MP3 file with a .mp3 file extension.
 mtp.reader              Read a Minitab Portable Worksheet with an .mtp3
                         file extension.
@@ -39,6 +42,7 @@ project.config          ProjectTemplate Configuration file
 r.reader                Read an R source file with a .R file extension.
 rdata.reader            Read an RData file with a .rdata or .rda file
                         extension.
+rds.reader              Read the RDS file format.
 reload.project          Reload or reset a project
 require.package         Require a package for use in the project
 run.project             Run all of the analyses in the 'src' directory.

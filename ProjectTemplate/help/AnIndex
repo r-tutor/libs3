@@ -10,6 +10,7 @@ clean.variable.name	clean.variable.name
 clear	clear
 clear.cache	clear.cache
 create.project	create.project
+create.template	create.template
 csv.reader	csv.reader
 csv2.reader	csv2.reader
 db.reader	db.reader
@@ -20,6 +21,7 @@ get.project	get.project
 list.data	list.data
 load.project	load.project
 migrate.project	migrate.project
+migrate.template	migrate.template
 mp3.reader	mp3.reader
 mtp.reader	mtp.reader
 octave.reader	octave.reader
@@ -30,6 +32,7 @@ project.config	project.config
 ProjectTemplate	ProjectTemplate
 r.reader	r.reader
 rdata.reader	rdata.reader
+rds.reader	rds.reader
 reload.project	reload.project
 require.package	require.package
 run.project	run.project
