@@ -55,8 +55,8 @@ affect                  Two data sets of affect and arousal scores as a
                         function of personality and movie conditions
 alpha                   Find two estimates of reliability: Cronbach's
                         alpha and Guttman's Lambda 6.
-bestScales              A set of functions for factorial and empirical
-                        scale construction
+bestScales              A bootstrap aggregation (bagging) function for
+                        choosing most predictive items
 bfi                     25 Personality items representing 5 factors
 bi.bars                 Draw pairs of bargraphs based on two groups
 biplot.psych            Draw biplots of factor or component scores by
@@ -163,6 +163,8 @@ fa                      Exploratory Factor analysis using MinRes
 fa.diagram              Graph factor loading matrices
 fa.extension            Apply Dwyer's factor extension to find factor
                         loadings for extended variables
+fa.lookup               A set of functions for factorial and empirical
+                        scale construction
 fa.multi                Multi level (hierarchical) factor analysis
 fa.parallel             Scree plots of data or correlation matrix
                         compared to random "parallel" matrices

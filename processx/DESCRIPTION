@@ -1,8 +1,8 @@
 Package: processx
 Title: Execute and Control System Processes
-Version: 2.0.1
-Author: Gábor Csárdi
-Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
+Version: 3.0.3
+Author: GÃ¡bor CsÃ¡rdi, Winston Chang
+Maintainer: GÃ¡bor CsÃ¡rdi <csardi.gabor@gmail.com>
 Description: Tools to run system processes in the background.
     It can check if a background process is running; wait on a background
     process to finish; get the exit status of finished processes; kill
@@ -15,19 +15,13 @@ LazyData: true
 URL: https://github.com/r-lib/processx#readme
 BugReports: https://github.com/r-lib/processx/issues
 RoxygenNote: 6.0.1.9000
-Roxygen: list(markdown = TRUE)
-Suggests: covr, testthat, withr
 Imports: assertthat, crayon, debugme, R6, utils
+LinkingTo: testthat
+Suggests: covr, testthat, withr
 Encoding: UTF-8
-Built: R 3.4.1; x86_64-w64-mingw32; 2017-07-07 15:05:08 UTC; windows
+NeedsCompilation: yes
+Packaged: 2017-12-19 19:55:02 UTC; gaborcsardi
+Repository: CRAN
+Date/Publication: 2018-05-07 12:14:45 UTC
+Built: R 3.4.4; x86_64-w64-mingw32; 2018-05-08 07:13:16 UTC; windows
 Archs: i386, x64
-RemoteType: github
-RemoteHost: https://api.github.com
-RemoteRepo: processx
-RemoteUsername: r-lib
-RemoteRef: master
-RemoteSha: 4bf780ff168cef0086b89251b6348722b4f9ff67
-GithubRepo: processx
-GithubUsername: r-lib
-GithubRef: master
-GithubSHA1: 4bf780ff168cef0086b89251b6348722b4f9ff67

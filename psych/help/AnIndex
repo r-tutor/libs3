@@ -2,6 +2,7 @@
 psych-package	00.psych-package
 %+%	matrix.addition
 ability	ability
+acs	misc
 affect	affect
 all.income	income
 alpha	alpha
@@ -88,6 +89,7 @@ cosinor	cosinor
 cosinor.period	cosinor
 cosinor.plot	cosinor
 count.pairwise	count.pairwise
+cs	misc
 cta	cta
 cta.15	cta
 cubits	cubits
@@ -139,7 +141,7 @@ fa.diagram	fa.diagram
 fa.extend	fa.extension
 fa.extension	fa.extension
 fa.graph	fa.diagram
-fa.lookup	best.scales
+fa.lookup	fa.lookup
 fa.multi	faMulti
 fa.multi.diagram	faMulti
 fa.organize	fa.sort
@@ -175,6 +177,7 @@ filesList	fileUtilities
 fisherz	fisherz
 fisherz2r	fisherz
 flat	affect
+fromTo	misc
 g2r	fisherz
 galton	galton
 Garcia	Garcia
@@ -239,10 +242,10 @@ irt.tau	score.irt
 irt2latex	df2latex
 isCorrelation	misc
 item.dichot	sim.item
-item.lookup	best.scales
+item.lookup	fa.lookup
 item.sim	sim.item
 kaiser	kaiser
-keys.lookup	best.scales
+keys.lookup	fa.lookup
 keys2list	make.keys
 keysort	parcels
 KMO	KMO
@@ -252,7 +255,7 @@ levels2numeric	misc
 logistic	logistic
 logistic.grm	logistic
 logit	logistic
-lookup	best.scales
+lookup	fa.lookup
 lowerCor	misc
 lowerMat	misc
 lowerUpper	lowerUpper
