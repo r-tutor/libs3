@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Extract Diagonal of a Matrix</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for diag2vec {OpenMx}"><tr><td>diag2vec {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Extract Diagonal of a Matrix</h2>
+
+<h3>Description</h3>
+
+<p>Given an input matrix, <code>diag2vec</code> returns a column vector of the elements along the diagonal.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+diag2vec(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>an input matrix.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Similar to the function <code><a href="../../base/html/diag.html">diag</a></code>, except that the input argument is always
+treated as a matrix (i.e., it doesn't have diag()'s functions of returning an Identity matrix from an nrow specification, nor to return 
+a matrix wrapped around a diagonal if provided with a vector). To get vector2matrix functionality, call <code><a href="vec2diag.html">vec2diag</a></code>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="vec2diag.html">vec2diag</a></code> 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+diag2vec(matrix(1:9, nrow=3))
+#      [,1]
+# [1,]    1
+# [2,]    5
+# [3,]    9
+
+diag2vec(matrix(1:12, nrow=3, ncol=4))
+#      [,1]
+# [1,]    1
+# [2,]    5
+# [3,]    9
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

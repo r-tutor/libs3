@@ -30,6 +30,7 @@ image_animate	animation
 image_annotate	painting
 image_append	animation
 image_apply	animation
+image_attributes	editing
 image_average	animation
 image_background	color
 image_blank	editing

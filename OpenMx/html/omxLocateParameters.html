@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Get the location (model, matrix, row, column) and other info...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxLocateParameters {OpenMx}"><tr><td>omxLocateParameters {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Get the location (model, matrix, row, column) and other info for a parameter</h2>
+
+<h3>Description</h3>
+
+<p>Returns a data.frame summarizing the <em>free</em> parameters in a model,
+possibly filtered using &lsquo;labels&rsquo;.
+</p>
+<p>For each located parameter, the label, model, matrix, row, col, value, 
+and lbound &amp; ubound are given as a row in the dataframe.
+</p>
+<p>Duplicated labels return a row for each location in which they are found. 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxLocateParameters(model, labels = NULL, indep = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>a MxModel object</p>
+</td></tr>
+<tr valign="top"><td><code>labels</code></td>
+<td>
+<p>optionally specify which free parameters to retrieve.</p>
+</td></tr>
+<tr valign="top"><td><code>indep</code></td>
+<td>
+<p>fetch parameters from independent submodels.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Invoking the function with the default value for the &lsquo;labels&rsquo;
+argument retrieves all the free parameters.  The &lsquo;labels&rsquo;
+argument can be used to select a subset of the free parameters.
+Note that &lsquo;NA&rsquo; is a valid input to &lsquo;labels&rsquo;.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="omxGetParameters.html">omxGetParameters</a></code>, <code><a href="omxSetParameters.html">omxSetParameters</a></code>, <code><a href="omxAssignFirstParameters.html">omxAssignFirstParameters</a></code> 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+A &lt;- mxMatrix('Full', 2, 2, labels = c("A11", "A12", NA, "A11"), values= 1:4,
+   free = TRUE, byrow = TRUE, name = 'A')
+
+model &lt;- mxModel(A, name = 'model')
+
+# Request all free parameters in model
+omxLocateParameters(model)
+
+# Request free parameters "A11" and all NAs
+omxLocateParameters(model, c("A11", NA))
+
+# Works with submodel
+B = mxMatrix(name = 'B', 'Full', 1, 2, labels = c("B11", "notme"),
+  free = c(TRUE, FALSE), values= pi)
+model &lt;- mxModel(model, mxModel(B, name = 'subB'))
+
+# nb: only returns free parameters ('notme' not shown)
+omxLocateParameters(model)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

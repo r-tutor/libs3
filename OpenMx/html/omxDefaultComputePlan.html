@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Construct default compute plan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxDefaultComputePlan {OpenMx}"><tr><td>omxDefaultComputePlan {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Construct default compute plan
+</h2>
+
+<h3>Description</h3>
+
+<p>This function generates a default compute plan, where &quot;default compute plan&quot; refers to an object of class <a href="mxComputeSequence.html">MxComputeSequence</a> which is appropriate for use in a wide variety of cases.  The exact specification of the plan will depend upon the arguments provided to <code>omxDefaultComputePlan()</code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxDefaultComputePlan(modelName=NULL, intervals=FALSE,
+  useOptimizer=TRUE, optionList=options()$mxOption)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>modelName</code></td>
+<td>
+<p>Optional (defaults to <code>NULL</code>) character string, providing the name of the <a href="MxModel-class.html">MxModel</a> the fitfunction of which is to be evaluated, and usually, optimized.</p>
+</td></tr>
+<tr valign="top"><td><code>intervals</code></td>
+<td>
+<p>Logical; will <a href="mxCI.html">confidence intervals</a> be computed? Defaults to <code>FALSE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>useOptimizer</code></td>
+<td>
+<p>Logical; will a fitfunction be minimized?  Defaults to <code>TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>optionList</code></td>
+<td>
+<p>List of <a href="mxOption.html">mxOption</a>s.  Defaults to the current list of global <a href="mxOption.html">mxOption</a>s.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>At minimum, argument <code>optionList</code> must include &ldquo;Gradient algorithm&rdquo;, &ldquo;Gradient iterations&rdquo;, &ldquo;Gradient step size&rdquo;, &ldquo;Calculate Hessian&rdquo;, and &ldquo;Standard Errors&rdquo;.  Users are advised to set &ldquo;Calculate Hessian&rdquo; and &ldquo;Standard Errors&rdquo; to &quot;No&quot; if the compute plan is to be used in an <a href="MxModel-class.html">MxModel</a> containing <a href="MxConstraint-class.html">MxConstraint</a>s.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns an object of class <a href="mxComputeSequence.html">MxComputeSequence</a>.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+foo &lt;- omxDefaultComputePlan(modelName="bar")
+str(foo)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Bootstrap distribution of standardized RAM path coefficients</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxBootstrapStdizeRAMpaths {OpenMx}"><tr><td>mxBootstrapStdizeRAMpaths {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Bootstrap distribution of standardized RAM path coefficients
+</h2>
+
+<h3>Description</h3>
+
+<p>Uses the bootstrap distribution of a RAM model's free parameters to produce a bootstrap distribution of standardized path coefficients.  Model must have already been run through <code><a href="mxBootstrap.html">mxBootstrap</a>()</code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxBootstrapStdizeRAMpaths(model, bq=c(.25,.75), 
+	method=c('bcbci','quantile'), returnRaw=FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>An MxModel that uses <a href="mxExpectationRAM.html">RAM expectation</a> and has already been run through <code><a href="mxBootstrap.html">mxBootstrap</a>()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>bq</code></td>
+<td>
+<p>Quantiles corresponding to the lower and upper limits, respectively, of the bootstrap confidence interval.</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>Character string.  One of 'bcbci' or 'quantile'.</p>
+</td></tr>
+<tr valign="top"><td><code>returnRaw</code></td>
+<td>
+<p>Logical; should the function return the raw bootstrapping results?  Defaults to <code>FALSE</code>, in which case a dataframe summarizing the results is returned.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>In effect, what <code>mxBootstrapStdizeRAMpaths()</code> does is use the point estimates from each bootstrap replication to produce <code><a href="mxStandardizeRAMpaths.html">mxStandardizeRAMpaths</a>()</code> output for each replication.  The output of <code><a href="mxStandardizeRAMpaths.html">mxStandardizeRAMpaths</a>()</code> has one entry for each nonzero path coefficient.  Therefore, it is possible (though unlikely) that the number of nonzero paths, or which elements of the <code>A</code> and <code>S</code> RAM matrices are nonzero, may vary among bootstrap replications.  Such an occurrence defies simple summary of the standardized paths' bootstrapping results.  In this case, a raw list of bootstrapping results is returned, with a warning, if <code>returnRaw=TRUE</code>, or an error is throw if <code>returnRaw=FALSE</code>.
+</p>
+<p><code>mxBootstrapStdizeRAMpaths()</code> ignores any submodels of <code>model</code>.  That is, it must be able to find, in the MxModel it is provided, a <a href="mxExpectationRAM.html">RAM expectation</a> and an <a href="mxComputeBootstrap.html">MxComputeBootstrap</a> object.    It can be run on submodels directly,
+</p>
+
+
+<h3>Value</h3>
+
+<p>Under extraordinary circumstances described above, <code>mxBootstrapStdizeRAMpaths()</code> may return a list object.  In ordinary circumstances, if <code>returnRaw=FALSE</code> (default), it returns a dataframe containing, <em>inter alia</em>, the standardized path coefficients as estimated from the real data, their bootstrap SEs, and the lower and upper limits of a bootstrap confidence interval.  If instead <code>returnRaw=TRUE</code>, <code>mxBootstrapStdizeRAMpaths()</code> returns a matrix containing the raw bootstrap results; this matrix has one column per nonzero path coefficient, and one row for each succesfully converged bootstrap replication.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="mxBootstrap.html">mxBootstrap</a>()</code>, <code><a href="mxStandardizeRAMpaths.html">mxStandardizeRAMpaths</a>()</code>, <code><a href="mxBootstrapEval.html">mxBootstrapEval</a></code>, <code><a href="summary.MxModel.html">mxSummary</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+require(OpenMx)
+data(myFADataRaw)
+myFADataRaw &lt;- myFADataRaw[,c("x1","x2","x3","x4","x5","x6")]
+dataRaw      &lt;- mxData( observed=myFADataRaw, type="raw" )
+resVars      &lt;- mxPath( from=c("x1","x2","x3","x4","x5","x6"), arrows=2,
+                        free=TRUE, values=c(1,1,1,1,1,1),
+                        labels=c("e1","e2","e3","e4","e5","e6") ) 
+latVar       &lt;- mxPath( from="F1", arrows=2,
+                        free=TRUE, values=1, labels ="varF1" )
+facLoads     &lt;- mxPath( from="F1", to=c("x1","x2","x3","x4","x5","x6"), arrows=1,
+                        free=c(FALSE,TRUE,TRUE,TRUE,TRUE,TRUE), values=c(1,1,1,1,1,1),
+                        labels =c("l1","l2","l3","l4","l5","l6") )
+means        &lt;- mxPath( from="one", to=c("x1","x2","x3","x4","x5","x6","F1"), arrows=1,
+                        free=c(TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE), 
+                        values=c(1,1,1,1,1,1,0),
+                        labels =c("meanx1","meanx2","meanx3",
+                                  "meanx4","meanx5","meanx6",NA) ) 
+oneFactorModel &lt;- mxModel("Common Factor Model Path Specification", type="RAM",
+                        manifestVars=c("x1","x2","x3","x4","x5","x6"), latentVars="F1",
+                        dataRaw, resVars, latVar, facLoads, means)
+oneFactorFit &lt;- mxRun(oneFactorModel)    
+set.seed(170505)
+
+## Not run: oneFactorBoot &lt;- mxBootstrap(oneFactorFit)
+mxBootstrapStdizeRAMpaths(oneFactorBoot)
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

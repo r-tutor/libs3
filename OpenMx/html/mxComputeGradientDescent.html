@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Optimize parameters using a gradient descent optimizer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxComputeGradientDescent {OpenMx}"><tr><td>mxComputeGradientDescent {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Optimize parameters using a gradient descent optimizer</h2>
+
+<h3>Description</h3>
+
+<p>This optimizer does not require analytic derivatives of the fit
+function. The fully open-source CRAN version of OpenMx offers 2 choices,
+CSOLNP and SLSQP (from the NLOPT collection).  The OpenMx Team's version of
+OpenMx offers the choice of three optimizers: CSOLNP, SLSQP, and NPSOL.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxComputeGradientDescent(freeSet = NA_character_, ..., engine = NULL,
+  fitfunction = "fitfunction", verbose = 0L, tolerance = NA_real_,
+  useGradient = NULL, warmStart = NULL, nudgeZeroStarts = mxOption(NULL,
+  "Nudge zero starts"), maxMajorIter = NULL, gradientAlgo = mxOption(NULL,
+  "Gradient algorithm"),
+  gradientIterations = imxAutoOptionValue("Gradient iterations"),
+  gradientStepSize = imxAutoOptionValue("Gradient step size"))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>freeSet</code></td>
+<td>
+<p>names of matrices containing free parameters.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>engine</code></td>
+<td>
+<p>specific 'CSOLNP', 'SLSQP', or 'NPSOL'</p>
+</td></tr>
+<tr valign="top"><td><code>fitfunction</code></td>
+<td>
+<p>name of the fitfunction (defaults to 'fitfunction')</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>level of debugging output</p>
+</td></tr>
+<tr valign="top"><td><code>tolerance</code></td>
+<td>
+<p>how close to the optimum is close enough (also known as the optimality tolerance)</p>
+</td></tr>
+<tr valign="top"><td><code>useGradient</code></td>
+<td>
+<p>whether to use the analytic gradient (if available)</p>
+</td></tr>
+<tr valign="top"><td><code>warmStart</code></td>
+<td>
+<p>a Cholesky factored Hessian to use as the NPSOL Hessian starting value (preconditioner)</p>
+</td></tr>
+<tr valign="top"><td><code>nudgeZeroStarts</code></td>
+<td>
+<p>whether to nudge any zero starting values prior to optimization (default TRUE)</p>
+</td></tr>
+<tr valign="top"><td><code>maxMajorIter</code></td>
+<td>
+<p>maximum number of major iterations</p>
+</td></tr>
+<tr valign="top"><td><code>gradientAlgo</code></td>
+<td>
+<p>one of c('forward','central')</p>
+</td></tr>
+<tr valign="top"><td><code>gradientIterations</code></td>
+<td>
+<p>number of Richardson iterations to use for the gradient</p>
+</td></tr>
+<tr valign="top"><td><code>gradientStepSize</code></td>
+<td>
+<p>the step size for the gradient</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>One option for CSOLNP and SLSQP is
+<code>gradientAlgo</code>. CSOLNP uses <code>forward</code> method
+by default, while SLSQP uses <code>central</code> method. <code>forward</code> method requires
+1 time <code>gradientIterations</code> function evaluation per parameter
+per gradient, while <code>central</code> method requires 2 times
+<code>gradientIterations</code> function evaluations per parameter 
+per gradient. Users can change the default methods for either of these optimizers.
+NPSOL usually uses the <code>forward</code> method, but
+adaptively switches to <code>central</code> under certain circumstances.
+</p>
+<p>CSOLNP uses the value of argument <code>gradientStepSize</code> as-is, 
+whereas SLSQP internally scales it by a factor of 100. The
+purpose of this transformation is to obtain roughly the same
+accuracy given other differences in numerical procedure.
+NPSOL ignores <code>gradientStepSize</code>, and instead uses a function
+of <a href="mxOption.html">mxOption</a> &ldquo;Function precision&rdquo; to determine its gradient
+step size.
+</p>
+<p>All three optimizers can use analytic gradients,
+and only NPSOL uses <code>warmStart</code>.
+</p>
+
+
+<h3>References</h3>
+
+<p>Luenberger, D. G. &amp; Ye, Y. (2008). <em>Linear and nonlinear programming.</em> Springer.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(demoOneFactor)
+factorModel &lt;- mxModel(name ="One Factor",
+  mxMatrix(type="Full", nrow=5, ncol=1, free=FALSE, values=0.2, name="A"),
+    mxMatrix(type="Symm", nrow=1, ncol=1, free=FALSE, values=1, name="L"),
+    mxMatrix(type="Diag", nrow=5, ncol=5, free=TRUE, values=1, name="U"),
+    mxAlgebra(expression=A %*% L %*% t(A) + U, name="R"),
+  mxExpectationNormal(covariance="R", dimnames=names(demoOneFactor)),
+  mxFitFunctionML(),
+    mxData(observed=cov(demoOneFactor), type="cov", numObs=500),
+     mxComputeSequence(steps=list(
+     mxComputeGradientDescent(),
+     mxComputeNumericDeriv(),
+     mxComputeStandardError(),
+     mxComputeHessianQuality()
+    )))
+factorModelFit &lt;- mxRun(factorModel)
+factorModelFit$output$conditionNumber # 29.5
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Evaluate an algebra on an abscissa grid and collect column...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxEvaluateOnGrid {OpenMx}"><tr><td>mxEvaluateOnGrid {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Evaluate an algebra on an abscissa grid and collect column results</h2>
+
+<h3>Description</h3>
+
+<p>This function evaluates an algebra on a grid of points provided in
+an auxillary abscissa matrix.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxEvaluateOnGrid(algebra, abscissa)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>algebra</code></td>
+<td>
+<p>the name of the single column matrix to be evaluated.</p>
+</td></tr>
+<tr valign="top"><td><code>abscissa</code></td>
+<td>
+<p>the name of the abscissa matrix. See details.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The abscissa matrix must be in a specific format.
+The variables are in the rows. Abscissa row names must match names of
+free variables.
+The grid points are in columns.
+For each point (column), the free variables are set to the given
+values and the algebra is re-evaluated. The resulting columns are
+collected as the result.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns the collected columns.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(OpenMx)
+
+test2 &lt;- mxModel("test2",
+	mxMatrix(values=1.1, nrow=1, ncol=1, free=TRUE, name="thang"),
+	mxMatrix(nrow=1, ncol=1, labels="abscissa1", free=TRUE, name="currentAbscissa"),
+	mxMatrix(values=-2:2, nrow=1, ncol=5, name="abscissa",
+		 dimnames=list(c('abscissa1'), NULL)),
+	mxAlgebra(rbind(currentAbscissa + thang, currentAbscissa * thang), name="stuff"),
+	mxAlgebra(mxEvaluateOnGrid(stuff, abscissa), name="grid"))
+	
+test2 &lt;- mxRun(test2)
+omxCheckCloseEnough(test2$grid$result, matrix(c(-1:3 + .1, -2:2 * 1.1), ncol=5, nrow=2,byrow=TRUE))
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

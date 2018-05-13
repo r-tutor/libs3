@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class &quot;MxExpectationGREML&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for MxExpectationGREML-class {OpenMx}"><tr><td>MxExpectationGREML-class {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class &quot;MxExpectationGREML&quot;</h2>
+
+<h3>Description</h3>
+
+<p><code>MxExpectationGREML</code> is a type of expectation class.  It contains the necessary elements for specifying a GREML model.  For more information, see <code><a href="mxExpectationGREML.html">mxExpectationGREML</a>()</code>.
+</p>
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form 
+<code>mxExpectationGREML(V, yvars, Xvars, addOnes, blockByPheno, 
+                        staggerZeroes, dataset.is.yX, casesToDropFromV)</code>.
+</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>V</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  Identifies the <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> or <code><a href="MxMatrix-class.html">MxMatrix</a></code> to serve as the 'V' matrix.</p>
+</dd>
+<dt><code>yvars</code>:</dt><dd><p>Character vector.  Each string names a column of the raw dataset, to be used as a phenotypes.</p>
+</dd>
+<dt><code>Xvars</code>:</dt><dd><p>A list of data column names, specifying the covariates to be used with each phenotype.</p>
+</dd>
+<dt><code>addOnes</code>:</dt><dd><p>Logical; pertains to data-handling at runtime.</p>
+</dd>
+<dt><code>blockByPheno</code>:</dt><dd><p>Logical; pertains to data-handling at runtime.</p>
+</dd>
+<dt><code>staggerZeroes</code>:</dt><dd><p>Logical; pertains to data-handling at runtime.</p>
+</dd>
+<dt><code>dataset.is.yX</code>:</dt><dd><p>Logical; pertains to data-handling at runtime.</p>
+</dd>
+<dt><code>y</code>:</dt><dd><p>Object of class <code>"MxData"</code>.  Its <code>observed</code> slot will contain the phenotype vector, 'y.'</p>
+</dd>
+<dt><code>X</code>:</dt><dd><p>A matrix, to contain the 'X' matrix of covariates.</p>
+</dd>
+<dt><code>yXcolnames</code>:</dt><dd><p>Character vector; used to store the column names of 'y' and 'X.'</p>
+</dd>
+<dt><code>casesToDrop</code>:</dt><dd><p>Integer vector, specifying the rows and columns of the 'V' matrix to be removed at runtime.</p>
+</dd>
+<dt><code>b</code>:</dt><dd><p>A matrix, to contain the vector of regression coefficients calculated at runtime.</p>
+</dd>
+<dt><code>bcov</code>:</dt><dd><p>A matrix, to contain the sampling covariance matrix of the regression coefficients calculated at runtime.</p>
+</dd>
+<dt><code>numFixEff</code>:</dt><dd><p>Integer number of covariates in 'X.'</p>
+</dd>
+<dt><code>dims</code>:</dt><dd><p>Object of class <code>"character"</code>.</p>
+</dd>
+<dt><code>numStats</code>:</dt><dd><p>Numeric; number of observed statistics.</p>
+</dd>
+<dt><code>dataColumns</code>:</dt><dd><p>Object of class <code>"numeric"</code>.</p>
+</dd>
+<dt><code>name</code>:</dt><dd><p>Object of class <code>"character"</code>.</p>
+</dd>
+<dt><code>data</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.</p>
+</dd>
+<dt><code>.runDims</code>:</dt><dd><p>Object of class <code>"character"</code>.</p>
+</dd>
+</dl>
+
+
+
+<h3>Extends</h3>
+
+<p>Class <code>"MxBaseExpectation"</code>, directly.
+Class <code>"MxBaseNamed"</code>, by class &quot;MxBaseExpectation&quot;, distance 2.
+Class <code>"MxExpectation"</code>, by class &quot;MxBaseExpectation&quot;, distance 2.
+</p>
+
+
+<h3>Methods</h3>
+
+<p>No methods defined with class &quot;MxExpectationGREML&quot; in the signature.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at <a href="http://openmx.ssri.psu.edu/documentation">http://openmx.ssri.psu.edu/documentation</a>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>See <code><a href="mxExpectationGREML.html">mxExpectationGREML</a>()</code> for creating MxExpectationGREML objects, and for more information generally concerning GREML analyses, including a complete example. More information about the OpenMx package may be found <a href="OpenMx.html">here</a>. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+showClass("MxExpectationGREML")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

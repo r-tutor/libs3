@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Remove all instances of data from a model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxModelDeleteData {OpenMx}"><tr><td>omxModelDeleteData {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Remove all instances of data from a model</h2>
+
+<h3>Description</h3>
+
+<p>For very large data, it can be desirable to discard data after the model
+is run. That is what the purpose of this function.
+</p>
+<p>Data is discarded from the model and all submodels recursively.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxModelDeleteData(model)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>a MxModel object.</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+library(OpenMx)
+
+data(demoOneFactor)
+manifests &lt;- names(demoOneFactor)
+latents   &lt;- c("G")
+factorModel &lt;- mxModel(model="One Factor", type="RAM",
+      manifestVars = manifests,
+      latentVars   = latents,
+      mxPath(from=latents, to=manifests),
+      mxPath(from=manifests, arrows=2),
+      mxPath(from=latents, arrows=2,free=FALSE, values=1.0),
+      mxData(cov(demoOneFactor), type="cov",numObs=500)
+)
+factorFit &lt;-mxRun(factorModel)
+object.size(factorFit)
+factorFit &lt;- omxModelDeleteData(factorFit)
+object.size(factorFit)
+factorFit$data
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

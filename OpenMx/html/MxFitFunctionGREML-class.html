@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class '&quot;MxFitFunctionGREML&quot;'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for MxFitFunctionGREML-class {OpenMx}"><tr><td>MxFitFunctionGREML-class {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class <code>"MxFitFunctionGREML"</code></h2>
+
+<h3>Description</h3>
+
+<p><code>MxFitFunctionGREML</code> is the fitfunction class for GREML analyses.  
+</p>
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form <code>mxFitFunctionGREML(dV)</code>.
+</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>dV</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  Identifies the <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> or <code><a href="MxMatrix-class.html">MxMatrix</a></code> object(s) to serve as the derivatives of 'V' with respect to free parameters.</p>
+</dd>
+<dt><code>dVnames</code>:</dt><dd><p>Vector of character strings; names of the free parameters corresponding to slot <code>dV</code>.</p>
+</dd>
+<dt><code>MLfit</code>:</dt><dd><p>Object of class <code>"numeric"</code>, equal to the maximum-likelihood fitfunction value (as opposed to the restricted maximum-likelihood value).</p>
+</dd>
+<dt><code>numObs</code>:</dt><dd><p>Object of class <code>"integer"</code>.  Number of observations.</p>
+</dd>
+<dt><code>aug</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  Identifies the <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> or <code><a href="MxMatrix-class.html">MxMatrix</a></code> object used to &quot;augment&quot; the fitfunction value at each function evaluation during optimization.</p>
+</dd>
+<dt><code>augGrad</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  Identifies the <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> or <code><a href="MxMatrix-class.html">MxMatrix</a></code> object(s) to serve as the first derivatives of <code>aug</code> with respect to free parameters.</p>
+</dd>
+<dt><code>augHess</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  Identifies the <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> or <code><a href="MxMatrix-class.html">MxMatrix</a></code> object(s) to serve as the second derivatives of <code>aug</code> with respect to free parameters.</p>
+</dd>
+<dt><code>info</code>:</dt><dd><p>Object of class <code>"list"</code>.</p>
+</dd>
+<dt><code>dependencies</code>:</dt><dd><p>Object of class <code>"integer"</code>.</p>
+</dd>
+<dt><code>expectation</code>:</dt><dd><p>Object of class <code>"integer"</code>.</p>
+</dd>
+<dt><code>vector</code>:</dt><dd><p>Object of class <code>"logical"</code>.</p>
+</dd>
+<dt><code>rowDiagnostics</code>:</dt><dd><p>Object of class <code>"logical"</code>.</p>
+</dd>
+<dt><code>result</code>:</dt><dd><p>Object of class <code>"matrix"</code>.</p>
+</dd>
+<dt><code>name</code>:</dt><dd><p>Object of class <code>"character"</code>.</p>
+</dd>
+</dl>
+
+
+
+<h3>Extends</h3>
+
+<p>Class <code>"MxBaseFitFunction"</code>, directly.
+Class <code>"MxBaseNamed"</code>, by class &quot;MxBaseFitFunction&quot;, distance 2.
+Class <code>"MxFitFunction"</code>, by class &quot;MxBaseFitFunction&quot;, distance 2.
+</p>
+
+
+<h3>Methods</h3>
+
+<p>No methods defined with class &quot;MxFitFunctionGREML&quot; in the signature.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at <a href="http://openmx.ssri.psu.edu/documentation">http://openmx.ssri.psu.edu/documentation</a>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>See <code><a href="mxFitFunctionGREML.html">mxFitFunctionGREML</a>()</code> for creating MxFitFunctionGREML objects.  See <code><a href="mxExpectationGREML.html">mxExpectationGREML</a>()</code> for creating MxExpectationGREML objects, and for more information generally concerning GREML analyses, including a complete example. More information about the OpenMx package may be found <a href="OpenMx.html">here</a>. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+showClass("MxFitFunctionGREML")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Evaluate Values in MxModel</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxEval {OpenMx}"><tr><td>mxEval {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Evaluate Values in MxModel</h2>
+
+<h3>Description</h3>
+
+<p>This function can be used to evaluate an arbitrary R expression that includes named entities from a <a href="MxModel-class.html">MxModel</a> object, or labels from a <a href="MxMatrix-class.html">MxMatrix</a> object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxEval(expression, model, compute = FALSE, show = FALSE, defvar.row = 1,
+    cache = new.env(parent = emptyenv()), cacheBack = FALSE)
+
+mxEvalByName(name, model, compute = FALSE, show = FALSE, defvar.row = 1,
+    cache = new.env(parent = emptyenv()), cacheBack = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>expression</code></td>
+<td>
+<p>An arbitrary R expression.</p>
+</td></tr>
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>The model in which to evaluate the expression.</p>
+</td></tr>
+<tr valign="top"><td><code>compute</code></td>
+<td>
+<p>If TRUE then compute the value of algebra expressions
+and populate square bracket substitutions.</p>
+</td></tr>
+<tr valign="top"><td><code>show</code></td>
+<td>
+<p>If TRUE then print the translated expression.</p>
+</td></tr>
+<tr valign="top"><td><code>defvar.row</code></td>
+<td>
+<p>The row number for definition variables when compute=TRUE; defaults to 1.  When compute=FALSE, values for definition variables are always taken from the first (i.e., first before any automated sorting is done) row of the raw data.</p>
+</td></tr>
+<tr valign="top"><td><code>cache</code></td>
+<td>
+<p>An R environment of matrix values used to speedup computation.</p>
+</td></tr>
+<tr valign="top"><td><code>cacheBack</code></td>
+<td>
+<p>If TRUE then return the list pair (value, cache).</p>
+</td></tr>
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>The character name of an object to evaluate.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The argument &lsquo;expression&rsquo; is an arbitrary R expression.  Any named entities that are used within the R expression are translated into their current value from the model. Any labels from the matrices within the model are translated into their current value from the model. Finally the expression is evaluated and the result is returned.  To enable debugging, the &lsquo;show&rsquo; argument has been provided.  The most common mistake when using this function is to include named entities in the model that are identical to R function names.  For example, if a model contains a named entity named &lsquo;c&rsquo;, then the following mxEval call will return an error: <code>mxEval(c(A, B, C), model)</code>.
+</p>
+<p>The <code>mxEvalByName</code> function is a wrapper around <code>mxEval</code> that takes a character instead of an R expression.
+</p>
+<p>If &lsquo;compute&rsquo; is FALSE, then MxAlgebra expressions return their
+current values as they have been computed by the optimization call
+(using <a href="mxRun.html">mxRun</a>). If the &lsquo;compute&rsquo; argument is TRUE, then
+MxAlgebra expressions will be calculated in R and square bracket
+substitutions will be performed.  Any references to an objective
+function that has not yet been calculated will return a 1 x 1 matrix
+with a value of NA.
+</p>
+<p>The &lsquo;cache&rsquo; is used to speedup calculation by storing previously computing values. The cache is a list of matrices, such that names(cache) must all be of the form &ldquo;modelname.entityname&rdquo;. Setting &lsquo;cacheBack&rsquo; 
+to TRUE will return the pair list(value, cache) where value is the result of the mxEval() computation and cache is the updated cache.</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="mxAlgebra.html">mxAlgebra</a> to create algebraic expressions inside your model 
+and <a href="mxModel.html">mxModel</a> for the model object mxEval looks inside when evaluating. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+library(OpenMx)
+
+# Set up a 1x1 matrix
+matrixA &lt;- mxMatrix("Full", nrow = 1, ncol = 1, values = 1, name = "A")
+
+# Set up an algebra
+algebraB &lt;- mxAlgebra(A + A, name = "B")
+
+# Put them both in a model
+testModel &lt;- mxModel(model="testModel", matrixA, algebraB)
+
+# Even though the model has not been run, we can evaluate the algebra
+#   given the starting values in matrixA.
+mxEval(B, testModel, compute=TRUE)
+
+# If we just print the algebra, we can see it has not been evaluated
+testModel$B
+
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

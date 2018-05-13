@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Rename MxModel or a Submodel</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxRename {OpenMx}"><tr><td>mxRename {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Rename MxModel or a Submodel</h2>
+
+<h3>Description</h3>
+
+<p>This functions renames either the top model or a submodel to a new name.  All internal references to the old model name are replaced with references to the new name.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxRename(model, newname, oldname = NA)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>a MxModel object.</p>
+</td></tr>
+<tr valign="top"><td><code>newname</code></td>
+<td>
+<p>the new name of the model.</p>
+</td></tr>
+<tr valign="top"><td><code>oldname</code></td>
+<td>
+<p>the name of the target model to rename. If NA then rename top model.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>Return a <a href="mxModel.html">mxModel</a> object with the target model renamed.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+library(OpenMx)
+
+# create two empty models
+modelA &lt;- mxModel(model='modelA')
+modelB &lt;- mxModel(model='modelB')
+
+# create a parent model with two submodels
+modelC &lt;- mxModel(model='modelC', modelA, modelB)
+
+# Rename modelC to model1
+model1 &lt;- mxRename(modelC, 'model1')
+
+# Rename submodel modelB to model2
+model1 &lt;- mxRename(model1, oldname = 'modelB', newname = 'model2')
+
+model1
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

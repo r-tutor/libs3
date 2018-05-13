@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create MxBounds Object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxBounds {OpenMx}"><tr><td>mxBounds {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create MxBounds Object</h2>
+
+<h3>Description</h3>
+
+<p>This function creates a new <a href="MxBounds-class.html">MxBounds</a> object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxBounds(parameters, min = NA, max = NA)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>parameters</code></td>
+<td>
+<p>A character vector indicating the names of the parameters on which to apply bounds.</p>
+</td></tr>
+<tr valign="top"><td><code>min</code></td>
+<td>
+<p>A numeric value for the lower bound. NA means use default value.</p>
+</td></tr>
+<tr valign="top"><td><code>max</code></td>
+<td>
+<p>A numeric value for the upper bound. NA means use default value.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Creates a set of boundaries or limits for a parameter or set of parameters. Parameters may be any free parameter or parameters from an <a href="MxMatrix-class.html">MxMatrix</a> object. Parameters may be referenced either by name or by referring to their position in the 'spec' matrix of an <code>MxMatrix</code> object.
+</p>
+<p>Minima and maxima may be specified as scalar numeric values.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns a new <a href="MxBounds-class.html">MxBounds</a> object. If used as an argument in an <a href="MxModel-class.html">MxModel</a> object, the parameters referenced in the 'parameters' argument must also be included prior to optimization.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="MxBounds-class.html">MxBounds</a> for the S4 class created by mxBounds. <a href="MxMatrix-class.html">MxMatrix</a> and <a href="mxMatrix.html">mxMatrix</a> for free parameter specification. More information about the OpenMx package may be found <a href="OpenMx.html">here</a>. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+#Create lower and upper bounds for parameters 'A' and 'B'
+bounds &lt;- mxBounds(c('A', 'B'), 3, 5)
+
+#Create a lower bound of zero for a set of variance parameters
+varianceBounds &lt;- mxBounds(c('Var1', 'Var2', 'Var3'), 0)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>

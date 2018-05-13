@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Calculate Chi Square for a WLS Model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for imxWlsChiSquare {OpenMx}"><tr><td>imxWlsChiSquare {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Calculate Chi Square for a WLS Model</h2>
+
+<h3>Description</h3>
+
+<p>This is an internal function used to calculate the Chi Square distributed fit statistic for weighted least squares models.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+imxWlsChiSquare(model, J=NA)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>An MxModel object with acov (WLS) data</p>
+</td></tr>
+<tr valign="top"><td><code>J</code></td>
+<td>
+<p>Optional pre-computed Jacobian matrix</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The Chi Square fit statistic for models fit with maximum likelihood depends on the difference in model fit in minus two log likelihood units between the saturated model and the more restricted model under investigation.  For models fit with weighted least squares a different expression is required.  If <i>J</i> is the first derivative (Jacobian) of the mapping from the free parameters to the unique elements of the expected covariance, means, and threholds, <i>J_c</i> is the orthogonal complement of <i>J</i>, <i>W</i> is the inverse of the full weight matrix, and <i>e</i> is the differnce between the sample-estimated and model-implied covariance, means, and thresholds, then the Chi Square fit statistic is
+</p>
+<p style="text-align: center;"><i>&chi;^2 = e' J_c (J'_c W J_c)^-1 J'_c e</i></p>
+
+<p>with <i>e'</i> indicating the transpode of <i>e</i>.  This Equation 2.20a from Browne (1984) where he showed that this statistic is chi-square distributed with the conventional degrees of freedom.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A named list with components
+</p>
+
+<dl>
+<dt>Chi</dt><dd><p>numeric value of the Chi Square fit statistic.</p>
+</dd>
+<dt>ChiDoF</dt><dd><p>degrees of freedom for the Chi Square fit statistic.</p>
+</dd>
+</dl>
+
+
+
+<h3>References</h3>
+
+<p>M. W. Browne. (1984).  Asymptotically Distribution-Free Methods for the Analysis of Covariance Structures. <em>British Journal of Mathematical and Statistical Psychology, 37</em>, 62-83.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.9.9 <a href="00Index.html">Index</a>]</div>
+</body></html>
