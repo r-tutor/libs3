@@ -1,7 +1,7 @@
 Iteration report        Detailed iteration report of nleqslv
 nleqslv                 Solving systems of nonlinear equations with
                         Broyden or Newton
-nleqslv-package         Solving Nonlinear Systems of Equations
+nleqslv-package         Solve Systems of Nonlinear Equations
 print.test.nleqslv      Printing the result of 'testnslv'
 searchZeros             Solve a nonlinear equation system with multiple
                         roots from multiple initial estimates

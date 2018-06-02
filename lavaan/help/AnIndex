@@ -10,6 +10,7 @@ coef,lavaanList-method	lavaanList-class
 commutationMatrix	lavaan-deprecated
 cor2cov	getCov
 Demo.growth	Demo.growth
+Demo.twolevel	Demo.twolevel
 duplicationMatrix	lavaan-deprecated
 estfun.lavaan	estfun
 FacialBurns	FacialBurns
@@ -20,7 +21,6 @@ fitMeasures,lavaan-method	fitMeasures
 fitmeasures,lavaan-method	fitMeasures
 fitted,lavaan-method	lavaan-class
 fitted.values,lavaan-method	lavaan-class
-fsr	fsr
 getCov	getCov
 growth	growth
 HolzingerSwineford1939	HolzingerSwineford1939
@@ -77,6 +77,7 @@ lav_matrix_bdiag	lav_matrix
 lav_matrix_commutation	lav_matrix
 lav_matrix_commutation_mn_pre	lav_matrix
 lav_matrix_commutation_pre	lav_matrix
+lav_matrix_cov	lav_matrix
 lav_matrix_diagh_idx	lav_matrix
 lav_matrix_diag_idx	lav_matrix
 lav_matrix_duplication	lav_matrix

@@ -1,5 +1,7 @@
 Demo.growth             Demo dataset for a illustrating a linear growth
                         model.
+Demo.twolevel           Demo dataset for a illustrating a multilevel
+                        CFA.
 FacialBurns             Dataset for illustrating the InformativeTesting
                         function.
 HolzingerSwineford1939
@@ -12,7 +14,6 @@ bootstrapLavaan         Bootstrapping a Lavaan Model
 cfa                     Fit Confirmatory Factor Analysis Models
 estfun.lavaan           Extract Empirical Estimating Functions
 fitMeasures             Fit Measures for a Latent Variable Model
-fsr                     Factor Score Regression
 getCov                  Utility Functions For Covariance Matrices
 growth                  Fit Growth Curve Models
 inspectSampleCov        Observed Variable Correlation Matrix from a

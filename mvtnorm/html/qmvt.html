@@ -11,7 +11,8 @@
 
 <p>Computes the equicoordinate quantile function of the multivariate t
 distribution for arbitrary correlation matrices
-based on inversion of <code><a href="qmvt.html">qmvt</a></code>.
+based on inversion of <code><a href="pmvt.html">pmvt</a></code>, using a stochastic root
+finding algorithm described in Bornkamp (2018).
 </p>
 
 
@@ -118,6 +119,14 @@ function evaluated at the quantile and <code>p</code>.
 </p>
 
 
+<h3>References</h3>
+
+<p>Bornkamp, B. (2018). Calculating quantiles of noisy distribution
+functions using local linear regressions. <em>Computational
+Statistics</em>, <b>33</b>, 487&ndash;501.
+</p>
+
+
 <h3>See Also</h3>
 
 <p><code><a href="pmvnorm.html">pmvnorm</a></code>, <code><a href="qmvnorm.html">qmvnorm</a></code></p>
@@ -162,5 +171,5 @@ stopifnot(identical(qt95, qt95.c),
           identical(qt95, qt95.s))
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mvtnorm</em> version 1.0-7 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mvtnorm</em> version 1.0-8 <a href="00Index.html">Index</a>]</div>
 </body></html>

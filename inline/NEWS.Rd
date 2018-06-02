@@ -1,6 +1,20 @@
 \name{NEWS}
-\title{News for Package 'inline'}
-\newcommand{\cpkg}{\href{http://CRAN.R-project.org/package=#1}{\pkg{#1}}}
+\title{News for Package \pkg{inline}}
+\newcommand{\ghpr}{\href{https://github.com/eddelbuettel/inline/pull/#1}{##1}}
+\newcommand{\ghit}{\href{https://github.com/eddelbuettel/inline/issues/#1}{##1}}
+
+\section{Changes in inline version 0.3.15 (2018-05-18)}{
+  \itemize{
+    \item Correct \code{requireNamespace()} call thanks (Alexander
+    Grueneberg in \ghpr{5}).
+    \item Small simplification to \code{.travis.yml}; also switch to https.
+    \item Use \code{seq_along} instead of \code{seq(along=...)} (Watal
+    M. Iwasaki) in \ghpr{6}).
+    \item Update package manual page using references to
+    \code{DESCRIPTION} file [CRAN request].
+    \item Minor packaging updates.
+  }
+}
 
 \section{Changes in inline version 0.3.14 (2015-04-11)}{
   \itemize{

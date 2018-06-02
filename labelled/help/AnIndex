@@ -12,6 +12,8 @@ na_range<-	na_values
 na_values	na_values
 na_values<-	na_values
 nolabel_to_na	nolabel_to_na
+recode.labelled	recode.labelled
+remove_attributes	remove_attributes
 remove_labels	remove_labels
 remove_user_na	remove_labels
 remove_value_labels	val_labels
