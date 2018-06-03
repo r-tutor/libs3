@@ -43,9 +43,9 @@ that aspect of the site.
 <h3>Usage</h3>
 
 <pre>
-build_site(pkg = ".", examples = TRUE, run_dont_run = FALSE,
-  seed = 1014, mathjax = TRUE, lazy = FALSE, override = list(),
-  preview = NA)
+build_site(pkg = ".", examples = TRUE, document = TRUE,
+  run_dont_run = FALSE, seed = 1014, mathjax = TRUE, lazy = FALSE,
+  override = list(), preview = NA, new_process = TRUE)
 </pre>
 
 
@@ -59,6 +59,11 @@ build_site(pkg = ".", examples = TRUE, run_dont_run = FALSE,
 <tr valign="top"><td><code>examples</code></td>
 <td>
 <p>Run examples?</p>
+</td></tr>
+<tr valign="top"><td><code>document</code></td>
+<td>
+<p>If <code>TRUE</code>, will run <code><a href="../../devtools/html/document.html">devtools::document()</a></code> before
+updating the site.</p>
 </td></tr>
 <tr valign="top"><td><code>run_dont_run</code></td>
 <td>
@@ -88,6 +93,12 @@ values in <code>_pkgdown.yml</code></p>
 <p>If <code>TRUE</code>, or <code>is.na(preview) &amp;&amp; interactive()</code>, will preview
 freshly generated section in browser.</p>
 </td></tr>
+<tr valign="top"><td><code>new_process</code></td>
+<td>
+<p>If <code>TRUE</code>, will run <code>build_site()</code> in a separate process.
+This enhances reproducibility by ensuring nothing that you have loaded
+in the current process affects the build process.</p>
+</td></tr>
 </table>
 
 
@@ -116,7 +127,7 @@ text:</p>
     href: http://hadley.nz
   RStudio:
     href: https://www.rstudio.com
-    html: &lt;img src="http://tidyverse.org/rstudio-logo.svg" height="24" /&gt;
+    html: &lt;img src="https://tidyverse.org/rstudio-logo.svg" height="24" /&gt;
 </pre>
 
 
@@ -291,6 +302,11 @@ correspond to your
   params:
     ganalytics: UA-000000-01
 </pre>
+<p>Suppress indexing of your pages by web robots by setting <code>noindex: true</code>:</p>
+<pre>template:
+  params:
+    noindex: true
+</pre>
 <p>You can also override the default templates and provide additional
 assets. You can do so by either storing in a <code>package</code> with
 directories <code>inst/pkgdown/assets</code> and <code>inst/pkgdown/templates</code>,
@@ -323,5 +339,5 @@ build_site(override = list(destination = tempdir()))
 ## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>pkgdown</em> version 1.0.0 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>pkgdown</em> version 1.1.0 <a href="00Index.html">Index</a>]</div>
 </body></html>

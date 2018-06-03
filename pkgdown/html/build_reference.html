@@ -19,9 +19,9 @@ below.
 <h3>Usage</h3>
 
 <pre>
-build_reference(pkg = ".", lazy = TRUE, examples = TRUE,
-  run_dont_run = FALSE, mathjax = TRUE, seed = 1014, override = list(),
-  preview = NA)
+build_reference(pkg = ".", lazy = TRUE, document = FALSE,
+  examples = TRUE, run_dont_run = FALSE, mathjax = TRUE, seed = 1014,
+  override = list(), preview = NA)
 
 build_reference_index(pkg = ".")
 </pre>
@@ -39,6 +39,11 @@ build_reference_index(pkg = ".")
 <p>If <code>TRUE</code>, only rebuild pages where the <code>.Rd</code>
 is more recent than the <code>.html</code>. This makes it much easier to
 rapidly protoype. It is set to <code>FALSE</code> by <code><a href="build_site.html">build_site()</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>document</code></td>
+<td>
+<p>If <code>TRUE</code>, will run <code><a href="../../devtools/html/document.html">devtools::document()</a></code> before
+updating the site.</p>
 </td></tr>
 <tr valign="top"><td><code>examples</code></td>
 <td>
@@ -126,7 +131,7 @@ field in <code>_pkgdown.yml</code>. The default settings are equivalent to:</p>
 
 <p>You can optionally supply an icon for each help topic. To do so, you'll
 need a top-level <code>icons</code> directory. This should contain .png files
-that are either 40x40 (for regular display) or 80x80 (if you want
+that are either 30x30 (for regular display) or 60x60 (if you want
 retina display). Icons are matched to topics by aliases.
 </p>
 
@@ -162,5 +167,5 @@ a + b
 
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>pkgdown</em> version 1.0.0 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>pkgdown</em> version 1.1.0 <a href="00Index.html">Index</a>]</div>
 </body></html>
