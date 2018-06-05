@@ -22,5 +22,5 @@ party-predict           Tree Predictions
 partynode               Inner and Terminal Nodes
 partynode-methods       Methods for Node Objects
 partysplit              Binary and Multiway Splits
-prune.modelparty        Post prune 'modelparty' objects.
+prune.modelparty        Post-Prune 'modelparty' Objects
 varimp                  Variable Importance

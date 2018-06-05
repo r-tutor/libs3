@@ -2,7 +2,7 @@ Package: leaflet
 Type: Package
 Title: Create Interactive Web Maps with the JavaScript 'Leaflet'
         Library
-Version: 2.0.0
+Version: 2.0.1
 Authors@R: c(
       person("Joe", "Cheng", email = "joe@rstudio.com", role = c("aut", "cre")),
       person("Bhaskar", "Karambelkar", role = c("aut")),
@@ -45,7 +45,7 @@ Suggests: knitr, maps, sf, shiny, testit (>= 0.4), rgdal, rgeos, R6,
 RoxygenNote: 6.0.1
 LazyData: true
 NeedsCompilation: no
-Packaged: 2018-04-20 17:46:08 UTC; barret
+Packaged: 2018-06-04 19:20:59 UTC; barret
 Author: Joe Cheng [aut, cre],
   Bhaskar Karambelkar [aut],
   Yihui Xie [aut],
@@ -70,5 +70,5 @@ Author: Joe Cheng [aut, cre],
   Michael Bostock [ctb, cph] (topojson),
   RStudio [cph]
 Repository: CRAN
-Date/Publication: 2018-04-20 23:06:13 UTC
-Built: R 3.4.4; ; 2018-04-25 03:36:34 UTC; windows
+Date/Publication: 2018-06-04 20:43:50 UTC
+Built: R 3.4.4; ; 2018-06-05 13:18:05 UTC; windows

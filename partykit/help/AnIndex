@@ -112,6 +112,7 @@ print.party	party-methods
 print.partynode	partynode-methods
 print.simpleparty	party-methods
 prob_split	partysplit
+prune.lmtree	prune.modelparty
 prune.modelparty	prune.modelparty
 refit.modelparty	mob
 residuals.modelparty	mob

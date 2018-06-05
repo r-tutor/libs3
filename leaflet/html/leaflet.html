@@ -24,7 +24,8 @@ Refer to <a href="https://kartena.github.io/Proj4Leaflet/api/">https://kartena.g
 
 <pre>
 leaflet(data = NULL, width = NULL, height = NULL, padding = 0,
-  options = leafletOptions(), elementId = NULL)
+  options = leafletOptions(), elementId = NULL,
+  sizingPolicy = leafletSizingPolicy(padding = padding))
 
 leafletOptions(minZoom = NULL, maxZoom = NULL, crs = leafletCRS(),
   worldCopyJump = NULL, preferCanvas = NULL, ...)
@@ -68,6 +69,10 @@ spatial data frames from the <span class="pkg">sf</span> package.</p>
 <td>
 <p>Use an explicit element ID for the widget
 (rather than an automatically generated one).</p>
+</td></tr>
+<tr valign="top"><td><code>sizingPolicy</code></td>
+<td>
+<p>htmlwidgets sizing policy object. Defaults to <code><a href="leafletSizingPolicy.html">leafletSizingPolicy</a>()</code></p>
 </td></tr>
 <tr valign="top"><td><code>minZoom</code></td>
 <td>
@@ -345,5 +350,5 @@ m %&gt;% addCircleMarkers(~lng, ~lat, radius = ~size,
 
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>leaflet</em> version 2.0.0 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>leaflet</em> version 2.0.1 <a href="00Index.html">Index</a>]</div>
 </body></html>
