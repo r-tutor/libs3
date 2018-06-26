@@ -18,5 +18,5 @@ NeedsCompilation: yes
 Repository: CRAN
 Packaged: 2018-04-03 07:33:40 UTC; dalex
 Date/Publication: 2018-04-03 08:24:49 UTC
-Built: R 3.4.4; x86_64-w64-mingw32; 2018-04-05 02:59:26 UTC; windows
-Archs: x64
+Built: R 3.5.0; i386-w64-mingw32; 2018-06-22 08:22:56 UTC; windows
+Archs: i386, x64

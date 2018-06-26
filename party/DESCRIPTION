@@ -46,5 +46,5 @@ Author: Torsten Hothorn [aut, cre] (<https://orcid.org/0000-0001-8301-0471>),
 Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
 Repository: CRAN
 Date/Publication: 2018-04-20 14:48:06 UTC
-Built: R 3.4.4; x86_64-w64-mingw32; 2018-04-25 03:40:12 UTC; windows
+Built: R 3.5.0; x86_64-w64-mingw32; 2018-06-22 11:54:22 UTC; windows
 Archs: i386, x64

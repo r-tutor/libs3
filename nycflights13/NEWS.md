@@ -1,3 +1,13 @@
+# nycflights13 1.0.0
+
+* `weather$time_hour` and `flights$time_hour` are now stored in the 
+  America/New_York timezone (#19).
+
+* `weather` data updated from latest Iowa State mesonet (@rmcd1024, #24).
+  `wind_gust` is now correctly captured from the underlying data, rather than 
+  being a copy of `wind_speed`. `precip` is better captures the hourly 
+  preciptation (which tends to be recorded at 51 minutes past the hour) (#27) 
+
 # nycflights13 0.2.2
 
 * Import function from tibble to suppress R CMD check NOTE.

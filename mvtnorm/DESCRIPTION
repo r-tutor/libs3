@@ -32,5 +32,5 @@ Author: Alan Genz [aut],
 Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
 Repository: CRAN
 Date/Publication: 2018-05-31 20:38:18 UTC
-Built: R 3.4.4; x86_64-w64-mingw32; 2018-06-02 03:33:34 UTC; windows
+Built: R 3.5.0; x86_64-w64-mingw32; 2018-06-04 22:27:28 UTC; windows
 Archs: i386, x64

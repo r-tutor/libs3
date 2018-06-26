@@ -2,8 +2,8 @@ Package: metricsgraphics
 Type: Package
 Title: Create Interactive Charts with the JavaScript 'MetricsGraphics'
         Library
-Version: 0.9.1
-Date: 2016-04-24
+Version: 0.9.0
+Date: 2015-12-21
 Authors@R: c(
       person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")),
       person("Ali", "Almossawi", role = c("ctb", "cph"), comment = "MetricsGraphics library"),
@@ -15,7 +15,7 @@ Maintainer: Bob Rudis <bob@rudis.net>
 Description: Provides an 'htmlwidgets' interface to the
     'MetricsGraphics.js' ('D3'-based) charting library which is geared towards
     displaying time-series data. Chart types include line charts, scatterplots,
-    histograms and rudimentary bar charts. Support for laying out mutiple charts
+    histograms and rudimentary bar charts. Support for laying out multiple charts
     into a grid layout is also provided. All charts are interactive and many
     have an option for line, label and region annotations.
 URL: http://github.com/hrbrmstr/metricsgraphics
@@ -28,19 +28,13 @@ Depends: R (>= 3.0.0)
 Imports: magrittr, htmlwidgets, htmltools
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
+NeedsCompilation: no
+Packaged: 2015-12-21 12:19:51 UTC; hrbrmstr
 Author: Bob Rudis [aut, cre],
   Ali Almossawi [ctb, cph] (MetricsGraphics library),
   Hamilton Ulmer [ctb, cph] (MetricsGraphics library),
   Mozilla [cph] (MetricsGraphics library),
   jQuery Foundation and contributors [ctb, cph] (jQuery library)
-Built: R 3.4.3; ; 2018-02-06 22:03:42 UTC; windows
-RemoteType: github
-RemoteHost: api.github.com
-RemoteRepo: metricsgraphics
-RemoteUsername: hrbrmstr
-RemoteRef: master
-RemoteSha: 97d514bce6d401f9345b3709f60e0d65e61f7906
-GithubRepo: metricsgraphics
-GithubUsername: hrbrmstr
-GithubRef: master
-GithubSHA1: 97d514bce6d401f9345b3709f60e0d65e61f7906
+Repository: CRAN
+Date/Publication: 2015-12-21 15:29:04
+Built: R 3.5.0; ; 2018-06-22 12:13:58 UTC; windows

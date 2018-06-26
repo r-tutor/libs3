@@ -29,5 +29,5 @@ Author: Chris Fraley [aut],
   Michael Fop [ctb]
 Maintainer: Luca Scrucca <luca.scrucca@unipg.it>
 Date/Publication: 2017-11-22 10:21:55 UTC
-Built: R 3.4.2; x86_64-w64-mingw32; 2017-11-25 00:34:25 UTC; windows
+Built: R 3.5.0; x86_64-w64-mingw32; 2018-06-22 08:28:20 UTC; windows
 Archs: i386, x64

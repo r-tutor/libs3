@@ -33,5 +33,5 @@ Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Repository: CRAN
 Date/Publication: 2018-05-11 20:09:05 UTC
-Built: R 3.4.4; x86_64-w64-mingw32; 2018-05-13 22:45:24 UTC; windows
+Built: R 3.5.0; x86_64-w64-mingw32; 2018-06-22 12:26:36 UTC; windows
 Archs: i386, x64

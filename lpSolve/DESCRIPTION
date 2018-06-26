@@ -15,5 +15,5 @@ NeedsCompilation: yes
 Packaged: 2015-09-18 22:53:52 UTC; sebuttre
 Repository: CRAN
 Date/Publication: 2015-09-19 10:00:23
-Built: R 3.4.0; x86_64-w64-mingw32; 2017-04-22 14:18:46 UTC; windows
+Built: R 3.5.0; x86_64-w64-mingw32; 2018-04-21 03:20:56 UTC; windows
 Archs: i386, x64

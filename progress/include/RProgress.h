@@ -17,6 +17,7 @@
 #include <cstring>
 #include <cstdlib>
 
+#include <R.h>
 #include <Rinternals.h>
 #include <R_ext/Print.h>
 
@@ -46,10 +47,10 @@ class RProgress {
 	    bool clear = true,
 	    double show_after = 0.2) :
 
-    first(true), format(format), total(total), current(0), width(width),
-    complete_char(complete_char), incomplete_char(incomplete_char),
-    clear(clear), show_after(show_after), last_draw(""), start(0),
-    toupdate(false), complete(false) {
+    first(true), format(format), total(total), current(0), count(0),
+    width(width), complete_char(complete_char),
+    incomplete_char(incomplete_char), clear(clear), show_after(show_after),
+    last_draw(""), start(0), toupdate(false), complete(false) {
 
     supported = is_supported();
     use_stderr = default_stderr();
@@ -141,8 +142,12 @@ class RProgress {
     replace_all(str, ":eta", eta);
 
     // rate
-    double rate_num = current / elapsed_secs;
-    buffer << pretty_bytes(round(rate_num)) << "/s";
+    if (elapsed_secs == 0) {
+      buffer << "?";
+    } else {
+      double rate_num = elapsed_secs == 0 ? 0 : current / elapsed_secs;
+      buffer << pretty_bytes(lround(rate_num)) << "/s";
+    }
     replace_all(str, ":rate", buffer.str());
     buffer.str(""); buffer.clear();
 
@@ -157,7 +162,7 @@ class RProgress {
     buffer.str(""); buffer.clear();
 
     // bytes
-    replace_all(str, ":bytes", pretty_bytes(round(current)));
+    replace_all(str, ":bytes", pretty_bytes(lround(current)));
 
     // spin
     replace_all(str, ":spin", spin_symbol());
@@ -165,17 +170,19 @@ class RProgress {
     // bar
     std::string str_no_bar = str;
     replace_all(str_no_bar, ":bar", "");
-    int bar_width = width - str_no_bar.length();
+    long int bar_width = width - str_no_bar.length();
     if (bar_width < 0) bar_width = 0;
 
     double complete_len = round(bar_width * ratio_now);
-    char bar[bar_width + 1];
+    char *bar = (char*) calloc(bar_width + 1, sizeof(char));
+    if (!bar) Rf_error("Progress bar: out of memory");
     for (int i = 0; i < complete_len; i++) { bar[i] = complete_char; }
-    for (int i = complete_len; i < bar_width; i++) {
+    for (long int i = (long int) complete_len; i < bar_width; i++) {
       bar[i] = incomplete_char;
     }
     bar[bar_width] = '\0';
     replace_all(str, ":bar", bar);
+    free(bar);
 
     if (last_draw != str) {
       if (last_draw.length() > str.length()) { clear_line(use_stderr, width); }
@@ -217,7 +224,8 @@ class RProgress {
 
   void clear_line(bool use_stderr, int width) {
 
-    char spaces[width + 2];
+    char *spaces = (char*) calloc(width + 2, sizeof(char));
+    if (!spaces) Rf_error("Progress bar: out of memory");
     for (int i = 1; i <= width; i++) spaces[i] = ' ';
     spaces[0] = '\r';
     spaces[width + 1] = '\0';
@@ -227,6 +235,7 @@ class RProgress {
     } else {
       Rprintf(spaces);
     }
+    free(spaces);
   }
 
   void cursor_to_start(bool use_stderr) {
@@ -265,7 +274,8 @@ class RProgress {
 
   bool is_supported() {
 
-    return isatty(1) || is_r_studio() || is_r_app();
+    return is_option_enabled() &&
+      (isatty(1) || is_r_studio() || is_r_app());
   }
 
   // gettimeofday for windows, from
@@ -350,7 +360,7 @@ public:
 
     std::string units[] = { "B", "kB", "MB", "GB", "TB", "PB", "EB",
 			    "ZB", "YB" };
-    int num_units = std::floor(sizeof(units) / sizeof(units[0]));
+    long int num_units = (long int)(sizeof(units) / sizeof(units[0]));
     double idx = std::floor(std::log(bytes) / std::log(1000.0));
     if (idx >= num_units) { idx = num_units - 1; }
 
@@ -360,6 +370,17 @@ public:
     buffer.precision(2);
     buffer << std::fixed << res << units[(long) idx];
     return buffer.str();
+  }
+
+  static bool is_option_enabled() {
+    SEXP opt = PROTECT(Rf_GetOption1(Rf_install("progress_enabled")));
+    if (Rf_isNull(opt)) {
+      UNPROTECT(1);
+      return true;
+    }
+    Rboolean t = R_compute_identical(opt, Rf_ScalarLogical(1), 16);
+    UNPROTECT(1);
+    return t;
   }
 
 }; // class RProgress

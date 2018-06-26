@@ -25,5 +25,5 @@ Author: Jim Baglama [aut, cph],
 Maintainer: B. W. Lewis <blewis@illposed.net>
 Repository: CRAN
 Date/Publication: 2018-01-11 15:52:15 UTC
-Built: R 3.4.3; x86_64-w64-mingw32; 2018-01-21 19:04:38 UTC; windows
+Built: R 3.5.0; x86_64-w64-mingw32; 2018-06-22 08:40:16 UTC; windows
 Archs: i386, x64
