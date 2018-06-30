@@ -12,6 +12,7 @@ has_compiler	has_compiler
 has_devel	has_compiler
 has_latex	has_latex
 has_rtools	has_rtools
+pkgbuild_process	pkgbuild_process
 pkg_has_src	pkg_has_src
 rcmd_build_tools	rcmd_build_tools
 rtools_path	has_rtools

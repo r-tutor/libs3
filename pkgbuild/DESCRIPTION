@@ -1,14 +1,16 @@
 Package: pkgbuild
 Title: Find Tools Needed to Build R Packages
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: c(
-    person("Hadley", "Wickham", , "hadley@rstudio.com", role = c("aut", "cre")),
+    person("Hadley", "Wickham", role = "aut"),
+    person("Jim", "Hester", , "james.hester@rstudio.com", role = c("aut", "cre")),
     person("RStudio", role = "cph")
   )
-Description: You need a little help to reliably compile C code and build
-    packages across platforms. This package provides such help.
-Imports: callr, desc, rprojroot, withr
-Remotes: r-lib/callr@HEAD
+Description: Provides functions used to build R packages. Locates compilers
+  needed to build R packages on various platforms and ensures the PATH is
+  configured appropriately so R can use them.
+Imports: callr (>= 2.0.0), crayon, desc, R6, rprojroot, withr (>=
+        2.1.2)
 Suggests: Rcpp, testthat, covr
 License: GPL-3
 Encoding: UTF-8
@@ -16,19 +18,13 @@ LazyData: true
 RoxygenNote: 6.0.1
 URL: https://github.com/r-pkgs/pkgbuild
 BugReports: https://github.com/r-pkgs/pkgbuild/issues
-Roxygen: list(markdown = TRUE)
 Depends: R (>= 3.1)
-Author: Hadley Wickham [aut, cre],
+NeedsCompilation: no
+Packaged: 2018-06-27 14:22:02 UTC; jhester
+Author: Hadley Wickham [aut],
+  Jim Hester [aut, cre],
   RStudio [cph]
-Maintainer: Hadley Wickham <hadley@rstudio.com>
-Built: R 3.4.3; ; 2018-01-30 20:33:03 UTC; windows
-RemoteType: github
-RemoteHost: https://api.github.com
-RemoteRepo: pkgbuild
-RemoteUsername: r-lib
-RemoteRef: master
-RemoteSha: a227b6450442b208b714f4bad0a7b842b38273e8
-GithubRepo: pkgbuild
-GithubUsername: r-lib
-GithubRef: master
-GithubSHA1: a227b6450442b208b714f4bad0a7b842b38273e8
+Maintainer: Jim Hester <james.hester@rstudio.com>
+Repository: CRAN
+Date/Publication: 2018-06-27 15:19:12 UTC
+Built: R 3.5.0; ; 2018-06-27 22:59:37 UTC; windows

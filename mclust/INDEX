@@ -64,6 +64,7 @@ gmmhd                   Identifying Connected Components in Gaussian
 hc                      Model-based Hierarchical Clustering
 hcE                     Model-based Hierarchical Clustering
 hclass                  Classifications from Hierarchical Agglomeration
+hdrlevels               Highest Density Region (HDR) Levels
 hypvol                  Aproximate Hypervolume for Multivariate Data
 icl                     ICL for an estimated Gaussian Mixture Model
 imputeData              Missing data imputation via the 'mix' package
@@ -148,7 +149,7 @@ summary.MclustDR        Summarizing dimension reduction method for
 summary.mclustBIC       Summary function for model-based clustering via
                         BIC
 surfacePlot             Density or uncertainty surface for bivariate
-                        mixtures.
+                        mixtures
 thyroid                 Thyroid gland data
 uncerPlot               Uncertainty Plot for Model-Based Clustering
 unmap                   Indicator Variables given Classification
