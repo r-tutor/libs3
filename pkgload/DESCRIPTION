@@ -1,34 +1,36 @@
 Package: pkgload
 Title: Simulate Package Installation and Attach
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: c(
-    person("Hadley", "Wickham", , "hadley@rstudio.com", role = c("aut", "cre")),
-    person("RStudio", role = "cph")
-  )
-Description: pkgload is simulates the process of installing a package
-    and then attaching it. This is a key part of devtools as it allows you
-    to rapidly iterate with a package.
-Imports: withr, methods, rstudioapi, pkgbuild, rlang, rprojroot, desc
-Suggests: Rcpp, testthat, covr, bitops
-Remotes: r-lib/pkgbuild, tidyverse/rlang
+    person("Hadley", "Wickham", role = "aut"),
+    person("Jim", "Hester", , "james.hester@rstudio.com", role = c("aut", "cre")),
+    person("Winston", "Chang", role = "aut"),
+    person("RStudio", role = "cph"),
+    person("R Core team", role = "ctb",
+      comment = "Some namespace and vignette code extracted from base R")
+    )
+Description: Simulates the process of installing a package
+    and then attaching it. This is a key part of the 'devtools' package as it
+    allows you to rapidly iterate while developing a package.
 License: GPL-3
+URL: https://github.com/r-lib/pkgload
+BugReports: https://github.com/r-lib/pkgload/issues
+Imports: desc, methods, pkgbuild, rlang, rprojroot, rstudioapi, utils,
+        withr
+Suggests: bitops, covr, Rcpp, testthat
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-URL: https://github.com/r-lib/pkgload
-BugReports: https://github.com/r-lib/pkgload/issues
-Roxygen: list(markdown = TRUE)
-Author: Hadley Wickham [aut, cre],
-  RStudio [cph]
-Maintainer: Hadley Wickham <hadley@rstudio.com>
-Built: R 3.4.3; ; 2018-01-30 20:33:31 UTC; windows
-RemoteType: github
-RemoteHost: https://api.github.com
-RemoteRepo: pkgload
-RemoteUsername: r-lib
-RemoteRef: master
-RemoteSha: 158834996f80c78370c308842bd3df5dab328f99
-GithubRepo: pkgload
-GithubUsername: r-lib
-GithubRef: master
-GithubSHA1: 158834996f80c78370c308842bd3df5dab328f99
+NeedsCompilation: yes
+Packaged: 2018-06-29 12:34:46 UTC; jhester
+Author: Hadley Wickham [aut],
+  Jim Hester [aut, cre],
+  Winston Chang [aut],
+  RStudio [cph],
+  R Core team [ctb] (Some namespace and vignette code extracted from base
+    R)
+Maintainer: Jim Hester <james.hester@rstudio.com>
+Repository: CRAN
+Date/Publication: 2018-07-07 22:00:03 UTC
+Built: R 3.5.1; x86_64-w64-mingw32; 2018-07-11 11:09:00 UTC; windows
+Archs: i386, x64

@@ -9,12 +9,12 @@ Description: Contains some functions catching all messages, 'stdout' and other
     in 'pandoc' markdown or several type of R objects similarly automatically
     transformed to markdown format. Also capable of exporting/converting (the
     resulting) complex 'pandoc' documents to e.g. HTML, 'PDF', 'docx' or 'odt'. This
-    latter reporting feature is supported in brew syntax or with a custom
-    reference class with a smarty caching 'backend'.
+    latter reporting feature is supported in brew syntax or with a custom reference
+    class with a smarty caching 'backend'.
 Author: Gergely Daróczi <daroczig@rapporter.net>, Roman Tsegelskyi
     <roman.tsegelskyi@gmail.com>
-Version: 0.6.1
-Date: 2017-08-04
+Version: 0.6.2
+Date: 2018-07-07
 URL: http://rapporter.github.io/pander
 BugReports: https://github.com/rapporter/pander/issues
 License: AGPL-3 | file LICENSE
@@ -31,8 +31,8 @@ LinkingTo: Rcpp
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 NeedsCompilation: yes
-Packaged: 2017-08-06 12:33:36 UTC; daroczig
+Packaged: 2018-07-08 01:12:39 UTC; daroczig
 Repository: CRAN
-Date/Publication: 2017-08-06 16:21:29 UTC
-Built: R 3.5.0; x86_64-w64-mingw32; 2018-06-22 08:41:05 UTC; windows
+Date/Publication: 2018-07-08 04:30:09 UTC
+Built: R 3.5.1; x86_64-w64-mingw32; 2018-07-11 09:05:39 UTC; windows
 Archs: i386, x64
