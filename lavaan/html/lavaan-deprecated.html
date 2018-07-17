@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Deprecated Functions in the lavaan package</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for lavaan-deprecated {lavaan}"><tr><td>lavaan-deprecated {lavaan}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Deprecated Functions in the lavaan package</h2>
+
+<h3>Description</h3>
+
+<p>These functions have been renamed, or have been removed. They
+are still included in this version for convenience, but they may be 
+eventually removed.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+vech(S, diagonal = TRUE)
+vechr(S, diagonal = TRUE)
+vechu(S, diagonal = TRUE)
+vechru(S, diagonal = TRUE)
+vech.reverse(x, diagonal = TRUE)
+vechru.reverse(x, diagonal = TRUE)
+vechr.reverse(x, diagonal = TRUE)
+vechu.reverse(x, diagonal = TRUE)
+lower2full(x, diagonal = TRUE)
+upper2full(x, diagonal = TRUE)
+duplicationMatrix(n = 1L)
+commutationMatrix(m = 1L, n = 1L)
+sqrtSymmetricMatrix(S)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>S</code></td>
+<td>
+<p>A symmetric matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>A numeric vector containing the lower triangular or upper 
+triangular elements of a symmetric
+matrix, possibly including the diagonal elements.</p>
+</td></tr>
+<tr valign="top"><td><code>diagonal</code></td>
+<td>
+<p>Logical. If <code>TRUE</code>, the diagonal is included. If
+<code>FALSE</code>, the diagonal is not included.</p>
+</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+<p>Integer. Dimension of the symmetric matrix, or column dimension
+of a non-square matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>m</code></td>
+<td>
+<p>Integer. Row dimension of a matrix.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The <code>vech</code> function has been renamed <code>lav_matrix_vech</code>.
+</p>
+<p>The <code>vech.reverse</code> function has been renamed <code>lav_matrix_vech_reverse</code>.
+</p>
+<p>The <code>lower2full</code> function has been renamed <code>lav_matrix_lower2full</code>.
+</p>
+<p>The <code>duplicationMatrix</code> function has been renamed <code>lav_matrix_duplication</code>.
+</p>
+<p>The <code>commutationMatrix</code> function has been renamed <code>lav_matrix_commutation</code>.
+</p>
+<p>The <code>sqrtSymmetricMatrix</code> function has been renamed <code>lav_matrix_symmetric_sqrt</code>.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>lavaan</em> version 0.6-2 <a href="00Index.html">Index</a>]</div>
+</body></html>
