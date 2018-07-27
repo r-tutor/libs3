@@ -9,6 +9,7 @@ file_info               Query file metadata
 file_move               Move or rename files
 file_show               Open files or directories
 file_temp               Create names for temporary files
+file_touch              Change file access and modification times
 fs_bytes                Human readable file sizes
 fs_path                 File paths
 fs_perms                Create, modify and view file permissions

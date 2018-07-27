@@ -1,3 +1,4 @@
+TeX                     Render TeX in a plotly graph using MathJax
 add_annotations         Add an annotation(s) to a plot
 add_data                Add data to a plotly visualization
 add_fun                 Apply function to plot, without modifying data
@@ -16,9 +17,6 @@ event_data              Access plotly user input event data in shiny
 export                  Export a plotly graph to a static file
 geom2trace              Convert a "basic" geoms to a plotly.js trace.
 get_figure              Request a figure object
-get_l                   Obtain number of points comprising a geometry
-get_x                   Obtain x coordinates of sf geometry/geometries
-get_y                   Obtain y coordinates of sf geometry/geometries
 gg2list                 Convert a ggplot to a list.
 ggplotly                Convert ggplot2 to plotly
 group2NA                Separate groups with missing values
@@ -27,6 +25,7 @@ hide_guides             Hide guides (legends and colorbars)
 hide_legend             Hide legend
 highlight               Query graphical elements in multiple linked
                         views
+highlight_key           Highlight/query data based on primary key
 hobbs                   Hobbs data
 knit_print.api_grid     Embed a plotly grid as an iframe in a knitr doc
 knit_print.api_grid_local
@@ -38,6 +37,8 @@ last_plot               Retrieve the last plot to be modified or
 layout                  Modify the layout of a plotly visualization
 mic                     Mic data
 offline                 Plotly Offline
+orca                    Static image export via orca
+partial_bundle          Use a partial bundle of plotly.js
 plot_dendro             Plot an interactive dendrogram
 plot_geo                Initiate a plotly-geo object
 plot_ly                 Initiate a plotly visualization
@@ -59,6 +60,7 @@ rangeslider             Add a range slider to the x-axis
 raster2uri              Convert a raster object to a data URI
 remove_typedarray_polyfill
                         Remove TypedArray polyfill
+res_mn                  Minnesotan Indian Reservation Lands
 schema                  Acquire (and optionally display) plotly's plot
                         schema
 showRGB                 View colors already formatted by toRGB()

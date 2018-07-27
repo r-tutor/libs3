@@ -26,6 +26,7 @@ file_show	file_show
 file_temp	file_temp
 file_temp_pop	file_temp
 file_temp_push	file_temp
+file_touch	file_touch
 fs	fs-package
 fs_bytes	fs_bytes
 fs_path	fs_path
@@ -53,6 +54,7 @@ path_ext_remove	path_file
 path_ext_set	path_file
 path_file	path_file
 path_filter	path_filter
+path_has_parent	path_math
 path_home	path_expand
 path_home_r	path_expand
 path_join	path_math
@@ -65,4 +67,5 @@ path_sanitize	path_sanitize
 path_split	path_math
 path_temp	file_temp
 path_tidy	path_tidy
+path_wd	path
 user_ids	id

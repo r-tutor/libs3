@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Variable importance using Garson's algorithm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for garson {NeuralNetTools}"><tr><td>garson {NeuralNetTools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Variable importance using Garson's algorithm</h2>
+
+<h3>Description</h3>
+
+<p>Relative importance of input variables in neural networks using Garson's algorithm
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+garson(mod_in, ...)
+
+## Default S3 method:
+garson(mod_in, x_names, y_names, bar_plot = TRUE,
+  x_lab = NULL, y_lab = NULL, ...)
+
+## S3 method for class 'numeric'
+garson(mod_in, struct, ...)
+
+## S3 method for class 'nnet'
+garson(mod_in, ...)
+
+## S3 method for class 'mlp'
+garson(mod_in, ...)
+
+## S3 method for class 'nn'
+garson(mod_in, ...)
+
+## S3 method for class 'train'
+garson(mod_in, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>mod_in</code></td>
+<td>
+<p>input model object or a list of model weights as returned from <code><a href="neuralweights.html">neuralweights</a></code> if using the default method</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>arguments passed to other methods</p>
+</td></tr>
+<tr valign="top"><td><code>x_names</code></td>
+<td>
+<p>chr string of input variable names, obtained from the model object</p>
+</td></tr>
+<tr valign="top"><td><code>y_names</code></td>
+<td>
+<p>chr string of response variable names, obtained from the model object</p>
+</td></tr>
+<tr valign="top"><td><code>bar_plot</code></td>
+<td>
+<p>logical indicating if a <code>ggplot</code> object is returned (default <code>T</code>), otherwise numeric values are returned</p>
+</td></tr>
+<tr valign="top"><td><code>x_lab</code></td>
+<td>
+<p>chr string of alternative names to be used for explanatory variables in the figure, default is taken from <code>mod_in</code></p>
+</td></tr>
+<tr valign="top"><td><code>y_lab</code></td>
+<td>
+<p>chr string of alternative name to be used for the y-axis in the figure</p>
+</td></tr>
+<tr valign="top"><td><code>struct</code></td>
+<td>
+<p>numeric vector equal in length to the number of layers in the network.  Each number indicates the number of nodes in each layer starting with the input and ending with the output.  An arbitrary number of hidden layers can be included.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The weights that connect variables in a neural network are partially analogous to parameter coefficients in a standard regression model and can be used to describe relationships between variables. The weights dictate the relative influence of information that is processed in the network such that input variables that are not relevant in their correlation with a response variable are suppressed by the weights. The opposite effect is seen for weights assigned to explanatory variables that have strong positive or negative associations with a response variable. An obvious difference between a neural network and a regression model is that the number of weights is excessive in the former case. This characteristic is advantageous in that it makes neural networks very flexible for modeling non-linear functions with multiple interactions, although interpretation of the effects of specific variables is of course challenging.
+</p>
+<p>A method described in Garson 1991 (also see Goh 1995) identifies the relative importance of explanatory variables for a single response variables in a supervised neural network by deconstructing the model weights. The relative importance (or strength of association) of a specific explanatory variable for the response variable can be determined by identifying all weighted connections between the nodes of interest. That is, all weights connecting the specific input node that pass through the hidden layer to the response variable are identified. This is repeated for all other explanatory variables until a list of all weights that are specific to each input variable is obtained. The connections are tallied for each input node and scaled relative to all other inputs. A single value is obtained for each explanatory variable that describes the relationship with the response variable in the model (see the appendix in Goh 1995 for a more detailed description). The original algorithm indicates relative importance as the absolute magnitude from zero to one such the direction of the response cannot be determined.  
+</p>
+<p>Misleading results may be produced if the neural network was created with a skip-layer using <code>skip = TRUE</code> with the <code><a href="../../nnet/html/nnet.html">nnet</a></code> or <code><a href="../../caret/html/train.html">train</a></code> functions.  Garson's algorithm does not describe the effects of skip layer connections on estimates of variable importance.  As such, these values are removed prior to estimating variable importance.  
+</p>
+<p>The algorithm currently only works for neural networks with one hidden layer and one response variable.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A <code><a href="../../ggplot2/html/ggplot.html">ggplot</a></code> object for plotting if <code>bar_plot = FALSE</code>, otherwise a <code>data.frame</code> of relative importance values for each input variable.  The default aesthetics for <code><a href="../../ggplot2/html/ggplot.html">ggplot</a></code> can be further modified, as shown with the examples.
+</p>
+
+
+<h3>References</h3>
+
+<p>Beck, M.W. 2018. NeuralNetTools: Visualization and Analysis Tools for Neural Networks. Journal of Statistical Software. 85(11):1-20.
+</p>
+<p>Garson, G.D. 1991. Interpreting neural network connection weights. Artificial Intelligence Expert. 6(4):46-51.
+</p>
+<p>Goh, A.T.C. 1995. Back-propagation neural networks for modeling complex systems. Artificial Intelligence in Engineering. 9(3):143-151.
+</p>
+<p>Olden, J.D., Jackson, D.A. 2002. Illuminating the 'black-box': a randomization approach for understanding variable contributions in artificial neural networks. Ecological Modelling. 154:135-150.
+</p>
+<p>Olden, J.D., Joy, M.K., Death, R.G. 2004. An accurate comparison of methods for quantifying variable importance in artificial neural networks using simulated data. Ecological Modelling. 178:389-397.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="olden.html">olden</a></code> for a more flexible approach for variable importance
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## using numeric input
+
+wts_in &lt;- c(13.12, 1.49, 0.16, -0.11, -0.19, -0.16, 0.56, -0.52, 0.81)
+struct &lt;- c(2, 2, 1) #two inputs, two hidden, one output 
+
+garson(wts_in, struct)
+
+## using nnet
+
+library(nnet)
+
+data(neuraldat) 
+set.seed(123)
+
+mod &lt;- nnet(Y1 ~ X1 + X2 + X3, data = neuraldat, size = 5)
+ 
+garson(mod)  
+
+## Not run: 
+## using RSNNS, no bias layers
+
+library(RSNNS)
+
+x &lt;- neuraldat[, c('X1', 'X2', 'X3')]
+y &lt;- neuraldat[, 'Y1']
+mod &lt;- mlp(x, y, size = 5)
+
+garson(mod)
+
+## using neuralnet
+
+library(neuralnet)
+
+mod &lt;- neuralnet(Y1 ~ X1 + X2 + X3, data = neuraldat, hidden = 5)
+
+garson(mod)
+
+## using caret
+
+library(caret)
+
+mod &lt;- train(Y1 ~ X1 + X2 + X3, method = 'nnet', data = neuraldat, linout = TRUE)
+
+garson(mod)
+
+## modify the plot using ggplot2 syntax
+library(ggplot2)
+
+mod &lt;- nnet(Y1 ~ X1 + X2 + X3, data = neuraldat, size = 5)
+
+cols &lt;- heat.colors(10)
+garson(mod) +
+  scale_y_continuous('Rel. Importance', limits = c(-1, 1)) + 
+  scale_fill_gradientn(colours = cols) + 
+  scale_colour_gradientn(colours = cols)
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>NeuralNetTools</em> version 1.5.2 <a href="00Index.html">Index</a>]</div>
+</body></html>

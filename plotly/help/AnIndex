@@ -20,7 +20,9 @@ add_polygons	add_trace
 add_ribbons	add_trace
 add_scattergeo	add_trace
 add_segments	add_trace
+add_sf	add_trace
 add_surface	add_trace
+add_table	add_trace
 add_text	add_trace
 add_trace	add_trace
 animation	animation
@@ -57,9 +59,6 @@ filter_	reexports
 filter_.plotly	plotly_data
 geom2trace	geom2trace
 get_figure	get_figure
-get_l	get_l
-get_x	get_x
-get_y	get_y
 gg2list	gg2list
 ggplotly	ggplotly
 group2NA	group2NA
@@ -72,6 +71,7 @@ hide_colorbar	hide_colorbar
 hide_guides	hide_guides
 hide_legend	hide_legend
 highlight	highlight
+highlight_key	highlight_key
 hobbs	hobbs
 knit_print.api_grid	knit_print.api_grid
 knit_print.api_grid_local	knit_print.api_grid_local
@@ -83,6 +83,8 @@ mutate	reexports
 mutate_	reexports
 mutate_.plotly	plotly_data
 offline	offline
+orca	orca
+partial_bundle	partial_bundle
 plotly	plotly
 plotly-shiny	plotly-shiny
 plotlyOutput	plotly-shiny
@@ -111,6 +113,7 @@ rename	reexports
 rename_	reexports
 rename_.plotly	plotly_data
 renderPlotly	plotly-shiny
+res_mn	res_mn
 schema	schema
 select	reexports
 select_	reexports
@@ -125,6 +128,7 @@ subplot	subplot
 summarise	reexports
 summarise_	reexports
 summarise_.plotly	plotly_data
+TeX	TeX
 toRGB	toRGB
 toWebGL	toWebGL
 to_basic	to_basic

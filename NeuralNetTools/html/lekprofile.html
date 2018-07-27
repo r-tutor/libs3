@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Sensitivity analysis using Lek's profile method</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for lekprofile {NeuralNetTools}"><tr><td>lekprofile {NeuralNetTools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Sensitivity analysis using Lek's profile method</h2>
+
+<h3>Description</h3>
+
+<p>Conduct a sensitivity analysis of model responses in a neural network to input variables using Lek's profile method
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+lekprofile(mod_in, ...)
+
+## Default S3 method:
+lekprofile(mod_in, xvars, ysel = NULL, xsel = NULL,
+  steps = 100, group_vals = seq(0, 1, by = 0.2), val_out = FALSE,
+  group_show = FALSE, grp_nms = NULL, position = "dodge", ...)
+
+## S3 method for class 'nnet'
+lekprofile(mod_in, xsel = NULL, ysel = NULL, ...)
+
+## S3 method for class 'mlp'
+lekprofile(mod_in, xvars, yvars, xsel = NULL, ysel = NULL,
+  ...)
+
+## S3 method for class 'train'
+lekprofile(mod_in, xsel = NULL, ysel = NULL, ...)
+
+## S3 method for class 'nn'
+lekprofile(mod_in, xsel = NULL, ysel = NULL, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>mod_in</code></td>
+<td>
+<p>input object for which an organized model list is desired.  The input can be an object of class <code>nnet</code> or <code>mlp</code></p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>arguments passed to other methods</p>
+</td></tr>
+<tr valign="top"><td><code>xvars</code></td>
+<td>
+<p><code><a href="../../base/html/data.frame.html">data.frame</a></code> of explanatory variables used to create the input model, only needed for <code>mlp</code> objects</p>
+</td></tr>
+<tr valign="top"><td><code>ysel</code></td>
+<td>
+<p>chr string indicating which response variables to plot if more than one, defaults to all</p>
+</td></tr>
+<tr valign="top"><td><code>xsel</code></td>
+<td>
+<p>chr string of names of explanatory variables to plot, defaults to all</p>
+</td></tr>
+<tr valign="top"><td><code>steps</code></td>
+<td>
+<p>numeric value indicating number of observations to evaluate for each explanatory variable from minimum to maximum value, default 100</p>
+</td></tr>
+<tr valign="top"><td><code>group_vals</code></td>
+<td>
+<p>numeric vector with values from 0-1 indicating quantile values at which to hold other explanatory variables constant or a single value indicating number of clusters to define grouping scheme, see details</p>
+</td></tr>
+<tr valign="top"><td><code>val_out</code></td>
+<td>
+<p>logical value indicating if actual sensitivity values are returned rather than a plot, default <code>FALSE</code></p>
+</td></tr>
+<tr valign="top"><td><code>group_show</code></td>
+<td>
+<p>logical if a barplot is returned that shows the values at which explanatory variables were held constant while not being evaluated</p>
+</td></tr>
+<tr valign="top"><td><code>grp_nms</code></td>
+<td>
+<p>optional chr string of alternative names for groups in legend</p>
+</td></tr>
+<tr valign="top"><td><code>position</code></td>
+<td>
+<p>chr string indicating bar position (e.g., 'dodge', 'fill', 'stack'), passed to <code><a href="../../ggplot2/html/geom_bar.html">geom_bar</a></code>, used if <code>group_show = TRUE</code></p>
+</td></tr>
+<tr valign="top"><td><code>yvars</code></td>
+<td>
+<p><code><a href="../../base/html/data.frame.html">data.frame</a></code> of explanatory variables used to create the input model, only needed for <code>mlp</code> objects</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The Lek profile method is described briefly in Lek et al. 1996 and in more detail in Gevrey et al. 2003. The profile method is fairly generic and can be extended to any statistical model in R with a predict method.  However, it is one of few methods used to evaluate sensitivity in neural networks.
+</p>
+<p>The profile method can be used to evaluate the effect of explanatory variables by returning a plot of the predicted response across the range of values for each separate variable.  The original profile method evaluated the effects of each variable while holding the remaining explanatory variables at different quantiles (e.g., minimum, 20th percentile, maximum).  This is implemented in in the function by creating a matrix of values for explanatory variables where the number of rows is the number of observations and the number of columns is the number of explanatory variables. All explanatory variables are held at their mean (or other constant value) while the variable of interest is sequenced from its minimum to maximum value across the range of observations. This matrix (or data frame) is then used to predict values of the response variable from a fitted model object. This is repeated for each explanatory variable to obtain all response curves.  Values passed to <code>group_vals</code> must range from zero to one to define the quantiles for holding unevaluated explanatory variables. 
+</p>
+<p>An alternative implementation of the profile method is to group the unevaluated explanatory variables using groupings defined by the statistical properties of the data.  Covariance among predictors may present unlikely scenarios if holding all unevaluated variables at the same level.  To address this issue, the function provides an option to hold unevaluated variable at mean values defined by natural clusters in the data.  <code><a href="../../stats/html/kmeans.html">kmeans</a></code> clustering is used on the input <code>data.frame</code> of explanatory variables if the argument passed to <code>group_vals</code> is an integer value greater than one.  The centers of the clusters are then used as constant values for the unevaluated variables.  An arbitrary grouping scheme can also be passed to <code>group_vals</code> as a <code>data.frame</code> where the user can specify exact values for holding each value constant (see the examples). 
+</p>
+<p>For all plots, the legend with the 'Groups' label indicates the colors that correspond to each group.  The groups describe the values at which unevaluated explanatory variables were held constant, either as specific quantiles, group assignments based on clustering, or in the arbitrary grouping defined by the user.  The constant values of each explanatory variable for each group can be viewed as a barplot by using <code>group_show = TRUE</code>.
+</p>
+<p>Note that there is no predict method for neuralnet objects from the nn package.  The lekprofile method for nn objects uses the nnet package to recreate the input model, which is then used for the sensitivity predictions.  This approach only works for networks with one hidden layer.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A <code><a href="../../ggplot2/html/ggplot.html">ggplot</a></code> object for plotting if <code>val_out  =  FALSE</code>, otherwise a two-element <code>list</code> is returned with a <code>data.frame</code> in long form showing the predicted responses at different values of the explanatory variables and the grouping scheme that was used to hold unevaluated variables constant.
+</p>
+
+
+<h3>References</h3>
+
+<p>Beck, M.W. 2018. NeuralNetTools: Visualization and Analysis Tools for Neural Networks. Journal of Statistical Software. 85(11):1-20.
+</p>
+<p>Lek, S., Delacoste, M., Baran, P., Dimopoulos, I., Lauga, J., Aulagnier, S. 1996. Application of neural networks to modelling nonlinear relationships in Ecology. Ecological Modelling. 90:39-52.
+</p>
+<p>Gevrey, M., Dimopoulos, I., Lek, S. 2003. Review and comparison of methods to study the contribution of variables in artificial neural network models. Ecological Modelling. 160:249-264.
+</p>
+<p>Olden, J.D., Joy, M.K., Death, R.G. 2004. An accurate comparison of methods for quantifying variable importance in artificial neural networks using simulated data. Ecological Modelling. 178:389-397.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## using nnet
+
+library(nnet)
+
+set.seed(123)
+
+mod &lt;- nnet(Y1 ~ X1 + X2 + X3, data = neuraldat, size = 5)
+ 
+lekprofile(mod)  
+
+## Not run: 
+## using RSNNS, no bias layers
+
+library(RSNNS)
+
+x &lt;- neuraldat[, c('X1', 'X2', 'X3')]
+y &lt;- neuraldat[, 'Y1', drop = FALSE]
+
+mod &lt;- mlp(x, y, size = 5)
+
+lekprofile(mod, xvars = x)
+
+## using neuralnet
+
+library(neuralnet)
+
+mod &lt;- neuralnet(Y1 ~ X1 + X2 + X3, data = neuraldat, hidden = 5)
+
+lekprofile(mod)
+
+## back to nnet, not using formula to create model
+## y variable must have a name attribute
+
+mod &lt;- nnet(x, y, size = 5)
+
+lekprofile(mod)
+
+## using caret
+
+library(caret)
+
+mod &lt;- train(Y1 ~ X1 + X2 + X3, method = 'nnet', data = neuraldat, linout = TRUE)
+
+lekprofile(mod)
+
+## group by clusters instead of sequencing by quantiles
+
+mod &lt;- nnet(Y1 ~ X1 + X2 + X3, data = neuraldat, size = 5)
+ 
+lekprofile(mod, group_vals = 6) # six clusters
+
+## enter an arbitrary grouping scheme for the group values
+## i.e. hold all values at 0.5
+group_vals &lt;- rbind(rep(0.5, length = ncol(x)))
+group_vals &lt;- data.frame(group_vals)
+names(group_vals) &lt;- names(group_vals)
+
+lekprofile(mod, group_vals = group_vals, xsel = 'X3')
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>NeuralNetTools</em> version 1.5.2 <a href="00Index.html">Index</a>]</div>
+</body></html>
