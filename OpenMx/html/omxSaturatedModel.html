@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create Reference (Saturated and Independence) Models</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxSaturatedModel {OpenMx}"><tr><td>omxSaturatedModel {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create Reference (Saturated and Independence) Models</h2>
+
+<h3>Description</h3>
+
+<p>This function creates and, optionally, runs saturated and independence (null) models of a base model or data set for use with <a href="summary.MxModel.html">mxSummary</a> to enable fit indices that depend on these models.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxRefModels(x, run=FALSE, ..., distribution="default")
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>A MxModel object, data frame, or matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>run</code></td>
+<td>
+<p>logical. If TRUE, runs the models before returning;
+otherwise returns built models without running.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>distribution</code></td>
+<td>
+<p>character. Which distribution to assume.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>For typical structural equation models the saturated model is the free-est possible model.  Not only all variances (and, when possible, all means) are estimated, but also all covariances.  In the case of ordinal data, the ordinal means are fixed to zero and the thresholds are estimated.  For binary variables, those variances are also constrained to one.  This is the free-est possible model that is identified.  The saturated model is used in calculating fit statistics such as the RMSEA, and Chi-squared fit indices.
+</p>
+<p>The independence model, sometimes called the null model, is a model in which each variable is treated as being completely independent of every other variable.  As such, all the variances and, when possible, all means are estimated.  However, covariances are set to zero.  Ordinal variables are handled the same for the independence and saturated models.  The independence model is used, along with the saturated model, to create CFI and TLI fit indices.
+</p>
+<p>The saturated and independence models could be used to create further fit indices.  However, OpenMx does not recommend using GFI, AGFI, NFI (aka Bentler-Bonett), or SRMR.  The page for <code><a href="summary.MxModel.html">mxSummary</a></code> has information about why.
+</p>
+<p>When the <a href="mxFitFunctionMultigroup.html">mxFitFunctionMultigroup</a> fit function is used, <code>mxRefModels</code> creates the appropriate multi-group saturated and independence models.  Saturated and independence models are created separately for each group.  Each group has its own saturated and independence model.  The multi-group saturated model is a multi-group model where each group has its own saturated model, and similarly for the independence model.
+</p>
+<p>One potentially important limitation of the <code>mxRefModels</code> function is for behavior-genetic models.  If variables 'x', 'y', and 'z' are measured on twins 1 and 2 creating the modeled variables 'x1', 'y1', 'z1', 'x2', 'y2', 'z2', then this function may not create the intended saturated or independence models.  In particular, the means of 'x1' and 'x2' are estimated separately.  Similarly, the covariance of 'x1' with 'y1' and 'x2' with 'y2' are allowed be be distinct: <i>cov(x1, y1) != cov{x2, y2}</i>.  Moreover, the cross-twin covariances are estimated: e.g. <i>cov(x1, y2) != 0</i>.
+</p>
+<p>Another potential misuse of this function is for models with definition variables.  If definition variables are used, the saturated and independence model may not be correct because they do not account for the definition variables.
+</p>
+<p>When an MxModel has been run, some effort is made to make the reference models for only the variables used in the model.  For covariance data, all variables are modeled by default.  For raw data when the model has been run, only the modeled variables are used in the reference models.  This matches the behavior of <a href="mxModel.html">mxModel</a>.
+</p>
+<p>In general, it is best practice to give <code>mxRefModels</code> a model that has already been run.
+</p>
+<p>The are a few considerations specific to IFA models
+(<a href="mxExpectationBA81.html">mxExpectationBA81</a>).
+The independence model preserves equality constraints among item
+parameters from the original model.
+The saturated model is a multinomial distribution with the proportions
+equal to the proportions in your data. For example, if you have 2
+dichotomous items then there are 4 possible response patterns: 00, 01, 10, 11.
+A multinomial distribution for these 2 items is fully specified by 3
+proportions or 3 parameters: a, b, c, <i>1.0-(a+b+c)</i>.
+Hence, there is no need to optimize the saturated model.
+When there is no missing data,
+the deviance is immediately known as <i>-2 * sum(log proportions)</i>.
+Typical Bayesian priors involve latent
+factors (various densities on the pseudo-guessing lower bound, log norm
+on loading, and uniqueness prior). These priors cannot be included
+in the independence model because there are no latent factors.
+Therefore, exercise caution when comparing the independence model
+to a model that includes Bayesian priors.
+</p>
+<p>Multivariate normal models with all ordinal data and no missing values
+can use the saturated multinomial distribution. This is much faster than
+estimation of the saturated multivariate normal model. Use
+<code>distribution='multinomial'</code> to avail this option.
+</p>
+<p><code>mxRefModels()</code> is not compatible with
+<a href="mxExpectationGREML.html">GREML expectation</a>, as there is no
+sensible general definition for a saturated GREML-type model.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+require(OpenMx)
+data(demoOneFactor)
+manifests &lt;- names(demoOneFactor)
+latents &lt;- c("G")
+factorModel &lt;- mxModel("OneFactor", type = "RAM",
+    manifestVars = manifests, latentVars = latents,
+    mxPath(from = latents, to=manifests, values = diag(var(demoOneFactor))*.2),
+    mxPath(from = manifests, arrows = 2, values = diag(var(demoOneFactor))*.8),
+    mxPath(from = latents, arrows = 2, free = FALSE, values = 1),
+    mxData(cov(demoOneFactor), type = "cov", numObs = 500)
+)
+factorRun &lt;- mxRun(factorModel)
+factorSat &lt;- mxRefModels(factorRun, run=TRUE)
+summary(factorRun)
+summary(factorRun, refModels=factorSat)
+
+# A raw-data example where using mxRefModels adds fit indices
+## Not run: 
+m1 &lt;- mxModel("OneFactor", type = "RAM",
+    manifestVars = manifests, latentVars = latents,
+    mxPath(latents, to=manifests, values = diag(var(demoOneFactor))*.2),
+    mxPath(manifests, arrows = 2, values = diag(var(demoOneFactor))*.8),
+    mxPath(latents, arrows = 2, free = FALSE, values = 1),
+    mxPath("one", to = latents, free = FALSE, values = 0),
+    mxPath("one", to = manifests, values = 0),
+    mxData(demoOneFactor, type = "raw")
+)
+m1 &lt;- mxRun(m1)
+summary(m1) # CFI, TLI, RMSEA missing
+summary(m1, refModels=mxRefModels(m1, run = TRUE))
+
+## End(Not run)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

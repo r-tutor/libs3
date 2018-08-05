@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create a Bock &amp; Aitkin (1981) expectation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxExpectationBA81 {OpenMx}"><tr><td>mxExpectationBA81 {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create a Bock &amp; Aitkin (1981) expectation</h2>
+
+<h3>Description</h3>
+
+<p>Used in conjuction with <a href="mxFitFunctionML.html">mxFitFunctionML</a>, this expectation
+models ordinal data with a modest number of latent dimensions.
+Currently, only a multivariate Normal latent distribution is
+supported.  An equal-interval quadrature is used to integrate over
+the latent distribution.  When all items use the graded response
+model and items are assumed conditionally independent then item
+factor analysis is equivalent to a factor model.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxExpectationBA81(ItemSpec, item = "item", ..., qpoints = 49L, qwidth = 6,
+  mean = "mean", cov = "cov", verbose = 0L, weightColumn = NA_integer_,
+  EstepItem = NULL, debugInternal = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>ItemSpec</code></td>
+<td>
+<p>a single item model (to replicate) or a list of
+item models in the same order as the column of <code>ItemParam</code></p>
+</td></tr>
+<tr valign="top"><td><code>item</code></td>
+<td>
+<p>the name of the mxMatrix holding item parameters
+with one column for each item model with parameters starting at
+row 1 and extra rows filled with NA</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>qpoints</code></td>
+<td>
+<p>number of points to use for equal interval quadrature integration (default 49L)</p>
+</td></tr>
+<tr valign="top"><td><code>qwidth</code></td>
+<td>
+<p>the width of the quadrature as a positive Z score (default 6.0)</p>
+</td></tr>
+<tr valign="top"><td><code>mean</code></td>
+<td>
+<p>the name of the mxMatrix holding the mean vector</p>
+</td></tr>
+<tr valign="top"><td><code>cov</code></td>
+<td>
+<p>the name of the mxMatrix holding the covariance matrix</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>the level of runtime diagnostics (default 0L)</p>
+</td></tr>
+<tr valign="top"><td><code>weightColumn</code></td>
+<td>
+<p>the name of the column in the data containing the row weights (DEPRECATED)</p>
+</td></tr>
+<tr valign="top"><td><code>EstepItem</code></td>
+<td>
+<p>a simple matrix of item parameters for the
+E-step. This option is mainly of use for debugging derivatives.</p>
+</td></tr>
+<tr valign="top"><td><code>debugInternal</code></td>
+<td>
+<p>when enabled, some of the internal tables are
+returned in $debug. This is mainly of use to developers.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The conditional likelihood of response <i>x[i,j]</i> to
+item <i>j</i> from person <i>i</i> with item parameters
+<i>&xi;[j]</i> and latent ability <i>&theta;[i]</i> is
+</p>
+<p style="text-align: center;"><i>
+L(x[i]|&xi;,&theta;[i]) = &prod;_j Pr(pick=x[i,j] | &xi;[j],&theta;[i]).</i></p>
+
+<p>Items are assumed conditionally independent.
+That is, the outcome of one item is assumpted to not influence
+another item after controlling for <i>&xi;</i> and <i>&theta;[i]</i>.
+The unconditional likelihood is obtained by integrating over
+the latent distribution <i>&theta;[i]</i>,
+</p>
+<p style="text-align: center;"><i>
+L(x[i]|&xi;) = \int L(x[i]|&xi;, &theta;[i]) L(&theta;[i]) d &theta;[i].</i></p>
+
+<p>With an assumption that examinees are independently and identically distributed,
+we can sum the individual log likelihoods,
+</p>
+<p style="text-align: center;"><i>
+L=&sum;_i \log L(x[i] | &xi;).</i></p>
+
+<p>Response models <i>Pr(pick=x[i,j] | &xi;[j],&theta;[i])</i>
+are not implemented in OpenMx, but are imported
+from the <a href="https://cran.r-project.org/package=rpf">RPF</a>
+package. You must pass a list of models obtained from the RPF
+package in the &lsquo;ItemSpec&rsquo; argument. All item models must use the
+same number of latent factors although some of these factor
+loadings can be constrained to zero in the item parameter matrix.
+The &lsquo;item&rsquo; matrix contains item parameters with one item per
+column in the same order at ItemSpec.
+</p>
+<p>The &lsquo;qpoints&rsquo; and &lsquo;qwidth&rsquo; argument control the fineness and
+width, respectively, of the equal-interval quadrature grid.  The
+integer &lsquo;qpoints&rsquo; is the number of points per dimension. The
+quadrature extends from negative qwidth to positive qwidth for
+each dimension. Since the latent distribution defaults to standard
+Normal, qwidth can be regarded as a value in Z-score units.
+</p>
+<p>The optional &lsquo;mean&rsquo; and &lsquo;cov&rsquo; arguments permit modeling of the
+latent distribution in multigroup models (in a single group, the
+latent distribution must be fixed). A separate latent covariance
+model is used in combination with mxExpectationBA81. The point
+mass distribution contained in the quadrature is converted into a
+multivariate Normal distribution by
+<a href="mxDataDynamic.html">mxDataDynamic</a>. Typically <a href="mxExpectationNormal.html">mxExpectationNormal</a> is used
+to fit a multivariate Normal model to these data. Some intricate
+programming is required.  Examples are given in the manual.
+mxExpectationBA81 uses a sample size of <i>N</i> for the covariance
+matrix. This differs from <a href="mxExpectationNormal.html">mxExpectationNormal</a> which uses a
+sample size of <i>N-1</i>.
+</p>
+<p>The &lsquo;verbose&rsquo; argument enables diagnostics that are mainly of
+interest to developers.
+</p>
+<p>When a two-tier covariance matrix is recognized, this expectation
+automatically enables analytic dimension reduction (Cai, 2010).
+</p>
+<p>The optional &lsquo;weightColumn&rsquo; is superceded by the weight
+argument in <a href="mxData.html">mxData</a>. For data with many repeated
+response patterns, model evaluation time can be
+reduced. An easy way to transform your data into this form is to
+use <a href="../../rpf/html/compressDataFrame.html">compressDataFrame</a>. Non-integer weights are supported except for
+<a href="../../rpf/html/EAPscores.html">EAPscores</a>.
+</p>
+<p>mxExpectationBA81 requires <a href="mxComputeEM.html">mxComputeEM</a>. During a typical
+optimization run, latent abilities are assumed for examinees
+during the E-step.  These examinee scores are implied by the
+previous iteration's parameter vector. This can be overridden
+using the &lsquo;EstepItem&rsquo; argument.  This is mainly of use to
+developers for checking item parameter derivatives.
+</p>
+<p>Common univariate priors are available from
+<a href="../../ifaTools/html/univariatePrior.html">univariatePrior</a>.  The standard Normal
+distribution of the quadrature acts like a prior distribution for
+difficulty. It is not necessary to impose any additional Bayesian
+prior on difficulty estimates (Baker &amp; Kim, 2004, p. 196).
+</p>
+<p>Many estimators are available for standard errors. Oakes is
+recommended (see <a href="mxComputeEM.html">mxComputeEM</a>).  Also available are
+Supplement EM (<a href="mxComputeEM.html">mxComputeEM</a>), Richardson extrapolation
+(<a href="mxComputeNumericDeriv.html">mxComputeNumericDeriv</a>), likelihood-based confidence
+intervals (<a href="mxCI.html">mxCI</a>), and the covariance of the rowwise
+gradients.
+</p>
+
+
+<h3>References</h3>
+
+<p>Bock, R. D., &amp; Aitkin, M. (1981). Marginal maximum likelihood estimation of item
+parameters: Application of an EM algorithm. <em>Psychometrika, 46</em>, 443-459.
+</p>
+<p>Cai, L. (2010). A two-tier full-information item factor analysis
+model with applications. <em>Psychometrika, 75</em>, 581-612.
+</p>
+<p>Pritikin, J. N., Hunter, M. D., &amp; Boker, S. M. (2015). Modular
+open-source software for Item Factor Analysis. <em>Educational and
+Psychological Measurement, 75</em>(3), 458-474
+</p>
+<p>Pritikin, J. N. &amp; Schmidt, K. M. (in press). Model builder for
+Item Factor Analysis with OpenMx. <em>R Journal</em>.
+</p>
+<p>Seong, T. J. (1990). Sensitivity of marginal maximum likelihood
+estimation of item and ability parameters to the characteristics
+of the prior ability distributions. <em>Applied Psychological
+Measurement, 14</em>(3), 299-311.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="https://cran.r-project.org/package=rpf">RPF</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(OpenMx)
+library(rpf)
+
+numItems &lt;- 14
+
+# Create item specifications
+spec &lt;- list()
+for (ix in 1:numItems) { spec[[ix]] &lt;- rpf.grm(outcomes=sample(2:7, 1)) }
+names(spec) &lt;- paste("i", 1:numItems, sep="")
+
+# Generate some random "true" parameter values
+correct.mat &lt;- mxSimplify2Array(lapply(spec, rpf.rparam))
+
+# Generate some example data
+data &lt;- rpf.sample(500, spec, correct.mat)
+
+# Create a matrix of item parameters with starting values
+imat &lt;- mxMatrix(name="item",
+                 values=mxSimplify2Array(lapply(spec, rpf.rparam)))
+rownames(imat)[1] &lt;- 'f1'
+imat$free[!is.na(correct.mat)] &lt;- TRUE
+imat$values[!imat$free] &lt;- NA
+
+# Create a compute plan
+plan &lt;- mxComputeSequence(list(
+  mxComputeEM('expectation', 'scores',
+              mxComputeNewtonRaphson(), information="oakes1999",
+              infoArgs=list(fitfunction='fitfunction')),
+  mxComputeHessianQuality(),
+  mxComputeStandardError(),
+  mxComputeReportDeriv()))
+
+# Build the OpenMx model
+grmModel &lt;- mxModel(model="grm1", imat,
+                    mxData(observed=data, type="raw"),
+                    mxExpectationBA81(ItemSpec=spec),
+                    mxFitFunctionML(),
+                    plan)
+
+grmModel &lt;- mxRun(grmModel)
+summary(grmModel)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

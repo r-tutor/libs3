@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Equality Testing Function</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxCheckEquals {OpenMx}"><tr><td>omxCheckEquals {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Equality Testing Function</h2>
+
+<h3>Description</h3>
+
+<p>This function tests whether two objects are equal using the &lsquo;==&rsquo; operator.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxCheckEquals(a, b)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>a</code></td>
+<td>
+<p>the first value to compare.</p>
+</td></tr>
+<tr valign="top"><td><code>b</code></td>
+<td>
+<p>the second value to compare.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Performs the &lsquo;==&rsquo; comparison on the two arguments. If the two arguments are not equal, then an error will be thrown. If &lsquo;a&rsquo; and &lsquo;b&rsquo; are equal to each other, by default the function will print a statement informing the user the test has passed.  To turn off these print statements use <code>options("mxPrintUnitTests" = FALSE)</code>.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="omxCheckCloseEnough.html">omxCheckCloseEnough</a></code>, <code><a href="omxCheckWithinPercentError.html">omxCheckWithinPercentError</a></code>, <code><a href="omxCheckSetEquals.html">omxCheckSetEquals</a></code>, <code><a href="omxCheckTrue.html">omxCheckTrue</a></code>, <code><a href="omxCheckIdentical.html">omxCheckIdentical</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+omxCheckEquals(c(1, 2, 3), c(1, 2, 3))
+
+omxCheckEquals(FALSE, FALSE)
+
+# Throws an error
+try(omxCheckEquals(c(1, 2, 3), c(2, 1, 3)))
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

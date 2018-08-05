@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create Diagonal Matrix From Vector</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for vec2diag {OpenMx}"><tr><td>vec2diag {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create Diagonal Matrix From Vector</h2>
+
+<h3>Description</h3>
+
+<p>Given an input row or column vector, <code>vec2diag</code> returns a diagonal matrix with the input argument along the diagonal.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+vec2diag(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a row or column vector.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Similar to the function <code><a href="../../base/html/diag.html">diag</a></code>, except that the input argument is always
+treated as a vector of elements to place along the diagonal.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="diag2vec.html">diag2vec</a></code> 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+vec2diag(matrix(1:4, 1, 4))
+vec2diag(matrix(1:4, 4, 1))
+
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

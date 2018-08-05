@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create MxAlgebra object from a string</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxAlgebraFromString {OpenMx}"><tr><td>mxAlgebraFromString {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create MxAlgebra object from a string</h2>
+
+<h3>Description</h3>
+
+<p>Create MxAlgebra object from a string
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxAlgebraFromString(algString, name = NA, dimnames = NA, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>algString</code></td>
+<td>
+<p>the character string to convert into an R expression</p>
+</td></tr>
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>An optional character string indicating the name of the object.</p>
+</td></tr>
+<tr valign="top"><td><code>dimnames</code></td>
+<td>
+<p>list. The dimnames attribute for the algebra: a list of length 2 giving the row and column names respectively. An empty list is treated as NULL, and a list of length one as row names. The list can be named, and the list names will be used as names for the dimensions.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces any remaining arguments to be specified by name.</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><a href="mxAlgebra.html">mxAlgebra</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+A &lt;- mxMatrix(values = runif(25), nrow = 5, ncol = 5, name = 'A')
+B &lt;- mxMatrix(values = runif(25), nrow = 5, ncol = 5, name = 'B')
+model &lt;- mxModel(A, B, name = 'model',
+  mxAlgebraFromString("A * (B + A)", name = 'test'))
+model &lt;- mxRun(model)
+model[['test']]$result
+A$values * (B$values + A$values)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

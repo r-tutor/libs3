@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create MxData Object for Least Squares (WLS, DWLS, ULS)...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxDataWLS {OpenMx}"><tr><td>mxDataWLS {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create MxData Object for Least Squares (WLS, DWLS, ULS) Analyses</h2>
+
+<h3>Description</h3>
+
+<p>This function creates a new <a href="MxData-class.html">MxData</a> object of type 
+&ldquo;ULS&rdquo; (unweighted least squares), &ldquo;WLS&rdquo; (weighted least squares) 
+or &ldquo;DWLS&rdquo; (diagonally-weighted least squares). The appropriate
+fit function to include with these models is <code><a href="mxFitFunctionWLS.html">mxFitFunctionWLS</a></code>
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+   mxDataWLS(data, type = "WLS", useMinusTwo = TRUE, returnInverted = TRUE, 
+    fullWeight = TRUE, suppressWarnings = TRUE, allContinuousMethod =
+   "cumulants", ..., silent=!interactive())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>A matrix or data.frame which provides raw data to be used for WLS.</p>
+</td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>A character string 'WLS' (default), 'DWLS', or 'ULS' for
+weighted, diagonally weighted, or unweighted least squares, respectively</p>
+</td></tr>
+<tr valign="top"><td><code>useMinusTwo</code></td>
+<td>
+<p>Logical indicating whether to use -2LL (default) or -LL.</p>
+</td></tr>
+<tr valign="top"><td><code>returnInverted</code></td>
+<td>
+<p>Logical indicating whether to return the information matrix (default) or the covariance matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>fullWeight</code></td>
+<td>
+<p>Logical determining if the full weight matrix is
+returned (default). Needed for standard error and quasi-chi-squared
+calculation.</p>
+</td></tr>
+<tr valign="top"><td><code>suppressWarnings</code></td>
+<td>
+<p>Logical that determines whether to suppress
+diagnostic warnings. These warnings are likely only helpful to developers.</p>
+</td></tr>
+<tr valign="top"><td><code>allContinuousMethod</code></td>
+<td>
+<p>A character string 'cumulants' (default) or
+'marginals'. See Details.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>silent</code></td>
+<td>
+<p>Whether to report progress</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The mxDataWLS function creates an <a href="MxData-class.html">MxData</a> object, which can be used in
+<a href="MxModel-class.html">MxModel</a> objects.  This function takes raw data and returns 
+an <code>MxData</code> object to be used in a model to fit with weighted least squares.
+</p>
+<p>Both Ordinal and continuous data are supported.  A combination of these data 
+types also succeeds. Early tests suggested that full 'WLS' might be biased in 
+this joint ordinal and continuous case, whereas 'ULS' and 'DWLS' were unbiased.
+However further investigation revealed that all of these were unbiased when the model is correct, but full
+'WLS' is highly sensitive to model misspecification. Full 'WLS' can heavily weight the
+fourth-order moments of the distribution, so small deviations between the observed 
+fourth-order moments and those implied by the model can lead to poor estimates.
+</p>
+<p>By default when only continuous variables are present, the argument <code>allContinuousMethod</code> dictates that the asymptotically distribution free (ADF) method of Browne (1984) is used.  This method computes the fourth order <em>cumulants</em> for the weight matrix: thus, the name.  The method does not readily handle missing data and does not return weights or summary statistics for the means, but it is generally fast and ADF up to elliptical distributions.  The other option, 'marginals', uses similar methods to the ordinal and joint ordinal-continuous cases.  It does return weights and summary statistics for the means.  When there are any ordinal variables present, <code>allContinuousMethod</code> is ignored.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns a new <a href="MxData-class.html">MxData</a> object.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+<p>Browne, M. W. (1984). Asymptotically distribution-free methods for the analysis of covariance structures. British Journal of Mathematical and Statistical Psychology, 37, p. 62-83.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="mxFitFunctionWLS.html">mxFitFunctionWLS</a>.  <a href="MxData-class.html">MxData</a> for the S4 class created by mxData. <a href="../../base/html/matrix.html">matrix</a> and <a href="../../base/html/data.frame.html">data.frame</a> for objects which may be entered as arguments in the &lsquo;observed&rsquo; slot. More information about the OpenMx package may be found <a href="OpenMx.html">here</a>. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# Create and fit a model using mxMatrix, mxAlgebra, mxExpectationNormal, and mxFitFunctionWLS
+
+library(OpenMx)
+
+# Simulate some data
+
+x=rnorm(1000, mean=0, sd=1)
+y= 0.5*x + rnorm(1000, mean=0, sd=1)
+tmpFrame &lt;- data.frame(x, y)
+tmpNames &lt;- names(tmpFrame)
+wdata &lt;- mxDataWLS(tmpFrame)
+
+# Define the matrices
+
+
+S &lt;- mxMatrix(type = "Full", nrow = 2, ncol = 2, values=c(1,0,0,1), 
+              free=c(TRUE,FALSE,FALSE,TRUE), labels=c("Vx", NA, NA, "Vy"), name = "S")
+A &lt;- mxMatrix(type = "Full", nrow = 2, ncol = 2, values=c(0,1,0,0), 
+              free=c(FALSE,TRUE,FALSE,FALSE), labels=c(NA, "b", NA, NA), name = "A")
+I &lt;- mxMatrix(type="Iden", nrow=2, ncol=2, name="I")
+
+# Define the expectation
+
+expCov &lt;- mxAlgebra(solve(I-A) %*% S %*% t(solve(I-A)), name="expCov")
+expFunction &lt;- mxExpectationNormal(covariance="expCov", dimnames=tmpNames)
+
+# Choose a fit function
+
+fitFunction &lt;- mxFitFunctionWLS()
+
+# Define the model
+
+tmpModel &lt;- mxModel(model="exampleModel", S, A, I, expCov, expFunction, fitFunction, 
+                    wdata)
+
+# Fit the model and print a summary
+
+tmpModelOut &lt;- mxRun(tmpModel)
+summary(tmpModelOut)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Assess whether potential parameters should be freed using...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxParametricBootstrap {OpenMx}"><tr><td>mxParametricBootstrap {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Assess whether potential parameters should be freed using
+parametric bootstrap</h2>
+
+<h3>Description</h3>
+
+<p>Data is simulated from &lsquo;nullModel&rsquo;. The parameters named by
+&lsquo;labels&rsquo; are freed to obtain the alternative model. The
+alternative model is fit against each simulated data set.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxParametricBootstrap(nullModel, labels,
+   alternative=c("two.sided", "greater", "less"),
+   ..., alpha=0.05, correction=p.adjust.methods,
+   previousRun=NULL, replications=400, checkHess=FALSE,
+   signif.stars = getOption("show.signif.stars"))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>nullModel</code></td>
+<td>
+<p>The model specifying the null distribution</p>
+</td></tr>
+<tr valign="top"><td><code>labels</code></td>
+<td>
+<p>A character vector of parameters to free to obtain
+the alternative model</p>
+</td></tr>
+<tr valign="top"><td><code>alternative</code></td>
+<td>
+<p>a character string specifying the alternative hypothesis</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by
+name.</p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>The false positive rate</p>
+</td></tr>
+<tr valign="top"><td><code>correction</code></td>
+<td>
+<p>How to adjust the p values for multiple tests.</p>
+</td></tr>
+<tr valign="top"><td><code>replications</code></td>
+<td>
+<p>The number of resampling replications. If
+available, replications from prior invocation will be reused.</p>
+</td></tr>
+<tr valign="top"><td><code>previousRun</code></td>
+<td>
+<p>Results to re-use from a previous bootstrap.</p>
+</td></tr>
+<tr valign="top"><td><code>checkHess</code></td>
+<td>
+<p>Whether to approximate the Hessian in each
+replication</p>
+</td></tr>
+<tr valign="top"><td><code>signif.stars</code></td>
+<td>
+<p>logical. If TRUE, &lsquo;significance stars&rsquo; are
+printed for each coefficient.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>When the model has a default compute plan and &lsquo;checkHess&rsquo; is
+kept at FALSE then the Hessian will not be approximated or checked.
+On the other hand, &lsquo;checkHess&rsquo; is TRUE then the Hessian will be
+approximated by finite differences. This procedure is of some value
+because it can be informative to check whether the Hessian is positive
+definite (see <code><a href="mxComputeHessianQuality.html">mxComputeHessianQuality</a></code>).  However,
+approximating the Hessian is often costly in terms of CPU time. For
+bootstrapping, the parameter estimates derived from the resampled data
+are typically of primary interest.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A data frame is returned containing the test results.
+Details of the bootstrap replications are stored in the
+&lsquo;bootData&rsquo; attribute on the data frame.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(OpenMx)
+
+data(demoOneFactor)
+manifests &lt;- names(demoOneFactor)
+latents &lt;- c("G")
+
+base &lt;- mxModel(
+  "OneFactorCov", type="RAM",
+  manifestVars = manifests,
+  latentVars = latents,
+  mxPath(from=latents, to=manifests, values=0,  free=FALSE, labels=paste0('l',1:length(manifests))),
+  mxPath(from=manifests, arrows=2, values=rlnorm(length(manifests)), lbound=.01),
+  mxPath(from=latents, arrows=2, free=FALSE, values=1.0),
+  mxPath(from = 'one', to = manifests, values=0, free=TRUE, labels=paste0('m',1:length(manifests))),
+  mxData(demoOneFactor, type="raw"))
+
+base &lt;- mxRun(base)
+
+# use more replications, 8 is for demonstration purpose only
+mxParametricBootstrap(base, paste0('l', 1:length(manifests)),
+                      "two.sided", replications=8)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

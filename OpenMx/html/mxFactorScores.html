@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Estimate factor scores and standard errors</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxFactorScores {OpenMx}"><tr><td>mxFactorScores {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Estimate factor scores and standard errors</h2>
+
+<h3>Description</h3>
+
+<p>This function creates the factor scores and their standard errors under different methods for an MxModel object that has either a RAM or LISREL expectation.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxFactorScores(model, type=c('ML', 'WeightedML', 'Regression'),
+ minManifests=as.integer(NA))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>An MxModel object with either an MxExpectationLISREL or MxExpectationRAM</p>
+</td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>The type of factor scores to compute</p>
+</td></tr>
+<tr valign="top"><td><code>minManifests</code></td>
+<td>
+<p>Set scores to NA when there are less than
+minManifests non-NA manifest variables</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This is a helper function to compute or estimate factor scores along with their standard errors.  The two maximum likelihood methods create a new model for each data row.  They then estimate the factor scores as free parameters in a model with a single data row.  For 'ML', the conditional likelihood of the data given the factor scores is optimized: </p>
+<p style="text-align: center;"><i>L(D|F)</i></p>
+<p>.  For 'WeightedML', the joint likelihood of the data and the factor scores is optimized: </p>
+<p style="text-align: center;"><i>L(D, F) = L(D|F) L(F)</i></p>
+<p>.  The WeightedML scores are akin to the empirical Bayes random effects estimates from mixed effects modeling.  They display the same kind of shrinkage as random effects estimates, and for the same reason: they account for the latent variable distribution in their estimation.
+</p>
+<p>In many cases, especially for ordinal data or missing data, the weighted ML scores are to be preferred over alternatives (Estabrook &amp; Neale, 2013). For example, when using ordinal data, a person whose observations are all in the highest ordinal category theoretically has an 'ML' factor score of positive infinity. A similar situation arises for a person whose observations are all in the lowest ordinal category: their 'ML' factor score is theoretically negative infinity. Weighted ML factor scores in these cases remain reasonable.
+</p>
+<p>For type='Regression', with LISREL expectation, factor scores are computed based on a simple formula.  This formula is equivalent to the formula for the Kalman updated scores in a state space model with zero dynamics (Priestly &amp; Subba Rao, 1975).  Thus, to compute the regression factor scores, the appropriate state space model is set-up and the <a href="mxKalmanScores.html">mxKalmanScores</a> function is used to produce the factor scores and their standard errors.  With RAM expectation, factor scores are predicted from the non-missing manifest variables for each row of the raw data, using a general linear prediction formula analytically equivalent to that used with LISREL expectation.  The standard errors for regression-predicted RAM factor scores are the square roots of the indeterminate variances of the latent variables, given the data row's missing-data pattern and the values of any relevant definition variables.  The RAM and LISREL methods for computing regression factor scores with their standard errors are analytically identical. They produce the same score and standard error estimates.
+</p>
+<p>If you have missing data then you must specify <code>minManifests</code>.
+This option will set scores to NA when there are too few items to make an accurate score estimate.
+If you are using the scores as point estimates without considering the standard error then you should set minManifests as high as you can tolerate.
+This will increase the amount of missing data but scores will be more accurate.
+If you are carefully considering the standard errors of the scores then
+you can set minManifests to 0.
+When set to 0, all NA rows are scored to the prior distribution.
+</p>
+<p>Note that for compatibility with <code><a href="../../stats/html/factanal.html">factanal</a></code>, type='regression' is also acceptable.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An array with dimensions (Number of Rows of Data, Number of Latent Variables, 2).  The third dimension has the scores in the first slot and the standard errors in the second slot.  The rows are in the order of the <em>unsorted</em> data.  Multigroup models are an exception, in that the returned value is instead a list of such arrays, containing one per group. 
+</p>
+
+
+<h3>References</h3>
+
+<p>Estabrook, R. &amp; Neale, M. C.  (2013).  A Comparison of Factor Score Estimation Methods in the Presence of Missing Data: Reliability and an Application to Nicotine Dependence.  <em>Multivariate Behavioral Research, 48,</em> 1-27.
+</p>
+<p>Priestley, M. &amp; Subba Rao, T.  (1975).  The estimation of factor scores and Kalman filtering for discrete parameter stationary processes.  <em>International Journal of Control, 21</em>, 971-975.
+</p>
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="mxKalmanScores.html">mxKalmanScores</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# Create and estimate a factor model
+require(OpenMx)
+data(demoOneFactor)
+manifests &lt;- names(demoOneFactor)
+latents &lt;- c("G")
+factorModel &lt;- mxModel("OneFactor", 
+                       type="LISREL",
+                       manifestVars=list(exo=manifests), 
+                       latentVars=list(exo=latents),
+                       mxPath(from=latents, to=manifests),
+                       mxPath(from=manifests, arrows=2),
+                       mxPath(from=latents, arrows=2, free=FALSE, values=1.0),
+                       mxPath(from='one', to=manifests),
+                       mxData(observed=cov(demoOneFactor), type="cov", numObs=500,
+                              means = colMeans(demoOneFactor)))
+summary(factorRun &lt;- mxRun(factorModel))
+
+# Swap in raw data in place of summary data
+factorRun &lt;- mxModel(factorRun, mxData(observed=demoOneFactor[1:50,], type="raw"))
+
+# Estimate factor scores for the model
+r1 &lt;- mxFactorScores(factorRun, 'Regression')
+
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

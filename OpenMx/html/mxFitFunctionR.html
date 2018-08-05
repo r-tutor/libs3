@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create MxFitFunctionR Object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxFitFunctionR {OpenMx}"><tr><td>mxFitFunctionR {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create MxFitFunctionR Object</h2>
+
+<h3>Description</h3>
+
+<p>mxFitFunctionR returns an MxFitFunctionR object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxFitFunctionR(fitfun, ..., units="-2lnL")
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>fitfun</code></td>
+<td>
+<p>A function that accepts two arguments.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>The initial state information to the objective function.</p>
+</td></tr>
+<tr valign="top"><td><code>units</code></td>
+<td>
+<p>(optional) The units of the fit statistic.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The mxFitFunctionR function evaluates a user-defined R function called the 'fitfun'.  mxFitFunctionR is useful in defining new mxFitFunctions, since any calculation that can be performed in R can be treated as an mxFitFunction.
+</p>
+<p>The 'fitfun' argument must be a function that accepts two arguments. The first argument
+is the mxModel that should be evaluated, and the second argument is some persistent 
+state information that can be stored between one iteration of optimization to the next
+iteration. It is valid for the function to simply ignore the second argument.
+</p>
+<p>The function must return either a single numeric value, or a list of exactly two elements.
+If the function returns a list, the first argument must be a single numeric value and the 
+second element will be the new persistent state information to be passed into this function
+at the next iteration. The single numeric value will be used by the optimizer to perform
+optimization.
+</p>
+<p>The initial default value for the persistant state information is NA.
+</p>
+<p>Throwing an exception (via stop) from inside fitfun may result
+in unpredictable behavior. You may want to wrap your code in
+tryCatch while experimenting.
+</p>
+<p>fitfun should not call R functions that use OpenMx's compiled backend, including (but not limited to) <code><a href="omxMnor.html">omxMnor</a>()</code>, because doing so can crash R.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns an MxFitFunctionR object. 
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>Other fit functions:
+<code><a href="mxFitFunctionMultigroup.html">mxFitFunctionMultigroup</a></code>, <code><a href="mxFitFunctionML.html">mxFitFunctionML</a></code>, 
+<code><a href="mxFitFunctionWLS.html">mxFitFunctionWLS</a></code>, <code><a href="mxFitFunctionAlgebra.html">mxFitFunctionAlgebra</a></code>, 
+<code><a href="mxFitFunctionGREML.html">mxFitFunctionGREML</a></code>, 
+<code><a href="mxFitFunctionRow.html">mxFitFunctionRow</a></code>
+</p>
+<p>More information about the OpenMx package may be found <a href="OpenMx.html">here</a>. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# Create and fit a model using mxFitFunctionR
+
+library(OpenMx)
+
+A &lt;- mxMatrix(nrow = 2, ncol = 2, values = c(1:4), free = TRUE, name = 'A')
+squared &lt;- function(x) { x ^ 2 }
+
+# Define the objective function in R
+
+objFunction &lt;- function(model, state) {
+    values &lt;- model$A$values 
+    return(squared(values[1,1] - 4) + squared(values[1,2] - 3) +
+        squared(values[2,1] - 2) + squared(values[2,2] - 1))
+}
+
+# Define the expectation function
+
+fitFunction &lt;- mxFitFunctionR(objFunction)
+
+# Define the model
+
+tmpModel &lt;- mxModel(model="exampleModel", A, fitFunction)
+
+# Fit the model and print a summary
+
+tmpModelOut &lt;- mxRun(tmpModel)
+summary(tmpModelOut)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

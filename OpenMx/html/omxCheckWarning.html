@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Correct Warning Message Function</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxCheckWarning {OpenMx}"><tr><td>omxCheckWarning {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Correct Warning Message Function</h2>
+
+<h3>Description</h3>
+
+<p>This function tests whether the correct warning message is thrown.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxCheckWarning(expression, message)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>expression</code></td>
+<td>
+<p>an R expression that produces a warning</p>
+</td></tr>
+<tr valign="top"><td><code>message</code></td>
+<td>
+<p>a character string with the desired warning message</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Arguments &lsquo;expression&rsquo; and &lsquo;message&rsquo; give the expression
+that generates the warning and the message that is supposed to be generated, respectively.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="omxCheckError.html">omxCheckError</a></code>
+<code><a href="omxCheckWithinPercentError.html">omxCheckWithinPercentError</a></code>,
+<code><a href="omxCheckIdentical.html">omxCheckIdentical</a></code>, <code><a href="omxCheckSetEquals.html">omxCheckSetEquals</a></code>,
+<code><a href="omxCheckTrue.html">omxCheckTrue</a></code>, <code><a href="omxCheckEquals.html">omxCheckEquals</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+msg &lt;- paste("Objective functions like mxFIMLObjective()",
+	"have been deprecated in favor of expectation and fit functions.\n",
+	"Please use mxExpectationNormal(covariance= , means = , ...) instead,",
+	"and add a call to mxFitFunctionML().",
+	"See examples at help(mxExpectationNormal)")
+foo &lt;- omxCheckWarning(mxFIMLObjective('cov', 'mean'), msg)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create MxExpectationGREML Object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxExpectationGREML {OpenMx}"><tr><td>mxExpectationGREML {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Create MxExpectationGREML Object
+</h2>
+
+<h3>Description</h3>
+
+<p>This function creates a new <code><a href="MxExpectationGREML-class.html">MxExpectationGREML</a></code> object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxExpectationGREML(V, yvars=character(0), Xvars=list(), addOnes=TRUE, blockByPheno=TRUE, 
+                  staggerZeroes=TRUE, dataset.is.yX=FALSE, casesToDropFromV=integer(0))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>V</code></td>
+<td>
+<p>Character string; the name of the <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> or <code><a href="MxMatrix-class.html">MxMatrix</a></code> to serve as the 'V' matrix (the model-expected covariance matrix).  Internally, the 'V' matrix is assumed to be symmetric, and its elements above the main diagonal are ignored.</p>
+</td></tr>
+<tr valign="top"><td><code>yvars, Xvars, addOnes, blockByPheno, staggerZeroes</code></td>
+<td>
+<p>Passed to <code><a href="mxGREMLDataHandler.html">mxGREMLDataHandler</a>()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>dataset.is.yX</code></td>
+<td>
+<p>Logical; defaults to <code>FALSE</code>.  If <code>TRUE</code>, then the first column of the raw dataset is taken as-is to be the 'y' phenotype vector, and the remaining columns are taken as-is to be the 'X' matrix of covariates.  In this case, <code><a href="mxGREMLDataHandler.html">mxGREMLDataHandler</a>()</code> is never internally called at runtime, and all other arguments besides <code>V</code> and <code>casesToDropFromV</code> are ignored.</p>
+</td></tr>
+<tr valign="top"><td><code>casesToDropFromV</code></td>
+<td>
+<p>Integer vector.  Its elements are the numbers of the rows and columns of covariance matrix 'V' to be dropped at runtime, usually because they correspond to rows of 'y' or 'X' that contained missing observations.  By default, no cases are dropped from 'V.'  Ignored unless <code>dataset.is.yX=TRUE</code>. </p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>&quot;GREML&quot; stands for &quot;genomic-relatedness-matrix restricted maximum-likelihood.&quot;  In the strictest sense of the term, it refers to genetic variance-component estimation from matrices of subjects' pairwise degree of genetic relatedness, as calculated from genome-wide marker data.  It is from this original motivation that some of the terminology originates, such as calling 'y' the &quot;phenotype&quot; vector.  However, OpenMx's implementation of GREML is applicable for analyses from any subject-matter domain, and in which the following assumptions are reasonable:
+</p>
+
+<ol>
+<li><p> Conditional on 'X' (the covariates), the phenotype vector (response variable) 'y' is a single realization from a multivariate-normal distribution having (in general) a dense covariance matrix, 'V.'
+</p>
+</li>
+<li><p> The parameters of the covariance matrix, such as variance components, are of primary interest.
+</p>
+</li>
+<li><p> The random effects are normally distributed.
+</p>
+</li>
+<li><p> Weighted least-squares regression, using the inverse of 'V' as a weight matrix, is an adequate model for the phenotypic means.  Note that the regression coefficients are not actually free parameters to be numerically optimized.</p>
+</li></ol>
+
+<p>Computationally, the chief distinguishing feature of an OpenMx GREML analysis is that the phenotype vector, 'y,' is a single realization of a random vector that, in general, cannot be partitioned into independent subvectors.  For this reason, definition variables are not compatible (and should be unnecessary with) GREML expectation.  GREML expectation can still be used if the covariance matrix is sparse, but as of this writing, OpenMx does not take advantage of the sparseness to improved performance.  Because of the limitations of restricted maximum likelihood, GREML expectation is presently incompatible with ordinal variables.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns a new object of class <code><a href="MxExpectationGREML-class.html">MxExpectationGREML</a></code>.
+</p>
+
+
+<h3>References</h3>
+
+<p>One of the first uses of the acronym &quot;GREML&quot;:<br />
+Benjamin DJ, Cesarini D, van der Loos MJHM, Dawes CT, Koellinger PD, et al. (2012) The genetic architecture of economic and political preferences. Proceedings of the National Academy of Sciences 109: 8026-8031. doi: 10.1073/pnas.1120666109
+</p>
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>See <code><a href="MxExpectationGREML-class.html">MxExpectationGREML</a></code> for the S4 class created by <code>mxExpectationGREML()</code>. More information about the OpenMx package may be found <a href="OpenMx.html">here</a>. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+dat &lt;- cbind(rnorm(100),rep(1,100))
+colnames(dat) &lt;- c("y","x")
+
+ge &lt;- mxExpectationGREML(V="V",yvars="y",Xvars=list("X"),addOnes=FALSE)
+gff &lt;- mxFitFunctionGREML(dV=c(ve="I"))
+plan &lt;- mxComputeSequence(freeSet=c("Ve"),steps=list(
+  mxComputeNewtonRaphson(fitfunction="fitfunction"),
+  mxComputeOnce('fitfunction',
+    c('fit','gradient','hessian','ihessian')),
+  mxComputeStandardError(),
+  mxComputeReportDeriv(),
+  mxComputeReportExpectation()
+))
+
+testmod &lt;- mxModel(
+  "GREMLtest",
+  mxData(observed = dat, type="raw"),
+  mxMatrix(type = "Full", nrow = 1, ncol=1, free=TRUE,
+    values = 1, labels = "ve", lbound = 0.0001, name = "Ve"),
+  mxMatrix("Iden",nrow=100,name="I",condenseSlots=TRUE),
+  mxAlgebra(I %x% Ve,name="V"),
+  ge,
+  gff,
+  plan
+)
+str(testmod)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

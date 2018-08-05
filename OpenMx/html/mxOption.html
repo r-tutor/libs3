@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Set or Clear an Optimizer Option</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxOption {OpenMx}"><tr><td>mxOption {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Set or Clear an Optimizer Option</h2>
+
+<h3>Description</h3>
+
+<p>The function sets, shows, or clears an option that is specific to the optimizer in the back-end.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxOption(model, key, value, reset = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>An <a href="MxModel-class.html">MxModel</a> object or NULL</p>
+</td></tr>
+<tr valign="top"><td><code>key</code></td>
+<td>
+<p>The name of the option.</p>
+</td></tr>
+<tr valign="top"><td><code>value</code></td>
+<td>
+<p>The value of the option.</p>
+</td></tr>
+<tr valign="top"><td><code>reset</code></td>
+<td>
+<p>If TRUE then reset all options to their defaults.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>mxOption is used to set, clear, or query an option (given in the &lsquo;key&rsquo; argument)
+in the back-end optimizer. Valid option keys are listed below.
+</p>
+<p>Use value = NULL to remove an existing option. Leaving value blank will return 
+the current value of the option specified by &lsquo;key&rsquo;.
+</p>
+<p>To reset all options to their default values, use &lsquo;reset = TRUE&rsquo;. 
+When reset = TRUE, &lsquo;key&rsquo; and &lsquo;value&rsquo; are ignored. 
+</p>
+<p>If the &lsquo;model&rsquo; argument is set to NULL, the default optimizer option (i.e
+those applying to all models by default) will be set.
+</p>
+<p>To see the defaults, use <code>getOption('mxOptions')</code>.
+</p>
+<p>Before the model is submitted to the back-end, all keys and values are converted into
+strings using the <a href="../../base/html/character.html">as.character</a> function.
+</p>
+<p>The &ldquo;Default optimizer&rdquo; option can only be set globally (i.e., with <code>model=NULL</code>), and not locally (i.e., specifically to a given MxModel).  Although the checkpointing options may be set globally, OpenMx's behavior is only affected by locally set checkpointing options (that is, global checkpointing options are ignored at <a href="mxRun.html">runtime</a>).
+</p>
+<p>Options &ldquo;Gradient step size&rdquo;, &ldquo;Gradient iterations&rdquo;, and &ldquo;Function precision&rdquo; have on-load global defaults of <code>"Auto"</code>.  If value <code>"Auto"</code> is in effect for any of these three options at <a href="mxRun.html">runtime</a>, then OpenMx selects a reasonable numerical value in its place.  These automated numerical values are intended to (1) adjust for the limited precision of the algorithm for computing multivariate-normal probability integrals, and (2) calculate accurate numeric derivatives at the optimizer's solution.  If the user replaces <code>"Auto"</code> with a valid numerical value, then OpenMx uses that value as-is.
+</p>
+<p>Some options only affect certain optimizers.  Currently, options &ldquo;Gradient algorithm&rdquo; and &ldquo;Gradient iterations&rdquo; are ignored by all optimizers other than SLSQP.  Also, currently option &ldquo;Analytic Gradients&rdquo; only affects SLSQP and NPSOL.  Option &ldquo;Gradient step size&rdquo; is used slightly differently by SLSQP and CSOLNP, and is ignored by NPSOL (see <code><a href="mxComputeGradientDescent.html">mxComputeGradientDescent</a>()</code> for details).  If the MxModel contains<a href="MxConstraint-class.html">MxConstraints</a>, OpenMx's interface to NPSOL scales &ldquo;Feasibility tolerance&rdquo; by multiplying it by 0.02 and dividing it by 0.05 before passing it to NPSOL; if there are no MxConstraints, OpenMx passes NPSOL a hardcoded value of 1e-5.  Note that NPSOL's criterion for returning a status code of 0 versus 1 for a given solution depends partly on &ldquo;Optimality tolerance&rdquo;.
+</p>
+<p>For a block of <code>n</code> ordinal variables, the maximum number of integration points that OpenMx may use to calculate multivariate-normal probability integrals is given by
+<code>mvnMaxPointsA + mvnMaxPointsB*n + mvnMaxPointsC*n*n +
+  exp(mvnMaxPointsD + mvnMaxPointsE * n * log(mvnRelEps))</code>.
+Integral approximation is stopped once either &lsquo;mvnAbsEps&rsquo; or
+&lsquo;mvnRelEps&rsquo; is satisfied.
+Use of &lsquo;mvnAbsEps&rsquo; is deprecated.
+</p>
+<p>The maximum number of major iterations (the option  &ldquo;Major iterations&rdquo;) 
+for optimization for NPSOL  can be specified either by using a 
+numeric value (such as 50, 1000, etc) or by specifying a user-defined function.
+The user-defined function should accept two arguments as input, the number of 
+parameters and the number of constraints, and return a numeric value as output.
+</p>
+<p>OpenMx options
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+Calculate Hessian </td><td style="text-align: center;"> [Yes | No]       </td><td style="text-align: left;"> calculate the Hessian explicitly after optimization. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Standard Errors   </td><td style="text-align: center;"> [Yes | No]       </td><td style="text-align: left;"> return standard error estimates from the explicitly calculate hessian. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Default optimizer </td><td style="text-align: center;"> [NPSOL | SLSQP | CSOLNP] </td><td style="text-align: left;"> the gradient-descent optimizer to use </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Number of Threads </td><td style="text-align: center;"> [0|1|2|...|10|...] </td><td style="text-align: left;"> number of threads used
+for optimization. Default value is taken from the environment variable
+OMP_NUM_THREADS or, if that is not set, 2. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Feasibility tolerance </td><td style="text-align: center;"> <var>r</var> </td><td style="text-align: left;"> the maximum acceptable absolute violations in linear and nonlinear constraints. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Optimality tolerance </td><td style="text-align: center;"> <var>r</var> </td><td style="text-align: left;"> the accuracy with which the final iterate approximates a solution to the optimization problem; roughly, the number of reliable significant figures that the fitfunction value should have at the solution. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Gradient algorithm </td><td style="text-align: center;"> see list </td><td style="text-align: left;"> finite difference method, either 'forward' or 'central'. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Gradient iterations </td><td style="text-align: center;"> 1:4 </td><td style="text-align: left;"> the number of Richardson extrapolation iterations</td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Gradient step size </td><td style="text-align: center;"> <var>r</var> </td><td style="text-align: left;"> amount of change made to free parameters when numerically calculating gradient</td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Analytic Gradients </td><td style="text-align: center;"> [Yes | No] </td><td style="text-align: left;"> should the optimizer use analytic gradients (if available)?</td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+loglikelihoodScale </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> factor by which the loglikelihood is scaled. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Parallel diagnostics </td><td style="text-align: center;"> [Yes | No] </td><td style="text-align: left;"> whether to issue diagnostic
+messages about use of multiple threads </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Nudge zero starts </td><td style="text-align: center;"> [TRUE | FALSE] </td><td style="text-align: left;"> Should OpenMx
+"nudge"" starting values of zero to 0.1 at runtime? </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Status OK </td><td style="text-align: center;"> character vector </td><td style="text-align: left;"> Status codes that are considered to indicate a successful optimization
+</td>
+</tr>
+
+</table>
+
+<p>NPSOL-specific options
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+Nolist                </td><td style="text-align: center;">         </td><td style="text-align: left;"> this option suppresses printing of the options </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Print level           </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> the value of <var>i</var> controls the amount of printout produced by the major iterations </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Minor print level     </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> the value of <var>i</var> controls the amount of printout produced by the minor iterations </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Print file            </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> for <var>i</var> &gt; 0 a full log is sent to the file with logical unit number <var>i</var>. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Summary file          </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> for <var>i</var> &gt; 0 a brief log will be output to file <var>i</var>. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Function precision    </td><td style="text-align: center;"> <var>r</var> </td><td style="text-align: left;"> a measure of accuracy with which the fitfunction and constraint functions can be computed. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Infinite bound size   </td><td style="text-align: center;"> <var>r</var> </td><td style="text-align: left;"> if <var>r</var> &gt; 0 defines the "infinite" bound bigbnd. </td>
+</tr>
+<tr>
+ <td style="text-align: right;"> 
+Major iterations      </td><td style="text-align: center;"> <var>i</var> or a function </td><td style="text-align: left;"> the maximum number of major iterations before termination. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Verify level          </td><td style="text-align: center;"> [-1:3 | Yes | No]     </td><td style="text-align: left;"> see NPSOL manual. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Line search tolerance </td><td style="text-align: center;"> <var>r</var>    </td><td style="text-align: left;"> controls the accuracy with which a step is taken. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Derivative level      </td><td style="text-align: center;"> [0-3]      </td><td style="text-align: left;"> see NPSOL manual. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Hessian               </td><td style="text-align: center;"> [Yes | No] </td><td style="text-align: left;"> return the Hessian (Yes) or the transformed Hessian (No). </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Step Limit            </td><td style="text-align: center;"> <var>r</var> </td><td style="text-align: left;"> maximum change in free parameters at first step of linesearch. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+</td>
+</tr>
+
+</table>
+
+<p>Checkpointing options
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+Always Checkpoint    </td><td style="text-align: center;"> [Yes | No]    </td><td style="text-align: left;"> whether to checkpoint all models during optimization.</td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Checkpoint Directory </td><td style="text-align: center;">    path       </td><td style="text-align: left;"> the directory into which checkpoint files are written. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Checkpoint Prefix    </td><td style="text-align: center;">    string     </td><td style="text-align: left;"> the string prefix to add to all checkpoint filenames. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Checkpoint Fullpath  </td><td style="text-align: center;">    path       </td><td style="text-align: left;"> overrides the directory and prefix (useful to output to /dev/fd/2) </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Checkpoint Units     </td><td style="text-align: center;">    see list   </td><td style="text-align: left;"> the type of units for checkpointing: 'minutes', 'iterations', or 'evaluations'. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+Checkpoint Count     </td><td style="text-align: center;">    <var>i</var>    </td><td style="text-align: left;"> the number of units between checkpoint intervals. </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+</td>
+</tr>
+
+</table>
+
+<p>Model transformation options
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+Error Checking           </td><td style="text-align: center;"> [Yes | No] </td><td style="text-align: left;"> whether model consistency checks are performed in the OpenMx front-end </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+No Sort Data             </td><td style="text-align: center;">            </td><td style="text-align: left;"> character vector of model names for which FIML data sorting is not performed </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+RAM Inverse Optimization </td><td style="text-align: center;"> [Yes | No] </td><td style="text-align: left;"> whether to enable solve(I - A) optimization </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+RAM Max Depth            </td><td style="text-align: center;"> <var>i</var>    </td><td style="text-align: left;"> the maximum depth to be used when solve(I - A) optimization is enabled </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+</td>
+</tr>
+
+</table>
+
+<p>Multivariate normal integration parameters
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+maxOrdinalPerBlock </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> maximum number of ordinal variables
+to evaluate together </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+mvnMaxPointsA </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> base number of integration points </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+mvnMaxPointsB </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> number of integration points per ordinal variable </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+mvnMaxPointsC </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> number of integration points per squared ordinal variables </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+mvnMaxPointsD </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> see details </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+mvnMaxPointsE </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> see details </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+mvnAbsEps     </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> absolute error tolerance </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+mvnRelEps     </td><td style="text-align: center;"> <var>i</var> </td><td style="text-align: left;"> relative error tolerance </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>Value</h3>
+
+<p>If a model is provided, it is returned with the optimizer option either set
+or cleared. If value is empty, the current value is returned.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>See <code><a href="mxModel.html">mxModel</a>()</code>, as almost all uses of <code>mxOption()</code> are via an mxModel whose options are set or cleared.  See <code><a href="mxComputeGradientDescent.html">mxComputeGradientDescent</a>()</code> for details on how different optimizers are affected by different options. See <a href="as.statusCode.html">as.statusCode</a> for information about the <code>Status OK</code> option.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# set the Numbder of Threads (cores to use)
+mxOption(NULL, "Number of Threads", parallel::detectCores() - 1)
+
+testModel &lt;- mxModel(model = "testModel") # make a model to use for example
+testModel$options   # show the model options (none yet)
+options()$mxOptions # list all mxOptions (global settings)
+
+testModel &lt;- mxOption(testModel, "Function precision", 1e-5) # set precision
+testModel &lt;- mxOption(testModel, "Function precision", NULL) # clear precision
+# N.B. This is model-specific precision (defaults to global setting)
+
+# may optimize for speed
+# at cost of not getting standard errors
+testModel &lt;- mxOption(testModel, "Calculate Hessian", "No")
+testModel &lt;- mxOption(testModel, "Standard Errors"  , "No")
+
+testModel$options # see the list of options you set
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

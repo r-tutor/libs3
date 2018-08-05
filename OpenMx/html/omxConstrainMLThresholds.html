@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: omxConstrainMLThresholds</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxConstrainMLThresholds {OpenMx}"><tr><td>omxConstrainMLThresholds {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>omxConstrainMLThresholds</h2>
+
+<h3>Description</h3>
+
+<p>Add constraint to ML model to keep thresholds in order
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxConstrainMLThresholds(model, dist = 0.1)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>the MxModel to which constraints should be added</p>
+</td></tr>
+<tr valign="top"><td><code>dist</code></td>
+<td>
+<p>unused</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function adds a nonlinear constraint to an ML model.  The constraint
+keeps the thresholds in order.  Constraints often slow model estimation,
+however, keeping the thresholds in increasing order helps ensure the likelihood
+function is well-defined.  If you're having problems with ordinal data, this is
+one of the things to try.
+</p>
+
+
+<h3>Value</h3>
+
+<p>a new MxModel object with the constraints added
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code>demo("omxConstrainMLThresholds")</code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

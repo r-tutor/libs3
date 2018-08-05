@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Convert a numeric or character vector into an optimizer...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for as.statusCode {OpenMx}"><tr><td>as.statusCode {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Convert a numeric or character vector into an optimizer status code factor</h2>
+
+<h3>Description</h3>
+
+
+<ul>
+<li><p> 0,&lsquo;OK&rsquo;: Optimization succeeded
+</p>
+</li>
+<li><p> 1,&lsquo;OK/green&rsquo;: Optimization succeeded, but the sequence of iterates has not yet converged. NPSOL was terminated because no further improvement could be made in the merit function (Mx status GREEN)
+</p>
+</li>
+<li><p> 2,&lsquo;infeasible linear constraint&rsquo;:
+The linear constraints and bounds could not be satisfied. The problem has no feasible solution.
+</p>
+</li>
+<li><p> 3,&lsquo;infeasible non-linear constraint&rsquo;:
+The nonlinear constraints and bounds could not be satisfied. The problem may have no feasible solution.
+</p>
+</li>
+<li><p> 4,&lsquo;iteration limit&rsquo;:
+The major iteration limit was reached (Mx status BLUE).
+</p>
+</li>
+<li><p> 5,&lsquo;not convex&rsquo;:
+The Hessian at the solution does not appear to be convex (Mx status RED).
+</p>
+</li>
+<li><p> 6,&lsquo;nonzero gradient&rsquo;:
+The model does not satisfy the first-order optimality conditions to the required accuracy, and no improved point for the merit function could be found during the final linesearch (Mx status RED)
+</p>
+</li>
+<li><p> 7,&lsquo;bad deriv&rsquo;:
+The function derivates returned by funcon or funobj seem incorrect.
+</p>
+</li>
+<li><p> 9,&lsquo;internal error&rsquo;: An input parameter was invalid
+</p>
+</li>
+<li><p> 10,&lsquo;infeasible start&rsquo;:
+Starting values were infeasible.
+</p>
+</li></ul>
+
+
+
+<h3>Usage</h3>
+
+<pre>
+as.statusCode(code)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>code</code></td>
+<td>
+<p>a character or numeric vector of optimizer status code</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="mxBootstrap.html">mxBootstrap</a></code>
+<code><a href="summary.MxModel.html">summary.MxModel</a></code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

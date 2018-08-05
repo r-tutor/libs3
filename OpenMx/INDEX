@@ -344,8 +344,7 @@ omxGraphviz             Show RAM Model in Graphviz Format
 omxHasDefaultComputePlan
                         omxHasDefaultComputePlan
 omxLapply               On-Demand Parallel Lapply
-omxLocateParameters     Get the location (model, matrix, row, column)
-                        and other info for a parameter
+omxLocateParameters     Summarize Model Parameters
 omxLogical              Logical mxAlgebra() operators
 omxManifestModelByParameterJacobian
                         Estimate the Jacobian of manifest model with

@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class '&quot;MxConstraint&quot;'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for MxConstraint-class {OpenMx}"><tr><td>MxConstraint-class {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class <code>"MxConstraint"</code></h2>
+
+<h3>Description</h3>
+
+<p>MxConstraint is an S4 class. An MxConstraint object 
+is a <a href="Named-entity.html">named entity</a>. New instances of this class can
+be created using the function <code><a href="mxConstraint.html">mxConstraint</a>()</code>.
+</p>
+
+
+<h3>Details</h3>
+
+<p>Slots may be referenced with the $ symbol. See the documentation for <a href="../../methods/html/Classes.html">Classes</a> and the examples in the <a href="mxConstraint.html">mxConstraint</a> document for more information.
+</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>name</code>:</dt><dd><p>Character string; the name of the object.</p>
+</dd>
+<dt><code>formula</code>:</dt><dd><p>Object of class <code>"MxAlgebraFormula"</code>.  The <a href="MxAlgebra-class.html">MxAlgebra</a>-like expression representing the constraint function.</p>
+</dd>
+<dt><code>alg1</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  For internal use.</p>
+</dd>
+<dt><code>alg2</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  For internal use.</p>
+</dd>
+<dt><code>relation</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  For internal use.</p>
+</dd>
+<dt><code>jac</code>:</dt><dd><p>Object of class <code>"MxCharOrNumber"</code>.  Identifies the <a href="MxAlgebra-class.html">MxAlgebra</a> representing the Jacobian for the constraint function.</p>
+</dd>
+<dt><code>linear</code>:</dt><dd><p>Logical. For internal use.</p>
+</dd>
+</dl>
+
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>$&lt;-</dt><dd><p><code>signature(x = "MxConstraint")</code></p>
+</dd>
+<dt>$</dt><dd><p><code>signature(x = "MxConstraint")</code></p>
+</dd>
+<dt><a href="imxDeparse.html">imxDeparse</a></dt><dd><p><code>signature(object = "MxConstraint")</code></p>
+</dd>
+<dt>names</dt><dd><p><code>signature(x = "MxConstraint")</code></p>
+</dd>
+<dt>print</dt><dd><p><code>signature(x = "MxConstraint")</code></p>
+</dd>
+<dt>show</dt><dd><p><code>signature(object = "MxConstraint")</code></p>
+</dd>
+</dl>
+
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="mxConstraint.html">mxConstraint</a>()</code> for the function that creates MxConstraint objects.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+showClass("MxConstraint")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

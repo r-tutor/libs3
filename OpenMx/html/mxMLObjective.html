@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: DEPRECATED: Create MxMLObjective Object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxMLObjective {OpenMx}"><tr><td>mxMLObjective {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>DEPRECATED: Create MxMLObjective Object</h2>
+
+<h3>Description</h3>
+
+<p>WARNING: Objective functions have been deprecated as of OpenMx 2.0.  
+</p>
+<p>Please use mxExpectationNormal() and mxFitFunctionML() instead.  As a temporary workaround, mxMLObjective returns a list containing an MxExpectationNormal object and an MxFitFunctionML object.
+</p>
+<p>mxMLObjective(covariance, means = NA, dimnames = NA, thresholds = NA)
+All occurrences of
+</p>
+<p>mxMLObjective(covariance, means = NA, dimnames = NA, thresholds = NA)
+</p>
+<p>Should be changed to
+</p>
+<p>mxExpectationNormal(covariance, means = NA, dimnames = NA, thresholds = NA, threshnames = dimnames)
+mxFitFunctionML(vector = FALSE)
+</p>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>covariance</code></td>
+<td>
+<p>A character string indicating the name of the expected covariance algebra.</p>
+</td></tr>
+<tr valign="top"><td><code>means</code></td>
+<td>
+<p>An optional character string indicating the name of the expected means algebra.</p>
+</td></tr>
+<tr valign="top"><td><code>dimnames</code></td>
+<td>
+<p>An optional character vector to be assigned to the dimnames of the covariance and means algebras.</p>
+</td></tr>   
+<tr valign="top"><td><code>thresholds</code></td>
+<td>
+<p>An optional character string indicating the name of the thresholds matrix.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>NOTE: THIS DESCRIPTION IS DEPRECATED.  Please change to using <a href="mxExpectationNormal.html">mxExpectationNormal</a> and <a href="mxFitFunctionML.html">mxFitFunctionML</a> as shown in the example below.
+</p>
+<p>Objective functions are functions for which free parameter values are chosen such that the value of the objective function is minimized. The mxMLObjective function uses full-information maximum likelihood to provide maximum likelihood estimates of free parameters in the algebra defined by the 'covariance' argument given the covariance of an <a href="MxData-class.html">MxData</a> object. The 'covariance' argument takes an <a href="MxAlgebra-class.html">MxAlgebra</a> object, which defines the expected covariance of an associated <a href="MxData-class.html">MxData</a> object. The 'dimnames' arguments takes an optional character vector.  If this argument is not a single NA, then this vector be assigned to be the dimnames of the means vector, and the row and columns dimnames of the covariance matrix.
+</p>
+<p>mxMLObjective evaluates with respect to an <a href="MxData-class.html">MxData</a> object. The <a href="MxData-class.html">MxData</a> object need not be referenced in the mxMLObjective function, but must be included in the <a href="MxModel-class.html">MxModel</a> object. mxMLObjective requires that the 'type' argument in the associated <a href="MxData-class.html">MxData</a> object be equal to 'cov' or 'cov'. The 'covariance' argument of this function evaluates with respect to the 'matrix' argument of the associated <a href="MxData-class.html">MxData</a> object, while the 'means' argument of this function evaluates with respect to the 'vector' argument of the associated <a href="MxData-class.html">MxData</a> object. The 'means' and 'vector' arguments are optional in both functions. If the 'means' argument is not specified (NA), the optional 'vector' argument of the <a href="MxData-class.html">MxData</a> object is ignored. If the 'means' argument is specified, the associated <a href="MxData-class.html">MxData</a> object should specify a 'means' argument of equivalent dimension as the 'means' algebra.
+</p>
+<p>dimnames must be supplied where the matrices referenced by the covariance and means algebras are not themselves labeled. Failure to do so leads to an error noting that the covariance or means matrix associated with the ML objective does not contain dimnames.
+</p>
+<p>To evaluate, place MxMLObjective objects, the <a href="mxData.html">mxData</a> object for which the expected covariance approximates, referenced <a href="MxAlgebra-class.html">MxAlgebra</a> and <a href="MxMatrix-class.html">MxMatrix</a> objects, and optional <a href="MxBounds-class.html">MxBounds</a> and <a href="MxConstraint-class.html">MxConstraint</a> objects in an <a href="MxModel-class.html">MxModel</a> object. This model may then be evaluated using the <a href="mxRun.html">mxRun</a> function. The results of the optimization can be found in the 'output' slot of the resulting model, or using the <a href="mxEval.html">mxEval</a> function.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns a list containing an MxExpectationNormal object and an MxFitFunctionML object. 
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# Create and fit a model using mxMatrix, mxAlgebra, mxExpectationNormal, and mxFitFunctionML
+
+library(OpenMx)
+
+# Simulate some data
+
+x=rnorm(1000, mean=0, sd=1)
+y= 0.5*x + rnorm(1000, mean=0, sd=1)
+tmpFrame &lt;- data.frame(x, y)
+tmpNames &lt;- names(tmpFrame)
+
+# Define the matrices
+
+S &lt;- mxMatrix(type = "Full", nrow = 2, ncol = 2, values=c(1,0,0,1), 
+              free=c(TRUE,FALSE,FALSE,TRUE), labels=c("Vx", NA, NA, "Vy"), name = "S")
+A &lt;- mxMatrix(type = "Full", nrow = 2, ncol = 2, values=c(0,1,0,0), 
+              free=c(FALSE,TRUE,FALSE,FALSE), labels=c(NA, "b", NA, NA), name = "A")
+I &lt;- mxMatrix(type="Iden", nrow=2, ncol=2, name="I")
+
+# Define the expectation
+
+expCov &lt;- mxAlgebra(solve(I-A) %*% S %*% t(solve(I-A)), name="expCov")
+expFunction &lt;- mxExpectationNormal(covariance="expCov", dimnames=tmpNames)
+
+# Choose a fit function
+
+fitFunction &lt;- mxFitFunctionML()
+
+# Define the model
+
+tmpModel &lt;- mxModel(model="exampleModel", S, A, I, expCov, expFunction, fitFunction, 
+                    mxData(observed=cov(tmpFrame), type="cov", numObs=dim(tmpFrame)[1]))
+
+# Fit the model and print a summary
+
+tmpModelOut &lt;- mxRun(tmpModel)
+summary(tmpModelOut)
+
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

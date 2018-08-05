@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Multivariate Normal Integration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxMnor {OpenMx}"><tr><td>omxMnor {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Multivariate Normal Integration</h2>
+
+<h3>Description</h3>
+
+<p>Given a covariance matrix, a means vector, and vectors of lower and upper bounds, returns the multivariate normal integral across the space between bounds.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxMnor(covariance, means, lbound, ubound)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>covariance</code></td>
+<td>
+<p>the covariance matrix describing the multivariate normal distribution.</p>
+</td></tr>
+<tr valign="top"><td><code>means</code></td>
+<td>
+<p>a row vector containing means of the variables of the underlying distribution.</p>
+</td></tr>
+<tr valign="top"><td><code>lbound</code></td>
+<td>
+<p>a row vector containing the lower bounds of the integration in each variable.</p>
+</td></tr>
+<tr valign="top"><td><code>ubound</code></td>
+<td>
+<p>a row vector containing the upper bounds of the integration in each variable.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The order of columns in the &lsquo;means&rsquo;, &lsquo;lbound&rsquo;, and &lsquo;ubound&rsquo; vectors are assumed to be the same as that of the covariance matrix.  That is, means[i] is considered to be the mean of the variable whose variance is in covariance[i,i].  That variable will be integrated from lbound[i] to ubound[i] as part of the integration.
+</p>
+<p>The value of ubound[i] or lbound[i] may be set to Inf or -Inf if a boundary at positive or negative infinity is desired.
+</p>
+<p>For all i, ubound[i] must be strictly greater than lbound[i].
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+data(myFADataRaw)
+
+covariance &lt;- cov(myFADataRaw[,1:3])
+means &lt;- colMeans(myFADataRaw[,1:3])
+lbound &lt;- c(-Inf, 0,   1)    # Integrate from -Infinity to 0 on first variable 
+ubound &lt;- c(0,    Inf, 2.5)  # From 0 to +Infinity on second, and from 1 to 2.5 on third
+omxMnor(covariance, means, lbound, ubound)
+# 0.0005995
+
+# An alternative specification of the bounds follows
+# Integrate from -Infinity to 0 on first variable 
+v1bound = c(-Inf, 0)
+# From 0 to +Infinity on second
+v2bound = c(0, Inf)
+# and from 1 to 2.5 on third
+v3bound = c(1, 2.5)
+bounds &lt;- cbind(v1bound, v2bound, v3bound)
+lbound &lt;- bounds[1,]  
+ubound &lt;- bounds[2,]  
+omxMnor(covariance, means, lbound, ubound)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

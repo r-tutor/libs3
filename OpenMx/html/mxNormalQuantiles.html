@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: mxNormalQuantiles</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxNormalQuantiles {OpenMx}"><tr><td>mxNormalQuantiles {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>mxNormalQuantiles</h2>
+
+<h3>Description</h3>
+
+<p>Get quantiles from a normal distribution
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxNormalQuantiles(nBreaks, mean = 0, sd = 1)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>nBreaks</code></td>
+<td>
+<p>the number of thresholds, or a vector of the number of thresholds</p>
+</td></tr>
+<tr valign="top"><td><code>mean</code></td>
+<td>
+<p>the mean of the underlying normal distribution</p>
+</td></tr>
+<tr valign="top"><td><code>sd</code></td>
+<td>
+<p>the standard deviation of the underlying normal distribution</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>a vector of quantiles
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+mxNormalQuantiles(3)
+mxNormalQuantiles(3, mean=7)
+mxNormalQuantiles(2, mean=1, sd=3)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

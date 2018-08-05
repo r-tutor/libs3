@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Correct Error Message Function</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxCheckError {OpenMx}"><tr><td>omxCheckError {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Correct Error Message Function</h2>
+
+<h3>Description</h3>
+
+<p>This function tests whether the correct error message is thrown.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxCheckError(expression, message)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>expression</code></td>
+<td>
+<p>an R expression that produces an error</p>
+</td></tr>
+<tr valign="top"><td><code>message</code></td>
+<td>
+<p>a character string with the desired error message</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Arguments &lsquo;expression&rsquo; and &lsquo;message&rsquo; give the expression
+that generates the error and the message that is supposed to be generated, respectively.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="omxCheckWarning.html">omxCheckWarning</a></code>
+<code><a href="omxCheckWithinPercentError.html">omxCheckWithinPercentError</a></code>,
+<code><a href="omxCheckIdentical.html">omxCheckIdentical</a></code>, <code><a href="omxCheckSetEquals.html">omxCheckSetEquals</a></code>,
+<code><a href="omxCheckTrue.html">omxCheckTrue</a></code>, <code><a href="omxCheckEquals.html">omxCheckEquals</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+A &lt;- mxMatrix('Full', 1, 1, labels = 'data.foo', free = TRUE, name = 'A')
+model &lt;- mxModel('model', A)
+omxCheckError(mxRun(model), 
+paste("The definition variable 'data.foo'",
+	"has been assigned to a",
+	"free parameter in matrix 'A'"))
+omxCheckCloseEnough(matrix(3, 3, 3), matrix(4, 3, 3), epsilon = 2)
+# Throws error, check the message
+tmsg &lt;- paste("In omxCheckCloseEnough(c(1, 2, 3), c(1.1, 1.9, 3), 0.01)",
+	": not equal to within 0.01 : '1 2 3' and '1.1 1.9 3'")
+omxCheckError(omxCheckCloseEnough(c(1, 2, 3), c(1.1, 1.9 ,3.0), .01), tmsg)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

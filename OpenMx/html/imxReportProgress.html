@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Report backend progress</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for imxReportProgress {OpenMx}"><tr><td>imxReportProgress {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Report backend progress</h2>
+
+<h3>Description</h3>
+
+<p>Prints a show status string to the console without emitting a
+newline.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+imxReportProgress(info, eraseLen)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>info</code></td>
+<td>
+<p>the character string to print</p>
+</td></tr>
+<tr valign="top"><td><code>eraseLen</code></td>
+<td>
+<p>the number of characters to erase</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(OpenMx)
+
+previousLen &lt;&lt;- 0
+
+easyReportProcess &lt;- function(msg) {
+	imxReportProgress(msg, previousLen)
+	previousLen &lt;&lt;- nchar(msg)
+}
+
+demo &lt;- function() {
+	easyReportProcess("abc123")
+	Sys.sleep(1)
+	easyReportProcess("this is much longer")
+	Sys.sleep(1)
+	easyReportProcess("this is short")
+	Sys.sleep(1)
+	easyReportProcess("almost done")
+	Sys.sleep(1)
+	easyReportProcess("")
+	cat("DONE!", fill=TRUE)
+}
+
+## Not run: demo()
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.10.0 <a href="00Index.html">Index</a>]</div>
+</body></html>
