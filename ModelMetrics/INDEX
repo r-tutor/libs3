@@ -3,6 +3,9 @@ brier                   Brier Score
 ce                      Classification error
 confusionMatrix         Confusion Matrix
 f1Score                 F1 Score
+fScore                  F Score
+gini                    GINI Coefficient
+kappa                   kappa statistic
 logLoss                 Log Loss
 mae                     Mean absolute error
 mauc                    Multiclass Area Under the Curve
