@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Categorical Moderator Analysis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for macat {MAd}"><tr><td>macat {MAd}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Categorical Moderator Analysis 
+</h2>
+
+<h3>Description</h3>
+
+<p>Computes single predictor categorical moderator analysis under a fixed or random effects model.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+macat(g, var, mod, data, method= "random")
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>g</code></td>
+<td>
+<p>Hedges g (unbiased estimate of d) effect size.
+</p>
+</td></tr>
+<tr valign="top"><td><code>var</code></td>
+<td>
+<p>Vaiance of g.
+</p>
+</td></tr>
+<tr valign="top"><td><code>mod</code></td>
+<td>
+<p>Categorical moderator variable used for moderator analysis.
+</p>
+</td></tr> 
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p> Default is <code>random</code>. For fixed effects, use <code>fixed</code>. 
+</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p><code>data.frame</code> with values above.
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>See Konstantopoulos &amp; Hedges (2009; pp. 280-288) for the computations used in this function.
+</p>
+
+
+<h3>Value</h3>
+
+<table summary="R valueblock">
+<tr valign="top"><td><code>mod</code></td>
+<td>
+<p> Level of the categorical moderator.
+</p>
+</td></tr> 
+<tr valign="top"><td><code>k</code></td>
+<td>
+<p> Number of studies for each level of the moderator.
+</p>
+</td></tr>
+<tr valign="top"><td><code>estimate</code></td>
+<td>
+<p> Mean effect size of each level of the moderator.
+</p>
+</td></tr>
+<tr valign="top"><td><code>ci.l</code></td>
+<td>
+<p> Lower 95% confidence interval.
+</p>
+</td></tr>
+<tr valign="top"><td><code>ci.u</code></td>
+<td>
+<p> Upper 95% confidence interval.
+</p>
+</td></tr>
+<tr valign="top"><td><code>z</code></td>
+<td>
+<p> z-score (standardized value).
+</p>
+</td></tr>
+<tr valign="top"><td><code>p</code></td>
+<td>
+<p> Significance level.
+</p>
+</td></tr>
+<tr valign="top"><td><code>var</code></td>
+<td>
+<p> Variance of effect size.
+</p>
+</td></tr>
+<tr valign="top"><td><code>se</code></td>
+<td>
+<p> Square root of variance.
+</p>
+</td></tr>
+<tr valign="top"><td><code>Q</code></td>
+<td>
+<p> Q-statistic (measure of homogeneity).
+</p>
+</td></tr>
+<tr valign="top"><td><code>df</code></td>
+<td>
+<p> Degrees of freedom for Q-statistic.
+</p>
+</td></tr>
+<tr valign="top"><td><code>p.h</code></td>
+<td>
+<p>p-value for homogeneity within that level of the moderator. 
+</p>
+</td></tr>
+<tr valign="top"><td><code>I2</code></td>
+<td>
+<p> Proportion of total variation in effect size that is due to heterogeneity rather than chance (see Shadish &amp; Haddock, 2009; pp. 263).
+</p>
+</td></tr>
+<tr valign="top"><td><code>Q</code></td>
+<td>
+<p> Q-statistic overall. Note: Whether fixed or random effects analyses are conducted, the Q statistic reported is for the fixed effect model. Therefore, Qb + Qw != Q in the random effects output.
+</p>
+</td></tr>  
+<tr valign="top"><td><code>Qw</code></td>
+<td>
+<p> Q-within (or error). Measure of within-group heterogeneity.
+</p>
+</td></tr>
+<tr valign="top"><td><code>Qw.df</code></td>
+<td>
+<p> Degrees of freedom for Q-within.
+</p>
+</td></tr>
+<tr valign="top"><td><code>Qw.p</code></td>
+<td>
+<p> Q-within p-value (for homogeneity).
+</p>
+</td></tr>
+<tr valign="top"><td><code>Qb</code></td>
+<td>
+<p> Q-between (or model). Measure of model fit.
+</p>
+</td></tr>
+<tr valign="top"><td><code>Qb.df</code></td>
+<td>
+<p> Degrees of freedom for Q-between.
+</p>
+</td></tr>
+<tr valign="top"><td><code>Qb.p</code></td>
+<td>
+<p> Q-between p-value (for homogeneity). Qb and Qb.p provide the test of whether the moderator variable(s) account for significant variance among effect sizes.
+</p>
+</td></tr> 
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>AC Del Re &amp; William T. Hoyt
+</p>
+<p>Maintainer: AC Del Re <a href="mailto:acdelre@gmail.com">acdelre@gmail.com</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Konstantopoulos &amp; Hedges (2009). Analyzing effect sizes: Fixed-effects models. In H. Cooper, L. V. Hedges, &amp; J. C. Valentine (Eds.), <em>The handbook of research synthesis and meta analysis</em> (pp. 279-293). New York: Russell Sage Foundation.  
+</p>
+<p>Shadish &amp; Haddock (2009). Analyzing effect sizes: Fixed-effects models. In H. Cooper, L. V. Hedges, &amp; J. C. Valentine (Eds.), <em>The handbook of research synthesis and meta analysis</em> (pp. 257-278). New York: Russell Sage Foundation. 
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="plotcat.html">plotcat</a></code>,
+<code><a href="wd.html">wd</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+id&lt;-c(1:20)
+n.1&lt;-c(10,20,13,22,28,12,12,36,19,12,36,75,33,121,37,14,40,16,14,20)
+n.2 &lt;- c(11,22,10,20,25,12,12,36,19,11,34,75,33,120,37,14,40,16,10,21)
+g &lt;- c(.68,.56,.23,.64,.49,-.04,1.49,1.33,.58,1.18,-.11,1.27,.26,.40,.49,
+.51,.40,.34,.42,1.16)
+var.g &lt;- c(.08,.06,.03,.04,.09,.04,.009,.033,.0058,.018,.011,.027,.026,.0040,
+.049,.0051,.040,.034,.0042,.016)
+mod&lt;-factor(c(rep(c(1,1,2,3),5)))
+df&lt;-data.frame(id, n.1,n.2, g, var.g,mod)
+
+# Example
+
+# Random effects
+macat(g = g, var= var.g, mod = mod, data = df, method= "random")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>MAd</em> version 0.8-2.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Computes Vector of Standardized Mean Differences</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for compute_ds {MAd}"><tr><td>compute_ds {MAd}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Computes Vector of Standardized Mean Differences
+</h2>
+
+<h3>Description</h3>
+
+<p>Adds d (standardized mean difference) to a <code>data.frame</code>. Required inputs are: n.1 (sample size of group one), m.1 (raw post-mean value of group one), sd.1 (standard deviation of group one), n.2 (sample size of group two), m.2 (raw post-mean value of group two), sd.2 (standard deviation of group two). 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+compute_ds(n.1, m.1, sd.1 , n.2, m.2, sd.2 , data, denom = "pooled.sd")
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>n.1</code></td>
+<td>
+<p>sample size of group one.
+</p>
+</td></tr>
+<tr valign="top"><td><code>m.1</code></td>
+<td>
+<p>raw post-mean value of group one.
+</p>
+</td></tr>
+<tr valign="top"><td><code>sd.1</code></td>
+<td>
+<p>standard deviation of group one.
+</p>
+</td></tr>
+<tr valign="top"><td><code>n.2</code></td>
+<td>
+<p>sample size of group two.
+</p>
+</td></tr>
+<tr valign="top"><td><code>m.2</code></td>
+<td>
+<p>raw post-mean value of group two.
+</p>
+</td></tr>
+<tr valign="top"><td><code>sd.2</code></td>
+<td>
+<p>standard deviation of group two.
+</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p><code>data.frame</code> with values above. 
+</p>
+</td></tr>
+<tr valign="top"><td><code>denom</code></td>
+<td>
+<p>Value in the denominator to standardize the means by. <code>pooled.sd</code> will pool together both groups in deriving d. <code>control.sd</code> uses the standard deviation of group two (typically the control condition) to calculate d. 
+</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<table summary="R valueblock">
+<tr valign="top"><td><code>d </code></td>
+<td>
+<p>Standardized mean difference.
+</p>
+</td></tr>
+<tr valign="top"><td><code>var.d </code></td>
+<td>
+<p>Variance of d.
+</p>
+</td></tr>
+<tr valign="top"><td><code>se.d </code></td>
+<td>
+<p>Standard error of d.
+</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>AC Del Re &amp; William T. Hoyt
+</p>
+<p>Maintainer: AC Del Re <a href="mailto:acdelre@gmail.com">acdelre@gmail.com</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Borenstein (2009). Effect sizes for continuous data. In H. Cooper, L. V. Hedges, &amp; J. C. Valentine (Eds.), <em>The handbook of research synthesis and meta analysis</em> (pp. 279-293). New York: Russell Sage Foundation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="compute_ds.html">compute_ds</a></code>,
+<code><a href="compute_dgs.html">compute_dgs</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+id &lt;- c(1:20)
+n.1 &lt;- c(10,20,13,22,28,12,12,36,19,12,36,75,33,121,37,14,40,16,14,20)
+n.2 &lt;- c(11,22,10,20,25,12,12,36,19,11,34,75,33,120,37,14,40,16,10,21)
+m.1 &lt;- c(.68,.56,.23,.64,.49,.4,1.49,.53,.58,1.18,.11,1.27,.26,.40,.49,
+         .51,.40,.34,.42,.66)
+m.2 &lt;- c(.38,.36,.23,.34,.29,.4,1.9,.33,.28,1.1,.111,.27,.21,.140,.149,
+         .51,.140,.134,.42,.16)
+sd.1 &lt;- c(.28,.26,.23,.44,.49,.34,.39,.33,.58,.38,.31,.27,.26,.40,
+          .49,.51,.140,.134,.42,.46)
+sd.2 &lt;- c(.28,.26,.23,.44,.49,.44,.39,.33,.58,.38,.51,.27,.26,.40,
+          .49,.51,.140,.134,.142,.36)
+mod1 &lt;- c(1,2,3,4,1,2,8,7,5,3,9,7,5,4,3,2,3,5,7,1)
+mod2 &lt;- factor(c(rep(c(1,2,3,4),5)))
+dfs &lt;- data.frame(id, n.1,m.1, sd.1, n.2, m.2, sd.2, mod1, mod2)
+
+# Example
+compute_ds(n.1, m.1, sd.1, n.2, m.2, sd.2, data = dfs)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>MAd</em> version 0.8-2.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

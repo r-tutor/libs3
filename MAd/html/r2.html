@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Explained Variance</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for r2 {MAd}"><tr><td>r2 {MAd}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Explained Variance 
+</h2>
+
+<h3>Description</h3>
+
+<p>Compares tau-squared from empty model (omnibus or overall weighted mean) to model with moderators and provides percentage of explained variance.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+r2(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>Will take either a <code>mareg</code> (meta-regression), or <code>macat</code> (single predictor categorical moderator analysis) object and evaluate. 
+</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>AC Del Re &amp; William T. Hoyt
+</p>
+<p>Maintainer: AC Del Re <a href="mailto:acdelre@gmail.com">acdelre@gmail.com</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Sample data
+id&lt;-c(1:20)
+n.1&lt;-c(10,20,13,22,28,12,12,36,19,12,36,75,33,121,37,14,40,16,14,20)
+n.2 &lt;- c(11,22,10,20,25,12,12,36,19,11,34,75,33,120,37,14,40,16,10,21)
+g &lt;- c(.68,.56,.23,.64,.49,-.04,1.49,1.33,.58,1.18,-.11,1.27,.26,.40,.49,
+.51,.40,.34,.42,1.16)
+var.g &lt;- c(.08,.06,.03,.04,.09,.04,.009,.033,.0058,.018,.011,.027,.026,.0040,
+.049,.0051,.040,.034,.0042,.016)
+mod&lt;-factor(c(rep(c(1,1,2,3),5)))
+mods2&lt;-c(rep(1:5,4))
+df&lt;-data.frame(id, n.1,n.2, g, var.g,mod, mods2)
+
+
+# Examples
+
+# mareg fuction
+temp &lt;- mareg(g~ mod + mods2, var = var.g, method = "REML", data = df)
+
+r2(temp)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>MAd</em> version 0.8-2.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

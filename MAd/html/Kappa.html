@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Inter-Rater Agreement</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Kappa {MAd}"><tr><td>Kappa {MAd}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Inter-Rater Agreement
+</h2>
+
+<h3>Description</h3>
+
+<p>Kappa coefficients for assessing inter-rater agreement between two coders (for categorical <br />
+variables/moderators).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+Kappa(rater1, rater2)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>rater1</code></td>
+<td>
+<p>First rater of categorical variable to be analyzed. This vector needs to be in a separate column if in a <code>data.frame</code>.
+</p>
+</td></tr>
+<tr valign="top"><td><code>rater2</code></td>
+<td>
+<p>Second rater on same categorical variable to be analyzed. This vector needs to be in a separate column if in a <code>data.frame</code>.
+</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>Kappa coefficients for inter-rater reliability (categorical variables).
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>AC Del Re &amp; William T. Hoyt
+</p>
+<p>Maintainer: AC Del Re <a href="mailto:acdelre@gmail.com">acdelre@gmail.com</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# sample data
+
+study &lt;- c(1,1,2,2,3,3) # study coded
+rater &lt;- rep(1:2, 3)  # 2 raters
+mod1 &lt;- as.factor(round(rnorm(6, 10, 1))) # values coded for mod 1
+mod2 &lt;- as.factor(round(rnorm(6, 10, 1)))
+mod3 &lt;- as.factor(round(rnorm(6, 10, 1)))
+mod4 &lt;- as.factor(round(rnorm(6, 10, 1)))
+mod5 &lt;- as.factor(round(rnorm(6, 10, 1)))
+mod6 &lt;- as.factor(round(rnorm(6, 10, 1)))
+w &lt;-data.frame(study, rater,mod1, mod2, mod3, mod4, mod5, mod6)
+w
+
+# if data is in this format:
+# study rater mod1 mod2 mod3 mod4 mod5 mod6
+#     1     1    8   10    9    9   10   10
+#     1     2   10   11   10   10   13   12
+#     2     1   11   10   11   11   10   12
+#     2     2   13   10   10   11   12    9
+#     3     1   11   10   11   10   10    9
+#     3     2   10   10   11    9   10   11
+#
+# the data will need to be reshaped to be processed by the 
+# Kappa function:
+
+long &lt;- reshape(w, varying=colnames(w)[3:8], v.names="code", 
+            idvar=c('study', 'rater'), timevar= 'mods', direction='long')
+wide &lt;- reshape(long, idvar=c('mods', 'study'), timevar='rater')
+wide
+
+# running the function:
+
+Kappa(wide$code.1, wide$code.2)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>MAd</em> version 0.8-2.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

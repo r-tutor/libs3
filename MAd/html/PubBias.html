@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Assess for Publication Bias</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for PubBias {MAd}"><tr><td>PubBias {MAd}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Assess for Publication Bias
+</h2>
+
+<h3>Description</h3>
+
+<p>Assess for publication bias in the meta-analytic data</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+PubBias(data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p><code>data.frame</code> having been analyzed by the <code>weights</code> function with id and z.score (standardized z-value). 
+</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<table summary="R valueblock">
+<tr valign="top"><td><code>k</code></td>
+<td>
+<p>Number of studies.</p>
+</td></tr>
+<tr valign="top"><td><code>Z</code></td>
+<td>
+<p>Overall z-value for data set.</p>
+</td></tr>
+<tr valign="top"><td><code>k0</code></td>
+<td>
+<p>Number of studies needed to include with effect size = 0 (null) in order for the p &gt; .05 (null hypothesis retained).</p>
+</td></tr>
+<tr valign="top"><td><code>k.per</code></td>
+<td>
+<p>Number of missing studies for every observed study for the overall effect to be nullified.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p> AC Del Re &amp; William T. Hoyt
+</p>
+<p>Maintainer: AC Del Re <a href="mailto:acdelre@gmail.com">acdelre@gmail.com</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Sutton, A. J. (2009). Publication bias. In H. Cooper, L. V. Hedges, &amp; J. C. Valentine (Eds.), <em>The handbook of research synthesis and meta analysis</em> (pp. 435-452). New York: Russell Sage Foundation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../stats/html/weights.html">weights</a></code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>MAd</em> version 0.8-2.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

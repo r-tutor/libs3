@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: ANCOVA F-statistic to d</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ancova_to_d1 {MAd}"><tr><td>ancova_to_d1 {MAd}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>ANCOVA F-statistic to d 
+</h2>
+
+<h3>Description</h3>
+
+<p>Converts an ANCOVA F-statistic to d (standardized mean difference)
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+ancova_to_d1(m.1.adj, m.2.adj, sd.adj, n.1, n.2, R, q)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>m.1.adj</code></td>
+<td>
+<p>Adjusted mean of treatment group from ANCOVA.
+</p>
+</td></tr>
+<tr valign="top"><td><code>m.2.adj</code></td>
+<td>
+<p>Adjusted mean of comparison group from ANCOVA.
+</p>
+</td></tr>
+<tr valign="top"><td><code>sd.adj</code></td>
+<td>
+<p>Adjusted standard deviation.
+</p>
+</td></tr>
+<tr valign="top"><td><code>n.1</code></td>
+<td>
+<p>Treatment group sample size.
+</p>
+</td></tr>
+<tr valign="top"><td><code>n.2</code></td>
+<td>
+<p>Comparison group sample size.
+</p>
+</td></tr>
+<tr valign="top"><td><code>R</code></td>
+<td>
+<p>Covariate outcome correlation or multiple correlation.
+</p>
+</td></tr>
+<tr valign="top"><td><code>q</code></td>
+<td>
+<p>Number of covariates.
+</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<table summary="R valueblock">
+<tr valign="top"><td><code>d</code></td>
+<td>
+<p>Standardized mean difference (d).</p>
+</td></tr>
+<tr valign="top"><td><code>var_d </code></td>
+<td>
+<p>Variance of d.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p> AC Del Re &amp; William T. Hoyt
+</p>
+<p>Maintainer: AC Del Re <a href="mailto:acdelre@gmail.com">acdelre@gmail.com</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Borenstein (2009). Effect sizes for continuous data. In H. Cooper, L. V. Hedges, &amp; J. C. Valentine (Eds.), <em>The handbook of research synthesis and meta analysis</em> (pp. 279-293). New York: Russell Sage Foundation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="d_to_g.html">d_to_g</a></code>,
+<code><a href="mean_to_d.html">mean_to_d</a></code>,
+<code><a href="mean_to_d2.html">mean_to_d2</a></code>,
+<code><a href="t_to_d.html">t_to_d</a></code>,
+<code><a href="f_to_d.html">f_to_d</a></code>,
+<code><a href="p_to_d1.html">p_to_d1</a></code>,
+<code><a href="p_to_d2.html">p_to_d2</a></code>, 
+<code><a href="ancova_to_d1.html">ancova_to_d1</a></code>, 
+<code><a href="ancova_to_d2.html">ancova_to_d2</a></code>, 
+<code><a href="tt.ancova_to_d.html">tt.ancova_to_d</a></code>, 
+<code><a href="f.ancova_to_d.html">f.ancova_to_d</a></code>, 
+<code><a href="r_to_d.html">r_to_d</a></code>, 
+<code><a href="p.ancova_to_d1.html">p.ancova_to_d1</a></code>,
+<code><a href="p.ancova_to_d2.html">p.ancova_to_d2</a></code>,
+<code><a href="lor_to_d.html">lor_to_d</a></code>,
+<code><a href="prop_to_or.html">prop_to_or</a></code>, 
+<code><a href="prop_to_d.html">prop_to_d</a></code>, 
+<code><a href="r_from_chi.html">r_from_chi</a></code>, 
+<code><a href="r_from_d.html">r_from_d</a></code>,
+<code><a href="r_from_d1.html">r_from_d1</a></code>,
+<code><a href="r_from_t.html">r_from_t</a></code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>MAd</em> version 0.8-2.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

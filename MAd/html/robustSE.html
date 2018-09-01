@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Robust standard error</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for robustSE {MAd}"><tr><td>robustSE {MAd}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Robust standard error
+</h2>
+
+<h3>Description</h3>
+
+<p> When the correlation between dependent effect sizes are unknown, one approach is to conduct the meta-analysis by assuming that the effect sizes are independent. Then, Hedges et al. (2010) robust standard error procedure can be calculated to adjust for dependence. 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+robustSE(model, cluster=NULL, CI=.95, digits=3)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>omnibus or moderator model object fitted from mareg() function.  
+</p>
+</td></tr>
+<tr valign="top"><td><code>cluster</code></td>
+<td>
+<p>Name of variable where the dependencies are present. This will typically be the variable for <em>study id</em> where <code>length(unique(study_id))&gt;1</code>.
+</p>
+</td></tr>
+<tr valign="top"><td><code>CI</code></td>
+<td>
+<p>Confidence interval. Defaults to .95.  
+</p>
+</td></tr>
+<tr valign="top"><td><code>digits</code></td>
+<td>
+<p>Number of digits to output. Defaults to 3.  
+</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<table summary="R valueblock">
+<tr valign="top"><td><code>estimate</code></td>
+<td>
+<p> Meta-regression coefficient estimate.
+</p>
+</td></tr> 
+<tr valign="top"><td><code>se</code></td>
+<td>
+<p>Adjusted Standard error of the estimate coefficient.
+</p>
+</td></tr>
+<tr valign="top"><td><code>t</code></td>
+<td>
+<p> t-value.
+</p>
+</td></tr>
+<tr valign="top"><td><code>ci.l</code></td>
+<td>
+<p> Adjusted Lower 95% confidence interval.
+</p>
+</td></tr>
+<tr valign="top"><td><code>ci.u</code></td>
+<td>
+<p> Adjusted Upper 95% confidence interval.
+</p>
+</td></tr>
+<tr valign="top"><td><code>p</code></td>
+<td>
+<p> p-value.
+</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Mike Cheung with modifications by AC Del Re
+</p>
+
+
+<h3>References</h3>
+
+<p>Hedges, L. V., Tipton, E., &amp; Johnson, M. C. (2010). Robust variance estimation in meta-regression with dependent effect size estimates. Research Synthesis Methods, 1(1), 39-65. doi:10.1002/jrsm.5
+</p>
+<p>Cheung, M.W.L. (2012). metaSEM: An R package for meta-analysis using structural equation modeling. Manuscript submitted for publication.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="mareg.html">mareg</a></code>,
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# install metafor
+# install.packages('metafor', dependencies = TRUE)
+
+# Sample data
+id&lt;-c(1:20)
+n.1&lt;-c(10,20,13,22,28,12,12,36,19,12,36,75,33,121,37,14,40,16,14,20)
+n.2 &lt;- c(11,22,10,20,25,12,12,36,19,11,34,75,33,120,37,14,40,16,10,21)
+g &lt;- c(.68,.56,.23,.64,.49,-.04,1.49,1.33,.58,1.18,-.11,1.27,.26,.40,.49,
+.51,.40,.34,.42,1.16)
+var.g &lt;- c(.08,.06,.03,.04,.09,.04,.009,.033,.0058,.018,.011,.027,.026,.0040,
+.049,.0051,.040,.034,.0042,.016)
+mod&lt;-factor(c(rep(c(1,1,2,3),5)))
+mods2&lt;-c(rep(1:5,4))
+df&lt;-data.frame(id, n.1,n.2, g, var.g,mod, mods2)
+
+
+# Examples
+
+# Adjusted SE
+robustSE(mareg(g~ mod + mods2, var = var.g, method = "REML", data = df))
+
+   
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>MAd</em> version 0.8-2.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

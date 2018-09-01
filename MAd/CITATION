@@ -5,10 +5,10 @@ citEntry(entry = "Manual",
         author = personList(as.person("A. C. Del Re & W. T. Hoyt")),
        journal = "R Package",
           year = "2014",
-       url = "http://cran.r-project.org/web/packages/MAd",
+       url = "https://cran.r-project.org/package=MAd",
 
    textVersion = paste("A. C. Del Re & W. T. Hoyt (2014).",
                        "MAd: Meta-Analysis with Mean Differences.",
                        "R package version 0.8-2.",
-                       "URL http://cran.r-project.org/web/packages/MAd")
+                       "URL https://cran.r-project.org/package=MAd")
 )

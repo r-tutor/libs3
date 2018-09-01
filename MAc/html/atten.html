@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Correction for Attenuation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for atten {MAc}"><tr><td>atten {MAc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Correction for Attenuation
+</h2>
+
+<h3>Description</h3>
+
+<p> Used to correct for attenuated effect sizes due to measurement unreliability.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+atten(es, xx, yy, data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>es</code></td>
+<td>
+<p>r or z' effect size.
+</p>
+</td></tr> 
+<tr valign="top"><td><code>xx</code></td>
+<td>
+<p> Column for reliability of predictor variable (&quot;independent variable&quot;). 
+</p>
+</td></tr>
+<tr valign="top"><td><code>yy</code></td>
+<td>
+<p> Column for reliability of outcome variable (&quot;dependent variable&quot;).
+</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+ <p><code>data.frame</code> with the above values.
+</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>A new column for es corrected for attenuation (<code>es.corrected</code>) will be added to the data, for those xx &amp; yy columns with complete data. 
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>AC Del Re &amp; William T. Hoyt
+</p>
+<p>Maintainer: AC Del Re <a href="mailto:acdelre@gmail.com">acdelre@gmail.com</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Hunter, J. E., Schmidt, F. L. (2004). <em>Methods of meta-analysis</em> (2nd edition). Thousand Oaks, CA: Sage. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Sample data:
+
+id &lt;-c(1, 1:19)
+n &lt;-c(10,20,13,22,28,12,12,36,19,12,36,75,33,121,37,14,40,16,14,20)
+r &lt;-c(.68,.56,.23,.64,.49,-.04,.49,.33,.58,.18,-.11,.27,.26,.40,.49,
+ .51,.40,.34,.42,.16)
+xx &lt;-c(.88,.86,.83,.64,.89,.84,.89,.83,.99,.88,.81,.77,.86,.70,.79,
+ .71,.80,.74,.82,.86)  # Reliability of "independent variable"
+yy &lt;-c(.99,.86,.83,.94,.89,.94,.89,.93,.99,.88,.81,.77,.86,.70,.79,
+ .71,.80,.94,.92,.96)  # Reliability of "dependent variable"
+   
+dat&lt;-data.frame(id, n, r, xx,yy)
+
+# Example        
+atten(es= r, xx = xx, yy = yy, data= dat) 
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>MAc</em> version 1.1.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

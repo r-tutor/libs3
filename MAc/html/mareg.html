@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Meta-Regression</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mareg {MAc}"><tr><td>mareg {MAc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Meta-Regression 
+</h2>
+
+<h3>Description</h3>
+
+<p> Meta-regression function for a single or multiple predictor model. This function is a wrapper for the <code>rma()</code> function in the metafor package (Viechtbauer, W, 2010). Please see https://CRAN.R-project.org/package=metafor for details or for more advanced functionality with the <code>rma()</code> function. 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mareg(formula, var, data, ztor = FALSE, method = "REML",  subset,  ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>formula</code></td>
+<td>
+<p> This is a formula based function, similar to other functions in R (e.g., lm), where the criterion variable (e.g., r or z') is dependent on ('~') the predictor variables (e.g., moderators). The formula for two moderators would take this form: mareg(r ~ mod1 + mod2, var.r, data), where r is the criterion variable predicted by mod1 and mod2. The variance (var) of each r is var.r in this case.   
+</p>
+</td></tr>
+<tr valign="top"><td><code>var</code></td>
+<td>
+<p> Variance of r or z'.
+</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>Aggregated <code>data.frame</code> (see <code>agg</code> function for setting up the dataset for these analyses) with id, es (r or z'), var (variance of r or z') for each study. 
+</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p> Default is <code>REML</code> (Restricted-Maximal Likelihood), which is the standard random effects method. For fixed effects, use <code>FE</code>. Other options are specified in the <code>metafor</code> package manual ('rma' function).
+</p>
+</td></tr>
+<tr valign="top"><td><code>ztor</code></td>
+<td>
+<p>Default is FALSE. If TRUE, this assumes z' (Fisher's z) was used in the <code>es</code> argument and the analyist would like z' to be converted to r (for interpretive purposes) after analyzing in z'.
+</p>
+</td></tr> 
+<tr valign="top"><td><code>subset</code></td>
+<td>
+<p> an optional vector specifying a subset of observations to be used in the fitting process.
+</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p> Additional arguments to be passed to rma().
+</p>
+</td></tr>  
+</table>
+
+
+<h3>Details</h3>
+
+<p>See Wolfgang Viechtbauer (2010). metafor: Meta-Analysis Package for
+R. R package version 1.1-0. for the details  of the <code>rma()</code>  function. https://CRAN.R-project.org/package=metafor
+</p>
+
+
+<h3>Value</h3>
+
+<table summary="R valueblock">
+<tr valign="top"><td><code>estimate</code></td>
+<td>
+<p> Unstandardized regression coefficient estimate.
+</p>
+</td></tr> 
+<tr valign="top"><td><code>se</code></td>
+<td>
+<p> Standard error of the estimate coefficient.
+</p>
+</td></tr>
+<tr valign="top"><td><code>z</code></td>
+<td>
+<p> z-value.
+</p>
+</td></tr>
+<tr valign="top"><td><code>ci.l</code></td>
+<td>
+<p> Lower 95% confidence interval.
+</p>
+</td></tr>
+<tr valign="top"><td><code>ci.u</code></td>
+<td>
+<p> Upper 95% confidence interval.
+</p>
+</td></tr>
+<tr valign="top"><td><code>Pr(&gt;|z|)</code></td>
+<td>
+<p> p-value (significance level).
+</p>
+</td></tr>
+<tr valign="top"><td><code>QE</code></td>
+<td>
+<p> Q-error. Measure of error in the model.
+</p>
+</td></tr>
+<tr valign="top"><td><code>QE.df</code></td>
+<td>
+<p> Degrees of freedom for Q-error.
+</p>
+</td></tr>
+<tr valign="top"><td><code>QEp</code></td>
+<td>
+<p> Q-error p-value (for homogeneity).
+</p>
+</td></tr>
+<tr valign="top"><td><code>QM</code></td>
+<td>
+<p> Q-model. Measure of model fit.
+</p>
+</td></tr>
+<tr valign="top"><td><code>QM.df</code></td>
+<td>
+<p> Degrees of freedom for Q-model.
+</p>
+</td></tr>
+<tr valign="top"><td><code>QMp</code></td>
+<td>
+<p> Q-between p-value (for homogeneity). QM and QMp provide the test of whether the moderator variable(s) account for significant variance among effect sizes.
+</p>
+</td></tr> 
+</table>
+
+
+<h3>References</h3>
+
+<p>Wolfgang Viechtbauer (2010). metafor: Meta-Analysis Package for
+R. R package version 1.1-0. https://CRAN.R-project.org/package=metafor
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="wd.html">wd</a></code>,
+<code><a href="plotcon.html">plotcon</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# install metafor
+# install.packages('metafor', dependencies = TRUE)
+
+# Sample data
+id&lt;-c(1:20)
+n&lt;-c(10,20,13,22,28,12,12,36,19,12,36,75,33,121,37,14,40,16,14,20)
+r&lt;-c(.68,.56,.23,.64,.49,-.04,.49,.33,.58,.18,-.11,.27,.26,.40,.49,
+.51,.40,.34,.42,.16)
+mod1&lt;-c(1,2,3,4,1,2,8,7,5,3,9,7,5,4,3,2,3,5,7,1)
+dat&lt;-data.frame(id,n,r,mod1)
+dat$var.r &lt;- var_r(dat$r, dat$n) # MAc function to derive variance
+dat$z &lt;- r_to_z(dat$r)  # MAc function to convert to Fisher's z (z')
+dat$var.z &lt;- var_z(dat$n)  # MAc function for variance of z'
+dat$mods2 &lt;- factor(rep(1:2, 10))
+dat
+
+
+
+# Examples
+
+# Random Effects
+mareg(r~ mod1 + mods2, var = var.r, method = "REML",  data = dat)
+
+# Fixed Effects
+mareg(r~ mod1 + mods2, var = var.r, method = "FE",  data = dat)  
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>MAc</em> version 1.1.1 <a href="00Index.html">Index</a>]</div>
+</body></html>
