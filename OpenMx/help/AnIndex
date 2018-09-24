@@ -116,6 +116,7 @@ imxHasConstraint	imxHasConstraint
 imxHasDefinitionVariable	imxHasDefinitionVariable
 imxHasNPSOL	imxHasNPSOL
 imxHasOpenMP	imxHasOpenMP
+imxHasThresholds	imxHasThresholds
 imxIdentifier	imxIdentifier
 imxIndependentModels	imxIndependentModels
 imxInitModel	imxInitModel
@@ -239,10 +240,11 @@ mxCompare	mxCompare
 mxCompareMatrix	mxCompare
 MxCompute	MxCompute-class
 MxCompute-class	MxCompute-class
-mxComputeBenchmark	mxComputeBenchmark
-MxComputeBenchmark-class	mxComputeBenchmark
+mxComputeBenchmark	mxComputeLoop
 mxComputeBootstrap	mxComputeBootstrap
 MxComputeBootstrap-class	mxComputeBootstrap
+mxComputeCheckpoint	mxComputeCheckpoint
+MxComputeCheckpoint-class	mxComputeCheckpoint
 mxComputeConfidenceInterval	mxComputeConfidenceInterval
 MxComputeConfidenceInterval-class	mxComputeConfidenceInterval
 mxComputeDefault	mxComputeDefault
@@ -257,6 +259,14 @@ mxComputeHessianQuality	mxComputeHessianQuality
 MxComputeHessianQuality-class	mxComputeHessianQuality
 mxComputeIterate	mxComputeIterate
 MxComputeIterate-class	mxComputeIterate
+mxComputeJacobian	mxComputeJacobian
+MxComputeJacobian-class	mxComputeJacobian
+mxComputeLoadData	mxComputeLoadData
+MxComputeLoadData-class	mxComputeLoadData
+mxComputeLoadMatrix	mxComputeLoadMatrix
+MxComputeLoadMatrix-class	mxComputeLoadMatrix
+mxComputeLoop	mxComputeLoop
+MxComputeLoop-class	mxComputeLoop
 MxComputeNelderMead	mxComputeNelderMead
 mxComputeNelderMead	mxComputeNelderMead
 MxComputeNelderMead-class	mxComputeNelderMead
@@ -273,6 +283,8 @@ mxComputeReportExpectation	mxComputeReportExpectation
 MxComputeReportExpectation-class	mxComputeReportExpectation
 mxComputeSequence	mxComputeSequence
 MxComputeSequence-class	mxComputeSequence
+mxComputeSimAnnealing	mxComputeSimAnnealing
+MxComputeSimAnnealing-class	mxComputeSimAnnealing
 mxComputeStandardError	mxComputeStandardError
 MxComputeStandardError-class	mxComputeStandardError
 mxComputeTryHard	mxComputeTryHard
@@ -356,6 +368,7 @@ mxMLObjective	mxMLObjective
 MxModel	MxModel-class
 mxModel	mxModel
 MxModel-class	MxModel-class
+mxModelAverage	MxMMI
 MxNonNullData-class	MxData-class
 mxNormalQuantiles	mxNormalQuantiles
 mxOption	mxOption
@@ -367,6 +380,8 @@ MxOptionalNumeric-class	MxOptionalNumeric-class
 mxParametricBootstrap	mxParametricBootstrap
 mxPath	mxPath
 MxPath-class	mxPath
+mxPearsonSelCov	mxPearsonSelCov
+mxPearsonSelMean	mxPearsonSelCov
 mxPower	mxPower
 mxPowerSearch	mxPower
 MxRAMGraph	MxRAMGraph-class
@@ -421,6 +436,7 @@ nrow,MxMatrix-method	MxMatrix-class
 nuclear_twin_design_data	nuclear_twin_design_data
 numHess1	numHess1
 numHess2	numHess2
+omxAkaikeWeights	MxMMI
 omxAllInt	omxAllInt
 omxAnd	omxLogical
 omxApply	omxApply
@@ -549,6 +565,7 @@ vech2full	vech2full
 vechs	vechs
 vechs2full	vechs2full
 wideData	LongitudinalOverdispersedCounts
+write.cbor	mxComputeLoadData
 ZeroMatrix-class	MxMatrix-class
 [,MxMatrix,ANY,ANY,ANY-method	MxMatrix-class
 [,MxMatrix-method	MxMatrix-class

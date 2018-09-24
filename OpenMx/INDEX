@@ -120,6 +120,7 @@ imxHasDefinitionVariable
                         imxHasDefinitionVariable
 imxHasNPSOL             imxHasNPSOL
 imxHasOpenMP            imxHasOpenMP
+imxHasThresholds        imxHasThresholds
 imxIdentifier           imxIdentifier
 imxIndependentModels    Are submodels independent?
 imxInitModel            imxInitModel
@@ -194,9 +195,9 @@ mxBounds                Create MxBounds Object
 mxCI                    Create mxCI Object
 mxCheckIdentification   Check that a model is locally identified
 mxCompare               Likelihood ratio test
-mxComputeBenchmark      Repeatedly invoke a series of compute objects
 mxComputeBootstrap      Repeatedly estimate model using resampling with
                         replacement
+mxComputeCheckpoint     Log parameters and state to disk or memory
 mxComputeConfidenceInterval
                         Find likelihood-based confidence intervals
 mxComputeDefault        Default compute plan
@@ -210,6 +211,13 @@ mxComputeHessianQuality
                         Compute the quality of the Hessian
 mxComputeIterate        Repeatedly invoke a series of compute objects
                         until change is less than tolerance
+mxComputeJacobian       Numerically estimate the Jacobian with respect
+                        to free parameters
+mxComputeLoadData       EXPERIMENTAL Load data from netcdf files
+                        directly into the backend EXPERIMENTAL
+mxComputeLoadMatrix     Load data from CSV files directly into the
+                        backend
+mxComputeLoop           Repeatedly invoke a series of compute objects
 mxComputeNelderMead     Optimize parameters using a variation of the
                         Nelder-Mead algorithm.
 mxComputeNewtonRaphson
@@ -223,6 +231,8 @@ mxComputeReportDeriv    Report derivatives
 mxComputeReportExpectation
                         Report expectation
 mxComputeSequence       Invoke a series of compute objects in sequence
+mxComputeSimAnnealing   Optimization using generalized simulated
+                        annealing
 mxComputeStandardError
                         Compute standard errors given the Hessian or
                         inverse Hessian
@@ -272,11 +282,14 @@ mxMLObjective           DEPRECATED: Create MxMLObjective Object
 mxMakeNames             mxMakeNames
 mxMatrix                Create MxMatrix Object
 mxModel                 Create MxModel Object
+mxModelAverage          Information-Theoretic Model-Averaging and
+                        Multimodel Inference
 mxNormalQuantiles       mxNormalQuantiles
 mxOption                Set or Clear an Optimizer Option
 mxParametricBootstrap   Assess whether potential parameters should be
                         freed using parametric bootstrap
 mxPath                  Create List of Paths
+mxPearsonSelCov         Perform Pearson Aitken selection
 mxPowerSearch           Power curve
 mxRAMObjective          DEPRECATED: Create MxRAMObjective Object
 mxRObjective            DEPRECATED: Create MxRObjective Object
@@ -344,7 +357,8 @@ omxGraphviz             Show RAM Model in Graphviz Format
 omxHasDefaultComputePlan
                         omxHasDefaultComputePlan
 omxLapply               On-Demand Parallel Lapply
-omxLocateParameters     Summarize Model Parameters
+omxLocateParameters     Get the location (model, matrix, row, column)
+                        and other info for a parameter
 omxLogical              Logical mxAlgebra() operators
 omxManifestModelByParameterJacobian
                         Estimate the Jacobian of manifest model with
@@ -354,9 +368,8 @@ omxMnor                 Multivariate Normal Integration
 omxModelDeleteData      Remove all instances of data from a model
 omxNameAnonymousParameters
                         omxNameAnonymousParameters
-omxParallelCI           Dedicated functions for calculating confidence
-                        intervals without redoing the primary
-                        optimization.
+omxParallelCI           Calculate confidence intervals without re-doing
+                        the primary optimization.
 omxQuotes               omxQuotes
 omxRAMtoML              omxRAMtoML
 omxRMSEA                Get the RMSEA with confidence intervals from

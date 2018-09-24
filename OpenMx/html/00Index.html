@@ -11,7 +11,7 @@
 <div style="text-align: center;">
 <a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
 <a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
-</div><h2>Documentation for package &lsquo;OpenMx&rsquo; version 2.10.0</h2>
+</div><h2>Documentation for package &lsquo;OpenMx&rsquo; version 2.11.3</h2>
 
 <ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
 <li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
@@ -236,6 +236,8 @@
 <td>imxHasNPSOL</td></tr>
 <tr><td style="width: 25%;"><a href="imxHasOpenMP.html">imxHasOpenMP</a></td>
 <td>imxHasOpenMP</td></tr>
+<tr><td style="width: 25%;"><a href="imxHasThresholds.html">imxHasThresholds</a></td>
+<td>imxHasThresholds</td></tr>
 <tr><td style="width: 25%;"><a href="imxIdentifier.html">imxIdentifier</a></td>
 <td>imxIdentifier</td></tr>
 <tr><td style="width: 25%;"><a href="imxIndependentModels.html">imxIndependentModels</a></td>
@@ -443,14 +445,16 @@
 <td>MxCompute</td></tr>
 <tr><td style="width: 25%;"><a href="MxCompute-class.html">MxCompute-class</a></td>
 <td>MxCompute</td></tr>
-<tr><td style="width: 25%;"><a href="mxComputeBenchmark.html">mxComputeBenchmark</a></td>
-<td>Repeatedly invoke a series of compute objects</td></tr>
-<tr><td style="width: 25%;"><a href="mxComputeBenchmark.html">MxComputeBenchmark-class</a></td>
+<tr><td style="width: 25%;"><a href="mxComputeLoop.html">mxComputeBenchmark</a></td>
 <td>Repeatedly invoke a series of compute objects</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeBootstrap.html">mxComputeBootstrap</a></td>
 <td>Repeatedly estimate model using resampling with replacement</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeBootstrap.html">MxComputeBootstrap-class</a></td>
 <td>Repeatedly estimate model using resampling with replacement</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeCheckpoint.html">mxComputeCheckpoint</a></td>
+<td>Log parameters and state to disk or memory</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeCheckpoint.html">MxComputeCheckpoint-class</a></td>
+<td>Log parameters and state to disk or memory</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeConfidenceInterval.html">mxComputeConfidenceInterval</a></td>
 <td>Find likelihood-based confidence intervals</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeConfidenceInterval.html">MxComputeConfidenceInterval-class</a></td>
@@ -479,6 +483,22 @@
 <td>Repeatedly invoke a series of compute objects until change is less than tolerance</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeIterate.html">MxComputeIterate-class</a></td>
 <td>Repeatedly invoke a series of compute objects until change is less than tolerance</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeJacobian.html">mxComputeJacobian</a></td>
+<td>Numerically estimate the Jacobian with respect to free parameters</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeJacobian.html">MxComputeJacobian-class</a></td>
+<td>Numerically estimate the Jacobian with respect to free parameters</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoadData.html">mxComputeLoadData</a></td>
+<td>EXPERIMENTAL Load data from netcdf files directly into the backend EXPERIMENTAL</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoadData.html">MxComputeLoadData-class</a></td>
+<td>EXPERIMENTAL Load data from netcdf files directly into the backend EXPERIMENTAL</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoadMatrix.html">mxComputeLoadMatrix</a></td>
+<td>Load data from CSV files directly into the backend</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoadMatrix.html">MxComputeLoadMatrix-class</a></td>
+<td>Load data from CSV files directly into the backend</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoop.html">mxComputeLoop</a></td>
+<td>Repeatedly invoke a series of compute objects</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoop.html">MxComputeLoop-class</a></td>
+<td>Repeatedly invoke a series of compute objects</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeNelderMead.html">MxComputeNelderMead</a></td>
 <td>Optimize parameters using a variation of the Nelder-Mead algorithm.</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeNelderMead.html">mxComputeNelderMead</a></td>
@@ -511,6 +531,10 @@
 <td>Invoke a series of compute objects in sequence</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeSequence.html">MxComputeSequence-class</a></td>
 <td>Invoke a series of compute objects in sequence</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeSimAnnealing.html">mxComputeSimAnnealing</a></td>
+<td>Optimization using generalized simulated annealing</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeSimAnnealing.html">MxComputeSimAnnealing-class</a></td>
+<td>Optimization using generalized simulated annealing</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeStandardError.html">mxComputeStandardError</a></td>
 <td>Compute standard errors given the Hessian or inverse Hessian</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeStandardError.html">MxComputeStandardError-class</a></td>
@@ -677,6 +701,8 @@
 <td>Create MxModel Object</td></tr>
 <tr><td style="width: 25%;"><a href="MxModel-class.html">MxModel-class</a></td>
 <td>MxModel Class</td></tr>
+<tr><td style="width: 25%;"><a href="MxMMI.html">mxModelAverage</a></td>
+<td>Information-Theoretic Model-Averaging and Multimodel Inference</td></tr>
 <tr><td style="width: 25%;"><a href="MxData-class.html">MxNonNullData-class</a></td>
 <td>MxData Class</td></tr>
 <tr><td style="width: 25%;"><a href="mxNormalQuantiles.html">mxNormalQuantiles</a></td>
@@ -699,6 +725,10 @@
 <td>Create List of Paths</td></tr>
 <tr><td style="width: 25%;"><a href="mxPath.html">MxPath-class</a></td>
 <td>Create List of Paths</td></tr>
+<tr><td style="width: 25%;"><a href="mxPearsonSelCov.html">mxPearsonSelCov</a></td>
+<td>Perform Pearson Aitken selection</td></tr>
+<tr><td style="width: 25%;"><a href="mxPearsonSelCov.html">mxPearsonSelMean</a></td>
+<td>Perform Pearson Aitken selection</td></tr>
 <tr><td style="width: 25%;"><a href="mxPower.html">mxPower</a></td>
 <td>Power curve</td></tr>
 <tr><td style="width: 25%;"><a href="mxPower.html">mxPowerSearch</a></td>
@@ -817,6 +847,8 @@
 <h2><a name="O">-- O --</a></h2>
 
 <table width="100%">
+<tr><td style="width: 25%;"><a href="MxMMI.html">omxAkaikeWeights</a></td>
+<td>Information-Theoretic Model-Averaging and Multimodel Inference</td></tr>
 <tr><td style="width: 25%;"><a href="omxAllInt.html">omxAllInt</a></td>
 <td>All Interval Multivariate Normal Integration</td></tr>
 <tr><td style="width: 25%;"><a href="omxLogical.html">omxAnd</a></td>
@@ -886,7 +918,7 @@
 <tr><td style="width: 25%;"><a href="omxLogical.html">omxLessThan</a></td>
 <td>Logical mxAlgebra() operators</td></tr>
 <tr><td style="width: 25%;"><a href="omxLocateParameters.html">omxLocateParameters</a></td>
-<td>Summarize Model Parameters</td></tr>
+<td>Get the location (model, matrix, row, column) and other info for a parameter</td></tr>
 <tr><td style="width: 25%;"><a href="omxLogical.html">omxLogical</a></td>
 <td>Logical mxAlgebra() operators</td></tr>
 <tr><td style="width: 25%;"><a href="omxManifestModelByParameterJacobian.html">omxManifestModelByParameterJacobian</a></td>
@@ -906,7 +938,7 @@
 <tr><td style="width: 25%;"><a href="omxLogical.html">omxOr</a></td>
 <td>Logical mxAlgebra() operators</td></tr>
 <tr><td style="width: 25%;"><a href="omxParallelCI.html">omxParallelCI</a></td>
-<td>Dedicated functions for calculating confidence intervals without redoing the primary optimization.</td></tr>
+<td>Calculate confidence intervals without re-doing the primary optimization.</td></tr>
 <tr><td style="width: 25%;"><a href="mxAlgebra.html">omxPnbinom</a></td>
 <td>Create MxAlgebra Object</td></tr>
 <tr><td style="width: 25%;"><a href="omxQuotes.html">omxQuotes</a></td>
@@ -918,7 +950,7 @@
 <tr><td style="width: 25%;"><a href="omxRMSEA.html">omxRMSEA</a></td>
 <td>Get the RMSEA with confidence intervals from model</td></tr>
 <tr><td style="width: 25%;"><a href="omxParallelCI.html">omxRunCI</a></td>
-<td>Dedicated functions for calculating confidence intervals without redoing the primary optimization.</td></tr>
+<td>Calculate confidence intervals without re-doing the primary optimization.</td></tr>
 <tr><td style="width: 25%;"><a href="omxSapply.html">omxSapply</a></td>
 <td>On-Demand Parallel Sapply</td></tr>
 <tr><td style="width: 25%;"><a href="omxSaturatedModel.html">omxSaturatedModel</a></td>
@@ -1108,6 +1140,8 @@
 <table width="100%">
 <tr><td style="width: 25%;"><a href="LongitudinalOverdispersedCounts.html">wideData</a></td>
 <td>Longitudinal, Overdispersed Count Data</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoadData.html">write.cbor</a></td>
+<td>EXPERIMENTAL Load data from netcdf files directly into the backend EXPERIMENTAL</td></tr>
 </table>
 
 <h2><a name="Z">-- Z --</a></h2>
