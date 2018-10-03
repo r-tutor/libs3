@@ -261,8 +261,6 @@ mxComputeIterate	mxComputeIterate
 MxComputeIterate-class	mxComputeIterate
 mxComputeJacobian	mxComputeJacobian
 MxComputeJacobian-class	mxComputeJacobian
-mxComputeLoadData	mxComputeLoadData
-MxComputeLoadData-class	mxComputeLoadData
 mxComputeLoadMatrix	mxComputeLoadMatrix
 MxComputeLoadMatrix-class	mxComputeLoadMatrix
 mxComputeLoop	mxComputeLoop
@@ -565,7 +563,6 @@ vech2full	vech2full
 vechs	vechs
 vechs2full	vechs2full
 wideData	LongitudinalOverdispersedCounts
-write.cbor	mxComputeLoadData
 ZeroMatrix-class	MxMatrix-class
 [,MxMatrix,ANY,ANY,ANY-method	MxMatrix-class
 [,MxMatrix-method	MxMatrix-class

@@ -213,8 +213,6 @@ mxComputeIterate        Repeatedly invoke a series of compute objects
                         until change is less than tolerance
 mxComputeJacobian       Numerically estimate the Jacobian with respect
                         to free parameters
-mxComputeLoadData       EXPERIMENTAL Load data from netcdf files
-                        directly into the backend EXPERIMENTAL
 mxComputeLoadMatrix     Load data from CSV files directly into the
                         backend
 mxComputeLoop           Repeatedly invoke a series of compute objects
