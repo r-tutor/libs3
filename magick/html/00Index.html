@@ -11,7 +11,7 @@
 <div style="text-align: center;">
 <a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
 <a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
-</div><h2>Documentation for package &lsquo;magick&rsquo; version 1.9</h2>
+</div><h2>Documentation for package &lsquo;magick&rsquo; version 2.0</h2>
 
 <ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
 <li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
@@ -37,7 +37,9 @@
 <a href="#O">O</a>
 <a href="#P">P</a>
 <a href="#R">R</a>
+<a href="#S">S</a>
 <a href="#T">T</a>
+<a href="#V">V</a>
 <a href="#W">W</a>
 <a href="#misc">misc</a>
 </p>
@@ -86,6 +88,8 @@
 <h2><a name="D">-- D --</a></h2>
 
 <table width="100%">
+<tr><td style="width: 25%;"><a href="editing.html">demo_image</a></td>
+<td>Image Editing</td></tr>
 <tr><td style="width: 25%;"><a href="device.html">device</a></td>
 <td>Magick Graphics Device</td></tr>
 <tr><td style="width: 25%;"><a href="options.html">dispose_types</a></td>
@@ -95,6 +99,8 @@
 <h2><a name="E">-- E --</a></h2>
 
 <table width="100%">
+<tr><td style="width: 25%;"><a href="edges.html">edges</a></td>
+<td>Edge / Line Detection</td></tr>
 <tr><td style="width: 25%;"><a href="editing.html">editing</a></td>
 <td>Image Editing</td></tr>
 <tr><td style="width: 25%;"><a href="effects.html">effects</a></td>
@@ -106,6 +112,8 @@
 <table width="100%">
 <tr><td style="width: 25%;"><a href="options.html">filter_types</a></td>
 <td>Magick Options</td></tr>
+<tr><td style="width: 25%;"><a href="fx.html">fx</a></td>
+<td>Image FX</td></tr>
 </table>
 
 <h2><a name="G">-- G --</a></h2>
@@ -154,6 +162,8 @@
 <td>Image Composite</td></tr>
 <tr><td style="width: 25%;"><a href="editing.html">image_browse</a></td>
 <td>Image Editing</td></tr>
+<tr><td style="width: 25%;"><a href="edges.html">image_canny</a></td>
+<td>Edge / Line Detection</td></tr>
 <tr><td style="width: 25%;"><a href="device.html">image_capture</a></td>
 <td>Magick Graphics Device</td></tr>
 <tr><td style="width: 25%;"><a href="color.html">image_channel</a></td>
@@ -174,12 +184,14 @@
 <td>Image Analysis</td></tr>
 <tr><td style="width: 25%;"><a href="composite.html">image_composite</a></td>
 <td>Image Composite</td></tr>
+<tr><td style="width: 25%;"><a href="segmentation.html">image_connect</a></td>
+<td>Image Segmentation</td></tr>
 <tr><td style="width: 25%;"><a href="color.html">image_contrast</a></td>
 <td>Image Color</td></tr>
 <tr><td style="width: 25%;"><a href="editing.html">image_convert</a></td>
 <td>Image Editing</td></tr>
-<tr><td style="width: 25%;"><a href="effects.html">image_convolve</a></td>
-<td>Image Effects</td></tr>
+<tr><td style="width: 25%;"><a href="morphology.html">image_convolve</a></td>
+<td>Morphology</td></tr>
 <tr><td style="width: 25%;"><a href="transform.html">image_crop</a></td>
 <td>Image Transform</td></tr>
 <tr><td style="width: 25%;"><a href="editing.html">image_data</a></td>
@@ -194,8 +206,8 @@
 <td>Image Editing</td></tr>
 <tr><td style="width: 25%;"><a href="device.html">image_draw</a></td>
 <td>Magick Graphics Device</td></tr>
-<tr><td style="width: 25%;"><a href="effects.html">image_edge</a></td>
-<td>Image Effects</td></tr>
+<tr><td style="width: 25%;"><a href="edges.html">image_edge</a></td>
+<td>Edge / Line Detection</td></tr>
 <tr><td style="width: 25%;"><a href="effects.html">image_emboss</a></td>
 <td>Image Effects</td></tr>
 <tr><td style="width: 25%;"><a href="color.html">image_enhance</a></td>
@@ -214,16 +226,26 @@
 <td>Image Transform</td></tr>
 <tr><td style="width: 25%;"><a href="composite.html">image_frame</a></td>
 <td>Image Composite</td></tr>
+<tr><td style="width: 25%;"><a href="segmentation.html">image_fuzzycmeans</a></td>
+<td>Image Segmentation</td></tr>
+<tr><td style="width: 25%;"><a href="fx.html">image_fx</a></td>
+<td>Image FX</td></tr>
 <tr><td style="width: 25%;"><a href="image_ggplot.html">image_ggplot</a></td>
 <td>Image to ggplot</td></tr>
 <tr><td style="width: 25%;"><a href="device.html">image_graph</a></td>
 <td>Magick Graphics Device</td></tr>
+<tr><td style="width: 25%;"><a href="edges.html">image_hough_draw</a></td>
+<td>Edge / Line Detection</td></tr>
+<tr><td style="width: 25%;"><a href="edges.html">image_hough_txt</a></td>
+<td>Edge / Line Detection</td></tr>
 <tr><td style="width: 25%;"><a href="effects.html">image_implode</a></td>
 <td>Image Effects</td></tr>
 <tr><td style="width: 25%;"><a href="attributes.html">image_info</a></td>
 <td>Image Attributes</td></tr>
 <tr><td style="width: 25%;"><a href="editing.html">image_join</a></td>
 <td>Image Editing</td></tr>
+<tr><td style="width: 25%;"><a href="thresholding.html">image_lat</a></td>
+<td>Image thresholding</td></tr>
 <tr><td style="width: 25%;"><a href="color.html">image_map</a></td>
 <td>Image Color</td></tr>
 <tr><td style="width: 25%;"><a href="color.html">image_median</a></td>
@@ -234,6 +256,8 @@
 <td>Image Frames and Animation</td></tr>
 <tr><td style="width: 25%;"><a href="animation.html">image_morph</a></td>
 <td>Image Frames and Animation</td></tr>
+<tr><td style="width: 25%;"><a href="morphology.html">image_morphology</a></td>
+<td>Morphology</td></tr>
 <tr><td style="width: 25%;"><a href="animation.html">image_mosaic</a></td>
 <td>Image Frames and Animation</td></tr>
 <tr><td style="width: 25%;"><a href="effects.html">image_negate</a></td>
@@ -274,8 +298,12 @@
 <td>Image Transform</td></tr>
 <tr><td style="width: 25%;"><a href="transform.html">image_scale</a></td>
 <td>Image Transform</td></tr>
+<tr><td style="width: 25%;"><a href="segmentation.html">image_split</a></td>
+<td>Image Segmentation</td></tr>
 <tr><td style="width: 25%;"><a href="editing.html">image_strip</a></td>
 <td>Image Editing</td></tr>
+<tr><td style="width: 25%;"><a href="thresholding.html">image_threshold</a></td>
+<td>Image thresholding</td></tr>
 <tr><td style="width: 25%;"><a href="color.html">image_transparent</a></td>
 <td>Image Color</td></tr>
 <tr><td style="width: 25%;"><a href="transform.html">image_trim</a></td>
@@ -284,6 +312,10 @@
 <td>Magick Options</td></tr>
 <tr><td style="width: 25%;"><a href="editing.html">image_write</a></td>
 <td>Image Editing</td></tr>
+<tr><td style="width: 25%;"><a href="video.html">image_write_gif</a></td>
+<td>Write Video</td></tr>
+<tr><td style="width: 25%;"><a href="video.html">image_write_video</a></td>
+<td>Write Video</td></tr>
 </table>
 
 <h2><a name="K">-- K --</a></h2>
@@ -310,6 +342,10 @@
 <tr><td style="width: 25%;"><a href="options.html">magick_options</a></td>
 <td>Magick Options</td></tr>
 <tr><td style="width: 25%;"><a href="options.html">metric_types</a></td>
+<td>Magick Options</td></tr>
+<tr><td style="width: 25%;"><a href="morphology.html">morphology</a></td>
+<td>Morphology</td></tr>
+<tr><td style="width: 25%;"><a href="options.html">morphology_types</a></td>
 <td>Magick Options</td></tr>
 </table>
 
@@ -347,11 +383,27 @@
 <td>Example Images</td></tr>
 </table>
 
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="segmentation.html">segmentation</a></td>
+<td>Image Segmentation</td></tr>
+</table>
+
 <h2><a name="T">-- T --</a></h2>
 
 <table width="100%">
+<tr><td style="width: 25%;"><a href="thresholding.html">thresholding</a></td>
+<td>Image thresholding</td></tr>
 <tr><td style="width: 25%;"><a href="transform.html">transform</a></td>
 <td>Image Transform</td></tr>
+</table>
+
+<h2><a name="V">-- V --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="video.html">video</a></td>
+<td>Write Video</td></tr>
 </table>
 
 <h2><a name="W">-- W --</a></h2>

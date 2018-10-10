@@ -399,6 +399,7 @@ mxSave	mxSave
 mxSE	mxSE
 mxSetDefaultOptions	mxSetDefaultOptions
 mxSimplify2Array	mxSimplify2Array
+mxStandardizeRAMPaths	mxStandardizeRAMpaths
 mxStandardizeRAMpaths	mxStandardizeRAMpaths
 mxSummary	summary.MxModel
 mxThreshold	mxThreshold
@@ -434,6 +435,7 @@ nrow,MxMatrix-method	MxMatrix-class
 nuclear_twin_design_data	nuclear_twin_design_data
 numHess1	numHess1
 numHess2	numHess2
+omxAICWeights	MxMMI
 omxAkaikeWeights	MxMMI
 omxAllInt	omxAllInt
 omxAnd	omxLogical

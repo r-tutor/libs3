@@ -65,6 +65,7 @@ install.conda           Downloads and installs miniconda
 install.git             Downloads and installs git and git-gui for
                         windows
 install.inno            Downloads and installs Inno Setup
+install.java            Install Java - downloads and set path openjdk
 install.nodejs          Downloads and installs nodejs LTS or Current
 install.notepadpp       Downloads and installs Notepad++ for windows
 install.npptor          Downloads and installs NppToR for windows

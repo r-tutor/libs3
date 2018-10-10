@@ -232,8 +232,7 @@ mxComputeSequence       Invoke a series of compute objects in sequence
 mxComputeSimAnnealing   Optimization using generalized simulated
                         annealing
 mxComputeStandardError
-                        Compute standard errors given the Hessian or
-                        inverse Hessian
+                        Compute standard errors
 mxComputeTryHard        Repeatedly attempt a compute plan until
                         successful
 mxConstraint            Create MxConstraint Object

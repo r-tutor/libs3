@@ -38,6 +38,10 @@ install.graphicsmagick	install.GraphicsMagick
 install.ImageMagick	install.ImageMagick
 install.imagemagick	install.ImageMagick
 install.inno	install.inno
+install.Java	install.java
+install.java	install.java
+install.Jdk	install.java
+install.jdk	install.java
 install.LaTeX2RTF	install.LaTeX2RTF
 install.latex2rtf	install.LaTeX2RTF
 install.LyX	install.LyX
@@ -47,6 +51,8 @@ install.miktex	install.MikTeX
 install.nodejs	install.nodejs
 install.notepadpp	install.notepadpp
 install.npptor	install.npptor
+install.OpenJdk	install.java
+install.openjdk	install.java
 install.packages.zip	install.packages.zip
 install.pandoc	install.pandoc
 install.python	install.python
