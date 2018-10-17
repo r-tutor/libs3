@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Minimum Finding</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for fminsearch {pracma}"><tr><td>fminsearch {pracma}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Minimum Finding
+</h2>
+
+<h3>Description</h3>
+
+<p>Find minimum of unconstrained multivariable function.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+fminsearch(f, x0, ..., minimize = TRUE, dfree = TRUE,
+           maxiter = 1000, tol = .Machine$double.eps^(2/3))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>f</code></td>
+<td>
+<p>function whose minimum or maximum is to be found.</p>
+</td></tr>
+<tr valign="top"><td><code>x0</code></td>
+<td>
+<p>point considered near to the optimum.</p>
+</td></tr>
+<tr valign="top"><td><code>minimize</code></td>
+<td>
+<p>logical; shall a minimum or a maximum be found.</p>
+</td></tr>
+<tr valign="top"><td><code>dfree</code></td>
+<td>
+<p>logical; apply derivative-free optimization or not.</p>
+</td></tr>
+<tr valign="top"><td><code>maxiter</code></td>
+<td>
+<p>maximal number of iterations</p>
+</td></tr>
+<tr valign="top"><td><code>tol</code></td>
+<td>
+<p>relative tolerance.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>additional variables to be passed to the function.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p><code>fminsearch</code> finds the minimum of a nonlinear scalar multivariable
+function, starting at an initial estimate and returning a value x that is
+a local minimizer of the function.
+</p>
+<p>With <code>minimize=FALSE</code> it seaches for a maximum. <code>dfree=TRUE</code>
+applies Nelder-Mead, else Fletcher-Powell, calculating the derivatives
+numerically.
+</p>
+<p>This is generally referred to as unconstrained nonlinear optimization.
+<code>fminsearch</code> may only give local solutions.
+</p>
+
+
+<h3>Value</h3>
+
+<p>List with
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>xopt</code></td>
+<td>
+<p>location of the location of minimum resp. maximum.</p>
+</td></tr>
+<tr valign="top"><td><code>fval</code></td>
+<td>
+<p>function value at the optimum.</p>
+</td></tr>
+<tr valign="top"><td><code>niter</code></td>
+<td>
+<p>number of iterations.</p>
+</td></tr>
+</table>
+
+
+<h3>Note</h3>
+
+<p><code>fminbnd</code> mimics the Matlab function of the same name.
+</p>
+
+
+<h3>References</h3>
+
+<p>Nocedal, J., and S. Wright (2006). Numerical Optimization.
+Second Edition, Springer-Verlag, New York.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../stats/html/optim.html">optim</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Rosenbrock function
+rosena &lt;- function(x, a) 100*(x[2]-x[1]^2)^2 + (a-x[1])^2  # min: (a, a^2)
+
+fminsearch(rosena, c(-1.2, 1), a = sqrt(2))
+# x = (1.414214 2.000010) , fval = 1.239435e-11
+
+fminsearch(rosena, c(-1.2, 1), dfree=FALSE, a = sqrt(2))
+# x = (1.414214 2.000000) , fval = 3.844519e-26
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pracma</em> version 2.1.8 <a href="00Index.html">Index</a>]</div>
+</body></html>

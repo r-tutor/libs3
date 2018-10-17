@@ -52,6 +52,7 @@ charpoly	charpoly
 chebApprox	chebApprox
 chebCoeff	chebCoeff
 chebPoly	chebPoly
+Ci	sici
 circlefit	circlefit
 circshift	flipdim
 clear	clear
@@ -365,7 +366,6 @@ rmserr	rmserr
 romberg	romberg
 rootm	sqrtm
 roots	roots
-rortho	randortho
 rosser	rosser
 rot90	rot90
 rref	rref
@@ -373,7 +373,7 @@ runge	runge
 sample_entropy	entropy
 savgol	savgol
 sec	trigonometric
-secant	newtonRaphson
+secant	bisect
 secd	sind
 sech	hyperbolic
 segm_distance	segm_distance
@@ -384,6 +384,7 @@ semilogy	semilog
 shellSort	sorting
 shooting	shooting
 shubert	shubert
+Si	sici
 sigmoid	sigmoid
 signm	sqrtm
 simpadpt	simpadpt
