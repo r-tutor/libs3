@@ -4,7 +4,7 @@ $<-.Tagged_Token	Tagged_Token
 annotate	annotate
 AnnotatedPlainTextDocument	AnnotatedPlainTextDocument
 Annotation	Annotation
-annotations	AnnotatedPlainTextDocument
+annotation	AnnotatedPlainTextDocument
 annotations_in_spans	annotations_in_spans
 Annotator	Annotator
 Annotator_Pipeline	Annotator
@@ -35,6 +35,7 @@ content<-	generics
 duplicated.Annotation	Annotation
 duplicated.Span	Span
 duplicated.Tagged_Token	Tagged_Token
+features	features
 format.Annotation	Annotation
 format.Span	Span
 format.Tagged_Token	Tagged_Token

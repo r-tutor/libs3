@@ -20,6 +20,7 @@ WordListDocument        Word List Text Documents
 annotate                Annotate text strings
 annotations_in_spans    Annotations contained in character spans
 content                 Access or Modify Content or Metadata
+features                Extract Annotation Features
 next_id                 Annotation Utilities
 ngrams                  Compute N-Grams
 parse_IETF_language_tag
