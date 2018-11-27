@@ -23,8 +23,8 @@ ICLUST.rgraph           Draw an ICLUST graph using the Rgraphviz
 ICLUST.sort             Sort items by absolute size of cluster loadings
 KMO                     Find the Kaiser, Meyer, Olkin Measure of
                         Sampling Adequacy
-Promax                  Perform bifactor, promax or targeted rotations
-                        and return the inter factor angles.
+Promax                  Perform Procustes,bifactor, promax or targeted
+                        rotations and return the inter factor angles.
 SD                      Find the Standard deviation for a vector,
                         matrix, or data.frame - do not return error if
                         there are no cases
@@ -113,8 +113,6 @@ cortest.mat             Chi square tests of whether a single matrix is
                         equal.
 cosinor                 Functions for analysis of circadian or diurnal
                         data
-count.pairwise          Count number of pairwise cases for a data set
-                        with missing (NA) data.
 cta                     Simulate the C(ues) T(endency) A(ction) model
                         of motivation
 cubits                  Galton's example of the relationship between
@@ -258,6 +256,8 @@ paired.r                Test the difference between (un)paired
                         correlations
 pairs.panels            SPLOM, histograms and correlations for a data
                         matrix
+pairwiseCount           Count number of pairwise cases for a data set
+                        with missing (NA) data and impute values.
 parcels                 Find miniscales (parcels) of size 2 or 3 from a
                         set of items
 partial.r               Find the partial correlations for a set (x) of

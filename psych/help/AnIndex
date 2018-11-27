@@ -95,6 +95,7 @@ cta.15	cta
 cubits	cubits
 cushny	cushny
 d.ci	cohen.d
+d.robust	cohen.d
 d2r	cohen.d
 d2t	cohen.d
 densityBy	densityBy
@@ -116,6 +117,7 @@ dia.self	diagram
 dia.shape	diagram
 dia.triangle	diagram
 diagram	diagram
+directSl	omega
 draw.cor	draw.tetra
 draw.tetra	draw.tetra
 dummy.code	dummy.code
@@ -261,6 +263,7 @@ lowerMat	misc
 lowerUpper	lowerUpper
 lsat6	bock.table
 lsat7	bock.table
+m2t	cohen.d
 make.congeneric	sim.congeneric
 make.hierarchical	sim.hierarchical
 make.keys	make.keys
@@ -292,6 +295,7 @@ omega	omega
 omega.diagram	omega.graph
 omega.graph	omega.graph
 omega2latex	df2latex
+omegaDirect	omega
 omegaFromSem	omega
 omegah	omega
 omegaSem	omega
@@ -302,7 +306,10 @@ p.rep.r	p.rep
 p.rep.t	p.rep
 paired.r	paired.r
 pairs.panels	pairs.panels
+pairwiseCount	count.pairwise
 pairwiseDescribe	count.pairwise
+pairwiseImpute	count.pairwise
+pairwiseReport	count.pairwise
 panel.cor	pairs.panels
 panel.cor.scale	pairs.panels
 panel.ellipse	pairs.panels
@@ -336,6 +343,7 @@ polyserial	tetrachor
 predict.psych	predict.psych
 principal	principal
 print.psych	print.psych
+Procrustes	Promax
 progressBar	misc
 Promax	Promax
 protest	Garcia
@@ -389,6 +397,7 @@ scoreIrt.1pl	score.irt
 scoreIrt.2pl	score.irt
 scoreItems	score.items
 scoreOverlap	cluster.cor
+scoreVeryFast	score.items
 scree	VSS.scree
 scrub	scrub
 SD	SD
@@ -455,6 +464,7 @@ table2df	table2matrix
 table2matrix	table2matrix
 tableF	misc
 tai	sai
+Tal.Or	tal_or
 Tal_Or	tal_or
 target.rot	Promax
 TargetQ	Promax

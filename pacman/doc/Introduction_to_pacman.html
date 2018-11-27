@@ -562,11 +562,11 @@ repos.</p>
 </code></pre>
 
 <pre><code>
-Version of pacman (v. 0.4.6) is suitable
+Version of pacman (v. 0.5.0) is suitable
 </code></pre>
 
 <pre><code>
-Version of testthat (v. 1.0.2) is suitable
+Version of testthat (v. 2.0.1) is suitable
 </code></pre>
 
 <h3>Installing Temporarily</h3>
@@ -882,17 +882,17 @@ p_info()
 </code></pre>
 
 <pre><code>Package: base
-Version: 3.4.0
+Version: 3.5.1
 Priority: base
 Title: The R Base Package
 Author: R Core Team and contributors worldwide
 Maintainer: R Core Team &lt;R-core@r-project.org&gt;
 Description: Base R functions.
-License: Part of R 3.4.0
+License: Part of R 3.5.1
 Suggests: methods
-Built: R 3.4.0; ; 2017-04-21 14:36:08 UTC; windows
+Built: R 3.5.1; ; 2018-07-02 09:11:50 UTC; windows
 
--- File: C:/R/R-34~1.0/library/base/Meta/package.rds 
+-- File: C:/R/R-35~1.1/library/base/Meta/package.rds 
 </code></pre>
 
 <pre><code class="r">names(p_info())
@@ -906,7 +906,7 @@ Built: R 3.4.0; ; 2017-04-21 14:36:08 UTC; windows
 </code></pre>
 
 <pre><code>$Author
-[1] &quot;Tyler Rinker [aut, cre, ctb], Dason Kurkiewicz [aut, ctb], Keith Hughitt [ctb], Albert Wang [ctb], Jim Hester [ctb]&quot;
+[1] &quot;Tyler Rinker [aut, cre, ctb], Dason Kurkiewicz [aut, ctb], Keith Hughitt [ctb], Albert Wang [ctb], Garrick Aden-Buie [ctb], Albert Wang [ctb], Lukas Burk [ctb]&quot;
 </code></pre>
 
 <pre><code class="r">p_info(pacman, BugReports, URL)
@@ -923,7 +923,7 @@ $URL
 </code></pre>
 
 <pre><code>$Version
-[1] &quot;0.4.6&quot;
+[1] &quot;0.5.0&quot;
 </code></pre>
 
 <h5>Extracting Package Names</h5>
@@ -961,7 +961,7 @@ p_info(MASS, &quot;Depends&quot;)
 <pre><code class="r">p_author(pacman)
 </code></pre>
 
-<pre><code>[1] &quot;Tyler Rinker [aut, cre, ctb],\n  Dason Kurkiewicz [aut, ctb],\n  Keith Hughitt [ctb],\n  Albert Wang [ctb],\n  Jim Hester [ctb]&quot;
+<pre><code>[1] &quot;Tyler Rinker [aut, cre, ctb],\n  Dason Kurkiewicz [aut, ctb],\n  Keith Hughitt [ctb],\n  Albert Wang [ctb],\n  Garrick Aden-Buie [ctb],\n  Albert Wang [ctb],\n  Lukas Burk [ctb]&quot;
 </code></pre>
 
 <pre><code class="r">p_author()
@@ -981,18 +981,17 @@ p_info(MASS, &quot;Depends&quot;)
 To cite pacman in publications, please use:
 
   Rinker, T. W. &amp; Kurkiewicz, D. (2017). pacman: Package
-  Management for R. version 0.4.6. University at Buffalo. Buffalo,
-  New York. http://github.com/trinker/pacman
+  Management for R. version 0.5.0. Buffalo, New York.
+  http://github.com/trinker/pacman
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
     title = {{pacman}: {P}ackage Management for {R}},
     author = {Tyler W. Rinker and Dason Kurkiewicz},
-    organization = {University at Buffalo/SUNY},
     address = {Buffalo, New York},
-    note = {version 0.4.6},
-    year = {2017},
+    note = {version 0.5.0},
+    year = {2018},
     url = {http://github.com/trinker/pacman},
   }
 </code></pre>
@@ -1003,7 +1002,7 @@ A BibTeX entry for LaTeX users is
 <pre><code>
 To cite R in publications use:
 
-  R Core Team (2017). R: A language and environment for
+  R Core Team (2018). R: A language and environment for
   statistical computing. R Foundation for Statistical Computing,
   Vienna, Austria. URL https://www.R-project.org/.
 
@@ -1014,7 +1013,7 @@ A BibTeX entry for LaTeX users is
     author = {{R Core Team}},
     organization = {R Foundation for Statistical Computing},
     address = {Vienna, Austria},
-    year = {2017},
+    year = {2018},
     url = {https://www.R-project.org/},
   }
 
@@ -1122,13 +1121,13 @@ cite it when using it for data analysis. See also
 <pre><code class="r">p_version()
 </code></pre>
 
-<pre><code>[1] &#39;3.4.0&#39;
+<pre><code>[1] &#39;3.5.1&#39;
 </code></pre>
 
 <pre><code class="r">p_ver(pacman)
 </code></pre>
 
-<pre><code>[1] &#39;0.4.6&#39;
+<pre><code>[1] &#39;0.5.0&#39;
 </code></pre>
 
 <pre><code class="r">p_ver(pacman) &gt;= &quot;0.2.0&quot;
@@ -1219,7 +1218,7 @@ p_vign(pacman)
 <pre><code class="r">length(p_cran())
 </code></pre>
 
-<pre><code>[1] 10575
+<pre><code>[1] 13207
 </code></pre>
 
 <pre><code class="r">p_iscran(&quot;qdap&quot;)
@@ -1285,8 +1284,9 @@ p_sa(&quot;hadley&quot;, &quot;author&quot;)
 <pre><code class="r">p_path()
 </code></pre>
 
-<pre><code>[1] &quot;C:/Users/Tyler/AppData/Local/Temp/RtmpURYBoJ/Rinst39087c9372e&quot;
-[2] &quot;C:/R/R-3.4.0/library&quot;                                         
+<pre><code>[1] &quot;C:/Users/trinker/AppData/Local/Temp/Rtmp4G5Mj9/Rinst3f5c68202d6c&quot;
+[2] &quot;C:/R/R-3.5.1/library&quot;                                            
+[3] &quot;C:/Users/trinker/AppData/Local/Temp/RtmpKEnhl7&quot;                  
 </code></pre>
 
 <h3>Available Packages</h3>
