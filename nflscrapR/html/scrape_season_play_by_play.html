@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Scrape season play-by-play for a given NFL season (either...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for scrape_season_play_by_play {nflscrapR}"><tr><td>scrape_season_play_by_play {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Scrape season play-by-play for a given NFL season (either pre, regular, or post-season)</h2>
+
+<h3>Description</h3>
+
+<p>Depending on the year and type of the given game id, this function returns
+the play-by-play data available from NFL.com from either JSON (games starting
+in 2009) or parsed HTML (regular and post-season games starting in 1998, 
+pre-season games starting in 2000). The necessary info regarding the game's 
+play-by-play data to be scraped (type and season) is provided by the 
+<code><a href="scrape_game_ids.html">scrape_game_ids</a></code> function. In addition to all of the play-level data
+provided by the NFL, outputs from the 'nflscrapR' expected points and win 
+probability models are also included, allowing an individual to conduct their
+own analysis with more advanced football statistics. A detailed description 
+of the models methodologies can be found here: <a href="https://arxiv.org/abs/1802.00998">https://arxiv.org/abs/1802.00998</a>.
+This function acts as a wrapper function for calling the 
+<code><a href="scrape_game_play_by_play.html">scrape_game_play_by_play</a></code> function over all of the games meeting
+the criteria of the user's input.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+scrape_season_play_by_play(season, type = "reg", weeks = NULL,
+  teams = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>season</code></td>
+<td>
+<p>Numeric 4-digit year associated with an NFL season</p>
+</td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>String indicating the type of game play-by-play, must either be
+&quot;pre&quot;, &quot;reg&quot;, or &quot;post&quot; (default is &quot;reg&quot;).</p>
+</td></tr>
+<tr valign="top"><td><code>weeks</code></td>
+<td>
+<p>Numeric vector indicating which weeks of preseason (0 to 4 except
+for 2011 season without Hall of Fame game) or regular season games (1 to 17)
+to grab (default value of NULL corresponds to selecting all available weeks).</p>
+</td></tr>
+<tr valign="top"><td><code>teams</code></td>
+<td>
+<p>String vector indicating which teams (based on the abbreviation)
+the function should grab game info for (default value of NULL corresponds to
+selecting all available teams).</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>Data frame where each individual row represents a single play in 
+the game containing detailed information depending on the availability of 
+data for the game. See <code><a href="scrape_json_play_by_play.html">scrape_json_play_by_play</a></code> and 
+<code>scrape_html_play_by_play</code> for documentation about the 
+columns returned.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

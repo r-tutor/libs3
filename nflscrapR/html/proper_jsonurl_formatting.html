@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Formatting URL for location of NFL Game JSON Data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for proper_jsonurl_formatting {nflscrapR}"><tr><td>proper_jsonurl_formatting {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Formatting URL for location of NFL Game JSON Data</h2>
+
+<h3>Description</h3>
+
+<p>This function pastes together the proper formatting of 
+the nfl play by play data JSON URL such that it can be used in our 
+play-by-play functions.  This function calls the extracting_gameids function
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+proper_jsonurl_formatting(GameID)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>GameID</code></td>
+<td>
+<p>(character or numeric) A 10 digit game ID associated with a 
+given NFL game.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>The url where the game JSON data for the given game can be found.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Save the gameID into a variable 
+nfl2015.finalregseasongame.gameID &lt;- "2016010310"
+
+# Putting all game IDs in to proper URL format
+proper_jsonurl_formatting(nfl2015.finalregseasongame.gameID) 
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

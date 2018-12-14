@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Detailed Boxscore for Single NFL Game</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for player_game {nflscrapR}"><tr><td>player_game {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Detailed Boxscore for Single NFL Game</h2>
+
+<h3>Description</h3>
+
+<p>This function is used to neatly read all of a players measurable 
+statistics from a given game.  Each player's statistics can be viewed on one 
+line.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+player_game(GameID)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>GameID</code></td>
+<td>
+<p>(character or numeric) A 10 digit game ID associated with a 
+given NFL game.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This dataframe includes 55 variables including identifiers such as:
+</p>
+
+<ul>
+<li><p>&quot;Year&quot;, &quot;gameID&quot;, &quot;date&quot;, &quot;Team&quot;, &quot;playerID&quot;, &quot;name&quot;
+</p>
+</li></ul>
+
+<p>Statistics are included for passing, rushing, receiving, kick return,
+punt return, kicking, defensive, and fumbles.  The outputted columns are as
+follows:
+</p>
+
+<ul>
+<li><p>&quot;pass.att&quot; - Number of pass attempts
+</p>
+</li>
+<li><p>&quot;pass.comp&quot; - Number of completed passes
+</p>
+</li>
+<li><p>&quot;passyds&quot; - Number of pass yards
+</p>
+</li>
+<li><p>pass.tds&quot; - Number of passing touchdowns
+</p>
+</li>
+<li><p>&quot;pass.ints&quot; - Number of pass interceptions
+</p>
+</li>
+<li><p>&quot;pass.twopta&quot; - Number of passing two point conversions attempted
+</p>
+</li>
+<li><p>&quot;pass.twoptm&quot; - Number of passing two point conversions converted
+</p>
+</li>
+<li><p>&quot;rush.att&quot; - Number of rush attempts
+</p>
+</li>
+<li><p>&quot;rushyds&quot; - Number of rushing Yards
+</p>
+</li>
+<li><p>&quot;rushtds&quot; - Number of rushing touchdowns
+</p>
+</li>
+<li><p>&quot;rushlng&quot; - Most yards gained on a rush attempt
+</p>
+</li>
+<li><p>&quot;rushlngtd&quot; - Yards gained on longest touchdown run
+</p>
+</li>
+<li><p>&quot;rush.twopta&quot; - Number of rushing two point conversions attempted
+</p>
+</li>
+<li><p>&quot;rush.twoptm&quot; - Number of rushing two point conversions converted
+</p>
+</li>
+<li><p>&quot;recept&quot; - Number of receptions
+</p>
+</li>
+<li><p>&quot;recyds&quot; - Number of receiving yards
+</p>
+</li>
+<li><p>&quot;rec.tds&quot; - Number of receiving touchdowns
+</p>
+</li>
+<li><p>&quot;reclng&quot; - Longest reception
+</p>
+</li>
+<li><p>&quot;reclngtd&quot; - Longest receiving touchdown
+</p>
+</li>
+<li><p>&quot;rec.twopta&quot; - Number of targets on a two point conversion attempt
+</p>
+</li>
+<li><p>&quot;rec.twoptm&quot; - Number of receptions that resulted in a two point conversion success
+</p>
+</li>
+<li><p>&quot;kick.rets&quot; - Number of kickoff returns
+</p>
+</li>
+<li><p>&quot;kickret.avg&quot; - Average number of yards gained on kickoff returns
+</p>
+</li>
+<li><p>&quot;kickret.tds&quot; - Number of kickoff return touchdown
+</p>
+</li>
+<li><p>&quot;kick.ret.lng&quot; - Yards gained on longest kickoff return
+</p>
+</li>
+<li><p>&quot;kickret.lngtd&quot; - Yards gained on longest kickoff return that resulted in a touchdown
+</p>
+</li>
+<li><p>&quot;punt.rets&quot; - Number of punt returns
+</p>
+</li>
+<li><p>&quot;puntret.avg&quot; - Average number of yards gained on punt returns
+</p>
+</li>
+<li><p>&quot;puntret.tds&quot; - Number of punt return touchdowns
+</p>
+</li>
+<li><p>&quot;puntret.lng&quot; - Yards gained on longest punt return
+</p>
+</li>
+<li><p>&quot;puntret.lngtd&quot; - Yards gained on longest punt return that resulted in a touchdown
+</p>
+</li>
+<li><p>&quot;fgm&quot; - Number of field goals made
+</p>
+</li>
+<li><p>&quot;fga&quot; - Number of field goals attempted
+</p>
+</li>
+<li><p>&quot;fgyds&quot; - Yard length of longest made field
+</p>
+</li>
+<li><p>&quot;totpts.fg&quot; - Point value of all made field goals
+</p>
+</li>
+<li><p>&quot;xpmade&quot; - Number of extra points made
+</p>
+</li>
+<li><p>&quot;xpmissed&quot; - Number of extra points missed
+</p>
+</li>
+<li><p>&quot;xpa&quot; - Number of attempted extra points
+</p>
+</li>
+<li><p>&quot;xpb&quot; - Number of extra points blocked
+</p>
+</li>
+<li><p>&quot;xppts.tot&quot; - Point value of all made extra points
+</p>
+</li>
+<li><p>&quot;tackles&quot; - Number of tackles recorded
+</p>
+</li>
+<li><p>&quot;asst.tackles&quot; - Number of assisted tackles
+</p>
+</li>
+<li><p>&quot;sacks&quot; - Number of sacks
+</p>
+</li>
+<li><p>&quot;defints&quot; - Number of defensive interceptions
+</p>
+</li>
+<li><p>&quot;forced.fumbs&quot; - Number of forced fumbles
+</p>
+</li>
+<li><p>&quot;totalfumbs&quot; - Total fumbles associated with a player
+</p>
+</li>
+<li><p>&quot;recfumbs&quot; - Number of recovered fumble
+</p>
+</li>
+<li><p>&quot;totalrecfumbs&quot; - Number of recovered fumble
+</p>
+</li>
+<li><p>&quot;fumbyds&quot; - Number of yards recorded on fumble returns
+</p>
+</li>
+<li><p>&quot;fumbslost&quot; - Number of fumbles lost
+</p>
+</li></ul>
+
+
+
+<h3>Value</h3>
+
+<p>This function outputs a single 55 column dataframe containing all 
+rushing, passing, receiving, kick return, punt return, kicking, fumble, 
+and defensive statistics for each player in a single  game. Each player is
+assigned one line associated wih their statisitcs.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# GameID for a random game
+nfl.data.gameID &lt;- "2013090800"
+PlayerGameData &lt;- player_game(nfl.data.gameID)
+head(PlayerGameData)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

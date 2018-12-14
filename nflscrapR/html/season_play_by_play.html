@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Parsed Descriptive Play-by-Play Function for a Full Season</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for season_play_by_play {nflscrapR}"><tr><td>season_play_by_play {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Parsed Descriptive Play-by-Play Function for a Full Season</h2>
+
+<h3>Description</h3>
+
+<p>This function outputs all plays of an entire season in one dataframe.  
+It calls the game_play_by_play function and applies it over every 
+game in the season by extracting each game ID and url in the specified season.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+season_play_by_play(Season)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>Season</code></td>
+<td>
+<p>(numeric) A 4-digit year corresponding to an NFL season of 
+interest</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function calls the extracting_gameids, 
+proper_jsonurl_formatting, and game_play_by_play to aggregate all the plays 
+from a given season.  This dataframe is prime for use with the dplyr and 
+plyr packages.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A dataframe contains all the play-by-play information for a single
+season.  This includes all the 99 variables collected in our 
+game_play_by_play function (see documentation for game_play_by_play for
+details) and a column for the Season.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Play-by-play data from all games in 2010
+pbp.data.2010 &lt;- season_play_by_play(2010)
+
+# Looking at all Pittsburgh Steelers offensive plays 
+subset(pbp.data.2010, posteam = "PIT")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

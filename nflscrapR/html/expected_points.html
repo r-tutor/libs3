@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Expected point function to calculate expected points for each...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for expected_points {nflscrapR}"><tr><td>expected_points {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Expected point function to calculate expected points for each play in
+the play by play, and the expected points added in three ways, 
+basic EPA, air yards EPA, and yards after catch EPA</h2>
+
+<h3>Description</h3>
+
+<p>This function takes in the output of the game level play by play
+function and returns the same dataframe with a new column added for expected
+points for each valid play.  The expected point model can loaded in the same 
+way that datasets can be loaded for this package
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+expected_points(dataset)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dataset</code></td>
+<td>
+<p>(data.frame object) A data.frame as exported from the 
+game_play_by_play function</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>The input dataframe with the addition of expected points columns
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

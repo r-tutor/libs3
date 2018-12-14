@@ -1,7 +1,25 @@
+add_air_yac_ep_variables
+                        Calculate and add the air and yac expected
+                        points variables to include in a 'nflscrapR'
+                        play-by-play data frame
+add_air_yac_wp_variables
+                        Calculate and add the air and yac win
+                        probability variables to include in a
+                        'nflscrapR' play-by-play data frame
+add_ep_variables        Calculate and add the expected points variables
+                        to include in a 'nflscrapR' play-by-play data
+                        frame
+add_wp_variables        Calculate and add the win probability variables
+                        to include in a 'nflscrapR' play-by-play data
+                        frame
 agg_player_season       Detailed Player Aggregate Season Statistics
 buildNameAbbr           Build formatted player name from full player
                         name
 buildURL                Building URL to scrape player season stat pages
+create_game_html_url    Create the url with the location of raw NFL
+                        play-by-play HTML
+create_game_json_url    Create the url with the location of NFL game
+                        JSON data
 drive_summary           Drive Summary and Results
 expected_points         Expected point function to calculate expected
                         points for each play in the play by play, and
@@ -9,11 +27,16 @@ expected_points         Expected point function to calculate expected
                         EPA, air yards EPA, and yards after catch EPA
 extracting_gameids      Extract GameIDs for each game in a given NFL
                         season
+findPagePlayerID        Find the GSIS ID for each player on the
+                        provided page.
 game_play_by_play       Parsed Descriptive Play-by-Play Dataset for a
                         Single Game
+getGSISID               For a player's href, get their GSIS ID from
+                        their personal url.
 getPageNumbers          Get Number of Player Position Pages
 getPlayers              Scrape Player Names and Positions
-nflteams                NFL Team Names and Abbreviations
+nflteams                Dataset of NFL team names, abbreviations, and
+                        colors
 player_game             Detailed Boxscore for Single NFL Game
 playerstats09           NFL Team Names and Abbreviations
 playerstats10           NFL Team Names and Abbreviations
@@ -25,6 +48,17 @@ playerstats15           NFL Team Names and Abbreviations
 proper_jsonurl_formatting
                         Formatting URL for location of NFL Game JSON
                         Data
+scrape_game_ids         Scrape game ids for a given NFL season (either
+                        pre, regular, or post-season)
+scrape_game_play_by_play
+                        Scrape an individual game's play-by-play data
+                        from NFL.com
+scrape_json_play_by_play
+                        Scrape an individual game's JSON play-by-play
+                        data from NFL.com
+scrape_season_play_by_play
+                        Scrape season play-by-play for a given NFL
+                        season (either pre, regular, or post-season)
 season_games            Game Information for All Games in a Season
 season_play_by_play     Parsed Descriptive Play-by-Play Function for a
                         Full Season

@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Scrape game ids for a given NFL season (either pre, regular,...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for scrape_game_ids {nflscrapR}"><tr><td>scrape_game_ids {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Scrape game ids for a given NFL season (either pre, regular, or post-season)</h2>
+
+<h3>Description</h3>
+
+<p>This function returns all available game ids for a given season,
+with an option specifying which type of game ids to return (either the 
+pre, regular, or post season) as well as the weeks considered.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+scrape_game_ids(season, type = "reg", weeks = NULL, teams = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>season</code></td>
+<td>
+<p>Numeric 4-digit year associated with an NFL season</p>
+</td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>String indicating the type of game ids to find, must either be
+&quot;pre&quot;, &quot;reg&quot;, or &quot;post&quot; (default is &quot;reg&quot;).</p>
+</td></tr>
+<tr valign="top"><td><code>weeks</code></td>
+<td>
+<p>Numeric vector indicating which weeks of preseason (0 to 4 except
+for 2011 season without Hall of Fame game) or regular season games (1 to 17)
+to grab (default value of NULL corresponds to selecting all available weeks).</p>
+</td></tr>
+<tr valign="top"><td><code>teams</code></td>
+<td>
+<p>String vector indicating which teams (based on the abbreviation)
+the function should grab game info for (default value of NULL corresponds to
+selecting all available teams).</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>Data frame with columns containing the type, game_id, week number (if
+pre or regular season), and the year of the season.
+for each game id that is scraped.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Scraping all game ids from 2017 regular season:
+scrape_game_ids(2017) 
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create the url with the location of raw NFL play-by-play HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for create_game_html_url {nflscrapR}"><tr><td>create_game_html_url {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create the url with the location of raw NFL play-by-play HTML</h2>
+
+<h3>Description</h3>
+
+<p>This function pastes creates the url for the provided game id. The returned 
+url is used in the various play-by-play functions to access play-by-play data
+from the raw HTML page.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+create_game_html_url(game_id)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>game_id</code></td>
+<td>
+<p>(character or numeric) A 10 digit game id associated with a 
+given NFL game.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>String url where the raw HTML play-by-play data can be found (going 
+back to 1998 for regular season, 2000 for pre season).
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Create the JSON url for the first game of the 1998 season:
+create_game_html_url(2017090700) 
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

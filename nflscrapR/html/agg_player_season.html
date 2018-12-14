@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Detailed Player Aggregate Season Statistics</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for agg_player_season {nflscrapR}"><tr><td>agg_player_season {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Detailed Player Aggregate Season Statistics</h2>
+
+<h3>Description</h3>
+
+<p>This function outputs a dataframe with the season statistics for
+each player who recorded atleast one measured statistic in any game throughout
+the specified season.  This function gives one line per player with the 
+following statistics: Passing, Rushing, Receiving, Kick Return,
+Punt Return, Fumbles, and Defense
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+agg_player_season(Season, Weeks = 16)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>Season</code></td>
+<td>
+<p>(numeric) A 4-digit year associated with a given season</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function calls season_player_game and then aggregates 
+across an entire season to gather season totals and season max statistics
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns a dataframe with a single line for each player aggregating 
+their total season statistics
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Returns the Season-Total Statistics for Each Player in the 2015 Season
+agg_player_season(2015)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

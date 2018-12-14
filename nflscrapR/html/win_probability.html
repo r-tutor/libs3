@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Win probability function to add win probability columns for...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for win_probability {nflscrapR}"><tr><td>win_probability {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Win probability function to add win probability columns for the home and 
+away teams for each play in the game</h2>
+
+<h3>Description</h3>
+
+<p>This function takes in the output of the game level play by play
+function and returns the same dataframe with six new columns representing the
+win probability for the home and away team pre and post snap and win probability
+added.  The model used to calculate win probability is a generalized additive
+model using the expected score differential, time remaining in game,
+also accounting for the timeouts remaining for both teams. Overtime win 
+probability is calculated separately using the scoring event probabilities.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+win_probability(dataset)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dataset</code></td>
+<td>
+<p>(data.frame object) A data.frame as exported from the 
+game_play_by_play function</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>The input dataframe with the addition of six win probability columns 
+giving the win probability for the possession team, the WPA for each play,
+the pre and post win probability for both the home and away teams.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Game Information for All Games in a Season</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for season_games {nflscrapR}"><tr><td>season_games {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Game Information for All Games in a Season</h2>
+
+<h3>Description</h3>
+
+<p>This function intakes a year associated with a given season
+and outputs all the game matchups for all 17 weeks of the regular season
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+season_games(Season, sleep.seconds = 0)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>Season</code></td>
+<td>
+<p>(numeric): A 4-digit year associated with a given NFL season</p>
+</td></tr>
+<tr valign="top"><td><code>sleep.seconds</code></td>
+<td>
+<p>(numeric): Allows the user to tell the function to sleep
+between calls to the API to avoid disrupting the connection. Note, this 
+will make the function take much longer.</p>
+</td></tr>
+<tr valign="top"><td><code>Week</code></td>
+<td>
+<p>(numeric): A number corresponding to the number of weeks of data
+you want to be scraped and included in the output.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Reference the stored dataframe nflteams to match team abbreviations
+with the full team names
+</p>
+
+
+<h3>Value</h3>
+
+<p>A dataframe with the gameID, the game date, 
+the home team abbreviation, and away team abbreviation
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# All games in 2015 Season
+season_games(2015) # Will output a dataframe
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Parsed Descriptive Play-by-Play Dataset for a Single Game</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for game_play_by_play {nflscrapR}"><tr><td>game_play_by_play {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Parsed Descriptive Play-by-Play Dataset for a Single Game</h2>
+
+<h3>Description</h3>
+
+<p>This function intakes the JSON play-by-play data of a single
+game and parses the play description column into individual variables 
+allowing the user to segment the game in a variety of different ways for 
+model building and analysis.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+game_play_by_play(GameID)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>GameID</code></td>
+<td>
+<p>(character or numeric) A 10 digit game ID associated with a 
+given NFL game.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Through list manipulation using the do.call and rbind functions
+a 13 column dataframe with basic information populates directly from the NFL 
+JSON API.  These columns include the following:
+</p>
+
+<ul>
+<li><p>&quot;Drive&quot; - Drive number
+</p>
+</li>
+<li><p>&quot;sp&quot; - Whether the play resulted in a score (any kind of score)
+</p>
+</li>
+<li><p>&quot;qtr&quot; - Quarter of Game
+</p>
+</li>
+<li><p>&quot;down&quot; - Down of the given play
+</p>
+</li>
+<li><p>&quot;time&quot; - Time at start of play
+</p>
+</li>
+<li><p>&quot;yrdln&quot; - Between 0 and 50
+</p>
+</li>
+<li><p>&quot;ydstogo&quot; - Yards to go for a first down
+</p>
+</li>
+<li><p>&quot;ydsnet&quot; - Total yards gained on a given drive
+</p>
+</li>
+<li><p>&quot;posteam&quot; - The team on offense
+</p>
+</li>
+<li><p>&quot;AirYards&quot; - Number of yards the ball was thrown in the air for both
+complete and incomplete pass attempts (negative means behind line of scrimmage)
+</p>
+</li>
+<li><p>&quot;YardsAfterCatch&quot; - Number of yards receiver gained after catch
+</p>
+</li>
+<li><p>&quot;QBHit&quot; -  Binary: 1 if the QB was knocked to the ground else 0
+</p>
+</li>
+<li><p>&quot;desc&quot; - A detailed description of what occured during the play
+</p>
+</li></ul>
+
+<p>Through string manipulation and parsing of the description column using  
+base R and stringR, columns were added to the original dataframe allowing 
+the user to have a detailed breakdown of the events of each play. Also
+provided are calculations for the expected points and win probability
+for each play using models built entirely on nflscrapR data. 
+The added variables are specified below:
+</p>
+
+<ul>
+<li><p>&quot;Date&quot; - Date of game
+</p>
+</li>
+<li><p>&quot;GameID&quot; - The ID of the specified game
+</p>
+</li>
+<li><p>&quot;play_id&quot; - Play id within a game
+</p>
+</li>
+<li><p>&quot;TimeSecs&quot; - Time remaining in game in seconds
+</p>
+</li>
+<li><p>&quot;PlayTimeDiff&quot; - The time difference between plays in seconds
+</p>
+</li>
+<li><p>&quot;DefensiveTeam&quot; - The defensive team on the play (for punts the 
+receiving team is on defense, for kickoffs the receiving team is on offense)
+</p>
+</li>
+<li><p>&quot;TimeUnder&quot; - Minutes remaining in half
+</p>
+</li>
+<li><p>&quot;SideofField&quot; - The side of the field that the line of scrimmage 
+is on
+</p>
+</li>
+<li><p>yrdline100 - Distance to opponents endzone, ranges from 1-99
+situation
+</p>
+</li>
+<li><p>GoalToGo - Binary: 1 if the play is in a goal down situation else 0
+</p>
+</li>
+<li><p>&quot;FirstDown&quot; - Binary: 1if the play resulted in a first down conversion
+else 0
+</p>
+</li>
+<li><p>&quot;PlayAttempted&quot; - A variable used to count the number of plays in a 
+game (should always be equal to 1)
+</p>
+</li>
+<li><p>&quot;Yards.Gained&quot; - Amount of yards gained on the play
+</p>
+</li>
+<li><p>&quot;Touchdown&quot; - Binary: 1 if the play resulted in a TD else 0
+</p>
+</li>
+<li><p>&quot;ExPointResult&quot; - Result of the extra-point: Made, Missed, Blocked, 
+Aborted
+</p>
+</li>
+<li><p>&quot;TwoPointConv&quot; - Result of two-point conversion: Success or Failure
+</p>
+</li>
+<li><p>&quot;DefTwoPoint&quot; - Result of defensive two-point conversion: Success or Failure
+</p>
+</li>
+<li><p>&quot;Safety&quot; - Binary: 1 if safety was recorded else 0
+</p>
+</li>
+<li><p>&quot;Onsidekick&quot; - Binary: 1 if the kickoff was an onside kick
+</p>
+</li>
+<li><p>&quot;PuntResult - Result of punt: Clean or Blocked
+</p>
+</li>
+<li><p>&quot;PlayType&quot; - The type of play that occured, potential values are:
+</p>
+
+<ul>
+<li><p>Kickoff, Punt
+</p>
+</li>
+<li><p>Pass, Sack, Run
+</p>
+</li>
+<li><p>Field Goal, Extra Point
+</p>
+</li>
+<li><p>Quarter End, Two Minute Warning, Half End, End of Game
+</p>
+</li>
+<li><p>No Play, QB Kneel, Spike, Timeout
+</p>
+</li></ul>
+  
+</li>
+<li><p>&quot;Passer&quot; - The passer on the play if it was a pass play
+</p>
+</li>
+<li><p>&quot;Passer_ID&quot; - NFL GSIS player ID for the passer
+</p>
+</li>
+<li><p>&quot;PassAttempt&quot; - Binary: 1 if a pass was attempted else 0
+</p>
+</li>
+<li><p>&quot;PassOutcome&quot; - Pass Result: Complete or Incomplete Pass  
+</p>
+</li>
+<li><p>&quot;PassLength&quot; - Categorical variable indicating the length of the pass:
+Short or Deep
+</p>
+</li>
+<li><p>&quot;PassLocation&quot; - Location of the pass: left, middle, right
+</p>
+</li>
+<li><p>&quot;InterceptionThrown&quot; - Binary: 1 if an interception else 0
+</p>
+</li>
+<li><p>&quot;Interceptor&quot; - The player who intercepted the ball
+</p>
+</li>
+<li><p>&quot;Rusher&quot; - The runner on the play if it was a running play
+</p>
+</li>
+<li><p>&quot;Rusher_ID&quot; - NFL GSIS player ID for the rusher
+</p>
+</li>
+<li><p>&quot;RushAttempt&quot; - Binary: 1 if a run was attempted else 0
+</p>
+</li>
+<li><p>&quot;RunLocation&quot; - Location of the run: left, middle, right
+</p>
+</li>
+<li><p>&quot;RunGap&quot; - Gap of the run: guard, tackle, end 
+</p>
+</li>
+<li><p>&quot;Receiver&quot; - The targeted receiver of a play
+</p>
+</li>
+<li><p>&quot;Receiver_ID&quot; - NFL GSIS player ID for the receiver
+</p>
+</li>
+<li><p>&quot;Reception&quot; - Binary: 1 if a reception was recorded else 0
+</p>
+</li>
+<li><p>&quot;ReturnResult&quot; - Result of a punt, kickoff, interception, or 
+fumble return: Fair Catch, Touchback, Touchdown
+</p>
+</li>
+<li><p>&quot;Returner&quot; - The punt or kickoff returner
+</p>
+</li>
+<li><p>&quot;BlockingPlayer&quot; - The player who blocked the extra point, 
+field goal, or punt
+</p>
+</li>
+<li><p>&quot;Tackler1&quot; - The primary tackler on the play
+</p>
+</li>
+<li><p>&quot;Tackler2&quot; - The secondary tackler on the play
+</p>
+</li>
+<li><p>&quot;FieldGoalResult&quot; - Outcome of a fieldgoal: No Good, Good, Blocked
+</p>
+</li>
+<li><p>&quot;FieldGoalDistance&quot; - Field goal length in yards
+</p>
+</li>
+<li><p>&quot;Fumble&quot; - Binary: 1 if a fumble occured else no 
+</p>
+</li>
+<li><p>&quot;RecFumbTeam&quot; - Team that recovered the fumble
+</p>
+</li>
+<li><p>&quot;RecFumbPlayer&quot; - Player that recovered the fumble
+</p>
+</li>
+<li><p>&quot;Sack&quot; - Binary: 1 if a sack was recorded else 0
+</p>
+</li>
+<li><p>&quot;Challenge.Replay&quot; - Binary: 1 if play was reviewed by the replay official
+else 0
+</p>
+</li>
+<li><p>&quot;ChalReplayResult&quot; - Result of the replay review: Upheld or Reversed
+</p>
+</li>
+<li><p>&quot;Accepted.Penalty&quot; - Binary: 1 if penalty was accepted else 0
+</p>
+</li>
+<li><p>&quot;PenalizedTeam&quot; - The penalized team on the play
+</p>
+</li>
+<li><p>&quot;PenaltyType&quot; - Type of penalty on the play, alues include:
+</p>
+    
+<ul>
+<li><p>Unnecessary Roughness, Roughing the Passer
+</p>
+</li>
+<li><p>Illegal Formation, Defensive Offside
+</p>
+</li>
+<li><p>Delay of Game, False Start, Illegal Shift
+</p>
+</li>
+<li><p>Illegal Block Above the Waist, Personal Foul
+</p>
+</li>
+<li><p>Unnecessary Roughness, Illegal Blindside Block
+</p>
+</li>
+<li><p>Defensive Pass Interference, Offensive Pass Interference
+</p>
+</li>
+<li><p>Fair Catch Interference, Unsportsmanlike Conduct
+</p>
+</li>
+<li><p>Running Into the Kicker, Illegal Kick
+</p>
+</li>
+<li><p>Illegal Contact, Defensive Holding
+</p>
+</li>
+<li><p>Illegal Motion, Low Block
+</p>
+</li>
+<li><p>Illegal Substitution, Neutral Zone Infraction
+</p>
+</li>
+<li><p>Ineligible Downfield Pass, Roughing the Passer
+</p>
+</li>
+<li><p>Illegal Use of Hands, Defensive Delay of Game
+</p>
+</li>
+<li><p>Defensive 12 On-field, Offensive Offside
+</p>
+</li>
+<li><p>Tripping, Taunting, Chop Block
+</p>
+</li>
+<li><p>Interference with Opportunity to Catch, Illegal Touch Pass
+</p>
+</li>
+<li><p>Illegal Touch Kick, Offside on Free Kick
+</p>
+</li>
+<li><p>Intentional Grounding, Horse Collar
+</p>
+</li>
+<li><p>Illegal Forward Pass, Player Out of Bounds on Punt
+</p>
+</li>
+<li><p>Clipping, Roughing the Kicker, Ineligible Downfield Kick
+</p>
+</li>
+<li><p>Offensive 12 On-field, Disqualification
+</p>
+</li></ul>
+ 
+</li>
+<li><p>&quot;PenalizedPlayer&quot; - The penalized player
+</p>
+</li>
+<li><p>&quot;Penalty.Yards&quot; - The number of yards that the penalty resulted in
+</p>
+</li>
+<li><p>&quot;PosTeamScore&quot; - The score of the possession team (offensive team)
+</p>
+</li>
+<li><p>&quot;DefTeamScore&quot; - The score of the defensive team
+</p>
+</li>
+<li><p>&quot;ScoreDiff&quot; - The difference in score between the offensive and 
+defensive teams (offensive.score - def.score)
+</p>
+</li>
+<li><p>&quot;AbsScoreDiff&quot; - Absolute value of the score differential
+</p>
+</li>
+<li><p>&quot;HomeTeam&quot; - The home team
+</p>
+</li>
+<li><p>&quot;AwayTeam&quot; - The away team
+</p>
+</li>
+<li><p>&quot;Timeout_Indicator&quot; - Binary: 1 if a timeout was charge else 0
+</p>
+</li>
+<li><p>&quot;Timeout_Team&quot; - Team charged with penalty (None if no timeout)
+</p>
+</li>
+<li><p>&quot;posteam_timeouts_pre&quot; - Number of timeouts remaining for possession
+team at the start of the play
+</p>
+</li>
+<li><p>&quot;HomeTimeouts_Remaining_Pre&quot; - Number of timeouts remaining for home
+team at the start of the play
+</p>
+</li>
+<li><p>&quot;AwayTimeouts_Remaining_Pre&quot; - Number of timeouts remaining for away
+team at the start of the play
+</p>
+</li>
+<li><p>&quot;HomeTimeouts_Remaining_Post&quot; - Number of timeouts remaining for home
+team at the end of the play (handles loss of timeout from lost challenge)
+</p>
+</li>
+<li><p>&quot;AwayTimeouts_Remaining_Post&quot; - Number of timeouts remaining for away
+team at the end of the play (handles loss of timeout from lost challenge)
+</p>
+</li>
+<li><p>&quot;No_Score_Prob&quot; - Probability of no score occurring within the half
+</p>
+</li>
+<li><p>&quot;Opp_Field_Goal_Prob&quot; - Probability of the defensive team scoring a
+field goal next
+</p>
+</li>
+<li><p>&quot;Opp_Safety_Prob&quot; - Probability of the defensive team scoring a 
+safety next
+</p>
+</li>
+<li><p>&quot;Opp_Touchdown_Prob&quot; - Probability of the defensive team scoring a 
+touchdown next
+</p>
+</li>
+<li><p>&quot;Field_Goal_Prob&quot; - Probability of the possession team scoring a 
+field goal next
+</p>
+</li>
+<li><p>&quot;Safety_Prob&quot; - Probability of the possession team scoring a safety
+next
+</p>
+</li>
+<li><p>&quot;Touchdown_Prob&quot; - Probability of the possession team scoring a 
+touchdown next
+</p>
+</li>
+<li><p>&quot;ExPoint_Prob&quot; - Probability of the possession team making the PAT
+</p>
+</li>
+<li><p>&quot;TwoPoint_Prob&quot; - Probability of the possession team converting 
+the two-point conversion
+</p>
+</li>
+<li><p>&quot;ExpPts&quot; - The expected points for the possession team at the
+start of the play
+</p>
+</li>
+<li><p>&quot;EPA&quot; - Expected points added with respect to the possession
+team considering the result of the play
+</p>
+</li>
+<li><p>&quot;airEPA&quot; - Expected points added from air yards
+</p>
+</li>
+<li><p>&quot;yacEPA&quot; - Expected points added from yards after catch
+</p>
+</li>
+<li><p>&quot;Home_WP_pre&quot; - The win probability for the home team at the start
+of the play
+</p>
+</li>
+<li><p>&quot;Away_WP_pre&quot; - The win probability for the away team at the start
+of the play
+</p>
+</li>
+<li><p>&quot;Home_WP_post&quot; - The win probability for the home team at the
+end of the play
+</p>
+</li>
+<li><p>&quot;Away_WP_post&quot; - The win probability for the away team at the
+end of the play
+</p>
+</li>
+<li><p>&quot;Win_Prob&quot; - The win probability added for team with possession
+</p>
+</li>
+<li><p>&quot;WPA&quot; - The win probability added with respect to the
+possession team
+</p>
+</li>
+<li><p>&quot;airWPA&quot; - Win probability added from air yards
+</p>
+</li>
+<li><p>&quot;yacWPA&quot; - Win probability added from yards after catch
+</p>
+</li></ul>
+
+
+
+<h3>Value</h3>
+
+<p>A dataframe with 99 columns specifying various statistics and 
+outcomes associated with each play of the specified NFL game.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Parsed play-by-play of the final game in the 2015 NFL season 
+
+# Save the gameID into a variable 
+nfl2015.finalregseasongame.gameID &lt;- "2016010310"
+
+# Input the variable into the function to output the desired dataframe
+finalgame2015.pbp &lt;- game_play_by_play(nfl2015.finalregseasongame.gameID) 
+
+# Subset the dataframe based on passing plays
+subset(finalgame2015.pbp, PlayType == "Pass")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

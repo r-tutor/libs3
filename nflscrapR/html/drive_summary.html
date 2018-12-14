@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Drive Summary and Results</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for drive_summary {nflscrapR}"><tr><td>drive_summary {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Drive Summary and Results</h2>
+
+<h3>Description</h3>
+
+<p>This function outputs the results dataframe of each drive of a 
+given game
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+drive_summary(GameID)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>GameID</code></td>
+<td>
+<p>(character or numeric) A 10 digit game ID associated with a 
+given NFL game.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The resulting dataframe has 16 variables associated with a specific 
+aspect of a drive including the scoring result, number of plays, the duration 
+of the drive, and the offensive and defensive teams.  All 16 variables are
+explained in more detail below:
+</p>
+
+<ul>
+<li><p>&quot;GameID&quot; - The ID of the given Game
+</p>
+</li>
+<li><p>DriveNumber&quot; - The respective drive number in the game
+</p>
+</li>
+<li><p>&quot;posteam&quot; - The offensive team on the drive
+</p>
+</li>
+<li><p>&quot;qtr&quot; - The quarter at the end of the drive
+</p>
+</li>
+<li><p>&quot;fds&quot; - Number of first downs in the drive
+</p>
+</li>
+<li><p>&quot;result&quot; - End result of the drive
+</p>
+</li>
+<li><p>&quot;penyds&quot; - Net penalty yards of the drive for the offensive team
+</p>
+</li>
+<li><p>&quot;ydsgained&quot; - Number of yards gained on the drive
+</p>
+</li>
+<li><p>&quot;numplays&quot; - Number of plays on the drive
+</p>
+</li>
+<li><p>&quot;postime&quot; - The duration of the drive
+</p>
+</li>
+<li><p>&quot;StartQrt&quot; - The quarter at the beginning of the drive
+</p>
+</li>
+<li><p>&quot;StartTime - The time left in the quarter at the start of the drive
+</p>
+</li>
+<li><p>&quot;StartYardln&quot; - Yardline at the start of the drive
+</p>
+</li>
+<li><p>&quot;StartTeam&quot; - The offensive team on the drive 
+</p>
+</li>
+<li><p>&quot;EndQrt&quot; - The quarter at the end of the drive
+</p>
+</li>
+<li><p>&quot;EndTime - The time left in the quarter at the end of the drive
+</p>
+</li>
+<li><p>&quot;EndYardln&quot; - Yardline at the end of the drive
+</p>
+</li>
+<li><p>&quot;EndTeam&quot; - The offensive team on the drive
+</p>
+</li></ul>
+
+
+
+<h3>Value</h3>
+
+<p>A dataframe that has the summary statistics for each drive
+final output includes first downs, drive result, penalty yards, 
+of plays, time of possession, quarter at the start of the drive, 
+time at start of drive, yardline at start of drive, 
+team with possession at start, end of drive quarter, end of drive time, 
+end of drive yard line, end of drive team with possession
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Parsed drive Summarize of final game in 2015 NFL Season
+nfl2015.finalregseasongame.gameID &lt;- "2016010310"
+drive_summary(nfl2015.finalregseasongame.gameID) 
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

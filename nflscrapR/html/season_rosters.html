@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Season Rosters for Teams</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for season_rosters {nflscrapR}"><tr><td>season_rosters {nflscrapR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Season Rosters for Teams</h2>
+
+<h3>Description</h3>
+
+<p>This function intakes a year and a team abbreviation and outputs
+a dataframe with each player who has played for the specified team and 
+recorded a measurable statistic
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+season_rosters(season, teams, positions = c("QUARTERBACK", "RUNNING_BACK",
+  "WIDE_RECEIVER", "TIGHT_END"))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>season:</code></td>
+<td>
+<p>A 4-digit year associated with a given NFL season</p>
+</td></tr>
+<tr valign="top"><td><code>teams:</code></td>
+<td>
+<p>A string vector containing the abbreviations for NFL Team(s)</p>
+</td></tr>
+<tr valign="top"><td><code>Positions:</code></td>
+<td>
+<p>A string vector containing the abbreviations for NFL position(s).
+Can be of the following:
+</p>
+
+<ul>
+<li><p>&quot;QUARTERBACK&quot; (in the default list)
+</p>
+</li>
+<li><p>&quot;RUNNING_BACK&quot; (in the default list)
+</p>
+</li>
+<li><p>&quot;WIDE_RECEIVER&quot; (in the default list)
+</p>
+</li>
+<li><p>&quot;TIGHT_END&quot; (in the default list)
+</p>
+</li>
+<li><p>&quot;DEFENSIVE_LINEMAN&quot; 
+</p>
+</li>
+<li><p>&quot;LINEBACKER&quot;
+</p>
+</li>
+<li><p>&quot;DEFENSIVE_BACK&quot;
+</p>
+</li>
+<li><p>&quot;KICKOFF_KICKER&quot;
+</p>
+</li>
+<li><p>&quot;KICK_RETURNER&quot;
+</p>
+</li>
+<li><p>&quot;PUNTER&quot;
+</p>
+</li>
+<li><p>&quot;PUNT_RETURNER&quot;
+</p>
+</li>
+<li><p>&quot;FIELD_GOAL_KICKER&quot;
+</p>
+</li></ul>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>To find team associated abbrevations use the nflteams dataframe 
+stored in this package!
+</p>
+
+
+<h3>Value</h3>
+
+<p>A dataframe with columns associated with season/year, full player name,
+team initial, position, and formated player name.
+players who played and recorded some measurable statistic, and the 
+last column specifyng the number of games they played in.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Roster for Baltimore Ravens in 2013
+season_rosters(2013, TeamInt = "BAL") 
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>nflscrapR</em> version 1.8.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

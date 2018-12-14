@@ -1,19 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><title>R: Will scrape NFL play-by-play and boxscore data across full
-seasons</title>
+<head><title>R: Compiling the NFL Play-by-Play API for easy use in R</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="R.css" />
 </head><body>
-<h1> Will scrape NFL play-by-play and boxscore data across full
-seasons
+<h1> Compiling the NFL Play-by-Play API for easy use in R
 <img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
 </h1>
 <hr/>
 <div style="text-align: center;">
 <a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
 <a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
-</div><h2>Documentation for package &lsquo;nflscrapR&rsquo; version 1.4.0</h2>
+</div><h2>Documentation for package &lsquo;nflscrapR&rsquo; version 1.8.0</h2>
 
 <ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
 </ul>
@@ -22,26 +20,42 @@ seasons
 
 
 <table width="100%">
+<tr><td style="width: 25%;"><a href="add_air_yac_ep_variables.html">add_air_yac_ep_variables</a></td>
+<td>Calculate and add the air and yac expected points variables to include in a 'nflscrapR' play-by-play data frame</td></tr>
+<tr><td style="width: 25%;"><a href="add_air_yac_wp_variables.html">add_air_yac_wp_variables</a></td>
+<td>Calculate and add the air and yac win probability variables to include in a 'nflscrapR' play-by-play data frame</td></tr>
+<tr><td style="width: 25%;"><a href="add_ep_variables.html">add_ep_variables</a></td>
+<td>Calculate and add the expected points variables to include in a 'nflscrapR' play-by-play data frame</td></tr>
+<tr><td style="width: 25%;"><a href="add_wp_variables.html">add_wp_variables</a></td>
+<td>Calculate and add the win probability variables to include in a 'nflscrapR' play-by-play data frame</td></tr>
 <tr><td style="width: 25%;"><a href="agg_player_season.html">agg_player_season</a></td>
 <td>Detailed Player Aggregate Season Statistics</td></tr>
 <tr><td style="width: 25%;"><a href="buildNameAbbr.html">buildNameAbbr</a></td>
 <td>Build formatted player name from full player name</td></tr>
 <tr><td style="width: 25%;"><a href="buildURL.html">buildURL</a></td>
 <td>Building URL to scrape player season stat pages</td></tr>
+<tr><td style="width: 25%;"><a href="create_game_html_url.html">create_game_html_url</a></td>
+<td>Create the url with the location of raw NFL play-by-play HTML</td></tr>
+<tr><td style="width: 25%;"><a href="create_game_json_url.html">create_game_json_url</a></td>
+<td>Create the url with the location of NFL game JSON data</td></tr>
 <tr><td style="width: 25%;"><a href="drive_summary.html">drive_summary</a></td>
 <td>Drive Summary and Results</td></tr>
 <tr><td style="width: 25%;"><a href="expected_points.html">expected_points</a></td>
 <td>Expected point function to calculate expected points for each play in the play by play, and the expected points added in three ways, basic EPA, air yards EPA, and yards after catch EPA</td></tr>
 <tr><td style="width: 25%;"><a href="extracting_gameids.html">extracting_gameids</a></td>
 <td>Extract GameIDs for each game in a given NFL season</td></tr>
+<tr><td style="width: 25%;"><a href="findPagePlayerID.html">findPagePlayerID</a></td>
+<td>Find the GSIS ID for each player on the provided page.</td></tr>
 <tr><td style="width: 25%;"><a href="game_play_by_play.html">game_play_by_play</a></td>
 <td>Parsed Descriptive Play-by-Play Dataset for a Single Game</td></tr>
+<tr><td style="width: 25%;"><a href="getGSISID.html">getGSISID</a></td>
+<td>For a player's href, get their GSIS ID from their personal url.</td></tr>
 <tr><td style="width: 25%;"><a href="getPageNumbers.html">getPageNumbers</a></td>
 <td>Get Number of Player Position Pages</td></tr>
 <tr><td style="width: 25%;"><a href="getPlayers.html">getPlayers</a></td>
 <td>Scrape Player Names and Positions</td></tr>
 <tr><td style="width: 25%;"><a href="nflteams.html">nflteams</a></td>
-<td>NFL Team Names and Abbreviations</td></tr>
+<td>Dataset of NFL team names, abbreviations, and colors</td></tr>
 <tr><td style="width: 25%;"><a href="playerstats09.html">playerstats09</a></td>
 <td>NFL Team Names and Abbreviations</td></tr>
 <tr><td style="width: 25%;"><a href="playerstats10.html">playerstats10</a></td>
@@ -60,6 +74,14 @@ seasons
 <td>Detailed Boxscore for Single NFL Game</td></tr>
 <tr><td style="width: 25%;"><a href="proper_jsonurl_formatting.html">proper_jsonurl_formatting</a></td>
 <td>Formatting URL for location of NFL Game JSON Data</td></tr>
+<tr><td style="width: 25%;"><a href="scrape_game_ids.html">scrape_game_ids</a></td>
+<td>Scrape game ids for a given NFL season (either pre, regular, or post-season)</td></tr>
+<tr><td style="width: 25%;"><a href="scrape_game_play_by_play.html">scrape_game_play_by_play</a></td>
+<td>Scrape an individual game's play-by-play data from NFL.com</td></tr>
+<tr><td style="width: 25%;"><a href="scrape_json_play_by_play.html">scrape_json_play_by_play</a></td>
+<td>Scrape an individual game's JSON play-by-play data from NFL.com</td></tr>
+<tr><td style="width: 25%;"><a href="scrape_season_play_by_play.html">scrape_season_play_by_play</a></td>
+<td>Scrape season play-by-play for a given NFL season (either pre, regular, or post-season)</td></tr>
 <tr><td style="width: 25%;"><a href="season_games.html">season_games</a></td>
 <td>Game Information for All Games in a Season</td></tr>
 <tr><td style="width: 25%;"><a href="season_player_game.html">season_player_game</a></td>
