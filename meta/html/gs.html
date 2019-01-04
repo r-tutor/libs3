@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Get default for a meta-analysis setting.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for gs {meta}"><tr><td>gs {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Get default for a meta-analysis setting.</h2>
+
+<h3>Description</h3>
+
+<p>Get default for a meta-analysis setting in R package <b>meta</b>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+gs(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>A character string holding a settings name.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function can be used to get the default for a meta-analysis
+setting defined using <code><a href="settings.meta.html">settings.meta</a></code>.
+</p>
+<p>This function is primarily used to define default settings in
+meta-analysis functions, e.g. <code><a href="metabin.html">metabin</a></code> or
+<code><a href="metacont.html">metacont</a></code>. A list of all arguments with current
+settings is printed using the command
+<code>settings.meta("print")</code>.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a></p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="settings.meta.html">settings.meta</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Get default setting for Hartung-Knapp method
+#
+gs("hakn")
+
+# Get default setting for summary measure in metabin()
+#
+gs("smbin")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-4 <a href="00Index.html">Index</a>]</div>
+</body></html>

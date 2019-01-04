@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Aspirin after Myocardial Infarction</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Fleiss93 {meta}"><tr><td>Fleiss93 {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Aspirin after Myocardial Infarction</h2>
+
+<h3>Description</h3>
+
+<p>Meta-analysis on aspirin in preventing death after myocardial
+infarction.
+</p>
+<p>Data example in Fleiss (1993) for meta-analysis with binary outcomes.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>data(Fleiss93)</pre>
+
+
+<h3>Format</h3>
+
+<p>A data frame with the following columns:
+</p>
+
+<dl>
+<dt>study</dt><dd><p>Study label</p>
+</dd>
+<dt>year</dt><dd><p>Year of publication</p>
+</dd>
+<dt>event.e</dt><dd><p>Number of deaths in aspirin group</p>
+</dd>
+<dt>n.e</dt><dd><p>Number of observations in aspirin group</p>
+</dd>
+<dt>event.c</dt><dd><p>Number of deaths in placebo group</p>
+</dd>
+<dt>n.c</dt><dd><p>Number of observations in placebo group</p>
+</dd>
+</dl>
+
+
+
+<h3>Source</h3>
+
+<p>Fleiss JL (1993),
+The statistical basis of meta-analysis.
+<em>Statistical Methods in Medical Research</em>, <b>2</b>, 121&ndash;145.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Fleiss93)
+metabin(event.e, n.e, event.c, n.c,
+        data=Fleiss93,
+        studlab=paste(study, year),
+        sm="OR", comb.random=FALSE)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-4 <a href="00Index.html">Index</a>]</div>
+</body></html>
