@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create an MxExpectationStateSpace Object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxExpectationStateSpaceContinuousTime {OpenMx}"><tr><td>mxExpectationStateSpaceContinuousTime {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create an MxExpectationStateSpace Object</h2>
+
+<h3>Description</h3>
+
+<p>This function creates a new MxExpectationStateSpace object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxExpectationStateSpaceContinuousTime(A, B, C, D, Q, R, x0, P0, u, t = NA,
+                        dimnames = NA, thresholds = NA, threshnames = dimnames,
+                        ..., scores=FALSE)
+mxExpectationSSCT(A, B, C, D, Q, R, x0, P0, u, t = NA,
+                        dimnames = NA, thresholds = NA, threshnames = dimnames,
+                        ..., scores=FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>A</code></td>
+<td>
+<p>A character string indicating the name of the 'A' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>B</code></td>
+<td>
+<p>A character string indicating the name of the 'B' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>C</code></td>
+<td>
+<p>A character string indicating the name of the 'C' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>D</code></td>
+<td>
+<p>A character string indicating the name of the 'D' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>Q</code></td>
+<td>
+<p>A character string indicating the name of the 'Q' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>R</code></td>
+<td>
+<p>A character string indicating the name of the 'R' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>x0</code></td>
+<td>
+<p>A character string indicating the name of the 'x0' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>P0</code></td>
+<td>
+<p>A character string indicating the name of the 'P0' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>u</code></td>
+<td>
+<p>A character string indicating the name of the 'u' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>t</code></td>
+<td>
+<p>A character string indicating the name of the 't' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>dimnames</code></td>
+<td>
+<p>An optional character vector to be assigned to the row names of the 'C' matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>thresholds</code></td>
+<td>
+<p>Not Yet Implemented. An optional character string indicating the name of the thresholds matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>threshnames</code></td>
+<td>
+<p>Not Yet Implemented. An optional character vector to be assigned to the column names of the thresholds matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Unused.  Requires further arguments to be named.</p>
+</td></tr>
+<tr valign="top"><td><code>scores</code></td>
+<td>
+<p>Not to be used</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The <code>mxExpectationStateSpaceContinuousTime</code> and <code>mxExpectationSSCT</code> functions are identical.  The latter is simply an abbreviated name.  When using the former, tab completion is strongly encouraged to save tedious typing.  Both of these functions are wrappers for the <a href="mxExpectationStateSpace.html">mxExpectationStateSpace</a> function, which could be used for both discrete and continuous time modeling.  However, there is a strong possibility of misunderstanding the model parameters when switching between discrete time and continuous time.  The expectation matrices have the same names, but mean importantly different things so caution is warranted.  The best practice is to use <code>mxExpectationStateSpace</code> for discrete time models, and <code>mxExpectationStateSpaceContinuousTime</code> for continuous time models.
+</p>
+<p>Expectation functions define the way that model expectations are calculated. That is to say, expectation functions define how a set of model matrices get turned into expectations for the data.  When used in conjunction with the <a href="mxFitFunctionML.html">mxFitFunctionML</a>, the mxExpectationStateSpace uses maximum likelihood prediction error decomposition (PED) to obtain estimates of free parameters in a model of the raw <a href="MxData-class.html">MxData</a> object. Continuous time state space expectations treat the raw data as a multivariate time series of possibly unevenly spaced times with each row corresponding to a single occasion.  Continuous time state space expectations implement a hybrid Kalman filter to produce expectations.  The hybrid Kalman filter uses a Kalman-Bucy filter for the prediction step and the classical Kalman filter for the update step.  It is a hybrid between the classical Kalman filter used for the discrete (but possibly unequally spaced) measurement occasions and the continuous time Kalman-Bucy filter for latent variable predictions.
+</p>
+<p>Missing data handling is implemented in the same fashion as full information maximum likelihood for partially missing rows of data.  Additionally, completely missing rows of data are handled by only using the prediction step from the Kalman-Bucy filter and omitting the update step.
+</p>
+<p>This model uses notation for the model matrices commonly found in engineering and control theory.
+</p>
+<p>The 'A', 'B', 'C', 'D', 'Q', 'R', 'x0', and 'P0' arguments must be the names of <a href="MxMatrix-class.html">MxMatrix</a> or <a href="MxAlgebra-class.html">MxAlgebra</a>objects with the associated properties of the A, B, C, D, Q, R, x0, and P0 matrices in the state space modeling approach.  The 't' matrix must be a 1x1 matrix using definition variables that gives the times at which measurements occurred.
+</p>
+<p>The state space expectation is defined by the following model equations.
+</p>
+<p style="text-align: center;"><i>dx(t)/dt = A x(t) + B u[t] + q(t)</i></p>
+
+<p style="text-align: center;"><i>y[t] = C x[t] + D u[t] + r[t]</i></p>
+
+<p>with <i>q(t)</i> and <i>r[t]</i> both independently and identically distributed random Gaussian (normal) variables with mean zero and covariance matrices <i>Q</i> and <i>R</i>, respectively.  Subscripts or square brackets indicate discrete indices; parentheses indicate continuous indices.  The derivative of <i>x(t)</i> with respect to <i>t</i> is <i>dx(t)/dt</i>.
+</p>
+<p>The first equation is called the state equation.  It describes how the latent states change over time with a first-order linear differential equation. Unlike some other programs, we do not require that the continuous time <i>A</i> matrix has an inverse. This allows zero dynamics (i.e. no growth models) and many other important kinds of processes.
+</p>
+<p>The second equation is called the output equation.  It describes how the latent states relate to the observed states at a single point in time.  The output equation shows how the observed output is produced by the latent states.  Also, the output equation in state space modeling is directly analogous to the measurement model in LISREL structural equation modeling.
+</p>
+<p>Note that the covariates, <i>u</i>, have &quot;instantaneous&quot; effects on both the state and output equations.  If lagged effects are desired, then the user must create a lagged covariate by shifting their observed variable to the desired lag.
+</p>
+<p>The state and output equations, together with some minimal assumptions and the Kalman filter, imply a new expected covariance matrix and means vector for every row of data.  The expected covariance matrix of row <i>t</i> is
+</p>
+<p style="text-align: center;"><i>S[t] = C ( A P[t-1] A^T + Q ) C^T + R</i></p>
+
+<p>The expected means vector of row <i>t</i> is
+</p>
+<p style="text-align: center;"><i>yhat[t] = C x[t] + D u[t]</i></p>
+
+<p>The 'dimnames' arguments takes an optional character vector.  
+
+</p>
+<p>The 'A' argument refers to the <i>A</i> matrix in the State Space approach. This matrix gives the dynamics.  Entries in the diagonal give the strength of the influence of a variable's position on its slope.  Entries in the off-diagonal give the coupling strength from one variable to another.  The <i>A</i> matrix is sometimes called the state-transition model.
+</p>
+<p>The 'B' argument refers to the <i>B</i> matrix in the State Space approach. This matrix consists of exogenous forces that influence the dynamics. Note that the covariate effect is contemporaneous: the covariate at time <i>t</i> has influence on the slope of the latent state also at time <i>t</i>.  A lagged effect can be created by lagged the observed variable.  The <i>B</i> matrix is sometimes called the control-input model.
+</p>
+<p>The 'C' argument refers to the <i>C</i> matrix in the State Space approach. This matrix consists of contemporaneous regression coefficients from the latent variable in column <i>j</i> to the observed variable in row <i>i</i>.  This matrix is directly analogous to the factor loadings matrix in LISREL and Mplus models.  The <i>C</i> matrix is sometimes called the observation model.
+</p>
+<p>The 'D' argument refers to the <i>D</i> matrix in the State Space approach. This matrix consists of contemporaneous regressive coefficients from the input (manifest covariate) variable <i>j</i> to the observed variable in row <i>i</i>. The <i>D</i> matrix is sometimes called the feedthrough or feedforward matrix.
+</p>
+<p>The 'Q' argument refers to the <i>Q</i> matrix in the State Space approach. This matrix gives the covariance of the dynamic noise.  The dynamic noise can be thought of as unmeasured covariate inputs active at all times.  This matrix must be symmetric, diagonal, or zero.  As a special case, it is often diagonal. The <i>Q</i> matrix is the covariance of the process noise.  Just as in factor analysis and general structural equation modeling, the scale of the latent variables is usually set by fixing some factor loadings in the <i>C</i> matrix, or fixing some factor variances in the <i>Q</i> matrix.
+</p>
+<p>The 'R' argument refers to the <i>R</i> matrix in the State Space approach. This matrix consists of residual covariances among the observed (manifest) variables. This matrix must be symmetric  As a special case, it is often diagonal.  The <i>R</i> matrix is the covariance of the observation noise.
+</p>
+<p>The 'x0' argument refers to the <i>x[0]</i> matrix in the State Space approach. This matrix consists of the column vector of the initial values for the latent variables. The state space expectation uses the <i>x[0]</i> matrix as the starting point to recursively estimate the latent variables' values at each time.  These starting values can be difficult to pick, however, for sufficiently long time series they often do not greatly impact the estimation.
+</p>
+<p>The 'P0' argument refers to the <i>P[0]</i> matrix in the State Space approach. This matrix consists of the initial values of the covariances of the error in the initial latent variable estimates given in <i>x[0]</i>. That is, the <i>P[0]</i> matrix gives the covariance of <i>x[0] - xtrue[0]</i> where <i>xtrue[0]</i> is the vector of true initial values.  <i>P[0]</i> is a measure of the accuracy of the initial latent state estimates. The Kalman filter uses this initial covariance to recursively generated a new covariance for each time point based on the previous time point.  The Kalman filter updates this covariance so that it is as small as possible (minimum trace). Similar to the <i>x[0]</i> matrix, these starting values are often difficult to choose.
+</p>
+<p>The 'u' argument refers to the <i>u</i> matrix in the State Space approach. This matrix consists of the inputs or manifest covariates of the state space expectation.  The <i>u</i> matrix must be a column vector with the same number of rows as the <i>B</i> and <i>D</i> matrices have columns.  If no inputs are desired, <i>u</i> can be a zero matrix.  If time-varying inputs are desired, then they should be included as columns in the <a href="MxData-class.html">MxData</a> object and referred to in the labels of the <i>u</i> matrix as definition variables.  There is an example of this below.
+</p>
+<p>The 't' argument refers to the <i>t</i> matrix in the State Space approach.  This matrix should be 1x1 (1 row and 1 column) and not free.  The label for the element of this matrix should be 'data.YourTimeVariable'.  The 'data' part does not change, but 'YourTimeVariable' should be a name in your data set that gives the times at which measurement happened.  The units of time are up to you.  Your choice of time units will influence of the values of the parameters you estimate.  Also, recall that the model is given <i>x[0]</i> and <i>P[0]</i>.  These always happen at <i>t=0</i>.  So the first row of data happens some amount of time after zero.
+</p>
+<p>The <a href="MxMatrix-class.html">MxMatrix</a> objects included as arguments may be of any type, but should have the properties described above. The mxExpectationStateSpace will not return an error for incorrect specification, but incorrect specification will likely lead to estimation problems or errors in the <a href="mxRun.html">mxRun</a> function.
+</p>
+<p>mxExpectationStateSpaceContinuousTime evaluates with respect to an <a href="MxData-class.html">MxData</a> object. The <a href="MxData-class.html">MxData</a> object need not be referenced in the mxExpectationStateSpace function, but must be included in the <a href="MxModel-class.html">MxModel</a> object. mxExpectationStateSpace requires that the 'type' argument in the associated <a href="MxData-class.html">MxData</a> object be equal to 'raw'.  Neighboring rows of the <a href="MxData-class.html">MxData</a> object are treated as adjacent, equidistant time points increasing from the first to the last row.
+</p>
+<p>To evaluate, place an mxExpectationStateSpaceContinuousTime object, the <a href="mxData.html">mxData</a> object for which the expected covariance approximates, referenced <a href="MxAlgebra-class.html">MxAlgebra</a> and <a href="MxMatrix-class.html">MxMatrix</a> objects, and optional <a href="MxBounds-class.html">MxBounds</a> and <a href="MxConstraint-class.html">MxConstraint</a> objects in an <a href="MxModel-class.html">MxModel</a> object. This model may then be evaluated using the <a href="mxRun.html">mxRun</a> function. The results of the optimization can be found in the 'output' slot of the resulting model, and may be obtained using the <a href="mxEval.html">mxEval</a> function.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns a new MxExpectationStateSpace object. mxExpectationStateSpace objects should be included with models with referenced <a href="MxAlgebra-class.html">MxAlgebra</a>, <a href="MxData-class.html">MxData</a> and <a href="MxMatrix-class.html">MxMatrix</a> objects.
+</p>
+
+
+<h3>References</h3>
+
+<p>K.J. &Aring;str&ouml;m and R.M. Murray  (2010).  <em> Feedback Systems: An Introduction for Scientists and Engineers</em>. Princeton University Press.
+</p>
+<p>J. Durbin and S.J. Koopman.  (2001).  <em>Time Series Analysis by State Space Methods</em>. Oxford University Press.
+</p>
+<p>R.E. Kalman  (1960).  A New Approach to Linear Filtering and Prediction Problems.  <em>Basic Engineering, 82</em>, 35-45.
+</p>
+<p>R.E. Kalman and R.S. Bucy  (1961).  New Results in Linear Filtering and Prediction Theory.  <em>Transactions of the ASME, Series D, Journal of Basic Engineering, 83</em>, 95-108.
+</p>
+<p>G. Petris  (2010).  An R Package for Dynamic Linear Models.  <em>Journal of Statistical Software, 36</em>, 1-16.
+</p>
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="mxExpectationStateSpace.html">mxExpectationStateSpace</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+#------------------------------------------------------------------------------
+# Example 1
+# Undamped linear oscillator, i.e. a noisy sine wave.
+#	Measurement error, but no dynamic error, single indicator.
+#	This example works great.
+
+#--------------------------------------
+# Data Generation
+
+require(OpenMx)
+
+set.seed(405)
+tlen &lt;- 200
+t &lt;- seq(1.2, 50, length.out=tlen)
+
+freqParam &lt;- .5
+initialCond &lt;- matrix(c(2.5, 0))
+x &lt;- initialCond[1,1]*cos(freqParam*t)
+plot(t, x, type='l')
+
+measVar &lt;- 1.5
+y &lt;- cbind(obs=x+rnorm(tlen, sd=sqrt(measVar)), tim=t)
+
+plot(t, y[,1], type='l')
+
+#--------------------------------------
+# Model Specification
+
+#Note: the bounds are here only to keep SLSQP from
+# stepping too far off a cliff.  With the bounds in
+# place, SLSQP finds the right solution.  Without
+# the bounds, SLSQP goes crazy.
+
+
+cdim &lt;- list('obs', c('ksi', 'ksiDot'))
+
+amat &lt;- mxMatrix('Full', 2, 2, c(FALSE, TRUE, FALSE, TRUE), c(0, -.1, 1, -.2),
+	name='A', lbound=-10)
+bmat &lt;- mxMatrix('Zero', 2, 1, name='B')
+cmat &lt;- mxMatrix('Full', 1, 2, FALSE, c(1, 0), name='C', dimnames=cdim)
+dmat &lt;- mxMatrix('Zero', 1, 1, name='D')
+qmat &lt;- mxMatrix('Zero', 2, 2, name='Q')
+rmat &lt;- mxMatrix('Diag', 1, 1, TRUE, .4, name='R', lbound=1e-6)
+xmat &lt;- mxMatrix('Full', 2, 1, TRUE, c(0, 0), name='x0', lbound=-10, ubound=10)
+pmat &lt;- mxMatrix('Diag', 2, 2, FALSE, 1, name='P0')
+umat &lt;- mxMatrix('Zero', 1, 1, name='u')
+tmat &lt;- mxMatrix('Full', 1, 1, name='time', labels='data.tim')
+
+osc &lt;- mxModel("LinearOscillator", 
+	amat, bmat, cmat, dmat, qmat, rmat, xmat, pmat, umat, tmat,
+	mxExpectationSSCT('A', 'B', 'C', 'D', 'Q', 'R', 'x0', 'P0', 'u', 'time'),
+	mxFitFunctionML(),
+	mxData(y, 'raw'))
+
+
+oscr &lt;- mxRun(osc)
+
+
+#--------------------------------------
+# Results Examination
+
+summary(oscr)
+
+
+(ssFreqParam &lt;- mxEval(sqrt(-A[2,1]), oscr))
+freqParam
+
+
+(ssMeasVar &lt;- mxEval(R, oscr))
+measVar
+
+
+dampingParam &lt;- 0
+(ssDampingParam &lt;- mxEval(-A[2,2], oscr))
+dampingParam
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

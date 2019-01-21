@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Twin data on weight and height</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for myTwinData {OpenMx}"><tr><td>myTwinData {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Twin data on weight and height
+</h2>
+
+<h3>Description</h3>
+
+<p>Data set used in some of OpenMx's examples.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>data("myTwinData")</pre>
+
+
+<h3>Format</h3>
+
+<p>A data frame with 3808 observations on the following variables.
+</p>
+
+<dl>
+<dt><code>fam</code></dt><dd><p>Family ID variable</p>
+</dd>
+<dt><code>age</code></dt><dd><p>Age of the twin pair.  Range: 17 to 88.</p>
+</dd>
+<dt><code>zyg</code></dt><dd><p>Integer codes for zygosity and gender combinations</p>
+</dd>
+<dt><code>part</code></dt><dd></dd>
+<dt><code>wt1</code></dt><dd><p>Weight in kilograms for twin 1</p>
+</dd>
+<dt><code>wt2</code></dt><dd><p>Weight in kilograms for twin 2</p>
+</dd>
+<dt><code>ht1</code></dt><dd><p>Height in meters for twin 1</p>
+</dd>
+<dt><code>ht2</code></dt><dd><p>Height in meters for twin 2</p>
+</dd>
+<dt><code>htwt1</code></dt><dd><p>Product of ht and wt for twin 1</p>
+</dd>
+<dt><code>htwt2</code></dt><dd><p>Product of ht and wt for twin 2</p>
+</dd>
+<dt><code>bmi1</code></dt><dd><p>Body Mass Index for twin 1</p>
+</dd>
+<dt><code>bmi2</code></dt><dd><p>Body Mass Index for twin 2</p>
+</dd>
+</dl>
+
+
+
+<h3>Details</h3>
+
+<p>Height and weight are highly correlated, and each individually highly heritable.  These data present and opportunity for multivariate behavior genetics modeling.
+</p>
+
+
+<h3>Source</h3>
+
+<p>Timothy Bates
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(myTwinData)
+
+plot( ht1 ~ wt1, myTwinData)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

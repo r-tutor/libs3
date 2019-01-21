@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Bollen Data on Industrialization and Political Democracy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Bollen {OpenMx}"><tr><td>Bollen {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Bollen Data on Industrialization and Political Democracy
+</h2>
+
+<h3>Description</h3>
+
+<p>Data set used in some of OpenMx's examples, for instance WLS. The data were reported in Bollen (1989, p. 428, Table 9.4)
+This set includes data from 75 developing countries each assessed on four measures of democracy measured twice (1960 and 1965), and three measures of industrialization measured once (1960).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>data("Bollen")</pre>
+
+
+<h3>Format</h3>
+
+<p>A data frame with 75 observations on the following 11 numeric variables.
+</p>
+
+<dl>
+<dt><code>y1</code></dt><dd><p>Freedom of the press, 1960 </p>
+</dd>
+<dt><code>y2</code></dt><dd><p>Freedom of political opposition, 1960</p>
+</dd>
+<dt><code>y3</code></dt><dd><p>Fairness of elections, 1960</p>
+</dd>
+<dt><code>y4</code></dt><dd><p>Effectiveness of elected legislature, 1960</p>
+</dd>
+<dt><code>y5</code></dt><dd><p>Freedom of the press, 1965</p>
+</dd>
+<dt><code>y6</code></dt><dd><p>Freedom of political opposition, 1965</p>
+</dd>
+<dt><code>y7</code></dt><dd><p>Fairness of elections, 1965</p>
+</dd>
+<dt><code>y8</code></dt><dd><p>Effectiveness of elected legislature, 1965</p>
+</dd>
+<dt><code>x1</code></dt><dd><p>GNP per capita, 1960</p>
+</dd>
+<dt><code>x2</code></dt><dd><p>Energy consumption per capita, 1960</p>
+</dd>
+<dt><code>x3</code></dt><dd><p>Percentage of labor force in industry, 1960</p>
+</dd>
+</dl>
+
+
+
+<h3>Details</h3>
+
+<p>Variables y1-y4 and y5-y8 are typically used as indicators of the latent trait of &ldquo;political democracy&rdquo; in 1960 and 1965 respectively. x1-x3 are used as indicators of industrialization (1960).
+</p>
+
+
+<h3>Source</h3>
+
+<p>The <code>sem</code> package (in turn, via personal communication Bollen to Fox)</p>
+
+
+<h3>References</h3>
+
+<p>Bollen, K. A. (1979). Political democracy and the timing of development. <em>American Sociological Review</em>, <b>44</b>, 572-587.
+</p>
+<p>Bollen, K. A. (1980). Issues in the comparative measurement of political democracy. <em>American Sociological Review</em>, <b>45</b>, 370-390.
+</p>
+<p>Bollen, K. A. (1989). <em>Structural equation models</em>. New York: Wiley-Interscience.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Bollen)
+str(Bollen)
+plot(y1 ~ y2, data = Bollen)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

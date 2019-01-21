@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Optimize parameters using the Newton-Raphson algorithm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxComputeNewtonRaphson {OpenMx}"><tr><td>mxComputeNewtonRaphson {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Optimize parameters using the Newton-Raphson algorithm</h2>
+
+<h3>Description</h3>
+
+<p>This optimizer requires analytic 1st and 2nd derivatives of the
+fit function. Box constraints are supported. Parameters can
+approach box constraints but will not leave the feasible region
+(even by some small epsilon&gt;0). Non-finite fit values are
+interpreted as soft feasibility constraints. That is, when a
+non-finite fit is encountered, line search is continued after the
+step size is multiplied by 10
+available by increasing the verbose level.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxComputeNewtonRaphson(freeSet = NA_character_, ...,
+  fitfunction = "fitfunction", maxIter = 100L, tolerance = 1e-12,
+  verbose = 0L)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>freeSet</code></td>
+<td>
+<p>names of matrices containing free variables</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>fitfunction</code></td>
+<td>
+<p>name of the fitfunction (defaults to 'fitfunction')</p>
+</td></tr>
+<tr valign="top"><td><code>maxIter</code></td>
+<td>
+<p>maximum number of iterations</p>
+</td></tr>
+<tr valign="top"><td><code>tolerance</code></td>
+<td>
+<p>optimization is considered converged when the maximum relative change in fit is less than tolerance</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>level of debugging output</p>
+</td></tr>
+</table>
+
+
+<h3>References</h3>
+
+<p>Luenberger, D. G. &amp; Ye, Y. (2008). <em>Linear and nonlinear programming.</em> Springer.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

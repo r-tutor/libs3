@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Load data from CSV files directly into the backend</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxComputeLoadMatrix {OpenMx}"><tr><td>mxComputeLoadMatrix {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Load data from CSV files directly into the backend</h2>
+
+<h3>Description</h3>
+
+<p>For method='CSV', the file must be formatted in a specific way.
+The number of columns must match the number of entries available
+in the mxMatrix. Matrix types (e.g., symmetric or diagonal) are
+respected (see <a href="mxMatrix.html">mxMatrix</a>). For example, a <em>Full</em> 2x2
+matrix will require 4 entries, but a diagonal matrix of the same size
+will only require 2 entries.
+CSV data must be stored space separated and without row or column
+names.
+The destination <code>mxMatrix</code> can have free parameters, but cannot
+have square bracket populated entries.
+</p>
+<p>If <code>originalDataIsIndexOne</code> is TRUE then this
+compute step does nothing when the loop index is 1.
+The purpose of <code>originalDataIsIndexOne</code> is to
+permit usage of the dataset that was initially
+included with the model.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxComputeLoadMatrix(dest, method='CSV', ..., path, originalDataIsIndexOne=FALSE,
+ row.names=FALSE, col.names=FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dest</code></td>
+<td>
+<p>a character vector of matrix names</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>name of the conduit used to load the data.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>path</code></td>
+<td>
+<p>a character vector of paths</p>
+</td></tr>
+<tr valign="top"><td><code>originalDataIsIndexOne</code></td>
+<td>
+<p>logical. Whether to use the initial data
+for index 1</p>
+</td></tr>
+<tr valign="top"><td><code>row.names</code></td>
+<td>
+<p>logical. Whether row names are present</p>
+</td></tr>
+<tr valign="top"><td><code>col.names</code></td>
+<td>
+<p>logical. Whether column names are present</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><a href="mxComputeLoadData.html">mxComputeLoadData</a>, <a href="mxComputeCheckpoint.html">mxComputeCheckpoint</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(OpenMx)
+
+Cov &lt;- rWishart(4, 20, toeplitz(c(2,1)/20))
+write.table(t(apply(Cov, 3, vech)),
+            file="cov.csv", col.names=FALSE, row.names=FALSE)
+Mean &lt;- matrix(rnorm(8),4,2)
+write.table(Mean, file="mean.csv", col.names=FALSE, row.names=FALSE)
+
+m1 &lt;- mxModel(
+  "test1",
+  mxMatrix("Full", 1,2, values=0,       name="mean"),
+  mxMatrix("Symm", 2,2, values=diag(2), name="cov"),
+  mxMatrix("Full", 1,2, values=-1,      name="lbound"),
+  mxMatrix("Full", 1,2, values=1,       name="ubound"),
+  mxAlgebra(omxMnor(cov,mean,lbound,ubound), name="area"),
+  mxFitFunctionAlgebra("area"),
+  mxComputeLoop(list(
+    mxComputeLoadMatrix(c('mean', 'cov'),
+                        path=c('mean.csv', 'cov.csv')),
+    mxComputeOnce('fitfunction', 'fit'),
+    mxComputeCheckpoint(path="loadMatrix.csv")
+  ), i=1:4))
+
+m1 &lt;- mxRun(m1)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

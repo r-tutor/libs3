@@ -42,6 +42,8 @@ MxModel-class           MxModel Class
 MxOptionalChar-class    An optional character
 MxOptionalCharOrNumber-class
                         A character, integer, or NULL
+MxOptionalDataFrame-class
+                        An optional data.frame
 MxOptionalLogical-class
                         An optional logical
 MxOptionalMatrix-class
@@ -81,7 +83,7 @@ imxAddDependency        Add a dependency
 imxAutoOptionValue      imxAutoOptionValue
 imxCheckMatrices        imxCheckMatrices
 imxCheckVariables       imxCheckVariables
-imxConDecMatrixSlots    Condense/decondense slots of an MxMatrix
+imxConDecMatrixSlots    Condense/de-condense slots of an MxMatrix
 imxConstraintRelations
                         imxConstraintRelations
 imxConvertIdentifier    imxConvertIdentifier
@@ -104,7 +106,7 @@ imxExtractMethod        imxExtractMethod
 imxExtractNames         imxExtractNames
 imxExtractReferences    imxExtractReferences
 imxExtractSlot          imxExtractSlot
-imxFlattenModel         Remove heirarchical structure from model
+imxFlattenModel         Remove hierarchical structure from model
 imxFreezeModel          Freeze model
 imxGenSwift             imxGenSwift
 imxGenerateLabels       imxGenerateLabels
@@ -213,6 +215,7 @@ mxComputeIterate        Repeatedly invoke a series of compute objects
                         until change is less than tolerance
 mxComputeJacobian       Numerically estimate the Jacobian with respect
                         to free parameters
+mxComputeLoadData       Load columns into an MxData object
 mxComputeLoadMatrix     Load data from CSV files directly into the
                         backend
 mxComputeLoop           Repeatedly invoke a series of compute objects
@@ -229,6 +232,8 @@ mxComputeReportDeriv    Report derivatives
 mxComputeReportExpectation
                         Report expectation
 mxComputeSequence       Invoke a series of compute objects in sequence
+mxComputeSetOriginalStarts
+                        Reset parameter starting values
 mxComputeSimAnnealing   Optimization using generalized simulated
                         annealing
 mxComputeStandardError
@@ -238,8 +243,8 @@ mxComputeTryHard        Repeatedly attempt a compute plan until
 mxConstraint            Create MxConstraint Object
 mxData                  Create MxData Object
 mxDataDynamic           Create dynamic data
-mxDataWLS               Create MxData Object for Least Squares (WLS,
-                        DWLS, ULS) Analyses
+mxDataWLS               Create legacy MxData Object for Least Squares
+                        (WLS, DWLS, ULS) Analyses
 mxEval                  Evaluate Values in MxModel
 mxEvaluateOnGrid        Evaluate an algebra on an abscissa grid and
                         collect column results
@@ -330,6 +335,9 @@ omxApply                On-Demand Parallel Apply
 omxAssignFirstParameters
                         Assign First Available Values to Model
                         Parameters
+omxAugmentDataWithWLSSummary
+                        Estimate summary statistics used by the WLS fit
+                        function
 omxBrownie              Make Brownies in OpenMx
 omxCheckCloseEnough     Approximate Equality Testing Function
 omxCheckEquals          Equality Testing Function

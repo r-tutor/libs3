@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Perform Pearson Aitken selection</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxPearsonSelCov {OpenMx}"><tr><td>mxPearsonSelCov {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Perform Pearson Aitken selection</h2>
+
+<h3>Description</h3>
+
+<p>These functions implement the Pearson Aitken selection formulae.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxPearsonSelCov(origCov, newCov)
+mxPearsonSelMean(origCov, newCov, origMean)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>origCov</code></td>
+<td>
+<p>covariance matrix. The covariance prior to selection.</p>
+</td></tr>
+<tr valign="top"><td><code>newCov</code></td>
+<td>
+<p>covariance matrix. A subset of <code>origCov</code> to replace.</p>
+</td></tr>
+<tr valign="top"><td><code>origMean</code></td>
+<td>
+<p>column vector. A mean vector to adjust.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Both <code>mxPearsonSelCov</code> and <code>mxPearsonSelMean</code> match the
+dimnames of <code>newCov</code> and <code>origCov</code> to determine which
+partition of <code>origCov</code> to replace with <code>newCov</code>.
+</p>
+<p>Let the <i>n \times n</i> covariance matrix R (<code>origCov</code>) be partitioned into non-empty,
+disjoint sets p and q.
+Let <i>R_{ij}</i> denote the covariance matrix between the p
+and q variables where the subscripts denote the variable subsets (e.g. <i>R_{pq}</i>).
+Let column vectors <i>&mu;_p</i> and <i>&mu;_q</i> contain the means of p and q
+variables, respectively.
+We wish to compute the conditional covariances of the variables in q
+for a subset of the population where <i>R_{pp}</i> and <i>&mu;_p</i> are known (or partially known)&mdash;that is, we wish
+to <em>condition</em> the covariances and means of q on those of p.
+Let <i>V_{pp}</i> (<code>newCov</code>) be an arbitrary covariance matrix of the same
+dimension as <i>R_{pp}</i>.
+If we replace <i>R_{pp}</i> by <i>V_{pp}</i> then the mean
+of q (<code>origMean</code>) is transformed as
+</p>
+<p style="text-align: center;"><i>&mu;_q \to &mu;_q + R_{qp} R_{pp}^{-1} &mu;_p</i></p>
+
+<p>and the covariance of p and q are transformed as
+</p>
+<p style="text-align: center;"><i>&le;ft[
+\begin{array}{c|c}
+R_{pp} &amp; R_{pq} \\
+\hline
+R_{qp} &amp; R_{qq}
+\end{array}
+\right] \to
+&le;ft[
+\begin{array}{c|c}
+V_{pp} &amp; V_{pp}R_{pp}^{-1}R_{pq} \\
+\hline
+R_{qp}R_{pp}^{-1}V_{pp} &amp; R_{qq}-R_{qp} (R_{pp}^{-1} - R_{pp}^{-1} V_{pp} R_{pp}^{-1}) R_{pq}
+\end{array}
+\right]</i></p>
+
+
+
+<h3>References</h3>
+
+<p>Aitken, A. (1935). Note on selection from a multivariate normal population. <em>Proceedings of
+the Edinburgh Mathematical Society (Series 2), 4</em>(2), 106-110.
+doi:10.1017/S0013091500008063
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(OpenMx)
+
+m1 &lt;- mxModel(
+  'selectionTest',
+  mxMatrix('Full', 10, 10, values=rWishart(1, 20, toeplitz((10:1)/10))[,,1],
+           dimnames=list(paste0('c',1:10),paste0('c',1:10)), name="m1"),
+  mxMatrix('Full', 2, 2, values=diag(2),
+           dimnames=list(paste0('c',1:2),paste0('c',1:2)), name="m2"),
+  mxMatrix('Full', 10, 1, values=runif(10),
+           dimnames=list(paste0('c',1:10),c('v')), name="u1"),
+  mxAlgebra(mxPearsonSelCov(m1, m2), name="c1"),
+  mxAlgebra(mxPearsonSelMean(m1, m2, u1), name="u2")
+)
+
+m1 &lt;- mxRun(m1)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

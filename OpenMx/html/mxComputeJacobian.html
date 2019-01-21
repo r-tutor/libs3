@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Numerically estimate the Jacobian with respect to free...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxComputeJacobian {OpenMx}"><tr><td>mxComputeJacobian {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Numerically estimate the Jacobian with respect to free parameters</h2>
+
+<h3>Description</h3>
+
+<p>When algebra names are given, all algebras must belong to the same
+model.
+</p>
+<p>When expectations are given, the Jacobian is taken with respect
+to the manifest model.
+The manifest model excludes any latent variables or processes. For
+RAM and LISREL models, the manifest model contains only the
+manifest variables with free means, covariance, and thresholds.
+Ordinal manifest variables are standardized.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxComputeJacobian(freeSet=NA_character_, ..., of = "expectation",
+ defvar.row=as.integer(NA), data='data')
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>freeSet</code></td>
+<td>
+<p>names of matrices containing free variables</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>of</code></td>
+<td>
+<p>a character vector of expectations or algebra names</p>
+</td></tr>
+<tr valign="top"><td><code>defvar.row</code></td>
+<td>
+<p>A row index. Which row to load for definition variables.</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>From which data to load definition variables.</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><a href="omxManifestModelByParameterJacobian.html">omxManifestModelByParameterJacobian</a>, <a href="mxGetExpected.html">mxGetExpected</a>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

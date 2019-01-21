@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Australian twin sample biometric data.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for twinData {OpenMx}"><tr><td>twinData {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Australian twin sample biometric data.</h2>
+
+<h3>Description</h3>
+
+<p>Australian twin data with 3,808 observations on the 12 variables including body mass index (BMI) assessed in both MZ and DZ twins.
+</p>
+<p>Questionnaires were mailed to 5,967 pairs age 18 years and over. These data consist of completed questionnaires returned by both members of 3,808 (64 percent) pairs. There are two cohort blocks in the data: a younger group (zyg 1:5), and an older group (zyg 6:10)
+</p>
+<p>It is a wide dataset, with two individuals per line. Families are identified by the variable &ldquo;fam&rdquo;.
+</p>
+<p>Data include zygosity (zyg), along with heights in meters, weights in
+kg, and the derived variables BMI in kg/m^2 (stored as &ldquo;htwt1&rdquo;
+and &ldquo;htwt2&rdquo;), as well as the 7 times the natural log of this variable,
+stored as bmi1 and bmi2. The logged values are more closely
+normally distributed while scaling by 7 places them into a similar range
+to the original variable.
+</p>
+<p>For convenience, zyg is broken out into separate &ldquo;zygosity&rdquo; and &ldquo;cohort&rdquo; factors. &ldquo;zygosity&rdquo; is
+coded as a factor with 5-levels: MZFF, MZMM, DZFF, DZMM, DZOS. DZOS are in Female/Male wide order.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>data(twinData)</pre>
+
+
+<h3>Format</h3>
+
+<p>A data frame with 3808 observations on the following 12 variables.
+</p>
+
+<dl>
+<dt><code>fam</code></dt><dd><p>The family ID</p>
+</dd>
+<dt><code>age</code></dt><dd><p>Age in years (of both twins)</p>
+</dd>
+<dt><code>zyg</code></dt><dd><p>Code for zygosity and cohort (see details)</p>
+</dd>
+<dt><code>part</code></dt><dd><p>A numeric vector</p>
+</dd>
+<dt><code>wt1</code></dt><dd><p>Weight of twin 1 (kg)</p>
+</dd>
+<dt><code>wt2</code></dt><dd><p>Weight of twin 2 (kg)</p>
+</dd>
+<dt><code>ht1</code></dt><dd><p>Height of twin 1 (m)</p>
+</dd>
+<dt><code>ht2</code></dt><dd><p>Height of twin 2 (m)</p>
+</dd>
+<dt><code>htwt1</code></dt><dd><p>Raw BMI of twin 1 (kg/m^2)</p>
+</dd>
+<dt><code>htwt2</code></dt><dd><p>Raw BMI of twin 2 (kg/m^2)</p>
+</dd>
+<dt><code>bmi1</code></dt><dd><p>7*log(BMI) of twin 1</p>
+</dd>
+<dt><code>bmi2</code></dt><dd><p>7*log(BMI) of twin 2</p>
+</dd>
+<dt><code>cohort</code></dt><dd><p>Either &ldquo;younger&rdquo; or &ldquo;older&rdquo;</p>
+</dd>
+<dt><code>zygosity</code></dt><dd><p>Zygosity factor with levels: MZFF, MZMM, DZFF, DZMM, DZOS</p>
+</dd>
+<dt><code>age1</code></dt><dd><p>Age of Twin 1</p>
+</dd>
+<dt><code>age2</code></dt><dd><p>Age of Twin 2</p>
+</dd>
+</dl>
+
+
+
+<h3>Details</h3>
+
+<p>&ldquo;zyg&rdquo; codes twin-zygosity as follows:
+1 == MZFF (i.e MZ females)
+2 == MZMM (i.e MZ males)
+3 == DZFF
+4 == DZMM
+5 == DZOS opposite sex pairs
+</p>
+<p>Note: zyg 6:10 are for an older cohort in the sample. So:
+6 == MZFF (i.e MZ females)
+7 == MZMM (i.e MZ males)
+8 == DZFF
+9 == DZMM
+10 == DZOS opposite sex pairs
+</p>
+<p>The &ldquo;zygosity&rdquo; and &ldquo;cohort&rdquo; variables take care of this for you (conventions differ).
+</p>
+
+
+<h3>References</h3>
+
+<p>Martin, N. G. &amp; Jardine, R. (1986). Eysenck's contribution to behavior genetics. In S. Modgil &amp; C. Modgil (Eds.), <em>Hans Eysenck: Consensus and Controversy.</em> Falmer Press: Lewes, Sussex.
+</p>
+<p>Martin, N. G., Eaves, L. J., Heath, A. C., Jardine, R., Feingold, L. M., &amp; Eysenck, H. J. (1986). Transmission of social attitudes. <em>Proceedings of the National Academy of Science</em>, <b>83</b>, 4364-4368.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(twinData)
+str(twinData)
+plot(wt1 ~ wt2, data = twinData)
+selVars = c("bmi1", "bmi2")
+mzData &lt;- subset(twinData, zyg == 1, selVars)
+dzData &lt;- subset(twinData, zyg == 3, selVars)
+
+# equivalently
+mzData &lt;- subset(twinData, zygosity == "MZFF", selVars)
+
+# Disregard sex, pick older cohort
+mz &lt;- subset(twinData, zygosity %in% c("MZFF","MZMM") &amp; cohort == "older", selVars)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

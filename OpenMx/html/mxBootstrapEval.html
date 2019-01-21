@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Evaluate Values in a bootstrapped MxModel</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxBootstrapEval {OpenMx}"><tr><td>mxBootstrapEval {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Evaluate Values in a bootstrapped MxModel</h2>
+
+<h3>Description</h3>
+
+<p>This function can be used to evaluate an arbitrary R expression that includes named entities from a <a href="MxModel-class.html">MxModel</a> object, or labels from a <a href="MxMatrix-class.html">MxMatrix</a> object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxBootstrapEval(expression, model, defvar.row = 1, ...,
+ bq=c(.25,.75), method=c('bcbci','quantile'))
+
+mxBootstrapEvalByName(name, model, defvar.row = 1, ...,
+ bq=c(.25,.75), method=c('bcbci','quantile'))
+
+omxBootstrapEval(expression, model, defvar.row = 1L, ...)
+
+omxBootstrapEvalCov(expression, model, defvar.row = 1L, ...)
+
+omxBootstrapEvalByName(name, model, defvar.row=1L, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>expression</code></td>
+<td>
+<p>An arbitrary R expression.</p>
+</td></tr>
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>The character name of an object to evaluate.</p>
+</td></tr>
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>The model in which to evaluate the expression.</p>
+</td></tr>
+<tr valign="top"><td><code>defvar.row</code></td>
+<td>
+<p>The row number for definition variables when compute=TRUE; defaults to 1.  When compute=FALSE, values for definition variables are always taken from the first (i.e., first before any automated sorting is done) row of the raw data.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>bq</code></td>
+<td>
+<p>numeric. A vector of quantiles to be used to
+summarize bootstrap replication.</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>character. One of &lsquo;quantile&rsquo; or &lsquo;bcbci&rsquo;.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The argument &lsquo;expression&rsquo; is an arbitrary R expression.  Any named entities that are used within the R expression are translated into their current value from the model. Any labels from the matrices within the model are translated into their current value from the model. Finally the expression is evaluated and the result is returned.  To enable debugging, the &lsquo;show&rsquo; argument has been provided.  The most common mistake when using this function is to include named entities in the model that are identical to R function names.  For example, if a model contains a named entity named &lsquo;c&rsquo;, then the following mxEval call will return an error: <code>mxEval(c(A, B, C), model)</code>.
+</p>
+<p>The <code>mxEvalByName</code> function is a wrapper around <code>mxEval</code> that takes a character instead of an R expression.
+</p>
+<p>The default behavior is to use the &lsquo;bcbci&rsquo; <code>method</code>, due to its superior theoretical properties.
+</p>
+
+
+<h3>Value</h3>
+
+<p><code>omxBootstrapEval</code> and <code>omxBootstrapEvalByName</code> return the raw matrix of
+<code>cvectorize</code>'d results. <code>omxBootstrapEvalCov</code> returns the
+covariance matrix of the <code>cvectorize</code>'d results.
+<code>mxBootstrapEval</code> and <code>mxBootstrapEvalByName</code> return
+the <code>cvectorize</code>'d results summarized by <code>method</code> at quantiles <code>bq</code>.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="mxAlgebra.html">mxAlgebra</a> to create algebraic expressions inside your model 
+and <a href="mxModel.html">mxModel</a> for the model object mxEval looks inside when
+evaluating. <a href="mxBootstrap.html">mxBootstrap</a> to create bootstrap data.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+library(OpenMx)
+
+testModel &lt;- mxModel(
+  model="testModel",
+  mxData(data.frame(weight=1.0, value=1:10), "raw", weight = "weight"),
+  mxMatrix("Full", nrow = 1, ncol = 1, values = 1, free=TRUE, name = "A"),
+  mxAlgebra(data.weight * filteredDataRow, name = 'rowAlgebra'),
+  mxAlgebra((sum(rowResults) - A)^2, name = 'reduceAlgebra'),
+  mxFitFunctionRow('rowAlgebra', 'reduceAlgebra', 'value'))
+
+testModel &lt;- mxRun(testModel)
+testBoot &lt;- mxBootstrap(testModel)
+summary(testBoot)
+
+mxBootstrapEval(A^2, testBoot)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

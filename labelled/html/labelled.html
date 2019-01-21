@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create a labelled vector.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for labelled {labelled}"><tr><td>labelled {labelled}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create a labelled vector.</h2>
+
+<h3>Description</h3>
+
+<p>A labelled vector is a common data structure in other statistical environments,
+allowing you to assign text labels to specific values.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+labelled(x, labels, label = NULL)
+
+is.labelled(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>A vector to label. Must be either numeric (integer or double) or
+character.</p>
+</td></tr>
+<tr valign="top"><td><code>labels</code></td>
+<td>
+<p>A named vector. The vector should be the same type as
+<code>x</code>. Unlike factors, labels don't need to be exhaustive: only a fraction
+of the values might be labelled.</p>
+</td></tr>
+<tr valign="top"><td><code>label</code></td>
+<td>
+<p>A short, human-readable description of the vector.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>An object of class &quot;haven_labelled&quot; or &quot;haven_labelled_spss&quot;.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../haven/html/labelled.html">labelled</a></code> (<span class="pkg">haven</span>)
+</p>
+<p><code><a href="../../haven/html/is.labelled.html">is.labelled</a></code> (<span class="pkg">haven</span>)
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+s1 &lt;- labelled(c("M", "M", "F"), c(Male = "M", Female = "F"))
+s1
+str(s1)
+s2 &lt;- labelled(c(1, 1, 2), c(Male = 1, Female = 2),
+               label="Assigned sex at birth")
+s2
+str(s2)
+
+# Unfortunately it's not possible to make as.factor() work for labelled objects
+# so instead use to_factor(). This works for all types of labelled vectors.
+to_factor(s1)
+to_factor(s1, levels = "prefixed")
+to_factor(s2)
+
+# Other statistical software supports multiple types of missing values
+s3 &lt;- labelled_spss(c(1, 1, 2, 2, 8, 9),
+               c(Male = 1, Female = 2, Refused = 8, "Not applicable" = 9),
+               na_values = c(8, 9)
+
+)
+s3
+str(s3)
+to_factor(s3)
+to_factor(s3, user_na_to_na = TRUE)
+is.labelled(s1)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>labelled</em> version 2.0.2 <a href="00Index.html">Index</a>]</div>
+</body></html>

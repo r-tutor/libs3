@@ -11,7 +11,7 @@
 <div style="text-align: center;">
 <a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
 <a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
-</div><h2>Documentation for package &lsquo;OpenMx&rsquo; version 2.11.5</h2>
+</div><h2>Documentation for package &lsquo;OpenMx&rsquo; version 2.12.1</h2>
 
 <ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
 <li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
@@ -167,9 +167,9 @@
 <tr><td style="width: 25%;"><a href="imxCheckVariables.html">imxCheckVariables</a></td>
 <td>imxCheckVariables</td></tr>
 <tr><td style="width: 25%;"><a href="imxConDecMatrixSlots.html">imxConDecMatrixSlots</a></td>
-<td>Condense/decondense slots of an MxMatrix</td></tr>
+<td>Condense/de-condense slots of an MxMatrix</td></tr>
 <tr><td style="width: 25%;"><a href="imxConDecMatrixSlots.html">imxConDecMatrixSlots-method</a></td>
-<td>Condense/decondense slots of an MxMatrix</td></tr>
+<td>Condense/de-condense slots of an MxMatrix</td></tr>
 <tr><td style="width: 25%;"><a href="imxConstraintRelations.html">imxConstraintRelations</a></td>
 <td>imxConstraintRelations</td></tr>
 <tr><td style="width: 25%;"><a href="imxConvertIdentifier.html">imxConvertIdentifier</a></td>
@@ -209,7 +209,7 @@
 <tr><td style="width: 25%;"><a href="imxExtractSlot.html">imxExtractSlot</a></td>
 <td>imxExtractSlot</td></tr>
 <tr><td style="width: 25%;"><a href="imxFlattenModel.html">imxFlattenModel</a></td>
-<td>Remove heirarchical structure from model</td></tr>
+<td>Remove hierarchical structure from model</td></tr>
 <tr><td style="width: 25%;"><a href="imxFreezeModel.html">imxFreezeModel</a></td>
 <td>Freeze model</td></tr>
 <tr><td style="width: 25%;"><a href="imxGenerateLabels.html">imxGenerateLabels</a></td>
@@ -487,6 +487,10 @@
 <td>Numerically estimate the Jacobian with respect to free parameters</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeJacobian.html">MxComputeJacobian-class</a></td>
 <td>Numerically estimate the Jacobian with respect to free parameters</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoadData.html">mxComputeLoadData</a></td>
+<td>Load columns into an MxData object</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeLoadData.html">MxComputeLoadData-class</a></td>
+<td>Load columns into an MxData object</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeLoadMatrix.html">mxComputeLoadMatrix</a></td>
 <td>Load data from CSV files directly into the backend</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeLoadMatrix.html">MxComputeLoadMatrix-class</a></td>
@@ -527,6 +531,10 @@
 <td>Invoke a series of compute objects in sequence</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeSequence.html">MxComputeSequence-class</a></td>
 <td>Invoke a series of compute objects in sequence</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeSetOriginalStarts.html">mxComputeSetOriginalStarts</a></td>
+<td>Reset parameter starting values</td></tr>
+<tr><td style="width: 25%;"><a href="mxComputeSetOriginalStarts.html">MxComputeSetOriginalStarts-class</a></td>
+<td>Reset parameter starting values</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeSimAnnealing.html">mxComputeSimAnnealing</a></td>
 <td>Optimization using generalized simulated annealing</td></tr>
 <tr><td style="width: 25%;"><a href="mxComputeSimAnnealing.html">MxComputeSimAnnealing-class</a></td>
@@ -561,12 +569,14 @@
 <td>MxDataFrameOrMatrix</td></tr>
 <tr><td style="width: 25%;"><a href="MxDataFrameOrMatrix-class.html">MxDataFrameOrMatrix-class</a></td>
 <td>MxDataFrameOrMatrix</td></tr>
+<tr><td style="width: 25%;"><a href="mxDataWLS.html">MxDataLegacyWLS-class</a></td>
+<td>Create legacy MxData Object for Least Squares (WLS, DWLS, ULS) Analyses</td></tr>
 <tr><td style="width: 25%;"><a href="MxDataStatic-class.html">MxDataStatic</a></td>
 <td>Create static data</td></tr>
 <tr><td style="width: 25%;"><a href="MxDataStatic-class.html">MxDataStatic-class</a></td>
 <td>Create static data</td></tr>
 <tr><td style="width: 25%;"><a href="mxDataWLS.html">mxDataWLS</a></td>
-<td>Create MxData Object for Least Squares (WLS, DWLS, ULS) Analyses</td></tr>
+<td>Create legacy MxData Object for Least Squares (WLS, DWLS, ULS) Analyses</td></tr>
 <tr><td style="width: 25%;"><a href="MxDirectedGraph-class.html">MxDirectedGraph</a></td>
 <td>MxDirectedGraph</td></tr>
 <tr><td style="width: 25%;"><a href="MxDirectedGraph-class.html">MxDirectedGraph-class</a></td>
@@ -709,6 +719,8 @@
 <td>An optional character</td></tr>
 <tr><td style="width: 25%;"><a href="MxOptionalCharOrNumber-class.html">MxOptionalCharOrNumber-class</a></td>
 <td>A character, integer, or NULL</td></tr>
+<tr><td style="width: 25%;"><a href="MxOptionalDataFrame-class.html">MxOptionalDataFrame-class</a></td>
+<td>An optional data.frame</td></tr>
 <tr><td style="width: 25%;"><a href="MxOptionalLogical-class.html">MxOptionalLogical-class</a></td>
 <td>An optional logical</td></tr>
 <tr><td style="width: 25%;"><a href="MxOptionalMatrix-class.html">MxOptionalMatrix-class</a></td>
@@ -859,6 +871,8 @@
 <td>Logical mxAlgebra() operators</td></tr>
 <tr><td style="width: 25%;"><a href="omxAssignFirstParameters.html">omxAssignFirstParameters</a></td>
 <td>Assign First Available Values to Model Parameters</td></tr>
+<tr><td style="width: 25%;"><a href="omxAugmentDataWithWLSSummary.html">omxAugmentDataWithWLSSummary</a></td>
+<td>Estimate summary statistics used by the WLS fit function</td></tr>
 <tr><td style="width: 25%;"><a href="omxGetBootstrapReplications.html">omxBootstrapCov</a></td>
 <td>omxGetBootstrapReplications</td></tr>
 <tr><td style="width: 25%;"><a href="mxBootstrapEval.html">omxBootstrapEval</a></td>
@@ -1133,6 +1147,8 @@
 <td>Strict Half-vectorization</td></tr>
 <tr><td style="width: 25%;"><a href="vechs2full.html">vechs2full</a></td>
 <td>Inverse Strict Half-vectorization</td></tr>
+<tr><td style="width: 25%;"><a href="vechs.html">vechs&lt;-</a></td>
+<td>Strict Half-vectorization</td></tr>
 </table>
 
 <h2><a name="W">-- W --</a></h2>

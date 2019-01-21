@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Convert input to a character vector</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for to_character {labelled}"><tr><td>to_character {labelled}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Convert input to a character vector</h2>
+
+<h3>Description</h3>
+
+<p>By default, <code>to_character</code> is a wrapper for <code><a href="../../base/html/as.character.html">as.character</a></code>.
+For labelled vector, to_character allows to specify if value, labels or labels prefixed
+with values should be used for conversion.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+to_character(x, ...)
+
+## S3 method for class 'haven_labelled'
+to_character(x, levels = c("labels", "values",
+  "prefixed"), nolabel_to_na = FALSE, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>Object to coerce to a character vector.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Other arguments passed down to method.</p>
+</td></tr>
+<tr valign="top"><td><code>levels</code></td>
+<td>
+<p>What should be used for the factor levels: the labels, the values or labels prefixed with values?</p>
+</td></tr>
+<tr valign="top"><td><code>nolabel_to_na</code></td>
+<td>
+<p>Should values with no label be converted to 'NA'?</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>If some values doesn't have a label, automatic labels will be created, except if
+<code>nolabel_to_na</code> is <code>TRUE</code>.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+v &lt;- labelled(c(1,2,2,2,3,9,1,3,2,NA), c(yes = 1, no = 3, "don't know" = 9))
+to_character(v)
+to_character(v, missing_to_na = FALSE, nolabel_to_na = TRUE)
+to_character(v, "v")
+to_character(v, "p")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>labelled</em> version 2.0.2 <a href="00Index.html">Index</a>]</div>
+</body></html>

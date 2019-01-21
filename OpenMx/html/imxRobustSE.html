@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: imxRobustSE</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for imxRobustSE {OpenMx}"><tr><td>imxRobustSE {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>imxRobustSE</h2>
+
+<h3>Description</h3>
+
+<p>This is an internal function exported for those people who know
+what they are doing.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+imxRobustSE(model, details = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>An OpenMx model object that has been run</p>
+</td></tr>
+<tr valign="top"><td><code>details</code></td>
+<td>
+<p>logical. whether to return the full parameter covariance matrix</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function computes robust standard errors via a sandwich estimator.
+The &quot;bread&quot; of the sandwich is the numerically computed inverse Hessian
+of the likelihood function.  This is what is typically used for standard
+errors throughout OpenMx.  The &quot;meat&quot; of the sandwich is proportional to 
+the covariance matrix of the numerically computed row derivatives of the 
+likelihood function (i.e. row gradients).
+</p>
+<p>When <code>details=FALSE</code>, only the standard errors are returned.
+</p>
+<p>When <code>details=TRUE</code>,
+a list with five named elements is returned.  Element <code>SE</code> is the 
+vector of standard errors that is also returned when <code>details=FALSE</code>.
+Element <code>cov</code> is the full robust covariance matrix of the parameter 
+estimates; the square root of the diagonal of <code>cov</code> gives the 
+standard errors.  Element <code>bread</code> is the aforementioned 
+&quot;bread&quot;&ndash;the naive (non-robust) covariance matrix of the parameter 
+estimates.  Element <code>meat</code> is the aforementioned &quot;meat,&quot; proportional
+to the covariance matrix of the row gradients.  Element <code>TIC</code> 
+is the model's Takeuchi Information Criterion, which is a generalization 
+of AIC calculated from the &quot;bread,&quot; the &quot;meat,&quot; and the loglikelihood 
+at the maximum-likelihood solution.
+</p>
+<p>This function does not work correctly with multigroup models in which the 
+groups themselves contain subgroups.  This function also does not 
+correctly handle multilevel data.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

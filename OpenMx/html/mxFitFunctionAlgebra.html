@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create MxFitFunctionAlgebra Object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxFitFunctionAlgebra {OpenMx}"><tr><td>mxFitFunctionAlgebra {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create MxFitFunctionAlgebra Object</h2>
+
+<h3>Description</h3>
+
+<p>mxFitFunctionAlgebra returns an MxFitFunctionAlgebra object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxFitFunctionAlgebra(algebra, numObs = NA, numStats = NA, ..., gradient =
+                 NA_character_, hessian = NA_character_, verbose = 0L, units="-2lnL")
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>algebra</code></td>
+<td>
+<p>A character string indicating the name of an <a href="MxAlgebra-class.html">MxAlgebra</a> or <a href="MxMatrix-class.html">MxMatrix</a> object to use for optimization.</p>
+</td></tr>
+<tr valign="top"><td><code>numObs</code></td>
+<td>
+<p>(optional) An adjustment to the total number of observations in the model.</p>
+</td></tr>
+<tr valign="top"><td><code>numStats</code></td>
+<td>
+<p>(optional) An adjustment to the total number of
+observed statistics in the model.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>gradient</code></td>
+<td>
+<p>(optional) A character string indicating the name of
+an <a href="MxAlgebra-class.html">MxAlgebra</a> object.</p>
+</td></tr>
+<tr valign="top"><td><code>hessian</code></td>
+<td>
+<p>(optional) A character string indicating the name of
+an <a href="MxAlgebra-class.html">MxAlgebra</a> object.</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>(optional An integer to increase the level of runtime
+log output.</p>
+</td></tr>
+<tr valign="top"><td><code>units</code></td>
+<td>
+<p>(optional) The units of the fit statistic.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>If you want to fit a multigroup model, the preferred way is to use <code><a href="mxFitFunctionMultigroup.html">mxFitFunctionMultigroup</a></code>.
+</p>
+<p>Fit functions are functions for which free parameter values are chosen such that the value of the objective function is minimized. While the other fit functions in OpenMx require an expectation function for the model, the <code>mxAlgebraObjective</code> function uses the referenced <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> or <code><a href="MxMatrix-class.html">MxMatrix</a></code> object as the function to be minimized.
+</p>
+<p>If a model's  fit function is an <code>mxFitFunctionAlgebra</code> objective function, then the referenced algebra in the objective function must return a 1 x 1 matrix (when using OpenMx's default optimizer).  There is no restriction on the dimensions of an fit function that is not the primary, or &lsquo;topmost&rsquo;, objective function.
+</p>
+<p>To evaluate an algebra fit function, place the following objects in a <code><a href="MxModel-class.html">MxModel</a></code> object: a <code>mxFitFunctionAlgebra</code>, <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> and <code><a href="MxMatrix-class.html">MxMatrix</a></code> entities referenced by the <code>MxAlgebraObjective</code>, and optional <code><a href="MxBounds-class.html">MxBounds</a></code> and <code><a href="MxConstraint-class.html">MxConstraint</a></code> objects. This model may then be evaluated using the <code><a href="mxRun.html">mxRun</a></code> function. The results of the optimization may be obtained using the <code><a href="mxEval.html">mxEval</a></code> function on the name of the <code><a href="MxAlgebra-class.html">MxAlgebra</a></code>, after the model has been run.
+</p>
+<p>First and second derivatives can be provided with the algebra fit
+function. The dimnames on the gradient and hessian MxAlgebras are
+matched against names of free variables. Names that do not match are
+ignored. The fit is assumed to be in deviance units (-2 log
+likelihood units). If you are working in log likelihood units, the -2
+scaling factor is not applied automatically. You have to
+multiply by -2 yourself.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns an MxFitFunctionAlgebra object.  MxFitFunctionAlgebra objects should be included with models with referenced <code><a href="MxAlgebra-class.html">MxAlgebra</a></code> and <code><a href="MxMatrix-class.html">MxMatrix</a></code> objects.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>Other fit functions:
+<code><a href="mxFitFunctionMultigroup.html">mxFitFunctionMultigroup</a></code>, <code><a href="mxFitFunctionML.html">mxFitFunctionML</a></code>, 
+<code><a href="mxFitFunctionWLS.html">mxFitFunctionWLS</a></code>, <code><a href="mxFitFunctionGREML.html">mxFitFunctionGREML</a></code>, 
+<code><a href="mxFitFunctionR.html">mxFitFunctionR</a></code>, <code><a href="mxFitFunctionRow.html">mxFitFunctionRow</a></code>
+</p>
+<p>To create an algebra suitable as a reference function to be minimized see: <a href="mxAlgebra.html">mxAlgebra</a>
+</p>
+<p>More information about the OpenMx package may be found <a href="OpenMx.html">here</a>. 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# Create and fit a very simple model that adds two numbers using mxFitFunctionAlgebra
+
+library(OpenMx)
+
+# Create a matrix 'A' with no free parameters
+A &lt;- mxMatrix('Full', nrow = 1, ncol = 1, values = 1, name = 'A')
+
+# Create an algebra 'B', which defines the expression A + A
+B &lt;- mxAlgebra(A + A, name = 'B')
+
+# Define the objective function for algebra 'B'
+objective &lt;- mxFitFunctionAlgebra('B')
+
+# Place the algebra, its associated matrix and 
+# its objective function in a model
+tmpModel &lt;- mxModel(model="Addition", A, B, objective)
+
+# Evalulate the algebra
+tmpModelOut &lt;- mxRun(tmpModel)
+
+# View the results
+tmpModelOut$output$minimum
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

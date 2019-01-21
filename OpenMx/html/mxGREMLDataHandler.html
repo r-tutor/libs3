@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Helper Function for Structuring GREML Data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxGREMLDataHandler {OpenMx}"><tr><td>mxGREMLDataHandler {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Helper Function for Structuring GREML Data 
+</h2>
+
+<h3>Description</h3>
+
+<p>This function takes a dataframe or matrix and uses it to setup the 'y' and 'X' matrices for a GREML analysis; this includes trimming out <code>NA</code>s from 'X' and 'y.'  The result is a matrix the first column of which is the 'y' vector, and the remaining columns of which constitute 'X.'
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxGREMLDataHandler(data, yvars=character(0), Xvars=list(), addOnes=TRUE, 
+                  blockByPheno=TRUE, staggerZeroes=TRUE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>Either a dataframe or matrix, with column names, containing the variables to be used as phenotypes and covariates in 'y' and 'X,' respectively.</p>
+</td></tr>
+<tr valign="top"><td><code>yvars</code></td>
+<td>
+<p>Character vector.  Each string names a column of the raw dataset, to be used as a phenotype.</p>
+</td></tr>
+<tr valign="top"><td><code>Xvars</code></td>
+<td>
+<p>A list of data column names, specifying the covariates to be used with each phenotype.  The list should have the same length as argument <code>yvars</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>addOnes</code></td>
+<td>
+<p>Logical; should lead columns of ones (for the regression intercepts) be adhered to the covariates when assembling the 'X' matrix?  Defaults to <code>TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>blockByPheno</code></td>
+<td>
+<p>Logical; relevant to polyphenotype analyses.  If <code>TRUE</code> (default), then the resulting 'y' will contain phenotype #1 for individuals 1 thru <em>n</em>, phenotype #2 for individuals 1 thru <em>n</em>, ...  If <code>FALSE</code>, then observations are &quot;blocked by individual&quot;, and the resulting 'y' will contain individual #1's scores on phenotypes 1 thru <em>p</em>, individual #2's scores on phenotypes 1 thru <em>p</em>, ...  Note that in either case, 'X' will be structured appropriately for 'y.'</p>
+</td></tr>
+<tr valign="top"><td><code>staggerZeroes</code></td>
+<td>
+<p>Logical; relevant to polyphenotype analyses.  If <code>TRUE</code> (default), then each phenotype's covariates in 'X' are &quot;staggered,&quot; and 'X' is padded out with zeroes.  If <code>FALSE</code>, then 'X' is formed simply by stacking the phenotypes' covariates; this requires each phenotype to have the same number of covariates (i.e., each character vector in <code>Xvars</code> must be of the same length).  The default (<code>TRUE</code>) is intended for instances where the multiple phenotypes truly are different variables, whereas <code>staggerZeroes=FALSE</code> is intended for instances where the multiple &quot;phenotypes&quot; actually represent multiple observations on the same variable.  One example of the latter case is longitudinal data where the multiple &quot;phenotypes&quot; are repeated measures on a single phenotype.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>For a monophenotype analysis (only), argument <code>Xdata</code> can be a character vector.  In a polyphenotype analysis, if the same covariates are to be used with all phenotypes, then <code>Xdata</code> can be a list of length 1.
+</p>
+<p>Note the synergy between the output of <code>mxGREMLDataHandler()</code> and arguments <code>dataset.is.yX</code> and <code>casesToDropFromV</code> to <code><a href="mxExpectationGREML.html">mxExpectationGREML</a>()</code>.
+</p>
+<p>If the dataframe or matrix supplied for argument <code>data</code> has <em>n</em> rows, and argument <code>yvars</code> is of length <em>p</em>, then the resulting 'y' and 'X' matrices will have <em>np</em> rows.  Then, if either matrix contains any <code>NA</code>'s, the rows containing the <code>NA</code>'s are trimmed from both 'X' and 'y' before being returned in the output (in which case they will obviously have fewer than <em>np</em> rows).  Function <code>mxGREMLDataHandler()</code> reports which rows of the full-size 'X' and 'y' were trimmed out due to missing observations.  These row indices can be provided as argument <code>casesToDropFromV</code> to <code><a href="mxExpectationGREML.html">mxExpectationGREML</a>()</code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A list with these two components:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>yX</code></td>
+<td>
+<p>Numeric matrix.  The first column is the phenotype vector, 'y,' while the remaining columns constitute the 'X' matrix of covariates.  If this matrix is used as the raw dataset for a model, then the model's GREML expectation can be constructed with <code>dataset.is.yX=TRUE</code> in <code><a href="mxExpectationGREML.html">mxExpectationGREML</a>()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>casesToDrop</code></td>
+<td>
+<p>Numeric vector.  Contains the indices of the rows of the 'y' and 'X' that were dropped due to containing <code>NA</code>'s.  Can be provided as as argument <code>casesToDropFromV</code> to <code><a href="mxExpectationGREML.html">mxExpectationGREML</a>()</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>For more information generally concerning GREML analyses, including a complete example, see <code><a href="mxExpectationGREML.html">mxExpectationGREML</a>()</code>.  More information about the OpenMx package may be found <a href="OpenMx.html">here</a>.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+dat &lt;- cbind(rnorm(100),rep(1,100))
+colnames(dat) &lt;- c("y","x")
+dat[42,1] &lt;- NA
+dat[57,2] &lt;- NA
+dat2 &lt;- mxGREMLDataHandler(data=dat, yvars="y", Xvars=list("x"),
+  addOnes = FALSE)
+str(dat2)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

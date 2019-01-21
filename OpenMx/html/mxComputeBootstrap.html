@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Repeatedly estimate model using resampling with replacement</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxComputeBootstrap {OpenMx}"><tr><td>mxComputeBootstrap {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Repeatedly estimate model using resampling with replacement</h2>
+
+<h3>Description</h3>
+
+<p>This is a low-level compute plan object to perform
+resampling with replacement. </p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxComputeBootstrap(data, plan, replications=200, ...,
+                        verbose=0L, parallel=TRUE, freeSet=NA_character_,
+			OK=c("OK", "OK/green"), only=NA_integer_)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>A vector of dataset or model names.</p>
+</td></tr>
+<tr valign="top"><td><code>plan</code></td>
+<td>
+<p>The compute plan used to optimize the model for each data
+set.</p>
+</td></tr>
+<tr valign="top"><td><code>replications</code></td>
+<td>
+<p>The number of resampling replications. If
+available, replications from prior mxBootstrap invocations will be reused.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>For levels greater than 0, enables runtime diagnostics</p>
+</td></tr>
+<tr valign="top"><td><code>parallel</code></td>
+<td>
+<p>Whether to process the replications in parallel</p>
+</td></tr>
+<tr valign="top"><td><code>freeSet</code></td>
+<td>
+<p>names of matrices containing free variables</p>
+</td></tr>
+<tr valign="top"><td><code>OK</code></td>
+<td>
+<p>The set of status code that are considered successful</p>
+</td></tr>
+<tr valign="top"><td><code>only</code></td>
+<td>
+<p>When provided, only the given replication from a prior
+run of <code>mxBootstrap</code> will be performed. See details.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The &lsquo;only&rsquo; option facilitates investigation of a single
+replication attempt. 
+</p>
+
+
+<h3>Value</h3>
+
+<p>Output is stored in the compute object's <code>output</code>
+slot. Specifically, <code>model$compute$output$raw</code> contains a data
+frame with parameters in columns and replications in rows. In addition
+to parameters, the <code>seed</code>, <code>fit</code>, and <code>statusCode</code>
+of the replication is also included.
+</p>
+<p>When &lsquo;only&rsquo; is set to a particular replications, the weight
+vectors (one per dataset) are also returned in the compute object's
+<code>output</code> slot. <code>model$compute$output$weight</code> is a character
+vector (by dataset name) of numeric vectors (the weights). These
+weights can be used to recreate a model identical to the model used
+in the given replication.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="mxBootstrap.html">mxBootstrap</a></code>,
+<code><a href="as.statusCode.html">as.statusCode</a></code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Recode values</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for recode.haven_labelled {labelled}"><tr><td>recode.haven_labelled {labelled}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Recode values</h2>
+
+<h3>Description</h3>
+
+<p>Extend <code><a href="../../dplyr/html/recode.html">recode</a></code> method from <span class="pkg">haven</span> to
+works with labelled vectors.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'haven_labelled'
+recode(.x, ..., .default = NULL,
+  .missing = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>.x</code></td>
+<td>
+<p>A vector to modify</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Replacements. These should be named for character and factor
+<code>.x</code>, and can be named for numeric <code>.x</code>. The argument names should be the
+current values to be replaced, and the argument values should be the new
+(replacement) values.
+</p>
+<p>All replacements must be the same type, and must have either
+length one or the same length as x.
+</p>
+<p>These dots support <a href="../../rlang/html/tidy-dots.html">tidy dots</a> features.</p>
+</td></tr>
+<tr valign="top"><td><code>.default</code></td>
+<td>
+<p>If supplied, all values not otherwise matched will
+be given this value. If not supplied and if the replacements are
+the same type as the original values in <code>.x</code>, unmatched
+values are not changed. If not supplied and if the replacements
+are not compatible, unmatched values are replaced with <code>NA</code>.
+</p>
+<p><code>.default</code> must be either length 1 or the same length as
+<code>.x</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>.missing</code></td>
+<td>
+<p>If supplied, any missing values in <code>.x</code> will be
+replaced by this value. Must be either length 1 or the same length as
+<code>.x</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../dplyr/html/recode.html">recode</a></code> (<span class="pkg">dplyr</span>)
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+x &lt;- labelled(1:3, c(yes = 1, no = 2))
+x
+dplyr::recode(x, `3` = 2L)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>labelled</em> version 2.0.2 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Optimization using generalized simulated annealing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxComputeSimAnnealing {OpenMx}"><tr><td>mxComputeSimAnnealing {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Optimization using generalized simulated annealing</h2>
+
+<h3>Description</h3>
+
+<p>Performs simulated annealing to minimize the fit function.
+If the original starting values are outside of the feasible set,
+a few attempts are made to find viable starting values.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxComputeSimAnnealing(freeSet=NA_character_, ..., fitfunction='fitfunction',
+ plan=mxComputeOnce('fitfunction','fit'),
+ verbose=0L, method=c("tsallis1996", "ingber2012"), control=list(),
+ defaultGradientStepSize=imxAutoOptionValue("Gradient step size"),
+ defaultFunctionPrecision=imxAutoOptionValue("Function precision"))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>freeSet</code></td>
+<td>
+<p>names of matrices containing free variables</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>fitfunction</code></td>
+<td>
+<p>name of the fitfunction (defaults to 'fitfunction')</p>
+</td></tr>
+<tr valign="top"><td><code>plan</code></td>
+<td>
+<p>compute plan to optimize the model</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>level of debugging output</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>which algorithm to use</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>control parameters specific to the chosen method</p>
+</td></tr>
+<tr valign="top"><td><code>defaultGradientStepSize</code></td>
+<td>
+<p>the default gradient step size</p>
+</td></tr>
+<tr valign="top"><td><code>defaultFunctionPrecision</code></td>
+<td>
+<p>the default function precision</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>For method &lsquo;tsallis1996&rsquo;,
+the number of function evaluations are determined by the
+<code>tempStart</code> and <code>tempEnd</code> parameters. There is no provision to
+stop early because there is no way to determine whether the algorithm
+has converged. The Markov step is implemented by cycling through each
+parameters in turn and considering a univariate jump (like a Gibbs sampler).
+</p>
+<p>Control parameters include <code>qv</code> to control the shape of the
+visiting distribution, <code>qaInit</code> to control the shape of the initial
+acceptance distribution, <code>lambda</code> to reduce the probability of
+acceptance in time, <code>tempStart</code> to specify starting temperature,
+<code>tempEnd</code> to specify ending temperature, and <code>stepsPerTemp</code> to
+set the number of Markov steps per temperature step.
+</p>
+<p>Non-linear constraints are accommodated by a penalty function.
+Inequality constraints work reasonably well, but
+equality constraints do not work very well.
+Constrained optimization will likely require increasing <code>stepsPerTemp</code>.
+</p>
+<p>Classical simulated annealing (CSA) can be obtained with
+<code>qv=qa=1</code> and <code>lambda=0</code>.
+Fast simulated annealing (FSA) can be obtained with
+<code>qv=2</code>, <code>qa=1</code>, and <code>lambda=0</code>.
+FSA is faster than CSA, but GSA is faster than FSA.
+GenSA default parameters are set to those identified in 
+Xiang, Sun, Fan &amp; Gong (1997).  
+</p>
+<p>Method &lsquo;ingber2012&rsquo; has spawned a cultural tradition over more
+than 30 years that is documented in Aguiar e Oliveira et al (2012).
+Options are specified using the traditional option names in the
+<code>control</code> list. However, there are a few option changes to
+make ASA fit better with OpenMx.
+Instead of option <code>Curvature_0</code>, use <a href="mxComputeNumericDeriv.html">mxComputeNumericDeriv</a>.
+ASA_PRINT output is directed to <code>/dev/null</code> by default.
+To direct ASA_PRINT output to console use <code>control=list('Asa_Out_File'= '/dev/fd/1')</code>.
+ASA's option to control the finite differences gradient step size,
+<code>Delta_X</code>, defaults to <a href="mxOption.html">mxOption</a>'s &lsquo;Gradient step
+size&rsquo; instead of ASA's traditional 0.001.
+Similarly, <code>Cost_Precision</code> defaults to <a href="mxOption.html">mxOption</a>'s
+&lsquo;Function Precision&rsquo; instead of ASA's traditional 1e-18.
+</p>
+
+
+<h3>References</h3>
+
+<p>Aguiar e Oliveira, H., Ingber, L., Petraglia, A., Petraglia, M. R., &amp; Machado, M. A. S. (2012). <em>Stochastic global optimization and its applications with fuzzy adaptive simulated annealing.</em> Springer Publishing Company, Incorporated.
+</p>
+<p>Tsallis, C., &amp; Stariolo, D. A. (1996). Generalized simulated
+annealing. <em>Physica A: Statistical Mechanics and its Applications,
+233</em>(1-2), 395-406.
+</p>
+<p>Xiang, Y., Sun, D. Y., Fan, W., &amp; Gong, X. G. (1997). Generalized
+simulated annealing algorithm and its application to the Thomson
+model. <em>Physics Letters A, 233</em>(3), 216-220.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="mxComputeTryHard.html">mxComputeTryHard</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(OpenMx)
+m1 &lt;- mxModel(
+	"poly22", # Eqn 22 from Tsallis &amp; Stariolo (1996)
+	mxMatrix(type='Full', values=runif(4, min=-1e6, max=1e6),
+		ncol=1, nrow=4, free=TRUE, name='x'),
+	mxAlgebra(sum((x*x-8)^2) + 5*sum(x) + 57.3276, name="fit"),
+	mxFitFunctionAlgebra('fit'),
+	mxComputeSimAnnealing())
+
+m1 &lt;- mxRun(m1)
+summary(m1)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

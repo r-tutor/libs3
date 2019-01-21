@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Log parameters and state to disk or memory</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxComputeCheckpoint {OpenMx}"><tr><td>mxComputeCheckpoint {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Log parameters and state to disk or memory</h2>
+
+<h3>Description</h3>
+
+<p>Captures the current state of the backend. When <code>path</code> is set, the
+state is written to disk in a single row. When <code>toReturn</code> is set,
+the state is recorded in memory and returned after <code>mxRun</code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxComputeCheckpoint(what=NULL, ..., path=NULL, append=FALSE, header=TRUE, toReturn=FALSE,
+				parameters=TRUE, loopIndices=TRUE,
+  fit=TRUE, counters=TRUE, status=TRUE, standardErrors=FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>what</code></td>
+<td>
+<p>a character vector of algebra names to include in each checkpoint</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>path</code></td>
+<td>
+<p>a character vector of where to write the checkpoint file</p>
+</td></tr>
+<tr valign="top"><td><code>append</code></td>
+<td>
+<p>if FALSE, truncates the checkpoint file upon open. If
+TRUE, existing data is preserved and checkpoints are appended.</p>
+</td></tr>
+<tr valign="top"><td><code>header</code></td>
+<td>
+<p>whether to write the header that describes the content of
+each column</p>
+</td></tr>
+<tr valign="top"><td><code>toReturn</code></td>
+<td>
+<p>logical. Whether to store the checkpoint in memory and
+return it after the model is run</p>
+</td></tr>
+<tr valign="top"><td><code>parameters</code></td>
+<td>
+<p>logical. Whether to include the parameter vector</p>
+</td></tr>
+<tr valign="top"><td><code>loopIndices</code></td>
+<td>
+<p>logical. Whether to include the loop indices</p>
+</td></tr>
+<tr valign="top"><td><code>fit</code></td>
+<td>
+<p>logical. Whether to include the fit value</p>
+</td></tr>
+<tr valign="top"><td><code>counters</code></td>
+<td>
+<p>logical. Whether to include counters (number of
+evaluations and iterations)</p>
+</td></tr>
+<tr valign="top"><td><code>status</code></td>
+<td>
+<p>logical. Whether to include the status code</p>
+</td></tr>
+<tr valign="top"><td><code>standardErrors</code></td>
+<td>
+<p>logical. Whether to include the standard errors</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

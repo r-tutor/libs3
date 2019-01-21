@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Repeatedly invoke a series of compute objects until change is...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxComputeIterate {OpenMx}"><tr><td>mxComputeIterate {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Repeatedly invoke a series of compute objects until change is less than tolerance</h2>
+
+<h3>Description</h3>
+
+<p>One step (typically the last) must compute the fit or maxAbsChange.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxComputeIterate(steps, ..., maxIter = 500L, tolerance = 1e-09,
+  verbose = 0L, freeSet = NA_character_,
+  maxDuration = as.numeric(NA))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>steps</code></td>
+<td>
+<p>a list of compute objects</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Not used.  Forces remaining arguments to be specified by name.</p>
+</td></tr>
+<tr valign="top"><td><code>maxIter</code></td>
+<td>
+<p>the maximum number of iterations</p>
+</td></tr>
+<tr valign="top"><td><code>tolerance</code></td>
+<td>
+<p>iterates until maximum relative change is less than tolerance</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>level of debugging output</p>
+</td></tr>
+<tr valign="top"><td><code>freeSet</code></td>
+<td>
+<p>Names of matrices containing free variables.</p>
+</td></tr>
+<tr valign="top"><td><code>maxDuration</code></td>
+<td>
+<p>the maximum amount of time (in seconds) to iterate</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -261,6 +261,8 @@ mxComputeIterate	mxComputeIterate
 MxComputeIterate-class	mxComputeIterate
 mxComputeJacobian	mxComputeJacobian
 MxComputeJacobian-class	mxComputeJacobian
+mxComputeLoadData	mxComputeLoadData
+MxComputeLoadData-class	mxComputeLoadData
 mxComputeLoadMatrix	mxComputeLoadMatrix
 MxComputeLoadMatrix-class	mxComputeLoadMatrix
 mxComputeLoop	mxComputeLoop
@@ -281,6 +283,8 @@ mxComputeReportExpectation	mxComputeReportExpectation
 MxComputeReportExpectation-class	mxComputeReportExpectation
 mxComputeSequence	mxComputeSequence
 MxComputeSequence-class	mxComputeSequence
+mxComputeSetOriginalStarts	mxComputeSetOriginalStarts
+MxComputeSetOriginalStarts-class	mxComputeSetOriginalStarts
 mxComputeSimAnnealing	mxComputeSimAnnealing
 MxComputeSimAnnealing-class	mxComputeSimAnnealing
 mxComputeStandardError	mxComputeStandardError
@@ -298,6 +302,7 @@ mxDataDynamic	mxDataDynamic
 MxDataDynamic-class	mxDataDynamic
 MxDataFrameOrMatrix	MxDataFrameOrMatrix-class
 MxDataFrameOrMatrix-class	MxDataFrameOrMatrix-class
+MxDataLegacyWLS-class	mxDataWLS
 MxDataStatic	MxDataStatic-class
 MxDataStatic-class	MxDataStatic-class
 mxDataWLS	mxDataWLS
@@ -372,6 +377,7 @@ mxNormalQuantiles	mxNormalQuantiles
 mxOption	mxOption
 MxOptionalChar-class	MxOptionalChar-class
 MxOptionalCharOrNumber-class	MxOptionalCharOrNumber-class
+MxOptionalDataFrame-class	MxOptionalDataFrame-class
 MxOptionalLogical-class	MxOptionalLogical-class
 MxOptionalMatrix-class	MxOptionalMatrix-class
 MxOptionalNumeric-class	MxOptionalNumeric-class
@@ -442,6 +448,7 @@ omxAnd	omxLogical
 omxApply	omxApply
 omxApproxEquals	omxLogical
 omxAssignFirstParameters	omxAssignFirstParameters
+omxAugmentDataWithWLSSummary	omxAugmentDataWithWLSSummary
 omxBootstrapCov	omxGetBootstrapReplications
 omxBootstrapEval	mxBootstrapEval
 omxBootstrapEvalByName	mxBootstrapEval
@@ -564,6 +571,7 @@ vech	vech
 vech2full	vech2full
 vechs	vechs
 vechs2full	vechs2full
+vechs<-	vechs
 wideData	LongitudinalOverdispersedCounts
 ZeroMatrix-class	MxMatrix-class
 [,MxMatrix,ANY,ANY,ANY-method	MxMatrix-class

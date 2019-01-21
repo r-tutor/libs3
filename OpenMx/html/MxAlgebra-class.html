@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: MxAlgebra Class</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for MxAlgebra-class {OpenMx}"><tr><td>MxAlgebra-class {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>MxAlgebra Class</h2>
+
+<h3>Description</h3>
+
+<p>MxAlgebra is an S4 class. An MxAlgebra object is a <a href="Named-entity.html">named entity</a>.
+New instances of this class can be created using the function <a href="mxAlgebra.html">mxAlgebra</a>.
+</p>
+
+
+<h3>Details</h3>
+
+<p>The MxAlgebra class has the following slots:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+    </td><td style="text-align: center;"> </td><td style="text-align: left;"> </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+    name </td><td style="text-align: center;"> - </td><td style="text-align: left;"> The name of the object </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+    formula </td><td style="text-align: center;"> - </td><td style="text-align: left;"> The R expression to be evaluated </td>
+</tr>
+<tr>
+ <td style="text-align: right;"> 
+    result </td><td style="text-align: center;"> - </td><td style="text-align: left;"> a matrix with the computation result
+  </td>
+</tr>
+
+</table>
+
+<p>The &lsquo;name&rsquo; slot is the name of the MxAlgebra object. Use of MxAlgebra objects in the <code><a href="mxConstraint.html">mxConstraint</a></code> function or an objective function requires reference by name.
+</p>
+<p>The &lsquo;formula&rsquo; slot is an expression containing the expression to be evaluated. These objects are operated on or related to one another using one or more operations detailed in the <code><a href="mxAlgebra.html">mxAlgebra</a></code> help file.
+</p>
+<p>The &lsquo;result&rsquo; slot is used to hold the results of computing the expression in the &lsquo;formula&rsquo; slot. If the containing model has not been executed, then the &lsquo;result&rsquo; slot will hold a 0 x 0 matrix.  Otherwise the slot will store the computed value of the algebra using the final estimates of the free parameters.
+</p>
+<p>Slots may be referenced with the $ symbol. See the documentation for <a href="../../methods/html/Classes.html">Classes</a> and the examples in the <code><a href="mxAlgebra.html">mxAlgebra</a></code> document for more information.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="mxAlgebra.html">mxAlgebra</a></code>, <code><a href="mxMatrix.html">mxMatrix</a></code>, <code><a href="MxMatrix-class.html">MxMatrix</a></code> 
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

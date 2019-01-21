@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Eigenvector/Eigenvalue Decomposition</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for eigenvec {OpenMx}"><tr><td>eigenvec {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Eigenvector/Eigenvalue Decomposition</h2>
+
+<h3>Description</h3>
+
+<p><code>eigenval</code> computes the real parts of the eigenvalues of a square matrix.
+<code>eigenvec</code> computes the real parts of the eigenvectors of a square matrix.
+<code>ieigenval</code> computes the imaginary parts of the eigenvalues of a square matrix.
+<code>ieigenvec</code> computes the imaginary parts of the eigenvectors of a square matrix.
+<code>eigenval</code> and <code>ieigenval</code> return nx1 matrices containing the real or imaginary parts of the eigenvalues, sorted in decreasing order of the modulus of the complex eigenvalue.  For eigenvalues without an imaginary part, this is equivalent to sorting in decreasing order of the absolute value of the eigenvalue. (See <code><a href="../../base/html/complex.html">Mod</a></code> for more info.)
+<code>eigenvec</code> and <code>ieigenvec</code> return nxn matrices, where each column corresponds to an eigenvector.  These are sorted in decreasing order of the modulus of their associated complex eigenvalue.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+eigenval(x)
+eigenvec(x)
+ieigenval(x)
+ieigenvec(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>the square matrix whose eigenvalues/vectors are to be calculated.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Eigenvectors returned by <code>eigenvec</code> and <code>ieigenvec</code> are normalized to unit length.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../base/html/eigen.html">eigen</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+A &lt;- mxMatrix(values = runif(25), nrow = 5, ncol = 5, name = 'A')
+G &lt;- mxMatrix(values = c(0, -1, 1, -1), nrow=2, ncol=2, name='G')
+
+model &lt;- mxModel(A, G, name = 'model')
+
+mxEval(eigenvec(A), model)
+mxEval(eigenvec(G), model)
+mxEval(eigenval(A), model)
+mxEval(eigenval(G), model)
+mxEval(ieigenvec(A), model)
+mxEval(ieigenvec(G), model)
+mxEval(ieigenval(A), model)
+mxEval(ieigenval(G), model)
+
+
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: On-Demand Parallel Apply</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxApply {OpenMx}"><tr><td>omxApply {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>On-Demand Parallel Apply</h2>
+
+<h3>Description</h3>
+
+<p>If the snowfall library is loaded, then this function calls <code><a href="../../snowfall/html/sfApply.html">sfApply</a></code>.  Otherwise it invokes <code><a href="../../base/html/apply.html">apply</a></code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxApply(x, margin, fun, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a vector (atomic or list) or an expressions vector. Other objects (including classed objects) will be coerced by <code><a href="../../base/html/list.html">as.list</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>margin</code></td>
+<td>
+<p>a vector giving the subscripts which the function will be applied over.</p>
+</td></tr>
+<tr valign="top"><td><code>fun</code></td>
+<td>
+<p>the function to be applied to each element of <code>x</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>optional arguments to <code>fun</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="omxLapply.html">omxLapply</a></code>, <code><a href="omxSapply.html">omxSapply</a></code> 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+x &lt;- cbind(x1 = 3, x2 = c(4:1, 2:5))
+dimnames(x)[[1]] &lt;- letters[1:8]
+omxApply(x, 2, mean, trim = .2)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

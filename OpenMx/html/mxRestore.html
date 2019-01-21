@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Restore From Checkpoint File</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mxRestore {OpenMx}"><tr><td>mxRestore {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Restore From Checkpoint File</h2>
+
+<h3>Description</h3>
+
+<p>The function loads the last saved state from a checkpoint file.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mxRestore(model, chkpt.directory = ".", chkpt.prefix = "", line=NULL, strict=FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p><a href="MxModel-class.html">MxModel</a> object to be loaded.</p>
+</td></tr>    
+<tr valign="top"><td><code>chkpt.directory</code></td>
+<td>
+<p>character. Directory where the checkpoint file is located.</p>
+</td></tr>
+<tr valign="top"><td><code>chkpt.prefix</code></td>
+<td>
+<p>character. Prefix of the checkpoint file.</p>
+</td></tr>
+<tr valign="top"><td><code>line</code></td>
+<td>
+<p>integer. Which line from the checkpoint file to restore
+(defaults to the last line)</p>
+</td></tr>
+<tr valign="top"><td><code>strict</code></td>
+<td>
+<p>logical. Require that the checkpoint name and model
+name match.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>In general, the arguments &lsquo;chkpt.directory&rsquo; and &lsquo;chkpt.prefix&rsquo; should be identical to the <code><a href="mxOption.html">mxOption</a></code>: &lsquo;Checkpoint Directory&rsquo; and &lsquo;Checkpoint Prefix&rsquo; that were specified on the model before execution.
+</p>
+<p>Alternatively, the checkpoint file can be manually loaded as a data.frame in R.  Use <code><a href="../../utils/html/read.table.html">read.table</a></code> with the options <code>header=TRUE, sep="\t", stringsAsFactors=FALSE, check.names=FALSE</code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns an MxModel object with free parameters updated to the last
+saved values. When &lsquo;line&rsquo; is provided, the MxModel is updated
+to the values on that line within the checkpoint file.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+library(OpenMx)
+
+# Simulate some data
+
+x=rnorm(1000, mean=0, sd=1)
+y= 0.5*x + rnorm(1000, mean=0, sd=1)
+tmpFrame &lt;- data.frame(x, y)
+tmpNames &lt;- names(tmpFrame)
+
+# Create a model that includes an expected covariance matrix,
+# an expectation function, a fit function, and an observed covariance matrix
+
+data &lt;- mxData(cov(tmpFrame), type="cov", numObs = 1000)
+expCov &lt;- mxMatrix(type="Symm", nrow=2, ncol=2, values=c(.2,.1,.2), free=TRUE, name="expCov")
+expFunction &lt;- mxExpectationNormal(covariance="expCov", dimnames=tmpNames)
+fitFunction &lt;- mxFitFunctionML()
+testModel &lt;- mxModel(model="testModel", expCov, data, expFunction, fitFunction)
+
+#Use mxRun to optimize the free parameters in the expected covariance matrix
+modelOut &lt;- mxRun(testModel, checkpoint = TRUE)
+modelOut$expCov
+
+#Use mxRestore to load the last checkpoint saved state of the model
+modelRestore &lt;- mxRestore(testModel)
+modelRestore$expCov
+
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

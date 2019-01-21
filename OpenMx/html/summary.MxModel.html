@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Model Summary</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for summary.MxModel {OpenMx}"><tr><td>summary.MxModel {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Model Summary</h2>
+
+<h3>Description</h3>
+
+<p>This function returns summary statistics of a model. These include model statistics (parameters, degrees of freedom and likelihood),
+fit statistics such as AIC, parameter estimates and standard errors (when available), as well as version and timing information
+and possible warnings about estimates.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'MxModel'
+summary(object, ..., verbose=FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>A MxModel object.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Any number of named arguments (see below).</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>Whether to include extra diagnostic information.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>mxSummary allows the user to set or override the following parameters of the model:
+</p>
+
+<dl>
+<dt>numObs</dt><dd><p>Numeric. Specify the total number of observations for the model.</p>
+</dd>
+<dt>numStats</dt><dd><p>Numeric. Specify the total number of observed statistics for the model.</p>
+</dd>
+<dt>refModels</dt><dd><p>List of MxModel objects. Specify a saturated and independence likelihoods in single argument for testing.</p>
+</dd>
+<dt>SaturatedLikelihood</dt><dd><p>Numeric or MxModel object. Specify a saturated likelihood for testing.</p>
+</dd>
+<dt>SaturatedDoF</dt><dd><p>Numeric. Specify the degrees of freedom of the saturated likelihood for testing.</p>
+</dd>
+<dt>IndependenceLikelihood</dt><dd><p>Numeric or MxModel object. Specify an independence likelihood for testing.</p>
+</dd>
+<dt>IndependenceDoF</dt><dd><p>Numeric. Specify the degrees of freedom of the independence likelihood for testing.</p>
+</dd>
+<dt>indep</dt><dd><p>Logical. Set to FALSE to ignore independent submodels in summary.</p>
+</dd>
+<dt>verbose</dt><dd><p>logical. Changes the printing style for summary (see Details)</p>
+</dd>
+<dt>boot.quantile</dt><dd><p>numeric. A vector of quantiles to be used to
+summarize bootstrap replication.</p>
+</dd>
+<dt>boot.SummaryType</dt><dd><p>character. One of &lsquo;quantile&rsquo; or &lsquo;bcbci&rsquo;.</p>
+</dd>
+</dl>
+
+<p><strong>Standard Output</strong>
+</p>
+<p>The standard output consists of a table of free parameters, tables of model and fit statistics, information on the time taken to run the model, the optimizer used, and the version of OpenMx.
+</p>
+<p><strong>Table of free parameters</strong>
+</p>
+<p>Free parameters in the model are reported in a table with columns for the name (label) of the parameter, the matrix, row and col containing the parameter, the parameter estimate itself, and any lower or upper bounds set for the parameter.
+</p>
+<p><em>note:</em> An exclamation mark (&quot;!&quot;) printed after a bound in the lbound or ubound columns indicates that the solution was sufficiently close to the bound that the optimizer could not ignore the bound during its last few iterations.
+</p>
+<p><strong>Additional columns: standard errors and 'A' (asymmetry) warning column</strong>
+</p>
+<p>When the information matrix is available, either approximated by the Hessian or from bootstrap resampling, standard errors are reported in the column &quot;Std.Error&quot;.
+</p>
+<p>If the information matrix was estimated using finite differences then an additional diagnostic column 'A' is displayed. An exclamation point in the 'A' column indicates that the gradient appears to be asymmetric and the standard error may not accurately reflect the variability of that parameter. As a precaution, it is recommended that you compare the SEs with likelihood-based or bootstrap confidence intervals.
+</p>
+<p><strong>Fit statistics</strong>
+</p>
+<p>AIC and BIC <code>Information Criteria</code> are reported in a table showing different versions of the information criteria obtained using different penalties. AIC is reported with both a Parameters Penalty and a Degrees of Freedom Penalty version.  AIC generally takes the form <i>Fit + 2*k</i>.  With the Parameters Penalty version, <i>k</i> is the number of free parameters:  <i>AIC.param = Fit + 2*param</i>.  With the Degrees of Freedom Penalty, <i>k</i> is minus one times the model degrees of freedom.  So the penalty is subtracted instead of added: <i>AIC.param = Fit - 2*df</i>.  The Degrees of Freedom penalty was used in Classic Mx.  BIC is defined similarly: <i>Fit + k*log(N)</i> where <i>k</i> is either the number of free parameters or minus one times the model degrees of freedom.  The Sample-Size-Adjusted BIC is only defined for the parameters penalty: <i>Fit + k*log((N+2)/24)</i>.  Similarly, the Sample-Size-Adjusted AIC is <i>Fit + 2*k + 2*k*(k+1)/(N-k-1)</i>.  For raw data models, <i>Fit</i> is the minus 2 log likelihood, <i>-2LL</i>.  For covariance data, <i>Fit</i> is the Chi-squared statistic.  The <i>-2LL</i> and saturated likelihood values reported under covariance data are not necessarily meaningful on their own, but their difference yields the Chi-squared value.
+</p>
+<p><strong>Additional fit statistics</strong>
+</p>
+<p>When the model has a saturated likelihood, several additional fit indices are printed, including Chi-Squared, CFI, TLI, RMSEA and p RMSEA &lt;= 0.05. For covariance data, saturated and independence models are fitted automatically so all fit indices are reported.
+</p>
+<p>For raw data (to save computational time), the reference models needed to compute these absolute statistics are <strong>not estimated</strong> by default. They are available once you fit reference models.
+</p>
+<p>The <code>refModels</code>, <code>SaturatedLikelihood</code>, <code>SaturatedDoF</code>, <code>IndependenceLikelihood</code>, and <code>IndependenceDoF</code> arguments can be used to obtain these additional fit statistics.   An easy way to make reference models for most cases is provided by the <a href="omxSaturatedModel.html">mxRefModels</a> function (see the example given in <a href="omxSaturatedModel.html">mxRefModels</a>).
+</p>
+<p>When the <code>SaturatedLikelihood</code> or <code>IndependenceLikelihood</code> arguments are used, OpenMx attempts to calculate the appropriate degrees of freedom.  However, depending on the model, it may sometimes be necessary for the user to also explicitly provide the corresponding <code>SaturatedDoF</code> and/or <code>IndependenceDoF</code>.  Again, for the vast majority of cases, the <a href="omxSaturatedModel.html">mxRefModels</a> function handles these situations effectively and conveniently.
+</p>
+<p><strong>Notes on fit statistics</strong>
+</p>
+<p>With regard to RMSEA, it is important to note that OpenMx does not currently make a multigroup adjustment that some other structural equation modeling programs make.  In particular, we do not multiply the single-group RMSEA by the square root of the number of groups as suggested by Steiger (1998).  The RMSEA we use is based on the model likelihood (and degrees of freedom) as compared to the saturated model likelihood (and degrees of freedom), and we do not feel the adjustment is appropriate in this case.
+</p>
+<p>OpenMx does not recommend (and does not compute) some fit indices including GFI, AGFI, NFI, and SRMR.  The Goodness of Fit Index (GFI) and Adjusted Goodness of Fit Index (AGFI) are not recommended because they are strongly influenced by sample size and have rather high Type I error rates (Sharma, Mukherjee, Kumar, &amp; Dillon, 2005).  The Normed Fit Index (NFI) has no penalty for model complexity.  That is, adding more parameters to a model always improves the NFI, regardless of how useful those parameters are.  Because the Non-Normed Fit Index (NNFI), also known as the Tucker-Lewis Index (TLI), does adjust for model complexity it is used instead.  Lastly, the Standardized Root Mean Square Residual (SRMR) is not reported because it (1) only applies to covariance models, having no direct extension to missing data, (2) has no penalty for model complexity, similar to the NFI, and (3) is positively biased (Hu &amp; Bentler, 1999).
+</p>
+<p><strong>verbose</strong>
+</p>
+<p>The <code>verbose</code> argument changes the printing style for the <code>summary</code> of a model.  When <code>verbose=FALSE</code>, a relatively minimal amount of information is printed: the free parameters, the likelihood, and a few fit indices. When <code>verbose=TRUE</code>, the compute plan, data summary, and additional timing information are always printed.  Moreover, available fit indices are printed regardless of whether or not they are defined.  The undefined fit indices are printed as <code>NA</code>. In addition, the condition number of the information matrix,  and the maximum absolute gradient may also be shown.
+</p>
+<p><em>note:</em> The <code>verbose</code> argument only changes the printing style, all of the same information is calculated and exists in the output of <code>summary</code>.  More information is displayed when <code>verbose=TRUE</code>, and less when <code>verbose=FALSE</code>.
+</p>
+<p><strong>Summary for bootstrap replications</strong>
+</p>
+<p>Summarization of bootstrap replications is controlled by two options: &lsquo;boot.quantile&rsquo; and &lsquo;boot.SummaryType&rsquo;. To obtain a two-sided 95% width confidence interval, use <code>boot.quantile=c(.025,.975)</code>. Options for &lsquo;boot.SummaryType&rsquo; are &lsquo;quantile&rsquo; (using R's standard <code>stats::quantile</code> function) and &lsquo;bcbci&rsquo; for bias-corrected bootstrap confidence intervals.  The latter, &lsquo;bcbci&rsquo;, is the default due to its superior theoretical properties.
+</p>
+
+
+<h3>References</h3>
+
+<p>The OpenMx User's guide can be found at http://openmx.ssri.psu.edu/documentation.
+</p>
+<p>Hu, L., &amp; Bentler, P. M. (1999). Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives. <em>Structural Equation Modeling, 6,</em> 1-55.
+</p>
+<p>Savalei, V. (2012). The relationship between root mean square error of approximation and model misspecification in confirmatory factor analysis models. <em>Educational and Psychological Measurement, 72</em>(6), 910-932.
+</p>
+<p>Sharma, S., Mukherjee, S., Kumar, A., &amp; Dillon, W.R. (2005). A simulation study to investigate the use of cutoff values for assessing model fit in covariance structure models. <em>Journal of Business Research, 58,</em> 935-43.
+</p>
+<p>Steiger, J. H. (1998). A note on multiple sample extensions of the RMSEA fit index. <em>Structural Equation Modeling: A Multidisciplinary Journal, 5(4)</em>, 411-419. DOI: 10.1080/10705519809540115
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="mxBootstrap.html">mxBootstrap</a></code>
+<code><a href="mxCI.html">mxCI</a></code>
+<code><a href="as.statusCode.html">as.statusCode</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+library(OpenMx)
+data(demoOneFactor)  # load the demoOneFactor dataframe
+manifests &lt;- names(demoOneFactor) # set the manifest to the 5 demo variables
+latents &lt;- c("G")  # define 1 latent variable
+model &lt;- mxModel(model="One Factor", type="RAM",
+    manifestVars = manifests,
+    latentVars = latents,
+    mxPath(from = latents, to=manifests, labels = paste("b", 1:5, sep = "")),
+    mxPath(from = manifests, arrows = 2, labels = paste("u", 1:5, sep = "")),
+    mxPath(from = latents, arrows = 2, free = FALSE, values = 1.0),
+    mxData(cov(demoOneFactor), type = "cov", numObs = 500)
+)
+model &lt;- mxRun(model) # Run the model, returning the result into model
+
+# Show summary of the fitted model
+summary(model)
+
+# Compute the summary and store in the variable "statistics"
+statistics &lt;- summary(model)
+
+# Access components of the summary
+statistics$parameters
+statistics$SaturatedLikelihood
+
+# Specify a saturated likelihood for testing
+summary(model, SaturatedLikelihood = -3000)
+
+# Add a CI and view it in the summary
+model = mxRun(mxModel(model=model, mxCI("b5")), intervals = TRUE)
+summary(model)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Fetch Model Parameters</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for omxGetParameters {OpenMx}"><tr><td>omxGetParameters {OpenMx}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Fetch Model Parameters</h2>
+
+<h3>Description</h3>
+
+<p>Return a vector of the chosen parameters from the model.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+omxGetParameters(model, indep = FALSE, free = c(TRUE, FALSE, NA),
+    fetch = c('values', 'free', 'lbound', 'ubound', 'all'),
+    labels = c())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>a MxModel object</p>
+</td></tr>
+<tr valign="top"><td><code>indep</code></td>
+<td>
+<p>fetch parameters from independent submodels.</p>
+</td></tr>
+<tr valign="top"><td><code>free</code></td>
+<td>
+<p>fetch either free parameters (TRUE), or fixed parameters or both types. Default value is TRUE.</p>
+</td></tr>
+<tr valign="top"><td><code>fetch</code></td>
+<td>
+<p>which attribute of the parameters to fetch. Default choice is &lsquo;values&rsquo;.</p>
+</td></tr>
+<tr valign="top"><td><code>labels</code></td>
+<td>
+<p>additional labels to fetch</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The argument &lsquo;free&rsquo; dictates whether to return only free
+parameters or only fixed parameters or both free and fixed
+parameters. The function can return unlabeled free parameters
+(parameters with a label of NA). These anonymous free parameters will
+be identified as &lsquo;modelname.matrixname[row,col]&rsquo;.  It will not
+return fixed parameters that have a label of NA.
+</p>
+<p>If provided, the argument &lsquo;labels&rsquo; takes precedent over the
+selection criteria specified by &lsquo;free&rsquo;. Any labels mentioned in
+&lsquo;labels&rsquo;, including those of the form
+&lsquo;modelname.matrixname[row,col]&rsquo;, will be returned.
+</p>
+<p>No distinction is made between ordinary labels, definition variables, and square bracket constraints. The function will return either a vector of parameter values, or free/fixed designations, or lower bounds, or upper bounds, depending on the &lsquo;fetch&rsquo; argument. Using fetch with &lsquo;all&rsquo; returns a data frame that is populated with all of the attributes.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="omxSetParameters.html">omxSetParameters</a></code>, <code><a href="omxLocateParameters.html">omxLocateParameters</a></code>, <code><a href="omxAssignFirstParameters.html">omxAssignFirstParameters</a></code> 
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+library(OpenMx)
+
+A &lt;- mxMatrix('Full', 2, 2, labels = c("A11", "A12", "A21", NA), values= 1:4, 
+    free = c(TRUE,TRUE,FALSE,TRUE), byrow=TRUE, name = 'A')
+model &lt;- mxModel(A, name = 'model')
+
+# Request all free parameters in model
+omxGetParameters(model)
+
+# A11  A12 model.A[2,2] 
+#   1    2    4 
+
+# Request fixed parameters from model
+omxGetParameters(model, free = FALSE)
+# A21 
+#   3
+
+A$labels
+#      [,1]  [,2] 
+# [1,] "A11" "A12"
+# [2,] "A21" NA   
+
+A$free
+#       [,1] [,2]
+# [1,]  TRUE TRUE
+# [2,] FALSE TRUE
+
+A$values
+#      [,1] [,2]
+# [1,]    1    2
+# [2,]    3    4
+
+# Example using un-labelled parameters
+
+# Read in some demo data
+data(demoOneFactor)
+# Grab the names for manifestVars 
+manifestVars &lt;- names(demoOneFactor)
+nVar = length(manifestVars) # 5 variables
+factorModel &lt;- mxModel("One Factor",
+    mxMatrix(name="A", type="Full", nrow=nVar, ncol=1, values=0.2, free=TRUE, 
+        lbound = 0.0, labels=letters[1:nVar]),
+    mxMatrix(name="L", type="Symm", nrow=1, ncol=1, values=1, free=FALSE),
+    # the "U" matrix has nVar (5) anonymous free parameters
+    mxMatrix(name="U", type="Diag", nrow=nVar, ncol=nVar, values=1, free=TRUE),
+    mxAlgebra(expression=A %&amp;% L + U, name="R"),
+    mxExpectationNormal(covariance="R", dimnames=manifestVars),
+    mxFitFunctionML(),
+    mxData(observed=cov(demoOneFactor), type="cov", numObs=500)
+)
+
+# Get all free parameters
+params         &lt;- omxGetParameters(factorModel)
+lbound         &lt;- omxGetParameters(factorModel, fetch="lbound")
+# Set new values for these params, saving them in a new model
+newFactorModel &lt;- omxSetParameters(factorModel, names(params), values = 1:10)
+# Read out the values from the new model
+newParams      &lt;- omxGetParameters(newFactorModel)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>OpenMx</em> version 2.12.1 <a href="00Index.html">Index</a>]</div>
+</body></html>
