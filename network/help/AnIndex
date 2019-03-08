@@ -37,6 +37,7 @@ as.color	as.color
 as.edgelist	as.edgelist
 as.edgelist.matrix	as.edgelist
 as.edgelist.network	as.edgelist
+as.edgelist.tbl_df	as.edgelist
 as.matrix.network	as.matrix.network
 as.matrix.network.adjacency	as.matrix.network
 as.matrix.network.edgelist	as.matrix.network
@@ -46,6 +47,8 @@ as.network.default	as.network.matrix
 as.network.matrix	as.network.matrix
 as.network.network	network
 as.sociomatrix	as.sociomatrix
+as.tibble.network	as.matrix.network
+as_tibble.network	as.matrix.network
 attribute.methods	attribute.methods
 delete.edge.attribute	attribute.methods
 delete.edges	deletion.methods
@@ -87,6 +90,7 @@ list.vertex.attributes	attribute.methods
 loading.attributes	loading.attributes
 missing.edges	network.naedgecount
 mixingmatrix	network-internal
+mixingmatrix.network	network-internal
 network	network
 network.adjacency	edgeset.constructors
 network.arrow	network.arrow

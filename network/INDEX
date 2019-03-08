@@ -4,7 +4,7 @@ as.color                Transform vector of values into color
                         specification
 as.edgelist             Convert a network object into a numeric
                         edgelist matrix
-as.matrix.network       Coerce a Network Object to Matrix Form
+as.matrix.network       Coerce a Network Object to Matrix or Table Form
 as.network.matrix       Coercion from Matrices to Network Objects
 as.sociomatrix          Coerce One or More Networks to Sociomatrix Form
 attribute.methods       Attribute Interface Methods for the Network

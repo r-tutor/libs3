@@ -1,4 +1,5 @@
-copy_labels             Copy variable and value labels
+copy_labels             Copy variable and value labels and SPSS style
+                        missing value
 labelled                Create a labelled vector.
 labelled_spss           Create a labelled vector with SPSS style of
                         missing values.
