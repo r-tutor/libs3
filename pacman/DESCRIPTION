@@ -1,7 +1,7 @@
 Package: pacman
 Type: Package
 Title: Package Management Tool
-Version: 0.5.0
+Version: 0.5.1
 Authors@R: c(person("Tyler", "Rinker", role = c("aut", "cre", "ctb"),
         email = "tyler.rinker@gmail.com"), person("Dason",
         "Kurkiewicz", role = c("aut", "ctb"), email =
@@ -21,10 +21,9 @@ Description: Tools to more conveniently perform tasks associated with
         functions which can speed up workflow.
 License: GPL-2
 URL: https://github.com/trinker/pacman
-VignetteBuilder: knitr
-RoxygenNote: 6.1.0.9000
+RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2018-10-22 00:33:34 UTC; trinker
+Packaged: 2019-03-11 01:37:03 UTC; trinker
 Author: Tyler Rinker [aut, cre, ctb],
   Dason Kurkiewicz [aut, ctb],
   Keith Hughitt [ctb],
@@ -34,5 +33,5 @@ Author: Tyler Rinker [aut, cre, ctb],
   Lukas Burk [ctb]
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-10-22 08:30:03 UTC
-Built: R 3.5.1; ; 2018-11-23 18:19:03 UTC; windows
+Date/Publication: 2019-03-11 11:50:07 UTC
+Built: R 3.5.3; ; 2019-03-11 15:53:24 UTC; windows

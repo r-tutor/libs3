@@ -1,11 +1,11 @@
 params <-
-structure(list(EVAL = TRUE), .Names = "EVAL")
+list(EVAL = TRUE)
 
 ## ---- SETTINGS-knitr, include=FALSE--------------------------------------
 stopifnot(require(knitr))
 opts_chunk$set(
   comment=NA,
-  eval = params$EVAL,
+  eval = if (isTRUE(exists("params"))) params$EVAL else FALSE,
   dev = "png",
   dpi = 150,
   fig.asp = 0.618,

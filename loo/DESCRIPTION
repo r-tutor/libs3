@@ -2,16 +2,18 @@ Package: loo
 Type: Package
 Title: Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian
         Models
-Version: 2.0.0
-Date: 2018-04-06
+Version: 2.1.0
+Date: 2019-03-12
 Authors@R: c(person("Aki", "Vehtari", email = "Aki.Vehtari@aalto.fi", role = c("aut")),
              person("Andrew", "Gelman", role = c("aut")),
              person("Jonah", "Gabry", email = "jsg2201@columbia.edu", role = c("cre", "aut")),
              person("Yuling", "Yao", role = c("aut")),
+             person("Paul-Christian", "Bürkner", role = c("ctb")),
+             person("Ben", "Goodrich", role = c("ctb")),
              person("Juho", "Piironen", role = c("ctb")),
-             person("Ben", "Goodrich", role = c("ctb")))
+             person("Mans", "Magnusson", role = c("ctb")))
 Maintainer: Jonah Gabry <jsg2201@columbia.edu>
-URL: http://mc-stan.org, http://discourse.mc-stan.org
+URL: https://mc-stan.org/loo, https://discourse.mc-stan.org
 BugReports: https://github.com/stan-dev/loo/issues
 Description: Efficient approximate leave-one-out cross-validation (LOO)
     for Bayesian models fit using Markov chain Monte Carlo. The approximation
@@ -24,20 +26,24 @@ Description: Efficient approximate leave-one-out cross-validation (LOO)
 License: GPL (>= 3)
 LazyData: TRUE
 Depends: R (>= 3.1.2)
-Imports: graphics, matrixStats (>= 0.52), parallel, stats
-Suggests: bayesplot (>= 1.5.0), knitr, rmarkdown, rstan, rstanarm,
-        rstantools, testthat
+Imports: graphics, matrixStats (>= 0.52), parallel, stats, checkmate
+Suggests: bayesplot (>= 1.5.0), brms (>= 2.2.0), ggplot2, knitr,
+        rmarkdown, rstan, rstanarm (>= 2.17.4), rstantools, spdep,
+        testthat
 VignetteBuilder: knitr
 Encoding: UTF-8
-RoxygenNote: 6.0.1
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2018-04-07 02:58:19 UTC; jgabry
+Packaged: 2019-03-13 19:50:53 UTC; jgabry
 Author: Aki Vehtari [aut],
   Andrew Gelman [aut],
   Jonah Gabry [cre, aut],
   Yuling Yao [aut],
+  Paul-Christian Bürkner [ctb],
+  Ben Goodrich [ctb],
   Juho Piironen [ctb],
-  Ben Goodrich [ctb]
+  Mans Magnusson [ctb]
 Repository: CRAN
-Date/Publication: 2018-04-11 12:34:58 UTC
-Built: R 3.5.0; ; 2018-06-22 10:00:35 UTC; windows
+Date/Publication: 2019-03-13 21:40:03 UTC
+Built: R 3.5.3; ; 2019-03-13 23:02:29 UTC; windows
