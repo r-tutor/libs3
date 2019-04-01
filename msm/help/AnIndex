@@ -27,6 +27,7 @@ h2phase	2phase
 hazard.msm	hazard.msm
 hmm-dists	hmm-dists
 hmmBeta	hmm-dists
+hmmBetaBinom	hmm-dists
 hmmBinom	hmm-dists
 hmmCat	hmm-dists
 hmmExp	hmm-dists
