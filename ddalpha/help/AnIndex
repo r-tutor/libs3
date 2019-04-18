@@ -22,6 +22,7 @@ crab_MvsF	getdata
 cricket_CvsP	getdata
 Custom Methods	CustomMethods
 data	getdata
+dataf	dataf
 dataf.*	dataf.
 dataf.geneexp	dataf.geneexp
 dataf.growth	dataf.growth

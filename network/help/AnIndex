@@ -98,7 +98,9 @@ network.bipartite	edgeset.constructors
 network.copy	network
 network.density	network.density
 network.dyadcount	network.dyadcount
+network.dyadcount.network	network.dyadcount
 network.edgecount	network.edgecount
+network.edgecount.network	network.edgecount
 network.edgelabel	network.edgelabel
 network.edgelist	edgeset.constructors
 network.extraction	network.extraction

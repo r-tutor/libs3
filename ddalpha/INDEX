@@ -7,6 +7,8 @@ L2metric                Fast Computation of the L^2 Metric for Sets of
 compclassf.classify     Classify using Functional Componentwise
                         Classifier
 compclassf.train        Functional Componentwise Classifier
+dataf                   Converts data from fdata class to the
+                        functional class.
 dataf.*                 Functional Data Sets
 dataf.geneexp           Gene Expression Profile Data
 dataf.growth            Berkeley Growth Study Data

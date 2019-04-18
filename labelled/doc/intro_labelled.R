@@ -17,6 +17,11 @@ var_label(iris$Sepal.Length) <- NULL
 #  View(iris)
 
 ## ------------------------------------------------------------------------
+look_for(iris)
+look_for(iris, "pet")
+look_for(iris, details = TRUE)
+
+## ------------------------------------------------------------------------
 v <- labelled(c(1,2,2,2,3,9,1,3,2,NA), c(yes = 1, no = 3, "don't know" = 8, refused = 9))
 v
 

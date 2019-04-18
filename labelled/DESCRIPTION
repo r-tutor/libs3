@@ -1,13 +1,14 @@
 Package: labelled
 Type: Package
 Title: Manipulating Labelled Data
-Version: 2.1.0
+Version: 2.2.0
 Maintainer: Joseph Larmarange <joseph@larmarange.net>
 Authors@R: c(
   person("Joseph", "Larmarange", email = "joseph@larmarange.net", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7097-700X")),
   person("Daniel", "Ludecke", role = "ctb"),
   person("Hadley", "Wickham", role = "ctb"),
-  person("Bojanowski", "Michal", role = "ctb")
+  person("Bojanowski", "Michal", role = "ctb"),
+  person("Briatte", "François", role = "ctb")
   )
 Description: Work with labelled data imported from 'SPSS'
     or 'Stata' with 'haven' or 'foreign'. This package
@@ -24,11 +25,12 @@ BugReports: https://github.com/larmarange/labelled/issues
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2019-02-22 18:55:46 UTC; jlarmarange
+Packaged: 2019-04-16 08:13:36 UTC; jlarmarange
 Author: Joseph Larmarange [aut, cre] (<https://orcid.org/0000-0001-7097-700X>),
   Daniel Ludecke [ctb],
   Hadley Wickham [ctb],
-  Bojanowski Michal [ctb]
+  Bojanowski Michal [ctb],
+  Briatte François [ctb]
 Repository: CRAN
-Date/Publication: 2019-02-25 12:50:07 UTC
-Built: R 3.5.2; ; 2019-03-05 20:12:41 UTC; windows
+Date/Publication: 2019-04-16 08:42:42 UTC
+Built: R 3.5.3; ; 2019-04-16 12:44:29 UTC; windows
