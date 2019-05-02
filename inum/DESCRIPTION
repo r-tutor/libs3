@@ -1,7 +1,7 @@
 Package: inum
 Title: Interval and Enum-Type Representation of Vectors
-Date: 2017-12-12
-Version: 1.0-0
+Date: 2019-04-24
+Version: 1.0-1
 Authors@R: person("Torsten", "Hothorn", role = c("aut", "cre"),
                   email = "Torsten.Hothorn@R-project.org")
 Description: Enum-type representation of vectors and representation
@@ -10,9 +10,9 @@ Depends: R (>= 3.3.0)
 Imports: stats, libcoin (>= 1.0-0)
 License: GPL-2
 NeedsCompilation: no
-Packaged: 2017-12-12 14:25:09 UTC; hothorn
+Packaged: 2019-04-24 15:34:27 UTC; hothorn
 Author: Torsten Hothorn [aut, cre]
 Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
 Repository: CRAN
-Date/Publication: 2017-12-12 18:29:15 UTC
-Built: R 3.5.0; ; 2018-06-22 10:04:18 UTC; windows
+Date/Publication: 2019-04-25 05:20:10 UTC
+Built: R 3.6.0; ; 2019-04-30 11:24:25 UTC; windows
