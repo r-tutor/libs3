@@ -17,6 +17,8 @@ LahmanData              Lahman Datasets
 Managers                Managers table
 ManagersHalf            ManagersHalf table
 Master                  Master table
+Parks                   Parks table
+People                  People table
 Pitching                Pitching table
 PitchingPost            PitchingPost table
 Salaries                Salaries table
