@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Studies on the Effectiveness of Hyperdynamic Therapy for...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for dat.pritz1997 {metafor}"><tr><td>dat.pritz1997 {metafor}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Studies on the Effectiveness of Hyperdynamic Therapy for Treating Cerebral Vasospasm</h2>
+
+<h3>Description</h3>
+
+<p>Results from 14 studies on the effectiveness of hyperdynamic therapy for treating cerebral vasospasm.</p>
+
+
+<h3>Usage</h3>
+
+<pre>dat.pritz1997</pre>
+
+
+<h3>Format</h3>
+
+<p>The data frame contains the following columns:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<b>study</b>    </td><td style="text-align: left;"> <code>numeric</code>   </td><td style="text-align: left;"> study number </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<b>authors</b>  </td><td style="text-align: left;"> <code>character</code> </td><td style="text-align: left;"> study authors </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<b>xi</b>       </td><td style="text-align: left;"> <code>numeric</code>   </td><td style="text-align: left;"> number of patients that improved with hyperdynamic therapy </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<b>ni</b>       </td><td style="text-align: left;"> <code>numeric</code>   </td><td style="text-align: left;"> total number of patients treated
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>Details</h3>
+
+<p>As described in Zhou et al. (1999), &quot;hyperdynamic therapy refers to induced hypertension and hypervolaemia (volume expansion) to treat ischaemic symptoms due to vasospasm, and the success of this therapy is defined as clinical improvement in terms of neurologic deficits.&quot; For each study that was included in the meta-analysis, the dataset includes information on the number of patients that improved under this form of therapy and the total number of patients that were treated. The goal of the meta-analysis is to estimate the true (average) success rate of hyperdynamic therapy.
+</p>
+
+
+<h3>Source</h3>
+
+<p>Zhou, X.-H., Brizendine, E. J., &amp; Pritz, M. B. (1999). Methods for combining rates from several studies. <em>Statistics in Medicine</em>, <b>18</b>, 557&ndash;566.
+</p>
+
+
+<h3>References</h3>
+
+<p>Pritz, M. B. (1997). Treatment of cerebral vasospasm due to aneurysmal subarachnoid hemorrhage: Past, present, and future of hyperdynamic therapy. <em>Neurosurgery Quarterly</em>, <b>7</b>, 273&ndash;285.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+### copy data into 'dat' and examine data
+dat &lt;- dat.pritz1997
+dat
+
+### computation of "weighted average" in Zhou et al. (1999), Table IV
+dat &lt;- escalc(measure="PR", xi=xi, ni=ni, data=dat, add=0)
+theta.hat    &lt;- sum(dat$ni * dat$yi) / sum(dat$ni)
+se.theta.hat &lt;- sqrt(sum(dat$ni^2 * dat$vi) / sum(dat$ni)^2)
+ci.lb        &lt;- theta.hat - 1.96 * se.theta.hat
+ci.ub        &lt;- theta.hat + 1.96 * se.theta.hat
+round(c(estimate = theta.hat, se = se.theta.hat, ci.lb = ci.lb, ci.ub = ci.ub), 4)
+
+### this is identical to a FE model with sample size weights
+rma(yi, vi, weights=ni, method="FE", data=dat)
+
+### random-effects model with raw proportions
+dat &lt;- escalc(measure="PR", xi=xi, ni=ni, data=dat)
+res &lt;- rma(yi, vi, data=dat)
+predict(res)
+
+### random-effects model with logit transformed proportions
+dat &lt;- escalc(measure="PLO", xi=xi, ni=ni, data=dat)
+res &lt;- rma(yi, vi, data=dat)
+predict(res, transf=transf.ilogit)
+
+### mixed-effects logistic regression model
+res &lt;- rma.glmm(measure="PLO", xi=xi, ni=ni, data=dat)
+predict(res, transf=transf.ilogit)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metafor</em> version 2.1-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: (Cluster) Robust Tests and Confidence Intervals for 'rma'...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for robust {metafor}"><tr><td>robust {metafor}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>(Cluster) Robust Tests and Confidence Intervals for 'rma' Objects</h2>
+
+<h3>Description</h3>
+
+<p>The function provides (cluster) robust tests and confidence intervals of the model coefficients for objects of class <code>"rma"</code>.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+robust(x, cluster, ...)
+
+## S3 method for class 'rma.uni'
+robust(x, cluster, adjust=TRUE, digits, ...)
+## S3 method for class 'rma.mv'
+robust(x, cluster, adjust=TRUE, digits, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>an object of class <code>"rma.uni"</code> or <code>"rma.mv"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>cluster</code></td>
+<td>
+<p>a vector specifying a clustering variable to use for constructing the sandwich estimator of the variance-covariance matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>adjust</code></td>
+<td>
+<p>logical indicating whether a small-sample correction should be applied to the variance-covariance matrix.</p>
+</td></tr>
+<tr valign="top"><td><code>digits</code></td>
+<td>
+<p>integer specifying the number of decimal places to which the printed results should be rounded (if unspecified, the default is to take the value from the object).</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The function constructs a (cluster) robust estimate of the variance-covariance matrix of the model coefficients based on a sandwich-type estimator and then computes tests and confidence intervals of the model coefficients.
+</p>
+<p>Tests of individual coefficients and confidence intervals are based on a t-distribution with <i>n-p</i> degrees of freedom is used, while the omnibus test statistic uses an F-distribution with <i>m</i> and <i>n-p</i> degrees of freedom, where <i>n</i> is the number of clusters, <i>p</i> denotes the total number of model coefficients (including the intercept if it is present), and <i>m</i> denotes the number of coefficients tested (in the omnibus test).
+</p>
+<p>When <code>adjust=TRUE</code> (the default), the (cluster) robust estimate of the variance-covariance matrix is multiplied by the factor <i>n/(n-p)</i>, which serves as a small-sample adjustment that tends to improve the performance of the method when the number of clusters is small.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>"robust.rma"</code>. The object is a list containing the following components:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>beta</code></td>
+<td>
+<p>estimated coefficients of the model.</p>
+</td></tr>
+<tr valign="top"><td><code>se</code></td>
+<td>
+<p>robust standard errors of the coefficients.</p>
+</td></tr>
+<tr valign="top"><td><code>zval</code></td>
+<td>
+<p>test statistics of the coefficients.</p>
+</td></tr>
+<tr valign="top"><td><code>pval</code></td>
+<td>
+<p>p-values for the test statistics.</p>
+</td></tr>
+<tr valign="top"><td><code>ci.lb</code></td>
+<td>
+<p>lower bound of the confidence intervals for the coefficients.</p>
+</td></tr>
+<tr valign="top"><td><code>ci.ub</code></td>
+<td>
+<p>upper bound of the confidence intervals for the coefficients.</p>
+</td></tr>
+<tr valign="top"><td><code>vb</code></td>
+<td>
+<p>robust variance-covariance matrix of the estimated coefficients.</p>
+</td></tr>
+<tr valign="top"><td><code>QM</code></td>
+<td>
+<p>test statistic for the omnibus test of coefficients.</p>
+</td></tr>
+<tr valign="top"><td><code>QMp</code></td>
+<td>
+<p>p-value for the omnibus test of coefficients.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>some additional elements/values.</p>
+</td></tr>
+</table>
+<p>The results are formatted and printed with the <code><a href="print.robust.rma.html">print.robust.rma</a></code> function.
+</p>
+
+
+<h3>Note</h3>
+
+<p>The variable specified via <code>cluster</code> is assumed to be of the same length as the data originally passed to the <code>rma.uni</code> or <code>rma.mv</code> function. Any subsetting and removal of studies with missing values as done when fitting the original model is also automatically applied to the variable specified via <code>cluster</code>.
+</p>
+<p>The idea of the robust (sandwich-type) estimator for models with unspecified heteroscedasticity can be traced back to Eicker (1967), Huber (1967), and White (1980). Hence, the method in general is often referred to as the Eicker-Huber-White method. Some small-sample improvements to the method are described by MacKinnon and White (1985). The extension to the cluster robust estimator can be found in Froot (1989) and Williams (2000). Cameron and Miller (2015) provide an extensive overview of cluster robust methods. Sidik and Jonkman (2005, 2006) introduced robust methods in the meta-analytic context for standard random/mixed-effects models. The use of the cluster robust estimator for multivariate/multilevel meta-analytic models is described in Hedges, Tipton, and Johnson (2010).
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Wolfgang Viechtbauer <a href="mailto:wvb@metafor-project.org">wvb@metafor-project.org</a> <a href="http://www.metafor-project.org/">http://www.metafor-project.org/</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Cameron, A. C., &amp; Miller, D. L. (2015). A practitioner's guide to cluster-robust inference. <em>Journal of Human Resources</em>, <b>50</b>, 317&ndash;372.
+</p>
+<p>Eicker, F. (1967). Limit theorems for regressions with unequal and dependent errors. In L. M. LeCam &amp; J. Neyman (Eds.), <em>Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability</em> (pp. 59&ndash;82). Berkeley: University of California Press.
+</p>
+<p>Froot, K. A. (1989). Consistent covariance matrix estimation with cross-sectional dependence and heteroskedasticity in financial data. <em>Journal of Financial and Quantitative Analysis</em>, <b>24</b>, 333&ndash;355.
+</p>
+<p>Hedges, L. V., Tipton, E., &amp; Johnson, M. C. (2010). Robust variance estimation in meta-regression with dependent effect size estimates. <em>Research Synthesis Methods</em>, <b>1</b>, 39&ndash;65.
+</p>
+<p>Huber, P. (1967). The behavior of maximum-likelihood estimates under nonstandard conditions. In L. M. LeCam &amp; J. Neyman (Eds.), <em>Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability</em> (pp. 221&ndash;233). Berkeley: University of California Press.
+</p>
+<p>MacKinnon, J. G., &amp; White, H. (1985). Some heteroskedasticity-consistent covariance matrix estimators with improved finite sample properties. <em>Journal of Econometrics</em>, 29, 305&ndash;325.
+</p>
+<p>Sidik, K., &amp; Jonkman, J. N. (2005). A note on variance estimation in random effects meta-regression. <em>Journal of Biopharmaceutical Statistics</em>, <b>15</b>, 823&ndash;838.
+</p>
+<p>Sidik, K., &amp; Jonkman, J. N. (2006). Robust variance estimation for random effects meta-analysis. <em>Computational Statistics &amp; Data Analysis</em>, <b>50</b>, 3681&ndash;3701.
+</p>
+<p>White, H. (1980). A heteroskedasticity-consistent covariance matrix estimator and a direct test for heteroskedasticity. <em>Econometrica</em>, <b>48</b>, 817&ndash;838.
+</p>
+<p>Williams, R. L. (2000). A note on robust variance estimation for cluster-correlated data. <em>Biometrics</em>, <b>56</b>, 645&ndash;646.
+</p>
+<p>Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. <em>Journal of Statistical Software</em>, <b>36</b>(3), 1&ndash;48. <a href="http://www.jstatsoft.org/v36/i03/">http://www.jstatsoft.org/v36/i03/</a>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="rma.uni.html">rma.uni</a></code>, <code><a href="rma.mv.html">rma.mv</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+### copy data from Konstantopoulos (2011) into 'dat'
+dat &lt;- dat.konstantopoulos2011
+
+### multilevel random-effects model
+res &lt;- rma.mv(yi, vi, random = ~ 1 | district/school, data=dat)
+res
+
+### results based on sandwich method
+robust(res, cluster=dat$district)
+
+### copy data from Berkey et al. (1998) into 'dat'
+dat &lt;- dat.berkey1998
+
+### construct list of the variance-covariance matrices of the observed outcomes for the studies
+V &lt;- lapply(split(dat[,c("v1i", "v2i")], dat$trial), as.matrix)
+
+### construct block diagonal matrix
+V &lt;- bldiag(V)
+
+### fit multivariate model
+res &lt;- rma.mv(yi, V, mods = ~ outcome - 1, random = ~ outcome | trial, struct="UN", data=dat)
+res
+
+### results based on sandwich method
+robust(res, cluster=dat$trial)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metafor</em> version 2.1-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

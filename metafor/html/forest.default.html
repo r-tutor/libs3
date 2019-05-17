@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Forest Plots (Default Method)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for forest.default {metafor}"><tr><td>forest.default {metafor}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Forest Plots (Default Method)</h2>
+
+<h3>Description</h3>
+
+<p>Function to create forest plots for a given set of data.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## Default S3 method:
+forest(x, vi, sei, ci.lb, ci.ub, annotate=TRUE, showweights=FALSE,
+       xlim, alim, clim, ylim, top=3, at, steps=5,
+       level=95, refline=0, digits=2L, width,
+       xlab, slab, ilab, ilab.xpos, ilab.pos,
+       subset, transf, atransf, targs, rows,
+       efac=1, pch=15, psize, col, lty, fonts,
+       cex, cex.lab, cex.axis, annosym, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>vector of length <i>k</i> with the observed effect sizes or outcomes.</p>
+</td></tr>
+<tr valign="top"><td><code>vi</code></td>
+<td>
+<p>vector of length <i>k</i> with the corresponding sampling variances.</p>
+</td></tr>
+<tr valign="top"><td><code>sei</code></td>
+<td>
+<p>vector of length <i>k</i> with the corresponding standard errors (note: only one of the two, <code>vi</code> or <code>sei</code>, needs to be specified).</p>
+</td></tr>
+<tr valign="top"><td><code>ci.lb</code></td>
+<td>
+<p>vector of length <i>k</i> with the corresponding lower confidence interval bounds. Not needed if <code>vi</code> or <code>sei</code> is specified. See &lsquo;Details&rsquo;.</p>
+</td></tr>
+<tr valign="top"><td><code>ci.ub</code></td>
+<td>
+<p>vector of length <i>k</i> with the corresponding upper confidence interval bounds. Not needed if <code>vi</code> or <code>sei</code> is specified. See &lsquo;Details&rsquo;.</p>
+</td></tr>
+<tr valign="top"><td><code>annotate</code></td>
+<td>
+<p>logical specifying whether annotations should be added to the plot (the default is <code>TRUE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>showweights</code></td>
+<td>
+<p>logical specifying whether the annotations should also include inverse variance weights (the default is <code>FALSE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>xlim</code></td>
+<td>
+<p>horizontal limits of the plot region. If unspecified, the function tries to set the horizontal plot limits to some sensible values.</p>
+</td></tr>
+<tr valign="top"><td><code>alim</code></td>
+<td>
+<p>the actual x-axis limits. If unspecified, the function tries to set the x-axis limits to some sensible values.</p>
+</td></tr>
+<tr valign="top"><td><code>clim</code></td>
+<td>
+<p>limits for the confidence intervals. If unspecified, no limits are used.</p>
+</td></tr>
+<tr valign="top"><td><code>ylim</code></td>
+<td>
+<p>the y limits of the plot. If unspecified, the function tries to set the y-axis limits to some sensible values.</p>
+</td></tr>
+<tr valign="top"><td><code>top</code></td>
+<td>
+<p>the amount of space to leave empty at the top of the plot (e.g., for adding headers) (the default is 3 rows).</p>
+</td></tr>
+<tr valign="top"><td><code>at</code></td>
+<td>
+<p>position of the x-axis tick marks and corresponding labels. If unspecified, the function tries to set the tick mark positions/labels to some sensible values.</p>
+</td></tr>
+<tr valign="top"><td><code>steps</code></td>
+<td>
+<p>the number of tick marks for the x-axis (the default is 5). Ignored when the user specifies the positions via the <code>at</code> argument.</p>
+</td></tr>
+<tr valign="top"><td><code>level</code></td>
+<td>
+<p>numerical value between 0 and 100 specifying the confidence interval level (the default is 95).</p>
+</td></tr>
+<tr valign="top"><td><code>refline</code></td>
+<td>
+<p>value at which a vertical &lsquo;reference&rsquo; line should be drawn (the default is 0). The line can be suppressed by setting this argument to <code>NA</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits</code></td>
+<td>
+<p>integer specifying the number of decimal places to which the tick mark labels of the x-axis and the annotations should be rounded (the default is <code>2L</code>). Can also be a vector of two integers, the first specifying the number of decimal places for the annotations, the second for the x-axis labels. When specifying an integer (e.g., <code>2L</code>), trailing zeros after the decimal mark are dropped for the x-axis labels. When specifying a numerical value (e.g., <code>2</code>), trailing zeros are retained.</p>
+</td></tr>
+<tr valign="top"><td><code>width</code></td>
+<td>
+<p>optional integer to manually adjust the width of the columns for the annotations.</p>
+</td></tr>
+<tr valign="top"><td><code>xlab</code></td>
+<td>
+<p>title for the x-axis. If unspecified, the function tries to set an appropriate axis title.</p>
+</td></tr>
+<tr valign="top"><td><code>slab</code></td>
+<td>
+<p>optional vector with labels for the <i>k</i> studies. If unspecified, simple labels are created within the function. To suppress labels, set this argument to <code>NA</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>ilab</code></td>
+<td>
+<p>optional vector, matrix, or data frame providing additional information about the studies that should be added to the plot.</p>
+</td></tr>
+<tr valign="top"><td><code>ilab.xpos</code></td>
+<td>
+<p>vector of numerical value(s) specifying the x-axis position(s) of the variable(s) given via <code>ilab</code> (must be specified if <code>ilab</code> is specified).</p>
+</td></tr>
+<tr valign="top"><td><code>ilab.pos</code></td>
+<td>
+<p>integer(s) (either 1, 2, 3, or 4) specifying the alignment of the vector(s) given via <code>ilab</code> (2 means right, 4 mean left aligned). If unspecified, the default is to center the labels.</p>
+</td></tr>
+<tr valign="top"><td><code>subset</code></td>
+<td>
+<p>optional vector indicating the subset of studies that should be used for the plot. This can be a logical vector of length <i>k</i> or a numeric vector indicating the indices of the observations to include. Note that this argument can also be used for reordering the studies.</p>
+</td></tr>
+<tr valign="top"><td><code>transf</code></td>
+<td>
+<p>optional argument specifying the name of a function that should be used to transform the observed effect sizes or outcomes and corresponding confidence interval bounds (e.g., <code>transf=exp</code>; see also <a href="transf.html">transf</a>). If unspecified, no transformation is used.</p>
+</td></tr>
+<tr valign="top"><td><code>atransf</code></td>
+<td>
+<p>optional argument specifying the name of a function that should be used to transform the x-axis labels and annotations (e.g., <code>atransf=exp</code>; see also <a href="transf.html">transf</a>). If unspecified, no transformation is used.</p>
+</td></tr>
+<tr valign="top"><td><code>targs</code></td>
+<td>
+<p>optional arguments needed by the function specified via <code>transf</code> or <code>atransf</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>rows</code></td>
+<td>
+<p>optional vector specifying the rows (or more generally, the horizontal positions) for plotting the outcomes. If unspecified, the function sets this value automatically. Can also be a single value specifying the row (horizontal position) of the first outcome (the remaining outcomes are then plotted below this starting row).</p>
+</td></tr>
+<tr valign="top"><td><code>efac</code></td>
+<td>
+<p>vertical expansion factor for confidence interval limits and arrows. The default value of 1 should usually work okay. Can also be a vector of two numbers, the first for CI limits, the second for arrows.</p>
+</td></tr>
+<tr valign="top"><td><code>pch</code></td>
+<td>
+<p>plotting symbol to use for the observed effect sizes or outcomes. By default, a filled square is used. See <code><a href="../../graphics/html/points.html">points</a></code> for other options. Can also be a vector of values.</p>
+</td></tr>
+<tr valign="top"><td><code>psize</code></td>
+<td>
+<p>optional vector with point sizes for the observed effect sizes or outcomes. If unspecified, the point sizes are an inverse function of the precision of the estimates.</p>
+</td></tr>
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>optional character string specifying the name of a color to use for plotting (&quot;black&quot; is used by default if not specified). Can also be a vector of color names.</p>
+</td></tr>
+<tr valign="top"><td><code>lty</code></td>
+<td>
+<p>optional character string specifying the line type for the confidence intervals (if unspecified, the function sets this to <code>"solid"</code> by default).</p>
+</td></tr>
+<tr valign="top"><td><code>fonts</code></td>
+<td>
+<p>optional character string specifying the font to use for the study labels, annotations, and the extra information (if specified via <code>ilab</code>). If unspecified, the default font is used.</p>
+</td></tr>
+<tr valign="top"><td><code>cex</code></td>
+<td>
+<p>optional character and symbol expansion factor. If unspecified, the function tries to set this to a sensible value.</p>
+</td></tr>
+<tr valign="top"><td><code>cex.lab</code></td>
+<td>
+<p>optional expansion factor for the x-axis title. If unspecified, the function tries to set this to a sensible value.</p>
+</td></tr>
+<tr valign="top"><td><code>cex.axis</code></td>
+<td>
+<p>optional expansion factor for the x-axis labels. If unspecified, the function tries to set this to a sensible value.</p>
+</td></tr>
+<tr valign="top"><td><code>annosym</code></td>
+<td>
+<p>optional vector of length 3 to change the left bracket, separation, and right bracket symbols for the annotations.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The plot shows the individual observed effect sizes or outcomes with corresponding confidence intervals. To use the function, one should specify the observed effect sizes or outcomes (via the <code>x</code> argument) together with the corresponding sampling variances (via the <code>vi</code> argument) or with the corresponding standard errors (via the <code>sei</code> argument). Alternatively, one can specify the observed effect sizes or outcomes together with the corresponding confidence interval bounds (via the <code>ci.lb</code> and <code>ci.ub</code> arguments).
+</p>
+<p>With the <code>transf</code> argument, the observed effect sizes or outcomes and corresponding confidence interval bounds can be transformed with some suitable function. For example, when plotting log odds ratios, then one could use <code>transf=exp</code> to obtain a forest plot showing the odds ratios. Alternatively, one can use the <code>atransf</code> argument to transform the x-axis labels and annotations (e.g., <code>atransf=exp</code>). See also <a href="transf.html">transf</a> for some transformation functions useful for meta-analyses. The examples below illustrate the use of these arguments.
+</p>
+<p>By default, the studies are ordered from top to bottom (i.e., the first study in the dataset will be placed in row <i>k</i>, the second study in row <i>k-1</i>, and so on, until the last study, which is placed in the first row). The studies can be reordered with the <code>subset</code> argument (by specifying a vector with indices with the desired order).
+</p>
+<p>Summary estimates can also be added to the plot with the <code><a href="addpoly.html">addpoly</a></code> function. See the documentation for that function for examples.
+</p>
+
+
+<h3>Note</h3>
+
+<p>The function tries to set some sensible values for the optional arguments, but it may be necessary to tweak these in certain circumstances.
+</p>
+<p>The function actually returns some information about the chosen defaults invisibly. Printing this information is useful as a starting point to make adjustments to the plot.
+</p>
+<p>If the number of studies is quite large, the labels, annotations, and symbols may become quite small and impossible to read. Stretching the plot window vertically may then provide a more readable figure (one should call the function again after adjusting the window size, so that the label/symbol sizes can be properly adjusted). Also, the <code>cex</code>, <code>cex.lab</code>, and <code>cex.axis</code> arguments are then useful to adjust the symbol and text sizes.
+</p>
+<p>If the horizontal plot and/or x-axis limits are set by the user, then the horizontal plot limits (<code>xlim</code>) must be at least as wide as the x-axis limits (<code>alim</code>). This restriction is enforced inside the function.
+</p>
+<p>If the outcome measure used for creating the plot is bounded (e.g., correlations are bounded between <code>-1</code> and <code>1</code>, proportions are bounded between <code>0</code> and <code>1</code>), one can use the <code>clim</code> argument to enforce those limits (confidence intervals cannot exceed those bounds then).
+</p>
+<p>The <code>lty</code> argument can also be a vector of two elements, the first for specifying the line type of the individual CIs (<code>"solid"</code> by default), the second for the line type of the horizontal line that is automatically added to the plot (<code>"solid"</code> by default; set to <code>"blank"</code> to remove it).
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Wolfgang Viechtbauer <a href="mailto:wvb@metafor-project.org">wvb@metafor-project.org</a> <a href="http://www.metafor-project.org/">http://www.metafor-project.org/</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Lewis, S., &amp; Clarke, M. (2001). Forest plots: Trying to see the wood and the trees. <em>British Medical Journal</em>, <b>322</b>, 1479&ndash;1480.
+</p>
+<p>Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. <em>Journal of Statistical Software</em>, <b>36</b>(3), 1&ndash;48. <a href="http://www.jstatsoft.org/v36/i03/">http://www.jstatsoft.org/v36/i03/</a>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="forest.html">forest</a></code>, <code><a href="forest.rma.html">forest.rma</a></code>, <code><a href="addpoly.html">addpoly</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+### calculate log risk ratios and corresponding sampling variances
+dat &lt;- escalc(measure="RR", ai=tpos, bi=tneg, ci=cpos, di=cneg, data=dat.bcg)
+
+### default forest plot of the observed log risk ratios
+forest(dat$yi, dat$vi)
+
+### forest plot of the observed risk ratios
+forest(dat$yi, dat$vi, slab=paste(dat$author, dat$year, sep=", "), transf=exp,
+       alim=c(0,2), steps=5, xlim=c(-2.5,4), refline=1, cex=.9)
+
+### forest plot of the observed risk ratios
+forest(dat$yi, dat$vi, slab=paste(dat$author, dat$year, sep=", "), atransf=exp,
+       at=log(c(.05,.25,1,4,20)), xlim=c(-10,8), cex=.9)
+
+### forest plot of the observed risk ratios with studies ordered by the RRs
+forest(dat$yi, dat$vi, slab=paste(dat$author, dat$year, sep=", "), atransf=exp,
+       at=log(c(.05,.25,1,4,20)), xlim=c(-10,8), cex=.9, subset=order(dat$yi))
+
+### see also examples for the forest.rma function
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metafor</em> version 2.1-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

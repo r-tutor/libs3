@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Regression Test for Funnel Plot Asymmetry</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for regtest {metafor}"><tr><td>regtest {metafor}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Regression Test for Funnel Plot Asymmetry</h2>
+
+<h3>Description</h3>
+
+<p>The function can be used to carry out (various versions of) Egger's regression test for funnel plot asymmetry.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+regtest(x, ...)
+
+## S3 method for class 'rma'
+regtest(x, model="rma", predictor="sei", ret.fit=FALSE, digits, ...)
+
+## Default S3 method:
+regtest(x, vi, sei, ni, subset, model="rma", predictor="sei", ret.fit=FALSE, digits, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>an object of class <code>"rma"</code> or a vector with the observed effect sizes or outcomes.</p>
+</td></tr>
+<tr valign="top"><td><code>vi</code></td>
+<td>
+<p>vector with the corresponding sampling variances.</p>
+</td></tr>
+<tr valign="top"><td><code>sei</code></td>
+<td>
+<p>vector with the corresponding standard errors.</p>
+</td></tr>
+<tr valign="top"><td><code>ni</code></td>
+<td>
+<p>vector with the corresponding sample sizes.</p>
+</td></tr>
+<tr valign="top"><td><code>subset</code></td>
+<td>
+<p>optional vector indicating the subset of studies that should be included in the test. This can be a logical vector of the same length as <code>x</code> or a numeric vector indicating the indices of the observations to include. Only relevant when passing a vector via <code>x</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>either <code>"rma"</code> or <code>"lm"</code> to indicate the type of model to use for the regression test. See &lsquo;Details&rsquo;.</p>
+</td></tr>
+<tr valign="top"><td><code>predictor</code></td>
+<td>
+<p>either <code>"sei"</code> <code>"vi"</code>, <code>"ni"</code>, <code>"ninv"</code>, <code>"sqrtni"</code>, or <code>"sqrtninv"</code> to indicate the predictor to use for the regression test. See &lsquo;Details&rsquo;.</p>
+</td></tr>
+<tr valign="top"><td><code>ret.fit</code></td>
+<td>
+<p>logical indicating whether the full results from the fitted model should also be returned.</p>
+</td></tr>
+<tr valign="top"><td><code>digits</code></td>
+<td>
+<p>integer specifying the number of decimal places to which the printed results should be rounded (the default is 4).</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Various tests for funnel plot asymmetry have been suggested in the literature, including the rank correlation test by Begg and Mazumdar (1994) and the regression test by Egger et al. (1997). Extensions, modifications, and further developments of the regression test are described (among others) by Macaskill, Walter, and Irwig (2001), Sterne and Egger (2005), Harbord, Egger, and Sterne (2006), Peters et al. (2006), Rücker et al. (2008), and Moreno et al. (2009). The various versions of the regression test differ in terms of the model (either a weighted regression model with a multiplicative dispersion term or a fixed/random/mixed-effects meta-regression model is used), in terms of the predictor variable that the observed outcomes are hypothesized to be related to when publication bias is present (suggested predictors include the standard error, the sampling variance, and the sample size &ndash; or transformations thereof), and in terms of the outcome measure used (e.g., for <i>2x2</i> table data, one has the choice between various outcome measures). The idea behind the various tests is the same though: If there is a relationship between the observed outcomes and the chosen predictor, then this usually implies asymmetry in the funnel plot, which in turn may be an indication of publication bias.
+</p>
+<p>The <code>regtest.rma</code> function can be used to carry out various versions of the regression test. The model is chosen via the <code>model</code> argument, with <code>model="lm"</code> for weighted regression with a multiplicative dispersion term or <code>model="rma"</code> for the meta-analytic models. In the latter case, arguments such as <code>method</code>, <code>weighted</code>, and <code>test</code> used during the initial model fitting are also used for the regression test. Therefore, if one wants to conduct the regression test with a random/mixed-effects model, one should first fit a random-effects model with the <code>rma</code> function and then use the <code>regtest.rma</code> function on the fitted model object.
+</p>
+<p>The predictor is chosen via the <code>predictor</code> argument:
+</p>
+
+<ul>
+<li> <p><code>predictor="sei"</code> for the standard error,
+</p>
+</li>
+<li> <p><code>predictor="vi"</code> for the sampling variance,
+</p>
+</li>
+<li> <p><code>predictor="ni"</code> for the sample size,
+</p>
+</li>
+<li> <p><code>predictor="ninv"</code> for the inverse of the sample size,
+</p>
+</li>
+<li> <p><code>predictor="sqrtni"</code> for the square root transformed sample size, and
+</p>
+</li>
+<li> <p><code>predictor="sqrtninv"</code> for the inverse of the square root transformed sample size.
+</p>
+</li></ul>
+<p> For predictors based on the sample size, the object <code>x</code> obviously must contain the information about the sample sizes. This will automatically be the case when <code>measure</code> was <em>not</em> equal to <code>"GEN"</code> or the <code>ni</code> values were explicitly specified during the initial model fitting.
+</p>
+<p>If the model passed to the <code>regtest.rma</code> function already included one or more moderators, then <code>regtest.rma</code> will add the chosen <code>predictor</code> to the moderator(s) already included in the model. This way, one can test for funnel plot asymmetry after accounting first for the influence of the moderator(s) already included.
+</p>
+<p>One can also pass a vector of observed effect sizes or outcomes (via <code>x</code>) and the corresponding sampling variances via <code>vi</code> (or the standard errors via <code>sei</code>) directly to the function (in this case, the <code>regtest.default</code> function is used). When the <code>predictor</code> is the sample size or a transformation thereof, then <code>ni</code> needs to be specified here as well.
+</p>
+<p>The outcome measure used for the regression test is simply determined by what measure was used in fitting the original model (or what values are passed to <code>regtest.default</code>).
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>"regtest.rma"</code>. The object is a list containing the following components:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>model</code></td>
+<td>
+<p>the model used for the regression test.</p>
+</td></tr>
+<tr valign="top"><td><code>predictor</code></td>
+<td>
+<p>the predictor used for the regression test.</p>
+</td></tr>
+<tr valign="top"><td><code>zval</code></td>
+<td>
+<p>the value of the test statistic.</p>
+</td></tr>
+<tr valign="top"><td><code>pval</code></td>
+<td>
+<p>the corresponding p-value</p>
+</td></tr>
+<tr valign="top"><td><code>dfs</code></td>
+<td>
+<p>the degrees of freedom of the test stastistic (if the test is based on a t-distribution).</p>
+</td></tr>
+<tr valign="top"><td><code>fit</code></td>
+<td>
+<p>the full results from the fitted model.</p>
+</td></tr>
+</table>
+<p>The results are formatted and printed with the <code><a href="print.regtest.rma.html">print.regtest.rma</a></code> function.
+</p>
+
+
+<h3>Note</h3>
+
+<p>The classical &ldquo;Egger test&rdquo; is obtained by setting <code>model="lm"</code> and <code>predictor="sei"</code>. For the random/mixed-effects version of the Egger test, one should first fit a random-effects model to the data and then set <code>model="rma"</code> and <code>predictor="sei"</code> when using the <code>regtest.rma</code> function. See Sterne and Egger (2005) for details on these two types of models/tests.
+</p>
+<p>All of the tests do not directly test for publication bias, but for a relationship between the observed outcomes and the chosen predictor. If such a relationship is present, then this usually implies asymmetry in the funnel plot, which in turn may be an indication of publication bias. However, it is important to keep in mind that there can be other reasons besides publication bias that could lead to asymmetry in the funnel plot.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Wolfgang Viechtbauer <a href="mailto:wvb@metafor-project.org">wvb@metafor-project.org</a> <a href="http://www.metafor-project.org/">http://www.metafor-project.org/</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Begg, C. B., &amp; Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. <em>Biometrics</em>, <b>50</b>, 1088&ndash;1101.
+</p>
+<p>Egger, M., Davey Smith, G., Schneider, M., &amp; Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. <em>British Medical Journal</em>, <b>315</b>, 629&ndash;634.
+</p>
+<p>Harbord, R. M., Egger, M., &amp; Sterne, J. A. C. (2006). A modified test for small-study effects in meta-analyses of controlled trials with binary endpoints. <em>Statistics in Medicine</em>, <b>25</b>, 3443&ndash;3457.
+</p>
+<p>Macaskill, P., Walter, S. D., &amp; Irwig, L. (2001). A comparison of methods to detect publication bias in meta-analysis. <em>Statistics in Medicine</em>, <b>20</b>, 641&ndash;654.
+</p>
+<p>Moreno, S. G., Sutton, A. J., Ades, A. E., Stanley, T. D., Abrams, K. R., Peters, J. L., &amp; Cooper, N. J. (2009). Assessment of regression-based methods to adjust for publication bias through a comprehensive simulation study. <em>BMC Medical Research Methodology</em>, <b>9</b>:2.
+</p>
+<p>Peters, J. L., Sutton, A. J., Jones, D. R., Abrams, K. R., &amp; Rushton, L. (2006). Comparison of two methods to detect publication bias in meta-analysis. <em>Journal of the American Medical Association</em>, <b>295</b>, 676&ndash;680.
+</p>
+<p>Rücker, G., Schwarzer, G., &amp; Carpenter, J. (2008). Arcsine test for publication bias in meta-analyses with binary outcomes. <em>Statistics in Medicine</em>, <b>27</b>, 746&ndash;763.
+</p>
+<p>Sterne, J. A. C., &amp; Egger, M. (2005). Regression methods to detect publication and other bias in meta-analysis. In H. R. Rothstein, A. J. Sutton, &amp; M. Borenstein (Eds.) <em>Publication bias in meta-analysis: Prevention, assessment, and adjustments</em> (pp. 99&ndash;110). Chichester, England: Wiley.
+</p>
+<p>Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. <em>Journal of Statistical Software</em>, <b>36</b>(3), 1&ndash;48. <a href="http://www.jstatsoft.org/v36/i03/">http://www.jstatsoft.org/v36/i03/</a>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="ranktest.html">ranktest</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+### calculate log risk ratios and corresponding sampling variances
+dat &lt;- escalc(measure="RR", ai=tpos, bi=tneg, ci=cpos, di=cneg, data=dat.bcg)
+
+### fit random-effects model
+res &lt;- rma(yi, vi, data=dat)
+
+### classical Egger test
+regtest(res, model="lm")
+
+### random/mixed-effects version of the Egger test
+regtest(res)
+
+### same tests, but passing outcomes directly
+regtest(dat$yi, dat$vi, model="lm")
+regtest(dat$yi, dat$vi)
+
+### examples using the sample size (or a transformation thereof) as predictor
+regtest(res, model="lm", predictor="ni")
+regtest(res, model="lm", predictor="ninv")
+regtest(res, model="rma", predictor="ni")
+regtest(res, model="rma", predictor="ninv")
+
+### if dat$yi is computed with escalc(), sample size information is stored in attributes
+dat$yi
+
+### then this will work
+regtest(dat$yi, dat$vi, predictor="ni")
+
+### otherwise have to supply sample sizes manually
+dat$ni &lt;- with(dat, tpos + tneg + cpos + cneg)
+regtest(dat$yi, dat$vi, dat$ni, predictor="ni")
+
+### testing for asymmetry after accounting for the influence of a moderator
+res &lt;- rma(yi, vi, mods = ~ ablat, data=dat)
+regtest(res, model="lm")
+regtest(res)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metafor</em> version 2.1-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

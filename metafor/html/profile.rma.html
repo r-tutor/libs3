@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Profile Plots for 'rma' Objects</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for profile.rma.uni {metafor}"><tr><td>profile.rma.uni {metafor}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Profile Plots for 'rma' Objects</h2>
+
+<h3>Description</h3>
+
+<p>Function to profile the (restricted) log-likelihood for objects of class <code>"rma.uni"</code> and <code>"rma.mv"</code>.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'rma.uni'
+profile(fitted, xlim, ylim, steps=20,
+        progbar=TRUE, parallel="no", ncpus=1, cl=NULL,
+        plot=TRUE, pch=19, cline=FALSE, ...)
+
+## S3 method for class 'rma.mv'
+profile(fitted, sigma2, tau2, rho, gamma2, phi,
+        xlim, ylim, steps=20, lltol=1e-06, startmethod="init",
+        progbar=TRUE, parallel="no", ncpus=1, cl=NULL,
+        plot=TRUE, pch=19, cline=FALSE, ...)
+
+## S3 method for class 'profile.rma'
+print(x, ...)
+## S3 method for class 'profile.rma'
+plot(x, xlim, ylim, pch=19,
+     xlab, ylab, main, cline=FALSE, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>fitted</code></td>
+<td>
+<p>an object of class <code>"rma.uni"</code> or <code>"rma.mv"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>an object of class <code>"profile.rma"</code> (for <code>plot</code> and <code>print</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>sigma2</code></td>
+<td>
+<p>integer specifying for which <i>&sigma;²</i> value the likelihood should be profiled (only relevant for <code>"rma.mv"</code> objects).</p>
+</td></tr>
+<tr valign="top"><td><code>tau2</code></td>
+<td>
+<p>integer specifying for which <i>&tau;²</i> value the likelihood should be profiled (only relevant for <code>"rma.mv"</code> objects).</p>
+</td></tr>
+<tr valign="top"><td><code>rho</code></td>
+<td>
+<p>integer specifying for which <i>&rho;</i> value the likelihood should be profiled (only relevant for <code>"rma.mv"</code> objects).</p>
+</td></tr>
+<tr valign="top"><td><code>gamma2</code></td>
+<td>
+<p>integer specifying for which <i>&gamma;²</i> value the likelihood should be profiled (only relevant for <code>"rma.mv"</code> objects).</p>
+</td></tr>
+<tr valign="top"><td><code>phi</code></td>
+<td>
+<p>integer specifying for which <i>&phi;</i> value the likelihood should be profiled (only relevant for <code>"rma.mv"</code> objects).</p>
+</td></tr>
+<tr valign="top"><td><code>xlim</code></td>
+<td>
+<p>optional vector specifying the lower and upper limit of the parameter over which the profiling should be done. If unspecified, the function tries to set these limits automatically.</p>
+</td></tr>
+<tr valign="top"><td><code>ylim</code></td>
+<td>
+<p>optional vector specifying the y-axis limits when plotting the profiled likelihood. If unspecified, the function tries to set these limits automatically.</p>
+</td></tr>
+<tr valign="top"><td><code>steps</code></td>
+<td>
+<p>number of points between <code>xlim[1]</code> and <code>xlim[2]</code> (inclusive) for which the likelihood should be evaluated (the default is 20).</p>
+</td></tr>
+<tr valign="top"><td><code>lltol</code></td>
+<td>
+<p>numerical tolerance used when comparing values of the profiled log-likelihood with the log-likelihood of the fitted model (the default is 1e-06).</p>
+</td></tr>
+<tr valign="top"><td><code>startmethod</code></td>
+<td>
+<p>method for picking starting values for the optimization. Default is <code>"init"</code>, which starts each model fit at the default initial values. The alternative is <code>"prev"</code>, which starts at the estimates from the previous model fit (usually faster, but also less stable for ill-defined models).</p>
+</td></tr>
+<tr valign="top"><td><code>progbar</code></td>
+<td>
+<p>logical indicating whether a progress bar should be shown (the default is <code>TRUE</code>). Ignored when using parallel processing.</p>
+</td></tr>
+<tr valign="top"><td><code>parallel</code></td>
+<td>
+<p>character string indicating whether parallel processing should be used (the default is <code>"no"</code>). For parallel processing, set to either <code>"snow"</code> or <code>"multicore"</code>. See &lsquo;Details&rsquo;.</p>
+</td></tr>
+<tr valign="top"><td><code>ncpus</code></td>
+<td>
+<p>integer specifying the number of processes to use in the parallel processing.</p>
+</td></tr>
+<tr valign="top"><td><code>cl</code></td>
+<td>
+<p>optional snow cluster to use if <code>parallel="snow"</code>. If not supplied, a cluster on the local machine is created for the duration of the call.</p>
+</td></tr>
+<tr valign="top"><td><code>plot</code></td>
+<td>
+<p>logical indicating whether the profile plot should be drawn after profiling is finished (the default is <code>TRUE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>pch</code></td>
+<td>
+<p>plotting symbol to use. By default, a filled circle is used. See <code><a href="../../graphics/html/points.html">points</a></code> for other options.</p>
+</td></tr>
+<tr valign="top"><td><code>cline</code></td>
+<td>
+<p>logical indicating whether a horizontal reference line should be added to the plot that indicates the log-likelihood value corresponding to the 95% profile confidence interval (the default is <code>FALSE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>xlab</code></td>
+<td>
+<p>title for the x-axis. If unspecified, the function tries to set an appropriate axis title.</p>
+</td></tr>
+<tr valign="top"><td><code>ylab</code></td>
+<td>
+<p>title for the y-axis. If unspecified, the function tries to set an appropriate axis title.</p>
+</td></tr>
+<tr valign="top"><td><code>main</code></td>
+<td>
+<p>title for the plot. If unspecified, the function tries to set an appropriate title.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The function fixes a particular variance component or correlation parameter of the model and then computes the maximized (restricted) log-likelihood over the remaining parameters of the model. By doing this for a range of values for the parameter that was fixed, a profile of the (restricted) log-likelihood is constructed.
+</p>
+<p>For objects of class <code>"rma.uni"</code> obtained with the <code><a href="rma.uni.html">rma.uni</a></code> function, the function profiles over parameter <i>&tau;²</i>. If the model was fitted with <code>method="ML"</code> or <code>method="REML"</code>, the profiled (restricted) log-likelihood should be maximized at the ML/REML estimate of <i>&tau;²</i>.
+</p>
+<p>For objects of class <code>"rma.mv"</code> obtained with the <code><a href="rma.mv.html">rma.mv</a></code> function, profiling is done by default over all (non-fixed) variance and correlation components of the model. Alternatively, one can use the <code>sigma2</code>, <code>tau2</code>, <code>rho</code>, <code>gamma2</code>, or <code>phi</code> arguments to specify over which parameter the profiling should be done. Only one of these arguments can be used at a time. A single integer is used to specify the number of the parameter. Each profile plot should show a peak at the corresponding ML/REML estimate (the function checks whether any of the profiled log-likelihood values is larger than the log-likelihood of the fitted model, using a numerical tolerance of <code>lltol</code>; if so, a warning is issued as this might indicate that the optimizer did not identify the actual ML/REML estimates). If the profiled likelihood is flat (over the entire parameter space or large portions of it), then this suggests that at least some of the parameters of the model are not identifiable (and the parameter estimates obtained are to some extent arbitrary).
+</p>
+<p>Profiling requires repeatedly refitting the same model, which can be slow when <i>k</i> is large and/or the model is complex (the latter especially applies to <code>"rma.mv"</code> objects). On machines with multiple cores, one can usually speed things up by delegating the model fitting to separate worker processes, that is, by setting <code>parallel="snow"</code> or <code>parallel="multicore"</code> and <code>ncpus</code> to some value larger than 1. Parallel processing makes use of the <code><a href="../../parallel/html/parallel.html">parallel</a></code> package, using the <code><a href="../../parallel/html/makePSOCKcluster.html">makePSOCKcluster</a></code> and <code><a href="../../parallel/html/parLapply.html">parLapply</a></code> functions when <code>parallel="snow"</code> or using <code><a href="../../parallel/html/mclapply.html">mclapply</a></code> when <code>parallel="multicore"</code> (the latter only works on Unix/Linux-alikes). With <code>parallel::detectCores()</code>, one can check on the number of available cores on the local machine. Note that argument <code>startmethod</code> is ignored when using parallel processing and no progress bar will be shown.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>"profile.rma"</code>. The object is a list (or list of lists) containing the following components:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>sigma2</code></td>
+<td>
+<p>values of <i>&sigma;²</i> over which the likelihood was profiled (only when profiling was actually done over <i>&sigma;²</i>).</p>
+</td></tr>
+<tr valign="top"><td><code>tau2</code></td>
+<td>
+<p>values of <i>&tau;²</i> over which the likelihood was profiled (only when profiling was actually done over <i>&tau;²</i>).</p>
+</td></tr>
+<tr valign="top"><td><code>rho</code></td>
+<td>
+<p>values of <i>&rho;</i> over which the likelihood was profiled (only when profiling was actually done over <i>&rho;</i>).</p>
+</td></tr>
+<tr valign="top"><td><code>gamma2</code></td>
+<td>
+<p>values of <i>&gamma;²</i> over which the likelihood was profiled (only when profiling was actually done over <i>&gamma;²</i>).</p>
+</td></tr>
+<tr valign="top"><td><code>phi</code></td>
+<td>
+<p>values of <i>&phi;</i> over which the likelihood was profiled (only when profiling was actually done over <i>&phi;</i>).</p>
+</td></tr>
+<tr valign="top"><td><code>ll</code></td>
+<td>
+<p>(restricted) log-likelihood at the corresponding parameter value.</p>
+</td></tr>
+<tr valign="top"><td><code>beta</code></td>
+<td>
+<p>a matrix with the estimated model coefficients at the corresponding parameter value.</p>
+</td></tr>
+<tr valign="top"><td><code>ci.lb</code></td>
+<td>
+<p>a matrix with the lower confidence interval bounds for the model coefficients at the corresponding parameter value.</p>
+</td></tr>
+<tr valign="top"><td><code>ci.ub</code></td>
+<td>
+<p>a matrix with the upper confidence interval bounds for the model coefficients at the corresponding parameter value.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>some additional elements/values.</p>
+</td></tr>
+</table>
+<p>Note that the list is returned invisibly.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Wolfgang Viechtbauer <a href="mailto:wvb@metafor-project.org">wvb@metafor-project.org</a> <a href="http://www.metafor-project.org/">http://www.metafor-project.org/</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. <em>Journal of Statistical Software</em>, <b>36</b>(3), 1&ndash;48. <a href="http://www.jstatsoft.org/v36/i03/">http://www.jstatsoft.org/v36/i03/</a>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="rma.uni.html">rma.uni</a></code>, <code><a href="rma.mv.html">rma.mv</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+### calculate log odds ratios and corresponding sampling variances
+dat &lt;- escalc(measure="OR", ai=tpos, bi=tneg, ci=cpos, di=cneg, data=dat.bcg)
+
+### random-effects model using rma.uni()
+res &lt;- rma(yi, vi, data=dat)
+
+### profile over tau^2
+profile(res, progbar=FALSE)
+
+### change data into long format
+dat.long &lt;- to.long(measure="OR", ai=tpos, bi=tneg, ci=cpos, di=cneg, data=dat.bcg)
+
+### set levels of group variable ("exp" = experimental/vaccinated; "con" = control/non-vaccinated)
+levels(dat.long$group) &lt;- c("exp", "con")
+
+### set "con" to reference level
+dat.long$group &lt;- relevel(dat.long$group, ref="con")
+
+### calculate log odds and corresponding sampling variances
+dat.long &lt;- escalc(measure="PLO", xi=out1, mi=out2, data=dat.long)
+
+### bivariate random-effects model using rma.mv()
+res &lt;- rma.mv(yi, vi, mods = ~ group, random = ~ group | study, struct="UN", data=dat.long)
+res
+
+### profile over tau^2_1, tau^2_2, and rho
+### note: for rho, adjust region over which profiling is done ('zoom in' on area around estimate)
+## Not run: 
+par(mfrow=c(3,1))
+profile(res, tau2=1)
+profile(res, tau2=2)
+profile(res, rho=1, xlim=c(.90, .98))
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metafor</em> version 2.1-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

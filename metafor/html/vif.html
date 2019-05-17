@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Variance Inflation Factors for 'rma' Objects</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for vif {metafor}"><tr><td>vif {metafor}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Variance Inflation Factors for 'rma' Objects</h2>
+
+<h3>Description</h3>
+
+<p>Compute variance inflation factors (VIFs) for objects of class <code>"rma"</code>.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+vif(x, ...)
+
+## S3 method for class 'rma'
+vif(x, intercept=FALSE, table=FALSE, digits, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>an object of class <code>"rma"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>intercept</code></td>
+<td>
+<p>logical indicating whether to include the intercept (if the model includes one) in the computation of the VIFs (the default is <code>FALSE</code>). See &lsquo;Note&rsquo;.</p>
+</td></tr>
+<tr valign="top"><td><code>table</code></td>
+<td>
+<p>logical indicating whether the VIFs should be added to the model coefficient table (the default is <code>FALSE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>digits</code></td>
+<td>
+<p>integer specifying the number of decimal places to which the printed results should be rounded (if unspecified, the default is to take the value from the object).</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The function computes variance inflation factors (VIFs) for meta-regression models. Hence, the model specified via <code>x</code> must include moderator variables. VIFs indicate the inflation in the variance of a model coefficient due to collinearity among the predictor variables.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Either a vector (if <code>table=FALSE</code>) with the VIFs or a data frame (if <code>table=TRUE</code>) with the following elements:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>estimate</code></td>
+<td>
+<p>estimated model coefficients.</p>
+</td></tr>
+<tr valign="top"><td><code>se</code></td>
+<td>
+<p>corresponding standard errors.</p>
+</td></tr>
+<tr valign="top"><td><code>zval</code></td>
+<td>
+<p>corresponding test statistics.</p>
+</td></tr>
+<tr valign="top"><td><code>pval</code></td>
+<td>
+<p>corresponding p-values.</p>
+</td></tr>
+<tr valign="top"><td><code>ci.lb</code></td>
+<td>
+<p>corresponding lower bound of the confidence intervals.</p>
+</td></tr>
+<tr valign="top"><td><code>ci.ub</code></td>
+<td>
+<p>corresponding upper bound of the confidence intervals.</p>
+</td></tr>
+<tr valign="top"><td><code>vif</code></td>
+<td>
+<p>corresponding variance inflation factors.</p>
+</td></tr>
+</table>
+
+
+<h3>Note</h3>
+
+<p>The values of the VIFs are invariant to the scaling of the predictor variables if the model includes an intercept that is removed when inverting the correlation matrix of the model coefficients to compute the VIFs. This is the default behavior. See &lsquo;Examples&rsquo;.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Wolfgang Viechtbauer <a href="mailto:wvb@metafor-project.org">wvb@metafor-project.org</a> <a href="http://www.metafor-project.org/">http://www.metafor-project.org/</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Davis, C. E., Hyde, J. E., Bangdiwala, S. I., &amp; Nelson, J. J. (1986). An example of dependencies among variables in a conditional logistic regression. In S. H. Moolgavkar &amp; R. L. Prentice (Eds.), <em>Modern statistical methods in chronic disease epidemiology</em> (pp. 140&ndash;147). New York: Wiley.
+</p>
+<p>Wax, Y. (1992). Collinearity diagnosis for a relative risk regression-analysis: An application to assessment of diet cancer relationship in epidemiologic studies. <em>Statistics in Medicine</em>, <b>11</b>, 1273&ndash;1287.
+</p>
+<p>Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. <em>Journal of Statistical Software</em>, <b>36</b>(3), 1&ndash;48. <a href="http://www.jstatsoft.org/v36/i03/">http://www.jstatsoft.org/v36/i03/</a>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="rma.uni.html">rma.uni</a></code>, <code><a href="rma.mv.html">rma.mv</a></code>, <code><a href="rma.glmm.html">rma.glmm</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+### copy data from Bangert-Drowns et al. (2004) into 'dat'
+dat &lt;- dat.bangertdrowns2004
+
+### fit mixed-effects meta-regression model
+res &lt;- rma(yi, vi, mods = ~ length + wic + feedback + info + pers + imag + meta, data=dat)
+
+### get variance inflation factors
+vif(res)
+
+### show that VIFs are not influenced by scaling of the predictors
+u &lt;- scale # to standardize the predictors
+res &lt;- rma(yi, vi, mods = ~ u(length) + u(wic) + u(feedback) + u(info) +
+                            u(pers) + u(imag) + u(meta), data=dat)
+vif(res)
+
+### get full table
+vif(res, table=TRUE)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>metafor</em> version 2.1-0 <a href="00Index.html">Index</a>]</div>
+</body></html>
