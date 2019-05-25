@@ -1,3 +1,13 @@
-parcoords               htmlwidget for d3.js parallel-coordinates
-parcoordsOutput         Widget output function for use in Shiny
-renderParcoords         Widget render function for use in Shiny
+parcoords               Interactive 'd3.js' Parallel Coordinates Chart
+parcoords-shiny         Shiny bindings for 'parcoords'
+parcoordsProxy          Send commands to a Proxy instance in a Shiny
+                        app
+pcCenter                Center 'parcoords' horizontally based on
+                        column/variable through 'parcoordsProxy'
+pcFilter                Filter 'parcoords' through 'parcoordsProxy'
+pcHide                  Hide 'parcoords' columns through
+                        'parcoordsProxy'
+pcSnapshot              Download image of 'parcoords' through
+                        'parcoordsProxy'
+pcUnhide                Unhide 'parcoords' columns through
+                        'parcoordsProxy'

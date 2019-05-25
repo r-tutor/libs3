@@ -1,3 +1,10 @@
 parcoords	parcoords
-parcoordsOutput	parcoordsOutput
-renderParcoords	renderParcoords
+parcoords-shiny	parcoords-shiny
+parcoordsOutput	parcoords-shiny
+parcoordsProxy	parcoordsProxy
+pcCenter	pcCenter
+pcFilter	pcFilter
+pcHide	pcHide
+pcSnapshot	pcSnapshot
+pcUnhide	pcUnhide
+renderParcoords	parcoords-shiny

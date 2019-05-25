@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Interactive 'd3.js' Parallel Coordinates Chart</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for parcoords {parcoords}"><tr><td>parcoords {parcoords}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Interactive 'd3.js' Parallel Coordinates Chart</h2>
+
+<h3>Description</h3>
+
+<p>Create interactive parallel coordinates charts with this htmlwidget
+wrapper for d3.js <a href="https://github.com/bigfatdog/parcoords-es">parallel-coordinates</a>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+parcoords(data = NULL, rownames = TRUE, color = NULL,
+  brushMode = NULL, brushPredicate = "and", alphaOnBrushed = NULL,
+  reorderable = FALSE, axisDots = NULL, margin = NULL,
+  composite = NULL, alpha = NULL, queue = FALSE, mode = FALSE,
+  rate = NULL, dimensions = NULL, bundleDimension = NULL,
+  bundlingStrength = 0.5, smoothness = 0, tasks = NULL,
+  autoresize = FALSE, withD3 = FALSE, width = NULL, height = NULL,
+  elementId = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>data.frame with data to use in the chart</p>
+</td></tr>
+<tr valign="top"><td><code>rownames</code></td>
+<td>
+<p>logical use rownames from the data.frame in the chart.  Regardless of
+this parameter, we will append rownames to the data that we send to JavaScript.
+If <code>rownames</code> equals <code>FALSE</code>, then we will use parallel coordinates
+to hide it.</p>
+</td></tr>
+<tr valign="top"><td><code>color</code></td>
+<td>
+<p>Color can be a single color as rgb or hex.  For a color function,
+provide a
+<code>list( colorScale = , colorBy = , colorScheme =, colorInterpolator = , colorDomain =)</code>
+where colorScale is the name of the
+<a href="https://github.com/d3/d3-scale/blob/master/README.md#sequential-scales">d3-scale</a> such as
+<code>scaleOrdinal</code> or <code>scaleSequential</code>,
+colorBy with the column name from the data to determine color.  If appplying color to a
+discrete or ordinal variable then please also supply colorScheme, such as
+<code>schemCategory10</code>.  If applying color
+to a continuous variable then please also supply colorInterpolator
+with colorInterpolator as the name of the <a href="https://github.com/d3/d3-scale/blob/master/README.md#sequential_interpolator">d3 interpolator</a>,
+such as <code>interpolateViridis</code>. If using a <code>d3</code>
+color scale, then make sure to use the argument <code>withD3 = TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>brushMode</code></td>
+<td>
+<p>string, either <code>"1D-axes"</code>, <code>"1D-axes-multi"</code>,
+or <code>"2D-strums"</code>
+giving the type of desired brush behavior for the chart.</p>
+</td></tr>
+<tr valign="top"><td><code>brushPredicate</code></td>
+<td>
+<p>string, either <code>"and"</code> or <code>"or"</code> giving
+the logic forthe join with multiple brushes.</p>
+</td></tr>
+<tr valign="top"><td><code>alphaOnBrushed</code></td>
+<td>
+<p>opacity from 0 to 1 when brushed (default to 0).</p>
+</td></tr>
+<tr valign="top"><td><code>reorderable</code></td>
+<td>
+<p>logical enable reordering of axes</p>
+</td></tr>
+<tr valign="top"><td><code>axisDots</code></td>
+<td>
+<p>logical mark the points where polylines meet an axis with dots</p>
+</td></tr>
+<tr valign="top"><td><code>margin</code></td>
+<td>
+<p>list of sizes of margins in pixels.  Currently
+<code>brushMode = "2D-strums"</code> requires left margin = 0, so
+this will change automatically and might result in unexpected
+behavior.</p>
+</td></tr>
+<tr valign="top"><td><code>composite</code></td>
+<td>
+<p>foreground context's composite type</p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>opacity from 0 to 1 of the polylines</p>
+</td></tr>
+<tr valign="top"><td><code>queue</code></td>
+<td>
+<p>logical (default FALSE) to change rendering mode to queue for
+progressive rendering.  Usually <code> queue = T </code> for very large datasets.</p>
+</td></tr>
+<tr valign="top"><td><code>mode</code></td>
+<td>
+<p>string see<code>queue</code> above; <code> queue = T </code> will set
+<code> mode = "queue" </code></p>
+</td></tr>
+<tr valign="top"><td><code>rate</code></td>
+<td>
+<p>integer rate at which render will queue</p>
+</td></tr>
+<tr valign="top"><td><code>dimensions</code></td>
+<td>
+<p><code>list</code> to customize axes dimensions</p>
+</td></tr>
+<tr valign="top"><td><code>bundleDimension</code></td>
+<td>
+<p>character string for the column or variable on which to bundle</p>
+</td></tr>
+<tr valign="top"><td><code>bundlingStrength</code></td>
+<td>
+<p>numeric value between 0 and 1 for the strength of the bundling.  This value will
+not affect the parallel coordinates if <code>bundleDimension</code> is not set and will be ignored.</p>
+</td></tr>
+<tr valign="top"><td><code>smoothness</code></td>
+<td>
+<p>numeric value between between 0 and 1 for stength of smoothing or curvature.    This value will
+not affect the parallel coordinates if <code>bundleDimension</code> is not set and will be ignored.</p>
+</td></tr>
+<tr valign="top"><td><code>tasks</code></td>
+<td>
+<p>a character string or <code><a href="../../htmlwidgets/html/JS.html">JS</a></code> or list of
+strings or <code>JS</code> representing a JavaScript function(s) to run
+after the <code>parcoords</code> has rendered.  These provide an opportunity
+for advanced customization.  Note, the <code>function</code> will use the
+JavaScript <code>call</code> mechanism, so within the function, <code>this</code> will
+be an object with this.el representing the containing element of the
+<code>parcoords</code> and this.parcoords representing the <code>parcoords</code>
+instance.</p>
+</td></tr>
+<tr valign="top"><td><code>autoresize</code></td>
+<td>
+<p>logical (default FALSE) to auto resize the parcoords
+when the size of the container changes.  This is useful
+in contexts such as rmarkdown slide presentations or
+flexdashboard.  However, this will not be useful if you
+expect bigger data or a more typical html context.</p>
+</td></tr>
+<tr valign="top"><td><code>withD3</code></td>
+<td>
+<p><code>logical</code> to include d3 dependency from <code>d3r</code>. The 'parcoords'
+htmlwidget uses a standalone JavaScript build and will
+not include the entire d3 in the global/window namespace.  To include
+d3.js in this way, use <code>withD3=TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>width</code></td>
+<td>
+<p>integer in pixels defining the width of the widget.  Autosizing  to 100
+of the widget container will occur if <code> width = NULL </code>.</p>
+</td></tr>
+<tr valign="top"><td><code>height</code></td>
+<td>
+<p>integer in pixels defining the height of the widget.  Autosizing to 400px
+of the widget container will occur if <code> height = NULL </code>.</p>
+</td></tr>
+<tr valign="top"><td><code>elementId</code></td>
+<td>
+<p>unique <code>CSS</code> selector id for the widget.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>htmlwidget</code> that will
+intelligently print itself into HTML in a variety of contexts
+including the R console, within R Markdown documents,
+and within Shiny output bindings.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+if(interactive()) {
+  # simple example using the mtcars dataset
+  data( mtcars )
+  parcoords( mtcars )
+
+  # various ways to change color
+  #   in these all lines are the specified color
+  parcoords( mtcars, color = "green" )
+  parcoords( mtcars, color = "#f0c" )
+  #   in these we supply a function for our color
+  parcoords(
+    mtcars
+    , color = list(
+       colorBy = "cyl"
+       , colorScale = "scaleOrdinal"
+       , colorScheme = "schemeCategory10"
+    )
+    , withD3 = TRUE
+  )
+
+  if(require('ggplot2', quietly = TRUE)) {
+  parcoords(
+    diamonds
+    ,rownames = FALSE
+    ,brushMode = "1d-axes"
+    ,reorderable = TRUE
+    ,queue = TRUE
+    ,color= list(
+       colorBy="cut"
+       , colorScale = "scaleOrdinal"
+       , colorScheme = "schemeCategory10"
+    )
+    ,withD3 = TRUE
+  )
+  }
+}
+library(parcoords)
+
+parcoords(
+  mtcars,
+  dimensions = list(
+    cyl = list(
+      title = "cylinder",
+      tickValues = unique(mtcars$cyl)
+    )
+  )
+)
+
+parcoords(
+  mtcars
+  ,rownames = FALSE
+  ,brushMode = "1d-multi"
+  ,brushPredicate = "OR"
+  ,dimensions = list(
+    cyl = list(
+      title = "cylinder",
+      tickValues = unique(mtcars$cyl)
+    )
+  )
+)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>parcoords</em> version 1.0.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

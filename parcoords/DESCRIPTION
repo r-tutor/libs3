@@ -1,40 +1,46 @@
 Package: parcoords
-Title: htmlwidget for d3.js parallel coordinates chart
-Date: 2016-06-23
-Version: 0.4.0
-Authors@R: c( person("Mike", "Bostock", role = c("aut", "cph"), comment =
-    "d3.js library in htmlwidgets/lib, http://d3js.org"), person("Kai", "Chang"
-    ,role = c( "aut","cph" ), comment = "parallel coordinates reusable chart,
-    https://github.com/syntagmatic/parallel-coordinates"),
+Title: 'Htmlwidget' for 'd3.js' Parallel Coordinates Chart
+Version: 1.0.0
+Date: 2019-05-13
+Authors@R: c(
+    person("Mike", "Bostock", role = c("aut", "cph"), comment =
+      "d3.js library in htmlwidgets/lib, http://d3js.org"),
+    person("Kai", "Chang",role = c( "aut","cph" ), comment = "parallel coordinates reusable chart,
+      https://github.com/syntagmatic/parallel-coordinates"),
+    person("Xing", "Yun", role = c( "aut","cph" ), comment = "'es6' parallel coordinates,
+      https://github.com/BigFatDog/parcoords-es"),
     person("Kenton","Russell", role = c("aut","cre"), comment = "R interface",
-    email = "kent.russell@timelyportfolio.com"),
+      email = "kent.russell@timelyportfolio.com"),
+    person("Anobel","Odisho", role = c("aut"), comment = "R interface guidance, suggestions, testing, review, and feedback",
+      email = "Anobel.Odisho@ucsf.edu"),
     person("Mark","Albrecht",role = c("ctb"),comment = "Shiny output and example",
-    email="malbrech@nmdp.org"))
+      email="malbrech@nmdp.org")
+  )
 Maintainer: Kenton Russell <kent.russell@timelyportfolio.com>
-Description: Create interactive parallel coordinates charts with this htmlwidget
-    wrapper for d3.js \href{http://syntagmatic.github.io/parallel-coordinates/}
-    {parallel-coordinates}.
-Depends: R (>= 3.1.2)
+Description: Create interactive parallel coordinates charts with this 'htmlwidget'
+    wrapper for 'd3.js' <https://github.com/BigFatDog/parcoords-es>
+    {'parallel-coordinates'}.
+URL: https://github.com/timelyportfolio/parcoords
+BugReports: https://github.com/timelyportfolio/parcoords/issues
+Depends: R (>= 3.2.0)
 License: MIT + file LICENSE
 LazyData: true
-Imports: crosstalk, htmlwidgets (> 0.6.0)
-Suggests: knitr, testthat
+Imports: crosstalk, htmlwidgets (>= 0.6.0), utils
+Suggests: d3r, ggplot2, htmltools, knitr, shiny, testthat, rmarkdown
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
-RoxygenNote: 5.0.1
+NeedsCompilation: no
+Packaged: 2019-05-22 03:29:18 UTC; kentr
 Author: Mike Bostock [aut, cph] (d3.js library in htmlwidgets/lib,
     http://d3js.org),
   Kai Chang [aut, cph] (parallel coordinates reusable chart,
     https://github.com/syntagmatic/parallel-coordinates),
+  Xing Yun [aut, cph] ('es6' parallel coordinates,
+    https://github.com/BigFatDog/parcoords-es),
   Kenton Russell [aut, cre] (R interface),
+  Anobel Odisho [aut] (R interface guidance, suggestions, testing,
+    review, and feedback),
   Mark Albrecht [ctb] (Shiny output and example)
-Built: R 3.3.2; ; 2017-02-07 16:08:43 UTC; windows
-RemoteType: github
-RemoteHost: https://api.github.com
-RemoteRepo: parcoords
-RemoteUsername: timelyportfolio
-RemoteRef: feature/crosstalk
-RemoteSha: 2445ca6307396eff5fc9d3b6b289d4fb5fe3f259
-GithubRepo: parcoords
-GithubUsername: timelyportfolio
-GithubRef: feature/crosstalk
-GithubSHA1: 2445ca6307396eff5fc9d3b6b289d4fb5fe3f259
+Repository: CRAN
+Date/Publication: 2019-05-24 13:10:03 UTC
+Built: R 3.6.0; ; 2019-05-25 04:50:16 UTC; windows
