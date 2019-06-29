@@ -21,7 +21,7 @@ plot(x, dimens,
      what = c("scatterplot", "pairs", "contour", "classification",
               "boundaries", "density", "evalues"), 
      symbols, colors, col.contour = gray(0.7), col.sep = grey(0.4), 
-     ngrid = 100, nlevels = 5, asp = NULL, ...)
+     ngrid = 200, nlevels = 5, asp = NULL, ...)
 </pre>
 
 
@@ -145,6 +145,7 @@ The default is given by <code>mclust.options("classPlotColors")</code>.
 <h3>Examples</h3>
 
 <pre>
+## Not run: 
 mod &lt;- Mclust(iris[,1:4], G = 3)
 dr &lt;- MclustDR(mod)
 plot(dr, what = "evalues")
@@ -167,7 +168,9 @@ plot(dr, what = "classification", ngrid = 200)
 plot(dr, what = "boundaries", ngrid = 200)
 plot(dr, what = "density")
 plot(dr, what = "density", dimens = 2)
+
+## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>

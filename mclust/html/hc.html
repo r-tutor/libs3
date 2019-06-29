@@ -1,11 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Model-based Hierarchical Clustering</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Model-based Agglomerative Hierarchical Clustering</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="R.css" />
 </head><body>
 
 <table width="100%" summary="page for hc {mclust}"><tr><td>hc {mclust}</td><td style="text-align: right;">R Documentation</td></tr></table>
 
-<h2>Model-based Hierarchical Clustering</h2>
+<h2>Model-based Agglomerative Hierarchical Clustering</h2>
 
 <h3>Description</h3>
 
@@ -20,6 +20,15 @@ for Gaussian mixture models parameterized by eigenvalue decomposition.
 hc(data,
    modelName = mclust.options("hcModelName"),  
    use = mclust.options("hcUse"), ...)
+
+## S3 method for class 'hc'
+plot(x, ...)
+
+## S3 method for class 'hc'
+as.dendrogram(object, ...)
+
+## S3 method for class 'hc'
+as.hclust(x, ...)
 </pre>
 
 
@@ -78,6 +87,12 @@ See <code><a href="mclust.options.html">mclust.options</a></code>.
 <code><a href="hcE.html">hcE</a></code>.
 </p>
 </td></tr>
+<tr valign="top"><td><code>object, x</code></td>
+<td>
+
+<p>An object of class <code>'hc'</code> resulting from a call to <code>hc()</code>.
+</p>
+</td></tr>
 </table>
 
 
@@ -94,9 +109,20 @@ These use less memory but are much slower to execute.
 
 <h3>Value</h3>
 
-<p>A numeric two-column matrix in which the <em>i</em>th row gives the 
-minimum index for observations in each of the two clusters merged at the
-<em>i</em>th stage of agglomerative hierarchical clustering.
+<p>The function <code>hc()</code> returns a numeric two-column matrix in which 
+the <em>i</em>th row gives the minimum index for observations in each of 
+the two clusters merged at the <em>i</em>th stage of agglomerative 
+hierarchical clustering. Several other informations are also returned
+as attributes.
+</p>
+<p>The plotting function <code>plot.hc()</code> draws a dendrogram by first
+converting the input object from class <code>'hc'</code> to class 
+<code>'dendrogram'</code> and then plot the transformed object using 
+<code><a href="../../stats/html/dendrogram.html">plot.dendrogram</a></code>.
+</p>
+<p>The functions <code>as.dendrogram.hc()</code> and <code>as.hclust.hc()</code> are
+used to convert the input object from class <code>'hc'</code> to class, 
+respectively, <code>'dendrogram'</code> and <code>'hclust'</code>.
 </p>
 
 
@@ -153,5 +179,5 @@ coordProj(iris[,-5], dimens = dimens, classification=cl[,"3"])
 ## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>

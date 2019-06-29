@@ -18,14 +18,16 @@ a MVN mixture model for the data.
 
 <pre>
 surfacePlot(data, parameters, 
-            type = c("contour", "hdr", "image", "persp"), 
             what = c("density", "uncertainty"), 
+            type = c("contour", "hdr", "image", "persp"), 
             transformation = c("none", "log", "sqrt"),          
-            grid = 100, nlevels = 11, levels = NULL, 
+            grid = 200, nlevels = 11, levels = NULL, 
             prob = c(0.25, 0.5, 0.75),
-            color.palette = blue2grey.colors, col = grey(0.6),
+            col = gray(0.7),
+            col.palette = function(...) hcl.colors(..., "blues", rev = TRUE),
+            hdr.palette = blue2grey.colors,
             xlim = NULL, ylim = NULL, xlab = NULL, ylab = NULL, 
-            scale = FALSE, main = FALSE, swapAxes = FALSE, 
+            main = FALSE, scale = FALSE, swapAxes = FALSE, 
             verbose = FALSE, ...)
 </pre>
 
@@ -67,19 +69,19 @@ for details.
 </dl>
 
 </td></tr>
+<tr valign="top"><td><code>what</code></td>
+<td>
+
+<p>Choose from one of the following options: <code>"density"</code>
+(default), <code>"uncertainty"</code> indicating what to plot. 
+</p>
+</td></tr>
 <tr valign="top"><td><code>type</code></td>
 <td>
 
 <p>Choose from one of the following three options: <code>"contour"</code> 
 (default), <code>"hdr"</code>, <code>"image"</code>, and <code>"persp"</code> indicating 
 the plot type. 
-</p>
-</td></tr>
-<tr valign="top"><td><code>what</code></td>
-<td>
-
-<p>Choose from one of the following options: <code>"density"</code>
-(default), <code>"uncertainty"</code> indicating what to plot. 
 </p>
 </td></tr>
 <tr valign="top"><td><code>transformation</code></td>
@@ -120,17 +122,25 @@ Only used if <code>type = "hdr"</code> and supersede previous
 <code>nlevels</code> and <code>levels</code> arguments.
 </p>
 </td></tr>
-<tr valign="top"><td><code>color.palette</code></td>
-<td>
-
-<p>A function which defines a palette of colours to be used for 
-<code>type = "hdr"</code> plot. 
-</p>
-</td></tr>
 <tr valign="top"><td><code>col</code></td>
 <td>
 
-<p>The color to be used for drawing contour lines.
+<p>A string specifying the colour to be used for <code>type = "contour"</code> 
+and <code>type = "persp"</code> plots.
+</p>
+</td></tr>
+<tr valign="top"><td><code>col.palette</code></td>
+<td>
+
+<p>A function which defines a palette of colours to be used for 
+<code>type = "image"</code> plots. 
+</p>
+</td></tr>
+<tr valign="top"><td><code>hdr.palette</code></td>
+<td>
+
+<p>A function which defines a palette of colours to be used for 
+<code>type = "hdr"</code> plots. 
 </p>
 </td></tr>
 <tr valign="top"><td><code>xlim, ylim</code></td>
@@ -146,6 +156,13 @@ This may be useful for when comparing plots.
 <p>Optional argument specifying labels for the x-axis and y-axis.
 </p>
 </td></tr>
+<tr valign="top"><td><code>main</code></td>
+<td>
+
+<p>A logical variable or <code>NULL</code> indicating whether or not to add a title 
+to the plot identifying the dimensions used.
+</p>
+</td></tr>
 <tr valign="top"><td><code>scale</code></td>
 <td>
 
@@ -153,13 +170,6 @@ This may be useful for when comparing plots.
 dimensions should be plotted on the same scale, and
 thus preserve the shape of the distribution.
 The default is not to scale.
-</p>
-</td></tr>
-<tr valign="top"><td><code>main</code></td>
-<td>
-
-<p>A logical variable or <code>NULL</code> indicating whether or not to add a title 
-to the plot identifying the dimensions used.
 </p>
 </td></tr>
 <tr valign="top"><td><code>swapAxes</code></td>
@@ -240,5 +250,5 @@ surfacePlot(faithful, parameters = faithfulModel$parameters,
 ## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>

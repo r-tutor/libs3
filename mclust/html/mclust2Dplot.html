@@ -1,13 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Plot two-dimensional data modelled by an MVN mixture.</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Plot two-dimensional data modelled by an MVN mixture</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="R.css" />
 </head><body>
 
 <table width="100%" summary="page for mclust2Dplot {mclust}"><tr><td>mclust2Dplot {mclust}</td><td style="text-align: right;">R Documentation</td></tr></table>
 
-<h2>
-Plot two-dimensional data modelled by an MVN mixture.
-</h2>
+<h2>Plot two-dimensional data modelled by an MVN mixture</h2>
 
 <h3>Description</h3>
 
@@ -21,8 +19,9 @@ for the data.
 <pre>
 mclust2Dplot(data, parameters = NULL, z = NULL,
              classification = NULL, truth = NULL, uncertainty = NULL,
-             what = c("classification","uncertainty","errors"), 
-             addEllipses = TRUE, symbols = NULL, colors = NULL, 
+             what = c("classification", "uncertainty", "error"), 
+             addEllipses = TRUE, fillEllipses = mclust.options("fillEllipses"),
+             symbols = NULL, colors = NULL, 
              xlim = NULL, ylim = NULL, xlab = NULL, ylab = NULL,
              scale = FALSE, CEX  = 1, PCH = ".",
              main = FALSE, swapAxes = FALSE, ...) 
@@ -113,14 +112,21 @@ will be ignored.
 <td>
 
 <p>Choose from one of the following three options: <code>"classification"</code>
-(default), <code>"errors"</code>, <code>"uncertainty"</code>. 
+(default), <code>"error"</code>, <code>"uncertainty"</code>. 
 </p>
 </td></tr>
 <tr valign="top"><td><code>addEllipses</code></td>
 <td>
 
-<p>A logical indicating whether or not to add ellipses with axes corresponding 
-to the within-cluster covariances.
+<p>A logical indicating whether or not to add ellipses with axes 
+corresponding to the within-cluster covariances.
+</p>
+</td></tr>
+<tr valign="top"><td><code>fillEllipses</code></td>
+<td>
+
+<p>A logical specifying whether or not to fill ellipses with transparent
+colors when <code>addEllipses = TRUE</code>.
 </p>
 </td></tr>
 <tr valign="top"><td><code>symbols</code></td>
@@ -232,5 +238,5 @@ mclust2Dplot(faithful, parameters=faithfulModel$parameters,
 ## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>

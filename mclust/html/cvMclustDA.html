@@ -16,7 +16,10 @@
 <h3>Usage</h3>
 
 <pre>
-cvMclustDA(object, nfold = 10, verbose = interactive(), ...) 
+cvMclustDA(object, nfold = 10, 
+           metric = c("error", "brier"),
+           prop = object$prop,
+           verbose = interactive(), ...) 
 </pre>
 
 
@@ -33,6 +36,21 @@ cvMclustDA(object, nfold = 10, verbose = interactive(), ...)
 <td>
 
 <p>An integer specifying the number of folds.
+</p>
+</td></tr>
+<tr valign="top"><td><code>metric</code></td>
+<td>
+
+<p>A character string specifying the statistic to be used in the 
+cross-validation resampling process. Possible values are <code>"error"</code> 
+for the classification error, and <code>"brier"</code> for the Brier score.
+</p>
+</td></tr>
+<tr valign="top"><td><code>prop</code></td>
+<td>
+
+<p>A vector of class prior probabilities, which if not provided default
+to the class proportions in the training data. 
 </p>
 </td></tr>
 <tr valign="top"><td><code>verbose</code></td>
@@ -63,11 +81,15 @@ cvMclustDA(object, nfold = 10, verbose = interactive(), ...)
 </td></tr> 
 <tr valign="top"><td><code>error</code></td>
 <td>
-<p>the cross-validation error.</p>
+<p>the cross-validation classification error if <code>metric = "error"</code>, <code>NA</code> otherwise.</p>
+</td></tr>
+<tr valign="top"><td><code>brier</code></td>
+<td>
+<p>the cross-validation Brier score if <code>metric = "brier"</code>, <code>NA</code> otherwise.</p>
 </td></tr> 
 <tr valign="top"><td><code>se</code></td>
 <td>
-<p>the standard error of cv error.</p>
+<p>the standard error of the cross-validated statistic.</p>
 </td></tr>
 </table>
 
@@ -82,7 +104,8 @@ cvMclustDA(object, nfold = 10, verbose = interactive(), ...)
 <p><code><a href="summary.MclustDA.html">summary.MclustDA</a></code>, 
 <code><a href="plot.MclustDA.html">plot.MclustDA</a></code>, 
 <code><a href="predict.MclustDA.html">predict.MclustDA</a></code>, 
-<code><a href="classError.html">classError</a></code>
+<code><a href="classError.html">classError</a></code>,
+<code><a href="BrierScore.html">BrierScore</a></code>
 </p>
 
 
@@ -95,21 +118,24 @@ Class &lt;- iris[,5]
 
 # common EEE covariance structure (which is essentially equivalent to linear discriminant analysis)
 irisMclustDA &lt;- MclustDA(X, Class, modelType = "EDDA", modelNames = "EEE")
-cv &lt;- cvMclustDA(irisMclustDA) # default 10-fold CV
+cv &lt;- cvMclustDA(irisMclustDA)  # default 10-fold CV
 cv[c("error", "se")]
 
-cv &lt;- cvMclustDA(irisMclustDA, nfold = length(Class)) # LOO-CV
+cv &lt;- cvMclustDA(irisMclustDA, nfold = length(Class))  # LOO-CV
 cv[c("error", "se")] 
-# compare with 
-# cv1EMtrain(X, Class, "EEE")
+
+cv &lt;- cvMclustDA(irisMclustDA, metric = "brier")  # 10-fold CV with Brier score metric
+cv[c("brier", "se")]
 
 # general covariance structure selected by BIC
 irisMclustDA &lt;- MclustDA(X, Class)
-cv &lt;- cvMclustDA(irisMclustDA) # default 10-fold CV
+cv &lt;- cvMclustDA(irisMclustDA)  # default 10-fold CV
 cv[c("error", "se")]
+cv &lt;- cvMclustDA(irisMclustDA, metric = "brier")  # 10-fold CV with Brier score metric
+cv[c("brier", "se")]
 
 ## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>

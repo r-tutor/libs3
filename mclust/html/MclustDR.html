@@ -16,7 +16,7 @@
 <h3>Usage</h3>
 
 <pre>
-MclustDR(object, normalized = TRUE, Sigma, lambda = 0.5, 
+MclustDR(object, lambda = 0.5, normalized = TRUE, Sigma,
          tol = sqrt(.Machine$double.eps))
 </pre>
 
@@ -29,6 +29,14 @@ MclustDR(object, normalized = TRUE, Sigma, lambda = 0.5,
 <p>An object of class <code>'Mclust'</code> or <code>'MclustDA'</code> resulting from a call to, respectively, <code><a href="Mclust.html">Mclust</a></code> or <code><a href="MclustDA.html">MclustDA</a></code>.
 </p>
 </td></tr>
+<tr valign="top"><td><code>lambda</code></td>
+<td>
+<p>A tuning parameter in the range [0,1] described in Scrucca (2014). 
+The default 0.5 gives equal importance to differences in means and covariances 
+among clusters/classes. To recover the directions that mostly separate the estimated
+clusters or classes set this parameter to 1. 
+</p>
+</td></tr>
 <tr valign="top"><td><code>normalized</code></td>
 <td>
 <p>Logical. If <code>TRUE</code> directions are normalized to unit norm.
@@ -37,14 +45,6 @@ MclustDR(object, normalized = TRUE, Sigma, lambda = 0.5,
 <tr valign="top"><td><code>Sigma</code></td>
 <td>
 <p>Marginal covariance matrix of data. If not provided is estimated by the MLE of observed data.
-</p>
-</td></tr>
-<tr valign="top"><td><code>lambda</code></td>
-<td>
-<p>A tuning parameter in the range [0,1] described in Scrucca (2014). 
-The default 0.5 gives equal importance to differences in means and covariances 
-among clusters/classes. To recover the directions that mostly separate the estimated
-clusters or classes set this parameter to 1. 
 </p>
 </td></tr>
 <tr valign="top"><td><code>tol</code></td>
@@ -202,5 +202,5 @@ dr &lt;- MclustDR(da)
 summary(dr)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>

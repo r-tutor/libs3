@@ -16,7 +16,7 @@
 
 <pre>
   ## S3 method for class 'densityMclust'
-predict(object, newdata, what = c("dens", "cdens"), logarithm = FALSE, ...)
+predict(object, newdata, what = c("dens", "cdens", "z"), logarithm = FALSE, ...)
 </pre>
 
 
@@ -33,7 +33,7 @@ predict(object, newdata, what = c("dens", "cdens"), logarithm = FALSE, ...)
 </td></tr>
 <tr valign="top"><td><code>what</code></td>
 <td>
-<p>a character string specifying what to retrieve: <code>"dens"</code> returns a vector of values for the mixture density: <code>"cdens"</code> returns a matrix of component densities for each mixture component (along the columns).</p>
+<p>a character string specifying what to retrieve: <code>"dens"</code> returns a vector of values for the mixture density; <code>"cdens"</code> returns a matrix of component densities for each mixture component (along the columns); <code>"z"</code> returns a matrix of conditional probabilities of each data point to belong to a mixture component.</p>
 </td></tr>
 <tr valign="top"><td><code>logarithm</code></td>
 <td>
@@ -76,5 +76,5 @@ points(x0, d0, pch = 20)
 ## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>

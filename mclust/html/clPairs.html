@@ -17,8 +17,9 @@ Observations in different classes are represented by different colors and symbol
 <h3>Usage</h3>
 
 <pre>
-clPairs(data, classification, symbols, colors, labels = dimnames(data)[[2]], 
-        CEX = 1, gap = 0.2, ...)
+clPairs(data, classification, symbols, colors, 
+        labels = dimnames(data)[[2]], cex.labels = 1.5, 
+        gap = 0.2, ...)
 
 clPairsLegend(x, y, class, col, pch, box = TRUE, ...)
 </pre>
@@ -65,15 +66,14 @@ The default is given by <code>mclust.options("classPlotColors")</code>.
 <tr valign="top"><td><code>labels</code></td>
 <td>
 
-<p>A vector of character strings for labeling the variables. The default
+<p>A vector of character strings for labelling the variables. The default
 is to use the column dimension names of <code>data</code>.
 </p>
 </td></tr>
-<tr valign="top"><td><code>CEX</code></td>
+<tr valign="top"><td><code>cex.labels</code></td>
 <td>
 
-<p>An argument specifying the size of the plotting symbols. 
-The default value is 1.
+<p>An argument specifying the size of the text labels.
 </p>
 </td></tr>
 <tr valign="top"><td><code>gap</code></td>
@@ -165,5 +165,5 @@ clPairsLegend(0.1, 0.4, class = clp$class,
 
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>

@@ -5,13 +5,11 @@
 
 <table width="100%" summary="page for plot.MclustDA {mclust}"><tr><td>plot.MclustDA {mclust}</td><td style="text-align: right;">R Documentation</td></tr></table>
 
-<h2>
-Plotting method for MclustDA discriminant analysis
-</h2>
+<h2>Plotting method for MclustDA discriminant analysis</h2>
 
 <h3>Description</h3>
 
-<p>Graphical tools for training and test data, known training data classification, mclustDA test data classification, and/or training errors.
+<p>Plots for model-based mixture discriminant analysis results, such as scatterplot of training and test data, classification of train and test data, and errors.
 </p>
 
 
@@ -20,7 +18,8 @@ Plotting method for MclustDA discriminant analysis
 <pre>
 ## S3 method for class 'MclustDA'
 plot(x, what = c("scatterplot", "classification", "train&amp;test", "error"), 
-     newdata, newclass, dimens, symbols, colors, ...)
+     newdata, newclass, dimens = NULL, 
+     symbols, colors, main = NULL, ...)
 </pre>
 
 
@@ -36,13 +35,13 @@ plot(x, what = c("scatterplot", "classification", "train&amp;test", "error"),
 <tr valign="top"><td><code>what</code></td>
 <td>
 
-<p>The type of graph requested: 
+<p>A string specifying the type of graph requested. Available choices are:
 </p>
 
 <dl>
-<dt><code>"scatterplot"</code> =</dt><dd><p>a plot of training data with points marked based the known classification. Ellipses corresponding to covariances of mixture components are also drawn.</p>
+<dt><code>"scatterplot"</code> =</dt><dd><p>a plot of training data with points marked based on the known classification. Ellipses corresponding to covariances of mixture components are also drawn.</p>
 </dd>
-<dt><code>"classification"</code> =</dt><dd><p>a plot of data with points marked based the predicted classification; if <code>newdata</code> is provided then the test set is shown otherwise the training set.</p>
+<dt><code>"classification"</code> =</dt><dd><p>a plot of data with points marked on based the predicted classification; if <code>newdata</code> is provided then the test set is shown otherwise the training set.</p>
 </dd>
 <dt><code>"train&amp;test"</code> =</dt><dd><p>a plot of training and test data with points marked according to the type of set.</p>
 </dd>
@@ -50,6 +49,8 @@ plot(x, what = c("scatterplot", "classification", "train&amp;test", "error"),
 </dd>
 </dl>
 
+<p>If not specified, in interactive sessions a menu of choices is proposed.
+</p>
 </td></tr>
 <tr valign="top"><td><code>newdata</code></td>
 <td>
@@ -90,6 +91,15 @@ unique class in <code>classification</code>. Elements in <code>colors</code>
 correspond to classes in order of appearance in the sequence of
 observations (the order used by the function <code>factor</code>). 
 The default is given by <code>mclust.options("classPlotColors")</code>.
+</p>
+</td></tr>
+<tr valign="top"><td><code>main</code></td>
+<td>
+
+<p>A logical, a character string, or <code>NULL</code> (default) for the main title. 
+If <code>NULL</code> or <code>FALSE</code> no title is added to a plot. 
+If <code>TRUE</code> a default title is added identifying the type of plot drawn.
+If a character string is provided, this is used for the title.
 </p>
 </td></tr>
 <tr valign="top"><td><code>...</code></td>
@@ -203,5 +213,5 @@ plot(crossMclustDA, what = "error", newdata =cross[even,-1], newclass = cross[ev
 ## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mclust</em> version 5.4.4 <a href="00Index.html">Index</a>]</div>
 </body></html>
