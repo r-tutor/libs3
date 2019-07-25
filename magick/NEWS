@@ -1,3 +1,23 @@
+2.1
+  - New website at https://docs.ropensci.org/magick
+  - Fix compilation for IM 6.8.8 (Suse Linux 12)
+  - Add image_destroy() to release memory immediately without waiting for GC
+  - New functions image_shadow() and image_shadow_mask()
+  - image_annotate() is now vectorized over the 'text' parameter
+  - rewrite image_ggplot() to use ggplot2::annotation_raster for performance
+  - image_fill() gains a new argument 'refcolor'
+  - the mac binary package now bundles the same fontconfig data as xQuarts to prevent conflicts
+  - image_convert() gains a parameter matte to enable/disable the alpha channel
+  - image_crop() gains a gravity argument
+  - the 'offset' parameter in image_composite() can now also be a gravity type
+  - New functions image_extent() and image_shear()
+  - image_annotate() gains parameters 'weight' and 'style'
+  - Windows: support upcoming GCC 8.x toolchain
+  - Windows: fix for reading UTF-8 files in image_read()
+  - Ubuntu: mention the new PPA location in readme and configure files
+  - MacOS: workaround for OpenMP conflicts when building from source against homebrew IM7.
+    This is still not working properly, better build with homebrew imagemagick@6.
+
 2.0
   - Ignore attribute warnings in image_read() instead of error (fixes #134)
   - New functions image_threshold() and image_lat(), tnx Jan Wijffels

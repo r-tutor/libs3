@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Write Video</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for video {magick}"><tr><td>video {magick}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Write Video</h2>
+
+<h3>Description</h3>
+
+<p>High quality video / gif exporter based on external packages <a href="../../gifski/html/gifski.html">gifski</a>
+and <a href="../../av/html/av_encode_video.html">av</a>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+image_write_video(image, path = NULL, framerate = 1, ...)
+
+image_write_gif(image, path = NULL, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>image</code></td>
+<td>
+<p>magick image object returned by <code><a href="editing.html">image_read()</a></code> or <code><a href="device.html">image_graph()</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>path</code></td>
+<td>
+<p>filename of the output gif or video. This is also the return value.</p>
+</td></tr>
+<tr valign="top"><td><code>framerate</code></td>
+<td>
+<p>frames per second, passed to <a href="../../av/html/av_encode_video.html">av_encode_video</a></p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>additional parameters passed to <a href="../../av/html/av_encode_video.html">av_encode_video</a> and
+<a href="../../gifski/html/gifski.html">gifski</a>.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This requires an image with multiple frames. The GIF exporter accomplishes the same
+thing as <a href="animation.html">image_animate</a> but much faster and with better quality.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>Other image: <code><a href="magick.html">_index_</a></code>, <code><a href="analysis.html">analysis</a></code>,
+<code><a href="animation.html">animation</a></code>, <code><a href="attributes.html">attributes</a></code>,
+<code><a href="color.html">color</a></code>, <code><a href="composite.html">composite</a></code>,
+<code><a href="device.html">device</a></code>, <code><a href="edges.html">edges</a></code>,
+<code><a href="editing.html">editing</a></code>, <code><a href="effects.html">effects</a></code>,
+<code><a href="fx.html">fx</a></code>, <code><a href="geometry.html">geometry</a></code>,
+<code><a href="morphology.html">morphology</a></code>, <code><a href="ocr.html">ocr</a></code>,
+<code><a href="options.html">options</a></code>, <code><a href="painting.html">painting</a></code>,
+<code><a href="segmentation.html">segmentation</a></code>, <code><a href="transform.html">transform</a></code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.1 <a href="00Index.html">Index</a>]</div>
+</body></html>

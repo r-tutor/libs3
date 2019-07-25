@@ -60,11 +60,10 @@ sudo yum install ImageMagick-c++-devel
 To install from source on macOS you need `imagemagick@6` from homebrew.
 
 ```
-brew reinstall imagemagick@6 --with-fontconfig --with-librsvg
-brew link --force imagemagick@6
+brew install imagemagick@6
 ```
 
-The default imagemagick configuration on homebrew disables a bunch of features. It is recommended to brew with at least `--with-fontconfig` and `--with-librsvg` to support high quality font / svg rendering (the CRAN OSX binary package enables these as well).
+Unfortunately the current `imagemagick@6` configuration on homebrew disables a bunch of features, including librsvg and fontconfig. Therefore the quality of fonts and svg rendering might be supoptimal. The is not a problem for the CRAN binary package.
 
 ## Image IO
 
@@ -76,7 +75,7 @@ Images can be read directly from a file path, URL, or raw vector with image data
 
 ```{r, eval = require(rsvg, quietly = TRUE)}
 library(magick)
-tiger <- image_read_svg('http://jeroen.github.io/images/tiger.svg', width = 400)
+tiger <- image_read_svg('http://jeroen.github.io/images/tiger.svg', width = 350)
 print(tiger)
 ```
 
@@ -91,7 +90,7 @@ If `path` is a filename, `image_write` returns `path` on success such that the r
 
 ### Converting formats
 
-Magick keeps the image in memory in it's original format. Specify the `format` parameter `image_write` to convert to another format. You can also internally convert the image to another format earlier, before applying transformations. This can be useful if your original format is lossy.
+Magick keeps the image in memory in its original format. Specify the `format` parameter `image_write` to convert to another format. You can also internally convert the image to another format earlier, before applying transformations. This can be useful if your original format is lossy.
 
 ```{r, eval = require(rsvg, quietly = TRUE)}
 tiger_png <- image_convert(tiger, "png")
@@ -123,7 +122,7 @@ image_display(tiger)
 image_browse(tiger)
 ```
 
-Another method is converting the image to a raster object and plot it on R's graphics display. However this is very slow and only useful in combination with other plotting functionality. See [#raster](#raster-graphics) below.
+Another method is converting the image to a raster object and plot it on R's graphics display. However this is very slow and only useful in combination with other plotting functionality. See [#raster](#raster-images) below.
 
 ## Transformations
 
@@ -505,7 +504,7 @@ grid.raster(frink)
 
 ### The `raster` package
 
-The `raster` package has it's own classes for bitmaps which are useful for spatial applications. The simplest way to convert an image to raster is export it as a `tiff` file:
+The `raster` package has its own classes for bitmaps which are useful for spatial applications. The simplest way to convert an image to raster is export it as a `tiff` file:
 
 ```{r, fig.height=2}
 tiff_file <- tempfile()

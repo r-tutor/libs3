@@ -1,7 +1,7 @@
 Package: magick
 Type: Package
 Title: Advanced Graphics and Image-Processing in R
-Version: 2.0
+Version: 2.1
 Authors@R: person("Jeroen", "Ooms", role = c("aut", "cre"), email = "jeroen@berkeley.edu",
     comment = c(ORCID = "0000-0002-4035-0289"))
 Description: Bindings to 'ImageMagick': the most comprehensive open-source image
@@ -14,7 +14,8 @@ Description: Bindings to 'ImageMagick': the most comprehensive open-source image
     version of the package includes a native graphics device for creating 
     in-memory graphics or drawing onto images using pixel coordinates.
 License: MIT + file LICENSE
-URL: https://github.com/ropensci/magick#readme
+URL: https://docs.ropensci.org/magick (website)
+        https://github.com/ropensci/magick (devel)
 BugReports: https://github.com/ropensci/magick/issues
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or
         libmagick++-dev (deb)
@@ -25,13 +26,13 @@ Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg,
         webp, pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 Encoding: UTF-8
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2018-10-04 23:21:28 UTC; jeroen
+Packaged: 2019-07-25 11:36:06 UTC; jeroen
 Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Repository: CRAN
-Date/Publication: 2018-10-05 10:00:03 UTC
-Built: R 3.5.1; x86_64-w64-mingw32; 2018-10-05 23:54:55 UTC; windows
+Date/Publication: 2019-07-25 12:10:02 UTC
+Built: R 3.6.1; x86_64-w64-mingw32; 2019-07-25 21:00:39 UTC; windows
 Archs: i386, x64

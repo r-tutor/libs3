@@ -9,7 +9,7 @@ str(magick::magick_config())
 
 ## ---- eval = require(rsvg, quietly = TRUE)-------------------------------
 library(magick)
-tiger <- image_read_svg('http://jeroen.github.io/images/tiger.svg', width = 400)
+tiger <- image_read_svg('http://jeroen.github.io/images/tiger.svg', width = 350)
 print(tiger)
 
 ## ---- eval = require(rsvg, quietly = TRUE)-------------------------------
