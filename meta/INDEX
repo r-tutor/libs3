@@ -36,6 +36,7 @@ metamean                Meta-analysis of single means
 metaprop                Meta-analysis of single proportions
 metarate                Meta-analysis of single incidence rates
 metareg                 Meta-regression
+nnt                     Calculate the number needed to treat (NNT)
 or2smd                  Conversion from log odds ratio to standardised
                         mean difference
 print.meta              Print meta-analysis results

@@ -40,10 +40,14 @@ metamean	metamean
 metaprop	metaprop
 metarate	metarate
 metareg	metareg
+nnt	nnt
+nnt.default	nnt
+nnt.meta	nnt
 Olkin95	Olkin95
 or2smd	or2smd
 print.meta	print.meta
 print.metabias	metabias
+print.nnt.meta	nnt
 print.rm5	read.rm5
 print.summary.meta	summary.meta
 print.summary.rm5	summary.rm5
