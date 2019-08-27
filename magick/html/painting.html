@@ -22,7 +22,8 @@ image_fill(image, color, point = "+1+1", fuzz = 0, refcolor = NULL)
 
 image_annotate(image, text, gravity = "northwest", location = "+0+0",
   degrees = 0, size = 10, font = "", style = "normal",
-  weight = 400, color = NULL, strokecolor = NULL, boxcolor = NULL)
+  weight = 400, kerning = 0, decoration = NULL, color = NULL,
+  strokecolor = NULL, boxcolor = NULL)
 </pre>
 
 
@@ -90,6 +91,14 @@ value from <a href="options.html">gravity_types</a>.</p>
 <td>
 <p>thickness of the font, 400 is normal and 700 is bold.</p>
 </td></tr>
+<tr valign="top"><td><code>kerning</code></td>
+<td>
+<p>increases or decreases whitespace between letters</p>
+</td></tr>
+<tr valign="top"><td><code>decoration</code></td>
+<td>
+<p>value of <a href="options.html">decoration_types</a> for example <code>"underline"</code></p>
+</td></tr>
 <tr valign="top"><td><code>strokecolor</code></td>
 <td>
 <p>a <a href="https://www.imagemagick.org/Magick++/Color.html">color string</a>
@@ -143,5 +152,5 @@ image_annotate(logo, "CONFIDENTIAL", size = 50, color = "red", boxcolor = "pink"
 image_annotate(logo, "The quick brown fox", font = "monospace", size = 50)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.1 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.2 <a href="00Index.html">Index</a>]</div>
 </body></html>

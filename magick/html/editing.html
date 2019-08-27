@@ -25,6 +25,8 @@ image_read_svg(path, width = NULL, height = NULL)
 
 image_read_pdf(path, pages = NULL, density = 300, password = "")
 
+image_read_video(path, fps = 1, format = "png")
+
 image_write(image, path = NULL, format = NULL, quality = NULL,
   depth = NULL, density = NULL, comment = NULL, flatten = FALSE)
 
@@ -88,13 +90,18 @@ demo_image(path)
 <td>
 <p>user <a href="../../pdftools/html/pdf_render_page.html">password</a> to open protected pdf files</p>
 </td></tr>
-<tr valign="top"><td><code>image</code></td>
+<tr valign="top"><td><code>fps</code></td>
 <td>
-<p>magick image object returned by <code><a href="editing.html">image_read()</a></code> or <code><a href="device.html">image_graph()</a></code></p>
+<p>how many images to capture per second of video. Set to
+<code>NULL</code> to get all frames from the input video.</p>
 </td></tr>
 <tr valign="top"><td><code>format</code></td>
 <td>
 <p>output format such as <code>"png"</code>, <code>"jpeg"</code>, <code>"gif"</code>, <code>"rgb"</code> or <code>"rgba"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>image</code></td>
+<td>
+<p>magick image object returned by <code><a href="editing.html">image_read()</a></code> or <code><a href="device.html">image_graph()</a></code></p>
 </td></tr>
 <tr valign="top"><td><code>quality</code></td>
 <td>
@@ -238,5 +245,5 @@ image_blank(600, 400, "green")
 image_blank(600, 400, pseudo_image = "radial-gradient:purple-yellow")
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.1 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.2 <a href="00Index.html">Index</a>]</div>
 </body></html>

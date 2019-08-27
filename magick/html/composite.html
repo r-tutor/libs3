@@ -18,7 +18,7 @@
 
 <pre>
 image_composite(image, composite_image, operator = "atop",
-  offset = "+0+0", compose_args = "")
+  offset = "+0+0", gravity = "northwest", compose_args = "")
 
 image_border(image, color = "lightgray", geometry = "10x10",
   operator = "copy")
@@ -53,6 +53,12 @@ from <a href="options.html">compose_types()</a></p>
 <td>
 <p>string with either a <a href="options.html">gravity_type</a> or a <a href="geometry.html">geometry_point</a>
 to set position of top image.</p>
+</td></tr>
+<tr valign="top"><td><code>gravity</code></td>
+<td>
+<p>string with
+<a href="https://www.imagemagick.org/Magick++/Enumerations.html#GravityType">gravity</a>
+value from <a href="options.html">gravity_types</a>.</p>
 </td></tr>
 <tr valign="top"><td><code>compose_args</code></td>
 <td>
@@ -116,7 +122,7 @@ image_composite(imlogo, rlogo, operator = "blend", compose_args="50")
 
 # Offset can be geometry or gravity
 image_composite(logo, rose, offset = "+100+100")
-image_composite(logo, rose, offset = "East")
+image_composite(logo, rose, gravity = "East")
 
 # Add a border frame around the image
 image_border(imlogo, "red", "10x10")
@@ -124,5 +130,5 @@ image_frame(imlogo)
 image_shadow(imlogo)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.1 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.2 <a href="00Index.html">Index</a>]</div>
 </body></html>

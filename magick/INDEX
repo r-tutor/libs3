@@ -3,7 +3,7 @@ analysis                Image Analysis
 animation               Image Frames and Animation
 as_EBImage              Convert to EBImage
 attributes              Image Attributes
-autoviewer              RStudio AutoViewer
+autoviewer              RStudio Graphics AutoViewer
 coder_info              Magick Configuration
 color                   Image Color
 composite               Image Composite

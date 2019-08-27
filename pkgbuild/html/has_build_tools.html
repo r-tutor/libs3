@@ -22,7 +22,7 @@ available these functions will trigger an automated install.
 <pre>
 has_build_tools(debug = FALSE)
 
-check_build_tools(debug = FALSE)
+check_build_tools(debug = FALSE, quiet = FALSE)
 
 with_build_tools(code, debug = FALSE, required = TRUE)
 
@@ -38,6 +38,10 @@ local_build_tools(debug = FALSE, required = TRUE,
 <td>
 <p>If <code>TRUE</code>, will print out extra information useful for
 debugging. If <code>FALSE</code>, it will use result cached from a previous run.</p>
+</td></tr>
+<tr valign="top"><td><code>quiet</code></td>
+<td>
+<p>if <code>TRUE</code> suppresses output from this function.</p>
 </td></tr>
 <tr valign="top"><td><code>code</code></td>
 <td>
@@ -85,5 +89,5 @@ has_build_tools(debug = TRUE)
 check_build_tools()
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>pkgbuild</em> version 1.0.4 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>pkgbuild</em> version 1.0.5 <a href="00Index.html">Index</a>]</div>
 </body></html>

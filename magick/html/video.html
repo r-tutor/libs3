@@ -17,9 +17,9 @@ and <a href="../../av/html/av_encode_video.html">av</a>.
 <h3>Usage</h3>
 
 <pre>
-image_write_video(image, path = NULL, framerate = 1, ...)
+image_write_video(image, path = NULL, framerate = 10, ...)
 
-image_write_gif(image, path = NULL, ...)
+image_write_gif(image, path = NULL, delay = 1/10, ...)
 </pre>
 
 
@@ -42,6 +42,10 @@ image_write_gif(image, path = NULL, ...)
 <td>
 <p>additional parameters passed to <a href="../../av/html/av_encode_video.html">av_encode_video</a> and
 <a href="../../gifski/html/gifski.html">gifski</a>.</p>
+</td></tr>
+<tr valign="top"><td><code>delay</code></td>
+<td>
+<p>duration of each frame in seconds (inverse of framerate)</p>
 </td></tr>
 </table>
 
@@ -66,5 +70,5 @@ thing as <a href="animation.html">image_animate</a> but much faster and with bet
 <code><a href="segmentation.html">segmentation</a></code>, <code><a href="transform.html">transform</a></code>
 </p>
 
-<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.1 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>magick</em> version 2.2 <a href="00Index.html">Index</a>]</div>
 </body></html>

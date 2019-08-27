@@ -13,6 +13,7 @@ color	color
 colorspace_types	options
 compose_types	options
 composite	composite
+decoration_types	options
 demo_image	editing
 device	device
 dispose_types	options
@@ -47,6 +48,7 @@ image_charcoal	effects
 image_chop	transform
 image_coalesce	animation
 image_colorize	color
+image_combine	color
 image_comment	attributes
 image_compare	analysis
 image_compare_dist	analysis
@@ -104,12 +106,14 @@ image_raster	editing
 image_read	editing
 image_read_pdf	editing
 image_read_svg	editing
+image_read_video	editing
 image_reducenoise	effects
 image_repage	transform
 image_resize	transform
 image_rotate	transform
 image_sample	transform
 image_scale	transform
+image_separate	color
 image_shadow	composite
 image_shadow_mask	composite
 image_shear	transform
