@@ -1,8 +1,8 @@
 Package: lambda.r
 Type: Package
 Title: Modeling Data with Functional Programming
-Version: 1.2.3
-Date: 2018-05-17
+Version: 1.2.4
+Date: 2019-09-15
 Depends: R (>= 3.0.0)
 Imports: formatR
 Suggests: testit
@@ -12,7 +12,7 @@ Description: A language extension to efficiently write functional programs in R.
 License: LGPL-3
 LazyLoad: yes
 NeedsCompilation: no
-Packaged: 2018-05-17 15:47:12 UTC; brian
+Packaged: 2019-09-15 08:08:15 UTC; brian
 Repository: CRAN
-Date/Publication: 2018-05-17 23:32:53 UTC
-Built: R 3.5.0; ; 2018-06-22 10:19:06 UTC; windows
+Date/Publication: 2019-09-18 14:30:02 UTC
+Built: R 3.6.1; ; 2019-09-20 23:41:37 UTC; windows

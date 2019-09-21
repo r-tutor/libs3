@@ -4,7 +4,8 @@ as_pkgdown	as_pkgdown
 autolink_html	autolink_html
 build_article	build_articles
 build_articles	build_articles
-build_favicon	build_favicon
+build_favicon	build_favicons
+build_favicons	build_favicons
 build_home	build_home
 build_news	build_news
 build_reference	build_reference
@@ -31,3 +32,4 @@ test-links	test-links
 test-lists	test-lists
 test-output-styles	test-output-styles
 test-params	test-params
+test-verbatim	test-verbatim
