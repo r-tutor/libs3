@@ -53,7 +53,6 @@ MxOptionalMatrix-class
 MxOptionalNumeric-class
                         An optional numeric
 MxRAMGraph-class        MxRAMGraph
-MxRAMMetaData-class     Meta Data for RAM
 MxRAMModel-class        MxRAMModel
 MxVersionType-class     A package_version or character
 Named-entity            Named Entities
@@ -106,7 +105,6 @@ imxDeparse              Deparse for MxObjects
 imxDependentModels      Are submodels dependence?
 imxDetermineDefaultOptimizer
                         imxDetermineDefaultOptimizer
-imxDiff                 Set difference on regular types or S4 objects
 imxDmvnorm              A C implementation of dmvnorm
 imxEvalByName           imxEvalByName
 imxExtractMethod        imxExtractMethod
@@ -146,7 +144,7 @@ imxLookupSymbolTable    imxLookupSymbolTable
 imxModelBuilder         imxModelBuilder
 imxModelTypes           imxModelTypes
 imxMpiWrap              imxMpiWrap
-imxOriginalMx           imxOriginalMx
+imxOriginalMx           Run an classic mx script
 imxPPML                 imxPPML
 imxPPML.Test.Battery    imxPPML.Test.Battery
 imxPPML.Test.Test       imxPPML.Test.Test
@@ -287,7 +285,8 @@ mxFitFunctionR          Create MxFitFunctionR Object
 mxFitFunctionRow        Create an MxFitFunctionRow Object
 mxFitFunctionWLS        Create MxFitFunctionWLS Object
 mxGREMLDataHandler      Helper Function for Structuring GREML Data
-mxGenerateData          Generate data based on an MxModel object
+mxGenerateData          Generate data based on an mxModel (or a
+                        data.frame)
 mxGetExpected           Extract the component from a model's
                         expectation
 mxJiggle                Jiggle parameter values.
@@ -312,12 +311,12 @@ mxPowerSearch           Power curve
 mxRAMObjective          DEPRECATED: Create MxRAMObjective Object
 mxRObjective            DEPRECATED: Create MxRObjective Object
 mxRename                Rename MxModel or a Submodel
-mxRestore               Restore From Checkpoint File
+mxRestore               Restore model state from a checkpoint file
 mxRetro                 Return random classic Mx error message
 mxRowObjective          DEPRECATED: Create MxRowObjective Object
 mxRun                   Run an OpenMx model
 mxSE                    Compute standard errors in OpenMx
-mxSave                  Save End State to Checkpoint File
+mxSave                  Save model state to a checkpoint file
 mxSetDefaultOptions     Reset global options to the default
 mxSimplify2Array        Like simplify2array but works with vectors of
                         different lengths

@@ -114,7 +114,7 @@ cell frequency of all studies irrespective of zero cell counts.</p>
 <tr valign="top"><td><code>model.glmm</code></td>
 <td>
 <p>A character string indicating which GLMM should
-be used.  One of <code>"UM.FS"</code>, <code>"UM.RS"</code>, and
+be used. One of <code>"UM.FS"</code>, <code>"UM.RS"</code>, and
 <code>"CM.EL"</code>, see Details.</p>
 </td></tr>
 <tr valign="top"><td><code>level</code></td>
@@ -288,11 +288,13 @@ passed on to <code><a href="../../metafor/html/rma.uni.html">rma.uni</a></code> 
 <p>Treatment estimates and standard errors are calculated for each
 study. The following measures of treatment effect are available:
 </p>
- <ul>
-<li><p> Incidence Rate Ratio (<code>sm = "IRR"</code>) </p>
+
+<ul>
+<li><p> Incidence Rate Ratio (<code>sm = "IRR"</code>)
+</p>
 </li>
-<li>
-<p>Incidence Rate Difference (<code>sm = "IRD"</code>) </p>
+<li><p> Incidence Rate Difference (<code>sm = "IRD"</code>)
+</p>
 </li></ul>
 
 <p>For several arguments defaults settings are utilised (assignments
@@ -370,7 +372,7 @@ function):
 </table>
 
 <p>Details on these three GLMMs as well as additional arguments which
-can be provided using argument '<code>...{}</code>' in <code>metainc</code>
+can be provided using argument '<code>...</code>' in <code>metainc</code>
 are described in <code><a href="../../metafor/html/rma.glmm.html">rma.glmm</a></code> where you can also
 find information on the iterative algorithms used for estimation.
 Note, regardless of which value is used for argument
@@ -389,13 +391,17 @@ number of events is zero in all studies either in the experimental
 or control group.
 </p>
 <p>Argument <code>byvar</code> can be used to conduct subgroup analysis for
-all methods but GLMMs. Instead use the <code><a href="metareg.html">metareg</a></code>
-function for GLMMs which can also be used for continuous
+a categorical covariate. The <code><a href="metareg.html">metareg</a></code> function can be
+used instead for more than one categorical covariate or continuous
 covariates.
 </p>
-<p>A prediction interval for the treatment effect of a new study is
-calculated (Higgins et al., 2009) if arguments <code>prediction</code>
-and <code>comb.random</code> are <code>TRUE</code>.
+<p>A prediction interval for the proportion in a new study (Higgins et
+al., 2009) is calculated if arguments <code>prediction</code> and
+<code>comb.random</code> are <code>TRUE</code>. Note, the definition of
+prediction intervals varies in the literature. This function
+implements equation (12) of Higgins et al., (2009) which proposed a
+<em>t</em> distribution with <em>K-2</em> degrees of freedom where
+<em>K</em> corresponds to the number of studies in the meta-analysis.
 </p>
 <p>R function <code><a href="update.meta.html">update.meta</a></code> can be used to redo the
 meta-analysis of an existing metainc object by only specifying
@@ -405,20 +411,18 @@ arguments which should be changed.
 used to adjust test statistics and confidence intervals if argument
 <code>hakn = TRUE</code>.
 </p>
-<p>The DerSimonian-Laird estimate (1986) is used in the random effects
-model if <code>method.tau = "DL"</code>. The iterative Paule-Mandel
-method (1982) to estimate the between-study variance is used if
-argument <code>method.tau = "PM"</code>.  Internally, R function
-<code>paulemandel</code> is called which is based on R function
-mpaule.default from R package <b>metRology</b> from S.L.R. Ellison
-&lt;s.ellison at lgc.co.uk&gt;.
-</p>
-<p>If R package <b>metafor</b> (Viechtbauer 2010) is installed, the
-following methods to estimate the between-study variance
-<i>&tau;^2</i> (argument <code>method.tau</code>) are also available:
+<p>The following methods to estimate the between-study variance
+<i>&tau;^2</i> (argument <code>method.tau</code>) are available for the
+inverse variance method:
 </p>
 
 <ul>
+<li><p> DerSimonian-Laird estimator (<code>method.tau = "DL"</code>)
+</p>
+</li>
+<li><p> Paule-Mandel estimator (<code>method.tau = "PM"</code>)
+</p>
+</li>
 <li><p> Restricted maximum-likelihood estimator (<code>method.tau =
   "REML"</code>)
 </p>
@@ -439,10 +443,9 @@ following methods to estimate the between-study variance
 </p>
 </li></ul>
 
-<p>For these methods the R function <code>rma.uni</code> of R package
-<b>metafor</b> is called internally. See help page of R function
-<code>rma.uni</code> for more details on these methods to estimate
-between-study variance.
+<p>See <code><a href="metagen.html">metagen</a></code> for more information on these
+estimators. Note, the maximum-likelihood method is utilized for
+GLMMs.
 </p>
 
 
@@ -584,10 +587,9 @@ prediction interval.</p>
 <td>
 <p>Square-root of between-study variance.</p>
 </td></tr>
-<tr valign="top"><td><code>se.tau</code></td>
+<tr valign="top"><td><code>se.tau2</code></td>
 <td>
-<p>Standard error of square-root of between-study
-variance.</p>
+<p>Standard error of between-study variance.</p>
 </td></tr>
 <tr valign="top"><td><code>C</code></td>
 <td>
@@ -664,12 +666,6 @@ random effects model) - if <code>byvar</code> is not missing.</p>
 <p>Degrees of freedom for test of treatment effect
 for Hartung-Knapp method in subgroups - if <code>byvar</code> is not
 missing and <code>hakn = TRUE</code>.</p>
-</td></tr>
-<tr valign="top"><td><code>n.harmonic.mean.w</code></td>
-<td>
-<p>Harmonic mean of number of observations
-in subgroups (for back transformation of Freeman-Tukey Double
-arcsine transformation) - if <code>byvar</code> is not missing.</p>
 </td></tr>
 <tr valign="top"><td><code>event.e.w</code></td>
 <td>
@@ -966,5 +962,5 @@ update(m4, model.glmm = "CM.EL")
 
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-6 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-7 <a href="00Index.html">Index</a>]</div>
 </body></html>

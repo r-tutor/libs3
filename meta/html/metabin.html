@@ -15,7 +15,7 @@ meta-analyses with binary outcome data. Mantel-Haenszel, inverse
 variance, Peto method, and generalised linear mixed model (GLMM)
 are available for pooling. For GLMMs, the
 <code><a href="../../metafor/html/rma.glmm.html">rma.glmm</a></code> function from R package
-<b>metafor</b> (Viechtbauer 2010) is called internally.
+<b>metafor</b> (Viechtbauer, 2010) is called internally.
 </p>
 
 
@@ -308,7 +308,8 @@ passed on to <code><a href="../../metafor/html/rma.uni.html">rma.uni</a></code> 
 <h3>Details</h3>
 
 <p>Treatment estimates and standard errors are calculated for each
-study. The following measures of treatment effect are available:
+study. The following measures of treatment effect are available
+(Rücker et al., 2009):
 </p>
 
 <ul>
@@ -325,33 +326,28 @@ study. The following measures of treatment effect are available:
 </p>
 </li></ul>
 
-<p>For several arguments defaults settings are utilised (assignments
-using <code><a href="gs.html">gs</a></code> function). These defaults can be changed
-using the <code><a href="settings.meta.html">settings.meta</a></code> function.
-</p>
-<p>Internally, both fixed effect and random effects models are
-calculated regardless of values chosen for arguments
-<code>comb.fixed</code> and <code>comb.random</code>. Accordingly, the estimate
-for the random effects model can be extracted from component
-<code>TE.random</code> of an object of class <code>"meta"</code> even if
-argument <code>comb.random = FALSE</code>. However, all functions in R
-package <b>meta</b> will adequately consider the values for
-<code>comb.fixed</code> and <code>comb.random</code>. E.g. function
-<code><a href="print.meta.html">print.meta</a></code> will not print results for the random
-effects model if <code>comb.random = FALSE</code>.
-</p>
 <p>By default, both fixed effect and random effects models are
 considered (see arguments <code>comb.fixed</code> and
 <code>comb.random</code>). If <code>method</code> is <code>"MH"</code> (default), the
-Mantel-Haenszel method is used to calculate the fixed effect
-estimate; if <code>method</code> is <code>"Inverse"</code>, inverse variance
-weighting is used for pooling; if <code>method</code> is <code>"Peto"</code>,
-the Peto method is used for pooling. For the Peto method, Peto's
-log odds ratio, i.e. <code>(O - E) / V</code> and its standard error
-<code>sqrt(1 / V)</code> with <code>O - E</code> and <code>V</code> denoting
-&quot;Observed minus Expected&quot; and &quot;V&quot;, are utilised in the random
-effects model. Accordingly, results of a random effects model using
-<code>sm = "Peto"</code> can be (slightly) different to results from a
+Mantel-Haenszel method (Greenland &amp; Robins, 1985; Robins et al.,
+1986) is used to calculate the fixed effect estimate; if
+<code>method</code> is <code>"Inverse"</code>, inverse variance weighting is
+used for pooling (Fleiss, 1993); if <code>method</code> is <code>"Peto"</code>,
+the Peto method is used for pooling (Yussuf et al., 1985).
+</p>
+<p>While the Mantel-Haenszel and Peto method are defined under the
+fixed effect model, random effects variants based on these methods
+are also implemented in <code>metabin</code>. Following RevMan 5, the
+Mantel-Haenszel estimator is used in the calculation of the
+between-study heterogeneity statistic Q which is used in the
+DerSimonian-Laird estimator. Accordlingly, the results for the
+random effects meta-analysis using the Mantel-Haenszel or inverse
+variance method are typically very similar. For the Peto method,
+Peto's log odds ratio, i.e. <code>(O-E) / V</code> and its standard error
+<code>sqrt(1 / V)</code> with <code>O-E</code> and <code>V</code> denoting
+&quot;Observed minus Expected&quot; and its variance, are utilised in the
+random effects model. Accordingly, results of a random effects
+model using <code>sm = "Peto"</code> can be different to results from a
 random effects model using <code>sm = "MH"</code> or <code>sm =
 "Inverse"</code>.
 </p>
@@ -417,13 +413,28 @@ meta-analysis with binary outcomes using argument <code>model.glmm</code>
 </table>
 
 <p>Details on these four GLMMs as well as additional arguments which
-can be provided using argument '<code>...{}</code>' in <code>metabin</code>
+can be provided using argument '<code>...</code>' in <code>metabin</code>
 are described in <code><a href="../../metafor/html/rma.glmm.html">rma.glmm</a></code> where you can also
 find information on the iterative algorithms used for estimation.
 Note, regardless of which value is used for argument
 <code>model.glmm</code>, results for two different GLMMs are calculated:
 fixed effect model (with fixed treatment effect) and random effects
 model (with random treatment effects).
+</p>
+<p>For several arguments defaults settings are utilised (assignments
+using <code><a href="gs.html">gs</a></code> function). These defaults can be changed
+using the <code><a href="settings.meta.html">settings.meta</a></code> function.
+</p>
+<p>Internally, both fixed effect and random effects models are
+calculated regardless of values chosen for arguments
+<code>comb.fixed</code> and <code>comb.random</code>. Accordingly, the estimate
+for the random effects model can be extracted from component
+<code>TE.random</code> of an object of class <code>"meta"</code> even if
+argument <code>comb.random = FALSE</code>. However, all functions in R
+package <b>meta</b> will adequately consider the values for
+<code>comb.fixed</code> and <code>comb.random</code>. E.g. function
+<code><a href="print.meta.html">print.meta</a></code> will not print results for the random
+effects model if <code>comb.random = FALSE</code>.
 </p>
 <p>For studies with a zero cell count, by default, 0.5 is added to all
 cell frequencies of these studies; if <code>incr</code> is <code>"TACC"</code>
@@ -450,13 +461,17 @@ events is zero in all studies either in the experimental or control
 group.
 </p>
 <p>Argument <code>byvar</code> can be used to conduct subgroup analysis for
-all methods but GLMMs. Instead use the <code><a href="metareg.html">metareg</a></code>
-function for GLMMs which can also be used for continuous
+a categorical covariate. The <code><a href="metareg.html">metareg</a></code> function can be
+used instead for more than one categorical covariate or continuous
 covariates.
 </p>
-<p>A prediction interval for the treatment effect of a new study is
-calculated (Higgins et al., 2009) if arguments <code>prediction</code>
-and <code>comb.random</code> are <code>TRUE</code>.
+<p>A prediction interval for the proportion in a new study (Higgins et
+al., 2009) is calculated if arguments <code>prediction</code> and
+<code>comb.random</code> are <code>TRUE</code>. Note, the definition of
+prediction intervals varies in the literature. This function
+implements equation (12) of Higgins et al., (2009) which proposed a
+<em>t</em> distribution with <em>K-2</em> degrees of freedom where
+<em>K</em> corresponds to the number of studies in the meta-analysis.
 </p>
 <p>R function <code><a href="update.meta.html">update.meta</a></code> can be used to redo the
 meta-analysis of an existing metabin object by only specifying
@@ -468,20 +483,18 @@ used to adjust test statistics and confidence intervals if argument
 Hartung (2003) is implemented, see description of argument
 <code>tdist</code> in <code><a href="../../metafor/html/rma.glmm.html">rma.glmm</a></code>.
 </p>
-<p>The DerSimonian-Laird estimate (1986) is used in the random effects
-model if <code>method.tau = "DL"</code>. The iterative Paule-Mandel
-method (1982) to estimate the between-study variance is used if
-argument <code>method.tau = "PM"</code>. Internally, R function
-<code>paulemandel</code> is called which is based on R function
-mpaule.default from R package <b>metRology</b> from S.L.R. Ellison
-&lt;s.ellison at lgc.co.uk&gt;.
-</p>
-<p>If R package <b>metafor</b> (Viechtbauer 2010) is installed, the
-following methods to estimate the between-study variance
-<i>&tau;^2</i> (argument <code>method.tau</code>) are also available:
+<p>The following methods to estimate the between-study variance
+<i>&tau;^2</i> (argument <code>method.tau</code>) are available for the
+inverse variance method:
 </p>
 
 <ul>
+<li><p> DerSimonian-Laird estimator (<code>method.tau = "DL"</code>)
+</p>
+</li>
+<li><p> Paule-Mandel estimator (<code>method.tau = "PM"</code>)
+</p>
+</li>
 <li><p> Restricted maximum-likelihood estimator (<code>method.tau =
   "REML"</code>)
 </p>
@@ -502,10 +515,9 @@ following methods to estimate the between-study variance
 </p>
 </li></ul>
 
-<p>For these methods the R function <code>rma.uni</code> of R package
-<b>metafor</b> is called internally. See help page of R function
-<code>rma.uni</code> for more details on these methods to estimate
-between-study variance.
+<p>See <code><a href="metagen.html">metagen</a></code> for more information on these
+estimators. Note, the maximum-likelihood method is utilized for
+GLMMs.
 </p>
 
 
@@ -653,10 +665,9 @@ prediction interval.</p>
 <td>
 <p>Square-root of between-study variance.</p>
 </td></tr>
-<tr valign="top"><td><code>se.tau</code></td>
+<tr valign="top"><td><code>se.tau2</code></td>
 <td>
-<p>Standard error of square-root of between-study
-variance.</p>
+<p>Standard error of between-study variance.</p>
 </td></tr>
 <tr valign="top"><td><code>C</code></td>
 <td>
@@ -752,12 +763,6 @@ random effects model) - if <code>byvar</code> is not missing.</p>
 <p>Degrees of freedom for test of treatment effect
 for Hartung-Knapp method in subgroups - if <code>byvar</code> is not
 missing and <code>hakn = TRUE</code>.</p>
-</td></tr>
-<tr valign="top"><td><code>n.harmonic.mean.w</code></td>
-<td>
-<p>Harmonic mean of number of observations in
-subgroups (for back transformation of Freeman-Tukey Double
-arcsine transformation) - if <code>byvar</code> is not missing.</p>
 </td></tr>
 <tr valign="top"><td><code>event.e.w</code></td>
 <td>
@@ -984,11 +989,17 @@ variate.
 <em>Biometrika</em>,
 <b>73</b>, 425&ndash;35
 </p>
-<p>Rücker G, Schwarzer G, Carpenter JR (2008):
-Arcsine test for publication bias in meta-analyses with binary
-outcomes.
+<p>Robins J, Breslow N, Greenland S (1986):
+Estimators of the Mantel-Haenszel Variance Consistent in Both
+Sparse Data and Large-Strata Limiting Models.
+<em>Biometrics</em>,
+<b>42</b>, 311&ndash;23
+</p>
+<p>Rücker G, Schwarzer G, Carpenter J, Olkin I (2009):
+Why add anything to nothing? The arcsine difference as a measure of
+treatment effect in meta-analysis with zero cells.
 <em>Statistics in Medicine</em>,
-<b>27</b>, 746&ndash;63
+<b>28</b>, 721&ndash;38
 </p>
 <p>Simmonds MC, Higgins JP (2016):
 A general framework for the use of logistic regression models in
@@ -1014,9 +1025,15 @@ in meta-analysis of sparse data.
 <b>23</b>, 1351&ndash;75
 </p>
 <p>Viechtbauer W (2010):
-Conducting Meta-Analyses in R with the Metafor Package.
+Conducting meta-analyses in R with the metafor package.
 <em>Journal of Statistical Software</em>,
 <b>36</b>, 1&ndash;48
+</p>
+<p>Yusuf S, Peto R, Lewis J, Collins R, Sleight P (1985):
+Beta blockade during and after myocardial infarction: An overview
+of the randomized trials.
+<em>Progress in Cardiovascular Diseases</em>,
+<b>27</b>, 335&ndash;71
 </p>
 
 
@@ -1156,5 +1173,5 @@ summary(update(m10, model.glmm = "CM.AL"))
 
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-6 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-7 <a href="00Index.html">Index</a>]</div>
 </body></html>

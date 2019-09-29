@@ -94,7 +94,6 @@ imxDeparse,UnitMatrix-method	imxDeparse
 imxDeparse,ZeroMatrix-method	imxDeparse
 imxDependentModels	imxDependentModels
 imxDetermineDefaultOptimizer	imxDetermineDefaultOptimizer
-imxDiff	imxDiff
 imxDmvnorm	imxDmvnorm
 imxEvalByName	imxEvalByName
 imxExtractMethod	imxExtractMethod
@@ -399,12 +398,12 @@ mxPower	mxPower
 mxPowerSearch	mxPower
 MxRAMGraph	MxRAMGraph-class
 MxRAMGraph-class	MxRAMGraph-class
-MxRAMMetaData-class	MxRAMMetaData-class
 MxRAMModel-class	MxRAMModel-class
 mxRAMObjective	mxRAMObjective
 mxRefModels	omxSaturatedModel
 mxRename	mxRename
 mxRestore	mxRestore
+mxRestoreFromDataFrame	mxRestore
 mxRetro	mxRetro
 mxRObjective	mxRObjective
 mxRobustLog	mxAlgebra

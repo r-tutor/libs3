@@ -244,9 +244,15 @@ passed on to <code><a href="../../metafor/html/rma.uni.html">rma.uni</a></code> 
 
 <h3>Details</h3>
 
-<p>Fixed effect and random effects meta-analysis of single incidence
-rates to calculate an overall rate. The following transformations
-of incidence rates are implemented to calculate an overall rate:
+<p>This function provides methods for fixed effect and random effects
+meta-analysis of single incidence rates to calculate an overall
+rate. Note, you should use R function <code><a href="metainc.html">metainc</a></code> to
+compare incidence rates of pairwise comparisons instead of using
+<code>metarate</code> for each treatment arm separately which will break
+randomisation in randomised controlled trials.
+</p>
+<p>The following transformations of incidence rates are implemented to
+calculate an overall rate:
 </p>
 
 <ul>
@@ -264,80 +270,55 @@ of incidence rates are implemented to calculate an overall rate:
 </p>
 </li></ul>
 
-<p>Note, you should use R function <code><a href="metainc.html">metainc</a></code> to compare
-incidence rates of pairwise comparisons instead of using
-<code>metarate</code> for each treatment arm separately which will break
-randomisation in randomised controlled trials.
+<p>By default (argument <code>method = "Inverse"</code>), the inverse
+variance method (Borenstein et al., 2010) is used for pooling by
+calling <code><a href="metagen.html">metagen</a></code> internally. A random intercept
+Poisson regression model (Stijnen et al., 2010) can be utilised
+instead with argument <code>method = "GLMM"</code> which calls the
+<code><a href="../../metafor/html/rma.glmm.html">rma.glmm</a></code> function from R package
+<b>metafor</b>.
 </p>
-<p>Argument <code>irscale</code> can be used to rescale rates, e.g.
-<code>irscale = 1000</code> means that rates are expressed as events per
-1000 time units, e.g. person-years. This is useful in situations
-with (very) low rates. Argument <code>irunit</code> can be used to
-specify the time unit used in individual studies (default:
-&quot;person-years&quot;). This information is printed in summaries and
-forest plots if argument <code>irscale</code> is not equal to 1.
+<p>Default settings are utilised for several arguments (assignments
+using <code><a href="gs.html">gs</a></code> function). These defaults can be changed for
+the current R session using the <code><a href="settings.meta.html">settings.meta</a></code>
+function.
 </p>
-<p>For several arguments defaults settings are utilised (assignments
-using <code><a href="gs.html">gs</a></code> function). These defaults can be changed
-using the <code><a href="settings.meta.html">settings.meta</a></code> function.
+<p>Furthermore, R function <code><a href="update.meta.html">update.meta</a></code> can be used to
+rerun a meta-analysis with different settings.
 </p>
-<p>Internally, both fixed effect and random effects models are
-calculated regardless of values choosen for arguments
-<code>comb.fixed</code> and <code>comb.random</code>. Accordingly, the estimate
-for the random effects model can be extracted from component
-<code>TE.random</code> of an object of class <code>"meta"</code> even if
-argument <code>comb.random = FALSE</code>. However, all functions in R
-package <b>meta</b> will adequately consider the values for
-<code>comb.fixed</code> and <code>comb.random</code>. E.g. function
-<code><a href="print.meta.html">print.meta</a></code> will not print results for the random
-effects model if <code>comb.random = FALSE</code>.
+
+
+<h4>Continuity correction</h4>
+
+<p>If the summary measure (argument <code>sm</code>) is equal to &quot;IR&quot; or
+&quot;IRLN&quot;, a continuity correction is applied if any study has zero
+events, i.e., an incidence rate of 0.
 </p>
-<p>A random intercept Poisson regression model can be utilised for the
-meta-analysis of incidence rates (Stijnen et al., 2010). This
-method is available (argument <code>method = "GLMM"</code>) by calling
-the <code><a href="../../metafor/html/rma.glmm.html">rma.glmm</a></code> function from R package
-<b>metafor</b> internally.
+<p>By default, 0.5 is used as continuity correction (argument
+<code>incr</code>). This continuity correction is used both to calculate
+individual study results with confidence limits and to conduct
+meta-analysis based on the inverse variance method.
 </p>
-<p>If the summary measure is equal to &quot;IR&quot; or &quot;IRLN&quot;, a continuity
-correction is applied if any study has zero events, i.e., an
-incidence rate of 0. By default, 0.5 is used as continuity
-correction (argument <code>incr</code>). This continuity correction is
-used both to calculate individual study results with confidence
-limits and to conduct meta-analysis based on the inverse variance
-method. For Freeman-Tukey and square root transformation and GLMMs
-no continuity correction is used.
+<p>For the Freeman-Tukey (Freeman &amp; Tukey, 1950) and square root
+transformation as well as GLMMs no continuity correction is used.
 </p>
-<p>Argument <code>byvar</code> can be used to conduct subgroup analysis for
-all methods but GLMMs. Instead use the <code><a href="metareg.html">metareg</a></code>
-function for GLMMs which can also be used for continuous
-covariates.
-</p>
-<p>A prediction interval for the treatment effect of a new study is
-calculated (Higgins et al., 2009) if arguments <code>prediction</code>
-and <code>comb.random</code> are <code>TRUE</code>.
-</p>
-<p>R function <code><a href="update.meta.html">update.meta</a></code> can be used to redo the
-meta-analysis of an existing metarate object by only specifying
-arguments which should be changed.
-</p>
-<p>For the random effects, the method by Hartung and Knapp (2003) is
-used to adjust test statistics and confidence intervals if argument
-<code>hakn = TRUE</code>.
-</p>
-<p>The DerSimonian-Laird estimate (1986) is used in the random effects
-model if <code>method.tau = "DL"</code>. The iterative Paule-Mandel
-method (1982) to estimate the between-study variance is used if
-argument <code>method.tau = "PM"</code>.  Internally, R function
-<code>paulemandel</code> is called which is based on R function
-mpaule.default from R package <b>metRology</b> from S.L.R. Ellison
-&lt;s.ellison at lgc.co.uk&gt;.
-</p>
-<p>If R package <b>metafor</b> (Viechtbauer 2010) is installed, the
-following methods to estimate the between-study variance
-<i>&tau;^2</i> (argument <code>method.tau</code>) are also available:
+
+
+
+<h4>Estimation of between-study variance</h4>
+
+<p>The following methods to estimate the between-study variance
+<i>&tau;^2</i> (argument <code>method.tau</code>) are available for the
+inverse variance method:
 </p>
 
 <ul>
+<li><p> DerSimonian-Laird estimator (<code>method.tau = "DL"</code>)
+</p>
+</li>
+<li><p> Paule-Mandel estimator (<code>method.tau = "PM"</code>)
+</p>
+</li>
 <li><p> Restricted maximum-likelihood estimator (<code>method.tau =
   "REML"</code>)
 </p>
@@ -358,11 +339,90 @@ following methods to estimate the between-study variance
 </p>
 </li></ul>
 
-<p>For these methods the R function <code>rma.uni</code> of R package
-<b>metafor</b> is called internally. See help page of R function
-<code>rma.uni</code> for more details on these methods to estimate
-between-study variance.
+<p>See <code><a href="metagen.html">metagen</a></code> for more information on these
+estimators. Note, the maximum-likelihood method is utilized for
+GLMMs.
 </p>
+
+
+
+<h4>Hartung-Knapp method</h4>
+
+<p>Hartung and Knapp (2001a,b) proposed an alternative method for
+random effects meta-analysis based on a refined variance estimator
+for the treatment estimate. Simulation studies (Hartung and Knapp,
+2001a,b; IntHout et al., 2014; Langan et al., 2019) show improved
+coverage probabilities compared to the classic random effects
+method. However, in rare settings with very homogeneous treatment
+estimates, the Hartung-Knapp method can be anti-conservative
+(Wiksten et al., 2016). The Hartung-Knapp method is used if
+argument <code>hakn = TRUE</code>.
+</p>
+
+
+
+<h4>Prediction interval</h4>
+
+<p>A prediction interval for the proportion in a new study (Higgins et
+al., 2009) is calculated if arguments <code>prediction</code> and
+<code>comb.random</code> are <code>TRUE</code>. Note, the definition of
+prediction intervals varies in the literature. This function
+implements equation (12) of Higgins et al., (2009) which proposed a
+<em>t</em> distribution with <em>K-2</em> degrees of freedom where
+<em>K</em> corresponds to the number of studies in the meta-analysis.
+</p>
+
+
+
+<h4>Subgroup analysis</h4>
+
+<p>Argument <code>byvar</code> can be used to conduct subgroup analysis for
+a categorical covariate. The <code><a href="metareg.html">metareg</a></code> function can be
+used instead for more than one categorical covariate or continuous
+covariates.
+</p>
+
+
+
+<h4>Specify the null hypothesis of test for an overall effect</h4>
+
+<p>Argument <code>null.effect</code> can be used to specify the rate used
+under the null hypothesis in a test for an overall effect.
+</p>
+<p>By default (<code>null.effect = NA</code>), no hypothesis test is
+conducted as it is unclear which value is a sensible choice for the
+data at hand.  An overall rate of 2, for example, could be tested
+by setting argument <code>null.effect = 2</code>.
+</p>
+<p>Note, all tests for an overall effect are two-sided with the
+alternative hypothesis that the effect is unequal to
+<code>null.effect</code>.
+</p>
+
+
+
+<h4>Presentation of meta-analysis results</h4>
+
+<p>Internally, both fixed effect and random effects models are
+calculated regardless of values choosen for arguments
+<code>comb.fixed</code> and <code>comb.random</code>. Accordingly, the estimate
+for the random effects model can be extracted from component
+<code>TE.random</code> of an object of class <code>"meta"</code> even if
+argument <code>comb.random = FALSE</code>. However, all functions in R
+package <b>meta</b> will adequately consider the values for
+<code>comb.fixed</code> and <code>comb.random</code>. E.g. function
+<code><a href="print.meta.html">print.meta</a></code> will not print results for the random
+effects model if <code>comb.random = FALSE</code>.
+</p>
+<p>Argument <code>irscale</code> can be used to rescale rates, e.g.
+<code>irscale = 1000</code> means that rates are expressed as events per
+1000 time units, e.g. person-years. This is useful in situations
+with (very) low rates. Argument <code>irunit</code> can be used to
+specify the time unit used in individual studies (default:
+&quot;person-years&quot;). This information is printed in summaries and
+forest plots if argument <code>irscale</code> is not equal to 1.
+</p>
+
 
 
 <h3>Value</h3>
@@ -501,10 +561,9 @@ prediction interval.</p>
 <td>
 <p>Square-root of between-study variance.</p>
 </td></tr>
-<tr valign="top"><td><code>se.tau</code></td>
+<tr valign="top"><td><code>se.tau2</code></td>
 <td>
-<p>Standard error of square-root of between-study
-variance.</p>
+<p>Standard error of between-study variance.</p>
 </td></tr>
 <tr valign="top"><td><code>C</code></td>
 <td>
@@ -741,10 +800,11 @@ GLMMs.</p>
 
 <h3>References</h3>
 
-<p>DerSimonian R &amp; Laird N (1986):
-Meta-analysis in clinical trials.
-<em>Controlled Clinical Trials</em>,
-<b>7</b>, 177&ndash;88
+<p>Borenstein M, Hedges LV, Higgins JP, Rothstein HR (2010):
+A basic introduction to fixed-effect and random-effects models for
+meta-analysis.
+<em>Research Synthesis Methods</em>,
+<b>1</b>, 97&ndash;111
 </p>
 <p>Freeman MF &amp; Tukey JW (1950):
 Transformations related to the angular and the square root.
@@ -756,16 +816,31 @@ A re-evaluation of random-effects meta-analysis.
 <em>Journal of the Royal Statistical Society: Series A</em>,
 <b>172</b>, 137&ndash;59
 </p>
-<p>Knapp G &amp; Hartung J (2003):
-Improved tests for a random effects meta-regression with a single
-covariate.
+<p>Hartung J, Knapp G (2001a):
+On tests of the overall treatment effect in meta-analysis with
+normally distributed responses.
 <em>Statistics in Medicine</em>,
-<b>22</b>, 2693&ndash;710
+<b>20</b>, 1771&ndash;82
 </p>
-<p>Paule RC &amp; Mandel J (1982):
-Consensus values and weighting factors.
-<em>Journal of Research of the National Bureau of Standards</em>,
-<b>87</b>, 377&ndash;85
+<p>Hartung J, Knapp G (2001b):
+A refined method for the meta-analysis of controlled clinical
+trials with binary outcome.
+<em>Statistics in Medicine</em>,
+<b>20</b>, 3875&ndash;89
+</p>
+<p>IntHout J, Ioannidis JPA, Borm GF (2014):
+The Hartung-Knapp-Sidik-Jonkman method for random effects
+meta-analysis is straightforward and considerably outperforms the
+standard DerSimonian-Laird method.
+<em>BMC Medical Research Methodology</em>,
+<b>14</b>, 25
+</p>
+<p>Langan D, Higgins JPT, Jackson D, Bowden J, Veroniki AA,
+Kontopantelis E, et al. (2019):
+A comparison of heterogeneity variance estimators in simulated
+random-effects meta-analyses.
+<em>Research Synthesis Methods</em>,
+<b>10</b>, 83&ndash;98
 </p>
 <p>Stijnen T, Hamza TH, Ozdemir P (2010):
 Random effects meta-analysis of event outcome in the framework of
@@ -778,6 +853,12 @@ data.
 Conducting Meta-Analyses in R with the Metafor Package.
 <em>Journal of Statistical Software</em>,
 <b>36</b>, 1&ndash;48
+</p>
+<p>Wiksten A, Rücker G, Schwarzer G (2016):
+Hartung-Knapp method is not always conservative compared with
+fixed-effect meta-analysis.
+<em>Statistics in Medicine</em>,
+<b>35</b>, 2503&ndash;15
 </p>
 
 
@@ -819,5 +900,5 @@ m5
 
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-6 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.9-7 <a href="00Index.html">Index</a>]</div>
 </body></html>
