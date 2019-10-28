@@ -19,7 +19,7 @@ at the requested time, only that at least that much time will elapse.
 <h3>Usage</h3>
 
 <pre>
-later(func, delay = 0)
+later(func, delay = 0, loop = current_loop())
 </pre>
 
 
@@ -36,6 +36,10 @@ later(func, delay = 0)
 guarantee that the function will be executed at the desired time, but it
 should not execute earlier.</p>
 </td></tr>
+<tr valign="top"><td><code>loop</code></td>
+<td>
+<p>A handle to an event loop. Defaults to the currently-active loop.</p>
+</td></tr>
 </table>
 
 
@@ -44,6 +48,15 @@ should not execute earlier.</p>
 <p>The mechanism used by this package is inspired by Simon Urbanek's
 <a href="https://github.com/s-u/background">background</a> package and similar code in
 Rhttpd.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A function, which, if invoked, will cancel the callback. The
+function will return <code>TRUE</code> if the callback was successfully
+cancelled and <code>FALSE</code> if not (this occurs if the callback has
+executed or has been cancelled already).
 </p>
 
 
@@ -72,8 +85,8 @@ later(~cat("Hello from the past\n"), 3)
 later(function() {
   print(summary(cars))
 }, 2)
-  
+
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>later</em> version 0.8.0 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>later</em> version 1.0.0 <a href="00Index.html">Index</a>]</div>
 </body></html>

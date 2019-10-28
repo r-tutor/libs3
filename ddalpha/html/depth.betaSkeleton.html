@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Calculate Beta-Skeleton Depth</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for depth.betaSkeleton {ddalpha}"><tr><td>depth.betaSkeleton {ddalpha}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Calculate Beta-Skeleton Depth
+</h2>
+
+<h3>Description</h3>
+
+<p>Calculates the beta-skeleton depth of points w.r.t. a multivariate data set.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+depth.betaSkeleton(x, data, beta = 2, distance = "Lp", Lp.p = 2, 
+                   mah.estimate = "moment", mah.parMcd = 0.75)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>Matrix of objects (numerical vector as one object) whose depth is to be calculated; each row contains a <i>d</i>-variate point. Should have the same dimension as <code>data</code>.
+</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>Matrix of data where each row contains a <i>d</i>-variate point, w.r.t. which the depth is to be calculated.
+</p>
+</td></tr>
+<tr valign="top"><td><code>beta</code></td>
+<td>
+<p>The paremeter defining the positionning of the balls' centers, see Yang and Modarres (2017) for details. By default (together with other arguments) equals <code>2</code>, which corresponds to the lens depth, see Liu and Modarres (2011).
+</p>
+</td></tr>
+<tr valign="top"><td><code>distance</code></td>
+<td>
+<p>A character string defining the distance to be used for determining inclusion of a point into the lens (influence region), see Yang and Modarres (2017) for details. Possibilities are <code>"Lp"</code> for the Lp-metric (default) or <code>"Mahalanobis"</code> for the Mahalanobis distance adjustment.
+</p>
+</td></tr>
+<tr valign="top"><td><code>Lp.p</code></td>
+<td>
+<p>A non-negative number defining the distance's power equal <code>2</code> by default (Euclidean distance); is used only when <code>distance = "Lp"</code>.
+</p>
+</td></tr>
+<tr valign="top"><td><code>mah.estimate</code></td>
+<td>
+<p>A character string specifying which estimates to use when calculating sample covariance matrix; can be <code>"none"</code>, <code>"moment"</code> or <code>"MCD"</code>, determining whether traditional moment or Minimum Covariance Determinant (MCD) (see <code><a href="../../robustbase/html/covMcd.html">covMcd</a></code>) estimates for mean and covariance are used. By default <code>"moment"</code> is used. Is used only when <code>distance = "Mahalanobis"</code>.
+</p>
+</td></tr>
+<tr valign="top"><td><code>mah.parMcd</code></td>
+<td>
+<p>The value of the argument <code>alpha</code> for the function <code><a href="../../robustbase/html/covMcd.html">covMcd</a></code>; is used when <code>distance = "Mahalanobis"</code> and <code>mah.estimate = "MCD"</code>.
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Calculates the beta-skeleton depth, see Yang and Modarres (2017). Its particular case, lens depth, see Liu and Modarres (2011), is obtained when <code>beta = 2</code>, <code>distance = "Lp"</code> and <code>Lp.p = 2</code> (default settings). For tne example of the lens depth, the depth of an observation <code>x</code> is calculated as the portion of lens containing <code>x</code>, with lens being an intersection of two closed balls centered at two sample's points each having radius equal to the distance between these two points.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Numerical vector of depths, one for each row in <code>x</code>; or one depth value if <code>x</code> is a numerical vector.
+</p>
+
+
+<h3>References</h3>
+
+<p>Liu, Z. and Modarres, R. (2011). Lens data depth and median. <em>Journal of Nonparametric Statistics</em> <b>23</b>(4) 1063&ndash;1074.
+</p>
+<p>Yang, M. and Modarres, R. (2017). <i>&beta;</i>-skeleton depth functions and medians. <em>Commmunications in Statistics - Theory and Methods</em> to appear.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="depth.halfspace.html">depth.halfspace</a></code> for calculation of the Tukey depth.
+</p>
+<p><code><a href="depth.Mahalanobis.html">depth.Mahalanobis</a></code> for calculation of Mahalanobis depth.
+</p>
+<p><code><a href="depth.projection.html">depth.projection</a></code> for calculation of projection depth.
+</p>
+<p><code><a href="depth.simplicial.html">depth.simplicial</a></code> for calculation of simplicial depth.
+</p>
+<p><code><a href="depth.simplicialVolume.html">depth.simplicialVolume</a></code> for calculation of simplicial volume depth.
+</p>
+<p><code><a href="depth.spatial.html">depth.spatial</a></code> for calculation of spatial depth.
+</p>
+<p><code><a href="depth.zonoid.html">depth.zonoid</a></code> for calculation of zonoid depth.
+</p>
+<p><code><a href="depth.potential.html">depth.potential</a></code> for calculation of data potential.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# 5-dimensional normal distribution
+data &lt;- mvrnorm(1000, rep(0, 5), 
+                matrix(c(1, 0, 0, 0, 0, 
+                         0, 2, 0, 0, 0, 
+                         0, 0, 3, 0, 0, 
+                         0, 0, 0, 2, 0, 
+                         0, 0, 0, 0, 1),
+                nrow = 5))
+x &lt;- mvrnorm(10, rep(1, 5), 
+             matrix(c(1, 0, 0, 0, 0, 
+                      0, 1, 0, 0, 0, 
+                      0, 0, 1, 0, 0, 
+                      0, 0, 0, 1, 0, 
+                      0, 0, 0, 0, 1),
+             nrow = 5))
+                
+depths &lt;- depth.betaSkeleton(x, data)
+cat("Depths:", depths, "\n")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>ddalpha</em> version 1.3.10 <a href="00Index.html">Index</a>]</div>
+</body></html>

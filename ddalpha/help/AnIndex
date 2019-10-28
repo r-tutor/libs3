@@ -79,6 +79,7 @@ depthf.hM2	depthf.hM2
 depthf.HR	depthf.HR
 depthf.RP1	depthf.RP1
 depthf.RP2	depthf.RP2
+depthf.simplicialBand	depthf.simplicialBand
 derivatives.est	derivatives.est
 diabetes	getdata
 dknn.classify	dknn.classify

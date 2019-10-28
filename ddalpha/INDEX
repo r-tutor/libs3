@@ -87,6 +87,7 @@ depthf.fd2              Bivariate Integrated and Infimal Depth for
 depthf.hM               h-Mode Depth for Functional Data
 depthf.hM2              Bivariate h-Mode Depth for Functional Data
                         Based on the L^2 Metric
+depthf.simplicialBand   Calculate Simplicial Band Depth
 derivatives.est         Estimation of the First Two Derivatives for
                         Functional Data
 dknn.classify           Depth-Based kNN
