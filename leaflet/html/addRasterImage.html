@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Add a raster image as a layer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for addRasterImage {leaflet}"><tr><td>addRasterImage {leaflet}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Add a raster image as a layer</h2>
+
+<h3>Description</h3>
+
+<p>Create an image overlay from a <code>RasterLayer</code> object. <em>This is only
+suitable for small to medium sized rasters</em>, as the entire image will be
+embedded into the HTML page (or passed over the websocket in a Shiny
+context).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+addRasterImage(map, x, colors = if (raster::is.factor(x)) "Set1" else
+  "Spectral", opacity = 1, attribution = NULL, layerId = NULL,
+  group = NULL, project = TRUE, method = c("auto", "bilinear",
+  "ngb"), maxBytes = 4 * 1024 * 1024, data = getMapData(map))
+
+projectRasterForLeaflet(x, method)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>map</code></td>
+<td>
+<p>a map widget object</p>
+</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a <code>RasterLayer</code> object&ndash;see <code><a href="../../raster/html/raster.html">raster</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>colors</code></td>
+<td>
+<p>the color palette (see <code><a href="colorNumeric.html">colorNumeric</a></code>) or function
+to use to color the raster values (hint: if providing a function, set
+<code>na.color</code> to <code>"#00000000"</code> to make <code>NA</code> areas transparent)</p>
+</td></tr>
+<tr valign="top"><td><code>opacity</code></td>
+<td>
+<p>the base opacity of the raster, expressed from 0 to 1</p>
+</td></tr>
+<tr valign="top"><td><code>attribution</code></td>
+<td>
+<p>the HTML string to show as the attribution for this layer</p>
+</td></tr>
+<tr valign="top"><td><code>layerId</code></td>
+<td>
+<p>the layer id</p>
+</td></tr>
+<tr valign="top"><td><code>group</code></td>
+<td>
+<p>the name of the group this raster image should belong to (see
+the same parameter under <code><a href="map-layers.html">addTiles</a></code>)</p>
+</td></tr>
+<tr valign="top"><td><code>project</code></td>
+<td>
+<p>if <code>TRUE</code>, automatically project <code>x</code> to the map
+projection expected by Leaflet (<code>EPSG:3857</code>); if <code>FALSE</code>, it's
+the caller's responsibility to ensure that <code>x</code> is already projected,
+and that <code>extent(x)</code> is expressed in WGS84 latitude/longitude
+coordinates</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>the method used for computing values of the new, projected raster image.
+<code>"bilinear"</code> (the default) is appropriate for continuous data,
+<code>"ngb"</code> - nearest neighbor - is appropriate for categorical data.
+Ignored if <code>project = FALSE</code>. See <code><a href="../../raster/html/projectRaster.html">projectRaster</a></code> for details.</p>
+</td></tr>
+<tr valign="top"><td><code>maxBytes</code></td>
+<td>
+<p>the maximum number of bytes to allow for the projected image
+(before base64 encoding); defaults to 4MB.</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>the data object from which the argument values are derived; by
+default, it is the <code>data</code> object provided to <code>leaflet()</code>
+initially, but can be overridden</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The <code>maxBytes</code> parameter serves to prevent you from accidentally
+embedding an excessively large amount of data into your htmlwidget. This
+value is compared to the size of the final compressed image (after the raster
+has been projected, colored, and PNG encoded, but before base64 encoding is
+applied). Set <code>maxBytes</code> to <code>Inf</code> to disable this check, but be
+aware that very large rasters may not only make your map a large download but
+also may cause the browser to become slow or unresponsive.
+</p>
+<p>By default, the <code>addRasterImage</code> function will project the RasterLayer
+<code>x</code> to EPSG:3857 using the <code>raster</code> package's
+<code><a href="../../raster/html/projectRaster.html">projectRaster</a></code> function. This can be a time-consuming
+operation for even moderately sized rasters. Upgrading the <code>raster</code>
+package to 2.4 or later will provide a large speedup versus previous
+versions. If you are repeatedly adding a particular raster to your Leaflet
+maps, you can perform the projection ahead of time using
+<code>projectRasterForLeaflet()</code>, and call <code>addRasterImage</code> with
+<code>project = FALSE</code>.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(raster)
+
+r &lt;- raster(xmn = -2.8, xmx = -2.79, ymn = 54.04, ymx = 54.05, nrows = 30, ncols = 30)
+values(r) &lt;- matrix(1:900, nrow(r), ncol(r), byrow = TRUE)
+crs(r) &lt;- CRS("+init=epsg:4326")
+
+if (requireNamespace("rgdal")) {
+  leaflet() %&gt;% addTiles() %&gt;%
+    addRasterImage(r, colors = "Spectral", opacity = 0.8)
+}
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>leaflet</em> version 2.0.3 <a href="00Index.html">Index</a>]</div>
+</body></html>

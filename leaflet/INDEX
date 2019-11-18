@@ -62,7 +62,6 @@ makeIcon                Define icon sets
 mapOptions              Set options on a leaflet map object
 previewColors           Color previewing utility
 providers               Providers
-providers.details       Providers Details
 removeControl           Remove elements from a map
 setView                 Methods to manipulate the map widget
 showGroup               Show or hide layer groups
