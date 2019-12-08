@@ -15,13 +15,16 @@ install	install
 isolate	isolate
 load	load
 lockfile	lockfile
+lockfiles	lockfiles
 migrate	migrate
 modify	modify
 paths	paths
 project	project
 purge	purge
 rebuild	rebuild
+record	record
 refresh	refresh
+rehash	rehash
 remote	remote
 remove	remove
 renv	renv-package

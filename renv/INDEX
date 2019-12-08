@@ -13,14 +13,17 @@ init                    Initialize a Project
 install                 Install Packages
 isolate                 Isolate a Project
 load                    Load a Project
-lockfile                Lockfiles
+lockfile                Programmatically Create and Modify a Lockfile
+lockfiles               Lockfiles
 migrate                 Migrate a Project from Packrat to renv
 modify                  Open the Lockfile for Editing
 paths                   Path Customization
 project                 Retrieve the Active Project
 purge                   Purge Packages from the Cache
 rebuild                 Rebuild the Packages in your Project Library
+record                  Update Package Records in a Lockfile
 refresh                 Refresh the Local Cache of Available Packages
+rehash                  Re-Hash Packages in the renv Cache
 remote                  Resolve a Remote
 remove                  Remove Packages
 renv-package            Project-local Environments for R

@@ -69,6 +69,7 @@ get.inducedSubgraph	get.inducedSubgraph
 get.neighborhood	get.neighborhood
 get.network.attribute	attribute.methods
 get.vertex.attribute	attribute.methods
+get.vertex.attribute.network	attribute.methods
 has.edges	has.edges
 has.loops	network.indicators
 is.adjacent	is.adjacent
@@ -87,11 +88,13 @@ is.network	network
 list.edge.attributes	attribute.methods
 list.network.attributes	attribute.methods
 list.vertex.attributes	attribute.methods
+list.vertex.attributes.network	attribute.methods
 loading.attributes	loading.attributes
 missing.edges	network.naedgecount
 mixingmatrix	network-internal
 mixingmatrix.network	network-internal
 network	network
+network-internal	network-internal
 network.adjacency	edgeset.constructors
 network.arrow	network.arrow
 network.bipartite	edgeset.constructors
