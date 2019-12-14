@@ -1,4 +1,12 @@
 
+# renv 0.9.2
+
+* Fixed an issue in invoking `find` on Solaris.
+
+# renv 0.9.1
+
+* Fixed an issue in invoking `cp` on Solaris.
+
 # renv 0.9.0
 
 * `renv` gains a new function `renv::record()`, for recording new packages
