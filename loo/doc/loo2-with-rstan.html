@@ -7,12 +7,13 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta name="author" content="Aki Vehtari and Jonah Gabry" />
 
-<meta name="date" content="2019-03-13" />
+<meta name="date" content="2019-12-18" />
 
 <title>Writing Stan programs for use with the loo package</title>
 
@@ -96,7 +97,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
       var style = rule.style.cssText;
       // check if color or background-color is set
-      if (rule.style.color === '' || rule.style.backgroundColor === '') continue;
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
       // replace div.sourceCode by a pre.sourceCode rule
       sheets[i].deleteRule(j);
       sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
@@ -291,6 +292,9 @@ code > span.al { color: #ff0000; font-weight: bold; }
 code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61717; background-color: #e3d2d2; } 
 </style>
 
+
+
+
 </head>
 
 <body>
@@ -299,8 +303,8 @@ code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61
 
 
 <h1 class="title toc-ignore">Writing Stan programs for use with the loo package</h1>
-<h4 class="author"><em>Aki Vehtari and Jonah Gabry</em></h4>
-<h4 class="date"><em>2019-03-13</em></h4>
+<h4 class="author">Aki Vehtari and Jonah Gabry</h4>
+<h4 class="date">2019-12-18</h4>
 
 
 <div id="TOC">
@@ -383,16 +387,20 @@ beta[3]  0.46       0 0.04  0.38  0.43  0.46  0.49  0.54  2198    1</code></pre>
 <p>We can then use the <strong>loo</strong> package to compute the efficient PSIS-LOO approximation to exact LOO-CV:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">library</span>(<span class="st">&quot;loo&quot;</span>)</a>
 <a class="sourceLine" id="cb4-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb4-3" data-line-number="3"><span class="co"># Extract pointwise log-likelihood and compute LOO</span></a>
-<a class="sourceLine" id="cb4-4" data-line-number="4">log_lik_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">extract_log_lik</span>(fit_<span class="dv">1</span>, <span class="dt">merge_chains =</span> <span class="ot">FALSE</span>)</a>
-<a class="sourceLine" id="cb4-5" data-line-number="5"></a>
-<a class="sourceLine" id="cb4-6" data-line-number="6"><span class="co"># as of loo v2.0.0 we can optionally provide relative effective sample sizes</span></a>
-<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="co"># when calling loo, which allows for better estimates of the PSIS effective</span></a>
-<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="co"># sample sizes and Monte Carlo error</span></a>
-<a class="sourceLine" id="cb4-9" data-line-number="9">r_eff &lt;-<span class="st"> </span><span class="kw">relative_eff</span>(<span class="kw">exp</span>(log_lik_<span class="dv">1</span>)) </a>
-<a class="sourceLine" id="cb4-10" data-line-number="10"></a>
-<a class="sourceLine" id="cb4-11" data-line-number="11">loo_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">loo</span>(log_lik_<span class="dv">1</span>, <span class="dt">r_eff =</span> r_eff, <span class="dt">cores =</span> <span class="dv">2</span>)</a>
-<a class="sourceLine" id="cb4-12" data-line-number="12"><span class="kw">print</span>(loo_<span class="dv">1</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb4-3" data-line-number="3"><span class="co"># Extract pointwise log-likelihood</span></a>
+<a class="sourceLine" id="cb4-4" data-line-number="4"><span class="co"># using merge_chains=FALSE returns an array, which is easier to </span></a>
+<a class="sourceLine" id="cb4-5" data-line-number="5"><span class="co"># use with relative_eff()</span></a>
+<a class="sourceLine" id="cb4-6" data-line-number="6">log_lik_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">extract_log_lik</span>(fit_<span class="dv">1</span>, <span class="dt">merge_chains =</span> <span class="ot">FALSE</span>)</a>
+<a class="sourceLine" id="cb4-7" data-line-number="7"></a>
+<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="co"># as of loo v2.0.0 we can optionally provide relative effective sample sizes</span></a>
+<a class="sourceLine" id="cb4-9" data-line-number="9"><span class="co"># when calling loo, which allows for better estimates of the PSIS effective</span></a>
+<a class="sourceLine" id="cb4-10" data-line-number="10"><span class="co"># sample sizes and Monte Carlo error</span></a>
+<a class="sourceLine" id="cb4-11" data-line-number="11">r_eff &lt;-<span class="st"> </span><span class="kw">relative_eff</span>(<span class="kw">exp</span>(log_lik_<span class="dv">1</span>), <span class="dt">cores =</span> <span class="dv">2</span>) </a>
+<a class="sourceLine" id="cb4-12" data-line-number="12"></a>
+<a class="sourceLine" id="cb4-13" data-line-number="13"><span class="co"># preferably use more than 2 cores (as many cores as possible)</span></a>
+<a class="sourceLine" id="cb4-14" data-line-number="14"><span class="co"># will use value of 'mc.cores' option if cores is not specified</span></a>
+<a class="sourceLine" id="cb4-15" data-line-number="15">loo_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">loo</span>(log_lik_<span class="dv">1</span>, <span class="dt">r_eff =</span> r_eff, <span class="dt">cores =</span> <span class="dv">2</span>)</a>
+<a class="sourceLine" id="cb4-16" data-line-number="16"><span class="kw">print</span>(loo_<span class="dv">1</span>)</a></code></pre></div>
 <pre><code>Computed from 4000 by 3020 log-likelihood matrix
 
          Estimate   SE
@@ -405,11 +413,11 @@ Monte Carlo SE of elpd_loo is 0.0.
 All Pareto k estimates are good (k &lt; 0.5).
 See help('pareto-k-diagnostic') for details.</code></pre>
 <p>The printed output from the <code>loo</code> function shows the estimates <span class="math inline">\(\widehat{\mbox{elpd}}_{\rm loo}\)</span> (expected log predictive density), <span class="math inline">\(\widehat{p}_{\rm loo}\)</span> (effective number of parameters), and <span class="math inline">\({\rm looic} =-2\, \widehat{\mbox{elpd}}_{\rm loo}\)</span> (the LOO information criterion).</p>
-<p>The line at the bottom of the printed output provides information about the reliability of the LOO approximation (the interpretation of the <span class="math inline">\(k\)</span> parameter is explained in the PSIS-LOO section in <code>help(&quot;loo-package&quot;)</code> and in greater detail in Vehtari, Gelman, and Gabry (2017)). In this case the message tells us that all of the estimates for <span class="math inline">\(k\)</span> are fine.</p>
+<p>The line at the bottom of the printed output provides information about the reliability of the LOO approximation (the interpretation of the <span class="math inline">\(k\)</span> parameter is explained in <code>help('pareto-k-diagnostic')</code> and in greater detail in Vehtari, Gelman, and Gabry (2017)). In this case the message tells us that all of the estimates for <span class="math inline">\(k\)</span> are fine.</p>
 </div>
 <div id="comparing-models" class="section level2">
 <h2>Comparing models</h2>
-<p>To compare this model to an alternative model for the same data we can use the <code>compare</code> function in the <strong>loo</strong> package. First we’ll fit a second model to the well-switching data, using <code>log(arsenic)</code> instead of <code>arsenic</code> as a predictor:</p>
+<p>To compare this model to an alternative model for the same data we can use the <code>loo_compare</code> function in the <strong>loo</strong> package. First we’ll fit a second model to the well-switching data, using <code>log(arsenic)</code> instead of <code>arsenic</code> as a predictor:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1">standata<span class="op">$</span>X[, <span class="st">&quot;arsenic&quot;</span>] &lt;-<span class="st"> </span><span class="kw">log</span>(standata<span class="op">$</span>X[, <span class="st">&quot;arsenic&quot;</span>])</a>
 <a class="sourceLine" id="cb6-2" data-line-number="2">fit_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">stan</span>(<span class="dt">fit =</span> fit_<span class="dv">1</span>, <span class="dt">data =</span> standata) </a>
 <a class="sourceLine" id="cb6-3" data-line-number="3"></a>
@@ -428,14 +436,15 @@ Monte Carlo SE of elpd_loo is 0.0.
 
 All Pareto k estimates are good (k &lt; 0.5).
 See help('pareto-k-diagnostic') for details.</code></pre>
-<p>We can now compare the models on LOO using the <code>compare</code> function:</p>
+<p>We can now compare the models on LOO using the <code>loo_compare</code> function:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="co"># Compare</span></a>
-<a class="sourceLine" id="cb8-2" data-line-number="2">comp &lt;-<span class="st"> </span><span class="kw">compare</span>(loo_<span class="dv">1</span>, loo_<span class="dv">2</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb8-2" data-line-number="2">comp &lt;-<span class="st"> </span><span class="kw">loo_compare</span>(loo_<span class="dv">1</span>, loo_<span class="dv">2</span>)</a></code></pre></div>
 <p>This new object, <code>comp</code>, contains the estimated difference of expected leave-one-out prediction errors between the two models, along with the standard error:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="kw">print</span>(comp)</a></code></pre></div>
-<pre><code>elpd_diff        se 
-     16.2       4.4 </code></pre>
-<p>The positive difference in <code>elpd</code> (and its scale relative to the standard error) indicates a preference for the <em>second</em> model.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="kw">print</span>(comp) <span class="co"># can set simplify=FALSE for more detailed print output</span></a></code></pre></div>
+<pre><code>       elpd_diff se_diff
+model2   0.0       0.0  
+model1 -16.3       4.4  </code></pre>
+<p>The first column shows the difference in ELPD relative to the model with the largest ELPD. In this case, the difference in <code>elpd</code> and its scale relative to the approximate standard error of the difference) indicates a preference for the second model (<code>model2</code>).</p>
 </div>
 </div>
 <div id="references" class="section level1">
@@ -447,6 +456,9 @@ See help('pareto-k-diagnostic') for details.</code></pre>
 <p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Pareto smoothed importance sampling. <a href="http://arxiv.org/abs/1507.02646">arXiv preprint arXiv:1507.02646</a>.</p>
 </div>
 
+
+
+<!-- code folding -->
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

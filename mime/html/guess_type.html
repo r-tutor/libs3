@@ -17,8 +17,13 @@ extensions of the given filenames.
 <h3>Usage</h3>
 
 <pre>
-guess_type(file, unknown = "application/octet-stream", empty = "text/plain", 
-    mime_extra = mimeextra, subtype = "")
+guess_type(
+  file,
+  unknown = "application/octet-stream",
+  empty = "text/plain",
+  mime_extra = mimeextra,
+  subtype = ""
+)
 </pre>
 
 
@@ -80,5 +85,5 @@ guess_type("Makefile", empty = "text/plain")
 guess_type(c("abc.html", "def.htm"), subtype = c("charset=UTF-8", ""))
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mime</em> version 0.7 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mime</em> version 0.9 <a href="00Index.html">Index</a>]</div>
 </body></html>

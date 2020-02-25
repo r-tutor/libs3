@@ -23,3 +23,5 @@ tutorial                Tutorial document format
 tutorial_html_dependency
                         Tutorial HTML dependency
 tutorial_options        Set tutorial options
+tutorial_package_dependencies
+                        List Tutorial Dependencies

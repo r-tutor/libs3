@@ -30,6 +30,7 @@ renv-package            Project-local Environments for R
 restore                 Restore a Project
 revert                  Revert Lockfile
 run                     Run a Script
+scaffold                Generate renv Project Infrastructure
 settings                Project Settings
 snapshot                Snapshot a Project
 status                  Status

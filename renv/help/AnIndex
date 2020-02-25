@@ -31,6 +31,7 @@ renv	renv-package
 restore	restore
 revert	revert
 run	run
+scaffold	scaffold
 settings	settings
 snapshot	snapshot
 status	status

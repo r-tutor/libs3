@@ -51,7 +51,6 @@ plot(loo1)
 ## ------------------------------------------------------------------------
 yrep <- posterior_predict(fit1)
 
-# requires bayesplot version >= 1.5.0
 ppc_loo_pit_overlay(
   y = roaches$y,
   yrep = yrep,
@@ -79,5 +78,5 @@ yrep <- posterior_predict(fit2)
 ppc_loo_pit_overlay(roaches$y, yrep, lw = weights(loo2$psis_object))
 
 ## ---- count-roaches-loo--------------------------------------------------
-compare_models(loo1, loo2)  # use loo::compare(loo1, loo2) if not using rstanarm
+loo_compare(loo1, loo2)
 

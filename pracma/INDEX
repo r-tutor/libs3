@@ -220,9 +220,9 @@ polyder                 Derivative of Polynomial
 polyfit                 Fitting by Polynomial
 polyint                 Anti-derivative of Polynomial
 polylog                 Polylogarithm Function
-polymul                 Multiplying Polynomials
+polymul                 Multiplying and Dividing Polynomials
 polypow                 Polynomial Powers
-polytrans               Polynomial Transformation
+polytrans               Polynomial Transformations
 polyval                 Evaluating a Polynomial
 pow2                    Base 2 Power
 ppfit                   Piecewise Polynomial Fit

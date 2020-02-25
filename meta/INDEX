@@ -11,6 +11,7 @@ bubble                  Bubble plot to display the result of a
 ci                      Calculation of confidence intervals (based on
                         normal approximation or t-distribution)
 cisapride               Cisapride in Non-Ulcer Dispepsia
+drapery                 Drapery plot
 forest                  Forest plot to display the result of a
                         meta-analysis
 funnel                  Funnel plot

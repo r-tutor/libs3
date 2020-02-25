@@ -23,6 +23,8 @@ ICLUST.rgraph           Draw an ICLUST graph using the Rgraphviz
 ICLUST.sort             Sort items by absolute size of cluster loadings
 KMO                     Find the Kaiser, Meyer, Olkin Measure of
                         Sampling Adequacy
+Pinv                    Compute the Moore-Penrose Pseudo Inverse of a
+                        matrix
 Promax                  Perform Procustes,bifactor, promax or targeted
                         rotations and return the inter factor angles.
 SD                      Find the Standard deviation for a vector,
@@ -30,14 +32,12 @@ SD                      Find the Standard deviation for a vector,
                         there are no cases
 Schmid                  12 variables created by Schmid and Leiman to
                         show the Schmid-Leiman Transformation
-Schutz                  The Schutz correlation matrix example from
-                        Shapiro and ten Berge
+Spengler                Project Talent data set from Marion Spengler
+                        and Rodica Damian
 Tal_Or                  Data set testing causal direction in presumed
                         media influence
 Tucker                  9 Cognitive variables discussed by Tucker and
                         Lewis (1973)
-Utility                 Useful utility functions for file/directory
-                        exploration and manipulation.
 VSS                     Apply the Very Simple Structure, MAP, and other
                         criteria to determine the appropriate number of
                         factors.
@@ -49,32 +49,25 @@ Yule                    From a two by two table, find the Yule
                         coefficients of association, convert to phi, or
                         tetrachoric, recreate table the table to create
                         the Yule coefficient.
-ability                 16 ability items scored as correct or
-                        incorrect.
-affect                  Two data sets of affect and arousal scores as a
-                        function of personality and movie conditions
 alpha                   Find two estimates of reliability: Cronbach's
                         alpha and Guttman's Lambda 6.
+anova.psych             Model comparison for regression, mediation, and
+                        factor analysis
 bassAckward             The Bass-Ackward factoring algorithm discussed
                         by Goldberg
-bestScales              A bootstrap aggregation (bagging) function for
-                        choosing most predictive items
+bestScales              A bootstrap aggregation function for choosing
+                        most predictive unit weighted items
 bfi                     25 Personality items representing 5 factors
 bi.bars                 Draw pairs of bargraphs based on two groups
 biplot.psych            Draw biplots of factor or component scores by
                         factor or component loadings
-blant                   A 29 x 29 matrix that produces weird factor
-                        analytic results
 block.random            Create a block randomized structure for n
                         independent variables
-blot                    Bond's Logical Operations Test - BLOT
 bock                    Bock and Liberman (1970) data set of 1000
                         observations of the LSAT
-burt                    11 emotional variables from Burt (1915)
 cattell                 12 cognitive variables from Cattell (1963)
 circ.tests              Apply four tests of circumplex versus simple
                         structure
-cities                  Distances between 11 US cities
 cluster.fit             cluster Fit: fit of the cluster model to a
                         correlation matrix
 cluster.loadings        Find item by cluster correlations, corrected
@@ -89,8 +82,6 @@ cohen.kappa             Find Cohen's kappa and weighted kappa
                         coefficients for correlation of two raters
 comorbidity             Convert base rates of two diagnoses and their
                         comorbidity into phi, Yule, and tetrachorics
-cor.ci                  Bootstrapped confidence intervals for raw and
-                        composite correlations
 cor.plot                Create an image plot for a correlation or
                         factor matrix
 cor.smooth              Smooth a non-positive definite correlation
@@ -100,6 +91,8 @@ cor.wt                  The sample size weighted correlation may be
 cor2dist                Convert correlations to distances (necessary to
                         do multidimensional scaling of correlation
                         data)
+corCi                   Bootstrapped and normal confidence intervals
+                        for raw and composite correlations
 corFiml                 Find a Full Information Maximum Likelihood
                         (FIML) correlation or covariance matrix from a
                         data matrix with missing data
@@ -117,20 +110,11 @@ cosinor                 Functions for analysis of circadian or diurnal
                         data
 cta                     Simulate the C(ues) T(endency) A(ction) model
                         of motivation
-cubits                  Galton's example of the relationship between
-                        height and 'cubit' or forearm length
-cushny                  A data set from Cushny and Peebles (1905) on
-                        the effect of three drugs on hours of sleep,
-                        used by Student (1908)
 densityBy               Create a 'violin plot' or density plot of the
                         distribution of a set of variables
 describe                Basic descriptive statistics useful for
                         psychometrics
 describeBy              Basic summary statistics by group
-df2latex                Convert a data frame, correlation matrix, or
-                        factor analysis output to a LaTeX table
-dfOrder                 Sort (order) a dataframe or matrix by multiple
-                        columns
 diagram                 Helper functions for drawing path model
                         diagrams
 draw.tetra              Draw a correlation ellipse and two normal
@@ -141,10 +125,6 @@ eigen.loadings          Convert eigen vectors and eigen values to the
                         loadings
 ellipses                Plot data and 1 and 2 sigma correlation
                         ellipses
-epi                     Eysenck Personality Inventory (EPI) data for
-                        3570 participants
-epi.bfi                 13 personality scales from the Eysenck
-                        Personality Inventory and Big 5 inventory
 error.bars              Plot means and confidence intervals
 error.bars.by           Plot means and confidence intervals for
                         multiple groups
@@ -192,24 +172,19 @@ fisherz                 Transformations of r, d, and t including Fisher
                         r to z and z to r and confidence intervals
 fparse                  Parse and exten formula input from a model and
                         return the DV, IV, and associated terms.
-galton                  Galton's Mid parent child height data
 geometric.mean          Find the geometric mean of a vector or columns
                         of a data.frame.
 glb.algebraic           Find the greatest lower bound to reliability.
 harmonic.mean           Find the harmonic mean of a vector, matrix, or
                         columns of a data.frame
 headTail                Combine calls to head and tail
-heights                 A data.frame of the Galton (1888) height and
-                        cubit data set.
 iclust                  iclust: Item Cluster Analysis - Hierarchical
                         cluster analysis using psychometric principles
 iclust.diagram          Draw an ICLUST hierarchical cluster structure
                         diagram
-income                  US family income from US census 2008
 interp.median           Find the interpolated sample median, quartiles,
                         or specific quantiles for a vector, matrix, or
                         data frame
-iqitems                 16 multiple choice IQ items
 irt.1p                  Item Response Theory estimate of theta
                         (ability) using a Rasch (like) model
 irt.fa                  Item Response Analysis by Exploratory Factor
@@ -240,10 +215,6 @@ mediate                 Estimate and display direct and indirect
                         models
 mixedCor                Find correlations for mixtures of continuous,
                         polytomous, and dichotomous variables
-msq                     75 mood items from the Motivational State
-                        Questionnaire for 3896 participants
-msqR                    75 mood items from the Motivational State
-                        Questionnaire for 3032 unique participants
 mssd                    Find von Neuman's Mean Square of Successive
                         Differences
 multi.hist              Multiple histograms with density and normal
@@ -252,7 +223,6 @@ multilevel.reliability
                         Find and plot various
                         reliability/gneralizability coefficients for
                         multilevel data
-neo                     NEO correlation matrix from the NEO_PI_R manual
 omega                   Calculate McDonald's omega estimates of general
                         and total factor saturation
 omega.graph             Graph hierarchical factor structures
@@ -270,7 +240,6 @@ parcels                 Find miniscales (parcels) of size 2 or 3 from a
                         set of items
 partial.r               Find the partial correlations for a set (x) of
                         variables with set (y) removed.
-peas                    Galton's Peas
 phi                     Find the phi coefficient of correlation between
                         two dichotomous variables
 phi.demo                A simple demonstration of the Pearson, phi, and
@@ -283,8 +252,8 @@ polar                   Convert Cartesian factor loadings into polar
                         coordinates
 polychor.matrix         Phi or Yule coefficient matrix to polychoric
                         coefficient matrix
-predict.psych           Prediction function for factor analysis or
-                        principal components
+predict.psych           Prediction function for factor analysis,
+                        principal components (pca), bestScales
 principal               Principal components analysis (PCA)
 print.psych             Print and summary functions for the psych class
 psych                   A package for personality, psychometric, and
@@ -294,15 +263,11 @@ psych.misc              Miscellaneous helper functions for the psych
 r.test                  Tests of significance for correlations
 rangeCorrection         Correct correlations for restriction of range.
                         (Thorndike Case 2)
-read.file               Shortcuts for reading from the clipboard or a
-                        file
 rescale                 Function to convert scores to "conventional "
                         metrics
 residuals.psych         Extract residuals from various psych objects
 reverse.code            Reverse the coding of selected items prior to
                         scale analysis
-sai                     State Anxiety data from the PMC lab over
-                        multiple occasions.
 sat.act                 3 Measures of ability: SATV, SATQ, ACT
 scaling.fits            Test the adequacy of simple choice, logistic,
                         or Thurstonian scaling.
@@ -321,6 +286,8 @@ scoreItems              Score item composite scales and find Cronbach's
                         correlations
 scoreOverlap            Find correlations of composite variables
                         (corrected for overlap) from a larger matrix.
+scoreWtd                Score items using regression or correlation
+                        based weights
 scrub                   A utility for basic data cleaning and recoding.
                         Changes values outside of minimum and maximum
                         limits to NA.
@@ -345,8 +312,6 @@ simulation.circ         Simulations of circumplex and simple structure
 smc                     Find the Squared Multiple Correlation (SMC) of
                         each variable with the remaining variables in a
                         matrix
-spi                     A sample from the SAPA Personality Inventory
-                        including an item dictionary and scoring keys.
 spider                  Make "radar" or "spider" plots.
 splitHalf               Alternative estimates of test reliabiity
 statsBy                 Find statistics (including correlations) within
@@ -370,8 +335,6 @@ thurstone               Thurstone Case V scaling
 tr                      Find the trace of a square matrix
 unidim                  Several indices of the unidimensionality of a
                         set of variables.
-vegetables              Paired comparison of preferences for 9
-                        vegetables
 winsor                  Find the Winsorized scores, means, sds or
                         variances for a vector, matrix, or data.frame
 withinBetween           An example of the distinction between within

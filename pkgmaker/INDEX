@@ -16,6 +16,7 @@ charmap                 Substituting Strings Against a Mapping Table
 checkWarning            Extra Check Functions for RUnit
 citecmd                 Citing Package References
 compile_src             Compile Source Files from a Development Package
+digest_function         Compute Function Digest Hash
 exitCheck               Exit Error Checks
 expand_list             Expanding Lists
 extractLocalFun         Extracting Local Function Definition
@@ -35,7 +36,10 @@ is_something            Testing Object Type
 iterCount               Simple Text Iteration Counter
 knit_ex                 Knitr Extensions
 latex_preamble          LaTeX Utilities for Vignettes
+list.data               List Package Data Objects
 list.libs               Library Files Utilities
+load_all_file           Generate a Loading Script for Development
+                        Packages
 load_project            Load Development Package
 lverbose                Logging Feature
 makeFakeVignette        Generate a Fake Vignette
@@ -80,6 +84,7 @@ simpleRegistry          Simple Package Registry
 source_files            Source Multiple Files
 str_diff                Finding Differences Between Strings
 str_out                 Formatting Utilities
+sys_call_stack          System Call Stack Utilities
 testRversion            Testing R Version
 unit.test               Embedded Unit Tests
 unlist_                 Flatten a List Conserving Names

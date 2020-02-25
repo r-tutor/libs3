@@ -1,4 +1,3 @@
-OpenMx-package	OpenMx
 $,BaseCompute-method	BaseCompute-class
 $,MxAlgebra-method	MxAlgebra-class
 $,MxBaseExpectation-method	MxBaseExpectation-class

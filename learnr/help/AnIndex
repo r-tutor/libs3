@@ -38,3 +38,4 @@ safe_env	safe_env
 tutorial	tutorial
 tutorial_html_dependency	tutorial_html_dependency
 tutorial_options	tutorial_options
+tutorial_package_dependencies	tutorial_package_dependencies

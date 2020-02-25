@@ -87,9 +87,13 @@ print(loo_cv)
 
 ## ----exact_loglik, results="hide"----------------------------------------
 loglik_exact <- matrix(nrow = nsamples(fit), ncol = N)
-for (i in N:max(L + 1, 2)) {
-  fit_i <- update(fit, newdata = df[-(i:N), ], recompile = FALSE)
-  loglik_exact[, i] <- log_lik(fit_i, newdata = df[1:i, ])[, i]
+for (i in (N - 1):L) {
+  past <- 1:i
+  oos <- i + 1
+  df_past <- df[past, , drop = FALSE]
+  df_oos <- df[c(past, oos), , drop = FALSE]
+  fit_i <- update(fit, newdata = df_past, recompile = FALSE)
+  loglik_exact[, i + 1] <- log_lik(fit_i, newdata = df_oos, oos = oos)[, oos]
 }
 
 ## ----helpers-------------------------------------------------------------
@@ -130,15 +134,14 @@ rbind_print(
 ## ----loglik--------------------------------------------------------------
 approx_elpds_1sap_no_refit <- rep(NA, N)
 loglik <- log_lik(fit)
-ids <- N:(L + 1)
 ks <- NULL
 
-for (i in ids) {
-  logratio <- sum_log_ratios(loglik, i:N)
-  psis_part <- suppressWarnings(psis(logratio))
-  ks <- c(ks, pareto_k_values(psis_part))
-  lw_i <- weights(psis_part, normalize = TRUE)[, 1]
-  approx_elpds_1sap_no_refit[i] <- log_sum_exp(lw_i + loglik[, i])
+for (i in (N - 1):L) {
+  logratio <- sum_log_ratios(loglik, (i + 1):N)
+  psis_obj <- suppressWarnings(psis(logratio))
+  ks <- c(ks, pareto_k_values(psis_obj))
+  lw <- weights(psis_obj, normalize = TRUE)[, 1]
+  approx_elpds_1sap_no_refit[i + 1] <- log_sum_exp(lw + loglik[, i + 1])
 }
 
 ## ----plot_ks-------------------------------------------------------------
@@ -153,7 +156,7 @@ plot_ks <- function(ks, ids, thres = 0.6) {
 }
 
 ## ----plotk1sap, cache = FALSE--------------------------------------------
-plot_ks(ks, ids)
+plot_ks(ks, N:(L + 1))
 
 ## ----compare1sap, cache = FALSE------------------------------------------
 approx_elpd_1sap_no_refit <- 
@@ -169,29 +172,30 @@ k_thres <- 0.6
 ## ----refit_loglik, results="hide"----------------------------------------
 loglik <- matrix(nrow = nsamples(fit), ncol = N)
 approx_elpds_1sap <- rep(NA, N)
-
-fit_part <- fit
-ids <- N:(L + 1)
+fit_past <- fit
 i_refit <- N
-refits <- NULL
-ks <- NULL
+refits <- ks <- NULL
 
-for (i in ids) {
-  loglik[, i] <- log_lik(fit_part)[, i]
-  logratio <- sum_log_ratios(loglik, i:i_refit)
-  psis_part <- suppressWarnings(psis(logratio))
-  k <- pareto_k_values(psis_part)
+for (i in (N - 1):L) {
+  loglik[, i + 1] <- log_lik(fit_past)[, i + 1]
+  logratio <- sum_log_ratios(loglik, (i + 1):i_refit)
+  psis_obj <- suppressWarnings(psis(logratio))
+  k <- pareto_k_values(psis_obj)
   ks <- c(ks, k)
   if (k > k_thres) {
-    # refit the model based on the first i-1 observations
-    i_refit <- i - 1
+    # refit the model based on the first i observations
+    i_refit <- i
     refits <- c(refits, i)
-    fit_part <- update(fit_part, newdata = df[1:(i - 1), ], recompile = FALSE)
-    loglik[, i] <- log_lik(fit_part, newdata = df[1:i, ])[, i]
-    approx_elpds_1sap[i] <- log_mean_exp(loglik[, i])
+    past <- 1:i
+    oos <- i + 1
+    df_past <- df[past, , drop = FALSE]
+    df_oos <- df[c(past, oos), , drop = FALSE]
+    fit_past <- update(fit_past, newdata = df_past, recompile = FALSE)
+    loglik[, i + 1] <- log_lik(fit_past, newdata = df_oos)[, oos]
+    approx_elpds_1sap[i + 1] <- log_mean_exp(loglik[, i + 1])
   } else {
-    lw_i <- weights(psis_part, normalize = TRUE)[, 1]
-    approx_elpds_1sap[i] <- log_sum_exp(lw_i + loglik[, i])
+    lw <- weights(psis_obj, normalize = TRUE)[, 1]
+    approx_elpds_1sap[i + 1] <- log_sum_exp(lw + loglik[, i + 1])
   }
 } 
 
@@ -200,7 +204,7 @@ cat("Using threshold ", k_thres,
     ", model was refit ", length(refits), 
     " times, at observations", refits)
 
-plot_ks(ks, ids)
+plot_ks(ks, N:(L + 1))
 
 ## ----lfosummary1sap, cache = FALSE---------------------------------------
 approx_elpd_1sap <- sum(approx_elpds_1sap, na.rm = TRUE)
@@ -221,7 +225,7 @@ ggplot(dat_elpd, aes(x = approx_elpd, y = exact_elpd)) +
   geom_point(size = 2) +
   labs(x = "Approximate ELPDs", y = "Exact ELPDs")
 
-## ----diffs1sap-----------------------------------------------------------
+## ----diffs1sap, cache=FALSE----------------------------------------------
 max_diff <- with(dat_elpd, max(abs(approx_elpd - exact_elpd), na.rm = TRUE))
 mean_diff <- with(dat_elpd, mean(abs(approx_elpd - exact_elpd), na.rm = TRUE))
 
@@ -233,10 +237,14 @@ rbind_print(
 ## ----exact_loglikm, results="hide"---------------------------------------
 M <- 4
 loglikm <- matrix(nrow = nsamples(fit), ncol = N)
-for (i in (N - M + 1):max(L + 1, 2)) {
-  fit_i <- update(fit, newdata = df[-(i:N), ], recompile = FALSE)
-  ll <- log_lik(fit_i, newdata = df[1:(i + M - 1), ], oos = i:(i + M - 1))
-  loglikm[, i] <- rowSums(ll[, i:(i + M - 1)])
+for (i in (N - M):L) {
+  past <- 1:i
+  oos <- (i + 1):(i + M)
+  df_past <- df[past, , drop = FALSE]
+  df_oos <- df[c(past, oos), , drop = FALSE]
+  fit_past <- update(fit, newdata = df_past, recompile = FALSE)
+  ll <- log_lik(fit_past, newdata = df_oos, oos = oos)
+  loglikm[, i + 1] <- rowSums(ll[, oos])
 }
 
 ## ----exact4sap, cache = FALSE--------------------------------------------
@@ -246,38 +254,35 @@ exact_elpds_4sap <- apply(loglikm, 2, log_mean_exp)
 ## ----refit_loglikm, results="hide"---------------------------------------
 loglikm <- loglik <- matrix(nrow = nsamples(fit), ncol = N)
 approx_elpds_4sap <- rep(NA, N)
-fit_part <- fit
-ids <- (N - M + 1):(L + 1)
-i_refit <- N - M + 1
-refits <- NULL
-ks <- NULL
+fit_past <- fit
+i_refit <- N
+refits <- ks <- NULL
 
-loglik[, (N - M + 2):N] <- log_lik(fit_part)[, (N - M + 2):N]
-
-for (i in ids) {
-  oos <- i:(i + M - 1)
-  ll <- log_lik(fit_part, newdata = df[1:(i + M - 1), ], oos = oos)
-  loglikm[, i] <- rowSums(ll[, i:(i + M - 1)])
-  loglik[, i] <- ll[, i]
-  logratio <- sum_log_ratios(loglik, i:i_refit)
-  psis_part <- suppressWarnings(psis(logratio))
-  k <- pareto_k_values(psis_part)
+loglik[, (N - M + 2):N] <- log_lik(fit_past)[, (N - M + 2):N]
+for (i in (N - M):L) {
+  past <- 1:i
+  oos <- (i + 1):(i + M)
+  df_oos <- df[c(past, oos), , drop = FALSE]
+  ll <- log_lik(fit_past, newdata = df_oos, oos = oos)
+  loglik[, i + 1] <- ll[, i + 1]
+  logratio <- sum_log_ratios(loglik, (i + 1):i_refit)
+  psis_obj <- suppressWarnings(psis(logratio))
+  k <- pareto_k_values(psis_obj)
   ks <- c(ks, k)
   if (k > k_thres) {
-    # refit the model based on the first i-1 observations
-    i_refit <- i - 1
+    # refit the model based on the first i observations
+    i_refit <- i
     refits <- c(refits, i)
-    fit_part <- update(
-      fit_part, newdata = df[1:(i - 1), ], 
-      recompile = FALSE
-    )
-    ll <- log_lik(fit_part, newdata = df[1:(i + M - 1), ], oos = oos)
-    loglik[, i] <- ll[, i]
-    loglikm[, i] <- rowSums(ll[, i:(i + M - 1)])
-    approx_elpds_4sap[i] <- log_mean_exp(loglikm[, i])
+    df_past <- df[past, , drop = FALSE]
+    fit_past <- update(fit, newdata = df_past, recompile = FALSE)
+    ll <- log_lik(fit_past, newdata = df_oos, oos = oos)
+    loglikm[, i + 1] <- rowSums(ll[, oos])
+    loglik[, i + 1] <- ll[, i + 1]
+    approx_elpds_4sap[i + 1] <- log_mean_exp(loglikm[, i + 1])
   } else {
-    lw_i <- weights(psis_part, normalize = TRUE)[, 1]
-    approx_elpds_4sap[i] <- log_sum_exp(lw_i + loglikm[, i])
+    lw <- weights(psis_obj, normalize = TRUE)[, 1]
+    loglikm[, i + 1] <- rowSums(ll[, oos])
+    approx_elpds_4sap[i + 1] <- log_sum_exp(lw + loglikm[, i + 1])
   }
 } 
 
@@ -286,7 +291,7 @@ cat("Using threshold ", k_thres,
     ", model was refit ", length(refits), 
     " times, at observations", refits)
 
-plot_ks(ks, ids)
+plot_ks(ks, (N - M + 1):(L + 1))
 
 ## ----lfosummary4sap, cache = FALSE---------------------------------------
 approx_elpd_4sap <- sum(approx_elpds_4sap, na.rm = TRUE)

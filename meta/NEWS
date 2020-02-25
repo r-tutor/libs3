@@ -1,3 +1,185 @@
+*** meta, version 4.11-0, 2020-02-20 ***
+
+ ** Major changes **
+
+  * New arguments 'overall' and 'overall.hetstat' in meta-analysis
+    functions to control printing of overall meta-analysis results
+    (useful to only show subgroup results)
+
+  * For GLMMs, use Wald-type Q statistic to calculate I-squared of
+    residual heterogeneity in meta-analysis with subgroups (instead of
+    likelihood-ratio Q statistic)
+  
+ ** Bug fixes **
+
+  * For GLMMs with subgroups, conduct the correct test for subgroup
+    differences (bug was introduced in meta, version 4.9-7)
+
+  * summary.meta():  
+    - export the correct harmonic mean for fixed effect and random
+      effects model (part of list elements 'fixed' and 'random')
+
+  * metabind():
+    - do not produce an error if argument 'warn' or 'prediction' is
+      not unique in meta-analyses
+  
+ ** User-visible changes **
+
+  * forest.meta():
+    - possible to print results for test of an overall effect or
+      subgroup differences even if meta-analysis results are not shown
+    - new defaults for arguments 'overall' and 'overall.hetstat'
+      (which are now considered from meta-analysis objects)
+
+  * print.summary.meta():
+    - for meta-analysis with subgroups, print information on Q and I^2
+      with fixed effect results and information on tau and tau^2 with
+      random effects results (previously, information on Q, I^2, tau,
+      and tau^2 was reported twice)
+
+ ** Internal changes **
+
+  * do not calculate confidence limits for tau2 and tau in
+    intermediate calculations of other quantities (i.e., use argument
+    method.tau.ci = "")
+
+
+*** meta, version 4.10-0, 2020-01-29 ***
+
+ ** Major changes **
+
+  * New function drapery() to generate a drapery plot
+    (based on p-value curves)
+  
+ ** Bug fixes **
+
+  * funnel.meta():
+    - print contours in contour-enhanced funnel plots at correct
+      position for relative effect measures (bug was introduced in
+      meta, version 4.9-8)
+
+ ** User-visible changes **
+
+  * update.meta():
+    - do not print a warning concerning argument 'Q.Cochrane' if
+      argument sm = "ASD" for meta-analysis objects created with
+      metabin()
+
+  * print.summary.meta():
+    - do not print z- and p-values if test for an overall effect was
+      not conducted (see argument 'null.effect' in metamean(),
+      metaprop(), and metarate())
+
+
+*** meta, version 4.9-9, 2019-12-19 ***
+
+ ** Bug fixes **
+
+  * forest.meta():
+    - printing an additional column on the right side of the forest
+      plot does not result in an error (bug was introduced in meta,
+      version 4.9-8)
+
+ ** User-visible changes **
+
+  * labbe():
+    - new argument 'pos.studlab'
+    - argument checks implemented
+
+  * baujat(), bubble():
+    - argument 'pos' renamed to 'pos.studlab'
+    - argument checks implemented
+
+
+*** meta, version 4.9-8, 2019-12-16 ***
+
+ ** Major changes **
+
+  * Confidence intervals for the between-study variance tau2 and its
+    square root tau are calculated
+
+  * Print tau as well as confidence intervals for tau2 and tau in
+    outputs
+
+  * Square root of between-study variance can be printed in forest
+    plots instead of between-study variance tau2; in addition, the
+    confidence interval for tau2 or tau can be printed
+
+  * Use R package metafor to estimate between-study variance tau2 for
+    DerSimonian-Laird and Paule-Mandel method (which has been already
+    used for all other methods to estimate tau2)
+
+  * For Mantel-Haenszel (MH) method, report results as MH method
+    (instead of inverse variance, IV) for meta-analysis of binary
+    outcome with a single study (results are identical for MH and IV
+    method in this situation)
+
+  * Number of studies printed without digits in forest plots for R
+    objects created with metabind()
+
+  * P-values can be printed according to JAMA reporting standards
+
+  * In subgroup analyses, print the group labels instead of levels if
+    the grouping variable is a factor
+
+  * In funnel plot, print funnel around random effects (instead of
+    fixed effect) estimate if only random effects meta-analysis is
+    conducted; only show funnel if either fixed effect or random
+    effects meta-analysis was conducted
+
+  * Change preferred citation of R package meta from Schwarzer (2007)
+    to Balduzzi et al. (2019), DOI: 10.1136/ebmental-2019-300117
+
+ ** User-visible changes **
+
+  * print.summary.meta(), forest.meta():
+    - new argument 'JAMA.pval' to print p-values according to JAMA
+      reporting standards
+
+  * print.summary.meta():
+    - new argument 'zero.pval' to remove leading zeros from p-values
+    - print information on estimation of between-study variance even
+      if only results for fixed effect model is shown
+    - print information if Mantel-Haenszel estimate is used to
+      calculate Q and tau2 (implemented similar to RevMan 5)
+    - global setting for 'text.tau2' as defined in settings.meta() is
+      considered in details of meta-analytical method
+
+  * print.meta():
+    - do not print (missing) weights for GLMMs
+
+  * update.meta():
+    - by default, do not print warnings (argument 'warn')
+    - add information on variable defining subgroups (argument
+      'byvar') to meta-analysis dataset
+
+  * Command 'settings.meta("JAMA")' will change the settings for
+    arguments 'zero.pval' and 'JAMA.pval'
+
+  * Help page with description of R package updated
+
+  * Major update of other help pages:
+    metacont(), metacor(), and metamean()
+
+ ** Internal changes **
+
+  * function paulemandel() removed from package as R package metafor
+    is used to estimate the between-study variance
+
+  * formatPT():
+    - new argument 'JAMA'
+
+  * List elements 'C' and 'C.w' (scaling factor to estimate common
+    between-study variance) removed from meta-analysis objects
+
+  * Import confint.rma.uni() from metafor to calculate confidence
+    intervals for tau2 and tau
+
+  * new internal function pasteCI() to print formatted CIs
+
+  * new internal function is.wholenumber() to check for whole numbers
+
+
 *** meta, version 4.9-7, 2019-09-27 ***
 
  ** Major changes **

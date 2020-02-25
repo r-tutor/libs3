@@ -18,14 +18,18 @@ list(EVAL = TRUE)
 ## ---- eval=FALSE---------------------------------------------------------
 #  library("loo")
 #  
-#  # Extract pointwise log-likelihood and compute LOO
+#  # Extract pointwise log-likelihood
+#  # using merge_chains=FALSE returns an array, which is easier to
+#  # use with relative_eff()
 #  log_lik_1 <- extract_log_lik(fit_1, merge_chains = FALSE)
 #  
 #  # as of loo v2.0.0 we can optionally provide relative effective sample sizes
 #  # when calling loo, which allows for better estimates of the PSIS effective
 #  # sample sizes and Monte Carlo error
-#  r_eff <- relative_eff(exp(log_lik_1))
+#  r_eff <- relative_eff(exp(log_lik_1), cores = 2)
 #  
+#  # preferably use more than 2 cores (as many cores as possible)
+#  # will use value of 'mc.cores' option if cores is not specified
 #  loo_1 <- loo(log_lik_1, r_eff = r_eff, cores = 2)
 #  print(loo_1)
 
@@ -40,8 +44,8 @@ list(EVAL = TRUE)
 
 ## ---- eval=FALSE---------------------------------------------------------
 #  # Compare
-#  comp <- compare(loo_1, loo_2)
+#  comp <- loo_compare(loo_1, loo_2)
 
 ## ---- eval=FALSE---------------------------------------------------------
-#  print(comp)
+#  print(comp) # can set simplify=FALSE for more detailed print output
 

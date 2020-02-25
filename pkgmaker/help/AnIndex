@@ -27,6 +27,7 @@ cite_pkg	cite_pkg
 compactVignettes	vignette
 compile_src	compile_src
 CRAN	CRAN
+digest_function	digest_function
 exitCheck	exitCheck
 expand_dots	expand_list
 expand_list	expand_list
@@ -79,9 +80,11 @@ latex_preamble	latex
 ldata	packageData
 libname	libutils
 library_project	load_project
+list.data	list.data
 list.libs	libutils
 listPackageOptions	options
 lmessage	logging
+load_all_file	load_all_file
 load_project	load_project
 log_append	logging
 lsilent	logging
@@ -158,6 +161,7 @@ str_bs	str_out
 str_class	str_out
 str_desc	str_out
 str_diff	str_diff
+str_dim	str_out
 str_fun	str_out
 str_hash	str_out
 str_md5sum	str_out
@@ -165,7 +169,12 @@ str_ns	devutils
 str_out	str_out
 str_pkg	str_out
 sVariable	sVariable
+sys.function_digest	sys_call_stack
+sys.function_frame	sys_call_stack
+sys.function_nframe	sys_call_stack
 Sys.getenv_value	Sys.getenv_value
+sys.source_file	sys_call_stack
+sys_call_stack	sys_call_stack
 testRversion	testRversion
 topns	devutils
 topns_name	devutils

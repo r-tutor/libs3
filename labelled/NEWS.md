@@ -1,6 +1,9 @@
-# labelled 2.2.1
+# labelled 2.2.2
 
-# labelled (development version)
+* bug fix for `look_for()` (#52 by @NoahMarconi)
+* bug fix in `val_labels_to_na()` documentation
+
+# labelled 2.2.1
 
 * bug fix for `na_range()` and `na_values()`: variable labels 
   are now preserved (#48, thanks to @mspittler)

@@ -1,6 +1,8 @@
 axsearch	axsearch
 bmchk	bmchk
 bmstep	bmstep
+ctrldefault	ctrldefault
+dispdefault	ctrldefault
 fnchk	fnchk
 gHgen	gHgen
 gHgenb	gHgenb

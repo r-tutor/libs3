@@ -303,12 +303,15 @@ polyadd	polyadd
 polyApprox	polyApprox
 polyarea	polyarea
 polyder	polyder
+polydiv	polymul
 polyfit	polyfit
 polyfix	polyfit
+polygcf	polytrans
 polyint	polyint
 polylog	polylog
 polymul	polymul
 polypow	polypow
+polyroots	roots
 polytrans	polytrans
 polyval	polyval
 polyvalm	polyval
@@ -372,6 +375,7 @@ rmserr	rmserr
 romberg	romberg
 rootm	sqrtm
 roots	roots
+rootsmult	roots
 rosser	rosser
 rot90	rot90
 rref	rref
