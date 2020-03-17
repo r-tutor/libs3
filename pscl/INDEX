@@ -61,7 +61,7 @@ predict.ideal           predicted probabilities from an ideal object
 predict.zeroinfl        Methods for zeroinfl Objects
 predprob                compute predicted probabilities from fitted
                         models
-predprob.glm            Predicted Probabilties for GLM Fits
+predprob.glm            Predicted Probabilities for GLM Fits
 predprob.ideal          predicted probabilities from fitting ideal to
                         rollcall data
 presidentialElections   elections for U.S. President, 1932-2016, by
