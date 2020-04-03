@@ -22,6 +22,7 @@ confint.rma.mh	confint.rma
 confint.rma.mv	confint.rma
 confint.rma.peto	confint.rma
 confint.rma.uni	confint.rma
+contrmat	contrmat
 cooks.distance.rma.mv	influence.rma.mv
 cooks.distance.rma.uni	influence.rma.uni
 cumul	cumul
@@ -42,6 +43,7 @@ dat.debruin2009	dat.debruin2009
 dat.egger2001	dat.egger2001
 dat.fine1993	dat.fine1993
 dat.gibson2002	dat.gibson2002
+dat.graves2010	dat.graves2010
 dat.hackshaw1998	dat.hackshaw1998
 dat.hart1999	dat.hart1999
 dat.hasselblad1998	dat.hasselblad1998
@@ -184,6 +186,7 @@ summary.rma	print.rma
 tail.list.rma	methods.list.rma
 to.long	to.long
 to.table	to.table
+to.wide	to.wide
 transf	transf
 transf.abt	transf
 transf.ahw	transf

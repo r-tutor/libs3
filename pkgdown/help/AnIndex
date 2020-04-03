@@ -15,6 +15,8 @@ build_tutorials	build_tutorials
 clean_site	clean_site
 data_template	render_page
 deploy_site_github	deploy_site_github
+deploy_to_branch	deploy_to_branch
+index	index
 init_site	init_site
 in_pkgdown	in_pkgdown
 pkgdown	pkgdown-package
@@ -28,6 +30,7 @@ template_reference	templates
 test-crayon	test-crayon
 test-dont	test-dont
 test-figures	test-figures
+test-index	index
 test-links	test-links
 test-lists	test-lists
 test-output-styles	test-output-styles

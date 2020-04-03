@@ -1,6 +1,6 @@
 as_pkgdown              Generate pkgdown data structure
-autolink_html           Automatic link references and articles in an
-                        HTML package
+autolink_html           Automatically link references and articles in
+                        an HTML page
 build_articles          Build articles section
 build_favicons          Create favicons from package logo
 build_home              Build home section
@@ -11,6 +11,7 @@ build_tutorials         Build tutorials section
 clean_site              Clean site
 deploy_site_github      Deploy a pkgdown site on Travis-CI to Github
                         Pages
+deploy_to_branch        Build and deploy a site locally
 in_pkgdown              Determine if code is executed by pkgdown
 init_site               Initialise site infrastructure
 preview_site            Open site in browser

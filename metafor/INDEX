@@ -14,6 +14,8 @@ coef.permutest.rma.uni
 coef.rma                Extract the Model Coefficients and Coefficient
                         Table from 'rma' and 'summary.rma' Objects
 confint.rma.uni         Confidence Intervals for 'rma' Objects
+contrmat                Construct Contrast Matrix for Two-Group
+                        Comparisons
 cumul                   Cumulative Meta-Analysis for 'rma' Objects
 dat.bangertdrowns2004   Studies on the Effectiveness of
                         Writing-to-Learn Interventions
@@ -42,6 +44,8 @@ dat.fine1993            Studies on Radiation Therapy with or without
 dat.gibson2002          Studies on the Effectiveness of Self-Management
                         Education and Regular Medical Review for Adults
                         with Asthma
+dat.graves2010          Studies on the Effectiveness of Injected
+                        Cholera Vaccines
 dat.hackshaw1998        Studies on Lung Cancer Risk from ETS Exposure
 dat.hart1999            Studies on the Effectiveness of Warfarin for
                         Preventing Strokes
@@ -156,6 +160,7 @@ robust                  (Cluster) Robust Tests and Confidence Intervals
 simulate.rma            Simulate Method for 'rma' Objects
 to.long                 Convert Data from Vector to Long Format
 to.table                Convert Data from Vector to Table Format
+to.wide                 Convert Data from a Long to a Wide Format
 transf                  Transformation Function
 trimfill                Trim and Fill Analysis for 'rma.uni' Objects
 update.rma              Model Updating for 'rma' Objects
