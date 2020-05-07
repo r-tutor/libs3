@@ -31,5 +31,5 @@ Author: Olaf Mersmann [aut],
 Maintainer: Joshua M. Ulrich <josh.m.ulrich@gmail.com>
 Repository: CRAN
 Date/Publication: 2019-09-24 11:00:02 UTC
-Built: R 3.6.1; x86_64-w64-mingw32; 2019-09-27 22:27:58 UTC; windows
+Built: R 4.0.0; x86_64-w64-mingw32; 2020-05-02 19:22:59 UTC; windows
 Archs: i386, x64

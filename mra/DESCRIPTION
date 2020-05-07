@@ -26,5 +26,5 @@ NeedsCompilation: yes
 Packaged: 2018-01-05 00:03:37 UTC; tmcdonald
 Repository: CRAN
 Date/Publication: 2018-01-05 13:48:51 UTC
-Built: R 3.5.0; x86_64-w64-mingw32; 2018-06-22 09:31:19 UTC; windows
+Built: R 4.0.0; x86_64-w64-mingw32; 2020-05-02 20:32:14 UTC; windows
 Archs: i386, x64

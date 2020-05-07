@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Mental Health Treatment</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Fleiss93cont {meta}"><tr><td>Fleiss93cont {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Mental Health Treatment</h2>
+
+<h3>Description</h3>
+
+<p>Meta-analysis on the Effect of Mental Health Treatment on Medical
+Utilisation.
+</p>
+<p>Data example in Fleiss (1993) for meta-analysis with continuous outcomes.
+</p>
+
+
+<h3>Format</h3>
+
+<p>A data frame with the following columns:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+<b><em>study</em></b></td><td style="text-align: left;"> study label </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>year</em></b></td><td style="text-align: left;"> year of publication </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.e</em></b></td><td style="text-align: left;"> number of observations in psychotherapy group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>mean.e</em></b></td><td style="text-align: left;"> estimated mean in psychotherapy group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>sd.e</em></b></td><td style="text-align: left;"> standard deviation in psychotherapy group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.c</em></b></td><td style="text-align: left;"> number of observations in control group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>mean.c</em></b></td><td style="text-align: left;"> estimated mean in control group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>sd.c</em></b></td><td style="text-align: left;"> standard deviation in control group
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>Source</h3>
+
+<p>Fleiss JL (1993):
+The statistical basis of meta-analysis.
+<em>Statistical Methods in Medical Research</em>,
+<b>2</b>, 121&ndash;45
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="Fleiss93.html">Fleiss93</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Fleiss93cont)
+metacont(n.e, mean.e, sd.e,
+         n.c, mean.c, sd.c,
+         data = Fleiss93cont,
+         studlab = paste(study, year),
+         comb.random = FALSE)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.12-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

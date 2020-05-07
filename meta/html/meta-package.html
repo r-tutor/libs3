@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: meta: Brief overview of methods and general hints</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for meta-package {meta}"><tr><td>meta-package {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>meta: Brief overview of methods and general hints</h2>
+
+<h3>Description</h3>
+
+<p>R package <b>meta</b> is a user-friendly general package providing
+standard methods for meta-analysis and supporting Schwarzer et
+al. (2015), <a href="http://meta-analysis-with-r.org/">http://meta-analysis-with-r.org/</a>.
+</p>
+
+
+<h3>Details</h3>
+
+<p>R package <b>meta</b> (Schwarzer, 2007; Balduzzi et al., 2019)
+provides the following
+</p>
+<p>statistical methods for meta-analysis.
+</p>
+
+<ol>
+<li><p> Fixed effect and random effects model:
+</p>
+
+<ul>
+<li><p> Meta-analysis of continuous outcome data (<code><a href="metacont.html">metacont</a></code>)
+</p>
+</li>
+<li><p> Meta-analysis of binary outcome data (<code><a href="metabin.html">metabin</a></code>)
+</p>
+</li>
+<li><p> Meta-analysis of incidence rates (<code><a href="metainc.html">metainc</a></code>)
+</p>
+</li>
+<li><p> Generic inverse variance meta-analysis (<code><a href="metagen.html">metagen</a></code>)
+</p>
+</li>
+<li><p> Meta-analysis of single correlations (<code><a href="metacor.html">metacor</a></code>)
+</p>
+</li>
+<li><p> Meta-analysis of single means (<code><a href="metamean.html">metamean</a></code>)
+</p>
+</li>
+<li><p> Meta-analysis of single proportions (<code><a href="metaprop.html">metaprop</a></code>)
+</p>
+</li>
+<li><p> Meta-analysis of single incidence rates (<code><a href="metarate.html">metarate</a></code>)
+</p>
+</li></ul>
+
+</li>
+<li><p> Several plots for meta-analysis:
+</p>
+
+<ul>
+<li><p> Forest plot (<code><a href="forest.html">forest</a></code>)
+</p>
+</li>
+<li><p> Funnel plot (<code><a href="funnel.html">funnel</a></code>)
+</p>
+</li>
+<li><p> Galbraith plot / radial plot (<code><a href="radial.html">radial</a></code>)
+</p>
+</li>
+<li><p> L'Abbe plot for meta-analysis with binary outcome data
+(<code><a href="labbe.html">labbe</a></code>)
+</p>
+</li>
+<li><p> Baujat plot to explore heterogeneity in meta-analysis
+(<code><a href="baujat.html">baujat</a></code>)
+</p>
+</li>
+<li><p> Bubble plot to display the result of a meta-regression
+(<code><a href="bubble.html">bubble</a></code>)
+</p>
+</li></ul>
+
+</li>
+<li><p> Statistical tests for funnel plot asymmetry
+(<code><a href="metabias.html">metabias</a></code>) and trim-and-fill method
+(<code><a href="trimfill.html">trimfill</a></code>) to evaluate bias in meta-analysis
+</p>
+</li>
+<li><p> Cumulative meta-analysis (<code><a href="metacum.html">metacum</a></code>) and
+leave-one-out meta-analysis (<code><a href="metainf.html">metainf</a></code>)
+</p>
+</li>
+<li><p> Meta-regression (<code><a href="metareg.html">metareg</a></code>)
+</p>
+</li>
+<li><p> Import data from Review Manager 5 (<code><a href="read.rm5.html">read.rm5</a></code>);
+see also <code><a href="metacr.html">metacr</a></code> to conduct meta-analysis for a
+single comparison and outcome from a Cochrane review
+</p>
+</li>
+<li><p> Prediction interval for the treatment effect of a new study
+(Higgins et al., 2009); see argument <code>prediction</code> in
+meta-analysis functions, e.g., <code><a href="metagen.html">metagen</a></code>
+</p>
+</li>
+<li><p> Hartung-Knapp method for random effects meta-analysis
+(Hartung &amp; Knapp, 2001a,b); see argument <code>hakn</code> in
+meta-analysis functions, e.g., <code><a href="metagen.html">metagen</a></code>
+</p>
+</li>
+<li><p> Various estimators for the between-study variance
+<i>&tau;^2</i> in a random effects model (Veroniki et al., 2016);
+see argument <code>method.tau</code> in meta-analysis functions, e.g.,
+<code><a href="metagen.html">metagen</a></code>
+</p>
+</li>
+<li><p> Generalised linear mixed models (<code><a href="metabin.html">metabin</a></code>,
+<code><a href="metainc.html">metainc</a></code>, <code><a href="metaprop.html">metaprop</a></code>, and
+<code><a href="metarate.html">metarate</a></code>)
+</p>
+</li></ol>
+
+<p>The following more advanced statistical methods are provided by
+add-on R packages:
+</p>
+
+<ul>
+<li><p> Frequentist methods for network meta-analysis (R package
+<b>netmeta</b>)
+</p>
+</li>
+<li><p> Advanced methods to model and adjust for bias in
+meta-analysis (R package <b>metasens</b>)
+</p>
+</li></ul>
+
+<p>Results of several meta-analyses can be combined with
+<code><a href="metabind.html">metabind</a></code>. This is, for example, useful to generate a
+forest plot with results of subgroup analyses.
+</p>
+<p>See <code><a href="settings.meta.html">settings.meta</a></code> to learn how to print and specify
+default meta-analysis methods used during your R session. For
+example, the function can be used to specify general settings:
+</p>
+
+<ul>
+<li> <p><code>settings.meta("revman5")</code>
+</p>
+</li>
+<li> <p><code>settings.meta("jama")</code>
+</p>
+</li>
+<li> <p><code>settings.meta("iqwig5")</code>
+</p>
+</li>
+<li> <p><code>settings.meta("iqwig6")</code>
+</p>
+</li></ul>
+
+<p>The first command can be used to reproduce meta-analyses from
+Cochrane reviews conducted with <em>Review Manager 5</em> (RevMan 5,
+<a href="http://community.cochrane.org/tools/review-production-tools/revman-5">http://community.cochrane.org/tools/review-production-tools/revman-5</a>)
+and specifies to use a RevMan 5 layout in forest plots. The second
+command can be used to generate forest plots following instructions
+for authors of the <em>Journal of the American Medical
+Association</em>
+(<a href="http://jamanetwork.com/journals/jama/pages/instructions-for-authors">http://jamanetwork.com/journals/jama/pages/instructions-for-authors</a>). The
+other two commands implement the recommendations of the Institute
+for Quality and Efficiency in Health Care (IQWiG), Germany
+accordinging to General Methods 5 and 6, respectively
+(<a href="https://www.iqwig.de/en/methods/methods-paper.3020.html">https://www.iqwig.de/en/methods/methods-paper.3020.html</a>).
+</p>
+<p>In addition, <code><a href="settings.meta.html">settings.meta</a></code> can be used to change
+individual settings. For example, the following R command specifies
+the use of the Hartung-Knapp and Paule-Mandel methods, and the
+printing of prediction intervals in the current R session for any
+meta-analysis generated after execution of this command:
+</p>
+
+<ul>
+<li> <p><code>settings.meta(hakn=TRUE, method.tau="PM", prediction=TRUE)</code>
+</p>
+</li></ul>
+
+<p>Type <code>help(package = "meta")</code> for a listing of R functions and
+datasets available in <b>meta</b>.
+</p>
+<p>Balduzzi et al. (2019) is the preferred citation in publications
+for <b>meta</b>. Type <code>citation("meta")</code> for a BibTeX entry of
+this publication.
+</p>
+<p>To report problems and bugs
+</p>
+
+<ul>
+<li><p> type <code>bug.report(package = "meta")</code> if you do not use
+RStudio,
+</p>
+</li>
+<li><p> send an email to Guido Schwarzer
+<a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a> if you use RStudio.
+</p>
+</li></ul>
+
+<p>The development version of <b>meta</b> is available on GitHub
+<a href="https://github.com/guido-s/meta">https://github.com/guido-s/meta</a>.
+</p>
+
+
+<h3>Note</h3>
+
+<p>R package <b>meta</b> imports R functions from <b>metafor</b>
+(Viechtbauer, 2010) to
+</p>
+
+<ul>
+<li><p> estimate the between-study variance <i>&tau;^2</i>,
+</p>
+</li>
+<li><p> conduct meta-regression,
+</p>
+</li>
+<li><p> estimate generalised linear mixed models.
+</p>
+</li></ul>
+
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Balduzzi S, Rücker G, Schwarzer G (2019):
+How to perform a meta-analysis with R: a practical tutorial.
+<em>Evidence-Based Mental Health</em>.
+</p>
+<p>Hartung J, Knapp G (2001a):
+On tests of the overall treatment effect in meta-analysis with
+normally distributed responses.
+<em>Statistics in Medicine</em>,
+<b>20</b>, 1771&ndash;82
+</p>
+<p>Hartung J, Knapp G (2001b):
+A refined method for the meta-analysis of controlled clinical
+trials with binary outcome.
+<em>Statistics in Medicine</em>,
+<b>20</b>, 3875&ndash;89
+</p>
+<p>Higgins JPT, Thompson SG, Spiegelhalter DJ (2009):
+A re-evaluation of random-effects meta-analysis.
+<em>Journal of the Royal Statistical Society: Series A</em>,
+<b>172</b>, 137&ndash;59
+</p>
+<p>Schwarzer G (2007):
+meta: An R package for meta-analysis.
+<em>R News</em>,
+<b>7</b>, 40&ndash;5
+</p>
+<p>Schwarzer G, Carpenter JR and Rücker G (2015):
+<em>Meta-Analysis with R (Use-R!)</em>.
+Springer International Publishing, Switzerland
+</p>
+<p>Veroniki AA, Jackson D, Viechtbauer W, Bender R, Bowden J, Knapp G,
+et al. (2016):
+Methods to estimate the between-study variance and its uncertainty
+in meta-analysis.
+<em>Research Synthesis Methods</em>,
+<b>7</b>, 55&ndash;79 
+</p>
+<p>Viechtbauer W (2010):
+Conducting Meta-Analyses in R with the metafor Package.
+<em>Journal of Statistical Software</em>,
+<b>36</b>, 1&ndash;48
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.12-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

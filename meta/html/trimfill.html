@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Trim-and-fill method to adjust for bias in meta-analysis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for trimfill {meta}"><tr><td>trimfill {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Trim-and-fill method to adjust for bias in meta-analysis</h2>
+
+<h3>Description</h3>
+
+<p>Trim-and-fill method for estimating and adjusting for the number
+and outcomes of missing studies in a meta-analysis.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+trimfill(x, ...)
+
+## Default S3 method:
+trimfill(
+  x,
+  seTE,
+  left = NULL,
+  ma.fixed = TRUE,
+  type = "L",
+  n.iter.max = 50,
+  sm = "",
+  studlab = NULL,
+  level = 0.95,
+  level.comb = level,
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  hakn = FALSE,
+  method.tau = "DL",
+  method.tau.ci = if (method.tau == "DL") "J" else "QP",
+  prediction = FALSE,
+  level.predict = level,
+  backtransf = TRUE,
+  pscale = 1,
+  irscale = 1,
+  irunit = "person-years",
+  silent = TRUE,
+  ...
+)
+
+## S3 method for class 'meta'
+trimfill(
+  x,
+  left = NULL,
+  ma.fixed = TRUE,
+  type = "L",
+  n.iter.max = 50,
+  level = x$level,
+  level.comb = x$level.comb,
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  hakn = x$hakn,
+  method.tau = x$method.tau,
+  method.tau.ci = x$method.tau.ci,
+  prediction = x$prediction,
+  level.predict = x$level.predict,
+  backtransf = x$backtransf,
+  pscale = x$pscale,
+  irscale = x$irscale,
+  irunit = x$irunit,
+  silent = TRUE,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>An object of class <code>meta</code>, or estimated treatment
+effect in individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments</p>
+</td></tr>
+<tr valign="top"><td><code>seTE</code></td>
+<td>
+<p>Standard error of estimated treatment effect.</p>
+</td></tr>
+<tr valign="top"><td><code>left</code></td>
+<td>
+<p>A logical indicating whether studies are supposed to be
+missing on the left or right side of the funnel plot. If NULL,
+the linear regression test for funnel plot symmetry (i.e.,
+function <code>metabias(..., method="linreg")</code>) is used to
+determine whether studies are missing on the left or right side.</p>
+</td></tr>
+<tr valign="top"><td><code>ma.fixed</code></td>
+<td>
+<p>A logical indicating whether a fixed effect or
+random effects model is used to estimate the number of missing
+studies.</p>
+</td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>A character indicating which method is used to estimate
+the number of missing studies. Either <code>"L"</code> or <code>"R"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>n.iter.max</code></td>
+<td>
+<p>Maximum number of iterations to estimate number
+of missing studies.</p>
+</td></tr>
+<tr valign="top"><td><code>sm</code></td>
+<td>
+<p>An optional character string indicating underlying
+summary measure, e.g., <code>"RD"</code>, <code>"RR"</code>, <code>"OR"</code>,
+<code>"ASD"</code>, <code>"HR"</code>, <code>"MD"</code>, <code>"SMD"</code>, or
+<code>"ROM"</code>; ignored if <code>x</code> is of class <code>meta</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>studlab</code></td>
+<td>
+<p>An optional vector with study labels; ignored if
+<code>x</code> is of class <code>meta</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>level</code></td>
+<td>
+<p>The level used to calculate confidence intervals for
+individual studies. If existing, <code>x$level</code> is used as value
+for <code>level</code>; otherwise 0.95 is used.</p>
+</td></tr>
+<tr valign="top"><td><code>level.comb</code></td>
+<td>
+<p>The level used to calculate confidence interval
+for the pooled estimate. If existing, <code>x$level.comb</code> is used
+as value for <code>level.comb</code>; otherwise 0.95 is used.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.fixed</code></td>
+<td>
+<p>A logical indicating whether a fixed effect
+meta-analysis should be conducted.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.random</code></td>
+<td>
+<p>A logical indicating whether a random effects
+meta-analysis should be conducted.</p>
+</td></tr>
+<tr valign="top"><td><code>hakn</code></td>
+<td>
+<p>A logical indicating whether the method by Hartung and
+Knapp should be used to adjust test statistics and confidence
+intervals.</p>
+</td></tr>
+<tr valign="top"><td><code>method.tau</code></td>
+<td>
+<p>A character string indicating which method is
+used to estimate the between-study variance <i>&tau;^2</i> and its
+square root <i>&tau;</i>. Either <code>"DL"</code>, <code>"PM"</code>,
+<code>"REML"</code>, <code>"ML"</code>, <code>"HS"</code>, <code>"SJ"</code>,
+<code>"HE"</code>, or <code>"EB"</code>, can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>method.tau.ci</code></td>
+<td>
+<p>A character string indicating which method is
+used to estimate the confidence interval of <i>&tau;^2</i> and
+<i>&tau;</i>. Either <code>"QP"</code>, <code>"BJ"</code>, or <code>"J"</code>, or
+<code>""</code>, can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>prediction</code></td>
+<td>
+<p>A logical indicating whether a prediction
+interval should be printed.</p>
+</td></tr>
+<tr valign="top"><td><code>level.predict</code></td>
+<td>
+<p>The level used to calculate prediction
+interval for a new study.</p>
+</td></tr>
+<tr valign="top"><td><code>backtransf</code></td>
+<td>
+<p>A logical indicating whether results should be
+back transformed in printouts and plots. If
+<code>backtransf=TRUE</code>, results for <code>sm="OR"</code> are printed as
+odds ratios rather than log odds ratios and results for
+<code>sm="ZCOR"</code> are printed as correlations rather than Fisher's
+z transformed correlations, for example.</p>
+</td></tr>
+<tr valign="top"><td><code>pscale</code></td>
+<td>
+<p>A numeric giving scaling factor for printing of
+single event probabilities or risk differences, i.e. if argument
+<code>sm</code> is equal to <code>"PLOGIT"</code>, <code>"PLN"</code>,
+<code>"PRAW"</code>, <code>"PAS"</code>, <code>"PFT"</code>, or <code>"RD"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>irscale</code></td>
+<td>
+<p>A numeric defining a scaling factor for printing of
+single incidence rates or incidence rate differences, i.e. if
+argument <code>sm</code> is equal to <code>"IR"</code>, <code>"IRLN"</code>,
+<code>"IRS"</code>, <code>"IRFT"</code>, or <code>"IRD"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>irunit</code></td>
+<td>
+<p>A character specifying the time unit used to
+calculate rates, e.g. person-years.</p>
+</td></tr>
+<tr valign="top"><td><code>silent</code></td>
+<td>
+<p>A logical indicating whether basic information on
+iterations shown.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The trim-and-fill method (Duval, Tweedie 2000a, 2000b) can be used
+for estimating and adjusting for the number and outcomes of missing
+studies in a meta-analysis. The method relies on scrutiny of one
+side of a funnel plot for asymmetry assumed due to publication
+bias.
+</p>
+<p>Three different methods have been proposed originally to estimate
+the number of missing studies. Two of these methods (L- and
+R-estimator) have been shown to perform better in simulations, and
+are available in this R function (argument <code>type</code>).
+</p>
+<p>A fixed effect or random effects model can be used to estimate the
+number of missing studies (argument <code>ma.fixed</code>). Furthermore,
+a fixed effect and/or random effects model can be used to summaries
+study results (arguments <code>comb.fixed</code> and
+<code>comb.random</code>). Simulation results (Peters et al. 2007)
+indicate that the fixed-random model, i.e. using a fixed effect
+model to estimate the number of missing studies and a random
+effects model to summaries results, (i) performs better than the
+fixed-fixed model, and (ii) performs no worse than and marginally
+better in certain situations than the random-random
+model. Accordingly, the fixed-random model is the default.
+</p>
+<p>An empirical comparison of the trim-and-fill method and the Copas
+selection model (Schwarzer et al. 2010) indicates that the
+trim-and-fill method leads to excessively conservative inference in
+practice. The Copas selection model is available in R package
+<b>metasens</b>.
+</p>
+<p>The function <code><a href="metagen.html">metagen</a></code> is called internally.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>c("metagen", "meta", "trimfill")</code>. The
+object is a list containing the following components:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>studlab, sm, left, ma.fixed, type, n.iter.max</code></td>
+<td>
+<p>As defined
+above.</p>
+</td></tr>
+<tr valign="top"><td><code>level, level.comb, level.predict</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.fixed, comb.random, prediction</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>hakn, method.tau, method.tau.ci,</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>TE, seTE</code></td>
+<td>
+<p>Estimated treatment effect and standard error of
+individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>lower, upper</code></td>
+<td>
+<p>Lower and upper confidence interval limits for
+individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>zval, pval</code></td>
+<td>
+<p>z-value and p-value for test of treatment effect
+for individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>w.fixed, w.random</code></td>
+<td>
+<p>Weight of individual studies (in fixed and
+random effects model).</p>
+</td></tr> 
+<tr valign="top"><td><code>TE.fixed, seTE.fixed</code></td>
+<td>
+<p>Estimated overall treatment effect and
+standard error (fixed effect model).</p>
+</td></tr>
+<tr valign="top"><td><code>TE.random, seTE.random</code></td>
+<td>
+<p>Estimated overall treatment effect
+and standard error (random effects model).</p>
+</td></tr>
+<tr valign="top"><td><code>seTE.predict</code></td>
+<td>
+<p>Standard error utilised for prediction
+interval.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.predict, upper.predict</code></td>
+<td>
+<p>Lower and upper limits of
+prediction interval.</p>
+</td></tr>
+<tr valign="top"><td><code>k</code></td>
+<td>
+<p>Number of studies combined in meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>Q</code></td>
+<td>
+<p>Heterogeneity statistic Q.</p>
+</td></tr>
+<tr valign="top"><td><code>tau</code></td>
+<td>
+<p>Square-root of between-study variance.</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>Pooling method: <code>"Inverse"</code>.</p>
+</td></tr> 
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>Function call.</p>
+</td></tr>
+<tr valign="top"><td><code>n.iter</code></td>
+<td>
+<p>Actual number of iterations to estimate number of
+missing studies.</p>
+</td></tr>
+<tr valign="top"><td><code>trimfill</code></td>
+<td>
+<p>A logical vector indicating studies that have been
+added by trim-and-fill method.</p>
+</td></tr>
+<tr valign="top"><td><code>df.hakn</code></td>
+<td>
+<p>Degrees of freedom for test of treatment effect for
+Hartung-Knapp method (only if <code>hakn=TRUE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>Title of meta-analysis / systematic review.</p>
+</td></tr>
+<tr valign="top"><td><code>complab</code></td>
+<td>
+<p>Comparison label.</p>
+</td></tr> 
+<tr valign="top"><td><code>outclab</code></td>
+<td>
+<p>Outcome label.</p>
+</td></tr>
+<tr valign="top"><td><code>label.e</code></td>
+<td>
+<p>Label for experimental group.</p>
+</td></tr>
+<tr valign="top"><td><code>label.c</code></td>
+<td>
+<p>Label for control group.</p>
+</td></tr>
+<tr valign="top"><td><code>label.left</code></td>
+<td>
+<p>Graph label on left side of forest plot.</p>
+</td></tr>
+<tr valign="top"><td><code>label.right</code></td>
+<td>
+<p>Graph label on right side of forest plot.</p>
+</td></tr>
+<tr valign="top"><td><code>k0</code></td>
+<td>
+<p>Number of studies added by trim-and-fill.</p>
+</td></tr>
+<tr valign="top"><td><code>n.e</code></td>
+<td>
+<p>Number of observations in experimental group (only for
+object <code>x</code> of class <code>metabin</code> or <code>metacont</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>n.c</code></td>
+<td>
+<p>Number of observations in control group (only for object
+<code>x</code> of class <code>metabin</code> or <code>metacont</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>event.e</code></td>
+<td>
+<p>Number of events in experimental group (only for
+object <code>x</code> of class <code>metabin</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>event.c</code></td>
+<td>
+<p>Number of events in control group (only for object
+<code>x</code> of class <code>metabin</code>).</p>
+</td></tr> 
+<tr valign="top"><td><code>mean.e</code></td>
+<td>
+<p>Estimated mean in experimental group (only for object
+<code>x</code> of class <code>metacont</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>sd.e</code></td>
+<td>
+<p>Standard deviation in experimental group (only for
+object <code>x</code> of class <code>metacont</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>mean.c</code></td>
+<td>
+<p>Estimated mean in control group (only for object
+<code>x</code> of class <code>metacont</code>).</p>
+</td></tr> 
+<tr valign="top"><td><code>sd.c</code></td>
+<td>
+<p>Standard deviation in control group (only for object
+<code>x</code> of class <code>metacont</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+<p>Number of observations (only for object <code>x</code> of class
+<code>metaprop</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>event</code></td>
+<td>
+<p>Number of events (only for object <code>x</code> of class
+<code>metaprop</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>cor</code></td>
+<td>
+<p>Corelation (only for object <code>x</code> of class
+<code>metacor</code>).</p>
+</td></tr> 
+<tr valign="top"><td><code>class.x</code></td>
+<td>
+<p>Main class of object <code>x</code> (e.g. 'metabin' or
+'metacont').</p>
+</td></tr>
+<tr valign="top"><td><code>version</code></td>
+<td>
+<p>Version of R package <b>meta</b> used to create
+object.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Duval S &amp; Tweedie R (2000a):
+A nonparametric &quot;Trim and Fill&quot; method of accounting for
+publication bias in meta-analysis.
+<em>Journal of the American Statistical Association</em>,
+<b>95</b>, 89&ndash;98
+</p>
+<p>Duval S &amp; Tweedie R (2000b):
+Trim and Fill: A simple funnel-plot-based method of testing and
+adjusting for publication bias in meta-analysis.
+<em>Biometrics</em>,
+<b>56</b>, 455&ndash;63
+</p>
+<p>Peters JL, Sutton AJ, Jones DR, Abrams KR, Rushton L (2007):
+Performance of the trim and fill method in the presence of
+publication bias and between-study heterogeneity.
+<em>Statisics in Medicine</em>,
+<b>10</b>, 4544&ndash;62
+</p>
+<p>Schwarzer G, Carpenter J, Rücker G (2010):
+Empirical evaluation suggests Copas selection model preferable to
+trim-and-fill method for selection bias in meta-analysis
+<em>Journal of Clinical Epidemiology</em>,
+<b>63</b>, 282&ndash;8
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="metagen.html">metagen</a></code>, <code><a href="metabias.html">metabias</a></code>,
+<code><a href="funnel.html">funnel</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Fleiss93)
+m1 &lt;- metabin(event.e, n.e, event.c, n.c, data = Fleiss93, sm = "OR")
+tf1 &lt;- trimfill(m1)
+summary(tf1)
+funnel(tf1)
+funnel(tf1, pch = ifelse(tf1$trimfill, 1, 16),
+       level = 0.9, comb.random = FALSE)
+#
+# Use log odds ratios on x-axis
+#
+funnel(tf1, backtransf = FALSE)
+funnel(tf1, pch = ifelse(tf1$trimfill, 1, 16),
+       level = 0.9, comb.random = FALSE, backtransf = FALSE)
+
+trimfill(m1$TE, m1$seTE, sm = m1$sm)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.12-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

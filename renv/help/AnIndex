@@ -1,6 +1,5 @@
 renv-package	renv-package
 activate	activate
-bootstrap	bootstrap
 clean	clean
 config	config
 consent	consent
@@ -10,6 +9,7 @@ diagnostics	diagnostics
 equip	equip
 history	history
 hydrate	hydrate
+imbue	imbue
 init	init
 install	install
 isolate	isolate

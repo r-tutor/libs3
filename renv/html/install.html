@@ -20,8 +20,9 @@ install(
   packages = NULL,
   ...,
   library = NULL,
+  type = NULL,
   rebuild = FALSE,
-  confirm = interactive(),
+  prompt = interactive(),
   project = NULL
 )
 </pre>
@@ -46,6 +47,11 @@ are matched to <code>...</code>, <code>renv</code> will signal an error.</p>
 <p>The <span style="font-family: Courier New, Courier; color: #666666;"><b>R</b></span> library to be used. When <code>NULL</code>, the active project
 library will be used instead.</p>
 </td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>The type of package to install (&quot;source&quot; or &quot;binary&quot;). Defaults
+to the value of <code>getOption("pkgType")</code>.</p>
+</td></tr>
 <tr valign="top"><td><code>rebuild</code></td>
 <td>
 <p>Force packages to be rebuilt, thereby bypassing any installed
@@ -53,9 +59,10 @@ versions of the package available in the cache? This can either be a
 boolean (indicating that the requested package(s) should be rebuilt), or a
 vector of package names indicating which packages should be rebuilt.</p>
 </td></tr>
-<tr valign="top"><td><code>confirm</code></td>
+<tr valign="top"><td><code>prompt</code></td>
 <td>
-<p>Boolean; prompt the user before taking any action?</p>
+<p>Boolean; prompt the user before taking any action? For backwards
+compatibility, <code>confirm</code> is accepted as an alias for <code>prompt</code>.</p>
 </td></tr>
 <tr valign="top"><td><code>project</code></td>
 <td>
@@ -85,6 +92,20 @@ separate package installation backends in the future.
 </p>
 
 
+<h3>Package Configuration</h3>
+
+<p>Many <span style="font-family: Courier New, Courier; color: #666666;"><b>R</b></span> packages have a <code>configure</code> script that needs to be run to prepare
+the package for installation. Arguments and environment variables can be
+passed through to those scripts in a manner similar to <a href="../../utils/html/install.packages.html">install.packages</a>.
+In particular, the <span style="font-family: Courier New, Courier; color: #666666;"><b>R</b></span> options <code>configure.args</code> and <code>configure.vars</code> can be
+used to map package names to their appropriate configuration. For example:</p>
+<pre># installation of RNetCDF may require us to set include paths for netcdf
+configure.args = c(RNetCDF = "--with-netcdf-include=/usr/include/udunits2"))
+options(configure.args = configure.args)
+renv::install("RNetCDF")
+</pre>
+
+
 <h3>Examples</h3>
 
 <pre>
@@ -106,5 +127,5 @@ renv::install("~/path/to/package")
 ## End(Not run)
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>renv</em> version 0.9.3 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>renv</em> version 0.10.0 <a href="00Index.html">Index</a>]</div>
 </body></html>

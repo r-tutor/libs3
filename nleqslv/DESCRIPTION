@@ -14,5 +14,5 @@ NeedsCompilation: yes
 Packaged: 2018-05-17 07:36:43 UTC; berendhasselman
 Repository: CRAN
 Date/Publication: 2018-05-17 08:47:37 UTC
-Built: R 3.5.0; x86_64-w64-mingw32; 2018-05-17 10:14:37 UTC; windows
+Built: R 4.0.0; x86_64-w64-mingw32; 2020-04-26 13:22:40 UTC; windows
 Archs: i386, x64

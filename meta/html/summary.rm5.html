@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Cochrane review: Summary of meta-analyses</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for summary.rm5 {meta}"><tr><td>summary.rm5 {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Cochrane review: Summary of meta-analyses</h2>
+
+<h3>Description</h3>
+
+<p>Calculate and print a summary of all meta-analyses in a Cochrane
+review.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'rm5'
+summary(object, comp.no, outcome.no, ...)
+
+## S3 method for class 'summary.rm5'
+print(x, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>An object of class <code>rm5</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>comp.no</code></td>
+<td>
+<p>Comparison number.</p>
+</td></tr>
+<tr valign="top"><td><code>outcome.no</code></td>
+<td>
+<p>Outcome number.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Additional arguments (passed on to <code>metacr</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>An object of class <code>summary.rm5</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function can be used to redo all or selected meta-analyses of
+a Cochrane Review.
+</p>
+<p>Review Manager 5 (RevMan 5) is the current software used for
+preparing and maintaining Cochrane Reviews
+(<a href="http://community.cochrane.org/tools/review-production-tools/revman-5">http://community.cochrane.org/tools/review-production-tools/revman-5</a>).
+In RevMan 5, subgroup analyses can be defined and data from a
+Cochrane review can be imported to R using the function
+<code>read.rm5</code>.
+</p>
+<p>The R function <code><a href="metacr.html">metacr</a></code> is called internally.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Higgins, J.P.T and S. Green (2011):
+<em>Cochrane Handbook for Systematic Reviews of Interventions
+Version 5.1.0 [Updated March 2011]</em>.
+The Cochrane Library: http://www.cochrane-handbook.org
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="summary.meta.html">summary.meta</a></code>, <code><a href="metacr.html">metacr</a></code>,
+<code><a href="read.rm5.html">read.rm5</a></code>, <code><a href="metabias.rm5.html">metabias.rm5</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Locate export data file "Fleiss93_CR.csv"
+# in sub-directory of package "meta"
+#
+filename &lt;- system.file("extdata", "Fleiss93_CR.csv", package = "meta")
+Fleiss93_CR &lt;- read.rm5(filename)
+
+# Print summary results for all meta-analysis
+#
+summary(Fleiss93_CR)
+
+# Print summary results only for second outcome of first comparison
+#
+summary(Fleiss93_CR, comp.no = 1, outcome.no = 2)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.12-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

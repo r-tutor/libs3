@@ -4,6 +4,7 @@ as_pkgdown	as_pkgdown
 autolink_html	autolink_html
 build_article	build_articles
 build_articles	build_articles
+build_articles_index	build_articles
 build_favicon	build_favicons
 build_favicons	build_favicons
 build_home	build_home

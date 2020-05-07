@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Additional functions for objects of class meta</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for as.data.frame.meta {meta}"><tr><td>as.data.frame.meta {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Additional functions for objects of class meta</h2>
+
+<h3>Description</h3>
+
+<p>The <code>as.data.frame</code> method returns a data frame containing
+information on individual studies, e.g., estimated treatment effect
+and its standard error.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'meta'
+as.data.frame(x, row.names = NULL, optional = FALSE, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>An object of class <code>meta</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>row.names</code></td>
+<td>
+<p><code>NULL</code> or a character vector giving the row
+names for the data frame.</p>
+</td></tr>
+<tr valign="top"><td><code>optional</code></td>
+<td>
+<p>logical. If <code>TRUE</code>, setting row names and
+converting column names (to syntactic names) is optional.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>A data frame is returned by the function <code>as.data.frame</code>.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="metabin.html">metabin</a></code>, <code><a href="metacont.html">metacont</a></code>,
+<code><a href="metagen.html">metagen</a></code>, <code><a href="forest.html">forest.meta</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Fleiss93cont)
+#
+# Generate additional variable with grouping information
+#
+Fleiss93cont$group &lt;- c(1, 2, 1, 1, 2)
+#
+# Do meta-analysis without grouping information
+#
+m1 &lt;- metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, study,
+               data = Fleiss93cont, sm = "SMD")
+#
+# Update meta-analysis object and do subgroup analyses
+#
+summary(update(m1, byvar = group))
+
+# Same result using metacont function directly
+#
+m2 &lt;- metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, study,
+               data = Fleiss93cont, sm = "SMD", byvar = group)
+summary(m2)
+
+# Compare printout of the following two commands
+#
+as.data.frame(m1)
+m1$data
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.12-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

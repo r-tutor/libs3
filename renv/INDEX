@@ -1,5 +1,4 @@
 activate                Activate a Project
-bootstrap               Bootstrap an renv Installation
 clean                   Clean a Project
 config                  User-Level Configuration of renv
 consent                 Consent to usage of renv
@@ -9,6 +8,7 @@ diagnostics             Print a Diagnostics Report
 equip                   Install Required System Libraries
 history                 View Lockfile History
 hydrate                 Hydrate a Project
+imbue                   Imbue an renv Installation
 init                    Initialize a Project
 install                 Install Packages
 isolate                 Isolate a Project

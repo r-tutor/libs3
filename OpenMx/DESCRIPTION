@@ -135,5 +135,5 @@ Author: Steven M. Boker [aut],
 Maintainer: Joshua N. Pritikin <jpritikin@pobox.com>
 Repository: CRAN
 Date/Publication: 2020-03-02 13:20:02 UTC
-Built: R 3.6.3; x86_64-w64-mingw32; 2020-03-12 20:47:21 UTC; windows
+Built: R 4.0.0; x86_64-w64-mingw32; 2020-04-17 21:49:18 UTC; windows
 Archs: i386, x64

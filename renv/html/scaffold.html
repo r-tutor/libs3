@@ -16,7 +16,7 @@
 <h3>Usage</h3>
 
 <pre>
-scaffold(project = NULL, version = NULL)
+scaffold(project = NULL, version = NULL, repos = getOption("repos"))
 </pre>
 
 
@@ -34,16 +34,30 @@ directory is used instead.</p>
 <p>The version of <code>renv</code> to associate with this project. By
 default, the version of <code>renv</code> currently installed is used.</p>
 </td></tr>
+<tr valign="top"><td><code>repos</code></td>
+<td>
+<p>The <span style="font-family: Courier New, Courier; color: #666666;"><b>R</b></span> repositories to associate with this project.</p>
+</td></tr>
 </table>
 
 
 <h3>Details</h3>
 
-<p>The function will update the project <code>.Rprofile</code> so that <code>renv</code> is
-automatically loaded for new <span style="font-family: Courier New, Courier; color: #666666;"><b>R</b></span> sessions launched in this project. <code>renv</code>
-will also be installed and made available within the project's private
-library.
+<p>Invoking <code>renv::scaffold()</code> will:
 </p>
 
-<hr /><div style="text-align: center;">[Package <em>renv</em> version 0.9.3 <a href="00Index.html">Index</a>]</div>
+<ul>
+<li><p> Install <code>renv</code> into the project library,
+</p>
+</li>
+<li><p> Update the project <code>.Rprofile</code> so that <code>renv</code> is automatically loaded
+for new <span style="font-family: Courier New, Courier; color: #666666;"><b>R</b></span> sessions launched in this project, and
+</p>
+</li>
+<li><p> Write a bare lockfile <code>renv.lock</code>.
+</p>
+</li></ul>
+
+
+<hr /><div style="text-align: center;">[Package <em>renv</em> version 0.10.0 <a href="00Index.html">Index</a>]</div>
 </body></html>

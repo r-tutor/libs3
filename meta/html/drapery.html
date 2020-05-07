@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Drapery plot</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for drapery {meta}"><tr><td>drapery {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Drapery plot</h2>
+
+<h3>Description</h3>
+
+<p>Draw a drapery plot with (scaled) p-value curves for individual
+studies and meta-analysis estimates.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+drapery(
+  x,
+  type = "zvalue",
+  layout = "grayscale",
+  study.results = TRUE,
+  lty.study = 1,
+  lwd.study = 1,
+  col.study = "darkgray",
+  labels,
+  col.labels = "black",
+  cex.labels = 0.7,
+  subset.labels,
+  srt.labels,
+  comb.fixed = x$comb.fixed,
+  comb.random = x$comb.random,
+  lty.fixed = 1,
+  lwd.fixed = max(3, lwd.study),
+  col.fixed = "blue",
+  lty.random = 1,
+  lwd.random = lwd.fixed,
+  col.random = "red",
+  sign = NULL,
+  lty.sign = 1,
+  lwd.sign = 1,
+  col.sign = "black",
+  prediction = comb.random,
+  col.predict = "lightblue",
+  alpha = if (type == "zvalue") c(0.001, 0.01, 0.05, 0.1) else c(0.01, 0.05, 0.1),
+  lty.alpha = 2,
+  lwd.alpha = 1,
+  col.alpha = "black",
+  cex.alpha = 0.7,
+  col.null.effect = "black",
+  legend = TRUE,
+  pos.legend = "topleft",
+  bg = "white",
+  bty = "o",
+  backtransf = x$backtransf,
+  xlab,
+  ylab = if (type == "zvalue") "Test statistic" else "P-value",
+  xlim,
+  ylim,
+  lwd.max = 2.5,
+  lwd.study.weight = if (comb.random) "random" else "fixed",
+  at = NULL,
+  n.grid = if (type == "zvalue") 10000 else 1000,
+  mar = c(5.1, 4.1, 4.1, 4.1),
+  plot = TRUE,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>An object of class <code>meta</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>A character string indicating whether to plot test
+statistics (<code>"zvalue"</code>) or p-values (<code>"pvalue"</code>), can
+be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>layout</code></td>
+<td>
+<p>A character string for the line layout of individual
+studies: <code>"grayscale"</code>, <code>"equal"</code>, or
+<code>"linewidth"</code> (see Details), can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>study.results</code></td>
+<td>
+<p>A logical indicating whether results for
+individual studies should be shown in the figure.</p>
+</td></tr>
+<tr valign="top"><td><code>lty.study</code></td>
+<td>
+<p>Line type for individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.study</code></td>
+<td>
+<p>Line width for individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>col.study</code></td>
+<td>
+<p>Colour of lines for individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>labels</code></td>
+<td>
+<p>A logical or character string indicating whether
+study labels should be shown at the top of the drapery plot;
+either <code>FALSE</code>, <code>"id"</code>, or <code>"studlab"</code>; see
+Details.</p>
+</td></tr>
+<tr valign="top"><td><code>col.labels</code></td>
+<td>
+<p>Colour of study labels.</p>
+</td></tr>
+<tr valign="top"><td><code>cex.labels</code></td>
+<td>
+<p>The magnification for study labels.</p>
+</td></tr>
+<tr valign="top"><td><code>subset.labels</code></td>
+<td>
+<p>A vector specifying which study labels should
+be shown in the drapery plot.</p>
+</td></tr>
+<tr valign="top"><td><code>srt.labels</code></td>
+<td>
+<p>A numerical vector or single numeric (between 0
+and 90) specifying the angle to rotate study labels; see Details.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.fixed</code></td>
+<td>
+<p>A logical indicating whether to show result for
+the fixed effect model.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.random</code></td>
+<td>
+<p>A logical indicating whether to show result for
+the random effects model.</p>
+</td></tr>
+<tr valign="top"><td><code>lty.fixed</code></td>
+<td>
+<p>Line type for fixed effect meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.fixed</code></td>
+<td>
+<p>Line width for fixed effect meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>col.fixed</code></td>
+<td>
+<p>Colour of lines for fixed effect meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>lty.random</code></td>
+<td>
+<p>Line type for random effects meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.random</code></td>
+<td>
+<p>Line width for random effects meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>col.random</code></td>
+<td>
+<p>Colour of lines for random effects meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>sign</code></td>
+<td>
+<p>Significance level used to highlight significant
+values in curves.</p>
+</td></tr>
+<tr valign="top"><td><code>lty.sign</code></td>
+<td>
+<p>Line type for significant values.</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.sign</code></td>
+<td>
+<p>Line width for significant values.</p>
+</td></tr>
+<tr valign="top"><td><code>col.sign</code></td>
+<td>
+<p>Line colour for significant values.</p>
+</td></tr>
+<tr valign="top"><td><code>prediction</code></td>
+<td>
+<p>A logical indicating whether to show prediction
+region.</p>
+</td></tr>
+<tr valign="top"><td><code>col.predict</code></td>
+<td>
+<p>Colour of prediction region</p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>Horizonal lines are printed for the specified alpha
+values.</p>
+</td></tr>
+<tr valign="top"><td><code>lty.alpha</code></td>
+<td>
+<p>Line type of horizonal lines for alpha values.</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.alpha</code></td>
+<td>
+<p>Line width of horizonal lines for alpha values.</p>
+</td></tr>
+<tr valign="top"><td><code>col.alpha</code></td>
+<td>
+<p>Colour of horizonal lines for alpha values.</p>
+</td></tr>
+<tr valign="top"><td><code>cex.alpha</code></td>
+<td>
+<p>The magnification for the text of the alpha</p>
+</td></tr>
+<tr valign="top"><td><code>col.null.effect</code></td>
+<td>
+<p>Colour of vertical line indicating null
+effect.</p>
+</td></tr>
+<tr valign="top"><td><code>legend</code></td>
+<td>
+<p>A logical indicating whether a legend should be
+printed.</p>
+</td></tr>
+<tr valign="top"><td><code>pos.legend</code></td>
+<td>
+<p>Position of legend (see <code><a href="../../graphics/html/legend.html">legend</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>bg</code></td>
+<td>
+<p>Background colour of legend (see <code><a href="../../graphics/html/legend.html">legend</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>bty</code></td>
+<td>
+<p>Type of the box around the legend; either <code>"o"</code> or
+<code>"n"</code> (see <code><a href="../../graphics/html/legend.html">legend</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>backtransf</code></td>
+<td>
+<p>A logical indicating whether results should be
+back transformed on the x-axis. For example, if <code>backtransf
+= FALSE</code>, log odds ratios instead of odds ratios are shown on the
+x-axis.</p>
+</td></tr>
+<tr valign="top"><td><code>xlab</code></td>
+<td>
+<p>A label for the x-axis.</p>
+</td></tr>
+<tr valign="top"><td><code>ylab</code></td>
+<td>
+<p>A label for the y-axis.</p>
+</td></tr>
+<tr valign="top"><td><code>xlim</code></td>
+<td>
+<p>The x limits (min, max) of the plot.</p>
+</td></tr>
+<tr valign="top"><td><code>ylim</code></td>
+<td>
+<p>The y limits (min, max) of the plot (ignored if
+<code>type = "pvalue"</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.max</code></td>
+<td>
+<p>The maximum line width (only considered if argument
+<code>layout</code> is equal to <code>"linewidth"</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>lwd.study.weight</code></td>
+<td>
+<p>A character string indicating whether to
+determine line width for individual studies using weights from
+fixed effect (<code>"fixed"</code>) or random effects model
+(<code>"random"</code>), can be abbreviated (only considered if
+argument <code>layout</code> is equal to <code>"linewidth"</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>at</code></td>
+<td>
+<p>Points at which tick-marks are to be drawn on the x-axis.</p>
+</td></tr>
+<tr valign="top"><td><code>n.grid</code></td>
+<td>
+<p>The number of grid points to calculate the p-value or
+test statistic functions.</p>
+</td></tr>
+<tr valign="top"><td><code>mar</code></td>
+<td>
+<p>Physical plot margin, see <code><a href="../../graphics/html/par.html">par</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>plot</code></td>
+<td>
+<p>A logical indicating whether to generate a figure.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Graphical arguments as in <code>par</code> may also be
+passed as arguments.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The concept of a p-value function, also called confidence curve,
+goes back to Birnbaum (1961). A drapery plot, showing p-value
+functions (or a scaled version based on the corresponding test
+statistics) for individual studies as well as meta-analysis
+estimates, is drawn in the active graphics window. Furthermore, a
+prediction region for a single future study is shown as a shaded
+area. In contrast to a forest plot, a drapery plot does not provide
+information for a single confidence level however for any
+confidence level.
+</p>
+<p>Argument <code>type</code> can be used to either show p-value functions
+(Birnbaum, 1961) or a scaled version (Infanger, 2019) with test
+statistics (default).
+</p>
+<p>Argument <code>layout</code> determines how curves for individual studies
+are presented:
+</p>
+
+<ul>
+<li><p> darker gray tones with increasing precision (<code>layout =
+  "grayscale"</code>)
+</p>
+</li>
+<li><p> thicker lines with increasing precision (<code>layout =
+  "linewidth"</code>)
+</p>
+</li>
+<li><p> equal lines (<code>layout = "equal"</code>)
+</p>
+</li></ul>
+
+<p>Argument <code>labels</code> determines how curves of individual studies
+are labelled:
+</p>
+
+<ul>
+<li><p> number of the study in the (unsorted) forest plot / printout
+of a meta-analysis (<code>labels = "id"</code>)
+</p>
+</li>
+<li><p> study labels provided by argument <code>studlab</code> in
+meta-analysis functions (<code>labels = "studlab"</code>)
+</p>
+</li>
+<li><p> no study labels (<code>labels = FALSE</code>)
+</p>
+</li></ul>
+
+<p>By default, study labels are used (<code>labels = "studlab"</code>) if no
+label has more than three characters; otherwise IDs are used
+(<code>labels = "id"</code>). The connection between IDs and study labels
+(among other information) is part of a data frame which is
+invisibly returned (if argument <code> study.results = TRUE</code>).
+</p>
+<p>Argument <code>srt.labels</code> can be used to change the rotation of
+IDs or study labels. By default, study labels are rotated by +/- 45
+degrees if at least one study label has more than three characters;
+otherwise labels are not rotated.
+</p>
+<p>If <code>labels = "studlab"</code>, labels are rotated by -45 degrees for
+studies with a treatment estimate below the fixed effect estimate
+and otherwise by 45 degrees.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Gerta Rücker <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>, Guido
+Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Birnbaum A (1961):
+Confidence Curves: An Omnibus Technique for Estimation and Testing
+Statistical Hypotheses.
+<em>Journal of the American Statistical Association</em>,
+<b>56</b>, 246&ndash;9
+</p>
+<p>Infanger D and Schmidt-Trucksäss A (2019):
+P value functions: An underused method to present research results
+and to promote quantitative reasoning
+<em>Statistics in Medicine</em>,
+<b>38</b>, 4189&ndash;97
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="forest.html">forest</a></code>, <code><a href="radial.html">radial</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data("lungcancer")
+m1 &lt;- metainc(d.smokers, py.smokers,
+              d.nonsmokers, py.nonsmokers,
+              data = lungcancer, studlab = study)
+
+# Drapery plot
+#
+drapery(m1, xlim = c(0.5, 50))
+
+## Not run: 
+data(Fleiss93)
+m2 &lt;- metabin(event.e, n.e, event.c, n.c,
+         data = Fleiss93, studlab = paste(study, year),
+         sm = "OR", comb.random = FALSE)
+
+# Produce drapery plot and print data frame with connection between
+# IDs and study labels
+#
+(drapery(m2))
+
+# For studies with a significant effect (p &lt; 0.05), show
+# study labels and print labels and lines in red
+#
+drapery(m2,
+        labels = "studlab", subset.labels = pval &lt; 0.05,
+        srt.labels = 0, col.labels = "red",
+        col.study = ifelse(pval &lt; 0.05, "red", "darkgray"))
+
+## End(Not run)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.12-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

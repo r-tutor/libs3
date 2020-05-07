@@ -21,5 +21,5 @@ NeedsCompilation: yes
 Packaged: 2019-12-16 10:40:33 UTC; chris
 Repository: CRAN
 Date/Publication: 2019-12-16 15:30:02 UTC
-Built: R 3.6.2; x86_64-w64-mingw32; 2020-02-22 04:51:00 UTC; windows
+Built: R 4.0.0; x86_64-w64-mingw32; 2020-05-02 22:54:29 UTC; windows
 Archs: i386, x64

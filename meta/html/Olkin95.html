@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Thrombolytic Therapy after Acute Myocardial Infarction</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Olkin95 {meta}"><tr><td>Olkin95 {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Thrombolytic Therapy after Acute Myocardial Infarction</h2>
+
+<h3>Description</h3>
+
+<p>Meta-analysis on Thrombolytic Therapy after Acute Myocardial Infarction
+</p>
+
+
+<h3>Format</h3>
+
+<p>A data frame with the following columns:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+<b><em>author</em></b></td><td style="text-align: left;"> first author </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>year</em></b></td><td style="text-align: left;"> year of publication </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>event.e</em></b></td><td style="text-align: left;"> number of events in experimental group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.e</em></b></td><td style="text-align: left;"> number of observations in experimental group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>event.c</em></b></td><td style="text-align: left;"> number of events in control group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.c</em></b></td><td style="text-align: left;"> number of observations in control group
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>Source</h3>
+
+<p>Olkin I (1995):
+Statistical and theoretical considerations in meta-analysis.
+<em>Journal of Clinical Epidemiology</em>,
+<b>48</b>, 133&ndash;46
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Olkin95)
+summary(metabin(event.e, n.e, event.c, n.c, data = Olkin95))
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.12-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

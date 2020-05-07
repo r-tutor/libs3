@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Test for funnel plot asymmetry</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for metabias {meta}"><tr><td>metabias {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Test for funnel plot asymmetry</h2>
+
+<h3>Description</h3>
+
+<p>Test for funnel plot asymmetry, based on rank correlation or linear
+regression method.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+metabias(x, ...)
+
+## Default S3 method:
+metabias(
+  x,
+  seTE,
+  method.bias = "linreg",
+  plotit = FALSE,
+  correct = FALSE,
+  k.min = 10,
+  ...
+)
+
+## S3 method for class 'meta'
+metabias(
+  x,
+  method.bias = x$method.bias,
+  plotit = FALSE,
+  correct = FALSE,
+  k.min = 10,
+  ...
+)
+
+## S3 method for class 'metabias'
+print(x, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>An object of class <code>meta</code> or estimated treatment
+effect in individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Additional arguments (ignored at the moment).</p>
+</td></tr>
+<tr valign="top"><td><code>seTE</code></td>
+<td>
+<p>Standard error of estimated treatment effect (mandatory
+if <code>x</code> not of class <code>meta</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>method.bias</code></td>
+<td>
+<p>A character string indicating which test is to
+be used.  Either <code>"rank"</code>, <code>"linreg"</code>, <code>"mm"</code>,
+<code>"count"</code>, <code>"score"</code>, or <code>"peters"</code>, can be
+abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>plotit</code></td>
+<td>
+<p>A logical indicating whether a plot should be
+produced for method.bias <code>"rank"</code>, <code>"linreg"</code>,
+<code>"mm"</code>, or <code>"score"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>correct</code></td>
+<td>
+<p>A logical indicating whether a continuity corrected
+statistic is used for rank correlation methods <code>"rank"</code> and
+<code>"count"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>k.min</code></td>
+<td>
+<p>Minimum number of studies to perform test for funnel
+plot asymmetry.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Functions to conduct rank correlation or linear regression tests
+for funnel plot asymmetry.
+</p>
+<p>Following recommendations by Sterne et al. (2011), by default, a
+test for funnel plot asymmetry is only conducted if the number of
+studies is ten or larger (argument <code>k.min = 10</code>). This
+behaviour can be changed by setting a smaller value for argument
+<code>k.min</code>. Note, the minimum number of studies is three.
+</p>
+<p>If argument <code>method.bias</code> is <code>"rank"</code>, the test statistic
+is based on the rank correlation between standardised treatment
+estimates and variance estimates of estimated treatment effects;
+Kendall's tau is used as correlation measure (Begg &amp; Mazumdar,
+1994). The test statistic follows a standard normal
+distribution. By default (if <code>correct</code> is FALSE), no
+continuity correction is utilised (Kendall &amp; Gibbons, 1990).
+</p>
+<p>If argument <code>method.bias</code> is <code>"linreg"</code>, the test
+statistic is based on a weighted linear regression of the treatment
+effect on its standard error (Egger et al., 1997). The test
+statistic follows a t distribution with <code>number of studies -
+2</code> degrees of freedom.
+</p>
+<p>If argument <code>method.bias</code> is <code>"mm"</code>, the test statistic
+is based on a weighted linear regression of the treatment effect on
+its standard error using the method of moments estimator for the
+additive between-study variance component (method 3a in Thompson,
+Sharp, 1999). The test statistic follows a t distribution with
+<code>number of studies - 2</code> degrees of freedom.
+</p>
+<p>If argument <code>method.bias</code> is <code>"peters"</code>, the test
+statistic is based on a weighted linear regression of the treatment
+effect on the inverse of the total sample size using the variance
+of the average event rate as weights (Peters et al., 2006). The
+test statistic follows a t distribution with <code>number of
+studies - 2</code> degrees of freedom. This test is available for
+meta-analyses comparing two binary outcomes or combining single
+proportions, i.e.  generated with functions <code>metabin</code> and
+<code>metaprop</code>.
+</p>
+<p>The following tests for funnel plot asymmetry are only available
+for meta-analyses comparing two binary outcomes, i.e. meta-analyses
+generated with the <code>metabin</code> function.
+</p>
+<p>If argument <code>method.bias</code> is <code>"count"</code>, the test
+statistic is based on the rank correlation between a standardised
+cell frequency and the inverse of the variance of the cell
+frequency; Kendall's tau is used as correlation measure (Schwarzer
+et al., 2007). The test statistic follows a standard normal
+distribution. By default (if <code>correct</code> is FALSE), no
+continuity correction is utilised (Kendall &amp; Gibbons, 1990).
+</p>
+<p>If argument <code>method.bias</code> is <code>"score"</code>, the test
+statistic is based on a weighted linear regression utilising
+efficient score and score variance (Harbord et al., 2006,
+2009). The test statistic follows a t distribution with
+<code>number of studies - 2</code> degrees of freedom.
+</p>
+<p>In order to calculate an arcsine test for funnel plot asymmetry
+(Rücker et al., 2008), one has to use the <code>metabin</code> function
+with argument <code>sm = "ASD"</code> as input to the <code>metabias</code>
+command. The three arcsine tests described in Rücker et al. (2008)
+can be calculated by setting <code>method.bias</code> to <code>"rank"</code>,
+<code>"linreg"</code> and <code>"mm"</code>, respectively.
+</p>
+<p>If argument <code>method.bias</code> is missing, the Harbord test
+(<code>method.bias = "score"</code>) is used for the odds ratio as effect
+measure and the Egger test (<code>method.bias = "linreg"</code>) for
+other effect measures (Sterne et al., 2011).
+</p>
+<p>No test for funnel plot asymmetry is conducted in meta-analyses
+with subgroups.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A list with class <code>htest</code> containing the following components
+if a test for funnel plot asymmetry is conducted:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>estimate</code></td>
+<td>
+<p>The estimated degree of funnel plot asymmetry, with
+name <code>"ks"</code> or <code>"bias"</code> corresponding to the method
+employed, i.e., rank correlation or regression method.</p>
+</td></tr>
+<tr valign="top"><td><code>statistic</code></td>
+<td>
+<p>The value of the test statistic.</p>
+</td></tr>
+<tr valign="top"><td><code>parameters</code></td>
+<td>
+<p>The degrees of freedom of the test statistic in
+the case that it follows a t distribution.</p>
+</td></tr>
+<tr valign="top"><td><code>p.value</code></td>
+<td>
+<p>The p-value for the test.</p>
+</td></tr>
+<tr valign="top"><td><code>alternative</code></td>
+<td>
+<p>A character string describing the alternative
+hypothesis.</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>A character string indicating what type of test was
+used.</p>
+</td></tr>
+<tr valign="top"><td><code>data.name</code></td>
+<td>
+<p>A character string giving the names of the data.</p>
+</td></tr>
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>Title of Cochrane review.</p>
+</td></tr>
+<tr valign="top"><td><code>complab</code></td>
+<td>
+<p>Comparison label.</p>
+</td></tr>
+<tr valign="top"><td><code>outclab</code></td>
+<td>
+<p>Outcome label.</p>
+</td></tr>
+<tr valign="top"><td><code>version</code></td>
+<td>
+<p>Version of R package <b>meta</b> used to create
+object.</p>
+</td></tr>
+</table>
+<p>Or a list with the following elements if test is not conducted due
+to the number of studies:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>k</code></td>
+<td>
+<p>Number of studies in meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>k.min</code></td>
+<td>
+<p>Minimum number of studies to perform test for funnel
+plot asymmetry.</p>
+</td></tr>
+<tr valign="top"><td><code>version</code></td>
+<td>
+<p>Version of R package <b>meta</b> used to create
+object.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Begg CB &amp; Mazumdar M (1994):
+Operating characteristics of a rank correlation test for
+publication bias.
+<em>Biometrics</em>,
+<b>50</b>, 1088&ndash;101
+</p>
+<p>Egger M, Smith GD, Schneider M &amp; Minder C (1997):
+Bias in meta-analysis detected by a simple, graphical test.
+<em>British Medical Journal</em>,
+<b>315</b>, 629&ndash;34
+</p>
+<p>Harbord RM, Egger M &amp; Sterne J (2006):
+A modified test for small-study effects in meta-analyses of
+controlled trials with binary endpoints.
+<em>Statistics in Medicine</em>,
+<b>25</b>, 3443&ndash;57
+</p>
+<p>Harbord RM, Harris RJ, Sterne JAC (2009):
+Updated tests for small-study effects in meta–analyses.
+<em>The Stata Journal</em>,
+<b>9</b>, 197&ndash;210
+</p>
+<p>Kendall M &amp; Gibbons JD (1990):
+<em>Rank Correlation Methods</em>.
+London: Edward Arnold
+</p>
+<p>Peters JL, Sutton AJ, Jones DR, Abrams KR &amp; Rushton L (2006):
+Comparison of two methods to detect publication bias in
+meta-analysis.
+<em>Journal of the American Medical Association</em>,
+<b>295</b>, 676&ndash;80
+</p>
+<p>Rücker G, Schwarzer G, Carpenter JR (2008):
+Arcsine test for publication bias in meta-analyses with binary
+outcomes.
+<em>Statistics in Medicine</em>,
+<b>27</b>, 746&ndash;63
+</p>
+<p>Schwarzer G, Antes G &amp; Schumacher M (2007):
+A test for publication bias in meta-analysis with sparse binary
+data.
+<em>Statistics in Medicine</em>,
+<b>26</b>, 721&ndash;33
+</p>
+<p>Sterne, JAC et al. (2011):
+Recommendations for examining and interpreting funnel plot
+asymmetry in meta-analyses of randomised controlled trials.
+<em>BMJ (Clinical research ed.)</em>,
+<b>343</b>, 1
+</p>
+<p>Thompson SG &amp; Sharp, SJ (1999):
+Explaining heterogeneity in meta-analysis: a comparison of methods,
+<em>Statistics in Medicine</em>,
+<b>18</b>, 2693&ndash;708
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="funnel.html">funnel</a></code>, <code><a href="funnel.html">funnel.meta</a></code>,
+<code><a href="metabin.html">metabin</a></code>, <code><a href="metacont.html">metacont</a></code>,
+<code><a href="metagen.html">metagen</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Olkin95)
+m1 &lt;- metabin(event.e, n.e, event.c, n.c,
+              data = Olkin95, subset = 1:10,
+              sm = "RR", method = "I")
+
+metabias(m1)
+metabias(m1, plotit = TRUE)
+
+metabias(m1, method.bias = "rank")
+metabias(m1, method.bias = "rank", correct = TRUE)
+
+metabias(m1, method.bias = "count")
+metabias(m1, method.bias = "linreg")$p.value
+
+# Arcsine test (based on linear regression)
+#
+m1.as &lt;- update(m1, sm = "ASD")
+metabias(m1.as)
+# Same result (using function metabias.default)
+metabias(m1.as$TE, m1.as$seTE)
+
+# No test for funnel plot asymmetry calculated
+#
+m2 &lt;- update(m1, subset = 1:5)
+metabias(m2)
+
+m3 &lt;- update(m1, subset = 1:2)
+metabias(m3)
+
+# Test for funnel plot asymmetry calculated (use of argument k.min)
+#
+metabias(m2, k.min = 5)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.12-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

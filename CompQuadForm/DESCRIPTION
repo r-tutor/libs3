@@ -12,5 +12,5 @@ Packaged: 2017-04-10 02:26:43 UTC; lafaye
 NeedsCompilation: yes
 Repository: CRAN
 Date/Publication: 2017-04-12 14:28:23 UTC
-Built: R 3.6.0; x86_64-w64-mingw32; 2019-05-28 20:49:00 UTC; windows
+Built: R 4.0.0; x86_64-w64-mingw32; 2020-04-26 13:29:43 UTC; windows
 Archs: i386, x64
