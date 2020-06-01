@@ -1,3 +1,10 @@
+# labelled 2.4.0
+
+* fixes for haven 2.3.0 (#59 by @hadley)
+* correct re-export of functions from `haven`
+* `update_labelled()` has been improved to allow to reconstruct
+  all labelled vectors created with a previous versiob of `haven`
+
 # labelled 2.3.1
 
 * an additional argument `keep_var_label` for `remove_labels()`
