@@ -1,6 +1,8 @@
+%>%	reexports
 add_value_labels	val_labels
 copy_labels	copy_labels
 copy_labels_from	copy_labels
+drop_unused_value_labels	drop_unused_value_labels
 foreign_to_labelled	to_labelled
 format_tagged_na	reexports
 is.labelled	reexports

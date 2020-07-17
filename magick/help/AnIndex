@@ -60,6 +60,7 @@ image_convolve	morphology
 image_crop	transform
 image_data	editing
 image_deskew	transform
+image_deskew_angle	transform
 image_despeckle	effects
 image_destroy	editing
 image_device	device
@@ -78,6 +79,8 @@ image_flop	transform
 image_frame	composite
 image_fuzzycmeans	segmentation
 image_fx	fx
+image_fx_sequence	fx
+image_get_artifact	editing
 image_ggplot	image_ggplot
 image_graph	device
 image_hough_draw	edges

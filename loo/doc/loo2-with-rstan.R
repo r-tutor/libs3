@@ -1,7 +1,7 @@
 params <-
-list(EVAL = TRUE)
+list(EVAL = FALSE)
 
-## ---- eval=FALSE---------------------------------------------------------
+## ---- eval=FALSE--------------------------------------------------------------
 #  library("rstan")
 #  
 #  # Prepare data
@@ -15,7 +15,7 @@ list(EVAL = TRUE)
 #  fit_1 <- stan("logistic.stan", data = standata)
 #  print(fit_1, pars = "beta")
 
-## ---- eval=FALSE---------------------------------------------------------
+## ---- eval=FALSE--------------------------------------------------------------
 #  library("loo")
 #  
 #  # Extract pointwise log-likelihood
@@ -33,7 +33,7 @@ list(EVAL = TRUE)
 #  loo_1 <- loo(log_lik_1, r_eff = r_eff, cores = 2)
 #  print(loo_1)
 
-## ---- eval=FALSE---------------------------------------------------------
+## ---- eval=FALSE--------------------------------------------------------------
 #  standata$X[, "arsenic"] <- log(standata$X[, "arsenic"])
 #  fit_2 <- stan(fit = fit_1, data = standata)
 #  
@@ -42,10 +42,10 @@ list(EVAL = TRUE)
 #  loo_2 <- loo(log_lik_2, r_eff = r_eff_2, cores = 2)
 #  print(loo_2)
 
-## ---- eval=FALSE---------------------------------------------------------
+## ---- eval=FALSE--------------------------------------------------------------
 #  # Compare
 #  comp <- loo_compare(loo_1, loo_2)
 
-## ---- eval=FALSE---------------------------------------------------------
+## ---- eval=FALSE--------------------------------------------------------------
 #  print(comp) # can set simplify=FALSE for more detailed print output
 

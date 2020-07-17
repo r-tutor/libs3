@@ -49,6 +49,9 @@ loo_compare.default	loo_compare
 loo_i	loo
 loo_model_weights	loo_model_weights
 loo_model_weights.default	loo_model_weights
+loo_moment_match	loo_moment_match
+loo_moment_match.default	loo_moment_match
+loo_moment_match_split	loo_moment_match_split
 loo_subsample	loo_subsample
 loo_subsample.function	loo_subsample
 mcse_loo	pareto-k-diagnostic
@@ -61,6 +64,7 @@ parallel_importance_sampling_list	parallel_psis_list
 parallel_psis_list	parallel_psis_list
 pareto-k-diagnostic	pareto-k-diagnostic
 pareto_k_ids	pareto-k-diagnostic
+pareto_k_influence_values	pareto-k-diagnostic
 pareto_k_table	pareto-k-diagnostic
 pareto_k_values	pareto-k-diagnostic
 plot.loo	pareto-k-diagnostic
@@ -110,6 +114,6 @@ waic	waic
 waic.array	waic
 waic.function	waic
 waic.matrix	waic
-weights.importance_sampling	psis
+weights.importance_sampling	weights.importance_sampling
 [.loo	old-extractors
 [[.loo	old-extractors

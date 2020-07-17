@@ -2,14 +2,15 @@ Package: loo
 Type: Package
 Title: Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian
         Models
-Version: 2.2.0
-Date: 2019-12-18
+Version: 2.3.1
+Date: 2020-07-14
 Authors@R: c(person("Aki", "Vehtari", email = "Aki.Vehtari@aalto.fi", role = c("aut")),
              person("Jonah", "Gabry", email = "jsg2201@columbia.edu", role = c("cre", "aut")),
              person("Mans", "Magnusson", role = c("aut")),
              person("Yuling", "Yao", role = c("aut")),
+             person("Paul-Christian", "Bürkner", role = c("aut")),
+             person("Topi", "Paananen", role = c("aut")),
              person("Andrew", "Gelman", role = c("aut")),
-             person("Paul-Christian", "Bürkner", role = c("ctb")),
              person("Ben", "Goodrich", role = c("ctb")),
              person("Juho", "Piironen", role = c("ctb")))
 Maintainer: Jonah Gabry <jsg2201@columbia.edu>
@@ -36,17 +37,18 @@ Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics,
 VignetteBuilder: knitr
 Encoding: UTF-8
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-RoxygenNote: 7.0.1
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2019-12-18 22:33:57 UTC; jgabry
+Packaged: 2020-07-14 17:24:25 UTC; jgabry
 Author: Aki Vehtari [aut],
   Jonah Gabry [cre, aut],
   Mans Magnusson [aut],
   Yuling Yao [aut],
+  Paul-Christian Bürkner [aut],
+  Topi Paananen [aut],
   Andrew Gelman [aut],
-  Paul-Christian Bürkner [ctb],
   Ben Goodrich [ctb],
   Juho Piironen [ctb]
 Repository: CRAN
-Date/Publication: 2019-12-19 09:40:05 UTC
-Built: R 4.0.0; ; 2020-05-02 20:48:42 UTC; windows
+Date/Publication: 2020-07-14 22:50:10 UTC
+Built: R 4.0.2; ; 2020-07-16 15:02:39 UTC; windows

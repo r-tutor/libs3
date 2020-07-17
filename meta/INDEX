@@ -4,23 +4,25 @@ Olkin95                 Thrombolytic Therapy after Acute Myocardial
                         Infarction
 amlodipine              Amlodipine for Work Capacity
 as.data.frame.meta      Additional functions for objects of class meta
-baujat                  Baujat plot to explore heterogeneity in
+baujat.meta             Baujat plot to explore heterogeneity in
                         meta-analysis
-bubble                  Bubble plot to display the result of a
+bubble.metareg          Bubble plot to display the result of a
                         meta-regression
 ci                      Calculation of confidence intervals (based on
                         normal approximation or t-distribution)
 cisapride               Cisapride in Non-Ulcer Dispepsia
 drapery                 Drapery plot
-forest                  Forest plot to display the result of a
+forest.meta             Forest plot to display the result of a
                         meta-analysis
-funnel                  Funnel plot
+forest.metabind         Forest plot to display the result of a
+                        meta-analysis
+funnel.meta             Funnel plot
 gs                      Get default for a meta-analysis setting.
-labbe                   L'Abbé plot for meta-analysis with binary
+labbe.metabin           L'Abbé plot for meta-analysis with binary
                         outcomes
 meta-package            meta: Brief overview of methods and general
                         hints
-metabias                Test for funnel plot asymmetry
+metabias.meta           Test for funnel plot asymmetry
 metabias.rm5            Cochrane review: Test for funnel plot asymmetry
 metabin                 Meta-analysis of binary outcome data
 metabind                Combine meta-analysis objects
@@ -41,7 +43,7 @@ nnt                     Calculate the number needed to treat (NNT)
 or2smd                  Conversion from log odds ratio to standardised
                         mean difference
 print.meta              Print meta-analysis results
-radial                  Radial plot
+radial.meta             Radial plot
 read.mtv                Import RevMan 4 data files (.mtv)
 read.rm5                Import RevMan 5 data files (.csv)
 settings.meta           Print and change default settings to conduct
@@ -52,7 +54,7 @@ smd2or                  Conversion from standardised mean difference to
 smoking                 Smoking example
 summary.meta            Summary of meta-analysis results
 summary.rm5             Cochrane review: Summary of meta-analyses
-trimfill                Trim-and-fill method to adjust for bias in
+trimfill.meta           Trim-and-fill method to adjust for bias in
                         meta-analysis
 update.meta             Update a meta-analysis object
 weights.meta            Calculate absolute and percentage weights for

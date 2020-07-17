@@ -1,9 +1,9 @@
 Package: js
 Type: Package
 Title: Tools for Working with JavaScript in R
-Version: 1.1
-Author: Jeroen Ooms
-Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
+Version: 1.2
+Authors@R: person("Jeroen", "Ooms", role = c("aut", "cre"), email = "jeroen@berkeley.edu",
+    comment = c(ORCID = "0000-0002-4035-0289"))
 Description: A set of utilities for working with JavaScript syntax in R.
     Includes tools to parse, tokenize, compile, validate, reformat, optimize 
     and analyze JavaScript code.
@@ -15,7 +15,9 @@ Imports: V8 (>= 0.5)
 Suggests: knitr, rmarkdown
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-07-28 18:58:15 UTC; jeroen
+Packaged: 2020-06-03 17:36:08 UTC; jeroen
+Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)
+Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Repository: CRAN
-Date/Publication: 2017-07-28 21:32:04 UTC
-Built: R 4.0.0; ; 2020-05-02 19:40:01 UTC; windows
+Date/Publication: 2020-06-03 18:10:02 UTC
+Built: R 4.0.2; ; 2020-07-09 23:42:10 UTC; windows

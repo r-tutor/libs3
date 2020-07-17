@@ -158,7 +158,7 @@ image_animate(image_scale(img, "200x200"), fps = 1, dispose = "previous")
 
 ## -----------------------------------------------------------------------------
 newlogo <- image_scale(image_read("https://jeroen.github.io/images/Rlogo.png"))
-oldlogo <- image_scale(image_read("https://developer.r-project.org/Logo/Rlogo-3.png"))
+oldlogo <- image_scale(image_read("https://jeroen.github.io/images/Rlogo-old.png"))
 image_resize(c(oldlogo, newlogo), '200x150!') %>%
   image_background('white') %>%
   image_morph() %>%
@@ -234,17 +234,6 @@ library(ggplot2)
 library(grid)
 qplot(speed, dist, data = cars, geom = c("point", "smooth"))
 grid.raster(frink)
-
-## ---- fig.height=2------------------------------------------------------------
-tiff_file <- tempfile()
-image_write(frink, path = tiff_file, format = 'tiff')
-r <- raster::brick(tiff_file)
-raster::plotRGB(r)
-
-## ---- fig.height=2------------------------------------------------------------
-buf <- as.integer(frink[[1]])
-rr <- raster::brick(buf)
-raster::plotRGB(rr, asp = 1)
 
 ## ----eval=FALSE---------------------------------------------------------------
 #  install.packages("tesseract")

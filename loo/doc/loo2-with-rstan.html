@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <meta name="author" content="Aki Vehtari and Jonah Gabry" />
 
-<meta name="date" content="2019-12-18" />
+<meta name="date" content="2020-07-14" />
 
 <title>Writing Stan programs for use with the loo package</title>
 
+<script>// Hide empty <a> tag within highlighted CodeBlock for screen reader accessibility (see https://github.com/jgm/pandoc/issues/6352#issuecomment-626106786) -->
+// v0.0.1
+// Written by JooYoung Seo (jooyoung@psu.edu) and Atsushi Yasumoto on June 1st, 2020.
+
+document.addEventListener('DOMContentLoaded', function() {
+  const codeList = document.getElementsByClassName("sourceCode");
+  for (var i = 0; i < codeList.length; i++) {
+    var linkList = codeList[i].getElementsByTagName('a');
+    for (var j = 0; j < linkList.length; j++) {
+      if (linkList[j].innerHTML === "") {
+        linkList[j].setAttribute('aria-hidden', 'true');
+      }
+    }
+  }
+});
+</script>
 
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -33,14 +48,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -49,9 +66,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -118,9 +135,6 @@ padding-right: 2em;
 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 14px;
 line-height: 1.35;
-}
-#header {
-text-align: center;
 }
 #TOC {
 clear: both;
@@ -289,7 +303,8 @@ code > span.st { color: #d14; }
 code > span.co { color: #888888; font-style: italic; } 
 code > span.ot { color: #007020; } 
 code > span.al { color: #ff0000; font-weight: bold; } 
-code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61717; background-color: #e3d2d2; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
 </style>
 
 
@@ -304,7 +319,7 @@ code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61
 
 <h1 class="title toc-ignore">Writing Stan programs for use with the loo package</h1>
 <h4 class="author">Aki Vehtari and Jonah Gabry</h4>
-<h4 class="date">2019-12-18</h4>
+<h4 class="date">2020-07-14</h4>
 
 
 <div id="TOC">
@@ -324,13 +339,14 @@ code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61
 %\VignetteEngine{knitr::rmarkdown}
 %\VignetteIndexEntry{Writing Stan programs for use with the loo package}
 -->
+<p><strong>NOTE: We recommend viewing the fully rendered version of this vignette online at <a href="https://mc-stan.org/loo/articles/" class="uri">https://mc-stan.org/loo/articles/</a></strong></p>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
 <p>This vignette demonstrates how to write a Stan program that computes and stores the pointwise log-likelihood required for using the <strong>loo</strong> package. The other vignettes included with the package demonstrate additional functionality.</p>
 <p>Some sections from this vignette are excerpted from our papers</p>
 <ul>
 <li><p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC. <em>Statistics and Computing</em>. 27(5), 1413–1432. :10.1007/s11222-016-9696-4. Links: <a href="http://link.springer.com/article/10.1007%2Fs11222-016-9696-4">published</a> | <a href="http://arxiv.org/abs/1507.04544">arXiv preprint</a>.</p></li>
-<li><p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Pareto smoothed importance sampling. <a href="http://arxiv.org/abs/1507.04544">arXiv preprint arXiv:1507.04544</a>.</p></li>
+<li><p>Vehtari, A., Simpson, D., Gelman, A., Yao, Y., and Gabry, J. (2019). Pareto smoothed importance sampling. <a href="http://arxiv.org/abs/1507.04544">arXiv preprint arXiv:1507.04544</a>.</p></li>
 </ul>
 <p>which provide important background for understanding the methods implemented in the package.</p>
 </div>
@@ -365,18 +381,18 @@ generated quantities {
 <div id="fitting-the-model-with-rstan" class="section level2">
 <h2>Fitting the model with RStan</h2>
 <p>Next we fit the model in Stan using the <strong>rstan</strong> package:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">library</span>(<span class="st">&quot;rstan&quot;</span>)</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="co"># Prepare data </span></a>
-<a class="sourceLine" id="cb2-4" data-line-number="4">url &lt;-<span class="st"> &quot;http://stat.columbia.edu/~gelman/arm/examples/arsenic/wells.dat&quot;</span></a>
-<a class="sourceLine" id="cb2-5" data-line-number="5">wells &lt;-<span class="st"> </span><span class="kw">read.table</span>(url)</a>
-<a class="sourceLine" id="cb2-6" data-line-number="6">wells<span class="op">$</span>dist100 &lt;-<span class="st"> </span><span class="kw">with</span>(wells, dist <span class="op">/</span><span class="st"> </span><span class="dv">100</span>)</a>
-<a class="sourceLine" id="cb2-7" data-line-number="7">X &lt;-<span class="st"> </span><span class="kw">model.matrix</span>(<span class="op">~</span><span class="st"> </span>dist100 <span class="op">+</span><span class="st"> </span>arsenic, wells)</a>
-<a class="sourceLine" id="cb2-8" data-line-number="8">standata &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">y =</span> wells<span class="op">$</span><span class="cf">switch</span>, <span class="dt">X =</span> X, <span class="dt">N =</span> <span class="kw">nrow</span>(X), <span class="dt">P =</span> <span class="kw">ncol</span>(X))</a>
-<a class="sourceLine" id="cb2-9" data-line-number="9"></a>
-<a class="sourceLine" id="cb2-10" data-line-number="10"><span class="co"># Fit model</span></a>
-<a class="sourceLine" id="cb2-11" data-line-number="11">fit_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">stan</span>(<span class="st">&quot;logistic.stan&quot;</span>, <span class="dt">data =</span> standata)</a>
-<a class="sourceLine" id="cb2-12" data-line-number="12"><span class="kw">print</span>(fit_<span class="dv">1</span>, <span class="dt">pars =</span> <span class="st">&quot;beta&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">library</span>(<span class="st">&quot;rstan&quot;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co"># Prepare data </span></span>
+<span id="cb2-4"><a href="#cb2-4"></a>url &lt;-<span class="st"> &quot;http://stat.columbia.edu/~gelman/arm/examples/arsenic/wells.dat&quot;</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a>wells &lt;-<span class="st"> </span><span class="kw">read.table</span>(url)</span>
+<span id="cb2-6"><a href="#cb2-6"></a>wells<span class="op">$</span>dist100 &lt;-<span class="st"> </span><span class="kw">with</span>(wells, dist <span class="op">/</span><span class="st"> </span><span class="dv">100</span>)</span>
+<span id="cb2-7"><a href="#cb2-7"></a>X &lt;-<span class="st"> </span><span class="kw">model.matrix</span>(<span class="op">~</span><span class="st"> </span>dist100 <span class="op">+</span><span class="st"> </span>arsenic, wells)</span>
+<span id="cb2-8"><a href="#cb2-8"></a>standata &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">y =</span> wells<span class="op">$</span><span class="cf">switch</span>, <span class="dt">X =</span> X, <span class="dt">N =</span> <span class="kw">nrow</span>(X), <span class="dt">P =</span> <span class="kw">ncol</span>(X))</span>
+<span id="cb2-9"><a href="#cb2-9"></a></span>
+<span id="cb2-10"><a href="#cb2-10"></a><span class="co"># Fit model</span></span>
+<span id="cb2-11"><a href="#cb2-11"></a>fit_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">stan</span>(<span class="st">&quot;logistic.stan&quot;</span>, <span class="dt">data =</span> standata)</span>
+<span id="cb2-12"><a href="#cb2-12"></a><span class="kw">print</span>(fit_<span class="dv">1</span>, <span class="dt">pars =</span> <span class="st">&quot;beta&quot;</span>)</span></code></pre></div>
 <pre><code>         mean se_mean   sd  2.5%   25%   50%   75% 97.5% n_eff Rhat
 beta[1]  0.00       0 0.08 -0.16 -0.05  0.00  0.05  0.15  1964    1
 beta[2] -0.89       0 0.10 -1.09 -0.96 -0.89 -0.82 -0.68  2048    1
@@ -385,22 +401,22 @@ beta[3]  0.46       0 0.04  0.38  0.43  0.46  0.49  0.54  2198    1</code></pre>
 <div id="computing-approximate-leave-one-out-cross-validation-using-psis-loo" class="section level2">
 <h2>Computing approximate leave-one-out cross-validation using PSIS-LOO</h2>
 <p>We can then use the <strong>loo</strong> package to compute the efficient PSIS-LOO approximation to exact LOO-CV:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">library</span>(<span class="st">&quot;loo&quot;</span>)</a>
-<a class="sourceLine" id="cb4-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb4-3" data-line-number="3"><span class="co"># Extract pointwise log-likelihood</span></a>
-<a class="sourceLine" id="cb4-4" data-line-number="4"><span class="co"># using merge_chains=FALSE returns an array, which is easier to </span></a>
-<a class="sourceLine" id="cb4-5" data-line-number="5"><span class="co"># use with relative_eff()</span></a>
-<a class="sourceLine" id="cb4-6" data-line-number="6">log_lik_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">extract_log_lik</span>(fit_<span class="dv">1</span>, <span class="dt">merge_chains =</span> <span class="ot">FALSE</span>)</a>
-<a class="sourceLine" id="cb4-7" data-line-number="7"></a>
-<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="co"># as of loo v2.0.0 we can optionally provide relative effective sample sizes</span></a>
-<a class="sourceLine" id="cb4-9" data-line-number="9"><span class="co"># when calling loo, which allows for better estimates of the PSIS effective</span></a>
-<a class="sourceLine" id="cb4-10" data-line-number="10"><span class="co"># sample sizes and Monte Carlo error</span></a>
-<a class="sourceLine" id="cb4-11" data-line-number="11">r_eff &lt;-<span class="st"> </span><span class="kw">relative_eff</span>(<span class="kw">exp</span>(log_lik_<span class="dv">1</span>), <span class="dt">cores =</span> <span class="dv">2</span>) </a>
-<a class="sourceLine" id="cb4-12" data-line-number="12"></a>
-<a class="sourceLine" id="cb4-13" data-line-number="13"><span class="co"># preferably use more than 2 cores (as many cores as possible)</span></a>
-<a class="sourceLine" id="cb4-14" data-line-number="14"><span class="co"># will use value of 'mc.cores' option if cores is not specified</span></a>
-<a class="sourceLine" id="cb4-15" data-line-number="15">loo_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">loo</span>(log_lik_<span class="dv">1</span>, <span class="dt">r_eff =</span> r_eff, <span class="dt">cores =</span> <span class="dv">2</span>)</a>
-<a class="sourceLine" id="cb4-16" data-line-number="16"><span class="kw">print</span>(loo_<span class="dv">1</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">library</span>(<span class="st">&quot;loo&quot;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2"></a></span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="co"># Extract pointwise log-likelihood</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="co"># using merge_chains=FALSE returns an array, which is easier to </span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="co"># use with relative_eff()</span></span>
+<span id="cb4-6"><a href="#cb4-6"></a>log_lik_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">extract_log_lik</span>(fit_<span class="dv">1</span>, <span class="dt">merge_chains =</span> <span class="ot">FALSE</span>)</span>
+<span id="cb4-7"><a href="#cb4-7"></a></span>
+<span id="cb4-8"><a href="#cb4-8"></a><span class="co"># as of loo v2.0.0 we can optionally provide relative effective sample sizes</span></span>
+<span id="cb4-9"><a href="#cb4-9"></a><span class="co"># when calling loo, which allows for better estimates of the PSIS effective</span></span>
+<span id="cb4-10"><a href="#cb4-10"></a><span class="co"># sample sizes and Monte Carlo error</span></span>
+<span id="cb4-11"><a href="#cb4-11"></a>r_eff &lt;-<span class="st"> </span><span class="kw">relative_eff</span>(<span class="kw">exp</span>(log_lik_<span class="dv">1</span>), <span class="dt">cores =</span> <span class="dv">2</span>) </span>
+<span id="cb4-12"><a href="#cb4-12"></a></span>
+<span id="cb4-13"><a href="#cb4-13"></a><span class="co"># preferably use more than 2 cores (as many cores as possible)</span></span>
+<span id="cb4-14"><a href="#cb4-14"></a><span class="co"># will use value of &#39;mc.cores&#39; option if cores is not specified</span></span>
+<span id="cb4-15"><a href="#cb4-15"></a>loo_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">loo</span>(log_lik_<span class="dv">1</span>, <span class="dt">r_eff =</span> r_eff, <span class="dt">cores =</span> <span class="dv">2</span>)</span>
+<span id="cb4-16"><a href="#cb4-16"></a><span class="kw">print</span>(loo_<span class="dv">1</span>)</span></code></pre></div>
 <pre><code>Computed from 4000 by 3020 log-likelihood matrix
 
          Estimate   SE
@@ -411,20 +427,20 @@ looic      3937.0 31.2
 Monte Carlo SE of elpd_loo is 0.0.
 
 All Pareto k estimates are good (k &lt; 0.5).
-See help('pareto-k-diagnostic') for details.</code></pre>
+See help(&#39;pareto-k-diagnostic&#39;) for details.</code></pre>
 <p>The printed output from the <code>loo</code> function shows the estimates <span class="math inline">\(\widehat{\mbox{elpd}}_{\rm loo}\)</span> (expected log predictive density), <span class="math inline">\(\widehat{p}_{\rm loo}\)</span> (effective number of parameters), and <span class="math inline">\({\rm looic} =-2\, \widehat{\mbox{elpd}}_{\rm loo}\)</span> (the LOO information criterion).</p>
-<p>The line at the bottom of the printed output provides information about the reliability of the LOO approximation (the interpretation of the <span class="math inline">\(k\)</span> parameter is explained in <code>help('pareto-k-diagnostic')</code> and in greater detail in Vehtari, Gelman, and Gabry (2017)). In this case the message tells us that all of the estimates for <span class="math inline">\(k\)</span> are fine.</p>
+<p>The line at the bottom of the printed output provides information about the reliability of the LOO approximation (the interpretation of the <span class="math inline">\(k\)</span> parameter is explained in <code>help(&#39;pareto-k-diagnostic&#39;)</code> and in greater detail in Vehtari, Simpson, Gelman, Yao, and Gabry (2019)). In this case the message tells us that all of the estimates for <span class="math inline">\(k\)</span> are fine.</p>
 </div>
 <div id="comparing-models" class="section level2">
 <h2>Comparing models</h2>
 <p>To compare this model to an alternative model for the same data we can use the <code>loo_compare</code> function in the <strong>loo</strong> package. First we’ll fit a second model to the well-switching data, using <code>log(arsenic)</code> instead of <code>arsenic</code> as a predictor:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1">standata<span class="op">$</span>X[, <span class="st">&quot;arsenic&quot;</span>] &lt;-<span class="st"> </span><span class="kw">log</span>(standata<span class="op">$</span>X[, <span class="st">&quot;arsenic&quot;</span>])</a>
-<a class="sourceLine" id="cb6-2" data-line-number="2">fit_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">stan</span>(<span class="dt">fit =</span> fit_<span class="dv">1</span>, <span class="dt">data =</span> standata) </a>
-<a class="sourceLine" id="cb6-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb6-4" data-line-number="4">log_lik_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">extract_log_lik</span>(fit_<span class="dv">2</span>, <span class="dt">merge_chains =</span> <span class="ot">FALSE</span>)</a>
-<a class="sourceLine" id="cb6-5" data-line-number="5">r_eff_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">relative_eff</span>(<span class="kw">exp</span>(log_lik_<span class="dv">2</span>))</a>
-<a class="sourceLine" id="cb6-6" data-line-number="6">loo_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">loo</span>(log_lik_<span class="dv">2</span>, <span class="dt">r_eff =</span> r_eff_<span class="dv">2</span>, <span class="dt">cores =</span> <span class="dv">2</span>)</a>
-<a class="sourceLine" id="cb6-7" data-line-number="7"><span class="kw">print</span>(loo_<span class="dv">2</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>standata<span class="op">$</span>X[, <span class="st">&quot;arsenic&quot;</span>] &lt;-<span class="st"> </span><span class="kw">log</span>(standata<span class="op">$</span>X[, <span class="st">&quot;arsenic&quot;</span>])</span>
+<span id="cb6-2"><a href="#cb6-2"></a>fit_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">stan</span>(<span class="dt">fit =</span> fit_<span class="dv">1</span>, <span class="dt">data =</span> standata) </span>
+<span id="cb6-3"><a href="#cb6-3"></a></span>
+<span id="cb6-4"><a href="#cb6-4"></a>log_lik_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">extract_log_lik</span>(fit_<span class="dv">2</span>, <span class="dt">merge_chains =</span> <span class="ot">FALSE</span>)</span>
+<span id="cb6-5"><a href="#cb6-5"></a>r_eff_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">relative_eff</span>(<span class="kw">exp</span>(log_lik_<span class="dv">2</span>))</span>
+<span id="cb6-6"><a href="#cb6-6"></a>loo_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">loo</span>(log_lik_<span class="dv">2</span>, <span class="dt">r_eff =</span> r_eff_<span class="dv">2</span>, <span class="dt">cores =</span> <span class="dv">2</span>)</span>
+<span id="cb6-7"><a href="#cb6-7"></a><span class="kw">print</span>(loo_<span class="dv">2</span>)</span></code></pre></div>
 <pre><code>Computed from 4000 by 3020 log-likelihood matrix
 
          Estimate   SE
@@ -435,12 +451,12 @@ looic      3904.6 32.4
 Monte Carlo SE of elpd_loo is 0.0.
 
 All Pareto k estimates are good (k &lt; 0.5).
-See help('pareto-k-diagnostic') for details.</code></pre>
+See help(&#39;pareto-k-diagnostic&#39;) for details.</code></pre>
 <p>We can now compare the models on LOO using the <code>loo_compare</code> function:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="co"># Compare</span></a>
-<a class="sourceLine" id="cb8-2" data-line-number="2">comp &lt;-<span class="st"> </span><span class="kw">loo_compare</span>(loo_<span class="dv">1</span>, loo_<span class="dv">2</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="co"># Compare</span></span>
+<span id="cb8-2"><a href="#cb8-2"></a>comp &lt;-<span class="st"> </span><span class="kw">loo_compare</span>(loo_<span class="dv">1</span>, loo_<span class="dv">2</span>)</span></code></pre></div>
 <p>This new object, <code>comp</code>, contains the estimated difference of expected leave-one-out prediction errors between the two models, along with the standard error:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="kw">print</span>(comp) <span class="co"># can set simplify=FALSE for more detailed print output</span></a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="kw">print</span>(comp) <span class="co"># can set simplify=FALSE for more detailed print output</span></span></code></pre></div>
 <pre><code>       elpd_diff se_diff
 model2   0.0       0.0  
 model1 -16.3       4.4  </code></pre>
@@ -453,7 +469,7 @@ model1 -16.3       4.4  </code></pre>
 <p>Stan Development Team (2017). <em>The Stan C++ Library, Version 2.17.0.</em> <a href="http://mc-stan.org" class="uri">http://mc-stan.org</a></p>
 <p>Stan Development Team (2018) <em>RStan: the R interface to Stan, Version 2.17.3.</em> <a href="http://mc-stan.org" class="uri">http://mc-stan.org</a></p>
 <p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC. <em>Statistics and Computing</em>. 27(5), 1413–1432. :10.1007/s11222-016-9696-4. <a href="http://link.springer.com/article/10.1007%2Fs11222-016-9696-4">online</a>, <a href="http://arxiv.org/abs/1507.04544">arXiv preprint arXiv:1507.04544</a>.</p>
-<p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Pareto smoothed importance sampling. <a href="http://arxiv.org/abs/1507.02646">arXiv preprint arXiv:1507.02646</a>.</p>
+<p>Vehtari, A., Simpson, D., Gelman, A., Yao, Y., and Gabry, J. (2019). Pareto smoothed importance sampling. <a href="http://arxiv.org/abs/1507.02646">arXiv preprint arXiv:1507.02646</a>.</p>
 </div>
 
 

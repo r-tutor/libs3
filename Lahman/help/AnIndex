@@ -13,8 +13,10 @@ CollegePlaying	CollegePlaying
 Fielding	Fielding
 fieldingLabels	battingLabels
 FieldingOF	FieldingOF
+FieldingOFsplit	FieldingOFsplit
 FieldingPost	FieldingPost
 HallOfFame	HallOfFame
+HomeGames	HomeGames
 Label	Label
 Lahman	Lahman-package
 LahmanData	LahmanData

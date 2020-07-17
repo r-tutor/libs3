@@ -22,6 +22,11 @@ loo_approximate_posterior
 loo_compare             Model comparison
 loo_model_weights       Model averaging/weighting via stacking or
                         pseudo-BMA weighting
+loo_moment_match        Moment matching for efficient approximate
+                        leave-one-out cross-validation (LOO)
+loo_moment_match_split
+                        Split moment matching for efficient approximate
+                        leave-one-out cross-validation (LOO)
 loo_subsample           Efficient approximate leave-one-out
                         cross-validation (LOO) using subsampling
 nobs.psis_loo_ss        The number of observations in a 'psis_loo_ss'
@@ -30,6 +35,7 @@ obs_idx                 Get observation indices used in subsampling
 pareto-k-diagnostic     Diagnostics for Pareto smoothed importance
                         sampling (PSIS)
 print.loo               Print methods
+psis                    Pareto smoothed importance sampling (PSIS)
 psislw                  Pareto smoothed importance sampling
                         (deprecated, old version)
 relative_eff            Convenience function for computing relative
@@ -39,4 +45,4 @@ tis                     Truncated importance sampling (TIS)
 update.psis_loo_ss      Update 'psis_loo_ss' objects
 waic                    Widely applicable information criterion (WAIC)
 weights.importance_sampling
-                        Pareto smoothed importance sampling (PSIS)
+                        Extract importance sampling weights

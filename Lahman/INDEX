@@ -9,8 +9,10 @@ BattingPost             BattingPost table
 CollegePlaying          CollegePlaying table
 Fielding                Fielding table
 FieldingOF              FieldingOF table
+FieldingOFsplit         FieldingOFsplit table
 FieldingPost            FieldingPost data
 HallOfFame              Hall of Fame Voting Data
+HomeGames               HomeGames table
 Label                   Extract the Label for a Variable
 Lahman-package          Sean Lahman's Baseball Database
 LahmanData              Lahman Datasets
