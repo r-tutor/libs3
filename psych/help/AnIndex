@@ -86,6 +86,7 @@ cosinor	cosinor
 cosinor.period	cosinor
 cosinor.plot	cosinor
 count.pairwise	count.pairwise
+crossValidation	set.cor
 cs	misc
 cta	cta
 cta.15	cta
@@ -242,6 +243,7 @@ logistic.grm	logistic
 logit	logistic
 lookup	fa.lookup
 lookupFromKeys	fa.lookup
+lookupItems	fa.lookup
 lowerCor	misc
 lowerMat	misc
 lowerUpper	lowerUpper
@@ -257,6 +259,7 @@ MAP	VSS
 mardia	skew
 mat.regress	set.cor
 mat.sort	mat.sort
+matPlot	set.cor
 matReg	set.cor
 matrix.addition	matrix.addition
 matSort	mat.sort
@@ -271,8 +274,13 @@ mlPlot	multilevel.reliability
 mlr	multilevel.reliability
 moderate.diagram	mediate
 mssd	mssd
+multi.arrow	diagram
+multi.curved.arrow	diagram
 multi.hist	multi.hist
+multi.rect	diagram
+multi.self	diagram
 multilevel.reliability	multilevel.reliability
+nchar2numeric	misc
 nfactors	VSS
 omega	omega
 omega.diagram	omega.graph
@@ -347,6 +355,7 @@ rescale	rescale
 resid.psych	residuals.psych
 residuals.psych	residuals.psych
 response.frequencies	score.items
+responseFrequency	score.items
 reverse.code	reverse.code
 rmssd	mssd
 sat.act	sat.act
@@ -463,6 +472,7 @@ varimin	Promax
 vgQ.bimin	Promax
 vgQ.targetQ	Promax
 vgQ.varimin	Promax
+violin	densityBy
 violinBy	densityBy
 VSS	VSS
 vss	VSS
