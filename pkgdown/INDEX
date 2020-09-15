@@ -1,6 +1,4 @@
 as_pkgdown              Generate pkgdown data structure
-autolink_html           Automatically link references and articles in
-                        an HTML page
 build_articles          Build articles section
 build_favicons          Create favicons from package logo
 build_home              Build home section

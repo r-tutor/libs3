@@ -422,6 +422,7 @@ sim.spherical	sim.item
 sim.structural	sim.structural
 sim.structure	sim.structural
 sim.VSS	sim.VSS
+simCor	sim.structural
 simulation.circ	simulation.circ
 skew	skew
 smc	smc

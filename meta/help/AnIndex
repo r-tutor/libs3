@@ -9,9 +9,11 @@ ci	ci
 cilayout	print.meta
 cisapride	cisapride
 drapery	drapery
-Fleiss93	Fleiss93
-Fleiss93cont	Fleiss93cont
-Fleiss93_CR	read.rm5
+Fleiss1993bin	Fleiss1993bin
+Fleiss1993cont	Fleiss1993cont
+Fleiss1993_CR	read.rm5
+Fleiss93	Fleiss1993bin
+Fleiss93cont	Fleiss1993cont
 forest	forest.meta
 forest.meta	forest.meta
 forest.metabind	forest.metabind
@@ -43,7 +45,8 @@ metareg	metareg
 nnt	nnt
 nnt.default	nnt
 nnt.meta	nnt
-Olkin95	Olkin95
+Olkin1995	Olkin1995
+Olkin95	Olkin1995
 or2smd	or2smd
 print.meta	print.meta
 print.metabias	metabias

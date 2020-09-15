@@ -11,7 +11,7 @@
 <div style="text-align: center;">
 <a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
 <a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
-</div><h2>Documentation for package &lsquo;OpenMx&rsquo; version 2.17.4</h2>
+</div><h2>Documentation for package &lsquo;OpenMx&rsquo; version 2.18.1</h2>
 
 <ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
 <li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
@@ -91,6 +91,10 @@
 <td>MxAlgebra Class</td></tr>
 <tr><td style="width: 25%;"><a href="MxMatrix-class.html">dimnames&lt;--method</a></td>
 <td>MxMatrix Class</td></tr>
+<tr><td style="width: 25%;"><a href="DiscreteBase-class.html">DiscreteBase</a></td>
+<td>An S4 base class for discrete marginal distributions</td></tr>
+<tr><td style="width: 25%;"><a href="DiscreteBase-class.html">DiscreteBase-class</a></td>
+<td>An S4 base class for discrete marginal distributions</td></tr>
 <tr><td style="width: 25%;"><a href="dzfData.html">dzfData</a></td>
 <td>Example twin extended kinship data: DZ female data</td></tr>
 <tr><td style="width: 25%;"><a href="dzmData.html">dzmData</a></td>
@@ -699,6 +703,16 @@
 <td>An optional list</td></tr>
 <tr><td style="width: 25%;"><a href="mxMakeNames.html">mxMakeNames</a></td>
 <td>mxMakeNames</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalNegativeBinomial.html">mxMarginalNegativeBinomial</a></td>
+<td>Indicator with marginal Negative Binomial distribution</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalNegativeBinomial.html">MxMarginalNegativeBinomial-class</a></td>
+<td>Indicator with marginal Negative Binomial distribution</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalPoisson.html">mxMarginalPoisson</a></td>
+<td>Indicator with marginal Poisson distribution</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalPoisson.html">MxMarginalPoisson-class</a></td>
+<td>Indicator with marginal Poisson distribution</td></tr>
+<tr><td style="width: 25%;"><a href="mxThreshold.html">mxMarginalProbit</a></td>
+<td>Create List of Thresholds</td></tr>
 <tr><td style="width: 25%;"><a href="MxMatrix-class.html">MxMatrix</a></td>
 <td>MxMatrix Class</td></tr>
 <tr><td style="width: 25%;"><a href="mxMatrix.html">mxMatrix</a></td>
@@ -1008,6 +1022,8 @@
 <table width="100%">
 <tr><td style="width: 25%;"><a href="mxAlgebra.html">p2z</a></td>
 <td>Create MxAlgebra Object</td></tr>
+<tr><td style="width: 25%;"><a href="predict.MxModel.html">predict.MxModel</a></td>
+<td>'predict' method for 'MxModel' objects</td></tr>
 <tr><td style="width: 25%;"><a href="BaseCompute-class.html">print-method</a></td>
 <td>BaseCompute</td></tr>
 <tr><td style="width: 25%;"><a href="MxAlgebra-class.html">print-method</a></td>
@@ -1054,6 +1070,10 @@
 <td>Create an MxFitFunctionRow Object</td></tr>
 <tr><td style="width: 25%;"><a href="mxFitFunctionWLS.html">print-method</a></td>
 <td>Create MxFitFunctionWLS Object</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalNegativeBinomial.html">print-method</a></td>
+<td>Indicator with marginal Negative Binomial distribution</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalPoisson.html">print-method</a></td>
+<td>Indicator with marginal Poisson distribution</td></tr>
 <tr><td style="width: 25%;"><a href="mxPath.html">print-method</a></td>
 <td>Create List of Paths</td></tr>
 <tr><td style="width: 25%;"><a href="mxThreshold.html">print-method</a></td>
@@ -1118,6 +1138,10 @@
 <td>Create an MxFitFunctionRow Object</td></tr>
 <tr><td style="width: 25%;"><a href="mxFitFunctionWLS.html">show-method</a></td>
 <td>Create MxFitFunctionWLS Object</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalNegativeBinomial.html">show-method</a></td>
+<td>Indicator with marginal Negative Binomial distribution</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalPoisson.html">show-method</a></td>
+<td>Indicator with marginal Poisson distribution</td></tr>
 <tr><td style="width: 25%;"><a href="mxPath.html">show-method</a></td>
 <td>Create List of Paths</td></tr>
 <tr><td style="width: 25%;"><a href="mxThreshold.html">show-method</a></td>
@@ -1186,6 +1210,8 @@
 <table width="100%">
 <tr><td style="width: 25%;"><a href="BaseCompute-class.html">$-method</a></td>
 <td>BaseCompute</td></tr>
+<tr><td style="width: 25%;"><a href="DiscreteBase-class.html">$-method</a></td>
+<td>An S4 base class for discrete marginal distributions</td></tr>
 <tr><td style="width: 25%;"><a href="MxAlgebra-class.html">$-method</a></td>
 <td>MxAlgebra Class</td></tr>
 <tr><td style="width: 25%;"><a href="MxBaseExpectation-class.html">$-method</a></td>
@@ -1204,12 +1230,18 @@
 <td>MxMatrix Class</td></tr>
 <tr><td style="width: 25%;"><a href="MxModel-class.html">$-method</a></td>
 <td>MxModel Class</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalNegativeBinomial.html">$-method</a></td>
+<td>Indicator with marginal Negative Binomial distribution</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalPoisson.html">$-method</a></td>
+<td>Indicator with marginal Poisson distribution</td></tr>
 <tr><td style="width: 25%;"><a href="mxPath.html">$-method</a></td>
 <td>Create List of Paths</td></tr>
 <tr><td style="width: 25%;"><a href="mxThreshold.html">$-method</a></td>
 <td>Create List of Thresholds</td></tr>
 <tr><td style="width: 25%;"><a href="BaseCompute-class.html">$&lt;--method</a></td>
 <td>BaseCompute</td></tr>
+<tr><td style="width: 25%;"><a href="DiscreteBase-class.html">$&lt;--method</a></td>
+<td>An S4 base class for discrete marginal distributions</td></tr>
 <tr><td style="width: 25%;"><a href="MxAlgebra-class.html">$&lt;--method</a></td>
 <td>MxAlgebra Class</td></tr>
 <tr><td style="width: 25%;"><a href="MxBaseExpectation-class.html">$&lt;--method</a></td>
@@ -1232,6 +1264,10 @@
 <td>MxModel Class</td></tr>
 <tr><td style="width: 25%;"><a href="MxRAMModel-class.html">$&lt;--method</a></td>
 <td>MxRAMModel</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalNegativeBinomial.html">$&lt;--method</a></td>
+<td>Indicator with marginal Negative Binomial distribution</td></tr>
+<tr><td style="width: 25%;"><a href="mxMarginalPoisson.html">$&lt;--method</a></td>
+<td>Indicator with marginal Poisson distribution</td></tr>
 <tr><td style="width: 25%;"><a href="mxPath.html">$&lt;--method</a></td>
 <td>Create List of Paths</td></tr>
 <tr><td style="width: 25%;"><a href="mxThreshold.html">$&lt;--method</a></td>

@@ -1,6 +1,8 @@
 BaseCompute-class       BaseCompute
 Bollen                  Bollen Data on Industrialization and Political
                         Democracy
+DiscreteBase-class      An S4 base class for discrete marginal
+                        distributions
 HS.ability.data         Holzinger & Swineford (1939) Ability in 301
                         children from 2 schools
 LongitudinalOverdispersedCounts
@@ -297,6 +299,10 @@ mxMI                    Estimate Modification Indices for MxModel
                         Objects
 mxMLObjective           DEPRECATED: Create MxMLObjective Object
 mxMakeNames             mxMakeNames
+mxMarginalNegativeBinomial
+                        Indicator with marginal Negative Binomial
+                        distribution
+mxMarginalPoisson       Indicator with marginal Poisson distribution
 mxMatrix                Create MxMatrix Object
 mxModel                 Create MxModel Object
 mxModelAverage          Information-Theoretic Model-Averaging and
@@ -406,6 +412,7 @@ omxSelectRowsAndCols    Filter rows and columns from an mxMatrix
 omxSetParameters        Assign Model Parameters
 omxSymbolTable          Internal OpenMx algebra operations
 ordinalTwinData         Data for ordinal twin model
+predict.MxModel         'predict' method for 'MxModel' objects
 rvectorize              Vectorize By Row
 summary.MxModel         Model Summary
 tr                      trace

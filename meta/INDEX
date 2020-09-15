@@ -1,6 +1,6 @@
-Fleiss93                Aspirin after Myocardial Infarction
-Fleiss93cont            Mental Health Treatment
-Olkin95                 Thrombolytic Therapy after Acute Myocardial
+Fleiss1993bin           Aspirin after Myocardial Infarction
+Fleiss1993cont          Mental Health Treatment
+Olkin1995               Thrombolytic Therapy after Acute Myocardial
                         Infarction
 amlodipine              Amlodipine for Work Capacity
 as.data.frame.meta      Additional functions for objects of class meta
@@ -45,7 +45,7 @@ or2smd                  Conversion from log odds ratio to standardised
 print.meta              Print meta-analysis results
 radial.meta             Radial plot
 read.mtv                Import RevMan 4 data files (.mtv)
-read.rm5                Import RevMan 5 data files (.csv)
+read.rm5                Import RevMan 5 analysis data
 settings.meta           Print and change default settings to conduct
                         and print or plot meta-analyses in R package
                         *meta*.
