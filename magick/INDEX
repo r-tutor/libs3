@@ -7,6 +7,7 @@ autoviewer              RStudio Graphics AutoViewer
 coder_info              Magick Configuration
 color                   Image Color
 composite               Image Composite
+defines                 Set encoder defines
 device                  Magick Graphics Device
 edges                   Edge / Line Detection
 editing                 Image Editing

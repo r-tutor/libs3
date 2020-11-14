@@ -1,3 +1,21 @@
+2.5.2
+  - Fixes for CRAN
+  - Remove some accidental files from source pkg
+
+2.5.1
+  - Fix encoding bug for image_read() filepaths on Windows
+  - Re-allow iter = -1 in image_morphology()
+  - Do not require bash in configure script
+
+2.5.0
+  - Windows / MacOS: binary packages to imagemagick 6.9.11-32
+  - Windows: new imagemagick should work again with latest GhostScript
+  - New function image_distort()
+  - image_montage() gains a few parameters similar to the command line
+  - image_convert() gains a parameter 'interlace' (#269)
+  - image_ggplot() no longer inverts y-scale, to avoid bug in R/ggplot2
+  - Add 'defines' parameter to image_write (#261)
+
 2.4.0
   - New functions: image_fx_sequence, image_deskew_angle, image_get_artifacts
   - Add 'defines' parameter to image_read and image_blank

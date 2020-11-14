@@ -14,9 +14,11 @@ colorspace_types	options
 compose_types	options
 composite	composite
 decoration_types	options
+defines	defines
 demo_image	editing
 device	device
 dispose_types	options
+distort_types	options
 edges	edges
 editing	editing
 effects	effects
@@ -65,6 +67,7 @@ image_despeckle	effects
 image_destroy	editing
 image_device	device
 image_display	editing
+image_distort	transform
 image_draw	device
 image_edge	edges
 image_emboss	effects
@@ -117,6 +120,7 @@ image_rotate	transform
 image_sample	transform
 image_scale	transform
 image_separate	color
+image_set_defines	defines
 image_shadow	composite
 image_shadow_mask	composite
 image_shear	transform

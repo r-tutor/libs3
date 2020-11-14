@@ -1,3 +1,16 @@
+# labelled 2.7.0
+
+* a `.values` argument has been added to `set_na_values()` and `set_na_range()`, allowing to pass a list of values
+* a `.strict` option has been added to `set_variable_labels()`,
+  `set_value_labels()`, `add_value_labels()`,  `remove_value_labels()`,
+  `set_na_values()` and `set_na_range()`,
+  allowing to pass values for columns not observed in the data (it could be useful
+  for using a same list of labels for several data.frame sharing some 
+  variables) (#70)
+* `copy_labels()` is less restrictive for non labelled vectors, copying variable label
+  even if the two vectors are not of the same type (#71)
+* a `.strict` option has been added to `copy_labels()` (#71)
+
 # labelled 2.6.0
 
 * `look_for()` has been redesigned:

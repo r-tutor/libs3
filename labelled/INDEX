@@ -1,4 +1,4 @@
-copy_labels             Copy variable and value labels and SPSS style
+copy_labels             Copy variable and value labels and SPSS-style
                         missing value
 drop_unused_value_labels
                         Drop unused value labels
