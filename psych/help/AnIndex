@@ -143,6 +143,7 @@ fa.parallel	fa.parallel
 fa.parallel.poly	fa.parallel
 fa.plot	cluster.plot
 fa.poly	deprecated
+fa.pooled	fa
 fa.random	fa.random
 fa.rgraph	fa.diagram
 fa.sapa	fa

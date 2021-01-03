@@ -8,6 +8,9 @@ ap_psis.array	ap_psis
 ap_psis.default	ap_psis
 ap_psis.matrix	ap_psis
 compare	compare
+elpd	elpd
+elpd.array	elpd
+elpd.matrix	elpd
 example_loglik_array	example_loglik_array
 example_loglik_matrix	example_loglik_array
 extract_log_lik	extract_log_lik

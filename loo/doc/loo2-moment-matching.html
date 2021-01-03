@@ -12,23 +12,20 @@
 
 <meta name="author" content="Topi Paananen, Paul Bürkner, Aki Vehtari and Jonah Gabry" />
 
-<meta name="date" content="2020-07-14" />
+<meta name="date" content="2020-12-07" />
 
 <title>Avoiding model refits in leave-one-out cross-validation with moment matching</title>
 
-<script>// Hide empty <a> tag within highlighted CodeBlock for screen reader accessibility (see https://github.com/jgm/pandoc/issues/6352#issuecomment-626106786) -->
-// v0.0.1
-// Written by JooYoung Seo (jooyoung@psu.edu) and Atsushi Yasumoto on June 1st, 2020.
-
-document.addEventListener('DOMContentLoaded', function() {
-  const codeList = document.getElementsByClassName("sourceCode");
-  for (var i = 0; i < codeList.length; i++) {
-    var linkList = codeList[i].getElementsByTagName('a');
-    for (var j = 0; j < linkList.length; j++) {
-      if (linkList[j].innerHTML === "") {
-        linkList[j].setAttribute('aria-hidden', 'true');
-      }
-    }
+<script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
   }
 });
 </script>
@@ -36,19 +33,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -68,7 +64,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -319,13 +315,14 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 
 <h1 class="title toc-ignore">Avoiding model refits in leave-one-out cross-validation with moment matching</h1>
 <h4 class="author">Topi Paananen, Paul Bürkner, Aki Vehtari and Jonah Gabry</h4>
-<h4 class="date">2020-07-14</h4>
+<h4 class="date">2020-12-07</h4>
 
 
 <div id="TOC">
 <ul>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#example-eradication-of-roaches">Example: Eradication of Roaches</a><ul>
+<li><a href="#example-eradication-of-roaches">Example: Eradication of Roaches</a>
+<ul>
 <li><a href="#coding-the-stan-model">Coding the Stan model</a></li>
 <li><a href="#setup">Setup</a></li>
 <li><a href="#fitting-the-model-with-rstan">Fitting the model with RStan</a></li>
@@ -340,95 +337,145 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 %\VignetteEngine{knitr::rmarkdown}
 %\VignetteIndexEntry{Avoiding model refits in leave-one-out cross-validation with moment matching}
 -->
-<p><strong>NOTE: We recommend viewing the fully rendered version of this vignette online at <a href="https://mc-stan.org/loo/articles/" class="uri">https://mc-stan.org/loo/articles/</a></strong></p>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
 <p>This vignette demonstrates how to improve the Monte Carlo sampling accuracy of leave-one-out cross-validation with the <strong>loo</strong> package and Stan. The <strong>loo</strong> package automatically monitors the sampling accuracy using Pareto <span class="math inline">\(k\)</span> diagnostics for each observation. Here, we present a method for quickly improving the accuracy when the Pareto diagnostics indicate problems. This is done by performing some additional computations using the existing posterior sample. If successful, this will decrease the Pareto <span class="math inline">\(k\)</span> values, making the model assessment more reliable. <strong>loo</strong> also stores the original Pareto <span class="math inline">\(k\)</span> values with the name <code>influence_pareto_k</code> which are not changed. They can be used as a diagnostic of how much each observation influences the posterior distribution.</p>
 <p>The methodology presented is based on the paper</p>
 <ul>
-<li>Paananen, T., Piironen, J., Buerkner, P.-C., Vehtari, A. (2020). Implicitly Adaptive Importance Sampling. <a href="http://arxiv.org/abs/1906.08850">arXiv preprint arXiv:1906.08850</a>.</li>
+<li>Paananen, T., Piironen, J., Buerkner, P.-C., Vehtari, A. (2020). Implicitly Adaptive Importance Sampling. <a href="https://arxiv.org/abs/1906.08850">arXiv preprint arXiv:1906.08850</a>.</li>
 </ul>
 <p>More information about the Pareto <span class="math inline">\(k\)</span> diagnostics is given in the following papers</p>
 <ul>
-<li><p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC. <em>Statistics and Computing</em>. 27(5), 1413–1432. :10.1007/s11222-016-9696-4. Links: <a href="http://link.springer.com/article/10.1007%2Fs11222-016-9696-4">published</a> | <a href="http://arxiv.org/abs/1507.04544">arXiv preprint</a>.</p></li>
-<li><p>Vehtari, A., Simpson, D., Gelman, A., Yao, Y., and Gabry, J. (2019). Pareto smoothed importance sampling. <a href="http://arxiv.org/abs/1507.02646">arXiv preprint arXiv:1507.02646</a>.</p></li>
+<li><p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC. <em>Statistics and Computing</em>. 27(5), 1413–1432. :10.1007/s11222-016-9696-4. Links: <a href="https://link.springer.com/article/10.1007/s11222-016-9696-4">published</a> | <a href="https://arxiv.org/abs/1507.04544">arXiv preprint</a>.</p></li>
+<li><p>Vehtari, A., Simpson, D., Gelman, A., Yao, Y., and Gabry, J. (2019). Pareto smoothed importance sampling. <a href="https://arxiv.org/abs/1507.02646">arXiv preprint arXiv:1507.02646</a>.</p></li>
 </ul>
 </div>
 <div id="example-eradication-of-roaches" class="section level1">
 <h1>Example: Eradication of Roaches</h1>
-<p>We will use the same example as in the vignette <a href="http://mc-stan.org/loo/articles/loo2-example.html"><em>Using the loo package (version &gt;= 2.0.0)</em></a>. See the demo for a description of the problem and data. We will use the same Poisson regression model as in the case study.</p>
+<p>We will use the same example as in the vignette <a href="https://mc-stan.org/loo/articles/loo2-example.html"><em>Using the loo package (version &gt;= 2.0.0)</em></a>. See the demo for a description of the problem and data. We will use the same Poisson regression model as in the case study.</p>
 <div id="coding-the-stan-model" class="section level2">
 <h2>Coding the Stan model</h2>
 <p>Here is the Stan code for fitting the Poisson regression model, which we will use for modeling the number of roaches.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>stancode &lt;-<span class="st"> &quot;</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="st">data {</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="st">  int&lt;lower=1&gt; K;</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="st">  int&lt;lower=1&gt; N;</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="st">  matrix[N,K] x;</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="st">  int y[N];</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="st">  vector[N] offset;</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="st">  real beta_prior_scale;</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="st">  real alpha_prior_scale;</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="st">}</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="st">parameters {</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="st">  vector[K] beta;</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="st">  real intercept;</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="st">}</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="st">model {</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="st">  y ~ poisson(exp(x * beta + intercept + offset));</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="st">  beta ~ normal(0,beta_prior_scale);</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="st">  intercept ~ normal(0,alpha_prior_scale);</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="st">}</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a><span class="st">generated quantities {</span></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="st">  vector[N] log_lik;</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="st">  for (n in 1:N)</span></span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="st">    log_lik[n] = poisson_lpmf(y[n] | exp(x[n] * beta + intercept + offset[n]));</span></span>
-<span id="cb1-25"><a href="#cb1-25"></a><span class="st">}</span></span>
-<span id="cb1-26"><a href="#cb1-26"></a><span class="st">&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>stancode <span class="ot">&lt;-</span> <span class="st">&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="st">data {</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="st">  int&lt;lower=1&gt; K;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="st">  int&lt;lower=1&gt; N;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">  matrix[N,K] x;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">  int y[N];</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">  vector[N] offset;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="st">  real beta_prior_scale;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">  real alpha_prior_scale;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">parameters {</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="st">  vector[K] beta;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="st">  real intercept;</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">model {</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="st">  y ~ poisson(exp(x * beta + intercept + offset));</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="st">  beta ~ normal(0,beta_prior_scale);</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="st">  intercept ~ normal(0,alpha_prior_scale);</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="st">generated quantities {</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="st">  vector[N] log_lik;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="st">  for (n in 1:N)</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="st">    log_lik[n] = poisson_lpmf(y[n] | exp(x[n] * beta + intercept + offset[n]));</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;</span></span></code></pre></div>
 <p>Following the usual approach recommended in <a href="http://mc-stan.org/loo/articles/loo2-with-rstan.html"><em>Writing Stan programs for use with the loo package</em></a>, we compute the log-likelihood for each observation in the <code>generated quantities</code> block of the Stan program.</p>
 </div>
 <div id="setup" class="section level2">
 <h2>Setup</h2>
 <p>In addition to <strong>loo</strong>, we load the <strong>rstan</strong> package for fitting the model, and the <strong>rstanarm</strong> package for the data.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">library</span>(<span class="st">&quot;rstan&quot;</span>)</span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="kw">library</span>(<span class="st">&quot;loo&quot;</span>)</span>
-<span id="cb2-3"><a href="#cb2-3"></a>seed &lt;-<span class="st"> </span><span class="dv">9547</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="kw">set.seed</span>(seed)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;rstan&quot;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;loo&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>seed <span class="ot">&lt;-</span> <span class="dv">9547</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(seed)</span></code></pre></div>
 </div>
 <div id="fitting-the-model-with-rstan" class="section level2">
 <h2>Fitting the model with RStan</h2>
 <p>Next we fit the model in Stan using the <strong>rstan</strong> package:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># Prepare data</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="kw">data</span>(roaches, <span class="dt">package =</span> <span class="st">&quot;rstanarm&quot;</span>)</span>
-<span id="cb3-3"><a href="#cb3-3"></a>roaches<span class="op">$</span>roach1 &lt;-<span class="st"> </span><span class="kw">sqrt</span>(roaches<span class="op">$</span>roach1)</span>
-<span id="cb3-4"><a href="#cb3-4"></a>y &lt;-<span class="st"> </span>roaches<span class="op">$</span>y</span>
-<span id="cb3-5"><a href="#cb3-5"></a>x &lt;-<span class="st"> </span>roaches[,<span class="kw">c</span>(<span class="st">&quot;roach1&quot;</span>, <span class="st">&quot;treatment&quot;</span>, <span class="st">&quot;senior&quot;</span>)]</span>
-<span id="cb3-6"><a href="#cb3-6"></a>offset &lt;-<span class="st"> </span><span class="kw">log</span>(roaches[,<span class="st">&quot;exposure2&quot;</span>])</span>
-<span id="cb3-7"><a href="#cb3-7"></a>n &lt;-<span class="st"> </span><span class="kw">dim</span>(x)[<span class="dv">1</span>]</span>
-<span id="cb3-8"><a href="#cb3-8"></a>k &lt;-<span class="st"> </span><span class="kw">dim</span>(x)[<span class="dv">2</span>]</span>
-<span id="cb3-9"><a href="#cb3-9"></a></span>
-<span id="cb3-10"><a href="#cb3-10"></a>standata &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">N =</span> n, <span class="dt">K =</span> k, <span class="dt">x =</span> <span class="kw">as.matrix</span>(x), <span class="dt">y =</span> y, <span class="dt">offset =</span> offset, <span class="dt">beta_prior_scale =</span> <span class="fl">2.5</span>, <span class="dt">alpha_prior_scale =</span> <span class="fl">5.0</span>)</span>
-<span id="cb3-11"><a href="#cb3-11"></a></span>
-<span id="cb3-12"><a href="#cb3-12"></a><span class="co"># Compile</span></span>
-<span id="cb3-13"><a href="#cb3-13"></a>stanmodel &lt;-<span class="st"> </span><span class="kw">stan_model</span>(<span class="dt">model_code =</span> stancode)</span>
-<span id="cb3-14"><a href="#cb3-14"></a></span>
-<span id="cb3-15"><a href="#cb3-15"></a><span class="co"># Fit model</span></span>
-<span id="cb3-16"><a href="#cb3-16"></a>fit &lt;-<span class="st"> </span><span class="kw">sampling</span>(stanmodel, <span class="dt">data =</span> standata, <span class="dt">seed =</span> seed, <span class="dt">refresh =</span> <span class="dv">0</span>)</span>
-<span id="cb3-17"><a href="#cb3-17"></a><span class="kw">print</span>(fit, <span class="dt">pars =</span> <span class="st">&quot;beta&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare data</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(roaches, <span class="at">package =</span> <span class="st">&quot;rstanarm&quot;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>roaches<span class="sc">$</span>roach1 <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(roaches<span class="sc">$</span>roach1)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> roaches<span class="sc">$</span>y</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> roaches[,<span class="fu">c</span>(<span class="st">&quot;roach1&quot;</span>, <span class="st">&quot;treatment&quot;</span>, <span class="st">&quot;senior&quot;</span>)]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>offset <span class="ot">&lt;-</span> <span class="fu">log</span>(roaches[,<span class="st">&quot;exposure2&quot;</span>])</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">dim</span>(x)[<span class="dv">1</span>]</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="fu">dim</span>(x)[<span class="dv">2</span>]</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>standata <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">N =</span> n, <span class="at">K =</span> k, <span class="at">x =</span> <span class="fu">as.matrix</span>(x), <span class="at">y =</span> y, <span class="at">offset =</span> offset, <span class="at">beta_prior_scale =</span> <span class="fl">2.5</span>, <span class="at">alpha_prior_scale =</span> <span class="fl">5.0</span>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>stanmodel <span class="ot">&lt;-</span> <span class="fu">stan_model</span>(<span class="at">model_code =</span> stancode)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit model</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>fit <span class="ot">&lt;-</span> <span class="fu">sampling</span>(stanmodel, <span class="at">data =</span> standata, <span class="at">seed =</span> seed, <span class="at">refresh =</span> <span class="dv">0</span>)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(fit, <span class="at">pars =</span> <span class="st">&quot;beta&quot;</span>)</span></code></pre></div>
+<pre><code>Inference for Stan model: 73ed397b74a7b4968fc8fce8b1300023.
+4 chains, each with iter=2000; warmup=1000; thin=1; 
+post-warmup draws per chain=1000, total post-warmup draws=4000.
+
+         mean se_mean   sd  2.5%   25%   50%   75% 97.5% n_eff Rhat
+beta[1]  0.16       0 0.00  0.16  0.16  0.16  0.16  0.16  2618    1
+beta[2] -0.57       0 0.02 -0.62 -0.58 -0.57 -0.55 -0.52  2006    1
+beta[3] -0.31       0 0.03 -0.38 -0.34 -0.31 -0.29 -0.25  2408    1
+
+Samples were drawn using NUTS(diag_e) at Mon Dec  7 14:04:39 2020.
+For each parameter, n_eff is a crude measure of effective sample size,
+and Rhat is the potential scale reduction factor on split chains (at 
+convergence, Rhat=1).</code></pre>
 <p>Let us now evaluate the predictive performance of the model using <code>loo()</code>.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>loo1 &lt;-<span class="st"> </span><span class="kw">loo</span>(fit)</span>
-<span id="cb4-2"><a href="#cb4-2"></a>loo1</span></code></pre></div>
-<p>The <code>loo()</code> function output warnings that there are some observations which are highly influential, and thus the accuracy of importance sampling is compromised as indicated by the large Pareto <span class="math inline">\(k\)</span> diagnostic values (&gt; 0.7). As discussed in the vignette <a href="http://mc-stan.org/loo/articles/loo2-example.html"><em>Using the loo package (version &gt;= 2.0.0)</em></a>, this may be an indication of model misspecification. Despite that, it is still beneficial to be able to evaluate the predictive performance of the model accurately.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>loo1 <span class="ot">&lt;-</span> <span class="fu">loo</span>(fit)</span></code></pre></div>
+<pre><code>Warning: Some Pareto k diagnostic values are too high. See help(&#39;pareto-k-diagnostic&#39;) for details.</code></pre>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>loo1</span></code></pre></div>
+<pre><code>
+Computed from 4000 by 262 log-likelihood matrix
+
+         Estimate     SE
+elpd_loo  -5459.4  694.7
+p_loo       251.7   53.7
+looic     10918.9 1389.3
+------
+Monte Carlo SE of elpd_loo is NA.
+
+Pareto k diagnostic values:
+                         Count Pct.    Min. n_eff
+(-Inf, 0.5]   (good)     235   89.7%   270       
+ (0.5, 0.7]   (ok)        10    3.8%   65        
+   (0.7, 1]   (bad)        9    3.4%   23        
+   (1, Inf)   (very bad)   8    3.1%   1         
+See help(&#39;pareto-k-diagnostic&#39;) for details.</code></pre>
+<p>The <code>loo()</code> function output warnings that there are some observations which are highly influential, and thus the accuracy of importance sampling is compromised as indicated by the large Pareto <span class="math inline">\(k\)</span> diagnostic values (&gt; 0.7). As discussed in the vignette <a href="https://mc-stan.org/loo/articles/loo2-example.html"><em>Using the loo package (version &gt;= 2.0.0)</em></a>, this may be an indication of model misspecification. Despite that, it is still beneficial to be able to evaluate the predictive performance of the model accurately.</p>
 </div>
 <div id="moment-matching-correction-for-importance-sampling" class="section level2">
 <h2>Moment matching correction for importance sampling</h2>
 <p>To improve the accuracy of the <code>loo()</code> result above, we could perform leave-one-out cross-validation by explicitly leaving out single observations and refitting the model using MCMC repeatedly. However, the Pareto <span class="math inline">\(k\)</span> diagnostics indicate that there are 19 observations which are problematic. This would require 19 model refits which may require a lot of computation time.</p>
 <p>Instead of refitting with MCMC, we can perform a faster moment matching correction to the importance sampling for the problematic observations. This can be done with the <code>loo_moment_match()</code> function in the <strong>loo</strong> package, which takes our existing <code>loo</code> object as input and modifies it. The moment matching requires some evaluations of the model posterior density. For models fitted with <strong>rstan</strong>, this can be conveniently done by using the existing <code>stanfit</code> object.</p>
 <p>First, we show how the moment matching can be used for a model fitted using <strong>rstan</strong>. It only requires setting the argument <code>moment_match</code> to <code>TRUE</code> in the <code>loo()</code> function. Optionally, you can also set the argument <code>k_threshold</code> which determines the Pareto <span class="math inline">\(k\)</span> threshold, above which moment matching is used. By default, it operates on all observations whose Pareto <span class="math inline">\(k\)</span> value is larger than 0.7.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># available in rstan &gt;= 2.21</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a>loo2 &lt;-<span class="st"> </span><span class="kw">loo</span>(fit, <span class="dt">moment_match =</span> <span class="ot">TRUE</span>)</span>
-<span id="cb5-3"><a href="#cb5-3"></a>loo2</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># available in rstan &gt;= 2.21</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>loo2 <span class="ot">&lt;-</span> <span class="fu">loo</span>(fit, <span class="at">moment_match =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<pre><code>Warning: Some Pareto k diagnostic values are slightly high. See help(&#39;pareto-k-diagnostic&#39;) for details.</code></pre>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>loo2</span></code></pre></div>
+<pre><code>
+Computed from 4000 by 262 log-likelihood matrix
+
+         Estimate     SE
+elpd_loo  -5478.5  700.2
+p_loo       253.5   57.5
+looic     10957.1 1400.3
+------
+Monte Carlo SE of elpd_loo is 0.4.
+
+Pareto k diagnostic values:
+                         Count Pct.    Min. n_eff
+(-Inf, 0.5]   (good)     250   95.4%   127       
+ (0.5, 0.7]   (ok)        12    4.6%   65        
+   (0.7, 1]   (bad)        0    0.0%   &lt;NA&gt;      
+   (1, Inf)   (very bad)   0    0.0%   &lt;NA&gt;      
+
+All Pareto k estimates are ok (k &lt; 0.7).
+See help(&#39;pareto-k-diagnostic&#39;) for details.</code></pre>
 <p>After the moment matching, all observations have the diagnostic Pareto <span class="math inline">\(k\)</span> less than 0.7, meaning that the estimates are now reliable. The total <code>elpd_loo</code> estimate also changed from <code>-5457.8</code> to <code>-5478.5</code>, showing that before moment matching, <code>loo()</code> overestimated the predictive performance of the model.</p>
 <p>The updated Pareto <span class="math inline">\(k\)</span> values stored in <code>loo2$diagnostics$pareto_k</code> are considered algorithmic diagnostic values that indicate the sampling accuracy. The original Pareto <span class="math inline">\(k\)</span> values are stored in <code>loo2$pointwise[,&quot;influence_pareto_k&quot;]</code> and these are not modified by the moment matching. These can be considered as diagnostics for how big influence each observation has on the posterior distribution. In addition to the Pareto <span class="math inline">\(k\)</span> diagnostics, moment matching also updates the effective sample size estimates.</p>
 </div>
@@ -459,86 +506,106 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 </ul></li>
 </ul>
 <p>Next, we show how the helper functions look like for RStan objects, and show an example of using <code>loo_moment_match()</code> directly. For stanfit objects from <strong>rstan</strong> objects, the functions look like this:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># create a named list of draws for use with rstan methods</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a>.rstan_relist &lt;-<span class="st"> </span><span class="cf">function</span>(x, skeleton) {</span>
-<span id="cb6-3"><a href="#cb6-3"></a>  out &lt;-<span class="st"> </span>utils<span class="op">::</span><span class="kw">relist</span>(x, skeleton)</span>
-<span id="cb6-4"><a href="#cb6-4"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="kw">seq_along</span>(skeleton)) {</span>
-<span id="cb6-5"><a href="#cb6-5"></a>    <span class="kw">dim</span>(out[[i]]) &lt;-<span class="st"> </span><span class="kw">dim</span>(skeleton[[i]])</span>
-<span id="cb6-6"><a href="#cb6-6"></a>  }</span>
-<span id="cb6-7"><a href="#cb6-7"></a>  out</span>
-<span id="cb6-8"><a href="#cb6-8"></a>}</span>
-<span id="cb6-9"><a href="#cb6-9"></a></span>
-<span id="cb6-10"><a href="#cb6-10"></a><span class="co"># rstan helper function to get dims of parameters right</span></span>
-<span id="cb6-11"><a href="#cb6-11"></a>.create_skeleton &lt;-<span class="st"> </span><span class="cf">function</span>(pars, dims) {</span>
-<span id="cb6-12"><a href="#cb6-12"></a>  out &lt;-<span class="st"> </span><span class="kw">lapply</span>(<span class="kw">seq_along</span>(pars), <span class="cf">function</span>(i) {</span>
-<span id="cb6-13"><a href="#cb6-13"></a>    len_dims &lt;-<span class="st"> </span><span class="kw">length</span>(dims[[i]])</span>
-<span id="cb6-14"><a href="#cb6-14"></a>    <span class="cf">if</span> (len_dims <span class="op">&lt;</span><span class="st"> </span><span class="dv">1</span>) <span class="kw">return</span>(<span class="dv">0</span>)</span>
-<span id="cb6-15"><a href="#cb6-15"></a>    <span class="kw">return</span>(<span class="kw">array</span>(<span class="dv">0</span>, <span class="dt">dim =</span> dims[[i]]))</span>
-<span id="cb6-16"><a href="#cb6-16"></a>  })</span>
-<span id="cb6-17"><a href="#cb6-17"></a>  <span class="kw">names</span>(out) &lt;-<span class="st"> </span>pars</span>
-<span id="cb6-18"><a href="#cb6-18"></a>  out</span>
-<span id="cb6-19"><a href="#cb6-19"></a>}</span>
-<span id="cb6-20"><a href="#cb6-20"></a></span>
-<span id="cb6-21"><a href="#cb6-21"></a><span class="co"># extract original posterior draws</span></span>
-<span id="cb6-22"><a href="#cb6-22"></a>post_draws_stanfit &lt;-<span class="st"> </span><span class="cf">function</span>(x, ...) {</span>
-<span id="cb6-23"><a href="#cb6-23"></a>  <span class="kw">as.matrix</span>(x)</span>
-<span id="cb6-24"><a href="#cb6-24"></a>}</span>
-<span id="cb6-25"><a href="#cb6-25"></a></span>
-<span id="cb6-26"><a href="#cb6-26"></a><span class="co"># compute a matrix of log-likelihood values for the ith observation</span></span>
-<span id="cb6-27"><a href="#cb6-27"></a><span class="co"># matrix contains information about the number of MCMC chains</span></span>
-<span id="cb6-28"><a href="#cb6-28"></a>log_lik_i_stanfit &lt;-<span class="st"> </span><span class="cf">function</span>(x, i, <span class="dt">parameter_name =</span> <span class="st">&quot;log_lik&quot;</span>, ...) {</span>
-<span id="cb6-29"><a href="#cb6-29"></a>  loo<span class="op">::</span><span class="kw">extract_log_lik</span>(x, parameter_name, <span class="dt">merge_chains =</span> <span class="ot">FALSE</span>)[, , i]</span>
-<span id="cb6-30"><a href="#cb6-30"></a>}</span>
-<span id="cb6-31"><a href="#cb6-31"></a></span>
-<span id="cb6-32"><a href="#cb6-32"></a><span class="co"># transform parameters to the unconstraint space</span></span>
-<span id="cb6-33"><a href="#cb6-33"></a>unconstrain_pars_stanfit &lt;-<span class="st"> </span><span class="cf">function</span>(x, pars, ...) {</span>
-<span id="cb6-34"><a href="#cb6-34"></a>  skeleton &lt;-<span class="st"> </span><span class="kw">.create_skeleton</span>(x<span class="op">@</span>sim<span class="op">$</span>pars_oi, x<span class="op">@</span>par_dims[x<span class="op">@</span>sim<span class="op">$</span>pars_oi])</span>
-<span id="cb6-35"><a href="#cb6-35"></a>  upars &lt;-<span class="st"> </span><span class="kw">apply</span>(pars, <span class="dv">1</span>, <span class="dt">FUN =</span> <span class="cf">function</span>(theta) {</span>
-<span id="cb6-36"><a href="#cb6-36"></a>    rstan<span class="op">::</span><span class="kw">unconstrain_pars</span>(x, <span class="kw">.rstan_relist</span>(theta, skeleton))</span>
-<span id="cb6-37"><a href="#cb6-37"></a>  })</span>
-<span id="cb6-38"><a href="#cb6-38"></a>  <span class="co"># for one parameter models</span></span>
-<span id="cb6-39"><a href="#cb6-39"></a>  <span class="cf">if</span> (<span class="kw">is.null</span>(<span class="kw">dim</span>(upars))) {</span>
-<span id="cb6-40"><a href="#cb6-40"></a>    <span class="kw">dim</span>(upars) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>, <span class="kw">length</span>(upars))</span>
-<span id="cb6-41"><a href="#cb6-41"></a>  }</span>
-<span id="cb6-42"><a href="#cb6-42"></a>  <span class="kw">t</span>(upars)</span>
-<span id="cb6-43"><a href="#cb6-43"></a>}</span>
-<span id="cb6-44"><a href="#cb6-44"></a></span>
-<span id="cb6-45"><a href="#cb6-45"></a><span class="co"># compute log_prob for each posterior draws on the unconstrained space</span></span>
-<span id="cb6-46"><a href="#cb6-46"></a>log_prob_upars_stanfit &lt;-<span class="st"> </span><span class="cf">function</span>(x, upars, ...) {</span>
-<span id="cb6-47"><a href="#cb6-47"></a>  <span class="kw">apply</span>(upars, <span class="dv">1</span>, rstan<span class="op">::</span>log_prob, <span class="dt">object =</span> x,</span>
-<span id="cb6-48"><a href="#cb6-48"></a>        <span class="dt">adjust_transform =</span> <span class="ot">TRUE</span>, <span class="dt">gradient =</span> <span class="ot">FALSE</span>)</span>
-<span id="cb6-49"><a href="#cb6-49"></a>}</span>
-<span id="cb6-50"><a href="#cb6-50"></a></span>
-<span id="cb6-51"><a href="#cb6-51"></a><span class="co"># compute log_lik values based on the unconstrained parameters</span></span>
-<span id="cb6-52"><a href="#cb6-52"></a>log_lik_i_upars_stanfit &lt;-<span class="st"> </span><span class="cf">function</span>(x, upars, i, <span class="dt">parameter_name =</span> <span class="st">&quot;log_lik&quot;</span>,</span>
-<span id="cb6-53"><a href="#cb6-53"></a>                                  ...) {</span>
-<span id="cb6-54"><a href="#cb6-54"></a>  S &lt;-<span class="st"> </span><span class="kw">nrow</span>(upars)</span>
-<span id="cb6-55"><a href="#cb6-55"></a>  out &lt;-<span class="st"> </span><span class="kw">numeric</span>(S)</span>
-<span id="cb6-56"><a href="#cb6-56"></a>  <span class="cf">for</span> (s <span class="cf">in</span> <span class="kw">seq_len</span>(S)) {</span>
-<span id="cb6-57"><a href="#cb6-57"></a>    out[s] &lt;-<span class="st"> </span>rstan<span class="op">::</span><span class="kw">constrain_pars</span>(x, <span class="dt">upars =</span> upars[s, ])[[parameter_name]][i]</span>
-<span id="cb6-58"><a href="#cb6-58"></a>  }</span>
-<span id="cb6-59"><a href="#cb6-59"></a>  out</span>
-<span id="cb6-60"><a href="#cb6-60"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a named list of draws for use with rstan methods</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>.rstan_relist <span class="ot">&lt;-</span> <span class="cf">function</span>(x, skeleton) {</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  out <span class="ot">&lt;-</span> utils<span class="sc">::</span><span class="fu">relist</span>(x, skeleton)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">seq_along</span>(skeleton)) {</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">dim</span>(out[[i]]) <span class="ot">&lt;-</span> <span class="fu">dim</span>(skeleton[[i]])</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  out</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co"># rstan helper function to get dims of parameters right</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>.create_skeleton <span class="ot">&lt;-</span> <span class="cf">function</span>(pars, dims) {</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>  out <span class="ot">&lt;-</span> <span class="fu">lapply</span>(<span class="fu">seq_along</span>(pars), <span class="cf">function</span>(i) {</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    len_dims <span class="ot">&lt;-</span> <span class="fu">length</span>(dims[[i]])</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (len_dims <span class="sc">&lt;</span> <span class="dv">1</span>) <span class="fu">return</span>(<span class="dv">0</span>)</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(<span class="fu">array</span>(<span class="dv">0</span>, <span class="at">dim =</span> dims[[i]]))</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">names</span>(out) <span class="ot">&lt;-</span> pars</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>  out</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="co"># extract original posterior draws</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>post_draws_stanfit <span class="ot">&lt;-</span> <span class="cf">function</span>(x, ...) {</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.matrix</span>(x)</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a><span class="co"># compute a matrix of log-likelihood values for the ith observation</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a><span class="co"># matrix contains information about the number of MCMC chains</span></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>log_lik_i_stanfit <span class="ot">&lt;-</span> <span class="cf">function</span>(x, i, <span class="at">parameter_name =</span> <span class="st">&quot;log_lik&quot;</span>, ...) {</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>  loo<span class="sc">::</span><span class="fu">extract_log_lik</span>(x, parameter_name, <span class="at">merge_chains =</span> <span class="cn">FALSE</span>)[, , i]</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a><span class="co"># transform parameters to the unconstraint space</span></span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>unconstrain_pars_stanfit <span class="ot">&lt;-</span> <span class="cf">function</span>(x, pars, ...) {</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>  skeleton <span class="ot">&lt;-</span> <span class="fu">.create_skeleton</span>(x<span class="sc">@</span>sim<span class="sc">$</span>pars_oi, x<span class="sc">@</span>par_dims[x<span class="sc">@</span>sim<span class="sc">$</span>pars_oi])</span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>  upars <span class="ot">&lt;-</span> <span class="fu">apply</span>(pars, <span class="dv">1</span>, <span class="at">FUN =</span> <span class="cf">function</span>(theta) {</span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>    rstan<span class="sc">::</span><span class="fu">unconstrain_pars</span>(x, <span class="fu">.rstan_relist</span>(theta, skeleton))</span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>  <span class="co"># for one parameter models</span></span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.null</span>(<span class="fu">dim</span>(upars))) {</span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>    <span class="fu">dim</span>(upars) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="fu">length</span>(upars))</span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">t</span>(upars)</span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a><span class="co"># compute log_prob for each posterior draws on the unconstrained space</span></span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a>log_prob_upars_stanfit <span class="ot">&lt;-</span> <span class="cf">function</span>(x, upars, ...) {</span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">apply</span>(upars, <span class="dv">1</span>, rstan<span class="sc">::</span>log_prob, <span class="at">object =</span> x,</span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a>        <span class="at">adjust_transform =</span> <span class="cn">TRUE</span>, <span class="at">gradient =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a><span class="co"># compute log_lik values based on the unconstrained parameters</span></span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a>log_lik_i_upars_stanfit <span class="ot">&lt;-</span> <span class="cf">function</span>(x, upars, i, <span class="at">parameter_name =</span> <span class="st">&quot;log_lik&quot;</span>,</span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a>                                  ...) {</span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>  S <span class="ot">&lt;-</span> <span class="fu">nrow</span>(upars)</span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a>  out <span class="ot">&lt;-</span> <span class="fu">numeric</span>(S)</span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (s <span class="cf">in</span> <span class="fu">seq_len</span>(S)) {</span>
+<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a>    out[s] <span class="ot">&lt;-</span> rstan<span class="sc">::</span><span class="fu">constrain_pars</span>(x, <span class="at">upars =</span> upars[s, ])[[parameter_name]][i]</span>
+<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a>  out</span>
+<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <p>Using these function, we can call <code>loo_moment_match()</code> to update the existing <code>loo</code> object.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a>loo3 &lt;-<span class="st"> </span>loo<span class="op">::</span><span class="kw">loo_moment_match.default</span>(</span>
-<span id="cb7-2"><a href="#cb7-2"></a>  <span class="dt">x =</span> fit,</span>
-<span id="cb7-3"><a href="#cb7-3"></a>  <span class="dt">loo =</span> loo1,</span>
-<span id="cb7-4"><a href="#cb7-4"></a>  <span class="dt">post_draws =</span> post_draws_stanfit,</span>
-<span id="cb7-5"><a href="#cb7-5"></a>  <span class="dt">log_lik_i =</span> log_lik_i_stanfit,</span>
-<span id="cb7-6"><a href="#cb7-6"></a>  <span class="dt">unconstrain_pars =</span> unconstrain_pars_stanfit,</span>
-<span id="cb7-7"><a href="#cb7-7"></a>  <span class="dt">log_prob_upars =</span> log_prob_upars_stanfit,</span>
-<span id="cb7-8"><a href="#cb7-8"></a>  <span class="dt">log_lik_i_upars =</span> log_lik_i_upars_stanfit</span>
-<span id="cb7-9"><a href="#cb7-9"></a>)</span>
-<span id="cb7-10"><a href="#cb7-10"></a>loo3</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>loo3 <span class="ot">&lt;-</span> loo<span class="sc">::</span><span class="fu">loo_moment_match.default</span>(</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">x =</span> fit,</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">loo =</span> loo1,</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">post_draws =</span> post_draws_stanfit,</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">log_lik_i =</span> log_lik_i_stanfit,</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">unconstrain_pars =</span> unconstrain_pars_stanfit,</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">log_prob_upars =</span> log_prob_upars_stanfit,</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">log_lik_i_upars =</span> log_lik_i_upars_stanfit</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<pre><code>Warning: Some Pareto k diagnostic values are slightly high. See help(&#39;pareto-k-diagnostic&#39;) for details.</code></pre>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>loo3</span></code></pre></div>
+<pre><code>
+Computed from 4000 by 262 log-likelihood matrix
+
+         Estimate     SE
+elpd_loo  -5478.5  700.2
+p_loo       253.5   57.5
+looic     10957.1 1400.3
+------
+Monte Carlo SE of elpd_loo is 0.4.
+
+Pareto k diagnostic values:
+                         Count Pct.    Min. n_eff
+(-Inf, 0.5]   (good)     250   95.4%   127       
+ (0.5, 0.7]   (ok)        12    4.6%   65        
+   (0.7, 1]   (bad)        0    0.0%   &lt;NA&gt;      
+   (1, Inf)   (very bad)   0    0.0%   &lt;NA&gt;      
+
+All Pareto k estimates are ok (k &lt; 0.7).
+See help(&#39;pareto-k-diagnostic&#39;) for details.</code></pre>
 <p>As expected, the result is identical to the previous result of <code>loo2 &lt;- loo(fit, moment_match = TRUE)</code>.</p>
 </div>
 <div id="references" class="section level1">
 <h1>References</h1>
 <p>Gelman, A., and Hill, J. (2007). <em>Data Analysis Using Regression and Multilevel Hierarchical Models.</em> Cambridge University Press.</p>
 <p>Stan Development Team (2020) <em>RStan: the R interface to Stan, Version 2.21.1</em> <a href="https://mc-stan.org" class="uri">https://mc-stan.org</a></p>
-<p>Paananen, T., Piironen, J., Buerkner, P.-C., Vehtari, A. (2020). Implicitly Adaptive Importance Sampling. <a href="http://arxiv.org/abs/1906.08850">arXiv preprint arXiv:1906.08850</a>.</p>
-<p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC. <em>Statistics and Computing</em>. 27(5), 1413–1432. :10.1007/s11222-016-9696-4. Links: <a href="http://link.springer.com/article/10.1007%2Fs11222-016-9696-4">published</a> | <a href="http://arxiv.org/abs/1507.04544">arXiv preprint</a>.</p>
-<p>Vehtari, A., Simpson, D., Gelman, A., Yao, Y., and Gabry, J. (2019). Pareto smoothed importance sampling. <a href="http://arxiv.org/abs/1507.02646">arXiv preprint arXiv:1507.02646</a>.</p>
+<p>Paananen, T., Piironen, J., Buerkner, P.-C., Vehtari, A. (2020). Implicitly Adaptive Importance Sampling. <a href="https://arxiv.org/abs/1906.08850">arXiv preprint arXiv:1906.08850</a>.</p>
+<p>Vehtari, A., Gelman, A., and Gabry, J. (2017). Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC. <em>Statistics and Computing</em>. 27(5), 1413–1432. :10.1007/s11222-016-9696-4. Links: <a href="https://link.springer.com/article/10.1007/s11222-016-9696-4">published</a> | <a href="https://arxiv.org/abs/1507.04544">arXiv preprint</a>.</p>
+<p>Vehtari, A., Simpson, D., Gelman, A., Yao, Y., and Gabry, J. (2019). Pareto smoothed importance sampling. <a href="https://arxiv.org/abs/1507.02646">arXiv preprint arXiv:1507.02646</a>.</p>
 </div>
 
 

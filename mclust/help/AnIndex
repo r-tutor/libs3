@@ -1,11 +1,9 @@
 mclust-package	mclust-package
 acidity	acidity
 adjustedRandIndex	adjustedRandIndex
-as.dendrogram.hc	hc
 as.densityMclust	mclust-internal
 as.densityMclust.default	mclust-internal
 as.densityMclust.Mclust	mclust-internal
-as.hclust.hc	hc
 as.Mclust	mclust-internal
 as.Mclust.default	mclust-internal
 as.Mclust.densityMclust	mclust-internal
@@ -128,6 +126,7 @@ hcE	hcE
 hcEEE	hcE
 hcEII	hcE
 hclass	hclass
+hcRandomPairs	hcRandomPairs
 hcV	hcE
 hcVII	hcE
 hcVVV	hcE
@@ -162,6 +161,7 @@ mclustICL	mclustICL
 mclustLoglik	mclustLoglik
 mclustModel	mclustModel
 mclustModelNames	mclustModelNames
+MclustSSC	MclustSSC
 mclustVariance	mclustVariance
 me	me
 me.weighted	me.weighted
@@ -221,7 +221,7 @@ pickBIC	mclust-internal
 plot.clustCombi	plot.clustCombi
 plot.densityMclust	plot.densityMclust
 plot.gmmhd	gmmhd
-plot.hc	hc
+plot.hc	plot.hc
 plot.Mclust	plot.Mclust
 plot.mclustBIC	plot.mclustBIC
 plot.MclustBootstrap	plot.MclustBoostrap
@@ -229,6 +229,7 @@ plot.mclustBootstrapLRT	mclustBootstrapLRT
 plot.MclustDA	plot.MclustDA
 plot.MclustDR	plot.MclustDR
 plot.mclustICL	plot.mclustICL
+plot.MclustSSC	plot.MclustSSC
 plotDensityMclust1	plot.densityMclust
 plotDensityMclust2	plot.densityMclust
 plotDensityMclustd	plot.densityMclust
@@ -237,6 +238,7 @@ predict.densityMclust	predict.densityMclust
 predict.Mclust	predict.Mclust
 predict.MclustDA	predict.MclustDA
 predict.MclustDR	predict.MclustDR
+predict.MclustSSC	predict.MclustSSC
 predict2D.MclustDR	predict.MclustDR
 print.clustCombi	clustCombi
 print.gmmhd	gmmhd
@@ -250,6 +252,7 @@ print.MclustDR	MclustDR
 print.MclustDRsubsel	MclustDRsubsel
 print.mclustICL	mclustICL
 print.mclustLoglik	mclustLoglik
+print.MclustSSC	MclustSSC
 print.summary.clustCombi	clustCombi
 print.summary.gmmhd	gmmhd
 print.summary.Mclust	summary.Mclust
@@ -258,6 +261,7 @@ print.summary.MclustBootstrap	summary.MclustBootstrap
 print.summary.MclustDA	summary.MclustDA
 print.summary.MclustDR	summary.MclustDR
 print.summary.mclustICL	mclustICL
+print.summary.MclustSSC	summary.MclustSSC
 printSummaryMclustBIC	summary.mclustBIC
 printSummaryMclustBICn	summary.mclustBIC
 priorControl	priorControl
@@ -266,7 +270,7 @@ projpar.MclustDR	mclust-internal
 qclass	mclust-internal
 quantileMclust	cdfMclust
 randomOrthogonalMatrix	randomOrthogonalMatrix
-randomPairs	randomPairs
+randomPairs	hcRandomPairs
 randProj	randProj
 shapeO	mclust-internal
 sigma2decomp	sigma2decomp
@@ -296,6 +300,7 @@ summary.MclustDA	summary.MclustDA
 summary.MclustDR	summary.MclustDR
 summary.MclustDRsubsel	MclustDRsubsel
 summary.mclustICL	mclustICL
+summary.MclustSSC	summary.MclustSSC
 summaryMclustBIC	summary.mclustBIC
 summaryMclustBICn	summary.mclustBIC
 surfacePlot	surfacePlot

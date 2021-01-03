@@ -2,6 +2,7 @@ E_loo                   Compute weighted expectations
 ap_psis                 Pareto smoothed importance sampling (PSIS)
                         using approximate posteriors
 compare                 Model comparison (deprecated, old version)
+elpd                    Generic (expected) log-predictive density
 example_loglik_array    Objects to use in examples and tests
 extract_log_lik         Extract pointwise log-likelihood from a Stan
                         model

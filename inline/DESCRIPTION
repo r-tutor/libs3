@@ -1,13 +1,12 @@
 Package: inline
-Version: 0.3.16
-Date: 2020-09-06
+Version: 0.3.17
+Date: 2020-11-30
 Title: Functions to Inline C, C++, Fortran Function Calls from R
 Author: Oleg Sklyar, Duncan Murdoch, Mike Smith, Dirk Eddelbuettel, 
- Romain Francois, Karline Soetaert
+ Romain Francois, Karline Soetaert, Johannes Ranke
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Depends: R (>= 2.4.0)
 Imports: methods
-Suggests: Rcpp (>= 0.11.0)
+Suggests: Rcpp (>= 0.11.0), tinytest
 Description: Functionality to dynamically define R functions and S4 methods
  with 'inlined' C, C++ or Fortran code supporting the .C and .Call calling
  conventions.
@@ -16,7 +15,7 @@ Copyright: Oleg Sklyar, 2005-2010 and other authors per their commits
 LazyLoad: yes
 BugReports: https://github.com/eddelbuettel/inline/issues
 NeedsCompilation: no
-Packaged: 2020-09-06 15:07:35.725083 UTC; edd
+Packaged: 2020-11-30 21:07:24 UTC; edd
 Repository: CRAN
-Date/Publication: 2020-09-06 15:40:02 UTC
-Built: R 4.0.2; ; 2020-09-09 16:47:03 UTC; windows
+Date/Publication: 2020-12-01 00:50:17 UTC
+Built: R 4.0.3; ; 2020-12-30 17:26:50 UTC; windows

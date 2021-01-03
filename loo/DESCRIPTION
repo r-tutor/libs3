@@ -2,8 +2,8 @@ Package: loo
 Type: Package
 Title: Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian
         Models
-Version: 2.3.1
-Date: 2020-07-14
+Version: 2.4.1
+Date: 2020-12-07
 Authors@R: c(person("Aki", "Vehtari", email = "Aki.Vehtari@aalto.fi", role = c("aut")),
              person("Jonah", "Gabry", email = "jsg2201@columbia.edu", role = c("cre", "aut")),
              person("Mans", "Magnusson", role = c("aut")),
@@ -12,9 +12,10 @@ Authors@R: c(person("Aki", "Vehtari", email = "Aki.Vehtari@aalto.fi", role = c("
              person("Topi", "Paananen", role = c("aut")),
              person("Andrew", "Gelman", role = c("aut")),
              person("Ben", "Goodrich", role = c("ctb")),
-             person("Juho", "Piironen", role = c("ctb")))
+             person("Juho", "Piironen", role = c("ctb")), 
+             person("Bruno", "Nicenboim", role = c("ctb")))
 Maintainer: Jonah Gabry <jsg2201@columbia.edu>
-URL: https://mc-stan.org/loo, https://discourse.mc-stan.org
+URL: https://mc-stan.org/loo/, https://discourse.mc-stan.org
 BugReports: https://github.com/stan-dev/loo/issues
 Description: Efficient approximate leave-one-out cross-validation (LOO)
     for Bayesian models fit using Markov chain Monte Carlo, as 
@@ -39,7 +40,7 @@ Encoding: UTF-8
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2020-07-14 17:24:25 UTC; jgabry
+Packaged: 2020-12-07 21:09:48 UTC; jgabry
 Author: Aki Vehtari [aut],
   Jonah Gabry [cre, aut],
   Mans Magnusson [aut],
@@ -48,7 +49,8 @@ Author: Aki Vehtari [aut],
   Topi Paananen [aut],
   Andrew Gelman [aut],
   Ben Goodrich [ctb],
-  Juho Piironen [ctb]
+  Juho Piironen [ctb],
+  Bruno Nicenboim [ctb]
 Repository: CRAN
-Date/Publication: 2020-07-14 22:50:10 UTC
-Built: R 4.0.2; ; 2020-07-16 15:02:39 UTC; windows
+Date/Publication: 2020-12-09 22:50:02 UTC
+Built: R 4.0.3; ; 2020-12-30 17:27:00 UTC; windows
