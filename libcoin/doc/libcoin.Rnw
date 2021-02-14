@@ -73,7 +73,7 @@ urlcolor={linkcolor}%
 \newcommand{\R}{\mathbb{R} }
 \newcommand{\Prob}{\mathbb{P} }
 \newcommand{\N}{\mathbb{N} }
-\newcommand{\C}{\mathbb{C} }
+%\newcommand{\C}{\mathbb{C} }
 \newcommand{\V}{\mathbb{V}} %% cal{\mbox{\textnormal{Var}}} }
 \newcommand{\E}{\mathbb{E}} %%mathcal{\mbox{\textnormal{E}}} }
 \newcommand{\Var}{\mathbb{V}} %%mathcal{\mbox{\textnormal{Var}}} }
@@ -131,7 +131,7 @@ urlcolor={linkcolor}%
 \chapter*{Licence}
 
 {\setlength{\parindent}{0cm}
-Copyright (C) 2017-2019 Torsten Hothorn \\
+Copyright (C) 2017-2021 Torsten Hothorn \\
 
 This file is part of the \pkg{libcoin} R add-on package. \\
 
@@ -3469,7 +3469,7 @@ LinStatExpCov(X = iX2d, ix = ix, Y = iY2d, iy = iy,
 \mbox{}\verb@fact = Calloc(maxn + 1, double);@\\
 \mbox{}\verb@/* Calculate log-factorials.  fact[i] = lgamma(i+1) */@\\
 \mbox{}\verb@fact[0] = fact[1] = 0.;@\\
-\mbox{}\verb@for(int j = 2; j <= maxn; j++)@\\
+\mbox{}\verb@for (int j = 2; j <= maxn; j++)@\\
 \mbox{}\verb@    fact[j] = fact[j - 1] + log(j);@\\
 \mbox{}\verb@@{\NWsep}
 \end{list}
@@ -3494,7 +3494,7 @@ Note: the interface to \verb|S_rcont2| changed in  \textsf{R} 4.1-0.
 \mbox{}\verb@                    rsum + Lxp1 * b + 1,@\\
 \mbox{}\verb@                    csum + Lyp1 * b + 1,@\\
 \mbox{}\verb@                    sumweights[b], fact, jwork, rtable2);@\\
-\mbox{}\verb@#else      @\\
+\mbox{}\verb@#else@\\
 \mbox{}\verb@            S_rcont2(&Lx, &Ly, rsum + Lxp1 * b + 1,@\\
 \mbox{}\verb@                     csum + Lyp1 *b + 1, sumweights + b, fact, jwork, rtable2);@\\
 \mbox{}\verb@#endif@\\
@@ -4787,7 +4787,7 @@ covariance matrix to be passed as argument \verb|CORREL|
 \mbox{}\verb@B = C_get_B(LECV);@\\
 \mbox{}\verb@if (B > 1) {@\\
 \mbox{}\verb@    if (C_get_varonly(LECV))@\\
-\mbox{}\verb@        error("need covarinance for maximally statistics with blocks");@\\
+\mbox{}\verb@        error("need covariance for maximally statistics with blocks");@\\
 \mbox{}\verb@    covar = C_get_Covariance(LECV);@\\
 \mbox{}\verb@} else {@\\
 \mbox{}\verb@    covar = C_get_Variance(LECV); /* make -Wall happy */@\\
@@ -9610,21 +9610,21 @@ stopifnot(isequal(K1, K2))
 \mbox{}\verb@    const int overwrite,@\\
 \mbox{}\verb@    double *ans@\\
 \mbox{}\verb@) {@\\
-\mbox{}\verb@    int i, j, k, l, mr, js, ir;@\\
+\mbox{}\verb@    int mr, js, ir;@\\
 \mbox{}\verb@    double y;@\\
 \mbox{}\verb@@\\
 \mbox{}\verb@    if (overwrite) {@\\
-\mbox{}\verb@        for (i = 0; i < m * r * n * s; i++) ans[i] = 0.0;@\\
+\mbox{}\verb@        for (int i = 0; i < m * r * n * s; i++) ans[i] = 0.0;@\\
 \mbox{}\verb@    }@\\
 \mbox{}\verb@@\\
 \mbox{}\verb@    mr = m * r;@\\
-\mbox{}\verb@    for (i = 0; i < m; i++) {@\\
+\mbox{}\verb@    for (int i = 0; i < m; i++) {@\\
 \mbox{}\verb@        ir = i * r;@\\
-\mbox{}\verb@        for (j = 0; j < n; j++) {@\\
+\mbox{}\verb@        for (int j = 0; j < n; j++) {@\\
 \mbox{}\verb@            js = j * s;@\\
 \mbox{}\verb@            y = A[j*m + i];@\\
-\mbox{}\verb@            for (k = 0; k < r; k++) {@\\
-\mbox{}\verb@                for (l = 0; l < s; l++)@\\
+\mbox{}\verb@            for (int k = 0; k < r; k++) {@\\
+\mbox{}\verb@                for (int l = 0; l < s; l++)@\\
 \mbox{}\verb@                    ans[(js + l) * mr + ir + k] += y * B[l * r + k];@\\
 \mbox{}\verb@            }@\\
 \mbox{}\verb@        }@\\
@@ -9656,23 +9656,23 @@ stopifnot(isequal(K1, K2))
 \mbox{}\verb@    const int overwrite,@\\
 \mbox{}\verb@    double *ans@\\
 \mbox{}\verb@) {@\\
-\mbox{}\verb@    int i, j, k, l, mr, js, ir, s;@\\
+\mbox{}\verb@    int mr, js, ir, s;@\\
 \mbox{}\verb@    double y;@\\
 \mbox{}\verb@@\\
 \mbox{}\verb@    mr = m * r;@\\
 \mbox{}\verb@    s = r;@\\
 \mbox{}\verb@@\\
 \mbox{}\verb@    if (overwrite) {@\\
-\mbox{}\verb@        for (i = 0; i < mr * (mr + 1) / 2; i++) ans[i] = 0.0;@\\
+\mbox{}\verb@        for (int i = 0; i < mr * (mr + 1) / 2; i++) ans[i] = 0.0;@\\
 \mbox{}\verb@    }@\\
 \mbox{}\verb@@\\
-\mbox{}\verb@    for (i = 0; i < m; i++) {@\\
+\mbox{}\verb@    for (int i = 0; i < m; i++) {@\\
 \mbox{}\verb@        ir = i * r;@\\
-\mbox{}\verb@        for (j = 0; j <= i; j++) {@\\
+\mbox{}\verb@        for (int j = 0; j <= i; j++) {@\\
 \mbox{}\verb@            js = j * s;@\\
 \mbox{}\verb@            y = A[S(i, j, m)];@\\
-\mbox{}\verb@            for (k = 0; k < r; k++) {@\\
-\mbox{}\verb@                for (l = 0; l < (j < i ? s : k + 1); l++) {@\\
+\mbox{}\verb@            for (int k = 0; k < r; k++) {@\\
+\mbox{}\verb@                for (int l = 0; l < (j < i ? s : k + 1); l++) {@\\
 \mbox{}\verb@                    ans[S(ir + k, js + l, mr)] += y * B[S(k, l, r)];@\\
 \mbox{}\verb@                }@\\
 \mbox{}\verb@            }@\\
@@ -10959,8 +10959,8 @@ stopifnot(isequal(s, p))
 \mbox{}\verb@@\\
 \mbox{}\verb@Package: libcoin@\\
 \mbox{}\verb@Title: Linear Test Statistics for Permutation Inference@\\
-\mbox{}\verb@Date: 2020-08-13@\\
-\mbox{}\verb@Version: 1.0-6@\\
+\mbox{}\verb@Date: 2021-02-08@\\
+\mbox{}\verb@Version: 1.0-8@\\
 \mbox{}\verb@Authors@{\tt @}\verb@R: person("Torsten", "Hothorn", role = c("aut", "cre"),@\\
 \mbox{}\verb@                  email = "Torsten.Hothorn@{\tt @}\verb@R-project.org")@\\
 \mbox{}\verb@Description: Basic infrastructure for linear test statistics and permutation@\\
@@ -11157,7 +11157,7 @@ is contained in \texttt{libcoin/inst/C\_API\_example}.
 \vspace{-1ex}
 \begin{list}{}{} \item
 \mbox{}\verb@@\\
-\mbox{}\verb@###    Copyright (C) 2017-2019 Torsten Hothorn@\\
+\mbox{}\verb@###    Copyright (C) 2017-2021 Torsten Hothorn@\\
 \mbox{}\verb@###@\\
 \mbox{}\verb@###    This file is part of the 'libcoin' R add-on package.@\\
 \mbox{}\verb@###@\\
@@ -11195,7 +11195,7 @@ is contained in \texttt{libcoin/inst/C\_API\_example}.
 \begin{list}{}{} \item
 \mbox{}\verb@@\\
 \mbox{}\verb@/*@\\
-\mbox{}\verb@    Copyright (C) 2017-2019 Torsten Hothorn@\\
+\mbox{}\verb@    Copyright (C) 2017-2021 Torsten Hothorn@\\
 \mbox{}\verb@@\\
 \mbox{}\verb@    This file is part of the 'libcoin' R add-on package.@\\
 \mbox{}\verb@@\\

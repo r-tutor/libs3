@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Linear Statistics with Expectation and Covariance</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for LinStatExpCov {libcoin}"><tr><td>LinStatExpCov {libcoin}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Linear Statistics with Expectation and Covariance
+</h2>
+
+<h3>Description</h3>
+
+<p>Strasser-Weber type linear statistics and their expectation
+and covariance under the independence hypothesis
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+LinStatExpCov(X, Y, ix = NULL, iy = NULL, weights = integer(0),
+              subset = integer(0), block = integer(0), checkNAs = TRUE,
+              varonly = FALSE, nresample = 0, standardise = FALSE,
+              tol = sqrt(.Machine$double.eps))
+lmult(x, object)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>X</code></td>
+<td>
+<p>numeric matrix of transformations.</p>
+</td></tr>
+<tr valign="top"><td><code>Y</code></td>
+<td>
+<p>numeric matrix of influence functions.</p>
+</td></tr>
+<tr valign="top"><td><code>ix</code></td>
+<td>
+<p>an optional integer vector expanding <code>X</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>iy</code></td>
+<td>
+<p>an optional integer vector expanding <code>Y</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>weights</code></td>
+<td>
+<p>an optional integer vector of non-negative case weights.</p>
+</td></tr>
+<tr valign="top"><td><code>subset</code></td>
+<td>
+<p>an optional integer vector defining a subset of observations.</p>
+</td></tr>
+<tr valign="top"><td><code>block</code></td>
+<td>
+<p>an optional factor defining independent blocks of observations.</p>
+</td></tr>
+<tr valign="top"><td><code>checkNAs</code></td>
+<td>
+<p>a logical for switching off missing value checks.  This
+included switching off checks for suitable values of <code>subset</code>.
+Use at your own risk.</p>
+</td></tr>
+<tr valign="top"><td><code>varonly</code></td>
+<td>
+<p>a logical asking for variances only.</p>
+</td></tr>
+<tr valign="top"><td><code>nresample</code></td>
+<td>
+<p>an integer defining the number of permuted statistics to draw.</p>
+</td></tr>
+<tr valign="top"><td><code>standardise</code></td>
+<td>
+<p>a logical asking to standardise the permuted statistics.</p>
+</td></tr>
+<tr valign="top"><td><code>tol</code></td>
+<td>
+<p>tolerance for zero variances.</p>
+</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a contrast matrix to be left-multiplied in case <code>X</code> was a factor.</p>
+</td></tr>
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>an object of class <code>LinStatExpCov</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The function, after minimal preprocessing, calls the underlying C code
+and computes the linear statistic, its expectation and covariance and,
+optionally, <code>nresample</code> samples from its permutation distribution.
+</p>
+<p>When both <code>ix</code> and <code>iy</code> are missing, the number of rows of
+<code>X</code> and <code>Y</code> is the same, ie the number of observations.
+</p>
+<p>When <code>X</code> is missing and <code>ix</code> a factor, the code proceeds as
+if <code>X</code> were a dummy matrix of <code>ix</code> without explicitly
+computing this matrix.
+</p>
+<p>Both <code>ix</code> and <code>iy</code> being present means the code treats them
+as subsetting vectors for <code>X</code> and <code>Y</code>.  Note that <code>ix = 0</code>
+or <code>iy = 0</code> means that the corresponding observation is missing
+and the first row or <code>X</code> and <code>Y</code> must be zero.
+</p>
+<p><code>lmult</code> allows left-multiplication of a contrast matrix when <code>X</code>
+was (equivalent to) a factor.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A list.
+</p>
+
+
+<h3>References</h3>
+
+<p>Strasser, H. and Weber, C.  (1999).  On the asymptotic theory of permutation
+statistics.  <em>Mathematical Methods of Statistics</em> <b>8</b>(2), 220&ndash;250.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+wilcox.test(Ozone ~ Month, data = airquality, subset = Month %in% c(5, 8))
+
+aq &lt;- subset(airquality, Month %in% c(5, 8))
+X &lt;- as.double(aq$Month == 5)
+Y &lt;- as.double(rank(aq$Ozone))
+doTest(LinStatExpCov(X, Y))
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>libcoin</em> version 1.0-8 <a href="00Index.html">Index</a>]</div>
+</body></html>

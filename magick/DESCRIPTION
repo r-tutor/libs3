@@ -1,7 +1,7 @@
 Package: magick
 Type: Package
 Title: Advanced Graphics and Image-Processing in R
-Version: 2.5.2
+Version: 2.6.0
 Authors@R: person("Jeroen", "Ooms", role = c("aut", "cre"), email = "jeroen@berkeley.edu",
     comment = c(ORCID = "0000-0002-4035-0289"))
 Description: Bindings to 'ImageMagick': the most comprehensive open-source image
@@ -29,10 +29,10 @@ Encoding: UTF-8
 RoxygenNote: 7.1.1
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2020-11-08 10:06:30 UTC; jeroen
+Packaged: 2021-01-13 16:42:12 UTC; jeroen
 Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Repository: CRAN
-Date/Publication: 2020-11-10 13:20:02 UTC
-Built: R 4.0.3; x86_64-w64-mingw32; 2020-11-14 03:21:50 UTC; windows
+Date/Publication: 2021-01-13 18:40:02 UTC
+Built: R 4.0.3; x86_64-w64-mingw32; 2021-02-08 02:03:54 UTC; windows
 Archs: i386, x64

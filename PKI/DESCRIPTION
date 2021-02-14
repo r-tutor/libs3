@@ -1,5 +1,5 @@
 Package: PKI
-Version: 0.1-7
+Version: 0.1-8
 Title: Public Key Infrastucture for R Based on the X.509 Standard
 Author: Simon Urbanek <Simon.Urbanek@r-project.org>
 Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
@@ -11,8 +11,8 @@ URL: http://www.rforge.net/PKI
 SystemRequirements: OpenSSL library and headers (openssl-dev or
         similar)
 NeedsCompilation: yes
-Packaged: 2020-04-10 11:53:28 UTC; svnuser
+Packaged: 2021-02-04 00:41:26 UTC; svnuser
 Repository: CRAN
-Date/Publication: 2020-04-14 08:40:06 UTC
-Built: R 4.0.0; x86_64-w64-mingw32; 2020-04-26 14:14:26 UTC; windows
+Date/Publication: 2021-02-04 05:50:02 UTC
+Built: R 4.0.3; x86_64-w64-mingw32; 2021-02-07 21:52:32 UTC; windows
 Archs: i386, x64

@@ -1,6 +1,7 @@
 .add.extension	add.extension
 .attach.or.add.namespace	internal.attach.or.add.namespace
 .cache.filename	internal.cache.filename
+.cache.format	internal.cache.format
 .cache.hash	internal.cache.hash
 .cache.status	internal.cache.status
 .cached.variables	internal.cached.variables

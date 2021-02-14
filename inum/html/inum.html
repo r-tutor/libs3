@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Coerse Variables in Data Frames to 'enum' or 'interval'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for inum {inum}"><tr><td>inum {inum}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+Coerse Variables in Data Frames to <code>enum</code> or <code>interval</code>
+</h2>
+
+<h3>Description</h3>
+
+<p>Represents elements of a data frame as <code>enum</code> or <code>interval</code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+inum(object, nmax = 20, ...)
+## S3 method for class 'data.frame'
+inum(object, nmax = 20, ignore = NULL, 
+     total = FALSE, weights = NULL, as.interval = "",
+     complete.cases.only = FALSE, meanlevels = FALSE, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+
+<p>A data frame.
+</p>
+</td></tr>
+<tr valign="top"><td><code>nmax</code></td>
+<td>
+
+<p>Maximal number of categories for each of the numeric variables.
+</p>
+</td></tr>
+<tr valign="top"><td><code>ignore</code></td>
+<td>
+
+<p>A character vector of variable names not to be discretised.
+</p>
+</td></tr>
+<tr valign="top"><td><code>total</code></td>
+<td>
+
+<p>A logical. <code>TRUE</code> means that a condensed data frame of all 
+variables is returned, <code>FALSE</code> a list of discretised variables.
+</p>
+</td></tr>
+<tr valign="top"><td><code>weights</code></td>
+<td>
+
+<p>An optional vector of weights.
+</p>
+</td></tr>
+<tr valign="top"><td><code>as.interval</code></td>
+<td>
+
+<p>A character vector of variable names to be converted to <code><a href="interval.html">interval</a></code>
+instead of <code><a href="enum.html">enum</a></code>.
+</p>
+</td></tr>
+<tr valign="top"><td><code>complete.cases.only</code></td>
+<td>
+
+<p>A logical. <code>TRUE</code> removes all rows with missing values.
+</p>
+</td></tr>
+<tr valign="top"><td><code>meanlevels</code></td>
+<td>
+
+<p>A logical. <code>TRUE</code>, the level is the mean of the observations in the
+corresponding bin. The default <code>FALSE</code> uses the largest observation in
+the bin.
+</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+
+<p>Additional arguments, currently ignored.
+</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Each variable in <code>object</code> is converted to <code><a href="enum.html">enum</a></code> or <code><a href="interval.html">interval</a></code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>inum</code>, basically a list of
+<code><a href="enum.html">enum</a></code> or <code><a href="interval.html">interval</a></code> objects. If
+<code>total = TRUE</code>, an integer vector with a data frame
+as <code>levels</code> attribute is returned. In this case, <code>0</code>
+means <code>NA</code>.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data("iris", package = "datasets")
+iris[1,1] &lt;- NA
+inum(iris, nmax = 5)
+inum(iris, nmax = 5, total = TRUE)
+inum(iris, nmax = 5, total = TRUE, as.interval = "Sepal.Width",
+     complete.cases.only = TRUE)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>inum</em> version 1.0-3 <a href="00Index.html">Index</a>]</div>
+</body></html>

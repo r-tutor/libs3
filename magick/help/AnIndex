@@ -13,6 +13,7 @@ color	color
 colorspace_types	options
 compose_types	options
 composite	composite
+compress_types	options
 decoration_types	options
 defines	defines
 demo_image	editing

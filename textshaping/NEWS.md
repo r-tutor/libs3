@@ -1,4 +1,11 @@
+# textshaping 0.3.0
+
+* Add support for performing font fallback as part of the single-line shaping
+* Provide support for non-scalable fonts
+
 # textshaping 0.2.1
+
+* Fix issues with the Solaris mock solution
 
 # textshaping 0.2.0
 

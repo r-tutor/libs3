@@ -20,6 +20,7 @@ forest.metabind	forest.metabind
 funnel	funnel.meta
 funnel.meta	funnel.meta
 gs	gs
+JAMAlabels	JAMAlabels
 labbe	labbe
 labbe.default	labbe
 labbe.metabin	labbe
@@ -39,6 +40,7 @@ metagen	metagen
 metainc	metainc
 metainf	metainf
 metamean	metamean
+metamerge	metamerge
 metaprop	metaprop
 metarate	metarate
 metareg	metareg

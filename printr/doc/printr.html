@@ -1,65 +1,136 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <meta name="author" content="Yihui Xie" />
 
-<meta name="date" content="2017-05-18" />
+<meta name="date" content="2021-01-26" />
 
 <title>An Introduction to the printr Package</title>
 
+<script src="data:application/javascript;base64,Ly8gUGFuZG9jIDIuOSBhZGRzIGF0dHJpYnV0ZXMgb24gYm90aCBoZWFkZXIgYW5kIGRpdi4gV2UgcmVtb3ZlIHRoZSBmb3JtZXIgKHRvCi8vIGJlIGNvbXBhdGlibGUgd2l0aCB0aGUgYmVoYXZpb3Igb2YgUGFuZG9jIDwgMi44KS4KZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsIGZ1bmN0aW9uKGUpIHsKICB2YXIgaHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJkaXYuc2VjdGlvbltjbGFzcyo9J2xldmVsJ10gPiA6Zmlyc3QtY2hpbGQiKTsKICB2YXIgaSwgaCwgYTsKICBmb3IgKGkgPSAwOyBpIDwgaHMubGVuZ3RoOyBpKyspIHsKICAgIGggPSBoc1tpXTsKICAgIGlmICghL15oWzEtNl0kL2kudGVzdChoLnRhZ05hbWUpKSBjb250aW51ZTsgIC8vIGl0IHNob3VsZCBiZSBhIGhlYWRlciBoMS1oNgogICAgYSA9IGguYXR0cmlidXRlczsKICAgIHdoaWxlIChhLmxlbmd0aCA+IDApIGgucmVtb3ZlQXR0cmlidXRlKGFbMF0ubmFtZSk7CiAgfQp9KTsK"></script>
 
-
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
 </style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
 
 
 
-<link href="data:text/css;charset=utf-8,body%20%7B%0Abackground%2Dcolor%3A%20%23fff%3B%0Amargin%3A%201em%20auto%3B%0Amax%2Dwidth%3A%20800px%3B%0Aoverflow%3A%20visible%3B%0Apadding%2Dleft%3A%202em%3B%0Apadding%2Dright%3A%202em%3B%0Afont%2Dfamily%3A%20%22Helvetica%20Neue%22%2C%20Helvetica%2C%20Arial%2C%20sans%2Dserif%3B%0Afont%2Dsize%3A%2014px%3B%0Aline%2Dheight%3A%2020px%3B%0A%7D%0A%23header%20%7B%0Atext%2Dalign%3A%20center%3B%0A%7D%0A%23TOC%20%7B%0Aclear%3A%20both%3B%0Amargin%3A%200%200%2010px%200%3B%0Apadding%3A%204px%3B%0Aborder%3A%201px%20solid%20%23CCCCCC%3B%0Aborder%2Dradius%3A%205px%3B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%0Afont%2Dsize%3A%2013px%3B%0Aline%2Dheight%3A%201%2E3%3B%0A%7D%0A%23TOC%20%2Etoctitle%20%7B%0Afont%2Dweight%3A%20bold%3B%0Afont%2Dsize%3A%2015px%3B%0Amargin%2Dleft%3A%205px%3B%0A%7D%0A%23TOC%20ul%20%7B%0Apadding%2Dleft%3A%2040px%3B%0Amargin%2Dleft%3A%20%2D1%2E5em%3B%0Amargin%2Dtop%3A%205px%3B%0Amargin%2Dbottom%3A%205px%3B%0A%7D%0A%23TOC%20ul%20ul%20%7B%0Amargin%2Dleft%3A%20%2D2em%3B%0A%7D%0A%23TOC%20li%20%7B%0Aline%2Dheight%3A%2016px%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20%7B%0Amargin%3A%20auto%3B%0Amin%2Dwidth%3A%2040%25%3B%0Aborder%2Dwidth%3A%201px%3B%0Aborder%2Dcolor%3A%20%23DDDDDD%3B%0Aborder%2Dstyle%3A%20outset%3B%0Aborder%2Dcollapse%3A%20collapse%3B%0A%7D%0Atable%5Bsummary%3D%22R%20argblock%22%5D%20%7B%0Awidth%3A%20100%25%3B%0Aborder%3A%20none%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20th%20%7B%0Aborder%2Dwidth%3A%202px%3B%0Apadding%3A%205px%3B%0Aborder%2Dstyle%3A%20inset%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20td%20%7B%0Aborder%2Dwidth%3A%201px%3B%0Aborder%2Dstyle%3A%20inset%3B%0Aline%2Dheight%3A%2018px%3B%0Apadding%3A%205px%205px%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%2C%20table%3Anot%28%5Bclass%5D%29%20th%2C%20table%3Anot%28%5Bclass%5D%29%20td%20%7B%0Aborder%2Dleft%2Dstyle%3A%20none%3B%0Aborder%2Dright%2Dstyle%3A%20none%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20tr%2Eodd%20%7B%0Abackground%2Dcolor%3A%20%23f7f7f7%3B%0A%7D%0Ap%20%7B%0Amargin%3A%200%2E5em%200%3B%0A%7D%0Ablockquote%20%7B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%0Apadding%3A%2013px%3B%0Apadding%2Dbottom%3A%201px%3B%0A%7D%0Ahr%20%7B%0Aborder%2Dstyle%3A%20solid%3B%0Aborder%3A%20none%3B%0Aborder%2Dtop%3A%201px%20solid%20%23777%3B%0Amargin%3A%2028px%200%3B%0A%7D%0Adl%20%7B%0Amargin%2Dleft%3A%200%3B%0A%7D%0Adl%20dd%20%7B%0Amargin%2Dbottom%3A%2013px%3B%0Amargin%2Dleft%3A%2013px%3B%0A%7D%0Adl%20dt%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Aul%20%7B%0Amargin%2Dtop%3A%200%3B%0A%7D%0Aul%20li%20%7B%0Alist%2Dstyle%3A%20circle%20outside%3B%0A%7D%0Aul%20ul%20%7B%0Amargin%2Dbottom%3A%200%3B%0A%7D%0Apre%2C%20code%20%7B%0Abackground%2Dcolor%3A%20%23f5f5f5%3B%0Aborder%2Dradius%3A%203px%3B%0Acolor%3A%20%23333%3B%0A%7D%0Apre%20%7B%0Aoverflow%2Dx%3A%20auto%3B%0Aborder%2Dradius%3A%203px%3B%0Amargin%3A%205px%200%2010px%200%3B%0Apadding%3A%2010px%3B%0A%7D%0Apre%3Anot%28%5Bclass%5D%29%20%7B%0Abackground%2Dcolor%3A%20white%3B%0Aborder%3A%20%23f5f5f5%201px%20solid%3B%0A%7D%0Apre%3Anot%28%5Bclass%5D%29%20code%20%7B%0Acolor%3A%20%23444%3B%0Abackground%2Dcolor%3A%20white%3B%0A%7D%0Acode%20%7B%0Afont%2Dfamily%3A%20monospace%3B%0Afont%2Dsize%3A%2090%25%3B%0A%7D%0Ap%20%3E%20code%2C%20li%20%3E%20code%20%7B%0Apadding%3A%202px%204px%3B%0Acolor%3A%20%23d14%3B%0Aborder%3A%201px%20solid%20%23e1e1e8%3B%0Awhite%2Dspace%3A%20inherit%3B%0A%7D%0Adiv%2Efigure%20%7B%0Atext%2Dalign%3A%20center%3B%0A%7D%0Atable%20%3E%20caption%2C%20div%2Efigure%20p%2Ecaption%20%7B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0Atable%20%3E%20caption%20span%2C%20div%2Efigure%20p%2Ecaption%20span%20%7B%0Afont%2Dstyle%3A%20normal%3B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Ap%20%7B%0Amargin%3A%200%200%2010px%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20%7B%0Amargin%3A%20auto%20auto%2010px%20auto%3B%0A%7D%0Aimg%3Anot%28%5Bclass%5D%29%20%7B%0Abackground%2Dcolor%3A%20%23FFFFFF%3B%0Apadding%3A%202px%3B%0Aborder%2Dradius%3A%203px%3B%0Aborder%3A%201px%20solid%20%23CCCCCC%3B%0Amargin%3A%200%205px%3B%0Amax%2Dwidth%3A%20100%25%3B%0A%7D%0Ah1%20%7B%0Amargin%2Dtop%3A%200%3B%0Afont%2Dsize%3A%2035px%3B%0Aline%2Dheight%3A%2040px%3B%0A%7D%0Ah2%20%7B%0Aborder%2Dbottom%3A%204px%20solid%20%23f5f5f5%3B%0Apadding%2Dtop%3A%2010px%3B%0Apadding%2Dbottom%3A%202px%3B%0Afont%2Dsize%3A%20145%25%3B%0A%7D%0Ah3%20%7B%0Aborder%2Dbottom%3A%202px%20solid%20%23f5f5f5%3B%0Apadding%2Dtop%3A%2010px%3B%0Afont%2Dsize%3A%20120%25%3B%0A%7D%0Ah4%20%7B%0Aborder%2Dbottom%3A%201px%20solid%20%23f5f5f5%3B%0Amargin%2Dleft%3A%208px%3B%0Afont%2Dsize%3A%20105%25%3B%0A%7D%0Ah5%2C%20h6%20%7B%0Aborder%2Dbottom%3A%201px%20solid%20%23ccc%3B%0Afont%2Dsize%3A%20105%25%3B%0A%7D%0Aa%20%7B%0Acolor%3A%20%230033dd%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%236666ff%3B%20%7D%0Aa%3Avisited%20%7B%0Acolor%3A%20%23800080%3B%20%7D%0Aa%3Avisited%3Ahover%20%7B%0Acolor%3A%20%23BB00BB%3B%20%7D%0Aa%5Bhref%5E%3D%22http%3A%22%5D%20%7B%0Atext%2Ddecoration%3A%20underline%3B%20%7D%0Aa%5Bhref%5E%3D%22https%3A%22%5D%20%7B%0Atext%2Ddecoration%3A%20underline%3B%20%7D%0Adiv%2Er%2Dhelp%2Dpage%20%7B%0Abackground%2Dcolor%3A%20%23f9f9f9%3B%0Aborder%2Dbottom%3A%20%23ddd%201px%20solid%3B%0Amargin%2Dbottom%3A%2010px%3B%0Apadding%3A%2010px%3B%0A%7D%0Adiv%2Er%2Dhelp%2Dpage%3Ahover%20%7B%0Abackground%2Dcolor%3A%20%23f4f4f4%3B%0A%7D%0A%0Acode%20%3E%20span%2Ekw%20%7B%20color%3A%20%23555%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Edt%20%7B%20color%3A%20%23902000%3B%20%7D%20%0Acode%20%3E%20span%2Edv%20%7B%20color%3A%20%2340a070%3B%20%7D%20%0Acode%20%3E%20span%2Ebn%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Efl%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Ech%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Est%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Eco%20%7B%20color%3A%20%23888888%3B%20font%2Dstyle%3A%20italic%3B%20%7D%20%0Acode%20%3E%20span%2Eot%20%7B%20color%3A%20%23007020%3B%20%7D%20%0Acode%20%3E%20span%2Eal%20%7B%20color%3A%20%23ff0000%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Efu%20%7B%20color%3A%20%23900%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Eer%20%7B%20color%3A%20%23a61717%3B%20background%2Dcolor%3A%20%23e3d2d2%3B%20%7D%20%0A" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="data:text/css,body%20%7B%0Abackground%2Dcolor%3A%20%23fff%3B%0Amargin%3A%201em%20auto%3B%0Amax%2Dwidth%3A%20800px%3B%0Aoverflow%3A%20visible%3B%0Apadding%2Dleft%3A%202em%3B%0Apadding%2Dright%3A%202em%3B%0Afont%2Dfamily%3A%20%22Helvetica%20Neue%22%2C%20Helvetica%2C%20Arial%2C%20sans%2Dserif%3B%0Afont%2Dsize%3A%2014px%3B%0Aline%2Dheight%3A%2020px%3B%0A%7D%0A%23header%20%7B%0Atext%2Dalign%3A%20center%3B%0A%7D%0A%23TOC%20%7B%0Aclear%3A%20both%3B%0Amargin%3A%200%200%2010px%200%3B%0Apadding%3A%204px%3B%0Aborder%3A%201px%20solid%20%23CCCCCC%3B%0Aborder%2Dradius%3A%205px%3B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%0Afont%2Dsize%3A%2013px%3B%0Aline%2Dheight%3A%201%2E3%3B%0A%7D%0A%23TOC%20%2Etoctitle%20%7B%0Afont%2Dweight%3A%20bold%3B%0Afont%2Dsize%3A%2015px%3B%0Amargin%2Dleft%3A%205px%3B%0A%7D%0A%23TOC%20ul%20%7B%0Apadding%2Dleft%3A%2040px%3B%0Amargin%2Dleft%3A%20%2D1%2E5em%3B%0Amargin%2Dtop%3A%205px%3B%0Amargin%2Dbottom%3A%205px%3B%0A%7D%0A%23TOC%20ul%20ul%20%7B%0Amargin%2Dleft%3A%20%2D2em%3B%0A%7D%0A%23TOC%20li%20%7B%0Aline%2Dheight%3A%2016px%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20%7B%0Amargin%3A%20auto%3B%0Amin%2Dwidth%3A%2040%25%3B%0Aborder%2Dwidth%3A%201px%3B%0Aborder%2Dcolor%3A%20%23DDDDDD%3B%0Aborder%2Dstyle%3A%20outset%3B%0Aborder%2Dcollapse%3A%20collapse%3B%0A%7D%0Atable%5Bsummary%3D%22R%20argblock%22%5D%20%7B%0Awidth%3A%20100%25%3B%0Aborder%3A%20none%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20th%20%7B%0Aborder%2Dwidth%3A%202px%3B%0Apadding%3A%205px%3B%0Aborder%2Dstyle%3A%20inset%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20td%20%7B%0Aborder%2Dwidth%3A%201px%3B%0Aborder%2Dstyle%3A%20inset%3B%0Aline%2Dheight%3A%2018px%3B%0Apadding%3A%205px%205px%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%2C%20table%3Anot%28%5Bclass%5D%29%20th%2C%20table%3Anot%28%5Bclass%5D%29%20td%20%7B%0Aborder%2Dleft%2Dstyle%3A%20none%3B%0Aborder%2Dright%2Dstyle%3A%20none%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20tr%2Eodd%20%7B%0Abackground%2Dcolor%3A%20%23f7f7f7%3B%0A%7D%0Ap%20%7B%0Amargin%3A%200%2E5em%200%3B%0A%7D%0Ablockquote%20%7B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%0Apadding%3A%2013px%3B%0Apadding%2Dbottom%3A%201px%3B%0A%7D%0Ahr%20%7B%0Aborder%2Dstyle%3A%20solid%3B%0Aborder%3A%20none%3B%0Aborder%2Dtop%3A%201px%20solid%20%23777%3B%0Amargin%3A%2028px%200%3B%0A%7D%0Adl%20%7B%0Amargin%2Dleft%3A%200%3B%0A%7D%0Adl%20dd%20%7B%0Amargin%2Dbottom%3A%2013px%3B%0Amargin%2Dleft%3A%2013px%3B%0A%7D%0Adl%20dt%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Aul%20%7B%0Amargin%2Dtop%3A%200%3B%0A%7D%0Aul%20li%20%7B%0Alist%2Dstyle%3A%20circle%20outside%3B%0A%7D%0Aul%20ul%20%7B%0Amargin%2Dbottom%3A%200%3B%0A%7D%0Apre%2C%20code%20%7B%0Abackground%2Dcolor%3A%20%23f5f5f5%3B%0Aborder%2Dradius%3A%203px%3B%0Acolor%3A%20%23333%3B%0A%7D%0Apre%20%7B%0Aoverflow%2Dx%3A%20auto%3B%0Aborder%2Dradius%3A%203px%3B%0Amargin%3A%205px%200%2010px%200%3B%0Apadding%3A%2010px%3B%0A%7D%0Apre%3Anot%28%5Bclass%5D%29%20%7B%0Abackground%2Dcolor%3A%20white%3B%0Aborder%3A%20%23f5f5f5%201px%20solid%3B%0A%7D%0Apre%3Anot%28%5Bclass%5D%29%20code%20%7B%0Acolor%3A%20%23444%3B%0Abackground%2Dcolor%3A%20white%3B%0A%7D%0Acode%20%7B%0Afont%2Dfamily%3A%20monospace%3B%0Afont%2Dsize%3A%2090%25%3B%0A%7D%0Ap%20%3E%20code%2C%20li%20%3E%20code%20%7B%0Apadding%3A%202px%204px%3B%0Acolor%3A%20%23d14%3B%0Aborder%3A%201px%20solid%20%23e1e1e8%3B%0Awhite%2Dspace%3A%20inherit%3B%0A%7D%0Adiv%2Efigure%20%7B%0Atext%2Dalign%3A%20center%3B%0A%7D%0Atable%20%3E%20caption%2C%20div%2Efigure%20p%2Ecaption%20%7B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0Atable%20%3E%20caption%20span%2C%20div%2Efigure%20p%2Ecaption%20span%20%7B%0Afont%2Dstyle%3A%20normal%3B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Ap%20%7B%0Amargin%3A%200%200%2010px%3B%0A%7D%0Atable%3Anot%28%5Bclass%5D%29%20%7B%0Amargin%3A%20auto%20auto%2010px%20auto%3B%0A%7D%0Aimg%3Anot%28%5Bclass%5D%29%20%7B%0Abackground%2Dcolor%3A%20%23FFFFFF%3B%0Apadding%3A%202px%3B%0Aborder%2Dradius%3A%203px%3B%0Aborder%3A%201px%20solid%20%23CCCCCC%3B%0Amargin%3A%200%205px%3B%0Amax%2Dwidth%3A%20100%25%3B%0A%7D%0Ah1%20%7B%0Amargin%2Dtop%3A%200%3B%0Afont%2Dsize%3A%2035px%3B%0Aline%2Dheight%3A%2040px%3B%0A%7D%0Ah2%20%7B%0Aborder%2Dbottom%3A%204px%20solid%20%23f5f5f5%3B%0Apadding%2Dtop%3A%2010px%3B%0Apadding%2Dbottom%3A%202px%3B%0Afont%2Dsize%3A%20145%25%3B%0A%7D%0Ah3%20%7B%0Aborder%2Dbottom%3A%202px%20solid%20%23f5f5f5%3B%0Apadding%2Dtop%3A%2010px%3B%0Afont%2Dsize%3A%20120%25%3B%0A%7D%0Ah4%20%7B%0Aborder%2Dbottom%3A%201px%20solid%20%23f5f5f5%3B%0Amargin%2Dleft%3A%208px%3B%0Afont%2Dsize%3A%20105%25%3B%0A%7D%0Ah5%2C%20h6%20%7B%0Aborder%2Dbottom%3A%201px%20solid%20%23ccc%3B%0Afont%2Dsize%3A%20105%25%3B%0A%7D%0Aa%20%7B%0Acolor%3A%20%230033dd%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%236666ff%3B%20%7D%0Aa%3Avisited%20%7B%0Acolor%3A%20%23800080%3B%20%7D%0Aa%3Avisited%3Ahover%20%7B%0Acolor%3A%20%23BB00BB%3B%20%7D%0Aa%5Bhref%5E%3D%22http%3A%22%5D%20%7B%0Atext%2Ddecoration%3A%20underline%3B%20%7D%0Aa%5Bhref%5E%3D%22https%3A%22%5D%20%7B%0Atext%2Ddecoration%3A%20underline%3B%20%7D%0Adiv%2Er%2Dhelp%2Dpage%20%7B%0Abackground%2Dcolor%3A%20%23f9f9f9%3B%0Aborder%2Dbottom%3A%20%23ddd%201px%20solid%3B%0Amargin%2Dbottom%3A%2010px%3B%0Apadding%3A%2010px%3B%0A%7D%0Adiv%2Er%2Dhelp%2Dpage%3Ahover%20%7B%0Abackground%2Dcolor%3A%20%23f4f4f4%3B%0A%7D%0A%0Acode%20%3E%20span%2Ekw%20%7B%20color%3A%20%23555%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Edt%20%7B%20color%3A%20%23902000%3B%20%7D%20%0Acode%20%3E%20span%2Edv%20%7B%20color%3A%20%2340a070%3B%20%7D%20%0Acode%20%3E%20span%2Ebn%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Efl%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Ech%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Est%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Eco%20%7B%20color%3A%20%23888888%3B%20font%2Dstyle%3A%20italic%3B%20%7D%20%0Acode%20%3E%20span%2Eot%20%7B%20color%3A%20%23007020%3B%20%7D%20%0Acode%20%3E%20span%2Eal%20%7B%20color%3A%20%23ff0000%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Efu%20%7B%20color%3A%20%23900%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Eer%20%7B%20color%3A%20%23a61717%3B%20background%2Dcolor%3A%20%23e3d2d2%3B%20%7D%20%0A" type="text/css" />
+
+
+
 
 </head>
 
@@ -69,14 +140,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 
 <h1 class="title toc-ignore">An Introduction to the printr Package</h1>
-<h4 class="author"><em>Yihui Xie</em></h4>
-<h4 class="date"><em>2017-05-18</em></h4>
+<h4 class="author">Yihui Xie</h4>
+<h4 class="date">2021-01-26</h4>
 
 
 <div id="TOC">
 <ul>
 <li><a href="#overview"><span class="toc-section-number">1</span> Overview</a></li>
-<li><a href="#examples"><span class="toc-section-number">2</span> Examples</a><ul>
+<li><a href="#examples"><span class="toc-section-number">2</span> Examples</a>
+<ul>
 <li><a href="#matricesdata-framestables"><span class="toc-section-number">2.1</span> Matrices/data frames/tables</a></li>
 <li><a href="#search-results-from-help.search"><span class="toc-section-number">2.2</span> Search results from <code>help.search()</code></a></li>
 <li><a href="#help-pages"><span class="toc-section-number">2.3</span> Help pages</a></li>
@@ -86,26 +158,25 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul>
 </div>
 
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">options</span>(<span class="dt">width =</span> <span class="dv">80</span>)</code></pre></div>
-<p>The <strong>printr</strong> (read “printer” or “print R”) package is a companion package to <a href="https://yihui.name/knitr/"><strong>knitr</strong></a>. Its main purpose is to extend the S3 generic function <code>knit_print()</code> in <strong>knitr</strong>, which is the default value of the chunk option <code>render</code>, as explained in the vignette <a href="https://cran.rstudio.org/web/packages/knitr/vignettes/knit_print.html">knit_print.html</a>.</p>
-<div id="overview" class="section level1">
-<h1><span class="header-section-number">1</span> Overview</h1>
-<p>To enable the printing methods defined in this package, just <code>library(printr)</code> or <code>loadNamespace('printr')</code> in a code chunk (in the beginning) of your <strong>knitr</strong> document. Then some objects will be printed differently with what you would have seen in a normal R console. For example:</p>
+<p>The <strong>printr</strong> (read “printer” or “print R”) package is a companion package to <a href="https://yihui.org/knitr/"><strong>knitr</strong></a>. Its main purpose is to extend the S3 generic function <code>knit_print()</code> in <strong>knitr</strong>, which is the default value of the chunk option <code>render</code>, as explained in the vignette <a href="https://cran.r-project.org/package=knitr/vignettes/knit_print.html">knit_print.html</a>.</p>
+<div id="overview" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> Overview</h1>
+<p>To enable the printing methods defined in this package, just <code>library(printr)</code> or <code>loadNamespace(&#39;printr&#39;)</code> in a code chunk (in the beginning) of your <strong>knitr</strong> document. Then some objects will be printed differently with what you would have seen in a normal R console. For example:</p>
 <ul>
 <li>matrices, data frames, and contingency tables are printed as tables (LaTeX, HTML, or Markdown, depending on your output format)</li>
 <li>the help page (from <code>?foo</code> or <code>help(foo)</code>) can be rendered as HTML, LaTeX, or plain text, and you can also specify which section(s) of the help page to include in the output</li>
 <li>the results from <code>browseVignettes()</code>, <code>help.search()</code>, <code>data()</code>, and <code>vignette()</code> are rendered as tables</li>
-<li>the package information from <code>library(help = 'foo')</code> is rendered as plain text</li>
+<li>the package information from <code>library(help = &#39;foo&#39;)</code> is rendered as plain text</li>
 </ul>
-<p>To disable the printing methods in this package, you can call <code>detach('package:printr', unload = TRUE)</code> if you <em>attached</em> the package via <code>library(printr)</code> before, or <code>unloadNamespace('printr')</code> if you <em>loaded</em> it via <code>loadNamespace('printr')</code>.</p>
+<p>To disable the printing methods in this package, you can call <code>detach(&#39;package:printr&#39;, unload = TRUE)</code> if you <em>attached</em> the package via <code>library(printr)</code> before, or <code>unloadNamespace(&#39;printr&#39;)</code> if you <em>loaded</em> it via <code>loadNamespace(&#39;printr&#39;)</code>.</p>
 <p>This package aims to be portable in the sense that it should work in most document formats, including <code>*.Rnw</code> (R + LaTeX), <code>*.Rmd</code> (R Markdown), and <code>*.Rhtml</code> (R + HTML) files, etc.</p>
 <p>You can find the package source as well as installation instructions on <a href="https://github.com/yihui/printr">Github</a>, and you are welcome to contribute code via pull requests, or file feature requests and bug reports via <a href="https://github.com/yihui/printr/issues">Github issues</a>.</p>
 </div>
-<div id="examples" class="section level1">
-<h1><span class="header-section-number">2</span> Examples</h1>
+<div id="examples" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Examples</h1>
 <p>First we take a look at a quick example of printing some R objects in the R console:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">&gt;<span class="st"> </span><span class="co"># R uses plain text representation for data frames/matrices/...</span>
-<span class="er">&gt;</span><span class="st"> </span><span class="kw">head</span>(mtcars)</code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="co"># R uses plain text representation for data frames/matrices/...</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="fu">head</span>(mtcars)</span></code></pre></div>
 <pre><code>                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
 Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
 Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
@@ -113,7 +184,7 @@ Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
 Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
 Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
 Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">&gt;<span class="st"> </span><span class="kw">head</span>(iris)</code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">head</span>(iris)</span></code></pre></div>
 <pre><code>  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
 1          5.1         3.5          1.4         0.2  setosa
 2          4.9         3.0          1.4         0.2  setosa
@@ -122,14 +193,17 @@ Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre
 5          5.0         3.6          1.4         0.2  setosa
 6          5.4         3.9          1.7         0.4  setosa</code></pre>
 <p>Then we attach the <strong>printr</strong> package in this R session, and see how things change later:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(printr)</code></pre></div>
-<div id="matricesdata-framestables" class="section level2">
-<h2><span class="header-section-number">2.1</span> Matrices/data frames/tables</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(printr)</span></code></pre></div>
+<pre><code>## Registered S3 method overwritten by &#39;printr&#39;:
+##   method                from     
+##   knit_print.data.frame rmarkdown</code></pre>
+<div id="matricesdata-framestables" class="section level2" number="2.1">
+<h2 number="2.1"><span class="header-section-number">2.1</span> Matrices/data frames/tables</h2>
 <p>Matrices and data frames are printed as tables using the <code>kable()</code> function in <strong>knitr</strong>:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">options</span>(<span class="dt">digits =</span> <span class="dv">4</span>)
-<span class="kw">set.seed</span>(<span class="dv">123</span>)
-x =<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">rnorm</span>(<span class="dv">40</span>), <span class="dv">5</span>)
-x</code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">digits =</span> <span class="dv">4</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>x <span class="ot">=</span> <span class="fu">matrix</span>(<span class="fu">rnorm</span>(<span class="dv">40</span>), <span class="dv">5</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>x</span></code></pre></div>
 <table>
 <tbody>
 <tr class="odd">
@@ -184,9 +258,9 @@ x</code></pre></div>
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># with colunm names</span>
-<span class="kw">dimnames</span>(x) =<span class="st"> </span><span class="kw">list</span>(<span class="ot">NULL</span>, <span class="kw">head</span>(LETTERS, <span class="kw">ncol</span>(x)))
-x</code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># with colunm names</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">dimnames</span>(x) <span class="ot">=</span> <span class="fu">list</span>(<span class="cn">NULL</span>, <span class="fu">head</span>(LETTERS, <span class="fu">ncol</span>(x)))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>x</span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
@@ -253,8 +327,8 @@ x</code></pre></div>
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># further customization via kable(), e.g. digits and captions</span>
-knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span class="dv">2</span>, <span class="dt">caption =</span> <span class="st">&quot;A table produced by printr.&quot;</span>)</code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># further customization via kable(), e.g. digits and captions</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(x, <span class="at">digits =</span> <span class="dv">2</span>, <span class="at">caption =</span> <span class="st">&#39;A table produced by printr.&#39;</span>)</span></code></pre></div>
 <table>
 <caption>A table produced by printr.</caption>
 <thead>
@@ -322,11 +396,11 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(mtcars)</code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(mtcars)</span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
-<th></th>
+<th align="left"></th>
 <th align="right">mpg</th>
 <th align="right">cyl</th>
 <th align="right">disp</th>
@@ -342,7 +416,7 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 </thead>
 <tbody>
 <tr class="odd">
-<td>Mazda RX4</td>
+<td align="left">Mazda RX4</td>
 <td align="right">21.0</td>
 <td align="right">6</td>
 <td align="right">160</td>
@@ -356,7 +430,7 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td>Mazda RX4 Wag</td>
+<td align="left">Mazda RX4 Wag</td>
 <td align="right">21.0</td>
 <td align="right">6</td>
 <td align="right">160</td>
@@ -370,7 +444,7 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td>Datsun 710</td>
+<td align="left">Datsun 710</td>
 <td align="right">22.8</td>
 <td align="right">4</td>
 <td align="right">108</td>
@@ -384,7 +458,7 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 <td align="right">1</td>
 </tr>
 <tr class="even">
-<td>Hornet 4 Drive</td>
+<td align="left">Hornet 4 Drive</td>
 <td align="right">21.4</td>
 <td align="right">6</td>
 <td align="right">258</td>
@@ -398,7 +472,7 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 <td align="right">1</td>
 </tr>
 <tr class="odd">
-<td>Hornet Sportabout</td>
+<td align="left">Hornet Sportabout</td>
 <td align="right">18.7</td>
 <td align="right">8</td>
 <td align="right">360</td>
@@ -412,7 +486,7 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 <td align="right">2</td>
 </tr>
 <tr class="even">
-<td>Valiant</td>
+<td align="left">Valiant</td>
 <td align="right">18.1</td>
 <td align="right">6</td>
 <td align="right">225</td>
@@ -427,7 +501,7 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(iris, <span class="dv">10</span>)</code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(iris, <span class="dv">10</span>)</span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
@@ -512,10 +586,10 @@ knitr::<span class="kw">kable</span>(x, <span class="dt">digits =</span> <span c
 </tbody>
 </table>
 <p>For contingency tables, 1-d tables are printed as a 1-row matrix, 2-d tables are printed an <span class="math inline">\(n \times m\)</span> matrix, and tables of higher dimensions are printed as data frames with frequencies.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x1 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class="dv">1</span>:<span class="dv">3</span>], <span class="dv">1000</span>, <span class="ot">TRUE</span>)
-x2 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class="dv">1</span>:<span class="dv">3</span>], <span class="dv">1000</span>, <span class="ot">TRUE</span>)
-x3 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class="dv">1</span>:<span class="dv">3</span>], <span class="dv">1000</span>, <span class="ot">TRUE</span>)
-<span class="kw">table</span>(x1)</code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>x1 <span class="ot">=</span> <span class="fu">sample</span>(letters[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="dv">1000</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>x2 <span class="ot">=</span> <span class="fu">sample</span>(letters[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="dv">1000</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>x3 <span class="ot">=</span> <span class="fu">sample</span>(letters[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="dv">1000</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(x1)</span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
@@ -526,13 +600,13 @@ x3 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class=
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right">332</td>
-<td align="right">342</td>
-<td align="right">326</td>
+<td align="right">320</td>
+<td align="right">331</td>
+<td align="right">349</td>
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">table</span>(x1, x2)</code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(x1, x2)</span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
@@ -545,25 +619,25 @@ x3 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class=
 <tbody>
 <tr class="odd">
 <td align="left">a</td>
-<td align="right">98</td>
-<td align="right">117</td>
-<td align="right">117</td>
+<td align="right">103</td>
+<td align="right">109</td>
+<td align="right">108</td>
 </tr>
 <tr class="even">
 <td align="left">b</td>
-<td align="right">123</td>
-<td align="right">114</td>
-<td align="right">105</td>
+<td align="right">108</td>
+<td align="right">115</td>
+<td align="right">108</td>
 </tr>
 <tr class="odd">
 <td align="left">c</td>
-<td align="right">111</td>
-<td align="right">113</td>
-<td align="right">102</td>
+<td align="right">123</td>
+<td align="right">103</td>
+<td align="right">123</td>
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">table</span>(x1, x2, x3)</code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(x1, x2, x3)</span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
@@ -578,53 +652,53 @@ x3 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class=
 <td align="left">a</td>
 <td align="left">a</td>
 <td align="left">a</td>
-<td align="right">33</td>
+<td align="right">41</td>
 </tr>
 <tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="left">b</td>
-<td align="right">35</td>
+<td align="right">26</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
 <td align="left"></td>
 <td align="left">c</td>
-<td align="right">30</td>
+<td align="right">36</td>
 </tr>
 <tr class="even">
 <td align="left"></td>
 <td align="left">b</td>
 <td align="left">a</td>
-<td align="right">45</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">b</td>
-<td align="right">37</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">c</td>
-<td align="right">35</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left">c</td>
-<td align="left">a</td>
-<td align="right">42</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">b</td>
 <td align="right">34</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
 <td align="left"></td>
+<td align="left">b</td>
+<td align="right">31</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">c</td>
+<td align="right">44</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">c</td>
+<td align="left">a</td>
+<td align="right">34</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">b</td>
+<td align="right">33</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
 <td align="left">c</td>
 <td align="right">41</td>
 </tr>
@@ -632,31 +706,103 @@ x3 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class=
 <td align="left">b</td>
 <td align="left">a</td>
 <td align="left">a</td>
-<td align="right">44</td>
+<td align="right">37</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
 <td align="left"></td>
 <td align="left">b</td>
+<td align="right">36</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">c</td>
+<td align="right">35</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">b</td>
+<td align="left">a</td>
 <td align="right">40</td>
 </tr>
 <tr class="even">
 <td align="left"></td>
 <td align="left"></td>
-<td align="left">c</td>
-<td align="right">39</td>
+<td align="left">b</td>
+<td align="right">31</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td align="left">b</td>
+<td align="left"></td>
+<td align="left">c</td>
+<td align="right">44</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">c</td>
 <td align="left">a</td>
-<td align="right">41</td>
+<td align="right">36</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">b</td>
+<td align="right">38</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">c</td>
+<td align="right">34</td>
+</tr>
+<tr class="odd">
+<td align="left">c</td>
+<td align="left">a</td>
+<td align="left">a</td>
+<td align="right">31</td>
 </tr>
 <tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="left">b</td>
-<td align="right">42</td>
+<td align="right">46</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">c</td>
+<td align="right">46</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">b</td>
+<td align="left">a</td>
+<td align="right">25</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">b</td>
+<td align="right">35</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">c</td>
+<td align="right">43</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">c</td>
+<td align="left">a</td>
+<td align="right">46</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">b</td>
+<td align="right">46</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
@@ -664,86 +810,19 @@ x3 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class=
 <td align="left">c</td>
 <td align="right">31</td>
 </tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left">c</td>
-<td align="left">a</td>
-<td align="right">26</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">b</td>
-<td align="right">35</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">c</td>
-<td align="right">44</td>
-</tr>
-<tr class="odd">
-<td align="left">c</td>
-<td align="left">a</td>
-<td align="left">a</td>
-<td align="right">40</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">b</td>
-<td align="right">23</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">c</td>
-<td align="right">48</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left">b</td>
-<td align="left">a</td>
-<td align="right">29</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">b</td>
-<td align="right">43</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">c</td>
-<td align="right">41</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left">c</td>
-<td align="left">a</td>
-<td align="right">37</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">b</td>
-<td align="right">26</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">c</td>
-<td align="right">39</td>
-</tr>
 </tbody>
 </table>
 </div>
-<div id="search-results-from-help.search" class="section level2">
-<h2><span class="header-section-number">2.2</span> Search results from <code>help.search()</code></h2>
+<div id="search-results-from-help.search" class="section level2" number="2.2">
+<h2 number="2.2"><span class="header-section-number">2.2</span> Search results from <code>help.search()</code></h2>
 <p>Here are some examples demonstrating the results of <code>help.search()</code>, or you can also use <code>??</code> to search for a string.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">??sunflower</code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>??sunflower</span></code></pre></div>
 <table>
+<colgroup>
+<col width="12%" />
+<col width="16%" />
+<col width="71%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Package</th>
@@ -764,45 +843,80 @@ x3 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class=
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">help.search</span>(<span class="st">'contourplot'</span>)</code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">help.search</span>(<span class="st">&#39;contourplot&#39;</span>)</span></code></pre></div>
 <table>
+<colgroup>
+<col width="9%" />
+<col width="16%" />
+<col width="5%" />
+<col width="70%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Package</th>
 <th align="left">Topic</th>
+<th align="left">Type</th>
 <th align="left">Title</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left">MSG</td>
+<td align="left">ChinaPop</td>
+<td align="left">demo</td>
+<td align="left">symbols characterizing the Chinese population based on a contour plot</td>
+</tr>
+<tr class="even">
+<td align="left">MSG</td>
+<td align="left">contourPop</td>
+<td align="left">demo</td>
+<td align="left">a contour plot of the data ChinaLifeEdu</td>
+</tr>
+<tr class="odd">
+<td align="left">MSG</td>
+<td align="left">volcano</td>
+<td align="left">demo</td>
+<td align="left">a filled contour plot of the volcano data</td>
+</tr>
+<tr class="even">
 <td align="left">raster</td>
 <td align="left">contour</td>
+<td align="left">help</td>
 <td align="left">Contour plot</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">raster</td>
 <td align="left">filledContour</td>
+<td align="left">help</td>
 <td align="left">Filled contour plot</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">graphics</td>
 <td align="left">filled.contour</td>
+<td align="left">help</td>
 <td align="left">Level (Contour) Plots</td>
+</tr>
+<tr class="odd">
+<td align="left">lattice</td>
+<td align="left">levelplot</td>
+<td align="left">help</td>
+<td align="left">Level plots and contour plots</td>
 </tr>
 <tr class="even">
 <td align="left">lattice</td>
-<td align="left">levelplot</td>
-<td align="left">Level plots and contour plots</td>
-</tr>
-<tr class="odd">
-<td align="left">lattice</td>
 <td align="left">panel.levelplot</td>
+<td align="left">help</td>
 <td align="left">Panel Functions for levelplot and contourplot</td>
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">help.search</span>(<span class="st">'foo'</span>, <span class="dt">package =</span> <span class="st">'base'</span>)</code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">help.search</span>(<span class="st">&#39;foo&#39;</span>, <span class="at">package =</span> <span class="st">&#39;base&#39;</span>)</span></code></pre></div>
 <table>
+<colgroup>
+<col width="8%" />
+<col width="10%" />
+<col width="81%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Package</th>
@@ -818,14 +932,14 @@ x3 =<span class="st"> </span><span class="kw">sample</span>(letters[<span class=
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">help.search</span>(<span class="st">'foooooooo'</span>, <span class="dt">package =</span> <span class="st">'utils'</span>)</code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">help.search</span>(<span class="st">&#39;foooooooo&#39;</span>, <span class="at">package =</span> <span class="st">&#39;utils&#39;</span>)</span></code></pre></div>
 <pre><code>## No results found</code></pre>
 <p>In a normal R session, the results will be displayed as an HTML page by default, but normally these functions are meant to be called in an interactive R session, and <strong>knitr</strong> documents are often compiled in non-interactive R sessions, so we changed the printing behavior of these results, and readers will get the basic idea of these functions when reading the <strong>knitr</strong> output. If they want to run these functions by themselves, they can do it in an interactive R session.</p>
 </div>
-<div id="help-pages" class="section level2">
-<h2><span class="header-section-number">2.3</span> Help pages</h2>
+<div id="help-pages" class="section level2" number="2.3">
+<h2 number="2.3"><span class="header-section-number">2.3</span> Help pages</h2>
 <p>When you want to read the help page of a certain R object, you normally use <code>?</code> or <code>help()</code>, which will launch a separate help page from the R session, and require human interaction. Again, we may not desire human interactions in <strong>knitr</strong> documents, so the help pages are printed as static documents here.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">?coef</code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>?coef</span></code></pre></div>
 <div class="r-help-page">
 <table width="100%" summary="page for coef">
 <tr>
@@ -852,6 +966,10 @@ Usage
 <pre class="r">
 coef(object, ...)
 coefficients(object, ...)
+## Default S3 method:
+coef(object, complete = TRUE, ...)
+## S3 method for class &#39;aov&#39;
+coef(object, complete = FALSE, ...)
 </pre>
 <h3>
 Arguments
@@ -864,6 +982,16 @@ Arguments
 <td>
 <p>
 an object for which the extraction of model coefficients is meaningful.
+</p>
+</td>
+</tr>
+<tr valign="top">
+<td>
+<code>complete</code>
+</td>
+<td>
+<p>
+for the default (used for <code>lm</code>, etc) and <code>aov</code> methods: logical indicating if the full coefficient vector should be returned also in case of an over-determined system where some coefficients will be set to <code>NA</code>, see also <code>alias</code>. Note that the default <em>differs</em> for <code>lm()</code> and <code>aov()</code> results.
 </p>
 </td>
 </tr>
@@ -885,7 +1013,10 @@ Details
 All object classes which are returned by model fitting functions should provide a <code>coef</code> method or use the default one. (Note that the method is for <code>coef</code> and not <code>coefficients</code>.)
 </p>
 <p>
-Class <code>“aov”</code> has a <code>coef</code> method that does not report aliased coefficients (see <code>alias</code>).
+The <code>“aov”</code> method does not report aliased coefficients (see <code>alias</code>) by default where <code>complete = FALSE</code>.
+</p>
+<p>
+The <code>complete</code> argument also exists for compatibility with <code>vcov</code> methods, and <code>coef</code> and <code>aov</code> methods for other classes should typically also keep the <code>complete = *</code> behavior in sync. By that, with <code>p &lt;- length(coef(obj, complete = TF))</code>, <code>dim(vcov(obj, complete = TF)) == c(p,p)</code> will be fulfilled for both <code>complete</code> settings and the default.
 </p>
 <h3>
 Value
@@ -916,7 +1047,7 @@ x &lt;- 1:5; coef(lm(c(1:3, 7, 6) ~ x))
 </pre>
 </div>
 <p>When help pages are really long, we can use the chunk option <code>printr.help.sections</code> to select a few sections to display, e.g. we only show the sections <code>description</code> and <code>usage</code> of the <code>paste()</code> function:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">?paste</code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>?paste</span></code></pre></div>
 <div class="r-help-page">
 <table width="100%" summary="page for paste">
 <tr>
@@ -941,15 +1072,15 @@ Concatenate vectors after converting to character.
 Usage
 </h3>
 <pre class="r">
-paste (..., sep = &quot; &quot;, collapse = NULL)
-paste0(..., collapse = NULL)
+paste (..., sep = &quot; &quot;, collapse = NULL, recycle0 = FALSE)
+paste0(...,            collapse = NULL, recycle0 = FALSE)
 </pre>
 </div>
 </div>
-<div id="vignettedataset-lists" class="section level2">
-<h2><span class="header-section-number">2.4</span> Vignette/dataset lists</h2>
+<div id="vignettedataset-lists" class="section level2" number="2.4">
+<h2 number="2.4"><span class="header-section-number">2.4</span> Vignette/dataset lists</h2>
 <p>We can print the lists of vignettes and datasets in packages using <code>vignette()</code> and <code>data()</code>, respectively.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">vignette</span>(<span class="dt">package =</span> <span class="st">&quot;rpart&quot;</span>)</code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">vignette</span>(<span class="at">package =</span> <span class="st">&#39;rpart&#39;</span>)</span></code></pre></div>
 <table>
 <caption>Vignettes in rpart</caption>
 <thead>
@@ -969,7 +1100,7 @@ paste0(..., collapse = NULL)
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">vignette</span>(<span class="dt">package =</span> <span class="kw">c</span>(<span class="st">&quot;rpart&quot;</span>, <span class="st">&quot;knitr&quot;</span>))</code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">vignette</span>(<span class="at">package =</span> <span class="fu">c</span>(<span class="st">&#39;rpart&#39;</span>, <span class="st">&#39;knitr&#39;</span>))</span></code></pre></div>
 <table>
 <caption>Vignettes in rpart</caption>
 <thead>
@@ -989,7 +1120,7 @@ paste0(..., collapse = NULL)
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="dt">package =</span> <span class="st">&quot;lattice&quot;</span>)</code></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="at">package =</span> <span class="st">&#39;lattice&#39;</span>)</span></code></pre></div>
 <table>
 <caption>Data sets in lattice</caption>
 <thead>
@@ -1029,9 +1160,14 @@ paste0(..., collapse = NULL)
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="dt">package =</span> <span class="kw">c</span>(<span class="st">&quot;rpart&quot;</span>, <span class="st">&quot;lattice&quot;</span>))</code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="at">package =</span> <span class="fu">c</span>(<span class="st">&#39;rpart&#39;</span>, <span class="st">&#39;lattice&#39;</span>))</span></code></pre></div>
 <table>
 <caption>Data sets</caption>
+<colgroup>
+<col width="9%" />
+<col width="27%" />
+<col width="63%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Package</th>
@@ -1067,85 +1203,90 @@ paste0(..., collapse = NULL)
 </tr>
 <tr class="even">
 <td align="left">rpart</td>
+<td align="left">solder.balance (solder)</td>
+<td align="left">Soldering of Components on Printed-Circuit Boards</td>
+</tr>
+<tr class="odd">
+<td align="left">rpart</td>
 <td align="left">stagec</td>
 <td align="left">Stage C Prostate Cancer</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">lattice</td>
 <td align="left">USMortality</td>
 <td align="left">Mortality Rates in US by Cause and Gender</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">lattice</td>
 <td align="left">USRegionalMortality</td>
 <td align="left">Mortality Rates in US by Cause and Gender</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">lattice</td>
 <td align="left">barley</td>
 <td align="left">Yield data from a Minnesota barley trial</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">lattice</td>
 <td align="left">environmental</td>
 <td align="left">Atmospheric environmental conditions in New York City</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">lattice</td>
 <td align="left">ethanol</td>
 <td align="left">Engine exhaust fumes from burning ethanol</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">lattice</td>
 <td align="left">melanoma</td>
 <td align="left">Melanoma skin cancer incidence</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">lattice</td>
 <td align="left">singer</td>
 <td align="left">Heights of New York Choral Society singers</td>
 </tr>
 </tbody>
 </table>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="dt">package =</span> <span class="st">&quot;knitr&quot;</span>)  <span class="co"># no datasets here</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="at">package =</span> <span class="st">&#39;knitr&#39;</span>)  <span class="co"># no datasets here</span></span></code></pre></div>
 <pre><code>## Data sets not found</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">browseVignettes</span>(<span class="dt">package =</span> <span class="st">&quot;knitr&quot;</span>)</code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">browseVignettes</span>(<span class="at">package =</span> <span class="st">&#39;knitr&#39;</span>)</span></code></pre></div>
 <pre><code>## No vignettes found</code></pre>
 </div>
-<div id="package-info" class="section level2">
-<h2><span class="header-section-number">2.5</span> Package info</h2>
-<p>A description of a package can be printed via <code>library(help = 'foo')</code>:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(<span class="dt">help =</span> <span class="st">&quot;printr&quot;</span>)</code></pre></div>
-<pre><code>        Information on package 'printr'
+<div id="package-info" class="section level2" number="2.5">
+<h2 number="2.5"><span class="header-section-number">2.5</span> Package info</h2>
+<p>A description of a package can be printed via <code>library(help = &#39;foo&#39;)</code>:</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="at">help =</span> <span class="st">&#39;printr&#39;</span>)</span></code></pre></div>
+<pre><code>        Information on package &#39;printr&#39;
 
 Description:
 
 Package:           printr
 Type:              Package
 Title:             Automatically Print R Objects to Appropriate Formats According to the
-                   'knitr' Output Format
-Version:           0.1
-Date:              2017-05-19
+                   &#39;knitr&#39; Output Format
+Version:           0.1.1
 Author:            Yihui Xie
 Maintainer:        Yihui Xie &lt;xie@yihui.name&gt;
-Description:       Extends the S3 generic function knit_print() in 'knitr' to
+Description:       Extends the S3 generic function knit_print() in &#39;knitr&#39; to
                    automatically print some objects using an appropriate format such as
                    Markdown or LaTeX. For example, data frames are automatically printed
-                   as tables, and the help() pages can also be rendered in 'knitr'
+                   as tables, and the help() pages can also be rendered in &#39;knitr&#39;
                    documents.
 Imports:           knitr (&gt;= 1.16)
 Suggests:          tools, rmarkdown
 License:           GPL
-URL:               https://yihui.name/printr/
+URL:               https://yihui.org/printr/
 BugReports:        https://github.com/yihui/printr/issues
 VignetteBuilder:   knitr
 LazyData:          TRUE
-RoxygenNote:       6.0.1
-Built:             R 3.4.0; ; 2017-05-18 21:08:40 UTC; unix
+RoxygenNote:       7.1.1
+Encoding:          UTF-8
+Built:             R 4.0.3; ; 2021-01-26 23:18:57 UTC; unix
 
 Index:
 
-printr                  Print R objects in 'knitr' documents nicely</code></pre>
+printr                  Print R objects in &#39;knitr&#39; documents nicely</code></pre>
 </div>
 </div>
 
@@ -1169,6 +1310,9 @@ window.onload = function() {
   }
 }
 </script>
+
+
+<!-- code folding -->
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

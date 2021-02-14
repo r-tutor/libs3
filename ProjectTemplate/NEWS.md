@@ -1,3 +1,21 @@
+0.10.1 (2021-02-08)
+
+Features
+--------
+* Support for multiple loggin directores
+* Support for multiple munge directories
+* Support for list of munge files
+
+0.10.0 (2021-01-08)
+
+Features
+--------
+* Support qs cache format in addition to rdata (#304)
+
+Documentation
+-------------
+* Added documentation for `underscore_variables` in `project.config.R` (#306)
+
 0.9.3 (2020-12-03)
 
 Internal
@@ -59,7 +77,7 @@ Internal
 
 * Added tibble support (#218)
 * Moved from `xls` package to `readxl` package (#159, #219)
-* Allow overridng of globals (#222)
+* Allow overriding of globals (#222)
 * Fixed failing test for `RSQLlite` package (#228)
 
 
