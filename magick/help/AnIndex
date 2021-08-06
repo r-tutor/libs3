@@ -93,6 +93,7 @@ image_implode	effects
 image_info	attributes
 image_join	editing
 image_lat	thresholding
+image_level	thresholding
 image_map	color
 image_median	color
 image_modulate	color
@@ -100,12 +101,14 @@ image_montage	animation
 image_morph	animation
 image_morphology	morphology
 image_mosaic	animation
+image_motion_blur	effects
 image_negate	effects
 image_noise	effects
 image_normalize	color
 image_ocr	ocr
 image_ocr_data	ocr
 image_oilpaint	effects
+image_ordered_dither	color
 image_orient	transform
 image_page	transform
 image_quantize	color
@@ -122,6 +125,7 @@ image_sample	transform
 image_scale	transform
 image_separate	color
 image_set_defines	defines
+image_shade	composite
 image_shadow	composite
 image_shadow_mask	composite
 image_shear	transform

@@ -1,3 +1,25 @@
+# textshaping 0.3.5
+
+* Address an UBCSAN issue in packages linking to textshaping
+* Remove a few compiler warnings
+
+# textshaping 0.3.4
+
+* Prepare textshaping for UCRT support
+* Address upstream changes in cpp11
+
+# textshaping 0.3.3
+
+* Support static linking on macOS (#17, @jeroen)
+
+# textshaping 0.3.2
+
+* Avoid overindexing fallbacks when no fallback is found
+
+# textshaping 0.3.1
+
+* Try to avoid ASAN issue reported by CRAN
+
 # textshaping 0.3.0
 
 * Add support for performing font fallback as part of the single-line shaping

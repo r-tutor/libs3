@@ -1,5 +1,7 @@
 library(inline)
 
+isM1 <- grepl("aarch64-apple", R.version$platform)
+
 code <- "
       int i;
       for (i = 0; i < *n; i++)
@@ -22,15 +24,13 @@ expect_error(quadfn(5, 1:5), "NULL value passed as symbol address")
 gc()
 expect_false(file.exists(environment(quadfn)$libLFile))
 
+if (isM1) exit_file("Skip remainer")
+
 # So we recreate the function and move the DLL to a user defined location
 quadfn <- cfunction(signature(n = "integer", x = "numeric"), code,
   language = "C", convention = ".C")
 moveDLL(quadfn, name = "testname", directory = tempdir())
 expect_identical(quadfn(5, 1:5), res_known)
-
-expect_error(
-  moveDLL(quadfn, name = "testname", directory = tempdir()),
-  "DLL .* in use")
 
 expect_error(
   moveDLL(quadfn, name = "testname", directory = tempdir(), unload = TRUE),
@@ -68,6 +68,8 @@ moveDLL(quadfn, name = "testname", directory = tempdir(), unload = TRUE,
   overwrite = TRUE)
 writeCFunc(quadfn, quadfn_path)
 quadfn_reloaded <- readCFunc(quadfn_path)
+expect_identical(quadfn_reloaded(5, 1:5), res_known)
+
 
 # Create a function with a user defined function name in the source code,
 # save and restore

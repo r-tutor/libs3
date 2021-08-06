@@ -1,7 +1,7 @@
 Type: Package
 Package: lubridate
 Title: Make Dealing with Dates a Little Easier
-Version: 1.7.9.2
+Version: 1.7.10
 Authors@R: 
     c(person(given = "Vitalie",
              family = "Spinu",
@@ -77,7 +77,7 @@ Collate: 'Dates.r' 'POSIXt.r' 'RcppExports.R' 'util.r' 'parse.r'
         'package.r' 'pretty.r' 'round.r' 'stamp.r' 'update.r' 'vctrs.R'
         'zzz.R'
 NeedsCompilation: yes
-Packaged: 2020-11-11 19:57:49 UTC; vspinu
+Packaged: 2021-02-26 13:24:01 UTC; vspinu
 Author: Vitalie Spinu [aut, cre],
   Garrett Grolemund [aut],
   Hadley Wickham [aut],
@@ -90,6 +90,6 @@ Author: Vitalie Spinu [aut, cre],
   Chel Hee Lee [ctb],
   Google Inc. [ctb, cph]
 Repository: CRAN
-Date/Publication: 2020-11-13 15:30:02 UTC
-Built: R 4.0.3; x86_64-w64-mingw32; 2020-11-14 03:19:21 UTC; windows
+Date/Publication: 2021-02-26 15:00:09 UTC
+Built: R 4.1.0; x86_64-w64-mingw32; 2021-05-25 04:02:27 UTC; windows
 Archs: i386, x64

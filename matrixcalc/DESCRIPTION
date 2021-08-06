@@ -1,9 +1,9 @@
 Package: matrixcalc
-Version: 1.0-3
-Date: 2012-09-12
-Title: Collection of functions for matrix calculations
+Version: 1.0-5
+Date: 2021-07-27
+Title: Collection of Functions for Matrix Calculations
 Author: Frederick Novomestky <fnovomes@poly.edu>
-Maintainer: Frederick Novomestky <fnovomes@poly.edu>
+Maintainer: S. Thomas Kelly <tomkellygenetics@gmail.com>
 Depends: R (>= 2.0.1)
 Description: A collection of functions to support matrix calculations
         for probability, econometric and numerical analysis. There are
@@ -12,8 +12,12 @@ Description: A collection of functions to support matrix calculations
         This package is used for teaching and research purposes at the
         Department of Finance and Risk Engineering, New York
         University, Polytechnic Institute, Brooklyn, NY 11201.
+        Horn, R.A. (1990) Matrix Analysis. ISBN 978-0521386326.
+        Lancaster, P. (1969) Theory of Matrices. ISBN 978-0124355507.
+        Lay, D.C. (1995) Linear Algebra: And Its Applications. ISBN 978-0201845563.
 License: GPL (>= 2)
-Packaged: 2012-09-14 22:54:49 UTC; fred
+Packaged: 2021-07-28 00:59:01 UTC; tom
 Repository: CRAN
-Date/Publication: 2012-09-15 14:22:14
-Built: R 4.0.0; ; 2020-04-26 13:32:31 UTC; windows
+Date/Publication: 2021-07-28 08:00:02 UTC
+NeedsCompilation: no
+Built: R 4.1.0; ; 2021-08-05 00:04:09 UTC; windows

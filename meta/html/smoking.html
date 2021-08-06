@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Smoking example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for smoking {meta}"><tr><td>smoking {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Smoking example</h2>
+
+<h3>Description</h3>
+
+<p>Meta-analyses on the effect of smoking on mortality risk.
+</p>
+
+
+<h3>Format</h3>
+
+<p>A data frame with the following columns:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+<b><em>study</em></b></td><td style="text-align: left;"> study label </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>participants</em></b></td><td style="text-align: left;"> total number of participants </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>d.smokers</em></b></td><td style="text-align: left;"> number of deaths in smokers' group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>py.smokers</em></b></td><td style="text-align: left;"> person years at risk in smokers' group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>d.nonsmokers</em></b></td><td style="text-align: left;"> number of deaths in non-smokers'
+  group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>py.nonsmokers</em></b></td><td style="text-align: left;"> person years at risk in
+  non-smokers' group
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>Details</h3>
+
+<p>Data have been reconstructed based on the famous Smoking and Health
+Report to the Surgeon General (Bayne-Jones S et al., 1964). Data
+sets can be used to evaluate the risk of smoking on overall
+mortality (dataset <code>smoking</code>) and lung-cancer deaths (dataset
+<code>lungcancer</code>), respectively.
+</p>
+<p>The person time is attributed such that the rate ratios are equal
+to the reported mortality ratios implicitly assuming that the data
+have arisen from a homogeneous age group; more detailed information
+by age is not available from the report. Note, the group of
+&quot;non-smokers&quot; actually consists of all participants except those
+who are smokers of cigarettes only. Information on real non-smokers
+is not available from the published Smoking and Health Report.
+</p>
+
+
+<h3>Source</h3>
+
+<p>Bayne-Jones S et al. (1964):
+Smoking and Health: Report of the Advisory Committee to the Surgeon
+General of the United States.
+U-23 Department of Health, Education, and Welfare.
+Public Health Service Publication No. 1103.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../meta/help/metainc.html">metainc</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(smoking)
+
+m1 &lt;- metainc(d.smokers, py.smokers,
+              d.nonsmokers, py.nonsmokers,
+              data = smoking, studlab = study)
+print(m1, digits = 2)
+
+data(lungcancer)
+
+m2 &lt;- metainc(d.smokers, py.smokers,
+              d.nonsmokers, py.nonsmokers,
+              data = lungcancer, studlab = study)
+print(m2, digits = 2)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

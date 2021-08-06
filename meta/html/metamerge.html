@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Merge pooled results of two meta-analyses</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for metamerge {meta}"><tr><td>metamerge {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Merge pooled results of two meta-analyses</h2>
+
+<h3>Description</h3>
+
+<p>This function can be used to merge pooled results of two
+meta-analyses into a single meta-analysis object. This is, for
+example, useful to produce a forest plot of a random-effects
+meta-analysis with and without using the Hartung-Knapp method.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+metamerge(
+  meta1,
+  meta2,
+  pooled1,
+  pooled2,
+  text.pooled1,
+  text.pooled2,
+  text.w.pooled1,
+  text.w.pooled2,
+  detail.tau1,
+  detail.tau2,
+  backtransf
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>meta1</code></td>
+<td>
+<p>First meta-analysis object (of class <code>"meta"</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>meta2</code></td>
+<td>
+<p>Second meta-analysis object (see Details).</p>
+</td></tr>
+<tr valign="top"><td><code>pooled1</code></td>
+<td>
+<p>A character string indicating whether results of
+fixed effect or random effects model should be considered for
+first meta-analysis. Either <code>"fixed"</code> or <code>"random"</code>,
+can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>pooled2</code></td>
+<td>
+<p>A character string indicating whether results of
+fixed effect or random effects model should be considered for
+second meta-analysis. Either <code>"fixed"</code> or <code>"random"</code>,
+can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>text.pooled1</code></td>
+<td>
+<p>A character string used in printouts and forest
+plot to label the estimate from the first meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>text.pooled2</code></td>
+<td>
+<p>A character string used in printouts and forest
+plot to label the estimate from the second meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>text.w.pooled1</code></td>
+<td>
+<p>A character string used to label weights of
+the first meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>text.w.pooled2</code></td>
+<td>
+<p>A character string used to label weights of
+the second meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>detail.tau1</code></td>
+<td>
+<p>A character string used to label estimate of
+between-study variance of the first meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>detail.tau2</code></td>
+<td>
+<p>A character string used to label estimate of
+between-study variance of the second meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>backtransf</code></td>
+<td>
+<p>A logical indicating whether results should be
+back transformed in printouts and plots. If
+<code>backtransf=TRUE</code> (default), results for <code>sm="OR"</code> are
+printed as odds ratios rather than log odds ratios, for example.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>In R package <b>meta</b>, objects of class <code>"meta"</code> contain
+results of both a fixed effect and random effects
+meta-analysis. This function enables the user to keep the results
+of one of these models and to add results from a second
+meta-analysis or a sensitivity analysis.
+</p>
+<p>Applications of this function include printing and plotting results
+of the fixed effect or random effects meta-analysis and the
+</p>
+
+<ul>
+<li><p> Hartung-Knapp method (see argument <code>hakn</code> in
+<code><a href="../../meta/help/metagen.html">metagen</a></code>),
+</p>
+</li>
+<li><p> trim-and-fill method (<code><a href="../../meta/help/trimfill.html">trimfill</a></code>),
+</p>
+</li>
+<li><p> limit meta-analyis (<code><a href="../../metasens/help/limitmeta.html">limitmeta</a></code> from R
+package <b>metasens</b>),
+</p>
+</li>
+<li><p> Copas selection model (<code><a href="../../metasens/help/copas.html">copas</a></code> from R
+package <b>metasens</b>),
+</p>
+</li>
+<li><p> robust variance meta-analysis model
+(<code><a href="../../robumeta/help/robu.html">robu</a></code> from R package <b>robumeta</b>).
+</p>
+</li></ul>
+
+<p>The first argument must be an object created by a meta-analysis
+function, e.g., <code><a href="../../meta/help/metagen.html">metagen</a></code> or <code><a href="../../meta/help/metabin.html">metabin</a></code>. The
+second meta-analysis could also be an object created with
+<code><a href="../../meta/help/trimfill.html">trimfill</a></code>, <code><a href="../../metasens/help/limitmeta.html">limitmeta</a></code>,
+<code><a href="../../metasens/help/copas.html">copas</a></code>, or <code><a href="../../robumeta/help/robu.html">robu</a></code>.
+</p>
+<p>The created meta-analysis object only contains the study results
+from the first meta-analysis which are shown in printouts and
+forest plots. This only makes a difference for meta-analysis
+methods where individual study results differ, e.g.,
+Mantel-Haenszel and Peto method for binary outcomes (see
+<code><a href="../../meta/help/metabin.html">metabin</a></code>).
+</p>
+<p>R function <code><a href="../../meta/help/metabind.html">metabind</a></code> can be used to print and plot the
+results of more than two meta-analyses, however, without showing
+individual study results.
+</p>
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>"meta"</code> and <code>"metamerge"</code> with
+corresponding <code>print</code>, <code>summary</code>, and <code>forest</code>
+functions. The following list elements have a different meaning:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>TE, seTE, studlab</code></td>
+<td>
+<p>Treatment estimate, standard error, and
+study labels (first meta-analyis).</p>
+</td></tr>
+<tr valign="top"><td><code>lower, upper</code></td>
+<td>
+<p>Lower and upper confidence interval limits for
+individual studies (first meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>statistic, pval</code></td>
+<td>
+<p>Statistic and p-value for test of treatment
+effect for individual studies (first meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>w.fixed</code></td>
+<td>
+<p>Weight of individual studies (first meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>w.random</code></td>
+<td>
+<p>Weight of individual studies (second
+meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>TE.fixed, seTE.fixed</code></td>
+<td>
+<p>Estimated overall treatment effect and
+standard error (first meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.fixed, upper.fixed</code></td>
+<td>
+<p>Lower and upper confidence interval
+limits (first meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>statistic.fixed, pval.fixed</code></td>
+<td>
+<p>Statistic and p-value for test of
+overall treatment effect (first meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>TE.random, seTE.random</code></td>
+<td>
+<p>Estimated overall treatment effect and
+standard error (second meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.random, upper.random</code></td>
+<td>
+<p>Lower and upper confidence interval
+limits (second meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>statistic.random, pval.random</code></td>
+<td>
+<p>Statistic and p-value for test of
+overall treatment effect (second meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.predict, upper.predict</code></td>
+<td>
+<p>Lower and upper limits of
+prediction interval (related to first meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>k</code></td>
+<td>
+<p>Number of studies combined in first meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>Q</code></td>
+<td>
+<p>Heterogeneity statistic (first meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>df.Q</code></td>
+<td>
+<p>Degrees of freedom for heterogeneity statistic (first
+meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>pval.Q</code></td>
+<td>
+<p>P-value of heterogeneity test (first meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>tau2</code></td>
+<td>
+<p>Between-study variance(s) <i>&tau;^2</i> (first and
+second meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.tau2, upper.tau2</code></td>
+<td>
+<p>Lower and upper limit of confidence
+interval(s) for <i>&tau;^2</i> (first and second meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>tau</code></td>
+<td>
+<p>Square-root of between-study variance(s) <i>&tau;</i>
+(first and second meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.tau, upper.tau</code></td>
+<td>
+<p>Lower and upper limit of confidence
+interval(s) for <i>&tau;</i> (first and second meta-analysis).</p>
+</td></tr>
+<tr valign="top"><td><code>text.fixed</code></td>
+<td>
+<p>Label for the first meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>text.random</code></td>
+<td>
+<p>Label for the second meta-analysis.</p>
+</td></tr>
+</table>
+<p>See <code><a href="../../meta/help/metagen.html">metagen</a></code> for information on other list
+elements.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../meta/help/metagen.html">metagen</a></code>, <code><a href="../../meta/help/metabind.html">metabind</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Fleiss1993cont)
+#
+m1 &lt;- metacont(n.psyc, mean.psyc, sd.psyc, n.cont, mean.cont, sd.cont,
+               data = Fleiss1993cont, sm = "MD",
+               comb.fixed = FALSE,
+               text.random = "Classic random effects",
+               text.w.random = "RE")
+#
+# Use Hartung-Knapp method
+#
+m2 &lt;- update(m1, hakn = TRUE,
+             text.random = "Hartung-Knapp method",
+             text.w.random = "HK")
+#
+# Merge results of the two meta-analyses
+#
+m12 &lt;- metamerge(m1, m2)
+m12
+forest(m12, rightcols = c("effect", "ci", "w.fixed"))
+
+# Show results for DerSimonian-Laird and REML estimate of
+# between-study variance
+#
+m3 &lt;- update(m1,
+             text.random = "Random effects moded (DL)",
+             text.w.random = "DL")
+m4 &lt;- update(m1, method.tau = "REML",
+             text.random = "Random effects moded (REML)",
+             text.w.random = "REML")
+#
+m34 &lt;- metamerge(m3, m4)
+m34
+
+data(Fleiss1993bin)
+#
+# Mantel-Haenszel method
+#
+m5 &lt;- metabin(d.asp, n.asp, d.plac, n.plac, data = Fleiss1993bin,
+              studlab = paste(study, year),
+              sm = "OR", comb.random = FALSE,
+              text.fixed = "MH method", text.w.fixed = "MH")
+#
+# Peto method
+#
+m6 &lt;- update(m5, method = "Peto", text.fixed = "Peto method",
+             text.w.fixed = "Peto")
+#
+# Merge results (show individual results for MH method)
+#
+m56 &lt;- metamerge(m5, m6)
+m56
+forest(m56, digits = 4)
+#
+# Merge results (show individual results for Peto method)
+#
+m65 &lt;- metamerge(m6, m5)
+m65
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Meta-analysis on Prevention of First Bleeding in Cirrhosis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Pagliaro1992 {meta}"><tr><td>Pagliaro1992 {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Meta-analysis on Prevention of First Bleeding in Cirrhosis</h2>
+
+<h3>Description</h3>
+
+<p>Meta-analysis on Prevention of First Bleeding in Cirrhosis
+comparing beta-blocker or sclerotherapy with placebo.
+</p>
+
+
+<h3>Format</h3>
+
+<p>A data frame with the following columns:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+<b><em>id</em></b></td><td style="text-align: left;"> study id </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>treat.exp</em></b></td><td style="text-align: left;"> treatment in experimental group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>logOR</em></b></td><td style="text-align: left;"> log odds ratio
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>selogOR</em></b></td><td style="text-align: left;"> standard error of log odds ratio
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>bleed.exp</em></b></td><td style="text-align: left;"> number of bleedings in experimental group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.cont</em></b></td><td style="text-align: left;"> number of observations in experimental group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>bleed.plac</em></b></td><td style="text-align: left;"> number of bleedings in placebo group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.plac</em></b></td><td style="text-align: left;"> number of observations in placebo group
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>Source</h3>
+
+<p>Pagliaro L, D’Amico G et al. (1992):
+Prevention of first bleeding in cirrhosis.
+<em>Annals in Internal Medicine</em>,
+<b>117</b>, 59&ndash;70
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Pagliaro1992)
+sclero &lt;- subset(Pagliaro1992, treat.exp == "Sclerotherapy")
+
+m &lt;- metagen(logOR, selogOR, data = sclero, sm = "OR")
+summary(m)
+
+# Thompson &amp; Sharp (1999), Table IV, method (2)
+metabias(m, method = "Egger")
+
+# Thompson &amp; Sharp (1999), Table IV, method (3a)
+metabias(m, method = "Thompson")
+
+# Thompson &amp; Sharp (1999), Table IV, method (3b)
+update(m, method.tau = "ML")
+metabias(update(m, method.tau = "ML"), method = "Thompson")
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

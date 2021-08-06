@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Amlodipine for Work Capacity</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for amlodipine {meta}"><tr><td>amlodipine {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Amlodipine for Work Capacity</h2>
+
+<h3>Description</h3>
+
+<p>Meta-analysis on the effect of amlodipine on work capacity.
+</p>
+<p>This meta-analysis is used as a data example in Hartung and Knapp (2001).
+</p>
+
+
+<h3>Format</h3>
+
+<p>A data frame with the following columns:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+<b><em>study</em></b></td><td style="text-align: left;"> study label </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.amlo</em></b></td><td style="text-align: left;"> number of observations in amlodipine group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>mean.amlo</em></b></td><td style="text-align: left;"> estimated mean in amlodipine group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>var.amlo</em></b></td><td style="text-align: left;"> variance in amlodipine group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.plac</em></b></td><td style="text-align: left;"> number of observations in placebo group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>mean.plac</em></b></td><td style="text-align: left;"> estimated mean in placebo group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>var.plac</em></b></td><td style="text-align: left;"> variance in placebo group
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>Source</h3>
+
+<p>Hartung J &amp; Knapp G (2001):
+On tests of the overall treatment effect in meta-analysis with
+normally distributed responses.
+<em>Statistics in Medicine</em>,
+<b>20</b>, 1771&ndash;82
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../meta/help/metacont.html">metacont</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(amlodipine)
+
+m &lt;- metacont(n.amlo, mean.amlo, sqrt(var.amlo),
+              n.plac, mean.plac, sqrt(var.plac),
+              data = amlodipine, studlab = study)
+s1 &lt;- summary(m)
+s2 &lt;- summary(update(m, hakn = TRUE))
+
+vars &lt;- c("TE", "lower", "upper")
+
+# Same results for mean difference as in Table III in Hartung and
+# Knapp (2001)
+#
+res.md &lt;- rbind(data.frame(s1$fixed)[vars],
+                data.frame(s1$random)[vars],
+                data.frame(s2$random)[vars])
+#
+res.md &lt;- round(res.md, 5)
+#
+row.names(res.md) &lt;- c("FE", "RE", "RE (HaKn)")
+names(res.md) &lt;- c("Absolute difference", "CI lower", "CI upper")
+#
+res.md
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

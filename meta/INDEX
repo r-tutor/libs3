@@ -4,6 +4,8 @@ JAMAlabels              Create study labels in JAMA layout (for forest
                         plot)
 Olkin1995               Thrombolytic Therapy after Acute Myocardial
                         Infarction
+Pagliaro1992            Meta-analysis on Prevention of First Bleeding
+                        in Cirrhosis
 amlodipine              Amlodipine for Work Capacity
 as.data.frame.meta      Additional functions for objects of class meta
 baujat.meta             Baujat plot to explore heterogeneity in

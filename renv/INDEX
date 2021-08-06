@@ -29,6 +29,9 @@ rehash                  Re-Hash Packages in the renv Cache
 remote                  Resolve a Remote
 remove                  Remove Packages
 renv-package            Project-local Environments for R
+renv_lockfile_from_manifest
+                        Generate 'renv.lock' from an RStudio Connect
+                        'manifest.json'
 restore                 Restore a Project
 revert                  Revert Lockfile
 run                     Run a Script
@@ -38,4 +41,5 @@ snapshot                Snapshot a Project
 status                  Status
 update                  Update Packages
 upgrade                 Upgrade renv
+use                     Use a set of Packages
 use_python              Use Python

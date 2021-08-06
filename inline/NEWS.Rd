@@ -3,6 +3,22 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/inline/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/inline/issues/#1}{##1}}
 
+\section{Changes in inline version 0.3.19 (2021-05-25)}{
+  \itemize{
+    \item Documentation for \code{moveDLL} was updated and extended
+    (Johannes in \ghpr{22}).
+    \item A few more tests were made conditional the test platform (Dirk
+    in \ghpr{24}).
+  }
+}
+
+\section{Changes in inline version 0.3.18 (2021-05-17)}{
+  \itemize{
+    \item The \code{moveDLL} code and tests were updated for changed in
+    R-devel (Johannes in \ghpr{22} fixing \ghit{21}).
+  }
+}
+
 \section{Changes in inline version 0.3.17 (2020-11-30)}{
   \itemize{
     \item Unit testing is now supported via \pkg{tinytest} (Johannes in

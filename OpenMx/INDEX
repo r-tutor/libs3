@@ -22,11 +22,10 @@ MxCI                    MxCI Class
 MxCharOrList-class      A character, list or NULL
 MxCharOrLogical-class   A character or logical
 MxCharOrNumber-class    A character or integer
+MxCompare-class         The MxCompare Class
 MxCompute-class         MxCompute
 MxConstraint-class      Class '"MxConstraint"'
 MxData-class            MxData Class
-MxDataFrameOrMatrix-class
-                        MxDataFrameOrMatrix
 MxDataStatic-class      Create static data
 MxDirectedGraph-class   MxDirectedGraph
 MxExpectation-class     MxExpectation
@@ -46,6 +45,8 @@ MxOptionalCharOrNumber-class
                         A character, integer, or NULL
 MxOptionalDataFrame-class
                         An optional data.frame
+MxOptionalDataFrameOrMatrix-class
+                        An optional data.frame or matrix
 MxOptionalInteger-class
                         An optional integer
 MxOptionalLogical-class
@@ -316,7 +317,7 @@ mxPearsonSelCov         Perform Pearson Aitken selection
 mxPowerSearch           Power curve
 mxRAMObjective          DEPRECATED: Create MxRAMObjective Object
 mxRObjective            DEPRECATED: Create MxRObjective Object
-mxRename                Rename MxModel or a Submodel
+mxRename                Rename a model or submodel
 mxRestore               Restore model state from a checkpoint file
 mxRetro                 Return random classic Mx error message
 mxRowObjective          DEPRECATED: Create MxRowObjective Object

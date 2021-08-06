@@ -1,3 +1,189 @@
+## meta, version 4.19-0 (2021-mm-dd)
+
+### Major changes
+
+* Subgroup analysis for three-level model fully implemented
+
+* New default for forest plots to show results of test for subgroup
+  differences in meta-analyses with subgroups
+
+* Calculation of weights for three-level random effects model using
+  weights.rma.mv() with argument type = "rowsum" from R package
+  **metafor**
+
+* Print study label provided by argument 'studlab' for meta-analysis
+  with a single study
+
+* Total number of observations and events printed in summaries (if
+  available)
+
+### Bug fixes
+
+* metagen():
+  - treatment estimates for three-level models with subgroups were not
+    based on common between-study variance despite argument tau.common
+    = TRUE
+
+* metareg():
+  - use rma.mv() from R package **metafor** for three-level models
+    instead of rma.uni()
+
+### User-visible changes
+
+* metabin(), metacont(), metacor(), metacr(), metagen(), metagen(),
+  metainc(), metamean(), metaprop(), metarate():
+  - new argument 'test.subgroup' to print results of test for subgroup
+    differences
+
+* print.meta():
+  - for three-level models, column with grouping information added to
+    study details
+
+* metagen():
+  - default for estimation of between-study variance has changed for
+    three-level models with subgroups, i.e., tau2 is allowed to be
+    different in subgroups by default
+
+### Internal changes
+
+* metagen():
+  - new variable '.idx' with running index in meta-analysis data set
+    (list element 'data')
+  - new logical list element 'three.level' indicating whether
+    three-level model was used
+
+
+## meta, version 4.18-2 (2021-06-11)
+
+### Bug fixes
+
+* For argument 'adhoc.hakn = "ci"', directly compare width of
+  confidence intervals of Hartung-Knapp method and classic random
+  effects meta-analysis
+
+
+## meta, version 4.18-1 (2021-05-11)
+
+### Major changes
+
+* Calculate correct upper limit for confidence intervals of I2 and H2
+  in very homogeneous meta-analyses (i.e., if Q < k - 1)
+
+### Bug fixes
+
+* forest.meta():
+  - correct order of p-values for homogeneity tests within subgroups
+    if argument 'bysort = TRUE'
+
+* calcH():
+  - set H = 1 in calculation of confidence interval for H if H < 1
+    (i.e., if Q < k - 1)
+
+* metabias():
+  - bug fix for linear regression tests using **metafor**, version
+    2.5-86
+
+* metabind():
+  - bug fix for a single meta-analysis object
+
+### Internal changes
+
+* metabias.bias():
+  - argument '...' passed on to rma.uni()
+
+* metagen():
+  - set list element 'df.hakn' to NA instead of NULL if condition met
+    for argument 'adhoc.hakn = "ci"'
+
+
+## meta, version 4.18-0 (2021-03-05)
+
+### Major changes
+
+* Prediction intervals for subgroups implemented
+
+### Bug fixes
+
+* metacont():
+  - use correct variance formula for Glass' delta
+
+* metainc():
+  - update command resulted in an error *Arguments 'event.e' and 'n.e'
+    must have the same length* for meta-analysis with subgroups (due
+    to list elements 'n.e.w' and 'n.c.w' which were interpreted as
+    'n.e' and 'n.c' containing missing values instead of being NULL)
+
+* print.meta():
+  - use of argument 'details = TRUE' resulted in an error in
+    meta-analyses with duplicated study labels
+
+* Consider argument 'adhoc.hakn' to calculate confidence intervals in
+  random effects subgroup meta-analyses
+
+### User-visible changes
+
+* print.meta():
+  - column with information on subgroups added to details if argument
+    'details = TRUE'
+
+* forest.meta():
+  - new argument text.predict.w' to label the prediction interval in
+    subgroups
+  - arguments 'text.fixed.w' and 'text.random.w' checked for correct
+    length
+
+* *Ad hoc* variance correction for Hartung-Knapp method not available
+  for GLMMs
+
+### Internal changes
+
+* metacont():
+  - get rid of warnings 'Unknown or uninitialised column' if argument
+    'subset' is used
+
+* subgroup():
+  - calculate prediction intervals for subgroups
+
+
+## meta, version 4.17-0 (2021-02-11)
+
+### Major changes
+
+* Tests of funnel plot asymmetry:
+  - tests by [Macaskill et
+    al. (2001)](https://doi.org/10.1002/sim.698) and [Pustejovsky &
+    Rodgers (2019)](https://doi.org/10.1002/jrsm.1332) added
+  - use regtest() from R package **metafor** internally for linear
+    regression tests
+  - new print layout providing more details
+
+* New dataset Pagliaro1992 for meta-analysis on prevention of first
+  bleeding in cirrhosis [(Pagliaro et
+  al., 1992)](https://doi.org/10.7326/0003-4819-117-1-59)
+
+### Bug fixes
+
+* update.meta():
+  - do not switch to three-level model if method.tau = "ML"
+
+### User-visible changes
+
+* metabias():
+  - use name of first author to select test for funnel plot asymmetry
+    instead of "rank", "linreg", "mm", "count", and "score" (can be
+    abbreviated; old names are still recognised)
+
+* print.metabias():
+  - new arguments 'digits.stat', 'digits.se', 'digits.pval',
+    'scientific.pval', 'big.mark', 'zero.pval', 'JAMA.pval'
+
+### Internal changes
+
+* linregcore():
+  - complete rewrite using rma.uni() and regtest() from R package
+    **metafor**
+
+
 ## meta, version 4.16-2 (2021-01-27)
 
 ### Bug fixes
@@ -25,7 +211,7 @@
 
 * funnel.meta():
   - try to derive sample sizes from list elements 'n.e' or 'n.c' if
-    argument 'size = "size"'
+    argument 'yaxis = "size"'
 
 
 ## meta, version 4.16-1 (2021-01-19)
@@ -246,7 +432,8 @@
 
 * read.rm5():
   - direct import of RM5-file possible
-  - new argument 'debug' for debug messages while importing RM5-files directly
+  - new argument 'debug' for debug messages while importing RM5-files
+    directly
 
 * metacr():
   - overall results not shown if this was specified in the Cochrane
@@ -887,7 +1074,7 @@
 * New function metabind() to combine meta-analysis objects, e.g. to
   generate a forest plot with results of several subgroup analyses
 
-* Subgroup analyses implemented for generalised linear mixed models
+* Subgroup analysis implemented for generalised linear mixed models
   (GLMMs) with and without assumption of common between-study variance
   (arguments 'byvar' and 'tau.common')
 

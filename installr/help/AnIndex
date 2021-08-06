@@ -19,6 +19,7 @@ file.name.from.url	file.name.from.url
 format_RStudio_CRAN_data	format_RStudio_CRAN_data
 freegeoip	freegeoip
 get.installed.R.folders	get.installed.R.folders
+get_latest_r_version	get_latest_r_version
 get_pid	get_pid
 get_Rscript_PID	get_Rscript_PID
 get_tasklist	get_tasklist

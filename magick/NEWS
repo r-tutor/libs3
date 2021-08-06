@@ -1,3 +1,16 @@
+2.7.2
+  - Reintroduce a separate image_coalesce() function (cf image_animate)
+  - Automatically coalesce gif images when reading by default
+  - Fix compatibility with super old ImageMagick for CentOS < 7.7
+  - Fix build for ucrt64 on Windows
+
+2.7.1
+  - Win/Mac: update to imagemagick 6.9.12-3 + thresholds.xml bugfix.
+
+2.7.0
+  - New functions image_shade, image_motion_blur, image_ordered_dither,
+    image_level to support ggfx.
+
 2.6.0
   - image_write() gains a compression parameter
   - Updated binaries for Windows/MacOS to ImageMagick-6.9.11-57

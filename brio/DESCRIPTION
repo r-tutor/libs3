@@ -1,6 +1,6 @@
 Package: brio
 Title: Basic R Input Output
-Version: 1.1.1
+Version: 1.1.2
 Authors@R: 
     c(person(given = "Jim",
              family = "Hester",
@@ -14,17 +14,16 @@ Description: Functions to handle basic input output, these functions always
   more explicit control over line endings.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.1.1
 Suggests: testthat (>= 2.1.0), covr
 URL: https://github.com/r-lib/brio
 BugReports: https://github.com/r-lib/brio/issues
 NeedsCompilation: yes
-Packaged: 2021-01-20 18:12:29 UTC; jhester
+Packaged: 2021-04-23 12:51:40 UTC; jhester
 Author: Jim Hester [aut, cre] (<https://orcid.org/0000-0002-2739-7082>),
   RStudio [cph, fnd]
 Maintainer: Jim Hester <jim.hester@rstudio.com>
 Repository: CRAN
-Date/Publication: 2021-01-20 18:40:02 UTC
-Built: R 4.0.3; x86_64-w64-mingw32; 2021-02-08 02:00:27 UTC; windows
+Date/Publication: 2021-04-23 13:30:03 UTC
+Built: R 4.1.0; x86_64-w64-mingw32; 2021-05-25 04:01:23 UTC; windows
 Archs: i386, x64

@@ -37,6 +37,7 @@ lavTestLRT              LRT test
 lavTestScore            Score test
 lavTestWald             Wald test
 lav_constraints_parse   Utility Functions: Constraints
+lav_data_update         lavaan data functions
 lav_func_gradient_complex
                         Utility Functions: Gradient and Jacobian
 lav_matrix_vec          Utility Functions: Matrices and Vectors
@@ -44,10 +45,11 @@ lav_model_get_parameters
                         lavaan model functions
 lav_partable_independence
                         lavaan partable functions
+lav_samplestats_from_data
+                        lavaan samplestats functions
 lavaan                  Fit a Latent Variable Model
 lavaan-class            Class For Representing A (Fitted) Latent
                         Variable Model
-lavaan-deprecated       Deprecated Functions in the lavaan package
 lavaanList              Fit List of Latent Variable Models
 lavaanList-class        Class For Representing A List of (Fitted)
                         Latent Variable Models
@@ -60,6 +62,8 @@ parTable                Parameter Table
 parameterEstimates      Parameter Estimates
 print.InformativeTesting
                         Methods for output InformativeTesting()
+sam                     Fit Structural Equation Models using the SAM
+                        approach
 sem                     Fit Structural Equation Models
 simulateData            Simulate Data From a Lavaan Model Syntax
 standardizedSolution    Standardized Solution

@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Forest plot to display the result of a meta-analysis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for forest.metabind {meta}"><tr><td>forest.metabind {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Forest plot to display the result of a meta-analysis</h2>
+
+<h3>Description</h3>
+
+<p>Draws a forest plot in the active graphics window (using grid
+graphics system).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'metabind'
+forest(
+  x,
+  leftcols,
+  leftlabs,
+  rightcols = c("effect", "ci"),
+  rightlabs,
+  overall = FALSE,
+  subgroup = FALSE,
+  hetstat = if (any(x$is.subgroup)) FALSE else "study",
+  overall.hetstat = FALSE,
+  lab.NA = "",
+  digits = gs("digits.forest"),
+  digits.se = gs("digits.se"),
+  digits.stat = gs("digits.stat"),
+  digits.pval = max(gs("digits.pval") - 2, 2),
+  digits.pval.Q = max(gs("digits.pval.Q") - 2, 2),
+  digits.Q = gs("digits.Q"),
+  digits.tau2 = gs("digits.tau2"),
+  digits.tau = gs("digits.tau"),
+  digits.I2 = max(gs("digits.I2") - 1, 0),
+  scientific.pval = gs("scientific.pval"),
+  big.mark = gs("big.mark"),
+  smlab,
+  calcwidth.pooled = overall,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>An object of class <code><a href="../../meta/help/metabind.html">metabind</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>leftcols</code></td>
+<td>
+<p>A character vector specifying (additional) columns
+to be plotted on the left side of the forest plot or a logical
+value (see Details).</p>
+</td></tr>
+<tr valign="top"><td><code>leftlabs</code></td>
+<td>
+<p>A character vector specifying labels for
+(additional) columns on left side of the forest plot (see
+Details).</p>
+</td></tr>
+<tr valign="top"><td><code>rightcols</code></td>
+<td>
+<p>A character vector specifying (additional) columns
+to be plotted on the right side of the forest plot or a logical
+value (see Details).</p>
+</td></tr>
+<tr valign="top"><td><code>rightlabs</code></td>
+<td>
+<p>A character vector specifying labels for
+(additional) columns on right side of the forest plot (see
+Details).</p>
+</td></tr>
+<tr valign="top"><td><code>overall</code></td>
+<td>
+<p>A logical indicating whether overall summaries
+should be plotted. This argument is useful in a meta-analysis
+with subgroups if summaries should only be plotted on group
+level.</p>
+</td></tr>
+<tr valign="top"><td><code>subgroup</code></td>
+<td>
+<p>A logical indicating whether subgroup results
+should be shown in forest plot. This argument is useful in a
+meta-analysis with subgroups if summaries should not be plotted
+on group level.</p>
+</td></tr>
+<tr valign="top"><td><code>hetstat</code></td>
+<td>
+<p>Either a logical value indicating whether to print
+results for heterogeneity measures at all or a character string
+(see Details).</p>
+</td></tr>
+<tr valign="top"><td><code>overall.hetstat</code></td>
+<td>
+<p>A logical value indicating whether to print
+heterogeneity measures for overall treatment comparisons. This
+argument is useful in a meta-analysis with subgroups if
+heterogeneity statistics should only be printed on subgroup
+level.</p>
+</td></tr>
+<tr valign="top"><td><code>lab.NA</code></td>
+<td>
+<p>A character string to label missing values.</p>
+</td></tr>
+<tr valign="top"><td><code>digits</code></td>
+<td>
+<p>Minimal number of significant digits for treatment
+effects, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits.se</code></td>
+<td>
+<p>Minimal number of significant digits for standard
+errors, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits.stat</code></td>
+<td>
+<p>Minimal number of significant digits for z- or
+t-statistic for test of overall effect, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits.pval</code></td>
+<td>
+<p>Minimal number of significant digits for p-value
+of overall treatment effect, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits.pval.Q</code></td>
+<td>
+<p>Minimal number of significant digits for
+p-value of heterogeneity test, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits.Q</code></td>
+<td>
+<p>Minimal number of significant digits for
+heterogeneity statistic Q, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits.tau2</code></td>
+<td>
+<p>Minimal number of significant digits for
+between-study variance, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits.tau</code></td>
+<td>
+<p>Minimal number of significant digits for square
+root of between-study variance, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>digits.I2</code></td>
+<td>
+<p>Minimal number of significant digits for I-squared
+statistic, see <code>print.default</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>scientific.pval</code></td>
+<td>
+<p>A logical specifying whether p-values should
+be printed in scientific notation, e.g., 1.2345e-01 instead of
+0.12345.</p>
+</td></tr>
+<tr valign="top"><td><code>big.mark</code></td>
+<td>
+<p>A character used as thousands separator.</p>
+</td></tr>
+<tr valign="top"><td><code>smlab</code></td>
+<td>
+<p>A label for the summary measurex (printed at top of
+figure).</p>
+</td></tr>
+<tr valign="top"><td><code>calcwidth.pooled</code></td>
+<td>
+<p>A logical indicating whether text for fixed
+effect and random effects model should be considered to calculate
+width of the column with study labels.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Additional graphical arguments (passed on to
+<code><a href="../../meta/help/forest.meta.html">forest.meta</a></code>).</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>A forest plot, also called confidence interval plot, is drawn in
+the active graphics window. The forest functions in R package
+<b>meta</b> are based on the grid graphics system. In order to
+print the forest plot, resize the graphics window and either use
+<code><a href="../../grDevices/html/dev2.html">dev.copy2eps</a></code> or <code><a href="../../grDevices/html/dev2.html">dev.copy2pdf</a></code>. Another
+possibility is to create a file using <code><a href="../../grDevices/html/pdf.html">pdf</a></code>,
+<code><a href="../../grDevices/html/png.html">png</a></code>, or <code><a href="../../grDevices/html/cairo.html">svg</a></code> and to specify the width
+and height of the graphic (see <code><a href="../../meta/help/forest.meta.html">forest.meta</a></code> examples).
+</p>
+<p>The arguments <code>leftcols</code> and <code>rightcols</code> can be used to
+specify columns which are plotted on the left and right side of the
+forest plot, respectively.
+</p>
+<p>The arguments <code>leftlabs</code> and <code>rightlabs</code> can be used to
+specify column headings which are plotted on left and right side of
+the forest plot, respectively. For certain columns predefined
+labels exist. For other columns, the column name will be used as a
+label. It is possible to only provide labels for new columns (see
+<code><a href="../../meta/help/forest.meta.html">forest.meta</a></code> examples). Otherwise the length of
+<code>leftlabs</code> and <code>rightlabs</code> must be the same as the number
+of printed columns, respectively. The value <code>NA</code> can be used
+to specify columns which should use default labels.
+</p>
+<p>Argument <code>hetstat</code> can be a character string to specify where
+to print heterogeneity information:
+</p>
+
+<ul>
+<li><p> row with results for fixed effect model (<code>hetstat =
+"fixed"</code>),
+</p>
+</li>
+<li><p> row with results for random effects model (<code>hetstat =
+"random"</code>),
+</p>
+</li>
+<li><p> rows with 'study' information (<code>hetstat = "study"</code>).
+</p>
+</li></ul>
+
+<p>Otherwise, information on heterogeneity is printed in dedicated rows.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../meta/help/forest.meta.html">forest.meta</a></code>, <code><a href="../../meta/help/metabin.html">metabin</a></code>,
+<code><a href="../../meta/help/metacont.html">metacont</a></code>, <code><a href="../../meta/help/metagen.html">metagen</a></code>,
+<code><a href="../../meta/help/metabind.html">metabind</a></code>, <code><a href="../../meta/help/settings.meta.html">settings.meta</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Fleiss1993cont)
+
+# Add some (fictitious) grouping variables:
+#
+Fleiss1993cont$age &lt;- c(55, 65, 55, 65, 55)
+Fleiss1993cont$region &lt;- c("Europe", "Europe", "Asia", "Asia", "Europe")
+
+m1 &lt;- metacont(n.psyc, mean.psyc, sd.psyc, n.cont, mean.cont, sd.cont,
+               data = Fleiss1993cont, sm = "MD")
+
+# Conduct two subgroup analyses
+#
+mu1 &lt;- update(m1, byvar = age, bylab = "Age group")
+mu2 &lt;- update(m1, byvar = region, bylab = "Region")
+
+# Combine subgroup meta-analyses and show forest plot with subgroup
+# results
+#
+mb1 &lt;- metabind(mu1, mu2)
+mb1
+forest(mb1)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

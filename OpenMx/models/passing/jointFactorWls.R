@@ -1,5 +1,5 @@
 #
-#   Copyright 2007-2019 by the individuals mentioned in the source code history
+#   Copyright 2007-2020 by the individuals mentioned in the source code history
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -156,6 +156,9 @@ jointWlsResults <- mxRun(jointWlsModel)
 jointDlsResults <- mxRun(jointDlsModel)
 jointUlsResults <- mxRun(jointUlsModel)
 
+expect_equal(median(log(diag(jointWlsResults$data$observedStats$acov))),
+             median(log(diag(jointDlsResults$data$observedStats$acov))), .2)
+
 ramWlsResults <- mxRun(ramWlsModel)
 
 jointResults1 <- mxRun(jointModel1, suppressWarnings = TRUE)
@@ -173,6 +176,9 @@ expect_equal(summary(jointDlsResults)$ChiDoF, 5)
 
 noOptResult <- mxRun(jointDlsResults, useOptimizer = FALSE)
 expect_true(is.null(summary(noOptResult)$Chi))
+
+expect_equal(length(mxGetExpected(jointWlsResults, 'standvector')),
+             summary(jointWlsResults)$observedStatistics)
 
 #------------------------------------------------------------------------------
 # Compare ML and WLS estimates

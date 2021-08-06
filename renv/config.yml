@@ -1,4 +1,13 @@
 
+- name: "activate.prompt"
+  type: "logical[1]"
+  default: true
+  description: >
+    Automatically prompt the user to activate the current project, if it does
+    not appear to already be activated? This is mainly useful to help ensure
+    that calls to `renv::snapshot()` and `renv::restore()` use the project
+    library. See `?renv::activate` for more details.
+
 - name: "auto.snapshot"
   type: "logical[1]"
   default: false
@@ -62,6 +71,20 @@
     to force errors to be fatal, and `"ignored"` to ignore errors altogether. See
     [`dependencies()`] for more details.
 
+- name: "exported.functions"
+  type: "character[*]"
+  default: "*"
+  description: >
+    When `library(renv)` is called, should its exports be placed on the search
+    path? Set this to `FALSE` to avoid issues that can arise with, for example,
+    `renv::load()` masking `base::load()`. In general, we recommend referencing
+    `renv` functions from its namespace explicitly; e.g. prefer
+    `renv::snapshot()` over `snapshot()`.
+
+    By default, all exported `renv` functions are attached and placed on the
+    search path, for backwards compatibility with existing scripts using `renv`.
+
+
 - name: "external.libraries"
   type: "character[*]"
   default: ~
@@ -104,6 +127,15 @@
     A character vector of library paths, to be used by [hydrate()]
     when attempting to hydrate projects. When empty, the default set of library paths
     (as documented in `?hydrate`) are used instead. See [`hydrate()`] for more details.
+
+- name: "install.shortcuts"
+  type: "logical[1]"
+  default: true
+  description: >
+    Allow for a set of 'shortcuts' when installing packages with renv? When
+    enabled, if `renv` discovers that a package to be installed is already
+    available within the user or site libraries, then it will install a
+    local copy of that package.
 
 - name: "install.staged"
   type: "logical[1]"

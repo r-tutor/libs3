@@ -3,6 +3,7 @@ $,DiscreteBase-method	DiscreteBase-class
 $,MxAlgebra-method	MxAlgebra-class
 $,MxBaseExpectation-method	MxBaseExpectation-class
 $,MxBaseFitFunction-method	MxBaseFitFunction-class
+$,MxCompare-method	MxCompare-class
 $,MxConstraint-method	MxConstraint-class
 $,MxData-method	MxData-class
 $,MxFlatModel-method	MxFlatModel-class
@@ -32,6 +33,7 @@ $<-,MxRAMModel-method	MxRAMModel-class
 $<-,MxThreshold-method	mxThreshold
 %&%	mxAlgebra
 %^%	mxAlgebra
+as.data.frame.MxCompare	MxCompare-class
 as.statusCode	as.statusCode
 BaseCompute-class	BaseCompute-class
 Bollen	Bollen_data
@@ -215,6 +217,7 @@ logp2z	mxAlgebra
 longData	LongitudinalOverdispersedCounts
 LongitudinalOverdispersedCounts	LongitudinalOverdispersedCounts
 LowerMatrix-class	MxMatrix-class
+mpinv	mxAlgebra
 multiData1	multiData1_data
 MxAlgebra	MxAlgebra-class
 mxAlgebra	mxAlgebra
@@ -245,6 +248,7 @@ mxCheckIdentification	mxCheckIdentification
 MxCI	MxCI-class
 mxCI	mxCI
 mxCompare	mxCompare
+MxCompare-class	MxCompare-class
 mxCompareMatrix	mxCompare
 MxCompute	MxCompute-class
 MxCompute-class	MxCompute-class
@@ -312,8 +316,6 @@ mxData	mxData
 MxData-class	MxData-class
 mxDataDynamic	mxDataDynamic
 MxDataDynamic-class	mxDataDynamic
-MxDataFrameOrMatrix	MxDataFrameOrMatrix-class
-MxDataFrameOrMatrix-class	MxDataFrameOrMatrix-class
 MxDataLegacyWLS-class	mxDataWLS
 MxDataStatic	MxDataStatic-class
 MxDataStatic-class	MxDataStatic-class
@@ -397,6 +399,7 @@ mxOption	mxOption
 MxOptionalChar-class	MxOptionalChar-class
 MxOptionalCharOrNumber-class	MxOptionalCharOrNumber-class
 MxOptionalDataFrame-class	MxOptionalDataFrame-class
+MxOptionalDataFrameOrMatrix-class	MxOptionalDataFrameOrMatrix-class
 MxOptionalInteger-class	MxOptionalInteger-class
 MxOptionalLogical-class	MxOptionalLogical-class
 MxOptionalMatrix-class	MxOptionalMatrix-class
@@ -533,6 +536,7 @@ predict.MxModel	predict.MxModel
 print,BaseCompute-method	BaseCompute-class
 print,MxAlgebra-method	MxAlgebra-class
 print,MxAlgebraFormula-method	MxAlgebraFormula-class
+print,MxCompare-method	MxCompare-class
 print,MxConstraint-method	MxConstraint-class
 print,MxDataDynamic-method	mxDataDynamic
 print,MxDataStatic-method	MxDataStatic-class
@@ -562,6 +566,7 @@ SdiagMatrix-class	MxMatrix-class
 show,BaseCompute-method	BaseCompute-class
 show,MxAlgebra-method	MxAlgebra-class
 show,MxAlgebraFormula-method	MxAlgebraFormula-class
+show,MxCompare-method	MxCompare-class
 show,MxConstraint-method	MxConstraint-class
 show,MxDataDynamic-method	mxDataDynamic
 show,MxDataStatic-method	MxDataStatic-class
@@ -602,6 +607,7 @@ vechs2full	vechs2full
 vechs<-	vechs
 wideData	LongitudinalOverdispersedCounts
 ZeroMatrix-class	MxMatrix-class
+[,MxCompare,ANY,ANY,ANY-method	MxCompare-class
 [,MxMatrix,ANY,ANY,ANY-method	MxMatrix-class
 [,MxMatrix-method	MxMatrix-class
 [<-,MxMatrix,ANY,ANY,ANY-method	MxMatrix-class

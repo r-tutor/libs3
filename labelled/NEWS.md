@@ -1,6 +1,22 @@
+# labelled 2.8.0
+
+* new helper `recode_if()` for recoding values based on condition, variable
+  and value labels being preserved (#82)
+* `look_for()` could be time consuming for big data frames. Now, by default,
+  only basic details of each variable are computed. You can compute all details
+  with `details = "full"` (#77)
+* printing of `look_for()` results has been updated and do not rely anymore
+  on `pillar` (#85)
+* `to_labelled()` can properly manage factors whose levels are coded as 
+  "[code] level", as produced by `to_factor(levels = "prefixed")` 
+  (#74 @courtiol)
+* new function `is_prefixed()` to check if a factor is prefixed
+* bug fix for `na_range<-` and `na_values<-` when applied to a data.frame (#80)
+
 # labelled 2.7.0
 
-* a `.values` argument has been added to `set_na_values()` and `set_na_range()`, allowing to pass a list of values
+* a `.values` argument has been added to `set_na_values()` and `set_na_range()`, 
+  allowing to pass a list of values
 * a `.strict` option has been added to `set_variable_labels()`,
   `set_value_labels()`, `add_value_labels()`,  `remove_value_labels()`,
   `set_na_values()` and `set_na_range()`,
@@ -43,7 +59,7 @@
 * fixes for haven 2.3.0 (#59 by @hadley)
 * correct re-export of functions from `haven`
 * `update_labelled()` has been improved to allow to reconstruct
-  all labelled vectors created with a previous versiob of `haven`
+  all labelled vectors created with a previous version of `haven`
 
 # labelled 2.3.1
 
@@ -145,8 +161,10 @@
 
 # labelled 0.2.0
 
-* Following evolution of `haven`, `labelled` deosn't support missing values anymore (cf. https://github.com/hadley/haven/commit/4b12ff9d51ddb9e7486966b85e0bcff44992904d)
+* Following evolution of `haven`, `labelled` doesn't support missing values anymore 
+  (cf. https://github.com/hadley/haven/commit/4b12ff9d51ddb9e7486966b85e0bcff44992904d)
 * New function `to_character()` (cf. https://github.com/larmarange/labelled/commit/3d32852587bb707d06627e56407eed1c9d5a49de)
 * `to_factor()` could now be applied to a data.frame (cf. https://github.com/larmarange/labelled/commit/ce1d750681fe0c9bcd767cb83a8d72ed4c5fc5fb)
-* If `data.table` is available, labelled attribute are now changed by _reference_ (cf. https://github.com/larmarange/labelled/commit/c8b163f706122844d798e6625779e8a65e5bbf41)
+* If `data.table` is available, labelled attribute are now changed by _reference_ 
+  (cf. https://github.com/larmarange/labelled/commit/c8b163f706122844d798e6625779e8a65e5bbf41)
 * `zap_labels()` added as a synonym of `remove_labels()`

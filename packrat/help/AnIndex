@@ -10,6 +10,8 @@ disable	disable
 extlib	packrat-external
 get_lockfile_metadata	lockfile-metadata
 get_opts	packrat-options
+gitlab_pwd	gitlab_pwd
+gitlab_user	gitlab_user
 init	init
 install	install
 install_local	install_local

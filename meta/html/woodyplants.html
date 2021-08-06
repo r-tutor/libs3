@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Elevated CO_2 and total biomass of woody plants</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for woodyplants {meta}"><tr><td>woodyplants {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Elevated CO_2 and total biomass of woody plants</h2>
+
+<h3>Description</h3>
+
+<p>Meta-analysis on effects of elevated CO_2 on total biomass of woody
+plants
+</p>
+<p>This dataset has been used as an example in Hedges et al. (1999) to
+describe methods for the meta-analysis of response ratios. The
+complete dataset with 102 observations and 26 variables is
+available online as a supplement. Here only a subset of 10
+variables is provided and used in the examples.
+</p>
+
+
+<h3>Format</h3>
+
+<p>A data frame with the following columns:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: right;">
+<b><em>obsno</em></b></td><td style="text-align: left;"> observation number </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>papno</em></b></td><td style="text-align: left;"> database paper number </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>treat</em></b></td><td style="text-align: left;"> treatment code </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>level</em></b></td><td style="text-align: left;"> treatment level </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.elev</em></b></td><td style="text-align: left;"> number of observations in experimental
+  group (elevated CO_2-level) </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>mean.elev</em></b></td><td style="text-align: left;"> estimated mean in experimental group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>sd.elev</em></b></td><td style="text-align: left;"> standard deviation in experimental group
+  </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>n.amb</em></b></td><td style="text-align: left;"> number of observations in control group
+  (ambient CO_2-level) </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>mean.amb</em></b></td><td style="text-align: left;"> estimated mean in control group </td>
+</tr>
+<tr>
+ <td style="text-align: right;">
+<b><em>sd.amb</em></b></td><td style="text-align: left;"> standard deviation in control group
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>Source</h3>
+
+<p>Website <a href="http://www.esapubs.org/archive/ecol/E080/008/">http://www.esapubs.org/archive/ecol/E080/008/</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Hedges LV, Gurevitch J, Curtis PS (1999):
+The meta-analysis of response ratios in experimental ecology.
+<em>Ecology</em>,
+<b>80</b>, 1150&ndash;6
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(woodyplants)
+
+# Meta-analysis of response ratios (Hedges et al., 1999)
+#
+m1 &lt;- metacont(n.elev, mean.elev, sd.elev,
+               n.amb, mean.amb, sd.amb,
+               data = woodyplants, sm = "ROM",
+               studlab = paste(obsno, papno, sep = " / "))
+summary(m1, prediction = TRUE)
+
+# Meta-analysis for plants grown with low soil fertility treatment
+#
+m2 &lt;- update(m1, subset = (treat == "fert" &amp; level == "low"))
+summary(m2, prediction = TRUE)
+
+# Meta-analysis for plants grown under low light conditions
+#
+m3 &lt;- update(m1, subset = (treat == "light" &amp; level == "low"))
+summary(m3, prediction = TRUE)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

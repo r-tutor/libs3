@@ -1,0 +1,1497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Meta-analysis of binary outcome data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for metabin {meta}"><tr><td>metabin {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Meta-analysis of binary outcome data</h2>
+
+<h3>Description</h3>
+
+<p>Calculation of fixed effect and random effects estimates (risk
+ratio, odds ratio, risk difference, arcsine difference, or
+diagnostic odds ratio) for meta-analyses with binary outcome
+data. Mantel-Haenszel, inverse variance, Peto method, generalised
+linear mixed model (GLMM), and sample size method are available for
+pooling. For GLMMs, the <code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code> function
+from R package <b>metafor</b> (Viechtbauer, 2010) is called
+internally.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+metabin(
+  event.e,
+  n.e,
+  event.c,
+  n.c,
+  studlab,
+  data = NULL,
+  subset = NULL,
+  exclude = NULL,
+  method = ifelse(tau.common, "Inverse", gs("method")),
+  sm = ifelse(!is.na(charmatch(tolower(method), c("peto", "glmm", "ssw"), nomatch =
+    NA)), "OR", gs("smbin")),
+  incr = gs("incr"),
+  allincr = gs("allincr"),
+  addincr = gs("addincr"),
+  allstudies = gs("allstudies"),
+  MH.exact = gs("MH.exact"),
+  RR.Cochrane = gs("RR.Cochrane"),
+  Q.Cochrane = gs("Q.Cochrane") &amp; method == "MH" &amp; method.tau == "DL",
+  model.glmm = "UM.FS",
+  level = gs("level"),
+  level.comb = gs("level.comb"),
+  comb.fixed = gs("comb.fixed"),
+  comb.random = gs("comb.random"),
+  overall = comb.fixed | comb.random,
+  overall.hetstat = comb.fixed | comb.random,
+  hakn = gs("hakn"),
+  adhoc.hakn = gs("adhoc.hakn"),
+  method.tau = ifelse(!is.na(charmatch(tolower(method), "glmm", nomatch = NA)), "ML",
+    gs("method.tau")),
+  method.tau.ci = gs("method.tau.ci"),
+  tau.preset = NULL,
+  TE.tau = NULL,
+  tau.common = gs("tau.common"),
+  prediction = gs("prediction"),
+  level.predict = gs("level.predict"),
+  method.bias = ifelse(sm == "OR", "Harbord", ifelse(sm == "DOR", "Deeks",
+    gs("method.bias"))),
+  backtransf = gs("backtransf"),
+  pscale = 1,
+  text.fixed = gs("text.fixed"),
+  text.random = gs("text.random"),
+  text.predict = gs("text.predict"),
+  text.w.fixed = gs("text.w.fixed"),
+  text.w.random = gs("text.w.random"),
+  title = gs("title"),
+  complab = gs("complab"),
+  outclab = "",
+  label.e = gs("label.e"),
+  label.c = gs("label.c"),
+  label.left = gs("label.left"),
+  label.right = gs("label.right"),
+  byvar,
+  bylab,
+  print.byvar = gs("print.byvar"),
+  byseparator = gs("byseparator"),
+  test.subgroup = gs("test.subgroup"),
+  print.CMH = gs("print.CMH"),
+  keepdata = gs("keepdata"),
+  warn = gs("warn"),
+  control = NULL,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>event.e</code></td>
+<td>
+<p>Number of events in experimental group or true
+positives in diagnostic study.</p>
+</td></tr>
+<tr valign="top"><td><code>n.e</code></td>
+<td>
+<p>Number of observations in experimental group or number
+of ill participants in diagnostic study.</p>
+</td></tr>
+<tr valign="top"><td><code>event.c</code></td>
+<td>
+<p>Number of events in control group or false positives
+in diagnostic study.</p>
+</td></tr>
+<tr valign="top"><td><code>n.c</code></td>
+<td>
+<p>Number of observations in control group or number of
+healthy participants in diagnostic study.</p>
+</td></tr>
+<tr valign="top"><td><code>studlab</code></td>
+<td>
+<p>An optional vector with study labels.</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>An optional data frame containing the study
+information, i.e., event.e, n.e, event.c, and n.c.</p>
+</td></tr>
+<tr valign="top"><td><code>subset</code></td>
+<td>
+<p>An optional vector specifying a subset of studies to
+be used.</p>
+</td></tr>
+<tr valign="top"><td><code>exclude</code></td>
+<td>
+<p>An optional vector specifying studies to exclude
+from meta-analysis, however, to include in printouts and forest
+plots.</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>A character string indicating which method is to be
+used for pooling of studies. One of <code>"Inverse"</code>,
+<code>"MH"</code>, <code>"Peto"</code>, <code>"GLMM"</code>, or <code>"SSW"</code>, can
+be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>sm</code></td>
+<td>
+<p>A character string indicating which summary measure
+(<code>"RR"</code>, <code>"OR"</code>, <code>"RD"</code>, <code>"ASD"</code>, or
+<code>"DOR"</code>) is to be used for pooling of studies, see Details.</p>
+</td></tr>
+<tr valign="top"><td><code>incr</code></td>
+<td>
+<p>Could be either a numerical value which is added to
+each cell frequency for studies with a zero cell count or the
+character string <code>"TACC"</code> which stands for treatment arm
+continuity correction, see Details.</p>
+</td></tr>
+<tr valign="top"><td><code>allincr</code></td>
+<td>
+<p>A logical indicating if <code>incr</code> is added to each
+cell frequency of all studies if at least one study has a zero
+cell count. If FALSE (default), <code>incr</code> is added only to each
+cell frequency of studies with a zero cell count.</p>
+</td></tr>
+<tr valign="top"><td><code>addincr</code></td>
+<td>
+<p>A logical indicating if <code>incr</code> is added to each
+cell frequency of all studies irrespective of zero cell counts.</p>
+</td></tr>
+<tr valign="top"><td><code>allstudies</code></td>
+<td>
+<p>A logical indicating if studies with zero or all
+events in both groups are to be included in the meta-analysis
+(applies only if <code>sm</code> is equal to <code>"RR"</code>, <code>"OR"</code>,
+or <code>"DOR"</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>MH.exact</code></td>
+<td>
+<p>A logical indicating if <code>incr</code> is not to be
+added to all cell frequencies for studies with a zero cell count
+to calculate the pooled estimate based on the Mantel-Haenszel
+method.</p>
+</td></tr>
+<tr valign="top"><td><code>RR.Cochrane</code></td>
+<td>
+<p>A logical indicating if 2*<code>incr</code> instead of
+1*<code>incr</code> is to be added to <code>n.e</code> and <code>n.c</code> in the
+calculation of the risk ratio (i.e., <code>sm="RR"</code>) for studies
+with a zero cell. This is used in RevMan 5, the program for
+preparing and maintaining Cochrane reviews.</p>
+</td></tr>
+<tr valign="top"><td><code>Q.Cochrane</code></td>
+<td>
+<p>A logical indicating if the Mantel-Haenszel
+estimate is used in the calculation of the heterogeneity
+statistic Q which is implemented in RevMan 5, the program for
+preparing and maintaining Cochrane reviews.</p>
+</td></tr>
+<tr valign="top"><td><code>model.glmm</code></td>
+<td>
+<p>A character string indicating which GLMM should
+be used.  One of <code>"UM.FS"</code>, <code>"UM.RS"</code>, <code>"CM.EL"</code>,
+and <code>"CM.AL"</code>, see Details.</p>
+</td></tr>
+<tr valign="top"><td><code>level</code></td>
+<td>
+<p>The level used to calculate confidence intervals for
+individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>level.comb</code></td>
+<td>
+<p>The level used to calculate confidence intervals
+for pooled estimates.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.fixed</code></td>
+<td>
+<p>A logical indicating whether a fixed effect
+meta-analysis should be conducted.</p>
+</td></tr>
+<tr valign="top"><td><code>comb.random</code></td>
+<td>
+<p>A logical indicating whether a random effects
+meta-analysis should be conducted.</p>
+</td></tr>
+<tr valign="top"><td><code>overall</code></td>
+<td>
+<p>A logical indicating whether overall summaries
+should be reported. This argument is useful in a meta-analysis
+with subgroups if overall results should not be reported.</p>
+</td></tr>
+<tr valign="top"><td><code>overall.hetstat</code></td>
+<td>
+<p>A logical value indicating whether to print
+heterogeneity measures for overall treatment comparisons. This
+argument is useful in a meta-analysis with subgroups if
+heterogeneity statistics should only be printed on subgroup
+level.</p>
+</td></tr>
+<tr valign="top"><td><code>hakn</code></td>
+<td>
+<p>A logical indicating whether the method by Hartung and
+Knapp should be used to adjust test statistics and confidence
+intervals.</p>
+</td></tr>
+<tr valign="top"><td><code>adhoc.hakn</code></td>
+<td>
+<p>A character string indicating whether an <em>ad
+hoc</em> variance correction should be applied in the case of an
+arbitrarily small Hartung-Knapp variance estimate, see Details.</p>
+</td></tr>
+<tr valign="top"><td><code>method.tau</code></td>
+<td>
+<p>A character string indicating which method is
+used to estimate the between-study variance <i>&tau;^2</i> and its
+square root <i>&tau;</i>. Either <code>"DL"</code>, <code>"PM"</code>,
+<code>"REML"</code>, <code>"ML"</code>, <code>"HS"</code>, <code>"SJ"</code>,
+<code>"HE"</code>, or <code>"EB"</code>, can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>method.tau.ci</code></td>
+<td>
+<p>A character string indicating which method is
+used to estimate the confidence interval of <i>&tau;^2</i> and
+<i>&tau;</i>. Either <code>"QP"</code>, <code>"BJ"</code>, or <code>"J"</code>, or
+<code>""</code>, can be abbreviated.</p>
+</td></tr>
+<tr valign="top"><td><code>tau.preset</code></td>
+<td>
+<p>Prespecified value for the square root of the
+between-study variance <i>&tau;^2</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>TE.tau</code></td>
+<td>
+<p>Overall treatment effect used to estimate the
+between-study variance <i>&tau;^2</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>tau.common</code></td>
+<td>
+<p>A logical indicating whether tau-squared should
+be the same across subgroups.</p>
+</td></tr>
+<tr valign="top"><td><code>prediction</code></td>
+<td>
+<p>A logical indicating whether a prediction
+interval should be printed.</p>
+</td></tr>
+<tr valign="top"><td><code>level.predict</code></td>
+<td>
+<p>The level used to calculate prediction
+interval for a new study.</p>
+</td></tr>
+<tr valign="top"><td><code>method.bias</code></td>
+<td>
+<p>A character string indicating which test for
+funnel plot asymmetry is to be used. Either <code>"Begg"</code>,
+<code>"Egger"</code>, <code>"Thompson"</code>, <code>"Schwarzer"</code>,
+<code>"Harbord"</code>, <code>"Peters"</code>, or <code>"Deeks"</code>, can be
+abbreviated. See function <code><a href="../../meta/help/metabias.html">metabias</a>.</code></p>
+</td></tr>
+<tr valign="top"><td><code>backtransf</code></td>
+<td>
+<p>A logical indicating whether results for odds
+ratio (<code>sm="OR"</code>), risk ratio (<code>sm="RR"</code>), or
+diagnostic odds ratio (<code>sm="DOR"</code>) should be back
+transformed in printouts and plots. If TRUE (default), results
+will be presented as odds ratios and risk ratios; otherwise log
+odds ratios and log risk ratios will be shown.</p>
+</td></tr>
+<tr valign="top"><td><code>pscale</code></td>
+<td>
+<p>A numeric defining a scaling factor for printing of
+risk differences.</p>
+</td></tr>
+<tr valign="top"><td><code>text.fixed</code></td>
+<td>
+<p>A character string used in printouts and forest
+plot to label the pooled fixed effect estimate.</p>
+</td></tr>
+<tr valign="top"><td><code>text.random</code></td>
+<td>
+<p>A character string used in printouts and forest
+plot to label the pooled random effects estimate.</p>
+</td></tr>
+<tr valign="top"><td><code>text.predict</code></td>
+<td>
+<p>A character string used in printouts and forest
+plot to label the prediction interval.</p>
+</td></tr>
+<tr valign="top"><td><code>text.w.fixed</code></td>
+<td>
+<p>A character string used to label weights of
+fixed effect model.</p>
+</td></tr>
+<tr valign="top"><td><code>text.w.random</code></td>
+<td>
+<p>A character string used to label weights of
+random effects model.</p>
+</td></tr>
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>Title of meta-analysis / systematic review.</p>
+</td></tr>
+<tr valign="top"><td><code>complab</code></td>
+<td>
+<p>Comparison label.</p>
+</td></tr>
+<tr valign="top"><td><code>outclab</code></td>
+<td>
+<p>Outcome label.</p>
+</td></tr>
+<tr valign="top"><td><code>label.e</code></td>
+<td>
+<p>Label for experimental group.</p>
+</td></tr>
+<tr valign="top"><td><code>label.c</code></td>
+<td>
+<p>Label for control group.</p>
+</td></tr>
+<tr valign="top"><td><code>label.left</code></td>
+<td>
+<p>Graph label on left side of forest plot.</p>
+</td></tr>
+<tr valign="top"><td><code>label.right</code></td>
+<td>
+<p>Graph label on right side of forest plot.</p>
+</td></tr>
+<tr valign="top"><td><code>byvar</code></td>
+<td>
+<p>An optional vector containing grouping information
+(must be of same length as <code>event.e</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>bylab</code></td>
+<td>
+<p>A character string with a label for the grouping
+variable.</p>
+</td></tr>
+<tr valign="top"><td><code>print.byvar</code></td>
+<td>
+<p>A logical indicating whether the name of the
+grouping variable should be printed in front of the group labels.</p>
+</td></tr>
+<tr valign="top"><td><code>byseparator</code></td>
+<td>
+<p>A character string defining the separator
+between label and levels of grouping variable.</p>
+</td></tr>
+<tr valign="top"><td><code>test.subgroup</code></td>
+<td>
+<p>A logical value indicating whether to print
+results of test for subgroup differences.</p>
+</td></tr>
+<tr valign="top"><td><code>print.CMH</code></td>
+<td>
+<p>A logical indicating whether result of the
+Cochran-Mantel-Haenszel test for overall effect should be
+printed.</p>
+</td></tr>
+<tr valign="top"><td><code>keepdata</code></td>
+<td>
+<p>A logical indicating whether original data (set)
+should be kept in meta object.</p>
+</td></tr>
+<tr valign="top"><td><code>warn</code></td>
+<td>
+<p>A logical indicating whether warnings should be printed
+(e.g., if <code>incr</code> is added to studies with zero cell
+frequencies).</p>
+</td></tr>
+<tr valign="top"><td><code>control</code></td>
+<td>
+<p>An optional list to control the iterative process to
+estimate the between-study variance <i>&tau;^2</i>. This argument
+is passed on to <code><a href="../../metafor/help/rma.uni.html">rma.uni</a></code> or
+<code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code>, respectively.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Additional arguments passed on to
+<code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code> function.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Calculation of fixed and random effects estimates for meta-analyses
+with binary outcome data.
+</p>
+<p>The following measures of treatment effect are available (Rücker et
+al., 2009):
+</p>
+
+<ul>
+<li><p> Risk ratio (<code>sm = "RR"</code>)
+</p>
+</li>
+<li><p> Odds ratio (<code>sm = "OR"</code>)
+</p>
+</li>
+<li><p> Risk difference (<code>sm = "RD"</code>)
+</p>
+</li>
+<li><p> Arcsine difference (<code>sm = "ASD"</code>)
+</p>
+</li>
+<li><p> Diagnostic Odds ratio (<code>sm = "DOR"</code>)
+</p>
+</li></ul>
+
+<p>Note, mathematically, odds ratios and diagnostic odds ratios are
+identical, however, the labels in printouts and figures differ.
+</p>
+<p>Default settings are utilised for several arguments (assignments
+using <code><a href="../../meta/help/gs.html">gs</a></code> function). These defaults can be changed for
+the current R session using the <code><a href="../../meta/help/settings.meta.html">settings.meta</a></code>
+function.
+</p>
+<p>Furthermore, R function <code><a href="../../meta/help/update.meta.html">update.meta</a></code> can be used to
+rerun a meta-analysis with different settings.
+</p>
+
+
+<h4>Meta-analysis method</h4>
+
+<p>By default, both fixed effect and random effects models are
+considered (see arguments <code>comb.fixed</code> and
+<code>comb.random</code>). If <code>method</code> is <code>"MH"</code> (default), the
+Mantel-Haenszel method (Greenland &amp; Robins, 1985; Robins et al.,
+1986) is used to calculate the fixed effect estimate; if
+<code>method</code> is <code>"Inverse"</code>, inverse variance weighting is
+used for pooling (Fleiss, 1993); if <code>method</code> is <code>"Peto"</code>,
+the Peto method is used for pooling (Yussuf et al., 1985); if
+<code>method</code> is <code>"SSW"</code>, the sample size method is used for
+pooling (Bakbergenuly et al., 2020).
+</p>
+<p>While the Mantel-Haenszel and Peto method are defined under the
+fixed effect model, random effects variants based on these methods
+are also implemented in <code>metabin</code>. Following RevMan 5, the
+Mantel-Haenszel estimator is used in the calculation of the
+between-study heterogeneity statistic Q which is used in the
+DerSimonian-Laird estimator. Accordlingly, the results for the
+random effects meta-analysis using the Mantel-Haenszel or inverse
+variance method are typically very similar. For the Peto method,
+Peto's log odds ratio, i.e. <code>(O-E) / V</code> and its standard error
+<code>sqrt(1 / V)</code> with <code>O-E</code> and <code>V</code> denoting
+&quot;Observed minus Expected&quot; and its variance, are utilised in the
+random effects model. Accordingly, results of a random effects
+model using <code>sm = "Peto"</code> can be different to results from a
+random effects model using <code>sm = "MH"</code> or <code>sm =
+"Inverse"</code>.
+</p>
+<p>A distinctive and frequently overlooked advantage of binary
+endpoints is that individual patient data (IPD) can be extracted
+from a two-by-two table.  Accordingly, statistical methods for IPD,
+i.e., logistic regression and generalised linear mixed models, can
+be utilised in a meta-analysis of binary outcomes (Stijnen et al.,
+2010; Simmonds et al., 2016). These methods are available (argument
+<code>method = "GLMM"</code>) for the odds ratio as summary measure by
+calling the <code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code> function from R package
+<b>metafor</b> internally.
+</p>
+<p>Four different GLMMs are available for
+meta-analysis with binary outcomes using argument <code>model.glmm</code>
+(which corresponds to argument <code>model</code> in the
+<code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code> function):
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: center;">
+1. </td><td style="text-align: left;"> Logistic regression model with fixed study effects
+ (default) </td>
+</tr>
+<tr>
+ <td style="text-align: center;">
+ </td><td style="text-align: left;"> (<code>model.glmm = "UM.FS"</code>, i.e., <b>U</b>nconditional
+ <b>M</b>odel - <b>F</b>ixed <b>S</b>tudy effects) </td>
+</tr>
+<tr>
+ <td style="text-align: center;">
+2. </td><td style="text-align: left;"> Mixed-effects logistic regression model with random study
+ effects </td>
+</tr>
+<tr>
+ <td style="text-align: center;">
+ </td><td style="text-align: left;"> (<code>model.glmm = "UM.RS"</code>, i.e., <b>U</b>nconditional
+ <b>M</b>odel - <b>R</b>andom <b>S</b>tudy effects) </td>
+</tr>
+<tr>
+ <td style="text-align: center;">
+3. </td><td style="text-align: left;"> Generalised linear mixed model (conditional
+ Hypergeometric-Normal) </td>
+</tr>
+<tr>
+ <td style="text-align: center;">
+ </td><td style="text-align: left;"> (<code>model.glmm = "CM.EL"</code>, i.e., <b>C</b>onditional
+ <b>M</b>odel - <b>E</b>xact <b>L</b>ikelihood) </td>
+</tr>
+<tr>
+ <td style="text-align: center;">
+4. </td><td style="text-align: left;"> Generalised linear mixed model (conditional
+  Binomial-Normal) </td>
+</tr>
+<tr>
+ <td style="text-align: center;">
+ </td><td style="text-align: left;"> (<code>model.glmm = "CM.AL"</code>, i.e., <b>C</b>onditional
+  <b>M</b>odel - <b>A</b>pproximate <b>L</b>ikelihood)
+</td>
+</tr>
+
+</table>
+
+<p>Details on these four GLMMs as well as additional arguments which
+can be provided using argument '<code>...</code>' in <code>metabin</code>
+are described in <code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code> where you can also
+find information on the iterative algorithms used for estimation.
+Note, regardless of which value is used for argument
+<code>model.glmm</code>, results for two different GLMMs are calculated:
+fixed effect model (with fixed treatment effect) and random effects
+model (with random treatment effects).
+</p>
+
+
+
+<h4>Continuity correction</h4>
+
+<p>For studies with a zero cell count, by default, 0.5 is added to all
+cell frequencies of these studies; if <code>incr</code> is <code>"TACC"</code>
+a treatment arm continuity correction is used instead (Sweeting et
+al., 2004; Diamond et al., 2007). For odds ratio and risk ratio,
+treatment estimates and standard errors are only calculated for
+studies with zero or all events in both groups if <code>allstudies</code>
+is <code>TRUE</code>. This continuity correction is used both to
+calculate individual study results with confidence limits and to
+conduct meta-analysis based on the inverse variance method. For
+Peto method and GLMMs no continuity correction is used. For the
+Mantel-Haenszel method, by default (if <code>MH.exact</code> is FALSE),
+<code>incr</code> is added to all cell frequencies of a study with a zero
+cell count in the calculation of the pooled risk ratio or odds
+ratio as well as the estimation of the variance of the pooled risk
+difference, risk ratio or odds ratio. This approach is also used in
+other software, e.g. RevMan 5 and the Stata procedure
+metan. According to Fleiss (in Cooper &amp; Hedges, 1994), there is no
+need to add 0.5 to a cell frequency of zero to calculate the
+Mantel-Haenszel estimate and he advocates the exact method
+(<code>MH.exact</code> = TRUE). Note, estimates based on exact
+Mantel-Haenszel method or GLMM are not defined if the number of
+events is zero in all studies either in the experimental or control
+group.
+</p>
+
+
+
+<h4>Estimation of between-study variance</h4>
+
+<p>The following methods to estimate the between-study variance
+<i>&tau;^2</i> are available for the inverse variance method:
+</p>
+
+<ul>
+<li><p> DerSimonian-Laird estimator (<code>method.tau = "DL"</code>)
+</p>
+</li>
+<li><p> Paule-Mandel estimator (<code>method.tau = "PM"</code>)
+</p>
+</li>
+<li><p> Restricted maximum-likelihood estimator (<code>method.tau =
+  "REML"</code>)
+</p>
+</li>
+<li><p> Maximum-likelihood estimator (<code>method.tau = "ML"</code>)
+</p>
+</li>
+<li><p> Hunter-Schmidt estimator (<code>method.tau = "HS"</code>)
+</p>
+</li>
+<li><p> Sidik-Jonkman estimator (<code>method.tau = "SJ"</code>)
+</p>
+</li>
+<li><p> Hedges estimator (<code>method.tau = "HE"</code>)
+</p>
+</li>
+<li><p> Empirical Bayes estimator (<code>method.tau = "EB"</code>)
+</p>
+</li></ul>
+
+<p>See <code><a href="../../meta/help/metagen.html">metagen</a></code> for more information on these
+estimators. Note, the maximum-likelihood method is utilized for
+GLMMs.
+</p>
+
+
+
+<h4>Confidence interval for the between-study variance</h4>
+
+<p>The following methods to calculate a confidence interval for
+<i>&tau;^2</i> and <i>&tau;</i> are available.
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<b>Argument</b></td><td style="text-align: left;"> <b>Method</b> </td>
+</tr>
+<tr>
+ <td style="text-align: left;"> 
+<code>method.tau.ci = "J"</code></td><td style="text-align: left;"> Method by Jackson </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>method.tau.ci = "BJ"</code></td><td style="text-align: left;"> Method by Biggerstaff and Jackson </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>method.tau.ci = "QP"</code></td><td style="text-align: left;"> Q-Profile method
+</td>
+</tr>
+
+</table>
+
+<p>See <code><a href="../../meta/help/metagen.html">metagen</a></code> for more information on these
+methods. For GLMMs, no confidence intervals for <i>&tau;^2</i> and
+<i>&tau;</i> are calculated. Likewise, no confidence intervals for
+<i>&tau;^2</i> and <i>&tau;</i> are calculated if <code>method.tau.ci =
+""</code>. 
+</p>
+
+
+
+<h4>Hartung-Knapp method</h4>
+
+<p>Hartung and Knapp (2001a,b) proposed an alternative method for
+random effects meta-analysis based on a refined variance estimator
+for the treatment estimate. Simulation studies (Hartung and Knapp,
+2001a,b; IntHout et al., 2014; Langan et al., 2019) show improved
+coverage probabilities compared to the classic random effects
+method.
+</p>
+<p>In rare settings with very homogeneous treatment estimates, the
+Hartung-Knapp variance estimate can be arbitrarily small resulting
+in a very narrow confidence interval (Knapp and Hartung, 2003;
+Wiksten et al., 2016). In such cases, an <em>ad hoc</em> variance
+correction has been proposed by utilising the variance estimate
+from the classic random effects model with the HK method (Knapp and
+Hartung, 2003; IQWiQ, 2020). An alternative approach is to use the
+wider confidence interval of classic fixed or random effects
+meta-analysis and the HK method (Wiksten et al., 2016; Jackson et
+al., 2017).
+</p>
+<p>Argument <code>adhoc.hakn</code> can be used to choose the <em>ad hoc</em>
+method:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<b>Argument</b></td><td style="text-align: left;"> <b><em>Ad hoc</em> method</b> </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>adhoc.hakn = ""</code></td><td style="text-align: left;"> not used </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>adhoc.hakn = "se"</code></td><td style="text-align: left;"> use variance correction if HK standard
+ error is smaller </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+ </td><td style="text-align: left;"> than standard error from classic random effects
+ </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+ </td><td style="text-align: left;"> meta-analysis (Knapp and Hartung, 2003) </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>adhoc.hakn = "iqwig6"</code></td><td style="text-align: left;"> use variance correction if HK
+ confidence interval </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+ </td><td style="text-align: left;"> is narrower than CI from classic random effects model </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+ </td><td style="text-align: left;"> with DerSimonian-Laird estimator (IQWiG, 2020) </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>adhoc.hakn = "ci"</code></td><td style="text-align: left;"> use wider confidence interval of
+ classic random effects </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+ </td><td style="text-align: left;"> and HK meta-analysis </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+ </td><td style="text-align: left;"> (Hybrid method 2 in Jackson et al., 2017)
+</td>
+</tr>
+
+</table>
+
+<p>For GLMMs, a method similar to Knapp and Hartung (2003) is
+implemented, see description of argument <code>tdist</code> in
+<code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code>, and the <em>ad hoc</em> variance
+correction is not available.
+</p>
+
+
+
+<h4>Prediction interval</h4>
+
+<p>A prediction interval for the proportion in a new study (Higgins et
+al., 2009) is calculated if arguments <code>prediction</code> and
+<code>comb.random</code> are <code>TRUE</code>. Note, the definition of
+prediction intervals varies in the literature. This function
+implements equation (12) of Higgins et al., (2009) which proposed a
+<em>t</em> distribution with <em>K-2</em> degrees of freedom where
+<em>K</em> corresponds to the number of studies in the meta-analysis.
+</p>
+
+
+
+<h4>Subgroup analysis</h4>
+
+<p>Argument <code>byvar</code> can be used to conduct subgroup analysis for
+a categorical covariate. The <code><a href="../../meta/help/metareg.html">metareg</a></code> function can be
+used instead for more than one categorical covariate or continuous
+covariates.
+</p>
+
+
+
+<h4>Exclusion of studies from meta-analysis</h4>
+
+<p>Arguments <code>subset</code> and <code>exclude</code> can be used to exclude
+studies from the meta-analysis. Studies are removed completely from
+the meta-analysis using argument <code>subset</code>, while excluded
+studies are shown in printouts and forest plots using argument
+<code>exclude</code> (see Examples in <code><a href="../../meta/help/metagen.html">metagen</a></code>).
+Meta-analysis results are the same for both arguments.
+</p>
+
+
+
+<h4>Presentation of meta-analysis results</h4>
+
+<p>Internally, both fixed effect and random effects models are
+calculated regardless of values choosen for arguments
+<code>comb.fixed</code> and <code>comb.random</code>. Accordingly, the estimate
+for the random effects model can be extracted from component
+<code>TE.random</code> of an object of class <code>"meta"</code> even if
+argument <code>comb.random = FALSE</code>. However, all functions in R
+package <b>meta</b> will adequately consider the values for
+<code>comb.fixed</code> and <code>comb.random</code>. E.g. function
+<code><a href="../../meta/help/print.meta.html">print.meta</a></code> will not print results for the random
+effects model if <code>comb.random = FALSE</code>.
+</p>
+
+
+
+<h3>Value</h3>
+
+<p>An object of class <code>c("metabin", "meta")</code> with corresponding
+<code>print</code>, <code>summary</code>, and <code>forest</code> functions. The
+object is a list containing the following components:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>event.e, n.e, event.c, n.c, studlab, exclude,</code></td>
+<td>
+<p>As defined
+above.</p>
+</td></tr>
+<tr valign="top"><td><code>sm, method, incr, allincr, addincr,</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>allstudies, MH.exact, RR.Cochrane, Q.Cochrane, model.glmm,</code></td>
+<td>
+<p>As
+defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>warn, level, level.comb, comb.fixed, comb.random,</code></td>
+<td>
+<p>As defined
+above.</p>
+</td></tr>
+<tr valign="top"><td><code>overall, overall.hetstat,</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>hakn, adhoc.hakn, method.tau, method.tau.ci,</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>tau.preset, TE.tau, method.bias,</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>tau.common, title, complab, outclab,</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>label.e, label.c, label.left, label.right,</code></td>
+<td>
+<p>As defined
+above.</p>
+</td></tr>
+<tr valign="top"><td><code>byvar, bylab, print.byvar, byseparator</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>TE, seTE</code></td>
+<td>
+<p>Estimated treatment effect and standard error of
+individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>lower, upper</code></td>
+<td>
+<p>Lower and upper confidence interval limits for
+individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>zval, pval</code></td>
+<td>
+<p>z-value and p-value for test of treatment effect
+for individual studies.</p>
+</td></tr>
+<tr valign="top"><td><code>w.fixed, w.random</code></td>
+<td>
+<p>Weight of individual studies (in fixed and
+random effects model).</p>
+</td></tr>
+<tr valign="top"><td><code>TE.fixed, seTE.fixed</code></td>
+<td>
+<p>Estimated overall treatment effect,
+e.g., log risk ratio or risk difference, and standard error
+(fixed effect model).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.fixed, upper.fixed</code></td>
+<td>
+<p>Lower and upper confidence interval
+limits (fixed effect model).</p>
+</td></tr>
+<tr valign="top"><td><code>statistic.fixed, pval.fixed</code></td>
+<td>
+<p>z-value and p-value for test of
+overall treatment effect (fixed effect model).</p>
+</td></tr>
+<tr valign="top"><td><code>TE.random, seTE.random</code></td>
+<td>
+<p>Estimated overall treatment effect,
+e.g., log risk ratio or risk difference, and standard error
+(random effects model).</p>
+</td></tr>
+<tr valign="top"><td><code>lower.random, upper.random</code></td>
+<td>
+<p>Lower and upper confidence
+interval limits (random effects model).</p>
+</td></tr>
+<tr valign="top"><td><code>statistic.random, pval.random</code></td>
+<td>
+<p>z-value or t-value and
+corresponding p-value for test of overall treatment effect
+(random effects model).</p>
+</td></tr>  <tr valign="top"><td><code>prediction, level.predict</code></td>
+<td>
+<p>As
+defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>seTE.predict</code></td>
+<td>
+<p>Standard error utilised for prediction
+interval.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.predict, upper.predict</code></td>
+<td>
+<p>Lower and upper limits of
+prediction interval.</p>
+</td></tr>
+<tr valign="top"><td><code>k</code></td>
+<td>
+<p>Number of studies combined in meta-analysis.</p>
+</td></tr>
+<tr valign="top"><td><code>Q</code></td>
+<td>
+<p>Heterogeneity statistic Q.</p>
+</td></tr>
+<tr valign="top"><td><code>df.Q</code></td>
+<td>
+<p>Degrees of freedom for heterogeneity statistic.</p>
+</td></tr>
+<tr valign="top"><td><code>pval.Q</code></td>
+<td>
+<p>P-value of heterogeneity test.</p>
+</td></tr>
+<tr valign="top"><td><code>Q.LRT</code></td>
+<td>
+<p>Heterogeneity statistic for likelihood-ratio test
+(only if <code>method = "GLMM"</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>df.Q.LRT</code></td>
+<td>
+<p>Degrees of freedom for likelihood-ratio test</p>
+</td></tr>
+<tr valign="top"><td><code>pval.Q.LRT</code></td>
+<td>
+<p>P-value of likelihood-ratio test.</p>
+</td></tr>
+<tr valign="top"><td><code>tau2</code></td>
+<td>
+<p>Between-study variance <i>&tau;^2</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>se.tau2</code></td>
+<td>
+<p>Standard error of <i>&tau;^2</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.tau2, upper.tau2</code></td>
+<td>
+<p>Lower and upper limit of confidence
+interval for <i>&tau;^2</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>tau</code></td>
+<td>
+<p>Square-root of between-study variance <i>&tau;</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.tau, upper.tau</code></td>
+<td>
+<p>Lower and upper limit of confidence
+interval for <i>&tau;</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>H</code></td>
+<td>
+<p>Heterogeneity statistic H.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.H, upper.H</code></td>
+<td>
+<p>Lower and upper confidence limit for
+heterogeneity statistic H.</p>
+</td></tr>
+<tr valign="top"><td><code>I2</code></td>
+<td>
+<p>Heterogeneity statistic I<i>^2</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.I2, upper.I2</code></td>
+<td>
+<p>Lower and upper confidence limit for
+heterogeneity statistic I<i>^2</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>Rb</code></td>
+<td>
+<p>Heterogeneity statistic R<i>_b</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.Rb, upper.Rb</code></td>
+<td>
+<p>Lower and upper confidence limit for
+heterogeneity statistic R<i>_b</i>.</p>
+</td></tr>
+<tr valign="top"><td><code>Q.CMH</code></td>
+<td>
+<p>Cochran-Mantel-Haenszel test statistic for overall
+effect.</p>
+</td></tr>
+<tr valign="top"><td><code>df.Q.CMH</code></td>
+<td>
+<p>Degrees of freedom for Cochran-Mantel-Haenszel test
+statistic.</p>
+</td></tr>
+<tr valign="top"><td><code>pval.Q.CMH</code></td>
+<td>
+<p>P-value of Cochran-Mantel-Haenszel test.</p>
+</td></tr>
+<tr valign="top"><td><code>incr.e, incr.c</code></td>
+<td>
+<p>Increment added to cells in the experimental
+and control group, respectively.</p>
+</td></tr>
+<tr valign="top"><td><code>sparse</code></td>
+<td>
+<p>Logical flag indicating if any study included in
+meta-analysis has any zero cell frequencies.</p>
+</td></tr>
+<tr valign="top"><td><code>doublezeros</code></td>
+<td>
+<p>Logical flag indicating if any study has zero
+cell frequencies in both treatment groups.</p>
+</td></tr>
+<tr valign="top"><td><code>df.hakn</code></td>
+<td>
+<p>Degrees of freedom for test of treatment effect for
+Hartung-Knapp method (only if <code>hakn = TRUE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>k.MH</code></td>
+<td>
+<p>Number of studies combined in meta-analysis using
+Mantel-Haenszel method.</p>
+</td></tr>
+<tr valign="top"><td><code>bylevs</code></td>
+<td>
+<p>Levels of grouping variable - if <code>byvar</code> is not
+missing.</p>
+</td></tr>
+<tr valign="top"><td><code>TE.fixed.w, seTE.fixed.w</code></td>
+<td>
+<p>Estimated treatment effect and
+standard error in subgroups (fixed effect model) - if
+<code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>lower.fixed.w,
+upper.fixed.w</code></td>
+<td>
+<p>Lower and upper confidence interval limits in
+subgroups (fixed effect model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>statistic.fixed.w, pval.fixed.w</code></td>
+<td>
+<p>z-value and p-value for test
+of treatment effect in subgroups (fixed effect model) - if
+<code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>TE.random.w,
+seTE.random.w</code></td>
+<td>
+<p>Estimated treatment effect and standard error in
+subgroups (random effects model) - if <code>byvar</code> is not
+missing.</p>
+</td></tr>
+<tr valign="top"><td><code>lower.random.w, upper.random.w</code></td>
+<td>
+<p>Lower and upper confidence
+interval limits in subgroups (random effects model) - if
+<code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>statistic.random.w, pval.random.w</code></td>
+<td>
+<p>z-value or t-value and
+corresponding p-value for test of treatment effect in subgroups
+(random effects model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>w.fixed.w, w.random.w</code></td>
+<td>
+<p>Weight of subgroups (in fixed and
+random effects model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>df.hakn.w</code></td>
+<td>
+<p>Degrees of freedom for test of treatment effect
+for Hartung-Knapp method in subgroups - if <code>byvar</code> is not
+missing and <code>hakn = TRUE</code>.</p>
+</td></tr>  <tr valign="top"><td><code>event.e.w</code></td>
+<td>
+<p>Number of
+events in experimental group in subgroups - if <code>byvar</code> is
+not missing.</p>
+</td></tr>  <tr valign="top"><td><code>n.e.w</code></td>
+<td>
+<p>Number of observations in
+experimental group in subgroups - if <code>byvar</code> is not
+missing.</p>
+</td></tr>  <tr valign="top"><td><code>event.c.w</code></td>
+<td>
+<p>Number of events in control group in
+subgroups - if <code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>n.c.w</code></td>
+<td>
+<p>Number
+of observations in control group in subgroups - if <code>byvar</code>
+is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>k.w</code></td>
+<td>
+<p>Number of studies combined within
+subgroups - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>k.all.w</code></td>
+<td>
+<p>Number of all studies in subgroups - if
+<code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>Q.w.fixed</code></td>
+<td>
+<p>Overall within
+subgroups heterogeneity statistic Q (based on fixed effect model)
+- if <code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>Q.w.random</code></td>
+<td>
+<p>Overall
+within subgroups heterogeneity statistic Q (based on random
+effects model) - if <code>byvar</code> is not missing (only calculated
+if argument <code>tau.common</code> is TRUE).</p>
+</td></tr>  <tr valign="top"><td><code>df.Q.w</code></td>
+<td>
+<p>Degrees
+of freedom for test of overall within subgroups heterogeneity -
+if <code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>pval.Q.w.fixed</code></td>
+<td>
+<p>P-value
+of within subgroups heterogeneity statistic Q (based on fixed
+effect model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>pval.Q.w.random</code></td>
+<td>
+<p>P-value of within subgroups heterogeneity
+statistic Q (based on random effects model) - if <code>byvar</code> is
+not missing.</p>
+</td></tr>  <tr valign="top"><td><code>Q.b.fixed</code></td>
+<td>
+<p>Overall between subgroups
+heterogeneity statistic Q (based on fixed effect model) - if
+<code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>Q.b.random</code></td>
+<td>
+<p>Overall between
+subgroups heterogeneity statistic Q (based on random effects
+model) - if <code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>df.Q.b</code></td>
+<td>
+<p>Degrees
+of freedom for test of overall between subgroups heterogeneity -
+if <code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>pval.Q.b.fixed</code></td>
+<td>
+<p>P-value
+of between subgroups heterogeneity statistic Q (based on fixed
+effect model) - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>pval.Q.b.random</code></td>
+<td>
+<p>P-value of between subgroups heterogeneity
+statistic Q (based on random effects model) - if <code>byvar</code> is
+not missing.</p>
+</td></tr>  <tr valign="top"><td><code>tau.w</code></td>
+<td>
+<p>Square-root of between-study variance
+within subgroups - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>H.w</code></td>
+<td>
+<p>Heterogeneity statistic H within subgroups - if
+<code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>lower.H.w, upper.H.w</code></td>
+<td>
+<p>Lower
+and upper confidence limit for heterogeneity statistic H within
+subgroups - if <code>byvar</code> is not missing.</p>
+</td></tr>
+<tr valign="top"><td><code>I2.w</code></td>
+<td>
+<p>Heterogeneity statistic I<i>^2</i> within subgroups -
+if <code>byvar</code> is not missing.</p>
+</td></tr>  <tr valign="top"><td><code>lower.I2.w,
+upper.I2.w</code></td>
+<td>
+<p>Lower and upper confidence limit for heterogeneity
+statistic I<i>^2</i> within subgroups - if <code>byvar</code> is not
+missing.</p>
+</td></tr>  <tr valign="top"><td><code>keepdata</code></td>
+<td>
+<p>As defined above.</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>Original data (set) used in function call (if
+<code>keepdata = TRUE</code>).</p>
+</td></tr>  <tr valign="top"><td><code>subset</code></td>
+<td>
+<p>Information on subset of
+original data used in meta-analysis (if <code>keepdata = TRUE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>.glmm.fixed</code></td>
+<td>
+<p>GLMM object generated by call of
+<code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code> function (fixed effect model).</p>
+</td></tr>
+<tr valign="top"><td><code>.glmm.random</code></td>
+<td>
+<p>GLMM object generated by call of
+<code><a href="../../metafor/help/rma.glmm.html">rma.glmm</a></code> function (random effects model).</p>
+</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+<p>Function call.</p>
+</td></tr>  <tr valign="top"><td><code>version</code></td>
+<td>
+<p>Version of R package
+<b>meta</b> used to create object.</p>
+</td></tr>
+<tr valign="top"><td><code>version.metafor</code></td>
+<td>
+<p>Version of R package <b>metafor</b> used
+for GLMMs.</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>Bakbergenuly I, Hoaglin DC, Kulinskaya E (2020):
+Methods for estimating between-study variance and overall
+effect in meta-analysis of odds-ratios.
+<em>Research Synthesis Methods</em>,
+DOI: 10.1002/jrsm.1404
+</p>
+<p>Cooper H &amp; Hedges LV (1994):
+<em>The Handbook of Research Synthesis</em>.
+Newbury Park, CA: Russell Sage Foundation
+</p>
+<p>Diamond GA, Bax L, Kaul S (2007):
+Uncertain Effects of Rosiglitazone on the Risk for Myocardial
+Infarction and Cardiovascular Death.
+<em>Annals of Internal Medicine</em>,
+<b>147</b>, 578&ndash;81
+</p>
+<p>DerSimonian R &amp; Laird N (1986):
+Meta-analysis in clinical trials.
+<em>Controlled Clinical Trials</em>,
+<b>7</b>, 177&ndash;88
+</p>
+<p>Fleiss JL (1993):
+The statistical basis of meta-analysis.
+<em>Statistical Methods in Medical Research</em>,
+<b>2</b>, 121&ndash;45
+</p>
+<p>Greenland S &amp; Robins JM (1985):
+Estimation of a common effect parameter from sparse follow-up data.
+<em>Biometrics</em>,
+<b>41</b>, 55&ndash;68
+</p>
+<p>Hartung J &amp; Knapp G (2001):
+A refined method for the meta-analysis of controlled clinical
+trials with binary outcome.
+<em>Statistics in Medicine</em>,
+<b>20</b>, 3875&ndash;89
+</p>
+<p>Higgins JPT, Thompson SG, Spiegelhalter DJ (2009):
+A re-evaluation of random-effects meta-analysis.
+<em>Journal of the Royal Statistical Society: Series A</em>,
+<b>172</b>, 137&ndash;59
+</p>
+<p>IQWiG (2020):
+General Methods: Version 6.0.
+<a href="https://www.iqwig.de/en/about-us/methods/methods-paper/">https://www.iqwig.de/en/about-us/methods/methods-paper/</a>
+</p>
+<p>Knapp G &amp; Hartung J (2003):
+Improved tests for a random effects meta-regression with a single
+covariate.
+<em>Statistics in Medicine</em>,
+<b>22</b>, 2693&ndash;710
+</p>
+<p><em>Review Manager (RevMan)</em> [Computer program]. Version 5.4.
+The Cochrane Collaboration, 2020
+</p>
+<p>Paule RC &amp; Mandel J (1982):
+Consensus values and weighting factors.
+<em>Journal of Research of the National Bureau of Standards</em>,
+<b>87</b>, 377&ndash;85
+</p>
+<p>Pettigrew HM, Gart JJ, Thomas DG (1986):
+The bias and higher cumulants of the logarithm of a binomial
+variate.
+<em>Biometrika</em>,
+<b>73</b>, 425&ndash;35
+</p>
+<p>Robins J, Breslow N, Greenland S (1986):
+Estimators of the Mantel-Haenszel Variance Consistent in Both
+Sparse Data and Large-Strata Limiting Models.
+<em>Biometrics</em>,
+<b>42</b>, 311&ndash;23
+</p>
+<p>Rücker G, Schwarzer G, Carpenter J, Olkin I (2009):
+Why add anything to nothing? The arcsine difference as a measure of
+treatment effect in meta-analysis with zero cells.
+<em>Statistics in Medicine</em>,
+<b>28</b>, 721&ndash;38
+</p>
+<p>Simmonds MC, Higgins JP (2016):
+A general framework for the use of logistic regression models in
+meta-analysis.
+<em>Statistical Methods in Medical Research</em>,
+<b>25</b>, 2858&ndash;77
+</p>
+<p>StataCorp. 2011.
+<em>Stata Statistical Software: Release 12</em>.
+College Station, TX: StataCorp LP.
+</p>
+<p>Stijnen T, Hamza TH, Ozdemir P (2010):
+Random effects meta-analysis of event outcome in the framework of
+the generalized linear mixed model with applications in sparse
+data.
+<em>Statistics in Medicine</em>,
+<b>29</b>, 3046&ndash;67
+</p>
+<p>Sweeting MJ, Sutton AJ, Lambert PC (2004):
+What to add to nothing? Use and avoidance of continuity corrections
+in meta-analysis of sparse data.
+<em>Statistics in Medicine</em>,
+<b>23</b>, 1351&ndash;75
+</p>
+<p>Viechtbauer W (2010):
+Conducting meta-analyses in R with the metafor package.
+<em>Journal of Statistical Software</em>,
+<b>36</b>, 1&ndash;48
+</p>
+<p>Wiksten A, Rücker G, Schwarzer G (2016):
+Hartung-Knapp method is not always conservative compared with
+fixed-effect meta-analysis.
+<em>Statistics in Medicine</em>,
+<b>35</b>, 2503&ndash;15
+</p>
+<p>Yusuf S, Peto R, Lewis J, Collins R, Sleight P (1985):
+Beta blockade during and after myocardial infarction: An overview
+of the randomized trials.
+<em>Progress in Cardiovascular Diseases</em>,
+<b>27</b>, 335&ndash;71
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../meta/help/update.meta.html">update.meta</a></code>, <code><a href="../../meta/help/forest.html">forest</a></code>,
+<code><a href="../../meta/help/funnel.html">funnel</a></code>, <code><a href="../../meta/help/metabias.html">metabias</a></code>,
+<code><a href="../../meta/help/metacont.html">metacont</a></code>, <code><a href="../../meta/help/metagen.html">metagen</a></code>,
+<code><a href="../../meta/help/metareg.html">metareg</a></code>, <code><a href="../../meta/help/print.meta.html">print.meta</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Calculate odds ratio and confidence interval for a single study
+#
+metabin(10, 20, 15, 20, sm = "OR")
+
+# Different results (due to handling of studies with double zeros)
+#
+metabin(0, 10, 0, 10, sm = "OR")
+metabin(0, 10, 0, 10, sm = "OR", allstudies = TRUE)
+
+# Use subset of Olkin (1995) to conduct meta-analysis based on
+# inverse variance method (with risk ratio as summary measure)
+#
+data(Olkin1995)
+m1 &lt;- metabin(ev.exp, n.exp, ev.cont, n.cont,
+              data = Olkin1995, subset = c(41, 47, 51, 59),
+              method = "Inverse")
+summary(m1)
+
+# Use different subset of Olkin (1995)
+#
+m2 &lt;- metabin(ev.exp, n.exp, ev.cont, n.cont,
+              data = Olkin1995, subset = year &lt; 1970,
+              method = "Inverse", studlab = author)
+summary(m2)
+forest(m2)
+
+# Meta-analysis with odds ratio as summary measure
+#
+m3 &lt;- metabin(ev.exp, n.exp, ev.cont, n.cont,
+              data = Olkin1995, subset = year &lt; 1970,
+              sm = "OR", method = "Inverse", studlab = author)
+# Same meta-analysis result using 'update.meta' function
+m3 &lt;- update(m2, sm = "OR")
+summary(m3)
+
+# Meta-analysis based on Mantel-Haenszel method (with odds ratio as
+# summary measure)
+#
+m4 &lt;- update(m3, method = "MH")
+summary(m4)
+
+# Meta-analysis based on Peto method (only available for odds ratio
+# as summary measure)
+#
+m5 &lt;- update(m3, method = "Peto")
+summary(m5)
+
+## Not run: 
+# Meta-analysis using generalised linear mixed models (only if R
+# packages 'metafor' and 'lme4' are available)
+#
+if (suppressMessages(require(metafor, quietly = TRUE, warn = FALSE)) &amp;
+    require(lme4, quietly = TRUE)) {
+
+# Logistic regression model with (k = 4) fixed study effects
+# (default: model.glmm = "UM.FS")
+#
+m6 &lt;- metabin(ev.exp, n.exp, ev.cont, n.cont,
+              data = Olkin1995, subset = year &lt; 1970,
+              method = "GLMM")
+# Same results:
+m6 &lt;- update(m2, method = "GLMM")
+summary(m6)
+
+# Mixed-effects logistic regression model with random study effects
+# (warning message printed due to argument 'nAGQ')
+#
+m7 &lt;- update(m6, model.glmm = "UM.RS")
+#
+# Use additional argument 'nAGQ' for internal call of 'rma.glmm'
+# function
+#
+m7 &lt;- update(m6, model.glmm = "UM.RS", nAGQ = 1)
+summary(m7)
+
+# Generalised linear mixed model (conditional
+# Hypergeometric-Normal) (R package 'BiasedUrn' must be available)
+#
+if (require(BiasedUrn, quietly = TRUE)) {
+ m8 &lt;- update(m6, model.glmm = "CM.EL")
+ summary(m8)
+}
+
+# Generalised linear mixed model (conditional Binomial-Normal)
+#
+m9 &lt;- update(m6, model.glmm = "CM.AL")
+summary(m9)
+
+# Logistic regression model with (k = 70) fixed study effects
+# (about 18 seconds with Intel Core i7-3667U, 2.0GHz)
+#
+m10 &lt;- metabin(ev.exp, n.exp, ev.cont, n.cont,
+               data = Olkin1995, method = "GLMM")
+summary(m10)
+
+# Mixed-effects logistic regression model with random study effects
+# - about 50 seconds with Intel Core i7-3667U, 2.0GHz
+# - several warning messages, e.g. "failure to converge, ..."
+#
+summary(update(m10, model.glmm = "UM.RS"))
+
+# Conditional Hypergeometric-Normal GLMM
+# - long computation time (about 12 minutes with Intel Core
+#   i7-3667U, 2.0GHz)
+# - estimation problems for this very large dataset:
+#   * warning that Choleski factorization of Hessian failed
+#   * confidence interval for treatment effect smaller in random
+#     effects model compared to fixed effect model
+#
+if (require(BiasedUrn, quietly = TRUE)) {
+ system.time(m11 &lt;- update(m10, model.glmm = "CM.EL"))
+ summary(m11)
+}
+
+# Generalised linear mixed model (conditional Binomial-Normal)
+# (less than 1 second with Intel Core i7-3667U, 2.0GHz)
+#
+summary(update(m10, model.glmm = "CM.AL"))
+}
+
+## End(Not run)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

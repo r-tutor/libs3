@@ -37,6 +37,7 @@ freegeoip               Geolocate IP addresses in R
 get.installed.R.folders
                         Returns folder names with R installations
 get_Rscript_PID         Get the running "Rscript" processes PID
+get_latest_r_version    Fetches latest R version from CRAN
 get_pid                 Find the pid of a process by name
 get_tasklist            Get the running processes in windows task
                         manager

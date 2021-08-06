@@ -263,6 +263,8 @@ psych.misc              Miscellaneous helper functions for the psych
 r.test                  Tests of significance for correlations
 rangeCorrection         Correct correlations for restriction of range.
                         (Thorndike Case 2)
+reliability             Reports 7 different estimates of scale
+                        reliabity including alpha, omega, split half
 rescale                 Function to convert scores to "conventional "
                         metrics
 residuals.psych         Extract residuals from various psych objects
@@ -301,10 +303,14 @@ sim.anova               Simulate a 3 way balanced ANOVA or linear
 sim.congeneric          Simulate a congeneric data set
 sim.hierarchical        Create a population or sample correlation
                         matrix, perhaps with hierarchical structure.
+sim.irt                 Functions to simulate
+                        psychological/psychometric data.
 sim.item                Generate simulated data structures for
                         circumplex, spherical, or simple structure
 sim.multilevel          Simulate multilevel data with specified within
                         group and between group correlations
+sim.omega               Further functions to simulate
+                        psychological/psychometric data.
 sim.structure           Create correlation matrices or data matrices
                         with a particular measurement and structural
                         model

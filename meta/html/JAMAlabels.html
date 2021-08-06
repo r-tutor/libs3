@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create study labels in JAMA layout (for forest plot)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for JAMAlabels {meta}"><tr><td>JAMAlabels {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create study labels in JAMA layout (for forest plot)</h2>
+
+<h3>Description</h3>
+
+<p>Create study labels in JAMA layout (for forest plot).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+JAMAlabels(author, year, citation, data = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>author</code></td>
+<td>
+<p>A vector providing study authors.</p>
+</td></tr>
+<tr valign="top"><td><code>year</code></td>
+<td>
+<p>A vector providing year of publication.</p>
+</td></tr>
+<tr valign="top"><td><code>citation</code></td>
+<td>
+<p>A vector proving citation numbers.</p>
+</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>An optional data frame containing the study
+information.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This auxiliary function can be used to create study labels in JAMA
+layout which can be added to a forest plot using argument
+'studlab'.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Guido Schwarzer <a href="mailto:sc@imbi.uni-freiburg.de">sc@imbi.uni-freiburg.de</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../meta/help/forest.meta.html">forest.meta</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(Fleiss1993bin)
+
+refs &lt;- 20 + 1:7
+
+Fleiss1993bin$mylabs &lt;-
+  JAMAlabels(study, year, refs, data = Fleiss1993bin)
+
+m &lt;- metabin(d.asp, n.asp, d.plac, n.plac, data = Fleiss1993bin,
+             studlab = paste(study, year),
+             sm = "OR", comb.random = FALSE)
+
+forest(m, studlab = mylabs, layout = "JAMA",
+       fontfamily = "Times", fontsize = 10)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
+</body></html>

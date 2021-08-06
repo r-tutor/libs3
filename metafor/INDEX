@@ -2,6 +2,8 @@ addpoly                 Add Polygons to Forest Plots
 addpoly.default         Add Polygons to Forest Plots (Default Method)
 addpoly.rma             Add Polygons to Forest Plots (Method for 'rma'
                         Objects)
+aggregate.escalc        Aggregate Multiple Effect Sizes or Outcomes
+                        Within Studies
 anova.rma               Likelihood Ratio and Wald-Type Tests for 'rma'
                         Objects
 baujat                  Baujat Plots for 'rma' Objects
@@ -13,18 +15,32 @@ coef.permutest.rma.uni
                         'permutest.rma.uni' Objects
 coef.rma                Extract the Model Coefficients and Coefficient
                         Table from 'rma' and 'summary.rma' Objects
-confint.rma.uni         Confidence Intervals for 'rma' Objects
+confint                 Confidence Intervals for 'rma' Objects
 contrmat                Construct Contrast Matrix for Two-Group
                         Comparisons
 cumul                   Cumulative Meta-Analysis for 'rma' Objects
+dat.anand1999           Studies on the Effectiveness of Oral
+                        Anticoagulants in Patients with Coronary Artery
+                        Disease
+dat.assink2016          Studies on the Association between Recidivism
+                        and Mental Health
 dat.bangertdrowns2004   Studies on the Effectiveness of
                         Writing-to-Learn Interventions
+dat.baskerville2012     Studies on the Effectiveness of Practice
+                        Facilitation Interventions
 dat.begg1989            Studies on Bone-Marrow Transplantation versus
                         Chemotherapy for the Treatment of Leukemia
 dat.berkey1998          Studies on Treatments for Periodontal Disease
 dat.bonett2010          Studies on the Reliability of the CES-D Scale
+dat.bornmann2007        Studies on Gender Differences in Grant and
+                        Fellowship Awards
 dat.bourassa1996        Studies on the Association between Handedness
                         and Eye-Dominance
+dat.cannon2006          Studies on the Effectiveness of Intensive
+                        Versus Moderate Statin Therapy for Preventing
+                        Coronary Death or Myocardial Infarction
+dat.cohen1981           Studies on the Relationship between Course
+                        Instructor Ratings and Student Achievement
 dat.colditz1994         Studies on the Effectiveness of the BCG Vaccine
                         Against Tuberculosis
 dat.collins1985a        Studies on the Treatment of Upper
@@ -32,10 +48,21 @@ dat.collins1985a        Studies on the Treatment of Upper
                         Antagonist
 dat.collins1985b        Studies on the Effects of Diuretics in
                         Pregnancy
+dat.craft2003           Studies on the Relationship between the
+                        Competitive State Anxiety Inventory-2 and Sport
+                        Performance
+dat.crede2010           Studies on the Relationship between Class
+                        Attendance and Grades in College Students
 dat.curtis1998          Studies on the Effects of Elevated CO2 Levels
                         on Woody Plant Mass
+dat.dagostino1998       Studies on the Effectiveness of Antihistamines
+                        in Reducing Symptoms of the Common Cold
+dat.damico2009          Studies on Topical plus Systemic Antibiotics to
+                        Prevent Respiratory Tract Infections
 dat.debruin2009         Studies on Standard Care Quality and
                         HAART-Adherence
+dat.dorn2007            Studies on Complementary and Alternative
+                        Medicine for Irritable Bowel Syndrome
 dat.egger2001           Studies on the Effectiveness of Intravenous
                         Magnesium in Acute Myocardial Infarction
 dat.fine1993            Studies on Radiation Therapy with or without
@@ -46,29 +73,54 @@ dat.gibson2002          Studies on the Effectiveness of Self-Management
                         with Asthma
 dat.graves2010          Studies on the Effectiveness of Injected
                         Cholera Vaccines
-dat.hackshaw1998        Studies on Lung Cancer Risk from ETS Exposure
+dat.hackshaw1998        Studies on the Risk of Lung Cancer in Women
+                        Exposed to Environmental Tobacco Smoke
+dat.hahn2001            Studies on the Effectiveness of Different
+                        Rehydration Solutions for the Prevention of
+                        Unscheduled Intravenous Infusion in Children
+                        with Diarrhoea
 dat.hart1999            Studies on the Effectiveness of Warfarin for
                         Preventing Strokes
 dat.hasselblad1998      Studies on the Effectiveness of Counseling for
                         Smoking Cessation
 dat.hine1989            Studies on Prophylactic Use of Lidocaine After
                         a Heart Attack
-dat.ishak2007           Studies on Deep-Brain Stimulation
+dat.ishak2007           Studies on Deep-Brain Stimulation in Patients
+                        with Parkinson's disease
+dat.kalaian1996         Studies on the Effectiveness of Coaching for
+                        the SAT
+dat.kearon1998          Studies on the Accuracy of Venous
+                        Ultrasonography for the Diagonosis of Deep
+                        Venous Thrombosis
+dat.knapp2017           Studies on Differences in Planning Performance
+                        in Schizophrenia Patients versus Healthy
+                        Controls
 dat.konstantopoulos2011
                         Studies on the Effects of Modified School
                         Calendars on Student Achievement
+dat.landenberger2005    Studies on the Effectiveness of CBT for
+                        Reducing Recidivism
 dat.laopaiboon2015      Studies on the Effectiveness of Azithromycin
                         for Treating Lower Respiratory Tract Infections
+dat.lau1992             Studies on Intravenous Streptokinase for Acute
+                        Myocardial Infarction
 dat.lee2004             Studies on Acupoint P6 Stimulation for
                         Preventing Nausea
 dat.li2007              Studies on the Effectiveness of Intravenous
                         Magnesium in Acute Myocardial Infarction
+dat.lim2014             Studies on the association between maternal
+                        size, offspring size, and number of offsprings
 dat.linde2005           Studies on the Effectiveness of St. John's Wort
                         for Treating Depression
+dat.lopez2019           Studies on the Effectiveness of CBT for
+                        Depression
+dat.maire2019           Studies on Temporal Trends in Fish Community
+                        Structures in French Rivers
 dat.mcdaniel1994        Studies on the Validity of Employment
                         Interviews
 dat.molloy2014          Studies on the Relationship between
                         Conscientiousness and Medication Adherence
+dat.moura2021           Studies on Assortative Mating
 dat.nielweise2007       Studies on Anti-Infective-Treated Central
                         Venous Catheters for Prevention of
                         Catheter-Related Bloodstream Infections
@@ -77,6 +129,8 @@ dat.nielweise2008       Studies on Anti-Infective-Treated Central
                         Catheter-Related Bloodstream Infections
 dat.normand1999         Studies on the Length of Hospital Stay of
                         Stroke Patients
+dat.obrien2003          Studies on the Relationship Between BMI and
+                        Risk of Preeclampsia
 dat.pagliaro1992        Studies on the Effectiveness of Nonsurgical
                         Treatments in Cirrhosis
 dat.pignon2000          Studies on the Effectiveness of Locoregional
@@ -90,8 +144,12 @@ dat.riley2003           Studies on MYC-N as a Prognostic Marker for
                         Neuroblastoma
 dat.senn2013            Studies on the Effectiveness of
                         Glucose-Lowering Agents
+dat.vanhowe1999         Studies on the Association between Circumcision
+                        and HIV Infection
+dat.viechtbauer2021     Studies to Illustrate Model Checking Methods
 dat.yusuf1985           Studies of Beta Blockers During and After
                         Myocardial Infarction
+dfround                 Round Variables in a Data Frame
 escalc                  Calculate Effect Sizes and Outcome Measures
 fitstats                Fit Statistics and Information Criteria for
                         'rma' Objects
@@ -114,6 +172,8 @@ labbe                   L'Abbe Plots for 'rma' Objects
 leave1out               Leave-One-Out Diagnostics for 'rma' Objects
 llplot                  Likelihood Plot of a Parameter Corresponding to
                         an Effect Size or Outcome Measure
+matreg                  Fit Regression Models based on Correlation and
+                        Covariance Matrices
 metafor-package         metafor: A Meta-Analysis Package for R
 metafor.news            Read News File of the Metafor Package
 model.matrix.rma        Model Matrix for 'rma' Objects
@@ -122,6 +182,7 @@ plot.cumul.rma          Plot Method for 'cumul.rma' Objects
 plot.gosh.rma           Plot Method for 'gosh.rma' Objects
 plot.infl.rma.uni       Plot Method for 'infl.rma.uni' Objects
 plot.rma                Plot Method for 'rma' Objects
+plot.rma.uni.selmodel   Plot Method for 'plot.rma.uni.selmodel' Objects
 predict.rma             Predicted Values for 'rma' Objects
 print.anova.rma         Print Method for 'anova.rma' Objects
 print.confint.rma       Print Methods for 'confint.rma' and
@@ -131,18 +192,22 @@ print.fsn               Print Method for 'fsn' Objects
 print.gosh.rma          Print Method for 'gosh.rma' Objects
 print.hc.rma.uni        Print Method for 'hc.rma.uni' Objects
 print.list.rma          Print method for 'list.rma' Objects
+print.matreg            Print Method for 'matreg' Objects
 print.permutest.rma.uni
                         Print Method for 'permutest.rma.uni' Objects
-print.ranktest.rma      Print Method for 'ranktest.rma' Objects
-print.regtest.rma       Print Method for 'regtest.rma' Objects
+print.ranktest          Print Method for 'ranktest' Objects
+print.regtest           Print Method for 'regtest' Objects
 print.rma               Print and Summary Methods for 'rma' Objects
 print.robust.rma        Print Method for 'robust.rma' Objects
-profile.rma.uni         Profile Plots for 'rma' Objects
-qqnorm.rma.uni          Normal QQ Plots for 'rma' Objects
+profile                 Profile Plots for 'rma' Objects
+qqnorm                  Normal QQ Plots for 'rma' Objects
 radial                  Radial (Galbraith) Plots for 'rma' Objects
 ranef                   Best Linear Unbiased Predictions for 'rma.uni'
                         and 'rma.mv' Objects
 ranktest                Rank Correlation Test for Funnel Plot Asymmetry
+rcalc                   Calculate the Variance-Covariance of
+                        Correlation Coefficients
+regplot                 Scatter Plots / Bubble Plots
 regtest                 Regression Test for Funnel Plot Asymmetry
 replmiss                Replace Missing Values in a Vector
 reporter                Dynamically Generated Analysis Reports for
@@ -157,14 +222,17 @@ rma.peto                Meta-Analysis via Peto's Method
 rma.uni                 Meta-Analysis via Linear (Mixed-Effects) Models
 robust                  (Cluster) Robust Tests and Confidence Intervals
                         for 'rma' Objects
+selmodel                Selection Models
 simulate.rma            Simulate Method for 'rma' Objects
+tes                     Test of Excess Significance
 to.long                 Convert Data from Vector to Long Format
 to.table                Convert Data from Vector to Table Format
 to.wide                 Convert Data from a Long to a Wide Format
-transf                  Transformation Function
+transf                  Transformation Functions
 trimfill                Trim and Fill Analysis for 'rma.uni' Objects
 update.rma              Model Updating for 'rma' Objects
 vcov.rma                Extract Various Types of Variance-Covariance
                         Matrices from 'rma' Objects
+vec2mat                 Convert a Vector into a Square Matrix
 vif                     Variance Inflation Factors for 'rma' Objects
-weights.rma.uni         Compute Weights for 'rma' Objects
+weights.rma             Compute Weights for 'rma' Objects

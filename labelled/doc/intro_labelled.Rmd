@@ -80,7 +80,7 @@ You can display and search through variable names and labels with `look_for()`:
 ```{r}
 look_for(iris)
 look_for(iris, "pet")
-look_for(iris, details = TRUE)
+look_for(iris, details = FALSE)
 ```
 
 
@@ -191,7 +191,7 @@ sort_val_labels(v, according_to = "l")
 
 ## User defined missing values (SPSS's style)
 
-`haven` (>= 2.0.0) introduced an additional `haven_labelled_spss` class to deal with user defined missing values. In such case, additional atributes will be used to indicate with values should be considered as missing, but such values will not be stored as internal `NA` values. You should note that most R function will not take this information into account. Therefore, you will have to convert missing values into `NA` if required before analysis. These defined missing values could co-exist with internal `NA` values.
+`haven` (>= 2.0.0) introduced an additional `haven_labelled_spss` class to deal with user defined missing values. In such case, additional attributes will be used to indicate with values should be considered as missing, but such values will not be stored as internal `NA` values. You should note that most R function will not take this information into account. Therefore, you will have to convert missing values into `NA` if required before analysis. These defined missing values could co-exist with internal `NA` values.
 
 It is possible to manipulate this missing values with `na_values()` and `na_range()`. Note that `is.na()` will return `TRUE` as well for user-defined missing values.
 
@@ -384,11 +384,16 @@ remove_labels(x, user_na_to_na = TRUE)
 remove_labels(x, user_na_to_na = TRUE, keep_var_label = TRUE)
 ```
 
-## Conditionnal conversion to factors
+## Conditional conversion to factors{#unlabelled}
 
-For anay analysis, tt is the responsability of user to identify which variables
-should be considered as categorical (and therefore converted into factors) and
-which variables should be treated as continuous (and therefore unclassed into numeric).
+For any analysis, it is the responsibility of user to identify which labelled
+numeric vectors should be considered as **categorical** (and therefore converted
+into factors using `to_factor()`) and which variables should be treated as
+**continuous** (and therefore unclassed into numeric using `base::unclass()`).
+
+It should be noted that most functions expect categorical variables to be coded
+as factors. It includes most modeling functions (such as `stats::lm()` or
+`stats::glm()`) or plotting functions from `ggplot2`.
 
 In most of cases, if data documentation was properly done, categorical variables
 corresponds to vectors where all observed values have a value label while vectors
@@ -398,10 +403,10 @@ In that situation, you could apply the `unlabelled()` method to an overall data 
 By default, `unlabelled()` works as follow:
 
 - if a column doesn't inherit the `haven_labelled` class, it will be not affected;
-- if all observed values have a corresponding value label, the column will be converted
-  into a facter;
-- otherwise, the column will be unclassed (and converted back to a numeric or character
-  vector).
+- if all observed values have a corresponding value label, the column will 
+  be converted into a factor (using `to_factor()`);
+- otherwise, the column will be unclassed (and converted back to a numeric or
+  character vector by applying `base::unclass()`).
   
 ```{r}
 df <- data.frame(
@@ -415,10 +420,10 @@ df <- data.frame(
     na_values = 9
     )
 )
-dplyr::glimpse(df)
-dplyr::glimpse(unlabelled(df))
-dplyr::glimpse(unlabelled(df, user_na_to_na = TRUE))
-dplyr::glimpse(unlabelled(df, drop_unused_labels = TRUE))
+df %>% look_for()
+unlabelled(df)%>% look_for()
+unlabelled(df, user_na_to_na = TRUE) %>% look_for()
+unlabelled(df, drop_unused_labels = TRUE) %>% look_for()
 ```
 
 

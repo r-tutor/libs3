@@ -2,6 +2,7 @@ copy_labels             Copy variable and value labels and SPSS-style
                         missing value
 drop_unused_value_labels
                         Drop unused value labels
+is_prefixed             Check if a factor is prefixed
 look_for                Look for keywords variable names and
                         descriptions / Create a data dictionary
 na_values               Get / Set SPSS missing values
@@ -10,6 +11,7 @@ names_prefixed_by_values
                         prefixed by values
 nolabel_to_na           Recode values with no label to NA
 recode.haven_labelled   Recode values
+recode_if               Recode some values based on condition
 remove_attributes       Remove attributes
 remove_labels           Remove variable label, value labels and user
                         defined missing values
