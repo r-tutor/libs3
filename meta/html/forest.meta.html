@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Forest plot to display the result of a meta-analysis</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 <link rel="stylesheet" type="text/css" href="R.css" />
-</head><body>
+</head><body><div class="container">
 
 <table width="100%" summary="page for forest.meta {meta}"><tr><td>forest.meta {meta}</td><td style="text-align: right;">R Documentation</td></tr></table>
 
@@ -196,6 +197,7 @@ forest(
   calcwidth.hetstat = FALSE,
   calcwidth.tests = FALSE,
   calcwidth.subgroup = FALSE,
+  calcwidth.addline = FALSE,
   just = if (layout == "JAMA") "left" else "right",
   just.studlab = "left",
   just.addcols = "center",
@@ -205,6 +207,7 @@ forest(
   addrow,
   addrow.overall,
   addrow.subgroups,
+  addrows.below.overall = 0,
   new = TRUE,
   backtransf = x$backtransf,
   digits = gs("digits.forest"),
@@ -1178,6 +1181,12 @@ calculate width of the column with study labels.</p>
 subgroup labels should be considered to calculate width of the
 column with study labels.</p>
 </td></tr>
+<tr valign="top"><td><code>calcwidth.addline</code></td>
+<td>
+<p>A logical indicating whether text for
+additional lines should be considered to calculate width of the
+column with study labels.</p>
+</td></tr>
 <tr valign="top"><td><code>just</code></td>
 <td>
 <p>Justification of text in all columns but columns with
@@ -1226,6 +1235,12 @@ row is printed above overall meta-analysis results.</p>
 <td>
 <p>A logical value indicating whether an empty
 row is printed between results for subgroups.</p>
+</td></tr>
+<tr valign="top"><td><code>addrows.below.overall</code></td>
+<td>
+<p>A numeric value indicating how many
+empty rows are printed between meta-analysis results and
+heterogeneity statistics and test results.</p>
 </td></tr>
 <tr valign="top"><td><code>new</code></td>
 <td>
@@ -1438,6 +1453,14 @@ e.g., <code><a href="../../meta/help/metabin.html">metabin</a></code>), addition
 e.g., &quot; (99%-CI)&quot; for a 99% confidence interval in the
 meta-analysis.
 </p>
+<p>Depending on the number of information printed on the left side of
+the forest plot, the text for heterogeneity statistics following
+the overall meta-analysis results can be overlapping with the
+x-axis. Argument <code>addrows.below.overall</code> can be used to
+specify the number of empty rows that are printed between
+meta-analysis results and heterogeneity statistics and test
+results (see Examples).
+</p>
 <p>The following arguments can be used to print results for various
 statistical tests:
 </p>
@@ -1481,11 +1504,12 @@ statistical tests:
 
 </table>
 
-<p>By default, these arguments are <code>FALSE</code>. R function
+<p>By default, these arguments are <code>FALSE</code> with exception of the
+tests for subgroup differences which are <code>TRUE</code>. R function
 <code><a href="../../meta/help/settings.meta.html">settings.meta</a></code> can be used to change this default for
 the entire R session. For example, use the following command to
 always print results of tests for an overall effect:
-<code>settings.meta(test.overall = TRUE)</code>
+<code>settings.meta(test.overall = TRUE)</code> .
 </p>
 <p>The arguments <code>leftcols</code> and <code>rightcols</code> can be used to
 specify columns which are plotted on the left and right side of the
@@ -1917,8 +1941,20 @@ forest(m1, test.overall.fixed = TRUE, test.overall.random = TRUE)
 forest(m1, col.square = "black", hetstat = FALSE)
 
 # Change set of columns printed on left side of forest plot
+# (resulting in overlapping text)
 #
 forest(m1, comb.random = FALSE, leftcols = "studlab")
+
+# Use argument 'addrows.below.overall' to add space between
+# meta-analysis results and heterogeneity statistics
+#
+forest(m1, comb.random = FALSE, leftcols = "studlab", addrows = 2)
+
+# Use argument 'calcwidth.hetstat' to consider text for heterogeneity
+# measures in width of column with study labels
+#
+forest(m1, comb.random = FALSE, leftcols = "studlab",
+       calcwidth.hetstat = TRUE)
 
 # Do not print columns on right side of forest plot
 #
@@ -2014,16 +2050,21 @@ forest(m2, sortvar = -TE, comb.fixed = FALSE)
 
 # Print only subgroup results
 #
-forest(m2, layout = "subgroup")
+forest(m2, layout = "subgroup", addrows = 2)
+
+# Print only subgroup results (and consider text for tests of
+# subgroup differences in width of subgroup column)
+#
+forest(m2, layout = "subgroup", calcwidth.tests = TRUE)
 
 # Print only subgroup results (and consider text for heterogeneity
 # measures in width of subgroup column)
 #
-forest(m2, layout = "subgroup", calcwidth.hetstat = TRUE)
+forest(m2, layout = "subgroup", addrows = 2, calcwidth.hetstat = TRUE)
 
 ## End(Not run)
 
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-0 <a href="00Index.html">Index</a>]</div>
-</body></html>
+<hr /><div style="text-align: center;">[Package <em>meta</em> version 4.19-1 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

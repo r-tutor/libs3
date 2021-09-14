@@ -1,5 +1,5 @@
 Package: matrixStats
-Version: 0.60.0
+Version: 0.60.1
 Depends: R (>= 2.12.0)
 Suggests: base64enc, ggplot2, knitr, microbenchmark, R.devices, R.rsp
 VignetteBuilder: R.rsp
@@ -19,7 +19,8 @@ Authors@R: c(
   person("Peter", "Langfelder", role="ctb"),
   person("Brian", "Montgomery", role="ctb"),
   person("Angelina", "Panagopoulou", role="ctb"),
-  person("Hugh", "Parsonage", role="ctb"))
+  person("Hugh", "Parsonage", role="ctb"),
+  person("Jakob Peder", "Pettersen", role="ctb"))
 Author: Henrik Bengtsson [aut, cre, cph],
   Constantin Ahlmann-Eltze [ctb],
   Hector Corrada Bravo [ctb],
@@ -32,7 +33,8 @@ Author: Henrik Bengtsson [aut, cre, cph],
   Peter Langfelder [ctb],
   Brian Montgomery [ctb],
   Angelina Panagopoulou [ctb],
-  Hugh Parsonage [ctb]
+  Hugh Parsonage [ctb],
+  Jakob Peder Pettersen [ctb]
 Maintainer: Henrik Bengtsson <henrikb@braju.com>
 Description: High-performing functions operating on rows and columns of matrices, e.g. col / rowMedians(), col / rowRanks(), and col / rowSds().  Functions optimized per data type and for subsetted calculations such that both memory usage and processing time is minimized.  There are also optimized vector-based methods, e.g. binMeans(), madDiff() and weightedMedian().
 License: Artistic-2.0
@@ -42,8 +44,8 @@ ByteCompile: TRUE
 URL: https://github.com/HenrikBengtsson/matrixStats
 BugReports: https://github.com/HenrikBengtsson/matrixStats/issues
 RoxygenNote: 7.1.1
-Packaged: 2021-07-26 15:12:12 UTC; hb
+Packaged: 2021-08-22 18:40:30 UTC; hb
 Repository: CRAN
-Date/Publication: 2021-07-26 18:50:02 UTC
-Built: R 4.1.0; x86_64-w64-mingw32; 2021-08-06 18:42:56 UTC; windows
+Date/Publication: 2021-08-23 07:30:02 UTC
+Built: R 4.1.1; x86_64-w64-mingw32; 2021-09-03 13:09:05 UTC; windows
 Archs: i386, x64
