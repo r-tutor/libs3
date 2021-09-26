@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Compute a KPP-Pos set for a given graph.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for keyplayer {influenceR}"><tr><td>keyplayer {influenceR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Compute a KPP-Pos set for a given graph.</h2>
+
+<h3>Description</h3>
+
+<p>The &quot;Key Player&quot; family of node importance algorithms (Borgatti 2006) involves the selection
+of a metric of node importance and a combinatorial optimization strategy to
+choose the set S of vertices of size k that maximize that metric.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+keyplayer(g, k, prob = 0, tol = 1e-04, maxsec = 120, roundsec = 30)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>g</code></td>
+<td>
+<p>The igraph object to analyze.</p>
+</td></tr>
+<tr valign="top"><td><code>k</code></td>
+<td>
+<p>The size of the KP-set</p>
+</td></tr>
+<tr valign="top"><td><code>prob</code></td>
+<td>
+<p>probability of accepting a state with a lower value</p>
+</td></tr>
+<tr valign="top"><td><code>tol</code></td>
+<td>
+<p>tolerance within which to stop the optimization and accept the current value</p>
+</td></tr>
+<tr valign="top"><td><code>maxsec</code></td>
+<td>
+<p>The total computation budget for the optimization, in seconds</p>
+</td></tr>
+<tr valign="top"><td><code>roundsec</code></td>
+<td>
+<p>Number of seconds in between synchronizing workers' answer</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function implements KPP-Pos, a metric intended to identify k nodes which
+optimize resource diffusion through the network. We sum over all vertices
+not in S the reciprocal of the shortest distance to a vertex in S.
+</p>
+<p>According to Borgatti, a number of off-the-shelf optimization algorithms may
+be suitable to find S, such as tabu-search, K-L, simulated annealing, or
+genetic algorithms. He presents a simple greedy algorithm, which we excerpt
+here:
+</p>
+
+<ol>
+<li><p> Select k nodes at random to populate set S
+</p>
+</li>
+<li><p> Set F = fit using appropriate key player metric.
+</p>
+</li>
+<li><p> For each node u in S and each node v not in S:
+</p>
+<ul>
+<li><p> DELTAF = improvement in fit if u and v were swapped</p>
+</li></ul>
+
+</li>
+<li><p> Select pair with largest DELTAF
+</p>
+
+<ul>
+<li><p> If DELTAF &lt;= [tolerance] then terminate
+</p>
+</li>
+<li><p> Else, swap pair with greatest improvement in fit and set F = F + DELTAF
+</p>
+</li></ul>
+
+</li>
+<li><p> Go to step 3.
+</p>
+</li></ol>
+
+<p>Our implementation uses a different optimization method which we call
+stochastic gradient descent. In tests on real world data, we found that
+our method discovered sets S with larger fits in less computation time.
+The algorithm is as follows:
+</p>
+
+<ol>
+<li><p> Select k nodes at random to populate set S
+</p>
+</li>
+<li><p> Set F = fit using appropriate key player metric (KPP-Pos in our case)
+</p>
+</li>
+<li><p> Get a new state:
+</p>
+
+<ul>
+<li><p> Pick a random u in S and v not in S.
+</p>
+</li>
+<li><p> F' = fit if u and v were swapped
+</p>
+</li>
+<li><p> If F' &gt; F, swap u and v in S. Else, repeat step 3. (Alternatively, if a positive value is given for the &lsquo;prob&rsquo; parameter, a swap will be accepted with a small probability regardless of whether it improves the fit).
+</p>
+</li></ul>
+
+</li>
+<li><p> If F' - F &lt; tolerance or our maximum computation time is exceeded, return S. Else, go to step 3.
+</p>
+</li></ol>
+
+<p>This implementation uses OpenMP (if available on the host system) so that
+multiple workers can explore the solution space in parallel. After a given
+of time, the workers synchronize their sets S to the one which maximizes
+the metric.
+</p>
+
+
+<h3>Value</h3>
+
+<p>a vector with the vertex number of each vertex in the selected set S.
+</p>
+
+
+<h3>References</h3>
+
+<p><a href="https://www.bebr.ufl.edu/sites/default/files/Borgatti%20-%202006%20-%20Identifying%20sets%20of%20key%20players%20in%20a%20social%20networ.pdf">https://www.bebr.ufl.edu/sites/default/files/Borgatti%20-%202006%20-%20Identifying%20sets%20of%20key%20players%20in%20a%20social%20networ.pdf</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+ig.ex &lt;- igraph::erdos.renyi.game(100, p.or.m=0.3) # generate an undirected 'igraph' object
+keyplayer(ig.ex, k=10) # key-player set consisting of 10 actors
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>influenceR</em> version 0.1.0.1 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

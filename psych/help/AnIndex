@@ -177,6 +177,11 @@ fromTo	misc
 g2r	fisherz
 Garcia	Garcia
 geometric.mean	geometric.mean
+GERAS	GERAS
+GERAS.dictionary	GERAS
+GERAS.items	GERAS
+GERAS.keys	GERAS
+GERAS.scales	GERAS
 glb	guttman
 glb.algebraic	glb.algebraic
 glb.fa	guttman
@@ -235,6 +240,7 @@ isCovariance	misc
 item.dichot	sim.item
 item.lookup	fa.lookup
 item.sim	sim.item
+item.validity	predicted.validity
 kaiser	kaiser
 keys.lookup	fa.lookup
 keys2list	make.keys
@@ -341,6 +347,7 @@ polychoric	tetrachor
 polydi	tetrachor
 polyserial	tetrachor
 predict.psych	predict.psych
+predicted.validity	predicted.validity
 principal	principal
 print.psych	print.psych
 Procrustes	Promax

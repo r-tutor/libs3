@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Valente's Bridging vertex measure.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for bridging {influenceR}"><tr><td>bridging {influenceR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Valente's Bridging vertex measure.</h2>
+
+<h3>Description</h3>
+
+<p>Edges that reduces distances in a network are important structural bridges. Here we implement Valente and Fujimoto's metric,
+where a node's bridging score is the average decrease in cohesiveness if each of
+its edges were removed from the graph.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+bridging(g)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>g</code></td>
+<td>
+<p>The igraph object to analyze.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>A numeric vector with the bridging score for each vertex
+</p>
+
+
+<h3>References</h3>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889704/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889704/</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+ig.ex &lt;- igraph::erdos.renyi.game(100, p.or.m=0.3) # generate an undirected 'igraph' object
+bridging(ig.ex) # bridging scores for each node in the graph
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>influenceR</em> version 0.1.0.1 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

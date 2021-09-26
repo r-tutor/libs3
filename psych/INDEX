@@ -3,6 +3,8 @@ AUC                     Decision Theory measures of specificity,
 Bechtoldt               Seven data sets showing a bifactor solution.
 Dwyer                   8 cognitive variables used by Dwyer for an
                         example.
+GERAS                   Data from Gruber et al, 2020, Study 2: Gender
+                        Related Attributes Survey
 Garcia                  Data from the sexism (protest) study of Garcia,
                         Schmitt, Branscome, and Ellemers (2010)
 Gleser                  Example data from Gleser, Cronbach and
@@ -254,6 +256,8 @@ polychor.matrix         Phi or Yule coefficient matrix to polychoric
                         coefficient matrix
 predict.psych           Prediction function for factor analysis,
                         principal components (pca), bestScales
+predicted.validity      Find the predicted validities of a set of
+                        scales based on item statistics
 principal               Principal components analysis (PCA)
 print.psych             Print and summary functions for the psych class
 psych                   A package for personality, psychometric, and

@@ -1,7 +1,7 @@
 Package: influenceR
 Title: Software Tools to Quantify Structural Importance of Nodes in a
         Network
-Version: 0.1.0
+Version: 0.1.0.1
 Authors@R: c(
     person("Jacobs", "Simon", email = "sdjacobs@uchicago.edu", role = "aut"),
     person("Khanna", "Aditya", email = "khanna7@uchicago.edu", role = c("aut", "cre")),
@@ -16,18 +16,17 @@ Description: Provides functionality to compute various node centrality measures 
     faster on systems which have OpenMP configured.
 Depends: R (>= 3.2.0)
 License: GPL-2
-LazyData: true
 Imports: igraph (>= 1.0.1), Matrix (>= 1.1-4), methods, utils
 NeedsCompilation: yes
 Suggests: testthat
 URL: https://github.com/rcc-uchicago/influenceR
-Packaged: 2015-09-02 16:20:53 UTC; sdjacobs
+Packaged: 2021-09-25 08:29:09 UTC; ripley
 Author: Jacobs Simon [aut],
   Khanna Aditya [aut, cre],
   Madduri Kamesh [ctb],
   Bader David [ctb]
 Maintainer: Khanna Aditya <khanna7@uchicago.edu>
 Repository: CRAN
-Date/Publication: 2015-09-03 12:20:15
-Built: R 4.0.0; x86_64-w64-mingw32; 2020-05-02 23:01:41 UTC; windows
+Date/Publication: 2021-09-25 10:15:40 UTC
+Built: R 4.1.1; x86_64-w64-mingw32; 2021-09-26 23:20:22 UTC; windows
 Archs: i386, x64
